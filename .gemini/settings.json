@@ -1,0 +1,56 @@
+{
+    "ide": {
+        "enabled": true,
+        "hasSeenNudge": true
+    },
+    "general": {
+        "preferredEditor": "vscode",
+        "plan": {
+            "directory": "",
+            "modelRouting": true
+        },
+        "maxAttempts": 20,
+        "enableAutoUpdate": true
+    },
+    "security": {
+        "auth": {
+            "selectedType": "oauth-personal"
+        },
+        "disableAlwaysAllow": false,
+        "enablePermanentToolApproval": true,
+        "environmentVariableRedaction": {
+            "enabled": false
+        }
+    },
+    "ui": {
+        "theme": "GitHub",
+        "footer": {
+            "hideSandboxStatus": false,
+            "hideCWD": false,
+            "hideModelInfo": false,
+            "hideContextPercentage": false
+        },
+        "showMemoryUsage": true
+    },
+    "billing": {
+        "overageStrategy": "ask"
+    },
+    "context": {
+        "fileFiltering": {
+            "respectGitIgnore": false
+        }
+    },
+    "tools": {
+        "shell": {
+            "showColor": false
+        }
+    },
+    "experimental": {
+        "modelSteering": true,
+        "directWebFetch": true,
+        "worktrees": true
+    },
+    "hooksConfig": {
+        "enabled": true
+    }
+}

@@ -1,0 +1,168 @@
+# Global Lottery Registry
+# Schema:
+# - id: <country>/<slug>
+#   name: Display Name
+#   pick_count: k
+#   pool_size: n
+#   bonus_count: j
+#   bonus_pool: m
+#   ticket_price: 5.0
+#   currency: BRL
+#   draw_days: [Wednesday, Saturday]
+#   draw_city: "São Paulo"
+#   draw_lat: -23.5505
+#   draw_lon: -46.6333
+#   adapter: mega_sena
+#   data_available: true
+
+- id: br/mega-sena
+  name: Mega-Sena
+  pick_count: 6
+  pool_size: 60
+  max_picks: 20
+  ticket_price: 5.0
+  currency: BRL
+  draw_days: [Tuesday, Thursday, Saturday]
+  draw_city: "São Paulo"
+  draw_lat: -23.5505
+  draw_lon: -46.6333
+  adapter: mega_sena
+  data_available: true
+  board_cols: 10
+
+- id: br/lotofacil
+  name: Lotofácil
+  pick_count: 15
+  pool_size: 25
+  max_picks: 20
+  ticket_price: 3.0
+  currency: BRL
+  draw_days: [Monday, Tuesday, Wednesday, Thursday, Friday, Saturday]
+  draw_city: "São Paulo"
+  draw_lat: -23.5505
+  draw_lon: -46.6333
+  adapter: lotofacil
+  data_available: true
+  board_cols: 5
+
+- id: br/quina
+  name: Quina
+  pick_count: 5
+  pool_size: 80
+  max_picks: 15
+  ticket_price: 2.5
+  currency: BRL
+  draw_days: [Monday, Tuesday, Wednesday, Thursday, Friday, Saturday]
+  draw_city: "São Paulo"
+  draw_lat: -23.5505
+  draw_lon: -46.6333
+  adapter: quina
+  data_available: true
+  board_cols: 10
+
+- id: br/dupla-sena
+  name: Dupla Sena
+  pick_count: 6
+  pool_size: 50
+  max_picks: 15
+  ticket_price: 2.5
+  currency: BRL
+  draw_days: [Monday, Wednesday, Friday]
+  draw_city: "São Paulo"
+  draw_lat: -23.5505
+  draw_lon: -46.6333
+  adapter: dupla_sena
+  data_available: true
+  board_cols: 10
+
+- id: br/dia-de-sorte
+  name: Dia de Sorte
+  pick_count: 7
+  pool_size: 31
+  bonus_count: 1
+  bonus_pool: 12
+  max_picks: 15
+  ticket_price: 2.5
+  currency: BRL
+  draw_days: [Tuesday, Thursday, Saturday]
+  draw_city: "São Paulo"
+  draw_lat: -23.5505
+  draw_lon: -46.6333
+  adapter: dia_de_sorte
+  data_available: true
+  board_cols: 7
+
+- id: br/mais-milionaria
+  name: "+Milionária"
+  pick_count: 6
+  pool_size: 50
+  bonus_count: 2
+  bonus_pool: 6
+  max_picks: 12
+  ticket_price: 6.0
+  currency: BRL
+  draw_days: [Wednesday, Saturday]
+  draw_city: "São Paulo"
+  draw_lat: -23.5505
+  draw_lon: -46.6333
+  adapter: mais_milionaria
+  data_available: true
+  board_cols: 10
+
+- id: br/lotomania
+  name: Lotomania
+  pick_count: 50
+  pool_size: 100
+  max_picks: 50
+  ticket_price: 3.0
+  currency: BRL
+  draw_days: [Monday, Wednesday, Friday]
+  draw_city: "São Paulo"
+  draw_lat: -23.5505
+  draw_lon: -46.6333
+  adapter: lotomania
+  data_available: true
+  board_cols: 10
+
+- id: us/powerball
+  name: Powerball
+  pick_count: 5
+  pool_size: 69
+  bonus_count: 1
+  bonus_pool: 26
+  ticket_price: 2.0
+  currency: USD
+  draw_days: [Monday, Wednesday, Saturday]
+  draw_city: "Tallahassee"
+  draw_lat: 30.4518
+  draw_lon: -84.2727
+  adapter: powerball
+  data_available: true
+  board_cols: 10
+
+# Placeholder for expansion (Sprint 2.4)
+- id: us/mega-millions
+  name: Mega Millions
+  pick_count: 5
+  pool_size: 70
+  bonus_count: 1
+  bonus_pool: 25
+  ticket_price: 2.0
+  currency: USD
+  draw_city: "Atlanta"
+  draw_lat: 33.7490
+  draw_lon: -84.3880
+  data_available: false
+
+- id: eu/euro-millions
+  name: EuroMillions
+  pick_count: 5
+  pool_size: 50
+  bonus_count: 2
+  bonus_pool: 12
+  ticket_price: 2.5
+  currency: EUR
+  draw_city: "Paris"
+  draw_lat: 48.8566
+  draw_lon: 2.3522
+  data_available: false

@@ -1,0 +1,84 @@
+# Lottery Engine v11.1 (Singularity) 🚀🌌
+
+A high-performance **Asset Class Factory** that reframes lottery participation as a problem of **Information Asymmetry**. The Singularity (v11.1) synthesizes the v11.0 Quantum-Astro foundation with the **Prophet Synthesis**—integrating game-theoretic Expected Value models and deep sequence modeling.
+
+## 🏛️ The Quad Architecture
+1.  **Terminal (OpenTUI)**: The **Microscope**. High-speed, high-density analytical cockpit using Zig-based bindings for sub-millisecond rendering.
+2.  **Mobile (Expo Dashboard)**: The **Lens**. Gestural, high-fidelity 3D visualization of the lottery manifold on your device.
+3.  **Desktop (PySide6 Client)**: The **Cockpit**. Feature-rich desktop analytical suite with real-time model training and advanced tabbed statistics.
+4.  **Gateway (Go Proxy)**: The **Quantum Guard**. High-performance PQC-level hybrid security and telemetry hub.
+
+---
+
+## 📐 The Five Intelligence Tiers
+
+*   **Quantum-Astro**: Arcsecond-accurate planetary Great Circle data fused with hardware-distilled QPU entropy (AS-SQD).
+*   **Prophetic ML**: Game-theoretic **Expected Value** models and high-performance regressor ensembles (XGBoost, CatBoost).
+*   **Sequence Brain**: Deep sequence labeling using **LSTM-CRF** to identify inter-number dependencies.
+*   **Environmental OSINT**: Real-time coupling with Solar (NOAA) and Seismic (USGS) jitter to modulate sampling manifolds.
+*   **Deterministic Integrity**: Every ticket is a "Justified Number" backed by an immutable **Forensic Audit Ledger** (DuckDB).
+
+---
+
+## 🚀 Quick Start (v11.1 Singularity)
+
+```bash
+# 1. Launch the high-fidelity Terminal Dashboard
+./lottery dashboard
+
+# 2. Synchronize with the physical universe (Resonance Scan)
+./lottery resonance br/lotofacil
+
+# 3. Generate a Justified Asset using the Prophet Ensemble
+./lottery suggest br/mega-sena --strategy stacking_ai,lstm_crf,expected_value
+```
+
+## 🏗️ Core Commands
+
+- `lottery resonance`: Detect multi-strategy constructive interference.
+- `lottery forecast`: Generate a consensus ticket backed by the MARL swarm.
+- `lottery dashboard`: Launch the OpenTUI character-grid cockpit.
+- `lottery analyze`: Perform deep forensic audits (Trend, Gap, Pattern).
+- `lottery session`: Orchestrate an all-in-one pre-draw decision cycle.
+
+---
+
+## 🧪 Installation & Setup
+
+### 1. Prerequisites
+- **Python 3.11+**
+- **Go 1.23.0** (for Gateway)
+- **Node.js / Bun** (for TUI)
+
+### 2. Environment Setup
+```bash
+./lottery setup  # Automated environment resolution
+```
+
+### 3. Install Intelligence Tiers
+```bash
+pip install -e ".[ml]"    # Regressor Hub (XGBoost, etc.)
+pip install -e ".[deep]"  # Sequence Brain (Torch, LSTM-CRF)
+pip install -e ".[all]"   # Full Singularity Payload
+```
+
+---
+
+## 📖 Documentation v11.1
+
+- `docs/architecture/` — Quad architecture and security specifications.
+- `docs/research/` — Prophet concepts, Quantum-Astro research, and AS-SQD theory.
+- `_bmad-output/` — Authoritative planning artifacts (PRD, Arch, Epics).
+
+---
+
+## 🛡️ Vibrational Sovereignty
+We respect your privacy. Sensitive hashing data (Name/Birth Date) is processed **locally** on your device using BLAKE2b fingerprints. No raw personal data ever reaches the gateway.
+
+---
+
+## ⚠️ Disclaimer
+This tool is for statistical exploration and mathematical research. Lottery draws are independent random events. The "Information Asymmetry" provided by the engine represents mathematical clustering, not a guarantee of winning. Play responsibly.
+
+## 📄 License
+MIT

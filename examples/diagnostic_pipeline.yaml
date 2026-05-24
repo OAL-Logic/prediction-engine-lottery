@@ -1,0 +1,31 @@
+# Diagnostic Pipeline — Example Configuration
+# Run with: lottery report examples/diagnostic_pipeline.yaml
+#
+# This pipeline runs the full diagnostic terminal in sequence:
+#   1. Fetch latest data
+#   2. Morning digest (regime + scan + EV + ticket + oracle)
+#   3. Alert check (exit 0 if GO-STRONG)
+#   4. Forecast ensemble ticket
+#
+# Cron-friendly: chain with && to act only when pipeline succeeds
+# (pipeline exits 0 only if the alert step triggers)
+
+name: Daily Diagnostic — Lotofácil
+
+steps:
+  - type: fetch
+    lottery: br/lotofacil
+
+  - type: daily
+    lottery: br/lotofacil
+    persona: analyst
+    export_md: data/daily_digest.md
+
+  - type: alert
+    lottery: br/lotofacil
+    condition: go-strong,regime-shift
+
+  - type: forecast
+    lottery: br/lotofacil
+    strategies: fast
+    export_md: data/daily_digest.md

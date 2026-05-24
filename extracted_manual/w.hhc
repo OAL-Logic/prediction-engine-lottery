@@ -1,0 +1,416 @@
+<HTML>
+<HEAD>
+</HEAD>
+<BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+<param name="ImageType" value="Folder">
+<param name="Window Styles" value="0x800227">
+<param name="Foreground" value="0x80000008">
+<param name="Background" value="0xffffff">
+<param name="Font" value="MS Sans Serif,9,0">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SamLotto">
+		<param name="Local" value="E:\工作\工作\我的项目\Lotto Ultimate\CHM\lotto_chm\Getting Started\Welcome to Lotto PowerPlayer Pro .htm">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Video Tutorial &amp; Using Guide">
+			<param name="ImageNumber" value="1">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Video Tutorial">
+				<param name="Local" value="lotto_chm/Video%20Tutorial%20&amp;%20Using%20Guide/Video%20Tutorial.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Using Guide Articles">
+				<param name="Local" value="lotto_chm/Video%20Tutorial%20&amp;%20Using%20Guide/Using%20Guide%20Articles.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Getting Started">
+			<param name="ImageNumber" value="1">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Quick Start">
+				<param name="Local" value="lotto_chm/Getting%20Started/Quick%20Start.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Welcome to SamLotto">
+				<param name="Local" value="lotto_chm/Getting%20Started/Welcome%20to%20Lotto%20PowerPlayer%20Pro%20.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Installing SamLotto">
+				<param name="Local" value="lotto_chm/Getting%20Started/Installing%20Lotto%20PowerPlayer%20Pro.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Starting SamLotto">
+				<param name="Local" value="lotto_chm/Getting%20Started/Starting%20Lotto%20PowerPlayer%20Pro.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="System Requirements">
+				<param name="Local" value="lotto_chm/Getting%20Started/System%20Requirements.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Working with Lottery Drawing Files">
+			<param name="ImageNumber" value="1">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Opening a Lottery">
+				<param name="Local" value="lotto_chm/Working%20with%20Lottery%20Drawing%20Files/Opening%20a%20Lottery.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Deleting a Drawing">
+				<param name="Local" value="lotto_chm/Working%20with%20Lottery%20Drawing%20Files/Deleting%20a%20Drawing.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Inserting a Draw">
+				<param name="Local" value="lotto_chm/Working%20with%20Lottery%20Drawing%20Files/Inserting%20a%20Drawings.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Exporting and Importing Drawings.htm">
+				<param name="Local" value="lotto_chm/Working%20with%20Lottery%20Drawing%20Files/Exporting%20and%20Importing%20Drawings.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Modifying a Draw">
+				<param name="Local" value="lotto_chm/Working%20with%20Lottery%20Drawing%20Files/Modifying%20a%20Drawing.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Adding a New Lottery">
+				<param name="Local" value="lotto_chm/Working%20with%20Lottery%20Drawing%20Files/Adding%20a%20New%20Lottery.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Online Update Drawings">
+				<param name="Local" value="lotto_chm/Working%20with%20Lottery%20Drawing%20Files/Online%20Update%20Drawings.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Split Lottery Drawings">
+				<param name="Local" value="lotto_chm/Working%20with%20Lottery%20Drawing%20Files/Split%20Lottery%20Drawings.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Checking Your Lottery Tickets">
+			<param name="ImageNumber" value="1">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Checking Your Tickets for Matches">
+				<param name="Local" value="lotto_chm/Checking%20Your%20Lottery%20Tickets/Checking%20Your%20Tickets%20for%20Matches.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Creating and Edit Your Lottery Tickets">
+			<param name="ImageNumber" value="1">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Overview">
+				<param name="Local" value="lotto_chm/Creating%20and%20Edit%20Your%20Lottery%20Tickets/Overview.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="How to Quick to Pick Numbers">
+				<param name="Local" value="lotto_chm/Creating%20and%20Edit%20Your%20Lottery%20Tickets/How%20to%20Quick%20Picked%20Numbers.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Creating Full Generate Number Tickets">
+				<param name="Local" value="lotto_chm/Creating%20and%20Edit%20Your%20Lottery%20Tickets/Creating%20Full%20Generate%20Number%20Tickets.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Creating a Positon Number Tickets.htm">
+				<param name="Local" value="lotto_chm/Creating%20and%20Edit%20Your%20Lottery%20Tickets/Creating%20a%20Positon%20Number%20Tickets.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Creating a Random Number Tickets.htm">
+				<param name="Local" value="lotto_chm/Creating%20and%20Edit%20Your%20Lottery%20Tickets/Creating%20a%20Random%20Number%20Tickets.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Creating Smart Number Tickets by Selecting a Wheeling System.htm">
+				<param name="Local" value="lotto_chm/Creating%20and%20Edit%20Your%20Lottery%20Tickets/Creating%20Smart%20Number%20Tickets%20by%20Selecting%20a%20Wheeling%20System.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Editing Tickets">
+				<param name="Local" value="lotto_chm/Creating%20and%20Edit%20Your%20Lottery%20Tickets/Editing%20%20Tickets.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Printing Tickets on Paper">
+				<param name="Local" value="lotto_chm/Creating%20and%20Edit%20Your%20Lottery%20Tickets/Printing%20Tickets%20to%20Paper.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Random Select Numbers">
+				<param name="Local" value="lotto_chm/Creating%20and%20Edit%20Your%20Lottery%20Tickets/Random%20Select%20Numbers.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Save and Load Your Own Favorite Number.htm">
+				<param name="Local" value="lotto_chm/Creating%20and%20Edit%20Your%20Lottery%20Tickets/Save%20and%20Load%20Your%20Own%20Favorite%20Number.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Working with Wheeling Systems">
+			<param name="ImageNumber" value="1">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="How to Use Ours Wheeling Systems">
+				<param name="Local" value="lotto_chm/Working%20with%20Wheeling%20Systems/How%20to%20Use%20Ours%20Wheeling%20Systems.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="How Wheeling System works">
+				<param name="Local" value="lotto_chm/Working%20with%20Wheeling%20Systems/How%20Wheeling%20System%20works.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Wheeling Types">
+				<param name="Local" value="lotto_chm/Working%20with%20Wheeling%20Systems/Wheeling%20Types.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Why Use Wheeling Systems">
+				<param name="Local" value="lotto_chm/Working%20with%20Wheeling%20Systems/Why%20Use%20Wheeling%20Systems.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Search Past Results">
+			<param name="ImageNumber" value="1">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Search Past Drawings Introduction">
+				<param name="Local" value="lotto_chm/Search%20Past%20Results/Search-Past-Drawings-Introduction.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="How to Use Search Past Drawings">
+				<param name="Local" value="lotto_chm/Search%20Past%20Results/How-to-Use.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Optimize Bet Tickets">
+			<param name="ImageNumber" value="1">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="How to Use Optimization">
+				<param name="Local" value="lotto_chm/Optimize%20Bet%20Tickets/How-to-Use.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Interpreting the Statistical">
+			<param name="ImageNumber" value="1">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Statistical Analysis Interface">
+				<param name="Local" value="lotto_chm/Interpreting%20the%20Statistical/Introduction%20to%20the%20Statistical%20Analysis%20Interface.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Actual Skip">
+				<param name="Local" value="lotto_chm/Interpreting%20the%20Statistical/Actual%20Skip.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Base Analysis">
+				<param name="Local" value="lotto_chm/Interpreting%20the%20Statistical/Base.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Drawings Distributing">
+				<param name="Local" value="lotto_chm/Interpreting%20the%20Statistical/Drawings%20Distributing.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Drawings Analysis">
+				<param name="Local" value="lotto_chm/Interpreting%20the%20Statistical/Drawings.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="AC Analysis">
+				<param name="Local" value="lotto_chm/Interpreting%20the%20Statistical/AC.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Distance Analysis">
+				<param name="Local" value="lotto_chm/Interpreting%20the%20Statistical/Distance.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Divided Analysis">
+				<param name="Local" value="lotto_chm/Interpreting%20the%20Statistical/Divided.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Hot-Cold Analysis">
+				<param name="Local" value="lotto_chm/Interpreting%20the%20Statistical/Hot-Cold.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Locked Number Analysis">
+				<param name="Local" value="lotto_chm/Interpreting%20the%20Statistical/Locked%20Number.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Lotto Number Hits Analysis">
+				<param name="Local" value="lotto_chm/Interpreting%20the%20Statistical/Lotto%20Number%20Hits.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Low-High Analysis">
+				<param name="Local" value="lotto_chm/Interpreting%20the%20Statistical/Low-High.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Multiple Analysis">
+				<param name="Local" value="lotto_chm/Interpreting%20the%20Statistical/Multiple.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Odd-Even Analysis">
+				<param name="Local" value="lotto_chm/Interpreting%20the%20Statistical/Odd-Even.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Previous Drawing Analysis">
+				<param name="Local" value="lotto_chm/Interpreting%20the%20Statistical/Prior%20Drawing.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Range Analysis">
+				<param name="Local" value="lotto_chm/Interpreting%20the%20Statistical/Range.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Successive Analysis">
+				<param name="Local" value="lotto_chm/Interpreting%20the%20Statistical/Successive.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Sum Analysis">
+				<param name="Local" value="lotto_chm/Interpreting%20the%20Statistical/Sum.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Units Number Analysis">
+				<param name="Local" value="lotto_chm/Interpreting%20the%20Statistical/Units%20Number.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="How to Predict">
+			<param name="ImageNumber" value="1">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="How to Use Drawings Trend">
+				<param name="Local" value="lotto_chm/How%20to%20Predict/How%20to%20Use%20Drawings%20Trend.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="How to Verify">
+				<param name="Local" value="lotto_chm/How%20to%20Predict/How%20to%20Verify.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="How to Predict">
+				<param name="Local" value="lotto_chm/How%20to%20Predict/How%20to%20Predict.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="How to Filtering">
+			<param name="ImageNumber" value="1">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Filters Overview">
+				<param name="Local" value="lotto_chm/How%20to%20Filtering/How%20to%20use%20the%20filters.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="How to Use the Filters">
+				<param name="Local" value="lotto_chm/How%20to%20Filtering/How%20to%20Use%20Lottery%20Software%20Filters%20to%20Filtered%20Out%20Bad%20Combinations.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Base Filters">
+				<param name="Local" value="lotto_chm/How%20to%20Filtering/Base%20Filters.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Advanced Filters">
+				<param name="Local" value="lotto_chm/How%20to%20Filtering/Advanced%20Filters.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="What is AC">
+				<param name="Local" value="lotto_chm/How%20to%20Filtering/What%20is%20AC.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="How to Purchase and Register">
+			<param name="ImageNumber" value="1">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="How to Purchase">
+				<param name="Local" value="lotto_chm/How%20to%20Purchase%20and%20Register/How%20to%20Purchase.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="How to Register">
+				<param name="Local" value="lotto_chm/How%20to%20Purchase%20and%20Register/How%20to%20Register.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Technical Support">
+			<param name="ImageNumber" value="1">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Technical Support">
+				<param name="Local" value="lotto_chm/Technical%20Support/Technical%20Support.htm">
+				<param name="ImageNumber" value="11">
+				</OBJECT>
+		</UL>
+	</UL>
+</UL>
+</BODY>
+</HTML>

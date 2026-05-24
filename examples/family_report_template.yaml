@@ -1,0 +1,44 @@
+# Family Report Template 📄 (Generic Example)
+# Copy this to 'family_report.local.yaml' and customize with your family data.
+
+reports:
+  - name: "Group A Analysis (Partners)"
+    lottery: "br/mega-sena"
+    strategies:
+      - name: "kabbalistic"
+        params:
+          full_name: "PERSON ONE"
+          birth_date: "1990-01-01"
+      - name: "kabbalistic"
+        params:
+          full_name: "PERSON TWO"
+          birth_date: "1992-05-15"
+      - name: "weighted"
+      - name: "hedge"
+    count: 4
+    output: "reports/group_a.md"
+
+  - name: "Group B Analysis (Extended)"
+    lottery: "br/lotofacil"
+    strategies:
+      - name: "kabbalistic"
+        params:
+          full_name: "PERSON THREE"
+          birth_date: "1985-08-20"
+      - name: "kabbalistic"
+        params:
+          full_name: "PERSON FOUR"
+          birth_date: "1978-12-12"
+      - name: "random_forest"
+      - name: "hedge"
+    count: 6
+    output: "reports/group_b.md"
+
+  - name: "Collective Family Hedge"
+    lottery: "br/lotofacil"
+    strategies:
+      - name: "hedge"
+      - name: "moon_phase"
+    ensemble: "voting"
+    count: 5
+    output: "reports/family_hedge.md"

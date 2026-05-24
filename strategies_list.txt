@@ -1,0 +1,61 @@
+                                              Available Strategies                                               
+ Name             Tier         Description                                                                       
+ markov           statistical  First-order Markov chain                                                          
+ bayesian         statistical  Bayesian frequency estimation                                                     
+ monte_carlo      statistical  Monte Carlo simulation                                                            
+ weighted         statistical  Weighted signal blend                                                             
+ pattern          statistical  Pattern matching                                                                  
+ momentum         statistical  Frequency momentum (RSI-style)                                                    
+ spectral         statistical  FFT periodicity detection                                                         
+ streak           statistical  Hot/cold streak tracking                                                          
+ crowd_avoidance  statistical  Psychological bias avoidance                                                      
+ steiner_wheel    statistical  Combinatorial Covering Design                                                     
+ survival         statistical  🧬 Survival of the Fittest                                                        
+ primes           statistical  🔢 Prime Oscillator                                                               
+ quantum_anneal   statistical  ⚛️ Quantum Annealing                                                               
+ void             statistical  🕳️ Void Analysis                                                                   
+ copairs          statistical  🤝 Co-occurrence Pairs                                                            
+ cycle            statistical  🚲 Cycle Analysis                                                                 
+ mutual_info      statistical  🧠 Mutual Information — dependency tracking                                       
+ stability        statistical  ⚖️ Stability — historical variance analysis                                        
+ harmonic         statistical  💎 Harmonic Resonance                                                             
+ fisher           statistical  🎣 Fisher Information                                                             
+ advanced         statistical  Advanced statistical blend                                                        
+ positional       statistical  Ordered Vector Distribution                                                       
+ contagion        statistical  Winning digit contagion                                                           
+ hedge            statistical  Portfolio hedging                                                                 
+ wonder_grid      statistical  🔮 Ion Saliu's Wonder Grid                                                        
+ structural       statistical  🏗️ Structural Focus — target Primes, Fibonacci, and Frame/Center balance           
+ logistic         ml           Logistic Regression                                                               
+ random_forest    ml           Random Forest Classifier                                                          
+ gradient_boost   ml           LightGBM Gradient Boosting                                                        
+ knn              ml           K-Nearest Neighbors                                                               
+ synapse          ml           Neural consensus (Synapse)                                                        
+ regime           ml           📉 Regime-Switching — dynamic model selection based on statistical stability      
+ voting           ml           Weighted voting average                                                           
+ prob_weighted    ml           Precision-weighted ensemble                                                       
+ hybrid           ml           Two-stage hybrid ensemble                                                         
+ stacking         ml           Meta-learner stacking ensemble                                                    
+ transformer      deep         Attention-based Transformer                                                       
+ lstm_gru         deep         Recurrent Neural Network (LSTM/GRU)                                               
+ cnn_1d           deep         1D Convolutional Neural Network                                                   
+ numerology       fun          Pythagorean Numerology                                                            
+ moon_phase       fun          Lunar Phase Correlation                                                           
+ weather          fun          Local Weather Resonance                                                           
+ biorhythm        fun          Personal Biorhythm Alignment                                                      
+ fibonacci        fun          Golden Ratio (Phi) intervals                                                      
+ zodiac           fun          Astrological transit alignment                                                    
+ kabbalistic      fun          Gematria & Kabbalistic Arcanos                                                    
+ reincarnation    fun          Past-draw reincarnation                                                           
+ lorentz          fun          Chaotic Attractor Jitter                                                          
+ sentiment        fun          Global Sentiment Flux                                                             
+ refraction       fun          Numerical Refraction                                                              
+ seismic          fun          Tectonic Plate Resonance                                                          
+ solar            fun          Geomagnetic K-Index Flux                                                          
+ noosphere        fun          Global Consciousness Jitter                                                       
+ iching           fun          I Ching Resonance                                                                 
+ sefirot          fun          Sephoric Tree of Life                                                             
+ ley_lines        fun          Astro-Cartography & Ley Lines                                                     
+ entropy_global   fun          🌪️ Global Entropy — correlate numbers with simulated collective-unconscious jitter 
+ gematria         fun          🔤 Gematria Resonance — linguistic mapping of number names to personal vibrations 
+ vix_jitter       fun          📉 Financial Volatility Resonance — correlate hits with global anxiety (VIX)      
