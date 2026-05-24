@@ -1,0 +1,32 @@
+#!/bin/bash
+# 🚀 Prediction Engine Unified Launcher
+# This script handles environment activation and project setup.
+
+set -e
+
+# --- Configuration ---
+PROJECT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+VENV_DIR="$PROJECT_ROOT/.venv"
+export PYTHONPATH="$PROJECT_ROOT"
+
+# --- Setup Check ---
+if [ ! -d "$VENV_DIR" ]; then
+    echo "Creating virtual environment..."
+    python3 -m venv "$VENV_DIR"
+    "$VENV_DIR/bin/pip" install --upgrade pip
+    if [ -f "$PROJECT_ROOT/pyproject.toml" ]; then
+        "$VENV_DIR/bin/pip" install -e .
+    fi
+fi
+
+# --- Execution ---
+if [ $# -eq 0 ]; then
+    echo "Prediction Engine"
+    echo "-----------------------"
+    echo "Golden Path: Use './lottery wizard' to start."
+    echo ""
+    "$VENV_DIR/bin/python3" -m engine.cli.main --help
+else
+    # Execute the command using the venv python
+    "$VENV_DIR/bin/python3" -m engine.cli.main "$@"
+fi

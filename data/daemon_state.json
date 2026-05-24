@@ -1,0 +1,9 @@
+{
+  "lotofacil": {
+    "last_optimized": "2026-05-05 21:08:20",
+    "best_strategy": "weighted",
+    "optimal_limit": 50,
+    "optimal_temp": 0.0,
+    "capture_rate": 100.0
+  }
+}

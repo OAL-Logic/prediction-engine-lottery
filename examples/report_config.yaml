@@ -1,0 +1,30 @@
+# Example Report Configuration 📄
+# Use this file to define custom analysis pipelines for 'lottery report'
+
+reports:
+  - name: "Weekly Mega-Sena Analysis"
+    lottery: "br/mega-sena"
+    limit: 100
+    strategies:
+      - name: "weighted"
+        params:
+          w_frequency: 1.2
+          w_gap: 0.8
+      - name: "bayesian"
+        params:
+          history_limit: 50
+      - name: "random_forest"
+    ensemble: "voting" # Blend results
+    count: 3
+    output: "reports/mega_sena_weekly.md"
+
+  - name: "Family Luck Profile"
+    lottery: "br/lotofacil"
+    strategies:
+      - name: "kabbalistic"
+        params:
+          full_name: "JOHN DOE"
+          birth_date: "1985-05-20"
+      - name: "moon_phase"
+    count: 3
+    output: "reports/family_luck.md"

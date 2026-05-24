@@ -1,0 +1,81 @@
+# generated: 2026-05-14
+# last_updated: 2026-05-20
+# project: lottery-engine
+# project_key: NOKEY
+# tracking_system: file-system
+# story_location: _bmad-output/implementation-artifacts
+
+# STATUS DEFINITIONS:
+# ==================
+# Epic Status:
+#   - backlog: Epic not yet started
+#   - in-progress: Epic actively being worked on
+#   - done: All stories in epic completed
+#
+# Epic Status Transitions:
+#   - backlog → in-progress: Automatically when first story is created (via create-story)
+#   - in-progress → done: Manually when all stories reach 'done' status
+#
+# Story Status:
+#   - backlog: Story only exists in epic file
+#   - ready-for-dev: Story file created in stories folder
+#   - in-progress: Developer actively working on implementation
+#   - review: Ready for code review (via Dev's code-review workflow)
+#   - done: Story completed
+#
+# Retrospective Status:
+#   - optional: Can be completed but not required
+#   - done: Retrospective has been completed
+#
+# WORKFLOW NOTES:
+# ===============
+# - Epic transitions to 'in-progress' automatically when first story is created
+# - Stories can be worked in parallel if team capacity allows
+# - Developer typically creates next story after previous one is 'done' to incorporate learnings
+# - Dev moves story to 'review', then runs code-review (fresh context, different LLM recommended)
+
+generated: 2026-05-14
+last_updated: 2026-05-22
+project: lottery-engine
+project_key: NOKEY
+tracking_system: file-system
+story_location: _bmad-output/implementation-artifacts
+
+development_status:
+  epic-1: done
+  1-1-post-quantum-gateway-middleware: done
+  1-2-astro-cartography-mcp-server: done
+  1-3-quantum-distillation-sidecar: done
+  1-4-sovereign-local-hashing: done
+  1-5-zero-downtime-crypto-rotation: done
+  epic-1-retrospective: optional
+
+  epic-2: in-progress
+  2-1-the-spatial-retina-riemannian-manifold: done
+  2-2-the-resonance-intersection-sigil: review
+  2-3-the-distillation-waterfall-ui: review
+  2-4-muon-strike-simulation-cosmic-ray: review
+  epic-2-retrospective: optional
+
+  epic-3: backlog
+  3-1-distributed-marl-swarm-orchestrator: backlog
+  3-2-collaborative-riemannian-evolution: backlog
+  3-3-the-swarm-equalizer-weighting-ui: backlog
+  3-4-automated-agent-hibernation: backlog
+  3-5-algorithm-distillation-pipeline: backlog
+  epic-3-retrospective: optional
+
+  epic-4: backlog
+  4-1-immutable-forensic-audit-ledger: backlog
+  4-2-4-2-forensic-replay-geodesic-ghosting: backlog
+  4-3-swarm-based-kelly-optimizer: backlog
+  4-4-intelligence-narrative-obsidian-export: backlog
+  epic-4-retrospective: optional
+
+  epic-5: done
+  5-1-game-theoretic-expected-value-model: done
+  5-2-sequence-logic-brain-lstm-crf: done
+  5-3-extended-ml-hub-xgboost-lightgbm-catboost: done
+  5-4-desktop-client-interface-pyside6: done
+  5-5-real-time-telemetry-websocket: done
+  epic-5-retrospective: optional

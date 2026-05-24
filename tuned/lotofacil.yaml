@@ -1,0 +1,7 @@
+- name: bayesian
+  params: {}
+  filters: []
+  metrics:
+    lift: 0.9555555555555556
+    mean_hits: 8.6
+    capture: 1.0

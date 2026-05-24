@@ -1,0 +1,6 @@
+{
+  "filter_id": "algebraic_div_by_2",
+  "pass_count": 869,
+  "mask_sum": 432864,
+  "version": "1.0"
+}
