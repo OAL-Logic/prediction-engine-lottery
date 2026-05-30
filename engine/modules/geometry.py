@@ -69,3 +69,107 @@ class BoardGeometry:
                     if candidate <= self.max_n:
                         neighbors.append(candidate)
         return sorted(list(set(neighbors)))
+
+
+def get_manifold_coords(n: int, rules: Any, manifold: str = "sphere") -> tuple[float, float, float]:
+    """
+    Maps a lottery number to 3D coordinates based on the selected manifold.
+    """
+    lo, hi = rules.number_range
+    cols = rules.board_cols or 10
+    rows = math.ceil((hi - lo + 1) / cols)
+    
+    # Standard grid mapping (0-based)
+    val = n - lo
+    row = val // cols
+    col = val % cols
+    
+    if manifold == "cylinder":
+        # Wrap columns circularly
+        theta = 2.0 * math.pi * (col + 0.5) / cols
+        x = math.cos(theta)
+        y = math.sin(theta)
+        z = (row + 0.5) / rows
+        return x, y, z
+    elif manifold == "hexagonal":
+        # Offset odd rows
+        x = col + 0.5 * (row % 2)
+        y = row * (math.sqrt(3.0) / 2.0)
+        return x, y, 0.0
+    else: # default "sphere"
+        # Wrap columns horizontally, rows vertically
+        theta = 2.0 * math.pi * (col + 0.5) / cols
+        phi = math.pi * (row + 0.5) / rows
+        x = math.sin(phi) * math.cos(theta)
+        y = math.sin(phi) * math.sin(theta)
+        z = math.cos(phi)
+        return x, y, z
+
+
+def calculate_symmetry_metrics(ticket: list[int], rules: Any, manifold: str = "sphere") -> dict[str, Any]:
+    """
+    Calculates Center of Mass, Vector Balance (Resonance), and Reflection Symmetry for a ticket.
+    """
+    if not ticket:
+        return {
+            "center_of_mass": (0.0, 0.0, 0.0),
+            "resonance": 0.0,
+            "reflection_h": 0.0,
+            "reflection_v": 0.0,
+            "symmetry_grade": 0.0
+        }
+        
+    coords = [get_manifold_coords(n, rules, manifold) for n in ticket]
+    
+    # 1. Center of Mass
+    xs, ys, zs = zip(*coords)
+    cm_x = float(sum(xs) / len(ticket))
+    cm_y = float(sum(ys) / len(ticket))
+    cm_z = float(sum(zs) / len(ticket))
+    
+    # 2. Vector Balance (Resonance)
+    sum_x = sum(xs)
+    sum_y = sum(ys)
+    sum_z = sum(zs)
+    magnitude = math.sqrt(sum_x**2 + sum_y**2 + sum_z**2)
+    norm_mag = magnitude / len(ticket)
+    # Higher symmetry -> lower magnitude -> higher balance score
+    resonance = 1.0 - norm_mag
+    
+    # 3. Reflection Symmetry (2D grid coordinate reflections)
+    lo, hi = rules.number_range
+    cols = rules.board_cols or 10
+    rows = math.ceil((hi - lo + 1) / cols)
+    
+    cells = set()
+    for n in ticket:
+        val = n - lo
+        cells.add((val // cols, val % cols))
+        
+    # Check vertical mirror symmetry (flip column)
+    v_matches = 0
+    for r, c in cells:
+        mirrored_c = cols - 1 - c
+        if (r, mirrored_c) in cells:
+            v_matches += 1
+    reflection_v = v_matches / len(cells) if cells else 0.0
+    
+    # Check horizontal mirror symmetry (flip row)
+    h_matches = 0
+    for r, c in cells:
+        mirrored_r = rows - 1 - r
+        if (mirrored_r, c) in cells:
+            h_matches += 1
+    reflection_h = h_matches / len(cells) if cells else 0.0
+    
+    # Composite symmetry grade
+    symmetry_grade = (resonance * 0.5 + reflection_v * 0.25 + reflection_h * 0.25) * 100.0
+    
+    return {
+        "center_of_mass": (cm_x, cm_y, cm_z),
+        "resonance": resonance,
+        "reflection_h": reflection_h,
+        "reflection_v": reflection_v,
+        "symmetry_grade": symmetry_grade
+    }
+

@@ -163,6 +163,8 @@ The engine supports a "Bring Your Own Data" (BYOD) security model for personaliz
 | **`primes`**          | Prime density × Lunar harmonics   | Section 1           |
 | **`positional`**      | Slot frequency PDF                | Section 14          |
 | **`contagion`**       | Grid neighbor resonance           | Section 14          |
+| **`evt_extremes`**    | Extreme Value Theory              | Section 14          |
+| **`nash_equilibrium`** | Game Theory (Equilibrium)         | Section 13          |
 | **`numerology`**      | Pythagorean date-based reduction  | Section 8           |
 
 
@@ -184,6 +186,12 @@ The engine supports a "Bring Your Own Data" (BYOD) security model for personaliz
 | **`entropy_global`**  | Collective high-noise correlation | Section 15          |
 | **`gematria`**        | Linguistic root vibration         | Section 8           |
 | **`refraction`**      | Static potential mapping          | Section 2           |
+| **`geomagnetic`**     | Solar K-Index Volatility          | Section 1           |
+| **`archetypes`**      | Numerical Archetypes              | Section 8           |
+| **`kinetic`**         | Pseudo-Kinetic bounce             | Section 14          |
+| **`benford_illusion`** | Benford's Law anomaly            | Section 8           |
+| **`retrocausality`**  | Quantum Retrocausality            | Section 5           |
+| **`tda_topology`**    | Topological Data Analysis         | Section 14          |
 | **`advanced`**        | Structural Health (AC, Root/Unit Sum) | Section 18 |
 | **`quantum_anneal`**  | Simulated quantum tunneling | Section 5 |
 | **`synapse`**         | Universal Conjunction             | Section 13          |

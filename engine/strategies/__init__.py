@@ -103,6 +103,7 @@ STRATEGY_REGISTRY = {
     "lstm_crf": {"module": "engine.strategies.deep.lstm_crf", "tier": "deep", "description": "🧠 Sequence Logic Brain (LSTM-CRF) — models inter-number dependencies"},
     "cnn_1d": {"module": "engine.strategies.deep.cnn_1d", "tier": "deep", "description": "1D Convolutional Neural Network"},
     "deep_lstm": {"module": "engine.strategies.ml.deep_lstm", "tier": "ml", "description": "🧠 Deep LSTM — manual NumPy RNN"},
+    "gnn": {"module": "engine.strategies.deep.gnn", "tier": "deep", "description": "🕸️ Graph Neural Network (GCN) — spatial propagation on grid"},
     
     # Fun / Chaos
     "numerology": {"module": "engine.strategies.fun.numerology", "tier": "fun", "description": "Pythagorean Gematria"},
@@ -115,6 +116,7 @@ STRATEGY_REGISTRY = {
     "fibonacci": {"module": "engine.strategies.fun.fibonacci", "tier": "fun", "description": "Golden Ratio (Phi) intervals"},
     "zodiac": {"module": "engine.strategies.fun.zodiac", "tier": "fun", "description": "Astrological transit alignment"},
     "kabbalistic": {"module": "engine.strategies.fun.kabbalistic", "tier": "fun", "description": "Gematria & Kabbalistic Arcanos"},
+    "esoteric_statistical": {"module": "engine.strategies.fun.esoteric_statistical", "tier": "fun", "description": "🔮 Esoteric Hashing × Statistical Core (Parity, StdDev, Cluster Gates)"},
     "reincarnation": {"module": "engine.strategies.fun.reincarnation", "tier": "fun", "description": "Past-draw reincarnation"},
     "lorentz": {"module": "engine.strategies.fun.lorentz", "tier": "fun", "description": "Chaotic Attractor Jitter"},
     "sentiment": {"module": "engine.strategies.fun.sentiment", "tier": "fun", "description": "Global Sentiment Flux"},
@@ -140,6 +142,7 @@ STRATEGY_REGISTRY = {
     "geo_sync": {"module": "engine.strategies.fun.geo_sync", "tier": "fun", "description": "🌍 Geographic Synchronizer (Piracicaba)"},
     "cpu_entropy": {"module": "engine.strategies.fun.cpu_entropy", "tier": "fun", "description": "💻 Hardware Entropy (CPU White Noise)"},
     "sacred_grid": {"module": "engine.strategies.fun.sacred_grid", "tier": "fun", "description": "🌀 Sacred Geometry (Phi Spiral)"},
+    "sacred_manifold": {"module": "engine.strategies.fun.sacred_manifold", "tier": "fun", "description": "🌀 Sacred Manifold Grid — aligns spherical ticket manifolds with celestial azimuth transits"},
     "ising_model": {"module": "engine.strategies.fun.ising_model", "tier": "fun", "description": "🌡️ Thermodynamic Phase Transition (Ising Model)"},
     "zeno_quantum": {"module": "engine.strategies.fun.zeno_quantum", "tier": "fun", "description": "👁️ Quantum Zeno Effect (Observation Freeze)"},
     "tda_topology": {"module": "engine.strategies.fun.tda_topology", "tier": "fun", "description": "🍩 Topological Data Analysis (Structural Holes)"},

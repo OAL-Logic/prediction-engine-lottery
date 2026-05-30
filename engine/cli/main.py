@@ -282,6 +282,19 @@ def backtest_viz(
     from engine.cli.commands.backtest_viz import backtest_viz as impl
     return impl(lottery, strategy, draws, limit)
 
+@app.command(name="expert-suggest", rich_help_panel=PANEL_PRIMARY)
+def expert_suggest(
+    lottery: Annotated[str, typer.Argument(help="Lottery name or comma-separated list of lotteries for combo-play")],
+    budget: Annotated[float, typer.Option("--budget", "-b", help="Allocated BRL budget")] = 100.0,
+    draws: Annotated[int, typer.Option("--draws", "-n", help="Number of history draws to backtest/simulate")] = 40,
+    start_bankroll: Annotated[Optional[float], typer.Option("--bankroll", "-B", help="Starting bankroll for portfolio simulation")] = None,
+    export_md: Annotated[Optional[str], typer.Option("--export-md", help="Append report to this .md file")] = None,
+    export_html: Annotated[Optional[str], typer.Option("--export-html", help="Export interactive HTML bankroll dashboard to this path")] = None,
+):
+    """🔬 Dynamic backtest optimization + budget-aware wheeling + portfolio simulation (supports combo-play)."""
+    from engine.cli.commands.expert_suggest import expert_suggest as impl
+    return impl(lottery, budget, draws, start_bankroll, export_md, export_html)
+
 @app.command(rich_help_panel=PANEL_PRIMARY)
 def docs(
     topic: Annotated[str, typer.Argument(

@@ -7,15 +7,15 @@ candidate set (1,000,000 tickets).
 
 import time
 import numpy as np
-from engine.modules.vector_core import registry
+from engine.modules.filters import registry
 from engine.adapters.registry import registry as game_registry
 
 # Import all tiers to register them
-import engine.modules.filters_tier1
-import engine.modules.filters_tier2
-import engine.modules.filters_tier3
-import engine.modules.filters_tier4
-import engine.modules.filters_tier5
+import engine.modules.filters.tier1_structural
+import engine.modules.filters.tier2_positional
+import engine.modules.filters.tier3_algebraic
+import engine.modules.filters.tier4_historical
+import engine.modules.filters.tier5_custom
 
 def run_diagnostic():
     print("🚀 Initializing Vectorized Harmony Gate Diagnostic...")

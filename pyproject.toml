@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "lottery-engine"
-version = "0.1.0"
-description = "Statistical analysis engine for lottery draws — frequency, deviation, correlation"
+version = "11.2.0"
+description = "High-performance lottery prediction engine — 100+ CLI commands, 80+ strategies, FastAPI sidecar, Go gateway"
 readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "MIT" }
@@ -22,8 +22,6 @@ dependencies = [
     "rich>=13",             # pretty CLI output
     "PyYAML>=6.0",          # registry configuration
     "duckdb>=1.0",          # high-performance local analytical database
-    "numexpr>=2.10.2",      # required by pandas for performance
-    "bottleneck>=1.4.2",    # required by pandas for performance
     "mcp[cli]",             # Model Context Protocol
     "fastmcp",              # High-level MCP server framework
     "astropy>=6.0",         # High-precision astronomical calculations
@@ -61,6 +59,8 @@ all = [
     "matplotlib>=3.9",
     "seaborn>=0.13",
     "websockets>=12.0",
+    "fastapi>=0.111",
+    "uvicorn[standard]>=0.30",
 ]
 desktop = [
     "PySide6>=6.7",
