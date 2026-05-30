@@ -186,7 +186,7 @@ class CNN1DStrategy(BaseStrategy):
         cache_dir = Path(__file__).parent.parent.parent.parent / "data" / "model_cache"
         cache_dir.mkdir(parents=True, exist_ok=True)
 
-        params_str = f"{self.epochs}_{self.lr}_{self.seq_len}_{self.filters}_{self.kernel_size}"
+        params_str = f"{self.epochs}_{self.lr}_{self.seq_len}_{self.channels}_{self.n_layers}"
         cache_key = f"{self.name}_{slug}_{last_draw_hash}_{params_str}.pt"
 
         cache_path = cache_dir / cache_key

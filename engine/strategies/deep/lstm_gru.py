@@ -50,6 +50,7 @@ def _get_model_classes():
 class _BaseRecurrentStrategy(BaseStrategy):
     requires_history = 200
     cell_type = "lstm"
+    tier = "deep"
 
     def __init__(
         self,

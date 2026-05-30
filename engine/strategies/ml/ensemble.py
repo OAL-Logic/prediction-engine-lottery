@@ -48,8 +48,31 @@ class VotingEnsemble(BaseStrategy):
 
         all_scores: dict[int, float] = {n: 0.0 for n in all_numbers}
         active_weight = 0.0
+
+        # Dynamic closed-loop AutoML weights loading
+        import json
+        from pathlib import Path
+        daemon_file = Path("data/daemon_state.json")
+        loaded_weights = None
+        if daemon_file.exists():
+            try:
+                with open(daemon_file, "r") as f:
+                    state = json.load(f)
+                    slug = rules.name.replace(" ", "_").lower()
+                    game_state = state.get(slug) or state.get(rules.name.lower())
+                    if game_state and "strategy_weights" in game_state:
+                        loaded_weights = game_state["strategy_weights"]
+            except Exception:
+                pass
+
+        active_weights = list(self._weights)
+        if loaded_weights:
+            active_weights = []
+            for i, name in enumerate(self._member_names):
+                w = float(loaded_weights.get(name, self._weights[i]))
+                active_weights.append(w)
         
-        for name, weight in zip(self._member_names, self._weights):
+        for name, weight in zip(self._member_names, active_weights):
             try:
                 strategy = get_strategy(name, **kwargs)
                 s = strategy.score(df, rules)
