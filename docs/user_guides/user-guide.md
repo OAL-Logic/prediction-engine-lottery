@@ -274,6 +274,8 @@ The engine supports a vast library of analytical and esoteric strategies. You ca
 - **`primes`**: Prime density oscillator (Lunar-entrained).
 - **`positional`**: Probability density of sorted draw slots.
 - **`contagion`**: Physical grid neighbor 'spark' resonance.
+- **`evt_extremes`**: Extreme Value Theory peaks.
+- **`nash_equilibrium`**: Game-theoretic Nash equilibrium.
 
 ### Esoteric & Chaos Tier (Absurdity Engine)
 - **`numerology`**: Pythagorean date-based reduction.
@@ -295,6 +297,12 @@ The engine supports a vast library of analytical and esoteric strategies. You ca
 - **`gematria`**: Linguistic vibration and name mapping.
 - **`refraction`**: Atmospheric static potential mapping.
 - **`seismic`**: Seismic activity resonance from USGS earthquake data.
+- **`archetypes`**: Numerical archetypes and balanced narrative.
+- **`kinetic`**: Pseudo-kinetic bouncing balls simulation.
+- **`benford_illusion`**: Benford's Law anomaly analysis.
+- **`retrocausality`**: Quantum retrocausality and future echoes.
+- **`sacred_manifold`**: Spherical grid alignment with celestial transits.
+- **`tda_topology`**: Topological data analysis and structural holes.
 
 ### Advanced & ML Tier
 - **`synapse`**: The "Universal Conjunction" — convergence of Statistical, Deep, and Chaos tiers (The Peak Strategy).

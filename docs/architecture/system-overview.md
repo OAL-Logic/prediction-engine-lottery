@@ -10,7 +10,7 @@ The heart of the system. It handles all data processing, statistical modeling, a
 - **Sidecar API**: A `FastAPI` instance providing REST access to the engine's intelligence.
 - **Intelligence Narrative**: A generative layer (`engine/modules/narrative.py`) that synthesizes data into persona-driven daily briefings.
 - **Optimization Layer**: Includes Kelly Criterion bankroll management and combinatorial wheeling systems.
-- **Strategy Layer**: 50+ strategies inheriting from `BaseStrategy`, utilizing temperature-based sampling and structural harmony filters.
+- **Strategy Layer**: 90+ strategies inheriting from `BaseStrategy`, utilizing temperature-based sampling and structural harmony filters.
 - **Data Layer**: Hybrid storage using partitioned JSON files (`draw_log.jsonl`) and a SQLite index (`lottery.db`). Includes a `/model_cache` for pre-trained ML models.
 
 ### 2. The API Gateway (Go 1.23+)
@@ -33,7 +33,7 @@ Strategies do not simply "pick numbers." They assign a 0–1 score to every numb
 - **T>1**: Chaotic. Increases exploration and randomness.
 
 ### Structural Harmony (The Filters)
-Before a ticket is returned, it must pass through a "Harmony Gate" consisting of 30+ filters (e.g., Sum Range, Parity Balance, Decade Breadth).
+Before a ticket is returned, it must pass through a "Harmony Gate" consisting of 36+ filters (e.g., Sum Range, Parity Balance, Decade Breadth).
 - **K-of-N Logic**: Tickets can be required to satisfy at least K of N active filters, allowing for "fuzzy" structural integrity.
 
 ### Environmental Jitter & Muon Flux

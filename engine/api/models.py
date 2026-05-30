@@ -100,3 +100,89 @@ class TuneRequest(BaseModel):
     strategies: str = "statistical"
     metric: str = "lift"
     top: int = 1
+
+class SacredManifoldRequest(BaseModel):
+    numbers: List[int]
+    manifold: str = "sphere"
+
+class SacredManifoldResponse(BaseModel):
+    game: str
+    numbers: List[int]
+    manifold: str
+    coordinates: Dict[int, List[float]]
+    center_of_mass: List[float]
+    resonance: float
+    reflection_h: float
+    reflection_v: float
+    symmetry_grade: float
+
+class APIExpertSuggestRequest(BaseModel):
+    budget: float = 100.0
+    draws: int = 40
+    start_bankroll: Optional[float] = None
+
+
+# ── Sprint 2 Gap Closure Models ──────────────────────────────────────────────
+
+
+class SumDistributionResponse(BaseModel):
+    """PMF of ticket-sum for a given lottery, plus the 70% most-probable range."""
+    game: str
+    midpoint: float
+    sigma: float
+    range_lo: int
+    range_hi: int
+    coverage: float
+    pmf: Dict[int, float] = Field(default_factory=dict, description="sum → probability")
+
+
+class GapAnalysisResponse(BaseModel):
+    """Per-number gap (recency / overdue) statistics."""
+    game: str
+    number: int
+    last_seen_draw: int
+    draws_since_last: int
+    expected_interval: float
+    deviation_ratio: float
+    gap_mean: Optional[float] = None
+    gap_std: Optional[float] = None
+    gap_max: Optional[int] = None
+    gap_min: Optional[int] = None
+
+
+class CompareItem(BaseModel):
+    name: str
+    jackpot_odds: int
+    ticket_price: float
+    currency: str
+    efficiency_score: float
+
+
+class CompareResponse(BaseModel):
+    games: List[CompareItem]
+
+
+class WheelRequest(BaseModel):
+    pool: List[int]
+    wheel_type: str = "key"  # full | key | abbreviated
+    guarantee: Optional[int] = None
+    key_number: Optional[int] = None
+
+
+class WheelResponse(BaseModel):
+    game: str
+    wheel_type: str
+    ticket_count: int
+    tickets: List[List[int]]
+
+
+class TicketGradeRequest(BaseModel):
+    numbers: List[int]
+
+
+class HealthResponse(BaseModel):
+    status: str
+    version: str
+    uptime_seconds: float
+    registered_games: int
+    registered_strategies: int

@@ -7,7 +7,12 @@ from engine.api.models import (
     GameRulesSchema, GameSummary, AnalysisResultSchema,
     SuggestionRequest, SuggestionResponse, BacktestRequest, CheckRequest,
     OddsResponse, OddsTier, PruningResponse, PruningMetricsSchema,
-    CalibrateRequest, TuneRequest
+    CalibrateRequest, TuneRequest,
+    SacredManifoldRequest, SacredManifoldResponse, APIExpertSuggestRequest,
+    SumDistributionResponse, GapAnalysisResponse,
+    CompareResponse, CompareItem,
+    WheelRequest, WheelResponse,
+    TicketGradeRequest, HealthResponse
 )
 from engine.adapters.registry import registry as game_registry
 from engine.cli.utils import get_adapter
@@ -24,10 +29,11 @@ from starlette.responses import JSONResponse
 app = FastAPI(
     title="Prediction Engine Sidecar",
     description="REST API for lottery analysis and ticket suggestion.",
-    version="0.1.0"
+    version="11.2.0"
 )
 
-# STORY 3.1: Middleware to enforce propagated deadlines
+_APP_START_TIME = time.time()
+
 @app.middleware("http")
 async def timeout_middleware(request: Request, call_next):
     deadline_header = request.headers.get("X-Request-Deadline")
@@ -70,25 +76,9 @@ async def list_games():
         ))
     return results
 
-@app.get("/games/{name}", response_model=GameRulesSchema)
-async def get_game_rules(name: str):
-    try:
-        adapter = get_adapter(name)
-        rules = adapter.rules
-        return GameRulesSchema(
-            name=rules.name,
-            pick_count=rules.pick_count,
-            number_range=[rules.number_range[0], rules.number_range[1]],
-            bonus_count=rules.bonus_count,
-            bonus_range=[rules.bonus_range[0], rules.bonus_range[1]] if rules.bonus_range else None,
-            prize_tiers=rules.prize_tiers,
-            ticket_price=rules.ticket_price,
-            currency=rules.currency
-        )
-    except ValueError as e:
-        raise HTTPException(status_code=404, detail=str(e))
 
-@app.post("/games/{name}/fetch")
+
+@app.post("/games/{name:path}/fetch")
 async def fetch_game_data(name: str, background_tasks: BackgroundTasks):
     try:
         adapter = get_adapter(name)
@@ -98,7 +88,7 @@ async def fetch_game_data(name: str, background_tasks: BackgroundTasks):
     except ValueError as e:
         raise HTTPException(status_code=404, detail=str(e))
 
-@app.get("/games/{name}/analysis", response_model=AnalysisResultSchema)
+@app.get("/games/{name:path}/analysis", response_model=AnalysisResultSchema)
 async def analyze_game(name: str):
     try:
         adapter = get_adapter(name)
@@ -120,7 +110,7 @@ async def analyze_game(name: str):
     except ValueError as e:
         raise HTTPException(status_code=404, detail=str(e))
 
-@app.post("/games/{name}/suggest", response_model=SuggestionResponse)
+@app.post("/games/{name:path}/suggest", response_model=SuggestionResponse)
 async def suggest_tickets(name: str, request: SuggestionRequest):
     try:
         adapter = get_adapter(name)
@@ -167,7 +157,7 @@ async def suggest_tickets(name: str, request: SuggestionRequest):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-@app.post("/games/{name}/backtest")
+@app.post("/games/{name:path}/backtest")
 async def backtest_strategy(name: str, request: BacktestRequest):
     try:
         from engine.cli.commands.backtest import backtest as backtest_impl
@@ -194,7 +184,7 @@ async def backtest_strategy(name: str, request: BacktestRequest):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-@app.post("/games/{name}/check")
+@app.post("/games/{name:path}/check")
 async def check_ticket(name: str, request: CheckRequest):
     try:
         from engine.modules.filters import get_root_sum, get_odd_count, get_decade_metrics
@@ -213,7 +203,7 @@ async def check_ticket(name: str, request: CheckRequest):
     except ValueError as e:
         raise HTTPException(status_code=404, detail=str(e))
 
-@app.get("/games/{name}/odds", response_model=OddsResponse)
+@app.get("/games/{name:path}/odds", response_model=OddsResponse)
 async def get_odds(name: str):
     try:
         from math import comb
@@ -246,7 +236,7 @@ async def get_odds(name: str):
     except ValueError as e:
         raise HTTPException(status_code=404, detail=str(e))
 
-@app.post("/games/{name}/prune", response_model=PruningResponse)
+@app.post("/games/{name:path}/prune", response_model=PruningResponse)
 async def prune_strategies(name: str, window: int = 30, threshold: float = 0.02):
     try:
         from engine.modules.pruning import run_pruning_audit
@@ -277,7 +267,7 @@ async def prune_strategies(name: str, window: int = 30, threshold: float = 0.02)
     except ValueError as e:
         raise HTTPException(status_code=404, detail=str(e))
 
-@app.post("/games/{name}/calibrate")
+@app.post("/games/{name:path}/calibrate")
 async def calibrate_game(name: str, request: CalibrateRequest, background_tasks: BackgroundTasks):
     try:
         from engine.cli.commands.calibrate import calibrate as calibrate_impl
@@ -295,7 +285,7 @@ async def calibrate_game(name: str, request: CalibrateRequest, background_tasks:
     except ValueError as e:
         raise HTTPException(status_code=404, detail=str(e))
 
-@app.post("/games/{name}/tune")
+@app.post("/games/{name:path}/tune")
 async def tune_game(name: str, request: TuneRequest, background_tasks: BackgroundTasks):
     try:
         from engine.cli.commands.tune import tune as tune_impl
@@ -321,3 +311,371 @@ async def tune_game(name: str, request: TuneRequest, background_tasks: Backgroun
 @app.get("/strategies")
 async def get_strategies():
     return list_strategies()
+
+@app.post("/games/{name:path}/sacred-manifold", response_model=SacredManifoldResponse)
+async def get_sacred_manifold(name: str, request: SacredManifoldRequest):
+    try:
+        from engine.modules.geometry import get_manifold_coords, calculate_symmetry_metrics
+        adapter = get_adapter(name)
+        rules = adapter.rules
+        
+        coords = {}
+        for num in request.numbers:
+            x, y, z = get_manifold_coords(num, rules, request.manifold)
+            coords[num] = [x, y, z]
+            
+        metrics = calculate_symmetry_metrics(request.numbers, rules, request.manifold)
+        
+        return SacredManifoldResponse(
+            game=name,
+            numbers=request.numbers,
+            manifold=request.manifold,
+            coordinates=coords,
+            center_of_mass=list(metrics["center_of_mass"]),
+            resonance=metrics["resonance"],
+            reflection_h=metrics["reflection_h"],
+            reflection_v=metrics["reflection_v"],
+            symmetry_grade=metrics["symmetry_grade"]
+        )
+    except ValueError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/games/{name:path}/sacred-manifold/transits")
+async def get_sacred_manifold_transits(name: str):
+    try:
+        from engine.modules.environment import EnvironmentalService
+        env = EnvironmentalService()
+        jitter = env.get_jitter()
+        
+        import time
+        t = time.time()
+        celestial_angle = (int(t) % 360)
+        
+        return {
+            "game": name,
+            "celestial_angle": celestial_angle,
+            "solar_kp": jitter.get("kp", 3.0),
+            "seismic_mag": jitter.get("seismic_mag", 0.0),
+            "total_boost": jitter.get("total_boost", 0.0)
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/games/{name:path}/expert-suggest")
+async def api_expert_suggest(name: str, request: APIExpertSuggestRequest, background_tasks: BackgroundTasks):
+    try:
+        from engine.cli.commands.expert_suggest import expert_suggest as expert_suggest_impl
+        background_tasks.add_task(
+            expert_suggest_impl,
+            name,
+            request.budget,
+            request.draws,
+            request.start_bankroll,
+            None,
+            None
+        )
+        return {"message": f"Expert Suggestion & Portfolio Simulation started for {name}"}
+    except ValueError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+# ── Sprint 2 Gap Closure Endpoints ───────────────────────────────────────────
+
+
+@app.get("/health", response_model=HealthResponse)
+async def health_check():
+    """Service health check with uptime, version, and resource counts."""
+    from engine.adapters.registry import registry as reg
+    strategy_count = len(STRATEGY_REGISTRY) if 'STRATEGY_REGISTRY' in dir() else 0
+    try:
+        from engine.strategies import STRATEGY_REGISTRY
+        strategy_count = len(STRATEGY_REGISTRY)
+    except Exception:
+        pass
+
+    return HealthResponse(
+        status="healthy",
+        version="11.2.0",
+        uptime_seconds=round(time.time() - _APP_START_TIME, 2),
+        registered_games=len(reg.list_games()),
+        registered_strategies=strategy_count
+    )
+
+
+@app.get("/games/{name:path}/sum-distribution", response_model=SumDistributionResponse)
+async def get_sum_distribution(name: str, coverage: float = 0.70):
+    """Sum probability distribution (PMF) with 70% most-probable range."""
+    try:
+        from engine.modules.sum_range import most_probable_range, pmf, moments
+        adapter = get_adapter(name)
+        rules = adapter.rules
+
+        lo_sum, hi_sum, midpoint, sigma = most_probable_range(rules, coverage=coverage)
+
+        # Compute PMF (can be expensive for large pools — limit to manageable sizes)
+        lo, hi = rules.number_range
+        pool_size = hi - lo + 1
+        sum_pmf = {}
+        if pool_size <= 70:  # Only compute exact PMF for reasonable pool sizes
+            sum_pmf = pmf(rules)
+            # Convert numpy keys to int for JSON serialisation
+            sum_pmf = {int(k): round(float(v), 8) for k, v in sum_pmf.items()}
+
+        return SumDistributionResponse(
+            game=name,
+            midpoint=round(midpoint, 2),
+            sigma=round(sigma, 2),
+            range_lo=lo_sum,
+            range_hi=hi_sum,
+            coverage=coverage,
+            pmf=sum_pmf
+        )
+    except ValueError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.get("/games/{name:path}/gap/{number}", response_model=GapAnalysisResponse)
+async def get_gap_analysis(name: str, number: int):
+    """Per-number gap (recency / overdue) analysis."""
+    try:
+        from engine.modules.deviation import analyze as analyze_deviation
+        adapter = get_adapter(name)
+        df = adapter.load_data()
+        if df.empty:
+            raise HTTPException(status_code=400, detail="No data available. Run fetch first.")
+
+        rules = adapter.rules
+        lo, hi = rules.number_range
+        if not (lo <= number <= hi):
+            raise HTTPException(status_code=400, detail=f"Number {number} out of range [{lo}, {hi}]")
+
+        result = analyze_deviation(df, rules)
+
+        # Find the row for this specific number
+        row = result.table[result.table["number"] == number]
+        if row.empty:
+            raise HTTPException(status_code=404, detail=f"Number {number} not found in analysis")
+
+        row = row.iloc[0]
+        gap_info = result.gap_stats.get(number, {})
+
+        return GapAnalysisResponse(
+            game=name,
+            number=number,
+            last_seen_draw=int(row["last_seen_draw"]),
+            draws_since_last=int(row["draws_since_last"]),
+            expected_interval=float(row["expected_interval"]),
+            deviation_ratio=float(row["deviation_ratio"]),
+            gap_mean=gap_info.get("mean"),
+            gap_std=gap_info.get("std"),
+            gap_max=gap_info.get("max"),
+            gap_min=gap_info.get("min"),
+        )
+    except HTTPException:
+        raise
+    except ValueError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.get("/games/compare", response_model=CompareResponse)
+async def compare_games():
+    """Cross-game odds comparison ranked by jackpot odds."""
+    try:
+        from engine.adapters.registry import ADAPTERS
+        from engine.odds.comparator import compare_lotteries
+
+        rules_list = []
+        for adapter_name, adapter_cls in ADAPTERS.items():
+            try:
+                adapter = adapter_cls()
+                rules_list.append(adapter.rules)
+            except Exception:
+                continue
+
+        results = compare_lotteries(rules_list)
+        items = [
+            CompareItem(
+                name=r.name,
+                jackpot_odds=r.jackpot_odds,
+                ticket_price=r.ticket_price,
+                currency=r.currency,
+                efficiency_score=round(r.efficiency_score, 4)
+            ) for r in results
+        ]
+        return CompareResponse(games=items)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/games/{name:path}/wheel", response_model=WheelResponse)
+async def generate_wheel(name: str, request: WheelRequest):
+    """Generate a covering-design wheel for the given pool of numbers."""
+    try:
+        from engine.wheels import generate_full_wheel, generate_key_wheel, generate_abbreviated_wheel
+        adapter = get_adapter(name)
+        rules = adapter.rules
+
+        pool = sorted(request.pool)
+
+        if request.wheel_type == "full":
+            tickets = generate_full_wheel(pool, rules.pick_count)
+        elif request.wheel_type == "key":
+            key = request.key_number or pool[0]
+            tickets = generate_key_wheel(pool, rules.pick_count, [key])
+        elif request.wheel_type == "abbreviated":
+            guarantee = request.guarantee or (rules.pick_count - 1)
+            tickets = generate_abbreviated_wheel(pool, rules.pick_count, guarantee)
+        else:
+            raise HTTPException(status_code=400, detail=f"Unknown wheel type: {request.wheel_type}")
+
+        return WheelResponse(
+            game=name,
+            wheel_type=request.wheel_type,
+            ticket_count=len(tickets),
+            tickets=[sorted(t) for t in tickets]
+        )
+    except HTTPException:
+        raise
+    except ValueError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/games/{name:path}/ticket-grade")
+async def grade_ticket(name: str, request: TicketGradeRequest):
+    """Grade a user-submitted ticket across multiple quality dimensions."""
+    try:
+        from engine.modules.filters import get_root_sum, get_odd_count, get_decade_metrics
+        from engine.modules.sum_range import most_probable_range, classify
+
+        adapter = get_adapter(name)
+        rules = adapter.rules
+        numbers = sorted(request.numbers)
+
+        # Validate
+        if not rules.validate(numbers):
+            raise HTTPException(status_code=400, detail="Invalid ticket for this game")
+
+        # Structural metrics
+        odd_count = get_odd_count(numbers)
+        even_count = len(numbers) - odd_count
+        total_sum = sum(numbers)
+        root_sum = get_root_sum(numbers)
+        decades = get_decade_metrics(numbers)
+
+        # Sum range analysis
+        lo_sum, hi_sum, midpoint, sigma = most_probable_range(rules)
+        sum_class, z_score = classify(numbers, rules)
+
+        # Parity balance (ideal: close to 50/50)
+        parity_ratio = min(odd_count, even_count) / max(odd_count, even_count) if max(odd_count, even_count) > 0 else 0
+
+        # Decade spread
+        decade_set = set(n // 10 for n in numbers)
+        decade_spread = len(decade_set)
+
+        # Consecutive check
+        sorted_nums = sorted(numbers)
+        consecutive_pairs = sum(1 for i in range(len(sorted_nums) - 1) if sorted_nums[i + 1] - sorted_nums[i] == 1)
+
+        # Grade logic
+        grade_points = 0
+        max_points = 5
+        notes = []
+
+        if sum_class == "in":
+            grade_points += 1
+            notes.append("✅ Sum within 70% probable range")
+        else:
+            notes.append(f"⚠️ Sum {sum_class} 70% range (z={z_score:.2f})")
+
+        if 0.4 <= parity_ratio <= 1.0:
+            grade_points += 1
+            notes.append("✅ Good parity balance")
+        else:
+            notes.append("⚠️ Extreme odd/even imbalance")
+
+        if decade_spread >= 3:
+            grade_points += 1
+            notes.append(f"✅ Spans {decade_spread} decades")
+        else:
+            notes.append(f"⚠️ Only {decade_spread} decade(s)")
+
+        if consecutive_pairs <= 2:
+            grade_points += 1
+            notes.append("✅ Few consecutive numbers")
+        else:
+            notes.append(f"⚠️ {consecutive_pairs} consecutive pairs")
+
+        # Spread check
+        spread = sorted_nums[-1] - sorted_nums[0]
+        lo, hi = rules.number_range
+        pool_range = hi - lo
+        if spread >= pool_range * 0.5:
+            grade_points += 1
+            notes.append("✅ Good number spread")
+        else:
+            notes.append("⚠️ Numbers clustered too tightly")
+
+        # Letter grade
+        grade_map = {5: "A+", 4: "A", 3: "B", 2: "C", 1: "D", 0: "F"}
+        letter_grade = grade_map.get(grade_points, "F")
+
+        return {
+            "game": name,
+            "numbers": numbers,
+            "grade": letter_grade,
+            "score": grade_points,
+            "max_score": max_points,
+            "metrics": {
+                "sum": total_sum,
+                "sum_classification": sum_class,
+                "z_score": round(z_score, 3),
+                "sum_range": [lo_sum, hi_sum],
+                "odd_count": odd_count,
+                "even_count": even_count,
+                "parity_ratio": round(parity_ratio, 3),
+                "root_sum": root_sum,
+                "decades": decades,
+                "decade_spread": decade_spread,
+                "consecutive_pairs": consecutive_pairs,
+                "spread": spread,
+            },
+            "notes": notes
+        }
+    except HTTPException:
+        raise
+    except ValueError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.get("/games/{name:path}", response_model=GameRulesSchema)
+async def get_game_rules(name: str):
+    try:
+        adapter = get_adapter(name)
+        rules = adapter.rules
+        return GameRulesSchema(
+            name=rules.name,
+            pick_count=rules.pick_count,
+            number_range=[rules.number_range[0], rules.number_range[1]],
+            bonus_count=rules.bonus_count,
+            bonus_range=[rules.bonus_range[0], rules.bonus_range[1]] if rules.bonus_range else None,
+            prize_tiers=rules.prize_tiers,
+            ticket_price=rules.ticket_price,
+            currency=rules.currency
+        )
+    except ValueError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+
+

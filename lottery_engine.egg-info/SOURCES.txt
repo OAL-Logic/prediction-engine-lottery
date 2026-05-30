@@ -50,6 +50,7 @@ engine/cli/commands/draw_fingerprint.py
 engine/cli/commands/draw_summary.py
 engine/cli/commands/entropy_map.py
 engine/cli/commands/entropy_scan.py
+engine/cli/commands/expert_suggest.py
 engine/cli/commands/fetch.py
 engine/cli/commands/forecast.py
 engine/cli/commands/fractal_scan.py
@@ -123,6 +124,8 @@ engine/modules/cosmic.py
 engine/modules/decision_matrix.py
 engine/modules/deviation.py
 engine/modules/environment.py
+engine/modules/esoteric_pipeline.py
+engine/modules/feature_engineering.py
 engine/modules/frequency.py
 engine/modules/geometry.py
 engine/modules/harmony.py
@@ -134,6 +137,7 @@ engine/modules/regime.py
 engine/modules/risk.py
 engine/modules/storage.py
 engine/modules/sum_range.py
+engine/modules/telemetry.py
 engine/modules/tendency.py
 engine/modules/weekday.py
 engine/modules/wheels_wrg.py
@@ -147,6 +151,7 @@ engine/odds/comparator.py
 engine/strategies/__init__.py
 engine/strategies/deep/__init__.py
 engine/strategies/deep/cnn_1d.py
+engine/strategies/deep/lstm_crf.py
 engine/strategies/deep/lstm_gru.py
 engine/strategies/deep/transformer.py
 engine/strategies/fun/__init__.py
@@ -157,6 +162,7 @@ engine/strategies/fun/biorhythm.py
 engine/strategies/fun/cpu_entropy.py
 engine/strategies/fun/crowd_antagonism.py
 engine/strategies/fun/entropy_global.py
+engine/strategies/fun/esoteric_statistical.py
 engine/strategies/fun/fibonacci.py
 engine/strategies/fun/gematria.py
 engine/strategies/fun/geo_sync.py
@@ -175,6 +181,7 @@ engine/strategies/fun/refraction.py
 engine/strategies/fun/reincarnation.py
 engine/strategies/fun/retrocausality.py
 engine/strategies/fun/sacred_grid.py
+engine/strategies/fun/sacred_manifold.py
 engine/strategies/fun/sefirot.py
 engine/strategies/fun/seismic.py
 engine/strategies/fun/sentiment.py
@@ -194,6 +201,7 @@ engine/strategies/ml/knn.py
 engine/strategies/ml/logistic.py
 engine/strategies/ml/random_forest.py
 engine/strategies/ml/regime.py
+engine/strategies/ml/regressor_hub.py
 engine/strategies/ml/stacking_ai.py
 engine/strategies/ml/synapse.py
 engine/strategies/statistical/__init__.py
@@ -204,6 +212,7 @@ engine/strategies/statistical/copairs.py
 engine/strategies/statistical/crowd_avoidance.py
 engine/strategies/statistical/cycle.py
 engine/strategies/statistical/evt_extremes.py
+engine/strategies/statistical/expected_value.py
 engine/strategies/statistical/fisher.py
 engine/strategies/statistical/fourier_forecast.py
 engine/strategies/statistical/game_theory.py
@@ -244,6 +253,7 @@ lottery_engine.egg-info/dependency_links.txt
 lottery_engine.egg-info/entry_points.txt
 lottery_engine.egg-info/requires.txt
 lottery_engine.egg-info/top_level.txt
+tests/test_api_and_integration.py
 tests/test_architect_compliance.py
 tests/test_base_strategy_filters.py
 tests/test_bridge_timeout.py
@@ -257,6 +267,10 @@ tests/test_cli_suggest_kelly.py
 tests/test_cosmic.py
 tests/test_cosmic_quantum.py
 tests/test_decision_matrix.py
+tests/test_desktop_gateway.py
+tests/test_desktop_integrity.py
+tests/test_desktop_logic.py
+tests/test_desktop_telemetry.py
 tests/test_docs_up_to_date.py
 tests/test_environment.py
 tests/test_environment_mcp.py
@@ -267,8 +281,14 @@ tests/test_modules_filters.py
 tests/test_modules_patterns.py
 tests/test_narrative.py
 tests/test_new_strategies_smoke.py
+tests/test_portfolio_dashboard.py
+tests/test_python_telemetry.py
 tests/test_regime.py
 tests/test_risk.py
+tests/test_sacred_manifold.py
+tests/test_strategy_expected_value.py
+tests/test_strategy_lstm_crf.py
+tests/test_strategy_ml_regressor.py
 tests/test_strategy_recurrent.py
 tests/test_strategy_stacking.py
 tests/test_strategy_transformer.py

@@ -1,7 +1,7 @@
 Metadata-Version: 2.4
 Name: lottery-engine
-Version: 0.1.0
-Summary: Statistical analysis engine for lottery draws — frequency, deviation, correlation
+Version: 11.2.0
+Summary: High-performance lottery prediction engine — 100+ CLI commands, 80+ strategies, FastAPI sidecar, Go gateway
 License: MIT
 Keywords: lottery,statistics,analysis,mega-sena,powerball
 Requires-Python: >=3.11
@@ -16,8 +16,6 @@ Requires-Dist: typer>=0.12
 Requires-Dist: rich>=13
 Requires-Dist: PyYAML>=6.0
 Requires-Dist: duckdb>=1.0
-Requires-Dist: numexpr>=2.10.2
-Requires-Dist: bottleneck>=1.4.2
 Requires-Dist: mcp[cli]
 Requires-Dist: fastmcp
 Requires-Dist: astropy>=6.0
@@ -32,101 +30,297 @@ Requires-Dist: uvicorn[standard]>=0.30; extra == "api"
 Provides-Extra: ml
 Requires-Dist: scikit-learn>=1.5; extra == "ml"
 Requires-Dist: lightgbm>=4.3; extra == "ml"
+Requires-Dist: xgboost>=2.0; extra == "ml"
+Requires-Dist: catboost>=1.2; extra == "ml"
 Provides-Extra: deep
 Requires-Dist: torch>=2.3; extra == "deep"
+Requires-Dist: pytorch-crf>=0.7; extra == "deep"
 Provides-Extra: all
 Requires-Dist: scikit-learn>=1.5; extra == "all"
 Requires-Dist: lightgbm>=4.3; extra == "all"
 Requires-Dist: torch>=2.3; extra == "all"
+Requires-Dist: pytorch-crf>=0.7; extra == "all"
+Requires-Dist: xgboost>=2.0; extra == "all"
+Requires-Dist: catboost>=1.2; extra == "all"
 Requires-Dist: PySide6>=6.7; extra == "all"
 Requires-Dist: matplotlib>=3.9; extra == "all"
 Requires-Dist: seaborn>=0.13; extra == "all"
+Requires-Dist: websockets>=12.0; extra == "all"
+Requires-Dist: fastapi>=0.111; extra == "all"
+Requires-Dist: uvicorn[standard]>=0.30; extra == "all"
 Provides-Extra: desktop
 Requires-Dist: PySide6>=6.7; extra == "desktop"
 Requires-Dist: matplotlib>=3.9; extra == "desktop"
 Requires-Dist: seaborn>=0.13; extra == "desktop"
+Requires-Dist: websockets>=12.0; extra == "desktop"
 
-# Lottery Engine v11.1 (Singularity) 🚀🌌
+# Lottery Engine v11.2 (Singularity) 🚀🌌
 
-A high-performance **Asset Class Factory** that reframes lottery participation as a problem of **Information Asymmetry**. The Singularity (v11.1) synthesizes the v11.0 Quantum-Astro foundation with the **Prophet Synthesis**—integrating game-theoretic Expected Value models and deep sequence modeling.
+> A high-performance **Lottery Prediction & Analysis Engine** with 100+ CLI commands, 80+ prediction strategies, and a full-stack architecture spanning Terminal → Desktop → Mobile → API Gateway.
 
-## 🏛️ The Quad Architecture
-1.  **Terminal (OpenTUI)**: The **Microscope**. High-speed, high-density analytical cockpit using Zig-based bindings for sub-millisecond rendering.
-2.  **Mobile (Expo Dashboard)**: The **Lens**. Gestural, high-fidelity 3D visualization of the lottery manifold on your device.
-3.  **Desktop (PySide6 Client)**: The **Cockpit**. Feature-rich desktop analytical suite with real-time model training and advanced tabbed statistics.
-4.  **Gateway (Go Proxy)**: The **Quantum Guard**. High-performance PQC-level hybrid security and telemetry hub.
-
----
-
-## 📐 The Five Intelligence Tiers
-
-*   **Quantum-Astro**: Arcsecond-accurate planetary Great Circle data fused with hardware-distilled QPU entropy (AS-SQD).
-*   **Prophetic ML**: Game-theoretic **Expected Value** models and high-performance regressor ensembles (XGBoost, CatBoost).
-*   **Sequence Brain**: Deep sequence labeling using **LSTM-CRF** to identify inter-number dependencies.
-*   **Environmental OSINT**: Real-time coupling with Solar (NOAA) and Seismic (USGS) jitter to modulate sampling manifolds.
-*   **Deterministic Integrity**: Every ticket is a "Justified Number" backed by an immutable **Forensic Audit Ledger** (DuckDB).
+[![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)]()
+[![Strategies](https://img.shields.io/badge/strategies-80%2B-orange.svg)]()
+[![Commands](https://img.shields.io/badge/CLI_commands-100%2B-purple.svg)]()
 
 ---
 
-## 🚀 Quick Start (v11.1 Singularity)
+## 🏛️ Architecture
 
-```bash
-# 1. Launch the high-fidelity Terminal Dashboard
-./lottery dashboard
-
-# 2. Synchronize with the physical universe (Resonance Scan)
-./lottery resonance br/lotofacil
-
-# 3. Generate a Justified Asset using the Prophet Ensemble
-./lottery suggest br/mega-sena --strategy stacking_ai,lstm_crf,expected_value
+```
+┌─────────────────────────────────────────────────────────┐
+│   Expo React Native App        PySide6 Desktop Client   │
+│   (Mobile/Web Dashboard)       (Cockpit Analytics)      │
+└────────────────┬───────────────────────┬────────────────┘
+                 │ HTTP                  │ HTTP
+         ┌───────┴───────────────────────┴───────┐
+         │   Go API Gateway (Auth, Rate Limit,   │
+         │   Caching, PQC Routing, Telemetry)    │
+         └───────────────────┬───────────────────┘
+                             │ HTTP (localhost)
+         ┌───────────────────┴───────────────────┐
+         │   Python FastAPI Sidecar (15+ REST    │
+         │   endpoints, sacred manifold, expert) │
+         └───────────────────┬───────────────────┘
+                             │
+         ┌───────────────────┴───────────────────┐
+         │   Lottery Engine Core                  │
+         │   ├── 80+ Prediction Strategies       │
+         │   ├── 100+ CLI Commands               │
+         │   ├── Adapters (BR, US, plug-n-play)  │
+         │   ├── Modules (freq, deviation, etc.) │
+         │   └── Wheels (covering designs, PyPI) │
+         └───────────────────────────────────────┘
 ```
 
-## 🏗️ Core Commands
+---
 
-- `lottery resonance`: Detect multi-strategy constructive interference.
-- `lottery forecast`: Generate a consensus ticket backed by the MARL swarm.
-- `lottery dashboard`: Launch the OpenTUI character-grid cockpit.
-- `lottery analyze`: Perform deep forensic audits (Trend, Gap, Pattern).
-- `lottery session`: Orchestrate an all-in-one pre-draw decision cycle.
+## 🚀 Quick Start
+
+```bash
+# 1. Clone & setup
+git clone <repo-url> && cd lottery-engine
+./lottery setup                    # Auto-creates .venv, installs deps
+
+# 2. Fetch lottery data
+./lottery fetch br/lotofacil       # Brazilian Lotofácil
+./lottery fetch br/mega-sena       # Brazilian Mega-Sena
+
+# 3. Analyze
+./lottery analyze br/lotofacil     # Full statistical dashboard
+./lottery scan br/lotofacil        # 6-layer diagnostic scan
+
+# 4. Generate predictions
+./lottery suggest br/lotofacil --strategy weighted --count 3
+./lottery forecast br/lotofacil    # Multi-strategy consensus ticket
+./lottery next br/lotofacil        # One-line: scan + forecast + verdict
+
+# 5. Daily workflow
+./lottery daily br/lotofacil       # Morning digest pipeline
+./lottery session br/lotofacil     # Full pre-draw decision cycle
+```
 
 ---
 
-## 🧪 Installation & Setup
+## 📐 Strategy Tiers (80+)
 
-### 1. Prerequisites
+| Tier | Count | Examples |
+|------|-------|---------|
+| 📈 **Statistical** | 38 | `weighted`, `bayesian`, `markov`, `monte_carlo`, `spectral`, `fourier_forecast`, `nash_equilibrium`, `graph_influence`, `hurst_memory` |
+| 🤖 **ML** | 14 | `random_forest`, `gradient_boost`, `ml_regressor` (XGB/LGBM/CAT), `stacking_ai`, `ensemble_pro`, `synapse` |
+| 🧠 **Deep** | 5 | `transformer`, `lstm`, `lstm_crf`, `cnn_1d`, `gru` |
+| ✨ **Fun / Chaos** | 27+ | `sacred_manifold`, `kabbalistic`, `ley_lines`, `vix_jitter`, `tda_topology`, `ising_model`, `zeno_quantum`, `lyapunov_chaos` |
+
+### Ensemble Support
+```bash
+# Comma-separated = automatic voting ensemble
+./lottery suggest br/mega-sena --strategy bayesian,weighted,crowd_avoidance
+
+# Named ensembles
+./lottery suggest br/mega-sena --strategy stacking    # Meta-learner
+./lottery suggest br/mega-sena --strategy synapse      # Neural consensus
+```
+
+---
+
+## 🎯 Command Reference (100+)
+
+### ⭐ Primary Golden Path
+| Command | Description |
+|---------|-------------|
+| `wizard` | Interactive guided analysis & prediction |
+| `fetch` | Fetch & cache historical draw data |
+| `suggest` | Generate tickets using any strategy |
+| `analyze` | Statistical dashboard (14+ chart types) |
+| `backtest` | Blind historical strategy testing |
+| `forecast` | Multi-strategy weighted consensus ticket |
+| `next` | One-line: scan → forecast → verdict |
+| `daily` | Morning digest pipeline |
+| `session` | Full 5-stage pre-draw decision cycle |
+
+### 🔬 Analytics & Diagnostics
+| Command | Description |
+|---------|-------------|
+| `dashboard` | Rich terminal analytical cockpit |
+| `scan` | 6-layer diagnostic scan (GO/NO-GO) |
+| `signal` | Signal-to-noise rolling window analysis |
+| `cluster` | Unsupervised draw clustering (K-Means/DBSCAN) |
+| `stress-test` | Adversarial pattern hallucination test |
+| `detect-patterns` | Esoteric cycle overlay (lunar/solar) |
+| `leaderboard` | Comparative strategy ranking |
+| `entropy-scan` | Information entropy analysis |
+| `variance-report` | 5-dimension volatility regime |
+| `compare-draws` | Jensen-Shannon regime-shift detector |
+| `compare-strategies` | Side-by-side strategy comparison |
+| `streak-report` | Hot/cold streak rankings |
+| `pair-analysis` | Co-occurrence lift analysis |
+| `number-heat` | Full-pool hit/miss heatmap grid |
+| `markov-table` | Transition probability matrix |
+| `gap-forecast` | Per-number gap prediction |
+| `momentum-check` | RSI-style momentum indicators |
+| `outlier-draws` | Statistical outlier identification |
+| `synergy-map` | Strategy agreement mapping |
+
+### 🎟️ Betting & Tactical
+| Command | Description |
+|---------|-------------|
+| `wheel` | Combinatorial covering designs |
+| `genetic-wheel` | Evolutionary wheel optimizer |
+| `multi-ticket` | Multi-ticket coverage optimizer |
+| `suggest-swaps` | Best single-number swap suggestions |
+| `ticket-grade` | Grade a ticket (A+ → F) |
+| `coverage-check` | Pool coverage grid analysis |
+| `prize-ev` | Expected value calculator |
+| `hedge` | Combinatorial hedging portfolio |
+| `risk` | Kelly Criterion bet sizing |
+| `quick` | One-line cron: scan + forecast |
+| `picks` | Consensus from ticket log frequency |
+| `expert-suggest` | Multi-lottery portfolio simulation |
+
+### 📓 Monitoring & Logs
+| Command | Description |
+|---------|-------------|
+| `log` / `log-view` | Daily tracker (JSONL/CSV/MD) |
+| `watchlist` | Batch game tracking sub-app |
+| `hitcheck` | Compare logged tickets vs results |
+| `weekly` | 7-day performance summary |
+| `report` | YAML-pipeline reporting engine |
+| `alert` | Condition-based alert system |
+| `trend` | Temporal metric sparklines |
+| `regime-history` | Historical regime timeline |
+
+### ⚙️ System & Optimization
+| Command | Description |
+|---------|-------------|
+| `serve` | Launch FastAPI sidecar |
+| `daemon` | Background AutoML optimizer |
+| `calibrate` | Empirical out-of-sample calibration |
+| `tune` | Grid search optimization |
+| `prune` | Strategy pruning audit |
+| `optimize` | Strategy × params grid search |
+| `audit-data` | Data integrity validator |
+| `games` | List registered lotteries |
+
+---
+
+## 🧪 Installation
+
+### Prerequisites
 - **Python 3.11+**
-- **Go 1.23.0** (for Gateway)
-- **Node.js / Bun** (for TUI)
+- **Go 1.23.0** (for Gateway, optional)
+- **Node.js / Bun** (for TUI, optional)
 
-### 2. Environment Setup
+### Install
 ```bash
-./lottery setup  # Automated environment resolution
-```
+# Core (stats only)
+pip install -e .
 
-### 3. Install Intelligence Tiers
-```bash
-pip install -e ".[ml]"    # Regressor Hub (XGBoost, etc.)
-pip install -e ".[deep]"  # Sequence Brain (Torch, LSTM-CRF)
-pip install -e ".[all]"   # Full Singularity Payload
+# With ML strategies (scikit-learn, XGBoost, LightGBM, CatBoost)
+pip install -e ".[ml]"
+
+# With deep learning (PyTorch, LSTM-CRF)
+pip install -e ".[deep]"
+
+# Full installation (everything including Desktop & API)
+pip install -e ".[all]"
+
+# Development
+pip install -e ".[dev]"
 ```
 
 ---
 
-## 📖 Documentation v11.1
+## 🌐 API (FastAPI Sidecar)
 
-- `docs/architecture/` — Quad architecture and security specifications.
-- `docs/research/` — Prophet concepts, Quantum-Astro research, and AS-SQD theory.
-- `_bmad-output/` — Authoritative planning artifacts (PRD, Arch, Epics).
+```bash
+./lottery serve                    # Launch at http://localhost:8000
+```
+
+### Endpoints
+| Method | Path | Description |
+|--------|------|-------------|
+| GET | `/games` | List all registered games |
+| GET | `/games/{name}` | Game rules & parameters |
+| GET | `/games/{name}/analysis` | Statistical analysis |
+| GET | `/games/{name}/odds` | Prize tier probabilities |
+| GET | `/strategies` | List all 80+ strategies |
+| POST | `/games/{name}/suggest` | Generate tickets |
+| POST | `/games/{name}/backtest` | Run backtest |
+| POST | `/games/{name}/check` | Check ticket structure |
+| POST | `/games/{name}/calibrate` | Calibrate strategies |
+| POST | `/games/{name}/tune` | Hyperparameter tuning |
+| POST | `/games/{name}/prune` | Strategy pruning |
+| POST | `/games/{name}/sacred-manifold` | Sacred geometry analysis |
+| POST | `/games/{name}/expert-suggest` | Portfolio simulation |
+| GET | `/games/{name}/sum-distribution` | Sum probability PMF |
+| GET | `/games/{name}/gap/{number}` | Per-number gap analysis |
+| POST | `/games/{name}/wheel` | Wheel generation |
+| GET | `/health` | Service health check |
+
+Interactive docs at `http://localhost:8000/docs` (Swagger UI).
 
 ---
 
-## 🛡️ Vibrational Sovereignty
-We respect your privacy. Sensitive hashing data (Name/Birth Date) is processed **locally** on your device using BLAKE2b fingerprints. No raw personal data ever reaches the gateway.
+## 📖 Documentation
+
+| Document | Path |
+|----------|------|
+| User Guide | `docs/user_guides/user-guide.md` |
+| Architecture (ADR-001) | `docs/architecture/ADR-001-architecture-evaluation.md` |
+| Technical Spec | `docs/architecture/technical-spec.md` |
+| API Contracts | `docs/api-contracts-engine.md` |
+| Research & Theory | `docs/research/` |
+| Version History | `docs/versions/` |
+| Sprint Plan | `SPRINT_PLAN.md` |
+
+---
+
+## 📊 Project Statistics
+
+| Metric | Count |
+|--------|-------|
+| CLI Commands | 100+ |
+| Prediction Strategies | 80+ |
+| Structural Filters | 30+ |
+| Test Files | 41 |
+| API Endpoints | 17 |
+| Supported Lotteries | 150+ (registry) |
+| Strategy Tiers | 4 (Statistical, ML, Deep, Fun) |
+
+---
+
+## 🛡️ Privacy & Integrity
+
+- **Chi² gate**: Every predictive surface returns `is_predictive` + caveat. Empirical backtest capture rates validate claims.
+- **Local processing**: Personal data (name/birthdate) processed locally via BLAKE2b fingerprints. Nothing leaves the device.
+- **Honest defaults**: The engine will tell you when it can't beat random. `stress-test` and `leaderboard` exist specifically to expose pattern hallucination.
 
 ---
 
 ## ⚠️ Disclaimer
+
 This tool is for statistical exploration and mathematical research. Lottery draws are independent random events. The "Information Asymmetry" provided by the engine represents mathematical clustering, not a guarantee of winning. Play responsibly.
 
 ## 📄 License
+
 MIT

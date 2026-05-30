@@ -8,8 +8,6 @@ typer>=0.12
 rich>=13
 PyYAML>=6.0
 duckdb>=1.0
-numexpr>=2.10.2
-bottleneck>=1.4.2
 mcp[cli]
 fastmcp
 astropy>=6.0
@@ -18,9 +16,15 @@ astropy>=6.0
 scikit-learn>=1.5
 lightgbm>=4.3
 torch>=2.3
+pytorch-crf>=0.7
+xgboost>=2.0
+catboost>=1.2
 PySide6>=6.7
 matplotlib>=3.9
 seaborn>=0.13
+websockets>=12.0
+fastapi>=0.111
+uvicorn[standard]>=0.30
 
 [api]
 fastapi>=0.111
@@ -28,11 +32,13 @@ uvicorn[standard]>=0.30
 
 [deep]
 torch>=2.3
+pytorch-crf>=0.7
 
 [desktop]
 PySide6>=6.7
 matplotlib>=3.9
 seaborn>=0.13
+websockets>=12.0
 
 [dev]
 pytest>=8
@@ -43,3 +49,5 @@ mypy>=1.10
 [ml]
 scikit-learn>=1.5
 lightgbm>=4.3
+xgboost>=2.0
+catboost>=1.2

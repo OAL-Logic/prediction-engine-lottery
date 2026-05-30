@@ -109,11 +109,12 @@ Lottery Adapters (Mega-Sena, Lotofácil, Powerball, plug-and-play)
 | 2.45  | Empirical calibration — out-of-sample hit rates + lift ranking across strategies              | ✅ DONE (2026-05-04)                                                                                  |
 | 2.46  | Log export (CSV/TSV/JSON) + calibration-weighted forecast (--use-calibration)                 | ✅ DONE (2026-05-04)                                                                                  |
 | 2.47  | rank-numbers (composite per-number score) + picks (consensus from ticket log)                 | ✅ DONE (2026-05-04)                                                                                  |
-| 2.48  | Continuous Improvement                                                                        | ⏳                                                                                                    |
+| 2.48  | Continuous Improvement (API gap closure, docs, tests)                                         | ✅ DONE (2026-05-29)                                                                                  |
 | 3      | Go Gateway + extended game registry                                                            | ✅ DONE (2026-04-29)                                                                                 |
 | 4      | Expo App                                                                                       | ✅ DONE (2026-04-29)                                                                                 |
-| 5      | Content + Deploy                                                                               | ⏳                                                                                                    |
+| 5      | Content + Deploy                                                                               | ⏳ (CHANGELOG, README rewrite done 2026-05-29)                                                        |
 | 6      | Ecosystem                                                                                      | ⏳                                                                                                    |
+| 11.2   | API Gap Closure + Documentation + Quality (README, CHANGELOG, pyproject, 6 new endpoints)     | ✅ DONE (2026-05-29)                                                                                  |
 
 ---
 

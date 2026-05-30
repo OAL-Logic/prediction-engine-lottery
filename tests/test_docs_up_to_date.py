@@ -24,8 +24,8 @@ def test_docs_contain_all_strategies():
     
     # Locate docs
     docs_dir = os.path.join(os.path.dirname(__file__), "..", "docs")
-    user_guide_path = os.path.join(docs_dir, "user-guide.md")
-    tech_spec_path = os.path.join(docs_dir, "technical-spec.md")    
+    user_guide_path = os.path.join(docs_dir, "user_guides", "user-guide.md")
+    tech_spec_path = os.path.join(docs_dir, "architecture", "technical-spec.md")    
     with open(user_guide_path, "r", encoding="utf-8") as f:
         user_guide = f.read().lower()
         

@@ -69,6 +69,9 @@ def board(
         _render_cluster_view(df_tail, rules)
     elif view == "positional":
         _render_positional_heatmap_view(df_tail, rules)
+    elif view == "sacred":
+        target_numbers = marked if marked else set(df_tail.iloc[-1]["numbers"])
+        _render_sacred_view(target_numbers, grid_cols, rules)
     else:
         console.print(f"[yellow]⚠ View '{view}' is currently being modularized or is not supported.[/yellow]")
 
@@ -296,3 +299,111 @@ def _render_positional_heatmap_view(df_tail, rules):
         )
     console.print(table)
     console.print("\n[dim]Exposing positional machines biases and sorting regularities.[/dim]")
+
+
+def _render_sacred_view(marked_nums: set[int], cols: int, rules: DrawRules):
+    """
+    Renders a physical 2D grid of the board with Center of Mass overlay,
+    and a symmetry analytics side-panel.
+    """
+    from rich.panel import Panel
+    from rich.columns import Columns
+    from rich.text import Text
+    from engine.modules.geometry import calculate_symmetry_metrics, get_manifold_coords
+    from engine.modules.environment import EnvironmentalService
+    
+    lo, hi = rules.number_range
+    total_range = list(range(lo, hi + 1))
+    rows = math.ceil(len(total_range) / cols)
+    
+    # 1. Calculate symmetry metrics
+    metrics = calculate_symmetry_metrics(list(marked_nums), rules, "sphere")
+    cm_x, cm_y, cm_z = metrics["center_of_mass"]
+    resonance = metrics["resonance"]
+    ref_h = metrics["reflection_h"]
+    ref_v = metrics["reflection_v"]
+    grade = metrics["symmetry_grade"]
+    
+    # Map Center of Mass (3D sphere projection) back to 2D row/col coordinates for visual overlay
+    grid_center_x = (cols - 1) / 2.0
+    grid_center_y = (rows - 1) / 2.0
+    
+    # Map sphere X/Y coordinates onto the grid space
+    overlay_col = int(round(grid_center_x + cm_x * grid_center_x))
+    overlay_row = int(round(grid_center_y + cm_y * grid_center_y))
+    
+    # Boundaries clamping
+    overlay_col = max(0, min(cols - 1, overlay_col))
+    overlay_row = max(0, min(rows - 1, overlay_row))
+    
+    # 2. Build physical ASCII grid
+    grid_table = Table(title="🌀 PHYSICAL SACRED MANIFOLD GRID", show_header=False, box=None, padding=(0, 1))
+    for _ in range(cols):
+        grid_table.add_column(justify="center")
+        
+    for r_idx in range(rows):
+        row_data = []
+        for c_idx in range(cols):
+            idx = r_idx * cols + c_idx
+            if idx < len(total_range):
+                n = total_range[idx]
+                
+                # Check if it's the Center of Mass overlay cell
+                is_cm = (r_idx == overlay_row and c_idx == overlay_col)
+                
+                if n in marked_nums:
+                    symbol = "●"
+                    color = "bold magenta"
+                    if is_cm:
+                        symbol = "❂"
+                        color = "bold yellow"
+                    row_data.append(f"[{color}]{symbol} {n:02d}[/{color}]")
+                else:
+                    symbol = "◌"
+                    color = "dim"
+                    if is_cm:
+                        symbol = "x"
+                        color = "bold yellow"
+                    row_data.append(f"[{color}]{symbol} {n:02d}[/{color}]")
+            else:
+                row_data.append("")
+        grid_table.add_row(*row_data)
+        
+    # 3. Build Celestial and Symmetry Analytics Card
+    try:
+        env = EnvironmentalService()
+        jitter = env.get_jitter()
+        kp = jitter.get("kp", 3.0)
+        seismic = jitter.get("seismic_mag", 0.0)
+    except Exception:
+        kp = 3.0
+        seismic = 0.0
+        
+    # Derive planetary transits representation
+    from datetime import datetime
+    now = datetime.now()
+    hour_fraction = (now.hour * 3600 + now.minute * 60 + now.second) / 86400.0
+    transit_angle = (hour_fraction * 360.0 + kp * 20.0) % 360.0
+    
+    # Quality status
+    grade_status = "Gold Balance" if grade > 75.0 else "Silver Balance" if grade > 50.0 else "Standard Scatter"
+    grade_color = "gold1" if grade > 75.0 else "cyan" if grade > 50.0 else "dim"
+    
+    analytics_text = Text.from_markup(
+        f"[bold yellow]🌌 COSMIC TRANSITS LOG[/bold yellow]\n"
+        f"  [dim]Celestial Angle :[/dim] [yellow]{transit_angle:.2f}°[/yellow]\n"
+        f"  [dim]Space Weather   :[/dim] Solar Kp {kp:.1f} | Seismic {seismic:.1f}M\n"
+        f"  [dim]Geo-Manifold    :[/dim] Sphere (EAA Projection)\n\n"
+        f"[bold green]📐 SYMMETRY METRICS[/bold green]\n"
+        f"  [dim]Vector Balance  :[/dim] {resonance*100.0:.1f}%\n"
+        f"  [dim]Mirror Vertical :[/dim] {ref_v*100.0:.1f}%\n"
+        f"  [dim]Mirror Horiz.   :[/dim] {ref_h*100.0:.1f}%\n"
+        f"  [dim]Center of Mass  :[/dim] X={cm_x:+.2f}, Y={cm_y:+.2f}, Z={cm_z:+.2f}\n\n"
+        f"🏆 [bold]Resonance Grade:[/bold] [bold {grade_color}]{grade:.1f}% ({grade_status})[/bold {grade_color}]"
+    )
+    
+    analytics_panel = Panel(analytics_text, title="🔬 NON-EUCLIDEAN SYMMETRY REPORT", border_style="green", expand=False)
+    grid_panel = Panel(grid_table, border_style="bright_black", expand=False)
+    
+    console.print(Columns([grid_panel, analytics_panel], equal=True))
+

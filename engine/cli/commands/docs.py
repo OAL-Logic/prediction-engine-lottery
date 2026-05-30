@@ -33,10 +33,10 @@ def docs(
 
         "board": """
         [bold underline]BOARD ANALYTICS[/bold underline]
-
+ 
         The [bold]board[/bold] command provides grid-based visualizations of the number pool.
         It supports multiple views like 'balance' (odd/even, high/low), 'frame' (edges vs center),
-        and 'coverage' (historical pattern frequencies).
+        'coverage' (historical frequencies), and 'sacred' (non-Euclidean spherical projections and symmetry reports).
         """,
 
         "heatmap": """
@@ -219,6 +219,10 @@ data, so sometimes they produce genuinely interesting correlations.
     Correlates draws with historical temperature, pressure, and 
     weather conditions (Open-Meteo).
 
+  [bold]sacred_manifold[/bold]  🌀
+    Projects standard grid coordinates onto a 3D unit sphere and aligns
+    number scores with real-time celestial transit angles (Lunar/Solar azimuth).
+
         [yellow]Note on Esoteric Strategies:[/yellow]
         `weather`, `solar`, and `moon_phase` rely on historical data to find 
         correlations. When predicting [bold]future[/bold] draws (where data is 
@@ -233,6 +237,16 @@ data, so sometimes they produce genuinely interesting correlations.
 
         To suppress these warnings, use the global [bold]--quiet[/bold] or [bold]-q[/bold] flag:
           lottery --quiet suggest br/lotofacil
+""",
+
+        "expert": """
+[bold underline]EXPERT OPTIMIZATION & PORTFOLIO SIMULATION[/bold underline]
+
+The [bold]expert-suggest[/bold] command is a comprehensive pipeline combining:
+1. [bold]Zero-Config Backtests:[/bold] Out-of-sample grid-search to find the highest-performing strategy/history limit.
+2. [bold]Adaptive Budgeting:[/bold] Maps standard or premium multiple bets under a BRL threshold (LotoFácil 16-pick, Mega-Sena 7-pick).
+3. [bold]Portfolio Simulation:[/bold] Runs a financial paper-trading simulation over preceding draws, calculating start/end balances, ROI, and peak drawdown.
+4. [bold]ASCII Trend Graph:[/bold] Renders physical sparklines of bankroll growth.
 """,
     }
     
