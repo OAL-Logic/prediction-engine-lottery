@@ -276,6 +276,7 @@ The engine supports a vast library of analytical and esoteric strategies. You ca
 - **`contagion`**: Physical grid neighbor 'spark' resonance.
 - **`evt_extremes`**: Extreme Value Theory peaks.
 - **`nash_equilibrium`**: Game-theoretic Nash equilibrium.
+- **`stefan_mandel`**: 💼 Stefan Mandel Combinatorial Condensation — mathematical arbitrage formula targeting jackpots that exceed total combination costs with optimal coverage density.
 
 ### Esoteric & Chaos Tier (Absurdity Engine)
 - **`numerology`**: Pythagorean date-based reduction.

@@ -1,5 +1,12 @@
 import sys
 import logging
+from pathlib import Path
+
+# Add project root to sys.path to enable importing from the 'desktop' package when run directly
+project_root = str(Path(__file__).resolve().parents[2])
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
+
 from PySide6.QtWidgets import QApplication, QMainWindow, QTabWidget, QMessageBox
 from PySide6.QtCore import Qt
 
@@ -38,6 +45,13 @@ class ProphetDashboard(QMainWindow):
         # Main Tab Widget
         self.tabs = QTabWidget()
         self.setCentralWidget(self.tabs)
+
+        # Setup Menu Bar with Theme Options
+        menu_bar = self.menuBar()
+        theme_menu = menu_bar.addMenu("&Theme")
+        for theme_name in self.theme_manager.themes.keys():
+            action = theme_menu.addAction(theme_name)
+            action.triggered.connect(lambda checked=False, name=theme_name: self.change_theme(name))
 
         # Initialize High-Density Tabs
         self.db_tab = DatabaseTab()
@@ -135,6 +149,13 @@ class ProphetDashboard(QMainWindow):
 
     def apply_theme(self):
         self.setStyleSheet(self.theme_manager.generate_stylesheet())
+
+    def change_theme(self, theme_name: str):
+        """Persistent application theme swap & instant reload."""
+        self.theme_manager.settings.setValue("current_theme", theme_name)
+        self.theme_manager.current_theme = theme_name
+        self.apply_theme()
+        self.telemetry_tab.append_log(f"Visual identity re-aligned to theme: {theme_name}", "RESONANCE")
 
 def main():
     app = QApplication(sys.argv)

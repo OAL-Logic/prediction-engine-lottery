@@ -35,6 +35,7 @@ engine/cli/commands/check.py
 engine/cli/commands/cluster.py
 engine/cli/commands/cluster_walk.py
 engine/cli/commands/cold_streak_alert.py
+engine/cli/commands/collision_sim.py
 engine/cli/commands/combo_rank.py
 engine/cli/commands/compare_draws.py
 engine/cli/commands/compare_strategies.py
@@ -129,6 +130,7 @@ engine/modules/feature_engineering.py
 engine/modules/frequency.py
 engine/modules/geometry.py
 engine/modules/harmony.py
+engine/modules/hedging.py
 engine/modules/insights.py
 engine/modules/narrative.py
 engine/modules/patterns.py
@@ -151,6 +153,7 @@ engine/odds/comparator.py
 engine/strategies/__init__.py
 engine/strategies/deep/__init__.py
 engine/strategies/deep/cnn_1d.py
+engine/strategies/deep/gnn.py
 engine/strategies/deep/lstm_crf.py
 engine/strategies/deep/lstm_gru.py
 engine/strategies/deep/transformer.py
@@ -234,6 +237,7 @@ engine/strategies/statistical/quantum.py
 engine/strategies/statistical/spatial.py
 engine/strategies/statistical/spectral.py
 engine/strategies/statistical/stability.py
+engine/strategies/statistical/stefan_mandel.py
 engine/strategies/statistical/steiner_wheel.py
 engine/strategies/statistical/streak.py
 engine/strategies/statistical/structural.py
@@ -264,17 +268,22 @@ tests/test_cli_daily_narrative.py
 tests/test_cli_dashboard.py
 tests/test_cli_suggest.py
 tests/test_cli_suggest_kelly.py
+tests/test_collision_sim.py
 tests/test_cosmic.py
 tests/test_cosmic_quantum.py
+tests/test_daemon.py
 tests/test_decision_matrix.py
+tests/test_deep_strategies.py
 tests/test_desktop_gateway.py
 tests/test_desktop_integrity.py
 tests/test_desktop_logic.py
 tests/test_desktop_telemetry.py
 tests/test_docs_up_to_date.py
 tests/test_environment.py
+tests/test_environment_astrology.py
 tests/test_environment_mcp.py
 tests/test_filter_factory.py
+tests/test_hedging.py
 tests/test_kabbalistic.py
 tests/test_lazy_filters.py
 tests/test_modules_filters.py
