@@ -82,6 +82,7 @@ STRATEGY_REGISTRY = {
     "wavelet_signal": {"module": "engine.strategies.statistical.wavelet_signal", "tier": "statistical", "description": "🌊 Wavelet Decomposition (Multi-Scale Analysis)"},
     "fourier_forecast": {"module": "engine.strategies.statistical.fourier_forecast", "tier": "statistical", "description": "🌊 Fourier Spectral Projection"},
     "nash_equilibrium": {"module": "engine.strategies.statistical.nash_equilibrium", "tier": "statistical", "description": "♟️ Nash Equilibrium (Game Theory)"},
+    "stefan_mandel": {"module": "engine.strategies.statistical.stefan_mandel", "tier": "statistical", "description": "💼 Stefan Mandel Arbitrage — targets jackpots exceeding combinatorial cost with optimal coverage"},
     
     # ML
     "logistic": {"module": "engine.strategies.ml.logistic", "tier": "ml", "description": "Logistic Regression"},

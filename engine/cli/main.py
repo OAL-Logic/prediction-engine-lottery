@@ -1511,6 +1511,20 @@ def calendar(
     from engine.cli.commands.personal import calendar as impl
     return impl(full_name, birth_date, month, year)
 
+@app.command(name="collision-sim", rich_help_panel=PANEL_ANALYTICS)
+def collision_sim_cmd(
+    lottery: Annotated[str, typer.Argument(help="Lottery name")],
+    trials: Annotated[int, typer.Option("--trials", "-t", help="Number of Monte Carlo simulation runs")] = 10,
+    steps: Annotated[int, typer.Option("--steps", "-s", help="Simulation steps per run")] = 800,
+    g_val: Annotated[float, typer.Option("--g", "-g", help="Simulated gravity acceleration")] = -9.8,
+    ink_delta: Annotated[float, typer.Option("--ink-delta", "-d", help="Simulated ball mass delta due to ink weight")] = 0.005,
+    rotation: Annotated[float, typer.Option("--rotation", "-r", help="Drum rotation speed")] = 1.5,
+):
+    """🎱 Run high-fidelity kinetic Monte Carlo collision simulation."""
+    from engine.cli.commands.collision_sim import collision_sim as impl
+    return impl(lottery, trials, steps, g_val, ink_delta, rotation)
+
+
 @app.command(rich_help_panel=PANEL_VERIFY)
 def signature(
     name: Annotated[str, typer.Argument(help="Full birth name to analyze")],
