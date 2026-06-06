@@ -1,0 +1,7980 @@
+[
+  {
+    "draw_id": 2441,
+    "draw_date": "2022-01-05",
+    "numbers": [
+      9,
+      41,
+      42,
+      46,
+      47,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2441,
+      "data": "05/01/2022",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "42",
+        "09",
+        "41",
+        "54",
+        "46",
+        "47"
+      ],
+      "dezenas": [
+        "09",
+        "41",
+        "42",
+        "46",
+        "47",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 18,
+          "valorPremio": 83666.84
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1588,
+          "valorPremio": 1354.8
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2442,
+      "dataProximoConcurso": "08/01/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 26120718.0,
+      "valorAcumuladoConcurso_0_5": 1743793.01,
+      "valorAcumuladoConcursoEspecial": 396316.62,
+      "valorAcumuladoProximoConcurso": 2774216.16,
+      "valorEstimadoProximoConcurso": 6000000.0
+    }
+  },
+  {
+    "draw_id": 2442,
+    "draw_date": "2022-01-08",
+    "numbers": [
+      2,
+      7,
+      9,
+      25,
+      41,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2442,
+      "data": "08/01/2022",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "49",
+        "09",
+        "07",
+        "02",
+        "41",
+        "25"
+      ],
+      "dezenas": [
+        "02",
+        "07",
+        "09",
+        "25",
+        "41",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 63,
+          "valorPremio": 31638.77
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4651,
+          "valorPremio": 612.23
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2443,
+      "dataProximoConcurso": "12/01/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 34571596.5,
+      "valorAcumuladoConcurso_0_5": 4051758.22,
+      "valorAcumuladoConcursoEspecial": 920854.18,
+      "valorAcumuladoProximoConcurso": 6445978.98,
+      "valorEstimadoProximoConcurso": 11000000.0
+    }
+  },
+  {
+    "draw_id": 2443,
+    "draw_date": "2022-01-12",
+    "numbers": [
+      1,
+      5,
+      12,
+      13,
+      17,
+      31
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2443,
+      "data": "12/01/2022",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "31",
+        "01",
+        "12",
+        "13",
+        "05",
+        "17"
+      ],
+      "dezenas": [
+        "01",
+        "05",
+        "12",
+        "13",
+        "17",
+        "31"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 5259397.57
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 161,
+          "valorPremio": 13732.65
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8131,
+          "valorPremio": 388.45
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2444,
+      "dataProximoConcurso": "15/01/2022",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "CANAL ELETRONICO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "--"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "URUCANIA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        }
+      ],
+      "valorArrecadado": 38347726.5,
+      "valorAcumuladoConcurso_0_5": 6611814.09,
+      "valorAcumuladoConcursoEspecial": 1502685.07,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 2444,
+    "draw_date": "2022-01-15",
+    "numbers": [
+      15,
+      17,
+      20,
+      35,
+      37,
+      43
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2444,
+      "data": "15/01/2022",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "17",
+        "43",
+        "20",
+        "35",
+        "37",
+        "15"
+      ],
+      "dezenas": [
+        "15",
+        "17",
+        "20",
+        "35",
+        "37",
+        "43"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 58,
+          "valorPremio": 30313.67
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3161,
+          "valorPremio": 794.59
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2445,
+      "dataProximoConcurso": "19/01/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 30494794.5,
+      "valorAcumuladoConcurso_0_5": 11886391.96,
+      "valorAcumuladoConcursoEspecial": 1965367.35,
+      "valorAcumuladoProximoConcurso": 11886391.96,
+      "valorEstimadoProximoConcurso": 16000000.0
+    }
+  },
+  {
+    "draw_id": 2445,
+    "draw_date": "2022-01-19",
+    "numbers": [
+      11,
+      25,
+      32,
+      37,
+      47,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2445,
+      "data": "19/01/2022",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "25",
+        "32",
+        "47",
+        "11",
+        "37",
+        "56"
+      ],
+      "dezenas": [
+        "11",
+        "25",
+        "32",
+        "37",
+        "47",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 63,
+          "valorPremio": 38345.37
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3802,
+          "valorPremio": 907.7
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2446,
+      "dataProximoConcurso": "22/01/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 41899882.5,
+      "valorAcumuladoConcurso_0_5": 2797194.26,
+      "valorAcumuladoConcursoEspecial": 2601093.32,
+      "valorAcumuladoProximoConcurso": 16336473.72,
+      "valorEstimadoProximoConcurso": 22000000.0
+    }
+  },
+  {
+    "draw_id": 2446,
+    "draw_date": "2022-01-22",
+    "numbers": [
+      1,
+      13,
+      27,
+      41,
+      51,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2446,
+      "data": "22/01/2022",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "13",
+        "58",
+        "51",
+        "27",
+        "01",
+        "41"
+      ],
+      "dezenas": [
+        "01",
+        "13",
+        "27",
+        "41",
+        "51",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 74,
+          "valorPremio": 41305.51
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4344,
+          "valorPremio": 1005.19
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2447,
+      "dataProximoConcurso": "25/01/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 53015031.0,
+      "valorAcumuladoConcurso_0_5": 6336424.71,
+      "valorAcumuladoConcursoEspecial": 3405463.9,
+      "valorAcumuladoProximoConcurso": 21967067.62,
+      "valorEstimadoProximoConcurso": 28500000.0
+    }
+  },
+  {
+    "draw_id": 2447,
+    "draw_date": "2022-01-25",
+    "numbers": [
+      13,
+      19,
+      29,
+      42,
+      49,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2447,
+      "data": "25/01/2022",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "52",
+        "13",
+        "19",
+        "42",
+        "49",
+        "29"
+      ],
+      "dezenas": [
+        "13",
+        "19",
+        "29",
+        "42",
+        "49",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 42,
+          "valorPremio": 48167.42
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3080,
+          "valorPremio": 938.32
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2448,
+      "dataProximoConcurso": "27/01/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 35088264.0,
+      "valorAcumuladoConcurso_0_5": 8678882.12,
+      "valorAcumuladoConcursoEspecial": 3937840.6,
+      "valorAcumuladoProximoConcurso": 25693704.42,
+      "valorEstimadoProximoConcurso": 31000000.0
+    }
+  },
+  {
+    "draw_id": 2448,
+    "draw_date": "2022-01-27",
+    "numbers": [
+      18,
+      30,
+      32,
+      35,
+      40,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2448,
+      "data": "27/01/2022",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "32",
+        "48",
+        "30",
+        "40",
+        "35",
+        "18"
+      ],
+      "dezenas": [
+        "18",
+        "30",
+        "32",
+        "35",
+        "40",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 53,
+          "valorPremio": 51387.47
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3529,
+          "valorPremio": 1102.51
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2449,
+      "dataProximoConcurso": "29/01/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 47238088.5,
+      "valorAcumuladoConcurso_0_5": 11832449.66,
+      "valorAcumuladoConcursoEspecial": 4654560.52,
+      "valorAcumuladoProximoConcurso": 30710743.7,
+      "valorEstimadoProximoConcurso": 36000000.0
+    }
+  },
+  {
+    "draw_id": 2449,
+    "draw_date": "2022-01-29",
+    "numbers": [
+      14,
+      20,
+      21,
+      31,
+      49,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2449,
+      "data": "29/01/2022",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "14",
+        "49",
+        "52",
+        "31",
+        "20",
+        "21"
+      ],
+      "dezenas": [
+        "14",
+        "20",
+        "21",
+        "31",
+        "49",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 36777767.1
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 65,
+          "valorPremio": 50669.64
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3771,
+          "valorPremio": 1247.68
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2450,
+      "dataProximoConcurso": "02/02/2022",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "BLUMENAU",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SC"
+        }
+      ],
+      "valorArrecadado": 57124246.5,
+      "valorAcumuladoConcurso_0_5": 15646007.23,
+      "valorAcumuladoConcursoEspecial": 5521278.16,
+      "valorAcumuladoProximoConcurso": 15646007.23,
+      "valorEstimadoProximoConcurso": 20000000.0
+    }
+  },
+  {
+    "draw_id": 2450,
+    "draw_date": "2022-02-02",
+    "numbers": [
+      2,
+      6,
+      11,
+      15,
+      17,
+      39
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2450,
+      "data": "02/02/2022",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "17",
+        "39",
+        "11",
+        "06",
+        "15",
+        "02"
+      ],
+      "dezenas": [
+        "02",
+        "06",
+        "11",
+        "15",
+        "17",
+        "39"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 94,
+          "valorPremio": 26814.82
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5633,
+          "valorPremio": 639.24
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2451,
+      "dataProximoConcurso": "05/02/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 43718166.0,
+      "valorAcumuladoConcurso_0_5": 2918581.05,
+      "valorAcumuladoConcursoEspecial": 6184592.04,
+      "valorAcumuladoProximoConcurso": 20289204.34,
+      "valorEstimadoProximoConcurso": 26000000.0
+    }
+  },
+  {
+    "draw_id": 2451,
+    "draw_date": "2022-02-05",
+    "numbers": [
+      13,
+      26,
+      31,
+      46,
+      51,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2451,
+      "data": "05/02/2022",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "13",
+        "51",
+        "26",
+        "60",
+        "31",
+        "46"
+      ],
+      "dezenas": [
+        "13",
+        "26",
+        "31",
+        "46",
+        "51",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 26422347.01
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 60,
+          "valorPremio": 55490.34
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4536,
+          "valorPremio": 1048.57
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2452,
+      "dataProximoConcurso": "09/02/2022",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "BELO HORIZONTE",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        }
+      ],
+      "valorArrecadado": 57746794.5,
+      "valorAcumuladoConcurso_0_5": 6773699.3,
+      "valorAcumuladoConcursoEspecial": 7060755.29,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 2452,
+    "draw_date": "2022-02-09",
+    "numbers": [
+      8,
+      10,
+      51,
+      56,
+      57,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2452,
+      "data": "09/02/2022",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "56",
+        "57",
+        "08",
+        "10",
+        "51",
+        "58"
+      ],
+      "dezenas": [
+        "08",
+        "10",
+        "51",
+        "56",
+        "57",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 23,
+          "valorPremio": 72470.7
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2117,
+          "valorPremio": 1124.78
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2453,
+      "dataProximoConcurso": "12/02/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 28910097.0,
+      "valorAcumuladoConcurso_0_5": 8703708.46,
+      "valorAcumuladoConcursoEspecial": 7499393.76,
+      "valorAcumuladoProximoConcurso": 3070469.13,
+      "valorEstimadoProximoConcurso": 7000000.0
+    }
+  },
+  {
+    "draw_id": 2453,
+    "draw_date": "2022-02-12",
+    "numbers": [
+      10,
+      14,
+      15,
+      24,
+      34,
+      44
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2453,
+      "data": "12/02/2022",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "44",
+        "24",
+        "10",
+        "34",
+        "14",
+        "15"
+      ],
+      "dezenas": [
+        "10",
+        "14",
+        "15",
+        "24",
+        "34",
+        "44"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 63,
+          "valorPremio": 35542.46
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3892,
+          "valorPremio": 821.89
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2454,
+      "dataProximoConcurso": "16/02/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 38837137.5,
+      "valorAcumuladoConcurso_0_5": 11296436.92,
+      "valorAcumuladoConcursoEspecial": 8088650.25,
+      "valorAcumuladoProximoConcurso": 7195264.4,
+      "valorEstimadoProximoConcurso": 12000000.0
+    }
+  },
+  {
+    "draw_id": 2454,
+    "draw_date": "2022-02-16",
+    "numbers": [
+      9,
+      14,
+      22,
+      24,
+      44,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2454,
+      "data": "16/02/2022",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "14",
+        "44",
+        "22",
+        "09",
+        "24",
+        "47"
+      ],
+      "dezenas": [
+        "09",
+        "14",
+        "22",
+        "24",
+        "44",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 49,
+          "valorPremio": 46328.88
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4523,
+          "valorPremio": 717.0
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2455,
+      "dataProximoConcurso": "19/02/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 39373780.5,
+      "valorAcumuladoConcurso_0_5": 25302046.31,
+      "valorAcumuladoConcursoEspecial": 8686048.95,
+      "valorAcumuladoProximoConcurso": 25302046.31,
+      "valorEstimadoProximoConcurso": 31000000.0
+    }
+  },
+  {
+    "draw_id": 2455,
+    "draw_date": "2022-02-19",
+    "numbers": [
+      21,
+      38,
+      50,
+      53,
+      56,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2455,
+      "data": "19/02/2022",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "59",
+        "53",
+        "38",
+        "21",
+        "50",
+        "56"
+      ],
+      "dezenas": [
+        "21",
+        "38",
+        "50",
+        "53",
+        "56",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 44,
+          "valorPremio": 76582.32
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3811,
+          "valorPremio": 1263.11
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2456,
+      "dataProximoConcurso": "22/02/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 58444069.5,
+      "valorAcumuladoConcurso_0_5": 3901667.63,
+      "valorAcumuladoConcursoEspecial": 9572791.6,
+      "valorAcumuladoProximoConcurso": 31509244.82,
+      "valorEstimadoProximoConcurso": 37000000.0
+    }
+  },
+  {
+    "draw_id": 2456,
+    "draw_date": "2022-02-22",
+    "numbers": [
+      28,
+      34,
+      40,
+      41,
+      52,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2456,
+      "data": "22/02/2022",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "52",
+        "41",
+        "28",
+        "55",
+        "40",
+        "34"
+      ],
+      "dezenas": [
+        "28",
+        "34",
+        "40",
+        "41",
+        "52",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 31,
+          "valorPremio": 81253.19
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2581,
+          "valorPremio": 1394.17
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2457,
+      "dataProximoConcurso": "24/02/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 43687921.5,
+      "valorAcumuladoConcurso_0_5": 6818229.58,
+      "valorAcumuladoConcursoEspecial": 10235646.61,
+      "valorAcumuladoProximoConcurso": 36149229.74,
+      "valorEstimadoProximoConcurso": 40000000.0
+    }
+  },
+  {
+    "draw_id": 2457,
+    "draw_date": "2022-02-24",
+    "numbers": [
+      10,
+      19,
+      46,
+      47,
+      49,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2457,
+      "data": "24/02/2022",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "50",
+        "49",
+        "19",
+        "47",
+        "10",
+        "46"
+      ],
+      "dezenas": [
+        "10",
+        "19",
+        "46",
+        "47",
+        "49",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 51,
+          "valorPremio": 62932.87
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4414,
+          "valorPremio": 1038.76
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2458,
+      "dataProximoConcurso": "26/02/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 55668172.5,
+      "valorAcumuladoConcurso_0_5": 10534581.1,
+      "valorAcumuladoConcursoEspecial": 11080271.98,
+      "valorAcumuladoProximoConcurso": 42061607.16,
+      "valorEstimadoProximoConcurso": 50000000.0
+    }
+  },
+  {
+    "draw_id": 2458,
+    "draw_date": "2022-02-26",
+    "numbers": [
+      15,
+      40,
+      44,
+      45,
+      47,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2458,
+      "data": "26/02/2022",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "44",
+        "47",
+        "15",
+        "40",
+        "51",
+        "45"
+      ],
+      "dezenas": [
+        "15",
+        "40",
+        "44",
+        "45",
+        "47",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 79,
+          "valorPremio": 53045.63
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5279,
+          "valorPremio": 1134.03
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2459,
+      "dataProximoConcurso": "03/03/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 72683527.5,
+      "valorAcumuladoConcurso_0_5": 15386860.71,
+      "valorAcumuladoConcursoEspecial": 12183062.81,
+      "valorAcumuladoProximoConcurso": 49781142.9,
+      "valorEstimadoProximoConcurso": 57000000.0
+    }
+  },
+  {
+    "draw_id": 2459,
+    "draw_date": "2022-03-03",
+    "numbers": [
+      15,
+      24,
+      33,
+      49,
+      53,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2459,
+      "data": "03/03/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "33",
+        "49",
+        "15",
+        "59",
+        "24",
+        "53"
+      ],
+      "dezenas": [
+        "15",
+        "24",
+        "33",
+        "49",
+        "53",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 84,
+          "valorPremio": 54844.93
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6200,
+          "valorPremio": 1061.51
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2460,
+      "dataProximoConcurso": "05/03/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 79905195.0,
+      "valorAcumuladoConcurso_0_5": 78988925.51,
+      "valorAcumuladoConcursoEspecial": 13395424.4,
+      "valorAcumuladoProximoConcurso": 78988925.51,
+      "valorEstimadoProximoConcurso": 90000000.0
+    }
+  },
+  {
+    "draw_id": 2460,
+    "draw_date": "2022-03-05",
+    "numbers": [
+      16,
+      17,
+      18,
+      28,
+      35,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2460,
+      "data": "05/03/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "35",
+        "18",
+        "28",
+        "17",
+        "16",
+        "47"
+      ],
+      "dezenas": [
+        "16",
+        "17",
+        "18",
+        "28",
+        "35",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 155,
+          "valorPremio": 44541.73
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11542,
+          "valorPremio": 854.51
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2461,
+      "dataProximoConcurso": "09/03/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 119745157.5,
+      "valorAcumuladoConcurso_0_5": 7994066.97,
+      "valorAcumuladoConcursoEspecial": 15212257.82,
+      "valorAcumuladoProximoConcurso": 91706759.32,
+      "valorEstimadoProximoConcurso": 107000000.0
+    }
+  },
+  {
+    "draw_id": 2461,
+    "draw_date": "2022-03-09",
+    "numbers": [
+      8,
+      11,
+      16,
+      21,
+      32,
+      37
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2461,
+      "data": "09/03/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "37",
+        "32",
+        "21",
+        "11",
+        "16",
+        "08"
+      ],
+      "dezenas": [
+        "08",
+        "11",
+        "16",
+        "21",
+        "32",
+        "37"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 278,
+          "valorPremio": 34308.42
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 17238,
+          "valorPremio": 790.42
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2462,
+      "dataProximoConcurso": "12/03/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 165426367.5,
+      "valorAcumuladoConcurso_0_5": 19037765.83,
+      "valorAcumuladoConcursoEspecial": 17722189.41,
+      "valorAcumuladoProximoConcurso": 109276280.24,
+      "valorEstimadoProximoConcurso": 130000000.0
+    }
+  },
+  {
+    "draw_id": 2462,
+    "draw_date": "2022-03-12",
+    "numbers": [
+      3,
+      16,
+      23,
+      41,
+      45,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2462,
+      "data": "12/03/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "03",
+        "16",
+        "57",
+        "23",
+        "45",
+        "41"
+      ],
+      "dezenas": [
+        "03",
+        "16",
+        "23",
+        "41",
+        "45",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 294,
+          "valorPremio": 39145.65
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 19576,
+          "valorPremio": 839.86
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2463,
+      "dataProximoConcurso": "16/03/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 199613560.5,
+      "valorAcumuladoConcurso_0_5": 32363767.51,
+      "valorAcumuladoConcursoEspecial": 20750826.17,
+      "valorAcumuladoProximoConcurso": 130476737.46,
+      "valorEstimadoProximoConcurso": 165000000.0
+    }
+  },
+  {
+    "draw_id": 2463,
+    "draw_date": "2022-03-16",
+    "numbers": [
+      11,
+      16,
+      31,
+      37,
+      42,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2463,
+      "data": "16/03/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "11",
+        "31",
+        "16",
+        "42",
+        "51",
+        "37"
+      ],
+      "dezenas": [
+        "11",
+        "16",
+        "31",
+        "37",
+        "42",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 281,
+          "valorPremio": 51216.19
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 20541,
+          "valorPremio": 1000.9
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2464,
+      "dataProximoConcurso": "19/03/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 249616246.5,
+      "valorAcumuladoConcurso_0_5": 49027898.5,
+      "valorAcumuladoConcursoEspecial": 24538128.68,
+      "valorAcumuladoProximoConcurso": 156987854.95,
+      "valorEstimadoProximoConcurso": 190000000.0
+    }
+  },
+  {
+    "draw_id": 2464,
+    "draw_date": "2022-03-19",
+    "numbers": [
+      2,
+      7,
+      24,
+      43,
+      52,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2464,
+      "data": "19/03/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "02",
+        "43",
+        "07",
+        "52",
+        "24",
+        "56"
+      ],
+      "dezenas": [
+        "02",
+        "07",
+        "24",
+        "43",
+        "52",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 94690936.18
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 496,
+          "valorPremio": 35454.28
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 31802,
+          "valorPremio": 789.94
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2465,
+      "dataProximoConcurso": "23/03/2022",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "CANAL ELETRONICO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "--"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "MONGAGUA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 305006872.5,
+      "valorAcumuladoConcurso_0_5": 69389852.3,
+      "valorAcumuladoConcursoEspecial": 29165845.47,
+      "valorAcumuladoProximoConcurso": 69389852.3,
+      "valorEstimadoProximoConcurso": 80000000.0
+    }
+  },
+  {
+    "draw_id": 2465,
+    "draw_date": "2022-03-23",
+    "numbers": [
+      3,
+      8,
+      23,
+      29,
+      53,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2465,
+      "data": "23/03/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "29",
+        "54",
+        "53",
+        "08",
+        "03",
+        "23"
+      ],
+      "dezenas": [
+        "03",
+        "08",
+        "23",
+        "29",
+        "53",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 160,
+          "valorPremio": 34522.77
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11384,
+          "valorPremio": 693.15
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2466,
+      "dataProximoConcurso": "26/03/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 95804275.5,
+      "valorAcumuladoConcurso_0_5": 6395797.63,
+      "valorAcumuladoConcursoEspecial": 30619435.86,
+      "valorAcumuladoProximoConcurso": 79564984.88,
+      "valorEstimadoProximoConcurso": 90000000.0
+    }
+  },
+  {
+    "draw_id": 2466,
+    "draw_date": "2022-03-26",
+    "numbers": [
+      2,
+      3,
+      13,
+      20,
+      53,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2466,
+      "data": "26/03/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "54",
+        "53",
+        "20",
+        "02",
+        "13",
+        "03"
+      ],
+      "dezenas": [
+        "02",
+        "03",
+        "13",
+        "20",
+        "53",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 156,
+          "valorPremio": 42402.06
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10583,
+          "valorPremio": 892.9
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2467,
+      "dataProximoConcurso": "30/03/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 114728346.0,
+      "valorAcumuladoConcurso_0_5": 14054947.27,
+      "valorAcumuladoConcursoEspecial": 32360151.71,
+      "valorAcumuladoProximoConcurso": 91749995.68,
+      "valorEstimadoProximoConcurso": 110000000.0
+    }
+  },
+  {
+    "draw_id": 2467,
+    "draw_date": "2022-03-30",
+    "numbers": [
+      1,
+      10,
+      19,
+      34,
+      35,
+      45
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2467,
+      "data": "30/03/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "01",
+        "10",
+        "45",
+        "19",
+        "35",
+        "34"
+      ],
+      "dezenas": [
+        "01",
+        "10",
+        "19",
+        "34",
+        "35",
+        "45"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 168,
+          "valorPremio": 45486.09
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11371,
+          "valorPremio": 960.04
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2468,
+      "dataProximoConcurso": "02/04/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 132540043.5,
+      "valorAcumuladoConcurso_0_5": 22903188.03,
+      "valorAcumuladoConcursoEspecial": 34371115.53,
+      "valorAcumuladoProximoConcurso": 105826742.35,
+      "valorEstimadoProximoConcurso": 120000000.0
+    }
+  },
+  {
+    "draw_id": 2468,
+    "draw_date": "2022-04-02",
+    "numbers": [
+      22,
+      35,
+      41,
+      42,
+      53,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2468,
+      "data": "02/04/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "22",
+        "41",
+        "53",
+        "42",
+        "35",
+        "57"
+      ],
+      "dezenas": [
+        "22",
+        "35",
+        "41",
+        "42",
+        "53",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 122627171.8
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 267,
+          "valorPremio": 34158.18
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 20734,
+          "valorPremio": 628.38
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2469,
+      "dataProximoConcurso": "06/04/2022",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "SANTOS",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 158184963.0,
+      "valorAcumuladoConcurso_0_5": 33463457.98,
+      "valorAcumuladoConcursoEspecial": 36771176.89,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 2469,
+    "draw_date": "2022-04-06",
+    "numbers": [
+      5,
+      28,
+      30,
+      38,
+      52,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2469,
+      "data": "06/04/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "05",
+        "55",
+        "38",
+        "30",
+        "28",
+        "52"
+      ],
+      "dezenas": [
+        "05",
+        "28",
+        "30",
+        "38",
+        "52",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 34,
+          "valorPremio": 60884.93
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2246,
+          "valorPremio": 1316.68
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2470,
+      "dataProximoConcurso": "09/04/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 35904424.5,
+      "valorAcumuladoConcurso_0_5": 39673720.61,
+      "valorAcumuladoConcursoEspecial": 37315936.79,
+      "valorAcumuladoProximoConcurso": 39673720.61,
+      "valorEstimadoProximoConcurso": 45000000.0
+    }
+  },
+  {
+    "draw_id": 2470,
+    "draw_date": "2022-04-09",
+    "numbers": [
+      8,
+      33,
+      40,
+      42,
+      48,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2470,
+      "data": "09/04/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "51",
+        "08",
+        "48",
+        "42",
+        "33",
+        "40"
+      ],
+      "dezenas": [
+        "08",
+        "33",
+        "40",
+        "42",
+        "48",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 81,
+          "valorPremio": 57198.65
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6197,
+          "valorPremio": 1068.04
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2471,
+      "dataProximoConcurso": "13/04/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 80358174.0,
+      "valorAcumuladoConcurso_0_5": 5364631.34,
+      "valorAcumuladoConcursoEspecial": 38535171.2,
+      "valorAcumuladoProximoConcurso": 48208361.37,
+      "valorEstimadoProximoConcurso": 60000000.0
+    }
+  },
+  {
+    "draw_id": 2471,
+    "draw_date": "2022-04-13",
+    "numbers": [
+      8,
+      23,
+      29,
+      30,
+      36,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2471,
+      "data": "13/04/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "30",
+        "08",
+        "23",
+        "29",
+        "55",
+        "36"
+      ],
+      "dezenas": [
+        "08",
+        "23",
+        "29",
+        "30",
+        "36",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 95,
+          "valorPremio": 52849.61
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7346,
+          "valorPremio": 976.37
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2472,
+      "dataProximoConcurso": "16/04/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 87081250.5,
+      "valorAcumuladoConcurso_0_5": 11178088.53,
+      "valorAcumuladoConcursoEspecial": 39856411.49,
+      "valorAcumuladoProximoConcurso": 57457043.28,
+      "valorEstimadoProximoConcurso": 70000000.0
+    }
+  },
+  {
+    "draw_id": 2472,
+    "draw_date": "2022-04-16",
+    "numbers": [
+      5,
+      13,
+      18,
+      23,
+      35,
+      36
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2472,
+      "data": "16/04/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "18",
+        "05",
+        "13",
+        "23",
+        "36",
+        "35"
+      ],
+      "dezenas": [
+        "05",
+        "13",
+        "18",
+        "23",
+        "35",
+        "36"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 66733761.74
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 233,
+          "valorPremio": 21613.45
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 14583,
+          "valorPremio": 493.32
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2473,
+      "dataProximoConcurso": "20/04/2022",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "GUARULHOS",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 87345229.5,
+      "valorAcumuladoConcurso_0_5": 17009168.71,
+      "valorAcumuladoConcursoEspecial": 41181657.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 2473,
+    "draw_date": "2022-04-20",
+    "numbers": [
+      15,
+      18,
+      28,
+      42,
+      55,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2473,
+      "data": "20/04/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "55",
+        "15",
+        "28",
+        "60",
+        "42",
+        "18"
+      ],
+      "dezenas": [
+        "15",
+        "18",
+        "28",
+        "42",
+        "55",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 23,
+          "valorPremio": 87936.68
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2630,
+          "valorPremio": 1098.61
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2474,
+      "dataProximoConcurso": "23/04/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 35079804.0,
+      "valorAcumuladoConcurso_0_5": 19351061.34,
+      "valorAcumuladoConcursoEspecial": 41713905.34,
+      "valorAcumuladoProximoConcurso": 3725738.29,
+      "valorEstimadoProximoConcurso": 8500000.0
+    }
+  },
+  {
+    "draw_id": 2474,
+    "draw_date": "2022-04-23",
+    "numbers": [
+      22,
+      30,
+      38,
+      39,
+      49,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2474,
+      "data": "23/04/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "38",
+        "30",
+        "22",
+        "49",
+        "56",
+        "39"
+      ],
+      "dezenas": [
+        "22",
+        "30",
+        "38",
+        "39",
+        "49",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 27,
+          "valorPremio": 92717.92
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2372,
+          "valorPremio": 1507.69
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2475,
+      "dataProximoConcurso": "26/04/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 43419690.0,
+      "valorAcumuladoConcurso_0_5": 30586951.42,
+      "valorAcumuladoConcursoEspecial": 42372690.6,
+      "valorAcumuladoProximoConcurso": 30586951.42,
+      "valorEstimadoProximoConcurso": 36000000.0
+    }
+  },
+  {
+    "draw_id": 2475,
+    "draw_date": "2022-04-26",
+    "numbers": [
+      1,
+      40,
+      44,
+      45,
+      58,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2475,
+      "data": "26/04/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "60",
+        "45",
+        "01",
+        "44",
+        "58",
+        "40"
+      ],
+      "dezenas": [
+        "01",
+        "40",
+        "44",
+        "45",
+        "58",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 44,
+          "valorPremio": 56378.81
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3054,
+          "valorPremio": 1160.38
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2476,
+      "dataProximoConcurso": "28/04/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 43025688.0,
+      "valorAcumuladoConcurso_0_5": 2872351.91,
+      "valorAcumuladoConcursoEspecial": 43025497.86,
+      "valorAcumuladoProximoConcurso": 35156602.17,
+      "valorEstimadoProximoConcurso": 40000000.0
+    }
+  },
+  {
+    "draw_id": 2476,
+    "draw_date": "2022-04-28",
+    "numbers": [
+      2,
+      7,
+      32,
+      46,
+      49,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2476,
+      "data": "28/04/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "46",
+        "49",
+        "02",
+        "55",
+        "07",
+        "32"
+      ],
+      "dezenas": [
+        "02",
+        "07",
+        "32",
+        "46",
+        "49",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 72,
+          "valorPremio": 45992.87
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4799,
+          "valorPremio": 985.76
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2477,
+      "dataProximoConcurso": "30/04/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 57435741.0,
+      "valorAcumuladoConcurso_0_5": 6706704.53,
+      "valorAcumuladoConcursoEspecial": 43896941.66,
+      "valorAcumuladoProximoConcurso": 41256708.63,
+      "valorEstimadoProximoConcurso": 48000000.0
+    }
+  },
+  {
+    "draw_id": 2477,
+    "draw_date": "2022-04-30",
+    "numbers": [
+      20,
+      33,
+      37,
+      38,
+      49,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2477,
+      "data": "30/04/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "20",
+        "49",
+        "33",
+        "37",
+        "50",
+        "38"
+      ],
+      "dezenas": [
+        "20",
+        "33",
+        "37",
+        "38",
+        "49",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 45,
+          "valorPremio": 95131.71
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4787,
+          "valorPremio": 1277.54
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2478,
+      "dataProximoConcurso": "04/05/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 74250099.0,
+      "valorAcumuladoConcurso_0_5": 11663566.89,
+      "valorAcumuladoConcursoEspecial": 45023501.3,
+      "valorAcumuladoProximoConcurso": 49142626.01,
+      "valorEstimadoProximoConcurso": 60000000.0
+    }
+  },
+  {
+    "draw_id": 2478,
+    "draw_date": "2022-05-04",
+    "numbers": [
+      2,
+      17,
+      23,
+      28,
+      39,
+      46
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2478,
+      "data": "04/05/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "02",
+        "23",
+        "28",
+        "46",
+        "17",
+        "39"
+      ],
+      "dezenas": [
+        "02",
+        "17",
+        "23",
+        "28",
+        "39",
+        "46"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 58922844.33
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 196,
+          "valorPremio": 27088.07
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10963,
+          "valorPremio": 691.84
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2479,
+      "dataProximoConcurso": "07/05/2022",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "HERVAL D'OESTE",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SC"
+        }
+      ],
+      "valorArrecadado": 92085948.0,
+      "valorAcumuladoConcurso_0_5": 17811132.69,
+      "valorAcumuladoConcursoEspecial": 46420675.36,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 2479,
+    "draw_date": "2022-05-07",
+    "numbers": [
+      10,
+      15,
+      17,
+      20,
+      21,
+      35
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2479,
+      "data": "07/05/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "21",
+        "10",
+        "35",
+        "20",
+        "17",
+        "15"
+      ],
+      "dezenas": [
+        "10",
+        "15",
+        "17",
+        "20",
+        "21",
+        "35"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 4456908.1
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 90,
+          "valorPremio": 26882.94
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5989,
+          "valorPremio": 577.12
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2480,
+      "dataProximoConcurso": "11/05/2022",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "VASSOURAS",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        }
+      ],
+      "valorArrecadado": 41964156.0,
+      "valorAcumuladoConcurso_0_5": 20612617.77,
+      "valorAcumuladoConcursoEspecial": 47057376.54,
+      "valorAcumuladoProximoConcurso": 20612617.77,
+      "valorEstimadoProximoConcurso": 27000000.0
+    }
+  },
+  {
+    "draw_id": 2480,
+    "draw_date": "2022-05-11",
+    "numbers": [
+      4,
+      6,
+      9,
+      31,
+      50,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2480,
+      "data": "11/05/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "31",
+        "56",
+        "06",
+        "04",
+        "50",
+        "09"
+      ],
+      "dezenas": [
+        "04",
+        "06",
+        "09",
+        "31",
+        "50",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 74,
+          "valorPremio": 46356.22
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4757,
+          "valorPremio": 1030.16
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2481,
+      "dataProximoConcurso": "14/05/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 59497533.0,
+      "valorAcumuladoConcurso_0_5": 3971995.81,
+      "valorAcumuladoConcursoEspecial": 47960102.87,
+      "valorAcumuladoProximoConcurso": 26931702.0,
+      "valorEstimadoProximoConcurso": 35000000.0
+    }
+  },
+  {
+    "draw_id": 2481,
+    "draw_date": "2022-05-14",
+    "numbers": [
+      1,
+      8,
+      21,
+      27,
+      36,
+      37
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2481,
+      "data": "14/05/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "01",
+        "37",
+        "36",
+        "21",
+        "08",
+        "27"
+      ],
+      "dezenas": [
+        "01",
+        "08",
+        "21",
+        "27",
+        "36",
+        "37"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 72,
+          "valorPremio": 62081.21
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5710,
+          "valorPremio": 1118.3
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2482,
+      "dataProximoConcurso": "18/05/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 77526814.5,
+      "valorAcumuladoConcurso_0_5": 9147608.41,
+      "valorAcumuladoConcursoEspecial": 49136378.48,
+      "valorAcumuladoProximoConcurso": 35165631.15,
+      "valorEstimadoProximoConcurso": 45000000.0
+    }
+  },
+  {
+    "draw_id": 2482,
+    "draw_date": "2022-05-18",
+    "numbers": [
+      1,
+      32,
+      35,
+      44,
+      45,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2482,
+      "data": "18/05/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "32",
+        "01",
+        "57",
+        "44",
+        "35",
+        "45"
+      ],
+      "dezenas": [
+        "01",
+        "32",
+        "35",
+        "44",
+        "45",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 52,
+          "valorPremio": 82539.97
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5101,
+          "valorPremio": 1202.02
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2483,
+      "dataProximoConcurso": "21/05/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 74443518.0,
+      "valorAcumuladoConcurso_0_5": 14117383.23,
+      "valorAcumuladoConcursoEspecial": 50265872.77,
+      "valorAcumuladoProximoConcurso": 43072091.08,
+      "valorEstimadoProximoConcurso": 53000000.0
+    }
+  },
+  {
+    "draw_id": 2483,
+    "draw_date": "2022-05-21",
+    "numbers": [
+      20,
+      34,
+      38,
+      40,
+      49,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2483,
+      "data": "21/05/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "54",
+        "49",
+        "34",
+        "38",
+        "40",
+        "20"
+      ],
+      "dezenas": [
+        "20",
+        "34",
+        "38",
+        "40",
+        "49",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 72,
+          "valorPremio": 74529.17
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5242,
+          "valorPremio": 1462.39
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2484,
+      "dataProximoConcurso": "25/05/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 93071776.5,
+      "valorAcumuladoConcurso_0_5": 20330761.95,
+      "valorAcumuladoConcursoEspecial": 51678004.31,
+      "valorAcumuladoProximoConcurso": 52957011.78,
+      "valorEstimadoProximoConcurso": 65000000.0
+    }
+  },
+  {
+    "draw_id": 2484,
+    "draw_date": "2022-05-25",
+    "numbers": [
+      11,
+      14,
+      36,
+      41,
+      54,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2484,
+      "data": "25/05/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "59",
+        "36",
+        "41",
+        "54",
+        "14",
+        "11"
+      ],
+      "dezenas": [
+        "11",
+        "14",
+        "36",
+        "41",
+        "54",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 121,
+          "valorPremio": 45019.83
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7558,
+          "valorPremio": 1029.63
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2485,
+      "dataProximoConcurso": "28/05/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 94481851.5,
+      "valorAcumuladoConcurso_0_5": 89629968.88,
+      "valorAcumuladoConcursoEspecial": 53111530.22,
+      "valorAcumuladoProximoConcurso": 89629968.88,
+      "valorEstimadoProximoConcurso": 100000000.0
+    }
+  },
+  {
+    "draw_id": 2485,
+    "draw_date": "2022-05-28",
+    "numbers": [
+      5,
+      12,
+      32,
+      38,
+      47,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2485,
+      "data": "28/05/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "60",
+        "12",
+        "38",
+        "47",
+        "05",
+        "32"
+      ],
+      "dezenas": [
+        "05",
+        "12",
+        "32",
+        "38",
+        "47",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 188,
+          "valorPremio": 46388.86
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 13488,
+          "valorPremio": 923.68
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2486,
+      "dataProximoConcurso": "31/05/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 151262352.0,
+      "valorAcumuladoConcurso_0_5": 10098123.35,
+      "valorAcumuladoConcursoEspecial": 55406558.27,
+      "valorAcumuladoProximoConcurso": 105695165.13,
+      "valorEstimadoProximoConcurso": 120000000.0
+    }
+  },
+  {
+    "draw_id": 2486,
+    "draw_date": "2022-05-31",
+    "numbers": [
+      8,
+      9,
+      17,
+      19,
+      33,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2486,
+      "data": "31/05/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "19",
+        "08",
+        "09",
+        "33",
+        "17",
+        "56"
+      ],
+      "dezenas": [
+        "08",
+        "09",
+        "17",
+        "19",
+        "33",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 117557270.98
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 231,
+          "valorPremio": 27876.31
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 15582,
+          "valorPremio": 590.37
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2487,
+      "dataProximoConcurso": "02/06/2022",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "BLUMENAU",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SC"
+        }
+      ],
+      "valorArrecadado": 111688024.5,
+      "valorAcumuladoConcurso_0_5": 17554304.18,
+      "valorAcumuladoConcursoEspecial": 57101144.85,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 2487,
+    "draw_date": "2022-06-02",
+    "numbers": [
+      23,
+      36,
+      42,
+      48,
+      54,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2487,
+      "data": "02/06/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "54",
+        "42",
+        "48",
+        "36",
+        "23",
+        "58"
+      ],
+      "dezenas": [
+        "23",
+        "36",
+        "42",
+        "48",
+        "54",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 3681934.22
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 141,
+          "valorPremio": 14175.63
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4588,
+          "valorPremio": 622.35
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2488,
+      "dataProximoConcurso": "04/06/2022",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "RIO DE JANEIRO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        }
+      ],
+      "valorArrecadado": 34667365.5,
+      "valorAcumuladoConcurso_0_5": 19868662.83,
+      "valorAcumuladoConcursoEspecial": 57627135.47,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 4000000.0
+    }
+  },
+  {
+    "draw_id": 2488,
+    "draw_date": "2022-06-04",
+    "numbers": [
+      17,
+      31,
+      34,
+      40,
+      56,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2488,
+      "data": "04/06/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "40",
+        "34",
+        "57",
+        "31",
+        "17",
+        "56"
+      ],
+      "dezenas": [
+        "17",
+        "31",
+        "34",
+        "40",
+        "56",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 39,
+          "valorPremio": 54865.83
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2541,
+          "valorPremio": 1202.99
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2489,
+      "dataProximoConcurso": "08/06/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 37112980.5,
+      "valorAcumuladoConcurso_0_5": 22346288.28,
+      "valorAcumuladoConcursoEspecial": 58190232.19,
+      "valorAcumuladoProximoConcurso": 3941676.88,
+      "valorEstimadoProximoConcurso": 9000000.0
+    }
+  },
+  {
+    "draw_id": 2489,
+    "draw_date": "2022-06-08",
+    "numbers": [
+      3,
+      10,
+      13,
+      25,
+      41,
+      42
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2489,
+      "data": "08/06/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "13",
+        "10",
+        "41",
+        "25",
+        "42",
+        "03"
+      ],
+      "dezenas": [
+        "03",
+        "10",
+        "13",
+        "25",
+        "41",
+        "42"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 92,
+          "valorPremio": 29078.19
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6187,
+          "valorPremio": 617.69
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2490,
+      "dataProximoConcurso": "11/06/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 46399621.5,
+      "valorAcumuladoConcurso_0_5": 25443880.61,
+      "valorAcumuladoConcursoEspecial": 58894230.46,
+      "valorAcumuladoProximoConcurso": 34313545.28,
+      "valorEstimadoProximoConcurso": 40000000.0
+    }
+  },
+  {
+    "draw_id": 2490,
+    "draw_date": "2022-06-11",
+    "numbers": [
+      11,
+      16,
+      17,
+      41,
+      46,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2490,
+      "data": "11/06/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "11",
+        "16",
+        "41",
+        "17",
+        "46",
+        "59"
+      ],
+      "dezenas": [
+        "11",
+        "16",
+        "17",
+        "41",
+        "46",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 65,
+          "valorPremio": 65482.06
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5432,
+          "valorPremio": 1119.38
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2491,
+      "dataProximoConcurso": "15/06/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 73823548.5,
+      "valorAcumuladoConcurso_0_5": 4928386.27,
+      "valorAcumuladoConcursoEspecial": 60014318.26,
+      "valorAcumuladoProximoConcurso": 42154159.81,
+      "valorEstimadoProximoConcurso": 52000000.0
+    }
+  },
+  {
+    "draw_id": 2491,
+    "draw_date": "2022-06-15",
+    "numbers": [
+      22,
+      29,
+      38,
+      43,
+      48,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2491,
+      "data": "15/06/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "53",
+        "48",
+        "29",
+        "43",
+        "38",
+        "22"
+      ],
+      "dezenas": [
+        "22",
+        "29",
+        "38",
+        "43",
+        "48",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 83,
+          "valorPremio": 53600.57
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6198,
+          "valorPremio": 1025.41
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2492,
+      "dataProximoConcurso": "18/06/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 77162584.5,
+      "valorAcumuladoConcurso_0_5": 10079683.25,
+      "valorAcumuladoConcursoEspecial": 61185067.58,
+      "valorAcumuladoProximoConcurso": 50349405.0,
+      "valorEstimadoProximoConcurso": 60000000.0
+    }
+  },
+  {
+    "draw_id": 2492,
+    "draw_date": "2022-06-18",
+    "numbers": [
+      10,
+      30,
+      31,
+      33,
+      42,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2492,
+      "data": "18/06/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "33",
+        "10",
+        "52",
+        "31",
+        "42",
+        "30"
+      ],
+      "dezenas": [
+        "10",
+        "30",
+        "31",
+        "33",
+        "42",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 65,
+          "valorPremio": 71634.15
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6645,
+          "valorPremio": 1001.01
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2493,
+      "dataProximoConcurso": "22/06/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 80759331.0,
+      "valorAcumuladoConcurso_0_5": 15471095.42,
+      "valorAcumuladoConcursoEspecial": 62410388.54,
+      "valorAcumuladoProximoConcurso": 58926651.64,
+      "valorEstimadoProximoConcurso": 70000000.0
+    }
+  },
+  {
+    "draw_id": 2493,
+    "draw_date": "2022-06-22",
+    "numbers": [
+      4,
+      9,
+      37,
+      43,
+      44,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2493,
+      "data": "22/06/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "44",
+        "04",
+        "56",
+        "09",
+        "37",
+        "43"
+      ],
+      "dezenas": [
+        "04",
+        "09",
+        "37",
+        "43",
+        "44",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 149,
+          "valorPremio": 34422.27
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9549,
+          "valorPremio": 767.3
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2494,
+      "dataProximoConcurso": "25/06/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 88957993.5,
+      "valorAcumuladoConcurso_0_5": 21409842.1,
+      "valorAcumuladoConcursoEspecial": 63760103.71,
+      "valorAcumuladoProximoConcurso": 68374657.73,
+      "valorEstimadoProximoConcurso": 80000000.0
+    }
+  },
+  {
+    "draw_id": 2494,
+    "draw_date": "2022-06-25",
+    "numbers": [
+      1,
+      4,
+      10,
+      22,
+      53,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2494,
+      "data": "25/06/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "22",
+        "01",
+        "54",
+        "04",
+        "10",
+        "53"
+      ],
+      "dezenas": [
+        "01",
+        "04",
+        "10",
+        "22",
+        "53",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 78763087.85
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 157,
+          "valorPremio": 35919.96
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11899,
+          "valorPremio": 677.05
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2495,
+      "dataProximoConcurso": "28/06/2022",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "DIADEMA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 97812585.0,
+      "valorAcumuladoConcurso_0_5": 27939712.46,
+      "valorAcumuladoConcursoEspecial": 65244165.17,
+      "valorAcumuladoProximoConcurso": 27939712.46,
+      "valorEstimadoProximoConcurso": 35000000.0
+    }
+  },
+  {
+    "draw_id": 2495,
+    "draw_date": "2022-06-28",
+    "numbers": [
+      8,
+      12,
+      14,
+      30,
+      33,
+      41
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2495,
+      "data": "28/06/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "33",
+        "41",
+        "08",
+        "12",
+        "30",
+        "14"
+      ],
+      "dezenas": [
+        "08",
+        "12",
+        "14",
+        "30",
+        "33",
+        "41"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 37,
+          "valorPremio": 54647.64
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3602,
+          "valorPremio": 801.92
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2496,
+      "dataProximoConcurso": "30/06/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 35069728.5,
+      "valorAcumuladoConcurso_0_5": 2341220.0,
+      "valorAcumuladoConcursoEspecial": 65776260.65,
+      "valorAcumuladoProximoConcurso": 31664380.64,
+      "valorEstimadoProximoConcurso": 37000000.0
+    }
+  },
+  {
+    "draw_id": 2496,
+    "draw_date": "2022-06-30",
+    "numbers": [
+      7,
+      26,
+      31,
+      38,
+      46,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2496,
+      "data": "30/06/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "46",
+        "31",
+        "26",
+        "58",
+        "38",
+        "07"
+      ],
+      "dezenas": [
+        "07",
+        "26",
+        "31",
+        "38",
+        "46",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 50,
+          "valorPremio": 54371.58
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3505,
+          "valorPremio": 1108.04
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2497,
+      "dataProximoConcurso": "02/07/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 47152120.5,
+      "valorAcumuladoConcurso_0_5": 5489048.42,
+      "valorAcumuladoConcursoEspecial": 66491676.2,
+      "valorAcumuladoProximoConcurso": 36672289.48,
+      "valorEstimadoProximoConcurso": 43000000.0
+    }
+  },
+  {
+    "draw_id": 2497,
+    "draw_date": "2022-07-02",
+    "numbers": [
+      5,
+      14,
+      23,
+      46,
+      48,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2497,
+      "data": "02/07/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "14",
+        "05",
+        "48",
+        "52",
+        "46",
+        "23"
+      ],
+      "dezenas": [
+        "05",
+        "14",
+        "23",
+        "46",
+        "48",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 87,
+          "valorPremio": 42861.28
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6309,
+          "valorPremio": 844.35
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2498,
+      "dataProximoConcurso": "06/07/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 64676065.5,
+      "valorAcumuladoConcurso_0_5": 9806757.87,
+      "valorAcumuladoConcursoEspecial": 67472973.82,
+      "valorAcumuladoProximoConcurso": 43541372.7,
+      "valorEstimadoProximoConcurso": 55000000.0
+    }
+  },
+  {
+    "draw_id": 2498,
+    "draw_date": "2022-07-06",
+    "numbers": [
+      9,
+      12,
+      26,
+      29,
+      46,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2498,
+      "data": "06/07/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "26",
+        "47",
+        "09",
+        "29",
+        "46",
+        "12"
+      ],
+      "dezenas": [
+        "09",
+        "12",
+        "26",
+        "29",
+        "46",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 51830706.79
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 88,
+          "valorPremio": 51135.5
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7866,
+          "valorPremio": 817.24
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2499,
+      "dataProximoConcurso": "09/07/2022",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "BLUMENAU",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SC"
+        }
+      ],
+      "valorArrecadado": 78048481.5,
+      "valorAcumuladoConcurso_0_5": 15017196.44,
+      "valorAcumuladoConcursoEspecial": 68657164.42,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 2499,
+    "draw_date": "2022-07-09",
+    "numbers": [
+      11,
+      19,
+      38,
+      47,
+      56,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2499,
+      "data": "09/07/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "38",
+        "11",
+        "56",
+        "59",
+        "47",
+        "19"
+      ],
+      "dezenas": [
+        "11",
+        "19",
+        "38",
+        "47",
+        "56",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 30,
+          "valorPremio": 74169.24
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3158,
+          "valorPremio": 1006.54
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2500,
+      "dataProximoConcurso": "13/07/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 38592625.5,
+      "valorAcumuladoConcurso_0_5": 21692427.8,
+      "valorAcumuladoConcursoEspecial": 69242711.05,
+      "valorAcumuladoProximoConcurso": 21692427.8,
+      "valorEstimadoProximoConcurso": 27000000.0
+    }
+  },
+  {
+    "draw_id": 2500,
+    "draw_date": "2022-07-13",
+    "numbers": [
+      5,
+      16,
+      25,
+      32,
+      39,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2500,
+      "data": "13/07/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "32",
+        "55",
+        "25",
+        "16",
+        "05",
+        "39"
+      ],
+      "dezenas": [
+        "05",
+        "16",
+        "25",
+        "32",
+        "39",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 27485274.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 84,
+          "valorPremio": 37436.76
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4928,
+          "valorPremio": 911.6
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2501,
+      "dataProximoConcurso": "16/07/2022",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "DOURADOS",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MS"
+        }
+      ],
+      "valorArrecadado": 54542722.5,
+      "valorAcumuladoConcurso_0_5": 3641217.61,
+      "valorAcumuladoConcursoEspecial": 70070260.52,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 2501,
+    "draw_date": "2022-07-16",
+    "numbers": [
+      11,
+      27,
+      32,
+      40,
+      58,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2501,
+      "data": "16/07/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "58",
+        "32",
+        "11",
+        "27",
+        "59",
+        "40"
+      ],
+      "dezenas": [
+        "11",
+        "27",
+        "32",
+        "40",
+        "58",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 30,
+          "valorPremio": 70561.85
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2331,
+          "valorPremio": 1297.33
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2502,
+      "dataProximoConcurso": "20/07/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 36715585.5,
+      "valorAcumuladoConcurso_0_5": 6092313.38,
+      "valorAcumuladoConcursoEspecial": 70627327.76,
+      "valorAcumuladoProximoConcurso": 3899470.54,
+      "valorEstimadoProximoConcurso": 9000000.0
+    }
+  },
+  {
+    "draw_id": 2502,
+    "draw_date": "2022-07-20",
+    "numbers": [
+      16,
+      20,
+      21,
+      39,
+      44,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2502,
+      "data": "20/07/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "39",
+        "21",
+        "16",
+        "44",
+        "20",
+        "55"
+      ],
+      "dezenas": [
+        "16",
+        "20",
+        "21",
+        "39",
+        "44",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 103,
+          "valorPremio": 22920.73
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2914,
+          "valorPremio": 1157.38
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2503,
+      "dataProximoConcurso": "23/07/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 40947273.0,
+      "valorAcumuladoConcurso_0_5": 8825912.37,
+      "valorAcumuladoConcursoEspecial": 71248600.28,
+      "valorAcumuladoProximoConcurso": 8248378.04,
+      "valorEstimadoProximoConcurso": 13000000.0
+    }
+  },
+  {
+    "draw_id": 2503,
+    "draw_date": "2022-07-23",
+    "numbers": [
+      3,
+      14,
+      16,
+      38,
+      43,
+      45
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2503,
+      "data": "23/07/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "45",
+        "43",
+        "14",
+        "16",
+        "38",
+        "03"
+      ],
+      "dezenas": [
+        "03",
+        "14",
+        "16",
+        "38",
+        "43",
+        "45"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 13748083.57
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 91,
+          "valorPremio": 32808.29
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5194,
+          "valorPremio": 821.15
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2504,
+      "dataProximoConcurso": "27/07/2022",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "CANAL ELETRONICO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "--"
+        }
+      ],
+      "valorArrecadado": 51782647.5,
+      "valorAcumuladoConcurso_0_5": 12282870.14,
+      "valorAcumuladoConcursoEspecial": 72034272.5,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 2504,
+    "draw_date": "2022-07-27",
+    "numbers": [
+      14,
+      33,
+      41,
+      42,
+      44,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2504,
+      "data": "27/07/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "42",
+        "14",
+        "41",
+        "55",
+        "44",
+        "33"
+      ],
+      "dezenas": [
+        "14",
+        "33",
+        "41",
+        "42",
+        "44",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 39,
+          "valorPremio": 46871.7
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2885,
+          "valorPremio": 905.17
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2505,
+      "dataProximoConcurso": "30/07/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 31705497.0,
+      "valorAcumuladoConcurso_0_5": 17766858.97,
+      "valorAcumuladoConcursoEspecial": 72515324.18,
+      "valorAcumuladoProximoConcurso": 17766858.97,
+      "valorEstimadoProximoConcurso": 22000000.0
+    }
+  },
+  {
+    "draw_id": 2505,
+    "draw_date": "2022-07-30",
+    "numbers": [
+      3,
+      5,
+      19,
+      26,
+      43,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2505,
+      "data": "30/07/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "43",
+        "26",
+        "05",
+        "51",
+        "03",
+        "19"
+      ],
+      "dezenas": [
+        "03",
+        "05",
+        "19",
+        "26",
+        "43",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 24271229.51
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 108,
+          "valorPremio": 32693.92
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6977,
+          "valorPremio": 722.97
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2506,
+      "dataProximoConcurso": "02/08/2022",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "CACAPAVA DO SUL",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RS"
+        }
+      ],
+      "valorArrecadado": 61242102.0,
+      "valorAcumuladoConcurso_0_5": 4088461.49,
+      "valorAcumuladoConcursoEspecial": 73444519.99,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 2506,
+    "draw_date": "2022-08-02",
+    "numbers": [
+      21,
+      22,
+      29,
+      34,
+      40,
+      44
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2506,
+      "data": "02/08/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "21",
+        "44",
+        "40",
+        "34",
+        "22",
+        "29"
+      ],
+      "dezenas": [
+        "21",
+        "22",
+        "29",
+        "34",
+        "40",
+        "44"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 12,
+          "valorPremio": 101318.72
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1145,
+          "valorPremio": 1516.93
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2507,
+      "dataProximoConcurso": "04/08/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 21087747.0,
+      "valorAcumuladoConcurso_0_5": 5496258.39,
+      "valorAcumuladoConcursoEspecial": 73764473.84,
+      "valorAcumuladoProximoConcurso": 2239676.89,
+      "valorEstimadoProximoConcurso": 6000000.0
+    }
+  },
+  {
+    "draw_id": 2507,
+    "draw_date": "2022-08-04",
+    "numbers": [
+      4,
+      6,
+      12,
+      34,
+      35,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2507,
+      "data": "04/08/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "04",
+        "34",
+        "06",
+        "35",
+        "12",
+        "53"
+      ],
+      "dezenas": [
+        "04",
+        "06",
+        "12",
+        "34",
+        "35",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 5543989.92
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 47,
+          "valorPremio": 38165.32
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3385,
+          "valorPremio": 757.02
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2508,
+      "dataProximoConcurso": "06/08/2022",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "MOSSORO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RN"
+        }
+      ],
+      "valorArrecadado": 31111861.5,
+      "valorAcumuladoConcurso_0_5": 7573255.15,
+      "valorAcumuladoConcursoEspecial": 74236518.56,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 2508,
+    "draw_date": "2022-08-06",
+    "numbers": [
+      41,
+      45,
+      48,
+      51,
+      53,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2508,
+      "data": "06/08/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "51",
+        "45",
+        "41",
+        "53",
+        "58",
+        "48"
+      ],
+      "dezenas": [
+        "41",
+        "45",
+        "48",
+        "51",
+        "53",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 26,
+          "valorPremio": 71728.72
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1510,
+          "valorPremio": 1764.37
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2509,
+      "dataProximoConcurso": "10/08/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 32346382.5,
+      "valorAcumuladoConcurso_0_5": 9732667.29,
+      "valorAcumuladoConcursoEspecial": 74727294.07,
+      "valorAcumuladoProximoConcurso": 3435428.42,
+      "valorEstimadoProximoConcurso": 8000000.0
+    }
+  },
+  {
+    "draw_id": 2509,
+    "draw_date": "2022-08-10",
+    "numbers": [
+      8,
+      37,
+      39,
+      50,
+      59,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2509,
+      "data": "10/08/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "50",
+        "08",
+        "37",
+        "59",
+        "39",
+        "60"
+      ],
+      "dezenas": [
+        "08",
+        "37",
+        "39",
+        "50",
+        "59",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 47,
+          "valorPremio": 48983.97
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2560,
+          "valorPremio": 1284.73
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2510,
+      "dataProximoConcurso": "13/08/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 39931078.5,
+      "valorAcumuladoConcurso_0_5": 20074834.59,
+      "valorAcumuladoConcursoEspecial": 75333148.37,
+      "valorAcumuladoProximoConcurso": 20074834.59,
+      "valorEstimadoProximoConcurso": 27000000.0
+    }
+  },
+  {
+    "draw_id": 2510,
+    "draw_date": "2022-08-13",
+    "numbers": [
+      8,
+      13,
+      25,
+      32,
+      44,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2510,
+      "data": "13/08/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "25",
+        "32",
+        "13",
+        "57",
+        "08",
+        "44"
+      ],
+      "dezenas": [
+        "08",
+        "13",
+        "25",
+        "32",
+        "44",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 4,
+          "valorPremio": 6670155.67
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 242,
+          "valorPremio": 14818.18
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10296,
+          "valorPremio": 497.55
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2511,
+      "dataProximoConcurso": "17/08/2022",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "CANAL ELETRONICO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "--"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "MORRETES",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "DUQUE DE CAXIAS",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "BARUERI",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 62197002.0,
+      "valorAcumuladoConcurso_0_5": 4152209.65,
+      "valorAcumuladoConcursoEspecial": 76276832.41,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 2511,
+    "draw_date": "2022-08-17",
+    "numbers": [
+      4,
+      10,
+      15,
+      39,
+      41,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2511,
+      "data": "17/08/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "49",
+        "39",
+        "04",
+        "15",
+        "41",
+        "10"
+      ],
+      "dezenas": [
+        "04",
+        "10",
+        "15",
+        "39",
+        "41",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 31,
+          "valorPremio": 55886.42
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2031,
+          "valorPremio": 1218.59
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2512,
+      "dataProximoConcurso": "20/08/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 30048804.0,
+      "valorAcumuladoConcurso_0_5": 6158237.75,
+      "valorAcumuladoConcursoEspecial": 76732747.89,
+      "valorAcumuladoProximoConcurso": 3191408.35,
+      "valorEstimadoProximoConcurso": 7500000.0
+    }
+  },
+  {
+    "draw_id": 2512,
+    "draw_date": "2022-08-20",
+    "numbers": [
+      7,
+      10,
+      34,
+      47,
+      49,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2512,
+      "data": "20/08/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "47",
+        "52",
+        "10",
+        "49",
+        "34",
+        "07"
+      ],
+      "dezenas": [
+        "07",
+        "10",
+        "34",
+        "47",
+        "49",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 81,
+          "valorPremio": 31030.62
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4382,
+          "valorPremio": 819.41
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2513,
+      "dataProximoConcurso": "24/08/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 43594798.5,
+      "valorAcumuladoConcurso_0_5": 9068582.91,
+      "valorAcumuladoConcursoEspecial": 77394189.99,
+      "valorAcumuladoProximoConcurso": 7821502.9,
+      "valorEstimadoProximoConcurso": 14000000.0
+    }
+  },
+  {
+    "draw_id": 2513,
+    "draw_date": "2022-08-24",
+    "numbers": [
+      13,
+      19,
+      21,
+      35,
+      46,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2513,
+      "data": "24/08/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "50",
+        "21",
+        "13",
+        "46",
+        "35",
+        "19"
+      ],
+      "dezenas": [
+        "13",
+        "19",
+        "21",
+        "35",
+        "46",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 62,
+          "valorPremio": 41501.26
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3823,
+          "valorPremio": 961.5
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2514,
+      "dataProximoConcurso": "27/08/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 44628493.5,
+      "valorAcumuladoConcurso_0_5": 12047936.5,
+      "valorAcumuladoConcursoEspecial": 78071315.82,
+      "valorAcumuladoProximoConcurso": 12561383.62,
+      "valorEstimadoProximoConcurso": 18000000.0
+    }
+  },
+  {
+    "draw_id": 2514,
+    "draw_date": "2022-08-27",
+    "numbers": [
+      5,
+      15,
+      24,
+      34,
+      45,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2514,
+      "data": "27/08/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "05",
+        "15",
+        "52",
+        "34",
+        "45",
+        "24"
+      ],
+      "dezenas": [
+        "05",
+        "15",
+        "24",
+        "34",
+        "45",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 52,
+          "valorPremio": 59901.15
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4477,
+          "valorPremio": 993.92
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2515,
+      "dataProximoConcurso": "31/08/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 54025366.5,
+      "valorAcumuladoConcurso_0_5": 33953898.66,
+      "valorAcumuladoConcursoEspecial": 78891015.7,
+      "valorAcumuladoProximoConcurso": 33953898.66,
+      "valorEstimadoProximoConcurso": 42000000.0
+    }
+  },
+  {
+    "draw_id": 2515,
+    "draw_date": "2022-08-31",
+    "numbers": [
+      3,
+      12,
+      19,
+      41,
+      45,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2515,
+      "data": "31/08/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "54",
+        "03",
+        "41",
+        "12",
+        "45",
+        "19"
+      ],
+      "dezenas": [
+        "03",
+        "12",
+        "19",
+        "41",
+        "45",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 97,
+          "valorPremio": 38822.29
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6861,
+          "valorPremio": 784.09
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2516,
+      "dataProximoConcurso": "03/09/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 65314876.5,
+      "valorAcumuladoConcurso_0_5": 4360355.84,
+      "valorAcumuladoConcursoEspecial": 79882005.68,
+      "valorAcumuladoProximoConcurso": 40890828.4,
+      "valorEstimadoProximoConcurso": 50000000.0
+    }
+  },
+  {
+    "draw_id": 2516,
+    "draw_date": "2022-09-03",
+    "numbers": [
+      8,
+      17,
+      49,
+      51,
+      52,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2516,
+      "data": "03/09/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "49",
+        "17",
+        "53",
+        "51",
+        "08",
+        "52"
+      ],
+      "dezenas": [
+        "08",
+        "17",
+        "49",
+        "51",
+        "52",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 94,
+          "valorPremio": 49051.86
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6665,
+          "valorPremio": 988.29
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2517,
+      "dataProximoConcurso": "08/09/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 79972857.0,
+      "valorAcumuladoConcurso_0_5": 9699263.8,
+      "valorAcumuladoConcursoEspecial": 81095393.86,
+      "valorAcumuladoProximoConcurso": 49384545.61,
+      "valorEstimadoProximoConcurso": 60000000.0
+    }
+  },
+  {
+    "draw_id": 2517,
+    "draw_date": "2022-09-08",
+    "numbers": [
+      1,
+      5,
+      6,
+      16,
+      22,
+      39
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2517,
+      "data": "08/09/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "06",
+        "01",
+        "22",
+        "16",
+        "05",
+        "39"
+      ],
+      "dezenas": [
+        "01",
+        "05",
+        "06",
+        "16",
+        "22",
+        "39"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 116,
+          "valorPremio": 38906.31
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8240,
+          "valorPremio": 782.44
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2518,
+      "dataProximoConcurso": "10/09/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 78277567.5,
+      "valorAcumuladoConcurso_0_5": 14924995.93,
+      "valorAcumuladoConcursoEspecial": 82283060.27,
+      "valorAcumuladoProximoConcurso": 57698210.35,
+      "valorEstimadoProximoConcurso": 70000000.0
+    }
+  },
+  {
+    "draw_id": 2518,
+    "draw_date": "2022-09-10",
+    "numbers": [
+      3,
+      22,
+      23,
+      44,
+      53,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2518,
+      "data": "10/09/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "22",
+        "23",
+        "44",
+        "03",
+        "60",
+        "53"
+      ],
+      "dezenas": [
+        "03",
+        "22",
+        "23",
+        "44",
+        "53",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 112,
+          "valorPremio": 39587.01
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7288,
+          "valorPremio": 869.08
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2519,
+      "dataProximoConcurso": "13/09/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 76900635.0,
+      "valorAcumuladoConcurso_0_5": 20058805.41,
+      "valorAcumuladoConcursoEspecial": 83449835.17,
+      "valorAcumuladoProximoConcurso": 65865634.54,
+      "valorEstimadoProximoConcurso": 75000000.0
+    }
+  },
+  {
+    "draw_id": 2519,
+    "draw_date": "2022-09-13",
+    "numbers": [
+      3,
+      8,
+      20,
+      36,
+      38,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2519,
+      "data": "13/09/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "20",
+        "08",
+        "03",
+        "36",
+        "57",
+        "38"
+      ],
+      "dezenas": [
+        "03",
+        "08",
+        "20",
+        "36",
+        "38",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 88,
+          "valorPremio": 46964.83
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6736,
+          "valorPremio": 876.5
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2520,
+      "dataProximoConcurso": "15/09/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 71682754.5,
+      "valorAcumuladoConcurso_0_5": 98323155.1,
+      "valorAcumuladoConcursoEspecial": 84537441.77,
+      "valorAcumuladoProximoConcurso": 98323155.1,
+      "valorEstimadoProximoConcurso": 110000000.0
+    }
+  },
+  {
+    "draw_id": 2520,
+    "draw_date": "2022-09-15",
+    "numbers": [
+      2,
+      17,
+      22,
+      41,
+      58,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2520,
+      "data": "15/09/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "22",
+        "41",
+        "02",
+        "17",
+        "60",
+        "58"
+      ],
+      "dezenas": [
+        "02",
+        "17",
+        "22",
+        "41",
+        "58",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 160,
+          "valorPremio": 39671.25
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10126,
+          "valorPremio": 895.48
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2521,
+      "dataProximoConcurso": "17/09/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 110091838.5,
+      "valorAcumuladoConcurso_0_5": 7349621.05,
+      "valorAcumuladoConcursoEspecial": 86207810.2,
+      "valorAcumuladoProximoConcurso": 110015734.03,
+      "valorEstimadoProximoConcurso": 125000000.0
+    }
+  },
+  {
+    "draw_id": 2521,
+    "draw_date": "2022-09-17",
+    "numbers": [
+      23,
+      28,
+      33,
+      38,
+      55,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2521,
+      "data": "17/09/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "59",
+        "23",
+        "28",
+        "55",
+        "33",
+        "38"
+      ],
+      "dezenas": [
+        "23",
+        "28",
+        "33",
+        "38",
+        "55",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 189,
+          "valorPremio": 42084.88
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 12204,
+          "valorPremio": 931.08
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2522,
+      "dataProximoConcurso": "21/09/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 137958084.0,
+      "valorAcumuladoConcurso_0_5": 16559564.77,
+      "valorAcumuladoConcursoEspecial": 88300979.25,
+      "valorAcumuladoProximoConcurso": 124667917.23,
+      "valorEstimadoProximoConcurso": 150000000.0
+    }
+  },
+  {
+    "draw_id": 2522,
+    "draw_date": "2022-09-21",
+    "numbers": [
+      4,
+      5,
+      25,
+      32,
+      39,
+      40
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2522,
+      "data": "21/09/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "32",
+        "04",
+        "25",
+        "39",
+        "40",
+        "05"
+      ],
+      "dezenas": [
+        "04",
+        "05",
+        "25",
+        "32",
+        "39",
+        "40"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 202,
+          "valorPremio": 54431.51
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 17799,
+          "valorPremio": 882.48
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2523,
+      "dataProximoConcurso": "24/09/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 190704505.5,
+      "valorAcumuladoConcurso_0_5": 29290806.85,
+      "valorAcumuladoConcursoEspecial": 91194443.37,
+      "valorAcumuladoProximoConcurso": 144922165.99,
+      "valorEstimadoProximoConcurso": 170000000.0
+    }
+  },
+  {
+    "draw_id": 2523,
+    "draw_date": "2022-09-24",
+    "numbers": [
+      1,
+      10,
+      27,
+      36,
+      37,
+      45
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2523,
+      "data": "24/09/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "37",
+        "45",
+        "01",
+        "27",
+        "10",
+        "36"
+      ],
+      "dezenas": [
+        "01",
+        "10",
+        "27",
+        "36",
+        "37",
+        "45"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 294,
+          "valorPremio": 44862.56
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 20572,
+          "valorPremio": 915.91
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2524,
+      "dataProximoConcurso": "28/09/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 228765568.5,
+      "valorAcumuladoConcurso_0_5": 44562967.43,
+      "valorAcumuladoConcursoEspecial": 94665388.98,
+      "valorAcumuladoProximoConcurso": 169218785.1,
+      "valorEstimadoProximoConcurso": 200000000.0
+    }
+  },
+  {
+    "draw_id": 2524,
+    "draw_date": "2022-09-28",
+    "numbers": [
+      3,
+      20,
+      22,
+      37,
+      41,
+      43
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2524,
+      "data": "28/09/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "22",
+        "37",
+        "03",
+        "41",
+        "43",
+        "20"
+      ],
+      "dezenas": [
+        "03",
+        "20",
+        "22",
+        "37",
+        "41",
+        "43"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 404,
+          "valorPremio": 43914.62
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 30194,
+          "valorPremio": 839.4
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2525,
+      "dataProximoConcurso": "01/10/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 307715733.0,
+      "valorAcumuladoConcurso_0_5": 267006265.85,
+      "valorAcumuladoConcursoEspecial": 99334205.96,
+      "valorAcumuladoProximoConcurso": 267006265.85,
+      "valorEstimadoProximoConcurso": 300000000.0
+    }
+  },
+  {
+    "draw_id": 2525,
+    "draw_date": "2022-10-01",
+    "numbers": [
+      4,
+      13,
+      21,
+      26,
+      47,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2525,
+      "data": "01/10/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "51",
+        "47",
+        "21",
+        "26",
+        "13",
+        "04"
+      ],
+      "dezenas": [
+        "04",
+        "13",
+        "21",
+        "26",
+        "47",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 158926894.27
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 814,
+          "valorPremio": 33910.24
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 52760,
+          "valorPremio": 747.39
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2526,
+      "dataProximoConcurso": "05/10/2022",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "CANAL ELETRONICO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "--"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "FERNANDOPOLIS",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 478756422.0,
+      "valorAcumuladoConcurso_0_5": 31961299.98,
+      "valorAcumuladoConcursoEspecial": 106598137.79,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 2526,
+    "draw_date": "2022-10-05",
+    "numbers": [
+      2,
+      16,
+      24,
+      38,
+      43,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2526,
+      "data": "05/10/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "02",
+        "59",
+        "24",
+        "38",
+        "16",
+        "43"
+      ],
+      "dezenas": [
+        "02",
+        "16",
+        "24",
+        "38",
+        "43",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 107,
+          "valorPremio": 21481.79
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4518,
+          "valorPremio": 726.79
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2527,
+      "dataProximoConcurso": "08/10/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 39866985.0,
+      "valorAcumuladoConcurso_0_5": 34622780.02,
+      "valorAcumuladoConcursoEspecial": 107203019.64,
+      "valorAcumuladoProximoConcurso": 4234172.81,
+      "valorEstimadoProximoConcurso": 8000000.0
+    }
+  },
+  {
+    "draw_id": 2527,
+    "draw_date": "2022-10-08",
+    "numbers": [
+      8,
+      19,
+      29,
+      38,
+      48,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2527,
+      "data": "08/10/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "48",
+        "56",
+        "19",
+        "38",
+        "29",
+        "08"
+      ],
+      "dezenas": [
+        "08",
+        "19",
+        "29",
+        "38",
+        "48",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 80,
+          "valorPremio": 40771.81
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4182,
+          "valorPremio": 1114.21
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2528,
+      "dataProximoConcurso": "13/10/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 56573005.5,
+      "valorAcumuladoConcurso_0_5": 38399537.29,
+      "valorAcumuladoConcursoEspecial": 108061373.59,
+      "valorAcumuladoProximoConcurso": 10242650.28,
+      "valorEstimadoProximoConcurso": 17000000.0
+    }
+  },
+  {
+    "draw_id": 2528,
+    "draw_date": "2022-10-13",
+    "numbers": [
+      4,
+      15,
+      22,
+      53,
+      56,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2528,
+      "data": "13/10/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "15",
+        "60",
+        "22",
+        "53",
+        "56",
+        "04"
+      ],
+      "dezenas": [
+        "04",
+        "15",
+        "22",
+        "53",
+        "56",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 64,
+          "valorPremio": 52828.97
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4684,
+          "valorPremio": 1031.18
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2529,
+      "dataProximoConcurso": "15/10/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 58642353.0,
+      "valorAcumuladoConcurso_0_5": 42314442.13,
+      "valorAcumuladoConcursoEspecial": 108951124.7,
+      "valorAcumuladoProximoConcurso": 16470907.98,
+      "valorEstimadoProximoConcurso": 23000000.0
+    }
+  },
+  {
+    "draw_id": 2529,
+    "draw_date": "2022-10-15",
+    "numbers": [
+      3,
+      5,
+      32,
+      56,
+      57,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2529,
+      "data": "15/10/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "05",
+        "57",
+        "56",
+        "59",
+        "32",
+        "03"
+      ],
+      "dezenas": [
+        "03",
+        "05",
+        "32",
+        "56",
+        "57",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 84,
+          "valorPremio": 43914.37
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5632,
+          "valorPremio": 935.67
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2530,
+      "dataProximoConcurso": "18/10/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 63980140.5,
+      "valorAcumuladoConcurso_0_5": 69851771.07,
+      "valorAcumuladoConcursoEspecial": 109921863.39,
+      "valorAcumuladoProximoConcurso": 69851771.07,
+      "valorEstimadoProximoConcurso": 77000000.0
+    }
+  },
+  {
+    "draw_id": 2530,
+    "draw_date": "2022-10-18",
+    "numbers": [
+      14,
+      17,
+      18,
+      28,
+      30,
+      44
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2530,
+      "data": "18/10/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "14",
+        "28",
+        "17",
+        "18",
+        "30",
+        "44"
+      ],
+      "dezenas": [
+        "14",
+        "17",
+        "18",
+        "28",
+        "30",
+        "44"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 80,
+          "valorPremio": 47236.83
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6922,
+          "valorPremio": 779.9
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2531,
+      "dataProximoConcurso": "20/10/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 65543553.0,
+      "valorAcumuladoConcurso_0_5": 4375622.05,
+      "valorAcumuladoConcursoEspecial": 110916322.96,
+      "valorAcumuladoProximoConcurso": 76812987.97,
+      "valorEstimadoProximoConcurso": 85000000.0
+    }
+  },
+  {
+    "draw_id": 2531,
+    "draw_date": "2022-10-20",
+    "numbers": [
+      1,
+      5,
+      18,
+      49,
+      55,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2531,
+      "data": "20/10/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "18",
+        "56",
+        "01",
+        "05",
+        "49",
+        "55"
+      ],
+      "dezenas": [
+        "01",
+        "05",
+        "18",
+        "49",
+        "55",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 107,
+          "valorPremio": 48811.72
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7174,
+          "valorPremio": 1040.03
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2532,
+      "dataProximoConcurso": "22/10/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 90587263.5,
+      "valorAcumuladoConcurso_0_5": 10423137.17,
+      "valorAcumuladoConcursoEspecial": 112290758.23,
+      "valorAcumuladoProximoConcurso": 86434034.75,
+      "valorEstimadoProximoConcurso": 100000000.0
+    }
+  },
+  {
+    "draw_id": 2532,
+    "draw_date": "2022-10-22",
+    "numbers": [
+      10,
+      14,
+      17,
+      18,
+      23,
+      30
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2532,
+      "data": "22/10/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "17",
+        "14",
+        "30",
+        "10",
+        "18",
+        "23"
+      ],
+      "dezenas": [
+        "10",
+        "14",
+        "17",
+        "18",
+        "23",
+        "30"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 259,
+          "valorPremio": 27167.77
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 18616,
+          "valorPremio": 539.96
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2533,
+      "dataProximoConcurso": "26/10/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 122043055.5,
+      "valorAcumuladoConcurso_0_5": 18570609.51,
+      "valorAcumuladoConcursoEspecial": 114142456.5,
+      "valorAcumuladoProximoConcurso": 99395922.57,
+      "valorEstimadoProximoConcurso": 115000000.0
+    }
+  },
+  {
+    "draw_id": 2533,
+    "draw_date": "2022-10-26",
+    "numbers": [
+      17,
+      18,
+      20,
+      37,
+      45,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2533,
+      "data": "26/10/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "53",
+        "20",
+        "17",
+        "37",
+        "45",
+        "18"
+      ],
+      "dezenas": [
+        "17",
+        "18",
+        "20",
+        "37",
+        "45",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 134,
+          "valorPremio": 59636.65
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11048,
+          "valorPremio": 1033.32
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2534,
+      "dataProximoConcurso": "29/10/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 138604491.0,
+      "valorAcumuladoConcurso_0_5": 27823706.72,
+      "valorAcumuladoConcursoEspecial": 116245433.16,
+      "valorAcumuladoProximoConcurso": 114116759.04,
+      "valorEstimadoProximoConcurso": 130000000.0
+    }
+  },
+  {
+    "draw_id": 2534,
+    "draw_date": "2022-10-29",
+    "numbers": [
+      28,
+      36,
+      39,
+      44,
+      56,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2534,
+      "data": "29/10/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "36",
+        "56",
+        "60",
+        "28",
+        "44",
+        "39"
+      ],
+      "dezenas": [
+        "28",
+        "36",
+        "39",
+        "44",
+        "56",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 131566946.59
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 176,
+          "valorPremio": 53823.63
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 12797,
+          "valorPremio": 1057.49
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2535,
+      "dataProximoConcurso": "03/11/2022",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "SAO PAULO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 164302780.5,
+      "valorAcumuladoConcurso_0_5": 38792396.04,
+      "valorAcumuladoConcursoEspecial": 118738317.11,
+      "valorAcumuladoProximoConcurso": 38792396.04,
+      "valorEstimadoProximoConcurso": 43000000.0
+    }
+  },
+  {
+    "draw_id": 2535,
+    "draw_date": "2022-11-03",
+    "numbers": [
+      1,
+      3,
+      24,
+      37,
+      51,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2535,
+      "data": "03/11/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "24",
+        "56",
+        "01",
+        "03",
+        "51",
+        "37"
+      ],
+      "dezenas": [
+        "01",
+        "03",
+        "24",
+        "37",
+        "51",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 59,
+          "valorPremio": 65724.45
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5885,
+          "valorPremio": 941.31
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2536,
+      "dataProximoConcurso": "05/11/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 67257108.0,
+      "valorAcumuladoConcurso_0_5": 4490017.27,
+      "valorAcumuladoConcursoEspecial": 119758775.61,
+      "valorAcumuladoProximoConcurso": 45935605.33,
+      "valorEstimadoProximoConcurso": 55000000.0
+    }
+  },
+  {
+    "draw_id": 2536,
+    "draw_date": "2022-11-05",
+    "numbers": [
+      9,
+      22,
+      27,
+      30,
+      33,
+      45
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2536,
+      "data": "05/11/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "45",
+        "09",
+        "27",
+        "30",
+        "33",
+        "22"
+      ],
+      "dezenas": [
+        "09",
+        "22",
+        "27",
+        "30",
+        "33",
+        "45"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 163,
+          "valorPremio": 28773.28
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10787,
+          "valorPremio": 621.12
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2537,
+      "dataProximoConcurso": "09/11/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 81346009.5,
+      "valorAcumuladoConcurso_0_5": 9920595.51,
+      "valorAcumuladoConcursoEspecial": 120992997.95,
+      "valorAcumuladoProximoConcurso": 54575161.62,
+      "valorEstimadoProximoConcurso": 65000000.0
+    }
+  },
+  {
+    "draw_id": 2537,
+    "draw_date": "2022-11-09",
+    "numbers": [
+      12,
+      24,
+      26,
+      31,
+      37,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2537,
+      "data": "09/11/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "24",
+        "26",
+        "48",
+        "37",
+        "12",
+        "31"
+      ],
+      "dezenas": [
+        "12",
+        "24",
+        "26",
+        "31",
+        "37",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 64250536.1
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 94,
+          "valorPremio": 55876.02
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9282,
+          "valorPremio": 808.37
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2538,
+      "dataProximoConcurso": "12/11/2022",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "GUARUJA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 91098787.5,
+      "valorAcumuladoConcurso_0_5": 16002259.47,
+      "valorAcumuladoConcursoEspecial": 122375194.31,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 2538,
+    "draw_date": "2022-11-12",
+    "numbers": [
+      6,
+      15,
+      19,
+      20,
+      33,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2538,
+      "data": "12/11/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "33",
+        "15",
+        "06",
+        "52",
+        "20",
+        "19"
+      ],
+      "dezenas": [
+        "06",
+        "15",
+        "19",
+        "20",
+        "33",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 45,
+          "valorPremio": 58352.66
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4693,
+          "valorPremio": 799.32
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2539,
+      "dataProximoConcurso": "16/11/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 45544135.5,
+      "valorAcumuladoConcurso_0_5": 19042740.41,
+      "valorAcumuladoConcursoEspecial": 123066212.72,
+      "valorAcumuladoProximoConcurso": 4837128.77,
+      "valorEstimadoProximoConcurso": 10000000.0
+    }
+  },
+  {
+    "draw_id": 2539,
+    "draw_date": "2022-11-16",
+    "numbers": [
+      1,
+      23,
+      32,
+      33,
+      36,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2539,
+      "data": "16/11/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "59",
+        "36",
+        "23",
+        "01",
+        "33",
+        "32"
+      ],
+      "dezenas": [
+        "01",
+        "23",
+        "32",
+        "33",
+        "36",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 32,
+          "valorPremio": 75686.31
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3223,
+          "valorPremio": 1073.51
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2540,
+      "dataProximoConcurso": "19/11/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 42007473.0,
+      "valorAcumuladoConcurso_0_5": 31145754.74,
+      "valorAcumuladoConcursoEspecial": 123703571.12,
+      "valorAcumuladoProximoConcurso": 31145754.74,
+      "valorEstimadoProximoConcurso": 38000000.0
+    }
+  },
+  {
+    "draw_id": 2540,
+    "draw_date": "2022-11-19",
+    "numbers": [
+      2,
+      8,
+      28,
+      34,
+      41,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2540,
+      "data": "19/11/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "28",
+        "08",
+        "49",
+        "34",
+        "41",
+        "02"
+      ],
+      "dezenas": [
+        "02",
+        "08",
+        "28",
+        "34",
+        "41",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 90,
+          "valorPremio": 45937.77
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6404,
+          "valorPremio": 922.28
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2541,
+      "dataProximoConcurso": "22/11/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 71708665.5,
+      "valorAcumuladoConcurso_0_5": 4787198.8,
+      "valorAcumuladoConcursoEspecial": 124791570.86,
+      "valorAcumuladoProximoConcurso": 38761752.82,
+      "valorEstimadoProximoConcurso": 46000000.0
+    }
+  },
+  {
+    "draw_id": 2541,
+    "draw_date": "2022-11-22",
+    "numbers": [
+      10,
+      28,
+      45,
+      47,
+      57,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2541,
+      "data": "22/11/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "47",
+        "45",
+        "28",
+        "59",
+        "10",
+        "57"
+      ],
+      "dezenas": [
+        "10",
+        "28",
+        "45",
+        "47",
+        "57",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 51,
+          "valorPremio": 55525.68
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3793,
+          "valorPremio": 1066.55
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2542,
+      "dataProximoConcurso": "24/11/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 49116033.0,
+      "valorAcumuladoConcurso_0_5": 8066136.04,
+      "valorAcumuladoConcursoEspecial": 125536783.89,
+      "valorAcumuladoProximoConcurso": 43978243.89,
+      "valorEstimadoProximoConcurso": 50000000.0
+    }
+  },
+  {
+    "draw_id": 2542,
+    "draw_date": "2022-11-24",
+    "numbers": [
+      12,
+      20,
+      22,
+      25,
+      26,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2542,
+      "data": "24/11/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "25",
+        "22",
+        "12",
+        "26",
+        "55",
+        "20"
+      ],
+      "dezenas": [
+        "12",
+        "20",
+        "22",
+        "25",
+        "26",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 74,
+          "valorPremio": 42474.1
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5246,
+          "valorPremio": 855.91
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2543,
+      "dataProximoConcurso": "26/11/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 54514890.0,
+      "valorAcumuladoConcurso_0_5": 11705495.58,
+      "valorAcumuladoConcursoEspecial": 126363911.07,
+      "valorAcumuladoProximoConcurso": 49768134.07,
+      "valorEstimadoProximoConcurso": 57000000.0
+    }
+  },
+  {
+    "draw_id": 2543,
+    "draw_date": "2022-11-26",
+    "numbers": [
+      2,
+      5,
+      27,
+      30,
+      46,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2543,
+      "data": "26/11/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "46",
+        "05",
+        "53",
+        "02",
+        "27",
+        "30"
+      ],
+      "dezenas": [
+        "02",
+        "05",
+        "27",
+        "30",
+        "46",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 138,
+          "valorPremio": 29679.12
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7475,
+          "valorPremio": 782.74
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2544,
+      "dataProximoConcurso": "30/11/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 71037765.0,
+      "valorAcumuladoConcurso_0_5": 16447905.72,
+      "valorAcumuladoConcursoEspecial": 127441731.57,
+      "valorAcumuladoProximoConcurso": 57312877.49,
+      "valorEstimadoProximoConcurso": 65000000.0
+    }
+  },
+  {
+    "draw_id": 2544,
+    "draw_date": "2022-11-30",
+    "numbers": [
+      25,
+      38,
+      45,
+      53,
+      55,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2544,
+      "data": "30/11/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "25",
+        "56",
+        "55",
+        "38",
+        "45",
+        "53"
+      ],
+      "dezenas": [
+        "25",
+        "38",
+        "45",
+        "53",
+        "55",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 71,
+          "valorPremio": 61889.52
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6119,
+          "valorPremio": 1025.88
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2545,
+      "dataProximoConcurso": "03/12/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 76213998.0,
+      "valorAcumuladoConcurso_0_5": 86943251.69,
+      "valorAcumuladoConcursoEspecial": 128598088.47,
+      "valorAcumuladoProximoConcurso": 86943251.69,
+      "valorEstimadoProximoConcurso": 100000000.0
+    }
+  },
+  {
+    "draw_id": 2545,
+    "draw_date": "2022-12-03",
+    "numbers": [
+      20,
+      23,
+      32,
+      36,
+      39,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2545,
+      "data": "03/12/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "57",
+        "36",
+        "32",
+        "39",
+        "20",
+        "23"
+      ],
+      "dezenas": [
+        "20",
+        "23",
+        "32",
+        "36",
+        "39",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 94,
+          "valorPremio": 66967.36
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8855,
+          "valorPremio": 1015.55
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2546,
+      "dataProximoConcurso": "07/12/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 109181808.0,
+      "valorAcumuladoConcurso_0_5": 7288868.32,
+      "valorAcumuladoConcursoEspecial": 130254649.47,
+      "valorAcumuladoProximoConcurso": 98539178.55,
+      "valorEstimadoProximoConcurso": 115000000.0
+    }
+  },
+  {
+    "draw_id": 2546,
+    "draw_date": "2022-12-07",
+    "numbers": [
+      3,
+      23,
+      28,
+      34,
+      38,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2546,
+      "data": "07/12/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "34",
+        "03",
+        "48",
+        "28",
+        "23",
+        "38"
+      ],
+      "dezenas": [
+        "03",
+        "23",
+        "28",
+        "34",
+        "38",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 128,
+          "valorPremio": 49345.74
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9138,
+          "valorPremio": 987.43
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2547,
+      "dataProximoConcurso": "10/12/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 109551649.5,
+      "valorAcumuladoConcurso_0_5": 14602426.89,
+      "valorAcumuladoConcursoEspecial": 131916821.89,
+      "valorAcumuladoProximoConcurso": 110174385.36,
+      "valorEstimadoProximoConcurso": 125000000.0
+    }
+  },
+  {
+    "draw_id": 2547,
+    "draw_date": "2022-12-10",
+    "numbers": [
+      10,
+      25,
+      31,
+      37,
+      38,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2547,
+      "data": "10/12/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "37",
+        "10",
+        "38",
+        "25",
+        "31",
+        "57"
+      ],
+      "dezenas": [
+        "10",
+        "25",
+        "31",
+        "37",
+        "38",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 100,
+          "valorPremio": 65769.2
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8588,
+          "valorPremio": 1094.03
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2548,
+      "dataProximoConcurso": "14/12/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 114072727.5,
+      "valorAcumuladoConcurso_0_5": 22217808.1,
+      "valorAcumuladoConcursoEspecial": 133647590.35,
+      "valorAcumuladoProximoConcurso": 122289764.56,
+      "valorEstimadoProximoConcurso": 135000000.0
+    }
+  },
+  {
+    "draw_id": 2548,
+    "draw_date": "2022-12-14",
+    "numbers": [
+      9,
+      15,
+      23,
+      25,
+      29,
+      30
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2548,
+      "data": "14/12/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "25",
+        "23",
+        "29",
+        "30",
+        "09",
+        "15"
+      ],
+      "dezenas": [
+        "09",
+        "15",
+        "23",
+        "25",
+        "29",
+        "30"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 134811174.29
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 186,
+          "valorPremio": 36544.82
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 12011,
+          "valorPremio": 808.46
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2549,
+      "dataProximoConcurso": "17/12/2022",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "CANAL ELETRONICO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "--"
+        }
+      ],
+      "valorArrecadado": 117895720.5,
+      "valorAcumuladoConcurso_0_5": 30088408.5,
+      "valorAcumuladoConcursoEspecial": 135436363.19,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 2549,
+    "draw_date": "2022-12-17",
+    "numbers": [
+      1,
+      6,
+      10,
+      30,
+      33,
+      35
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2549,
+      "data": "17/12/2022",
+      "local": "ESPA\u00c7O DA SORTE em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "30",
+        "10",
+        "33",
+        "01",
+        "06",
+        "35"
+      ],
+      "dezenas": [
+        "01",
+        "06",
+        "10",
+        "30",
+        "33",
+        "35"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 107,
+          "valorPremio": 22867.86
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5232,
+          "valorPremio": 668.1
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2550,
+      "dataProximoConcurso": "31/12/2022",
+      "localGanhadores": [],
+      "valorArrecadado": 42439333.5,
+      "valorAcumuladoConcurso_0_5": 173509265.45,
+      "valorAcumuladoConcursoEspecial": 173509265.45,
+      "valorAcumuladoProximoConcurso": 173509265.45,
+      "valorEstimadoProximoConcurso": 540000000.0
+    }
+  },
+  {
+    "draw_id": 2550,
+    "draw_date": "2022-12-31",
+    "numbers": [
+      4,
+      5,
+      10,
+      34,
+      58,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2550,
+      "data": "31/12/2022",
+      "local": "EST\u00daDIO REDE GLOBO em S\u00c3O PAULO, SP",
+      "concursoEspecial": true,
+      "dezenasOrdemSorteio": [
+        "59",
+        "34",
+        "04",
+        "58",
+        "10",
+        "05"
+      ],
+      "dezenas": [
+        "04",
+        "05",
+        "10",
+        "34",
+        "58",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 5,
+          "valorPremio": 108393993.26
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 2485,
+          "valorPremio": 45438.78
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 183921,
+          "valorPremio": 877.04
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2551,
+      "dataProximoConcurso": "04/01/2023",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "CANAL ELETRONICO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "--"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "FLORESTAL",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "ARROIO DO SAL",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RS"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "SANTOS",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "SAO JOSE DA BELA VISTA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 1958449342.5,
+      "valorAcumuladoConcurso_0_5": 0.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  }
+]

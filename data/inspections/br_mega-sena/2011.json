@@ -1,0 +1,7673 @@
+[
+  {
+    "draw_id": 1246,
+    "draw_date": "2011-01-05",
+    "numbers": [
+      10,
+      37,
+      40,
+      43,
+      57,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1246,
+      "data": "05/01/2011",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O SEBASTI\u00c3O , SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "59",
+        "10",
+        "37",
+        "57",
+        "40",
+        "43"
+      ],
+      "dezenas": [
+        "10",
+        "37",
+        "40",
+        "43",
+        "57",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 46,
+          "valorPremio": 25351.73
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3939,
+          "valorPremio": 422.94
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1247,
+      "dataProximoConcurso": "08/01/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 19919216.0,
+      "valorAcumuladoConcurso_0_5": 1350313.16,
+      "valorAcumuladoConcursoEspecial": 306889.37,
+      "valorAcumuladoProximoConcurso": 2148225.48,
+      "valorEstimadoProximoConcurso": 4700000.0
+    }
+  },
+  {
+    "draw_id": 1247,
+    "draw_date": "2011-01-08",
+    "numbers": [
+      3,
+      9,
+      11,
+      24,
+      36,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1247,
+      "data": "08/01/2011",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O SEBASTI\u00c3O, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "09",
+        "11",
+        "24",
+        "03",
+        "51",
+        "36"
+      ],
+      "dezenas": [
+        "03",
+        "09",
+        "11",
+        "24",
+        "36",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 164,
+          "valorPremio": 9098.41
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9543,
+          "valorPremio": 223.37
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1248,
+      "dataProximoConcurso": "12/01/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 25486842.0,
+      "valorAcumuladoConcurso_0_5": 3078052.75,
+      "valorAcumuladoConcursoEspecial": 699557.47,
+      "valorAcumuladoProximoConcurso": 4896902.11,
+      "valorEstimadoProximoConcurso": 8000000.0
+    }
+  },
+  {
+    "draw_id": 1248,
+    "draw_date": "2011-01-12",
+    "numbers": [
+      20,
+      33,
+      34,
+      57,
+      58,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1248,
+      "data": "12/01/2011",
+      "local": "Caminh\u00e3o da Sorte em ILHABELA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "20",
+        "33",
+        "58",
+        "34",
+        "57",
+        "60"
+      ],
+      "dezenas": [
+        "20",
+        "33",
+        "34",
+        "57",
+        "58",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 86,
+          "valorPremio": 18318.69
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3832,
+          "valorPremio": 587.31
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1249,
+      "dataProximoConcurso": "15/01/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 26909134.0,
+      "valorAcumuladoConcurso_0_5": 4902208.77,
+      "valorAcumuladoConcursoEspecial": 1114138.4,
+      "valorAcumuladoProximoConcurso": 7798968.5,
+      "valorEstimadoProximoConcurso": 11000000.0
+    }
+  },
+  {
+    "draw_id": 1249,
+    "draw_date": "2011-01-15",
+    "numbers": [
+      3,
+      8,
+      36,
+      40,
+      51,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1249,
+      "data": "15/01/2011",
+      "local": "Caminh\u00e3o da Sorte em ILHABELA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "03",
+        "40",
+        "08",
+        "53",
+        "51",
+        "36"
+      ],
+      "dezenas": [
+        "03",
+        "08",
+        "36",
+        "40",
+        "51",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 11177972.67
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 103,
+          "valorPremio": 17808.9
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5887,
+          "valorPremio": 445.12
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1250,
+      "dataProximoConcurso": "19/01/2011",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "S\u00c3O PAULO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 31331494.0,
+      "valorAcumuladoConcurso_0_5": 7026154.24,
+      "valorAcumuladoConcursoEspecial": 1596853.29,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 9000000.0
+    }
+  },
+  {
+    "draw_id": 1250,
+    "draw_date": "2011-01-19",
+    "numbers": [
+      1,
+      2,
+      24,
+      40,
+      51,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1250,
+      "data": "19/01/2011",
+      "local": "Audit\u00f3rio em BRAS\u00cdLIA, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "59",
+        "01",
+        "02",
+        "40",
+        "51",
+        "24"
+      ],
+      "dezenas": [
+        "01",
+        "02",
+        "24",
+        "40",
+        "51",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 61,
+          "valorPremio": 23819.88
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4394,
+          "valorPremio": 472.4
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1251,
+      "dataProximoConcurso": "22/01/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 24818540.0,
+      "valorAcumuladoConcurso_0_5": 1682435.75,
+      "valorAcumuladoConcursoEspecial": 1979225.06,
+      "valorAcumuladoProximoConcurso": 9702756.58,
+      "valorEstimadoProximoConcurso": 12000000.0
+    }
+  },
+  {
+    "draw_id": 1251,
+    "draw_date": "2011-01-22",
+    "numbers": [
+      5,
+      27,
+      34,
+      46,
+      48,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1251,
+      "data": "22/01/2011",
+      "local": "Audit\u00f3rio em BRAS\u00cdLIA, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "48",
+        "27",
+        "34",
+        "52",
+        "46",
+        "05"
+      ],
+      "dezenas": [
+        "05",
+        "27",
+        "34",
+        "46",
+        "48",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 261,
+          "valorPremio": 6814.23
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9795,
+          "valorPremio": 259.39
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1252,
+      "dataProximoConcurso": "26/01/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 30378346.0,
+      "valorAcumuladoConcurso_0_5": 3741767.82,
+      "valorAcumuladoConcursoEspecial": 2447255.1,
+      "valorAcumuladoProximoConcurso": 12978966.7,
+      "valorEstimadoProximoConcurso": 17000000.0
+    }
+  },
+  {
+    "draw_id": 1252,
+    "draw_date": "2011-01-26",
+    "numbers": [
+      2,
+      14,
+      35,
+      39,
+      49,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1252,
+      "data": "26/01/2011",
+      "local": "Caminh\u00e3o da Sorte em ITAPEMA, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "35",
+        "02",
+        "51",
+        "14",
+        "49",
+        "39"
+      ],
+      "dezenas": [
+        "02",
+        "14",
+        "35",
+        "39",
+        "49",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 67,
+          "valorPremio": 26937.47
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4975,
+          "valorPremio": 518.25
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1253,
+      "dataProximoConcurso": "29/01/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 30827508.0,
+      "valorAcumuladoConcurso_0_5": 5831548.36,
+      "valorAcumuladoConcursoEspecial": 2922205.24,
+      "valorAcumuladoProximoConcurso": 16303617.54,
+      "valorEstimadoProximoConcurso": 20000000.0
+    }
+  },
+  {
+    "draw_id": 1253,
+    "draw_date": "2011-01-29",
+    "numbers": [
+      2,
+      17,
+      23,
+      43,
+      44,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1253,
+      "data": "29/01/2011",
+      "local": "Caminh\u00e3o da Sorte em ITAPEMA, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "02",
+        "51",
+        "17",
+        "44",
+        "43",
+        "23"
+      ],
+      "dezenas": [
+        "02",
+        "17",
+        "23",
+        "43",
+        "44",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 99,
+          "valorPremio": 19092.84
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7284,
+          "valorPremio": 370.71
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1254,
+      "dataProximoConcurso": "02/02/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 32285876.0,
+      "valorAcumuladoConcurso_0_5": 8020190.88,
+      "valorAcumuladoConcursoEspecial": 3419624.01,
+      "valorAcumuladoProximoConcurso": 19785548.84,
+      "valorEstimadoProximoConcurso": 24000000.0
+    }
+  },
+  {
+    "draw_id": 1254,
+    "draw_date": "2011-02-02",
+    "numbers": [
+      7,
+      9,
+      14,
+      18,
+      29,
+      39
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1254,
+      "data": "02/02/2011",
+      "local": "Caminh\u00e3o da Sorte em FLORIAN\u00d3POLIS, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "09",
+        "29",
+        "18",
+        "07",
+        "14",
+        "39"
+      ],
+      "dezenas": [
+        "07",
+        "09",
+        "14",
+        "18",
+        "29",
+        "39"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 142,
+          "valorPremio": 15443.85
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9454,
+          "valorPremio": 331.38
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1255,
+      "dataProximoConcurso": "05/02/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 37458520.0,
+      "valorAcumuladoConcurso_0_5": 34384817.93,
+      "valorAcumuladoConcursoEspecial": 3996736.15,
+      "valorAcumuladoProximoConcurso": 34384817.93,
+      "valorEstimadoProximoConcurso": 40000000.0
+    }
+  },
+  {
+    "draw_id": 1255,
+    "draw_date": "2011-02-05",
+    "numbers": [
+      5,
+      23,
+      38,
+      39,
+      51,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1255,
+      "data": "05/02/2011",
+      "local": "Caminh\u00e3o da Sorte em FLORIAN\u00d3POLIS, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "23",
+        "05",
+        "54",
+        "39",
+        "38",
+        "51"
+      ],
+      "dezenas": [
+        "05",
+        "23",
+        "38",
+        "39",
+        "51",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 155,
+          "valorPremio": 18671.52
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11485,
+          "valorPremio": 359.98
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1256,
+      "dataProximoConcurso": "09/02/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 49433152.0,
+      "valorAcumuladoConcurso_0_5": 3351047.35,
+      "valorAcumuladoConcursoEspecial": 4758337.83,
+      "valorAcumuladoProximoConcurso": 39716029.61,
+      "valorEstimadoProximoConcurso": 46000000.0
+    }
+  },
+  {
+    "draw_id": 1256,
+    "draw_date": "2011-02-09",
+    "numbers": [
+      26,
+      33,
+      35,
+      38,
+      43,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1256,
+      "data": "09/02/2011",
+      "local": "Caminh\u00e3o da Sorte em BALNE\u00c1RIO ARROIO DO SILVA, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "26",
+        "38",
+        "33",
+        "35",
+        "53",
+        "43"
+      ],
+      "dezenas": [
+        "26",
+        "33",
+        "35",
+        "38",
+        "43",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 121,
+          "valorPremio": 26009.88
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8843,
+          "valorPremio": 508.42
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1257,
+      "dataProximoConcurso": "12/02/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 53756440.0,
+      "valorAcumuladoConcurso_0_5": 6995168.11,
+      "valorAcumuladoConcursoEspecial": 5586547.1,
+      "valorAcumuladoProximoConcurso": 45513494.46,
+      "valorEstimadoProximoConcurso": 52000000.0
+    }
+  },
+  {
+    "draw_id": 1257,
+    "draw_date": "2011-02-12",
+    "numbers": [
+      2,
+      15,
+      26,
+      27,
+      30,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1257,
+      "data": "12/02/2011",
+      "local": "Caminh\u00e3o da Sorte em BALNE\u00c1RIO ARROIO DO SILVA, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "27",
+        "15",
+        "30",
+        "52",
+        "26",
+        "02"
+      ],
+      "dezenas": [
+        "02",
+        "15",
+        "26",
+        "27",
+        "30",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 26211767.61
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 154,
+          "valorPremio": 24358.21
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11765,
+          "valorPremio": 455.48
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1258,
+      "dataProximoConcurso": "16/02/2011",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "MADALENA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "CE"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "RIO DE JANEIRO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        }
+      ],
+      "valorArrecadado": 64072694.0,
+      "valorAcumuladoConcurso_0_5": 11338622.3,
+      "valorAcumuladoConcursoEspecial": 6573695.79,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 1258,
+    "draw_date": "2011-02-16",
+    "numbers": [
+      11,
+      26,
+      47,
+      55,
+      57,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1258,
+      "data": "16/02/2011",
+      "local": "Caminh\u00e3o da Sorte em CAP\u00c3O DA CANOA, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "47",
+        "26",
+        "11",
+        "57",
+        "59",
+        "55"
+      ],
+      "dezenas": [
+        "11",
+        "26",
+        "47",
+        "55",
+        "57",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 27,
+          "valorPremio": 45045.03
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2688,
+          "valorPremio": 646.37
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1259,
+      "dataProximoConcurso": "19/02/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 20773872.0,
+      "valorAcumuladoConcurso_0_5": 12746872.14,
+      "valorAcumuladoConcursoEspecial": 6893752.58,
+      "valorAcumuladoProximoConcurso": 2240397.48,
+      "valorEstimadoProximoConcurso": 5000000.0
+    }
+  },
+  {
+    "draw_id": 1259,
+    "draw_date": "2011-02-19",
+    "numbers": [
+      4,
+      6,
+      39,
+      46,
+      54,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1259,
+      "data": "19/02/2011",
+      "local": "Caminh\u00e3o da Sorte em CAP\u00c3O DA CANOA, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "39",
+        "54",
+        "58",
+        "46",
+        "04",
+        "06"
+      ],
+      "dezenas": [
+        "04",
+        "06",
+        "39",
+        "46",
+        "54",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 74,
+          "valorPremio": 21208.42
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5240,
+          "valorPremio": 427.86
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1260,
+      "dataProximoConcurso": "23/02/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 26806906.0,
+      "valorAcumuladoConcurso_0_5": 19695537.06,
+      "valorAcumuladoConcursoEspecial": 7306758.51,
+      "valorAcumuladoProximoConcurso": 19695537.06,
+      "valorEstimadoProximoConcurso": 23000000.0
+    }
+  },
+  {
+    "draw_id": 1260,
+    "draw_date": "2011-02-23",
+    "numbers": [
+      19,
+      23,
+      29,
+      31,
+      41,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1260,
+      "data": "23/02/2011",
+      "local": "Caminh\u00e3o da Sorte em TRAMANDA\u00cd, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "19",
+        "23",
+        "31",
+        "53",
+        "29",
+        "41"
+      ],
+      "dezenas": [
+        "19",
+        "23",
+        "29",
+        "31",
+        "41",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 70,
+          "valorPremio": 30497.83
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5798,
+          "valorPremio": 526.0
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1261,
+      "dataProximoConcurso": "26/02/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 36464798.0,
+      "valorAcumuladoConcurso_0_5": 2471929.46,
+      "valorAcumuladoConcursoEspecial": 7868560.67,
+      "valorAcumuladoProximoConcurso": 23628152.1,
+      "valorEstimadoProximoConcurso": 28000000.0
+    }
+  },
+  {
+    "draw_id": 1261,
+    "draw_date": "2011-02-26",
+    "numbers": [
+      10,
+      14,
+      22,
+      41,
+      42,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1261,
+      "data": "26/02/2011",
+      "local": "Caminh\u00e3o da Sorte em TRAMANDA\u00cd, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "10",
+        "41",
+        "14",
+        "22",
+        "53",
+        "42"
+      ],
+      "dezenas": [
+        "10",
+        "14",
+        "22",
+        "41",
+        "42",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 78,
+          "valorPremio": 32348.2
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6490,
+          "valorPremio": 555.39
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1262,
+      "dataProximoConcurso": "02/03/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 43097450.0,
+      "valorAcumuladoConcurso_0_5": 5393482.9,
+      "valorAcumuladoConcursoEspecial": 8532550.11,
+      "valorAcumuladoProximoConcurso": 28276078.02,
+      "valorEstimadoProximoConcurso": 33000000.0
+    }
+  },
+  {
+    "draw_id": 1262,
+    "draw_date": "2011-03-02",
+    "numbers": [
+      5,
+      7,
+      8,
+      9,
+      11,
+      39
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1262,
+      "data": "02/03/2011",
+      "local": "Caminh\u00e3o da Sorte em PARATY, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "11",
+        "39",
+        "09",
+        "05",
+        "08",
+        "07"
+      ],
+      "dezenas": [
+        "05",
+        "07",
+        "08",
+        "09",
+        "11",
+        "39"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 16677746.77
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 440,
+          "valorPremio": 6266.81
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 25528,
+          "valorPremio": 154.3
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1263,
+      "dataProximoConcurso": "05/03/2011",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "RIO DE JANEIRO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "S\u00c3O JOS\u00c9 DOS CAMPOS",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 47098396.0,
+      "valorAcumuladoConcurso_0_5": 8586258.36,
+      "valorAcumuladoConcursoEspecial": 9258180.92,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1263,
+    "draw_date": "2011-03-05",
+    "numbers": [
+      4,
+      18,
+      26,
+      36,
+      41,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1263,
+      "data": "05/03/2011",
+      "local": "Caminh\u00e3o da Sorte em PARATY, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "41",
+        "53",
+        "18",
+        "04",
+        "36",
+        "26"
+      ],
+      "dezenas": [
+        "04",
+        "18",
+        "26",
+        "36",
+        "41",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 79,
+          "valorPremio": 17195.98
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4180,
+          "valorPremio": 464.27
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1264,
+      "dataProximoConcurso": "09/03/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 23203890.0,
+      "valorAcumuladoConcurso_0_5": 10159237.83,
+      "valorAcumuladoConcursoEspecial": 9615676.26,
+      "valorAcumuladoProximoConcurso": 2502467.36,
+      "valorEstimadoProximoConcurso": 5000000.0
+    }
+  },
+  {
+    "draw_id": 1264,
+    "draw_date": "2011-03-09",
+    "numbers": [
+      4,
+      17,
+      36,
+      37,
+      51,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1264,
+      "data": "09/03/2011",
+      "local": "Caminh\u00e3o da Sorte em PORANGATU, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "56",
+        "17",
+        "37",
+        "51",
+        "04",
+        "36"
+      ],
+      "dezenas": [
+        "04",
+        "17",
+        "36",
+        "37",
+        "51",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 29,
+          "valorPremio": 29003.13
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2583,
+          "valorPremio": 465.17
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1265,
+      "dataProximoConcurso": "12/03/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 14366458.0,
+      "valorAcumuladoConcurso_0_5": 15184977.6,
+      "valorAcumuladoConcursoEspecial": 9837015.96,
+      "valorAcumuladoProximoConcurso": 15184977.6,
+      "valorEstimadoProximoConcurso": 18000000.0
+    }
+  },
+  {
+    "draw_id": 1265,
+    "draw_date": "2011-03-12",
+    "numbers": [
+      13,
+      19,
+      24,
+      46,
+      50,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1265,
+      "data": "12/03/2011",
+      "local": "Caminh\u00e3o da Sorte em PORANGATU, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "13",
+        "50",
+        "46",
+        "24",
+        "60",
+        "19"
+      ],
+      "dezenas": [
+        "13",
+        "19",
+        "24",
+        "46",
+        "50",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 97,
+          "valorPremio": 21519.92
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7669,
+          "valorPremio": 388.84
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1266,
+      "dataProximoConcurso": "16/03/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 35654892.0,
+      "valorAcumuladoConcurso_0_5": 2417026.36,
+      "valorAcumuladoConcursoEspecial": 10386340.14,
+      "valorAcumuladoProximoConcurso": 19030246.79,
+      "valorEstimadoProximoConcurso": 23000000.0
+    }
+  },
+  {
+    "draw_id": 1266,
+    "draw_date": "2011-03-16",
+    "numbers": [
+      6,
+      10,
+      33,
+      39,
+      42,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1266,
+      "data": "16/03/2011",
+      "local": "Caminh\u00e3o da Sorte em APARECIDA DE GOI\u00c2NIA, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "39",
+        "06",
+        "42",
+        "10",
+        "60",
+        "33"
+      ],
+      "dezenas": [
+        "06",
+        "10",
+        "33",
+        "39",
+        "42",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 106,
+          "valorPremio": 21310.49
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8019,
+          "valorPremio": 402.42
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1267,
+      "dataProximoConcurso": "19/03/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 38583902.0,
+      "valorAcumuladoConcurso_0_5": 5032608.75,
+      "valorAcumuladoConcursoEspecial": 10980790.71,
+      "valorAcumuladoProximoConcurso": 23191400.61,
+      "valorEstimadoProximoConcurso": 27000000.0
+    }
+  },
+  {
+    "draw_id": 1267,
+    "draw_date": "2011-03-19",
+    "numbers": [
+      4,
+      20,
+      30,
+      41,
+      47,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1267,
+      "data": "19/03/2011",
+      "local": "Caminh\u00e3o da Sorte em APARECIDA DE GOI\u00c2NIA, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "47",
+        "58",
+        "04",
+        "41",
+        "20",
+        "30"
+      ],
+      "dezenas": [
+        "04",
+        "20",
+        "30",
+        "41",
+        "47",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 56,
+          "valorPremio": 45560.13
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5172,
+          "valorPremio": 704.71
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1268,
+      "dataProximoConcurso": "23/03/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 43579250.0,
+      "valorAcumuladoConcurso_0_5": 7986823.16,
+      "valorAcumuladoConcursoEspecial": 11652203.09,
+      "valorAcumuladoProximoConcurso": 27891287.17,
+      "valorEstimadoProximoConcurso": 33000000.0
+    }
+  },
+  {
+    "draw_id": 1268,
+    "draw_date": "2011-03-23",
+    "numbers": [
+      3,
+      16,
+      17,
+      44,
+      53,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1268,
+      "data": "23/03/2011",
+      "local": "Caminh\u00e3o da Sorte em Luzi\u00e2nia, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "17",
+        "53",
+        "60",
+        "44",
+        "16",
+        "03"
+      ],
+      "dezenas": [
+        "03",
+        "16",
+        "17",
+        "44",
+        "53",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 123,
+          "valorPremio": 22695.13
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8836,
+          "valorPremio": 451.31
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1269,
+      "dataProximoConcurso": "26/03/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 47680918.0,
+      "valorAcumuladoConcurso_0_5": 11219087.49,
+      "valorAcumuladoConcursoEspecial": 12386808.63,
+      "valorAcumuladoProximoConcurso": 33033525.87,
+      "valorEstimadoProximoConcurso": 39000000.0
+    }
+  },
+  {
+    "draw_id": 1269,
+    "draw_date": "2011-03-26",
+    "numbers": [
+      4,
+      5,
+      15,
+      17,
+      27,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1269,
+      "data": "26/03/2011",
+      "local": "Caminh\u00e3o da Sorte em LUZI\u00c2NIA, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "51",
+        "05",
+        "27",
+        "04",
+        "15",
+        "17"
+      ],
+      "dezenas": [
+        "04",
+        "05",
+        "15",
+        "17",
+        "27",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 19413790.51
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 200,
+          "valorPremio": 15726.72
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 15111,
+          "valorPremio": 297.35
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1270,
+      "dataProximoConcurso": "30/03/2011",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "GOI\u00c2NIA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "GO"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "S\u00c3O PAULO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 53724824.0,
+      "valorAcumuladoConcurso_0_5": 14861065.01,
+      "valorAcumuladoConcursoEspecial": 13214530.82,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 17000000.0
+    }
+  },
+  {
+    "draw_id": 1270,
+    "draw_date": "2011-03-30",
+    "numbers": [
+      5,
+      9,
+      24,
+      31,
+      33,
+      42
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1270,
+      "data": "30/03/2011",
+      "local": "Caminh\u00e3o da Sorte em CAP\u00c3O BONITO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "31",
+        "33",
+        "24",
+        "05",
+        "42",
+        "09"
+      ],
+      "dezenas": [
+        "05",
+        "09",
+        "24",
+        "31",
+        "33",
+        "42"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 144,
+          "valorPremio": 12262.67
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9186,
+          "valorPremio": 274.61
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1271,
+      "dataProximoConcurso": "02/04/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 30161598.0,
+      "valorAcumuladoConcurso_0_5": 2044638.85,
+      "valorAcumuladoConcursoEspecial": 13679221.48,
+      "valorAcumuladoProximoConcurso": 18113899.54,
+      "valorEstimadoProximoConcurso": 21000000.0
+    }
+  },
+  {
+    "draw_id": 1271,
+    "draw_date": "2011-04-02",
+    "numbers": [
+      1,
+      2,
+      39,
+      48,
+      52,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1271,
+      "data": "02/04/2011",
+      "local": "Caminh\u00e3o da Sorte em CAP\u00c3O BONITO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "02",
+        "52",
+        "39",
+        "59",
+        "48",
+        "01"
+      ],
+      "dezenas": [
+        "01",
+        "02",
+        "39",
+        "48",
+        "52",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 65,
+          "valorPremio": 35889.76
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6281,
+          "valorPremio": 530.58
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1272,
+      "dataProximoConcurso": "06/04/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 39846552.0,
+      "valorAcumuladoConcurso_0_5": 4745815.62,
+      "valorAcumuladoConcursoEspecial": 14293125.31,
+      "valorAcumuladoProximoConcurso": 22411226.22,
+      "valorEstimadoProximoConcurso": 27000000.0
+    }
+  },
+  {
+    "draw_id": 1272,
+    "draw_date": "2011-04-06",
+    "numbers": [
+      13,
+      26,
+      27,
+      28,
+      35,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1272,
+      "data": "06/04/2011",
+      "local": "Caminh\u00e3o da Sorte em PINDAMONHANGABA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "28",
+        "27",
+        "13",
+        "35",
+        "26",
+        "52"
+      ],
+      "dezenas": [
+        "13",
+        "26",
+        "27",
+        "28",
+        "35",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 113,
+          "valorPremio": 22189.35
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9626,
+          "valorPremio": 372.11
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1273,
+      "dataProximoConcurso": "09/04/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 42828192.0,
+      "valorAcumuladoConcurso_0_5": 7649116.2,
+      "valorAcumuladoConcursoEspecial": 14952966.37,
+      "valorAcumuladoProximoConcurso": 27030113.51,
+      "valorEstimadoProximoConcurso": 33000000.0
+    }
+  },
+  {
+    "draw_id": 1273,
+    "draw_date": "2011-04-09",
+    "numbers": [
+      13,
+      19,
+      26,
+      40,
+      58,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1273,
+      "data": "09/04/2011",
+      "local": "Caminh\u00e3o da Sorte em PINDAMONHANGABA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "60",
+        "26",
+        "19",
+        "58",
+        "13",
+        "40"
+      ],
+      "dezenas": [
+        "13",
+        "19",
+        "26",
+        "40",
+        "58",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 118,
+          "valorPremio": 24927.21
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8910,
+          "valorPremio": 471.6
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1274,
+      "dataProximoConcurso": "13/04/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 50241482.0,
+      "valorAcumuladoConcurso_0_5": 11054959.81,
+      "valorAcumuladoConcursoEspecial": 15727021.75,
+      "valorAcumuladoProximoConcurso": 32448501.08,
+      "valorEstimadoProximoConcurso": 38000000.0
+    }
+  },
+  {
+    "draw_id": 1274,
+    "draw_date": "2011-04-13",
+    "numbers": [
+      13,
+      17,
+      21,
+      39,
+      40,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1274,
+      "data": "13/04/2011",
+      "local": "Caminh\u00e3o da Sorte em BARRA DO BUGRES, MT",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "13",
+        "59",
+        "21",
+        "17",
+        "40",
+        "39"
+      ],
+      "dezenas": [
+        "13",
+        "17",
+        "21",
+        "39",
+        "40",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 166,
+          "valorPremio": 19039.0
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11088,
+          "valorPremio": 407.19
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1275,
+      "dataProximoConcurso": "16/04/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 53983258.0,
+      "valorAcumuladoConcurso_0_5": 52984883.98,
+      "valorAcumuladoConcursoEspecial": 16558725.54,
+      "valorAcumuladoProximoConcurso": 52984883.98,
+      "valorEstimadoProximoConcurso": 59000000.0
+    }
+  },
+  {
+    "draw_id": 1275,
+    "draw_date": "2011-04-16",
+    "numbers": [
+      2,
+      14,
+      48,
+      55,
+      58,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1275,
+      "data": "16/04/2011",
+      "local": "Caminh\u00e3o da Sorte em BARRA DO BUGRES, MT",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "58",
+        "55",
+        "14",
+        "02",
+        "60",
+        "48"
+      ],
+      "dezenas": [
+        "02",
+        "14",
+        "48",
+        "55",
+        "58",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 111,
+          "valorPremio": 38847.41
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11630,
+          "valorPremio": 529.67
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1276,
+      "dataProximoConcurso": "20/04/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 73653244.0,
+      "valorAcumuladoConcurso_0_5": 4992914.64,
+      "valorAcumuladoConcursoEspecial": 17693478.88,
+      "valorAcumuladoProximoConcurso": 60928157.26,
+      "valorEstimadoProximoConcurso": 70000000.0
+    }
+  },
+  {
+    "draw_id": 1276,
+    "draw_date": "2011-04-20",
+    "numbers": [
+      5,
+      9,
+      11,
+      22,
+      36,
+      40
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1276,
+      "data": "20/04/2011",
+      "local": "Caminh\u00e3o da Sorte em FRANCO DA ROCHA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "09",
+        "40",
+        "05",
+        "22",
+        "36",
+        "11"
+      ],
+      "dezenas": [
+        "05",
+        "09",
+        "11",
+        "22",
+        "36",
+        "40"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 35704303.03
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 560,
+          "valorPremio": 10159.62
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 30367,
+          "valorPremio": 267.64
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1277,
+      "dataProximoConcurso": "23/04/2011",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "S\u00c3O JOS\u00c9 DOS PINHAIS",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "LIMEIRA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 97178962.0,
+      "valorAcumuladoConcurso_0_5": 11580625.31,
+      "valorAcumuladoConcursoEspecial": 19190685.85,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 1277,
+    "draw_date": "2011-04-23",
+    "numbers": [
+      12,
+      18,
+      31,
+      50,
+      59,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1277,
+      "data": "23/04/2011",
+      "local": "Caminh\u00e3o da Sorte em FRANCO DA ROCHA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "50",
+        "59",
+        "18",
+        "31",
+        "60",
+        "12"
+      ],
+      "dezenas": [
+        "12",
+        "18",
+        "31",
+        "50",
+        "59",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 30,
+          "valorPremio": 27463.17
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1783,
+          "valorPremio": 660.11
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1278,
+      "dataProximoConcurso": "27/04/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 14072746.0,
+      "valorAcumuladoConcurso_0_5": 12534609.34,
+      "valorAcumuladoConcursoEspecial": 19407500.42,
+      "valorAcumuladoProximoConcurso": 1517701.88,
+      "valorEstimadoProximoConcurso": 4000000.0
+    }
+  },
+  {
+    "draw_id": 1278,
+    "draw_date": "2011-04-27",
+    "numbers": [
+      4,
+      16,
+      24,
+      25,
+      30,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1278,
+      "data": "27/04/2011",
+      "local": "Caminh\u00e3o da Sorte em RIBEIR\u00c3O DAS NEVES, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "04",
+        "16",
+        "24",
+        "56",
+        "25",
+        "30"
+      ],
+      "dezenas": [
+        "04",
+        "16",
+        "24",
+        "25",
+        "30",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 187,
+          "valorPremio": 8408.7
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5455,
+          "valorPremio": 411.79
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1279,
+      "dataProximoConcurso": "30/04/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 26858214.0,
+      "valorAcumuladoConcurso_0_5": 14355313.52,
+      "valorAcumuladoConcursoEspecial": 19821296.85,
+      "valorAcumuladoProximoConcurso": 4414276.7,
+      "valorEstimadoProximoConcurso": 7000000.0
+    }
+  },
+  {
+    "draw_id": 1279,
+    "draw_date": "2011-04-30",
+    "numbers": [
+      8,
+      14,
+      29,
+      35,
+      36,
+      40
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1279,
+      "data": "30/04/2011",
+      "local": "Caminh\u00e3o da Sorte em RIBEIR\u00c3O DAS NEVES, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "08",
+        "29",
+        "36",
+        "35",
+        "14",
+        "40"
+      ],
+      "dezenas": [
+        "08",
+        "14",
+        "29",
+        "35",
+        "36",
+        "40"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 98,
+          "valorPremio": 19541.91
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5880,
+          "valorPremio": 465.28
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1280,
+      "dataProximoConcurso": "04/05/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 32711460.0,
+      "valorAcumuladoConcurso_0_5": 24514912.08,
+      "valorAcumuladoConcursoEspecial": 20325272.46,
+      "valorAcumuladoProximoConcurso": 24514912.08,
+      "valorEstimadoProximoConcurso": 28000000.0
+    }
+  },
+  {
+    "draw_id": 1280,
+    "draw_date": "2011-05-04",
+    "numbers": [
+      6,
+      10,
+      16,
+      20,
+      29,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1280,
+      "data": "04/05/2011",
+      "local": "Caminh\u00e3o da Sorte em CONTAGEM, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "29",
+        "06",
+        "54",
+        "10",
+        "20",
+        "16"
+      ],
+      "dezenas": [
+        "06",
+        "10",
+        "16",
+        "20",
+        "29",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 97,
+          "valorPremio": 26209.43
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8585,
+          "valorPremio": 423.04
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1281,
+      "dataProximoConcurso": "07/05/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 43424628.0,
+      "valorAcumuladoConcurso_0_5": 2943732.67,
+      "valorAcumuladoConcursoEspecial": 20994302.63,
+      "valorAcumuladoProximoConcurso": 29198123.13,
+      "valorEstimadoProximoConcurso": 35000000.0
+    }
+  },
+  {
+    "draw_id": 1281,
+    "draw_date": "2011-05-07",
+    "numbers": [
+      8,
+      11,
+      14,
+      30,
+      36,
+      38
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1281,
+      "data": "07/05/2011",
+      "local": "Caminh\u00e3o da Sorte em CONTAGEM, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "36",
+        "14",
+        "30",
+        "38",
+        "11",
+        "08"
+      ],
+      "dezenas": [
+        "08",
+        "11",
+        "14",
+        "30",
+        "36",
+        "38"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 34943738.22
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 198,
+          "valorPremio": 15752.77
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 12813,
+          "valorPremio": 347.75
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1282,
+      "dataProximoConcurso": "11/05/2011",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "RIO DE JANEIRO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        }
+      ],
+      "valorArrecadado": 53275668.0,
+      "valorAcumuladoConcurso_0_5": 6555262.15,
+      "valorAcumuladoConcursoEspecial": 21815104.79,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1282,
+    "draw_date": "2011-05-11",
+    "numbers": [
+      4,
+      23,
+      39,
+      52,
+      55,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1282,
+      "data": "11/05/2011",
+      "local": "Caminh\u00e3o da Sorte em DIAMANTINA, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "04",
+        "39",
+        "56",
+        "23",
+        "52",
+        "55"
+      ],
+      "dezenas": [
+        "04",
+        "23",
+        "39",
+        "52",
+        "55",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 37,
+          "valorPremio": 37341.85
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4203,
+          "valorPremio": 469.61
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1283,
+      "dataProximoConcurso": "14/05/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 23599586.0,
+      "valorAcumuladoConcurso_0_5": 8155065.65,
+      "valorAcumuladoConcursoEspecial": 22178696.51,
+      "valorAcumuladoProximoConcurso": 2545141.94,
+      "valorEstimadoProximoConcurso": 5000000.0
+    }
+  },
+  {
+    "draw_id": 1283,
+    "draw_date": "2011-05-14",
+    "numbers": [
+      8,
+      30,
+      40,
+      44,
+      59,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1283,
+      "data": "14/05/2011",
+      "local": "Caminh\u00e3o da Sorte em DIAMANTINA, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "59",
+        "08",
+        "60",
+        "44",
+        "40",
+        "30"
+      ],
+      "dezenas": [
+        "08",
+        "30",
+        "40",
+        "44",
+        "59",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 57,
+          "valorPremio": 31085.32
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4333,
+          "valorPremio": 584.17
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1284,
+      "dataProximoConcurso": "18/05/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 30264746.0,
+      "valorAcumuladoConcurso_0_5": 10206696.84,
+      "valorAcumuladoConcursoEspecial": 22644976.34,
+      "valorAcumuladoProximoConcurso": 5809100.65,
+      "valorEstimadoProximoConcurso": 9000000.0
+    }
+  },
+  {
+    "draw_id": 1284,
+    "draw_date": "2011-05-18",
+    "numbers": [
+      20,
+      21,
+      26,
+      29,
+      31,
+      36
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1284,
+      "data": "18/05/2011",
+      "local": "Caminh\u00e3o da Sorte em VIT\u00d3RIA DA CONQUISTA, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "26",
+        "21",
+        "20",
+        "36",
+        "31",
+        "29"
+      ],
+      "dezenas": [
+        "20",
+        "21",
+        "26",
+        "29",
+        "31",
+        "36"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 46,
+          "valorPremio": 39040.47
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3353,
+          "valorPremio": 765.14
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1285,
+      "dataProximoConcurso": "21/05/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 30674654.0,
+      "valorAcumuladoConcurso_0_5": 21403382.14,
+      "valorAcumuladoConcursoEspecial": 23117571.51,
+      "valorAcumuladoProximoConcurso": 21403382.14,
+      "valorEstimadoProximoConcurso": 26000000.0
+    }
+  },
+  {
+    "draw_id": 1285,
+    "draw_date": "2011-05-21",
+    "numbers": [
+      10,
+      15,
+      28,
+      31,
+      33,
+      38
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1285,
+      "data": "21/05/2011",
+      "local": "Caminh\u00e3o da Sorte em VIT\u00d3RIA DA CONQUISTA, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "33",
+        "10",
+        "15",
+        "38",
+        "31",
+        "28"
+      ],
+      "dezenas": [
+        "10",
+        "15",
+        "28",
+        "31",
+        "33",
+        "38"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 127,
+          "valorPremio": 20125.56
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9744,
+          "valorPremio": 374.72
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1286,
+      "dataProximoConcurso": "25/05/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 43657466.0,
+      "valorAcumuladoConcurso_0_5": 2959516.63,
+      "valorAcumuladoConcursoEspecial": 23790188.94,
+      "valorAcumuladoProximoConcurso": 26111704.05,
+      "valorEstimadoProximoConcurso": 32000000.0
+    }
+  },
+  {
+    "draw_id": 1286,
+    "draw_date": "2011-05-25",
+    "numbers": [
+      2,
+      5,
+      28,
+      33,
+      51,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1286,
+      "data": "25/05/2011",
+      "local": "Caminh\u00e3o da Sorte em SANTO ANT\u00d4NIO DE JESUS, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "05",
+        "52",
+        "02",
+        "33",
+        "51",
+        "28"
+      ],
+      "dezenas": [
+        "02",
+        "05",
+        "28",
+        "33",
+        "51",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 185,
+          "valorPremio": 14780.11
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 12297,
+          "valorPremio": 317.65
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1287,
+      "dataProximoConcurso": "28/05/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 46704214.0,
+      "valorAcumuladoConcurso_0_5": 6125570.71,
+      "valorAcumuladoConcursoEspecial": 24509746.7,
+      "valorAcumuladoProximoConcurso": 31148608.26,
+      "valorEstimadoProximoConcurso": 37000000.0
+    }
+  },
+  {
+    "draw_id": 1287,
+    "draw_date": "2011-05-28",
+    "numbers": [
+      11,
+      12,
+      31,
+      33,
+      42,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1287,
+      "data": "28/05/2011",
+      "local": "Caminh\u00e3o da Sorte em SANTO ANT\u00d4NIO DE JESUS, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "33",
+        "42",
+        "12",
+        "31",
+        "11",
+        "52"
+      ],
+      "dezenas": [
+        "11",
+        "12",
+        "31",
+        "33",
+        "42",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 137,
+          "valorPremio": 23204.42
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8177,
+          "valorPremio": 555.39
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1288,
+      "dataProximoConcurso": "01/06/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 54299780.0,
+      "valorAcumuladoConcurso_0_5": 9806524.2,
+      "valorAcumuladoConcursoEspecial": 25346327.05,
+      "valorAcumuladoProximoConcurso": 37004670.64,
+      "valorEstimadoProximoConcurso": 43000000.0
+    }
+  },
+  {
+    "draw_id": 1288,
+    "draw_date": "2011-06-01",
+    "numbers": [
+      17,
+      30,
+      32,
+      40,
+      42,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1288,
+      "data": "01/06/2011",
+      "local": "Caminh\u00e3o da Sorte em OEIRAS, PI",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "42",
+        "32",
+        "56",
+        "40",
+        "30",
+        "17"
+      ],
+      "dezenas": [
+        "17",
+        "30",
+        "32",
+        "40",
+        "42",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 69,
+          "valorPremio": 54770.01
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7350,
+          "valorPremio": 734.52
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1289,
+      "dataProximoConcurso": "04/06/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 64550366.0,
+      "valorAcumuladoConcurso_0_5": 14182359.52,
+      "valorAcumuladoConcursoEspecial": 26340835.08,
+      "valorAcumuladoProximoConcurso": 43966226.83,
+      "valorEstimadoProximoConcurso": 52000000.0
+    }
+  },
+  {
+    "draw_id": 1289,
+    "draw_date": "2011-06-04",
+    "numbers": [
+      1,
+      3,
+      8,
+      13,
+      27,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1289,
+      "data": "04/06/2011",
+      "local": "Caminh\u00e3o da Sorte em OEIRAS, PI",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "13",
+        "08",
+        "27",
+        "01",
+        "03",
+        "52"
+      ],
+      "dezenas": [
+        "01",
+        "03",
+        "08",
+        "13",
+        "27",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 26440275.46
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 436,
+          "valorPremio": 11099.09
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 30724,
+          "valorPremio": 225.0
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1290,
+      "dataProximoConcurso": "08/06/2011",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "ATIBAIA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "BEBEDOURO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 82657220.0,
+      "valorAcumuladoConcurso_0_5": 19785648.95,
+      "valorAcumuladoConcursoEspecial": 27614309.97,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 23000000.0
+    }
+  },
+  {
+    "draw_id": 1290,
+    "draw_date": "2011-06-08",
+    "numbers": [
+      2,
+      3,
+      14,
+      23,
+      34,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1290,
+      "data": "08/06/2011",
+      "local": "Caminh\u00e3o da Sorte em MOSSOR\u00d3, RN",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "14",
+        "50",
+        "03",
+        "23",
+        "02",
+        "34"
+      ],
+      "dezenas": [
+        "02",
+        "03",
+        "14",
+        "23",
+        "34",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 93,
+          "valorPremio": 24687.3
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7535,
+          "valorPremio": 435.28
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1291,
+      "dataProximoConcurso": "11/06/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 39216014.0,
+      "valorAcumuladoConcurso_0_5": 2658432.94,
+      "valorAcumuladoConcursoEspecial": 28218499.29,
+      "valorAcumuladoProximoConcurso": 24014974.07,
+      "valorEstimadoProximoConcurso": 30000000.0
+    }
+  },
+  {
+    "draw_id": 1291,
+    "draw_date": "2011-06-11",
+    "numbers": [
+      18,
+      40,
+      47,
+      54,
+      57,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1291,
+      "data": "11/06/2011",
+      "local": "Caminh\u00e3o da Sorte em MOSSOR\u00d3, RN",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "18",
+        "57",
+        "58",
+        "40",
+        "47",
+        "54"
+      ],
+      "dezenas": [
+        "18",
+        "40",
+        "47",
+        "54",
+        "57",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 49,
+          "valorPremio": 57917.35
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5416,
+          "valorPremio": 748.56
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1292,
+      "dataProximoConcurso": "15/06/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 48474300.0,
+      "valorAcumuladoConcurso_0_5": 5944480.2,
+      "valorAcumuladoConcursoEspecial": 28965328.24,
+      "valorAcumuladoProximoConcurso": 29242776.55,
+      "valorEstimadoProximoConcurso": 35000000.0
+    }
+  },
+  {
+    "draw_id": 1292,
+    "draw_date": "2011-06-15",
+    "numbers": [
+      9,
+      11,
+      23,
+      30,
+      31,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1292,
+      "data": "15/06/2011",
+      "local": "Caminh\u00e3o da Sorte em ITABAIANA, SE",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "30",
+        "31",
+        "23",
+        "09",
+        "54",
+        "11"
+      ],
+      "dezenas": [
+        "09",
+        "11",
+        "23",
+        "30",
+        "31",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 128,
+          "valorPremio": 22773.34
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10397,
+          "valorPremio": 400.52
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1293,
+      "dataProximoConcurso": "18/06/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 49790146.0,
+      "valorAcumuladoConcurso_0_5": 9319727.98,
+      "valorAcumuladoConcursoEspecial": 29732430.01,
+      "valorAcumuladoProximoConcurso": 34612488.92,
+      "valorEstimadoProximoConcurso": 40000000.0
+    }
+  },
+  {
+    "draw_id": 1293,
+    "draw_date": "2011-06-18",
+    "numbers": [
+      1,
+      13,
+      24,
+      40,
+      44,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1293,
+      "data": "18/06/2011",
+      "local": "Caminh\u00e3o da Sorte em ITABAIANA, SE",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "24",
+        "50",
+        "01",
+        "44",
+        "13",
+        "40"
+      ],
+      "dezenas": [
+        "01",
+        "13",
+        "24",
+        "40",
+        "44",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 163,
+          "valorPremio": 20581.95
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11182,
+          "valorPremio": 428.6
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1294,
+      "dataProximoConcurso": "22/06/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 57303466.0,
+      "valorAcumuladoConcurso_0_5": 13204299.77,
+      "valorAcumuladoConcursoEspecial": 30615287.25,
+      "valorAcumuladoProximoConcurso": 40792489.49,
+      "valorEstimadoProximoConcurso": 50000000.0
+    }
+  },
+  {
+    "draw_id": 1294,
+    "draw_date": "2011-06-22",
+    "numbers": [
+      4,
+      6,
+      29,
+      48,
+      50,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1294,
+      "data": "22/06/2011",
+      "local": "Caminh\u00e3o da Sorte em CARUARU, PE",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "06",
+        "50",
+        "04",
+        "48",
+        "29",
+        "51"
+      ],
+      "dezenas": [
+        "04",
+        "06",
+        "29",
+        "48",
+        "50",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 148,
+          "valorPremio": 25649.3
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10401,
+          "valorPremio": 521.39
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1295,
+      "dataProximoConcurso": "25/06/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 64840156.0,
+      "valorAcumuladoConcurso_0_5": 65385078.43,
+      "valorAcumuladoConcursoEspecial": 31614260.0,
+      "valorAcumuladoProximoConcurso": 65385078.43,
+      "valorEstimadoProximoConcurso": 72000000.0
+    }
+  },
+  {
+    "draw_id": 1295,
+    "draw_date": "2011-06-25",
+    "numbers": [
+      2,
+      5,
+      15,
+      20,
+      43,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1295,
+      "data": "25/06/2011",
+      "local": "Caminh\u00e3o da Sorte em CARUARU, PE",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "20",
+        "02",
+        "43",
+        "15",
+        "05",
+        "57"
+      ],
+      "dezenas": [
+        "02",
+        "05",
+        "15",
+        "20",
+        "43",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 73451540.26
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 314,
+          "valorPremio": 13945.66
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 20014,
+          "valorPremio": 312.56
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1296,
+      "dataProximoConcurso": "29/06/2011",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "SANTO ANDR\u00c9",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 74795498.0,
+      "valorAcumuladoConcurso_0_5": 5070347.43,
+      "valorAcumuladoConcursoEspecial": 32766611.7,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 1296,
+    "draw_date": "2011-06-29",
+    "numbers": [
+      10,
+      14,
+      43,
+      46,
+      49,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1296,
+      "data": "29/06/2011",
+      "local": "Caminh\u00e3o da Sorte em UB\u00c1, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "49",
+        "43",
+        "14",
+        "10",
+        "53",
+        "46"
+      ],
+      "dezenas": [
+        "10",
+        "14",
+        "43",
+        "46",
+        "49",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 48,
+          "valorPremio": 27308.81
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3607,
+          "valorPremio": 519.15
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1297,
+      "dataProximoConcurso": "02/07/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 22389830.0,
+      "valorAcumuladoConcurso_0_5": 6588142.21,
+      "valorAcumuladoConcursoEspecial": 33111565.08,
+      "valorAcumuladoProximoConcurso": 2414673.52,
+      "valorEstimadoProximoConcurso": 5000000.0
+    }
+  },
+  {
+    "draw_id": 1297,
+    "draw_date": "2011-07-02",
+    "numbers": [
+      2,
+      5,
+      11,
+      13,
+      56,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1297,
+      "data": "02/07/2011",
+      "local": "Caminh\u00e3o da Sorte em UB\u00c1, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "02",
+        "56",
+        "11",
+        "05",
+        "59",
+        "13"
+      ],
+      "dezenas": [
+        "02",
+        "05",
+        "11",
+        "13",
+        "56",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 100,
+          "valorPremio": 17409.61
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9538,
+          "valorPremio": 260.75
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1298,
+      "dataProximoConcurso": "06/07/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 29736902.0,
+      "valorAcumuladoConcurso_0_5": 8603991.13,
+      "valorAcumuladoConcursoEspecial": 33569712.58,
+      "valorAcumuladoProximoConcurso": 5621705.9,
+      "valorEstimadoProximoConcurso": 9000000.0
+    }
+  },
+  {
+    "draw_id": 1298,
+    "draw_date": "2011-07-06",
+    "numbers": [
+      14,
+      15,
+      30,
+      53,
+      55,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1298,
+      "data": "06/07/2011",
+      "local": "Caminh\u00e3o da Sorte em GUARATINGUET\u00c1, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "60",
+        "14",
+        "53",
+        "30",
+        "15",
+        "55"
+      ],
+      "dezenas": [
+        "14",
+        "15",
+        "30",
+        "53",
+        "55",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 9047534.6
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 38,
+          "valorPremio": 48940.41
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4046,
+          "valorPremio": 656.63
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1299,
+      "dataProximoConcurso": "09/07/2011",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "MANDAGUARI",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        }
+      ],
+      "valorArrecadado": 31765670.0,
+      "valorAcumuladoConcurso_0_5": 10757369.17,
+      "valorAcumuladoConcursoEspecial": 34059116.7,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1299,
+    "draw_date": "2011-07-09",
+    "numbers": [
+      8,
+      22,
+      32,
+      43,
+      53,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1299,
+      "data": "09/07/2011",
+      "local": "Caminh\u00e3o da Sorte em GUARATINGUET\u00c1, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "56",
+        "32",
+        "08",
+        "22",
+        "43",
+        "53"
+      ],
+      "dezenas": [
+        "08",
+        "22",
+        "32",
+        "43",
+        "53",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 35,
+          "valorPremio": 40850.42
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3035,
+          "valorPremio": 672.98
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1300,
+      "dataProximoConcurso": "13/07/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 24421448.0,
+      "valorAcumuladoConcurso_0_5": 15046663.45,
+      "valorAcumuladoConcursoEspecial": 34435370.58,
+      "valorAcumuladoProximoConcurso": 15046663.45,
+      "valorEstimadoProximoConcurso": 18000000.0
+    }
+  },
+  {
+    "draw_id": 1300,
+    "draw_date": "2011-07-13",
+    "numbers": [
+      43,
+      44,
+      46,
+      53,
+      54,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1300,
+      "data": "13/07/2011",
+      "local": "Caminh\u00e3o da Sorte em IPAMERI, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "46",
+        "43",
+        "59",
+        "54",
+        "44",
+        "53"
+      ],
+      "dezenas": [
+        "43",
+        "44",
+        "46",
+        "53",
+        "54",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 9484391.42
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 58,
+          "valorPremio": 36709.5
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3652,
+          "valorPremio": 832.87
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1301,
+      "dataProximoConcurso": "16/07/2011",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "COD\u00d3",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MA"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "DIVIN\u00d3POLIS",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        }
+      ],
+      "valorArrecadado": 36367478.0,
+      "valorAcumuladoConcurso_0_5": 2465332.18,
+      "valorAcumuladoConcursoEspecial": 34995673.37,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 1301,
+    "draw_date": "2011-07-16",
+    "numbers": [
+      3,
+      16,
+      23,
+      25,
+      51,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1301,
+      "data": "16/07/2011",
+      "local": "Caminh\u00e3o da Sorte em IPAMERI, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "16",
+        "25",
+        "03",
+        "51",
+        "23",
+        "56"
+      ],
+      "dezenas": [
+        "03",
+        "16",
+        "23",
+        "25",
+        "51",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 2751015.4
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 74,
+          "valorPremio": 20181.19
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5155,
+          "valorPremio": 413.85
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1302,
+      "dataProximoConcurso": "20/07/2011",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "BLUMENAU",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SC"
+        }
+      ],
+      "valorArrecadado": 25508528.0,
+      "valorAcumuladoConcurso_0_5": 4194541.85,
+      "valorAcumuladoConcursoEspecial": 35388675.59,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1302,
+    "draw_date": "2011-07-20",
+    "numbers": [
+      2,
+      10,
+      15,
+      44,
+      56,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1302,
+      "data": "20/07/2011",
+      "local": "Caminh\u00e3o da Sorte em ANDRADAS, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "44",
+        "15",
+        "56",
+        "02",
+        "10",
+        "57"
+      ],
+      "dezenas": [
+        "02",
+        "10",
+        "15",
+        "44",
+        "56",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 63,
+          "valorPremio": 20161.47
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5084,
+          "valorPremio": 356.91
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1303,
+      "dataProximoConcurso": "23/07/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 21695498.0,
+      "valorAcumuladoConcurso_0_5": 5665268.23,
+      "valorAcumuladoConcursoEspecial": 35722931.6,
+      "valorAcumuladoProximoConcurso": 2339791.97,
+      "valorEstimadoProximoConcurso": 5000000.0
+    }
+  },
+  {
+    "draw_id": 1303,
+    "draw_date": "2011-07-23",
+    "numbers": [
+      8,
+      19,
+      46,
+      51,
+      52,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1303,
+      "data": "23/07/2011",
+      "local": "Caminh\u00e3o da Sorte em ANDRADAS, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "19",
+        "51",
+        "54",
+        "08",
+        "52",
+        "46"
+      ],
+      "dezenas": [
+        "08",
+        "19",
+        "46",
+        "51",
+        "52",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 40,
+          "valorPremio": 40211.48
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3573,
+          "valorPremio": 643.1
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1304,
+      "dataProximoConcurso": "27/07/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 27473682.0,
+      "valorAcumuladoConcurso_0_5": 7527694.65,
+      "valorAcumuladoConcursoEspecial": 36146210.35,
+      "valorAcumuladoProximoConcurso": 5302743.11,
+      "valorEstimadoProximoConcurso": 9000000.0
+    }
+  },
+  {
+    "draw_id": 1304,
+    "draw_date": "2011-07-27",
+    "numbers": [
+      7,
+      14,
+      15,
+      20,
+      23,
+      35
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1304,
+      "data": "27/07/2011",
+      "local": "Caminh\u00e3o da Sorte em ROSEIRA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "35",
+        "23",
+        "15",
+        "07",
+        "20",
+        "14"
+      ],
+      "dezenas": [
+        "07",
+        "14",
+        "15",
+        "20",
+        "23",
+        "35"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 79,
+          "valorPremio": 21229.7
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7568,
+          "valorPremio": 316.58
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1305,
+      "dataProximoConcurso": "30/07/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 28646906.0,
+      "valorAcumuladoConcurso_0_5": 17861876.13,
+      "valorAcumuladoConcursoEspecial": 36587564.6,
+      "valorAcumuladoProximoConcurso": 17861876.13,
+      "valorEstimadoProximoConcurso": 21000000.0
+    }
+  },
+  {
+    "draw_id": 1305,
+    "draw_date": "2011-07-30",
+    "numbers": [
+      3,
+      5,
+      11,
+      36,
+      44,
+      46
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1305,
+      "data": "30/07/2011",
+      "local": "Caminh\u00e3o da Sorte em ROSEIRA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "44",
+        "11",
+        "05",
+        "46",
+        "36",
+        "03"
+      ],
+      "dezenas": [
+        "03",
+        "05",
+        "11",
+        "36",
+        "44",
+        "46"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 136,
+          "valorPremio": 16998.55
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9982,
+          "valorPremio": 330.85
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1306,
+      "dataProximoConcurso": "03/08/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 39487318.0,
+      "valorAcumuladoConcurso_0_5": 2676824.5,
+      "valorAcumuladoConcursoEspecial": 37195933.81,
+      "valorAcumuladoProximoConcurso": 22120460.55,
+      "valorEstimadoProximoConcurso": 27000000.0
+    }
+  },
+  {
+    "draw_id": 1306,
+    "draw_date": "2011-08-03",
+    "numbers": [
+      6,
+      19,
+      22,
+      34,
+      43,
+      45
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1306,
+      "data": "03/08/2011",
+      "local": "Caminh\u00e3o da Sorte em POUSO ALEGRE, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "45",
+        "06",
+        "19",
+        "34",
+        "43",
+        "22"
+      ],
+      "dezenas": [
+        "06",
+        "19",
+        "22",
+        "34",
+        "43",
+        "45"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 167,
+          "valorPremio": 14988.5
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10694,
+          "valorPremio": 334.37
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1307,
+      "dataProximoConcurso": "06/08/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 42754456.0,
+      "valorAcumuladoConcurso_0_5": 5575126.55,
+      "valorAcumuladoConcursoEspecial": 37854638.84,
+      "valorAcumuladoProximoConcurso": 26731395.64,
+      "valorEstimadoProximoConcurso": 32000000.0
+    }
+  },
+  {
+    "draw_id": 1307,
+    "draw_date": "2011-08-06",
+    "numbers": [
+      7,
+      10,
+      32,
+      43,
+      47,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1307,
+      "data": "06/08/2011",
+      "local": "Caminh\u00e3o da Sorte em POUSO ALEGRE, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "10",
+        "47",
+        "54",
+        "07",
+        "43",
+        "32"
+      ],
+      "dezenas": [
+        "07",
+        "10",
+        "32",
+        "43",
+        "47",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 32075789.45
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 153,
+          "valorPremio": 18962.37
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11019,
+          "valorPremio": 376.13
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Informamos que o sorteio do concurso 1308 ser\u00e1 realizado na ter\u00e7a-feira, dia 09/08/2011, \u00e0s 20:00.",
+      "acumulou": false,
+      "proximoConcurso": 1308,
+      "dataProximoConcurso": "09/08/2011",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "GUANH\u00c3ES",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        }
+      ],
+      "valorArrecadado": 49555382.0,
+      "valorAcumuladoConcurso_0_5": 8934459.8,
+      "valorAcumuladoConcursoEspecial": 38618123.69,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1308,
+    "draw_date": "2011-08-09",
+    "numbers": [
+      7,
+      8,
+      24,
+      30,
+      33,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1308,
+      "data": "09/08/2011",
+      "local": "Caminh\u00e3o da Sorte em ALFENAS, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "24",
+        "33",
+        "07",
+        "30",
+        "47",
+        "08"
+      ],
+      "dezenas": [
+        "07",
+        "08",
+        "24",
+        "30",
+        "33",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 75,
+          "valorPremio": 11487.79
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4417,
+          "valorPremio": 278.65
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1309,
+      "dataProximoConcurso": "11/08/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 14716496.0,
+      "valorAcumuladoConcurso_0_5": 9932083.31,
+      "valorAcumuladoConcursoEspecial": 38844856.31,
+      "valorAcumuladoProximoConcurso": 1587128.31,
+      "valorEstimadoProximoConcurso": 3800000.0
+    }
+  },
+  {
+    "draw_id": 1309,
+    "draw_date": "2011-08-11",
+    "numbers": [
+      7,
+      12,
+      25,
+      26,
+      32,
+      39
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1309,
+      "data": "11/08/2011",
+      "local": "Caminh\u00e3o da Sorte em ALFENAS, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "07",
+        "12",
+        "25",
+        "26",
+        "32",
+        "39"
+      ],
+      "dezenas": [
+        "07",
+        "12",
+        "25",
+        "26",
+        "32",
+        "39"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 100,
+          "valorPremio": 13438.49
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6163,
+          "valorPremio": 311.5
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1310,
+      "dataProximoConcurso": "13/08/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 22953932.0,
+      "valorAcumuladoConcurso_0_5": 15550756.73,
+      "valorAcumuladoConcursoEspecial": 39198500.63,
+      "valorAcumuladoProximoConcurso": 15550756.73,
+      "valorEstimadoProximoConcurso": 18000000.0
+    }
+  },
+  {
+    "draw_id": 1310,
+    "draw_date": "2011-08-13",
+    "numbers": [
+      8,
+      9,
+      14,
+      32,
+      53,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1310,
+      "data": "13/08/2011",
+      "local": "Caminh\u00e3o da Sorte em ALFENAS, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "14",
+        "08",
+        "53",
+        "09",
+        "59",
+        "32"
+      ],
+      "dezenas": [
+        "08",
+        "09",
+        "14",
+        "32",
+        "53",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 107,
+          "valorPremio": 19392.08
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7570,
+          "valorPremio": 391.57
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1311,
+      "dataProximoConcurso": "17/08/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 35441740.0,
+      "valorAcumuladoConcurso_0_5": 2402576.89,
+      "valorAcumuladoConcursoEspecial": 39744540.85,
+      "valorAcumuladoProximoConcurso": 19373038.14,
+      "valorEstimadoProximoConcurso": 24000000.0
+    }
+  },
+  {
+    "draw_id": 1311,
+    "draw_date": "2011-08-17",
+    "numbers": [
+      7,
+      9,
+      12,
+      19,
+      45,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1311,
+      "data": "17/08/2011",
+      "local": "Caminh\u00e3o da Sorte em LUZI\u00c2NIA, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "54",
+        "07",
+        "19",
+        "12",
+        "45",
+        "09"
+      ],
+      "dezenas": [
+        "07",
+        "09",
+        "12",
+        "19",
+        "45",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 253,
+          "valorPremio": 9118.47
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 13609,
+          "valorPremio": 242.16
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1312,
+      "dataProximoConcurso": "20/08/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 39404808.0,
+      "valorAcumuladoConcurso_0_5": 5073808.07,
+      "valorAcumuladoConcursoEspecial": 40351638.87,
+      "valorAcumuladoProximoConcurso": 23622724.12,
+      "valorEstimadoProximoConcurso": 29000000.0
+    }
+  },
+  {
+    "draw_id": 1312,
+    "draw_date": "2011-08-20",
+    "numbers": [
+      5,
+      20,
+      22,
+      28,
+      29,
+      30
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1312,
+      "data": "20/08/2011",
+      "local": "Caminh\u00e3o da Sorte em LUZI\u00c2NIA, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "28",
+        "30",
+        "29",
+        "22",
+        "20",
+        "05"
+      ],
+      "dezenas": [
+        "05",
+        "20",
+        "22",
+        "28",
+        "29",
+        "30"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 201,
+          "valorPremio": 13386.76
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10377,
+          "valorPremio": 370.42
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1313,
+      "dataProximoConcurso": "24/08/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 45959796.0,
+      "valorAcumuladoConcurso_0_5": 8189398.43,
+      "valorAcumuladoConcursoEspecial": 41059727.61,
+      "valorAcumuladoProximoConcurso": 28579345.16,
+      "valorEstimadoProximoConcurso": 33000000.0
+    }
+  },
+  {
+    "draw_id": 1313,
+    "draw_date": "2011-08-24",
+    "numbers": [
+      1,
+      4,
+      26,
+      39,
+      43,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1313,
+      "data": "24/08/2011",
+      "local": "Caminh\u00e3o da Sorte em PARAGUA\u00c7U, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "39",
+        "26",
+        "49",
+        "01",
+        "04",
+        "43"
+      ],
+      "dezenas": [
+        "01",
+        "04",
+        "26",
+        "39",
+        "43",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 140,
+          "valorPremio": 20309.34
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9036,
+          "valorPremio": 449.52
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1314,
+      "dataProximoConcurso": "27/08/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 48565804.0,
+      "valorAcumuladoConcurso_0_5": 11481648.71,
+      "valorAcumuladoConcursoEspecial": 41807966.32,
+      "valorAcumuladoProximoConcurso": 33817016.06,
+      "valorEstimadoProximoConcurso": 39000000.0
+    }
+  },
+  {
+    "draw_id": 1314,
+    "draw_date": "2011-08-27",
+    "numbers": [
+      38,
+      42,
+      44,
+      52,
+      58,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1314,
+      "data": "27/08/2011",
+      "local": "Caminh\u00e3o da Sorte em PARAGUA\u00c7U, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "42",
+        "44",
+        "52",
+        "58",
+        "60",
+        "38"
+      ],
+      "dezenas": [
+        "38",
+        "42",
+        "44",
+        "52",
+        "58",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 122,
+          "valorPremio": 27514.75
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7797,
+          "valorPremio": 615.03
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1315,
+      "dataProximoConcurso": "31/08/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 57336632.0,
+      "valorAcumuladoConcurso_0_5": 55369062.27,
+      "valorAcumuladoConcursoEspecial": 42691334.54,
+      "valorAcumuladoProximoConcurso": 55369062.27,
+      "valorEstimadoProximoConcurso": 63000000.0
+    }
+  },
+  {
+    "draw_id": 1315,
+    "draw_date": "2011-08-31",
+    "numbers": [
+      1,
+      27,
+      29,
+      38,
+      50,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1315,
+      "data": "31/08/2011",
+      "local": "Caminh\u00e3o da Sorte em VIRG\u00cdNIA, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "27",
+        "29",
+        "01",
+        "50",
+        "52",
+        "38"
+      ],
+      "dezenas": [
+        "01",
+        "27",
+        "29",
+        "38",
+        "50",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 63981675.84
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 108,
+          "valorPremio": 43290.92
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9003,
+          "valorPremio": 741.88
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1316,
+      "dataProximoConcurso": "03/09/2011",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "Aracaju",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SE"
+        }
+      ],
+      "valorArrecadado": 79859638.0,
+      "valorAcumuladoConcurso_0_5": 5413642.82,
+      "valorAcumuladoConcursoEspecial": 43921707.92,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 1316,
+    "draw_date": "2011-09-03",
+    "numbers": [
+      8,
+      13,
+      25,
+      34,
+      42,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1316,
+      "data": "03/09/2011",
+      "local": "Caminh\u00e3o da Sorte em VIRG\u00cdNIA, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "48",
+        "34",
+        "25",
+        "42",
+        "13",
+        "08"
+      ],
+      "dezenas": [
+        "08",
+        "13",
+        "25",
+        "34",
+        "42",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 2824002.29
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 241,
+          "valorPremio": 6361.12
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9757,
+          "valorPremio": 224.45
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1317,
+      "dataProximoConcurso": "08/09/2011",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "VINHEDO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 26185292.0,
+      "valorAcumuladoConcurso_0_5": 7188729.97,
+      "valorAcumuladoConcursoEspecial": 44325136.83,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1317,
+    "draw_date": "2011-09-08",
+    "numbers": [
+      6,
+      13,
+      29,
+      30,
+      35,
+      37
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1317,
+      "data": "08/09/2011",
+      "local": "Caminh\u00e3o da Sorte em DESCALVADO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "35",
+        "29",
+        "37",
+        "13",
+        "06",
+        "30"
+      ],
+      "dezenas": [
+        "06",
+        "13",
+        "29",
+        "30",
+        "35",
+        "37"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 67,
+          "valorPremio": 17952.11
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5004,
+          "valorPremio": 343.38
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1318,
+      "dataProximoConcurso": "10/09/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 20544576.0,
+      "valorAcumuladoConcurso_0_5": 8581435.94,
+      "valorAcumuladoConcursoEspecial": 44641660.93,
+      "valorAcumuladoProximoConcurso": 2215668.61,
+      "valorEstimadoProximoConcurso": 4700000.0
+    }
+  },
+  {
+    "draw_id": 1318,
+    "draw_date": "2011-09-10",
+    "numbers": [
+      11,
+      14,
+      16,
+      28,
+      34,
+      46
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1318,
+      "data": "10/09/2011",
+      "local": "Caminh\u00e3o da Sorte em DESCALVADO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "34",
+        "46",
+        "14",
+        "28",
+        "11",
+        "16"
+      ],
+      "dezenas": [
+        "11",
+        "14",
+        "16",
+        "28",
+        "34",
+        "46"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 140,
+          "valorPremio": 10648.09
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6962,
+          "valorPremio": 305.89
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1319,
+      "dataProximoConcurso": "14/09/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 25462822.0,
+      "valorAcumuladoConcurso_0_5": 10307547.23,
+      "valorAcumuladoConcursoEspecial": 45033958.97,
+      "valorAcumuladoProximoConcurso": 4961754.76,
+      "valorEstimadoProximoConcurso": 8000000.0
+    }
+  },
+  {
+    "draw_id": 1319,
+    "draw_date": "2011-09-14",
+    "numbers": [
+      4,
+      5,
+      16,
+      18,
+      27,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1319,
+      "data": "14/09/2011",
+      "local": "Caminh\u00e3o da Sorte em ALEGRETE, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "16",
+        "04",
+        "18",
+        "27",
+        "05",
+        "51"
+      ],
+      "dezenas": [
+        "04",
+        "05",
+        "16",
+        "18",
+        "27",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 103,
+          "valorPremio": 17148.38
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7798,
+          "valorPremio": 323.57
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1320,
+      "dataProximoConcurso": "17/09/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 30169434.0,
+      "valorAcumuladoConcurso_0_5": 20568151.64,
+      "valorAcumuladoConcursoEspecial": 45498770.35,
+      "valorAcumuladoProximoConcurso": 20568151.64,
+      "valorEstimadoProximoConcurso": 25000000.0
+    }
+  },
+  {
+    "draw_id": 1320,
+    "draw_date": "2011-09-17",
+    "numbers": [
+      17,
+      24,
+      25,
+      38,
+      41,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1320,
+      "data": "17/09/2011",
+      "local": "Caminh\u00e3o da Sorte em ALEGRETE, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "38",
+        "17",
+        "55",
+        "41",
+        "24",
+        "25"
+      ],
+      "dezenas": [
+        "17",
+        "24",
+        "25",
+        "38",
+        "41",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 128,
+          "valorPremio": 20240.7
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8496,
+          "valorPremio": 435.63
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1321,
+      "dataProximoConcurso": "21/09/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 44252956.0,
+      "valorAcumuladoConcurso_0_5": 2999884.58,
+      "valorAcumuladoConcursoEspecial": 46180562.32,
+      "valorAcumuladoProximoConcurso": 25340695.29,
+      "valorEstimadoProximoConcurso": 31000000.0
+    }
+  },
+  {
+    "draw_id": 1321,
+    "draw_date": "2011-09-21",
+    "numbers": [
+      10,
+      47,
+      51,
+      53,
+      59,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1321,
+      "data": "21/09/2011",
+      "local": "Caminh\u00e3o da Sorte em CURITIBA, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "51",
+        "59",
+        "47",
+        "10",
+        "60",
+        "53"
+      ],
+      "dezenas": [
+        "10",
+        "47",
+        "51",
+        "53",
+        "59",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 31071213.53
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 128,
+          "valorPremio": 24303.54
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11775,
+          "valorPremio": 377.41
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1322,
+      "dataProximoConcurso": "24/09/2011",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "PETR\u00d3POLIS",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        }
+      ],
+      "valorArrecadado": 53135684.0,
+      "valorAcumuladoConcurso_0_5": 6601924.62,
+      "valorAcumuladoConcursoEspecial": 46999207.8,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1322,
+    "draw_date": "2011-09-24",
+    "numbers": [
+      10,
+      21,
+      43,
+      47,
+      53,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1322,
+      "data": "24/09/2011",
+      "local": "Caminh\u00e3o da Sorte em CURITIBA, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "55",
+        "43",
+        "21",
+        "10",
+        "47",
+        "53"
+      ],
+      "dezenas": [
+        "10",
+        "21",
+        "43",
+        "47",
+        "53",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 54,
+          "valorPremio": 27567.36
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3738,
+          "valorPremio": 568.92
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1323,
+      "dataProximoConcurso": "28/09/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 25427030.0,
+      "valorAcumuladoConcurso_0_5": 8325609.59,
+      "valorAcumuladoConcursoEspecial": 47390954.4,
+      "valorAcumuladoProximoConcurso": 2742226.09,
+      "valorEstimadoProximoConcurso": 5700000.0
+    }
+  },
+  {
+    "draw_id": 1323,
+    "draw_date": "2011-09-28",
+    "numbers": [
+      6,
+      15,
+      25,
+      37,
+      48,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1323,
+      "data": "28/09/2011",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O JER\u00d4NIMO, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "25",
+        "37",
+        "15",
+        "06",
+        "48",
+        "55"
+      ],
+      "dezenas": [
+        "06",
+        "15",
+        "25",
+        "37",
+        "48",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 58,
+          "valorPremio": 28697.23
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5387,
+          "valorPremio": 441.39
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1324,
+      "dataProximoConcurso": "01/10/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 28429866.0,
+      "valorAcumuladoConcurso_0_5": 10252855.23,
+      "valorAcumuladoConcursoEspecial": 47828964.79,
+      "valorAcumuladoProximoConcurso": 5808298.7,
+      "valorEstimadoProximoConcurso": 9000000.0
+    }
+  },
+  {
+    "draw_id": 1324,
+    "draw_date": "2011-10-01",
+    "numbers": [
+      18,
+      29,
+      31,
+      44,
+      51,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1324,
+      "data": "01/10/2011",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O JER\u00d4NIMO, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "29",
+        "44",
+        "51",
+        "31",
+        "18",
+        "57"
+      ],
+      "dezenas": [
+        "18",
+        "29",
+        "31",
+        "44",
+        "51",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 86,
+          "valorPremio": 23149.62
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5421,
+          "valorPremio": 524.64
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1325,
+      "dataProximoConcurso": "05/10/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 34005492.0,
+      "valorAcumuladoConcurso_0_5": 22033754.85,
+      "valorAcumuladoConcursoEspecial": 48352877.16,
+      "valorAcumuladoProximoConcurso": 22033754.85,
+      "valorEstimadoProximoConcurso": 26000000.0
+    }
+  },
+  {
+    "draw_id": 1325,
+    "draw_date": "2011-10-05",
+    "numbers": [
+      2,
+      5,
+      16,
+      20,
+      35,
+      43
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1325,
+      "data": "05/10/2011",
+      "local": "Caminh\u00e3o da Sorte em JARAGU\u00c1 DO SUL, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "35",
+        "02",
+        "20",
+        "43",
+        "05",
+        "16"
+      ],
+      "dezenas": [
+        "02",
+        "05",
+        "16",
+        "20",
+        "35",
+        "43"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 195,
+          "valorPremio": 13111.44
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 14090,
+          "valorPremio": 259.22
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1326,
+      "dataProximoConcurso": "08/10/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 43670856.0,
+      "valorAcumuladoConcurso_0_5": 2960424.34,
+      "valorAcumuladoConcursoEspecial": 49025700.88,
+      "valorAcumuladoProximoConcurso": 26743520.84,
+      "valorEstimadoProximoConcurso": 32000000.0
+    }
+  },
+  {
+    "draw_id": 1326,
+    "draw_date": "2011-10-08",
+    "numbers": [
+      10,
+      11,
+      18,
+      19,
+      30,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1326,
+      "data": "08/10/2011",
+      "local": "Caminh\u00e3o da Sorte em JARAGU\u00c1 DO SUL, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "30",
+        "19",
+        "10",
+        "18",
+        "50",
+        "11"
+      ],
+      "dezenas": [
+        "10",
+        "11",
+        "18",
+        "19",
+        "30",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 179,
+          "valorPremio": 17249.11
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 13207,
+          "valorPremio": 333.97
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1327,
+      "dataProximoConcurso": "13/10/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 52738340.0,
+      "valorAcumuladoConcurso_0_5": 6535528.64,
+      "valorAcumuladoConcursoEspecial": 49838224.59,
+      "valorAcumuladoProximoConcurso": 32431186.77,
+      "valorEstimadoProximoConcurso": 38000000.0
+    }
+  },
+  {
+    "draw_id": 1327,
+    "draw_date": "2011-10-13",
+    "numbers": [
+      16,
+      35,
+      36,
+      41,
+      52,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1327,
+      "data": "13/10/2011",
+      "local": "Audit\u00f3rio em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "41",
+        "35",
+        "36",
+        "16",
+        "52",
+        "54"
+      ],
+      "dezenas": [
+        "16",
+        "35",
+        "36",
+        "41",
+        "52",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 89,
+          "valorPremio": 38492.13
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7175,
+          "valorPremio": 682.09
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV.",
+      "acumulou": true,
+      "proximoConcurso": 1328,
+      "dataProximoConcurso": "15/10/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 58515206.0,
+      "valorAcumuladoConcurso_0_5": 10502243.64,
+      "valorAcumuladoConcursoEspecial": 50739750.74,
+      "valorAcumuladoProximoConcurso": 38741869.73,
+      "valorEstimadoProximoConcurso": 46000000.0
+    }
+  },
+  {
+    "draw_id": 1328,
+    "draw_date": "2011-10-15",
+    "numbers": [
+      10,
+      23,
+      27,
+      43,
+      53,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1328,
+      "data": "15/10/2011",
+      "local": "Caminh\u00e3o da Sorte em CHAPEC\u00d3, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "43",
+        "27",
+        "59",
+        "53",
+        "23",
+        "10"
+      ],
+      "dezenas": [
+        "10",
+        "23",
+        "27",
+        "43",
+        "53",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 45390782.32
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 213,
+          "valorPremio": 16945.58
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 14179,
+          "valorPremio": 363.65
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1329,
+      "dataProximoConcurso": "19/10/2011",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "Teresina",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PI"
+        }
+      ],
+      "valorArrecadado": 61651408.0,
+      "valorAcumuladoConcurso_0_5": 14681560.13,
+      "valorAcumuladoConcursoEspecial": 51689595.42,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1329,
+    "draw_date": "2011-10-19",
+    "numbers": [
+      7,
+      8,
+      11,
+      39,
+      43,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1329,
+      "data": "19/10/2011",
+      "local": "Caminh\u00e3o da Sorte em CALDAS NOVAS, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "43",
+        "50",
+        "08",
+        "07",
+        "39",
+        "11"
+      ],
+      "dezenas": [
+        "07",
+        "08",
+        "11",
+        "39",
+        "43",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 66,
+          "valorPremio": 22514.95
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5244,
+          "valorPremio": 404.81
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1330,
+      "dataProximoConcurso": "22/10/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 25381758.0,
+      "valorAcumuladoConcurso_0_5": 19139519.77,
+      "valorAcumuladoConcursoEspecial": 52080644.52,
+      "valorAcumuladoProximoConcurso": 19139519.77,
+      "valorEstimadoProximoConcurso": 23000000.0
+    }
+  },
+  {
+    "draw_id": 1330,
+    "draw_date": "2011-10-22",
+    "numbers": [
+      8,
+      18,
+      21,
+      30,
+      48,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1330,
+      "data": "22/10/2011",
+      "local": "Caminh\u00e3o da Sorte em CALDAS NOVAS, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "48",
+        "08",
+        "21",
+        "18",
+        "49",
+        "30"
+      ],
+      "dezenas": [
+        "08",
+        "18",
+        "21",
+        "30",
+        "48",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 76,
+          "valorPremio": 34525.57
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6768,
+          "valorPremio": 553.85
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1331,
+      "dataProximoConcurso": "26/10/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 44818908.0,
+      "valorAcumuladoConcurso_0_5": 3038250.18,
+      "valorAcumuladoConcursoEspecial": 52771155.94,
+      "valorAcumuladoProximoConcurso": 23973099.6,
+      "valorEstimadoProximoConcurso": 30000000.0
+    }
+  },
+  {
+    "draw_id": 1331,
+    "draw_date": "2011-10-26",
+    "numbers": [
+      9,
+      24,
+      26,
+      39,
+      46,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1331,
+      "data": "26/10/2011",
+      "local": "Caminh\u00e3o da Sorte em ITATIBA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "24",
+        "46",
+        "39",
+        "57",
+        "26",
+        "09"
+      ],
+      "dezenas": [
+        "09",
+        "24",
+        "26",
+        "39",
+        "46",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 29215205.37
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 157,
+          "valorPremio": 18125.57
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11461,
+          "valorPremio": 354.7
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1332,
+      "dataProximoConcurso": "29/10/2011",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "PEDRO CAN\u00c1RIO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "ES"
+        }
+      ],
+      "valorArrecadado": 48606926.0,
+      "valorAcumuladoConcurso_0_5": 6333288.1,
+      "valorAcumuladoConcursoEspecial": 53520028.21,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1332,
+    "draw_date": "2011-10-29",
+    "numbers": [
+      3,
+      5,
+      13,
+      24,
+      35,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1332,
+      "data": "29/10/2011",
+      "local": "Caminh\u00e3o da Sorte em ITATIBA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "05",
+        "13",
+        "03",
+        "24",
+        "35",
+        "59"
+      ],
+      "dezenas": [
+        "03",
+        "05",
+        "13",
+        "24",
+        "35",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 2963357.08
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 150,
+          "valorPremio": 10724.53
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10790,
+          "valorPremio": 212.98
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1333,
+      "dataProximoConcurso": "03/11/2011",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "BRAS\u00cdLIA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "DF"
+        }
+      ],
+      "valorArrecadado": 27477446.0,
+      "valorAcumuladoConcurso_0_5": 8195969.69,
+      "valorAcumuladoConcursoEspecial": 53943364.94,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1333,
+    "draw_date": "2011-11-03",
+    "numbers": [
+      25,
+      26,
+      28,
+      33,
+      42,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1333,
+      "data": "03/11/2011",
+      "local": "Caminh\u00e3o da Sorte em MIGUEL PEREIRA, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "25",
+        "51",
+        "26",
+        "42",
+        "28",
+        "33"
+      ],
+      "dezenas": [
+        "25",
+        "26",
+        "28",
+        "33",
+        "42",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 54,
+          "valorPremio": 25689.91
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3893,
+          "valorPremio": 509.06
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1334,
+      "dataProximoConcurso": "05/11/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 23695356.0,
+      "valorAcumuladoConcurso_0_5": 9802265.39,
+      "valorAcumuladoConcursoEspecial": 54308432.16,
+      "valorAcumuladoProximoConcurso": 2555470.44,
+      "valorEstimadoProximoConcurso": 5000000.0
+    }
+  },
+  {
+    "draw_id": 1334,
+    "draw_date": "2011-11-05",
+    "numbers": [
+      1,
+      6,
+      8,
+      10,
+      25,
+      27
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1334,
+      "data": "05/11/2011",
+      "local": "Audit\u00f3rio em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "08",
+        "25",
+        "27",
+        "06",
+        "10",
+        "01"
+      ],
+      "dezenas": [
+        "01",
+        "06",
+        "08",
+        "10",
+        "25",
+        "27"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 392,
+          "valorPremio": 4246.2
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 16794,
+          "valorPremio": 141.59
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV.",
+      "acumulou": true,
+      "proximoConcurso": 1335,
+      "dataProximoConcurso": "09/11/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 28431066.0,
+      "valorAcumuladoConcurso_0_5": 17351264.84,
+      "valorAcumuladoConcursoEspecial": 54746461.03,
+      "valorAcumuladoProximoConcurso": 17351264.84,
+      "valorEstimadoProximoConcurso": 21000000.0
+    }
+  },
+  {
+    "draw_id": 1335,
+    "draw_date": "2011-11-09",
+    "numbers": [
+      3,
+      14,
+      20,
+      22,
+      49,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1335,
+      "data": "09/11/2011",
+      "local": "Audit\u00f3rio em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "49",
+        "03",
+        "51",
+        "20",
+        "22",
+        "14"
+      ],
+      "dezenas": [
+        "03",
+        "14",
+        "20",
+        "22",
+        "49",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 21885288.49
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 94,
+          "valorPremio": 26184.33
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7457,
+          "valorPremio": 471.52
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV.",
+      "acumulou": false,
+      "proximoConcurso": 1336,
+      "dataProximoConcurso": "12/11/2011",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "GOI\u00c2NIA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "GO"
+        }
+      ],
+      "valorArrecadado": 42041302.0,
+      "valorAcumuladoConcurso_0_5": 2849957.72,
+      "valorAcumuladoConcursoEspecial": 55394178.71,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 1336,
+    "draw_date": "2011-11-12",
+    "numbers": [
+      1,
+      32,
+      38,
+      47,
+      51,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1336,
+      "data": "12/11/2011",
+      "local": "Caminh\u00e3o da Sorte em CATANDUVAS, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "51",
+        "54",
+        "32",
+        "01",
+        "38",
+        "47"
+      ],
+      "dezenas": [
+        "01",
+        "32",
+        "38",
+        "47",
+        "51",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 3086420.09
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 38,
+          "valorPremio": 44091.72
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3539,
+          "valorPremio": 676.33
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1337,
+      "dataProximoConcurso": "16/11/2011",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "BARBALHA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "CE"
+        }
+      ],
+      "valorArrecadado": 28618536.0,
+      "valorAcumuladoConcurso_0_5": 4789993.21,
+      "valorAcumuladoConcursoEspecial": 55835095.87,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1337,
+    "draw_date": "2011-11-16",
+    "numbers": [
+      2,
+      20,
+      35,
+      38,
+      45,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1337,
+      "data": "16/11/2011",
+      "local": "Caminh\u00e3o da Sorte em CAMPO BOM, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "38",
+        "02",
+        "45",
+        "35",
+        "20",
+        "51"
+      ],
+      "dezenas": [
+        "02",
+        "20",
+        "35",
+        "38",
+        "45",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 30,
+          "valorPremio": 39144.08
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2680,
+          "valorPremio": 625.97
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1338,
+      "dataProximoConcurso": "19/11/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 20058304.0,
+      "valorAcumuladoConcurso_0_5": 6149735.06,
+      "valorAcumuladoConcursoEspecial": 56144128.12,
+      "valorAcumuladoProximoConcurso": 2163225.69,
+      "valorEstimadoProximoConcurso": 5000000.0
+    }
+  },
+  {
+    "draw_id": 1338,
+    "draw_date": "2011-11-19",
+    "numbers": [
+      1,
+      18,
+      19,
+      33,
+      43,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1338,
+      "data": "19/11/2011",
+      "local": "Caminh\u00e3o da Sorte em CAMPO BOM, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "19",
+        "33",
+        "18",
+        "43",
+        "60",
+        "01"
+      ],
+      "dezenas": [
+        "01",
+        "18",
+        "19",
+        "33",
+        "43",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 5448452.03
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 102,
+          "valorPremio": 17484.4
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6329,
+          "valorPremio": 402.54
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1339,
+      "dataProximoConcurso": "23/11/2011",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "SALVADOR",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "BA"
+        }
+      ],
+      "valorArrecadado": 30461948.0,
+      "valorAcumuladoConcurso_0_5": 8214734.48,
+      "valorAcumuladoConcursoEspecial": 56613446.19,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2300000.0
+    }
+  },
+  {
+    "draw_id": 1339,
+    "draw_date": "2011-11-23",
+    "numbers": [
+      7,
+      10,
+      14,
+      16,
+      54,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1339,
+      "data": "23/11/2011",
+      "local": "Caminh\u00e3o da Sorte em WENCESLAU BRAZ, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "59",
+        "10",
+        "16",
+        "14",
+        "07",
+        "54"
+      ],
+      "dezenas": [
+        "07",
+        "10",
+        "14",
+        "16",
+        "54",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 58,
+          "valorPremio": 23616.19
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5087,
+          "valorPremio": 384.66
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1340,
+      "dataProximoConcurso": "26/11/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 23396164.0,
+      "valorAcumuladoConcurso_0_5": 12323951.62,
+      "valorAcumuladoConcursoEspecial": 56973903.84,
+      "valorAcumuladoProximoConcurso": 12323951.62,
+      "valorEstimadoProximoConcurso": 16000000.0
+    }
+  },
+  {
+    "draw_id": 1340,
+    "draw_date": "2011-11-26",
+    "numbers": [
+      13,
+      21,
+      30,
+      36,
+      59,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1340,
+      "data": "26/11/2011",
+      "local": "Caminh\u00e3o da Sorte em WENCESLAU BRAZ, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "36",
+        "21",
+        "13",
+        "59",
+        "60",
+        "30"
+      ],
+      "dezenas": [
+        "13",
+        "21",
+        "30",
+        "36",
+        "59",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 71,
+          "valorPremio": 29502.9
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6148,
+          "valorPremio": 486.73
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1341,
+      "dataProximoConcurso": "30/11/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 35779136.0,
+      "valorAcumuladoConcurso_0_5": 2425448.79,
+      "valorAcumuladoConcursoEspecial": 57525142.22,
+      "valorAcumuladoProximoConcurso": 16182620.14,
+      "valorEstimadoProximoConcurso": 20000000.0
+    }
+  },
+  {
+    "draw_id": 1341,
+    "draw_date": "2011-11-30",
+    "numbers": [
+      1,
+      11,
+      20,
+      37,
+      40,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1341,
+      "data": "30/11/2011",
+      "local": "Caminh\u00e3o da Sorte em ARARAQUARA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "11",
+        "40",
+        "37",
+        "20",
+        "01",
+        "52"
+      ],
+      "dezenas": [
+        "01",
+        "11",
+        "20",
+        "37",
+        "40",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 90,
+          "valorPremio": 26529.68
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6566,
+          "valorPremio": 519.48
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1342,
+      "dataProximoConcurso": "03/12/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 40783200.0,
+      "valorAcumuladoConcurso_0_5": 5190120.44,
+      "valorAcumuladoConcursoEspecial": 58153476.7,
+      "valorAcumuladoProximoConcurso": 20580961.4,
+      "valorEstimadoProximoConcurso": 25000000.0
+    }
+  },
+  {
+    "draw_id": 1342,
+    "draw_date": "2011-12-03",
+    "numbers": [
+      5,
+      7,
+      42,
+      46,
+      50,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1342,
+      "data": "03/12/2011",
+      "local": "Caminh\u00e3o da Sorte em ARARAQUARA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "05",
+        "60",
+        "46",
+        "42",
+        "50",
+        "07"
+      ],
+      "dezenas": [
+        "05",
+        "07",
+        "42",
+        "46",
+        "50",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 102,
+          "valorPremio": 27452.98
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8092,
+          "valorPremio": 494.35
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1343,
+      "dataProximoConcurso": "07/12/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 47829560.0,
+      "valorAcumuladoConcurso_0_5": 8432461.13,
+      "valorAcumuladoConcursoEspecial": 58890372.31,
+      "valorAcumuladoProximoConcurso": 25739230.68,
+      "valorEstimadoProximoConcurso": 31000000.0
+    }
+  },
+  {
+    "draw_id": 1343,
+    "draw_date": "2011-12-07",
+    "numbers": [
+      19,
+      20,
+      31,
+      42,
+      51,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1343,
+      "data": "07/12/2011",
+      "local": "Caminh\u00e3o da Sorte em BIRIGUI, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "51",
+        "31",
+        "42",
+        "20",
+        "56",
+        "19"
+      ],
+      "dezenas": [
+        "19",
+        "20",
+        "31",
+        "42",
+        "51",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 58,
+          "valorPremio": 50455.78
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6113,
+          "valorPremio": 683.89
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1344,
+      "dataProximoConcurso": "10/12/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 49985698.0,
+      "valorAcumuladoConcurso_0_5": 11820965.27,
+      "valorAcumuladoConcursoEspecial": 59660486.92,
+      "valorAcumuladoProximoConcurso": 31130032.72,
+      "valorEstimadoProximoConcurso": 37000000.0
+    }
+  },
+  {
+    "draw_id": 1344,
+    "draw_date": "2011-12-10",
+    "numbers": [
+      8,
+      19,
+      21,
+      36,
+      42,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1344,
+      "data": "10/12/2011",
+      "local": "Caminh\u00e3o da Sorte em BIRIGUI, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "19",
+        "42",
+        "08",
+        "36",
+        "21",
+        "59"
+      ],
+      "dezenas": [
+        "08",
+        "19",
+        "21",
+        "36",
+        "42",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 3,
+          "valorPremio": 12497169.8
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 236,
+          "valorPremio": 14632.94
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 13393,
+          "valorPremio": 368.35
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1345,
+      "dataProximoConcurso": "14/12/2011",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "EST\u00c2NCIA VELHA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RS"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "FLORIAN\u00d3POLIS",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SC"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "TAUBAT\u00c9",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 58986186.0,
+      "valorAcumuladoConcurso_0_5": 15819607.75,
+      "valorAcumuladoConcursoEspecial": 60569269.32,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 20000000.0
+    }
+  },
+  {
+    "draw_id": 1345,
+    "draw_date": "2011-12-14",
+    "numbers": [
+      7,
+      17,
+      19,
+      26,
+      40,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1345,
+      "data": "14/12/2011",
+      "local": "Audit\u00f3rio em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "50",
+        "40",
+        "26",
+        "07",
+        "19",
+        "17"
+      ],
+      "dezenas": [
+        "07",
+        "17",
+        "19",
+        "26",
+        "40",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 74,
+          "valorPremio": 28067.82
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6043,
+          "valorPremio": 491.0
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV.",
+      "acumulou": true,
+      "proximoConcurso": 1346,
+      "dataProximoConcurso": "17/12/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 35477030.0,
+      "valorAcumuladoConcurso_0_5": 2404969.19,
+      "valorAcumuladoConcursoEspecial": 61115853.23,
+      "valorAcumuladoProximoConcurso": 19645695.09,
+      "valorEstimadoProximoConcurso": 24000000.0
+    }
+  },
+  {
+    "draw_id": 1346,
+    "draw_date": "2011-12-17",
+    "numbers": [
+      12,
+      32,
+      40,
+      47,
+      48,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1346,
+      "data": "17/12/2011",
+      "local": "Caminh\u00e3o da Sorte em ITAPETINGA, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "59",
+        "47",
+        "32",
+        "48",
+        "40",
+        "12"
+      ],
+      "dezenas": [
+        "12",
+        "32",
+        "40",
+        "47",
+        "48",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 24409476.19
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 57,
+          "valorPremio": 45369.34
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5205,
+          "valorPremio": 709.77
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1347,
+      "dataProximoConcurso": "20/12/2011",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "CURITIBA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        }
+      ],
+      "valorArrecadado": 44171706.0,
+      "valorAcumuladoConcurso_0_5": 5399345.87,
+      "valorAcumuladoConcursoEspecial": 61796393.4,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1347,
+    "draw_date": "2011-12-20",
+    "numbers": [
+      9,
+      19,
+      45,
+      46,
+      54,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1347,
+      "data": "20/12/2011",
+      "local": "Caminh\u00e3o da Sorte em JANA\u00daBA, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "19",
+        "45",
+        "54",
+        "56",
+        "46",
+        "09"
+      ],
+      "dezenas": [
+        "09",
+        "19",
+        "45",
+        "46",
+        "54",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 38,
+          "valorPremio": 24020.82
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2940,
+          "valorPremio": 443.53
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1348,
+      "dataProximoConcurso": "22/12/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 15591154.0,
+      "valorAcumuladoConcurso_0_5": 6456261.98,
+      "valorAcumuladoConcursoEspecial": 62036601.62,
+      "valorAcumuladoProximoConcurso": 1681457.45,
+      "valorEstimadoProximoConcurso": 4000000.0
+    }
+  },
+  {
+    "draw_id": 1348,
+    "draw_date": "2011-12-22",
+    "numbers": [
+      7,
+      12,
+      38,
+      39,
+      45,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1348,
+      "data": "22/12/2011",
+      "local": "Audit\u00f3rio em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "38",
+        "45",
+        "39",
+        "07",
+        "12",
+        "56"
+      ],
+      "dezenas": [
+        "07",
+        "12",
+        "38",
+        "39",
+        "45",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 89,
+          "valorPremio": 15808.64
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5009,
+          "valorPremio": 401.26
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV.",
+      "acumulou": true,
+      "proximoConcurso": 1349,
+      "dataProximoConcurso": "24/12/2011",
+      "localGanhadores": [],
+      "valorArrecadado": 24032082.0,
+      "valorAcumuladoConcurso_0_5": 8085384.16,
+      "valorAcumuladoConcursoEspecial": 62406856.67,
+      "valorAcumuladoProximoConcurso": 4273242.73,
+      "valorEstimadoProximoConcurso": 7000000.0
+    }
+  },
+  {
+    "draw_id": 1349,
+    "draw_date": "2011-12-24",
+    "numbers": [
+      9,
+      19,
+      20,
+      50,
+      51,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1349,
+      "data": "24/12/2011",
+      "local": "Caminh\u00e3o da Sorte em JANA\u00daBA, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "09",
+        "19",
+        "20",
+        "50",
+        "60",
+        "51"
+      ],
+      "dezenas": [
+        "09",
+        "19",
+        "20",
+        "50",
+        "51",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 7099412.95
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 168,
+          "valorPremio": 9132.18
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7012,
+          "valorPremio": 312.56
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "VALOR DO PR\u00caMIO PRINCIPAL PARA O CONCURSO 1350 - MEGA DA VIRADA: R$ 177.617.487,62.",
+      "acumulou": false,
+      "proximoConcurso": 1350,
+      "dataProximoConcurso": "31/12/2011",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "JUIZ DE FORA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        }
+      ],
+      "valorArrecadado": 26205394.0,
+      "valorAcumuladoConcurso_0_5": 72672429.3,
+      "valorAcumuladoConcursoEspecial": 72672429.3,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 170000000.0
+    }
+  },
+  {
+    "draw_id": 1350,
+    "draw_date": "2011-12-31",
+    "numbers": [
+      3,
+      4,
+      29,
+      36,
+      45,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1350,
+      "data": "31/12/2011",
+      "local": "Audit\u00f3rio em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "04",
+        "36",
+        "29",
+        "55",
+        "45",
+        "03"
+      ],
+      "dezenas": [
+        "03",
+        "04",
+        "29",
+        "36",
+        "45",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 5,
+          "valorPremio": 35523497.52
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 954,
+          "valorPremio": 33711.3
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 85582,
+          "valorPremio": 536.83
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV.",
+      "acumulou": false,
+      "proximoConcurso": 1351,
+      "dataProximoConcurso": "04/01/2012",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "RUSSAS",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "CE"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "BRAS\u00cdLIA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "DF"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "CARMO DO CAJURU",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "BEL\u00c9M",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PA"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "MAU\u00c1",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 549326718.0,
+      "valorAcumuladoConcurso_0_5": 0.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  }
+]

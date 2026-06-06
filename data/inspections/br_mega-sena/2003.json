@@ -1,0 +1,7278 @@
+[
+  {
+    "draw_id": 426,
+    "draw_date": "2003-01-04",
+    "numbers": [
+      7,
+      30,
+      32,
+      37,
+      50,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 426,
+      "data": "04/01/2003",
+      "local": "Caminh\u00e3o da Sorte em Agua\u00ed, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "07",
+        "32",
+        "54",
+        "50",
+        "30",
+        "37"
+      ],
+      "dezenas": [
+        "07",
+        "30",
+        "32",
+        "37",
+        "50",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 58,
+          "valorPremio": 13241.94
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3139,
+          "valorPremio": 243.76
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA)pr\u00f3ximo concurso:R$1.700.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 427,
+      "dataProximoConcurso": "08/01/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7857390.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 921638.77,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 427,
+    "draw_date": "2003-01-08",
+    "numbers": [
+      3,
+      13,
+      14,
+      24,
+      43,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 427,
+      "data": "08/01/2003",
+      "local": "Caminh\u00e3o da Sorte em Ibipor\u00e3, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "51",
+        "13",
+        "43",
+        "24",
+        "03",
+        "14"
+      ],
+      "dezenas": [
+        "03",
+        "13",
+        "14",
+        "24",
+        "43",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 48,
+          "valorPremio": 11642.1
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3563,
+          "valorPremio": 156.25
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso:R$2.500.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 428,
+      "dataProximoConcurso": "11/01/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 8304446.72,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1592223.84,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 428,
+    "draw_date": "2003-01-11",
+    "numbers": [
+      8,
+      28,
+      30,
+      32,
+      46,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 428,
+      "data": "11/01/2003",
+      "local": "Caminh\u00e3o da Sorte em Londrina, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "60",
+        "08",
+        "32",
+        "28",
+        "46",
+        "30"
+      ],
+      "dezenas": [
+        "08",
+        "28",
+        "30",
+        "32",
+        "46",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 48,
+          "valorPremio": 16919.0
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3734,
+          "valorPremio": 216.67
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$3.500.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 429,
+      "dataProximoConcurso": "15/01/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 8954136.41,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 2566758.37,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 429,
+    "draw_date": "2003-01-15",
+    "numbers": [
+      17,
+      26,
+      32,
+      36,
+      43,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 429,
+      "data": "15/01/2003",
+      "local": "Caminh\u00e3o da Sorte em Guaratuba, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "55",
+        "32",
+        "17",
+        "36",
+        "26",
+        "43"
+      ],
+      "dezenas": [
+        "17",
+        "26",
+        "32",
+        "36",
+        "43",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 44,
+          "valorPremio": 14978.72
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3300,
+          "valorPremio": 198.96
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$14.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 430,
+      "dataProximoConcurso": "18/01/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 12839021.93,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 12839021.93,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 430,
+    "draw_date": "2003-01-18",
+    "numbers": [
+      8,
+      10,
+      21,
+      25,
+      38,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 430,
+      "data": "18/01/2003",
+      "local": "Caminh\u00e3o da Sorte em Guaratuba, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "50",
+        "21",
+        "10",
+        "25",
+        "38",
+        "08"
+      ],
+      "dezenas": [
+        "08",
+        "10",
+        "21",
+        "25",
+        "38",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 14410708.81
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 85,
+          "valorPremio": 15408.7
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6944,
+          "valorPremio": 187.9
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso:R$550.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 431,
+      "dataProximoConcurso": "22/01/2003",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1047791.27,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 431,
+    "draw_date": "2003-01-22",
+    "numbers": [
+      26,
+      37,
+      40,
+      47,
+      52,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 431,
+      "data": "22/01/2003",
+      "local": "Caminh\u00e3o da Sorte em Caldas Novas, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "58",
+        "26",
+        "40",
+        "37",
+        "47",
+        "52"
+      ],
+      "dezenas": [
+        "26",
+        "37",
+        "40",
+        "47",
+        "52",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 20,
+          "valorPremio": 21069.89
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1184,
+          "valorPremio": 354.56
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio ( SENA ) pr\u00f3ximo concurso: R$1.300.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 432,
+      "dataProximoConcurso": "25/01/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1384909.55,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 505677.41,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 432,
+    "draw_date": "2003-01-25",
+    "numbers": [
+      4,
+      13,
+      17,
+      27,
+      39,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 432,
+      "data": "25/01/2003",
+      "local": "Caminh\u00e3o da Sorte em Caldas Novas, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "50",
+        "17",
+        "13",
+        "27",
+        "04",
+        "39"
+      ],
+      "dezenas": [
+        "04",
+        "13",
+        "17",
+        "27",
+        "39",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 54,
+          "valorPremio": 12185.97
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4278,
+          "valorPremio": 153.24
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$2.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 433,
+      "dataProximoConcurso": "29/01/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1911343.26,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1295327.95,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 433,
+    "draw_date": "2003-01-29",
+    "numbers": [
+      16,
+      17,
+      28,
+      30,
+      36,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 433,
+      "data": "29/01/2003",
+      "local": "Caminh\u00e3o da Sorte em Jardim, MS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "36",
+        "17",
+        "28",
+        "16",
+        "54",
+        "30"
+      ],
+      "dezenas": [
+        "16",
+        "17",
+        "28",
+        "30",
+        "36",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 31,
+          "valorPremio": 16580.2
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2332,
+          "valorPremio": 219.58
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$2.600.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 434,
+      "dataProximoConcurso": "01/02/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2322532.33,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1912111.54,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 434,
+    "draw_date": "2003-02-01",
+    "numbers": [
+      4,
+      10,
+      17,
+      24,
+      30,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 434,
+      "data": "01/02/2003",
+      "local": "Caminh\u00e3o da Sorte em Bonito, MS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "24",
+        "17",
+        "04",
+        "54",
+        "30",
+        "10"
+      ],
+      "dezenas": [
+        "04",
+        "10",
+        "17",
+        "24",
+        "30",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 84,
+          "valorPremio": 9173.28
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4870,
+          "valorPremio": 157.63
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$3.500.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 435,
+      "dataProximoConcurso": "05/02/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2938976.64,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 2836778.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 435,
+    "draw_date": "2003-02-05",
+    "numbers": [
+      10,
+      11,
+      17,
+      31,
+      37,
+      43
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 435,
+      "data": "05/02/2003",
+      "local": "Caminh\u00e3o da Sorte em Mongagu\u00e1, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "37",
+        "11",
+        "17",
+        "31",
+        "43",
+        "10"
+      ],
+      "dezenas": [
+        "10",
+        "11",
+        "17",
+        "31",
+        "37",
+        "43"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 55,
+          "valorPremio": 11059.32
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3243,
+          "valorPremio": 186.85
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio SENA pr\u00f3ximo concurso:R$4.500.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 436,
+      "dataProximoConcurso": "08/02/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3425586.74,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 3566693.13,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 436,
+    "draw_date": "2003-02-08",
+    "numbers": [
+      1,
+      6,
+      7,
+      29,
+      48,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 436,
+      "data": "08/02/2003",
+      "local": "Caminh\u00e3o da Sorte em Itanha\u00e9m, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "01",
+        "06",
+        "57",
+        "29",
+        "48",
+        "07"
+      ],
+      "dezenas": [
+        "01",
+        "06",
+        "07",
+        "29",
+        "48",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 47,
+          "valorPremio": 19531.31
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4696,
+          "valorPremio": 194.74
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA)pr\u00f3ximo concurso: R$ 5.600.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 437,
+      "dataProximoConcurso": "12/02/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4159963.79,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 4668258.69,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 437,
+    "draw_date": "2003-02-12",
+    "numbers": [
+      7,
+      10,
+      30,
+      44,
+      54,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 437,
+      "data": "12/02/2003",
+      "local": "Caminh\u00e3o da Sorte em Santa Rosa de Viterbo, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "54",
+        "10",
+        "59",
+        "44",
+        "30",
+        "07"
+      ],
+      "dezenas": [
+        "07",
+        "10",
+        "30",
+        "44",
+        "54",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 33,
+          "valorPremio": 22273.9
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2829,
+          "valorPremio": 258.84
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso:\r\nR$7.000.000,00 (SETE MILH\u00d5ES!!!).",
+      "acumulou": true,
+      "proximoConcurso": 438,
+      "dataProximoConcurso": "15/02/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4747994.7,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 5550305.04,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 438,
+    "draw_date": "2003-02-15",
+    "numbers": [
+      3,
+      5,
+      11,
+      14,
+      38,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 438,
+      "data": "15/02/2003",
+      "local": "Caminh\u00e3o da Sorte em Cajuru, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "38",
+        "48",
+        "14",
+        "03",
+        "11",
+        "05"
+      ],
+      "dezenas": [
+        "03",
+        "05",
+        "11",
+        "14",
+        "38",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 65,
+          "valorPremio": 16281.73
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6276,
+          "valorPremio": 167.99
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$8.000.000,00 (OITO MILH\u00d5ES!!!).",
+      "acumulou": true,
+      "proximoConcurso": 439,
+      "dataProximoConcurso": "19/02/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5594644.86,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 6820280.27,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 439,
+    "draw_date": "2003-02-19",
+    "numbers": [
+      13,
+      20,
+      29,
+      42,
+      43,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 439,
+      "data": "19/02/2003",
+      "local": "Caminh\u00e3o da Sorte em Dourados, MS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "42",
+        "13",
+        "20",
+        "29",
+        "43",
+        "57"
+      ],
+      "dezenas": [
+        "13",
+        "20",
+        "29",
+        "42",
+        "43",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 65,
+          "valorPremio": 13353.84
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4407,
+          "valorPremio": 196.22
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (6 ACERTOS) para o pr\u00f3ximo concurso: R$16.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 440,
+      "dataProximoConcurso": "22/02/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 14150924.79,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 14150924.79,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 440,
+    "draw_date": "2003-02-22",
+    "numbers": [
+      3,
+      5,
+      23,
+      30,
+      46,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 440,
+      "data": "22/02/2003",
+      "local": "Caminh\u00e3o da Sorte em Dourados, MS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "46",
+        "23",
+        "30",
+        "47",
+        "05",
+        "03"
+      ],
+      "dezenas": [
+        "03",
+        "05",
+        "23",
+        "30",
+        "46",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 139,
+          "valorPremio": 10909.13
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10120,
+          "valorPremio": 149.28
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$18.000.000,00 (DEZOITO MILH\u00d5ES!!!).",
+      "acumulou": true,
+      "proximoConcurso": 441,
+      "dataProximoConcurso": "26/02/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1213094.73,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 15970566.86,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 441,
+    "draw_date": "2003-02-26",
+    "numbers": [
+      2,
+      10,
+      15,
+      21,
+      58,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 441,
+      "data": "26/02/2003",
+      "local": "Caminh\u00e3o da Sorte em Corumb\u00e1, MS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "02",
+        "15",
+        "58",
+        "10",
+        "59",
+        "21"
+      ],
+      "dezenas": [
+        "02",
+        "10",
+        "15",
+        "21",
+        "58",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 121,
+          "valorPremio": 11917.74
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6941,
+          "valorPremio": 206.98
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$21.000.000,00 (VINTE E UM MILH\u00d5ES!!!). No dia 05/03/2003 (Quarta-feira de Cinzas) n\u00e3o haver\u00e1 sorteio da Loteria Federal, Lotomania e Mega-Sena.",
+      "acumulou": true,
+      "proximoConcurso": 442,
+      "dataProximoConcurso": "01/03/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2366732.36,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 17701023.29,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 442,
+    "draw_date": "2003-03-01",
+    "numbers": [
+      6,
+      15,
+      23,
+      31,
+      37,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 442,
+      "data": "01/03/2003",
+      "local": "Caminh\u00e3o da Sorte em Corumb\u00e1, MS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "15",
+        "31",
+        "23",
+        "06",
+        "59",
+        "37"
+      ],
+      "dezenas": [
+        "06",
+        "15",
+        "23",
+        "31",
+        "37",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 19946601.01
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 135,
+          "valorPremio": 13861.59
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9944,
+          "valorPremio": 187.48
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$700.000,00. A CAIXA informa que o concurso 443 da Mega Sena acontecer\u00e1 em 08/03/2003.",
+      "acumulou": false,
+      "proximoConcurso": 443,
+      "dataProximoConcurso": "08/03/2003",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3863784.19,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 443,
+    "draw_date": "2003-03-08",
+    "numbers": [
+      11,
+      17,
+      26,
+      36,
+      48,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 443,
+      "data": "08/03/2003",
+      "local": "Caminh\u00e3o da Sorte em Maracaju, MS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "11",
+        "36",
+        "17",
+        "26",
+        "52",
+        "48"
+      ],
+      "dezenas": [
+        "11",
+        "17",
+        "26",
+        "36",
+        "48",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 47,
+          "valorPremio": 16322.42
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3738,
+          "valorPremio": 204.46
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio ( SENA )pr\u00f3ximo concurso: R$2.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 444,
+      "dataProximoConcurso": "12/03/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4477507.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 920584.21,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 444,
+    "draw_date": "2003-03-12",
+    "numbers": [
+      3,
+      24,
+      33,
+      48,
+      52,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 444,
+      "data": "12/03/2003",
+      "local": "Caminh\u00e3o da Sorte em Itumbiara, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "48",
+        "52",
+        "57",
+        "24",
+        "03",
+        "33"
+      ],
+      "dezenas": [
+        "03",
+        "24",
+        "33",
+        "48",
+        "52",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 43,
+          "valorPremio": 13890.62
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3332,
+          "valorPremio": 178.58
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$2.500.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 445,
+      "dataProximoConcurso": "15/03/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4955344.29,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1637340.11,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 445,
+    "draw_date": "2003-03-15",
+    "numbers": [
+      7,
+      20,
+      31,
+      32,
+      50,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 445,
+      "data": "15/03/2003",
+      "local": "Caminh\u00e3o da Sorte em Itumbiara, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "31",
+        "50",
+        "07",
+        "53",
+        "32",
+        "20"
+      ],
+      "dezenas": [
+        "07",
+        "20",
+        "31",
+        "32",
+        "50",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 31,
+          "valorPremio": 28559.37
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3101,
+          "valorPremio": 284.42
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA)pr\u00f3ximo concurso: R$ 3.600.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 446,
+      "dataProximoConcurso": "19/03/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5663616.79,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 2699748.84,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 446,
+    "draw_date": "2003-03-19",
+    "numbers": [
+      8,
+      11,
+      12,
+      17,
+      20,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 446,
+      "data": "19/03/2003",
+      "local": "Caminh\u00e3o da Sorte em Casa Branca, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "11",
+        "20",
+        "08",
+        "47",
+        "12",
+        "17"
+      ],
+      "dezenas": [
+        "08",
+        "11",
+        "12",
+        "17",
+        "20",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 1767117.91
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 65,
+          "valorPremio": 10698.55
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5039,
+          "valorPremio": 137.48
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$650.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 447,
+      "dataProximoConcurso": "22/03/2003",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RS"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6219941.45,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 447,
+    "draw_date": "2003-03-22",
+    "numbers": [
+      15,
+      24,
+      25,
+      33,
+      42,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 447,
+      "data": "22/03/2003",
+      "local": "Caminh\u00e3o da Sorte em Mogi-Gua\u00e7u, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "24",
+        "55",
+        "15",
+        "33",
+        "25",
+        "42"
+      ],
+      "dezenas": [
+        "15",
+        "24",
+        "25",
+        "33",
+        "42",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 55,
+          "valorPremio": 12010.32
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5613,
+          "valorPremio": 117.25
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$1.500.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 448,
+      "dataProximoConcurso": "26/03/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6748395.78,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 792681.47,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 448,
+    "draw_date": "2003-03-26",
+    "numbers": [
+      3,
+      5,
+      9,
+      45,
+      51,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 448,
+      "data": "26/03/2003",
+      "local": "Caminh\u00e3o da Sorte em Wenceslau Br\u00e1z, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "05",
+        "03",
+        "52",
+        "45",
+        "09",
+        "51"
+      ],
+      "dezenas": [
+        "03",
+        "05",
+        "09",
+        "45",
+        "51",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 40,
+          "valorPremio": 13356.99
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2999,
+          "valorPremio": 177.48
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: 2.200.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 449,
+      "dataProximoConcurso": "29/03/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7175819.5,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1433817.03,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 449,
+    "draw_date": "2003-03-29",
+    "numbers": [
+      1,
+      8,
+      24,
+      34,
+      49,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 449,
+      "data": "29/03/2003",
+      "local": "Caminh\u00e3o da Sorte em Sto. Ant\u00f4nio da Platina, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "34",
+        "56",
+        "24",
+        "01",
+        "49",
+        "08"
+      ],
+      "dezenas": [
+        "01",
+        "08",
+        "24",
+        "34",
+        "49",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 55,
+          "valorPremio": 14643.05
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3656,
+          "valorPremio": 219.46
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$12.000.000,00",
+      "acumulou": true,
+      "proximoConcurso": 450,
+      "dataProximoConcurso": "02/04/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 10220372.33,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 10220372.33,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 450,
+    "draw_date": "2003-04-02",
+    "numbers": [
+      1,
+      9,
+      13,
+      50,
+      51,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 450,
+      "data": "02/04/2003",
+      "local": "Caminh\u00e3o da Sorte em Colombo, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "59",
+        "51",
+        "13",
+        "01",
+        "09",
+        "50"
+      ],
+      "dezenas": [
+        "01",
+        "09",
+        "13",
+        "50",
+        "51",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 108,
+          "valorPremio": 10575.6
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6194,
+          "valorPremio": 183.7
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) do pr\u00f3ximo concurso:R$13.500.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 451,
+      "dataProximoConcurso": "05/04/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 913732.1,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 11590970.46,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 451,
+    "draw_date": "2003-04-05",
+    "numbers": [
+      17,
+      18,
+      23,
+      28,
+      31,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 451,
+      "data": "05/04/2003",
+      "local": "Caminh\u00e3o da Sorte em Jaguaria\u00edva, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "23",
+        "18",
+        "31",
+        "17",
+        "53",
+        "28"
+      ],
+      "dezenas": [
+        "17",
+        "18",
+        "23",
+        "28",
+        "31",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 87,
+          "valorPremio": 17131.8
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7368,
+          "valorPremio": 201.53
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso:R$16.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 452,
+      "dataProximoConcurso": "09/04/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2106105.06,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 13379529.89,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 452,
+    "draw_date": "2003-04-09",
+    "numbers": [
+      11,
+      16,
+      30,
+      36,
+      51,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 452,
+      "data": "09/04/2003",
+      "local": "Caminh\u00e3o da Sorte em Osasco, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "54",
+        "11",
+        "51",
+        "16",
+        "36",
+        "30"
+      ],
+      "dezenas": [
+        "11",
+        "16",
+        "30",
+        "36",
+        "51",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 76,
+          "valorPremio": 18847.21
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6317,
+          "valorPremio": 225.9
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$18.000.000,00 (DEZOITO MILH\u00d5ES!!!).",
+      "acumulou": true,
+      "proximoConcurso": 453,
+      "dataProximoConcurso": "12/04/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3252015.42,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 15098395.42,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 453,
+    "draw_date": "2003-04-12",
+    "numbers": [
+      8,
+      20,
+      23,
+      34,
+      52,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 453,
+      "data": "12/04/2003",
+      "local": "Caminh\u00e3o da Sorte em Osasco, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "58",
+        "52",
+        "08",
+        "34",
+        "20",
+        "23"
+      ],
+      "dezenas": [
+        "08",
+        "20",
+        "23",
+        "34",
+        "52",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 120,
+          "valorPremio": 15932.45
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7882,
+          "valorPremio": 241.65
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$20.000.000,00 (VINTE MILH\u00d5ES!!!).",
+      "acumulou": true,
+      "proximoConcurso": 454,
+      "dataProximoConcurso": "16/04/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4781530.28,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 17392667.68,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 454,
+    "draw_date": "2003-04-16",
+    "numbers": [
+      4,
+      17,
+      24,
+      42,
+      46,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 454,
+      "data": "16/04/2003",
+      "local": "Caminh\u00e3o da Sorte em S\u00e3o Vicente, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "04",
+        "17",
+        "42",
+        "56",
+        "46",
+        "24"
+      ],
+      "dezenas": [
+        "04",
+        "17",
+        "24",
+        "42",
+        "46",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 275,
+          "valorPremio": 7515.39
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 16564,
+          "valorPremio": 124.3
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$23.000.000,00 (VINTE E TR\u00caS MILH\u00d5ES!!!).",
+      "acumulou": true,
+      "proximoConcurso": 455,
+      "dataProximoConcurso": "19/04/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6434914.93,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 19872744.64,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 455,
+    "draw_date": "2003-04-19",
+    "numbers": [
+      2,
+      14,
+      15,
+      17,
+      50,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 455,
+      "data": "19/04/2003",
+      "local": "Caminh\u00e3o da Sorte em Praia Grande, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "50",
+        "15",
+        "17",
+        "02",
+        "14",
+        "59"
+      ],
+      "dezenas": [
+        "02",
+        "14",
+        "15",
+        "17",
+        "50",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 86,
+          "valorPremio": 23171.64
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7989,
+          "valorPremio": 248.5
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$25.000.000,00 (VINTE E CINCO MILH\u00d5ES!!!).",
+      "acumulou": true,
+      "proximoConcurso": 456,
+      "dataProximoConcurso": "23/04/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 8029123.68,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 22264057.74,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 456,
+    "draw_date": "2003-04-23",
+    "numbers": [
+      3,
+      17,
+      22,
+      27,
+      33,
+      40
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 456,
+      "data": "23/04/2003",
+      "local": "Caminh\u00e3o da Sorte em Jales, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "17",
+        "40",
+        "22",
+        "27",
+        "33",
+        "03"
+      ],
+      "dezenas": [
+        "03",
+        "17",
+        "22",
+        "27",
+        "33",
+        "40"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 221,
+          "valorPremio": 11142.66
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 16964,
+          "valorPremio": 144.61
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$30.000.000,00 (TRINTA MILH\u00d5ES!!!).",
+      "acumulou": true,
+      "proximoConcurso": 457,
+      "dataProximoConcurso": "26/04/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 9999145.99,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 25219091.2,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 457,
+    "draw_date": "2003-04-26",
+    "numbers": [
+      15,
+      17,
+      24,
+      27,
+      32,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 457,
+      "data": "26/04/2003",
+      "local": "Caminh\u00e3o da Sorte em Jales, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "48",
+        "15",
+        "24",
+        "27",
+        "17",
+        "32"
+      ],
+      "dezenas": [
+        "15",
+        "17",
+        "24",
+        "27",
+        "32",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 3,
+          "valorPremio": 10000441.74
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 480,
+          "valorPremio": 8302.49
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 31340,
+          "valorPremio": 126.68
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$500.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 458,
+      "dataProximoConcurso": "30/04/2003",
+      "localGanhadores": [
+        {
+          "ganhadores": 2,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "CE"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 13187302.01,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 458,
+    "draw_date": "2003-04-30",
+    "numbers": [
+      13,
+      24,
+      32,
+      34,
+      43,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 458,
+      "data": "30/04/2003",
+      "local": "Caminh\u00e3o da Sorte em Morretes, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "43",
+        "53",
+        "13",
+        "32",
+        "34",
+        "24"
+      ],
+      "dezenas": [
+        "13",
+        "24",
+        "32",
+        "34",
+        "43",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 82,
+          "valorPremio": 7395.34
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3921,
+          "valorPremio": 154.08
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$1.800.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 459,
+      "dataProximoConcurso": "03/05/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 13672436.33,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 727701.47,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 459,
+    "draw_date": "2003-05-03",
+    "numbers": [
+      8,
+      15,
+      17,
+      39,
+      43,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 459,
+      "data": "03/05/2003",
+      "local": "Caminh\u00e3o da Sorte em Morretes, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "43",
+        "17",
+        "08",
+        "15",
+        "49",
+        "39"
+      ],
+      "dezenas": [
+        "08",
+        "15",
+        "17",
+        "39",
+        "43",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 62,
+          "valorPremio": 12146.48
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4197,
+          "valorPremio": 178.76
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$18.000.000,00 (DEZOITO MILH\u00d5ES!!!).",
+      "acumulou": true,
+      "proximoConcurso": 460,
+      "dataProximoConcurso": "07/05/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 15906301.09,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 15906301.09,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 460,
+    "draw_date": "2003-05-07",
+    "numbers": [
+      19,
+      23,
+      30,
+      37,
+      49,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 460,
+      "data": "07/05/2003",
+      "local": "Caminh\u00e3o da Sorte em Uberaba, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "19",
+        "55",
+        "30",
+        "23",
+        "37",
+        "49"
+      ],
+      "dezenas": [
+        "19",
+        "23",
+        "30",
+        "37",
+        "49",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 155,
+          "valorPremio": 9688.96
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9464,
+          "valorPremio": 158.09
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso:R$20.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 461,
+      "dataProximoConcurso": "10/05/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1201430.37,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 17708446.64,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 461,
+    "draw_date": "2003-05-10",
+    "numbers": [
+      15,
+      17,
+      20,
+      29,
+      30,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 461,
+      "data": "10/05/2003",
+      "local": "Caminh\u00e3o da Sorte em Uberaba, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "30",
+        "17",
+        "20",
+        "29",
+        "15",
+        "60"
+      ],
+      "dezenas": [
+        "15",
+        "17",
+        "20",
+        "29",
+        "30",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 189,
+          "valorPremio": 10317.48
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8312,
+          "valorPremio": 233.71
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$23.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 462,
+      "dataProximoConcurso": "14/05/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2761432.92,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 20048450.45,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 462,
+    "draw_date": "2003-05-14",
+    "numbers": [
+      17,
+      19,
+      22,
+      26,
+      27,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 462,
+      "data": "14/05/2003",
+      "local": "Caminh\u00e3o da Sorte em Fernand\u00f3polis, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "27",
+        "48",
+        "17",
+        "19",
+        "26",
+        "22"
+      ],
+      "dezenas": [
+        "17",
+        "19",
+        "22",
+        "26",
+        "27",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 212,
+          "valorPremio": 9023.34
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 14463,
+          "valorPremio": 131.76
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$26.000.000,00 (VINTE E SEIS MILH\u00d5ES!!!).",
+      "acumulou": true,
+      "proximoConcurso": 463,
+      "dataProximoConcurso": "17/05/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4291791.02,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 22343987.57,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 463,
+    "draw_date": "2003-05-17",
+    "numbers": [
+      2,
+      3,
+      7,
+      18,
+      45,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 463,
+      "data": "17/05/2003",
+      "local": "Caminh\u00e3o da Sorte em Gua\u00edra, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "07",
+        "18",
+        "02",
+        "45",
+        "03",
+        "53"
+      ],
+      "dezenas": [
+        "02",
+        "03",
+        "07",
+        "18",
+        "45",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 166,
+          "valorPremio": 14740.96
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 15269,
+          "valorPremio": 159.66
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$29.000.000,00 (VINTE E NOVE MILH\u00d5ES!!!).",
+      "acumulou": true,
+      "proximoConcurso": 464,
+      "dataProximoConcurso": "21/05/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6249390.23,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 25280386.38,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 464,
+    "draw_date": "2003-05-21",
+    "numbers": [
+      6,
+      24,
+      33,
+      38,
+      45,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 464,
+      "data": "21/05/2003",
+      "local": "Caminh\u00e3o da Sorte em Nova Friburgo, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "06",
+        "33",
+        "45",
+        "38",
+        "24",
+        "50"
+      ],
+      "dezenas": [
+        "06",
+        "24",
+        "33",
+        "38",
+        "45",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 28414544.43
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 241,
+          "valorPremio": 10837.34
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 15457,
+          "valorPremio": 168.33
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$700.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 465,
+      "dataProximoConcurso": "24/05/2003",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RS"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 8338828.94,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 465,
+    "draw_date": "2003-05-24",
+    "numbers": [
+      1,
+      22,
+      31,
+      46,
+      51,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 465,
+      "data": "24/05/2003",
+      "local": "Caminh\u00e3o da Sorte em Nova Friburgo, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "46",
+        "31",
+        "01",
+        "57",
+        "22",
+        "51"
+      ],
+      "dezenas": [
+        "01",
+        "22",
+        "31",
+        "46",
+        "51",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 19,
+          "valorPremio": 40627.81
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2175,
+          "valorPremio": 353.57
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$1.600.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 466,
+      "dataProximoConcurso": "28/05/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 8956371.56,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 926313.93,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 466,
+    "draw_date": "2003-05-28",
+    "numbers": [
+      11,
+      16,
+      28,
+      29,
+      30,
+      45
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 466,
+      "data": "28/05/2003",
+      "local": "Caminh\u00e3o da Sorte em Juiz de Fora, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "28",
+        "16",
+        "45",
+        "29",
+        "30",
+        "11"
+      ],
+      "dezenas": [
+        "11",
+        "16",
+        "28",
+        "29",
+        "30",
+        "45"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 64,
+          "valorPremio": 10353.72
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3582,
+          "valorPremio": 184.29
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$2.600.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 467,
+      "dataProximoConcurso": "31/05/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 9486481.74,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1721479.17,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 467,
+    "draw_date": "2003-05-31",
+    "numbers": [
+      8,
+      18,
+      21,
+      22,
+      38,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 467,
+      "data": "31/05/2003",
+      "local": "Caminh\u00e3o da Sorte em Juiz de Fora, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "38",
+        "21",
+        "08",
+        "22",
+        "18",
+        "60"
+      ],
+      "dezenas": [
+        "08",
+        "18",
+        "21",
+        "22",
+        "38",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 45,
+          "valorPremio": 20730.13
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3907,
+          "valorPremio": 237.87
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$4.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 468,
+      "dataProximoConcurso": "04/06/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 10232766.2,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 2840905.83,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 468,
+    "draw_date": "2003-06-04",
+    "numbers": [
+      5,
+      6,
+      23,
+      25,
+      39,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 468,
+      "data": "04/06/2003",
+      "local": "Caminh\u00e3o da Sorte em Americana, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "23",
+        "06",
+        "25",
+        "39",
+        "51",
+        "05"
+      ],
+      "dezenas": [
+        "05",
+        "06",
+        "23",
+        "25",
+        "39",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 58,
+          "valorPremio": 14292.56
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4701,
+          "valorPremio": 175.67
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$5.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 469,
+      "dataProximoConcurso": "07/06/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 10895941.12,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 3835668.21,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 469,
+    "draw_date": "2003-06-07",
+    "numbers": [
+      13,
+      21,
+      26,
+      29,
+      42,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 469,
+      "data": "07/06/2003",
+      "local": "Caminh\u00e3o da Sorte em Santa B\u00e1rbara D Oeste, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "29",
+        "47",
+        "42",
+        "21",
+        "13",
+        "26"
+      ],
+      "dezenas": [
+        "13",
+        "21",
+        "26",
+        "29",
+        "42",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 2596432.92
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 187,
+          "valorPremio": 6048.12
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8798,
+          "valorPremio": 128.07
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$13.500.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 470,
+      "dataProximoConcurso": "11/06/2003",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "AL"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RO"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 11800739.56,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 470,
+    "draw_date": "2003-06-11",
+    "numbers": [
+      8,
+      11,
+      23,
+      37,
+      51,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 470,
+      "data": "11/06/2003",
+      "local": "Caminh\u00e3o da Sorte em Pelotas, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "51",
+        "58",
+        "23",
+        "11",
+        "08",
+        "37"
+      ],
+      "dezenas": [
+        "08",
+        "11",
+        "23",
+        "37",
+        "51",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 86,
+          "valorPremio": 13384.59
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6094,
+          "valorPremio": 188.18
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$15.000.000,00 (QUINZE MILH\u00d5ES!!!).",
+      "acumulou": true,
+      "proximoConcurso": 471,
+      "dataProximoConcurso": "14/06/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 920859.73,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 13182029.14,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 471,
+    "draw_date": "2003-06-14",
+    "numbers": [
+      5,
+      31,
+      32,
+      36,
+      51,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 471,
+      "data": "14/06/2003",
+      "local": "Caminh\u00e3o da Sorte em Pelotas, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "51",
+        "59",
+        "31",
+        "05",
+        "36",
+        "32"
+      ],
+      "dezenas": [
+        "05",
+        "31",
+        "32",
+        "36",
+        "51",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 76,
+          "valorPremio": 19668.02
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5490,
+          "valorPremio": 271.24
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$17.000.000,00 (DEZESSETE MILH\u00d5ES!!!).",
+      "acumulou": true,
+      "proximoConcurso": 472,
+      "dataProximoConcurso": "18/06/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2116675.52,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 14975752.83,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 472,
+    "draw_date": "2003-06-18",
+    "numbers": [
+      3,
+      4,
+      12,
+      29,
+      38,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 472,
+      "data": "18/06/2003",
+      "local": "Caminh\u00e3o da Sorte em Lages, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "12",
+        "03",
+        "38",
+        "29",
+        "51",
+        "04"
+      ],
+      "dezenas": [
+        "03",
+        "04",
+        "12",
+        "29",
+        "38",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 82,
+          "valorPremio": 17224.58
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6518,
+          "valorPremio": 215.88
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$19.000.000,00 (DEZENOVE MILH\u00d5ES DE REAIS!!).",
+      "acumulou": true,
+      "proximoConcurso": 473,
+      "dataProximoConcurso": "21/06/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3246607.67,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 16670651.02,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 473,
+    "draw_date": "2003-06-21",
+    "numbers": [
+      7,
+      23,
+      41,
+      49,
+      51,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 473,
+      "data": "21/06/2003",
+      "local": "Caminh\u00e3o da Sorte em Lages, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "51",
+        "07",
+        "58",
+        "49",
+        "23",
+        "41"
+      ],
+      "dezenas": [
+        "07",
+        "23",
+        "41",
+        "49",
+        "51",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 65,
+          "valorPremio": 23285.11
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6524,
+          "valorPremio": 231.12
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$21.000.000,00 (VINTE E UM MILH\u00d5ES DE REAIS!!!).",
+      "acumulou": true,
+      "proximoConcurso": 474,
+      "dataProximoConcurso": "25/06/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4457433.05,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 18486889.08,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 474,
+    "draw_date": "2003-06-25",
+    "numbers": [
+      3,
+      12,
+      32,
+      34,
+      40,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 474,
+      "data": "25/06/2003",
+      "local": "Caminh\u00e3o da Sorte em Curitiba, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "34",
+        "03",
+        "12",
+        "50",
+        "32",
+        "40"
+      ],
+      "dezenas": [
+        "03",
+        "12",
+        "32",
+        "34",
+        "40",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 56,
+          "valorPremio": 34156.59
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6910,
+          "valorPremio": 275.76
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$24.000.000,00 (VINTE E QUATRO MILH\u00d5ES DE REAIS!!!).",
+      "acumulou": true,
+      "proximoConcurso": 475,
+      "dataProximoConcurso": "28/06/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5987648.11,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 20782211.64,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 475,
+    "draw_date": "2003-06-28",
+    "numbers": [
+      6,
+      8,
+      19,
+      22,
+      43,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 475,
+      "data": "28/06/2003",
+      "local": "Caminh\u00e3o da Sorte em Curitiba, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "19",
+        "06",
+        "43",
+        "52",
+        "08",
+        "22"
+      ],
+      "dezenas": [
+        "06",
+        "08",
+        "19",
+        "22",
+        "43",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 156,
+          "valorPremio": 15008.18
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 13235,
+          "valorPremio": 176.23
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$27.000.000,00 (VINTE E SETE MILH\u00d5ES DE REAIS!!!).",
+      "acumulou": true,
+      "proximoConcurso": 476,
+      "dataProximoConcurso": "02/07/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7860668.49,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 23591742.2,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 476,
+    "draw_date": "2003-07-02",
+    "numbers": [
+      17,
+      20,
+      38,
+      43,
+      55,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 476,
+      "data": "02/07/2003",
+      "local": "Caminh\u00e3o da Sorte em Petr\u00f3polis, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "38",
+        "43",
+        "20",
+        "55",
+        "17",
+        "58"
+      ],
+      "dezenas": [
+        "17",
+        "20",
+        "38",
+        "43",
+        "55",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 163,
+          "valorPremio": 16837.81
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11465,
+          "valorPremio": 238.49
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULADA!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$31.000.000,00 (TRINTA E UM MILH\u00d5ES DE REAIS!!!).",
+      "acumulou": true,
+      "proximoConcurso": 477,
+      "dataProximoConcurso": "05/07/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 10056318.82,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 26885217.69,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 477,
+    "draw_date": "2003-07-05",
+    "numbers": [
+      6,
+      8,
+      18,
+      34,
+      38,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 477,
+      "data": "05/07/2003",
+      "local": "Caminh\u00e3o da Sorte em Petr\u00f3polis, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "47",
+        "34",
+        "08",
+        "06",
+        "18",
+        "38"
+      ],
+      "dezenas": [
+        "06",
+        "08",
+        "18",
+        "34",
+        "38",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 3,
+          "valorPremio": 10401481.92
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 279,
+          "valorPremio": 12900.92
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 21958,
+          "valorPremio": 163.3
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$700.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 478,
+      "dataProximoConcurso": "09/07/2003",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "AM"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RN"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RS"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 12935804.21,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 478,
+    "draw_date": "2003-07-09",
+    "numbers": [
+      3,
+      8,
+      21,
+      25,
+      30,
+      31
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 478,
+      "data": "09/07/2003",
+      "local": "Caminh\u00e3o da Sorte em Ara\u00e7atuba, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "30",
+        "08",
+        "31",
+        "03",
+        "21",
+        "25"
+      ],
+      "dezenas": [
+        "03",
+        "08",
+        "21",
+        "25",
+        "30",
+        "31"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 92,
+          "valorPremio": 7045.32
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4876,
+          "valorPremio": 132.43
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$1.700.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 479,
+      "dataProximoConcurso": "12/07/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 13454339.71,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 777803.22,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 479,
+    "draw_date": "2003-07-12",
+    "numbers": [
+      20,
+      26,
+      41,
+      46,
+      54,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 479,
+      "data": "12/07/2003",
+      "local": "Caminh\u00e3o da Sorte em Ara\u00e7atuba, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "20",
+        "54",
+        "58",
+        "26",
+        "41",
+        "46"
+      ],
+      "dezenas": [
+        "20",
+        "26",
+        "41",
+        "46",
+        "54",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 32,
+          "valorPremio": 29012.34
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2834,
+          "valorPremio": 326.35
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$18.000.000,00 (DEZOITO MILH\u00d5ES DE REAIS!!!).",
+      "acumulou": true,
+      "proximoConcurso": 480,
+      "dataProximoConcurso": "16/07/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 16088932.65,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 16088932.65,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 480,
+    "draw_date": "2003-07-16",
+    "numbers": [
+      14,
+      33,
+      36,
+      38,
+      41,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 480,
+      "data": "16/07/2003",
+      "local": "Caminh\u00e3o da Sorte em Ibitinga, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "36",
+        "38",
+        "33",
+        "14",
+        "49",
+        "41"
+      ],
+      "dezenas": [
+        "14",
+        "33",
+        "36",
+        "38",
+        "41",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 112,
+          "valorPremio": 13831.54
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8589,
+          "valorPremio": 179.69
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$21.000.000,00 (VINTE E UM MILH\u00d5ES DE REAIS!!!).",
+      "acumulou": true,
+      "proximoConcurso": 481,
+      "dataProximoConcurso": "19/07/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1239306.4,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 17947892.21,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 481,
+    "draw_date": "2003-07-19",
+    "numbers": [
+      6,
+      13,
+      22,
+      24,
+      42,
+      44
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 481,
+      "data": "19/07/2003",
+      "local": "Caminh\u00e3o da Sorte em Ibitinga, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "42",
+        "06",
+        "24",
+        "44",
+        "22",
+        "13"
+      ],
+      "dezenas": [
+        "06",
+        "13",
+        "22",
+        "24",
+        "42",
+        "44"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 3,
+          "valorPremio": 6796888.03
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 359,
+          "valorPremio": 5670.32
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 19465,
+          "valorPremio": 104.19
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$800.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 482,
+      "dataProximoConcurso": "23/07/2003",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "AC"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MT"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2867821.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 482,
+    "draw_date": "2003-07-23",
+    "numbers": [
+      12,
+      13,
+      33,
+      53,
+      54,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 482,
+      "data": "23/07/2003",
+      "local": "Caminh\u00e3o da Sorte em Cianorte, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "13",
+        "56",
+        "12",
+        "33",
+        "53",
+        "54"
+      ],
+      "dezenas": [
+        "12",
+        "13",
+        "33",
+        "53",
+        "54",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 41,
+          "valorPremio": 14878.29
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2929,
+          "valorPremio": 207.48
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Acumulou!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$1.600.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 483,
+      "dataProximoConcurso": "26/07/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3355828.98,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 732011.95,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 483,
+    "draw_date": "2003-07-26",
+    "numbers": [
+      16,
+      18,
+      23,
+      35,
+      44,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 483,
+      "data": "26/07/2003",
+      "local": "Caminh\u00e3o da Sorte em Cianorte, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "16",
+        "23",
+        "35",
+        "18",
+        "44",
+        "59"
+      ],
+      "dezenas": [
+        "16",
+        "18",
+        "23",
+        "35",
+        "44",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 90,
+          "valorPremio": 9761.25
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6279,
+          "valorPremio": 139.38
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$2.700.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 484,
+      "dataProximoConcurso": "30/07/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4058639.31,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1786227.43,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 484,
+    "draw_date": "2003-07-30",
+    "numbers": [
+      17,
+      18,
+      19,
+      38,
+      49,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 484,
+      "data": "30/07/2003",
+      "local": "Caminh\u00e3o da Sorte em Salvador, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "53",
+        "19",
+        "38",
+        "18",
+        "17",
+        "49"
+      ],
+      "dezenas": [
+        "17",
+        "18",
+        "19",
+        "38",
+        "49",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 55,
+          "valorPremio": 13655.17
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4015,
+          "valorPremio": 186.35
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$4.000.000,00 (QUATRO MILH\u00d5ES DE REAIS!!!).",
+      "acumulou": true,
+      "proximoConcurso": 485,
+      "dataProximoConcurso": "02/08/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4659466.66,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 2687468.43,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 485,
+    "draw_date": "2003-08-02",
+    "numbers": [
+      19,
+      28,
+      30,
+      38,
+      52,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 485,
+      "data": "02/08/2003",
+      "local": "Caminh\u00e3o da Sorte em Salvador, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "38",
+        "28",
+        "52",
+        "30",
+        "19",
+        "57"
+      ],
+      "dezenas": [
+        "19",
+        "28",
+        "30",
+        "38",
+        "52",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 30,
+          "valorPremio": 35888.42
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3203,
+          "valorPremio": 334.87
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$5.500.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 486,
+      "dataProximoConcurso": "06/08/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5520788.86,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 3979451.73,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 486,
+    "draw_date": "2003-08-06",
+    "numbers": [
+      8,
+      14,
+      19,
+      30,
+      42,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 486,
+      "data": "06/08/2003",
+      "local": "Caminh\u00e3o da Sorte em Senhor do Bonfim, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "50",
+        "42",
+        "19",
+        "08",
+        "30",
+        "14"
+      ],
+      "dezenas": [
+        "08",
+        "14",
+        "19",
+        "30",
+        "42",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 5125800.12
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 55,
+          "valorPremio": 17368.92
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4325,
+          "valorPremio": 220.05
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$700.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 487,
+      "dataProximoConcurso": "09/08/2003",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6285021.12,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 487,
+    "draw_date": "2003-08-09",
+    "numbers": [
+      8,
+      22,
+      25,
+      48,
+      52,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 487,
+      "data": "09/08/2003",
+      "local": "Caminh\u00e3o da Sorte em Senhor do Bonfim, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "25",
+        "22",
+        "48",
+        "52",
+        "54",
+        "08"
+      ],
+      "dezenas": [
+        "08",
+        "22",
+        "25",
+        "48",
+        "52",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 467702.34
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 104,
+          "valorPremio": 7495.23
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5329,
+          "valorPremio": 145.73
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$750.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 488,
+      "dataProximoConcurso": "13/08/2003",
+      "localGanhadores": [
+        {
+          "ganhadores": 2,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SE"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6908624.25,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 488,
+    "draw_date": "2003-08-13",
+    "numbers": [
+      15,
+      30,
+      35,
+      39,
+      43,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 488,
+      "data": "13/08/2003",
+      "local": "Caminh\u00e3o da Sorte em Araraquara, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "30",
+        "39",
+        "35",
+        "43",
+        "15",
+        "57"
+      ],
+      "dezenas": [
+        "15",
+        "30",
+        "35",
+        "39",
+        "43",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 46,
+          "valorPremio": 11864.07
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2699,
+          "valorPremio": 201.45
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$1.500.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 489,
+      "dataProximoConcurso": "16/08/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7345222.06,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 654896.68,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 489,
+    "draw_date": "2003-08-16",
+    "numbers": [
+      17,
+      28,
+      33,
+      36,
+      53,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 489,
+      "data": "16/08/2003",
+      "local": "Caminh\u00e3o da Sorte em Araraquara, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "28",
+        "36",
+        "17",
+        "53",
+        "33",
+        "59"
+      ],
+      "dezenas": [
+        "17",
+        "28",
+        "33",
+        "36",
+        "53",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 67,
+          "valorPremio": 12406.82
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5107,
+          "valorPremio": 162.16
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$11.000.000,00 (ONZE MILH\u00d5ES DE REAIS!!!).",
+      "acumulou": true,
+      "proximoConcurso": 490,
+      "dataProximoConcurso": "20/08/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 9662631.84,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 9662631.84,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 490,
+    "draw_date": "2003-08-20",
+    "numbers": [
+      5,
+      11,
+      23,
+      29,
+      54,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 490,
+      "data": "20/08/2003",
+      "local": "Caminh\u00e3o da Sorte em Coxim, MS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "05",
+        "11",
+        "29",
+        "54",
+        "23",
+        "58"
+      ],
+      "dezenas": [
+        "05",
+        "11",
+        "23",
+        "29",
+        "54",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 11070173.5
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 148,
+          "valorPremio": 7925.35
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8438,
+          "valorPremio": 138.49
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$900.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 491,
+      "dataProximoConcurso": "23/08/2003",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 938361.13,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 491,
+    "draw_date": "2003-08-23",
+    "numbers": [
+      1,
+      9,
+      15,
+      22,
+      43,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 491,
+      "data": "23/08/2003",
+      "local": "Caminh\u00e3o da Sorte em Coxim, MS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "22",
+        "43",
+        "15",
+        "55",
+        "09",
+        "01"
+      ],
+      "dezenas": [
+        "01",
+        "09",
+        "15",
+        "22",
+        "43",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 849344.26
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 81,
+          "valorPremio": 8738.11
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4221,
+          "valorPremio": 167.05
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$700.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 492,
+      "dataProximoConcurso": "27/08/2003",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1504590.64,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 492,
+    "draw_date": "2003-08-27",
+    "numbers": [
+      2,
+      6,
+      15,
+      18,
+      56,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 492,
+      "data": "27/08/2003",
+      "local": "Caminh\u00e3o da Sorte em Barretos, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "57",
+        "02",
+        "15",
+        "06",
+        "56",
+        "18"
+      ],
+      "dezenas": [
+        "02",
+        "06",
+        "15",
+        "18",
+        "56",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 26,
+          "valorPremio": 19041.52
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2629,
+          "valorPremio": 187.61
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$1.500.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 493,
+      "dataProximoConcurso": "30/08/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1900654.34,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 594095.53,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 493,
+    "draw_date": "2003-08-30",
+    "numbers": [
+      3,
+      18,
+      20,
+      24,
+      42,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 493,
+      "data": "30/08/2003",
+      "local": "Caminh\u00e3o da Sorte em Barretos, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "54",
+        "20",
+        "03",
+        "18",
+        "42",
+        "24"
+      ],
+      "dezenas": [
+        "03",
+        "18",
+        "20",
+        "24",
+        "42",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 79,
+          "valorPremio": 9663.99
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5294,
+          "valorPremio": 143.67
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$2.500.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 494,
+      "dataProximoConcurso": "03/09/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2511418.33,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1510241.51,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 494,
+    "draw_date": "2003-09-03",
+    "numbers": [
+      18,
+      20,
+      28,
+      32,
+      49,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 494,
+      "data": "03/09/2003",
+      "local": "Caminh\u00e3o da Sorte em Te\u00f3filo Otoni, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "28",
+        "32",
+        "49",
+        "53",
+        "18",
+        "20"
+      ],
+      "dezenas": [
+        "18",
+        "20",
+        "28",
+        "32",
+        "49",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 32,
+          "valorPremio": 21997.6
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2766,
+          "valorPremio": 253.53
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$3.500.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 495,
+      "dataProximoConcurso": "06/09/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3074557.01,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 2354949.51,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 495,
+    "draw_date": "2003-09-06",
+    "numbers": [
+      8,
+      15,
+      29,
+      36,
+      49,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 495,
+      "data": "06/09/2003",
+      "local": "Caminh\u00e3o da Sorte em Te\u00f3filo Otoni, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "36",
+        "15",
+        "60",
+        "08",
+        "29",
+        "49"
+      ],
+      "dezenas": [
+        "08",
+        "15",
+        "29",
+        "36",
+        "49",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 48,
+          "valorPremio": 20565.02
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5313,
+          "valorPremio": 185.09
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$5.000.000,00 (CINCO MILH\u00d5ES DE REAIS!!!).",
+      "acumulou": true,
+      "proximoConcurso": 496,
+      "dataProximoConcurso": "10/09/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3864254.03,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 3539495.03,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 496,
+    "draw_date": "2003-09-10",
+    "numbers": [
+      10,
+      19,
+      20,
+      29,
+      41,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 496,
+      "data": "10/09/2003",
+      "local": "Caminh\u00e3o da Sorte em Muria\u00e9, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "41",
+        "20",
+        "19",
+        "29",
+        "59",
+        "10"
+      ],
+      "dezenas": [
+        "10",
+        "19",
+        "20",
+        "29",
+        "41",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 31,
+          "valorPremio": 27720.31
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3495,
+          "valorPremio": 244.94
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$6.000.000,00 (SEIS MILH\u00d5ES DE REAIS!!!).",
+      "acumulou": true,
+      "proximoConcurso": 497,
+      "dataProximoConcurso": "13/09/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4551717.69,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 4570690.49,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 497,
+    "draw_date": "2003-09-13",
+    "numbers": [
+      9,
+      13,
+      20,
+      32,
+      41,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 497,
+      "data": "13/09/2003",
+      "local": "Caminh\u00e3o da Sorte em Muria\u00e9, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "09",
+        "41",
+        "32",
+        "13",
+        "58",
+        "20"
+      ],
+      "dezenas": [
+        "09",
+        "13",
+        "20",
+        "32",
+        "41",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 72,
+          "valorPremio": 15712.44
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5439,
+          "valorPremio": 207.21
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$7.500.000,00 (SETE MILH\u00d5ES E MEIO DE REAIS!!!).",
+      "acumulou": true,
+      "proximoConcurso": 498,
+      "dataProximoConcurso": "17/09/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5456753.8,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 5928244.66,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 498,
+    "draw_date": "2003-09-17",
+    "numbers": [
+      2,
+      6,
+      28,
+      49,
+      50,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 498,
+      "data": "17/09/2003",
+      "local": "Caminh\u00e3o da Sorte em Porto Alegre, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "49",
+        "28",
+        "02",
+        "06",
+        "57",
+        "50"
+      ],
+      "dezenas": [
+        "02",
+        "06",
+        "28",
+        "49",
+        "50",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 58,
+          "valorPremio": 17603.0
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4592,
+          "valorPremio": 221.5
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$9.000.000,00 (NOVE MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 499,
+      "dataProximoConcurso": "20/09/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6273532.72,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 7153413.01,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 499,
+    "draw_date": "2003-09-20",
+    "numbers": [
+      1,
+      4,
+      5,
+      11,
+      44,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 499,
+      "data": "20/09/2003",
+      "local": "Caminh\u00e3o da Sorte em Porto Alegre, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "59",
+        "01",
+        "11",
+        "05",
+        "44",
+        "04"
+      ],
+      "dezenas": [
+        "01",
+        "04",
+        "05",
+        "11",
+        "44",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 8698099.22
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 126,
+          "valorPremio": 10216.18
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8903,
+          "valorPremio": 144.04
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$11.000.000,00 (ONZE MILH\u00d5ES DE REAIS). A CAIXA informa que o pr\u00f3ximo concurso (500) da MEGA-SENA ser\u00e1 realizado em Recife/PE em 27/09/2003.",
+      "acumulou": false,
+      "proximoConcurso": 500,
+      "dataProximoConcurso": "27/09/2003",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PE"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7303323.54,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 500,
+    "draw_date": "2003-09-27",
+    "numbers": [
+      21,
+      29,
+      35,
+      36,
+      38,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 500,
+      "data": "27/09/2003",
+      "local": "Caminh\u00e3o da Sorte em Recife, PE",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "35",
+        "21",
+        "54",
+        "29",
+        "38",
+        "36"
+      ],
+      "dezenas": [
+        "21",
+        "29",
+        "35",
+        "36",
+        "38",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 9394248.83
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 73,
+          "valorPremio": 23869.01
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6818,
+          "valorPremio": 254.6
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$700.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 501,
+      "dataProximoConcurso": "01/10/2003",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1393950.21,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 501,
+    "draw_date": "2003-10-01",
+    "numbers": [
+      16,
+      27,
+      28,
+      34,
+      39,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 501,
+      "data": "01/10/2003",
+      "local": "Caminh\u00e3o da Sorte em CRUZ ALTA, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "34",
+        "27",
+        "56",
+        "28",
+        "16",
+        "39"
+      ],
+      "dezenas": [
+        "16",
+        "27",
+        "28",
+        "34",
+        "39",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 43,
+          "valorPremio": 11303.51
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3037,
+          "valorPremio": 159.45
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$1.500.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 502,
+      "dataProximoConcurso": "04/10/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1782791.13,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 583261.35,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 502,
+    "draw_date": "2003-10-04",
+    "numbers": [
+      7,
+      13,
+      21,
+      24,
+      33,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 502,
+      "data": "04/10/2003",
+      "local": "Caminh\u00e3o da Sorte em CRUZ ALTA, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "50",
+        "07",
+        "33",
+        "21",
+        "24",
+        "13"
+      ],
+      "dezenas": [
+        "07",
+        "13",
+        "21",
+        "24",
+        "33",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 730915.33
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 268,
+          "valorPremio": 2731.87
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9549,
+          "valorPremio": 76.39
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$700.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 503,
+      "dataProximoConcurso": "08/10/2003",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MS"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2368504.02,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 503,
+    "draw_date": "2003-10-08",
+    "numbers": [
+      7,
+      10,
+      21,
+      27,
+      48,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 503,
+      "data": "08/10/2003",
+      "local": "Caminh\u00e3o da Sorte em GUARA\u00c7A\u00cd, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "10",
+        "21",
+        "48",
+        "27",
+        "49",
+        "07"
+      ],
+      "dezenas": [
+        "07",
+        "10",
+        "21",
+        "27",
+        "48",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 40,
+          "valorPremio": 11636.06
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2934,
+          "valorPremio": 158.04
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$1.400.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 504,
+      "dataProximoConcurso": "11/10/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2740857.98,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 558530.93,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 504,
+    "draw_date": "2003-10-11",
+    "numbers": [
+      8,
+      11,
+      19,
+      30,
+      39,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 504,
+      "data": "11/10/2003",
+      "local": "Caminh\u00e3o da Sorte em GUARA\u00c7A\u00cd, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "39",
+        "19",
+        "11",
+        "08",
+        "50",
+        "30"
+      ],
+      "dezenas": [
+        "08",
+        "11",
+        "19",
+        "30",
+        "39",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 54,
+          "valorPremio": 12855.55
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4006,
+          "valorPremio": 172.64
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$2.300.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 505,
+      "dataProximoConcurso": "15/10/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3296217.62,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1391570.39,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 505,
+    "draw_date": "2003-10-15",
+    "numbers": [
+      3,
+      20,
+      28,
+      46,
+      47,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 505,
+      "data": "15/10/2003",
+      "local": "Caminh\u00e3o da Sorte em BLUMENAU, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "47",
+        "20",
+        "52",
+        "03",
+        "46",
+        "28"
+      ],
+      "dezenas": [
+        "03",
+        "20",
+        "28",
+        "46",
+        "47",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 30,
+          "valorPremio": 19736.18
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2559,
+          "valorPremio": 230.51
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$3.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 506,
+      "dataProximoConcurso": "18/10/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3769885.91,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 2102072.8,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 506,
+    "draw_date": "2003-10-18",
+    "numbers": [
+      4,
+      15,
+      31,
+      34,
+      37,
+      38
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 506,
+      "data": "18/10/2003",
+      "local": "Caminh\u00e3o da Sorte em BLUMENAU, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "31",
+        "37",
+        "34",
+        "15",
+        "38",
+        "04"
+      ],
+      "dezenas": [
+        "04",
+        "15",
+        "31",
+        "34",
+        "37",
+        "38"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 65,
+          "valorPremio": 12720.38
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4735,
+          "valorPremio": 173.96
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$4.500.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 507,
+      "dataProximoConcurso": "22/10/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4431345.41,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 3094262.01,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 507,
+    "draw_date": "2003-10-22",
+    "numbers": [
+      3,
+      5,
+      27,
+      33,
+      44,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 507,
+      "data": "22/10/2003",
+      "local": "Caminh\u00e3o da Sorte em CAXIAS DO SUL, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "44",
+        "58",
+        "05",
+        "27",
+        "33",
+        "03"
+      ],
+      "dezenas": [
+        "03",
+        "05",
+        "27",
+        "33",
+        "44",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 1963484.53
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 212,
+          "valorPremio": 3273.22
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6604,
+          "valorPremio": 104.68
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$700.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 508,
+      "dataProximoConcurso": "25/10/2003",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4986483.45,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 508,
+    "draw_date": "2003-10-25",
+    "numbers": [
+      5,
+      10,
+      15,
+      45,
+      46,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 508,
+      "data": "25/10/2003",
+      "local": "Caminh\u00e3o da Sorte em CAXIAS DO SUL, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "46",
+        "56",
+        "05",
+        "15",
+        "45",
+        "10"
+      ],
+      "dezenas": [
+        "05",
+        "10",
+        "15",
+        "45",
+        "46",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 33,
+          "valorPremio": 18038.77
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3025,
+          "valorPremio": 196.05
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$1.500.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 509,
+      "dataProximoConcurso": "29/10/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5462706.97,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 714335.26,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 509,
+    "draw_date": "2003-10-29",
+    "numbers": [
+      28,
+      32,
+      33,
+      34,
+      35,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 509,
+      "data": "29/10/2003",
+      "local": "Caminh\u00e3o da Sorte em VICENTE DE CARVALHO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "32",
+        "55",
+        "34",
+        "35",
+        "28",
+        "33"
+      ],
+      "dezenas": [
+        "28",
+        "32",
+        "33",
+        "34",
+        "35",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 39,
+          "valorPremio": 13104.28
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2852,
+          "valorPremio": 178.52
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$8.500.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 510,
+      "dataProximoConcurso": "01/11/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7199176.21,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 7199176.21,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 510,
+    "draw_date": "2003-11-01",
+    "numbers": [
+      1,
+      4,
+      30,
+      41,
+      45,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 510,
+      "data": "01/11/2003",
+      "local": "Caminh\u00e3o da Sorte em BERTIOGA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "30",
+        "45",
+        "58",
+        "01",
+        "04",
+        "41"
+      ],
+      "dezenas": [
+        "01",
+        "04",
+        "30",
+        "41",
+        "45",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 4252983.06
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 70,
+          "valorPremio": 15557.02
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4392,
+          "valorPremio": 247.01
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$700.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 511,
+      "dataProximoConcurso": "05/11/2003",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MA"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 871193.29,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 511,
+    "draw_date": "2003-11-05",
+    "numbers": [
+      3,
+      4,
+      8,
+      34,
+      36,
+      37
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 511,
+      "data": "05/11/2003",
+      "local": "Caminh\u00e3o da Sorte em PO\u00c7OS DE CALDAS, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "08",
+        "36",
+        "34",
+        "37",
+        "03",
+        "04"
+      ],
+      "dezenas": [
+        "03",
+        "04",
+        "08",
+        "34",
+        "36",
+        "37"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 50,
+          "valorPremio": 8700.75
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3155,
+          "valorPremio": 137.37
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$1.800.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 512,
+      "dataProximoConcurso": "08/11/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1414990.16,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 761315.61,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 512,
+    "draw_date": "2003-11-08",
+    "numbers": [
+      4,
+      8,
+      31,
+      40,
+      53,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 512,
+      "data": "08/11/2003",
+      "local": "Caminh\u00e3o da Sorte em PO\u00c7OS DE CALDAS, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "08",
+        "40",
+        "58",
+        "04",
+        "53",
+        "31"
+      ],
+      "dezenas": [
+        "04",
+        "08",
+        "31",
+        "40",
+        "53",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 3,
+          "valorPremio": 653828.5
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 41,
+          "valorPremio": 16727.11
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2277,
+          "valorPremio": 300.05
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$700.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 513,
+      "dataProximoConcurso": "12/11/2003",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MS"
+        },
+        {
+          "ganhadores": 2,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2272254.38,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 513,
+    "draw_date": "2003-11-12",
+    "numbers": [
+      10,
+      19,
+      27,
+      33,
+      39,
+      46
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 513,
+      "data": "12/11/2003",
+      "local": "Caminh\u00e3o da Sorte em SANTO \u00c2NGELO, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "46",
+        "10",
+        "27",
+        "19",
+        "33",
+        "39"
+      ],
+      "dezenas": [
+        "10",
+        "19",
+        "27",
+        "33",
+        "39",
+        "46"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 46,
+          "valorPremio": 8485.71
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2427,
+          "valorPremio": 160.23
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$1.500.000,00",
+      "acumulou": true,
+      "proximoConcurso": 514,
+      "dataProximoConcurso": "15/11/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2760182.71,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 683099.65,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 514,
+    "draw_date": "2003-11-15",
+    "numbers": [
+      15,
+      36,
+      40,
+      42,
+      51,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 514,
+      "data": "15/11/2003",
+      "local": "Caminh\u00e3o da Sorte em SANTO \u00c2NGELO, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "15",
+        "52",
+        "40",
+        "36",
+        "51",
+        "42"
+      ],
+      "dezenas": [
+        "15",
+        "36",
+        "40",
+        "42",
+        "51",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 20,
+          "valorPremio": 24964.72
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1209,
+          "valorPremio": 411.42
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$6.500.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 515,
+      "dataProximoConcurso": "19/11/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4941165.35,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 4941165.35,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 515,
+    "draw_date": "2003-11-19",
+    "numbers": [
+      15,
+      16,
+      39,
+      45,
+      48,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 515,
+      "data": "19/11/2003",
+      "local": "Caminh\u00e3o da Sorte em RIO DO SUL, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "39",
+        "16",
+        "57",
+        "15",
+        "45",
+        "48"
+      ],
+      "dezenas": [
+        "15",
+        "16",
+        "39",
+        "45",
+        "48",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 33,
+          "valorPremio": 20464.65
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2636,
+          "valorPremio": 255.23
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$7.500.000,00 (SETE MILH\u00d5ES E QUINHENTOS MIL REAIS!!!).",
+      "acumulou": true,
+      "proximoConcurso": 516,
+      "dataProximoConcurso": "22/11/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 844166.73,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 6122998.73,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 516,
+    "draw_date": "2003-11-22",
+    "numbers": [
+      5,
+      13,
+      24,
+      33,
+      34,
+      35
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 516,
+      "data": "22/11/2003",
+      "local": "Caminh\u00e3o da Sorte em RIO DO SUL, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "24",
+        "05",
+        "34",
+        "13",
+        "35",
+        "33"
+      ],
+      "dezenas": [
+        "05",
+        "13",
+        "24",
+        "33",
+        "34",
+        "35"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 164,
+          "valorPremio": 5416.02
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7718,
+          "valorPremio": 114.65
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$9.000.000,00. (NOVE MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 517,
+      "dataProximoConcurso": "26/11/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1954449.34,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 7677394.38,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 517,
+    "draw_date": "2003-11-26",
+    "numbers": [
+      7,
+      8,
+      28,
+      32,
+      38,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 517,
+      "data": "26/11/2003",
+      "local": "Caminh\u00e3o da Sorte em ARTUR NOGUEIRA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "51",
+        "32",
+        "08",
+        "28",
+        "38",
+        "07"
+      ],
+      "dezenas": [
+        "07",
+        "08",
+        "28",
+        "32",
+        "38",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 36,
+          "valorPremio": 22385.92
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3262,
+          "valorPremio": 246.13
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$11.000.000,00 (ONZE MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 518,
+      "dataProximoConcurso": "29/11/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2961815.64,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 9087707.16,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 518,
+    "draw_date": "2003-11-29",
+    "numbers": [
+      5,
+      8,
+      10,
+      15,
+      18,
+      44
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 518,
+      "data": "29/11/2003",
+      "local": "Caminh\u00e3o da Sorte em COSM\u00d3POLIS, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "44",
+        "08",
+        "05",
+        "15",
+        "18",
+        "10"
+      ],
+      "dezenas": [
+        "05",
+        "08",
+        "10",
+        "15",
+        "18",
+        "44"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 182,
+          "valorPremio": 6014.85
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8653,
+          "valorPremio": 126.04
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$13.000.000,00 (TREZE MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 519,
+      "dataProximoConcurso": "03/12/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4330194.73,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 11003437.88,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 519,
+    "draw_date": "2003-12-03",
+    "numbers": [
+      9,
+      15,
+      19,
+      22,
+      36,
+      42
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 519,
+      "data": "03/12/2003",
+      "local": "Caminh\u00e3o da Sorte em AVAR\u00c9, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "09",
+        "36",
+        "15",
+        "19",
+        "42",
+        "22"
+      ],
+      "dezenas": [
+        "09",
+        "15",
+        "19",
+        "22",
+        "36",
+        "42"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 111,
+          "valorPremio": 9685.31
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7018,
+          "valorPremio": 152.61
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$21.000.000,00 (VINTE E UM MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 520,
+      "dataProximoConcurso": "06/12/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 18558840.36,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 18558840.36,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 520,
+    "draw_date": "2003-12-06",
+    "numbers": [
+      9,
+      12,
+      17,
+      32,
+      34,
+      35
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 520,
+      "data": "06/12/2003",
+      "local": "Caminh\u00e3o da Sorte em AVAR\u00c9, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "32",
+        "34",
+        "17",
+        "35",
+        "09",
+        "12"
+      ],
+      "dezenas": [
+        "09",
+        "12",
+        "17",
+        "32",
+        "34",
+        "35"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 166,
+          "valorPremio": 10017.32
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10884,
+          "valorPremio": 152.2
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$24.000.000,00 (VINTE E QUATRO MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 521,
+      "dataProximoConcurso": "10/12/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2078593.86,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 21468871.74,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 521,
+    "draw_date": "2003-12-10",
+    "numbers": [
+      15,
+      25,
+      28,
+      32,
+      38,
+      45
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 521,
+      "data": "10/12/2003",
+      "local": "Caminh\u00e3o da Sorte em VOTORANTIM, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "28",
+        "32",
+        "38",
+        "25",
+        "15",
+        "45"
+      ],
+      "dezenas": [
+        "15",
+        "25",
+        "28",
+        "32",
+        "38",
+        "45"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 166,
+          "valorPremio": 10463.37
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10610,
+          "valorPremio": 163.09
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso: R$ 29.000.000,00 (VINTE E NOVE MILH\u00d5ES).",
+      "acumulou": true,
+      "proximoConcurso": 522,
+      "dataProximoConcurso": "13/12/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4249742.76,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 24508480.18,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 522,
+    "draw_date": "2003-12-13",
+    "numbers": [
+      6,
+      14,
+      15,
+      25,
+      49,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 522,
+      "data": "13/12/2003",
+      "local": "Caminh\u00e3o da Sorte em VOTORANTIM, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "49",
+        "52",
+        "15",
+        "25",
+        "14",
+        "06"
+      ],
+      "dezenas": [
+        "06",
+        "14",
+        "15",
+        "25",
+        "49",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 118,
+          "valorPremio": 19311.39
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8280,
+          "valorPremio": 274.17
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$33.000.000,00 (TRINTA E TR\u00caS MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 523,
+      "dataProximoConcurso": "17/12/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7098172.4,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 28496281.66,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 523,
+    "draw_date": "2003-12-17",
+    "numbers": [
+      28,
+      39,
+      40,
+      44,
+      45,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 523,
+      "data": "17/12/2003",
+      "local": "Caminh\u00e3o da Sorte em RIBEIR\u00c3O PRETO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "45",
+        "58",
+        "40",
+        "39",
+        "28",
+        "44"
+      ],
+      "dezenas": [
+        "28",
+        "39",
+        "40",
+        "44",
+        "45",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 123,
+          "valorPremio": 27528.74
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9692,
+          "valorPremio": 348.05
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$40.000.000,00 (QUARENTA MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 524,
+      "dataProximoConcurso": "20/12/2003",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 11330716.53,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 34421843.43,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 524,
+    "draw_date": "2003-12-20",
+    "numbers": [
+      19,
+      29,
+      34,
+      41,
+      47,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 524,
+      "data": "20/12/2003",
+      "local": "Caminh\u00e3o da Sorte em RIBEIR\u00c3O PRETO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "47",
+        "29",
+        "34",
+        "48",
+        "19",
+        "41"
+      ],
+      "dezenas": [
+        "19",
+        "29",
+        "34",
+        "41",
+        "47",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 42794697.56
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 180,
+          "valorPremio": 26580.49
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 17156,
+          "valorPremio": 277.83
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$20.000.000,00 (VINTE MILH\u00d5ES DE REAIS).",
+      "acumulou": false,
+      "proximoConcurso": 525,
+      "dataProximoConcurso": "27/12/2003",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SC"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 17311326.64,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 525,
+    "draw_date": "2003-12-27",
+    "numbers": [
+      8,
+      10,
+      24,
+      26,
+      32,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 525,
+      "data": "27/12/2003",
+      "local": "Caminh\u00e3o da Sorte em PIRACICABA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "26",
+        "32",
+        "24",
+        "49",
+        "08",
+        "10"
+      ],
+      "dezenas": [
+        "08",
+        "10",
+        "24",
+        "26",
+        "32",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 10208722.99
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 153,
+          "valorPremio": 11600.82
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9640,
+          "valorPremio": 183.43
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$1.000.000,00",
+      "acumulou": false,
+      "proximoConcurso": 526,
+      "dataProximoConcurso": "03/01/2004",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2218656.68,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  }
+]

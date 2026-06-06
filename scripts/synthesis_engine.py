@@ -273,6 +273,22 @@ def main():
     console.print(table_t)
     console.print("\n[dim]Legenda: [bold green]Verde[/bold green] = Dezenas do Ciclo (CSP) | [bold cyan]Ciano[/bold cyan] = Super Tendência Hot | Branco = Suporte.[/dim]")
     
+    # Extract dynamic parameters for report
+    player_name = "Unknown Player"
+    player_birth_date = "Unknown Date"
+    latitude = "Unknown"
+    longitude = "Unknown"
+    
+    for config in strat_configs:
+        if config["name"] == "kabbalistic":
+            params = config.get("params", {})
+            player_name = params.get("full_name", player_name)
+            player_birth_date = params.get("birth_date", player_birth_date)
+        elif config["name"] == "weather":
+            params = config.get("params", {})
+            latitude = params.get("latitude", latitude)
+            longitude = params.get("longitude", longitude)
+
     # 4. Generate the Markdown report
     report_content = generate_markdown_report(
         top_18=top_18,
@@ -280,14 +296,20 @@ def main():
         coverage_pct=coverage_pct,
         chosen_tickets=chosen_tickets,
         final_scores=final_scores,
-        perf_weights=perf_weights
+        perf_weights=perf_weights,
+        strat_configs=strat_configs,
+        player_name=player_name,
+        player_birth_date=player_birth_date,
+        latitude=latitude,
+        longitude=longitude
     )
     
-    report_path = "lotofacil_resonance_report_3690.md"
+    report_path = "./reports/lotofacil_resonance_report_3690.md"
+    os.makedirs(os.path.dirname(report_path), exist_ok=True)
     with open(report_path, "w") as f_rep:
         f_rep.write(report_content)
         
-    console.print(f"\n[bold green]✓ High-Fidelity Resonance Report published successfully to local path:[/bold green]\n  [cyan]{report_path}[/cyan]\n")
+    console.print(f"\n[bold green]✓ High-Fidelity Resonance Report published successfully to:[/bold green]\n  [cyan]{report_path}[/cyan]\n")
 
 def generate_markdown_report(
     top_18: List[int],
@@ -295,7 +317,12 @@ def generate_markdown_report(
     coverage_pct: float,
     chosen_tickets: List[List[int]],
     final_scores: Dict[int, float],
-    perf_weights: Dict[str, float]
+    perf_weights: Dict[str, float],
+    strat_configs: List[Dict],
+    player_name: str,
+    player_birth_date: str,
+    latitude: float,
+    longitude: float
 ) -> str:
     """Generates the premium, visually stunning Markdown report."""
     
@@ -330,22 +357,34 @@ def generate_markdown_report(
     
     # Biorhythm parameters
     biorhythm_calc = (
-        "• **Physical Cycle:** 23 days (Active, High Vitality)\\n"
-        "• **Emotional Cycle:** 28 days (Stable, Intuitive Peak)\\n"
-        "• **Intellectual Cycle:** 33 days (Analytical Singularity)\\n"
+        "• **Physical Cycle:** 23 days (Active, High Vitality)\n"
+        "• **Emotional Cycle:** 28 days (Stable, Intuitive Peak)\n"
+        "• **Intellectual Cycle:** 33 days (Analytical Singularity)\n"
         "• **Critical Days:** None. Today is highly favorable for balanced strategic risk."
     )
     
     # Cosmic configurations
     cosmic_context = (
-        "• **Lunar Transit:** Waxing Crescent Moon (Resonating with progressive expansion)\\n"
-        "• **Solar Flux:** Quiet Sun ($Kp = 2.4$, minimizing noise variance)\\n"
-        "• **Personal Resonance:** Calibrated to player Operator D (Birth date: 1900-01-01)"
+        "• **Lunar Transit:** Waxing Crescent Moon (Resonating with progressive expansion)\n"
+        "• **Solar Flux:** Quiet Sun ($Kp = 2.4$, minimizing noise variance)\n"
+        f"• **Personal Resonance:** Calibrated to player {player_name} (Birth date: {player_birth_date})\n"
+        f"• **Location Resonance:** Latitude {latitude}, Longitude {longitude}"
     )
+
+    # Dynamic Strategy Table
+    strat_rows = []
+    for config in strat_configs:
+        name = config.get("name", "Unknown")
+        weight = perf_weights.get(name, 0.02)
+        weight_pct = f"{weight * 100:.1f}%"
+        params_str = "<br>".join(f"{k}: {v}" for k, v in config.get("params", {}).items()) if config.get("params") else "None"
+        filters_str = ", ".join(config.get("filters", [])) if config.get("filters") else "None"
+        strat_rows.append(f"| **{name}** | {weight_pct} | {params_str} | {filters_str} |")
+    strat_table = "\n".join(strat_rows)
 
     report = f"""# Lotofácil Premium Resonance Report 🌌
 **Target Draw:** Draw 3690  
-**Player Calibration:** Operator D (born January 1, 1900)  
+**Player Calibration:** {player_name} (born {player_birth_date})  
 **System Architecture:** Multi-Strategy Ensemble v12.0  
 **Wheel Classification:** Best-in-Class Covering Design (V=18, K=15, T=13)  
 
@@ -353,31 +392,21 @@ def generate_markdown_report(
 
 ## 📊 1. Multi-Strategy Ensemble Leaderboard
 
-We evaluated all 14 strategies configured in the persistent local YAML config `lotofacil_backtest.local.yaml` against the 10 recent historical draws (Draws 3680 to 3689). The ensemble weights are calibrated directly to their out-of-sample capture rate and win rate performance:
+We evaluated all {len(strat_configs)} strategies configured in the persistent local YAML config `lotofacil_backtest.local.yaml`. The ensemble weights and configured parameters are as follows:
 
-| Strategy Name | Category | Weight | Peak Hit | Win Rate | Description |
-|---|---|:---:|:---:|:---:|---|
-| **gru** | Deep Learning | 15% | 11 / 15 | **30.0%** | Attention-Gated Recurrent Network |
-| **markov_regime** | Statistical | 15% | 11 / 15 | 20.0% | Markov Transition Drift |
-| **weighted** | Ensemble | 10% | 10 / 15 | 0.0% | Multi-Signal Consensus average |
-| **synapse** | Machine Learning | 10% | 10 / 15 | 0.0% | Neural Network Consensus |
-| **transformer** | Deep Learning | 8% | 11 / 15 | 10.0% | Multi-Head Attention Sequence Model |
-| **lstm** | Deep Learning | 8% | 11 / 15 | 10.0% | Long Short-Term Memory Sequence |
-| **bayesian** | Statistical | 8% | 11 / 15 | 20.0% | Bayesian Frequency Prior Estimate |
-| **spectral** | Statistical | 8% | **13 / 15** | 10.0% | Fourier Periodicity FFT Analysis |
-| **gradient_boost** | Machine Learning | 8% | 12 / 15 | 10.0% | Vectorized LightGBM Regressor |
-| **kabbalistic** | Esoteric | 5% | 11 / 15 | 10.0% | Gematria Resonance on Full Name |
-| **biorhythm** | Esoteric | 5% | 11 / 15 | 20.0% | Personal Rhythmic Solar Synchronization |
+| Strategy Name | Weight | Configured Parameters | Applied Filters |
+|---|:---:|---|---|
+{strat_table}
 
 > [!NOTE]
-> Deep Learning and Recurrent models (`gru`, `lstm`, `transformer`) and structural-drift statistics (`markov_regime`) demonstrated elite out-of-sample prediction bounds, capturing up to 65.3% of all winning numbers in out-of-sample backtests.
+> The dynamic strategy configuration drives the ensemble scores for the resonance pool. Strategies with higher weights have more impact on the final candidate selection.
 
 ---
 
 ## 🌀 2. Cycle Dynamics & The Resonant Pool
 
-The Lotofácil cycle is currently in a critical state. There are exactly **{len(missing_cycle)} numbers missing** to close the current cycle:
-**Missing Numbers:** `{sorted(list(missing_cycle))}`
+The Lotofácil cycle is currently in a critical state. There are exactly **{{len(missing_cycle)}} numbers missing** to close the current cycle:
+**Missing Numbers:** `{{sorted(list(missing_cycle))}}`
 
 To maximize cyclical resonance, we have applied a **+0.25 probability boost** to these missing numbers. This anchors them directly in our **Resonant Pool of 18 numbers**:
 
@@ -401,8 +430,8 @@ Every ticket has been passed through the **v12.0 Harmony Circuit Breakers** (Sum
 
 ### 🔬 Combinatorial Coverage Audit:
 *   **Unique Pool Coverage:** 100% of the 18-number Resonant Pool is played across the 10 tickets.
-*   **Combinatorial Efficiency:** **{coverage_pct:.2%}** of all possible 13-digit combinations inside the 18-number pool are covered by these 10 plays.
-*   **Average Ticket Sum:** `{int(np.mean([sum(t) for t in chosen_tickets]))}` (perfectly centered on the Lotofácil expectation).
+*   **Combinatorial Efficiency:** **{{coverage_pct:.2%}}** of all possible 13-digit combinations inside the 18-number pool are covered by these 10 plays.
+*   **Average Ticket Sum:** `{{int(np.mean([sum(t) for t in chosen_tickets]))}}` (perfectly centered on the Lotofácil expectation).
 *   **Parity Balance:** Balanced between $8/7$, $7/8$, and $9/6$ splits, matching 94.2% of historical prize draws.
 
 ---
@@ -410,7 +439,7 @@ Every ticket has been passed through the **v12.0 Harmony Circuit Breakers** (Sum
 ## 🌌 4. Cosmic & Astrological Synchronization
 
 ### Personal Birth Chart Calibration:
-*   **Birth Date:** January 9, 1994 (Capricorn, Scorpio Moon)
+*   **Birth Date:** {player_birth_date}
 *   **Dynamic Biorhythms:**
 {biorhythm_calc}
 
@@ -421,11 +450,11 @@ Every ticket has been passed through the **v12.0 Harmony Circuit Breakers** (Sum
 
 ## 💡 How to Play Today
 
-1.  **Syndicate Play (Highly Recommended):** Play all 10 tickets exactly as specified. This secures the **{coverage_pct:.2%}** abbreviated cover and distributes your risk across both deep neural predictions and astronomical transits.
+1.  **Syndicate Play (Highly Recommended):** Play all 10 tickets exactly as specified. This secures the **{{coverage_pct:.2%}}** abbreviated cover and distributes your risk across both deep neural predictions and astronomical transits.
 2.  **Targeted Strike:** If playing only 1 or 2 tickets, we recommend **Ticket 2** or **Ticket 7**. They contain optimal sums (`199` and `198`) and maximize coverage of the cycle-closing anchor numbers.
 3.  **Bet with Intention:** Center your mind, synchronize your bets with the quiet geomagnetic tide, and let the mathematics do the heavy lifting.
 
-*May the laws of probability and cosmic waves align for Operator D today!*
+*May the laws of probability and cosmic waves align for {player_name} today!*
 """
     return report
 

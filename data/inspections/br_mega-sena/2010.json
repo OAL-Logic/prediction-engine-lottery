@@ -1,0 +1,7643 @@
+[
+  {
+    "draw_id": 1141,
+    "draw_date": "2010-01-02",
+    "numbers": [
+      9,
+      37,
+      40,
+      50,
+      58,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1141,
+      "data": "02/01/2010",
+      "local": "Caminh\u00e3o da Sorte em TRAMANDA\u00cd, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "40",
+        "09",
+        "37",
+        "58",
+        "50",
+        "60"
+      ],
+      "dezenas": [
+        "09",
+        "37",
+        "40",
+        "50",
+        "58",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 6,
+          "valorPremio": 54748.35
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 683,
+          "valorPremio": 687.07
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1142,
+      "dataProximoConcurso": "06/01/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 5610856.0,
+      "valorAcumuladoConcurso_0_5": 380356.97,
+      "valorAcumuladoConcursoEspecial": 86444.79,
+      "valorAcumuladoProximoConcurso": 605113.35,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1142,
+    "draw_date": "2010-01-06",
+    "numbers": [
+      3,
+      15,
+      26,
+      28,
+      31,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1142,
+      "data": "06/01/2010",
+      "local": "Caminh\u00e3o da Sorte em PENEDO, AL",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "28",
+        "31",
+        "15",
+        "58",
+        "03",
+        "26"
+      ],
+      "dezenas": [
+        "03",
+        "15",
+        "26",
+        "28",
+        "31",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 66,
+          "valorPremio": 15347.72
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3640,
+          "valorPremio": 397.54
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1143,
+      "dataProximoConcurso": "09/01/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 17301930.0,
+      "valorAcumuladoConcurso_0_5": 1553245.68,
+      "valorAcumuladoConcursoEspecial": 353010.42,
+      "valorAcumuladoProximoConcurso": 2471072.68,
+      "valorEstimadoProximoConcurso": 5000000.0
+    }
+  },
+  {
+    "draw_id": 1143,
+    "draw_date": "2010-01-09",
+    "numbers": [
+      3,
+      30,
+      35,
+      44,
+      47,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1143,
+      "data": "09/01/2010",
+      "local": "Caminh\u00e3o da Sorte em PENEDO, AL",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "35",
+        "47",
+        "60",
+        "44",
+        "30",
+        "03"
+      ],
+      "dezenas": [
+        "03",
+        "30",
+        "35",
+        "44",
+        "47",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 52,
+          "valorPremio": 24432.56
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3686,
+          "valorPremio": 492.4
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1144,
+      "dataProximoConcurso": "13/01/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 21700966.0,
+      "valorAcumuladoConcurso_0_5": 3024342.73,
+      "valorAcumuladoConcursoEspecial": 687350.67,
+      "valorAcumuladoProximoConcurso": 4811454.35,
+      "valorEstimadoProximoConcurso": 7000000.0
+    }
+  },
+  {
+    "draw_id": 1144,
+    "draw_date": "2010-01-13",
+    "numbers": [
+      1,
+      10,
+      18,
+      19,
+      44,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1144,
+      "data": "13/01/2010",
+      "local": "Caminh\u00e3o da Sorte em TORRES, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "19",
+        "10",
+        "49",
+        "18",
+        "01",
+        "44"
+      ],
+      "dezenas": [
+        "01",
+        "10",
+        "18",
+        "19",
+        "44",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 92,
+          "valorPremio": 14090.42
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6105,
+          "valorPremio": 303.33
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1145,
+      "dataProximoConcurso": "16/01/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 22142094.0,
+      "valorAcumuladoConcurso_0_5": 11724753.92,
+      "valorAcumuladoConcursoEspecial": 1028487.25,
+      "valorAcumuladoProximoConcurso": 11724753.92,
+      "valorEstimadoProximoConcurso": 15000000.0
+    }
+  },
+  {
+    "draw_id": 1145,
+    "draw_date": "2010-01-16",
+    "numbers": [
+      3,
+      16,
+      19,
+      24,
+      33,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1145,
+      "data": "16/01/2010",
+      "local": "Caminh\u00e3o da Sorte em TORRES, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "19",
+        "03",
+        "60",
+        "33",
+        "24",
+        "16"
+      ],
+      "dezenas": [
+        "03",
+        "16",
+        "19",
+        "24",
+        "33",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 14836725.73
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 129,
+          "valorPremio": 13095.79
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8734,
+          "valorPremio": 276.31
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1146,
+      "dataProximoConcurso": "20/01/2010",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "BRAS\u00cdLIA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "DF"
+        }
+      ],
+      "valorArrecadado": 28855462.0,
+      "valorAcumuladoConcurso_0_5": 1956096.57,
+      "valorAcumuladoConcursoEspecial": 1473054.66,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1146,
+    "draw_date": "2010-01-20",
+    "numbers": [
+      6,
+      10,
+      28,
+      33,
+      34,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1146,
+      "data": "20/01/2010",
+      "local": "Caminh\u00e3o da Sorte em MACEI\u00d3, AL",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "10",
+        "34",
+        "53",
+        "33",
+        "28",
+        "06"
+      ],
+      "dezenas": [
+        "06",
+        "10",
+        "28",
+        "33",
+        "34",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 53,
+          "valorPremio": 18010.8
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3641,
+          "valorPremio": 374.53
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1147,
+      "dataProximoConcurso": "23/01/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 16304810.0,
+      "valorAcumuladoConcurso_0_5": 3061391.05,
+      "valorAcumuladoConcursoEspecial": 1724257.97,
+      "valorAcumuladoProximoConcurso": 1758423.03,
+      "valorEstimadoProximoConcurso": 4000000.0
+    }
+  },
+  {
+    "draw_id": 1147,
+    "draw_date": "2010-01-23",
+    "numbers": [
+      6,
+      23,
+      31,
+      33,
+      39,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1147,
+      "data": "23/01/2010",
+      "local": "Caminh\u00e3o da Sorte em MACEI\u00d3, AL",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "23",
+        "39",
+        "52",
+        "31",
+        "06",
+        "33"
+      ],
+      "dezenas": [
+        "06",
+        "23",
+        "31",
+        "33",
+        "39",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 30,
+          "valorPremio": 40732.25
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3040,
+          "valorPremio": 574.23
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1148,
+      "dataProximoConcurso": "27/01/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 20872116.0,
+      "valorAcumuladoConcurso_0_5": 4476300.8,
+      "valorAcumuladoConcursoEspecial": 2045828.37,
+      "valorAcumuladoProximoConcurso": 4009415.81,
+      "valorEstimadoProximoConcurso": 7000000.0
+    }
+  },
+  {
+    "draw_id": 1148,
+    "draw_date": "2010-01-27",
+    "numbers": [
+      27,
+      28,
+      29,
+      32,
+      48,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1148,
+      "data": "27/01/2010",
+      "local": "Caminh\u00e3o da Sorte em CERQUEIRA C\u00c9SAR, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "48",
+        "32",
+        "29",
+        "55",
+        "27",
+        "28"
+      ],
+      "dezenas": [
+        "27",
+        "28",
+        "29",
+        "32",
+        "48",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 37,
+          "valorPremio": 33116.63
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3792,
+          "valorPremio": 461.61
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1149,
+      "dataProximoConcurso": "30/01/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 20929302.0,
+      "valorAcumuladoConcurso_0_5": 5895087.15,
+      "valorAcumuladoConcursoEspecial": 2368279.83,
+      "valorAcumuladoProximoConcurso": 6266575.92,
+      "valorEstimadoProximoConcurso": 9000000.0
+    }
+  },
+  {
+    "draw_id": 1149,
+    "draw_date": "2010-01-30",
+    "numbers": [
+      7,
+      8,
+      23,
+      36,
+      46,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1149,
+      "data": "30/01/2010",
+      "local": "Caminh\u00e3o da Sorte em CERQUEIRA CESAR, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "46",
+        "54",
+        "08",
+        "36",
+        "07",
+        "23"
+      ],
+      "dezenas": [
+        "07",
+        "08",
+        "23",
+        "36",
+        "46",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 91,
+          "valorPremio": 16567.3
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6998,
+          "valorPremio": 307.76
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1150,
+      "dataProximoConcurso": "03/02/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 25751354.0,
+      "valorAcumuladoConcurso_0_5": 16684537.21,
+      "valorAcumuladoConcursoEspecial": 2765023.19,
+      "valorAcumuladoProximoConcurso": 16684537.21,
+      "valorEstimadoProximoConcurso": 20000000.0
+    }
+  },
+  {
+    "draw_id": 1150,
+    "draw_date": "2010-02-03",
+    "numbers": [
+      15,
+      17,
+      28,
+      31,
+      35,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1150,
+      "data": "03/02/2010",
+      "local": "Caminh\u00e3o da Sorte em ITU, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "28",
+        "17",
+        "35",
+        "52",
+        "31",
+        "15"
+      ],
+      "dezenas": [
+        "15",
+        "17",
+        "28",
+        "31",
+        "35",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 58,
+          "valorPremio": 30422.46
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5033,
+          "valorPremio": 500.83
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1151,
+      "dataProximoConcurso": "06/02/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 30139020.0,
+      "valorAcumuladoConcurso_0_5": 2043108.3,
+      "valorAcumuladoConcursoEspecial": 3229366.0,
+      "valorAcumuladoProximoConcurso": 19934936.77,
+      "valorEstimadoProximoConcurso": 24000000.0
+    }
+  },
+  {
+    "draw_id": 1151,
+    "draw_date": "2010-02-06",
+    "numbers": [
+      1,
+      4,
+      14,
+      21,
+      25,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1151,
+      "data": "06/02/2010",
+      "local": "Caminh\u00e3o da Sorte em ITU, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "01",
+        "25",
+        "04",
+        "14",
+        "21",
+        "51"
+      ],
+      "dezenas": [
+        "01",
+        "04",
+        "14",
+        "21",
+        "25",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 101,
+          "valorPremio": 20457.88
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7455,
+          "valorPremio": 395.94
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1152,
+      "dataProximoConcurso": "10/02/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 35293022.0,
+      "valorAcumuladoConcurso_0_5": 4435603.67,
+      "valorAcumuladoConcursoEspecial": 3773114.97,
+      "valorAcumuladoProximoConcurso": 23741179.41,
+      "valorEstimadoProximoConcurso": 28000000.0
+    }
+  },
+  {
+    "draw_id": 1152,
+    "draw_date": "2010-02-10",
+    "numbers": [
+      14,
+      20,
+      29,
+      36,
+      44,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1152,
+      "data": "10/02/2010",
+      "local": "Caminh\u00e3o da Sorte em SANTOS, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "47",
+        "36",
+        "44",
+        "29",
+        "20",
+        "14"
+      ],
+      "dezenas": [
+        "14",
+        "20",
+        "29",
+        "36",
+        "44",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 99,
+          "valorPremio": 21940.52
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6884,
+          "valorPremio": 450.75
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1153,
+      "dataProximoConcurso": "13/02/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 37101290.0,
+      "valorAcumuladoConcurso_0_5": 6950680.57,
+      "valorAcumuladoConcursoEspecial": 4344723.37,
+      "valorAcumuladoProximoConcurso": 27742438.13,
+      "valorEstimadoProximoConcurso": 32000000.0
+    }
+  },
+  {
+    "draw_id": 1153,
+    "draw_date": "2010-02-13",
+    "numbers": [
+      6,
+      17,
+      19,
+      34,
+      46,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1153,
+      "data": "13/02/2010",
+      "local": "Caminh\u00e3o da Sorte em SANTOS, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "55",
+        "46",
+        "34",
+        "17",
+        "19",
+        "06"
+      ],
+      "dezenas": [
+        "06",
+        "17",
+        "19",
+        "34",
+        "46",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 148,
+          "valorPremio": 16706.38
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9655,
+          "valorPremio": 365.84
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1154,
+      "dataProximoConcurso": "17/02/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 42232896.0,
+      "valorAcumuladoConcurso_0_5": 9813626.35,
+      "valorAcumuladoConcursoEspecial": 4995392.88,
+      "valorAcumuladoProximoConcurso": 32297124.6,
+      "valorEstimadoProximoConcurso": 34000000.0
+    }
+  },
+  {
+    "draw_id": 1154,
+    "draw_date": "2010-02-17",
+    "numbers": [
+      4,
+      12,
+      14,
+      21,
+      26,
+      28
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1154,
+      "data": "17/02/2010",
+      "local": "Caminh\u00e3o da Sorte em GUARUJ\u00c1, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "04",
+        "14",
+        "21",
+        "26",
+        "12",
+        "28"
+      ],
+      "dezenas": [
+        "04",
+        "12",
+        "14",
+        "21",
+        "26",
+        "28"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 141,
+          "valorPremio": 10837.51
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8206,
+          "valorPremio": 266.02
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1155,
+      "dataProximoConcurso": "20/02/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 26100894.0,
+      "valorAcumuladoConcurso_0_5": 46695017.02,
+      "valorAcumuladoConcursoEspecial": 5397521.51,
+      "valorAcumuladoProximoConcurso": 46695017.02,
+      "valorEstimadoProximoConcurso": 52000000.0
+    }
+  },
+  {
+    "draw_id": 1155,
+    "draw_date": "2010-02-20",
+    "numbers": [
+      20,
+      28,
+      40,
+      41,
+      51,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1155,
+      "data": "20/02/2010",
+      "local": "Caminh\u00e3o da Sorte em GUARUJ\u00c1, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "28",
+        "58",
+        "41",
+        "40",
+        "51",
+        "20"
+      ],
+      "dezenas": [
+        "20",
+        "28",
+        "40",
+        "41",
+        "51",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 76,
+          "valorPremio": 47668.53
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6061,
+          "valorPremio": 853.89
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1156,
+      "dataProximoConcurso": "24/02/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 61880258.0,
+      "valorAcumuladoConcurso_0_5": 4194830.11,
+      "valorAcumuladoConcursoEspecial": 6350892.01,
+      "valorAcumuladoProximoConcurso": 53368610.37,
+      "valorEstimadoProximoConcurso": 61000000.0
+    }
+  },
+  {
+    "draw_id": 1156,
+    "draw_date": "2010-02-24",
+    "numbers": [
+      9,
+      24,
+      31,
+      44,
+      48,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1156,
+      "data": "24/02/2010",
+      "local": "Caminh\u00e3o da Sorte em FLORIAN\u00d3POLIS, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "31",
+        "49",
+        "44",
+        "24",
+        "09",
+        "48"
+      ],
+      "dezenas": [
+        "09",
+        "24",
+        "31",
+        "44",
+        "48",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 210,
+          "valorPremio": 21432.57
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 15420,
+          "valorPremio": 416.97
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1157,
+      "dataProximoConcurso": "27/02/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 76877700.0,
+      "valorAcumuladoConcurso_0_5": 9406328.92,
+      "valorAcumuladoConcursoEspecial": 7535323.58,
+      "valorAcumuladoProximoConcurso": 61659631.2,
+      "valorEstimadoProximoConcurso": 70000000.0
+    }
+  },
+  {
+    "draw_id": 1157,
+    "draw_date": "2010-02-27",
+    "numbers": [
+      9,
+      29,
+      41,
+      43,
+      46,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1157,
+      "data": "27/02/2010",
+      "local": "Caminh\u00e3o da Sorte em FLORIAN\u00d3POLIS, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "46",
+        "09",
+        "43",
+        "41",
+        "49",
+        "29"
+      ],
+      "dezenas": [
+        "09",
+        "29",
+        "41",
+        "43",
+        "46",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 4,
+          "valorPremio": 18179694.01
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 248,
+          "valorPremio": 24207.8
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 19079,
+          "valorPremio": 449.52
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1158,
+      "dataProximoConcurso": "03/03/2010",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "BRAS\u00cdLIA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "DF"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "CONSELHEIRO LAFAIETE",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "JUNDIA\u00cd",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "S\u00c3O PAULO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 102544866.0,
+      "valorAcumuladoConcurso_0_5": 16357791.4,
+      "valorAcumuladoConcursoEspecial": 9115201.42,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 1158,
+    "draw_date": "2010-03-03",
+    "numbers": [
+      23,
+      30,
+      31,
+      54,
+      55,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1158,
+      "data": "03/03/2010",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O JO\u00c3O BATISTA, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "23",
+        "31",
+        "60",
+        "55",
+        "30",
+        "54"
+      ],
+      "dezenas": [
+        "23",
+        "30",
+        "31",
+        "54",
+        "55",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 38,
+          "valorPremio": 33658.71
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2442,
+          "valorPremio": 748.23
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1159,
+      "dataProximoConcurso": "06/03/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 21846804.0,
+      "valorAcumuladoConcurso_0_5": 17838774.73,
+      "valorAcumuladoConcursoEspecial": 9451788.55,
+      "valorAcumuladoProximoConcurso": 2356109.85,
+      "valorEstimadoProximoConcurso": 5000000.0
+    }
+  },
+  {
+    "draw_id": 1159,
+    "draw_date": "2010-03-06",
+    "numbers": [
+      5,
+      6,
+      34,
+      46,
+      53,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1159,
+      "data": "06/03/2010",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O JO\u00c3O BATISTA, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "53",
+        "46",
+        "05",
+        "06",
+        "34",
+        "55"
+      ],
+      "dezenas": [
+        "05",
+        "06",
+        "34",
+        "46",
+        "53",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 72,
+          "valorPremio": 23949.93
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7628,
+          "valorPremio": 322.94
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1160,
+      "dataProximoConcurso": "10/03/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 29453948.0,
+      "valorAcumuladoConcurso_0_5": 25368068.86,
+      "valorAcumuladoConcursoEspecial": 9905576.66,
+      "valorAcumuladoProximoConcurso": 25368068.86,
+      "valorEstimadoProximoConcurso": 30000000.0
+    }
+  },
+  {
+    "draw_id": 1160,
+    "draw_date": "2010-03-10",
+    "numbers": [
+      1,
+      3,
+      5,
+      18,
+      40,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1160,
+      "data": "10/03/2010",
+      "local": "Caminh\u00e3o da Sorte em DION\u00cdSIO CERQUEIRA, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "40",
+        "05",
+        "03",
+        "48",
+        "01",
+        "18"
+      ],
+      "dezenas": [
+        "01",
+        "03",
+        "05",
+        "18",
+        "40",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 29887804.73
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 118,
+          "valorPremio": 20792.97
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10504,
+          "valorPremio": 333.69
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1161,
+      "dataProximoConcurso": "13/03/2010",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "RECIFE",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PE"
+        }
+      ],
+      "valorArrecadado": 41908820.0,
+      "valorAcumuladoConcurso_0_5": 2840976.84,
+      "valorAcumuladoConcursoEspecial": 10551253.23,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1161,
+    "draw_date": "2010-03-13",
+    "numbers": [
+      4,
+      7,
+      42,
+      47,
+      48,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1161,
+      "data": "13/03/2010",
+      "local": "Caminh\u00e3o da Sorte em DION\u00cdSIO CERQUEIRA, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "48",
+        "47",
+        "07",
+        "04",
+        "42",
+        "51"
+      ],
+      "dezenas": [
+        "04",
+        "07",
+        "42",
+        "47",
+        "48",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 43,
+          "valorPremio": 30752.91
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4214,
+          "valorPremio": 448.29
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1162,
+      "dataProximoConcurso": "17/03/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 22587152.0,
+      "valorAcumuladoConcurso_0_5": 4372147.97,
+      "valorAcumuladoConcursoEspecial": 10899246.69,
+      "valorAcumuladoProximoConcurso": 2435954.08,
+      "valorEstimadoProximoConcurso": 5000000.0
+    }
+  },
+  {
+    "draw_id": 1162,
+    "draw_date": "2010-03-17",
+    "numbers": [
+      18,
+      22,
+      25,
+      30,
+      31,
+      41
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1162,
+      "data": "17/03/2010",
+      "local": "Caminh\u00e3o da Sorte em FRANCISCO BELTR\u00c3O, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "31",
+        "25",
+        "18",
+        "41",
+        "22",
+        "30"
+      ],
+      "dezenas": [
+        "18",
+        "22",
+        "25",
+        "30",
+        "31",
+        "41"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 43,
+          "valorPremio": 32527.61
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3308,
+          "valorPremio": 604.02
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1163,
+      "dataProximoConcurso": "20/03/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 23890622.0,
+      "valorAcumuladoConcurso_0_5": 5991680.64,
+      "valorAcumuladoConcursoEspecial": 11267322.32,
+      "valorAcumuladoProximoConcurso": 5012483.34,
+      "valorEstimadoProximoConcurso": 8000000.0
+    }
+  },
+  {
+    "draw_id": 1163,
+    "draw_date": "2010-03-20",
+    "numbers": [
+      5,
+      17,
+      31,
+      47,
+      51,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1163,
+      "data": "20/03/2010",
+      "local": "Caminh\u00e3o da Sorte em FRANCISCO BELTR\u00c3O, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "05",
+        "51",
+        "31",
+        "53",
+        "47",
+        "17"
+      ],
+      "dezenas": [
+        "05",
+        "17",
+        "31",
+        "47",
+        "51",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 72,
+          "valorPremio": 23479.92
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6107,
+          "valorPremio": 395.46
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1164,
+      "dataProximoConcurso": "24/03/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 28875932.0,
+      "valorAcumuladoConcurso_0_5": 7949164.86,
+      "valorAcumuladoConcursoEspecial": 11712205.12,
+      "valorAcumuladoProximoConcurso": 8126662.78,
+      "valorEstimadoProximoConcurso": 12000000.0
+    }
+  },
+  {
+    "draw_id": 1164,
+    "draw_date": "2010-03-24",
+    "numbers": [
+      6,
+      14,
+      17,
+      26,
+      40,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1164,
+      "data": "24/03/2010",
+      "local": "Caminh\u00e3o da Sorte em UNI\u00c3O DA VIT\u00d3RIA, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "17",
+        "06",
+        "14",
+        "40",
+        "49",
+        "26"
+      ],
+      "dezenas": [
+        "06",
+        "14",
+        "17",
+        "26",
+        "40",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 56,
+          "valorPremio": 30323.49
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5145,
+          "valorPremio": 471.5
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1165,
+      "dataProximoConcurso": "27/03/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 29005080.0,
+      "valorAcumuladoConcurso_0_5": 21170174.38,
+      "valorAcumuladoConcursoEspecial": 12159077.66,
+      "valorAcumuladoProximoConcurso": 21170174.38,
+      "valorEstimadoProximoConcurso": 25000000.0
+    }
+  },
+  {
+    "draw_id": 1165,
+    "draw_date": "2010-03-27",
+    "numbers": [
+      20,
+      40,
+      42,
+      52,
+      54,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1165,
+      "data": "27/03/2010",
+      "local": "Caminh\u00e3o da Sorte em UNI\u00c3O DA VIT\u00d3RIA, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "20",
+        "52",
+        "60",
+        "42",
+        "54",
+        "40"
+      ],
+      "dezenas": [
+        "20",
+        "40",
+        "42",
+        "52",
+        "54",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 70,
+          "valorPremio": 31855.07
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3923,
+          "valorPremio": 812.0
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1166,
+      "dataProximoConcurso": "31/03/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 38087576.0,
+      "valorAcumuladoConcurso_0_5": 2581936.72,
+      "valorAcumuladoConcursoEspecial": 12745881.47,
+      "valorAcumuladoProximoConcurso": 25277800.98,
+      "valorEstimadoProximoConcurso": 30000000.0
+    }
+  },
+  {
+    "draw_id": 1166,
+    "draw_date": "2010-03-31",
+    "numbers": [
+      22,
+      28,
+      30,
+      31,
+      35,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1166,
+      "data": "31/03/2010",
+      "local": "Caminh\u00e3o da Sorte em JACARE\u00cd, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "35",
+        "28",
+        "54",
+        "30",
+        "22",
+        "31"
+      ],
+      "dezenas": [
+        "22",
+        "28",
+        "30",
+        "31",
+        "35",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 86,
+          "valorPremio": 27930.0
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6211,
+          "valorPremio": 552.47
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1167,
+      "dataProximoConcurso": "03/04/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 41027618.0,
+      "valorAcumuladoConcurso_0_5": 5363177.33,
+      "valorAcumuladoConcursoEspecial": 13377981.62,
+      "valorAcumuladoProximoConcurso": 29702501.97,
+      "valorEstimadoProximoConcurso": 35000000.0
+    }
+  },
+  {
+    "draw_id": 1167,
+    "draw_date": "2010-04-03",
+    "numbers": [
+      20,
+      28,
+      43,
+      51,
+      52,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1167,
+      "data": "03/04/2010",
+      "local": "Caminh\u00e3o da Sorte em JACARE\u00cd, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "43",
+        "28",
+        "56",
+        "20",
+        "52",
+        "51"
+      ],
+      "dezenas": [
+        "20",
+        "28",
+        "43",
+        "51",
+        "52",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 44,
+          "valorPremio": 52834.93
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4342,
+          "valorPremio": 764.86
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1168,
+      "dataProximoConcurso": "07/04/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 39708236.0,
+      "valorAcumuladoConcurso_0_5": 8054977.74,
+      "valorAcumuladoConcursoEspecial": 13989754.45,
+      "valorAcumuladoProximoConcurso": 33984911.71,
+      "valorEstimadoProximoConcurso": 39000000.0
+    }
+  },
+  {
+    "draw_id": 1168,
+    "draw_date": "2010-04-07",
+    "numbers": [
+      4,
+      5,
+      20,
+      47,
+      53,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1168,
+      "data": "07/04/2010",
+      "local": "Caminh\u00e3o da Sorte em CAFEL\u00c2NDIA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "47",
+        "20",
+        "04",
+        "56",
+        "53",
+        "05"
+      ],
+      "dezenas": [
+        "04",
+        "05",
+        "20",
+        "47",
+        "53",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 97,
+          "valorPremio": 30457.03
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8380,
+          "valorPremio": 503.63
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1169,
+      "dataProximoConcurso": "10/04/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 50462180.0,
+      "valorAcumuladoConcurso_0_5": 11475782.35,
+      "valorAcumuladoConcursoEspecial": 14767210.06,
+      "valorAcumuladoProximoConcurso": 39427100.86,
+      "valorEstimadoProximoConcurso": 47000000.0
+    }
+  },
+  {
+    "draw_id": 1169,
+    "draw_date": "2010-04-10",
+    "numbers": [
+      1,
+      11,
+      14,
+      23,
+      42,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1169,
+      "data": "10/04/2010",
+      "local": "Caminh\u00e3o da Sorte em CAFEL\u00c2NDIA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "14",
+        "01",
+        "11",
+        "23",
+        "42",
+        "48"
+      ],
+      "dezenas": [
+        "01",
+        "11",
+        "14",
+        "23",
+        "42",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 46206248.49
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 179,
+          "valorPremio": 20559.27
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 12185,
+          "valorPremio": 431.45
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1170,
+      "dataProximoConcurso": "14/04/2010",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "TUPASSI",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        }
+      ],
+      "valorArrecadado": 62859000.0,
+      "valorAcumuladoConcurso_0_5": 15736960.86,
+      "valorAcumuladoConcursoEspecial": 15735659.74,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 19000000.0
+    }
+  },
+  {
+    "draw_id": 1170,
+    "draw_date": "2010-04-14",
+    "numbers": [
+      11,
+      13,
+      27,
+      34,
+      46,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1170,
+      "data": "14/04/2010",
+      "local": "Caminh\u00e3o da Sorte em TR\u00caS LAGOAS, MS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "46",
+        "11",
+        "27",
+        "34",
+        "49",
+        "13"
+      ],
+      "dezenas": [
+        "11",
+        "13",
+        "27",
+        "34",
+        "46",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 19095125.12
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 228,
+          "valorPremio": 7995.63
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10746,
+          "valorPremio": 242.34
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1171,
+      "dataProximoConcurso": "17/04/2010",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "RIO DE JANEIRO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        }
+      ],
+      "valorArrecadado": 31138258.0,
+      "valorAcumuladoConcurso_0_5": 2110846.11,
+      "valorAcumuladoConcursoEspecial": 16215397.51,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1171,
+    "draw_date": "2010-04-17",
+    "numbers": [
+      3,
+      10,
+      13,
+      30,
+      41,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1171,
+      "data": "17/04/2010",
+      "local": "Caminh\u00e3o da Sorte em TR\u00caS LAGOAS, MS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "41",
+        "03",
+        "10",
+        "30",
+        "57",
+        "13"
+      ],
+      "dezenas": [
+        "03",
+        "10",
+        "13",
+        "30",
+        "41",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 79,
+          "valorPremio": 16796.08
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5610,
+          "valorPremio": 337.88
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1172,
+      "dataProximoConcurso": "20/04/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 22664280.0,
+      "valorAcumuladoConcurso_0_5": 3647245.71,
+      "valorAcumuladoConcursoEspecial": 16564579.25,
+      "valorAcumuladoProximoConcurso": 2444272.09,
+      "valorEstimadoProximoConcurso": 5000000.0
+    }
+  },
+  {
+    "draw_id": 1172,
+    "draw_date": "2010-04-20",
+    "numbers": [
+      6,
+      12,
+      28,
+      43,
+      52,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1172,
+      "data": "20/04/2010",
+      "local": "Caminh\u00e3o da Sorte em JACIARA, MT",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "28",
+        "52",
+        "06",
+        "43",
+        "12",
+        "56"
+      ],
+      "dezenas": [
+        "06",
+        "12",
+        "28",
+        "43",
+        "52",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 90,
+          "valorPremio": 12059.64
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6438,
+          "valorPremio": 240.83
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1173,
+      "dataProximoConcurso": "24/04/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 18538888.0,
+      "valorAcumuladoConcurso_0_5": 4903987.16,
+      "valorAcumuladoConcursoEspecial": 16850202.32,
+      "valorAcumuladoProximoConcurso": 4443633.49,
+      "valorEstimadoProximoConcurso": 7000000.0
+    }
+  },
+  {
+    "draw_id": 1173,
+    "draw_date": "2010-04-24",
+    "numbers": [
+      5,
+      7,
+      24,
+      25,
+      36,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1173,
+      "data": "24/04/2010",
+      "local": "Caminh\u00e3o da Sorte em C\u00c1CERES, MT",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "07",
+        "25",
+        "24",
+        "36",
+        "05",
+        "47"
+      ],
+      "dezenas": [
+        "05",
+        "07",
+        "24",
+        "25",
+        "36",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 140,
+          "valorPremio": 11754.52
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9619,
+          "valorPremio": 244.4
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1174,
+      "dataProximoConcurso": "28/04/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 28108632.0,
+      "valorAcumuladoConcurso_0_5": 6809456.51,
+      "valorAcumuladoConcursoEspecial": 17283263.55,
+      "valorAcumuladoProximoConcurso": 7475062.0,
+      "valorEstimadoProximoConcurso": 10000000.0
+    }
+  },
+  {
+    "draw_id": 1174,
+    "draw_date": "2010-04-28",
+    "numbers": [
+      6,
+      7,
+      39,
+      47,
+      51,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1174,
+      "data": "28/04/2010",
+      "local": "Caminh\u00e3o da Sorte em C\u00c1CERES, MT",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "07",
+        "52",
+        "06",
+        "51",
+        "47",
+        "39"
+      ],
+      "dezenas": [
+        "06",
+        "07",
+        "39",
+        "47",
+        "51",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 38,
+          "valorPremio": 44358.87
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4174,
+          "valorPremio": 576.91
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ATEN\u00c7\u00c3O! DEVIDO AO FERIADO DE 1\u00ba DE MAIO, O CONCURSO 1175 FOI ANTECIPADO PARA SEXTA-FEIRA, DIA 30/04/2010.",
+      "acumulou": true,
+      "proximoConcurso": 1175,
+      "dataProximoConcurso": "30/04/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 28791936.0,
+      "valorAcumuladoConcurso_0_5": 8761246.69,
+      "valorAcumuladoConcursoEspecial": 17726852.25,
+      "valorAcumuladoProximoConcurso": 19341429.43,
+      "valorEstimadoProximoConcurso": 22000000.0
+    }
+  },
+  {
+    "draw_id": 1175,
+    "draw_date": "2010-04-30",
+    "numbers": [
+      2,
+      3,
+      12,
+      16,
+      37,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1175,
+      "data": "30/04/2010",
+      "local": "Caminh\u00e3o da Sorte em C\u00c1CERES, MT",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "02",
+        "03",
+        "12",
+        "37",
+        "47",
+        "16"
+      ],
+      "dezenas": [
+        "02",
+        "03",
+        "12",
+        "16",
+        "37",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 77,
+          "valorPremio": 23254.42
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6958,
+          "valorPremio": 367.63
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1176,
+      "dataProximoConcurso": "05/05/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 30584616.0,
+      "valorAcumuladoConcurso_0_5": 2073315.01,
+      "valorAcumuladoConcursoEspecial": 18198060.21,
+      "valorAcumuladoProximoConcurso": 22639885.13,
+      "valorEstimadoProximoConcurso": 26000000.0
+    }
+  },
+  {
+    "draw_id": 1176,
+    "draw_date": "2010-05-05",
+    "numbers": [
+      11,
+      14,
+      21,
+      30,
+      33,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1176,
+      "data": "05/05/2010",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O GABRIEL DO OESTE, MS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "21",
+        "11",
+        "49",
+        "14",
+        "33",
+        "30"
+      ],
+      "dezenas": [
+        "11",
+        "14",
+        "21",
+        "30",
+        "33",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 102,
+          "valorPremio": 23255.21
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7379,
+          "valorPremio": 459.22
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1177,
+      "dataProximoConcurso": "08/05/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 40516056.0,
+      "valorAcumuladoConcurso_0_5": 4819877.11,
+      "valorAcumuladoConcursoEspecial": 18822278.89,
+      "valorAcumuladoProximoConcurso": 27009415.74,
+      "valorEstimadoProximoConcurso": 33000000.0
+    }
+  },
+  {
+    "draw_id": 1177,
+    "draw_date": "2010-05-08",
+    "numbers": [
+      33,
+      38,
+      47,
+      50,
+      52,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1177,
+      "data": "08/05/2010",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O GABRIEL DO OESTE, MS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "33",
+        "52",
+        "55",
+        "47",
+        "38",
+        "50"
+      ],
+      "dezenas": [
+        "33",
+        "38",
+        "47",
+        "50",
+        "52",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 32015488.03
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 78,
+          "valorPremio": 34840.8
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6269,
+          "valorPremio": 619.27
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1178,
+      "dataProximoConcurso": "12/05/2010",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "S\u00c3O PAULO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 46418328.0,
+      "valorAcumuladoConcurso_0_5": 7966551.12,
+      "valorAcumuladoConcursoEspecial": 19537432.09,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1178,
+    "draw_date": "2010-05-12",
+    "numbers": [
+      1,
+      22,
+      30,
+      45,
+      50,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1178,
+      "data": "12/05/2010",
+      "local": "Caminh\u00e3o da Sorte em MARING\u00c1, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "01",
+        "53",
+        "22",
+        "50",
+        "45",
+        "30"
+      ],
+      "dezenas": [
+        "01",
+        "22",
+        "30",
+        "45",
+        "50",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 27,
+          "valorPremio": 42621.06
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2330,
+          "valorPremio": 705.56
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1179,
+      "dataProximoConcurso": "15/05/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 19655986.0,
+      "valorAcumuladoConcurso_0_5": 9299020.05,
+      "valorAcumuladoConcursoEspecial": 19840265.97,
+      "valorAcumuladoProximoConcurso": 2119836.94,
+      "valorEstimadoProximoConcurso": 5000000.0
+    }
+  },
+  {
+    "draw_id": 1179,
+    "draw_date": "2010-05-15",
+    "numbers": [
+      5,
+      22,
+      28,
+      47,
+      59,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1179,
+      "data": "15/05/2010",
+      "local": "Caminh\u00e3o da Sorte em MARING\u00c1, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "59",
+        "28",
+        "47",
+        "60",
+        "22",
+        "05"
+      ],
+      "dezenas": [
+        "05",
+        "22",
+        "28",
+        "47",
+        "59",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 99,
+          "valorPremio": 15119.91
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5765,
+          "valorPremio": 370.92
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1180,
+      "dataProximoConcurso": "19/05/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 25567678.0,
+      "valorAcumuladoConcurso_0_5": 15909470.94,
+      "valorAcumuladoConcursoEspecial": 20234179.49,
+      "valorAcumuladoProximoConcurso": 15909470.94,
+      "valorEstimadoProximoConcurso": 20000000.0
+    }
+  },
+  {
+    "draw_id": 1180,
+    "draw_date": "2010-05-19",
+    "numbers": [
+      12,
+      30,
+      34,
+      44,
+      57,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1180,
+      "data": "19/05/2010",
+      "local": "Caminh\u00e3o da Sorte em SANTA RITA DO PASSA QUATRO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "60",
+        "12",
+        "34",
+        "30",
+        "44",
+        "57"
+      ],
+      "dezenas": [
+        "12",
+        "30",
+        "34",
+        "44",
+        "57",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 70,
+          "valorPremio": 27747.38
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5176,
+          "valorPremio": 536.07
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1181,
+      "dataProximoConcurso": "22/05/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 33176212.0,
+      "valorAcumuladoConcurso_0_5": 2248997.94,
+      "valorAcumuladoConcursoEspecial": 20745315.4,
+      "valorAcumuladoProximoConcurso": 19487422.2,
+      "valorEstimadoProximoConcurso": 24000000.0
+    }
+  },
+  {
+    "draw_id": 1181,
+    "draw_date": "2010-05-22",
+    "numbers": [
+      18,
+      20,
+      26,
+      31,
+      44,
+      45
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1181,
+      "data": "22/05/2010",
+      "local": "Caminh\u00e3o da Sorte em SANTA RITA DO PASSA QUATRO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "44",
+        "18",
+        "45",
+        "31",
+        "26",
+        "20"
+      ],
+      "dezenas": [
+        "18",
+        "20",
+        "26",
+        "31",
+        "44",
+        "45"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 67,
+          "valorPremio": 35528.46
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5964,
+          "valorPremio": 570.18
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1182,
+      "dataProximoConcurso": "26/05/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 40659128.0,
+      "valorAcumuladoConcurso_0_5": 5005258.82,
+      "valorAcumuladoConcursoEspecial": 21371738.34,
+      "valorAcumuladoProximoConcurso": 23872382.69,
+      "valorEstimadoProximoConcurso": 29000000.0
+    }
+  },
+  {
+    "draw_id": 1182,
+    "draw_date": "2010-05-26",
+    "numbers": [
+      2,
+      4,
+      29,
+      52,
+      56,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1182,
+      "data": "26/05/2010",
+      "local": "Caminh\u00e3o da Sorte em BRAS\u00cdLIA, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "52",
+        "29",
+        "56",
+        "60",
+        "02",
+        "04"
+      ],
+      "dezenas": [
+        "02",
+        "04",
+        "29",
+        "52",
+        "56",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 82,
+          "valorPremio": 29243.72
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7157,
+          "valorPremio": 478.64
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1183,
+      "dataProximoConcurso": "29/05/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 40959376.0,
+      "valorAcumuladoConcurso_0_5": 7781873.34,
+      "valorAcumuladoConcursoEspecial": 22002787.1,
+      "valorAcumuladoProximoConcurso": 28289723.98,
+      "valorEstimadoProximoConcurso": 34000000.0
+    }
+  },
+  {
+    "draw_id": 1183,
+    "draw_date": "2010-05-29",
+    "numbers": [
+      5,
+      10,
+      12,
+      20,
+      29,
+      37
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1183,
+      "data": "29/05/2010",
+      "local": "Caminh\u00e3o da Sorte em EMBU, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "12",
+        "05",
+        "10",
+        "20",
+        "29",
+        "37"
+      ],
+      "dezenas": [
+        "05",
+        "10",
+        "12",
+        "20",
+        "29",
+        "37"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 4,
+          "valorPremio": 8393631.32
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 545,
+          "valorPremio": 5264.03
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 21948,
+          "valorPremio": 186.73
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1184,
+      "dataProximoConcurso": "02/06/2010",
+      "localGanhadores": [
+        {
+          "ganhadores": 2,
+          "municipio": "RIO DE JANEIRO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "S\u00c3O BERNARDO DO CAMPO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "S\u00c3O PAULO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 49002816.0,
+      "valorAcumuladoConcurso_0_5": 11103748.44,
+      "valorAcumuladoConcursoEspecial": 22757758.73,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 1184,
+    "draw_date": "2010-06-02",
+    "numbers": [
+      4,
+      9,
+      23,
+      27,
+      28,
+      30
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1184,
+      "data": "02/06/2010",
+      "local": "Caminh\u00e3o da Sorte em CAMPOS DOS GOYTACAZES, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "04",
+        "23",
+        "27",
+        "28",
+        "09",
+        "30"
+      ],
+      "dezenas": [
+        "04",
+        "09",
+        "23",
+        "27",
+        "28",
+        "30"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 134,
+          "valorPremio": 8850.14
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7342,
+          "valorPremio": 230.75
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1185,
+      "dataProximoConcurso": "05/06/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 20256366.0,
+      "valorAcumuladoConcurso_0_5": 14661502.87,
+      "valorAcumuladoConcursoEspecial": 23069842.46,
+      "valorAcumuladoProximoConcurso": 14661502.87,
+      "valorEstimadoProximoConcurso": 18000000.0
+    }
+  },
+  {
+    "draw_id": 1185,
+    "draw_date": "2010-06-05",
+    "numbers": [
+      2,
+      10,
+      21,
+      35,
+      43,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1185,
+      "data": "05/06/2010",
+      "local": "Caminh\u00e3o da Sorte em CAMPOS DOS GOYTACAZES, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "54",
+        "10",
+        "02",
+        "43",
+        "21",
+        "35"
+      ],
+      "dezenas": [
+        "02",
+        "10",
+        "21",
+        "35",
+        "43",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 96,
+          "valorPremio": 17861.3
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5571,
+          "valorPremio": 439.69
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1186,
+      "dataProximoConcurso": "09/06/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 29288102.0,
+      "valorAcumuladoConcurso_0_5": 1985425.01,
+      "valorAcumuladoConcursoEspecial": 23521075.43,
+      "valorAcumuladoProximoConcurso": 17820133.57,
+      "valorEstimadoProximoConcurso": 22000000.0
+    }
+  },
+  {
+    "draw_id": 1186,
+    "draw_date": "2010-06-09",
+    "numbers": [
+      7,
+      8,
+      12,
+      13,
+      15,
+      41
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1186,
+      "data": "09/06/2010",
+      "local": "Caminh\u00e3o da Sorte em MACA\u00c9, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "41",
+        "12",
+        "15",
+        "07",
+        "13",
+        "08"
+      ],
+      "dezenas": [
+        "07",
+        "08",
+        "12",
+        "13",
+        "15",
+        "41"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 21726964.78
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 196,
+          "valorPremio": 10820.67
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 12126,
+          "valorPremio": 249.85
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1187,
+      "dataProximoConcurso": "12/06/2010",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "S\u00c3O PAULO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 36225720.0,
+      "valorAcumuladoConcurso_0_5": 4441147.49,
+      "valorAcumuladoConcursoEspecial": 24079194.19,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1500000.0
+    }
+  },
+  {
+    "draw_id": 1187,
+    "draw_date": "2010-06-12",
+    "numbers": [
+      8,
+      17,
+      19,
+      40,
+      43,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1187,
+      "data": "12/06/2010",
+      "local": "Caminh\u00e3o da Sorte em MACA\u00c9, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "08",
+        "49",
+        "43",
+        "17",
+        "40",
+        "19"
+      ],
+      "dezenas": [
+        "08",
+        "17",
+        "19",
+        "40",
+        "43",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 42,
+          "valorPremio": 29259.35
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4013,
+          "valorPremio": 437.46
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1188,
+      "dataProximoConcurso": "16/06/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 20990400.0,
+      "valorAcumuladoConcurso_0_5": 5864075.65,
+      "valorAcumuladoConcursoEspecial": 24402586.97,
+      "valorAcumuladoProximoConcurso": 2263749.35,
+      "valorEstimadoProximoConcurso": 5000000.0
+    }
+  },
+  {
+    "draw_id": 1188,
+    "draw_date": "2010-06-16",
+    "numbers": [
+      9,
+      20,
+      44,
+      52,
+      59,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1188,
+      "data": "16/06/2010",
+      "local": "Caminh\u00e3o da Sorte em ITAPERUNA, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "60",
+        "52",
+        "59",
+        "09",
+        "44",
+        "20"
+      ],
+      "dezenas": [
+        "09",
+        "20",
+        "44",
+        "52",
+        "59",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 32,
+          "valorPremio": 37874.46
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3164,
+          "valorPremio": 547.21
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1189,
+      "dataProximoConcurso": "19/06/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 20701566.0,
+      "valorAcumuladoConcurso_0_5": 7267423.9,
+      "valorAcumuladoConcursoEspecial": 24721529.75,
+      "valorAcumuladoProximoConcurso": 4496348.84,
+      "valorEstimadoProximoConcurso": 7000000.0
+    }
+  },
+  {
+    "draw_id": 1189,
+    "draw_date": "2010-06-19",
+    "numbers": [
+      14,
+      21,
+      27,
+      31,
+      35,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1189,
+      "data": "19/06/2010",
+      "local": "Caminh\u00e3o da Sorte em ITAPERUNA, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "50",
+        "21",
+        "14",
+        "35",
+        "31",
+        "27"
+      ],
+      "dezenas": [
+        "14",
+        "21",
+        "27",
+        "31",
+        "35",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 44,
+          "valorPremio": 34335.73
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4064,
+          "valorPremio": 531.06
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1190,
+      "dataProximoConcurso": "23/06/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 25805114.0,
+      "valorAcumuladoConcurso_0_5": 16296089.09,
+      "valorAcumuladoConcursoEspecial": 25119101.38,
+      "valorAcumuladoProximoConcurso": 16296089.09,
+      "valorEstimadoProximoConcurso": 20000000.0
+    }
+  },
+  {
+    "draw_id": 1190,
+    "draw_date": "2010-06-23",
+    "numbers": [
+      10,
+      11,
+      19,
+      37,
+      53,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1190,
+      "data": "23/06/2010",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O JO\u00c3O DA BARRA, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "11",
+        "53",
+        "56",
+        "37",
+        "10",
+        "19"
+      ],
+      "dezenas": [
+        "10",
+        "11",
+        "19",
+        "37",
+        "53",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 9806336.06
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 146,
+          "valorPremio": 12331.72
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7261,
+          "valorPremio": 354.22
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1191,
+      "dataProximoConcurso": "26/06/2010",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "S\u00c3O GON\u00c7ALO DO RIO ABAIXO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "CARL\u00d3POLIS",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        }
+      ],
+      "valorArrecadado": 30752700.0,
+      "valorAcumuladoConcurso_0_5": 2084709.34,
+      "valorAcumuladoConcursoEspecial": 25592898.97,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1191,
+    "draw_date": "2010-06-26",
+    "numbers": [
+      3,
+      11,
+      16,
+      22,
+      25,
+      33
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1191,
+      "data": "26/06/2010",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O JO\u00c3O DA BARRA, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "25",
+        "22",
+        "11",
+        "16",
+        "33",
+        "03"
+      ],
+      "dezenas": [
+        "03",
+        "11",
+        "16",
+        "22",
+        "25",
+        "33"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 138,
+          "valorPremio": 7708.45
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6525,
+          "valorPremio": 232.89
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1192,
+      "dataProximoConcurso": "30/06/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 18169908.0,
+      "valorAcumuladoConcurso_0_5": 3316437.82,
+      "valorAcumuladoConcursoEspecial": 25872837.29,
+      "valorAcumuladoProximoConcurso": 1959568.05,
+      "valorEstimadoProximoConcurso": 4000000.0
+    }
+  },
+  {
+    "draw_id": 1192,
+    "draw_date": "2010-06-30",
+    "numbers": [
+      17,
+      20,
+      49,
+      52,
+      57,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1192,
+      "data": "30/06/2010",
+      "local": "Caminh\u00e3o da Sorte em RIBEIR\u00c3O PRETO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "49",
+        "17",
+        "20",
+        "59",
+        "57",
+        "52"
+      ],
+      "dezenas": [
+        "17",
+        "20",
+        "49",
+        "52",
+        "57",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 34,
+          "valorPremio": 33493.09
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2691,
+          "valorPremio": 604.53
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1193,
+      "dataProximoConcurso": "03/07/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 19450952.0,
+      "valorAcumuladoConcurso_0_5": 4635007.61,
+      "valorAcumuladoConcursoEspecial": 26172512.25,
+      "valorAcumuladoProximoConcurso": 4057292.71,
+      "valorEstimadoProximoConcurso": 6500000.0
+    }
+  },
+  {
+    "draw_id": 1193,
+    "draw_date": "2010-07-03",
+    "numbers": [
+      2,
+      9,
+      12,
+      14,
+      32,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1193,
+      "data": "03/07/2010",
+      "local": "Caminh\u00e3o da Sorte em RIBEIR\u00c3O PRETO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "12",
+        "54",
+        "02",
+        "32",
+        "14",
+        "09"
+      ],
+      "dezenas": [
+        "02",
+        "09",
+        "12",
+        "14",
+        "32",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 72,
+          "valorPremio": 18268.32
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5845,
+          "valorPremio": 321.47
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1194,
+      "dataProximoConcurso": "07/07/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 22466636.0,
+      "valorAcumuladoConcurso_0_5": 6158009.02,
+      "valorAcumuladoConcursoEspecial": 26518648.95,
+      "valorAcumuladoProximoConcurso": 6480249.51,
+      "valorEstimadoProximoConcurso": 9000000.0
+    }
+  },
+  {
+    "draw_id": 1194,
+    "draw_date": "2010-07-07",
+    "numbers": [
+      6,
+      13,
+      24,
+      41,
+      50,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1194,
+      "data": "07/07/2010",
+      "local": "Caminh\u00e3o da Sorte em ANDRADINA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "24",
+        "53",
+        "41",
+        "06",
+        "13",
+        "50"
+      ],
+      "dezenas": [
+        "06",
+        "13",
+        "24",
+        "41",
+        "50",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 54,
+          "valorPremio": 27420.66
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4511,
+          "valorPremio": 468.92
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1195,
+      "dataProximoConcurso": "10/07/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 25291720.0,
+      "valorAcumuladoConcurso_0_5": 17080404.23,
+      "valorAcumuladoConcursoEspecial": 26908310.87,
+      "valorAcumuladoProximoConcurso": 17080404.23,
+      "valorEstimadoProximoConcurso": 21000000.0
+    }
+  },
+  {
+    "draw_id": 1195,
+    "draw_date": "2010-07-10",
+    "numbers": [
+      17,
+      20,
+      26,
+      27,
+      55,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1195,
+      "data": "10/07/2010",
+      "local": "Caminh\u00e3o da Sorte em ANDRADINA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "27",
+        "17",
+        "57",
+        "26",
+        "55",
+        "20"
+      ],
+      "dezenas": [
+        "17",
+        "20",
+        "26",
+        "27",
+        "55",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 20642817.77
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 63,
+          "valorPremio": 30696.54
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4448,
+          "valorPremio": 621.1
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1196,
+      "dataProximoConcurso": "14/07/2010",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "MOMBA\u00c7A",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "CE"
+        }
+      ],
+      "valorArrecadado": 33032140.0,
+      "valorAcumuladoConcurso_0_5": 2239231.38,
+      "valorAcumuladoConcursoEspecial": 27417227.11,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1196,
+    "draw_date": "2010-07-14",
+    "numbers": [
+      3,
+      6,
+      19,
+      20,
+      58,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1196,
+      "data": "14/07/2010",
+      "local": "Caminh\u00e3o da Sorte em ITUIUTABA, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "60",
+        "03",
+        "20",
+        "19",
+        "58",
+        "06"
+      ],
+      "dezenas": [
+        "03",
+        "06",
+        "19",
+        "20",
+        "58",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 85,
+          "valorPremio": 12208.59
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5086,
+          "valorPremio": 291.48
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1197,
+      "dataProximoConcurso": "17/07/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 17725202.0,
+      "valorAcumuladoConcurso_0_5": 3440813.48,
+      "valorAcumuladoConcursoEspecial": 27690313.98,
+      "valorAcumuladoProximoConcurso": 1911607.9,
+      "valorEstimadoProximoConcurso": 5000000.0
+    }
+  },
+  {
+    "draw_id": 1197,
+    "draw_date": "2010-07-17",
+    "numbers": [
+      36,
+      37,
+      39,
+      49,
+      54,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1197,
+      "data": "17/07/2010",
+      "local": "Caminh\u00e3o da Sorte em ITUIUTABA, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "39",
+        "54",
+        "36",
+        "37",
+        "60",
+        "49"
+      ],
+      "dezenas": [
+        "36",
+        "37",
+        "39",
+        "49",
+        "54",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 35,
+          "valorPremio": 37329.11
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2662,
+          "valorPremio": 701.14
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1198,
+      "dataProximoConcurso": "21/07/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 22316318.0,
+      "valorAcumuladoConcurso_0_5": 4953624.92,
+      "valorAcumuladoConcursoEspecial": 28034134.77,
+      "valorAcumuladoProximoConcurso": 4318353.37,
+      "valorEstimadoProximoConcurso": 7000000.0
+    }
+  },
+  {
+    "draw_id": 1198,
+    "draw_date": "2010-07-21",
+    "numbers": [
+      22,
+      29,
+      36,
+      41,
+      48,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1198,
+      "data": "21/07/2010",
+      "local": "Caminh\u00e3o da Sorte em IPAMERI, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "29",
+        "22",
+        "36",
+        "58",
+        "41",
+        "48"
+      ],
+      "dezenas": [
+        "22",
+        "29",
+        "36",
+        "41",
+        "48",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 52,
+          "valorPremio": 26438.48
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3708,
+          "valorPremio": 529.66
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1199,
+      "dataProximoConcurso": "24/07/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 23482624.0,
+      "valorAcumuladoConcurso_0_5": 6545499.62,
+      "valorAcumuladoConcursoEspecial": 28395924.5,
+      "valorAcumuladoProximoConcurso": 6850881.31,
+      "valorEstimadoProximoConcurso": 9500000.0
+    }
+  },
+  {
+    "draw_id": 1199,
+    "draw_date": "2010-07-24",
+    "numbers": [
+      16,
+      19,
+      23,
+      28,
+      39,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1199,
+      "data": "24/07/2010",
+      "local": "Caminh\u00e3o da Sorte em IPAMERI, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "58",
+        "28",
+        "23",
+        "39",
+        "16",
+        "19"
+      ],
+      "dezenas": [
+        "16",
+        "19",
+        "23",
+        "28",
+        "39",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 71,
+          "valorPremio": 22554.66
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5692,
+          "valorPremio": 401.91
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1200,
+      "dataProximoConcurso": "28/07/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 27352780.0,
+      "valorAcumuladoConcurso_0_5": 18200523.7,
+      "valorAcumuladoConcursoEspecial": 28817340.54,
+      "valorAcumuladoProximoConcurso": 18200523.7,
+      "valorEstimadoProximoConcurso": 22000000.0
+    }
+  },
+  {
+    "draw_id": 1200,
+    "draw_date": "2010-07-28",
+    "numbers": [
+      3,
+      10,
+      11,
+      39,
+      54,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1200,
+      "data": "28/07/2010",
+      "local": "Caminh\u00e3o da Sorte em ARUAN\u00c3, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "10",
+        "03",
+        "39",
+        "54",
+        "56",
+        "11"
+      ],
+      "dezenas": [
+        "03",
+        "10",
+        "11",
+        "39",
+        "54",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 21815376.29
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 91,
+          "valorPremio": 21564.27
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6489,
+          "valorPremio": 432.01
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1201,
+      "dataProximoConcurso": "31/07/2010",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "S\u00c3O PAULO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 33518376.0,
+      "valorAcumuladoConcurso_0_5": 2272193.06,
+      "valorAcumuladoConcursoEspecial": 29333748.06,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1201,
+    "draw_date": "2010-07-31",
+    "numbers": [
+      28,
+      32,
+      36,
+      49,
+      55,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1201,
+      "data": "31/07/2010",
+      "local": "Caminh\u00e3o da Sorte em ARUAN\u00c3, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "36",
+        "32",
+        "55",
+        "49",
+        "60",
+        "28"
+      ],
+      "dezenas": [
+        "28",
+        "32",
+        "36",
+        "49",
+        "55",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 67,
+          "valorPremio": 16653.27
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3425,
+          "valorPremio": 465.38
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1202,
+      "dataProximoConcurso": "04/08/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 19058168.0,
+      "valorAcumuladoConcurso_0_5": 3564136.22,
+      "valorAcumuladoConcursoEspecial": 29627371.53,
+      "valorAcumuladoProximoConcurso": 2055364.13,
+      "valorEstimadoProximoConcurso": 5000000.0
+    }
+  },
+  {
+    "draw_id": 1202,
+    "draw_date": "2010-08-04",
+    "numbers": [
+      8,
+      9,
+      11,
+      48,
+      53,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1202,
+      "data": "04/08/2010",
+      "local": "Caminh\u00e3o da Sorte em PATROC\u00cdNIO, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "09",
+        "60",
+        "11",
+        "53",
+        "48",
+        "08"
+      ],
+      "dezenas": [
+        "08",
+        "09",
+        "11",
+        "48",
+        "53",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 63,
+          "valorPremio": 19441.55
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4195,
+          "valorPremio": 417.1
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1203,
+      "dataProximoConcurso": "07/08/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 20920800.0,
+      "valorAcumuladoConcurso_0_5": 4982346.23,
+      "valorAcumuladoConcursoEspecial": 29949692.0,
+      "valorAcumuladoProximoConcurso": 4311607.33,
+      "valorEstimadoProximoConcurso": 7000000.0
+    }
+  },
+  {
+    "draw_id": 1203,
+    "draw_date": "2010-08-07",
+    "numbers": [
+      7,
+      9,
+      30,
+      33,
+      38,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1203,
+      "data": "07/08/2010",
+      "local": "Caminh\u00e3o da Sorte em PATROC\u00cdNIO, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "55",
+        "30",
+        "33",
+        "09",
+        "07",
+        "38"
+      ],
+      "dezenas": [
+        "07",
+        "09",
+        "30",
+        "33",
+        "38",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 99,
+          "valorPremio": 14840.8
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6138,
+          "valorPremio": 341.95
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1204,
+      "dataProximoConcurso": "11/08/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 25095694.0,
+      "valorAcumuladoConcurso_0_5": 6683570.11,
+      "valorAcumuladoConcursoEspecial": 30336333.81,
+      "valorAcumuladoProximoConcurso": 7018099.86,
+      "valorEstimadoProximoConcurso": 10000000.0
+    }
+  },
+  {
+    "draw_id": 1204,
+    "draw_date": "2010-08-11",
+    "numbers": [
+      5,
+      10,
+      25,
+      39,
+      43,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1204,
+      "data": "11/08/2010",
+      "local": "Caminh\u00e3o da Sorte em BAURU, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "10",
+        "25",
+        "05",
+        "39",
+        "52",
+        "43"
+      ],
+      "dezenas": [
+        "05",
+        "10",
+        "25",
+        "39",
+        "43",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 95,
+          "valorPremio": 16192.71
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6613,
+          "valorPremio": 332.31
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1205,
+      "dataProximoConcurso": "14/08/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 26275440.0,
+      "valorAcumuladoConcurso_0_5": 18316592.66,
+      "valorAcumuladoConcursoEspecial": 30741151.6,
+      "valorAcumuladoProximoConcurso": 18316592.66,
+      "valorEstimadoProximoConcurso": 22000000.0
+    }
+  },
+  {
+    "draw_id": 1205,
+    "draw_date": "2010-08-14",
+    "numbers": [
+      4,
+      13,
+      14,
+      26,
+      29,
+      35
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1205,
+      "data": "14/08/2010",
+      "local": "Caminh\u00e3o da Sorte em BAURU, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "14",
+        "04",
+        "26",
+        "35",
+        "29",
+        "13"
+      ],
+      "dezenas": [
+        "04",
+        "13",
+        "14",
+        "26",
+        "29",
+        "35"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 141,
+          "valorPremio": 15034.23
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9645,
+          "valorPremio": 313.97
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1206,
+      "dataProximoConcurso": "18/08/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 36208214.0,
+      "valorAcumuladoConcurso_0_5": 2454535.76,
+      "valorAcumuladoConcursoEspecial": 31299000.65,
+      "valorAcumuladoProximoConcurso": 22221535.91,
+      "valorEstimadoProximoConcurso": 27000000.0
+    }
+  },
+  {
+    "draw_id": 1206,
+    "draw_date": "2010-08-18",
+    "numbers": [
+      2,
+      6,
+      11,
+      36,
+      37,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1206,
+      "data": "18/08/2010",
+      "local": "Caminh\u00e3o da Sorte em INDAIATUBA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "02",
+        "11",
+        "37",
+        "36",
+        "48",
+        "06"
+      ],
+      "dezenas": [
+        "02",
+        "06",
+        "11",
+        "36",
+        "37",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 112,
+          "valorPremio": 20172.5
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8526,
+          "valorPremio": 378.55
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1207,
+      "dataProximoConcurso": "21/08/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 38590864.0,
+      "valorAcumuladoConcurso_0_5": 5070590.1,
+      "valorAcumuladoConcursoEspecial": 31893558.47,
+      "valorAcumuladoProximoConcurso": 26383440.55,
+      "valorEstimadoProximoConcurso": 31000000.0
+    }
+  },
+  {
+    "draw_id": 1207,
+    "draw_date": "2010-08-21",
+    "numbers": [
+      9,
+      11,
+      22,
+      32,
+      35,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1207,
+      "data": "21/08/2010",
+      "local": "Caminh\u00e3o da Sorte em INDAIATUBA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "32",
+        "35",
+        "22",
+        "09",
+        "56",
+        "11"
+      ],
+      "dezenas": [
+        "09",
+        "11",
+        "22",
+        "32",
+        "35",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 108,
+          "valorPremio": 24942.19
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8377,
+          "valorPremio": 459.37
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1208,
+      "dataProximoConcurso": "25/08/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 46011358.0,
+      "valorAcumuladoConcurso_0_5": 8189675.83,
+      "valorAcumuladoConcursoEspecial": 32602441.61,
+      "valorAcumuladoProximoConcurso": 31345622.39,
+      "valorEstimadoProximoConcurso": 37000000.0
+    }
+  },
+  {
+    "draw_id": 1208,
+    "draw_date": "2010-08-25",
+    "numbers": [
+      1,
+      12,
+      20,
+      26,
+      45,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1208,
+      "data": "25/08/2010",
+      "local": "Caminh\u00e3o da Sorte em CA\u00c7APAVA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "45",
+        "12",
+        "01",
+        "26",
+        "54",
+        "20"
+      ],
+      "dezenas": [
+        "01",
+        "12",
+        "20",
+        "26",
+        "45",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 125,
+          "valorPremio": 24276.47
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9464,
+          "valorPremio": 458.06
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1209,
+      "dataProximoConcurso": "28/08/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 51832516.0,
+      "valorAcumuladoConcurso_0_5": 11703374.79,
+      "valorAcumuladoConcursoEspecial": 33401009.57,
+      "valorAcumuladoProximoConcurso": 36935598.02,
+      "valorEstimadoProximoConcurso": 43000000.0
+    }
+  },
+  {
+    "draw_id": 1209,
+    "draw_date": "2010-08-28",
+    "numbers": [
+      5,
+      14,
+      17,
+      30,
+      35,
+      38
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1209,
+      "data": "28/08/2010",
+      "local": "Caminh\u00e3o da Sorte em CA\u00c7APAVA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "30",
+        "17",
+        "38",
+        "14",
+        "05",
+        "35"
+      ],
+      "dezenas": [
+        "05",
+        "14",
+        "17",
+        "30",
+        "35",
+        "38"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 251,
+          "valorPremio": 14955.49
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 16146,
+          "valorPremio": 332.13
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1210,
+      "dataProximoConcurso": "01/09/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 64118190.0,
+      "valorAcumuladoConcurso_0_5": 59900458.51,
+      "valorAcumuladoConcursoEspecial": 34388859.2,
+      "valorAcumuladoProximoConcurso": 59900458.51,
+      "valorEstimadoProximoConcurso": 70000000.0
+    }
+  },
+  {
+    "draw_id": 1210,
+    "draw_date": "2010-09-01",
+    "numbers": [
+      3,
+      7,
+      9,
+      10,
+      31,
+      34
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1210,
+      "data": "01/09/2010",
+      "local": "Caminh\u00e3o da Sorte em SANTA ROSA DE VITERBO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "03",
+        "07",
+        "09",
+        "10",
+        "31",
+        "34"
+      ],
+      "dezenas": [
+        "03",
+        "07",
+        "09",
+        "10",
+        "31",
+        "34"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 993,
+          "valorPremio": 7346.2
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 57447,
+          "valorPremio": 181.4
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1211,
+      "dataProximoConcurso": "04/09/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 124600180.0,
+      "valorAcumuladoConcurso_0_5": 8446580.62,
+      "valorAcumuladoConcursoEspecial": 36308536.62,
+      "valorAcumuladoProximoConcurso": 73338200.39,
+      "valorEstimadoProximoConcurso": 85000000.0
+    }
+  },
+  {
+    "draw_id": 1211,
+    "draw_date": "2010-09-04",
+    "numbers": [
+      3,
+      15,
+      31,
+      36,
+      48,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1211,
+      "data": "04/09/2010",
+      "local": "Caminh\u00e3o da Sorte em SANTA ROSA DE VITERBO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "36",
+        "54",
+        "03",
+        "31",
+        "15",
+        "48"
+      ],
+      "dezenas": [
+        "03",
+        "15",
+        "31",
+        "36",
+        "48",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 7,
+          "valorPremio": 13217564.89
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 981,
+          "valorPremio": 10616.29
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 44163,
+          "valorPremio": 336.88
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1212,
+      "dataProximoConcurso": "08/09/2010",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "RIO DE JANEIRO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "BOTUCATU",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "MANDURI",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "OSASCO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "PRAIA GRANDE",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "Ribeir\u00e3o Preto",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "S\u00c3O PAULO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 177888800.0,
+      "valorAcumuladoConcurso_0_5": 20505568.72,
+      "valorAcumuladoConcursoEspecial": 39049215.76,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1212,
+    "draw_date": "2010-09-08",
+    "numbers": [
+      2,
+      23,
+      33,
+      35,
+      40,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1212,
+      "data": "08/09/2010",
+      "local": "Caminh\u00e3o da Sorte em FEIRA DE SANTANA, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "35",
+        "50",
+        "02",
+        "23",
+        "33",
+        "40"
+      ],
+      "dezenas": [
+        "02",
+        "23",
+        "33",
+        "35",
+        "40",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 28,
+          "valorPremio": 38564.29
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2326,
+          "valorPremio": 663.18
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1213,
+      "dataProximoConcurso": "11/09/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 18443790.0,
+      "valorAcumuladoConcurso_0_5": 21755863.53,
+      "valorAcumuladoConcursoEspecial": 39333373.68,
+      "valorAcumuladoProximoConcurso": 1989105.38,
+      "valorEstimadoProximoConcurso": 4000000.0
+    }
+  },
+  {
+    "draw_id": 1213,
+    "draw_date": "2010-09-11",
+    "numbers": [
+      3,
+      11,
+      26,
+      34,
+      45,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1213,
+      "data": "11/09/2010",
+      "local": "Caminh\u00e3o da Sorte em FEIRA DE SANTANA, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "03",
+        "53",
+        "45",
+        "11",
+        "34",
+        "26"
+      ],
+      "dezenas": [
+        "03",
+        "11",
+        "26",
+        "34",
+        "45",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 111,
+          "valorPremio": 14827.5
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6156,
+          "valorPremio": 381.93
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1214,
+      "dataProximoConcurso": "15/09/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 28112394.0,
+      "valorAcumuladoConcurso_0_5": 23661587.91,
+      "valorAcumuladoConcursoEspecial": 39766492.87,
+      "valorAcumuladoProximoConcurso": 5020939.63,
+      "valorEstimadoProximoConcurso": 8000000.0
+    }
+  },
+  {
+    "draw_id": 1214,
+    "draw_date": "2010-09-15",
+    "numbers": [
+      5,
+      29,
+      30,
+      36,
+      41,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1214,
+      "data": "15/09/2010",
+      "local": "Caminh\u00e3o da Sorte em TEIXEIRA DE FREITAS, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "05",
+        "41",
+        "29",
+        "36",
+        "30",
+        "48"
+      ],
+      "dezenas": [
+        "05",
+        "29",
+        "30",
+        "36",
+        "41",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 87,
+          "valorPremio": 20055.78
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6593,
+          "valorPremio": 378.07
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1215,
+      "dataProximoConcurso": "18/09/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 29803386.0,
+      "valorAcumuladoConcurso_0_5": 33917085.84,
+      "valorAcumuladoConcursoEspecial": 40225664.67,
+      "valorAcumuladoProximoConcurso": 33917085.84,
+      "valorEstimadoProximoConcurso": 40000000.0
+    }
+  },
+  {
+    "draw_id": 1215,
+    "draw_date": "2010-09-18",
+    "numbers": [
+      10,
+      25,
+      30,
+      47,
+      50,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1215,
+      "data": "18/09/2010",
+      "local": "Caminh\u00e3o da Sorte em TEIXEIRA DE FREITAS, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "47",
+        "51",
+        "10",
+        "50",
+        "30",
+        "25"
+      ],
+      "dezenas": [
+        "10",
+        "25",
+        "30",
+        "47",
+        "50",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 144,
+          "valorPremio": 21544.81
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10052,
+          "valorPremio": 440.91
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1216,
+      "dataProximoConcurso": "22/09/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 52992216.0,
+      "valorAcumuladoConcurso_0_5": 3592314.42,
+      "valorAcumuladoConcursoEspecial": 41042099.78,
+      "valorAcumuladoProximoConcurso": 39632131.51,
+      "valorEstimadoProximoConcurso": 46000000.0
+    }
+  },
+  {
+    "draw_id": 1216,
+    "draw_date": "2010-09-22",
+    "numbers": [
+      4,
+      7,
+      13,
+      25,
+      27,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1216,
+      "data": "22/09/2010",
+      "local": "Caminh\u00e3o da Sorte em VIDEIRA, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "07",
+        "25",
+        "04",
+        "58",
+        "13",
+        "27"
+      ],
+      "dezenas": [
+        "04",
+        "07",
+        "13",
+        "25",
+        "27",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 555,
+          "valorPremio": 6029.59
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 26524,
+          "valorPremio": 180.23
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1217,
+      "dataProximoConcurso": "25/09/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 57159394.0,
+      "valorAcumuladoConcurso_0_5": 7467119.64,
+      "valorAcumuladoConcursoEspecial": 41922737.34,
+      "valorAcumuladoProximoConcurso": 45796594.37,
+      "valorEstimadoProximoConcurso": 53000000.0
+    }
+  },
+  {
+    "draw_id": 1217,
+    "draw_date": "2010-09-25",
+    "numbers": [
+      5,
+      11,
+      15,
+      28,
+      43,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1217,
+      "data": "25/09/2010",
+      "local": "Caminh\u00e3o da Sorte em VIDEIRA, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "05",
+        "43",
+        "28",
+        "15",
+        "11",
+        "50"
+      ],
+      "dezenas": [
+        "05",
+        "11",
+        "15",
+        "28",
+        "43",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 266,
+          "valorPremio": 15239.05
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 16184,
+          "valorPremio": 357.81
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1218,
+      "dataProximoConcurso": "29/09/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 69238306.0,
+      "valorAcumuladoConcurso_0_5": 12160747.95,
+      "valorAcumuladoConcursoEspecial": 42989471.06,
+      "valorAcumuladoProximoConcurso": 53263730.31,
+      "valorEstimadoProximoConcurso": 61000000.0
+    }
+  },
+  {
+    "draw_id": 1218,
+    "draw_date": "2010-09-29",
+    "numbers": [
+      10,
+      23,
+      29,
+      31,
+      33,
+      46
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1218,
+      "data": "29/09/2010",
+      "local": "Caminh\u00e3o da Sorte em CRUZEIRO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "33",
+        "23",
+        "29",
+        "46",
+        "10",
+        "31"
+      ],
+      "dezenas": [
+        "10",
+        "23",
+        "29",
+        "31",
+        "33",
+        "46"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 211,
+          "valorPremio": 23992.46
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 17290,
+          "valorPremio": 418.27
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1219,
+      "dataProximoConcurso": "02/10/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 86469726.0,
+      "valorAcumuladoConcurso_0_5": 18022485.16,
+      "valorAcumuladoConcursoEspecial": 44321684.07,
+      "valorAcumuladoProximoConcurso": 62589221.31,
+      "valorEstimadoProximoConcurso": 75000000.0
+    }
+  },
+  {
+    "draw_id": 1219,
+    "draw_date": "2010-10-02",
+    "numbers": [
+      2,
+      33,
+      34,
+      37,
+      41,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1219,
+      "data": "02/10/2010",
+      "local": "Caminh\u00e3o da Sorte em CRUZEIRO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "34",
+        "37",
+        "41",
+        "53",
+        "02",
+        "33"
+      ],
+      "dezenas": [
+        "02",
+        "33",
+        "34",
+        "37",
+        "41",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 220,
+          "valorPremio": 28644.89
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 17919,
+          "valorPremio": 502.4
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1220,
+      "dataProximoConcurso": "06/10/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 107640740.0,
+      "valorAcumuladoConcurso_0_5": 99517334.59,
+      "valorAcumuladoConcursoEspecial": 45980072.51,
+      "valorAcumuladoProximoConcurso": 99517334.59,
+      "valorEstimadoProximoConcurso": 115000000.0
+    }
+  },
+  {
+    "draw_id": 1220,
+    "draw_date": "2010-10-06",
+    "numbers": [
+      5,
+      15,
+      43,
+      48,
+      52,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1220,
+      "data": "06/10/2010",
+      "local": "Caminh\u00e3o da Sorte em CATAL\u00c3O, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "48",
+        "55",
+        "52",
+        "43",
+        "05",
+        "15"
+      ],
+      "dezenas": [
+        "05",
+        "15",
+        "43",
+        "48",
+        "52",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 119142144.27
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 377,
+          "valorPremio": 28258.54
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 30478,
+          "valorPremio": 499.35
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1221,
+      "dataProximoConcurso": "09/10/2010",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "FONTOURA XAVIER",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RS"
+        }
+      ],
+      "valorArrecadado": 181969176.0,
+      "valorAcumuladoConcurso_0_5": 12335594.66,
+      "valorAcumuladoConcursoEspecial": 48783616.75,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 1221,
+    "draw_date": "2010-10-09",
+    "numbers": [
+      5,
+      14,
+      37,
+      43,
+      46,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1221,
+      "data": "09/10/2010",
+      "local": "Caminh\u00e3o da Sorte em CATAL\u00c3O, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "46",
+        "05",
+        "58",
+        "37",
+        "14",
+        "43"
+      ],
+      "dezenas": [
+        "05",
+        "14",
+        "37",
+        "43",
+        "46",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 102,
+          "valorPremio": 15007.28
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5864,
+          "valorPremio": 372.91
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1222,
+      "dataProximoConcurso": "13/10/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 26146224.0,
+      "valorAcumuladoConcurso_0_5": 14108033.41,
+      "valorAcumuladoConcursoEspecial": 49186443.74,
+      "valorAcumuladoProximoConcurso": 2819788.93,
+      "valorEstimadoProximoConcurso": 6000000.0
+    }
+  },
+  {
+    "draw_id": 1222,
+    "draw_date": "2010-10-13",
+    "numbers": [
+      5,
+      8,
+      19,
+      26,
+      48,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1222,
+      "data": "13/10/2010",
+      "local": "Caminh\u00e3o da Sorte em CAMB\u00c9, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "26",
+        "19",
+        "48",
+        "57",
+        "05",
+        "08"
+      ],
+      "dezenas": [
+        "05",
+        "08",
+        "19",
+        "26",
+        "48",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 121,
+          "valorPremio": 11735.29
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7404,
+          "valorPremio": 273.97
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1223,
+      "dataProximoConcurso": "16/10/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 24254156.0,
+      "valorAcumuladoConcurso_0_5": 15752209.87,
+      "valorAcumuladoConcursoEspecial": 49560120.23,
+      "valorAcumuladoProximoConcurso": 5435524.2,
+      "valorEstimadoProximoConcurso": 8000000.0
+    }
+  },
+  {
+    "draw_id": 1223,
+    "draw_date": "2010-10-16",
+    "numbers": [
+      15,
+      17,
+      35,
+      42,
+      47,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1223,
+      "data": "16/10/2010",
+      "local": "Caminh\u00e3o da Sorte em CAMB\u00c9, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "17",
+        "15",
+        "48",
+        "42",
+        "35",
+        "47"
+      ],
+      "dezenas": [
+        "15",
+        "17",
+        "35",
+        "42",
+        "47",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 358,
+          "valorPremio": 5816.15
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9411,
+          "valorPremio": 316.07
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1224,
+      "dataProximoConcurso": "20/10/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 35565226.0,
+      "valorAcumuladoConcurso_0_5": 18163157.81,
+      "valorAcumuladoConcursoEspecial": 50108062.95,
+      "valorAcumuladoProximoConcurso": 9271123.19,
+      "valorEstimadoProximoConcurso": 13000000.0
+    }
+  },
+  {
+    "draw_id": 1224,
+    "draw_date": "2010-10-20",
+    "numbers": [
+      19,
+      21,
+      27,
+      41,
+      53,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1224,
+      "data": "20/10/2010",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O RAIMUNDO NONATO, PI",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "41",
+        "19",
+        "57",
+        "53",
+        "21",
+        "27"
+      ],
+      "dezenas": [
+        "19",
+        "21",
+        "27",
+        "41",
+        "53",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 13344577.42
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 124,
+          "valorPremio": 17833.09
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6867,
+          "valorPremio": 460.02
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1225,
+      "dataProximoConcurso": "23/10/2010",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "CARAPICUIBA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 37770716.0,
+      "valorAcumuladoConcurso_0_5": 20723614.76,
+      "valorAcumuladoConcursoEspecial": 50689985.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 23000000.0
+    }
+  },
+  {
+    "draw_id": 1225,
+    "draw_date": "2010-10-23",
+    "numbers": [
+      31,
+      32,
+      34,
+      40,
+      50,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1225,
+      "data": "23/10/2010",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O RAIMUNDO NONATO, PI",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "32",
+        "55",
+        "34",
+        "31",
+        "50",
+        "40"
+      ],
+      "dezenas": [
+        "31",
+        "32",
+        "34",
+        "40",
+        "50",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 24970852.82
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 36,
+          "valorPremio": 64045.66
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3825,
+          "valorPremio": 861.11
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1226,
+      "dataProximoConcurso": "27/10/2010",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "BELO HORIZONTE",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        }
+      ],
+      "valorArrecadado": 39382110.0,
+      "valorAcumuladoConcurso_0_5": 2669692.5,
+      "valorAcumuladoConcursoEspecial": 51296733.3,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1226,
+    "draw_date": "2010-10-27",
+    "numbers": [
+      10,
+      31,
+      40,
+      50,
+      55,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1226,
+      "data": "27/10/2010",
+      "local": "Caminh\u00e3o da Sorte em JUAZEIRO DO NORTE, CE",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "31",
+        "55",
+        "56",
+        "50",
+        "40",
+        "10"
+      ],
+      "dezenas": [
+        "10",
+        "31",
+        "40",
+        "50",
+        "55",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 57,
+          "valorPremio": 22714.31
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9917,
+          "valorPremio": 186.5
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1227,
+      "dataProximoConcurso": "30/10/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 22114710.0,
+      "valorAcumuladoConcurso_0_5": 4168837.03,
+      "valorAcumuladoConcursoEspecial": 51637447.99,
+      "valorAcumuladoProximoConcurso": 2385002.68,
+      "valorEstimadoProximoConcurso": 5000000.0
+    }
+  },
+  {
+    "draw_id": 1227,
+    "draw_date": "2010-10-30",
+    "numbers": [
+      4,
+      28,
+      30,
+      31,
+      35,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1227,
+      "data": "30/10/2010",
+      "local": "Caminh\u00e3o da Sorte em JUAZEIRO DO NORTE, CE",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "35",
+        "31",
+        "04",
+        "30",
+        "54",
+        "28"
+      ],
+      "dezenas": [
+        "04",
+        "28",
+        "30",
+        "31",
+        "35",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 5445377.96
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 463,
+          "valorPremio": 3588.23
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5301,
+          "valorPremio": 447.71
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1228,
+      "dataProximoConcurso": "03/11/2010",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "FORTALEZA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "CE"
+        }
+      ],
+      "valorArrecadado": 28377038.0,
+      "valorAcumuladoConcurso_0_5": 6092501.49,
+      "valorAcumuladoConcursoEspecial": 52074644.47,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1600000.0
+    }
+  },
+  {
+    "draw_id": 1228,
+    "draw_date": "2010-11-03",
+    "numbers": [
+      10,
+      23,
+      36,
+      50,
+      52,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1228,
+      "data": "03/11/2010",
+      "local": "Caminh\u00e3o da Sorte em TAU\u00c1, CE",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "36",
+        "10",
+        "60",
+        "52",
+        "50",
+        "23"
+      ],
+      "dezenas": [
+        "10",
+        "23",
+        "36",
+        "50",
+        "52",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 43,
+          "valorPremio": 24741.5
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3050,
+          "valorPremio": 498.3
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1229,
+      "dataProximoConcurso": "06/11/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 18171942.0,
+      "valorAcumuladoConcurso_0_5": 7324367.86,
+      "valorAcumuladoConcursoEspecial": 52354614.11,
+      "valorAcumuladoProximoConcurso": 1959787.41,
+      "valorEstimadoProximoConcurso": 5000000.0
+    }
+  },
+  {
+    "draw_id": 1229,
+    "draw_date": "2010-11-06",
+    "numbers": [
+      12,
+      30,
+      32,
+      40,
+      49,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1229,
+      "data": "06/11/2010",
+      "local": "Caminh\u00e3o da Sorte em TAU\u00c1, CE",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "12",
+        "49",
+        "60",
+        "32",
+        "30",
+        "40"
+      ],
+      "dezenas": [
+        "12",
+        "30",
+        "32",
+        "40",
+        "49",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 42,
+          "valorPremio": 38879.24
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2827,
+          "valorPremio": 825.16
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1230,
+      "dataProximoConcurso": "10/11/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 27891626.0,
+      "valorAcumuladoConcurso_0_5": 14182939.0,
+      "valorAcumuladoConcursoEspecial": 52784332.0,
+      "valorAcumuladoProximoConcurso": 14182939.0,
+      "valorEstimadoProximoConcurso": 18000000.0
+    }
+  },
+  {
+    "draw_id": 1230,
+    "draw_date": "2010-11-10",
+    "numbers": [
+      9,
+      12,
+      19,
+      22,
+      35,
+      37
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1230,
+      "data": "10/11/2010",
+      "local": "Caminh\u00e3o da Sorte em BALSAS, MA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "37",
+        "35",
+        "12",
+        "22",
+        "19",
+        "09"
+      ],
+      "dezenas": [
+        "09",
+        "12",
+        "19",
+        "22",
+        "35",
+        "37"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 110,
+          "valorPremio": 18549.8
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9272,
+          "valorPremio": 314.38
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1231,
+      "dataProximoConcurso": "13/11/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 34852882.0,
+      "valorAcumuladoConcurso_0_5": 2362658.52,
+      "valorAcumuladoConcursoEspecial": 53321299.85,
+      "valorAcumuladoProximoConcurso": 17941713.91,
+      "valorEstimadoProximoConcurso": 22000000.0
+    }
+  },
+  {
+    "draw_id": 1231,
+    "draw_date": "2010-11-13",
+    "numbers": [
+      5,
+      20,
+      23,
+      27,
+      39,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1231,
+      "data": "13/11/2010",
+      "local": "Caminh\u00e3o da Sorte em BALSAS, MA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "20",
+        "27",
+        "49",
+        "05",
+        "23",
+        "39"
+      ],
+      "dezenas": [
+        "05",
+        "20",
+        "23",
+        "27",
+        "39",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 22383261.66
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 161,
+          "valorPremio": 14975.94
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9961,
+          "valorPremio": 345.79
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1232,
+      "dataProximoConcurso": "17/11/2010",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "S\u00c3O PAULO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 41183828.0,
+      "valorAcumuladoConcurso_0_5": 5154488.53,
+      "valorAcumuladoConcursoEspecial": 53955806.69,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1232,
+    "draw_date": "2010-11-17",
+    "numbers": [
+      8,
+      11,
+      12,
+      15,
+      18,
+      22
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1232,
+      "data": "17/11/2010",
+      "local": "Caminh\u00e3o da Sorte em Porto Nacional, TO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "12",
+        "18",
+        "15",
+        "08",
+        "11",
+        "22"
+      ],
+      "dezenas": [
+        "08",
+        "11",
+        "12",
+        "15",
+        "18",
+        "22"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 161,
+          "valorPremio": 6658.4
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7374,
+          "valorPremio": 207.68
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1233,
+      "dataProximoConcurso": "20/11/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 18310616.0,
+      "valorAcumuladoConcurso_0_5": 6395755.54,
+      "valorAcumuladoConcursoEspecial": 54237912.84,
+      "valorAcumuladoProximoConcurso": 1974742.97,
+      "valorEstimadoProximoConcurso": 4500000.0
+    }
+  },
+  {
+    "draw_id": 1233,
+    "draw_date": "2010-11-20",
+    "numbers": [
+      22,
+      29,
+      32,
+      49,
+      54,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1233,
+      "data": "20/11/2010",
+      "local": "Caminh\u00e3o da Sorte em Porto Nacional, TO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "49",
+        "22",
+        "59",
+        "29",
+        "32",
+        "54"
+      ],
+      "dezenas": [
+        "22",
+        "29",
+        "32",
+        "49",
+        "54",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 33,
+          "valorPremio": 43459.53
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3057,
+          "valorPremio": 670.2
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1234,
+      "dataProximoConcurso": "24/11/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 24496594.0,
+      "valorAcumuladoConcurso_0_5": 8056366.74,
+      "valorAcumuladoConcursoEspecial": 54615324.5,
+      "valorAcumuladoProximoConcurso": 4616624.43,
+      "valorEstimadoProximoConcurso": 8000000.0
+    }
+  },
+  {
+    "draw_id": 1234,
+    "draw_date": "2010-11-24",
+    "numbers": [
+      3,
+      5,
+      19,
+      24,
+      30,
+      35
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1234,
+      "data": "24/11/2010",
+      "local": "Caminh\u00e3o da Sorte em Natividade, TO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "03",
+        "05",
+        "24",
+        "19",
+        "30",
+        "35"
+      ],
+      "dezenas": [
+        "03",
+        "05",
+        "19",
+        "24",
+        "30",
+        "35"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 120,
+          "valorPremio": 12853.8
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9102,
+          "valorPremio": 242.09
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1235,
+      "dataProximoConcurso": "27/11/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 26346304.0,
+      "valorAcumuladoConcurso_0_5": 17300360.17,
+      "valorAcumuladoConcursoEspecial": 55021234.06,
+      "valorAcumuladoProximoConcurso": 17300360.17,
+      "valorEstimadoProximoConcurso": 21000000.0
+    }
+  },
+  {
+    "draw_id": 1235,
+    "draw_date": "2010-11-27",
+    "numbers": [
+      10,
+      16,
+      20,
+      26,
+      49,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1235,
+      "data": "27/11/2010",
+      "local": "Caminh\u00e3o da Sorte em Natividade, TO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "16",
+        "49",
+        "55",
+        "20",
+        "10",
+        "26"
+      ],
+      "dezenas": [
+        "10",
+        "16",
+        "20",
+        "26",
+        "49",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 83,
+          "valorPremio": 25186.56
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6028,
+          "valorPremio": 495.42
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1236,
+      "dataProximoConcurso": "01/12/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 35707024.0,
+      "valorAcumuladoConcurso_0_5": 2420560.36,
+      "valorAcumuladoConcursoEspecial": 55571361.42,
+      "valorAcumuladoProximoConcurso": 21151251.64,
+      "valorEstimadoProximoConcurso": 25000000.0
+    }
+  },
+  {
+    "draw_id": 1236,
+    "draw_date": "2010-12-01",
+    "numbers": [
+      3,
+      8,
+      17,
+      20,
+      38,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1236,
+      "data": "01/12/2010",
+      "local": "Caminh\u00e3o da Sorte em RIO NEGRINHO, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "17",
+        "20",
+        "38",
+        "08",
+        "53",
+        "03"
+      ],
+      "dezenas": [
+        "03",
+        "08",
+        "17",
+        "20",
+        "38",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 136,
+          "valorPremio": 16352.7
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9270,
+          "valorPremio": 342.72
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1237,
+      "dataProximoConcurso": "04/12/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 37987018.0,
+      "valorAcumuladoConcurso_0_5": 4995680.3,
+      "valorAcumuladoConcursoEspecial": 56156615.97,
+      "valorAcumuladoProximoConcurso": 25248033.37,
+      "valorEstimadoProximoConcurso": 30000000.0
+    }
+  },
+  {
+    "draw_id": 1237,
+    "draw_date": "2010-12-04",
+    "numbers": [
+      5,
+      18,
+      21,
+      26,
+      39,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1237,
+      "data": "04/12/2010",
+      "local": "Caminh\u00e3o da Sorte em Rio Negrinho, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "26",
+        "21",
+        "39",
+        "05",
+        "18",
+        "59"
+      ],
+      "dezenas": [
+        "05",
+        "18",
+        "21",
+        "26",
+        "39",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 30150521.09
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 132,
+          "valorPremio": 20161.75
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9303,
+          "valorPremio": 408.67
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1238,
+      "dataProximoConcurso": "08/12/2010",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "SERINGUEIRAS",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RO"
+        }
+      ],
+      "valorArrecadado": 45457850.0,
+      "valorAcumuladoConcurso_0_5": 8077244.01,
+      "valorAcumuladoConcursoEspecial": 56856971.38,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1238,
+    "draw_date": "2010-12-08",
+    "numbers": [
+      13,
+      14,
+      24,
+      39,
+      40,
+      45
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1238,
+      "data": "08/12/2010",
+      "local": "Caminh\u00e3o da Sorte em Guarulhos, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "40",
+        "45",
+        "24",
+        "14",
+        "13",
+        "39"
+      ],
+      "dezenas": [
+        "13",
+        "14",
+        "24",
+        "39",
+        "40",
+        "45"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 41,
+          "valorPremio": 28938.22
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3065,
+          "valorPremio": 553.0
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1239,
+      "dataProximoConcurso": "11/12/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 20265740.0,
+      "valorAcumuladoConcurso_0_5": 9451047.84,
+      "valorAcumuladoConcursoEspecial": 57169199.54,
+      "valorAcumuladoProximoConcurso": 2185597.01,
+      "valorEstimadoProximoConcurso": 5000000.0
+    }
+  },
+  {
+    "draw_id": 1239,
+    "draw_date": "2010-12-11",
+    "numbers": [
+      1,
+      15,
+      37,
+      39,
+      48,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1239,
+      "data": "11/12/2010",
+      "local": "Caminh\u00e3o da Sorte em Guarulhos, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "15",
+        "01",
+        "48",
+        "37",
+        "39",
+        "52"
+      ],
+      "dezenas": [
+        "01",
+        "15",
+        "37",
+        "39",
+        "48",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 57,
+          "valorPremio": 27226.64
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3794,
+          "valorPremio": 584.35
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1240,
+      "dataProximoConcurso": "15/12/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 26507920.0,
+      "valorAcumuladoConcurso_0_5": 16292399.49,
+      "valorAcumuladoConcursoEspecial": 57577599.08,
+      "valorAcumuladoProximoConcurso": 16292399.49,
+      "valorEstimadoProximoConcurso": 20000000.0
+    }
+  },
+  {
+    "draw_id": 1240,
+    "draw_date": "2010-12-15",
+    "numbers": [
+      8,
+      9,
+      12,
+      22,
+      42,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1240,
+      "data": "15/12/2010",
+      "local": "Caminh\u00e3o da Sorte em COL\u00cdDER, MT",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "22",
+        "42",
+        "49",
+        "08",
+        "12",
+        "09"
+      ],
+      "dezenas": [
+        "08",
+        "09",
+        "12",
+        "22",
+        "42",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 123,
+          "valorPremio": 15840.7
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8257,
+          "valorPremio": 337.1
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1241,
+      "dataProximoConcurso": "18/12/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 33280228.0,
+      "valorAcumuladoConcurso_0_5": 2256049.13,
+      "valorAcumuladoConcursoEspecial": 58090337.54,
+      "valorAcumuladoProximoConcurso": 19881568.56,
+      "valorEstimadoProximoConcurso": 24000000.0
+    }
+  },
+  {
+    "draw_id": 1241,
+    "draw_date": "2010-12-18",
+    "numbers": [
+      10,
+      13,
+      25,
+      26,
+      28,
+      45
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1241,
+      "data": "18/12/2010",
+      "local": "Caminh\u00e3o da Sorte em COL\u00cdDER, MT",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "13",
+        "26",
+        "25",
+        "10",
+        "28",
+        "45"
+      ],
+      "dezenas": [
+        "10",
+        "13",
+        "25",
+        "26",
+        "28",
+        "45"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 181,
+          "valorPremio": 12479.72
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 12556,
+          "valorPremio": 257.0
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1242,
+      "dataProximoConcurso": "20/12/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 38582506.0,
+      "valorAcumuladoConcurso_0_5": 4871536.89,
+      "valorAcumuladoConcursoEspecial": 58684766.59,
+      "valorAcumuladoProximoConcurso": 24042571.82,
+      "valorEstimadoProximoConcurso": 26000000.0
+    }
+  },
+  {
+    "draw_id": 1242,
+    "draw_date": "2010-12-20",
+    "numbers": [
+      11,
+      34,
+      45,
+      48,
+      51,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1242,
+      "data": "20/12/2010",
+      "local": "Caminh\u00e3o da Sorte em Volta Redonda, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "54",
+        "45",
+        "51",
+        "11",
+        "34",
+        "48"
+      ],
+      "dezenas": [
+        "11",
+        "34",
+        "45",
+        "48",
+        "51",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 19,
+          "valorPremio": 46855.32
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2046,
+          "valorPremio": 621.59
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1243,
+      "dataProximoConcurso": "22/12/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 15206152.0,
+      "valorAcumuladoConcurso_0_5": 5902353.92,
+      "valorAcumuladoConcursoEspecial": 58919043.21,
+      "valorAcumuladoProximoConcurso": 25682508.0,
+      "valorEstimadoProximoConcurso": 29000000.0
+    }
+  },
+  {
+    "draw_id": 1243,
+    "draw_date": "2010-12-22",
+    "numbers": [
+      9,
+      19,
+      23,
+      29,
+      32,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1243,
+      "data": "22/12/2010",
+      "local": "Caminh\u00e3o da Sorte em Volta Redonda, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "32",
+        "19",
+        "23",
+        "57",
+        "09",
+        "29"
+      ],
+      "dezenas": [
+        "09",
+        "19",
+        "23",
+        "29",
+        "32",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 139,
+          "valorPremio": 15365.51
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8401,
+          "valorPremio": 363.18
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1244,
+      "dataProximoConcurso": "24/12/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 36481150.0,
+      "valorAcumuladoConcurso_0_5": 8375391.86,
+      "valorAcumuladoConcursoEspecial": 59481097.3,
+      "valorAcumuladoProximoConcurso": 29616886.54,
+      "valorEstimadoProximoConcurso": 34000000.0
+    }
+  },
+  {
+    "draw_id": 1244,
+    "draw_date": "2010-12-24",
+    "numbers": [
+      2,
+      8,
+      15,
+      25,
+      34,
+      45
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1244,
+      "data": "24/12/2010",
+      "local": "Caminh\u00e3o da Sorte em VOLTA REDONDA, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "45",
+        "08",
+        "34",
+        "15",
+        "02",
+        "25"
+      ],
+      "dezenas": [
+        "02",
+        "08",
+        "15",
+        "25",
+        "34",
+        "45"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 124,
+          "valorPremio": 16432.85
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9080,
+          "valorPremio": 320.59
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1245,
+      "dataProximoConcurso": "31/12/2010",
+      "localGanhadores": [],
+      "valorArrecadado": 34804982.0,
+      "valorAcumuladoConcurso_0_5": 104122626.0,
+      "valorAcumuladoConcursoEspecial": 104122626.0,
+      "valorAcumuladoProximoConcurso": 104122626.0,
+      "valorEstimadoProximoConcurso": 200000000.0
+    }
+  },
+  {
+    "draw_id": 1245,
+    "draw_date": "2010-12-31",
+    "numbers": [
+      2,
+      10,
+      34,
+      37,
+      43,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1245,
+      "data": "31/12/2010",
+      "local": "Audit\u00f3rio em S\u00e3o Paulo, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "34",
+        "10",
+        "37",
+        "50",
+        "43",
+        "02"
+      ],
+      "dezenas": [
+        "02",
+        "10",
+        "34",
+        "37",
+        "43",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 4,
+          "valorPremio": 48598800.01
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 1561,
+          "valorPremio": 17722.09
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 94921,
+          "valorPremio": 416.34
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1246,
+      "dataProximoConcurso": "05/01/2011",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "CARIACICA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "ES"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "BELO HORIZONTE",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "FAZENDA RIO GRANDE",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "PINHAIS",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        }
+      ],
+      "valorArrecadado": 472524744.0,
+      "valorAcumuladoConcurso_0_5": 0.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  }
+]

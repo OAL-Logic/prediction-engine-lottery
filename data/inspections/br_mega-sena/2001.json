@@ -1,0 +1,5289 @@
+[
+  {
+    "draw_id": 253,
+    "draw_date": "2001-01-06",
+    "numbers": [
+      11,
+      12,
+      24,
+      37,
+      44,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 253,
+      "data": "06/01/2001",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "12",
+        "11",
+        "56",
+        "44",
+        "24",
+        "37"
+      ],
+      "dezenas": [
+        "11",
+        "12",
+        "24",
+        "37",
+        "44",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 126,
+          "valorPremio": 6985.77
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7260,
+          "valorPremio": 120.88
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio pr\u00f3ximo concurso (Sena):R$2.500.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 254,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7549267.02,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1056248.75,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 254,
+    "draw_date": "2001-01-13",
+    "numbers": [
+      1,
+      4,
+      21,
+      22,
+      30,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 254,
+      "data": "13/01/2001",
+      "local": "Caminh\u00e3o da Sorte em ALMENARA, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "04",
+        "30",
+        "56",
+        "21",
+        "22",
+        "01"
+      ],
+      "dezenas": [
+        "01",
+        "04",
+        "21",
+        "22",
+        "30",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 66,
+          "valorPremio": 16400.47
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6381,
+          "valorPremio": 169.14
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio pr\u00f3ximo concurso (sena):R$4MILH\u00d5ES.",
+      "acumulou": true,
+      "proximoConcurso": 255,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 8415211.96,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 2355166.17,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 255,
+    "draw_date": "2001-01-20",
+    "numbers": [
+      16,
+      19,
+      20,
+      32,
+      44,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 255,
+      "data": "20/01/2001",
+      "local": "Caminh\u00e3o da Sorte em Guaratuba, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "32",
+        "44",
+        "55",
+        "19",
+        "20",
+        "16"
+      ],
+      "dezenas": [
+        "16",
+        "19",
+        "20",
+        "32",
+        "44",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 80,
+          "valorPremio": 14363.63
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6812,
+          "valorPremio": 168.19
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso(Sena)R$5.500.000,00",
+      "acumulou": true,
+      "proximoConcurso": 256,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 9334484.18,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 3734074.48,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 256,
+    "draw_date": "2001-01-27",
+    "numbers": [
+      2,
+      21,
+      26,
+      32,
+      34,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 256,
+      "data": "27/01/2001",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O SEBASTI\u00c3O , SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "21",
+        "52",
+        "34",
+        "26",
+        "02",
+        "32"
+      ],
+      "dezenas": [
+        "02",
+        "21",
+        "26",
+        "32",
+        "34",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 91,
+          "valorPremio": 13336.96
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6319,
+          "valorPremio": 191.49
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio pr\u00f3ximo concurso (sena):R$7MILH\u00d5ES.",
+      "acumulou": true,
+      "proximoConcurso": 257,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 10305414.6,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 5190470.09,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 257,
+    "draw_date": "2001-02-03",
+    "numbers": [
+      1,
+      4,
+      5,
+      19,
+      28,
+      34
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 257,
+      "data": "03/02/2001",
+      "local": "Caminh\u00e3o da Sorte em CARAGUATATUBA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "28",
+        "05",
+        "01",
+        "34",
+        "04",
+        "19"
+      ],
+      "dezenas": [
+        "01",
+        "04",
+        "05",
+        "19",
+        "28",
+        "34"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 6808483.96
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 175,
+          "valorPremio": 7704.83
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11706,
+          "valorPremio": 114.84
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "PREVIS\u00c3O PR\u00caMIO PR\u00d3XIMO CONCURSO(Sena):R$1.000.000,00",
+      "acumulou": false,
+      "proximoConcurso": 258,
+      "dataProximoConcurso": "",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 11384090.53,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 258,
+    "draw_date": "2001-02-10",
+    "numbers": [
+      7,
+      12,
+      50,
+      54,
+      55,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 258,
+      "data": "10/02/2001",
+      "local": "Caminh\u00e3o da Sorte em Piracicaba, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "12",
+        "60",
+        "54",
+        "07",
+        "55",
+        "50"
+      ],
+      "dezenas": [
+        "07",
+        "12",
+        "50",
+        "54",
+        "55",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 53,
+          "valorPremio": 15960.68
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3615,
+          "valorPremio": 233.3
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso (Sena): R$2.300.000,00",
+      "acumulou": true,
+      "proximoConcurso": 259,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 12060823.34,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1015099.19,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 259,
+    "draw_date": "2001-02-17",
+    "numbers": [
+      13,
+      15,
+      20,
+      33,
+      43,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 259,
+      "data": "17/02/2001",
+      "local": "Caminh\u00e3o da Sorte em S\u00e3o Carlos, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "20",
+        "43",
+        "33",
+        "13",
+        "15",
+        "58"
+      ],
+      "dezenas": [
+        "13",
+        "15",
+        "20",
+        "33",
+        "43",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 65,
+          "valorPremio": 15136.22
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5581,
+          "valorPremio": 175.77
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio pr\u00f3ximo concurso (sena):R$17MILH\u00d5ES.",
+      "acumulou": true,
+      "proximoConcurso": 260,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 12847906.45,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 2195724.03,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 260,
+    "draw_date": "2001-02-24",
+    "numbers": [
+      4,
+      6,
+      33,
+      43,
+      59,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 260,
+      "data": "24/02/2001",
+      "local": "Caminh\u00e3o da Sorte em CORUMB\u00c1, MS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "43",
+        "04",
+        "60",
+        "59",
+        "06",
+        "33"
+      ],
+      "dezenas": [
+        "04",
+        "06",
+        "33",
+        "43",
+        "59",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 120,
+          "valorPremio": 16065.94
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8956,
+          "valorPremio": 214.63
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso(sena): R$20.000.000,00",
+      "acumulou": true,
+      "proximoConcurso": 261,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1542329.52,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 17357124.85,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 261,
+    "draw_date": "2001-03-03",
+    "numbers": [
+      5,
+      16,
+      20,
+      30,
+      54,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 261,
+      "data": "03/03/2001",
+      "local": "Caminh\u00e3o da Sorte em Paranava\u00ed, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "05",
+        "54",
+        "20",
+        "56",
+        "30",
+        "16"
+      ],
+      "dezenas": [
+        "05",
+        "16",
+        "20",
+        "30",
+        "54",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 91,
+          "valorPremio": 22350.19
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7281,
+          "valorPremio": 278.51
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio pr\u00f3ximo concurso (262): R$23MILH\u00d5ES.",
+      "acumulou": true,
+      "proximoConcurso": 262,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3169423.26,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 19797765.32,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 262,
+    "draw_date": "2001-03-10",
+    "numbers": [
+      11,
+      20,
+      48,
+      53,
+      58,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 262,
+      "data": "10/03/2001",
+      "local": "Caminh\u00e3o da Sorte em JOINVILLE, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "53",
+        "60",
+        "48",
+        "20",
+        "58",
+        "11"
+      ],
+      "dezenas": [
+        "11",
+        "20",
+        "48",
+        "53",
+        "58",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 108,
+          "valorPremio": 24643.78
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8838,
+          "valorPremio": 300.24
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio pr\u00f3ximo concurso (sena)Rr$27.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 263,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5298646.43,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 22991600.18,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 263,
+    "draw_date": "2001-03-17",
+    "numbers": [
+      8,
+      9,
+      26,
+      43,
+      50,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 263,
+      "data": "17/03/2001",
+      "local": "Caminh\u00e3o da Sorte em UMUARAMA, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "08",
+        "50",
+        "26",
+        "09",
+        "53",
+        "43"
+      ],
+      "dezenas": [
+        "08",
+        "09",
+        "26",
+        "43",
+        "50",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 136,
+          "valorPremio": 24937.18
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 12752,
+          "valorPremio": 265.17
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio pr\u00f3ximo concurso (sena): R$32Milh\u00f5es.",
+      "acumulou": true,
+      "proximoConcurso": 264,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 8011811.73,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 27061348.12,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 264,
+    "draw_date": "2001-03-24",
+    "numbers": [
+      1,
+      5,
+      13,
+      25,
+      31,
+      33
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 264,
+      "data": "24/03/2001",
+      "local": "Caminh\u00e3o da Sorte em Sto Ant\u00f4nio da Platina, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "05",
+        "25",
+        "31",
+        "13",
+        "01",
+        "33"
+      ],
+      "dezenas": [
+        "01",
+        "05",
+        "13",
+        "25",
+        "31",
+        "33"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 16055880.73
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 979,
+          "valorPremio": 4298.96
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 50364,
+          "valorPremio": 83.25
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso(Sena) R$1.000.000,00",
+      "acumulou": false,
+      "proximoConcurso": 265,
+      "dataProximoConcurso": "",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "CE"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 11378753.91,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 265,
+    "draw_date": "2001-03-31",
+    "numbers": [
+      7,
+      16,
+      34,
+      41,
+      50,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 265,
+      "data": "31/03/2001",
+      "local": "Caminh\u00e3o da Sorte em Colorado, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "07",
+        "50",
+        "53",
+        "16",
+        "41",
+        "34"
+      ],
+      "dezenas": [
+        "07",
+        "16",
+        "34",
+        "41",
+        "50",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 64,
+          "valorPremio": 14676.59
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3855,
+          "valorPremio": 242.74
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio pr\u00f3ximo concurso (sena):R$2.500.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 266,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 12130195.19,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1127161.81,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 266,
+    "draw_date": "2001-04-07",
+    "numbers": [
+      2,
+      23,
+      38,
+      46,
+      48,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 266,
+      "data": "07/04/2001",
+      "local": "Caminh\u00e3o da Sorte em LONDRINA, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "38",
+        "54",
+        "48",
+        "23",
+        "02",
+        "46"
+      ],
+      "dezenas": [
+        "02",
+        "23",
+        "38",
+        "46",
+        "48",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 89,
+          "valorPremio": 12318.14
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6687,
+          "valorPremio": 163.33
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "PREVIS\u00c3O PR\u00caMIO(SENA)PR\u00d3XIMO CONCURSO: R$4.000.000,00",
+      "acumulou": true,
+      "proximoConcurso": 267,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 13007246.98,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 2442739.49,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 267,
+    "draw_date": "2001-04-14",
+    "numbers": [
+      1,
+      8,
+      45,
+      46,
+      55,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 267,
+      "data": "14/04/2001",
+      "local": "Caminh\u00e3o da Sorte em Mar\u00edlia, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "58",
+        "01",
+        "45",
+        "55",
+        "08",
+        "46"
+      ],
+      "dezenas": [
+        "01",
+        "08",
+        "45",
+        "46",
+        "55",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 46,
+          "valorPremio": 23142.59
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4076,
+          "valorPremio": 260.19
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ESTIMATIVA PR\u00caMIO (SENA) PR\u00d3XIMO CONCURSO: R$5.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 268,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 13858894.02,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 3720210.04,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 268,
+    "draw_date": "2001-04-21",
+    "numbers": [
+      5,
+      6,
+      10,
+      21,
+      33,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 268,
+      "data": "21/04/2001",
+      "local": "Caminh\u00e3o da Sorte em Campinas, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "21",
+        "10",
+        "47",
+        "06",
+        "05",
+        "33"
+      ],
+      "dezenas": [
+        "05",
+        "06",
+        "10",
+        "21",
+        "33",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 111,
+          "valorPremio": 10348.29
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10133,
+          "valorPremio": 112.93
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio pr\u00f3ximo concurso (sena):R$7MILH\u00d5ES.",
+      "acumulou": true,
+      "proximoConcurso": 269,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 14777821.83,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 5098601.74,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 269,
+    "draw_date": "2001-04-28",
+    "numbers": [
+      17,
+      18,
+      19,
+      25,
+      49,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 269,
+      "data": "28/04/2001",
+      "local": "Caminh\u00e3o da Sorte em Divin\u00f3polis, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "19",
+        "18",
+        "52",
+        "25",
+        "17",
+        "49"
+      ],
+      "dezenas": [
+        "17",
+        "18",
+        "19",
+        "25",
+        "49",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 110,
+          "valorPremio": 12115.7
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8717,
+          "valorPremio": 152.31
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio (Sena) pr\u00f3ximo concurso: R$25.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 270,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 15844003.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 6697873.66,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 270,
+    "draw_date": "2001-05-05",
+    "numbers": [
+      5,
+      9,
+      27,
+      35,
+      40,
+      45
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 270,
+      "data": "05/05/2001",
+      "local": "Caminh\u00e3o da Sorte em Itapecerica da Serra, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "45",
+        "27",
+        "35",
+        "40",
+        "05",
+        "09"
+      ],
+      "dezenas": [
+        "05",
+        "09",
+        "27",
+        "35",
+        "40",
+        "45"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 25186260.21
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 228,
+          "valorPremio": 9665.14
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 16867,
+          "valorPremio": 130.16
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio pr\u00f3ximo concurso (sena):1MILH\u00c3O.",
+      "acumulou": false,
+      "proximoConcurso": 271,
+      "dataProximoConcurso": "",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1762922.3,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 271,
+    "draw_date": "2001-05-12",
+    "numbers": [
+      14,
+      24,
+      26,
+      29,
+      31,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 271,
+      "data": "12/05/2001",
+      "local": "Caminh\u00e3o da Sorte em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "14",
+        "31",
+        "54",
+        "29",
+        "26",
+        "24"
+      ],
+      "dezenas": [
+        "14",
+        "24",
+        "26",
+        "29",
+        "31",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 43,
+          "valorPremio": 19939.25
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4385,
+          "valorPremio": 194.79
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio (Sena) pr\u00f3ximo concurso: R$2.500.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 272,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2448832.46,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1028865.23,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 272,
+    "draw_date": "2001-05-19",
+    "numbers": [
+      9,
+      10,
+      24,
+      36,
+      56,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 272,
+      "data": "19/05/2001",
+      "local": "Caminh\u00e3o da Sorte em Franca, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "36",
+        "58",
+        "09",
+        "10",
+        "56",
+        "24"
+      ],
+      "dezenas": [
+        "09",
+        "10",
+        "24",
+        "36",
+        "56",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 70,
+          "valorPremio": 14013.37
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5491,
+          "valorPremio": 177.97
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio pr\u00f3ximo concurso (sena):R$3.500.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 273,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3233581.05,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 2205988.15,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 273,
+    "draw_date": "2001-05-26",
+    "numbers": [
+      10,
+      17,
+      23,
+      27,
+      47,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 273,
+      "data": "26/05/2001",
+      "local": "Caminh\u00e3o da Sorte em Goi\u00e2nia, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "47",
+        "52",
+        "10",
+        "27",
+        "23",
+        "17"
+      ],
+      "dezenas": [
+        "10",
+        "17",
+        "23",
+        "27",
+        "47",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 3456480.23
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 92,
+          "valorPremio": 11326.92
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7241,
+          "valorPremio": 143.38
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio pr\u00f3ximo concurso (sena) :R$1MILH\u00c3O.",
+      "acumulou": false,
+      "proximoConcurso": 274,
+      "dataProximoConcurso": "",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PE"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4067242.44,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 274,
+    "draw_date": "2001-06-02",
+    "numbers": [
+      11,
+      13,
+      18,
+      26,
+      39,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 274,
+      "data": "02/06/2001",
+      "local": "Caminh\u00e3o da Sorte em Araras, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "11",
+        "39",
+        "47",
+        "18",
+        "13",
+        "26"
+      ],
+      "dezenas": [
+        "11",
+        "13",
+        "18",
+        "26",
+        "39",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 142,
+          "valorPremio": 5488.22
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7420,
+          "valorPremio": 104.64
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio pr\u00f3ximo concurso (sena):R$ 2 MILH\u00d5ES.",
+      "acumulou": true,
+      "proximoConcurso": 275,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4690704.45,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 935192.94,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 275,
+    "draw_date": "2001-06-09",
+    "numbers": [
+      16,
+      19,
+      30,
+      37,
+      38,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 275,
+      "data": "09/06/2001",
+      "local": "Caminh\u00e3o da Sorte em Guaratinguet\u00e1, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "16",
+        "30",
+        "19",
+        "38",
+        "48",
+        "37"
+      ],
+      "dezenas": [
+        "16",
+        "19",
+        "30",
+        "37",
+        "38",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 41,
+          "valorPremio": 22897.52
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3737,
+          "valorPremio": 250.27
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio pr\u00f3ximo concurso (sena): R$ 3.500.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 276,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5441743.23,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 2061751.1,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 276,
+    "draw_date": "2001-06-16",
+    "numbers": [
+      22,
+      39,
+      45,
+      53,
+      57,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 276,
+      "data": "16/06/2001",
+      "local": "Caminh\u00e3o da Sorte em Ourinhos, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "53",
+        "59",
+        "39",
+        "45",
+        "22",
+        "57"
+      ],
+      "dezenas": [
+        "22",
+        "39",
+        "45",
+        "53",
+        "57",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 79,
+          "valorPremio": 12486.98
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5172,
+          "valorPremio": 190.01
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio pr\u00f3ximo concurso (sena):R$ 5 MILH\u00d5ES.",
+      "acumulou": true,
+      "proximoConcurso": 277,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6230920.37,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 3245516.79,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 277,
+    "draw_date": "2001-06-23",
+    "numbers": [
+      4,
+      26,
+      38,
+      40,
+      52,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 277,
+      "data": "23/06/2001",
+      "local": "Caminh\u00e3o da Sorte em Caruaru, PE",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "40",
+        "26",
+        "38",
+        "04",
+        "56",
+        "52"
+      ],
+      "dezenas": [
+        "04",
+        "26",
+        "38",
+        "40",
+        "52",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 95,
+          "valorPremio": 11578.72
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5404,
+          "valorPremio": 202.78
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio pr\u00f3ximo concurso (Sena)R$6.000.000,00",
+      "acumulou": true,
+      "proximoConcurso": 278,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7110902.72,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 4565490.29,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 278,
+    "draw_date": "2001-06-30",
+    "numbers": [
+      10,
+      15,
+      18,
+      22,
+      31,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 278,
+      "data": "30/06/2001",
+      "local": "Caminh\u00e3o da Sorte em Aracaju, SE",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "22",
+        "10",
+        "18",
+        "55",
+        "15",
+        "31"
+      ],
+      "dezenas": [
+        "10",
+        "15",
+        "18",
+        "22",
+        "31",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 99,
+          "valorPremio": 11868.09
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6996,
+          "valorPremio": 167.32
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio pr\u00f3ximo concurso (sena): R$ 8 MILH\u00d5ES.",
+      "acumulou": true,
+      "proximoConcurso": 279,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 8050855.27,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 5975419.1,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 279,
+    "draw_date": "2001-07-07",
+    "numbers": [
+      4,
+      23,
+      31,
+      47,
+      58,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 279,
+      "data": "07/07/2001",
+      "local": "Caminh\u00e3o da Sorte em Rondon\u00f3polis, MT",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "31",
+        "59",
+        "04",
+        "58",
+        "23",
+        "47"
+      ],
+      "dezenas": [
+        "04",
+        "23",
+        "31",
+        "47",
+        "58",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 58,
+          "valorPremio": 23664.88
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6137,
+          "valorPremio": 222.81
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio (Sena) pr\u00f3ximo concurso: R$ 20.000.000,00",
+      "acumulou": true,
+      "proximoConcurso": 280,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 9148905.25,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 7622494.24,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 280,
+    "draw_date": "2001-07-14",
+    "numbers": [
+      5,
+      16,
+      20,
+      25,
+      30,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 280,
+      "data": "14/07/2001",
+      "local": "Caminh\u00e3o da Sorte em JABOTICABAL, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "05",
+        "16",
+        "30",
+        "25",
+        "58",
+        "20"
+      ],
+      "dezenas": [
+        "05",
+        "16",
+        "20",
+        "25",
+        "30",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 192,
+          "valorPremio": 11199.47
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 14673,
+          "valorPremio": 146.0
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio(sena) pr\u00f3ximo concurso: R$23.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 281,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1720239.13,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 19351758.16,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 281,
+    "draw_date": "2001-07-21",
+    "numbers": [
+      5,
+      11,
+      31,
+      38,
+      47,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 281,
+      "data": "21/07/2001",
+      "local": "Caminh\u00e3o da Sorte em Pitanga, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "11",
+        "05",
+        "47",
+        "31",
+        "53",
+        "38"
+      ],
+      "dezenas": [
+        "05",
+        "11",
+        "31",
+        "38",
+        "47",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 22414093.5
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 188,
+          "valorPremio": 13574.18
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 12864,
+          "valorPremio": 197.63
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio pr\u00f3ximo concurso (sena)R$1.000.000,00",
+      "acumulou": false,
+      "proximoConcurso": 282,
+      "dataProximoConcurso": "",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3761795.94,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 282,
+    "draw_date": "2001-07-28",
+    "numbers": [
+      9,
+      14,
+      23,
+      24,
+      33,
+      36
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 282,
+      "data": "28/07/2001",
+      "local": "Caminh\u00e3o da Sorte em Porto Ferreira, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "33",
+        "24",
+        "36",
+        "09",
+        "14",
+        "23"
+      ],
+      "dezenas": [
+        "09",
+        "14",
+        "23",
+        "24",
+        "33",
+        "36"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 958878.82
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 76,
+          "valorPremio": 10514.03
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6064,
+          "valorPremio": 131.27
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio pr\u00f3ximo concurso (sena): R$ 800 MIL.",
+      "acumulou": false,
+      "proximoConcurso": 283,
+      "dataProximoConcurso": "01/08/2001",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4401048.5,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 283,
+    "draw_date": "2001-08-01",
+    "numbers": [
+      25,
+      28,
+      34,
+      42,
+      48,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 283,
+      "data": "01/08/2001",
+      "local": "Caminh\u00e3o da Sorte em Piracicaba, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "48",
+        "34",
+        "28",
+        "54",
+        "25",
+        "42"
+      ],
+      "dezenas": [
+        "25",
+        "28",
+        "34",
+        "42",
+        "48",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 367173.22
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 36,
+          "valorPremio": 8499.38
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2126,
+          "valorPremio": 143.38
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$ 800.000,00",
+      "acumulou": false,
+      "proximoConcurso": 284,
+      "dataProximoConcurso": "04/08/2001",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4645830.65,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 284,
+    "draw_date": "2001-08-04",
+    "numbers": [
+      7,
+      8,
+      14,
+      30,
+      32,
+      36
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 284,
+      "data": "04/08/2001",
+      "local": "Caminh\u00e3o da Sorte em Itapira, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "08",
+        "36",
+        "14",
+        "32",
+        "30",
+        "07"
+      ],
+      "dezenas": [
+        "07",
+        "08",
+        "14",
+        "30",
+        "32",
+        "36"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 901884.48
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 75,
+          "valorPremio": 10020.94
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5358,
+          "valorPremio": 139.74
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio pr\u00f3ximo concurso (sena): R$500 MIL.",
+      "acumulou": false,
+      "proximoConcurso": 285,
+      "dataProximoConcurso": "08/08/2001",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5247086.99,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 285,
+    "draw_date": "2001-08-08",
+    "numbers": [
+      12,
+      32,
+      37,
+      41,
+      50,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 285,
+      "data": "08/08/2001",
+      "local": "Caminh\u00e3o da Sorte em Betim, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "50",
+        "56",
+        "41",
+        "12",
+        "32",
+        "37"
+      ],
+      "dezenas": [
+        "12",
+        "32",
+        "37",
+        "41",
+        "50",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 17,
+          "valorPremio": 20875.96
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1173,
+          "valorPremio": 301.41
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio pr\u00f3ximo concurso (sena): R$ 1.500.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 286,
+      "dataProximoConcurso": "11/08/2001",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5531000.09,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 425869.64,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 286,
+    "draw_date": "2001-08-11",
+    "numbers": [
+      29,
+      35,
+      37,
+      44,
+      47,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 286,
+      "data": "11/08/2001",
+      "local": "Caminh\u00e3o da Sorte em Betim, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "44",
+        "37",
+        "56",
+        "29",
+        "47",
+        "35"
+      ],
+      "dezenas": [
+        "29",
+        "35",
+        "37",
+        "44",
+        "47",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 59,
+          "valorPremio": 13743.96
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3739,
+          "valorPremio": 216.06
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio (SENA)pr\u00f3ximo concurso:\r\n R$ 2.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 287,
+      "dataProximoConcurso": "15/08/2001",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6179714.97,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1398941.94,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 287,
+    "draw_date": "2001-08-15",
+    "numbers": [
+      3,
+      13,
+      25,
+      33,
+      47,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 287,
+      "data": "15/08/2001",
+      "local": "Caminh\u00e3o da Sorte em Maring\u00e1, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "60",
+        "47",
+        "03",
+        "33",
+        "25",
+        "13"
+      ],
+      "dezenas": [
+        "03",
+        "13",
+        "25",
+        "33",
+        "47",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 1931474.8
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 110,
+          "valorPremio": 4034.34
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5633,
+          "valorPremio": 78.49
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio pr\u00f3ximo concurso (sena): R$ 1 MILH\u00c3O.",
+      "acumulou": false,
+      "proximoConcurso": 288,
+      "dataProximoConcurso": "18/08/2001",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "TO"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6534736.88,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 288,
+    "draw_date": "2001-08-18",
+    "numbers": [
+      6,
+      9,
+      11,
+      17,
+      18,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 288,
+      "data": "18/08/2001",
+      "local": "Caminh\u00e3o da Sorte em Maring\u00e1, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "50",
+        "09",
+        "18",
+        "11",
+        "06",
+        "17"
+      ],
+      "dezenas": [
+        "06",
+        "09",
+        "11",
+        "17",
+        "18",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 82,
+          "valorPremio": 8749.64
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4763,
+          "valorPremio": 150.07
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio para o pr\u00f3ximo concurso: (sena) R$1.500.000,00",
+      "acumulou": true,
+      "proximoConcurso": 289,
+      "dataProximoConcurso": "22/08/2001",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7108713.39,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 860964.72,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 289,
+    "draw_date": "2001-08-22",
+    "numbers": [
+      6,
+      7,
+      20,
+      25,
+      30,
+      36
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 289,
+      "data": "22/08/2001",
+      "local": "Caminh\u00e3o da Sorte em Mat\u00e3o, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "36",
+        "06",
+        "30",
+        "20",
+        "07",
+        "25"
+      ],
+      "dezenas": [
+        "06",
+        "07",
+        "20",
+        "25",
+        "30",
+        "36"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 29,
+          "valorPremio": 13819.12
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2197,
+          "valorPremio": 181.72
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio (sena) pr\u00f3ximo concurso: R$10 MILH\u00d5ES.",
+      "acumulou": true,
+      "proximoConcurso": 290,
+      "dataProximoConcurso": "25/08/2001",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7429316.98,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1341870.11,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 290,
+    "draw_date": "2001-08-25",
+    "numbers": [
+      7,
+      25,
+      26,
+      30,
+      40,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 290,
+      "data": "25/08/2001",
+      "local": "Caminh\u00e3o da Sorte em Mat\u00e3o, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "57",
+        "30",
+        "07",
+        "25",
+        "40",
+        "26"
+      ],
+      "dezenas": [
+        "07",
+        "25",
+        "26",
+        "30",
+        "40",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 56,
+          "valorPremio": 20662.23
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4869,
+          "valorPremio": 236.75
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio(sena) pr\u00f3ximo concurso: R$11.000.000,00",
+      "acumulou": true,
+      "proximoConcurso": 291,
+      "dataProximoConcurso": "29/08/2001",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 925667.61,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 10159688.47,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 291,
+    "draw_date": "2001-08-29",
+    "numbers": [
+      5,
+      16,
+      17,
+      18,
+      22,
+      41
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 291,
+      "data": "29/08/2001",
+      "local": "Caminh\u00e3o da Sorte em Pau dos Ferros, RN",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "22",
+        "16",
+        "05",
+        "41",
+        "18",
+        "17"
+      ],
+      "dezenas": [
+        "05",
+        "16",
+        "17",
+        "18",
+        "22",
+        "41"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 71,
+          "valorPremio": 11244.78
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4870,
+          "valorPremio": 163.32
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio pr\u00f3ximo concurso (sena): R$ 13 MILH\u00d5ES.",
+      "acumulou": true,
+      "proximoConcurso": 292,
+      "dataProximoConcurso": "01/09/2001",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1564371.1,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 11117743.68,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 292,
+    "draw_date": "2001-09-01",
+    "numbers": [
+      13,
+      23,
+      24,
+      34,
+      45,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 292,
+      "data": "01/09/2001",
+      "local": "Caminh\u00e3o da Sorte em Pau dos Ferros, RN",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "24",
+        "34",
+        "53",
+        "45",
+        "23",
+        "13"
+      ],
+      "dezenas": [
+        "13",
+        "23",
+        "24",
+        "34",
+        "45",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 116,
+          "valorPremio": 11313.3
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8670,
+          "valorPremio": 150.8
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa premio (SENA)pr\u00f3ximo concurso: R$ 14.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 293,
+      "dataProximoConcurso": "05/09/2001",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2614244.92,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 12692554.4,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 293,
+    "draw_date": "2001-09-05",
+    "numbers": [
+      5,
+      6,
+      7,
+      12,
+      28,
+      35
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 293,
+      "data": "05/09/2001",
+      "local": "Caminh\u00e3o da Sorte em Feira de Santana, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "06",
+        "12",
+        "35",
+        "05",
+        "28",
+        "07"
+      ],
+      "dezenas": [
+        "05",
+        "06",
+        "07",
+        "12",
+        "28",
+        "35"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 167,
+          "valorPremio": 5817.88
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10185,
+          "valorPremio": 95.03
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio pr\u00f3ximo concurso: (SENA)\r\n R$16 MILH\u00d5ES.",
+      "acumulou": true,
+      "proximoConcurso": 294,
+      "dataProximoConcurso": "08/09/2001",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3391513.35,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 13858457.03,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 294,
+    "draw_date": "2001-09-08",
+    "numbers": [
+      22,
+      25,
+      28,
+      41,
+      45,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 294,
+      "data": "08/09/2001",
+      "local": "Caminh\u00e3o da Sorte em Feira de Santana, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "28",
+        "45",
+        "41",
+        "22",
+        "57",
+        "25"
+      ],
+      "dezenas": [
+        "22",
+        "25",
+        "28",
+        "41",
+        "45",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 7696680.33
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 130,
+          "valorPremio": 9839.13
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7434,
+          "valorPremio": 171.41
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio pr\u00f3ximo concurso: (SENA) R$600 MIL.",
+      "acumulou": false,
+      "proximoConcurso": 295,
+      "dataProximoConcurso": "12/09/2001",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4414782.46,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 295,
+    "draw_date": "2001-09-12",
+    "numbers": [
+      7,
+      12,
+      24,
+      31,
+      44,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 295,
+      "data": "12/09/2001",
+      "local": "Caminh\u00e3o da Sorte em Presidente Prudente, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "24",
+        "44",
+        "07",
+        "31",
+        "12",
+        "50"
+      ],
+      "dezenas": [
+        "07",
+        "12",
+        "24",
+        "31",
+        "44",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 36,
+          "valorPremio": 10242.27
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2055,
+          "valorPremio": 178.75
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio (SENA) pr\u00f3ximo concurso: R$1.500.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 296,
+      "dataProximoConcurso": "15/09/2001",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4709759.85,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 442466.08,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 296,
+    "draw_date": "2001-09-15",
+    "numbers": [
+      3,
+      20,
+      42,
+      46,
+      51,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 296,
+      "data": "15/09/2001",
+      "local": "Caminh\u00e3o da Sorte em Presidente Prudente, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "20",
+        "51",
+        "42",
+        "03",
+        "52",
+        "46"
+      ],
+      "dezenas": [
+        "03",
+        "20",
+        "42",
+        "46",
+        "51",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 29,
+          "valorPremio": 26582.95
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2348,
+          "valorPremio": 327.09
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio (SENA) pr\u00f3ximo concurso: R$2 MILH\u00d5ES.",
+      "acumulou": true,
+      "proximoConcurso": 297,
+      "dataProximoConcurso": "19/09/2001",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5326484.27,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1367552.68,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 297,
+    "draw_date": "2001-09-19",
+    "numbers": [
+      1,
+      20,
+      28,
+      33,
+      36,
+      41
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 297,
+      "data": "19/09/2001",
+      "local": "Caminh\u00e3o da Sorte em Porto Alegre, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "20",
+        "28",
+        "41",
+        "01",
+        "33",
+        "36"
+      ],
+      "dezenas": [
+        "01",
+        "20",
+        "28",
+        "33",
+        "36",
+        "41"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 25,
+          "valorPremio": 19353.56
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1920,
+          "valorPremio": 251.05
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ESTIMATIVA PR\u00caMIO (SENA) PR\u00d3XIMO CONCURSO: R$3.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 298,
+      "dataProximoConcurso": "22/09/2001",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5713555.45,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1948159.43,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 298,
+    "draw_date": "2001-09-22",
+    "numbers": [
+      5,
+      22,
+      23,
+      24,
+      34,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 298,
+      "data": "22/09/2001",
+      "local": "Caminh\u00e3o da Sorte em Porto Alegre, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "22",
+        "34",
+        "24",
+        "23",
+        "05",
+        "60"
+      ],
+      "dezenas": [
+        "05",
+        "22",
+        "23",
+        "24",
+        "34",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 2994572.21
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 50,
+          "valorPremio": 17440.22
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4372,
+          "valorPremio": 198.71
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (sena) pr\u00f3ximo concurso: R$500.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 299,
+      "dataProximoConcurso": "26/09/2001",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6411163.97,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 299,
+    "draw_date": "2001-09-26",
+    "numbers": [
+      2,
+      5,
+      7,
+      33,
+      49,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 299,
+      "data": "26/09/2001",
+      "local": "Caminh\u00e3o da Sorte em Aquidauana, MS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "07",
+        "05",
+        "02",
+        "53",
+        "33",
+        "49"
+      ],
+      "dezenas": [
+        "02",
+        "05",
+        "07",
+        "33",
+        "49",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 33,
+          "valorPremio": 10538.82
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2049,
+          "valorPremio": 169.09
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio (SENA) pr\u00f3ximo concurso: R$8 MILH\u00d5ES.",
+      "acumulou": true,
+      "proximoConcurso": 300,
+      "dataProximoConcurso": "29/09/2001",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6689388.79,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 417337.23,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 300,
+    "draw_date": "2001-09-29",
+    "numbers": [
+      24,
+      27,
+      28,
+      38,
+      41,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 300,
+      "data": "29/09/2001",
+      "local": "Caminh\u00e3o da Sorte em Campo Grande, MS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "27",
+        "57",
+        "41",
+        "38",
+        "28",
+        "24"
+      ],
+      "dezenas": [
+        "24",
+        "27",
+        "28",
+        "38",
+        "41",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 48,
+          "valorPremio": 22820.73
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4820,
+          "valorPremio": 226.4
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio (SENA) pr\u00f3ximo concurso: R$10 MILH\u00d5ES.",
+      "acumulou": true,
+      "proximoConcurso": 301,
+      "dataProximoConcurso": "03/10/2001",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 876315.83,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 8421199.74,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 301,
+    "draw_date": "2001-10-03",
+    "numbers": [
+      9,
+      26,
+      48,
+      49,
+      57,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 301,
+      "data": "03/10/2001",
+      "local": "Caminh\u00e3o da Sorte em Conc\u00f3rdia, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "58",
+        "26",
+        "49",
+        "57",
+        "48",
+        "09"
+      ],
+      "dezenas": [
+        "09",
+        "26",
+        "48",
+        "49",
+        "57",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 28,
+          "valorPremio": 29571.34
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2892,
+          "valorPremio": 285.22
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio pr\u00f3ximo concurso (sena): R$ 11 MILH\u00d5ES.",
+      "acumulou": true,
+      "proximoConcurso": 302,
+      "dataProximoConcurso": "06/10/2001",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1538713.96,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 9414796.91,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 302,
+    "draw_date": "2001-10-06",
+    "numbers": [
+      12,
+      25,
+      30,
+      40,
+      41,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 302,
+      "data": "06/10/2001",
+      "local": "Caminh\u00e3o da Sorte em Chapec\u00f3, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "25",
+        "40",
+        "12",
+        "60",
+        "30",
+        "41"
+      ],
+      "dezenas": [
+        "12",
+        "25",
+        "30",
+        "40",
+        "41",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 101,
+          "valorPremio": 13505.06
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6361,
+          "valorPremio": 213.63
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio (SENA) pr\u00f3ximo concurso: R$12 MILH\u00d5ES.",
+      "acumulou": true,
+      "proximoConcurso": 303,
+      "dataProximoConcurso": "10/10/2001",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2629922.29,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 11051609.38,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 303,
+    "draw_date": "2001-10-10",
+    "numbers": [
+      7,
+      13,
+      17,
+      30,
+      37,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 303,
+      "data": "10/10/2001",
+      "local": "Caminh\u00e3o da Sorte em Blumenau, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "07",
+        "13",
+        "30",
+        "37",
+        "47",
+        "17"
+      ],
+      "dezenas": [
+        "07",
+        "13",
+        "17",
+        "30",
+        "37",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 12257748.27
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 215,
+          "valorPremio": 4674.95
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 12861,
+          "valorPremio": 77.86
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio pr\u00f3ximo concurso R$ 900 MIL.",
+      "acumulou": false,
+      "proximoConcurso": 304,
+      "dataProximoConcurso": "13/10/2001",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MS"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3434014.89,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 304,
+    "draw_date": "2001-10-13",
+    "numbers": [
+      7,
+      11,
+      34,
+      41,
+      42,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 304,
+      "data": "13/10/2001",
+      "local": "Caminh\u00e3o da Sorte em Blumenau, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "42",
+        "07",
+        "11",
+        "34",
+        "59",
+        "41"
+      ],
+      "dezenas": [
+        "07",
+        "11",
+        "34",
+        "41",
+        "42",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 58,
+          "valorPremio": 11050.1
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3274,
+          "valorPremio": 195.02
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio pr\u00f3ximo concurso (sena): R$ 1.300.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 305,
+      "dataProximoConcurso": "17/10/2001",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3946739.58,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 769087.04,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 305,
+    "draw_date": "2001-10-17",
+    "numbers": [
+      5,
+      11,
+      27,
+      38,
+      53,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 305,
+      "data": "17/10/2001",
+      "local": "Caminh\u00e3o da Sorte em Jaragu\u00e1 do Sul, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "11",
+        "05",
+        "27",
+        "60",
+        "38",
+        "53"
+      ],
+      "dezenas": [
+        "05",
+        "11",
+        "27",
+        "38",
+        "53",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 47,
+          "valorPremio": 10013.62
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3770,
+          "valorPremio": 124.37
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio (SENA) pr\u00f3ximo concurso: R$2.300.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 306,
+      "dataProximoConcurso": "20/10/2001",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4323251.69,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1333855.18,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 306,
+    "draw_date": "2001-10-20",
+    "numbers": [
+      19,
+      30,
+      41,
+      47,
+      56,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 306,
+      "data": "20/10/2001",
+      "local": "Caminh\u00e3o da Sorte em Jaragu\u00e1 do Sul, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "30",
+        "19",
+        "57",
+        "41",
+        "56",
+        "47"
+      ],
+      "dezenas": [
+        "19",
+        "30",
+        "41",
+        "47",
+        "56",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 28,
+          "valorPremio": 29736.18
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2294,
+          "valorPremio": 361.58
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio (SENA) pr\u00f3ximo concurso: R$ 3 MILH\u00d5ES.",
+      "acumulou": true,
+      "proximoConcurso": 307,
+      "dataProximoConcurso": "24/10/2001",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4989342.12,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 2332990.8,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 307,
+    "draw_date": "2001-10-24",
+    "numbers": [
+      13,
+      16,
+      17,
+      26,
+      41,
+      44
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 307,
+      "data": "24/10/2001",
+      "local": "Caminh\u00e3o da Sorte em Manaus, AM",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "26",
+        "17",
+        "13",
+        "41",
+        "16",
+        "44"
+      ],
+      "dezenas": [
+        "13",
+        "16",
+        "17",
+        "26",
+        "41",
+        "44"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 44,
+          "valorPremio": 12632.8
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3962,
+          "valorPremio": 139.76
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio pr\u00f3ximo concurso (SENA): R$ 4.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 308,
+      "dataProximoConcurso": "27/10/2001",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5434016.73,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 3000002.7,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 308,
+    "draw_date": "2001-10-27",
+    "numbers": [
+      4,
+      11,
+      25,
+      29,
+      39,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 308,
+      "data": "27/10/2001",
+      "local": "Caminh\u00e3o da Sorte em Manaus, AM",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "55",
+        "25",
+        "04",
+        "11",
+        "29",
+        "39"
+      ],
+      "dezenas": [
+        "04",
+        "11",
+        "25",
+        "29",
+        "39",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 4138172.99
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 62,
+          "valorPremio": 15297.99
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5173,
+          "valorPremio": 182.67
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso:R$ 500.000,00",
+      "acumulou": false,
+      "proximoConcurso": 309,
+      "dataProximoConcurso": "31/10/2001",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RS"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6192796.94,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 309,
+    "draw_date": "2001-10-31",
+    "numbers": [
+      4,
+      11,
+      25,
+      39,
+      50,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 309,
+      "data": "31/10/2001",
+      "local": "Caminh\u00e3o da Sorte em Juazeiro do Norte, CE",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "39",
+        "50",
+        "25",
+        "55",
+        "11",
+        "04"
+      ],
+      "dezenas": [
+        "04",
+        "11",
+        "25",
+        "39",
+        "50",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 442899.06
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 3001,
+          "valorPremio": 122.53
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2997,
+          "valorPremio": 122.69
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "estimativa pr\u00eamio pr\u00f3ximo concurso (sena): R$ 7 MILH\u00d5ES.",
+      "acumulou": false,
+      "proximoConcurso": 310,
+      "dataProximoConcurso": "03/11/2001",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RS"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6488062.99,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 310,
+    "draw_date": "2001-11-03",
+    "numbers": [
+      2,
+      14,
+      28,
+      29,
+      31,
+      32
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 310,
+      "data": "03/11/2001",
+      "local": "Caminh\u00e3o da Sorte em Juazeiro do Norte, CE",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "28",
+        "14",
+        "29",
+        "02",
+        "31",
+        "32"
+      ],
+      "dezenas": [
+        "02",
+        "14",
+        "28",
+        "29",
+        "31",
+        "32"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 81,
+          "valorPremio": 10544.47
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5093,
+          "valorPremio": 167.07
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio pr\u00f3ximo concurso(SENA): R$ 9.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 311,
+      "dataProximoConcurso": "07/11/2001",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 683281.29,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 7512984.9,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 311,
+    "draw_date": "2001-11-07",
+    "numbers": [
+      22,
+      24,
+      30,
+      32,
+      38,
+      41
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 311,
+      "data": "07/11/2001",
+      "local": "Caminh\u00e3o da Sorte em Po\u00e7os de Caldas, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "32",
+        "22",
+        "24",
+        "41",
+        "30",
+        "38"
+      ],
+      "dezenas": [
+        "22",
+        "24",
+        "30",
+        "32",
+        "38",
+        "41"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 31,
+          "valorPremio": 25454.68
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2871,
+          "valorPremio": 273.81
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio (SENA) pr\u00f3ximo concurso: R$ 10 MILH\u00d5ES.",
+      "acumulou": true,
+      "proximoConcurso": 312,
+      "dataProximoConcurso": "10/11/2001",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1314557.33,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 8459898.95,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 312,
+    "draw_date": "2001-11-10",
+    "numbers": [
+      14,
+      23,
+      30,
+      41,
+      47,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 312,
+      "data": "10/11/2001",
+      "local": "Caminh\u00e3o da Sorte em Po\u00e7os de Caldas, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "14",
+        "30",
+        "50",
+        "41",
+        "47",
+        "23"
+      ],
+      "dezenas": [
+        "14",
+        "23",
+        "30",
+        "41",
+        "47",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 76,
+          "valorPremio": 15889.75
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4985,
+          "valorPremio": 241.33
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio (SENA) pr\u00f3ximo concurso: R$ 11 MILH\u00d5ES.",
+      "acumulou": true,
+      "proximoConcurso": 313,
+      "dataProximoConcurso": "14/11/2001",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2280654.02,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 9909043.97,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 313,
+    "draw_date": "2001-11-14",
+    "numbers": [
+      14,
+      16,
+      24,
+      37,
+      38,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 313,
+      "data": "14/11/2001",
+      "local": "Caminh\u00e3o da Sorte em Sobral, CE",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "14",
+        "38",
+        "53",
+        "24",
+        "16",
+        "37"
+      ],
+      "dezenas": [
+        "14",
+        "16",
+        "24",
+        "37",
+        "38",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 61,
+          "valorPremio": 15665.21
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5547,
+          "valorPremio": 171.62
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio(sena)pr\u00f3ximo concurso: R$12.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 314,
+      "dataProximoConcurso": "17/11/2001",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3045116.28,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 11055737.35,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 314,
+    "draw_date": "2001-11-17",
+    "numbers": [
+      5,
+      32,
+      34,
+      37,
+      40,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 314,
+      "data": "17/11/2001",
+      "local": "Caminh\u00e3o da Sorte em Sobral, CE",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "05",
+        "32",
+        "40",
+        "58",
+        "37",
+        "34"
+      ],
+      "dezenas": [
+        "05",
+        "32",
+        "34",
+        "37",
+        "40",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 93,
+          "valorPremio": 12287.32
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5542,
+          "valorPremio": 205.42
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio (sena) pr\u00f3ximo concurso: R$14.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 315,
+      "dataProximoConcurso": "21/11/2001",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3959292.82,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 12427002.17,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 315,
+    "draw_date": "2001-11-21",
+    "numbers": [
+      12,
+      21,
+      22,
+      28,
+      43,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 315,
+      "data": "21/11/2001",
+      "local": "Caminh\u00e3o da Sorte em Dois Vizinhos, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "50",
+        "21",
+        "43",
+        "12",
+        "28",
+        "22"
+      ],
+      "dezenas": [
+        "12",
+        "21",
+        "22",
+        "28",
+        "43",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 13675105.67
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 43,
+          "valorPremio": 24188.06
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4598,
+          "valorPremio": 225.35
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$ 700.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 316,
+      "dataProximoConcurso": "24/11/2001",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4791361.83,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 316,
+    "draw_date": "2001-11-24",
+    "numbers": [
+      6,
+      24,
+      28,
+      43,
+      51,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 316,
+      "data": "24/11/2001",
+      "local": "Caminh\u00e3o da Sorte em Dois Vizinhos, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "28",
+        "51",
+        "56",
+        "06",
+        "24",
+        "43"
+      ],
+      "dezenas": [
+        "06",
+        "24",
+        "28",
+        "43",
+        "51",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 104,
+          "valorPremio": 6446.33
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4093,
+          "valorPremio": 163.18
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio (sena) pr\u00f3ximo concurso: R$1.300.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 317,
+      "dataProximoConcurso": "28/11/2001",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5327696.56,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 804502.07,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 317,
+    "draw_date": "2001-11-28",
+    "numbers": [
+      16,
+      20,
+      27,
+      30,
+      35,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 317,
+      "data": "28/11/2001",
+      "local": "Caminh\u00e3o da Sorte em Tel\u00eamaco Borba, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "27",
+        "20",
+        "48",
+        "16",
+        "30",
+        "35"
+      ],
+      "dezenas": [
+        "16",
+        "20",
+        "27",
+        "30",
+        "35",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 23,
+          "valorPremio": 18858.99
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2088,
+          "valorPremio": 206.96
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio (SENA) pr\u00f3ximo concurso: R$2.200.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 318,
+      "dataProximoConcurso": "01/12/2001",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5674702.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1325010.22,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 318,
+    "draw_date": "2001-12-01",
+    "numbers": [
+      3,
+      19,
+      20,
+      31,
+      40,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 318,
+      "data": "01/12/2001",
+      "local": "Caminh\u00e3o da Sorte em ivaipor\u00e3, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "19",
+        "53",
+        "40",
+        "03",
+        "31",
+        "20"
+      ],
+      "dezenas": [
+        "03",
+        "19",
+        "20",
+        "31",
+        "40",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 2227008.03
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 46,
+          "valorPremio": 16340.54
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3071,
+          "valorPremio": 243.84
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio pr\u00f3ximo concurso (sena) R$ 550 MIL.",
+      "acumulou": false,
+      "proximoConcurso": 319,
+      "dataProximoConcurso": "05/12/2001",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6276033.89,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 319,
+    "draw_date": "2001-12-05",
+    "numbers": [
+      12,
+      16,
+      17,
+      19,
+      23,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 319,
+      "data": "05/12/2001",
+      "local": "Caminh\u00e3o da Sorte em Sert\u00e3ozinho, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "12",
+        "16",
+        "23",
+        "17",
+        "19",
+        "48"
+      ],
+      "dezenas": [
+        "12",
+        "16",
+        "17",
+        "19",
+        "23",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 52,
+          "valorPremio": 7242.06
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3342,
+          "valorPremio": 112.26
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ESTIMATIVA DE PR\u00caMIO (SENA) PR\u00d3XIMO CONCURSO:\r\nR$8.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 320,
+      "dataProximoConcurso": "08/12/2001",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 0.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 451904.22,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 320,
+    "draw_date": "2001-12-08",
+    "numbers": [
+      20,
+      22,
+      27,
+      47,
+      50,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 320,
+      "data": "08/12/2001",
+      "local": "Caminh\u00e3o da Sorte em Sert\u00e3ozinho, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "20",
+        "53",
+        "47",
+        "50",
+        "22",
+        "27"
+      ],
+      "dezenas": [
+        "20",
+        "22",
+        "27",
+        "47",
+        "50",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 77,
+          "valorPremio": 15489.0
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4916,
+          "valorPremio": 241.69
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$ 10.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 321,
+      "dataProximoConcurso": "12/12/2001",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 954122.06,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 8460390.65,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 321,
+    "draw_date": "2001-12-12",
+    "numbers": [
+      4,
+      11,
+      31,
+      32,
+      48,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 321,
+      "data": "12/12/2001",
+      "local": "Caminh\u00e3o da Sorte em Ipatinga, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "11",
+        "31",
+        "32",
+        "48",
+        "49",
+        "04"
+      ],
+      "dezenas": [
+        "04",
+        "11",
+        "31",
+        "32",
+        "48",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 55,
+          "valorPremio": 16954.09
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3729,
+          "valorPremio": 249.11
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$ 11.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 322,
+      "dataProximoConcurso": "15/12/2001",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1700101.89,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 9579360.38,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 322,
+    "draw_date": "2001-12-15",
+    "numbers": [
+      11,
+      18,
+      29,
+      44,
+      47,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 322,
+      "data": "15/12/2001",
+      "local": "Caminh\u00e3o da Sorte em Governador Valadares, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "18",
+        "11",
+        "29",
+        "44",
+        "47",
+        "56"
+      ],
+      "dezenas": [
+        "11",
+        "18",
+        "29",
+        "44",
+        "47",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 87,
+          "valorPremio": 15453.45
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7835,
+          "valorPremio": 170.95
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$12.500.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 323,
+      "dataProximoConcurso": "19/12/2001",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2775661.88,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 11192700.36,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 323,
+    "draw_date": "2001-12-19",
+    "numbers": [
+      26,
+      31,
+      33,
+      40,
+      49,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 323,
+      "data": "19/12/2001",
+      "local": "Caminh\u00e3o da Sorte em Indaiatuba, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "31",
+        "49",
+        "54",
+        "33",
+        "26",
+        "40"
+      ],
+      "dezenas": [
+        "26",
+        "31",
+        "33",
+        "40",
+        "49",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 56,
+          "valorPremio": 19921.91
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4244,
+          "valorPremio": 261.89
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$14.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 324,
+      "dataProximoConcurso": "22/12/2001",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3668163.18,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 12531452.28,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 324,
+    "draw_date": "2001-12-22",
+    "numbers": [
+      8,
+      15,
+      22,
+      25,
+      30,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 324,
+      "data": "22/12/2001",
+      "local": "Caminh\u00e3o da Sorte em Indaiatuba, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "22",
+        "08",
+        "30",
+        "15",
+        "47",
+        "25"
+      ],
+      "dezenas": [
+        "08",
+        "15",
+        "22",
+        "25",
+        "30",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 211,
+          "valorPremio": 7938.4
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 12192,
+          "valorPremio": 136.87
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: 17.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 325,
+      "dataProximoConcurso": "26/12/2001",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5008165.47,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 14541455.7,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 325,
+    "draw_date": "2001-12-29",
+    "numbers": [
+      1,
+      3,
+      4,
+      21,
+      23,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 325,
+      "data": "29/12/2001",
+      "local": "Caminh\u00e3o da Sorte em Sorocaba, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "04",
+        "23",
+        "03",
+        "01",
+        "21",
+        "53"
+      ],
+      "dezenas": [
+        "01",
+        "03",
+        "04",
+        "21",
+        "23",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 8743877.8
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 256,
+          "valorPremio": 9590.82
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 15646,
+          "valorPremio": 156.33
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$1.200.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 326,
+      "dataProximoConcurso": "29/12/2001",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "AM"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6972365.4,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  }
+]

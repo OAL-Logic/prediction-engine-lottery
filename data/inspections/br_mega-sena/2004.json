@@ -1,0 +1,7395 @@
+[
+  {
+    "draw_id": 526,
+    "draw_date": "2004-01-03",
+    "numbers": [
+      3,
+      21,
+      31,
+      36,
+      55,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 526,
+      "data": "03/01/2004",
+      "local": "Caminh\u00e3o da Sorte em FRANCA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "03",
+        "59",
+        "21",
+        "36",
+        "55",
+        "31"
+      ],
+      "dezenas": [
+        "03",
+        "21",
+        "31",
+        "36",
+        "55",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 34,
+          "valorPremio": 22681.04
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2444,
+          "valorPremio": 314.34
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$3.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 527,
+      "dataProximoConcurso": "07/01/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3182600.81,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1349521.77,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 527,
+    "draw_date": "2004-01-07",
+    "numbers": [
+      6,
+      14,
+      17,
+      26,
+      50,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 527,
+      "data": "07/01/2004",
+      "local": "Caminh\u00e3o da Sorte em CABO FRIO, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "17",
+        "14",
+        "50",
+        "52",
+        "06",
+        "26"
+      ],
+      "dezenas": [
+        "06",
+        "14",
+        "17",
+        "26",
+        "50",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 23,
+          "valorPremio": 27463.44
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2091,
+          "valorPremio": 300.94
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$4.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 528,
+      "dataProximoConcurso": "10/01/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3972174.66,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 2454925.13,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 528,
+    "draw_date": "2004-01-10",
+    "numbers": [
+      8,
+      12,
+      28,
+      31,
+      34,
+      37
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 528,
+      "data": "10/01/2004",
+      "local": "Caminh\u00e3o da Sorte em CABO FRIO, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "34",
+        "28",
+        "37",
+        "12",
+        "08",
+        "31"
+      ],
+      "dezenas": [
+        "08",
+        "12",
+        "28",
+        "31",
+        "34",
+        "37"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 67,
+          "valorPremio": 12554.6
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4827,
+          "valorPremio": 173.6
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$5.500.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 529,
+      "dataProximoConcurso": "14/01/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5023622.55,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 3926952.17,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 529,
+    "draw_date": "2004-01-14",
+    "numbers": [
+      1,
+      13,
+      33,
+      38,
+      45,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 529,
+      "data": "14/01/2004",
+      "local": "Caminh\u00e3o da Sorte em RIO DAS OSTRAS, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "56",
+        "45",
+        "13",
+        "33",
+        "38",
+        "01"
+      ],
+      "dezenas": [
+        "01",
+        "13",
+        "33",
+        "38",
+        "45",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 15,
+          "valorPremio": 348732.75
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 87,
+          "valorPremio": 8565.12
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4758,
+          "valorPremio": 156.03
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$7.000.000,00 (SETE MILH\u00d5ES DE REAIS).",
+      "acumulou": false,
+      "proximoConcurso": 530,
+      "dataProximoConcurso": "17/01/2004",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "BA"
+        },
+        {
+          "ganhadores": 2,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "CE"
+        },
+        {
+          "ganhadores": 3,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PB"
+        },
+        {
+          "ganhadores": 5,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PE"
+        },
+        {
+          "ganhadores": 2,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PI"
+        },
+        {
+          "ganhadores": 2,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RN"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5955079.04,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 530,
+    "draw_date": "2004-01-17",
+    "numbers": [
+      1,
+      6,
+      21,
+      25,
+      32,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 530,
+      "data": "17/01/2004",
+      "local": "Caminh\u00e3o da Sorte em RIO DAS OSTRAS, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "32",
+        "21",
+        "25",
+        "01",
+        "06",
+        "49"
+      ],
+      "dezenas": [
+        "01",
+        "06",
+        "21",
+        "25",
+        "32",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 49,
+          "valorPremio": 18501.75
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3771,
+          "valorPremio": 239.5
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$9.000.000,00 (NOVE MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 531,
+      "dataProximoConcurso": "21/01/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1133232.16,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 7541604.05,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 531,
+    "draw_date": "2004-01-21",
+    "numbers": [
+      1,
+      3,
+      7,
+      18,
+      35,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 531,
+      "data": "21/01/2004",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "03",
+        "01",
+        "35",
+        "07",
+        "18",
+        "50"
+      ],
+      "dezenas": [
+        "01",
+        "03",
+        "07",
+        "18",
+        "35",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 96,
+          "valorPremio": 9079.1
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5188,
+          "valorPremio": 167.37
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$11.000.000,00 (ONZE MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 532,
+      "dataProximoConcurso": "24/01/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2222724.16,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 9066892.84,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 532,
+    "draw_date": "2004-01-24",
+    "numbers": [
+      4,
+      9,
+      12,
+      13,
+      52,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 532,
+      "data": "24/01/2004",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "13",
+        "04",
+        "12",
+        "53",
+        "09",
+        "52"
+      ],
+      "dezenas": [
+        "04",
+        "09",
+        "12",
+        "13",
+        "52",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 69,
+          "valorPremio": 16628.16
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5314,
+          "valorPremio": 215.09
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$13.000.000,00 (TREZE MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 533,
+      "dataProximoConcurso": "28/01/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3656902.88,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 11074743.03,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 533,
+    "draw_date": "2004-01-28",
+    "numbers": [
+      13,
+      18,
+      21,
+      27,
+      53,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 533,
+      "data": "28/01/2004",
+      "local": "Caminh\u00e3o da Sorte em CALDAS NOVAS, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "27",
+        "18",
+        "13",
+        "59",
+        "21",
+        "53"
+      ],
+      "dezenas": [
+        "13",
+        "18",
+        "21",
+        "27",
+        "53",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 82,
+          "valorPremio": 12747.27
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5129,
+          "valorPremio": 203.03
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$15.000.000,00 (QUINZE MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 534,
+      "dataProximoConcurso": "31/01/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4963497.83,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 12903975.95,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 534,
+    "draw_date": "2004-01-31",
+    "numbers": [
+      3,
+      8,
+      23,
+      31,
+      48,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 534,
+      "data": "31/01/2004",
+      "local": "Caminh\u00e3o da Sorte em CALDAS NOVAS, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "48",
+        "57",
+        "23",
+        "08",
+        "31",
+        "03"
+      ],
+      "dezenas": [
+        "03",
+        "08",
+        "23",
+        "31",
+        "48",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 15184658.12
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 107,
+          "valorPremio": 12179.88
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6559,
+          "valorPremio": 197.95
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$8.000.000,00. (OITO MILH\u00d5ES DE REAIS).",
+      "acumulou": false,
+      "proximoConcurso": 535,
+      "dataProximoConcurso": "04/02/2004",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MT"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6592556.53,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 535,
+    "draw_date": "2004-02-04",
+    "numbers": [
+      6,
+      14,
+      28,
+      47,
+      49,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 535,
+      "data": "04/02/2004",
+      "local": "Caminh\u00e3o da Sorte em VACARIA, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "49",
+        "14",
+        "47",
+        "56",
+        "06",
+        "28"
+      ],
+      "dezenas": [
+        "06",
+        "14",
+        "28",
+        "47",
+        "49",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 7834139.14
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 59,
+          "valorPremio": 12025.02
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4136,
+          "valorPremio": 170.89
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$1.000.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 536,
+      "dataProximoConcurso": "07/02/2004",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "DF"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 886844.75,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 536,
+    "draw_date": "2004-02-07",
+    "numbers": [
+      14,
+      15,
+      22,
+      23,
+      25,
+      37
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 536,
+      "data": "07/02/2004",
+      "local": "Caminh\u00e3o da Sorte em VACARIA, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "14",
+        "22",
+        "25",
+        "15",
+        "37",
+        "23"
+      ],
+      "dezenas": [
+        "14",
+        "15",
+        "22",
+        "23",
+        "25",
+        "37"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 49,
+          "valorPremio": 12551.38
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3217,
+          "valorPremio": 190.46
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$2.000.000,00 (DOIS MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 537,
+      "dataProximoConcurso": "11/02/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1655616.44,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1076280.35,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 537,
+    "draw_date": "2004-02-11",
+    "numbers": [
+      3,
+      7,
+      19,
+      34,
+      37,
+      39
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 537,
+      "data": "11/02/2004",
+      "local": "Caminh\u00e3o da Sorte em IBAITI, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "37",
+        "03",
+        "19",
+        "34",
+        "39",
+        "07"
+      ],
+      "dezenas": [
+        "03",
+        "07",
+        "19",
+        "34",
+        "37",
+        "39"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 2054340.05
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 128,
+          "valorPremio": 4366.34
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5345,
+          "valorPremio": 104.17
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$1.000.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 538,
+      "dataProximoConcurso": "14/02/2004",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RS"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2354230.53,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 538,
+    "draw_date": "2004-02-14",
+    "numbers": [
+      3,
+      25,
+      43,
+      45,
+      52,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 538,
+      "data": "14/02/2004",
+      "local": "Caminh\u00e3o da Sorte em LONDRINA, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "45",
+        "43",
+        "56",
+        "25",
+        "52",
+        "03"
+      ],
+      "dezenas": [
+        "03",
+        "25",
+        "43",
+        "45",
+        "52",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 36,
+          "valorPremio": 16533.54
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2657,
+          "valorPremio": 223.17
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$2.000.000,00 (DOIS MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 539,
+      "dataProximoConcurso": "18/02/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3098239.68,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1041612.8,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 539,
+    "draw_date": "2004-02-18",
+    "numbers": [
+      6,
+      16,
+      19,
+      47,
+      50,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 539,
+      "data": "18/02/2004",
+      "local": "Caminh\u00e3o da Sorte em EMBU, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "16",
+        "50",
+        "55",
+        "06",
+        "47",
+        "19"
+      ],
+      "dezenas": [
+        "06",
+        "16",
+        "19",
+        "47",
+        "50",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 21,
+          "valorPremio": 25214.62
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1908,
+          "valorPremio": 276.47
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$7.000.000,00 (SETE MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 540,
+      "dataProximoConcurso": "21/02/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5728373.54,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 5728373.54,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 540,
+    "draw_date": "2004-02-21",
+    "numbers": [
+      4,
+      22,
+      28,
+      30,
+      44,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 540,
+      "data": "21/02/2004",
+      "local": "Caminh\u00e3o da Sorte em EMBU, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "22",
+        "04",
+        "30",
+        "44",
+        "28",
+        "49"
+      ],
+      "dezenas": [
+        "04",
+        "22",
+        "28",
+        "30",
+        "44",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 84,
+          "valorPremio": 10186.19
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4535,
+          "valorPremio": 187.97
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$9.000.000,00 (NOVE MILH\u00d5ES DE REAIS). A CAIXA informa que o concurso 541 da Mega Sena ocorrer\u00e1 em 28/02/2004 (s\u00e1bado) \u00e0s 20 horas.",
+      "acumulou": true,
+      "proximoConcurso": 541,
+      "dataProximoConcurso": "28/02/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1069549.88,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 7225743.35,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 541,
+    "draw_date": "2004-02-28",
+    "numbers": [
+      13,
+      27,
+      49,
+      52,
+      57,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 541,
+      "data": "28/02/2004",
+      "local": "Caminh\u00e3o da Sorte em BALNE\u00c1RIO CAMBORI\u00da, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "58",
+        "57",
+        "27",
+        "13",
+        "49",
+        "52"
+      ],
+      "dezenas": [
+        "13",
+        "27",
+        "49",
+        "52",
+        "57",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 9144543.5
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 54,
+          "valorPremio": 20304.76
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4879,
+          "valorPremio": 223.88
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$800.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 542,
+      "dataProximoConcurso": "03/03/2004",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2440121.43,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 542,
+    "draw_date": "2004-03-03",
+    "numbers": [
+      4,
+      6,
+      19,
+      28,
+      35,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 542,
+      "data": "03/03/2004",
+      "local": "Caminh\u00e3o da Sorte em UMUARAMA, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "49",
+        "04",
+        "19",
+        "28",
+        "35",
+        "06"
+      ],
+      "dezenas": [
+        "04",
+        "06",
+        "19",
+        "28",
+        "35",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 42,
+          "valorPremio": 9683.43
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2800,
+          "valorPremio": 144.7
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$1.700.000,00 (HUM MILH\u00c3O E SETECENTOS MIL REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 543,
+      "dataProximoConcurso": "06/03/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2948501.23,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 711731.71,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 543,
+    "draw_date": "2004-03-06",
+    "numbers": [
+      35,
+      37,
+      42,
+      46,
+      49,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 543,
+      "data": "06/03/2004",
+      "local": "Caminh\u00e3o da Sorte em UMUARAMA, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "35",
+        "54",
+        "37",
+        "42",
+        "49",
+        "46"
+      ],
+      "dezenas": [
+        "35",
+        "37",
+        "42",
+        "46",
+        "49",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 1836749.58
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 78,
+          "valorPremio": 8241.89
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2557,
+          "valorPremio": 250.47
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$800.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 544,
+      "dataProximoConcurso": "10/03/2004",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3752085.43,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 544,
+    "draw_date": "2004-03-10",
+    "numbers": [
+      11,
+      17,
+      33,
+      34,
+      47,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 544,
+      "data": "10/03/2004",
+      "local": "Caminh\u00e3o da Sorte em PONTA POR\u00c3, MS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "11",
+        "33",
+        "56",
+        "47",
+        "17",
+        "34"
+      ],
+      "dezenas": [
+        "11",
+        "17",
+        "33",
+        "34",
+        "47",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 39,
+          "valorPremio": 10062.1
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2415,
+          "valorPremio": 161.89
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$6.000.000,00 (SEIS MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 545,
+      "dataProximoConcurso": "13/03/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4929350.89,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 4929350.89,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 545,
+    "draw_date": "2004-03-13",
+    "numbers": [
+      17,
+      29,
+      35,
+      40,
+      43,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 545,
+      "data": "13/03/2004",
+      "local": "Caminh\u00e3o da Sorte em PONTA POR\u00c3, MS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "43",
+        "35",
+        "57",
+        "29",
+        "40",
+        "17"
+      ],
+      "dezenas": [
+        "17",
+        "29",
+        "35",
+        "40",
+        "43",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 6409645.53
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 102,
+          "valorPremio": 8292.97
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4315,
+          "valorPremio": 195.29
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$750.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 546,
+      "dataProximoConcurso": "17/03/2004",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "ES"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1057353.33,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 546,
+    "draw_date": "2004-03-17",
+    "numbers": [
+      4,
+      5,
+      13,
+      17,
+      46,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 546,
+      "data": "17/03/2004",
+      "local": "Caminh\u00e3o da Sorte em CAMPO LARGO, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "46",
+        "04",
+        "54",
+        "17",
+        "13",
+        "05"
+      ],
+      "dezenas": [
+        "04",
+        "05",
+        "13",
+        "17",
+        "46",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 32,
+          "valorPremio": 12224.97
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3003,
+          "valorPremio": 129.78
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$1.500.000,00 (HUM MILH\u00c3O E QUINHENTOS MIL REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 547,
+      "dataProximoConcurso": "20/03/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1546352.13,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 684598.29,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 547,
+    "draw_date": "2004-03-20",
+    "numbers": [
+      4,
+      13,
+      28,
+      30,
+      53,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 547,
+      "data": "20/03/2004",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O JOS\u00c9 DOS PINHAIS, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "04",
+        "59",
+        "13",
+        "53",
+        "28",
+        "30"
+      ],
+      "dezenas": [
+        "04",
+        "13",
+        "28",
+        "30",
+        "53",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 1746857.35
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 42,
+          "valorPremio": 14452.51
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2599,
+          "valorPremio": 232.67
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$850.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 548,
+      "dataProximoConcurso": "24/03/2004",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PB"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2305108.61,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 548,
+    "draw_date": "2004-03-24",
+    "numbers": [
+      14,
+      47,
+      49,
+      51,
+      58,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 548,
+      "data": "24/03/2004",
+      "local": "Caminh\u00e3o da Sorte em PORTO ALEGRE, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "51",
+        "49",
+        "14",
+        "47",
+        "59",
+        "58"
+      ],
+      "dezenas": [
+        "14",
+        "47",
+        "49",
+        "51",
+        "58",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 9,
+          "valorPremio": 41634.7
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 965,
+          "valorPremio": 386.83
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$1.700.000,00 (HUM MILH\u00c3O E SETECENTOS MIL REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 549,
+      "dataProximoConcurso": "27/03/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2773498.9,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 655746.39,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 549,
+    "draw_date": "2004-03-27",
+    "numbers": [
+      8,
+      13,
+      22,
+      46,
+      51,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 549,
+      "data": "27/03/2004",
+      "local": "Caminh\u00e3o da Sorte em PORTO ALEGRE, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "13",
+        "51",
+        "58",
+        "22",
+        "46",
+        "08"
+      ],
+      "dezenas": [
+        "08",
+        "13",
+        "22",
+        "46",
+        "51",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 34,
+          "valorPremio": 17519.41
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2772,
+          "valorPremio": 214.07
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$7.000.000,00 (SETE MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 550,
+      "dataProximoConcurso": "31/03/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5216225.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 5216225.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 550,
+    "draw_date": "2004-03-31",
+    "numbers": [
+      16,
+      17,
+      38,
+      39,
+      45,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 550,
+      "data": "31/03/2004",
+      "local": "Caminh\u00e3o da Sorte em TIET\u00ca, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "17",
+        "56",
+        "16",
+        "38",
+        "39",
+        "45"
+      ],
+      "dezenas": [
+        "16",
+        "17",
+        "38",
+        "39",
+        "45",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 39,
+          "valorPremio": 18277.0
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2948,
+          "valorPremio": 240.88
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$8.000.000,00 (OITO MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 551,
+      "dataProximoConcurso": "03/04/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 891003.97,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 6463630.53,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 551,
+    "draw_date": "2004-04-03",
+    "numbers": [
+      12,
+      21,
+      46,
+      48,
+      56,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 551,
+      "data": "03/04/2004",
+      "local": "Caminh\u00e3o da Sorte em CERQUILHO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "56",
+        "48",
+        "57",
+        "21",
+        "12",
+        "46"
+      ],
+      "dezenas": [
+        "12",
+        "21",
+        "46",
+        "48",
+        "56",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 35,
+          "valorPremio": 28192.58
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3027,
+          "valorPremio": 324.75
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$10.000.000,00 (DEZ MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 552,
+      "dataProximoConcurso": "07/04/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2124429.51,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 8190426.28,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 552,
+    "draw_date": "2004-04-07",
+    "numbers": [
+      9,
+      22,
+      47,
+      49,
+      52,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 552,
+      "data": "07/04/2004",
+      "local": "Caminh\u00e3o da Sorte em TORRES, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "22",
+        "54",
+        "52",
+        "47",
+        "49",
+        "09"
+      ],
+      "dezenas": [
+        "09",
+        "22",
+        "47",
+        "49",
+        "52",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 69,
+          "valorPremio": 14110.09
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4299,
+          "valorPremio": 225.61
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$11.500.000,00 (ONZE MILH\u00d5ES E QUINHENTOS MIL REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 553,
+      "dataProximoConcurso": "10/04/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3341425.2,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 9894220.21,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 553,
+    "draw_date": "2004-04-10",
+    "numbers": [
+      4,
+      43,
+      46,
+      53,
+      54,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 553,
+      "data": "10/04/2004",
+      "local": "Caminh\u00e3o da Sorte em TORRES, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "43",
+        "46",
+        "58",
+        "53",
+        "54",
+        "04"
+      ],
+      "dezenas": [
+        "04",
+        "43",
+        "46",
+        "53",
+        "54",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 42,
+          "valorPremio": 23814.78
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3308,
+          "valorPremio": 301.22
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$13.500.000,00 (TREZE MILH\u00d5ES E QUINHENTOS MIL REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 554,
+      "dataProximoConcurso": "14/04/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4591701.31,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 11644606.76,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 554,
+    "draw_date": "2004-04-14",
+    "numbers": [
+      15,
+      29,
+      31,
+      42,
+      47,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 554,
+      "data": "14/04/2004",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O FRANCISCO DO SUL, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "47",
+        "29",
+        "31",
+        "15",
+        "60",
+        "42"
+      ],
+      "dezenas": [
+        "15",
+        "29",
+        "31",
+        "42",
+        "47",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 64,
+          "valorPremio": 20951.21
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4812,
+          "valorPremio": 277.6
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU !!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$23.000.000,00 (VINTE E TR\u00caS MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 555,
+      "dataProximoConcurso": "17/04/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 20258939.21,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 20258939.21,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 555,
+    "draw_date": "2004-04-17",
+    "numbers": [
+      5,
+      23,
+      31,
+      33,
+      45,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 555,
+      "data": "17/04/2004",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O FRANCISCO DO SUL, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "49",
+        "05",
+        "23",
+        "33",
+        "45",
+        "31"
+      ],
+      "dezenas": [
+        "05",
+        "23",
+        "31",
+        "33",
+        "45",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 23810057.19
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 152,
+          "valorPremio": 13350.07
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10733,
+          "valorPremio": 188.35
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$1.300.000,00 (UM MILH\u00c3O E TREZENTOS MIL REAIS).",
+      "acumulou": false,
+      "proximoConcurso": 556,
+      "dataProximoConcurso": "21/04/2004",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2536512.87,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 556,
+    "draw_date": "2004-04-21",
+    "numbers": [
+      8,
+      10,
+      17,
+      30,
+      33,
+      45
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 556,
+      "data": "21/04/2004",
+      "local": "Caminh\u00e3o da Sorte em JEQUI\u00c9, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "08",
+        "45",
+        "30",
+        "33",
+        "17",
+        "10"
+      ],
+      "dezenas": [
+        "08",
+        "10",
+        "17",
+        "30",
+        "33",
+        "45"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 20,
+          "valorPremio": 14872.57
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1699,
+          "valorPremio": 174.41
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$1.400.000,00. (UM MILH\u00c3O E QUATROCENTOS MIL REAIS)",
+      "acumulou": true,
+      "proximoConcurso": 557,
+      "dataProximoConcurso": "24/04/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2908327.08,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 520539.87,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 557,
+    "draw_date": "2004-04-24",
+    "numbers": [
+      8,
+      12,
+      18,
+      23,
+      38,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 557,
+      "data": "24/04/2004",
+      "local": "Caminh\u00e3o da Sorte em JEQUI\u00c9, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "18",
+        "49",
+        "38",
+        "23",
+        "08",
+        "12"
+      ],
+      "dezenas": [
+        "08",
+        "12",
+        "18",
+        "23",
+        "38",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 59,
+          "valorPremio": 11001.41
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3777,
+          "valorPremio": 171.2
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$2.500.000,00 (DOIS MILH\u00d5ES E QUINHENTOS MIL REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 558,
+      "dataProximoConcurso": "28/04/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3719680.76,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1656435.01,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 558,
+    "draw_date": "2004-04-28",
+    "numbers": [
+      7,
+      14,
+      31,
+      57,
+      58,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 558,
+      "data": "28/04/2004",
+      "local": "Caminh\u00e3o da Sorte em CARATINGA, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "59",
+        "57",
+        "07",
+        "58",
+        "31",
+        "14"
+      ],
+      "dezenas": [
+        "07",
+        "14",
+        "31",
+        "57",
+        "58",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 21,
+          "valorPremio": 26571.46
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2000,
+          "valorPremio": 277.94
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$3.700.000,00 (TR\u00caS MILH\u00d5ES E SETECENTOS MIL REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 559,
+      "dataProximoConcurso": "01/05/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4417181.53,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 2632936.06,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 559,
+    "draw_date": "2004-05-01",
+    "numbers": [
+      6,
+      13,
+      17,
+      25,
+      36,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 559,
+      "data": "01/05/2004",
+      "local": "Caminh\u00e3o da Sorte em IPATINGA, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "53",
+        "25",
+        "36",
+        "13",
+        "17",
+        "06"
+      ],
+      "dezenas": [
+        "06",
+        "13",
+        "17",
+        "25",
+        "36",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 3707152.54
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 75,
+          "valorPremio": 8184.51
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4460,
+          "valorPremio": 137.11
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$6.500.000,00 (SEIS MILH\u00d5ES E QUINHENTOS MIL REAIS).",
+      "acumulou": false,
+      "proximoConcurso": 560,
+      "dataProximoConcurso": "05/05/2004",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "ES"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5184479.02,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 560,
+    "draw_date": "2004-05-05",
+    "numbers": [
+      2,
+      11,
+      18,
+      30,
+      32,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 560,
+      "data": "05/05/2004",
+      "local": "Caminh\u00e3o da Sorte em SANTA ROSA, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "32",
+        "18",
+        "11",
+        "30",
+        "02",
+        "58"
+      ],
+      "dezenas": [
+        "02",
+        "11",
+        "18",
+        "30",
+        "32",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 44,
+          "valorPremio": 16215.47
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2585,
+          "valorPremio": 274.97
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$8.000.000,00 (OITO MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 561,
+      "dataProximoConcurso": "08/05/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 891850.6,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 6433069.85,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 561,
+    "draw_date": "2004-05-08",
+    "numbers": [
+      1,
+      20,
+      36,
+      39,
+      49,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 561,
+      "data": "08/05/2004",
+      "local": "Caminh\u00e3o da Sorte em SANTA ROSA, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "39",
+        "49",
+        "36",
+        "20",
+        "55",
+        "01"
+      ],
+      "dezenas": [
+        "01",
+        "20",
+        "36",
+        "39",
+        "49",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 32,
+          "valorPremio": 31342.98
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2743,
+          "valorPremio": 364.27
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$10.000.000,00 (DEZ MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 562,
+      "dataProximoConcurso": "12/05/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2145569.77,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 8188276.67,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 562,
+    "draw_date": "2004-05-12",
+    "numbers": [
+      16,
+      23,
+      35,
+      37,
+      55,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 562,
+      "data": "12/05/2004",
+      "local": "Caminh\u00e3o da Sorte em ITAPECERICA DA SERRA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "37",
+        "35",
+        "23",
+        "16",
+        "57",
+        "55"
+      ],
+      "dezenas": [
+        "16",
+        "23",
+        "35",
+        "37",
+        "55",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 117,
+          "valorPremio": 8271.95
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5150,
+          "valorPremio": 187.22
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$13.000.000,00 (TREZE MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 563,
+      "dataProximoConcurso": "15/05/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3355343.23,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 9881959.48,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 563,
+    "draw_date": "2004-05-15",
+    "numbers": [
+      5,
+      8,
+      23,
+      34,
+      44,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 563,
+      "data": "15/05/2004",
+      "local": "Caminh\u00e3o da Sorte em ITAPECERICA DA SERRA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "34",
+        "08",
+        "23",
+        "44",
+        "51",
+        "05"
+      ],
+      "dezenas": [
+        "05",
+        "08",
+        "23",
+        "34",
+        "44",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 90,
+          "valorPremio": 13541.69
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6007,
+          "valorPremio": 202.12
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$14.000.000,00 (QUATORZE MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 564,
+      "dataProximoConcurso": "19/05/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4878782.54,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 12014774.5,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 564,
+    "draw_date": "2004-05-19",
+    "numbers": [
+      10,
+      13,
+      20,
+      32,
+      38,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 564,
+      "data": "19/05/2004",
+      "local": "Caminh\u00e3o da Sorte em FERNAND\u00d3POLIS, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "38",
+        "13",
+        "32",
+        "20",
+        "10",
+        "49"
+      ],
+      "dezenas": [
+        "10",
+        "13",
+        "20",
+        "32",
+        "38",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 46,
+          "valorPremio": 25392.82
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4446,
+          "valorPremio": 261.73
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$23.000.000,00 (VINTE E TR\u00caS MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 565,
+      "dataProximoConcurso": "22/05/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 20397765.64,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 20397765.64,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 565,
+    "draw_date": "2004-05-22",
+    "numbers": [
+      7,
+      31,
+      34,
+      35,
+      37,
+      45
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 565,
+      "data": "22/05/2004",
+      "local": "Caminh\u00e3o da Sorte em FERNAND\u00d3POLIS, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "31",
+        "37",
+        "35",
+        "07",
+        "45",
+        "34"
+      ],
+      "dezenas": [
+        "07",
+        "31",
+        "34",
+        "35",
+        "37",
+        "45"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 57,
+          "valorPremio": 29241.27
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6804,
+          "valorPremio": 244.04
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$27.000.000,00 (VINTE E SETE MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 566,
+      "dataProximoConcurso": "26/05/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2083440.73,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 23314582.63,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 566,
+    "draw_date": "2004-05-26",
+    "numbers": [
+      6,
+      13,
+      17,
+      18,
+      20,
+      37
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 566,
+      "data": "26/05/2004",
+      "local": "Caminh\u00e3o da Sorte em DOURADOS, MS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "17",
+        "06",
+        "20",
+        "18",
+        "13",
+        "37"
+      ],
+      "dezenas": [
+        "06",
+        "13",
+        "17",
+        "18",
+        "20",
+        "37"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 176,
+          "valorPremio": 11334.45
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 13032,
+          "valorPremio": 152.49
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$32.000.000,00 (TRINTA E DOIS MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 567,
+      "dataProximoConcurso": "29/05/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4577019.05,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 26805592.27,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 567,
+    "draw_date": "2004-05-29",
+    "numbers": [
+      11,
+      31,
+      38,
+      41,
+      57,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 567,
+      "data": "29/05/2004",
+      "local": "Caminh\u00e3o da Sorte em DOURADOS, MS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "57",
+        "58",
+        "11",
+        "38",
+        "41",
+        "31"
+      ],
+      "dezenas": [
+        "11",
+        "31",
+        "38",
+        "41",
+        "57",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 69,
+          "valorPremio": 37888.61
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5787,
+          "valorPremio": 450.05
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimatva de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$36.000.000,00 (TRINTA E SEIS MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 568,
+      "dataProximoConcurso": "02/06/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7844911.77,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 31380642.06,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 568,
+    "draw_date": "2004-06-02",
+    "numbers": [
+      13,
+      17,
+      22,
+      25,
+      29,
+      41
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 568,
+      "data": "02/06/2004",
+      "local": "Caminh\u00e3o da Sorte em SALES OLIVEIRA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "25",
+        "41",
+        "17",
+        "29",
+        "13",
+        "22"
+      ],
+      "dezenas": [
+        "13",
+        "17",
+        "22",
+        "25",
+        "29",
+        "41"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 457,
+          "valorPremio": 7802.44
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 24931,
+          "valorPremio": 142.48
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$45.000.000,00 (QUARENTA E CINCO MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 569,
+      "dataProximoConcurso": "05/06/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 12302054.84,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 37620642.34,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 569,
+    "draw_date": "2004-06-05",
+    "numbers": [
+      3,
+      9,
+      14,
+      15,
+      32,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 569,
+      "data": "05/06/2004",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O JOAQUIM DA BARRA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "32",
+        "15",
+        "14",
+        "09",
+        "03",
+        "57"
+      ],
+      "dezenas": [
+        "03",
+        "09",
+        "14",
+        "15",
+        "32",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 46663532.7
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 434,
+          "valorPremio": 11906.37
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 29922,
+          "valorPremio": 172.04
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$21.000.000,00 (VINTE E UM MILH\u00d5ES DE REAIS).",
+      "acumulou": false,
+      "proximoConcurso": 570,
+      "dataProximoConcurso": "09/06/2004",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 18761262.26,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 570,
+    "draw_date": "2004-06-09",
+    "numbers": [
+      15,
+      32,
+      33,
+      35,
+      36,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 570,
+      "data": "09/06/2004",
+      "local": "Caminh\u00e3o da Sorte em CASTELO, ES",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "35",
+        "32",
+        "36",
+        "33",
+        "51",
+        "15"
+      ],
+      "dezenas": [
+        "15",
+        "32",
+        "33",
+        "35",
+        "36",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 84,
+          "valorPremio": 18168.1
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7539,
+          "valorPremio": 201.67
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$25.000.000,00 (VINTE E CINCO MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 571,
+      "dataProximoConcurso": "12/06/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1907650.1,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 21431972.38,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 571,
+    "draw_date": "2004-06-12",
+    "numbers": [
+      12,
+      13,
+      14,
+      31,
+      50,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 571,
+      "data": "12/06/2004",
+      "local": "Caminh\u00e3o da Sorte em ALEGRE, ES",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "14",
+        "31",
+        "12",
+        "13",
+        "51",
+        "50"
+      ],
+      "dezenas": [
+        "12",
+        "13",
+        "14",
+        "31",
+        "50",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 69,
+          "valorPremio": 22294.35
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5572,
+          "valorPremio": 275.04
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Acumulou!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso:R$27.000.000,00 (VINTE E SETE MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 572,
+      "dataProximoConcurso": "16/06/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3830537.69,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 24124014.99,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 572,
+    "draw_date": "2004-06-16",
+    "numbers": [
+      3,
+      9,
+      16,
+      20,
+      33,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 572,
+      "data": "16/06/2004",
+      "local": "Caminh\u00e3o da Sorte em ASSU, RN",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "33",
+        "03",
+        "20",
+        "60",
+        "09",
+        "16"
+      ],
+      "dezenas": [
+        "03",
+        "09",
+        "16",
+        "20",
+        "33",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 162,
+          "valorPremio": 10668.49
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9940,
+          "valorPremio": 173.21
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Acumulou!!! Estimativa de pr\u00eamio (SENA) para o pr\u00f3ximo concurso: R$31.000.000,00 (TRINTA E UM MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 573,
+      "dataProximoConcurso": "19/06/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5990907.83,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 27148533.16,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 573,
+    "draw_date": "2004-06-19",
+    "numbers": [
+      6,
+      17,
+      22,
+      29,
+      40,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 573,
+      "data": "19/06/2004",
+      "local": "Caminh\u00e3o da Sorte em RECIFE, PE",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "59",
+        "29",
+        "17",
+        "06",
+        "40",
+        "22"
+      ],
+      "dezenas": [
+        "06",
+        "17",
+        "22",
+        "29",
+        "40",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 82,
+          "valorPremio": 25012.22
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8272,
+          "valorPremio": 247.0
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$34.000.000,00 (TRINTA E QUATRO MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 574,
+      "dataProximoConcurso": "23/06/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 8554660.15,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 30737786.41,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 574,
+    "draw_date": "2004-06-23",
+    "numbers": [
+      2,
+      10,
+      17,
+      23,
+      32,
+      44
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 574,
+      "data": "23/06/2004",
+      "local": "Caminh\u00e3o da Sorte em CAMPINA GRANDE, PB",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "32",
+        "23",
+        "02",
+        "10",
+        "44",
+        "17"
+      ],
+      "dezenas": [
+        "02",
+        "10",
+        "17",
+        "23",
+        "32",
+        "44"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 162,
+          "valorPremio": 12609.31
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 12691,
+          "valorPremio": 160.35
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$50.000.000,00 (CINQ\u00dcENTA MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 575,
+      "dataProximoConcurso": "26/06/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 45420567.88,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 45420567.88,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 575,
+    "draw_date": "2004-06-26",
+    "numbers": [
+      5,
+      18,
+      21,
+      29,
+      35,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 575,
+      "data": "26/06/2004",
+      "local": "Caminh\u00e3o da Sorte em JO\u00c3O PESSOA, PB",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "18",
+        "29",
+        "21",
+        "48",
+        "35",
+        "05"
+      ],
+      "dezenas": [
+        "05",
+        "18",
+        "21",
+        "29",
+        "35",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 25737016.52
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 470,
+          "valorPremio": 7359.84
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 21660,
+          "valorPremio": 159.1
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$800.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 576,
+      "dataProximoConcurso": "30/06/2004",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "DF"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4323903.71,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 576,
+    "draw_date": "2004-06-30",
+    "numbers": [
+      7,
+      8,
+      18,
+      39,
+      43,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 576,
+      "data": "30/06/2004",
+      "local": "Caminh\u00e3o da Sorte em CACHOEIRO de ITAPEMIRIM, ES",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "18",
+        "43",
+        "52",
+        "39",
+        "07",
+        "08"
+      ],
+      "dezenas": [
+        "07",
+        "08",
+        "18",
+        "39",
+        "43",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 27,
+          "valorPremio": 22856.21
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1978,
+          "valorPremio": 310.81
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$2.000.000,00 (DOIS MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 577,
+      "dataProximoConcurso": "03/07/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5095300.7,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1079955.77,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 577,
+    "draw_date": "2004-07-03",
+    "numbers": [
+      8,
+      23,
+      24,
+      28,
+      31,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 577,
+      "data": "03/07/2004",
+      "local": "Caminh\u00e3o da Sorte em CACHOEIRO de ITAPEMIRIM, ES",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "31",
+        "47",
+        "28",
+        "23",
+        "08",
+        "24"
+      ],
+      "dezenas": [
+        "08",
+        "23",
+        "24",
+        "28",
+        "31",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 57,
+          "valorPremio": 15092.9
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4579,
+          "valorPremio": 187.17
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$4.000.000,00 (QUATRO MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 578,
+      "dataProximoConcurso": "07/07/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6170669.8,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 2585472.5,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 578,
+    "draw_date": "2004-07-07",
+    "numbers": [
+      3,
+      18,
+      23,
+      48,
+      56,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 578,
+      "data": "07/07/2004",
+      "local": "Caminh\u00e3o da Sorte em CAMBAR\u00c1, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "48",
+        "03",
+        "58",
+        "18",
+        "56",
+        "23"
+      ],
+      "dezenas": [
+        "03",
+        "18",
+        "23",
+        "48",
+        "56",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 3982872.62
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 62,
+          "valorPremio": 12879.26
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3639,
+          "valorPremio": 218.6
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$1.000.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 579,
+      "dataProximoConcurso": "10/07/2004",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7168812.76,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 579,
+    "draw_date": "2004-07-10",
+    "numbers": [
+      4,
+      9,
+      15,
+      17,
+      34,
+      39
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 579,
+      "data": "10/07/2004",
+      "local": "Caminh\u00e3o da Sorte em BRAS\u00cdLIA, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "15",
+        "34",
+        "39",
+        "17",
+        "04",
+        "09"
+      ],
+      "dezenas": [
+        "04",
+        "09",
+        "15",
+        "17",
+        "34",
+        "39"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 1175432.13
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 90,
+          "valorPremio": 7463.06
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5172,
+          "valorPremio": 129.38
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$10.000.000,00 (DEZ MILH\u00d5ES DE REAIS).",
+      "acumulou": false,
+      "proximoConcurso": 580,
+      "dataProximoConcurso": "14/07/2004",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PB"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 8008407.15,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 580,
+    "draw_date": "2004-07-14",
+    "numbers": [
+      15,
+      16,
+      18,
+      28,
+      38,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 580,
+      "data": "14/07/2004",
+      "local": "Caminh\u00e3o da Sorte em MAIRIPOR\u00c3, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "38",
+        "16",
+        "18",
+        "28",
+        "15",
+        "47"
+      ],
+      "dezenas": [
+        "15",
+        "16",
+        "18",
+        "28",
+        "38",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 56,
+          "valorPremio": 16168.75
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4097,
+          "valorPremio": 220.17
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$12.000.000,00 (DOZE MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 581,
+      "dataProximoConcurso": "17/07/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1131812.63,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 9592944.81,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 581,
+    "draw_date": "2004-07-17",
+    "numbers": [
+      14,
+      17,
+      25,
+      30,
+      39,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 581,
+      "data": "17/07/2004",
+      "local": "Caminh\u00e3o da Sorte em SERRA NEGRA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "30",
+        "25",
+        "52",
+        "14",
+        "39",
+        "17"
+      ],
+      "dezenas": [
+        "14",
+        "17",
+        "25",
+        "30",
+        "39",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 11781320.02
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 56,
+          "valorPremio": 22330.36
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4429,
+          "valorPremio": 281.27
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$900.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 582,
+      "dataProximoConcurso": "21/07/2004",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2694937.78,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 582,
+    "draw_date": "2004-07-21",
+    "numbers": [
+      13,
+      29,
+      40,
+      45,
+      51,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 582,
+      "data": "21/07/2004",
+      "local": "Caminh\u00e3o da Sorte em IPAMERI, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "13",
+        "40",
+        "29",
+        "59",
+        "45",
+        "51"
+      ],
+      "dezenas": [
+        "13",
+        "29",
+        "40",
+        "45",
+        "51",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 29,
+          "valorPremio": 17143.4
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1943,
+          "valorPremio": 254.91
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$2.000.000,00 (DOIS MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 583,
+      "dataProximoConcurso": "24/07/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3316385.92,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 870027.37,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 583,
+    "draw_date": "2004-07-24",
+    "numbers": [
+      6,
+      7,
+      20,
+      41,
+      43,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 583,
+      "data": "24/07/2004",
+      "local": "Caminh\u00e3o da Sorte em IPAMERI, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "55",
+        "06",
+        "41",
+        "20",
+        "43",
+        "07"
+      ],
+      "dezenas": [
+        "06",
+        "07",
+        "20",
+        "41",
+        "43",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 36,
+          "valorPremio": 20218.13
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2157,
+          "valorPremio": 336.16
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$3.500.000,00 (TR\u00caS MILH\u00d5ES E QUINHENTOS MIL REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 584,
+      "dataProximoConcurso": "28/07/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4226201.81,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 2143769.6,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 584,
+    "draw_date": "2004-07-28",
+    "numbers": [
+      7,
+      8,
+      23,
+      30,
+      32,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 584,
+      "data": "28/07/2004",
+      "local": "Caminh\u00e3o da Sorte em FORMOSA, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "30",
+        "53",
+        "23",
+        "07",
+        "32",
+        "08"
+      ],
+      "dezenas": [
+        "07",
+        "08",
+        "23",
+        "30",
+        "32",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 49,
+          "valorPremio": 13327.92
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3278,
+          "valorPremio": 198.48
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Acumulou!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$10.000.000,00. (DEZ MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 585,
+      "dataProximoConcurso": "31/07/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 8329175.8,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 8329175.8,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 585,
+    "draw_date": "2004-07-31",
+    "numbers": [
+      12,
+      24,
+      33,
+      36,
+      39,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 585,
+      "data": "31/07/2004",
+      "local": "Caminh\u00e3o da Sorte em FORMOSA, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "24",
+        "39",
+        "12",
+        "33",
+        "57",
+        "36"
+      ],
+      "dezenas": [
+        "12",
+        "24",
+        "33",
+        "36",
+        "39",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 10166807.68
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 124,
+          "valorPremio": 8468.35
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7122,
+          "valorPremio": 146.89
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$800.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 586,
+      "dataProximoConcurso": "04/08/2004",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1312594.21,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 586,
+    "draw_date": "2004-08-04",
+    "numbers": [
+      11,
+      13,
+      38,
+      39,
+      45,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 586,
+      "data": "04/08/2004",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O LOUREN\u00c7O, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "45",
+        "38",
+        "13",
+        "11",
+        "54",
+        "39"
+      ],
+      "dezenas": [
+        "11",
+        "13",
+        "38",
+        "39",
+        "45",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 30,
+          "valorPremio": 15687.92
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2162,
+          "valorPremio": 216.87
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Acumulou!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$1.800.000,00 (HUM MILH\u00c3O E OITOCENTOS MIL REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 587,
+      "dataProximoConcurso": "07/08/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1900891.33,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 823615.95,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 587,
+    "draw_date": "2004-08-07",
+    "numbers": [
+      2,
+      18,
+      29,
+      30,
+      36,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 587,
+      "data": "07/08/2004",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O LOUREN\u00c7O, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "30",
+        "02",
+        "36",
+        "18",
+        "60",
+        "29"
+      ],
+      "dezenas": [
+        "02",
+        "18",
+        "29",
+        "30",
+        "36",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 36,
+          "valorPremio": 20518.92
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2436,
+          "valorPremio": 302.09
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Acumulou!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$3.000.000,00 (TR\u00caS MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 588,
+      "dataProximoConcurso": "11/08/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2824242.89,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 2116308.12,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 588,
+    "draw_date": "2004-08-11",
+    "numbers": [
+      11,
+      13,
+      45,
+      46,
+      53,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 588,
+      "data": "11/08/2004",
+      "local": "Caminh\u00e3o da Sorte em URUSSANGA, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "45",
+        "13",
+        "46",
+        "55",
+        "53",
+        "11"
+      ],
+      "dezenas": [
+        "11",
+        "13",
+        "45",
+        "46",
+        "53",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 22,
+          "valorPremio": 29565.71
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2088,
+          "valorPremio": 310.34
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$4.500.000,00 (QUATRO MILH\u00d5ES E QUINHENTOS MIL REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 589,
+      "dataProximoConcurso": "14/08/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3637299.89,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 3254587.92,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 589,
+    "draw_date": "2004-08-14",
+    "numbers": [
+      6,
+      7,
+      8,
+      13,
+      33,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 589,
+      "data": "14/08/2004",
+      "local": "Caminh\u00e3o da Sorte em URUSSANGA, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "13",
+        "07",
+        "33",
+        "59",
+        "06",
+        "08"
+      ],
+      "dezenas": [
+        "06",
+        "07",
+        "08",
+        "13",
+        "33",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 152,
+          "valorPremio": 5926.91
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9005,
+          "valorPremio": 99.66
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$12.000.000,00 (DOZE MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 590,
+      "dataProximoConcurso": "18/08/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 9594559.27,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 9594559.27,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 590,
+    "draw_date": "2004-08-18",
+    "numbers": [
+      4,
+      5,
+      18,
+      25,
+      28,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 590,
+      "data": "18/08/2004",
+      "local": "Caminh\u00e3o da Sorte em FRANCA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "25",
+        "51",
+        "05",
+        "18",
+        "04",
+        "28"
+      ],
+      "dezenas": [
+        "04",
+        "05",
+        "18",
+        "25",
+        "28",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 70,
+          "valorPremio": 14105.62
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5155,
+          "valorPremio": 190.82
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$14.000.000,00 (QUATORZE MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 591,
+      "dataProximoConcurso": "21/08/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1234241.67,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 11322497.59,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 591,
+    "draw_date": "2004-08-21",
+    "numbers": [
+      1,
+      3,
+      18,
+      34,
+      50,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 591,
+      "data": "21/08/2004",
+      "local": "Caminh\u00e3o da Sorte em FRANCA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "58",
+        "03",
+        "18",
+        "50",
+        "34",
+        "01"
+      ],
+      "dezenas": [
+        "01",
+        "03",
+        "18",
+        "34",
+        "50",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 64,
+          "valorPremio": 18968.95
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4448,
+          "valorPremio": 271.9
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$16.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 592,
+      "dataProximoConcurso": "25/08/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2751757.75,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 13447020.1,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 592,
+    "draw_date": "2004-08-25",
+    "numbers": [
+      13,
+      14,
+      42,
+      47,
+      55,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 592,
+      "data": "25/08/2004",
+      "local": "Caminh\u00e3o da Sorte em RIO GRANDE, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "55",
+        "14",
+        "59",
+        "47",
+        "13",
+        "42"
+      ],
+      "dezenas": [
+        "13",
+        "14",
+        "42",
+        "47",
+        "55",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 60,
+          "valorPremio": 18664.59
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5062,
+          "valorPremio": 220.39
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Acumulou!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$18.000.000,00 (DEZOITO MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 593,
+      "dataProximoConcurso": "28/08/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4151601.76,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 15406801.69,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 593,
+    "draw_date": "2004-08-28",
+    "numbers": [
+      1,
+      25,
+      27,
+      29,
+      49,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 593,
+      "data": "28/08/2004",
+      "local": "Caminh\u00e3o da Sorte em RIO GRANDE, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "27",
+        "29",
+        "01",
+        "59",
+        "25",
+        "49"
+      ],
+      "dezenas": [
+        "01",
+        "25",
+        "27",
+        "29",
+        "49",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 68,
+          "valorPremio": 20265.54
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5291,
+          "valorPremio": 259.47
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Acumulou!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$20.000.000,00 (VINTE MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 594,
+      "dataProximoConcurso": "01/09/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5874173.08,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 17818401.51,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 594,
+    "draw_date": "2004-09-01",
+    "numbers": [
+      10,
+      13,
+      29,
+      47,
+      53,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 594,
+      "data": "01/09/2004",
+      "local": "Caminh\u00e3o da Sorte em IMPERATRIZ, MA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "10",
+        "53",
+        "55",
+        "29",
+        "13",
+        "47"
+      ],
+      "dezenas": [
+        "10",
+        "13",
+        "29",
+        "47",
+        "53",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 121,
+          "valorPremio": 11747.7
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6444,
+          "valorPremio": 219.76
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Acumulou!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$31.000.000,00 (TRINTA E UM MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 595,
+      "dataProximoConcurso": "04/09/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 27956987.94,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 27956987.94,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 595,
+    "draw_date": "2004-09-04",
+    "numbers": [
+      1,
+      2,
+      25,
+      43,
+      50,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 595,
+      "data": "04/09/2004",
+      "local": "Caminh\u00e3o da Sorte em IMPERATRIZ, MA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "54",
+        "02",
+        "43",
+        "01",
+        "50",
+        "25"
+      ],
+      "dezenas": [
+        "01",
+        "02",
+        "25",
+        "43",
+        "50",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 89,
+          "valorPremio": 22736.36
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7230,
+          "valorPremio": 278.82
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Acumulou!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$35.000.000,00 (TRINTA E CINCO MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 596,
+      "dataProximoConcurso": "08/09/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2529420.39,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 31498176.46,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 596,
+    "draw_date": "2004-09-08",
+    "numbers": [
+      11,
+      14,
+      28,
+      43,
+      54,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 596,
+      "data": "08/09/2004",
+      "local": "Caminh\u00e3o da Sorte em ITAJUB\u00c1, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "43",
+        "60",
+        "28",
+        "11",
+        "54",
+        "14"
+      ],
+      "dezenas": [
+        "11",
+        "14",
+        "28",
+        "43",
+        "54",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 116,
+          "valorPremio": 15749.68
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6578,
+          "valorPremio": 276.69
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Acumulou!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$39.000.000,00 (TRINTA E NOVE MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 597,
+      "dataProximoConcurso": "11/09/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4813123.54,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 34695360.86,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 597,
+    "draw_date": "2004-09-11",
+    "numbers": [
+      22,
+      27,
+      29,
+      40,
+      42,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 597,
+      "data": "11/09/2004",
+      "local": "Caminh\u00e3o da Sorte em ITAJUB\u00c1, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "42",
+        "40",
+        "27",
+        "22",
+        "56",
+        "29"
+      ],
+      "dezenas": [
+        "22",
+        "27",
+        "29",
+        "40",
+        "42",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 140,
+          "valorPremio": 21650.75
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10021,
+          "valorPremio": 301.33
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso: R$45.000.000,00 (Quarenta e cinco milh\u00f5es de reais).",
+      "acumulou": true,
+      "proximoConcurso": 598,
+      "dataProximoConcurso": "15/09/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 8602003.29,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 39999792.49,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 598,
+    "draw_date": "2004-09-15",
+    "numbers": [
+      5,
+      16,
+      34,
+      38,
+      50,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 598,
+      "data": "15/09/2004",
+      "local": "Caminh\u00e3o da Sorte em PORTO ALEGRE, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "05",
+        "16",
+        "53",
+        "38",
+        "50",
+        "34"
+      ],
+      "dezenas": [
+        "05",
+        "16",
+        "34",
+        "38",
+        "50",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 23179951.19
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 234,
+          "valorPremio": 15531.4
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 19229,
+          "valorPremio": 188.29
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$1.000.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 599,
+      "dataProximoConcurso": "18/09/2004",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "DF"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RS"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 13144938.94,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 599,
+    "draw_date": "2004-09-18",
+    "numbers": [
+      4,
+      6,
+      9,
+      23,
+      45,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 599,
+      "data": "18/09/2004",
+      "local": "Caminh\u00e3o da Sorte em PORTO ALEGRE, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "06",
+        "45",
+        "51",
+        "09",
+        "23",
+        "04"
+      ],
+      "dezenas": [
+        "04",
+        "06",
+        "09",
+        "23",
+        "45",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 65,
+          "valorPremio": 10375.8
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4755,
+          "valorPremio": 141.31
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Acumulou!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$17.000.000,00 (DEZESSETE MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 600,
+      "dataProximoConcurso": "22/09/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 15168219.08,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 15168219.08,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 600,
+    "draw_date": "2004-09-22",
+    "numbers": [
+      16,
+      18,
+      31,
+      34,
+      39,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 600,
+      "data": "22/09/2004",
+      "local": "Caminh\u00e3o da Sorte em C\u00c1CERES, MT",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "18",
+        "39",
+        "54",
+        "34",
+        "31",
+        "16"
+      ],
+      "dezenas": [
+        "16",
+        "18",
+        "31",
+        "34",
+        "39",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 73,
+          "valorPremio": 16062.92
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4640,
+          "valorPremio": 251.75
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$20.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 601,
+      "dataProximoConcurso": "25/09/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1465741.04,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 17220256.51,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 601,
+    "draw_date": "2004-09-25",
+    "numbers": [
+      10,
+      19,
+      22,
+      29,
+      30,
+      37
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 601,
+      "data": "25/09/2004",
+      "local": "Caminh\u00e3o da Sorte em C\u00c1CERES, MT",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "37",
+        "19",
+        "29",
+        "30",
+        "10",
+        "22"
+      ],
+      "dezenas": [
+        "10",
+        "19",
+        "22",
+        "29",
+        "30",
+        "37"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 75,
+          "valorPremio": 18837.59
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6002,
+          "valorPremio": 234.5
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso: R$22.000.000,00 (vinte e dois milh\u00f5es de reais).",
+      "acumulou": true,
+      "proximoConcurso": 602,
+      "dataProximoConcurso": "29/09/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3231764.91,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 19692689.9,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 602,
+    "draw_date": "2004-09-29",
+    "numbers": [
+      7,
+      13,
+      38,
+      46,
+      55,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 602,
+      "data": "29/09/2004",
+      "local": "Caminh\u00e3o da Sorte em CRUZ ALTA, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "38",
+        "60",
+        "13",
+        "07",
+        "55",
+        "46"
+      ],
+      "dezenas": [
+        "07",
+        "13",
+        "38",
+        "46",
+        "55",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 95,
+          "valorPremio": 13988.93
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6773,
+          "valorPremio": 195.47
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Acumulou!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$24.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 603,
+      "dataProximoConcurso": "02/10/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4892950.38,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 22018349.56,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 603,
+    "draw_date": "2004-10-02",
+    "numbers": [
+      4,
+      8,
+      11,
+      12,
+      29,
+      44
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 603,
+      "data": "02/10/2004",
+      "local": "Caminh\u00e3o da Sorte em Cruz Alta, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "04",
+        "08",
+        "11",
+        "29",
+        "12",
+        "44"
+      ],
+      "dezenas": [
+        "04",
+        "08",
+        "11",
+        "12",
+        "29",
+        "44"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 24750883.61
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 233,
+          "valorPremio": 6701.5
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 12565,
+          "valorPremio": 123.8
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso: R$1.000.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 604,
+      "dataProximoConcurso": "06/10/2004",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6844760.42,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 604,
+    "draw_date": "2004-10-06",
+    "numbers": [
+      15,
+      25,
+      41,
+      46,
+      49,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 604,
+      "data": "06/10/2004",
+      "local": "Caminh\u00e3o da Sorte em S\u00e3o Luis, MA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "41",
+        "49",
+        "51",
+        "25",
+        "15",
+        "46"
+      ],
+      "dezenas": [
+        "15",
+        "25",
+        "41",
+        "46",
+        "49",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 15,
+          "valorPremio": 35679.23
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1422,
+          "valorPremio": 374.94
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Acumulou!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$10.000.000,00 (DEZ MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 605,
+      "dataProximoConcurso": "09/10/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 8450325.62,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 8450325.62,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 605,
+    "draw_date": "2004-10-09",
+    "numbers": [
+      4,
+      24,
+      44,
+      49,
+      52,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 605,
+      "data": "09/10/2004",
+      "local": "Caminh\u00e3o da Sorte em S\u00e3o Luis, MA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "44",
+        "52",
+        "53",
+        "04",
+        "49",
+        "24"
+      ],
+      "dezenas": [
+        "04",
+        "24",
+        "44",
+        "49",
+        "52",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 45,
+          "valorPremio": 23716.98
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3980,
+          "valorPremio": 267.15
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso: R$12.000.000,00 (DOZE MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 606,
+      "dataProximoConcurso": "13/10/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1334080.21,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 10318037.87,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 606,
+    "draw_date": "2004-10-13",
+    "numbers": [
+      6,
+      23,
+      32,
+      35,
+      41,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 606,
+      "data": "13/10/2004",
+      "local": "Caminh\u00e3o da Sorte em Blumenau, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "41",
+        "06",
+        "23",
+        "55",
+        "32",
+        "35"
+      ],
+      "dezenas": [
+        "06",
+        "23",
+        "32",
+        "35",
+        "41",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 11878491.65
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 43,
+          "valorPremio": 20736.93
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3770,
+          "valorPremio": 235.63
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso: R$1.000.000,00 (HUM MILH\u00c3O DE REAIS).",
+      "acumulou": false,
+      "proximoConcurso": 607,
+      "dataProximoConcurso": "16/10/2004",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2448690.06,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 607,
+    "draw_date": "2004-10-16",
+    "numbers": [
+      6,
+      11,
+      19,
+      27,
+      41,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 607,
+      "data": "16/10/2004",
+      "local": "Caminh\u00e3o da Sorte em Blumenau, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "06",
+        "59",
+        "11",
+        "27",
+        "19",
+        "41"
+      ],
+      "dezenas": [
+        "06",
+        "11",
+        "19",
+        "27",
+        "41",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 48,
+          "valorPremio": 13506.67
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3059,
+          "valorPremio": 211.14
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) para o pr\u00f3ximo concurso: R$2.000.000,00 (DOIS MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 608,
+      "dataProximoConcurso": "20/10/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3259090.22,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1134560.21,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 608,
+    "draw_date": "2004-10-20",
+    "numbers": [
+      6,
+      13,
+      19,
+      24,
+      30,
+      37
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 608,
+      "data": "20/10/2004",
+      "local": "Caminh\u00e3o da Sorte em Igrejinha, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "30",
+        "06",
+        "37",
+        "19",
+        "24",
+        "13"
+      ],
+      "dezenas": [
+        "06",
+        "13",
+        "19",
+        "24",
+        "30",
+        "37"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 101,
+          "valorPremio": 6267.54
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5181,
+          "valorPremio": 121.72
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Acumulou!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$3.500.000,00 (TR\u00caS MILH\u00d5ES E QUINHENTOS MIL REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 609,
+      "dataProximoConcurso": "23/10/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4050366.94,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 2242347.59,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 609,
+    "draw_date": "2004-10-23",
+    "numbers": [
+      2,
+      6,
+      15,
+      58,
+      59,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 609,
+      "data": "23/10/2004",
+      "local": "Caminh\u00e3o da Sorte em Igrejinha, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "15",
+        "02",
+        "59",
+        "60",
+        "06",
+        "58"
+      ],
+      "dezenas": [
+        "02",
+        "06",
+        "15",
+        "58",
+        "59",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 60,
+          "valorPremio": 13952.24
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3994,
+          "valorPremio": 208.81
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso: R$10.000.000,00 (DEZ MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 610,
+      "dataProximoConcurso": "27/10/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 8804117.7,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 8804117.7,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 610,
+    "draw_date": "2004-10-27",
+    "numbers": [
+      25,
+      30,
+      43,
+      45,
+      47,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 610,
+      "data": "27/10/2004",
+      "local": "Caminh\u00e3o da Sorte em Juazeiro da Norte, CE",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "25",
+        "49",
+        "30",
+        "43",
+        "47",
+        "45"
+      ],
+      "dezenas": [
+        "25",
+        "30",
+        "43",
+        "45",
+        "47",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 62,
+          "valorPremio": 14911.12
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4044,
+          "valorPremio": 227.75
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$12.000.000,00 (DOZE MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 611,
+      "dataProximoConcurso": "30/10/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1155611.36,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 10421973.58,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 611,
+    "draw_date": "2004-10-30",
+    "numbers": [
+      16,
+      21,
+      22,
+      33,
+      48,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 611,
+      "data": "30/10/2004",
+      "local": "Caminh\u00e3o da Sorte em Juazeiro do Norte, CE",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "22",
+        "21",
+        "33",
+        "16",
+        "48",
+        "49"
+      ],
+      "dezenas": [
+        "16",
+        "21",
+        "22",
+        "33",
+        "48",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 69,
+          "valorPremio": 16349.76
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4531,
+          "valorPremio": 248.04
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso: R$14.000.000,00 (QUATORZE MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 612,
+      "dataProximoConcurso": "03/11/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2565778.74,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 12396207.89,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 612,
+    "draw_date": "2004-11-03",
+    "numbers": [
+      15,
+      18,
+      33,
+      50,
+      53,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 612,
+      "data": "03/11/2004",
+      "local": "Caminh\u00e3o da Sorte em TATU\u00cd, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "55",
+        "33",
+        "15",
+        "50",
+        "53",
+        "18"
+      ],
+      "dezenas": [
+        "15",
+        "18",
+        "33",
+        "50",
+        "53",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 41,
+          "valorPremio": 22250.05
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3389,
+          "valorPremio": 268.16
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$16.000.000,00 (DEZESSEIS MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 613,
+      "dataProximoConcurso": "06/11/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3706093.9,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 13992649.1,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 613,
+    "draw_date": "2004-11-06",
+    "numbers": [
+      6,
+      13,
+      19,
+      44,
+      54,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 613,
+      "data": "06/11/2004",
+      "local": "Caminh\u00e3o da Sorte em ITAPETININGA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "54",
+        "55",
+        "13",
+        "44",
+        "06",
+        "19"
+      ],
+      "dezenas": [
+        "06",
+        "13",
+        "19",
+        "44",
+        "54",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 108,
+          "valorPremio": 12259.22
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7101,
+          "valorPremio": 185.76
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso: R$18.000.000,00 (DEZOITO MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 614,
+      "dataProximoConcurso": "10/11/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5361089.12,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 16309642.4,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 614,
+    "draw_date": "2004-11-10",
+    "numbers": [
+      12,
+      16,
+      31,
+      48,
+      57,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 614,
+      "data": "10/11/2004",
+      "local": "Caminh\u00e3o da Sorte em BRAS\u00cdLIA, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "60",
+        "31",
+        "12",
+        "48",
+        "57",
+        "16"
+      ],
+      "dezenas": [
+        "12",
+        "16",
+        "31",
+        "48",
+        "57",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 53,
+          "valorPremio": 24951.84
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4127,
+          "valorPremio": 319.23
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Acumulou!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$28.000.000,00 (VINTE E OITO MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 615,
+      "dataProximoConcurso": "13/11/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 25638073.79,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 25638073.79,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 615,
+    "draw_date": "2004-11-13",
+    "numbers": [
+      5,
+      8,
+      10,
+      27,
+      31,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 615,
+      "data": "13/11/2004",
+      "local": "Caminh\u00e3o da Sorte em BRAS\u00cdLIA, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "27",
+        "31",
+        "08",
+        "10",
+        "51",
+        "05"
+      ],
+      "dezenas": [
+        "05",
+        "08",
+        "10",
+        "27",
+        "31",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 157,
+          "valorPremio": 11348.03
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9780,
+          "valorPremio": 181.48
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) para o pr\u00f3ximo concurso: R$31.000.000,00 (TRINTA E UM MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 616,
+      "dataProximoConcurso": "17/11/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2227049.91,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 28755943.65,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 616,
+    "draw_date": "2004-11-17",
+    "numbers": [
+      2,
+      12,
+      16,
+      24,
+      26,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 616,
+      "data": "17/11/2004",
+      "local": "Caminh\u00e3o da Sorte em MACEI\u00d3, AL",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "24",
+        "16",
+        "26",
+        "54",
+        "12",
+        "02"
+      ],
+      "dezenas": [
+        "02",
+        "12",
+        "16",
+        "24",
+        "26",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 90,
+          "valorPremio": 18187.52
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9236,
+          "valorPremio": 176.56
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Acumulou!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$35.000.000,00 (TRINTA E CINCO MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 617,
+      "dataProximoConcurso": "20/11/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4273146.18,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 31620478.41,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 617,
+    "draw_date": "2004-11-20",
+    "numbers": [
+      3,
+      5,
+      25,
+      33,
+      36,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 617,
+      "data": "20/11/2004",
+      "local": "Caminh\u00e3o da Sorte em MACEI\u00d3, AL",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "25",
+        "05",
+        "49",
+        "36",
+        "33",
+        "03"
+      ],
+      "dezenas": [
+        "03",
+        "05",
+        "25",
+        "33",
+        "36",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 17791387.59
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 289,
+          "valorPremio": 7834.5
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 17341,
+          "valorPremio": 130.08
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso: R$ 1.000.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 618,
+      "dataProximoConcurso": "24/11/2004",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7103358.17,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 618,
+    "draw_date": "2004-11-24",
+    "numbers": [
+      3,
+      8,
+      10,
+      13,
+      24,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 618,
+      "data": "24/11/2004",
+      "local": "Caminh\u00e3o da Sorte em VIT\u00d3RIA, ES",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "60",
+        "10",
+        "03",
+        "08",
+        "24",
+        "13"
+      ],
+      "dezenas": [
+        "03",
+        "08",
+        "10",
+        "13",
+        "24",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 86,
+          "valorPremio": 6312.56
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4992,
+          "valorPremio": 108.34
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$2.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 619,
+      "dataProximoConcurso": "27/11/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7781957.45,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 950038.98,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 619,
+    "draw_date": "2004-11-27",
+    "numbers": [
+      8,
+      12,
+      14,
+      16,
+      19,
+      46
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 619,
+      "data": "27/11/2004",
+      "local": "Caminh\u00e3o da Sorte em VIT\u00d3RIA, ES",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "16",
+        "12",
+        "46",
+        "14",
+        "08",
+        "19"
+      ],
+      "dezenas": [
+        "08",
+        "12",
+        "14",
+        "16",
+        "19",
+        "46"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 101,
+          "valorPremio": 7354.06
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5924,
+          "valorPremio": 124.91
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso: R$13.000.000,00 (TREZE MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 620,
+      "dataProximoConcurso": "01/12/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 10960275.81,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 10960275.81,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 620,
+    "draw_date": "2004-12-01",
+    "numbers": [
+      1,
+      3,
+      13,
+      22,
+      29,
+      32
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 620,
+      "data": "01/12/2004",
+      "local": "Caminh\u00e3o da Sorte em BIRIG\u00dcI, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "22",
+        "01",
+        "29",
+        "13",
+        "32",
+        "03"
+      ],
+      "dezenas": [
+        "01",
+        "03",
+        "13",
+        "22",
+        "29",
+        "32"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 87,
+          "valorPremio": 11707.09
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5886,
+          "valorPremio": 172.39
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU! Estimativa de pr\u00eamio (SENA) para o pr\u00f3ximo concurso: R$15.000.000,00 (QUINZE MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 621,
+      "dataProximoConcurso": "04/12/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1273146.17,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 12742680.43,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 621,
+    "draw_date": "2004-12-04",
+    "numbers": [
+      26,
+      29,
+      31,
+      49,
+      50,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 621,
+      "data": "04/12/2004",
+      "local": "Caminh\u00e3o da Sorte em ARA\u00c7ATUBA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "29",
+        "31",
+        "50",
+        "26",
+        "57",
+        "49"
+      ],
+      "dezenas": [
+        "26",
+        "29",
+        "31",
+        "49",
+        "50",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 40,
+          "valorPremio": 32904.81
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3837,
+          "valorPremio": 341.73
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso: R$17.000.000,00 (DEZESSETE MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 622,
+      "dataProximoConcurso": "08/12/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2918386.76,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 15046017.24,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 622,
+    "draw_date": "2004-12-08",
+    "numbers": [
+      19,
+      27,
+      29,
+      38,
+      50,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 622,
+      "data": "08/12/2004",
+      "local": "Caminh\u00e3o da Sorte em FARROUPILHA, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "59",
+        "27",
+        "19",
+        "29",
+        "50",
+        "38"
+      ],
+      "dezenas": [
+        "19",
+        "27",
+        "29",
+        "38",
+        "50",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 49,
+          "valorPremio": 24789.92
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3560,
+          "valorPremio": 339.92
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$19.000.000,00 (DEZENOVE MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 623,
+      "dataProximoConcurso": "11/12/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4436769.36,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 17171752.86,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 623,
+    "draw_date": "2004-12-11",
+    "numbers": [
+      9,
+      23,
+      30,
+      42,
+      49,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 623,
+      "data": "11/12/2004",
+      "local": "Caminh\u00e3o da Sorte em SALVADOR, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "42",
+        "23",
+        "55",
+        "30",
+        "09",
+        "49"
+      ],
+      "dezenas": [
+        "09",
+        "23",
+        "30",
+        "42",
+        "49",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 124,
+          "valorPremio": 12236.03
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6915,
+          "valorPremio": 218.59
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$22.000.000,00 (VINTE E DOIS MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 624,
+      "dataProximoConcurso": "15/12/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6333353.09,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 19826970.07,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 624,
+    "draw_date": "2004-12-15",
+    "numbers": [
+      8,
+      23,
+      34,
+      39,
+      43,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 624,
+      "data": "15/12/2004",
+      "local": "Caminh\u00e3o da Sorte em LAGOA VERMELHA, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "39",
+        "23",
+        "34",
+        "52",
+        "08",
+        "43"
+      ],
+      "dezenas": [
+        "08",
+        "23",
+        "34",
+        "39",
+        "43",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 22375180.08
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 108,
+          "valorPremio": 13482.59
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7284,
+          "valorPremio": 199.16
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) para o pr\u00f3ximo concurso: R$10.000.000,00 (DEZ MILH\u00d5ES DE REAIS).",
+      "acumulou": false,
+      "proximoConcurso": 625,
+      "dataProximoConcurso": "18/12/2004",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 8153503.12,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 625,
+    "draw_date": "2004-12-18",
+    "numbers": [
+      12,
+      24,
+      32,
+      40,
+      42,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 625,
+      "data": "18/12/2004",
+      "local": "Caminh\u00e3o da Sorte em FREDERICO WESTPHALEN, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "59",
+        "12",
+        "32",
+        "42",
+        "24",
+        "40"
+      ],
+      "dezenas": [
+        "12",
+        "24",
+        "32",
+        "40",
+        "42",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 49,
+          "valorPremio": 20777.72
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4056,
+          "valorPremio": 250.06
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (06 acertos) para o pr\u00f3ximo concurso: R$12.000.000,00 (DOZE MILH\u00d5ES DE REAIS).",
+      "acumulou": true,
+      "proximoConcurso": 626,
+      "dataProximoConcurso": "22/12/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1272635.09,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 9935192.23,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 626,
+    "draw_date": "2004-12-22",
+    "numbers": [
+      7,
+      8,
+      18,
+      22,
+      39,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 626,
+      "data": "22/12/2004",
+      "local": "Caminh\u00e3o da Sorte em ATIBAIA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "49",
+        "08",
+        "22",
+        "18",
+        "07",
+        "39"
+      ],
+      "dezenas": [
+        "07",
+        "08",
+        "18",
+        "22",
+        "39",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 52,
+          "valorPremio": 21294.16
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5096,
+          "valorPremio": 216.47
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) para o pr\u00f3ximo concurso: R$14.000.000,00 (CATORZE MILH\u00d5ES DE REAIS). Informamos que n\u00e3o haver\u00e1 sorteio das loterias nos dias 24 e 25/12/2004.",
+      "acumulou": true,
+      "proximoConcurso": 627,
+      "dataProximoConcurso": "29/12/2004",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2656755.36,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 11872960.59,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 627,
+    "draw_date": "2004-12-29",
+    "numbers": [
+      1,
+      13,
+      19,
+      45,
+      56,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 627,
+      "data": "29/12/2004",
+      "local": "Caminh\u00e3o da Sorte em CHARQUEADA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "19",
+        "13",
+        "45",
+        "58",
+        "56",
+        "01"
+      ],
+      "dezenas": [
+        "01",
+        "13",
+        "19",
+        "45",
+        "56",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 112,
+          "valorPremio": 14270.18
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8049,
+          "valorPremio": 197.82
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA)pr\u00f3ximo concurso: R$17.000.000,00. O sorteio do concurso 628 ser\u00e1 em 05/01/2005.",
+      "acumulou": true,
+      "proximoConcurso": 628,
+      "dataProximoConcurso": "05/01/2005",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4654580.29,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 14669915.47,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  }
+]

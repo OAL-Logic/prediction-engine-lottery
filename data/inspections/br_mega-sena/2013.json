@@ -1,0 +1,7749 @@
+[
+  {
+    "draw_id": 1456,
+    "draw_date": "2013-01-02",
+    "numbers": [
+      6,
+      8,
+      14,
+      26,
+      36,
+      40
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1456,
+      "data": "02/01/2013",
+      "local": "Audit\u00f3rio em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "36",
+        "06",
+        "40",
+        "14",
+        "08",
+        "26"
+      ],
+      "dezenas": [
+        "06",
+        "08",
+        "14",
+        "26",
+        "36",
+        "40"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 24,
+          "valorPremio": 29713.02
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2685,
+          "valorPremio": 379.41
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV.",
+      "acumulou": true,
+      "proximoConcurso": 1457,
+      "dataProximoConcurso": "05/01/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 12180490.0,
+      "valorAcumuladoConcurso_0_5": 825708.99,
+      "valorAcumuladoConcursoEspecial": 187661.16,
+      "valorAcumuladoProximoConcurso": 1313627.95,
+      "valorEstimadoProximoConcurso": 3500000.0
+    }
+  },
+  {
+    "draw_id": 1457,
+    "draw_date": "2013-01-05",
+    "numbers": [
+      15,
+      16,
+      34,
+      42,
+      46,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1457,
+      "data": "05/01/2013",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O VICENTE, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "34",
+        "16",
+        "46",
+        "15",
+        "42",
+        "59"
+      ],
+      "dezenas": [
+        "15",
+        "16",
+        "34",
+        "42",
+        "46",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 96,
+          "valorPremio": 18748.79
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6867,
+          "valorPremio": 374.43
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1458,
+      "dataProximoConcurso": "09/01/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 30743352.0,
+      "valorAcumuladoConcurso_0_5": 2909784.63,
+      "valorAcumuladoConcursoEspecial": 661314.73,
+      "valorAcumuladoProximoConcurso": 4629202.83,
+      "valorEstimadoProximoConcurso": 7500000.0
+    }
+  },
+  {
+    "draw_id": 1458,
+    "draw_date": "2013-01-09",
+    "numbers": [
+      2,
+      4,
+      16,
+      33,
+      44,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1458,
+      "data": "09/01/2013",
+      "local": "Audit\u00f3rio em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "02",
+        "16",
+        "04",
+        "44",
+        "33",
+        "51"
+      ],
+      "dezenas": [
+        "02",
+        "04",
+        "16",
+        "33",
+        "44",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 134,
+          "valorPremio": 15358.12
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9515,
+          "valorPremio": 308.98
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV.",
+      "acumulou": true,
+      "proximoConcurso": 1459,
+      "dataProximoConcurso": "12/01/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 35151968.0,
+      "valorAcumuladoConcurso_0_5": 5292718.02,
+      "valorAcumuladoConcursoEspecial": 1202890.51,
+      "valorAcumuladoProximoConcurso": 8420233.24,
+      "valorEstimadoProximoConcurso": 13000000.0
+    }
+  },
+  {
+    "draw_id": 1459,
+    "draw_date": "2013-01-12",
+    "numbers": [
+      2,
+      6,
+      30,
+      34,
+      35,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1459,
+      "data": "12/01/2013",
+      "local": "Caminh\u00e3o da Sorte em PENEDO, AL",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "02",
+        "06",
+        "35",
+        "30",
+        "52",
+        "34"
+      ],
+      "dezenas": [
+        "02",
+        "06",
+        "30",
+        "34",
+        "35",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 13246202.09
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 147,
+          "valorPremio": 17821.85
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11563,
+          "valorPremio": 323.66
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1460,
+      "dataProximoConcurso": "16/01/2013",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "LAGES",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SC"
+        }
+      ],
+      "valorArrecadado": 44748336.0,
+      "valorAcumuladoConcurso_0_5": 8326184.16,
+      "valorAcumuladoConcursoEspecial": 1892314.64,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 13000000.0
+    }
+  },
+  {
+    "draw_id": 1460,
+    "draw_date": "2013-01-16",
+    "numbers": [
+      4,
+      14,
+      27,
+      38,
+      50,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1460,
+      "data": "16/01/2013",
+      "local": "Caminh\u00e3o da Sorte em ARIQUEMES, RO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "50",
+        "52",
+        "14",
+        "04",
+        "27",
+        "38"
+      ],
+      "dezenas": [
+        "04",
+        "14",
+        "27",
+        "38",
+        "50",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 103,
+          "valorPremio": 20925.78
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7074,
+          "valorPremio": 435.26
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1461,
+      "dataProximoConcurso": "19/01/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 36815066.0,
+      "valorAcumuladoConcurso_0_5": 2495673.94,
+      "valorAcumuladoConcursoEspecial": 2459513.28,
+      "valorAcumuladoProximoConcurso": 12296574.51,
+      "valorEstimadoProximoConcurso": 17000000.0
+    }
+  },
+  {
+    "draw_id": 1461,
+    "draw_date": "2013-01-19",
+    "numbers": [
+      31,
+      36,
+      44,
+      47,
+      49,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1461,
+      "data": "19/01/2013",
+      "local": "Caminh\u00e3o da Sorte em ARIQUEMES, RO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "44",
+        "31",
+        "49",
+        "54",
+        "36",
+        "47"
+      ],
+      "dezenas": [
+        "31",
+        "36",
+        "44",
+        "47",
+        "49",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 99,
+          "valorPremio": 27077.55
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6683,
+          "valorPremio": 573.02
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1462,
+      "dataProximoConcurso": "23/01/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 45787974.0,
+      "valorAcumuladoConcurso_0_5": 5599616.59,
+      "valorAcumuladoConcursoEspecial": 3164954.8,
+      "valorAcumuladoProximoConcurso": 17234665.08,
+      "valorEstimadoProximoConcurso": 23000000.0
+    }
+  },
+  {
+    "draw_id": 1462,
+    "draw_date": "2013-01-23",
+    "numbers": [
+      5,
+      9,
+      25,
+      27,
+      38,
+      40
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1462,
+      "data": "23/01/2013",
+      "local": "Audit\u00f3rio em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "05",
+        "09",
+        "25",
+        "40",
+        "38",
+        "27"
+      ],
+      "dezenas": [
+        "05",
+        "09",
+        "25",
+        "27",
+        "38",
+        "40"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 22470803.48
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 392,
+          "valorPremio": 7251.21
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 12264,
+          "valorPremio": 331.1
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV.",
+      "acumulou": false,
+      "proximoConcurso": 1463,
+      "dataProximoConcurso": "26/01/2013",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "S\u00c3O PAULO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 48551594.0,
+      "valorAcumuladoConcurso_0_5": 8890903.58,
+      "valorAcumuladoConcursoEspecial": 3912974.58,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1463,
+    "draw_date": "2013-01-26",
+    "numbers": [
+      13,
+      22,
+      28,
+      29,
+      40,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1463,
+      "data": "26/01/2013",
+      "local": "Caminh\u00e3o da Sorte em OURO PRETO DO OESTE, RO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "40",
+        "22",
+        "13",
+        "29",
+        "48",
+        "28"
+      ],
+      "dezenas": [
+        "13",
+        "22",
+        "28",
+        "29",
+        "40",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 46,
+          "valorPremio": 35283.98
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4520,
+          "valorPremio": 512.97
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1464,
+      "dataProximoConcurso": "30/01/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 27723126.0,
+      "valorAcumuladoConcurso_0_5": 10770239.69,
+      "valorAcumuladoConcursoEspecial": 4340096.43,
+      "valorAcumuladoProximoConcurso": 2989852.91,
+      "valorEstimadoProximoConcurso": 6000000.0
+    }
+  },
+  {
+    "draw_id": 1464,
+    "draw_date": "2013-01-30",
+    "numbers": [
+      2,
+      24,
+      32,
+      50,
+      54,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1464,
+      "data": "30/01/2013",
+      "local": "Caminh\u00e3o da Sorte em JUAZEIRO DO NORTE, CE",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "59",
+        "02",
+        "54",
+        "32",
+        "24",
+        "50"
+      ],
+      "dezenas": [
+        "02",
+        "24",
+        "32",
+        "50",
+        "54",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 76,
+          "valorPremio": 23495.23
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5570,
+          "valorPremio": 457.97
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1465,
+      "dataProximoConcurso": "02/02/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 30500016.0,
+      "valorAcumuladoConcurso_0_5": 19117004.46,
+      "valorAcumuladoConcursoEspecial": 4810001.0,
+      "valorAcumuladoProximoConcurso": 19117004.46,
+      "valorEstimadoProximoConcurso": 25000000.0
+    }
+  },
+  {
+    "draw_id": 1465,
+    "draw_date": "2013-02-02",
+    "numbers": [
+      6,
+      11,
+      16,
+      26,
+      44,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1465,
+      "data": "02/02/2013",
+      "local": "Caminh\u00e3o da Sorte em JUAZEIRO DO NORTE, CE",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "11",
+        "06",
+        "53",
+        "44",
+        "16",
+        "26"
+      ],
+      "dezenas": [
+        "06",
+        "11",
+        "16",
+        "26",
+        "44",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 117,
+          "valorPremio": 23295.61
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7939,
+          "valorPremio": 490.45
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1466,
+      "dataProximoConcurso": "06/02/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 46555048.0,
+      "valorAcumuladoConcurso_0_5": 3155942.19,
+      "valorAcumuladoConcursoEspecial": 5527260.6,
+      "valorAcumuladoProximoConcurso": 24137821.57,
+      "valorEstimadoProximoConcurso": 30000000.0
+    }
+  },
+  {
+    "draw_id": 1466,
+    "draw_date": "2013-02-06",
+    "numbers": [
+      4,
+      6,
+      13,
+      34,
+      37,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1466,
+      "data": "06/02/2013",
+      "local": "Caminh\u00e3o da Sorte em RIO BRANCO, AC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "04",
+        "13",
+        "51",
+        "37",
+        "06",
+        "34"
+      ],
+      "dezenas": [
+        "04",
+        "06",
+        "13",
+        "34",
+        "37",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 29873254.83
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 213,
+          "valorPremio": 14617.47
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 15287,
+          "valorPremio": 290.95
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1467,
+      "dataProximoConcurso": "09/02/2013",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "RIO DE JANEIRO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        }
+      ],
+      "valorArrecadado": 53181258.0,
+      "valorAcumuladoConcurso_0_5": 6761071.66,
+      "valorAcumuladoConcursoEspecial": 6346608.23,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 1467,
+    "draw_date": "2013-02-09",
+    "numbers": [
+      23,
+      24,
+      26,
+      41,
+      52,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1467,
+      "data": "09/02/2013",
+      "local": "Caminh\u00e3o da Sorte em RIO BRANCO, AC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "41",
+        "53",
+        "26",
+        "23",
+        "52",
+        "24"
+      ],
+      "dezenas": [
+        "23",
+        "24",
+        "26",
+        "41",
+        "52",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 3097080.96
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 75,
+          "valorPremio": 22416.97
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3925,
+          "valorPremio": 611.92
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1468,
+      "dataProximoConcurso": "13/02/2013",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "CONTAGEM",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        }
+      ],
+      "valorArrecadado": 28717388.0,
+      "valorAcumuladoConcurso_0_5": 8707808.27,
+      "valorAcumuladoConcursoEspecial": 6789048.38,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1500000.0
+    }
+  },
+  {
+    "draw_id": 1468,
+    "draw_date": "2013-02-13",
+    "numbers": [
+      1,
+      2,
+      10,
+      19,
+      20,
+      37
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1468,
+      "data": "13/02/2013",
+      "local": "Audit\u00f3rio em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "02",
+        "20",
+        "37",
+        "19",
+        "01",
+        "10"
+      ],
+      "dezenas": [
+        "01",
+        "02",
+        "10",
+        "19",
+        "20",
+        "37"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 1542491.77
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 179,
+          "valorPremio": 4677.95
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6493,
+          "valorPremio": 184.23
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV.",
+      "acumulou": false,
+      "proximoConcurso": 1469,
+      "dataProximoConcurso": "16/02/2013",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "VOLTA REDONDA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        }
+      ],
+      "valorArrecadado": 14302608.0,
+      "valorAcumuladoConcurso_0_5": 9677374.52,
+      "valorAcumuladoConcursoEspecial": 7009404.35,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1469,
+    "draw_date": "2013-02-16",
+    "numbers": [
+      4,
+      13,
+      35,
+      54,
+      56,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1469,
+      "data": "16/02/2013",
+      "local": "Caminh\u00e3o da Sorte em ARACATI, CE",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "04",
+        "56",
+        "54",
+        "13",
+        "35",
+        "58"
+      ],
+      "dezenas": [
+        "04",
+        "13",
+        "35",
+        "54",
+        "56",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 105,
+          "valorPremio": 15231.81
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6920,
+          "valorPremio": 330.16
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1470,
+      "dataProximoConcurso": "20/02/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 27317922.0,
+      "valorAcumuladoConcurso_0_5": 14475394.97,
+      "valorAcumuladoConcursoEspecial": 7430283.35,
+      "valorAcumuladoProximoConcurso": 14475394.97,
+      "valorEstimadoProximoConcurso": 19000000.0
+    }
+  },
+  {
+    "draw_id": 1470,
+    "draw_date": "2013-02-20",
+    "numbers": [
+      2,
+      34,
+      36,
+      38,
+      51,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1470,
+      "data": "20/02/2013",
+      "local": "Audit\u00f3rio em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "02",
+        "34",
+        "51",
+        "36",
+        "38",
+        "55"
+      ],
+      "dezenas": [
+        "02",
+        "34",
+        "36",
+        "38",
+        "51",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 9438162.39
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 172,
+          "valorPremio": 13889.98
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9203,
+          "valorPremio": 370.85
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV.",
+      "acumulou": false,
+      "proximoConcurso": 1471,
+      "dataProximoConcurso": "23/02/2013",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "I\u00daNA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "ES"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "C\u00d3RREGO NOVO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        }
+      ],
+      "valorArrecadado": 40807202.0,
+      "valorAcumuladoConcurso_0_5": 2766298.74,
+      "valorAcumuladoConcursoEspecial": 8058987.62,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 1471,
+    "draw_date": "2013-02-23",
+    "numbers": [
+      10,
+      25,
+      33,
+      36,
+      40,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1471,
+      "data": "23/02/2013",
+      "local": "Caminh\u00e3o da Sorte em VILHENA, RO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "58",
+        "33",
+        "36",
+        "40",
+        "25",
+        "10"
+      ],
+      "dezenas": [
+        "10",
+        "25",
+        "33",
+        "36",
+        "40",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 92,
+          "valorPremio": 17770.13
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5159,
+          "valorPremio": 452.7
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1472,
+      "dataProximoConcurso": "27/02/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 27924488.0,
+      "valorAcumuladoConcurso_0_5": 4659285.06,
+      "valorAcumuladoConcursoEspecial": 8489211.81,
+      "valorAcumuladoProximoConcurso": 3011569.17,
+      "valorEstimadoProximoConcurso": 6500000.0
+    }
+  },
+  {
+    "draw_id": 1472,
+    "draw_date": "2013-02-27",
+    "numbers": [
+      12,
+      18,
+      23,
+      25,
+      45,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1472,
+      "data": "27/02/2013",
+      "local": "Caminh\u00e3o da Sorte em PALMAS, TO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "12",
+        "23",
+        "25",
+        "18",
+        "45",
+        "50"
+      ],
+      "dezenas": [
+        "12",
+        "18",
+        "23",
+        "25",
+        "45",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 130,
+          "valorPremio": 13563.89
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7002,
+          "valorPremio": 359.75
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1473,
+      "dataProximoConcurso": "02/03/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 30118576.0,
+      "valorAcumuladoConcurso_0_5": 6701007.46,
+      "valorAcumuladoConcursoEspecial": 8953239.64,
+      "valorAcumuladoProximoConcurso": 6259763.9,
+      "valorEstimadoProximoConcurso": 10000000.0
+    }
+  },
+  {
+    "draw_id": 1473,
+    "draw_date": "2013-03-02",
+    "numbers": [
+      2,
+      12,
+      33,
+      57,
+      58,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1473,
+      "data": "02/03/2013",
+      "local": "Caminh\u00e3o da Sorte em PALMAS, TO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "60",
+        "12",
+        "57",
+        "58",
+        "33",
+        "02"
+      ],
+      "dezenas": [
+        "02",
+        "12",
+        "33",
+        "57",
+        "58",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 121,
+          "valorPremio": 18428.91
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8300,
+          "valorPremio": 383.8
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1474,
+      "dataProximoConcurso": "06/03/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 38088322.0,
+      "valorAcumuladoConcurso_0_5": 9282994.75,
+      "valorAcumuladoConcursoEspecial": 9540054.94,
+      "valorAcumuladoProximoConcurso": 10367470.95,
+      "valorEstimadoProximoConcurso": 15000000.0
+    }
+  },
+  {
+    "draw_id": 1474,
+    "draw_date": "2013-03-06",
+    "numbers": [
+      1,
+      2,
+      3,
+      11,
+      28,
+      43
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1474,
+      "data": "06/03/2013",
+      "local": "Caminh\u00e3o da Sorte em CUIAB\u00c1, MT",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "02",
+        "43",
+        "11",
+        "01",
+        "03",
+        "28"
+      ],
+      "dezenas": [
+        "01",
+        "02",
+        "03",
+        "11",
+        "28",
+        "43"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 14742572.93
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 158,
+          "valorPremio": 15031.99
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11838,
+          "valorPremio": 286.61
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1475,
+      "dataProximoConcurso": "09/03/2013",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "ALTO PARNA\u00cdBA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MA"
+        }
+      ],
+      "valorArrecadado": 40567716.0,
+      "valorAcumuladoConcurso_0_5": 12033058.85,
+      "valorAcumuladoConcursoEspecial": 10165069.53,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 16000000.0
+    }
+  },
+  {
+    "draw_id": 1475,
+    "draw_date": "2013-03-09",
+    "numbers": [
+      12,
+      13,
+      37,
+      44,
+      48,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1475,
+      "data": "09/03/2013",
+      "local": "Caminh\u00e3o da Sorte em CUIAB\u00c1, MT",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "13",
+        "12",
+        "51",
+        "37",
+        "48",
+        "44"
+      ],
+      "dezenas": [
+        "12",
+        "13",
+        "37",
+        "44",
+        "48",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 16179244.6
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 111,
+          "valorPremio": 20277.36
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9065,
+          "valorPremio": 354.7
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1476,
+      "dataProximoConcurso": "13/03/2013",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "COTIA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 38445112.0,
+      "valorAcumuladoConcurso_0_5": 2606173.9,
+      "valorAcumuladoConcursoEspecial": 10757381.79,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 1476,
+    "draw_date": "2013-03-13",
+    "numbers": [
+      4,
+      10,
+      26,
+      37,
+      47,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1476,
+      "data": "13/03/2013",
+      "local": "Audit\u00f3rio em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "26",
+        "10",
+        "04",
+        "37",
+        "47",
+        "57"
+      ],
+      "dezenas": [
+        "04",
+        "10",
+        "26",
+        "37",
+        "47",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 58,
+          "valorPremio": 25819.12
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4681,
+          "valorPremio": 457.01
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV.",
+      "acumulou": true,
+      "proximoConcurso": 1477,
+      "dataProximoConcurso": "16/03/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 25578566.0,
+      "valorAcumuladoConcurso_0_5": 4340131.41,
+      "valorAcumuladoConcursoEspecial": 11151463.06,
+      "valorAcumuladoProximoConcurso": 2758568.78,
+      "valorEstimadoProximoConcurso": 7000000.0
+    }
+  },
+  {
+    "draw_id": 1477,
+    "draw_date": "2013-03-16",
+    "numbers": [
+      3,
+      4,
+      46,
+      50,
+      56,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1477,
+      "data": "16/03/2013",
+      "local": "Caminh\u00e3o da Sorte em URUA\u00c7U, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "50",
+        "59",
+        "56",
+        "46",
+        "03",
+        "04"
+      ],
+      "dezenas": [
+        "03",
+        "04",
+        "46",
+        "50",
+        "56",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 58,
+          "valorPremio": 33527.4
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4036,
+          "valorPremio": 688.3
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1478,
+      "dataProximoConcurso": "20/03/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 33215034.0,
+      "valorAcumuladoConcurso_0_5": 6591761.07,
+      "valorAcumuladoConcursoEspecial": 11663197.09,
+      "valorAcumuladoProximoConcurso": 6340706.88,
+      "valorEstimadoProximoConcurso": 10000000.0
+    }
+  },
+  {
+    "draw_id": 1478,
+    "draw_date": "2013-03-20",
+    "numbers": [
+      10,
+      27,
+      37,
+      40,
+      47,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1478,
+      "data": "20/03/2013",
+      "local": "Audit\u00f3rio em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "10",
+        "40",
+        "27",
+        "47",
+        "55",
+        "37"
+      ],
+      "dezenas": [
+        "10",
+        "27",
+        "37",
+        "40",
+        "47",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 56,
+          "valorPremio": 35716.33
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4924,
+          "valorPremio": 580.28
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV.",
+      "acumulou": true,
+      "proximoConcurso": 1479,
+      "dataProximoConcurso": "23/03/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 34163442.0,
+      "valorAcumuladoConcurso_0_5": 8907682.81,
+      "valorAcumuladoConcursoEspecial": 12189542.95,
+      "valorAcumuladoProximoConcurso": 10025127.83,
+      "valorEstimadoProximoConcurso": 15000000.0
+    }
+  },
+  {
+    "draw_id": 1479,
+    "draw_date": "2013-03-23",
+    "numbers": [
+      21,
+      48,
+      50,
+      54,
+      57,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1479,
+      "data": "23/03/2013",
+      "local": "Caminh\u00e3o da Sorte em POUSO ALEGRE, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "57",
+        "21",
+        "54",
+        "48",
+        "50",
+        "60"
+      ],
+      "dezenas": [
+        "21",
+        "48",
+        "50",
+        "54",
+        "57",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 59,
+          "valorPremio": 40564.43
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5006,
+          "valorPremio": 682.98
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1480,
+      "dataProximoConcurso": "27/03/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 40879372.0,
+      "valorAcumuladoConcurso_0_5": 26112714.84,
+      "valorAcumuladoConcursoEspecial": 12819359.12,
+      "valorAcumuladoProximoConcurso": 26112714.84,
+      "valorEstimadoProximoConcurso": 32000000.0
+    }
+  },
+  {
+    "draw_id": 1480,
+    "draw_date": "2013-03-27",
+    "numbers": [
+      9,
+      14,
+      21,
+      26,
+      36,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1480,
+      "data": "27/03/2013",
+      "local": "Audit\u00f3rio em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "09",
+        "14",
+        "26",
+        "36",
+        "52",
+        "21"
+      ],
+      "dezenas": [
+        "09",
+        "14",
+        "21",
+        "26",
+        "36",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 31618202.79
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 151,
+          "valorPremio": 19792.67
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11395,
+          "valorPremio": 374.68
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV.",
+      "acumulou": false,
+      "proximoConcurso": 1481,
+      "dataProximoConcurso": "30/03/2013",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "TERES\u00d3POLIS",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        }
+      ],
+      "valorArrecadado": 51049112.0,
+      "valorAcumuladoConcurso_0_5": 3460592.43,
+      "valorAcumuladoConcursoEspecial": 13605857.42,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 1481,
+    "draw_date": "2013-03-30",
+    "numbers": [
+      17,
+      27,
+      28,
+      40,
+      44,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1481,
+      "data": "30/03/2013",
+      "local": "Caminh\u00e3o da Sorte em BARRA MANSA, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "40",
+        "27",
+        "55",
+        "17",
+        "28",
+        "44"
+      ],
+      "dezenas": [
+        "17",
+        "27",
+        "28",
+        "40",
+        "44",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 46,
+          "valorPremio": 28132.97
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3154,
+          "valorPremio": 586.15
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1482,
+      "dataProximoConcurso": "03/04/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 22104474.0,
+      "valorAcumuladoConcurso_0_5": 4959043.07,
+      "valorAcumuladoConcursoEspecial": 13946414.38,
+      "valorAcumuladoProximoConcurso": 2383898.76,
+      "valorEstimadoProximoConcurso": 5200000.0
+    }
+  },
+  {
+    "draw_id": 1482,
+    "draw_date": "2013-04-03",
+    "numbers": [
+      6,
+      9,
+      11,
+      34,
+      41,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1482,
+      "data": "03/04/2013",
+      "local": "Audit\u00f3rio em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "11",
+        "09",
+        "06",
+        "34",
+        "41",
+        "53"
+      ],
+      "dezenas": [
+        "06",
+        "09",
+        "11",
+        "34",
+        "41",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 79,
+          "valorPremio": 20782.22
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5433,
+          "valorPremio": 431.69
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV.",
+      "acumulou": true,
+      "proximoConcurso": 1483,
+      "dataProximoConcurso": "06/04/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 28043090.0,
+      "valorAcumuladoConcurso_0_5": 6860069.37,
+      "valorAcumuladoConcursoEspecial": 14378465.82,
+      "valorAcumuladoProximoConcurso": 5408258.78,
+      "valorEstimadoProximoConcurso": 9000000.0
+    }
+  },
+  {
+    "draw_id": 1483,
+    "draw_date": "2013-04-06",
+    "numbers": [
+      1,
+      35,
+      39,
+      53,
+      55,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1483,
+      "data": "06/04/2013",
+      "local": "Caminh\u00e3o da Sorte em VASSOURAS, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "55",
+        "53",
+        "01",
+        "35",
+        "56",
+        "39"
+      ],
+      "dezenas": [
+        "01",
+        "35",
+        "39",
+        "53",
+        "55",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 53,
+          "valorPremio": 38750.7
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4817,
+          "valorPremio": 609.08
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1484,
+      "dataProximoConcurso": "10/04/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 35080218.0,
+      "valorAcumuladoConcurso_0_5": 9238138.87,
+      "valorAcumuladoConcursoEspecial": 14918936.18,
+      "valorAcumuladoProximoConcurso": 9191551.17,
+      "valorEstimadoProximoConcurso": 13000000.0
+    }
+  },
+  {
+    "draw_id": 1484,
+    "draw_date": "2013-04-10",
+    "numbers": [
+      17,
+      20,
+      24,
+      29,
+      49,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1484,
+      "data": "10/04/2013",
+      "local": "Audit\u00f3rio em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "49",
+        "29",
+        "17",
+        "53",
+        "20",
+        "24"
+      ],
+      "dezenas": [
+        "17",
+        "20",
+        "24",
+        "29",
+        "49",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 85,
+          "valorPremio": 25680.65
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7114,
+          "valorPremio": 438.34
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV.",
+      "acumulou": true,
+      "proximoConcurso": 1485,
+      "dataProximoConcurso": "13/04/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 37284786.0,
+      "valorAcumuladoConcurso_0_5": 24978254.24,
+      "valorAcumuladoConcursoEspecial": 15493371.66,
+      "valorAcumuladoProximoConcurso": 24978254.24,
+      "valorEstimadoProximoConcurso": 30000000.0
+    }
+  },
+  {
+    "draw_id": 1485,
+    "draw_date": "2013-04-13",
+    "numbers": [
+      4,
+      27,
+      30,
+      36,
+      54,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1485,
+      "data": "13/04/2013",
+      "local": "Caminh\u00e3o da Sorte em AREAL, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "30",
+        "59",
+        "27",
+        "36",
+        "04",
+        "54"
+      ],
+      "dezenas": [
+        "04",
+        "27",
+        "30",
+        "36",
+        "54",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 212,
+          "valorPremio": 14575.86
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 12408,
+          "valorPremio": 355.77
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1486,
+      "dataProximoConcurso": "17/04/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 52780898.0,
+      "valorAcumuladoConcurso_0_5": 3577989.29,
+      "valorAcumuladoConcursoEspecial": 16306551.06,
+      "valorAcumuladoProximoConcurso": 30670509.92,
+      "valorEstimadoProximoConcurso": 37000000.0
+    }
+  },
+  {
+    "draw_id": 1486,
+    "draw_date": "2013-04-17",
+    "numbers": [
+      1,
+      6,
+      10,
+      34,
+      40,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1486,
+      "data": "17/04/2013",
+      "local": "Caminh\u00e3o da Sorte em LINS, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "10",
+        "01",
+        "34",
+        "54",
+        "06",
+        "40"
+      ],
+      "dezenas": [
+        "01",
+        "06",
+        "10",
+        "34",
+        "40",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 37137524.71
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 174,
+          "valorPremio": 20176.24
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 12128,
+          "valorPremio": 413.52
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1487,
+      "dataProximoConcurso": "20/04/2013",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "LONDRINA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        }
+      ],
+      "valorArrecadado": 59964778.0,
+      "valorAcumuladoConcurso_0_5": 7642970.01,
+      "valorAcumuladoConcursoEspecial": 17230410.34,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 1487,
+    "draw_date": "2013-04-20",
+    "numbers": [
+      4,
+      9,
+      17,
+      23,
+      28,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1487,
+      "data": "20/04/2013",
+      "local": "Caminh\u00e3o da Sorte em LINS, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "04",
+        "17",
+        "23",
+        "28",
+        "09",
+        "53"
+      ],
+      "dezenas": [
+        "04",
+        "09",
+        "17",
+        "23",
+        "28",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 198,
+          "valorPremio": 8062.23
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9593,
+          "valorPremio": 237.72
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1488,
+      "dataProximoConcurso": "24/04/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 27266336.0,
+      "valorAcumuladoConcurso_0_5": 9491340.56,
+      "valorAcumuladoConcursoEspecial": 17650494.57,
+      "valorAcumuladoProximoConcurso": 2940589.52,
+      "valorEstimadoProximoConcurso": 6500000.0
+    }
+  },
+  {
+    "draw_id": 1488,
+    "draw_date": "2013-04-24",
+    "numbers": [
+      4,
+      22,
+      25,
+      38,
+      45,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1488,
+      "data": "24/04/2013",
+      "local": "Audit\u00f3rio em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "04",
+        "51",
+        "45",
+        "22",
+        "38",
+        "25"
+      ],
+      "dezenas": [
+        "04",
+        "22",
+        "25",
+        "38",
+        "45",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 6092267.98
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 144,
+          "valorPremio": 11881.33
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7105,
+          "valorPremio": 344.0
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Sorteio realizado em Est\u00fadio de TV.",
+      "acumulou": false,
+      "proximoConcurso": 1489,
+      "dataProximoConcurso": "27/04/2013",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "HORTOL\u00c2NDIA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 29223638.0,
+      "valorAcumuladoConcurso_0_5": 11472395.59,
+      "valorAcumuladoConcursoEspecial": 18100734.36,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2800000.0
+    }
+  },
+  {
+    "draw_id": 1489,
+    "draw_date": "2013-04-27",
+    "numbers": [
+      1,
+      15,
+      24,
+      26,
+      28,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1489,
+      "data": "27/04/2013",
+      "local": "Caminh\u00e3o da Sorte em COLINA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "48",
+        "15",
+        "24",
+        "28",
+        "01",
+        "26"
+      ],
+      "dezenas": [
+        "01",
+        "15",
+        "24",
+        "26",
+        "28",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 2867241.35
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 86,
+          "valorPremio": 18098.87
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5462,
+          "valorPremio": 407.09
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1490,
+      "dataProximoConcurso": "02/05/2013",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "CAMPO GRANDE",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MS"
+        }
+      ],
+      "valorArrecadado": 26586222.0,
+      "valorAcumuladoConcurso_0_5": 13274661.57,
+      "valorAcumuladoConcursoEspecial": 18510340.29,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 17000000.0
+    }
+  },
+  {
+    "draw_id": 1490,
+    "draw_date": "2013-05-02",
+    "numbers": [
+      1,
+      3,
+      31,
+      32,
+      43,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1490,
+      "data": "02/05/2013",
+      "local": "Caminh\u00e3o da Sorte em ANAST\u00c1CIO, MS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "31",
+        "32",
+        "43",
+        "03",
+        "52",
+        "01"
+      ],
+      "dezenas": [
+        "01",
+        "03",
+        "31",
+        "32",
+        "43",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 73,
+          "valorPremio": 26934.64
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4902,
+          "valorPremio": 573.01
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1491,
+      "dataProximoConcurso": "04/05/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 33584654.0,
+      "valorAcumuladoConcurso_0_5": 2276686.01,
+      "valorAcumuladoConcursoEspecial": 19027768.93,
+      "valorAcumuladoProximoConcurso": 16896662.04,
+      "valorEstimadoProximoConcurso": 20500000.0
+    }
+  },
+  {
+    "draw_id": 1491,
+    "draw_date": "2013-05-04",
+    "numbers": [
+      6,
+      26,
+      45,
+      50,
+      56,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1491,
+      "data": "04/05/2013",
+      "local": "Caminh\u00e3o da Sorte em ANAST\u00c1CIO, MS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "56",
+        "06",
+        "45",
+        "60",
+        "26",
+        "50"
+      ],
+      "dezenas": [
+        "06",
+        "26",
+        "45",
+        "50",
+        "56",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 74,
+          "valorPremio": 31442.92
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5450,
+          "valorPremio": 609.9
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1492,
+      "dataProximoConcurso": "08/05/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 39743064.0,
+      "valorAcumuladoConcurso_0_5": 4970847.39,
+      "valorAcumuladoConcursoEspecial": 19640078.34,
+      "valorAcumuladoProximoConcurso": 21182827.87,
+      "valorEstimadoProximoConcurso": 25000000.0
+    }
+  },
+  {
+    "draw_id": 1492,
+    "draw_date": "2013-05-08",
+    "numbers": [
+      4,
+      9,
+      18,
+      44,
+      46,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1492,
+      "data": "08/05/2013",
+      "local": "Audit\u00f3rio em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "48",
+        "44",
+        "46",
+        "04",
+        "18",
+        "09"
+      ],
+      "dezenas": [
+        "04",
+        "09",
+        "18",
+        "44",
+        "46",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 26460707.33
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 232,
+          "valorPremio": 12349.72
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 12719,
+          "valorPremio": 321.8
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV.",
+      "acumulou": false,
+      "proximoConcurso": 1493,
+      "dataProximoConcurso": "11/05/2013",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "NEPOMUCENO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        }
+      ],
+      "valorArrecadado": 48938634.0,
+      "valorAcumuladoConcurso_0_5": 8288371.61,
+      "valorAcumuladoConcursoEspecial": 20394061.14,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2400000.0
+    }
+  },
+  {
+    "draw_id": 1493,
+    "draw_date": "2013-05-11",
+    "numbers": [
+      7,
+      12,
+      24,
+      27,
+      30,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1493,
+      "data": "11/05/2013",
+      "local": "Caminh\u00e3o da Sorte em JARDIM, MS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "30",
+        "24",
+        "12",
+        "49",
+        "07",
+        "27"
+      ],
+      "dezenas": [
+        "07",
+        "12",
+        "24",
+        "27",
+        "30",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 1471764.39
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 137,
+          "valorPremio": 11663.62
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9075,
+          "valorPremio": 251.54
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1494,
+      "dataProximoConcurso": "15/05/2013",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "SALVADOR",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "BA"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "CAMPINAS",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 27293590.0,
+      "valorAcumuladoConcurso_0_5": 10138589.7,
+      "valorAcumuladoConcursoEspecial": 20814565.27,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 1494,
+    "draw_date": "2013-05-15",
+    "numbers": [
+      2,
+      14,
+      24,
+      28,
+      35,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1494,
+      "data": "15/05/2013",
+      "local": "Caminh\u00e3o da Sorte em RIO CLARO, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "50",
+        "28",
+        "35",
+        "24",
+        "02",
+        "14"
+      ],
+      "dezenas": [
+        "02",
+        "14",
+        "24",
+        "28",
+        "35",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 68,
+          "valorPremio": 20542.92
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5746,
+          "valorPremio": 347.3
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1495,
+      "dataProximoConcurso": "18/05/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 23860410.0,
+      "valorAcumuladoConcurso_0_5": 14329345.31,
+      "valorAcumuladoConcursoEspecial": 21182175.42,
+      "valorAcumuladoProximoConcurso": 14329345.31,
+      "valorEstimadoProximoConcurso": 19000000.0
+    }
+  },
+  {
+    "draw_id": 1495,
+    "draw_date": "2013-05-18",
+    "numbers": [
+      4,
+      13,
+      14,
+      44,
+      49,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1495,
+      "data": "18/05/2013",
+      "local": "Caminh\u00e3o da Sorte em RIO CLARO, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "13",
+        "49",
+        "04",
+        "44",
+        "14",
+        "57"
+      ],
+      "dezenas": [
+        "04",
+        "13",
+        "14",
+        "44",
+        "49",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 140,
+          "valorPremio": 16899.84
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9828,
+          "valorPremio": 343.91
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1496,
+      "dataProximoConcurso": "22/05/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 40412652.0,
+      "valorAcumuladoConcurso_0_5": 2739552.4,
+      "valorAcumuladoConcursoEspecial": 21804800.99,
+      "valorAcumuladoProximoConcurso": 18687724.13,
+      "valorEstimadoProximoConcurso": 24000000.0
+    }
+  },
+  {
+    "draw_id": 1496,
+    "draw_date": "2013-05-22",
+    "numbers": [
+      14,
+      18,
+      28,
+      41,
+      47,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1496,
+      "data": "22/05/2013",
+      "local": "Caminh\u00e3o da Sorte em VILA VELHA, ES",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "28",
+        "18",
+        "41",
+        "54",
+        "14",
+        "47"
+      ],
+      "dezenas": [
+        "14",
+        "18",
+        "28",
+        "41",
+        "47",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 106,
+          "valorPremio": 25446.39
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8337,
+          "valorPremio": 462.19
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1497,
+      "dataProximoConcurso": "25/05/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 46072184.0,
+      "valorAcumuladoConcurso_0_5": 5862761.49,
+      "valorAcumuladoConcursoEspecial": 22514621.25,
+      "valorAcumuladoProximoConcurso": 23656465.87,
+      "valorEstimadoProximoConcurso": 29000000.0
+    }
+  },
+  {
+    "draw_id": 1497,
+    "draw_date": "2013-05-25",
+    "numbers": [
+      4,
+      5,
+      7,
+      27,
+      45,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1497,
+      "data": "25/05/2013",
+      "local": "Caminh\u00e3o da Sorte em VILA VELHA, ES",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "58",
+        "07",
+        "27",
+        "45",
+        "04",
+        "05"
+      ],
+      "dezenas": [
+        "04",
+        "05",
+        "07",
+        "27",
+        "45",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 252,
+          "valorPremio": 11685.01
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 17540,
+          "valorPremio": 239.82
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1498,
+      "dataProximoConcurso": "29/05/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 50296330.0,
+      "valorAcumuladoConcurso_0_5": 9272323.21,
+      "valorAcumuladoConcursoEspecial": 23289521.66,
+      "valorAcumuladoProximoConcurso": 29080768.61,
+      "valorEstimadoProximoConcurso": 34500000.0
+    }
+  },
+  {
+    "draw_id": 1498,
+    "draw_date": "2013-05-29",
+    "numbers": [
+      6,
+      11,
+      27,
+      40,
+      46,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1498,
+      "data": "29/05/2013",
+      "local": "Audit\u00f3rio em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "11",
+        "46",
+        "27",
+        "49",
+        "06",
+        "40"
+      ],
+      "dezenas": [
+        "06",
+        "11",
+        "27",
+        "40",
+        "46",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 237,
+          "valorPremio": 14636.95
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 14820,
+          "valorPremio": 334.38
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV.",
+      "acumulou": true,
+      "proximoConcurso": 1499,
+      "dataProximoConcurso": "01/06/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 59252370.0,
+      "valorAcumuladoConcurso_0_5": 13289010.18,
+      "valorAcumuladoConcursoEspecial": 24202405.07,
+      "valorAcumuladoProximoConcurso": 35470952.42,
+      "valorEstimadoProximoConcurso": 43000000.0
+    }
+  },
+  {
+    "draw_id": 1499,
+    "draw_date": "2013-06-01",
+    "numbers": [
+      8,
+      22,
+      26,
+      33,
+      37,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1499,
+      "data": "01/06/2013",
+      "local": "Caminh\u00e3o da Sorte em ITATIAIA, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "26",
+        "37",
+        "08",
+        "22",
+        "54",
+        "33"
+      ],
+      "dezenas": [
+        "08",
+        "22",
+        "26",
+        "33",
+        "37",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 43036617.07
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 295,
+          "valorPremio": 13922.29
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 18276,
+          "valorPremio": 321.03
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1500,
+      "dataProximoConcurso": "05/06/2013",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "PEDRA PRETA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MT"
+        }
+      ],
+      "valorArrecadado": 70151904.0,
+      "valorAcumuladoConcurso_0_5": 18044570.81,
+      "valorAcumuladoConcursoEspecial": 25283214.32,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 22000000.0
+    }
+  },
+  {
+    "draw_id": 1500,
+    "draw_date": "2013-06-05",
+    "numbers": [
+      10,
+      18,
+      31,
+      43,
+      57,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1500,
+      "data": "05/06/2013",
+      "local": "Caminh\u00e3o da Sorte em MONTE SI\u00c3O, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "57",
+        "43",
+        "18",
+        "59",
+        "10",
+        "31"
+      ],
+      "dezenas": [
+        "10",
+        "18",
+        "31",
+        "43",
+        "57",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 22610179.37
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 81,
+          "valorPremio": 30598.43
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7055,
+          "valorPremio": 501.86
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1501,
+      "dataProximoConcurso": "08/06/2013",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "MIRANTE DO PARANAPANEMA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 42334170.0,
+      "valorAcumuladoConcurso_0_5": 2869811.09,
+      "valorAcumuladoConcursoEspecial": 25935444.12,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 1501,
+    "draw_date": "2013-06-08",
+    "numbers": [
+      1,
+      7,
+      13,
+      29,
+      37,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1501,
+      "data": "08/06/2013",
+      "local": "Caminh\u00e3o da Sorte em MONTE SI\u00c3O, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "13",
+        "37",
+        "54",
+        "07",
+        "29",
+        "01"
+      ],
+      "dezenas": [
+        "01",
+        "07",
+        "13",
+        "29",
+        "37",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 3144718.24
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 238,
+          "valorPremio": 7172.83
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11210,
+          "valorPremio": 217.55
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1502,
+      "dataProximoConcurso": "12/06/2013",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "Uruara",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PA"
+        }
+      ],
+      "valorArrecadado": 29159100.0,
+      "valorAcumuladoConcurso_0_5": 4846491.12,
+      "valorAcumuladoConcursoEspecial": 26384689.6,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 1502,
+    "draw_date": "2013-06-12",
+    "numbers": [
+      6,
+      22,
+      43,
+      51,
+      52,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1502,
+      "data": "12/06/2013",
+      "local": "Audit\u00f3rio em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "06",
+        "43",
+        "22",
+        "52",
+        "57",
+        "51"
+      ],
+      "dezenas": [
+        "06",
+        "22",
+        "43",
+        "51",
+        "52",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 48,
+          "valorPremio": 31688.04
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3580,
+          "valorPremio": 606.95
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV.",
+      "acumulou": true,
+      "proximoConcurso": 1503,
+      "dataProximoConcurso": "15/06/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 25980254.0,
+      "valorAcumuladoConcurso_0_5": 6607678.84,
+      "valorAcumuladoConcursoEspecial": 26784959.56,
+      "valorAcumuladoProximoConcurso": 2801889.58,
+      "valorEstimadoProximoConcurso": 6000000.0
+    }
+  },
+  {
+    "draw_id": 1503,
+    "draw_date": "2013-06-15",
+    "numbers": [
+      3,
+      4,
+      16,
+      22,
+      36,
+      42
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1503,
+      "data": "15/06/2013",
+      "local": "Caminh\u00e3o da Sorte em JACUTINGA, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "36",
+        "22",
+        "42",
+        "03",
+        "16",
+        "04"
+      ],
+      "dezenas": [
+        "03",
+        "04",
+        "16",
+        "22",
+        "36",
+        "42"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 111,
+          "valorPremio": 16427.17
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8448,
+          "valorPremio": 308.34
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1504,
+      "dataProximoConcurso": "19/06/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 31145306.0,
+      "valorAcumuladoConcurso_0_5": 8719002.73,
+      "valorAcumuladoConcursoEspecial": 27264805.91,
+      "valorAcumuladoProximoConcurso": 6160813.94,
+      "valorEstimadoProximoConcurso": 10000000.0
+    }
+  },
+  {
+    "draw_id": 1504,
+    "draw_date": "2013-06-19",
+    "numbers": [
+      2,
+      10,
+      12,
+      30,
+      41,
+      42
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1504,
+      "data": "19/06/2013",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O JO\u00c3O DA BARRA, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "41",
+        "02",
+        "42",
+        "30",
+        "12",
+        "10"
+      ],
+      "dezenas": [
+        "02",
+        "10",
+        "12",
+        "30",
+        "41",
+        "42"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 74,
+          "valorPremio": 25045.42
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5957,
+          "valorPremio": 444.46
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1505,
+      "dataProximoConcurso": "22/06/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 31656794.0,
+      "valorAcumuladoConcurso_0_5": 20439900.82,
+      "valorAcumuladoConcursoEspecial": 27752532.6,
+      "valorAcumuladoProximoConcurso": 20439900.82,
+      "valorEstimadoProximoConcurso": 25000000.0
+    }
+  },
+  {
+    "draw_id": 1505,
+    "draw_date": "2013-06-22",
+    "numbers": [
+      1,
+      2,
+      6,
+      9,
+      16,
+      32
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1505,
+      "data": "22/06/2013",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O JO\u00c3O DA BARRA, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "32",
+        "01",
+        "06",
+        "09",
+        "16",
+        "02"
+      ],
+      "dezenas": [
+        "01",
+        "02",
+        "06",
+        "09",
+        "16",
+        "32"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 263,
+          "valorPremio": 9151.9
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 15199,
+          "valorPremio": 226.23
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1506,
+      "dataProximoConcurso": "26/06/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 41112500.0,
+      "valorAcumuladoConcurso_0_5": 2786994.73,
+      "valorAcumuladoConcursoEspecial": 28385940.5,
+      "valorAcumuladoProximoConcurso": 24873756.07,
+      "valorEstimadoProximoConcurso": 29500000.0
+    }
+  },
+  {
+    "draw_id": 1506,
+    "draw_date": "2013-06-26",
+    "numbers": [
+      3,
+      14,
+      18,
+      34,
+      42,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1506,
+      "data": "26/06/2013",
+      "local": "Audit\u00f3rio em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "49",
+        "34",
+        "42",
+        "18",
+        "03",
+        "14"
+      ],
+      "dezenas": [
+        "03",
+        "14",
+        "18",
+        "34",
+        "42",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 182,
+          "valorPremio": 13681.2
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10892,
+          "valorPremio": 326.58
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV.",
+      "acumulou": true,
+      "proximoConcurso": 1507,
+      "dataProximoConcurso": "29/06/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 42530682.0,
+      "valorAcumuladoConcurso_0_5": 5670127.26,
+      "valorAcumuladoConcursoEspecial": 29041197.91,
+      "valorAcumuladoProximoConcurso": 29460557.82,
+      "valorEstimadoProximoConcurso": 35000000.0
+    }
+  },
+  {
+    "draw_id": 1507,
+    "draw_date": "2013-06-29",
+    "numbers": [
+      24,
+      46,
+      50,
+      51,
+      52,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1507,
+      "data": "29/06/2013",
+      "local": "Caminh\u00e3o da Sorte em SANTA TERESA, ES",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "46",
+        "24",
+        "51",
+        "50",
+        "56",
+        "52"
+      ],
+      "dezenas": [
+        "24",
+        "46",
+        "50",
+        "51",
+        "52",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 93,
+          "valorPremio": 34293.63
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7021,
+          "valorPremio": 648.93
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1508,
+      "dataProximoConcurso": "03/07/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 54475754.0,
+      "valorAcumuladoConcurso_0_5": 9363009.94,
+      "valorAcumuladoConcursoEspecial": 29880489.43,
+      "valorAcumuladoProximoConcurso": 35335598.46,
+      "valorEstimadoProximoConcurso": 42000000.0
+    }
+  },
+  {
+    "draw_id": 1508,
+    "draw_date": "2013-07-03",
+    "numbers": [
+      17,
+      18,
+      30,
+      35,
+      39,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1508,
+      "data": "03/07/2013",
+      "local": "Caminh\u00e3o da Sorte em MINEIROS, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "58",
+        "39",
+        "18",
+        "17",
+        "35",
+        "30"
+      ],
+      "dezenas": [
+        "17",
+        "18",
+        "30",
+        "35",
+        "39",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 21168975.92
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 115,
+          "valorPremio": 33054.59
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10276,
+          "valorPremio": 528.45
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1509,
+      "dataProximoConcurso": "06/07/2013",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "TERES\u00d3POLIS",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "S\u00c3O PAULO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 64928654.0,
+      "valorAcumuladoConcurso_0_5": 13764489.21,
+      "valorAcumuladoConcursoEspecial": 30880825.64,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 1509,
+    "draw_date": "2013-07-06",
+    "numbers": [
+      1,
+      6,
+      27,
+      46,
+      51,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1509,
+      "data": "06/07/2013",
+      "local": "Caminh\u00e3o da Sorte em MINEIROS, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "27",
+        "51",
+        "01",
+        "46",
+        "59",
+        "06"
+      ],
+      "dezenas": [
+        "01",
+        "06",
+        "27",
+        "46",
+        "51",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 71,
+          "valorPremio": 22607.95
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5633,
+          "valorPremio": 407.08
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1510,
+      "dataProximoConcurso": "10/07/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 27417412.0,
+      "valorAcumuladoConcurso_0_5": 18579983.72,
+      "valorAcumuladoConcursoEspecial": 31303237.45,
+      "valorAcumuladoProximoConcurso": 18579983.72,
+      "valorEstimadoProximoConcurso": 22000000.0
+    }
+  },
+  {
+    "draw_id": 1510,
+    "draw_date": "2013-07-10",
+    "numbers": [
+      1,
+      8,
+      17,
+      44,
+      46,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1510,
+      "data": "10/07/2013",
+      "local": "Audit\u00f3rio em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "01",
+        "08",
+        "44",
+        "17",
+        "46",
+        "53"
+      ],
+      "dezenas": [
+        "01",
+        "08",
+        "17",
+        "44",
+        "46",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 22933056.04
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 95,
+          "valorPremio": 24874.7
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9101,
+          "valorPremio": 370.93
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV.",
+      "acumulou": false,
+      "proximoConcurso": 1511,
+      "dataProximoConcurso": "13/07/2013",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "PONTA GROSSA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        }
+      ],
+      "valorArrecadado": 40363448.0,
+      "valorAcumuladoConcurso_0_5": 2736216.89,
+      "valorAcumuladoConcursoEspecial": 31925104.94,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2700000.0
+    }
+  },
+  {
+    "draw_id": 1511,
+    "draw_date": "2013-07-13",
+    "numbers": [
+      4,
+      8,
+      17,
+      29,
+      31,
+      45
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1511,
+      "data": "13/07/2013",
+      "local": "Caminh\u00e3o da Sorte em ARAGAR\u00c7AS, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "08",
+        "29",
+        "31",
+        "04",
+        "17",
+        "45"
+      ],
+      "dezenas": [
+        "04",
+        "08",
+        "17",
+        "29",
+        "31",
+        "45"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 138,
+          "valorPremio": 11883.51
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7658,
+          "valorPremio": 305.92
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1512,
+      "dataProximoConcurso": "17/07/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 28011126.0,
+      "valorAcumuladoConcurso_0_5": 4635076.36,
+      "valorAcumuladoConcursoEspecial": 32356663.93,
+      "valorAcumuladoProximoConcurso": 3020912.81,
+      "valorEstimadoProximoConcurso": 6500000.0
+    }
+  },
+  {
+    "draw_id": 1512,
+    "draw_date": "2013-07-17",
+    "numbers": [
+      11,
+      28,
+      35,
+      42,
+      46,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1512,
+      "data": "17/07/2013",
+      "local": "Audit\u00f3rio em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "35",
+        "11",
+        "28",
+        "46",
+        "42",
+        "58"
+      ],
+      "dezenas": [
+        "11",
+        "28",
+        "35",
+        "42",
+        "46",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 94,
+          "valorPremio": 19009.23
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5874,
+          "valorPremio": 434.57
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Sorteio realizado em est\u00fadio de TV.",
+      "acumulou": true,
+      "proximoConcurso": 1513,
+      "dataProximoConcurso": "20/07/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 30521036.0,
+      "valorAcumuladoConcurso_0_5": 6704081.31,
+      "valorAcumuladoConcursoEspecial": 32826892.34,
+      "valorAcumuladoProximoConcurso": 6312511.6,
+      "valorEstimadoProximoConcurso": 10000000.0
+    }
+  },
+  {
+    "draw_id": 1513,
+    "draw_date": "2013-07-20",
+    "numbers": [
+      17,
+      28,
+      31,
+      56,
+      57,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1513,
+      "data": "20/07/2013",
+      "local": "Caminh\u00e3o da Sorte em IPAMERI, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "31",
+        "57",
+        "17",
+        "56",
+        "28",
+        "58"
+      ],
+      "dezenas": [
+        "17",
+        "28",
+        "31",
+        "56",
+        "57",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 44,
+          "valorPremio": 47603.75
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4837,
+          "valorPremio": 618.61
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1514,
+      "dataProximoConcurso": "24/07/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 35776730.0,
+      "valorAcumuladoConcurso_0_5": 9129366.99,
+      "valorAcumuladoConcursoEspecial": 33378093.65,
+      "valorAcumuladoProximoConcurso": 10170920.65,
+      "valorEstimadoProximoConcurso": 14500000.0
+    }
+  },
+  {
+    "draw_id": 1514,
+    "draw_date": "2013-07-24",
+    "numbers": [
+      16,
+      17,
+      23,
+      42,
+      59,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1514,
+      "data": "24/07/2013",
+      "local": "Caminh\u00e3o da Sorte em CAIC\u00d3, RN",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "23",
+        "16",
+        "17",
+        "59",
+        "42",
+        "60"
+      ],
+      "dezenas": [
+        "16",
+        "17",
+        "23",
+        "42",
+        "59",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 14061405.08
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 66,
+          "valorPremio": 31999.66
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6219,
+          "valorPremio": 485.14
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1515,
+      "dataProximoConcurso": "27/07/2013",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "TOLEDO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        }
+      ],
+      "valorArrecadado": 36074146.0,
+      "valorAcumuladoConcurso_0_5": 11574814.35,
+      "valorAcumuladoConcursoEspecial": 33933877.16,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 14000000.0
+    }
+  },
+  {
+    "draw_id": 1515,
+    "draw_date": "2013-07-27",
+    "numbers": [
+      4,
+      13,
+      14,
+      18,
+      49,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1515,
+      "data": "27/07/2013",
+      "local": "Caminh\u00e3o da Sorte em CAIC\u00d3, RN",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "59",
+        "49",
+        "13",
+        "18",
+        "04",
+        "14"
+      ],
+      "dezenas": [
+        "04",
+        "13",
+        "14",
+        "18",
+        "49",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 15200594.63
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 111,
+          "valorPremio": 17732.26
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8567,
+          "valorPremio": 328.21
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1516,
+      "dataProximoConcurso": "31/07/2013",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "SAPUCAIA DO SUL",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RS"
+        }
+      ],
+      "valorArrecadado": 33619702.0,
+      "valorAcumuladoConcurso_0_5": 2279061.89,
+      "valorAcumuladoConcursoEspecial": 34451845.8,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 1516,
+    "draw_date": "2013-07-31",
+    "numbers": [
+      4,
+      18,
+      20,
+      34,
+      45,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1516,
+      "data": "31/07/2013",
+      "local": "Audit\u00f3rio em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "34",
+        "60",
+        "18",
+        "45",
+        "04",
+        "20"
+      ],
+      "dezenas": [
+        "04",
+        "18",
+        "20",
+        "34",
+        "45",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 2581185.45
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 56,
+          "valorPremio": 25021.69
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3946,
+          "valorPremio": 507.28
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Sorteio realizado em est\u00fadio de TV.",
+      "acumulou": false,
+      "proximoConcurso": 1517,
+      "dataProximoConcurso": "03/08/2013",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "NOVO PROGRESSO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PA"
+        }
+      ],
+      "valorArrecadado": 23933796.0,
+      "valorAcumuladoConcurso_0_5": 3901521.31,
+      "valorAcumuladoConcursoEspecial": 34820586.59,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 1517,
+    "draw_date": "2013-08-03",
+    "numbers": [
+      7,
+      17,
+      38,
+      45,
+      52,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1517,
+      "data": "03/08/2013",
+      "local": "Caminh\u00e3o da Sorte em JO\u00c3O PESSOA, PB",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "45",
+        "38",
+        "52",
+        "17",
+        "07",
+        "56"
+      ],
+      "dezenas": [
+        "07",
+        "17",
+        "38",
+        "45",
+        "52",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 60,
+          "valorPremio": 25710.14
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5366,
+          "valorPremio": 410.68
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1518,
+      "dataProximoConcurso": "06/08/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 26348906.0,
+      "valorAcumuladoConcurso_0_5": 5687699.77,
+      "valorAcumuladoConcursoEspecial": 35226536.24,
+      "valorAcumuladoProximoConcurso": 2841647.55,
+      "valorEstimadoProximoConcurso": 6000000.0
+    }
+  },
+  {
+    "draw_id": 1518,
+    "draw_date": "2013-08-06",
+    "numbers": [
+      8,
+      9,
+      28,
+      41,
+      48,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1518,
+      "data": "06/08/2013",
+      "local": "Audit\u00f3rio em BRAS\u00cdLIA, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "28",
+        "08",
+        "55",
+        "41",
+        "48",
+        "09"
+      ],
+      "dezenas": [
+        "08",
+        "09",
+        "28",
+        "41",
+        "48",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 28,
+          "valorPremio": 36256.85
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2892,
+          "valorPremio": 501.47
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1519,
+      "dataProximoConcurso": "08/08/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 17340232.0,
+      "valorAcumuladoConcurso_0_5": 6863184.96,
+      "valorAcumuladoConcursoEspecial": 35493691.99,
+      "valorAcumuladoProximoConcurso": 4711737.63,
+      "valorEstimadoProximoConcurso": 6700000.0
+    }
+  },
+  {
+    "draw_id": 1519,
+    "draw_date": "2013-08-08",
+    "numbers": [
+      5,
+      6,
+      15,
+      23,
+      56,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1519,
+      "data": "08/08/2013",
+      "local": "Caminh\u00e3o da Sorte em ITABIRA, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "06",
+        "23",
+        "56",
+        "15",
+        "05",
+        "59"
+      ],
+      "dezenas": [
+        "05",
+        "06",
+        "15",
+        "23",
+        "56",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 72,
+          "valorPremio": 21543.33
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5886,
+          "valorPremio": 376.46
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1520,
+      "dataProximoConcurso": "10/08/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 26494284.0,
+      "valorAcumuladoConcurso_0_5": 8659218.51,
+      "valorAcumuladoConcursoEspecial": 35901881.44,
+      "valorAcumuladoProximoConcurso": 16228282.25,
+      "valorEstimadoProximoConcurso": 21000000.0
+    }
+  },
+  {
+    "draw_id": 1520,
+    "draw_date": "2013-08-10",
+    "numbers": [
+      7,
+      31,
+      35,
+      36,
+      46,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1520,
+      "data": "10/08/2013",
+      "local": "Caminh\u00e3o da Sorte em ITABIRA, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "36",
+        "46",
+        "48",
+        "31",
+        "07",
+        "35"
+      ],
+      "dezenas": [
+        "07",
+        "31",
+        "35",
+        "36",
+        "46",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 43,
+          "valorPremio": 53442.81
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5886,
+          "valorPremio": 557.74
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1521,
+      "dataProximoConcurso": "14/08/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 39252254.0,
+      "valorAcumuladoConcurso_0_5": 2660889.63,
+      "valorAcumuladoConcursoEspecial": 36506629.1,
+      "valorAcumuladoProximoConcurso": 20461515.75,
+      "valorEstimadoProximoConcurso": 25000000.0
+    }
+  },
+  {
+    "draw_id": 1521,
+    "draw_date": "2013-08-14",
+    "numbers": [
+      11,
+      14,
+      18,
+      30,
+      33,
+      39
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1521,
+      "data": "14/08/2013",
+      "local": "Caminh\u00e3o da Sorte em C\u00cdCERO DANTAS, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "18",
+        "30",
+        "14",
+        "11",
+        "33",
+        "39"
+      ],
+      "dezenas": [
+        "11",
+        "14",
+        "18",
+        "30",
+        "33",
+        "39"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 25313774.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 134,
+          "valorPremio": 19657.33
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9266,
+          "valorPremio": 406.1
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1522,
+      "dataProximoConcurso": "17/08/2013",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "NOVA IGUA\u00c7U",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        }
+      ],
+      "valorArrecadado": 44992102.0,
+      "valorAcumuladoConcurso_0_5": 5710880.53,
+      "valorAcumuladoConcursoEspecial": 37199808.87,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 1522,
+    "draw_date": "2013-08-17",
+    "numbers": [
+      5,
+      8,
+      23,
+      32,
+      33,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1522,
+      "data": "17/08/2013",
+      "local": "Caminh\u00e3o da Sorte em C\u00cdCERO DANTAS, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "33",
+        "05",
+        "23",
+        "32",
+        "08",
+        "56"
+      ],
+      "dezenas": [
+        "05",
+        "08",
+        "23",
+        "32",
+        "33",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 93,
+          "valorPremio": 16446.2
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6765,
+          "valorPremio": 322.98
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1523,
+      "dataProximoConcurso": "21/08/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 26124950.0,
+      "valorAcumuladoConcurso_0_5": 7481877.13,
+      "valorAcumuladoConcursoEspecial": 37602308.11,
+      "valorAcumuladoProximoConcurso": 2817494.59,
+      "valorEstimadoProximoConcurso": 6000000.0
+    }
+  },
+  {
+    "draw_id": 1523,
+    "draw_date": "2013-08-21",
+    "numbers": [
+      22,
+      25,
+      31,
+      39,
+      41,
+      44
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1523,
+      "data": "21/08/2013",
+      "local": "Caminh\u00e3o da Sorte em SILVEIRAS, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "25",
+        "39",
+        "44",
+        "41",
+        "31",
+        "22"
+      ],
+      "dezenas": [
+        "22",
+        "25",
+        "31",
+        "39",
+        "41",
+        "44"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 61,
+          "valorPremio": 27846.83
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4254,
+          "valorPremio": 570.44
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1524,
+      "dataProximoConcurso": "24/08/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 29014322.0,
+      "valorAcumuladoConcurso_0_5": 9448742.73,
+      "valorAcumuladoConcursoEspecial": 38049323.03,
+      "valorAcumuladoProximoConcurso": 5946598.97,
+      "valorEstimadoProximoConcurso": 9500000.0
+    }
+  },
+  {
+    "draw_id": 1524,
+    "draw_date": "2013-08-24",
+    "numbers": [
+      2,
+      12,
+      40,
+      46,
+      52,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1524,
+      "data": "24/08/2013",
+      "local": "Caminh\u00e3o da Sorte em SILVEIRAS, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "40",
+        "53",
+        "12",
+        "46",
+        "02",
+        "52"
+      ],
+      "dezenas": [
+        "02",
+        "12",
+        "40",
+        "46",
+        "52",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 53,
+          "valorPremio": 38596.27
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4637,
+          "valorPremio": 630.21
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1525,
+      "dataProximoConcurso": "28/08/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 34940408.0,
+      "valorAcumuladoConcurso_0_5": 21532147.87,
+      "valorAcumuladoConcursoEspecial": 38587639.37,
+      "valorAcumuladoProximoConcurso": 21532147.87,
+      "valorEstimadoProximoConcurso": 26000000.0
+    }
+  },
+  {
+    "draw_id": 1525,
+    "draw_date": "2013-08-28",
+    "numbers": [
+      2,
+      26,
+      30,
+      35,
+      46,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1525,
+      "data": "28/08/2013",
+      "local": "Caminh\u00e3o da Sorte em PRESIDENTE VENCESLAU, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "30",
+        "46",
+        "35",
+        "54",
+        "26",
+        "02"
+      ],
+      "dezenas": [
+        "02",
+        "26",
+        "30",
+        "35",
+        "46",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 67,
+          "valorPremio": 36863.34
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6260,
+          "valorPremio": 563.63
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1526,
+      "dataProximoConcurso": "31/08/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 42186772.0,
+      "valorAcumuladoConcurso_0_5": 2859819.06,
+      "valorAcumuladoConcursoEspecial": 39237598.27,
+      "valorAcumuladoProximoConcurso": 26081860.01,
+      "valorEstimadoProximoConcurso": 32000000.0
+    }
+  },
+  {
+    "draw_id": 1526,
+    "draw_date": "2013-08-31",
+    "numbers": [
+      10,
+      16,
+      28,
+      47,
+      51,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1526,
+      "data": "31/08/2013",
+      "local": "Caminh\u00e3o da Sorte em PRESIDENTE VENCESLAU, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "51",
+        "47",
+        "28",
+        "10",
+        "59",
+        "16"
+      ],
+      "dezenas": [
+        "10",
+        "16",
+        "28",
+        "47",
+        "51",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 31746274.15
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 149,
+          "valorPremio": 20637.37
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10735,
+          "valorPremio": 409.2
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1527,
+      "dataProximoConcurso": "04/09/2013",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "S\u00c3O PAULO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 52522740.0,
+      "valorAcumuladoConcurso_0_5": 6420307.95,
+      "valorAcumuladoConcursoEspecial": 40046800.31,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 1527,
+    "draw_date": "2013-09-04",
+    "numbers": [
+      16,
+      32,
+      36,
+      42,
+      44,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1527,
+      "data": "04/09/2013",
+      "local": "Caminh\u00e3o da Sorte em ITANHA\u00c9M, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "32",
+        "44",
+        "42",
+        "48",
+        "16",
+        "36"
+      ],
+      "dezenas": [
+        "16",
+        "32",
+        "36",
+        "42",
+        "44",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 92,
+          "valorPremio": 14866.46
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5439,
+          "valorPremio": 359.23
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1528,
+      "dataProximoConcurso": "06/09/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 23361580.0,
+      "valorAcumuladoConcurso_0_5": 8003977.15,
+      "valorAcumuladoConcursoEspecial": 40406725.15,
+      "valorAcumuladoProximoConcurso": 2519473.73,
+      "valorEstimadoProximoConcurso": 5200000.0
+    }
+  },
+  {
+    "draw_id": 1528,
+    "draw_date": "2013-09-06",
+    "numbers": [
+      4,
+      13,
+      15,
+      19,
+      36,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1528,
+      "data": "06/09/2013",
+      "local": "Audit\u00f3rio em BRAS\u00cdLIA, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "04",
+        "13",
+        "58",
+        "36",
+        "19",
+        "15"
+      ],
+      "dezenas": [
+        "04",
+        "13",
+        "15",
+        "19",
+        "36",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 101,
+          "valorPremio": 12591.67
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7347,
+          "valorPremio": 247.28
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1529,
+      "dataProximoConcurso": "11/09/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 21722580.0,
+      "valorAcumuladoConcurso_0_5": 9476539.4,
+      "valorAcumuladoConcursoEspecial": 40741398.4,
+      "valorAcumuladoProximoConcurso": 4862186.4,
+      "valorEstimadoProximoConcurso": 7500000.0
+    }
+  },
+  {
+    "draw_id": 1529,
+    "draw_date": "2013-09-11",
+    "numbers": [
+      11,
+      15,
+      17,
+      34,
+      35,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1529,
+      "data": "11/09/2013",
+      "local": "Caminh\u00e3o da Sorte em NOVA ODESSA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "35",
+        "17",
+        "15",
+        "34",
+        "49",
+        "11"
+      ],
+      "dezenas": [
+        "11",
+        "15",
+        "17",
+        "34",
+        "35",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 8144582.4
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 75,
+          "valorPremio": 23758.3
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6622,
+          "valorPremio": 384.4
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1530,
+      "dataProximoConcurso": "14/09/2013",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "CAMPINA GRANDE DO SUL",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        }
+      ],
+      "valorArrecadado": 30435704.0,
+      "valorAcumuladoConcurso_0_5": 11539759.74,
+      "valorAcumuladoConcursoEspecial": 41210312.13,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 15000000.0
+    }
+  },
+  {
+    "draw_id": 1530,
+    "draw_date": "2013-09-14",
+    "numbers": [
+      10,
+      16,
+      28,
+      33,
+      48,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1530,
+      "data": "14/09/2013",
+      "local": "Caminh\u00e3o da Sorte em NOVA ODESSA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "53",
+        "10",
+        "28",
+        "16",
+        "48",
+        "33"
+      ],
+      "dezenas": [
+        "10",
+        "16",
+        "28",
+        "33",
+        "48",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 7800140.92
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 138,
+          "valorPremio": 15973.07
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9644,
+          "valorPremio": 326.52
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1531,
+      "dataProximoConcurso": "18/09/2013",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "GUARULHOS",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "Ribeir\u00e3o Preto",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 37650804.0,
+      "valorAcumuladoConcurso_0_5": 2552328.17,
+      "valorAcumuladoConcursoEspecial": 41790386.73,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 1531,
+    "draw_date": "2013-09-18",
+    "numbers": [
+      12,
+      13,
+      24,
+      41,
+      42,
+      44
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1531,
+      "data": "18/09/2013",
+      "local": "Caminh\u00e3o da Sorte em SIM\u00c3O DIAS, SE",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "24",
+        "41",
+        "12",
+        "42",
+        "44",
+        "13"
+      ],
+      "dezenas": [
+        "12",
+        "13",
+        "24",
+        "41",
+        "42",
+        "44"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 108,
+          "valorPremio": 12777.02
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5944,
+          "valorPremio": 331.64
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1532,
+      "dataProximoConcurso": "21/09/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 23570024.0,
+      "valorAcumuladoConcurso_0_5": 4150127.69,
+      "valorAcumuladoConcursoEspecial": 42153523.0,
+      "valorAcumuladoProximoConcurso": 2541953.77,
+      "valorEstimadoProximoConcurso": 5500000.0
+    }
+  },
+  {
+    "draw_id": 1532,
+    "draw_date": "2013-09-21",
+    "numbers": [
+      2,
+      11,
+      23,
+      31,
+      42,
+      44
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1532,
+      "data": "21/09/2013",
+      "local": "Caminh\u00e3o da Sorte em SIM\u00c3O DIAS, SE",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "42",
+        "02",
+        "11",
+        "23",
+        "31",
+        "44"
+      ],
+      "dezenas": [
+        "02",
+        "11",
+        "23",
+        "31",
+        "42",
+        "44"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 3,
+          "valorPremio": 1934416.36
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 91,
+          "valorPremio": 19455.14
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5676,
+          "valorPremio": 445.58
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1533,
+      "dataProximoConcurso": "25/09/2013",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "PONTA POR\u00c3",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MS"
+        },
+        {
+          "ganhadores": 2,
+          "municipio": "S\u00c3O PAULO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 30240050.0,
+      "valorAcumuladoConcurso_0_5": 6200084.74,
+      "valorAcumuladoConcursoEspecial": 42619422.34,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 1533,
+    "draw_date": "2013-09-25",
+    "numbers": [
+      13,
+      21,
+      29,
+      34,
+      47,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1533,
+      "data": "25/09/2013",
+      "local": "Audit\u00f3rio em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "29",
+        "21",
+        "47",
+        "57",
+        "13",
+        "34"
+      ],
+      "dezenas": [
+        "13",
+        "21",
+        "29",
+        "34",
+        "47",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 89,
+          "valorPremio": 15085.8
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5659,
+          "valorPremio": 338.93
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Sorteio realizado em Est\u00fadio de TV.",
+      "acumulou": true,
+      "proximoConcurso": 1534,
+      "dataProximoConcurso": "28/09/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 22933224.0,
+      "valorAcumuladoConcurso_0_5": 7754715.91,
+      "valorAcumuladoConcursoEspecial": 42972747.62,
+      "valorAcumuladoProximoConcurso": 2473276.87,
+      "valorEstimadoProximoConcurso": 5200000.0
+    }
+  },
+  {
+    "draw_id": 1534,
+    "draw_date": "2013-09-28",
+    "numbers": [
+      1,
+      12,
+      28,
+      29,
+      34,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1534,
+      "data": "28/09/2013",
+      "local": "Caminh\u00e3o da Sorte em JACOBINA, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "28",
+        "12",
+        "34",
+        "29",
+        "01",
+        "48"
+      ],
+      "dezenas": [
+        "01",
+        "12",
+        "28",
+        "29",
+        "34",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 5734618.57
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 89,
+          "valorPremio": 19892.61
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6196,
+          "valorPremio": 408.19
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1535,
+      "dataProximoConcurso": "02/10/2013",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "ITALVA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        }
+      ],
+      "valorArrecadado": 30240480.0,
+      "valorAcumuladoConcurso_0_5": 9804702.12,
+      "valorAcumuladoConcursoEspecial": 43438653.59,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 12300000.0
+    }
+  },
+  {
+    "draw_id": 1535,
+    "draw_date": "2013-10-02",
+    "numbers": [
+      8,
+      9,
+      25,
+      41,
+      54,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1535,
+      "data": "02/10/2013",
+      "local": "Audit\u00f3rio em Osasco, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "55",
+        "25",
+        "09",
+        "08",
+        "54",
+        "41"
+      ],
+      "dezenas": [
+        "08",
+        "09",
+        "25",
+        "41",
+        "54",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 63,
+          "valorPremio": 30780.52
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6058,
+          "valorPremio": 457.28
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Sorteio realizado em Est\u00fadio de TV.",
+      "acumulou": true,
+      "proximoConcurso": 1536,
+      "dataProximoConcurso": "05/10/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 33122518.0,
+      "valorAcumuladoConcurso_0_5": 2245358.05,
+      "valorAcumuladoConcursoEspecial": 43948962.26,
+      "valorAcumuladoProximoConcurso": 13376862.66,
+      "valorEstimadoProximoConcurso": 17000000.0
+    }
+  },
+  {
+    "draw_id": 1536,
+    "draw_date": "2013-10-05",
+    "numbers": [
+      13,
+      18,
+      29,
+      32,
+      50,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1536,
+      "data": "05/10/2013",
+      "local": "Caminh\u00e3o da Sorte em BARRA DE S\u00c3O FRANCISCO, ES",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "18",
+        "32",
+        "29",
+        "13",
+        "50",
+        "58"
+      ],
+      "dezenas": [
+        "13",
+        "18",
+        "29",
+        "32",
+        "50",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 89,
+          "valorPremio": 27340.47
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7408,
+          "valorPremio": 469.24
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1537,
+      "dataProximoConcurso": "09/10/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 41562606.0,
+      "valorAcumuladoConcurso_0_5": 5062865.22,
+      "valorAcumuladoConcursoEspecial": 44589304.81,
+      "valorAcumuladoProximoConcurso": 17859260.43,
+      "valorEstimadoProximoConcurso": 23000000.0
+    }
+  },
+  {
+    "draw_id": 1537,
+    "draw_date": "2013-10-09",
+    "numbers": [
+      6,
+      10,
+      33,
+      50,
+      51,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1537,
+      "data": "09/10/2013",
+      "local": "Audit\u00f3rio em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "06",
+        "56",
+        "33",
+        "50",
+        "51",
+        "10"
+      ],
+      "dezenas": [
+        "06",
+        "10",
+        "33",
+        "50",
+        "51",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 23232379.04
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 209,
+          "valorPremio": 13956.16
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11870,
+          "valorPremio": 351.04
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Sorteio realizado em Est\u00fadio de TV.",
+      "acumulou": false,
+      "proximoConcurso": 1538,
+      "dataProximoConcurso": "11/10/2013",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "VIT\u00d3RIA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "ES"
+        }
+      ],
+      "valorArrecadado": 49821730.0,
+      "valorAcumuladoConcurso_0_5": 8440254.06,
+      "valorAcumuladoConcursoEspecial": 45356893.2,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 1538,
+    "draw_date": "2013-10-11",
+    "numbers": [
+      23,
+      27,
+      35,
+      52,
+      53,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1538,
+      "data": "11/10/2013",
+      "local": "Caminh\u00e3o da Sorte em APARECIDA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "35",
+        "52",
+        "27",
+        "53",
+        "57",
+        "23"
+      ],
+      "dezenas": [
+        "23",
+        "27",
+        "35",
+        "52",
+        "53",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 2163459.28
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 132,
+          "valorPremio": 8897.35
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5238,
+          "valorPremio": 320.31
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1539,
+      "dataProximoConcurso": "16/10/2013",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "RIBEIR\u00c3OZINHO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MT"
+        }
+      ],
+      "valorArrecadado": 20060470.0,
+      "valorAcumuladoConcurso_0_5": 9800142.76,
+      "valorAcumuladoConcursoEspecial": 45665958.83,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 1539,
+    "draw_date": "2013-10-16",
+    "numbers": [
+      8,
+      10,
+      20,
+      26,
+      49,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1539,
+      "data": "16/10/2013",
+      "local": "Audit\u00f3rio em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "10",
+        "49",
+        "08",
+        "58",
+        "20",
+        "26"
+      ],
+      "dezenas": [
+        "08",
+        "10",
+        "20",
+        "26",
+        "49",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 53,
+          "valorPremio": 27254.69
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4366,
+          "valorPremio": 472.64
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV",
+      "acumulou": true,
+      "proximoConcurso": 1540,
+      "dataProximoConcurso": "19/10/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 24673116.0,
+      "valorAcumuladoConcurso_0_5": 14133639.1,
+      "valorAcumuladoConcursoEspecial": 46046090.11,
+      "valorAcumuladoProximoConcurso": 14133639.1,
+      "valorEstimadoProximoConcurso": 17500000.0
+    }
+  },
+  {
+    "draw_id": 1540,
+    "draw_date": "2013-10-19",
+    "numbers": [
+      3,
+      17,
+      27,
+      32,
+      47,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1540,
+      "data": "19/10/2013",
+      "local": "Caminh\u00e3o da Sorte em SANTA HELENA DE GOI\u00c1S, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "54",
+        "47",
+        "27",
+        "17",
+        "03",
+        "32"
+      ],
+      "dezenas": [
+        "03",
+        "17",
+        "27",
+        "32",
+        "47",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 299,
+          "valorPremio": 8340.81
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 14429,
+          "valorPremio": 246.91
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1541,
+      "dataProximoConcurso": "23/10/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 42597696.0,
+      "valorAcumuladoConcurso_0_5": 2887675.38,
+      "valorAcumuladoConcursoEspecial": 46702379.98,
+      "valorAcumuladoProximoConcurso": 18727668.11,
+      "valorEstimadoProximoConcurso": 23000000.0
+    }
+  },
+  {
+    "draw_id": 1541,
+    "draw_date": "2013-10-23",
+    "numbers": [
+      5,
+      24,
+      37,
+      44,
+      49,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1541,
+      "data": "23/10/2013",
+      "local": "Audit\u00f3rio em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "37",
+        "05",
+        "24",
+        "44",
+        "49",
+        "58"
+      ],
+      "dezenas": [
+        "05",
+        "24",
+        "37",
+        "44",
+        "49",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 205,
+          "valorPremio": 13154.6
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 12026,
+          "valorPremio": 320.34
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Sorteio realizado em Est\u00fadio de TV.",
+      "acumulou": true,
+      "proximoConcurso": 1542,
+      "dataProximoConcurso": "26/10/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 46061530.0,
+      "valorAcumuladoConcurso_0_5": 6010162.25,
+      "valorAcumuladoConcursoEspecial": 47412036.1,
+      "valorAcumuladoProximoConcurso": 23695260.85,
+      "valorEstimadoProximoConcurso": 29000000.0
+    }
+  },
+  {
+    "draw_id": 1542,
+    "draw_date": "2013-10-26",
+    "numbers": [
+      7,
+      11,
+      12,
+      30,
+      39,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1542,
+      "data": "26/10/2013",
+      "local": "Caminh\u00e3o da Sorte em PARACATU, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "07",
+        "12",
+        "57",
+        "11",
+        "30",
+        "39"
+      ],
+      "dezenas": [
+        "07",
+        "11",
+        "12",
+        "30",
+        "39",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 154,
+          "valorPremio": 20868.02
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11783,
+          "valorPremio": 389.62
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1543,
+      "dataProximoConcurso": "30/10/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 54891958.0,
+      "valorAcumuladoConcurso_0_5": 9731259.17,
+      "valorAcumuladoConcursoEspecial": 48257739.96,
+      "valorAcumuladoProximoConcurso": 29615187.77,
+      "valorEstimadoProximoConcurso": 37000000.0
+    }
+  },
+  {
+    "draw_id": 1543,
+    "draw_date": "2013-10-30",
+    "numbers": [
+      7,
+      15,
+      20,
+      23,
+      30,
+      41
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1543,
+      "data": "30/10/2013",
+      "local": "Audit\u00f3rio em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "30",
+        "07",
+        "23",
+        "20",
+        "15",
+        "41"
+      ],
+      "dezenas": [
+        "07",
+        "15",
+        "20",
+        "23",
+        "30",
+        "41"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 182,
+          "valorPremio": 21370.06
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 13138,
+          "valorPremio": 422.91
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV",
+      "acumulou": true,
+      "proximoConcurso": 1544,
+      "dataProximoConcurso": "01/11/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 66433014.0,
+      "valorAcumuladoConcurso_0_5": 14234718.21,
+      "valorAcumuladoConcursoEspecial": 49281253.4,
+      "valorAcumuladoProximoConcurso": 36779781.7,
+      "valorEstimadoProximoConcurso": 45000000.0
+    }
+  },
+  {
+    "draw_id": 1544,
+    "draw_date": "2013-11-01",
+    "numbers": [
+      2,
+      21,
+      30,
+      35,
+      45,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1544,
+      "data": "01/11/2013",
+      "local": "Audit\u00f3rio em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "30",
+        "50",
+        "45",
+        "02",
+        "35",
+        "21"
+      ],
+      "dezenas": [
+        "02",
+        "21",
+        "30",
+        "35",
+        "45",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 152,
+          "valorPremio": 26624.88
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10385,
+          "valorPremio": 556.7
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV",
+      "acumulou": true,
+      "proximoConcurso": 1545,
+      "dataProximoConcurso": "06/11/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 69125452.0,
+      "valorAcumuladoConcurso_0_5": 63155442.89,
+      "valorAcumuladoConcursoEspecial": 50346248.42,
+      "valorAcumuladoProximoConcurso": 63155442.89,
+      "valorEstimadoProximoConcurso": 75000000.0
+    }
+  },
+  {
+    "draw_id": 1545,
+    "draw_date": "2013-11-06",
+    "numbers": [
+      4,
+      6,
+      11,
+      24,
+      45,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1545,
+      "data": "06/11/2013",
+      "local": "Audit\u00f3rio em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "06",
+        "48",
+        "11",
+        "45",
+        "04",
+        "24"
+      ],
+      "dezenas": [
+        "04",
+        "06",
+        "11",
+        "24",
+        "45",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 80499108.16
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 680,
+          "valorPremio": 13845.79
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 45410,
+          "valorPremio": 296.19
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV.",
+      "acumulou": false,
+      "proximoConcurso": 1546,
+      "dataProximoConcurso": "09/11/2013",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "MAU\u00c1",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 160817482.0,
+      "valorAcumuladoConcurso_0_5": 10901732.45,
+      "valorAcumuladoConcursoEspecial": 52823914.9,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2800000.0
+    }
+  },
+  {
+    "draw_id": 1546,
+    "draw_date": "2013-11-09",
+    "numbers": [
+      4,
+      17,
+      38,
+      44,
+      53,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1546,
+      "data": "09/11/2013",
+      "local": "Caminh\u00e3o da Sorte em ARTUR NOGUEIRA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "38",
+        "44",
+        "17",
+        "60",
+        "04",
+        "53"
+      ],
+      "dezenas": [
+        "04",
+        "17",
+        "38",
+        "44",
+        "53",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 100,
+          "valorPremio": 17358.44
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6673,
+          "valorPremio": 371.61
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1547,
+      "dataProximoConcurso": "13/11/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 29649502.0,
+      "valorAcumuladoConcurso_0_5": 12911656.57,
+      "valorAcumuladoConcursoEspecial": 53280715.85,
+      "valorAcumuladoProximoConcurso": 3197606.56,
+      "valorEstimadoProximoConcurso": 6500000.0
+    }
+  },
+  {
+    "draw_id": 1547,
+    "draw_date": "2013-11-13",
+    "numbers": [
+      2,
+      9,
+      10,
+      18,
+      21,
+      28
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1547,
+      "data": "13/11/2013",
+      "local": "Audit\u00f3rio em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "28",
+        "21",
+        "09",
+        "10",
+        "02",
+        "18"
+      ],
+      "dezenas": [
+        "02",
+        "09",
+        "10",
+        "18",
+        "21",
+        "28"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 6867422.89
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 227,
+          "valorPremio": 8776.15
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11559,
+          "valorPremio": 246.21
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV.",
+      "acumulou": false,
+      "proximoConcurso": 1548,
+      "dataProximoConcurso": "16/11/2013",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "RECIFE",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PE"
+        }
+      ],
+      "valorArrecadado": 34028022.0,
+      "valorAcumuladoConcurso_0_5": 15218398.26,
+      "valorAcumuladoConcursoEspecial": 53804975.33,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 1548,
+    "draw_date": "2013-11-16",
+    "numbers": [
+      19,
+      41,
+      42,
+      44,
+      47,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1548,
+      "data": "16/11/2013",
+      "local": "Caminh\u00e3o da Sorte em SANTA B\u00c1RBARA D OESTE, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "44",
+        "41",
+        "42",
+        "54",
+        "47",
+        "19"
+      ],
+      "dezenas": [
+        "19",
+        "41",
+        "42",
+        "44",
+        "47",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 45,
+          "valorPremio": 31037.69
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3429,
+          "valorPremio": 581.88
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1549,
+      "dataProximoConcurso": "20/11/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 23856610.0,
+      "valorAcumuladoConcurso_0_5": 16835625.29,
+      "valorAcumuladoConcursoEspecial": 54172526.94,
+      "valorAcumuladoProximoConcurso": 2572861.18,
+      "valorEstimadoProximoConcurso": 5700000.0
+    }
+  },
+  {
+    "draw_id": 1549,
+    "draw_date": "2013-11-20",
+    "numbers": [
+      10,
+      12,
+      16,
+      20,
+      32,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1549,
+      "data": "20/11/2013",
+      "local": "Audit\u00f3rio em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "32",
+        "53",
+        "16",
+        "20",
+        "12",
+        "10"
+      ],
+      "dezenas": [
+        "10",
+        "12",
+        "16",
+        "20",
+        "32",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 5772796.8
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 66,
+          "valorPremio": 26319.82
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6564,
+          "valorPremio": 378.05
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV",
+      "acumulou": false,
+      "proximoConcurso": 1550,
+      "dataProximoConcurso": "23/11/2013",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "LONDRINA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        }
+      ],
+      "valorArrecadado": 29671098.0,
+      "valorAcumuladoConcurso_0_5": 18847013.39,
+      "valorAcumuladoConcursoEspecial": 54629660.61,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 23000000.0
+    }
+  },
+  {
+    "draw_id": 1550,
+    "draw_date": "2013-11-23",
+    "numbers": [
+      9,
+      13,
+      21,
+      27,
+      36,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1550,
+      "data": "23/11/2013",
+      "local": "Audit\u00f3rio em BRASILIA, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "21",
+        "56",
+        "36",
+        "09",
+        "13",
+        "27"
+      ],
+      "dezenas": [
+        "09",
+        "13",
+        "21",
+        "27",
+        "36",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 23634735.21
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 229,
+          "valorPremio": 11349.56
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 14109,
+          "valorPremio": 263.16
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1551,
+      "dataProximoConcurso": "27/11/2013",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "MONTANHA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "ES"
+        }
+      ],
+      "valorArrecadado": 44393694.0,
+      "valorAcumuladoConcurso_0_5": 3009425.14,
+      "valorAcumuladoConcursoEspecial": 55313620.88,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 1551,
+    "draw_date": "2013-11-27",
+    "numbers": [
+      2,
+      15,
+      19,
+      21,
+      23,
+      38
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1551,
+      "data": "27/11/2013",
+      "local": "Audit\u00f3rio em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "02",
+        "23",
+        "38",
+        "15",
+        "21",
+        "19"
+      ],
+      "dezenas": [
+        "02",
+        "15",
+        "19",
+        "21",
+        "23",
+        "38"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 2820316.51
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 131,
+          "valorPremio": 11687.25
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7631,
+          "valorPremio": 286.61
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Sorteio realizado em Est\u00fadio de TV.",
+      "acumulou": false,
+      "proximoConcurso": 1552,
+      "dataProximoConcurso": "30/11/2013",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "BOA VISTA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RR"
+        }
+      ],
+      "valorArrecadado": 26151116.0,
+      "valorAcumuladoConcurso_0_5": 4782195.52,
+      "valorAcumuladoConcursoEspecial": 55716523.25,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 1552,
+    "draw_date": "2013-11-30",
+    "numbers": [
+      7,
+      18,
+      24,
+      26,
+      39,
+      46
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1552,
+      "data": "30/11/2013",
+      "local": "Caminh\u00e3o da Sorte em DOIS VIZINHOS, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "07",
+        "18",
+        "26",
+        "46",
+        "39",
+        "24"
+      ],
+      "dezenas": [
+        "07",
+        "18",
+        "24",
+        "26",
+        "39",
+        "46"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 122,
+          "valorPremio": 13693.19
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7839,
+          "valorPremio": 304.44
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1553,
+      "dataProximoConcurso": "04/12/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 28534554.0,
+      "valorAcumuladoConcurso_0_5": 6716537.9,
+      "valorAcumuladoConcursoEspecial": 56156146.53,
+      "valorAcumuladoProximoConcurso": 3077362.89,
+      "valorEstimadoProximoConcurso": 6500000.0
+    }
+  },
+  {
+    "draw_id": 1553,
+    "draw_date": "2013-12-04",
+    "numbers": [
+      20,
+      21,
+      22,
+      29,
+      46,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1553,
+      "data": "04/12/2013",
+      "local": "Audit\u00f3rio em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "29",
+        "21",
+        "20",
+        "46",
+        "22",
+        "60"
+      ],
+      "dezenas": [
+        "20",
+        "21",
+        "22",
+        "29",
+        "46",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 48,
+          "valorPremio": 39092.63
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3788,
+          "valorPremio": 707.66
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Sorteio realizado em Est\u00fadio de TV.",
+      "acumulou": true,
+      "proximoConcurso": 1554,
+      "dataProximoConcurso": "07/12/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 32051102.0,
+      "valorAcumuladoConcurso_0_5": 8889265.22,
+      "valorAcumuladoConcursoEspecial": 56649948.22,
+      "valorAcumuladoProximoConcurso": 6533974.54,
+      "valorEstimadoProximoConcurso": 11000000.0
+    }
+  },
+  {
+    "draw_id": 1554,
+    "draw_date": "2013-12-07",
+    "numbers": [
+      30,
+      32,
+      49,
+      50,
+      52,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1554,
+      "data": "07/12/2013",
+      "local": "Caminh\u00e3o da Sorte em PONTA GROSSA, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "30",
+        "52",
+        "50",
+        "49",
+        "53",
+        "32"
+      ],
+      "dezenas": [
+        "30",
+        "32",
+        "49",
+        "50",
+        "52",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 60,
+          "valorPremio": 37772.91
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4098,
+          "valorPremio": 790.06
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1555,
+      "dataProximoConcurso": "11/12/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 38711366.0,
+      "valorAcumuladoConcurso_0_5": 22222363.27,
+      "valorAcumuladoConcursoEspecial": 57246362.58,
+      "valorAcumuladoProximoConcurso": 22222363.27,
+      "valorEstimadoProximoConcurso": 27500000.0
+    }
+  },
+  {
+    "draw_id": 1555,
+    "draw_date": "2013-12-11",
+    "numbers": [
+      2,
+      5,
+      23,
+      33,
+      52,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1555,
+      "data": "11/12/2013",
+      "local": "Audit\u00f3rio em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "05",
+        "52",
+        "59",
+        "02",
+        "33",
+        "23"
+      ],
+      "dezenas": [
+        "02",
+        "05",
+        "23",
+        "33",
+        "52",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 167,
+          "valorPremio": 16791.74
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 13033,
+          "valorPremio": 307.37
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV.",
+      "acumulou": true,
+      "proximoConcurso": 1556,
+      "dataProximoConcurso": "14/12/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 47898192.0,
+      "valorAcumuladoConcurso_0_5": 3246993.22,
+      "valorAcumuladoConcursoEspecial": 57984315.6,
+      "valorAcumuladoProximoConcurso": 27388034.29,
+      "valorEstimadoProximoConcurso": 33000000.0
+    }
+  },
+  {
+    "draw_id": 1556,
+    "draw_date": "2013-12-14",
+    "numbers": [
+      1,
+      4,
+      7,
+      10,
+      11,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1556,
+      "data": "14/12/2013",
+      "local": "Caminh\u00e3o da Sorte em LONDRINA, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "07",
+        "52",
+        "11",
+        "10",
+        "01",
+        "04"
+      ],
+      "dezenas": [
+        "01",
+        "04",
+        "07",
+        "10",
+        "11",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 549,
+          "valorPremio": 6125.83
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 26705,
+          "valorPremio": 179.9
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1557,
+      "dataProximoConcurso": "17/12/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 57443904.0,
+      "valorAcumuladoConcurso_0_5": 7141085.22,
+      "valorAcumuladoConcursoEspecial": 58869336.52,
+      "valorAcumuladoProximoConcurso": 33583180.67,
+      "valorEstimadoProximoConcurso": 40000000.0
+    }
+  },
+  {
+    "draw_id": 1557,
+    "draw_date": "2013-12-17",
+    "numbers": [
+      4,
+      16,
+      18,
+      31,
+      45,
+      46
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1557,
+      "data": "17/12/2013",
+      "local": "Audit\u00f3rio em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "46",
+        "18",
+        "16",
+        "45",
+        "31",
+        "04"
+      ],
+      "dezenas": [
+        "04",
+        "16",
+        "18",
+        "31",
+        "45",
+        "46"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 123,
+          "valorPremio": 20612.58
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8744,
+          "valorPremio": 414.21
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Sorteio realizado em Est\u00fadio de TV.",
+      "acumulou": true,
+      "proximoConcurso": 1558,
+      "dataProximoConcurso": "19/12/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 43305632.0,
+      "valorAcumuladoConcurso_0_5": 10076751.21,
+      "valorAcumuladoConcursoEspecial": 59536533.35,
+      "valorAcumuladoProximoConcurso": 38253558.38,
+      "valorEstimadoProximoConcurso": 44000000.0
+    }
+  },
+  {
+    "draw_id": 1558,
+    "draw_date": "2013-12-19",
+    "numbers": [
+      7,
+      15,
+      17,
+      31,
+      42,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1558,
+      "data": "19/12/2013",
+      "local": "Audit\u00f3rio em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "31",
+        "42",
+        "15",
+        "07",
+        "17",
+        "54"
+      ],
+      "dezenas": [
+        "07",
+        "15",
+        "17",
+        "31",
+        "42",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 186,
+          "valorPremio": 18644.94
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11538,
+          "valorPremio": 429.38
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV.",
+      "acumulou": true,
+      "proximoConcurso": 1559,
+      "dataProximoConcurso": "21/12/2013",
+      "localGanhadores": [],
+      "valorArrecadado": 59235314.0,
+      "valorAcumuladoConcurso_0_5": 14092281.96,
+      "valorAcumuladoConcursoEspecial": 60449153.98,
+      "valorAcumuladoProximoConcurso": 44641902.75,
+      "valorEstimadoProximoConcurso": 53000000.0
+    }
+  },
+  {
+    "draw_id": 1559,
+    "draw_date": "2013-12-21",
+    "numbers": [
+      8,
+      12,
+      16,
+      29,
+      37,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1559,
+      "data": "21/12/2013",
+      "local": "Caminh\u00e3o da Sorte em SIQUEIRA CAMPOS, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "37",
+        "58",
+        "12",
+        "29",
+        "08",
+        "16"
+      ],
+      "dezenas": [
+        "08",
+        "12",
+        "16",
+        "29",
+        "37",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 51491466.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 317,
+          "valorPremio": 11729.76
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 16431,
+          "valorPremio": 323.28
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1560,
+      "dataProximoConcurso": "31/12/2013",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "OL\u00cdMPIA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 63511922.0,
+      "valorAcumuladoConcurso_0_5": 79825384.73,
+      "valorAcumuladoConcursoEspecial": 79825384.73,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 200000000.0
+    }
+  },
+  {
+    "draw_id": 1560,
+    "draw_date": "2013-12-31",
+    "numbers": [
+      20,
+      30,
+      36,
+      38,
+      47,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1560,
+      "data": "31/12/2013",
+      "local": "Audit\u00f3rio em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "30",
+        "47",
+        "53",
+        "38",
+        "20",
+        "36"
+      ],
+      "dezenas": [
+        "20",
+        "30",
+        "36",
+        "38",
+        "47",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 4,
+          "valorPremio": 56169465.02
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 1147,
+          "valorPremio": 38701.2
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 90376,
+          "valorPremio": 701.67
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Sorteio realizado em Est\u00fadio de TV.",
+      "acumulou": false,
+      "proximoConcurso": 1561,
+      "dataProximoConcurso": "02/01/2014",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "MACEI\u00d3",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "AL"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "TEOFIL\u00c2NDIA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "BA"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "CURITIBA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "PALOTINA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        }
+      ],
+      "valorArrecadado": 758218978.0,
+      "valorAcumuladoConcurso_0_5": 0.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1500000.0
+    }
+  }
+]

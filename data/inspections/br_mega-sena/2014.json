@@ -1,0 +1,7738 @@
+[
+  {
+    "draw_id": 1561,
+    "draw_date": "2014-01-02",
+    "numbers": [
+      23,
+      26,
+      28,
+      54,
+      55,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1561,
+      "data": "02/01/2014",
+      "local": "Caminh\u00e3o da Sorte em LEME, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "28",
+        "26",
+        "54",
+        "55",
+        "23",
+        "60"
+      ],
+      "dezenas": [
+        "23",
+        "26",
+        "28",
+        "54",
+        "55",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 20,
+          "valorPremio": 25914.28
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1669,
+          "valorPremio": 443.62
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1562,
+      "dataProximoConcurso": "04/01/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 8852704.0,
+      "valorAcumuladoConcurso_0_5": 600120.13,
+      "valorAcumuladoConcursoEspecial": 136390.97,
+      "valorAcumuladoProximoConcurso": 954736.58,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 1562,
+    "draw_date": "2014-01-04",
+    "numbers": [
+      10,
+      12,
+      23,
+      37,
+      47,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1562,
+      "data": "04/01/2014",
+      "local": "Caminh\u00e3o da Sorte em LEME, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "12",
+        "10",
+        "51",
+        "37",
+        "23",
+        "47"
+      ],
+      "dezenas": [
+        "10",
+        "12",
+        "23",
+        "37",
+        "47",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 59,
+          "valorPremio": 22007.62
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4384,
+          "valorPremio": 423.11
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1563,
+      "dataProximoConcurso": "08/01/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 22178488.0,
+      "valorAcumuladoConcurso_0_5": 2103588.15,
+      "valorAcumuladoConcursoEspecial": 478088.26,
+      "valorAcumuladoProximoConcurso": 3346617.51,
+      "valorEstimadoProximoConcurso": 5800000.0
+    }
+  },
+  {
+    "draw_id": 1563,
+    "draw_date": "2014-01-09",
+    "numbers": [
+      1,
+      6,
+      13,
+      20,
+      36,
+      43
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1563,
+      "data": "09/01/2014",
+      "local": "Caminh\u00e3o da Sorte em RIBEIR\u00c3O DAS NEVES, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "43",
+        "36",
+        "01",
+        "20",
+        "13",
+        "06"
+      ],
+      "dezenas": [
+        "01",
+        "06",
+        "13",
+        "20",
+        "36",
+        "43"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 6872625.83
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 202,
+          "valorPremio": 9475.83
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10395,
+          "valorPremio": 263.05
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1564,
+      "dataProximoConcurso": "11/01/2014",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "ARROIO GRANDE",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RS"
+        }
+      ],
+      "valorArrecadado": 32694576.0,
+      "valorAcumuladoConcurso_0_5": 4319936.23,
+      "valorAcumuladoConcursoEspecial": 981803.74,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 1564,
+    "draw_date": "2014-01-11",
+    "numbers": [
+      25,
+      38,
+      44,
+      46,
+      53,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1564,
+      "data": "11/01/2014",
+      "local": "Caminh\u00e3o da Sorte em RIBEIR\u00c3O DAS NEVES, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "54",
+        "44",
+        "38",
+        "25",
+        "46",
+        "53"
+      ],
+      "dezenas": [
+        "25",
+        "38",
+        "44",
+        "46",
+        "53",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 3219906.28
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 71,
+          "valorPremio": 24619.0
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5602,
+          "valorPremio": 445.74
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1565,
+      "dataProximoConcurso": "15/01/2014",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "RIO DE JANEIRO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        }
+      ],
+      "valorArrecadado": 29856274.0,
+      "valorAcumuladoConcurso_0_5": 6343877.32,
+      "valorAcumuladoConcursoEspecial": 1441790.38,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 9000000.0
+    }
+  },
+  {
+    "draw_id": 1565,
+    "draw_date": "2014-01-15",
+    "numbers": [
+      18,
+      37,
+      39,
+      41,
+      43,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1565,
+      "data": "15/01/2014",
+      "local": "Audit\u00f3rio em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "43",
+        "41",
+        "37",
+        "51",
+        "18",
+        "39"
+      ],
+      "dezenas": [
+        "18",
+        "37",
+        "39",
+        "41",
+        "43",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 52,
+          "valorPremio": 38754.07
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5157,
+          "valorPremio": 558.24
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Sorteio realizado em Est\u00fadio de TV.",
+      "acumulou": true,
+      "proximoConcurso": 1566,
+      "dataProximoConcurso": "18/01/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 34421316.0,
+      "valorAcumuladoConcurso_0_5": 2333402.89,
+      "valorAcumuladoConcursoEspecial": 1972109.22,
+      "valorAcumuladoProximoConcurso": 10056109.18,
+      "valorEstimadoProximoConcurso": 15000000.0
+    }
+  },
+  {
+    "draw_id": 1566,
+    "draw_date": "2014-01-18",
+    "numbers": [
+      5,
+      6,
+      11,
+      32,
+      36,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1566,
+      "data": "18/01/2014",
+      "local": "Caminh\u00e3o da Sorte em PORTEIRINHA, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "11",
+        "32",
+        "60",
+        "05",
+        "06",
+        "36"
+      ],
+      "dezenas": [
+        "05",
+        "06",
+        "11",
+        "32",
+        "36",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 14791263.61
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 133,
+          "valorPremio": 19327.16
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8797,
+          "valorPremio": 417.43
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1567,
+      "dataProximoConcurso": "22/01/2014",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "ITAGUA\u00cd",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        }
+      ],
+      "valorArrecadado": 43906268.0,
+      "valorAcumuladoConcurso_0_5": 5309785.67,
+      "valorAcumuladoConcursoEspecial": 2648559.87,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 1567,
+    "draw_date": "2014-01-22",
+    "numbers": [
+      2,
+      15,
+      30,
+      38,
+      48,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1567,
+      "data": "22/01/2014",
+      "local": "Audit\u00f3rio em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "53",
+        "38",
+        "30",
+        "02",
+        "15",
+        "48"
+      ],
+      "dezenas": [
+        "02",
+        "15",
+        "30",
+        "38",
+        "48",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 59,
+          "valorPremio": 25222.12
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4463,
+          "valorPremio": 476.33
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV.",
+      "acumulou": true,
+      "proximoConcurso": 1568,
+      "dataProximoConcurso": "25/01/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 25417944.0,
+      "valorAcumuladoConcurso_0_5": 7032854.71,
+      "valorAcumuladoConcursoEspecial": 3040166.48,
+      "valorAcumuladoProximoConcurso": 2741246.19,
+      "valorEstimadoProximoConcurso": 6000000.0
+    }
+  },
+  {
+    "draw_id": 1568,
+    "draw_date": "2014-01-25",
+    "numbers": [
+      19,
+      24,
+      25,
+      28,
+      42,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1568,
+      "data": "25/01/2014",
+      "local": "Caminh\u00e3o da Sorte em ITABUNA, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "28",
+        "58",
+        "19",
+        "24",
+        "42",
+        "25"
+      ],
+      "dezenas": [
+        "19",
+        "24",
+        "25",
+        "28",
+        "42",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 103,
+          "valorPremio": 18255.37
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7192,
+          "valorPremio": 373.49
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1569,
+      "dataProximoConcurso": "29/01/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 32116978.0,
+      "valorAcumuladoConcurso_0_5": 9210047.73,
+      "valorAcumuladoConcursoEspecial": 3534983.09,
+      "valorAcumuladoProximoConcurso": 6204962.36,
+      "valorEstimadoProximoConcurso": 10000000.0
+    }
+  },
+  {
+    "draw_id": 1569,
+    "draw_date": "2014-01-29",
+    "numbers": [
+      5,
+      15,
+      18,
+      31,
+      42,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1569,
+      "data": "29/01/2014",
+      "local": "Audit\u00f3rio em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "42",
+        "15",
+        "18",
+        "31",
+        "05",
+        "53"
+      ],
+      "dezenas": [
+        "05",
+        "15",
+        "18",
+        "31",
+        "42",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 81,
+          "valorPremio": 25568.62
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6718,
+          "valorPremio": 440.4
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV.",
+      "acumulou": true,
+      "proximoConcurso": 1570,
+      "dataProximoConcurso": "01/02/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 35375222.0,
+      "valorAcumuladoConcurso_0_5": 21628185.4,
+      "valorAcumuladoConcursoEspecial": 4079998.49,
+      "valorAcumuladoProximoConcurso": 21628185.4,
+      "valorEstimadoProximoConcurso": 27000000.0
+    }
+  },
+  {
+    "draw_id": 1570,
+    "draw_date": "2014-02-01",
+    "numbers": [
+      15,
+      18,
+      24,
+      42,
+      46,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1570,
+      "data": "01/02/2014",
+      "local": "Caminh\u00e3o da Sorte em JUAZEIRO, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "18",
+        "46",
+        "42",
+        "15",
+        "56",
+        "24"
+      ],
+      "dezenas": [
+        "15",
+        "18",
+        "24",
+        "42",
+        "46",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 225,
+          "valorPremio": 13231.54
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11903,
+          "valorPremio": 357.3
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1571,
+      "dataProximoConcurso": "05/02/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 50851026.0,
+      "valorAcumuladoConcurso_0_5": 3447164.28,
+      "valorAcumuladoConcursoEspecial": 4863444.93,
+      "valorAcumuladoProximoConcurso": 27112310.39,
+      "valorEstimadoProximoConcurso": 34000000.0
+    }
+  },
+  {
+    "draw_id": 1571,
+    "draw_date": "2014-02-05",
+    "numbers": [
+      3,
+      29,
+      32,
+      46,
+      55,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1571,
+      "data": "05/02/2014",
+      "local": "Audit\u00f3rio em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "46",
+        "60",
+        "55",
+        "32",
+        "03",
+        "29"
+      ],
+      "dezenas": [
+        "03",
+        "29",
+        "32",
+        "46",
+        "55",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 176,
+          "valorPremio": 20467.75
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11857,
+          "valorPremio": 434.02
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Sorteio realizado em Est\u00fadio de TV.",
+      "acumulou": true,
+      "proximoConcurso": 1572,
+      "dataProximoConcurso": "08/02/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 61530392.0,
+      "valorAcumuladoConcurso_0_5": 7618277.16,
+      "valorAcumuladoConcursoEspecial": 5811425.14,
+      "valorAcumuladoProximoConcurso": 33748171.78,
+      "valorEstimadoProximoConcurso": 41000000.0
+    }
+  },
+  {
+    "draw_id": 1572,
+    "draw_date": "2014-02-08",
+    "numbers": [
+      20,
+      27,
+      42,
+      45,
+      46,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1572,
+      "data": "08/02/2014",
+      "local": "Caminh\u00e3o da Sorte em SENHOR DO BONFIM, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "46",
+        "42",
+        "27",
+        "45",
+        "20",
+        "47"
+      ],
+      "dezenas": [
+        "20",
+        "27",
+        "42",
+        "45",
+        "46",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 93,
+          "valorPremio": 46724.09
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11613,
+          "valorPremio": 534.54
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1573,
+      "dataProximoConcurso": "12/02/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 74221658.0,
+      "valorAcumuladoConcurso_0_5": 12649724.28,
+      "valorAcumuladoConcursoEspecial": 6954935.86,
+      "valorAcumuladoProximoConcurso": 41752746.75,
+      "valorEstimadoProximoConcurso": 50000000.0
+    }
+  },
+  {
+    "draw_id": 1573,
+    "draw_date": "2014-02-12",
+    "numbers": [
+      7,
+      16,
+      21,
+      35,
+      36,
+      38
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1573,
+      "data": "12/02/2014",
+      "local": "Audit\u00f3rio em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "07",
+        "16",
+        "36",
+        "35",
+        "38",
+        "21"
+      ],
+      "dezenas": [
+        "07",
+        "16",
+        "21",
+        "35",
+        "36",
+        "38"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 230,
+          "valorPremio": 23076.78
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 19015,
+          "valorPremio": 398.75
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Sorteio realizado em Est\u00fadio de TV.",
+      "acumulou": true,
+      "proximoConcurso": 1574,
+      "dataProximoConcurso": "15/02/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 90658778.0,
+      "valorAcumuladoConcurso_0_5": 18795435.11,
+      "valorAcumuladoConcursoEspecial": 8351688.34,
+      "valorAcumuladoProximoConcurso": 51530013.98,
+      "valorEstimadoProximoConcurso": 62000000.0
+    }
+  },
+  {
+    "draw_id": 1574,
+    "draw_date": "2014-02-15",
+    "numbers": [
+      6,
+      27,
+      28,
+      33,
+      46,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1574,
+      "data": "15/02/2014",
+      "local": "Caminh\u00e3o da Sorte em CRATO, CE",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "06",
+        "28",
+        "33",
+        "48",
+        "46",
+        "27"
+      ],
+      "dezenas": [
+        "06",
+        "27",
+        "28",
+        "33",
+        "46",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 459,
+          "valorPremio": 14318.71
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 29794,
+          "valorPremio": 315.12
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1575,
+      "dataProximoConcurso": "19/02/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 112259582.0,
+      "valorAcumuladoConcurso_0_5": 90042313.82,
+      "valorAcumuladoConcursoEspecial": 10081237.88,
+      "valorAcumuladoProximoConcurso": 90042313.82,
+      "valorEstimadoProximoConcurso": 105000000.0
+    }
+  },
+  {
+    "draw_id": 1575,
+    "draw_date": "2014-02-19",
+    "numbers": [
+      1,
+      4,
+      5,
+      14,
+      45,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1575,
+      "data": "19/02/2014",
+      "local": "Audit\u00f3rio em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "01",
+        "05",
+        "04",
+        "45",
+        "14",
+        "56"
+      ],
+      "dezenas": [
+        "01",
+        "04",
+        "05",
+        "14",
+        "45",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 111503902.49
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 709,
+          "valorPremio": 16432.41
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 42590,
+          "valorPremio": 390.78
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV.",
+      "acumulou": false,
+      "proximoConcurso": 1576,
+      "dataProximoConcurso": "22/02/2014",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "SANTA B\u00c1RBARA DOESTE",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 199000534.0,
+      "valorAcumuladoConcurso_0_5": 13490141.45,
+      "valorAcumuladoConcursoEspecial": 13147179.13,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 1576,
+    "draw_date": "2014-02-22",
+    "numbers": [
+      13,
+      15,
+      21,
+      26,
+      30,
+      46
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1576,
+      "data": "22/02/2014",
+      "local": "Caminh\u00e3o da Sorte em OROB\u00d3, PE",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "26",
+        "30",
+        "21",
+        "15",
+        "13",
+        "46"
+      ],
+      "dezenas": [
+        "13",
+        "15",
+        "21",
+        "26",
+        "30",
+        "46"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 88,
+          "valorPremio": 21264.0
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5886,
+          "valorPremio": 454.16
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1577,
+      "dataProximoConcurso": "26/02/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 31962026.0,
+      "valorAcumuladoConcurso_0_5": 15656830.36,
+      "valorAcumuladoConcursoEspecial": 13639608.44,
+      "valorAcumuladoProximoConcurso": 3447005.08,
+      "valorEstimadoProximoConcurso": 7000000.0
+    }
+  },
+  {
+    "draw_id": 1577,
+    "draw_date": "2014-02-26",
+    "numbers": [
+      11,
+      14,
+      25,
+      32,
+      51,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1577,
+      "data": "26/02/2014",
+      "local": "Audit\u00f3rio em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "25",
+        "32",
+        "11",
+        "59",
+        "51",
+        "14"
+      ],
+      "dezenas": [
+        "11",
+        "14",
+        "25",
+        "32",
+        "51",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 7599721.82
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 86,
+          "valorPremio": 26213.16
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6004,
+          "valorPremio": 536.38
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV",
+      "acumulou": false,
+      "proximoConcurso": 1578,
+      "dataProximoConcurso": "01/03/2014",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "RIO DE JANEIRO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        }
+      ],
+      "valorArrecadado": 38505670.0,
+      "valorAcumuladoConcurso_0_5": 18267109.45,
+      "valorAcumuladoConcursoEspecial": 14232853.7,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 1578,
+    "draw_date": "2014-03-01",
+    "numbers": [
+      3,
+      6,
+      30,
+      37,
+      53,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1578,
+      "data": "01/03/2014",
+      "local": "Caminh\u00e3o da Sorte em MADRE DE DEUS, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "06",
+        "53",
+        "56",
+        "30",
+        "37",
+        "03"
+      ],
+      "dezenas": [
+        "03",
+        "06",
+        "30",
+        "37",
+        "53",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 107,
+          "valorPremio": 16801.81
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6347,
+          "valorPremio": 404.64
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1579,
+      "dataProximoConcurso": "05/03/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 30707654.0,
+      "valorAcumuladoConcurso_0_5": 20348765.14,
+      "valorAcumuladoConcursoEspecial": 14705957.28,
+      "valorAcumuladoProximoConcurso": 3311724.97,
+      "valorEstimadoProximoConcurso": 5000000.0
+    }
+  },
+  {
+    "draw_id": 1579,
+    "draw_date": "2014-03-05",
+    "numbers": [
+      25,
+      34,
+      40,
+      49,
+      51,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1579,
+      "data": "05/03/2014",
+      "local": "Audit\u00f3rio em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "34",
+        "25",
+        "40",
+        "51",
+        "60",
+        "49"
+      ],
+      "dezenas": [
+        "25",
+        "34",
+        "40",
+        "49",
+        "51",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 23,
+          "valorPremio": 47748.72
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2180,
+          "valorPremio": 719.67
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV",
+      "acumulou": true,
+      "proximoConcurso": 1580,
+      "dataProximoConcurso": "08/03/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 18758424.0,
+      "valorAcumuladoConcurso_0_5": 26955151.45,
+      "valorAcumuladoConcursoEspecial": 14994962.69,
+      "valorAcumuladoProximoConcurso": 26955151.45,
+      "valorEstimadoProximoConcurso": 33000000.0
+    }
+  },
+  {
+    "draw_id": 1580,
+    "draw_date": "2014-03-08",
+    "numbers": [
+      1,
+      6,
+      14,
+      17,
+      33,
+      36
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1580,
+      "data": "08/03/2014",
+      "local": "Caminh\u00e3o da Sorte em ARROIO DO SILVA, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "01",
+        "06",
+        "14",
+        "17",
+        "33",
+        "36"
+      ],
+      "dezenas": [
+        "01",
+        "06",
+        "14",
+        "17",
+        "33",
+        "36"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 16776243.36
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 378,
+          "valorPremio": 9474.63
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 20400,
+          "valorPremio": 250.79
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1581,
+      "dataProximoConcurso": "12/03/2014",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "RIO DE JANEIRO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "S\u00c3O PAULO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 61173162.0,
+      "valorAcumuladoConcurso_0_5": 4146896.45,
+      "valorAcumuladoConcursoEspecial": 15937439.15,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 1581,
+    "draw_date": "2014-03-12",
+    "numbers": [
+      14,
+      15,
+      25,
+      30,
+      31,
+      34
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1581,
+      "data": "12/03/2014",
+      "local": "Audit\u00f3rio em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "31",
+        "34",
+        "15",
+        "14",
+        "25",
+        "30"
+      ],
+      "dezenas": [
+        "14",
+        "15",
+        "25",
+        "30",
+        "31",
+        "34"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 41,
+          "valorPremio": 41234.0
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4202,
+          "valorPremio": 574.75
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM ESTUDIO DE TV",
+      "acumulou": true,
+      "proximoConcurso": 1582,
+      "dataProximoConcurso": "15/03/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 28876606.0,
+      "valorAcumuladoConcurso_0_5": 6104426.36,
+      "valorAcumuladoConcursoEspecial": 16382332.33,
+      "valorAcumuladoProximoConcurso": 3114252.13,
+      "valorEstimadoProximoConcurso": 7000000.0
+    }
+  },
+  {
+    "draw_id": 1582,
+    "draw_date": "2014-03-15",
+    "numbers": [
+      1,
+      4,
+      13,
+      17,
+      38,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1582,
+      "data": "15/03/2014",
+      "local": "Caminh\u00e3o da Sorte em ARROIO DO SILVA, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "04",
+        "17",
+        "01",
+        "48",
+        "13",
+        "38"
+      ],
+      "dezenas": [
+        "01",
+        "04",
+        "13",
+        "17",
+        "38",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 7343875.35
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 125,
+          "valorPremio": 18368.65
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10807,
+          "valorPremio": 303.51
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1583,
+      "dataProximoConcurso": "19/03/2014",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "S\u00c3O PAULO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 39218778.0,
+      "valorAcumuladoConcurso_0_5": 8763046.67,
+      "valorAcumuladoConcursoEspecial": 16986564.23,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 1583,
+    "draw_date": "2014-03-19",
+    "numbers": [
+      2,
+      9,
+      17,
+      18,
+      45,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1583,
+      "data": "19/03/2014",
+      "local": "Audit\u00f3rio em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "18",
+        "02",
+        "09",
+        "47",
+        "17",
+        "45"
+      ],
+      "dezenas": [
+        "02",
+        "09",
+        "17",
+        "18",
+        "45",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 130,
+          "valorPremio": 12721.86
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7907,
+          "valorPremio": 298.8
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Sorteio realizado em Est\u00fadio de TV.",
+      "acumulou": true,
+      "proximoConcurso": 1584,
+      "dataProximoConcurso": "22/03/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 28248848.0,
+      "valorAcumuladoConcurso_0_5": 10678021.19,
+      "valorAcumuladoConcursoEspecial": 17421785.73,
+      "valorAcumuladoProximoConcurso": 3046550.39,
+      "valorEstimadoProximoConcurso": 6500000.0
+    }
+  },
+  {
+    "draw_id": 1584,
+    "draw_date": "2014-03-22",
+    "numbers": [
+      3,
+      22,
+      27,
+      28,
+      50,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1584,
+      "data": "22/03/2014",
+      "local": "Caminh\u00e3o da Sorte em INDAIAL, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "27",
+        "54",
+        "28",
+        "50",
+        "22",
+        "03"
+      ],
+      "dezenas": [
+        "03",
+        "22",
+        "27",
+        "28",
+        "50",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 97,
+          "valorPremio": 22466.84
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7379,
+          "valorPremio": 421.9
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1585,
+      "dataProximoConcurso": "26/03/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 37223782.0,
+      "valorAcumuladoConcurso_0_5": 20262421.25,
+      "valorAcumuladoConcursoEspecial": 17995281.33,
+      "valorAcumuladoProximoConcurso": 20262421.25,
+      "valorEstimadoProximoConcurso": 25000000.0
+    }
+  },
+  {
+    "draw_id": 1585,
+    "draw_date": "2014-03-26",
+    "numbers": [
+      2,
+      43,
+      47,
+      48,
+      49,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1585,
+      "data": "26/03/2014",
+      "local": "Audit\u00f3rio em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "55",
+        "47",
+        "43",
+        "48",
+        "49",
+        "02"
+      ],
+      "dezenas": [
+        "02",
+        "43",
+        "47",
+        "48",
+        "49",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 103,
+          "valorPremio": 28656.3
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8235,
+          "valorPremio": 512.03
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM ESTUDIO DE TV",
+      "acumulou": true,
+      "proximoConcurso": 1586,
+      "dataProximoConcurso": "29/03/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 50415508.0,
+      "valorAcumuladoConcurso_0_5": 3417640.74,
+      "valorAcumuladoConcursoEspecial": 18772017.88,
+      "valorAcumuladoProximoConcurso": 25699576.97,
+      "valorEstimadoProximoConcurso": 33000000.0
+    }
+  },
+  {
+    "draw_id": 1586,
+    "draw_date": "2014-03-29",
+    "numbers": [
+      8,
+      39,
+      43,
+      46,
+      47,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1586,
+      "data": "29/03/2014",
+      "local": "Caminh\u00e3o da Sorte em PORTO BELO, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "47",
+        "58",
+        "08",
+        "43",
+        "39",
+        "46"
+      ],
+      "dezenas": [
+        "08",
+        "39",
+        "43",
+        "46",
+        "47",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 150,
+          "valorPremio": 25052.84
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10556,
+          "valorPremio": 508.57
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1587,
+      "dataProximoConcurso": "02/04/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 64188188.0,
+      "valorAcumuladoConcurso_0_5": 7768924.21,
+      "valorAcumuladoConcursoEspecial": 19760945.96,
+      "valorAcumuladoProximoConcurso": 32622073.4,
+      "valorEstimadoProximoConcurso": 40000000.0
+    }
+  },
+  {
+    "draw_id": 1587,
+    "draw_date": "2014-04-02",
+    "numbers": [
+      8,
+      19,
+      21,
+      30,
+      52,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1587,
+      "data": "02/04/2014",
+      "local": "Audit\u00f3rio em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "08",
+        "21",
+        "19",
+        "30",
+        "52",
+        "56"
+      ],
+      "dezenas": [
+        "08",
+        "19",
+        "21",
+        "30",
+        "52",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 179,
+          "valorPremio": 25221.63
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 12440,
+          "valorPremio": 518.45
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV.",
+      "acumulou": true,
+      "proximoConcurso": 1588,
+      "dataProximoConcurso": "05/04/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 77113964.0,
+      "valorAcumuladoConcurso_0_5": 12996439.23,
+      "valorAcumuladoConcursoEspecial": 20949017.56,
+      "valorAcumuladoProximoConcurso": 40938574.57,
+      "valorEstimadoProximoConcurso": 50000000.0
+    }
+  },
+  {
+    "draw_id": 1588,
+    "draw_date": "2014-04-05",
+    "numbers": [
+      23,
+      29,
+      32,
+      36,
+      45,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1588,
+      "data": "05/04/2014",
+      "local": "Caminh\u00e3o da Sorte em ITUPORANGA, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "36",
+        "29",
+        "23",
+        "49",
+        "32",
+        "45"
+      ],
+      "dezenas": [
+        "23",
+        "29",
+        "32",
+        "36",
+        "45",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 25541942.1
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 353,
+          "valorPremio": 15601.86
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 21216,
+          "valorPremio": 370.84
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1589,
+      "dataProximoConcurso": "09/04/2014",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "UBERL\u00c2NDIA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "S\u00c3O PAULO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 94071416.0,
+      "valorAcumuladoConcurso_0_5": 19373490.99,
+      "valorAcumuladoConcursoEspecial": 22398347.52,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 1589,
+    "draw_date": "2014-04-09",
+    "numbers": [
+      4,
+      5,
+      11,
+      19,
+      41,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1589,
+      "data": "09/04/2014",
+      "local": "Audit\u00f3rio em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "11",
+        "41",
+        "51",
+        "05",
+        "19",
+        "04"
+      ],
+      "dezenas": [
+        "04",
+        "05",
+        "11",
+        "19",
+        "41",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 87,
+          "valorPremio": 19464.78
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7815,
+          "valorPremio": 309.55
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Sorteio realizado em Est\u00fadio de TV.",
+      "acumulou": true,
+      "proximoConcurso": 1590,
+      "dataProximoConcurso": "12/04/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 28925144.0,
+      "valorAcumuladoConcurso_0_5": 24453798.07,
+      "valorAcumuladoConcursoEspecial": 22843988.51,
+      "valorAcumuladoProximoConcurso": 24453798.07,
+      "valorEstimadoProximoConcurso": 30000000.0
+    }
+  },
+  {
+    "draw_id": 1590,
+    "draw_date": "2014-04-12",
+    "numbers": [
+      7,
+      20,
+      34,
+      40,
+      44,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1590,
+      "data": "12/04/2014",
+      "local": "Caminh\u00e3o da Sorte em CACHOEIRINHA, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "40",
+        "07",
+        "44",
+        "55",
+        "34",
+        "20"
+      ],
+      "dezenas": [
+        "07",
+        "20",
+        "34",
+        "40",
+        "44",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 89,
+          "valorPremio": 37931.98
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8050,
+          "valorPremio": 599.1
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1591,
+      "dataProximoConcurso": "16/04/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 57663666.0,
+      "valorAcumuladoConcurso_0_5": 3908989.56,
+      "valorAcumuladoConcursoEspecial": 23732395.24,
+      "valorAcumuladoProximoConcurso": 30672645.09,
+      "valorEstimadoProximoConcurso": 38000000.0
+    }
+  },
+  {
+    "draw_id": 1591,
+    "draw_date": "2014-04-16",
+    "numbers": [
+      4,
+      10,
+      23,
+      33,
+      38,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1591,
+      "data": "16/04/2014",
+      "local": "Audit\u00f3rio em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "04",
+        "23",
+        "55",
+        "10",
+        "38",
+        "33"
+      ],
+      "dezenas": [
+        "04",
+        "10",
+        "23",
+        "33",
+        "38",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 37626306.9
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 278,
+          "valorPremio": 13578.58
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 16180,
+          "valorPremio": 333.29
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Sorteio realizado em Est\u00fadio de TV.",
+      "acumulou": false,
+      "proximoConcurso": 1592,
+      "dataProximoConcurso": "19/04/2014",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "FIGUEIR\u00c3O",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MS"
+        }
+      ],
+      "valorArrecadado": 64477166.0,
+      "valorAcumuladoConcurso_0_5": 8279862.69,
+      "valorAcumuladoConcursoEspecial": 24725775.52,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1592,
+    "draw_date": "2014-04-19",
+    "numbers": [
+      31,
+      36,
+      38,
+      41,
+      42,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1592,
+      "data": "19/04/2014",
+      "local": "Caminh\u00e3o da Sorte em PINHEIRAL, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "41",
+        "49",
+        "36",
+        "42",
+        "31",
+        "38"
+      ],
+      "dezenas": [
+        "31",
+        "36",
+        "38",
+        "41",
+        "42",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 23,
+          "valorPremio": 57425.97
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2341,
+          "valorPremio": 806.0
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1593,
+      "dataProximoConcurso": "23/04/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 22560202.0,
+      "valorAcumuladoConcurso_0_5": 9809206.9,
+      "valorAcumuladoConcursoEspecial": 25073353.76,
+      "valorAcumuladoProximoConcurso": 2433047.61,
+      "valorEstimadoProximoConcurso": 5000000.0
+    }
+  },
+  {
+    "draw_id": 1593,
+    "draw_date": "2014-04-23",
+    "numbers": [
+      4,
+      9,
+      17,
+      18,
+      21,
+      38
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1593,
+      "data": "23/04/2014",
+      "local": "Audit\u00f3rio em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "04",
+        "17",
+        "38",
+        "09",
+        "18",
+        "21"
+      ],
+      "dezenas": [
+        "04",
+        "09",
+        "17",
+        "18",
+        "21",
+        "38"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 5259292.04
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 136,
+          "valorPremio": 11281.23
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8689,
+          "valorPremio": 252.24
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV.",
+      "acumulou": false,
+      "proximoConcurso": 1594,
+      "dataProximoConcurso": "26/04/2014",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "RESTINGA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 26206082.0,
+      "valorAcumuladoConcurso_0_5": 11585703.4,
+      "valorAcumuladoConcursoEspecial": 25477102.98,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 1594,
+    "draw_date": "2014-04-26",
+    "numbers": [
+      6,
+      7,
+      8,
+      23,
+      43,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1594,
+      "data": "26/04/2014",
+      "local": "Caminh\u00e3o da Sorte em VARGINHA, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "53",
+        "43",
+        "23",
+        "06",
+        "07",
+        "08"
+      ],
+      "dezenas": [
+        "06",
+        "07",
+        "08",
+        "23",
+        "43",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 71,
+          "valorPremio": 24708.01
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6341,
+          "valorPremio": 395.22
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1595,
+      "dataProximoConcurso": "30/04/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 29964214.0,
+      "valorAcumuladoConcurso_0_5": 16848508.95,
+      "valorAcumuladoConcursoEspecial": 25938752.61,
+      "valorAcumuladoProximoConcurso": 16848508.95,
+      "valorEstimadoProximoConcurso": 22000000.0
+    }
+  },
+  {
+    "draw_id": 1595,
+    "draw_date": "2014-04-30",
+    "numbers": [
+      2,
+      5,
+      8,
+      42,
+      46,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1595,
+      "data": "30/04/2014",
+      "local": "Audit\u00f3rio em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "59",
+        "05",
+        "42",
+        "08",
+        "46",
+        "02"
+      ],
+      "dezenas": [
+        "02",
+        "05",
+        "08",
+        "42",
+        "46",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 10975751.52
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 236,
+          "valorPremio": 11738.12
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 12387,
+          "valorPremio": 319.48
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Sorteio realizado em Est\u00fadio de TV.",
+      "acumulou": false,
+      "proximoConcurso": 1596,
+      "dataProximoConcurso": "03/05/2014",
+      "localGanhadores": [
+        {
+          "ganhadores": 2,
+          "municipio": "RIBEIR\u00c3O PRETO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 47317026.0,
+      "valorAcumuladoConcurso_0_5": 3207596.28,
+      "valorAcumuladoConcursoEspecial": 26667751.78,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1596,
+    "draw_date": "2014-05-03",
+    "numbers": [
+      1,
+      5,
+      7,
+      10,
+      12,
+      45
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1596,
+      "data": "03/05/2014",
+      "local": "Caminh\u00e3o da Sorte em Pedro Leopoldo, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "05",
+        "12",
+        "01",
+        "07",
+        "45",
+        "10"
+      ],
+      "dezenas": [
+        "01",
+        "05",
+        "07",
+        "10",
+        "12",
+        "45"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 2826993.1
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 380,
+          "valorPremio": 4038.56
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 16970,
+          "valorPremio": 129.19
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1597,
+      "dataProximoConcurso": "07/05/2014",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "Curitiba",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        }
+      ],
+      "valorArrecadado": 26213024.0,
+      "valorAcumuladoConcurso_0_5": 4984563.36,
+      "valorAcumuladoConcursoEspecial": 27071607.95,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 1597,
+    "draw_date": "2014-05-07",
+    "numbers": [
+      5,
+      10,
+      16,
+      44,
+      50,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1597,
+      "data": "07/05/2014",
+      "local": "Audit\u00f3rio em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "16",
+        "52",
+        "05",
+        "44",
+        "10",
+        "50"
+      ],
+      "dezenas": [
+        "05",
+        "10",
+        "16",
+        "44",
+        "50",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 57,
+          "valorPremio": 28914.82
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5638,
+          "valorPremio": 417.61
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV",
+      "acumulou": true,
+      "proximoConcurso": 1598,
+      "dataProximoConcurso": "10/05/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 28151542.0,
+      "valorAcumuladoConcurso_0_5": 6892941.56,
+      "valorAcumuladoConcursoEspecial": 27505330.29,
+      "valorAcumuladoProximoConcurso": 3036056.24,
+      "valorEstimadoProximoConcurso": 7000000.0
+    }
+  },
+  {
+    "draw_id": 1598,
+    "draw_date": "2014-05-10",
+    "numbers": [
+      29,
+      31,
+      36,
+      42,
+      47,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1598,
+      "data": "10/05/2014",
+      "local": "Caminh\u00e3o da Sorte em Uberaba, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "36",
+        "47",
+        "42",
+        "29",
+        "53",
+        "31"
+      ],
+      "dezenas": [
+        "29",
+        "31",
+        "36",
+        "42",
+        "47",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 121,
+          "valorPremio": 17829.91
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6776,
+          "valorPremio": 454.84
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1599,
+      "dataProximoConcurso": "14/05/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 36850340.0,
+      "valorAcumuladoConcurso_0_5": 9391006.71,
+      "valorAcumuladoConcursoEspecial": 28073072.37,
+      "valorAcumuladoProximoConcurso": 7010250.78,
+      "valorEstimadoProximoConcurso": 12000000.0
+    }
+  },
+  {
+    "draw_id": 1599,
+    "draw_date": "2014-05-14",
+    "numbers": [
+      3,
+      10,
+      15,
+      35,
+      36,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1599,
+      "data": "14/05/2014",
+      "local": "Audit\u00f3rio em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "35",
+        "10",
+        "15",
+        "58",
+        "36",
+        "03"
+      ],
+      "dezenas": [
+        "03",
+        "10",
+        "15",
+        "35",
+        "36",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 11882469.39
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 135,
+          "valorPremio": 19591.99
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8922,
+          "valorPremio": 423.49
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV.",
+      "acumulou": false,
+      "proximoConcurso": 1600,
+      "dataProximoConcurso": "17/05/2014",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "LOANDA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        }
+      ],
+      "valorArrecadado": 45177182.5,
+      "valorAcumuladoConcurso_0_5": 12453544.11,
+      "valorAcumuladoConcursoEspecial": 28769103.61,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 18000000.0
+    }
+  },
+  {
+    "draw_id": 1600,
+    "draw_date": "2014-05-17",
+    "numbers": [
+      9,
+      23,
+      32,
+      35,
+      46,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1600,
+      "data": "17/05/2014",
+      "local": "Caminh\u00e3o da Sorte em BIGUA\u00c7U, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "09",
+        "46",
+        "23",
+        "32",
+        "35",
+        "57"
+      ],
+      "dezenas": [
+        "09",
+        "23",
+        "32",
+        "35",
+        "46",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 17751928.34
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 110,
+          "valorPremio": 26147.87
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8443,
+          "valorPremio": 486.66
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": ".",
+      "acumulou": false,
+      "proximoConcurso": 1601,
+      "dataProximoConcurso": "21/05/2014",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "PETR\u00d3POLIS",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        }
+      ],
+      "valorArrecadado": 49128762.5,
+      "valorAcumuladoConcurso_0_5": 3330412.94,
+      "valorAcumuladoConcursoEspecial": 29526015.66,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 1601,
+    "draw_date": "2014-05-21",
+    "numbers": [
+      8,
+      10,
+      24,
+      45,
+      56,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1601,
+      "data": "21/05/2014",
+      "local": "Audit\u00f3rio em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "60",
+        "24",
+        "56",
+        "45",
+        "10",
+        "08"
+      ],
+      "dezenas": [
+        "08",
+        "10",
+        "24",
+        "45",
+        "56",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 90,
+          "valorPremio": 19047.65
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5373,
+          "valorPremio": 455.79
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM ESTUDIO DE TV.",
+      "acumulou": true,
+      "proximoConcurso": 1602,
+      "dataProximoConcurso": "24/05/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 29281317.5,
+      "valorAcumuladoConcurso_0_5": 5315378.03,
+      "valorAcumuladoConcursoEspecial": 29977144.11,
+      "valorAcumuladoProximoConcurso": 3157899.01,
+      "valorEstimadoProximoConcurso": 7000000.0
+    }
+  },
+  {
+    "draw_id": 1602,
+    "draw_date": "2014-05-24",
+    "numbers": [
+      8,
+      12,
+      22,
+      35,
+      40,
+      44
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1602,
+      "data": "24/05/2014",
+      "local": "Caminh\u00e3o da Sorte em CAMPO GRANDE, MS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "08",
+        "44",
+        "40",
+        "35",
+        "22",
+        "12"
+      ],
+      "dezenas": [
+        "08",
+        "12",
+        "22",
+        "35",
+        "40",
+        "44"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 7222388.9
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 69,
+          "valorPremio": 31977.36
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6039,
+          "valorPremio": 521.94
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1603,
+      "dataProximoConcurso": "28/05/2014",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "RIO DE JANEIRO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        }
+      ],
+      "valorArrecadado": 37687595.0,
+      "valorAcumuladoConcurso_0_5": 7870200.24,
+      "valorAcumuladoConcursoEspecial": 30557785.55,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 1603,
+    "draw_date": "2014-05-28",
+    "numbers": [
+      13,
+      20,
+      27,
+      31,
+      53,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1603,
+      "data": "28/05/2014",
+      "local": "Audit\u00f3rio em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "13",
+        "53",
+        "20",
+        "31",
+        "60",
+        "27"
+      ],
+      "dezenas": [
+        "13",
+        "20",
+        "27",
+        "31",
+        "53",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 64,
+          "valorPremio": 25486.21
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4652,
+          "valorPremio": 500.89
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV.",
+      "acumulou": true,
+      "proximoConcurso": 1604,
+      "dataProximoConcurso": "31/05/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 27860697.5,
+      "valorAcumuladoConcurso_0_5": 9758862.25,
+      "valorAcumuladoConcursoEspecial": 30987026.93,
+      "valorAcumuladoProximoConcurso": 3004689.56,
+      "valorEstimadoProximoConcurso": 7000000.0
+    }
+  },
+  {
+    "draw_id": 1604,
+    "draw_date": "2014-05-31",
+    "numbers": [
+      2,
+      21,
+      24,
+      27,
+      40,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1604,
+      "data": "31/05/2014",
+      "local": "Caminh\u00e3o da Sorte em DOURADOS, MS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "21",
+        "40",
+        "51",
+        "27",
+        "24",
+        "02"
+      ],
+      "dezenas": [
+        "02",
+        "21",
+        "24",
+        "27",
+        "40",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 62,
+          "valorPremio": 35017.62
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5333,
+          "valorPremio": 581.57
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1605,
+      "dataProximoConcurso": "04/06/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 37083880.0,
+      "valorAcumuladoConcurso_0_5": 12272758.94,
+      "valorAcumuladoConcursoEspecial": 31558367.1,
+      "valorAcumuladoProximoConcurso": 19276829.6,
+      "valorEstimadoProximoConcurso": 25000000.0
+    }
+  },
+  {
+    "draw_id": 1605,
+    "draw_date": "2014-06-04",
+    "numbers": [
+      9,
+      19,
+      21,
+      30,
+      31,
+      42
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1605,
+      "data": "04/06/2014",
+      "local": "Audit\u00f3rio em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "42",
+        "30",
+        "09",
+        "19",
+        "31",
+        "21"
+      ],
+      "dezenas": [
+        "09",
+        "19",
+        "21",
+        "30",
+        "31",
+        "42"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 87,
+          "valorPremio": 34579.33
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6694,
+          "valorPremio": 642.02
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV.",
+      "acumulou": true,
+      "proximoConcurso": 1606,
+      "dataProximoConcurso": "07/06/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 51385750.0,
+      "valorAcumuladoConcurso_0_5": 3483412.94,
+      "valorAcumuladoConcursoEspecial": 32350051.87,
+      "valorAcumuladoProximoConcurso": 24818622.91,
+      "valorEstimadoProximoConcurso": 32000000.0
+    }
+  },
+  {
+    "draw_id": 1606,
+    "draw_date": "2014-06-07",
+    "numbers": [
+      1,
+      15,
+      37,
+      42,
+      46,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1606,
+      "data": "07/06/2014",
+      "local": "Caminh\u00e3o da Sorte em CAMPO MAIOR, PI",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "54",
+        "01",
+        "15",
+        "37",
+        "46",
+        "42"
+      ],
+      "dezenas": [
+        "01",
+        "15",
+        "37",
+        "42",
+        "46",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 31599293.88
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 101,
+          "valorPremio": 36444.91
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9327,
+          "valorPremio": 563.79
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1607,
+      "dataProximoConcurso": "11/06/2014",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "MACA\u00cdBA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RN"
+        }
+      ],
+      "valorArrecadado": 62873125.0,
+      "valorAcumuladoConcurso_0_5": 7745548.98,
+      "valorAcumuladoConcursoEspecial": 33318719.17,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 1607,
+    "draw_date": "2014-06-11",
+    "numbers": [
+      7,
+      31,
+      32,
+      41,
+      51,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1607,
+      "data": "11/06/2014",
+      "local": "Audit\u00f3rio em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "32",
+        "41",
+        "51",
+        "07",
+        "31",
+        "52"
+      ],
+      "dezenas": [
+        "07",
+        "31",
+        "32",
+        "41",
+        "51",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 91,
+          "valorPremio": 18299.4
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2820,
+          "valorPremio": 843.58
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV",
+      "acumulou": true,
+      "proximoConcurso": 1608,
+      "dataProximoConcurso": "14/06/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 28443640.0,
+      "valorAcumuladoConcurso_0_5": 9673728.35,
+      "valorAcumuladoConcursoEspecial": 33756941.77,
+      "valorAcumuladoProximoConcurso": 3067558.1,
+      "valorEstimadoProximoConcurso": 7000000.0
+    }
+  },
+  {
+    "draw_id": 1608,
+    "draw_date": "2014-06-14",
+    "numbers": [
+      5,
+      6,
+      17,
+      43,
+      54,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1608,
+      "data": "14/06/2014",
+      "local": "Caminh\u00e3o da Sorte em FOZ DO IGUA\u00c7U, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "06",
+        "43",
+        "17",
+        "05",
+        "54",
+        "59"
+      ],
+      "dezenas": [
+        "05",
+        "06",
+        "17",
+        "43",
+        "54",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 79,
+          "valorPremio": 25432.55
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5998,
+          "valorPremio": 478.53
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1609,
+      "dataProximoConcurso": "18/06/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 34318150.0,
+      "valorAcumuladoConcurso_0_5": 12000137.66,
+      "valorAcumuladoConcursoEspecial": 34285671.16,
+      "valorAcumuladoProximoConcurso": 6768663.83,
+      "valorEstimadoProximoConcurso": 11000000.0
+    }
+  },
+  {
+    "draw_id": 1609,
+    "draw_date": "2014-06-18",
+    "numbers": [
+      2,
+      6,
+      13,
+      26,
+      53,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1609,
+      "data": "18/06/2014",
+      "local": "Audit\u00f3rio em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "02",
+        "26",
+        "06",
+        "13",
+        "53",
+        "60"
+      ],
+      "dezenas": [
+        "02",
+        "06",
+        "13",
+        "26",
+        "53",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 140,
+          "valorPremio": 14826.54
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8573,
+          "valorPremio": 345.88
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Sorteio realizado em Est\u00fadio de TV.",
+      "acumulou": true,
+      "proximoConcurso": 1610,
+      "dataProximoConcurso": "21/06/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 35454782.5,
+      "valorAcumuladoConcurso_0_5": 24995950.53,
+      "valorAcumuladoConcursoEspecial": 34831912.32,
+      "valorAcumuladoProximoConcurso": 24995950.53,
+      "valorEstimadoProximoConcurso": 30000000.0
+    }
+  },
+  {
+    "draw_id": 1610,
+    "draw_date": "2014-06-21",
+    "numbers": [
+      1,
+      4,
+      9,
+      35,
+      36,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1610,
+      "data": "21/06/2014",
+      "local": "Caminh\u00e3o da Sorte em LAGES, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "36",
+        "53",
+        "35",
+        "09",
+        "01",
+        "04"
+      ],
+      "dezenas": [
+        "01",
+        "04",
+        "09",
+        "35",
+        "36",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 173,
+          "valorPremio": 15606.46
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9626,
+          "valorPremio": 400.68
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1611,
+      "dataProximoConcurso": "25/06/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 46116617.5,
+      "valorAcumuladoConcurso_0_5": 3126221.21,
+      "valorAcumuladoConcursoEspecial": 35542417.17,
+      "valorAcumuladoProximoConcurso": 29969484.28,
+      "valorEstimadoProximoConcurso": 36000000.0
+    }
+  },
+  {
+    "draw_id": 1611,
+    "draw_date": "2014-06-25",
+    "numbers": [
+      24,
+      28,
+      47,
+      50,
+      51,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1611,
+      "data": "25/06/2014",
+      "local": "Audit\u00f3rio em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "24",
+        "51",
+        "50",
+        "28",
+        "58",
+        "47"
+      ],
+      "dezenas": [
+        "24",
+        "28",
+        "47",
+        "50",
+        "51",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 97,
+          "valorPremio": 32077.5
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6367,
+          "valorPremio": 698.13
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Sorteio realizado em Est\u00fadio de TV.",
+      "acumulou": true,
+      "proximoConcurso": 1612,
+      "dataProximoConcurso": "28/06/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 53147042.5,
+      "valorAcumuladoConcurso_0_5": 6729031.24,
+      "valorAcumuladoConcursoEspecial": 36361237.63,
+      "valorAcumuladoProximoConcurso": 35701227.5,
+      "valorEstimadoProximoConcurso": 43000000.0
+    }
+  },
+  {
+    "draw_id": 1612,
+    "draw_date": "2014-06-28",
+    "numbers": [
+      6,
+      13,
+      17,
+      36,
+      42,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1612,
+      "data": "28/06/2014",
+      "local": "Caminh\u00e3o da Sorte em NOVA VENEZA, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "17",
+        "51",
+        "36",
+        "06",
+        "42",
+        "13"
+      ],
+      "dezenas": [
+        "06",
+        "13",
+        "17",
+        "36",
+        "42",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 21337822.84
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 261,
+          "valorPremio": 14506.18
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 16822,
+          "valorPremio": 321.52
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1613,
+      "dataProximoConcurso": "02/07/2014",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "FEIRA DE SANTANA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "BA"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "RIO DE JANEIRO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        }
+      ],
+      "valorArrecadado": 64669627.5,
+      "valorAcumuladoConcurso_0_5": 11112951.24,
+      "valorAcumuladoConcursoEspecial": 37357583.11,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 1613,
+    "draw_date": "2014-07-02",
+    "numbers": [
+      4,
+      18,
+      31,
+      44,
+      46,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1613,
+      "data": "02/07/2014",
+      "local": "Audit\u00f3rio em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "31",
+        "18",
+        "04",
+        "46",
+        "44",
+        "49"
+      ],
+      "dezenas": [
+        "04",
+        "18",
+        "31",
+        "44",
+        "46",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 103,
+          "valorPremio": 16406.04
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5801,
+          "valorPremio": 416.14
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Sorteio realizado em Est\u00fadio de TV.",
+      "acumulou": true,
+      "proximoConcurso": 1614,
+      "dataProximoConcurso": "05/07/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 28863410.0,
+      "valorAcumuladoConcurso_0_5": 13069586.6,
+      "valorAcumuladoConcursoEspecial": 37802272.98,
+      "valorAcumuladoProximoConcurso": 3112828.98,
+      "valorEstimadoProximoConcurso": 7000000.0
+    }
+  },
+  {
+    "draw_id": 1614,
+    "draw_date": "2014-07-05",
+    "numbers": [
+      14,
+      17,
+      21,
+      27,
+      43,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1614,
+      "data": "05/07/2014",
+      "local": "Caminh\u00e3o da Sorte em EUN\u00c1POLIS, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "49",
+        "27",
+        "43",
+        "17",
+        "14",
+        "21"
+      ],
+      "dezenas": [
+        "14",
+        "17",
+        "21",
+        "27",
+        "43",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 6912438.29
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 149,
+          "valorPremio": 13843.25
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7458,
+          "valorPremio": 395.09
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1615,
+      "dataProximoConcurso": "09/07/2014",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "S\u00c3O PAULO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 35231515.0,
+      "valorAcumuladoConcurso_0_5": 15457912.45,
+      "valorAcumuladoConcursoEspecial": 38345074.33,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 20000000.0
+    }
+  },
+  {
+    "draw_id": 1615,
+    "draw_date": "2014-07-09",
+    "numbers": [
+      5,
+      20,
+      26,
+      31,
+      33,
+      44
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1615,
+      "data": "09/07/2014",
+      "local": "Audit\u00f3rio em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "26",
+        "20",
+        "05",
+        "44",
+        "33",
+        "31"
+      ],
+      "dezenas": [
+        "05",
+        "20",
+        "26",
+        "31",
+        "33",
+        "44"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 71,
+          "valorPremio": 30288.72
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5701,
+          "valorPremio": 538.87
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV",
+      "acumulou": true,
+      "proximoConcurso": 1616,
+      "dataProximoConcurso": "12/07/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 36732132.5,
+      "valorAcumuladoConcurso_0_5": 2490051.93,
+      "valorAcumuladoConcursoEspecial": 38910995.23,
+      "valorAcumuladoProximoConcurso": 19419358.68,
+      "valorEstimadoProximoConcurso": 25000000.0
+    }
+  },
+  {
+    "draw_id": 1616,
+    "draw_date": "2014-07-12",
+    "numbers": [
+      28,
+      31,
+      40,
+      42,
+      46,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1616,
+      "data": "12/07/2014",
+      "local": "Caminh\u00e3o da Sorte em IPAMERI, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "46",
+        "40",
+        "58",
+        "31",
+        "28",
+        "42"
+      ],
+      "dezenas": [
+        "28",
+        "31",
+        "40",
+        "42",
+        "46",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 185,
+          "valorPremio": 17075.01
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6475,
+          "valorPremio": 696.93
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1617,
+      "dataProximoConcurso": "16/07/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 53955980.0,
+      "valorAcumuladoConcurso_0_5": 6147699.4,
+      "valorAcumuladoConcursoEspecial": 39742278.76,
+      "valorAcumuladoProximoConcurso": 25238343.3,
+      "valorEstimadoProximoConcurso": 32000000.0
+    }
+  },
+  {
+    "draw_id": 1617,
+    "draw_date": "2014-07-16",
+    "numbers": [
+      3,
+      23,
+      26,
+      31,
+      47,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1617,
+      "data": "16/07/2014",
+      "local": "Audit\u00f3rio em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "23",
+        "31",
+        "47",
+        "54",
+        "03",
+        "26"
+      ],
+      "dezenas": [
+        "03",
+        "23",
+        "26",
+        "31",
+        "47",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 16075904.16
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 265,
+          "valorPremio": 14162.36
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 13116,
+          "valorPremio": 408.77
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV.",
+      "acumulou": false,
+      "proximoConcurso": 1618,
+      "dataProximoConcurso": "19/07/2014",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "UBERL\u00c2NDIA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "SANTO ANDR\u00c9",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 64104445.0,
+      "valorAcumuladoConcurso_0_5": 10493305.97,
+      "valorAcumuladoConcursoEspecial": 40729916.63,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 1618,
+    "draw_date": "2014-07-19",
+    "numbers": [
+      9,
+      20,
+      24,
+      43,
+      51,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1618,
+      "data": "19/07/2014",
+      "local": "Caminh\u00e3o da Sorte em JARAGU\u00c1, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "09",
+        "51",
+        "20",
+        "24",
+        "52",
+        "43"
+      ],
+      "dezenas": [
+        "09",
+        "20",
+        "24",
+        "43",
+        "51",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 3400793.67
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 32,
+          "valorPremio": 57692.04
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3161,
+          "valorPremio": 834.34
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1619,
+      "dataProximoConcurso": "23/07/2014",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "FLORESTA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        }
+      ],
+      "valorArrecadado": 31533535.0,
+      "valorAcumuladoConcurso_0_5": 12630947.7,
+      "valorAcumuladoConcursoEspecial": 41215744.32,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 1619,
+    "draw_date": "2014-07-23",
+    "numbers": [
+      5,
+      8,
+      17,
+      42,
+      46,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1619,
+      "data": "23/07/2014",
+      "local": "Audit\u00f3rio em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "46",
+        "17",
+        "05",
+        "42",
+        "47",
+        "08"
+      ],
+      "dezenas": [
+        "05",
+        "08",
+        "17",
+        "42",
+        "46",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 92,
+          "valorPremio": 18392.04
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7438,
+          "valorPremio": 324.98
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Sorteio realizado em Est\u00fadio de TV.",
+      "acumulou": true,
+      "proximoConcurso": 1620,
+      "dataProximoConcurso": "26/07/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 28901780.0,
+      "valorAcumuladoConcurso_0_5": 17707151.21,
+      "valorAcumuladoConcursoEspecial": 41661025.35,
+      "valorAcumuladoProximoConcurso": 17707151.21,
+      "valorEstimadoProximoConcurso": 22000000.0
+    }
+  },
+  {
+    "draw_id": 1620,
+    "draw_date": "2014-07-26",
+    "numbers": [
+      13,
+      23,
+      27,
+      34,
+      38,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1620,
+      "data": "26/07/2014",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O MIGUEL DO ARAGUAIA, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "57",
+        "23",
+        "38",
+        "13",
+        "34",
+        "27"
+      ],
+      "dezenas": [
+        "13",
+        "23",
+        "27",
+        "34",
+        "38",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 136,
+          "valorPremio": 21094.54
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9539,
+          "valorPremio": 429.64
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1621,
+      "dataProximoConcurso": "30/07/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 49002217.5,
+      "valorAcumuladoConcurso_0_5": 3321834.52,
+      "valorAcumuladoConcursoEspecial": 42415987.76,
+      "valorAcumuladoProximoConcurso": 22991887.94,
+      "valorEstimadoProximoConcurso": 28000000.0
+    }
+  },
+  {
+    "draw_id": 1621,
+    "draw_date": "2014-07-30",
+    "numbers": [
+      10,
+      22,
+      24,
+      38,
+      39,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1621,
+      "data": "30/07/2014",
+      "local": "Audit\u00f3rio em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "24",
+        "22",
+        "38",
+        "49",
+        "10",
+        "39"
+      ],
+      "dezenas": [
+        "10",
+        "22",
+        "24",
+        "38",
+        "39",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 29279523.38
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 81,
+          "valorPremio": 42139.35
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6823,
+          "valorPremio": 714.66
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV.",
+      "acumulou": false,
+      "proximoConcurso": 1622,
+      "dataProximoConcurso": "02/08/2014",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "PORTO ALEGRE",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RS"
+        }
+      ],
+      "valorArrecadado": 58301500.0,
+      "valorAcumuladoConcurso_0_5": 7274062.51,
+      "valorAcumuladoConcursoEspecial": 43314221.4,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 1622,
+    "draw_date": "2014-08-02",
+    "numbers": [
+      4,
+      5,
+      7,
+      21,
+      45,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1622,
+      "data": "02/08/2014",
+      "local": "Caminh\u00e3o da Sorte em MARATA\u00cdZES, ES",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "21",
+        "07",
+        "05",
+        "53",
+        "45",
+        "04"
+      ],
+      "dezenas": [
+        "04",
+        "05",
+        "07",
+        "21",
+        "45",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 107,
+          "valorPremio": 17975.91
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7833,
+          "valorPremio": 350.79
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1623,
+      "dataProximoConcurso": "05/08/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 32853480.0,
+      "valorAcumuladoConcurso_0_5": 9501182.61,
+      "valorAcumuladoConcursoEspecial": 43820385.08,
+      "valorAcumuladoProximoConcurso": 3543145.63,
+      "valorEstimadoProximoConcurso": 6500000.0
+    }
+  },
+  {
+    "draw_id": 1623,
+    "draw_date": "2014-08-05",
+    "numbers": [
+      33,
+      43,
+      49,
+      50,
+      56,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1623,
+      "data": "05/08/2014",
+      "local": "Caminh\u00e3o da Sorte em URUSSANGA, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "33",
+        "56",
+        "59",
+        "43",
+        "50",
+        "49"
+      ],
+      "dezenas": [
+        "33",
+        "43",
+        "49",
+        "50",
+        "56",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 28,
+          "valorPremio": 45968.32
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1825,
+          "valorPremio": 1007.52
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1624,
+      "dataProximoConcurso": "07/08/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 21984847.5,
+      "valorAcumuladoConcurso_0_5": 10991523.84,
+      "valorAcumuladoConcursoEspecial": 44159099.02,
+      "valorAcumuladoProximoConcurso": 5914143.04,
+      "valorEstimadoProximoConcurso": 10000000.0
+    }
+  },
+  {
+    "draw_id": 1624,
+    "draw_date": "2014-08-07",
+    "numbers": [
+      2,
+      27,
+      32,
+      41,
+      47,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1624,
+      "data": "07/08/2014",
+      "local": "Audit\u00f3rio em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "32",
+        "02",
+        "27",
+        "47",
+        "58",
+        "41"
+      ],
+      "dezenas": [
+        "02",
+        "27",
+        "32",
+        "41",
+        "47",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 76,
+          "valorPremio": 27192.42
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4576,
+          "valorPremio": 645.17
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Sorteio realizado em Est\u00fadio de TV.",
+      "acumulou": true,
+      "proximoConcurso": 1625,
+      "dataProximoConcurso": "09/08/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 35299480.0,
+      "valorAcumuladoConcurso_0_5": 23105539.15,
+      "valorAcumuladoConcursoEspecial": 44702947.47,
+      "valorAcumuladoProximoConcurso": 23105539.15,
+      "valorEstimadoProximoConcurso": 28000000.0
+    }
+  },
+  {
+    "draw_id": 1625,
+    "draw_date": "2014-08-09",
+    "numbers": [
+      11,
+      22,
+      36,
+      40,
+      45,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1625,
+      "data": "09/08/2014",
+      "local": "Caminh\u00e3o da Sorte em URUSSANGA, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "45",
+        "11",
+        "22",
+        "52",
+        "36",
+        "40"
+      ],
+      "dezenas": [
+        "11",
+        "22",
+        "36",
+        "40",
+        "45",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 77,
+          "valorPremio": 38667.21
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6419,
+          "valorPremio": 662.62
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1626,
+      "dataProximoConcurso": "13/08/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 50855782.5,
+      "valorAcumuladoConcurso_0_5": 3447486.72,
+      "valorAcumuladoConcursoEspecial": 45486467.18,
+      "valorAcumuladoProximoConcurso": 28590177.11,
+      "valorEstimadoProximoConcurso": 35000000.0
+    }
+  },
+  {
+    "draw_id": 1626,
+    "draw_date": "2014-08-13",
+    "numbers": [
+      3,
+      5,
+      14,
+      35,
+      43,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1626,
+      "data": "13/08/2014",
+      "local": "Audit\u00f3rio em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "03",
+        "52",
+        "05",
+        "43",
+        "35",
+        "14"
+      ],
+      "dezenas": [
+        "03",
+        "05",
+        "14",
+        "35",
+        "43",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 158,
+          "valorPremio": 24628.84
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 12451,
+          "valorPremio": 446.47
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Sorteio realizado em Est\u00fadio de TV.",
+      "acumulou": true,
+      "proximoConcurso": 1627,
+      "dataProximoConcurso": "16/08/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 66467267.5,
+      "valorAcumuladoConcurso_0_5": 7953267.79,
+      "valorAcumuladoConcursoEspecial": 46510508.34,
+      "valorAcumuladoProximoConcurso": 35758465.17,
+      "valorEstimadoProximoConcurso": 44000000.0
+    }
+  },
+  {
+    "draw_id": 1627,
+    "draw_date": "2014-08-16",
+    "numbers": [
+      20,
+      26,
+      32,
+      41,
+      45,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1627,
+      "data": "16/08/2014",
+      "local": "Caminh\u00e3o da Sorte em CRICI\u00daMA, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "26",
+        "57",
+        "20",
+        "32",
+        "45",
+        "41"
+      ],
+      "dezenas": [
+        "20",
+        "26",
+        "32",
+        "41",
+        "45",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 44340626.24
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 130,
+          "valorPremio": 35837.6
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9306,
+          "valorPremio": 715.18
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1628,
+      "dataProximoConcurso": "20/08/2014",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "DORES DO INDAI\u00c1",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        }
+      ],
+      "valorArrecadado": 79577270.0,
+      "valorAcumuladoConcurso_0_5": 13347769.03,
+      "valorAcumuladoConcursoEspecial": 47736531.37,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 1628,
+    "draw_date": "2014-08-20",
+    "numbers": [
+      26,
+      29,
+      34,
+      38,
+      50,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1628,
+      "data": "20/08/2014",
+      "local": "Audit\u00f3rio em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "38",
+        "26",
+        "60",
+        "34",
+        "29",
+        "50"
+      ],
+      "dezenas": [
+        "26",
+        "29",
+        "34",
+        "38",
+        "50",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 36,
+          "valorPremio": 48159.74
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2795,
+          "valorPremio": 886.14
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV",
+      "acumulou": true,
+      "proximoConcurso": 1629,
+      "dataProximoConcurso": "23/08/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 29613752.5,
+      "valorAcumuladoConcurso_0_5": 15355269.71,
+      "valorAcumuladoConcursoEspecial": 48192781.54,
+      "valorAcumuladoProximoConcurso": 3193751.09,
+      "valorEstimadoProximoConcurso": 6600000.0
+    }
+  },
+  {
+    "draw_id": 1629,
+    "draw_date": "2014-08-23",
+    "numbers": [
+      4,
+      20,
+      24,
+      35,
+      47,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1629,
+      "data": "23/08/2014",
+      "local": "Caminh\u00e3o da Sorte em CAMAQU\u00c3, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "47",
+        "20",
+        "35",
+        "04",
+        "59",
+        "24"
+      ],
+      "dezenas": [
+        "04",
+        "20",
+        "24",
+        "35",
+        "47",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 92,
+          "valorPremio": 24320.52
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5701,
+          "valorPremio": 560.67
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1630,
+      "dataProximoConcurso": "27/08/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 38217960.0,
+      "valorAcumuladoConcurso_0_5": 25261484.27,
+      "valorAcumuladoConcursoEspecial": 48781594.15,
+      "valorAcumuladoProximoConcurso": 25261484.27,
+      "valorEstimadoProximoConcurso": 33000000.0
+    }
+  },
+  {
+    "draw_id": 1630,
+    "draw_date": "2014-08-27",
+    "numbers": [
+      1,
+      7,
+      30,
+      43,
+      44,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1630,
+      "data": "27/08/2014",
+      "local": "EST\u00daDIO DE TV em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "30",
+        "43",
+        "07",
+        "44",
+        "01",
+        "54"
+      ],
+      "dezenas": [
+        "01",
+        "07",
+        "30",
+        "43",
+        "44",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 81,
+          "valorPremio": 39324.58
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6412,
+          "valorPremio": 709.67
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1631,
+      "dataProximoConcurso": "30/08/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 54407152.5,
+      "valorAcumuladoConcurso_0_5": 3688232.22,
+      "valorAcumuladoConcursoEspecial": 49619828.76,
+      "valorAcumuladoProximoConcurso": 31129126.44,
+      "valorEstimadoProximoConcurso": 38000000.0
+    }
+  },
+  {
+    "draw_id": 1631,
+    "draw_date": "2014-08-30",
+    "numbers": [
+      4,
+      29,
+      44,
+      47,
+      48,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1631,
+      "data": "30/08/2014",
+      "local": "Caminh\u00e3o da Sorte em PELOTAS, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "47",
+        "48",
+        "44",
+        "60",
+        "04",
+        "29"
+      ],
+      "dezenas": [
+        "04",
+        "29",
+        "44",
+        "47",
+        "48",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 140,
+          "valorPremio": 26864.44
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9659,
+          "valorPremio": 556.25
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1632,
+      "dataProximoConcurso": "03/09/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 64241047.5,
+      "valorAcumuladoConcurso_0_5": 8043099.01,
+      "valorAcumuladoConcursoEspecial": 50609571.23,
+      "valorAcumuladoProximoConcurso": 38057323.6,
+      "valorEstimadoProximoConcurso": 46000000.0
+    }
+  },
+  {
+    "draw_id": 1632,
+    "draw_date": "2014-09-03",
+    "numbers": [
+      6,
+      18,
+      24,
+      27,
+      56,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1632,
+      "data": "03/09/2014",
+      "local": "Est\u00fadio de TV em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "18",
+        "56",
+        "27",
+        "06",
+        "24",
+        "59"
+      ],
+      "dezenas": [
+        "06",
+        "18",
+        "24",
+        "27",
+        "56",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 46770615.69
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 244,
+          "valorPremio": 19385.55
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 16339,
+          "valorPremio": 413.56
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1633,
+      "dataProximoConcurso": "06/09/2014",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "Ribeir\u00e3o Preto",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 80793170.0,
+      "valorAcumuladoConcurso_0_5": 13520025.46,
+      "valorAcumuladoConcursoEspecial": 51854327.26,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 1633,
+    "draw_date": "2014-09-06",
+    "numbers": [
+      1,
+      2,
+      11,
+      13,
+      36,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1633,
+      "data": "06/09/2014",
+      "local": "CAMINH\u00c3O DA SORTE em PASSOS, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "02",
+        "11",
+        "49",
+        "13",
+        "36",
+        "01"
+      ],
+      "dezenas": [
+        "01",
+        "02",
+        "11",
+        "13",
+        "36",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 99,
+          "valorPremio": 18634.31
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7430,
+          "valorPremio": 354.7
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1634,
+      "dataProximoConcurso": "10/09/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 31510497.5,
+      "valorAcumuladoConcurso_0_5": 15656105.49,
+      "valorAcumuladoConcursoEspecial": 52339800.01,
+      "valorAcumuladoProximoConcurso": 3398309.14,
+      "valorEstimadoProximoConcurso": 7000000.0
+    }
+  },
+  {
+    "draw_id": 1634,
+    "draw_date": "2014-09-10",
+    "numbers": [
+      9,
+      10,
+      23,
+      33,
+      44,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1634,
+      "data": "10/09/2014",
+      "local": "Est\u00fadio de TV em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "44",
+        "09",
+        "33",
+        "10",
+        "23",
+        "51"
+      ],
+      "dezenas": [
+        "09",
+        "10",
+        "23",
+        "33",
+        "44",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 7065301.82
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 110,
+          "valorPremio": 18096.85
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6257,
+          "valorPremio": 454.49
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1635,
+      "dataProximoConcurso": "13/09/2014",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "Curitiba",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        }
+      ],
+      "valorArrecadado": 34001840.0,
+      "valorAcumuladoConcurso_0_5": 17961072.32,
+      "valorAcumuladoConcursoEspecial": 52863656.12,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 22000000.0
+    }
+  },
+  {
+    "draw_id": 1635,
+    "draw_date": "2014-09-13",
+    "numbers": [
+      8,
+      23,
+      28,
+      30,
+      32,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1635,
+      "data": "13/09/2014",
+      "local": "Caminh\u00e3o da Sorte em VALEN\u00c7A, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "30",
+        "32",
+        "51",
+        "08",
+        "28",
+        "23"
+      ],
+      "dezenas": [
+        "08",
+        "23",
+        "28",
+        "30",
+        "32",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 112,
+          "valorPremio": 25026.29
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6874,
+          "valorPremio": 582.51
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1636,
+      "dataProximoConcurso": "17/09/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 47876382.5,
+      "valorAcumuladoConcurso_0_5": 3245514.76,
+      "valorAcumuladoConcursoEspecial": 53601273.12,
+      "valorAcumuladoProximoConcurso": 23124391.25,
+      "valorEstimadoProximoConcurso": 30000000.0
+    }
+  },
+  {
+    "draw_id": 1636,
+    "draw_date": "2014-09-17",
+    "numbers": [
+      19,
+      26,
+      33,
+      35,
+      51,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1636,
+      "data": "17/09/2014",
+      "local": "EST\u00daDIO DE TV em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "33",
+        "19",
+        "52",
+        "51",
+        "35",
+        "26"
+      ],
+      "dezenas": [
+        "19",
+        "26",
+        "33",
+        "35",
+        "51",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 90,
+          "valorPremio": 38637.27
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8474,
+          "valorPremio": 586.22
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1637,
+      "dataProximoConcurso": "20/09/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 59395800.0,
+      "valorAcumuladoConcurso_0_5": 7271924.76,
+      "valorAcumuladoConcursoEspecial": 54516366.32,
+      "valorAcumuladoProximoConcurso": 29530043.53,
+      "valorEstimadoProximoConcurso": 37000000.0
+    }
+  },
+  {
+    "draw_id": 1637,
+    "draw_date": "2014-09-20",
+    "numbers": [
+      1,
+      5,
+      24,
+      47,
+      55,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1637,
+      "data": "20/09/2014",
+      "local": "Caminh\u00e3o da Sorte em CARMO, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "05",
+        "56",
+        "24",
+        "55",
+        "01",
+        "47"
+      ],
+      "dezenas": [
+        "01",
+        "05",
+        "24",
+        "47",
+        "55",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 144,
+          "valorPremio": 28113.34
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11489,
+          "valorPremio": 503.37
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1638,
+      "dataProximoConcurso": "24/09/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 69148332.5,
+      "valorAcumuladoConcurso_0_5": 11959453.81,
+      "valorAcumuladoConcursoEspecial": 55581713.86,
+      "valorAcumuladoProximoConcurso": 36987476.12,
+      "valorEstimadoProximoConcurso": 45000000.0
+    }
+  },
+  {
+    "draw_id": 1638,
+    "draw_date": "2014-09-24",
+    "numbers": [
+      1,
+      2,
+      38,
+      41,
+      42,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1638,
+      "data": "24/09/2014",
+      "local": "Est\u00fadio de TV em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "38",
+        "02",
+        "42",
+        "58",
+        "41",
+        "01"
+      ],
+      "dezenas": [
+        "01",
+        "02",
+        "38",
+        "41",
+        "42",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 143,
+          "valorPremio": 34576.39
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9363,
+          "valorPremio": 754.4
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1639,
+      "dataProximoConcurso": "27/09/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 84454425.0,
+      "valorAcumuladoConcurso_0_5": 17684574.82,
+      "valorAcumuladoConcursoEspecial": 56882877.73,
+      "valorAcumuladoProximoConcurso": 46095623.18,
+      "valorEstimadoProximoConcurso": 55000000.0
+    }
+  },
+  {
+    "draw_id": 1639,
+    "draw_date": "2014-09-27",
+    "numbers": [
+      16,
+      29,
+      34,
+      35,
+      49,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1639,
+      "data": "27/09/2014",
+      "local": "Caminh\u00e3o da Sorte em PINHEIROS, ES",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "35",
+        "51",
+        "34",
+        "49",
+        "16",
+        "29"
+      ],
+      "dezenas": [
+        "16",
+        "29",
+        "34",
+        "35",
+        "49",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 28473749.18
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 228,
+          "valorPremio": 25837.8
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 13321,
+          "valorPremio": 631.76
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1640,
+      "dataProximoConcurso": "01/10/2014",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "COLATINA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "ES"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "CAMPO GRANDE",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MS"
+        }
+      ],
+      "valorArrecadado": 100622977.5,
+      "valorAcumuladoConcurso_0_5": 24505753.49,
+      "valorAcumuladoConcursoEspecial": 58433145.63,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 30000000.0
+    }
+  },
+  {
+    "draw_id": 1640,
+    "draw_date": "2014-10-01",
+    "numbers": [
+      2,
+      6,
+      18,
+      23,
+      31,
+      46
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1640,
+      "data": "01/10/2014",
+      "local": "Est\u00fadio de TV em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "06",
+        "18",
+        "46",
+        "23",
+        "31",
+        "02"
+      ],
+      "dezenas": [
+        "02",
+        "06",
+        "18",
+        "23",
+        "31",
+        "46"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 15134013.55
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 253,
+          "valorPremio": 12364.0
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 12809,
+          "valorPremio": 348.87
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1641,
+      "dataProximoConcurso": "04/10/2014",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "BARRA DO PIRA\u00cd",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "S\u00c3O PAULO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 53430132.5,
+      "valorAcumuladoConcurso_0_5": 3622000.55,
+      "valorAcumuladoConcursoEspecial": 59256327.59,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 1641,
+    "draw_date": "2014-10-04",
+    "numbers": [
+      23,
+      29,
+      30,
+      33,
+      46,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1641,
+      "data": "04/10/2014",
+      "local": "Caminh\u00e3o da Sorte em BOA ESPERAN\u00c7A, ES",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "51",
+        "30",
+        "29",
+        "33",
+        "46",
+        "23"
+      ],
+      "dezenas": [
+        "23",
+        "29",
+        "30",
+        "33",
+        "46",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 47,
+          "valorPremio": 42522.2
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4951,
+          "valorPremio": 576.66
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1642,
+      "dataProximoConcurso": "08/10/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 34136607.5,
+      "valorAcumuladoConcurso_0_5": 5936103.2,
+      "valorAcumuladoConcursoEspecial": 59782260.02,
+      "valorAcumuladoProximoConcurso": 3681526.94,
+      "valorEstimadoProximoConcurso": 8000000.0
+    }
+  },
+  {
+    "draw_id": 1642,
+    "draw_date": "2014-10-08",
+    "numbers": [
+      3,
+      23,
+      42,
+      43,
+      47,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1642,
+      "data": "08/10/2014",
+      "local": "Est\u00fadio de TV em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "47",
+        "03",
+        "43",
+        "42",
+        "60",
+        "23"
+      ],
+      "dezenas": [
+        "03",
+        "23",
+        "42",
+        "43",
+        "47",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 53,
+          "valorPremio": 41286.03
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5355,
+          "valorPremio": 583.74
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1643,
+      "dataProximoConcurso": "11/10/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 37375397.5,
+      "valorAcumuladoConcurso_0_5": 8469761.71,
+      "valorAcumuladoConcursoEspecial": 60358091.51,
+      "valorAcumuladoProximoConcurso": 7712347.3,
+      "valorEstimadoProximoConcurso": 12500000.0
+    }
+  },
+  {
+    "draw_id": 1643,
+    "draw_date": "2014-10-11",
+    "numbers": [
+      16,
+      19,
+      20,
+      28,
+      37,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1643,
+      "data": "11/10/2014",
+      "local": "Caminh\u00e3o da Sorte em CONSELHEIRO PENA, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "19",
+        "20",
+        "16",
+        "60",
+        "28",
+        "37"
+      ],
+      "dezenas": [
+        "16",
+        "19",
+        "20",
+        "28",
+        "37",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 60,
+          "valorPremio": 45113.02
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5152,
+          "valorPremio": 750.54
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1644,
+      "dataProximoConcurso": "15/10/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 46233842.5,
+      "valorAcumuladoConcurso_0_5": 11603929.55,
+      "valorAcumuladoConcursoEspecial": 61070402.39,
+      "valorAcumuladoProximoConcurso": 12698523.41,
+      "valorEstimadoProximoConcurso": 18500000.0
+    }
+  },
+  {
+    "draw_id": 1644,
+    "draw_date": "2014-10-15",
+    "numbers": [
+      10,
+      13,
+      16,
+      22,
+      34,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1644,
+      "data": "15/10/2014",
+      "local": "Est\u00fadio de TV em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "10",
+        "16",
+        "34",
+        "13",
+        "60",
+        "22"
+      ],
+      "dezenas": [
+        "10",
+        "13",
+        "16",
+        "22",
+        "34",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 92,
+          "valorPremio": 30918.2
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8884,
+          "valorPremio": 457.39
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1645,
+      "dataProximoConcurso": "18/10/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 48585737.5,
+      "valorAcumuladoConcurso_0_5": 32835875.18,
+      "valorAcumuladoConcursoEspecial": 61818948.22,
+      "valorAcumuladoProximoConcurso": 32835875.18,
+      "valorEstimadoProximoConcurso": 40000000.0
+    }
+  },
+  {
+    "draw_id": 1645,
+    "draw_date": "2014-10-18",
+    "numbers": [
+      8,
+      18,
+      21,
+      31,
+      37,
+      38
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1645,
+      "data": "18/10/2014",
+      "local": "Caminh\u00e3o da Sorte em Natividade da Serra, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "31",
+        "37",
+        "21",
+        "38",
+        "08",
+        "18"
+      ],
+      "dezenas": [
+        "08",
+        "18",
+        "21",
+        "31",
+        "37",
+        "38"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 137,
+          "valorPremio": 29198.03
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8400,
+          "valorPremio": 680.29
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1646,
+      "dataProximoConcurso": "22/10/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 68325217.5,
+      "valorAcumuladoConcurso_0_5": 4631730.53,
+      "valorAcumuladoConcursoEspecial": 62871614.25,
+      "valorAcumuladoProximoConcurso": 40204537.38,
+      "valorEstimadoProximoConcurso": 50000000.0
+    }
+  },
+  {
+    "draw_id": 1646,
+    "draw_date": "2014-10-22",
+    "numbers": [
+      19,
+      23,
+      34,
+      40,
+      41,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1646,
+      "data": "22/10/2014",
+      "local": "Est\u00fadio de TV em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "34",
+        "23",
+        "41",
+        "19",
+        "40",
+        "58"
+      ],
+      "dezenas": [
+        "19",
+        "23",
+        "34",
+        "40",
+        "41",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 126,
+          "valorPremio": 39714.43
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10700,
+          "valorPremio": 668.09
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1647,
+      "dataProximoConcurso": "25/10/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 85472367.5,
+      "valorAcumuladoConcurso_0_5": 10425857.32,
+      "valorAcumuladoConcursoEspecial": 64188461.26,
+      "valorAcumuladoProximoConcurso": 49422466.37,
+      "valorEstimadoProximoConcurso": 60000000.0
+    }
+  },
+  {
+    "draw_id": 1647,
+    "draw_date": "2014-10-25",
+    "numbers": [
+      12,
+      17,
+      23,
+      38,
+      53,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1647,
+      "data": "25/10/2014",
+      "local": "Caminh\u00e3o da Sorte em NOVA VEN\u00c9CIA, ES",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "38",
+        "54",
+        "23",
+        "12",
+        "17",
+        "53"
+      ],
+      "dezenas": [
+        "12",
+        "17",
+        "23",
+        "38",
+        "53",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 61050152.43
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 259,
+          "valorPremio": 24371.32
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 20655,
+          "valorPremio": 436.57
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1648,
+      "dataProximoConcurso": "29/10/2014",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "TOBIAS BARRETO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SE"
+        }
+      ],
+      "valorArrecadado": 107816610.0,
+      "valorAcumuladoConcurso_0_5": 17734688.56,
+      "valorAcumuladoConcursoEspecial": 65849559.29,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 1648,
+    "draw_date": "2014-10-29",
+    "numbers": [
+      15,
+      16,
+      18,
+      20,
+      22,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1648,
+      "data": "29/10/2014",
+      "local": "EST\u00daDIO DE TV em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "48",
+        "18",
+        "15",
+        "22",
+        "20",
+        "16"
+      ],
+      "dezenas": [
+        "15",
+        "16",
+        "18",
+        "20",
+        "22",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 98,
+          "valorPremio": 17711.66
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5545,
+          "valorPremio": 447.18
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1649,
+      "dataProximoConcurso": "01/11/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 29647770.0,
+      "valorAcumuladoConcurso_0_5": 19744495.26,
+      "valorAcumuladoConcursoEspecial": 66306333.55,
+      "valorAcumuladoProximoConcurso": 3197419.78,
+      "valorEstimadoProximoConcurso": 7000000.0
+    }
+  },
+  {
+    "draw_id": 1649,
+    "draw_date": "2014-11-01",
+    "numbers": [
+      24,
+      33,
+      38,
+      42,
+      44,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1649,
+      "data": "01/11/2014",
+      "local": "Caminh\u00e3o da Sorte em JUNDIA\u00cd, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "54",
+        "33",
+        "24",
+        "44",
+        "38",
+        "42"
+      ],
+      "dezenas": [
+        "24",
+        "33",
+        "38",
+        "42",
+        "44",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 99,
+          "valorPremio": 23864.71
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7522,
+          "valorPremio": 448.7
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1650,
+      "dataProximoConcurso": "05/11/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 40355072.5,
+      "valorAcumuladoConcurso_0_5": 30029733.19,
+      "valorAcumuladoConcursoEspecial": 66928072.0,
+      "valorAcumuladoProximoConcurso": 30029733.19,
+      "valorEstimadoProximoConcurso": 37000000.0
+    }
+  },
+  {
+    "draw_id": 1650,
+    "draw_date": "2014-11-05",
+    "numbers": [
+      17,
+      23,
+      29,
+      38,
+      57,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1650,
+      "data": "05/11/2014",
+      "local": "EST\u00daDIO DE TV em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "23",
+        "57",
+        "29",
+        "17",
+        "60",
+        "38"
+      ],
+      "dezenas": [
+        "17",
+        "23",
+        "29",
+        "38",
+        "57",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 133,
+          "valorPremio": 28160.94
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10962,
+          "valorPremio": 488.1
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1651,
+      "dataProximoConcurso": "08/11/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 63974315.0,
+      "valorAcumuladoConcurso_0_5": 4336785.14,
+      "valorAcumuladoConcursoEspecial": 67913704.99,
+      "valorAcumuladoProximoConcurso": 36929164.09,
+      "valorEstimadoProximoConcurso": 45000000.0
+    }
+  },
+  {
+    "draw_id": 1651,
+    "draw_date": "2014-11-08",
+    "numbers": [
+      8,
+      27,
+      35,
+      38,
+      41,
+      44
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1651,
+      "data": "08/11/2014",
+      "local": "Caminh\u00e3o da Sorte em SOROCABA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "27",
+        "44",
+        "08",
+        "35",
+        "38",
+        "41"
+      ],
+      "dezenas": [
+        "08",
+        "27",
+        "35",
+        "38",
+        "41",
+        "44"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 145,
+          "valorPremio": 31866.3
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 12024,
+          "valorPremio": 548.97
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1652,
+      "dataProximoConcurso": "12/11/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 78923522.5,
+      "valorAcumuladoConcurso_0_5": 9686969.17,
+      "valorAcumuladoConcursoEspecial": 69129655.92,
+      "valorAcumuladoProximoConcurso": 45440820.51,
+      "valorEstimadoProximoConcurso": 55000000.0
+    }
+  },
+  {
+    "draw_id": 1652,
+    "draw_date": "2014-11-12",
+    "numbers": [
+      7,
+      24,
+      26,
+      28,
+      44,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1652,
+      "data": "12/11/2014",
+      "local": "Est\u00fadio de TV em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "44",
+        "28",
+        "24",
+        "57",
+        "07",
+        "26"
+      ],
+      "dezenas": [
+        "07",
+        "24",
+        "26",
+        "28",
+        "44",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 391,
+          "valorPremio": 14612.95
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 22215,
+          "valorPremio": 367.42
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1653,
+      "dataProximoConcurso": "14/11/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 97593625.0,
+      "valorAcumuladoConcurso_0_5": 16302789.63,
+      "valorAcumuladoConcursoEspecial": 70633251.5,
+      "valorAcumuladoProximoConcurso": 55965989.43,
+      "valorEstimadoProximoConcurso": 67000000.0
+    }
+  },
+  {
+    "draw_id": 1653,
+    "draw_date": "2014-11-14",
+    "numbers": [
+      1,
+      21,
+      22,
+      27,
+      32,
+      45
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1653,
+      "data": "14/11/2014",
+      "local": "Est\u00fadio de TV em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "45",
+        "22",
+        "27",
+        "21",
+        "01",
+        "32"
+      ],
+      "dezenas": [
+        "01",
+        "21",
+        "22",
+        "27",
+        "32",
+        "45"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 134,
+          "valorPremio": 39421.72
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 12071,
+          "valorPremio": 625.17
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1654,
+      "dataProximoConcurso": "19/11/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 90229207.5,
+      "valorAcumuladoConcurso_0_5": 22419380.11,
+      "valorAcumuladoConcursoEspecial": 72023385.71,
+      "valorAcumuladoProximoConcurso": 65696928.82,
+      "valorEstimadoProximoConcurso": 80000000.0
+    }
+  },
+  {
+    "draw_id": 1654,
+    "draw_date": "2014-11-19",
+    "numbers": [
+      7,
+      16,
+      33,
+      42,
+      50,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1654,
+      "data": "19/11/2014",
+      "local": "Est\u00fadio de TV em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "50",
+        "33",
+        "42",
+        "07",
+        "58",
+        "16"
+      ],
+      "dezenas": [
+        "07",
+        "16",
+        "33",
+        "42",
+        "50",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 249,
+          "valorPremio": 34739.5
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 19592,
+          "valorPremio": 630.73
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1655,
+      "dataProximoConcurso": "22/11/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 147750745.0,
+      "valorAcumuladoConcurso_0_5": 114066712.47,
+      "valorAcumuladoConcursoEspecial": 74299736.91,
+      "valorAcumuladoProximoConcurso": 114066712.47,
+      "valorEstimadoProximoConcurso": 135000000.0
+    }
+  },
+  {
+    "draw_id": 1655,
+    "draw_date": "2014-11-22",
+    "numbers": [
+      7,
+      24,
+      28,
+      46,
+      53,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1655,
+      "data": "22/11/2014",
+      "local": "Caminh\u00e3o da Sorte em MACATUBA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "56",
+        "46",
+        "07",
+        "24",
+        "28",
+        "53"
+      ],
+      "dezenas": [
+        "07",
+        "24",
+        "28",
+        "46",
+        "53",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 67657559.48
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 704,
+          "valorPremio": 16384.73
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 39616,
+          "valorPremio": 415.95
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1656,
+      "dataProximoConcurso": "26/11/2014",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "CIANORTE",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "RIO DE JANEIRO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        }
+      ],
+      "valorArrecadado": 197023822.5,
+      "valorAcumuladoConcurso_0_5": 13356141.22,
+      "valorAcumuladoConcursoEspecial": 77335223.56,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 1656,
+    "draw_date": "2014-11-26",
+    "numbers": [
+      4,
+      6,
+      11,
+      43,
+      54,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1656,
+      "data": "26/11/2014",
+      "local": "Est\u00fadio de TV em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "06",
+        "04",
+        "43",
+        "54",
+        "56",
+        "11"
+      ],
+      "dezenas": [
+        "04",
+        "06",
+        "11",
+        "43",
+        "54",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 55,
+          "valorPremio": 34902.47
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5037,
+          "valorPremio": 544.43
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1657,
+      "dataProximoConcurso": "29/11/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 32788810.0,
+      "valorAcumuladoConcurso_0_5": 15578877.38,
+      "valorAcumuladoConcursoEspecial": 77840390.89,
+      "valorAcumuladoProximoConcurso": 3536171.17,
+      "valorEstimadoProximoConcurso": 7500000.0
+    }
+  },
+  {
+    "draw_id": 1657,
+    "draw_date": "2014-11-29",
+    "numbers": [
+      7,
+      10,
+      14,
+      37,
+      45,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1657,
+      "data": "29/11/2014",
+      "local": "Caminh\u00e3o da Sorte em JA\u00da, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "10",
+        "54",
+        "37",
+        "45",
+        "14",
+        "07"
+      ],
+      "dezenas": [
+        "07",
+        "10",
+        "14",
+        "37",
+        "45",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 8336476.39
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 170,
+          "valorPremio": 15328.71
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9969,
+          "valorPremio": 373.42
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1658,
+      "dataProximoConcurso": "03/12/2014",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "BURITAMA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 44510372.5,
+      "valorAcumuladoConcurso_0_5": 18596212.09,
+      "valorAcumuladoConcursoEspecial": 78526148.8,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 1658,
+    "draw_date": "2014-12-03",
+    "numbers": [
+      7,
+      11,
+      19,
+      23,
+      40,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1658,
+      "data": "03/12/2014",
+      "local": "EST\u00daDIO DE TV. em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "07",
+        "40",
+        "19",
+        "49",
+        "11",
+        "23"
+      ],
+      "dezenas": [
+        "07",
+        "11",
+        "19",
+        "23",
+        "40",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 3748248.31
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 110,
+          "valorPremio": 18497.85
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7011,
+          "valorPremio": 414.6
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1659,
+      "dataProximoConcurso": "06/12/2014",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "RIO DE JANEIRO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        }
+      ],
+      "valorArrecadado": 34755275.0,
+      "valorAcumuladoConcurso_0_5": 20952253.88,
+      "valorAcumuladoConcursoEspecial": 79061612.86,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 1659,
+    "draw_date": "2014-12-06",
+    "numbers": [
+      4,
+      10,
+      20,
+      33,
+      37,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1659,
+      "data": "06/12/2014",
+      "local": "Caminh\u00e3o da Sorte em Barreirinhas, MA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "20",
+        "33",
+        "37",
+        "49",
+        "04",
+        "10"
+      ],
+      "dezenas": [
+        "04",
+        "10",
+        "20",
+        "33",
+        "37",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 95,
+          "valorPremio": 22938.69
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6810,
+          "valorPremio": 457.13
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1660,
+      "dataProximoConcurso": "10/12/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 37221940.0,
+      "valorAcumuladoConcurso_0_5": 27489780.03,
+      "valorAcumuladoConcursoEspecial": 79635080.08,
+      "valorAcumuladoProximoConcurso": 27489780.03,
+      "valorEstimadoProximoConcurso": 34000000.0
+    }
+  },
+  {
+    "draw_id": 1660,
+    "draw_date": "2014-12-10",
+    "numbers": [
+      8,
+      17,
+      34,
+      38,
+      42,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1660,
+      "data": "10/12/2014",
+      "local": "Caminh\u00e3o da Sorte em Osasco, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "17",
+        "38",
+        "42",
+        "51",
+        "34",
+        "08"
+      ],
+      "dezenas": [
+        "08",
+        "17",
+        "34",
+        "38",
+        "42",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 33639041.43
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 218,
+          "valorPremio": 15312.71
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11526,
+          "valorPremio": 413.74
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1661,
+      "dataProximoConcurso": "13/12/2014",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "BARRA DO PIRA\u00cd",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        }
+      ],
+      "valorArrecadado": 57018440.0,
+      "valorAcumuladoConcurso_0_5": 3865250.03,
+      "valorAcumuladoConcursoEspecial": 80513546.01,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 1661,
+    "draw_date": "2014-12-13",
+    "numbers": [
+      13,
+      16,
+      27,
+      43,
+      48,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1661,
+      "data": "13/12/2014",
+      "local": "Caminh\u00e3o da Sorte em CRATEUS, CE",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "16",
+        "48",
+        "43",
+        "27",
+        "58",
+        "13"
+      ],
+      "dezenas": [
+        "13",
+        "16",
+        "27",
+        "43",
+        "48",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 70,
+          "valorPremio": 30074.43
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6712,
+          "valorPremio": 448.06
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1662,
+      "dataProximoConcurso": "17/12/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 35958550.0,
+      "valorAcumuladoConcurso_0_5": 6302861.2,
+      "valorAcumuladoConcursoEspecial": 81067548.55,
+      "valorAcumuladoProximoConcurso": 3878017.77,
+      "valorEstimadoProximoConcurso": 8000000.0
+    }
+  },
+  {
+    "draw_id": 1662,
+    "draw_date": "2014-12-17",
+    "numbers": [
+      10,
+      14,
+      25,
+      29,
+      33,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1662,
+      "data": "17/12/2014",
+      "local": "EST\u00daDIO DE TV em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "57",
+        "10",
+        "25",
+        "14",
+        "33",
+        "29"
+      ],
+      "dezenas": [
+        "10",
+        "14",
+        "25",
+        "29",
+        "33",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 4077429.91
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 160,
+          "valorPremio": 14510.72
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8641,
+          "valorPremio": 383.83
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1663,
+      "dataProximoConcurso": "20/12/2014",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "BRAS\u00cdLIA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "DF"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "GUARANIA\u00c7U",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        }
+      ],
+      "valorArrecadado": 39656610.0,
+      "valorAcumuladoConcurso_0_5": 8991161.9,
+      "valorAcumuladoConcursoEspecial": 81678526.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 1663,
+    "draw_date": "2014-12-20",
+    "numbers": [
+      18,
+      20,
+      27,
+      40,
+      49,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1663,
+      "data": "20/12/2014",
+      "local": "Caminh\u00e3o da sorte em S\u00c3O JO\u00c3O DO PIAU\u00cd, PI",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "20",
+        "27",
+        "49",
+        "40",
+        "55",
+        "18"
+      ],
+      "dezenas": [
+        "18",
+        "20",
+        "27",
+        "40",
+        "49",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 28,
+          "valorPremio": 73129.68
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3524,
+          "valorPremio": 830.07
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1664,
+      "dataProximoConcurso": "24/12/2014",
+      "localGanhadores": [],
+      "valorArrecadado": 34975062.5,
+      "valorAcumuladoConcurso_0_5": 11362102.97,
+      "valorAcumuladoConcursoEspecial": 82217376.25,
+      "valorAcumuladoProximoConcurso": 3771951.7,
+      "valorEstimadoProximoConcurso": 8000000.0
+    }
+  },
+  {
+    "draw_id": 1664,
+    "draw_date": "2014-12-24",
+    "numbers": [
+      8,
+      21,
+      23,
+      29,
+      36,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1664,
+      "data": "24/12/2014",
+      "local": "Caminh\u00e3o da Sorte em Iguatu, CE",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "48",
+        "08",
+        "21",
+        "36",
+        "23",
+        "29"
+      ],
+      "dezenas": [
+        "08",
+        "21",
+        "23",
+        "29",
+        "36",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 7993708.78
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 131,
+          "valorPremio": 17494.74
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8211,
+          "valorPremio": 398.73
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1665,
+      "dataProximoConcurso": "31/12/2014",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "RECIFE",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PE"
+        }
+      ],
+      "valorArrecadado": 39145840.0,
+      "valorAcumuladoConcurso_0_5": 96836263.26,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 240000000.0
+    }
+  },
+  {
+    "draw_id": 1665,
+    "draw_date": "2014-12-31",
+    "numbers": [
+      1,
+      5,
+      11,
+      16,
+      20,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1665,
+      "data": "31/12/2014",
+      "local": "EST\u00daDIO DE TV em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "20",
+        "11",
+        "16",
+        "01",
+        "56",
+        "05"
+      ],
+      "dezenas": [
+        "01",
+        "05",
+        "11",
+        "16",
+        "20",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 4,
+          "valorPremio": 65823888.16
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 2581,
+          "valorPremio": 19764.32
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 168546,
+          "valorPremio": 432.36
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1666,
+      "dataProximoConcurso": "03/01/2015",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "BRAS\u00cdLIA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "DF"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "SANTA RITA DO TRIVELATO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MT"
+        },
+        {
+          "ganhadores": 2,
+          "municipio": "S\u00c3O PAULO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 871318160.0,
+      "valorAcumuladoConcurso_0_5": 0.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  }
+]

@@ -1,0 +1,7206 @@
+[
+  {
+    "draw_id": 326,
+    "draw_date": "2002-01-05",
+    "numbers": [
+      21,
+      23,
+      40,
+      44,
+      51,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 326,
+      "data": "05/01/2002",
+      "local": "Caminh\u00e3o da Sorte em Guaratuba, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "52",
+        "23",
+        "40",
+        "51",
+        "44",
+        "21"
+      ],
+      "dezenas": [
+        "21",
+        "23",
+        "40",
+        "44",
+        "51",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 27,
+          "valorPremio": 32367.36
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2674,
+          "valorPremio": 325.58
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$1.800.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 327,
+      "dataProximoConcurso": "02/01/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7671500.37,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1048702.44,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 327,
+    "draw_date": "2002-01-09",
+    "numbers": [
+      29,
+      32,
+      33,
+      38,
+      46,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 327,
+      "data": "09/01/2002",
+      "local": "Caminh\u00e3o da Sorte em Caldas Novas, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "46",
+        "38",
+        "29",
+        "33",
+        "32",
+        "48"
+      ],
+      "dezenas": [
+        "29",
+        "32",
+        "33",
+        "38",
+        "46",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 16,
+          "valorPremio": 30517.93
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2112,
+          "valorPremio": 230.33
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$2.600.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 328,
+      "dataProximoConcurso": "05/01/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 8062129.87,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1634646.68,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 328,
+    "draw_date": "2002-01-12",
+    "numbers": [
+      5,
+      7,
+      14,
+      21,
+      23,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 328,
+      "data": "12/01/2002",
+      "local": "Caminh\u00e3o da Sorte em Caldas Novas, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "51",
+        "05",
+        "23",
+        "07",
+        "14",
+        "21"
+      ],
+      "dezenas": [
+        "05",
+        "07",
+        "14",
+        "21",
+        "23",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 2721357.01
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 100,
+          "valorPremio": 9055.92
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7121,
+          "valorPremio": 126.69
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio pr\u00f3ximo concurso (sena): R$ 550 MIL.",
+      "acumulou": false,
+      "proximoConcurso": 329,
+      "dataProximoConcurso": "09/01/2002",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 8786603.44,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 329,
+    "draw_date": "2002-01-16",
+    "numbers": [
+      10,
+      11,
+      12,
+      24,
+      35,
+      40
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 329,
+      "data": "16/01/2002",
+      "local": "Caminh\u00e3o da Sorte em S\u00e3o Sebasti\u00e3o, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "24",
+        "11",
+        "40",
+        "12",
+        "35",
+        "10"
+      ],
+      "dezenas": [
+        "10",
+        "11",
+        "12",
+        "24",
+        "35",
+        "40"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 40,
+          "valorPremio": 10380.3
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2904,
+          "valorPremio": 142.44
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$11.000.000,00 (ONZE MILH\u00d5ES!!!)",
+      "acumulou": true,
+      "proximoConcurso": 330,
+      "dataProximoConcurso": "12/01/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 0.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 9617027.24,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 330,
+    "draw_date": "2002-01-19",
+    "numbers": [
+      2,
+      4,
+      14,
+      23,
+      37,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 330,
+      "data": "19/01/2002",
+      "local": "Caminh\u00e3o da Sorte em S\u00e3o Sebasti\u00e3o, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "02",
+        "04",
+        "23",
+        "37",
+        "14",
+        "51"
+      ],
+      "dezenas": [
+        "02",
+        "04",
+        "14",
+        "23",
+        "37",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 120,
+          "valorPremio": 10924.51
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7914,
+          "valorPremio": 165.03
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$13.000.000,00 (TREZE MILH\u00d5ES).",
+      "acumulou": true,
+      "proximoConcurso": 331,
+      "dataProximoConcurso": "16/01/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1048752.52,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 11190156.01,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 331,
+    "draw_date": "2002-01-23",
+    "numbers": [
+      1,
+      13,
+      20,
+      27,
+      35,
+      37
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 331,
+      "data": "23/01/2002",
+      "local": "Caminh\u00e3o da Sorte em Tr\u00eas Lagoas, MS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "27",
+        "01",
+        "35",
+        "20",
+        "37",
+        "13"
+      ],
+      "dezenas": [
+        "01",
+        "13",
+        "20",
+        "27",
+        "35",
+        "37"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 70,
+          "valorPremio": 13872.44
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6408,
+          "valorPremio": 150.97
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$15.000.000,00 (QUINZE MILH\u00d5ES!!!)",
+      "acumulou": true,
+      "proximoConcurso": 332,
+      "dataProximoConcurso": "19/01/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1825609.47,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 12355441.42,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 332,
+    "draw_date": "2002-01-26",
+    "numbers": [
+      23,
+      28,
+      29,
+      34,
+      42,
+      44
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 332,
+      "data": "26/01/2002",
+      "local": "Caminh\u00e3o da Sorte em Tr\u00eas Lagoas, MS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "28",
+        "23",
+        "42",
+        "29",
+        "44",
+        "34"
+      ],
+      "dezenas": [
+        "23",
+        "28",
+        "29",
+        "34",
+        "42",
+        "44"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 83,
+          "valorPremio": 16762.69
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6713,
+          "valorPremio": 206.47
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$16.000.000,00 (DEZESSEIS MILH\u00d5ES!!!).",
+      "acumulou": true,
+      "proximoConcurso": 333,
+      "dataProximoConcurso": "23/01/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2938651.74,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 14025004.81,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 333,
+    "draw_date": "2002-01-30",
+    "numbers": [
+      4,
+      27,
+      35,
+      44,
+      52,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 333,
+      "data": "30/01/2002",
+      "local": "Caminh\u00e3o da Sorte em Dourados, MS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "35",
+        "27",
+        "53",
+        "44",
+        "52",
+        "04"
+      ],
+      "dezenas": [
+        "04",
+        "27",
+        "35",
+        "44",
+        "52",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 93,
+          "valorPremio": 12692.31
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6221,
+          "valorPremio": 189.02
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$17.000.000,00 (DEZESSETE MILH\u00d5ES!!).",
+      "acumulou": true,
+      "proximoConcurso": 334,
+      "dataProximoConcurso": "26/01/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3882959.29,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 15441466.12,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 334,
+    "draw_date": "2002-02-02",
+    "numbers": [
+      14,
+      23,
+      24,
+      26,
+      41,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 334,
+      "data": "02/02/2002",
+      "local": "Caminh\u00e3o da Sorte em Dourados, MS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "41",
+        "26",
+        "51",
+        "14",
+        "24",
+        "23"
+      ],
+      "dezenas": [
+        "14",
+        "23",
+        "24",
+        "26",
+        "41",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 8729392.91
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 1200,
+          "valorPremio": 1400.91
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8839,
+          "valorPremio": 189.47
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$600.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 335,
+      "dataProximoConcurso": "30/01/2002",
+      "localGanhadores": [
+        {
+          "ganhadores": 2,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5227839.1,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 335,
+    "draw_date": "2002-02-06",
+    "numbers": [
+      7,
+      23,
+      33,
+      43,
+      57,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 335,
+      "data": "06/02/2002",
+      "local": "Caminh\u00e3o da Sorte em Corumb\u00e1, MS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "43",
+        "33",
+        "57",
+        "23",
+        "59",
+        "07"
+      ],
+      "dezenas": [
+        "07",
+        "23",
+        "33",
+        "43",
+        "57",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 24,
+          "valorPremio": 17736.83
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2134,
+          "valorPremio": 198.73
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$1.100.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 336,
+      "dataProximoConcurso": "02/02/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5568386.23,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 510820.7,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 336,
+    "draw_date": "2002-02-09",
+    "numbers": [
+      2,
+      18,
+      22,
+      26,
+      30,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 336,
+      "data": "09/02/2002",
+      "local": "Caminh\u00e3o da Sorte em Corumb\u00e1, MS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "02",
+        "18",
+        "54",
+        "22",
+        "30",
+        "26"
+      ],
+      "dezenas": [
+        "02",
+        "18",
+        "22",
+        "26",
+        "30",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 68,
+          "valorPremio": 11058.6
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4141,
+          "valorPremio": 180.91
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio(SENA)para o pr\u00f3ximo concurso: R$ 2.500.000,00",
+      "acumulou": true,
+      "proximoConcurso": 337,
+      "dataProximoConcurso": "06/02/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6169974.24,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1413202.7,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 337,
+    "draw_date": "2002-02-16",
+    "numbers": [
+      4,
+      14,
+      16,
+      31,
+      52,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 337,
+      "data": "16/02/2002",
+      "local": "Caminh\u00e3o da Sorte em Vargem Grande do Sul, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "31",
+        "52",
+        "14",
+        "54",
+        "16",
+        "04"
+      ],
+      "dezenas": [
+        "04",
+        "14",
+        "16",
+        "31",
+        "52",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 34,
+          "valorPremio": 27110.52
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3454,
+          "valorPremio": 265.86
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$3.500.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 338,
+      "dataProximoConcurso": "09/02/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6907380.43,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 2519311.97,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 338,
+    "draw_date": "2002-02-20",
+    "numbers": [
+      1,
+      4,
+      9,
+      36,
+      46,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 338,
+      "data": "20/02/2002",
+      "local": "Caminh\u00e3o da Sorte em Itu, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "48",
+        "46",
+        "09",
+        "01",
+        "36",
+        "04"
+      ],
+      "dezenas": [
+        "01",
+        "04",
+        "09",
+        "36",
+        "46",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 43,
+          "valorPremio": 14031.02
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3245,
+          "valorPremio": 185.23
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$4.200.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 339,
+      "dataProximoConcurso": "23/02/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7390047.45,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 3243312.5,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 339,
+    "draw_date": "2002-02-23",
+    "numbers": [
+      5,
+      12,
+      13,
+      16,
+      27,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 339,
+      "data": "23/02/2002",
+      "local": "Caminh\u00e3o da Sorte em Itu, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "13",
+        "16",
+        "12",
+        "05",
+        "27",
+        "50"
+      ],
+      "dezenas": [
+        "05",
+        "12",
+        "13",
+        "16",
+        "27",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 76,
+          "valorPremio": 12374.85
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6908,
+          "valorPremio": 135.64
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$14.000.000,00 (QUATORZE MILH\u00d5ES!!).",
+      "acumulou": true,
+      "proximoConcurso": 340,
+      "dataProximoConcurso": "27/02/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 0.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 12514336.94,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 340,
+    "draw_date": "2002-02-27",
+    "numbers": [
+      9,
+      10,
+      12,
+      33,
+      42,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 340,
+      "data": "27/02/2002",
+      "local": "Caminh\u00e3o da Sorte em S\u00e3o Louren\u00e7o do Sul, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "10",
+        "60",
+        "42",
+        "09",
+        "33",
+        "12"
+      ],
+      "dezenas": [
+        "09",
+        "10",
+        "12",
+        "33",
+        "42",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 121,
+          "valorPremio": 9877.84
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6970,
+          "valorPremio": 170.83
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$16.000.000,00 (DEZESSEIS MILH\u00d5ES!!).",
+      "acumulou": true,
+      "proximoConcurso": 341,
+      "dataProximoConcurso": "02/03/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 956174.29,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 13948598.35,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 341,
+    "draw_date": "2002-03-02",
+    "numbers": [
+      5,
+      16,
+      22,
+      23,
+      43,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 341,
+      "data": "02/03/2002",
+      "local": "Caminh\u00e3o da Sorte em S\u00e3o Louren\u00e7o do Sul, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "56",
+        "23",
+        "22",
+        "43",
+        "16",
+        "05"
+      ],
+      "dezenas": [
+        "05",
+        "16",
+        "22",
+        "23",
+        "43",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 166,
+          "valorPremio": 9623.14
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11103,
+          "valorPremio": 143.34
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$18.000.000,00 (DEZOITO MILH\u00d5ES!!).",
+      "acumulou": true,
+      "proximoConcurso": 342,
+      "dataProximoConcurso": "06/03/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2234126.66,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 15865526.88,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 342,
+    "draw_date": "2002-03-06",
+    "numbers": [
+      16,
+      29,
+      34,
+      49,
+      51,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 342,
+      "data": "06/03/2002",
+      "local": "Caminh\u00e3o da Sorte em S\u00e3o Jo\u00e3o Del Rey, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "29",
+        "49",
+        "54",
+        "51",
+        "16",
+        "34"
+      ],
+      "dezenas": [
+        "16",
+        "29",
+        "34",
+        "49",
+        "51",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 93,
+          "valorPremio": 15067.81
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5578,
+          "valorPremio": 250.27
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$20.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 343,
+      "dataProximoConcurso": "09/03/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3355172.03,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 17547094.93,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 343,
+    "draw_date": "2002-03-09",
+    "numbers": [
+      4,
+      6,
+      7,
+      12,
+      24,
+      41
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 343,
+      "data": "09/03/2002",
+      "local": "Caminh\u00e3o da Sorte em S. Jo\u00e3o Del Rey, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "04",
+        "06",
+        "07",
+        "24",
+        "12",
+        "41"
+      ],
+      "dezenas": [
+        "04",
+        "06",
+        "07",
+        "12",
+        "24",
+        "41"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 9937283.03
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 246,
+          "valorPremio": 7884.39
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 17023,
+          "valorPremio": 113.51
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$600.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 344,
+      "dataProximoConcurso": "13/03/2002",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4906819.47,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 344,
+    "draw_date": "2002-03-13",
+    "numbers": [
+      10,
+      12,
+      14,
+      33,
+      35,
+      36
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 344,
+      "data": "13/03/2002",
+      "local": "Caminh\u00e3o da Sorte em Barbacena, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "33",
+        "36",
+        "12",
+        "35",
+        "10",
+        "14"
+      ],
+      "dezenas": [
+        "10",
+        "12",
+        "14",
+        "33",
+        "35",
+        "36"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 46,
+          "valorPremio": 9494.33
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3487,
+          "valorPremio": 124.78
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$1.300.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 345,
+      "dataProximoConcurso": "16/03/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5256210.78,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 524086.97,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 345,
+    "draw_date": "2002-03-16",
+    "numbers": [
+      11,
+      22,
+      46,
+      51,
+      56,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 345,
+      "data": "16/03/2002",
+      "local": "Caminh\u00e3o da Sorte em Barbacena, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "56",
+        "11",
+        "58",
+        "46",
+        "51",
+        "22"
+      ],
+      "dezenas": [
+        "11",
+        "22",
+        "46",
+        "51",
+        "56",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 1447870.53
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 27,
+          "valorPremio": 28511.84
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2170,
+          "valorPremio": 353.42
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio pr\u00f3ximo concurso (Sena) R$ 550.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 346,
+      "dataProximoConcurso": "20/03/2002",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5872066.5,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 346,
+    "draw_date": "2002-03-20",
+    "numbers": [
+      7,
+      12,
+      41,
+      46,
+      56,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 346,
+      "data": "20/03/2002",
+      "local": "Caminh\u00e3o da Sorte em Passos, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "56",
+        "07",
+        "46",
+        "60",
+        "41",
+        "12"
+      ],
+      "dezenas": [
+        "07",
+        "12",
+        "41",
+        "46",
+        "56",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 20,
+          "valorPremio": 19632.3
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1589,
+          "valorPremio": 246.17
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$1.200.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 347,
+      "dataProximoConcurso": "23/03/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6186183.2,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 471175.04,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 347,
+    "draw_date": "2002-03-23",
+    "numbers": [
+      1,
+      10,
+      12,
+      26,
+      48,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 347,
+      "data": "23/03/2002",
+      "local": "Caminh\u00e3o da Sorte em Passos, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "26",
+        "10",
+        "52",
+        "01",
+        "12",
+        "48"
+      ],
+      "dezenas": [
+        "01",
+        "10",
+        "12",
+        "26",
+        "48",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 72,
+          "valorPremio": 9988.89
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4730,
+          "valorPremio": 151.48
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$2.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 348,
+      "dataProximoConcurso": "27/03/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6761543.39,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1334215.32,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 348,
+    "draw_date": "2002-03-27",
+    "numbers": [
+      19,
+      30,
+      33,
+      39,
+      40,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 348,
+      "data": "27/03/2002",
+      "local": "Caminh\u00e3o da Sorte em Bandeirantes, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "39",
+        "40",
+        "33",
+        "52",
+        "19",
+        "30"
+      ],
+      "dezenas": [
+        "19",
+        "30",
+        "33",
+        "39",
+        "40",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 19,
+          "valorPremio": 26763.06
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1547,
+          "valorPremio": 327.46
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$2.700.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 349,
+      "dataProximoConcurso": "30/03/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7168341.86,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1944413.01,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 349,
+    "draw_date": "2002-03-30",
+    "numbers": [
+      8,
+      9,
+      28,
+      32,
+      38,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 349,
+      "data": "30/03/2002",
+      "local": "Caminh\u00e3o da Sorte em Santo Ant\u00f4nio da Platina, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "09",
+        "38",
+        "32",
+        "08",
+        "54",
+        "28"
+      ],
+      "dezenas": [
+        "08",
+        "09",
+        "28",
+        "32",
+        "38",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 46,
+          "valorPremio": 14053.06
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3264,
+          "valorPremio": 197.31
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$11.500.000,00",
+      "acumulou": true,
+      "proximoConcurso": 350,
+      "dataProximoConcurso": "03/04/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 0.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 10405636.15,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 350,
+    "draw_date": "2002-04-03",
+    "numbers": [
+      10,
+      15,
+      23,
+      30,
+      43,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 350,
+      "data": "03/04/2002",
+      "local": "Caminh\u00e3o da Sorte em Mar\u00edlia, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "23",
+        "30",
+        "43",
+        "10",
+        "15",
+        "57"
+      ],
+      "dezenas": [
+        "10",
+        "15",
+        "23",
+        "30",
+        "43",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 80,
+          "valorPremio": 11801.82
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5012,
+          "valorPremio": 187.66
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$13.000.000,00 (TREZE MILH\u00d5ES!!!)",
+      "acumulou": true,
+      "proximoConcurso": 351,
+      "dataProximoConcurso": "06/04/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 755316.05,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 11538610.2,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 351,
+    "draw_date": "2002-04-06",
+    "numbers": [
+      15,
+      16,
+      24,
+      41,
+      59,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 351,
+      "data": "06/04/2002",
+      "local": "Caminh\u00e3o da Sorte em Santa Rosa, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "15",
+        "16",
+        "59",
+        "60",
+        "24",
+        "41"
+      ],
+      "dezenas": [
+        "15",
+        "16",
+        "24",
+        "41",
+        "59",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 98,
+          "valorPremio": 14478.34
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5832,
+          "valorPremio": 242.37
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$15.000.000,00 (QUINZE MILH\u00d5ES!!!).",
+      "acumulou": true,
+      "proximoConcurso": 352,
+      "dataProximoConcurso": "10/04/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1890417.63,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 13241262.56,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 352,
+    "draw_date": "2002-04-10",
+    "numbers": [
+      7,
+      20,
+      25,
+      44,
+      47,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 352,
+      "data": "10/04/2002",
+      "local": "Caminh\u00e3o da Sorte em Santa Rosa, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "49",
+        "07",
+        "47",
+        "25",
+        "20",
+        "44"
+      ],
+      "dezenas": [
+        "07",
+        "20",
+        "25",
+        "44",
+        "47",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 161,
+          "valorPremio": 7848.74
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8080,
+          "valorPremio": 155.8
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$17.000.000,00 (DEZESSETE MILH\u00d5ES!!!).",
+      "acumulou": true,
+      "proximoConcurso": 353,
+      "dataProximoConcurso": "13/04/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2901334.94,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 14757638.49,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 353,
+    "draw_date": "2002-04-13",
+    "numbers": [
+      19,
+      23,
+      30,
+      46,
+      55,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 353,
+      "data": "13/04/2002",
+      "local": "Caminh\u00e3o da Sorte em Osasco, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "60",
+        "46",
+        "30",
+        "55",
+        "23",
+        "19"
+      ],
+      "dezenas": [
+        "19",
+        "23",
+        "30",
+        "46",
+        "55",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 89,
+          "valorPremio": 19537.11
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6862,
+          "valorPremio": 252.44
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$19.000.000,00 (DEZENOVE MILH\u00d5ES!!!).",
+      "acumulou": true,
+      "proximoConcurso": 354,
+      "dataProximoConcurso": "17/04/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4292377.16,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 16844201.81,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 354,
+    "draw_date": "2002-04-17",
+    "numbers": [
+      7,
+      16,
+      38,
+      40,
+      41,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 354,
+      "data": "17/04/2002",
+      "local": "Caminh\u00e3o da Sorte em Jales, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "40",
+        "52",
+        "38",
+        "16",
+        "07",
+        "41"
+      ],
+      "dezenas": [
+        "07",
+        "16",
+        "38",
+        "40",
+        "41",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 18680098.1
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 93,
+          "valorPremio": 16450.68
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6184,
+          "valorPremio": 246.46
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$550.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 355,
+      "dataProximoConcurso": "20/04/2002",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5516308.04,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 355,
+    "draw_date": "2002-04-20",
+    "numbers": [
+      2,
+      14,
+      22,
+      23,
+      37,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 355,
+      "data": "20/04/2002",
+      "local": "Caminh\u00e3o da Sorte em Jales, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "02",
+        "37",
+        "22",
+        "60",
+        "14",
+        "23"
+      ],
+      "dezenas": [
+        "02",
+        "14",
+        "22",
+        "23",
+        "37",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 50,
+          "valorPremio": 14412.47
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4711,
+          "valorPremio": 152.39
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$1.400.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 356,
+      "dataProximoConcurso": "24/04/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6092806.68,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 864747.94,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 356,
+    "draw_date": "2002-04-24",
+    "numbers": [
+      5,
+      19,
+      21,
+      54,
+      56,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 356,
+      "data": "24/04/2002",
+      "local": "Caminh\u00e3o da Sorte em Itapetininga, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "54",
+        "19",
+        "05",
+        "58",
+        "56",
+        "21"
+      ],
+      "dezenas": [
+        "05",
+        "19",
+        "21",
+        "54",
+        "56",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 32,
+          "valorPremio": 15777.72
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2415,
+          "valorPremio": 208.28
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$2.200.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 357,
+      "dataProximoConcurso": "27/04/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6496716.33,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1470612.4,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 357,
+    "draw_date": "2002-04-27",
+    "numbers": [
+      2,
+      30,
+      32,
+      35,
+      45,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 357,
+      "data": "27/04/2002",
+      "local": "Caminh\u00e3o da Sorte em Itapetininga, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "45",
+        "53",
+        "32",
+        "02",
+        "30",
+        "35"
+      ],
+      "dezenas": [
+        "02",
+        "30",
+        "32",
+        "35",
+        "45",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 34,
+          "valorPremio": 23899.52
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3265,
+          "valorPremio": 247.94
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) PR\u00d3XIMO CONCURSO: R$3.800.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 358,
+      "dataProximoConcurso": "04/05/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7146783.18,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 2445712.66,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 358,
+    "draw_date": "2002-05-04",
+    "numbers": [
+      12,
+      17,
+      21,
+      32,
+      40,
+      42
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 358,
+      "data": "04/05/2002",
+      "local": "Caminh\u00e3o da Sorte em Mandaguari, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "40",
+        "42",
+        "32",
+        "12",
+        "21",
+        "17"
+      ],
+      "dezenas": [
+        "12",
+        "17",
+        "21",
+        "32",
+        "40",
+        "42"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 84,
+          "valorPremio": 12903.06
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5798,
+          "valorPremio": 186.23
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$ 4.600.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 359,
+      "dataProximoConcurso": "08/05/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 8013868.66,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 3746340.86,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 359,
+    "draw_date": "2002-05-08",
+    "numbers": [
+      13,
+      19,
+      20,
+      29,
+      31,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 359,
+      "data": "08/05/2002",
+      "local": "Caminh\u00e3o da Sorte em Descalvado, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "31",
+        "54",
+        "20",
+        "29",
+        "13",
+        "19"
+      ],
+      "dezenas": [
+        "13",
+        "19",
+        "20",
+        "29",
+        "31",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 56,
+          "valorPremio": 13050.25
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3953,
+          "valorPremio": 184.17
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$14.600.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 360,
+      "dataProximoConcurso": "11/05/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 0.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 13221837.92,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 360,
+    "draw_date": "2002-05-11",
+    "numbers": [
+      23,
+      24,
+      29,
+      47,
+      53,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 360,
+      "data": "11/05/2002",
+      "local": "Caminh\u00e3o da Sorte em Esp\u00edrito Santo do Pinhal, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "47",
+        "24",
+        "29",
+        "55",
+        "53",
+        "23"
+      ],
+      "dezenas": [
+        "23",
+        "24",
+        "29",
+        "47",
+        "53",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 133,
+          "valorPremio": 10645.79
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8382,
+          "valorPremio": 168.28
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$16.300.000,00",
+      "acumulou": true,
+      "proximoConcurso": 361,
+      "dataProximoConcurso": "15/05/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1132712.62,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 14920906.83,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 361,
+    "draw_date": "2002-05-15",
+    "numbers": [
+      16,
+      28,
+      31,
+      41,
+      45,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 361,
+      "data": "15/05/2002",
+      "local": "Caminh\u00e3o da Sorte em Franca, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "41",
+        "28",
+        "45",
+        "31",
+        "16",
+        "59"
+      ],
+      "dezenas": [
+        "16",
+        "28",
+        "31",
+        "41",
+        "45",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 98,
+          "valorPremio": 12456.14
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5236,
+          "valorPremio": 232.26
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3x concurso: R$18.500.000,00",
+      "acumulou": true,
+      "proximoConcurso": 362,
+      "dataProximoConcurso": "18/05/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2109273.92,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 16385748.75,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 362,
+    "draw_date": "2002-05-18",
+    "numbers": [
+      7,
+      20,
+      33,
+      37,
+      46,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 362,
+      "data": "18/05/2002",
+      "local": "Caminh\u00e3o da Sorte em Franca, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "37",
+        "20",
+        "33",
+        "46",
+        "07",
+        "56"
+      ],
+      "dezenas": [
+        "07",
+        "20",
+        "33",
+        "37",
+        "46",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 18399160.53
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 110,
+          "valorPremio": 15253.12
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8313,
+          "valorPremio": 201.08
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio pr\u00f3ximo concurso (sena): R$ 600 MIL.",
+      "acumulou": false,
+      "proximoConcurso": 363,
+      "dataProximoConcurso": "22/05/2002",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3451548.45,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 363,
+    "draw_date": "2002-05-22",
+    "numbers": [
+      19,
+      29,
+      39,
+      47,
+      49,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 363,
+      "data": "22/05/2002",
+      "local": "Caminh\u00e3o da Sorte em Porto Feliz, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "39",
+        "54",
+        "29",
+        "49",
+        "47",
+        "19"
+      ],
+      "dezenas": [
+        "19",
+        "29",
+        "39",
+        "47",
+        "49",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 27,
+          "valorPremio": 14921.89
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2225,
+          "valorPremio": 180.39
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$1.200.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 364,
+      "dataProximoConcurso": "25/05/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3773861.21,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 483469.12,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 364,
+    "draw_date": "2002-05-25",
+    "numbers": [
+      5,
+      29,
+      44,
+      51,
+      57,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 364,
+      "data": "25/05/2002",
+      "local": "Caminh\u00e3o da Sorte em Salto, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "59",
+        "44",
+        "29",
+        "05",
+        "51",
+        "57"
+      ],
+      "dezenas": [
+        "05",
+        "29",
+        "44",
+        "51",
+        "57",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 1307293.04
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 76,
+          "valorPremio": 9033.16
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3315,
+          "valorPremio": 206.32
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$550.000,00. O ganhador da SENA \u00e9 de Jaragu\u00e1 do Sul/SC.",
+      "acumulou": false,
+      "proximoConcurso": 365,
+      "dataProximoConcurso": "29/05/2002",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SC"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4323077.16,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 365,
+    "draw_date": "2002-05-29",
+    "numbers": [
+      19,
+      23,
+      34,
+      37,
+      52,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 365,
+      "data": "29/05/2002",
+      "local": "Caminh\u00e3o da Sorte em Ituverava, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "52",
+        "19",
+        "34",
+        "37",
+        "58",
+        "23"
+      ],
+      "dezenas": [
+        "19",
+        "23",
+        "34",
+        "37",
+        "52",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 462752.26
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 45,
+          "valorPremio": 8569.49
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2433,
+          "valorPremio": 157.9
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$550.000,00. O ganhador da SENA \u00e9 de Paracatu/MG.",
+      "acumulou": false,
+      "proximoConcurso": 366,
+      "dataProximoConcurso": "01/06/2002",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4631578.68,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 366,
+    "draw_date": "2002-06-01",
+    "numbers": [
+      4,
+      6,
+      7,
+      15,
+      21,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 366,
+      "data": "01/06/2002",
+      "local": "Caminh\u00e3o da Sorte em Orl\u00e2ndia, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "06",
+        "04",
+        "51",
+        "07",
+        "21",
+        "15"
+      ],
+      "dezenas": [
+        "04",
+        "06",
+        "07",
+        "15",
+        "21",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 41,
+          "valorPremio": 12721.16
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3489,
+          "valorPremio": 148.93
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$1.200.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 367,
+      "dataProximoConcurso": "05/06/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5048832.63,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 625880.91,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 367,
+    "draw_date": "2002-06-05",
+    "numbers": [
+      10,
+      12,
+      27,
+      33,
+      49,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 367,
+      "data": "05/06/2002",
+      "local": "Caminh\u00e3o da Sorte em Campina Grande, PB",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "52",
+        "49",
+        "27",
+        "33",
+        "12",
+        "10"
+      ],
+      "dezenas": [
+        "10",
+        "12",
+        "27",
+        "33",
+        "49",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 1150498.02
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 71,
+          "valorPremio": 6157.48
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3040,
+          "valorPremio": 143.27
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$550.000,00. O ganhador da sena \u00e9 de Salvador/BA.",
+      "acumulou": false,
+      "proximoConcurso": 368,
+      "dataProximoConcurso": "08/06/2002",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "BA"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5398577.38,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 368,
+    "draw_date": "2002-06-08",
+    "numbers": [
+      13,
+      29,
+      32,
+      38,
+      44,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 368,
+      "data": "08/06/2002",
+      "local": "Caminh\u00e3o da Sorte em Bananeiras, PB",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "13",
+        "50",
+        "38",
+        "32",
+        "44",
+        "29"
+      ],
+      "dezenas": [
+        "13",
+        "29",
+        "32",
+        "38",
+        "44",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 53,
+          "valorPremio": 10725.28
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3220,
+          "valorPremio": 175.87
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA)pr\u00f3ximo concurso: R$ 1.300.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 369,
+      "dataProximoConcurso": "12/06/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5853329.01,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 682127.44,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 369,
+    "draw_date": "2002-06-12",
+    "numbers": [
+      1,
+      14,
+      21,
+      35,
+      42,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 369,
+      "data": "12/06/2002",
+      "local": "Caminh\u00e3o da Sorte em Itabaiana, SE",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "21",
+        "42",
+        "01",
+        "60",
+        "35",
+        "14"
+      ],
+      "dezenas": [
+        "01",
+        "14",
+        "21",
+        "35",
+        "42",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 1221738.07
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 46,
+          "valorPremio": 9775.55
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4167,
+          "valorPremio": 107.51
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$7.200.000,00. O acertador da SENA \u00e9 de Fortaleza/CE.",
+      "acumulou": false,
+      "proximoConcurso": 370,
+      "dataProximoConcurso": "15/06/2002",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "CE"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6213069.45,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 370,
+    "draw_date": "2002-06-15",
+    "numbers": [
+      1,
+      4,
+      40,
+      42,
+      51,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 370,
+      "data": "15/06/2002",
+      "local": "Caminh\u00e3o da Sorte em Itabaiana, SE",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "51",
+        "42",
+        "04",
+        "54",
+        "01",
+        "40"
+      ],
+      "dezenas": [
+        "01",
+        "04",
+        "40",
+        "42",
+        "51",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 40,
+          "valorPremio": 23283.3
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3230,
+          "valorPremio": 287.25
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$8.500.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 371,
+      "dataProximoConcurso": "19/06/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 745065.49,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 7330667.64,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 371,
+    "draw_date": "2002-06-19",
+    "numbers": [
+      4,
+      18,
+      23,
+      33,
+      39,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 371,
+      "data": "19/06/2002",
+      "local": "Caminh\u00e3o da Sorte em Caruaru, PE",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "23",
+        "33",
+        "39",
+        "04",
+        "60",
+        "18"
+      ],
+      "dezenas": [
+        "04",
+        "18",
+        "23",
+        "33",
+        "39",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 47,
+          "valorPremio": 16675.12
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3979,
+          "valorPremio": 196.23
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$9.600.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 372,
+      "dataProximoConcurso": "22/06/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1372050.19,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 8271144.7,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 372,
+    "draw_date": "2002-06-22",
+    "numbers": [
+      16,
+      17,
+      24,
+      39,
+      46,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 372,
+      "data": "22/06/2002",
+      "local": "Caminh\u00e3o da Sorte em Caruaru, PE",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "24",
+        "17",
+        "46",
+        "57",
+        "16",
+        "39"
+      ],
+      "dezenas": [
+        "16",
+        "17",
+        "24",
+        "39",
+        "46",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 4792658.35
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 85,
+          "valorPremio": 12884.04
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6743,
+          "valorPremio": 161.8
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$600.000,00 . Os ganhadores da SENA s\u00e3o de Vinhedo/SP.",
+      "acumulou": false,
+      "proximoConcurso": 373,
+      "dataProximoConcurso": "26/06/2002",
+      "localGanhadores": [
+        {
+          "ganhadores": 2,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2248164.86,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 373,
+    "draw_date": "2002-06-26",
+    "numbers": [
+      1,
+      5,
+      10,
+      24,
+      31,
+      33
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 373,
+      "data": "26/06/2002",
+      "local": "Caminh\u00e3o da Sorte em Teresina, PI",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "31",
+        "33",
+        "24",
+        "10",
+        "05",
+        "01"
+      ],
+      "dezenas": [
+        "01",
+        "05",
+        "10",
+        "24",
+        "31",
+        "33"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 52,
+          "valorPremio": 6480.14
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3292,
+          "valorPremio": 101.98
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$1.100.000,00",
+      "acumulou": true,
+      "proximoConcurso": 374,
+      "dataProximoConcurso": "29/06/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2517738.64,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 404360.65,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 374,
+    "draw_date": "2002-06-29",
+    "numbers": [
+      2,
+      5,
+      16,
+      26,
+      44,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 374,
+      "data": "29/06/2002",
+      "local": "Caminh\u00e3o da Sorte em Teresina, PI",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "54",
+        "02",
+        "26",
+        "05",
+        "44",
+        "16"
+      ],
+      "dezenas": [
+        "02",
+        "05",
+        "16",
+        "26",
+        "44",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 80,
+          "valorPremio": 8073.17
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3326,
+          "valorPremio": 193.45
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$1.700.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 375,
+      "dataProximoConcurso": "03/07/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3034421.19,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1179384.47,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 375,
+    "draw_date": "2002-07-03",
+    "numbers": [
+      1,
+      5,
+      9,
+      42,
+      51,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 375,
+      "data": "03/07/2002",
+      "local": "Caminh\u00e3o da Sorte em Parana\u00edba, MS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "51",
+        "09",
+        "42",
+        "05",
+        "58",
+        "01"
+      ],
+      "dezenas": [
+        "01",
+        "05",
+        "09",
+        "42",
+        "51",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 33,
+          "valorPremio": 14359.09
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2359,
+          "valorPremio": 200.11
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$2.600.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 376,
+      "dataProximoConcurso": "06/07/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3413501.21,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1748004.5,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 376,
+    "draw_date": "2002-07-06",
+    "numbers": [
+      10,
+      13,
+      25,
+      35,
+      43,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 376,
+      "data": "06/07/2002",
+      "local": "Caminh\u00e3o da Sorte em Parana\u00edba, MS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "25",
+        "13",
+        "10",
+        "43",
+        "35",
+        "48"
+      ],
+      "dezenas": [
+        "10",
+        "13",
+        "25",
+        "35",
+        "43",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 110,
+          "valorPremio": 7257.0
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6956,
+          "valorPremio": 114.33
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$3.500.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 377,
+      "dataProximoConcurso": "10/07/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4052117.37,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 2705928.72,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 377,
+    "draw_date": "2002-07-10",
+    "numbers": [
+      3,
+      12,
+      19,
+      27,
+      45,
+      46
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 377,
+      "data": "10/07/2002",
+      "local": "Caminh\u00e3o da Sorte em Guariba, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "46",
+        "19",
+        "03",
+        "45",
+        "12",
+        "27"
+      ],
+      "dezenas": [
+        "03",
+        "12",
+        "19",
+        "27",
+        "45",
+        "46"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 87,
+          "valorPremio": 6639.02
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5468,
+          "valorPremio": 105.23
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$4.200.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 378,
+      "dataProximoConcurso": "13/07/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4514193.1,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 3399042.3,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 378,
+    "draw_date": "2002-07-13",
+    "numbers": [
+      5,
+      38,
+      41,
+      45,
+      48,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 378,
+      "data": "13/07/2002",
+      "local": "Caminh\u00e3o da Sorte em Jaboticabal, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "55",
+        "45",
+        "48",
+        "41",
+        "05",
+        "38"
+      ],
+      "dezenas": [
+        "05",
+        "38",
+        "41",
+        "45",
+        "48",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 36,
+          "valorPremio": 25450.6
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3115,
+          "valorPremio": 293.02
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$5.400.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 379,
+      "dataProximoConcurso": "17/07/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5247170.3,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 4498508.08,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 379,
+    "draw_date": "2002-07-17",
+    "numbers": [
+      24,
+      33,
+      40,
+      41,
+      55,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 379,
+      "data": "17/07/2002",
+      "local": "Caminh\u00e3o da Sorte em Rio Verde, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "41",
+        "55",
+        "24",
+        "59",
+        "33",
+        "40"
+      ],
+      "dezenas": [
+        "24",
+        "33",
+        "40",
+        "41",
+        "55",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 32,
+          "valorPremio": 23407.93
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2830,
+          "valorPremio": 263.68
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$13.000.000,00. (TREZE MILH\u00d5ES!!!)",
+      "acumulou": true,
+      "proximoConcurso": 380,
+      "dataProximoConcurso": "20/07/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 0.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 11243785.66,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 380,
+    "draw_date": "2002-07-20",
+    "numbers": [
+      13,
+      22,
+      30,
+      31,
+      47,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 380,
+      "data": "20/07/2002",
+      "local": "Caminh\u00e3o da Sorte em Rio Verde, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "47",
+        "22",
+        "13",
+        "30",
+        "31",
+        "57"
+      ],
+      "dezenas": [
+        "13",
+        "22",
+        "30",
+        "31",
+        "47",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 206,
+          "valorPremio": 6628.67
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7186,
+          "valorPremio": 189.31
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$14.500.000,00 (QUATORZE MILH\u00d5ES E QUINHENTOS MIL REAIS!!!).",
+      "acumulou": true,
+      "proximoConcurso": 381,
+      "dataProximoConcurso": "24/07/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1092404.88,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 12882392.95,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 381,
+    "draw_date": "2002-07-24",
+    "numbers": [
+      9,
+      10,
+      28,
+      46,
+      55,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 381,
+      "data": "24/07/2002",
+      "local": "Caminh\u00e3o da Sorte em Conc\u00f3rida, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "09",
+        "56",
+        "46",
+        "28",
+        "10",
+        "55"
+      ],
+      "dezenas": [
+        "09",
+        "10",
+        "28",
+        "46",
+        "55",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 85,
+          "valorPremio": 14181.19
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7295,
+          "valorPremio": 164.62
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$16.000.000,00 (DEZESSEIS MILH\u00d5ES).",
+      "acumulou": true,
+      "proximoConcurso": 382,
+      "dataProximoConcurso": "27/07/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2056725.42,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 14328873.76,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 382,
+    "draw_date": "2002-07-27",
+    "numbers": [
+      31,
+      34,
+      37,
+      38,
+      53,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 382,
+      "data": "27/07/2002",
+      "local": "Caminh\u00e3o da Sorte em Conc\u00f3rdia, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "54",
+        "38",
+        "53",
+        "31",
+        "37",
+        "34"
+      ],
+      "dezenas": [
+        "31",
+        "34",
+        "37",
+        "38",
+        "53",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 68,
+          "valorPremio": 23756.27
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6291,
+          "valorPremio": 255.82
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$18.000.000,00 (DEZOITO MILH\u00d5ES!!!).",
+      "acumulou": true,
+      "proximoConcurso": 383,
+      "dataProximoConcurso": "31/07/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3349066.22,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 16267384.96,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 383,
+    "draw_date": "2002-07-31",
+    "numbers": [
+      14,
+      22,
+      48,
+      50,
+      53,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 383,
+      "data": "31/07/2002",
+      "local": "Caminh\u00e3o da Sorte em Salvador, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "48",
+        "22",
+        "53",
+        "56",
+        "50",
+        "14"
+      ],
+      "dezenas": [
+        "14",
+        "22",
+        "48",
+        "50",
+        "53",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 73,
+          "valorPremio": 23753.43
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6573,
+          "valorPremio": 262.81
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$21.000.000,00 (VINTE E UM MILH\u00d5ES!!!).",
+      "acumulou": true,
+      "proximoConcurso": 384,
+      "dataProximoConcurso": "03/08/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4736266.57,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 18348185.45,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 384,
+    "draw_date": "2002-08-03",
+    "numbers": [
+      24,
+      28,
+      40,
+      47,
+      50,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 384,
+      "data": "03/08/2002",
+      "local": "Caminh\u00e3o da Sorte em Salvador, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "28",
+        "50",
+        "47",
+        "24",
+        "40",
+        "52"
+      ],
+      "dezenas": [
+        "24",
+        "28",
+        "40",
+        "47",
+        "50",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 151,
+          "valorPremio": 18351.99
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10644,
+          "valorPremio": 259.37
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio para o pr\u00f3ximo concurso (SENA): R$ 25.000.000,00 (Vinte e cinco milh\u00f5es).",
+      "acumulou": true,
+      "proximoConcurso": 385,
+      "dataProximoConcurso": "07/08/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6953186.71,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 21673565.65,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 385,
+    "draw_date": "2002-08-07",
+    "numbers": [
+      5,
+      12,
+      16,
+      18,
+      22,
+      24
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 385,
+      "data": "07/08/2002",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "22",
+        "12",
+        "24",
+        "18",
+        "05",
+        "16"
+      ],
+      "dezenas": [
+        "05",
+        "12",
+        "16",
+        "18",
+        "22",
+        "24"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 12952192.89
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 759,
+          "valorPremio": 4645.17
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 37449,
+          "valorPremio": 93.8
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio ( SENA ) pr\u00f3ximo concurso: R$550.000,00. Os ganhadores da (SENA) s\u00e3o de Jo\u00e3o Pinheiro/MG e Bras\u00edlia/DF.",
+      "acumulou": false,
+      "proximoConcurso": 386,
+      "dataProximoConcurso": "10/08/2002",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "DF"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 9773733.48,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 386,
+    "draw_date": "2002-08-10",
+    "numbers": [
+      17,
+      35,
+      36,
+      39,
+      43,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 386,
+      "data": "10/08/2002",
+      "local": "Caminh\u00e3o da Sorte em Carapicu\u00edba, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "39",
+        "54",
+        "43",
+        "36",
+        "17",
+        "35"
+      ],
+      "dezenas": [
+        "17",
+        "35",
+        "36",
+        "39",
+        "43",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 70,
+          "valorPremio": 11571.98
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5236,
+          "valorPremio": 154.12
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso:R$1.700.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 387,
+      "dataProximoConcurso": "14/08/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 10421764.06,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 972045.86,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 387,
+    "draw_date": "2002-08-14",
+    "numbers": [
+      22,
+      28,
+      29,
+      43,
+      47,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 387,
+      "data": "14/08/2002",
+      "local": "Caminh\u00e3o da Sorte em Ol\u00edmpia, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "29",
+        "28",
+        "48",
+        "47",
+        "43",
+        "22"
+      ],
+      "dezenas": [
+        "22",
+        "28",
+        "29",
+        "43",
+        "47",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 40,
+          "valorPremio": 14937.65
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2998,
+          "valorPremio": 198.55
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$2.600.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 388,
+      "dataProximoConcurso": "17/08/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 10899769.08,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1689053.37,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 388,
+    "draw_date": "2002-08-17",
+    "numbers": [
+      23,
+      36,
+      48,
+      52,
+      53,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 388,
+      "data": "17/08/2002",
+      "local": "Caminh\u00e3o da Sorte em Ol\u00edmpia, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "52",
+        "48",
+        "53",
+        "58",
+        "23",
+        "36"
+      ],
+      "dezenas": [
+        "23",
+        "36",
+        "48",
+        "52",
+        "53",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 46,
+          "valorPremio": 18826.46
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4293,
+          "valorPremio": 200.97
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$3.700.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 389,
+      "dataProximoConcurso": "21/08/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 11592582.68,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 2728273.75,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 389,
+    "draw_date": "2002-08-21",
+    "numbers": [
+      5,
+      14,
+      18,
+      43,
+      46,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 389,
+      "data": "21/08/2002",
+      "local": "Caminh\u00e3o da Sorte em An\u00e1polis, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "46",
+        "14",
+        "54",
+        "18",
+        "43",
+        "05"
+      ],
+      "dezenas": [
+        "05",
+        "14",
+        "18",
+        "43",
+        "46",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 63,
+          "valorPremio": 11305.19
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4169,
+          "valorPremio": 170.2
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$18.000.000,00 (DEZOITO MILH\u00d5ES!!!).",
+      "acumulou": true,
+      "proximoConcurso": 390,
+      "dataProximoConcurso": "24/08/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 0.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 15745310.46,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 390,
+    "draw_date": "2002-08-24",
+    "numbers": [
+      7,
+      12,
+      22,
+      34,
+      38,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 390,
+      "data": "24/08/2002",
+      "local": "Caminh\u00e3o da Sorte em An\u00e1polis, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "07",
+        "22",
+        "34",
+        "12",
+        "38",
+        "53"
+      ],
+      "dezenas": [
+        "07",
+        "12",
+        "22",
+        "34",
+        "38",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 17611429.97
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 171,
+          "valorPremio": 9094.15
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10722,
+          "valorPremio": 144.49
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ESTIMATIVA DE PR\u00caMIO PARA O PR\u00d3XIMO CONCURSO (SENA): R$ 600.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 391,
+      "dataProximoConcurso": "28/08/2002",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SC"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1244079.7,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 391,
+    "draw_date": "2002-08-28",
+    "numbers": [
+      4,
+      7,
+      15,
+      16,
+      35,
+      40
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 391,
+      "data": "28/08/2002",
+      "local": "Caminh\u00e3o da Sorte em Curitiba, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "07",
+        "15",
+        "35",
+        "16",
+        "40",
+        "04"
+      ],
+      "dezenas": [
+        "04",
+        "07",
+        "15",
+        "16",
+        "35",
+        "40"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 44,
+          "valorPremio": 10170.35
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2740,
+          "valorPremio": 162.7
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$1.300.000,00",
+      "acumulou": true,
+      "proximoConcurso": 392,
+      "dataProximoConcurso": "31/08/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1602075.91,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 536994.3,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 392,
+    "draw_date": "2002-08-31",
+    "numbers": [
+      15,
+      23,
+      31,
+      39,
+      47,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 392,
+      "data": "31/08/2002",
+      "local": "Caminh\u00e3o da Sorte em Curitiba, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "49",
+        "47",
+        "39",
+        "31",
+        "15",
+        "23"
+      ],
+      "dezenas": [
+        "15",
+        "23",
+        "31",
+        "39",
+        "47",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 1410917.29
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 68,
+          "valorPremio": 10709.84
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3591,
+          "valorPremio": 202.03
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso:\r\nR$550.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 393,
+      "dataProximoConcurso": "04/09/2002",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2184691.24,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 393,
+    "draw_date": "2002-09-04",
+    "numbers": [
+      6,
+      12,
+      35,
+      36,
+      40,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 393,
+      "data": "04/09/2002",
+      "local": "Caminh\u00e3o da Sorte em Jata\u00ed, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "12",
+        "50",
+        "36",
+        "06",
+        "35",
+        "40"
+      ],
+      "dezenas": [
+        "06",
+        "12",
+        "35",
+        "36",
+        "40",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 31,
+          "valorPremio": 13716.51
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1949,
+          "valorPremio": 217.35
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$1.300.000,00",
+      "acumulou": true,
+      "proximoConcurso": 394,
+      "dataProximoConcurso": "07/09/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2524860.73,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 510254.22,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 394,
+    "draw_date": "2002-09-07",
+    "numbers": [
+      5,
+      15,
+      35,
+      42,
+      45,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 394,
+      "data": "07/09/2002",
+      "local": "Caminh\u00e3o da Sorte em Jata\u00ed, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "15",
+        "49",
+        "42",
+        "05",
+        "45",
+        "35"
+      ],
+      "dezenas": [
+        "05",
+        "15",
+        "35",
+        "42",
+        "45",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 47,
+          "valorPremio": 11817.8
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4815,
+          "valorPremio": 114.93
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$1.800.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 395,
+      "dataProximoConcurso": "11/09/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2969210.13,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1176778.31,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 395,
+    "draw_date": "2002-09-11",
+    "numbers": [
+      10,
+      11,
+      14,
+      20,
+      31,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 395,
+      "data": "11/09/2002",
+      "local": "Caminh\u00e3o da Sorte em Feira de Santana, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "11",
+        "58",
+        "31",
+        "14",
+        "10",
+        "20"
+      ],
+      "dezenas": [
+        "10",
+        "11",
+        "14",
+        "20",
+        "31",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 1843709.96
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 27,
+          "valorPremio": 20584.31
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2328,
+          "valorPremio": 237.84
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$800.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 396,
+      "dataProximoConcurso": "14/09/2002",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "DF"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3413831.25,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 396,
+    "draw_date": "2002-09-14",
+    "numbers": [
+      6,
+      18,
+      34,
+      42,
+      45,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 396,
+      "data": "14/09/2002",
+      "local": "Caminh\u00e3o da Sorte em Feira de Santana, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "47",
+        "18",
+        "06",
+        "45",
+        "34",
+        "42"
+      ],
+      "dezenas": [
+        "06",
+        "18",
+        "34",
+        "42",
+        "45",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 63,
+          "valorPremio": 10148.72
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4201,
+          "valorPremio": 151.63
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (MEGA) pr\u00f3ximo concurso: R$1.500.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 397,
+      "dataProximoConcurso": "18/09/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3925326.99,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 767243.59,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 397,
+    "draw_date": "2002-09-18",
+    "numbers": [
+      1,
+      2,
+      5,
+      24,
+      32,
+      46
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 397,
+      "data": "18/09/2002",
+      "local": "Caminh\u00e3o da Sorte em Assis, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "32",
+        "24",
+        "02",
+        "05",
+        "01",
+        "46"
+      ],
+      "dezenas": [
+        "01",
+        "02",
+        "05",
+        "24",
+        "32",
+        "46"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 61,
+          "valorPremio": 7992.42
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4026,
+          "valorPremio": 120.64
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio ( SENA ) pr\u00f3ximo concurso R$2.300.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 398,
+      "dataProximoConcurso": "21/09/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4315356.93,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1352288.49,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 398,
+    "draw_date": "2002-09-21",
+    "numbers": [
+      7,
+      16,
+      22,
+      28,
+      36,
+      37
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 398,
+      "data": "21/09/2002",
+      "local": "Caminh\u00e3o da Sorte em Assis, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "28",
+        "07",
+        "16",
+        "37",
+        "36",
+        "22"
+      ],
+      "dezenas": [
+        "07",
+        "16",
+        "22",
+        "28",
+        "36",
+        "37"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 2221289.77
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 63,
+          "valorPremio": 11494.73
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5106,
+          "valorPremio": 141.29
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$600.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 399,
+      "dataProximoConcurso": "25/09/2002",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "CE"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4894691.14,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 399,
+    "draw_date": "2002-09-25",
+    "numbers": [
+      11,
+      16,
+      27,
+      47,
+      55,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 399,
+      "data": "25/09/2002",
+      "local": "Caminh\u00e3o da Sorte em Tamba\u00fa, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "59",
+        "55",
+        "16",
+        "27",
+        "47",
+        "11"
+      ],
+      "dezenas": [
+        "11",
+        "16",
+        "27",
+        "47",
+        "55",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 20,
+          "valorPremio": 19537.0
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1730,
+          "valorPremio": 225.01
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$7.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 400,
+      "dataProximoConcurso": "28/09/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5676171.41,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 5676171.41,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 400,
+    "draw_date": "2002-09-28",
+    "numbers": [
+      10,
+      13,
+      28,
+      29,
+      54,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 400,
+      "data": "28/09/2002",
+      "local": "Caminh\u00e3o da Sorte em Santa Rita do Passa Quatro, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "29",
+        "59",
+        "13",
+        "10",
+        "54",
+        "28"
+      ],
+      "dezenas": [
+        "10",
+        "13",
+        "28",
+        "29",
+        "54",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 75,
+          "valorPremio": 13254.18
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4875,
+          "valorPremio": 203.14
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso R$8.500.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 401,
+      "dataProximoConcurso": "02/10/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 795251.01,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 6869047.91,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 401,
+    "draw_date": "2002-10-02",
+    "numbers": [
+      11,
+      18,
+      43,
+      44,
+      50,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 401,
+      "data": "02/10/2002",
+      "local": "Caminh\u00e3o da Sorte em S\u00e3o Roque, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "50",
+        "18",
+        "44",
+        "53",
+        "11",
+        "43"
+      ],
+      "dezenas": [
+        "11",
+        "18",
+        "43",
+        "44",
+        "50",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 33,
+          "valorPremio": 25008.64
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2853,
+          "valorPremio": 288.18
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$9.300.000,00",
+      "acumulou": true,
+      "proximoConcurso": 402,
+      "dataProximoConcurso": "05/10/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1455479.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 7859389.89,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 402,
+    "draw_date": "2002-10-05",
+    "numbers": [
+      5,
+      16,
+      27,
+      43,
+      56,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 402,
+      "data": "05/10/2002",
+      "local": "Caminh\u00e3o da Sorte em S\u00e3o Roque, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "27",
+        "43",
+        "58",
+        "05",
+        "16",
+        "56"
+      ],
+      "dezenas": [
+        "05",
+        "16",
+        "27",
+        "43",
+        "56",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 146,
+          "valorPremio": 7927.99
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7787,
+          "valorPremio": 148.08
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$10.500.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 403,
+      "dataProximoConcurso": "09/10/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2381468.11,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 9248373.54,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 403,
+    "draw_date": "2002-10-09",
+    "numbers": [
+      7,
+      16,
+      27,
+      31,
+      46,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 403,
+      "data": "09/10/2002",
+      "local": "Caminh\u00e3o da Sorte em Itabira, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "46",
+        "31",
+        "07",
+        "16",
+        "60",
+        "27"
+      ],
+      "dezenas": [
+        "07",
+        "16",
+        "27",
+        "31",
+        "46",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 48,
+          "valorPremio": 19972.95
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4099,
+          "valorPremio": 233.01
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$12.000.000,00 (DOZE MILH\u00d5ES!!!).",
+      "acumulou": true,
+      "proximoConcurso": 404,
+      "dataProximoConcurso": "12/10/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3148429.27,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 10398815.28,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 404,
+    "draw_date": "2002-10-12",
+    "numbers": [
+      1,
+      24,
+      28,
+      38,
+      40,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 404,
+      "data": "12/10/2002",
+      "local": "Caminh\u00e3o da Sorte em Itabira, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "24",
+        "38",
+        "58",
+        "01",
+        "40",
+        "28"
+      ],
+      "dezenas": [
+        "01",
+        "24",
+        "28",
+        "38",
+        "40",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 66,
+          "valorPremio": 16580.07
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4364,
+          "valorPremio": 249.8
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$13.200.000,00 (TREZE MILH\u00d5ES E DUZENTOS MIL REAIS!!!).",
+      "acumulou": true,
+      "proximoConcurso": 405,
+      "dataProximoConcurso": "16/10/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4023857.04,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 11711956.93,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 405,
+    "draw_date": "2002-10-16",
+    "numbers": [
+      24,
+      29,
+      34,
+      47,
+      57,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 405,
+      "data": "16/10/2002",
+      "local": "Caminh\u00e3o da Sorte em Francisco Beltr\u00e3o, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "57",
+        "60",
+        "34",
+        "24",
+        "29",
+        "47"
+      ],
+      "dezenas": [
+        "24",
+        "29",
+        "34",
+        "47",
+        "57",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 67,
+          "valorPremio": 16988.17
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4579,
+          "valorPremio": 247.63
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$ 15.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 406,
+      "dataProximoConcurso": "19/10/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4934422.95,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 13077805.76,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 406,
+    "draw_date": "2002-10-19",
+    "numbers": [
+      2,
+      12,
+      32,
+      38,
+      47,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 406,
+      "data": "19/10/2002",
+      "local": "Caminh\u00e3o da Sorte em Francisco Beltr\u00e3o, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "47",
+        "32",
+        "48",
+        "12",
+        "38",
+        "02"
+      ],
+      "dezenas": [
+        "02",
+        "12",
+        "32",
+        "38",
+        "47",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 78,
+          "valorPremio": 19463.48
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6557,
+          "valorPremio": 230.66
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$17.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 407,
+      "dataProximoConcurso": "23/10/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6148944.39,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 14899587.92,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 407,
+    "draw_date": "2002-10-23",
+    "numbers": [
+      2,
+      18,
+      22,
+      49,
+      51,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 407,
+      "data": "23/10/2002",
+      "local": "Caminh\u00e3o da Sorte em Blumenau, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "49",
+        "02",
+        "18",
+        "51",
+        "22",
+        "57"
+      ],
+      "dezenas": [
+        "02",
+        "18",
+        "22",
+        "49",
+        "51",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 90,
+          "valorPremio": 16315.38
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6383,
+          "valorPremio": 229.18
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$19.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 408,
+      "dataProximoConcurso": "26/10/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7323651.98,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 16661649.27,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 408,
+    "draw_date": "2002-10-26",
+    "numbers": [
+      14,
+      28,
+      33,
+      44,
+      49,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 408,
+      "data": "26/10/2002",
+      "local": "Caminh\u00e3o da Sorte em Blumenau, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "49",
+        "44",
+        "33",
+        "28",
+        "56",
+        "14"
+      ],
+      "dezenas": [
+        "14",
+        "28",
+        "33",
+        "44",
+        "49",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 18948827.67
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 269,
+          "valorPremio": 7085.43
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 13970,
+          "valorPremio": 135.92
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$550.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 409,
+      "dataProximoConcurso": "30/10/2002",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 8848437.59,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 409,
+    "draw_date": "2002-10-30",
+    "numbers": [
+      18,
+      25,
+      26,
+      31,
+      34,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 409,
+      "data": "30/10/2002",
+      "local": "Caminh\u00e3o da Sorte em Juazeiro do Norte, CE",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "26",
+        "49",
+        "25",
+        "18",
+        "31",
+        "34"
+      ],
+      "dezenas": [
+        "18",
+        "25",
+        "26",
+        "31",
+        "34",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 23,
+          "valorPremio": 18741.96
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1958,
+          "valorPremio": 219.32
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$11.000.000,00 (ONZE MILH\u00d5ES!!!).",
+      "acumulou": true,
+      "proximoConcurso": 410,
+      "dataProximoConcurso": "02/11/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 9710567.61,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 9710567.61,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 410,
+    "draw_date": "2002-11-02",
+    "numbers": [
+      8,
+      24,
+      31,
+      36,
+      38,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 410,
+      "data": "02/11/2002",
+      "local": "Caminh\u00e3o da Sorte em Juazeiro do Norte, CE",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "31",
+        "55",
+        "36",
+        "24",
+        "08",
+        "38"
+      ],
+      "dezenas": [
+        "08",
+        "24",
+        "31",
+        "36",
+        "38",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 101,
+          "valorPremio": 10257.12
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5799,
+          "valorPremio": 177.97
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$12.500.000,00 (DOZE MILH\u00d5ES E QUINHENTOS MIL REAIS!!!).",
+      "acumulou": true,
+      "proximoConcurso": 411,
+      "dataProximoConcurso": "06/11/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 828775.18,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 10953730.37,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 411,
+    "draw_date": "2002-11-06",
+    "numbers": [
+      10,
+      12,
+      31,
+      38,
+      45,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 411,
+      "data": "06/11/2002",
+      "local": "Caminh\u00e3o da Sorte em Porto Alegre, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "10",
+        "56",
+        "12",
+        "31",
+        "45",
+        "38"
+      ],
+      "dezenas": [
+        "10",
+        "12",
+        "31",
+        "38",
+        "45",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 91,
+          "valorPremio": 11814.39
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5115,
+          "valorPremio": 209.4
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$14.000.000,00 (QUATORZE MILH\u00d5ES!!!).",
+      "acumulou": true,
+      "proximoConcurso": 412,
+      "dataProximoConcurso": "09/11/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1688862.32,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 12243861.06,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 412,
+    "draw_date": "2002-11-09",
+    "numbers": [
+      5,
+      12,
+      14,
+      21,
+      45,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 412,
+      "data": "09/11/2002",
+      "local": "Caminh\u00e3o da Sorte em Porto Alegre, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "45",
+        "05",
+        "14",
+        "21",
+        "59",
+        "12"
+      ],
+      "dezenas": [
+        "05",
+        "12",
+        "14",
+        "21",
+        "45",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 89,
+          "valorPremio": 16616.72
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8542,
+          "valorPremio": 172.49
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$16.000.000,00 (DEZESSEIS MILH\u00d5ES!!!).",
+      "acumulou": true,
+      "proximoConcurso": 413,
+      "dataProximoConcurso": "13/11/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2871973.15,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 14018527.28,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 413,
+    "draw_date": "2002-11-13",
+    "numbers": [
+      2,
+      4,
+      29,
+      33,
+      35,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 413,
+      "data": "13/11/2002",
+      "local": "Caminh\u00e3o da Sorte em Pato Branco, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "35",
+        "53",
+        "29",
+        "33",
+        "02",
+        "04"
+      ],
+      "dezenas": [
+        "02",
+        "04",
+        "29",
+        "33",
+        "35",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 102,
+          "valorPremio": 13376.53
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7746,
+          "valorPremio": 175.49
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pro\u00f3ximo concurso: R$18.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 414,
+      "dataProximoConcurso": "16/11/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3963497.99,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 15655814.53,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 414,
+    "draw_date": "2002-11-16",
+    "numbers": [
+      16,
+      26,
+      35,
+      45,
+      52,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 414,
+      "data": "16/11/2002",
+      "local": "Caminh\u00e3o da Sorte em Pato Branco, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "35",
+        "26",
+        "58",
+        "52",
+        "45",
+        "16"
+      ],
+      "dezenas": [
+        "16",
+        "26",
+        "35",
+        "45",
+        "52",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 17428452.98
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 51,
+          "valorPremio": 28964.68
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5527,
+          "valorPremio": 266.26
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$550.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 415,
+      "dataProximoConcurso": "20/11/2002",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MS"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5145256.97,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 415,
+    "draw_date": "2002-11-20",
+    "numbers": [
+      1,
+      4,
+      27,
+      38,
+      42,
+      44
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 415,
+      "data": "20/11/2002",
+      "local": "Caminh\u00e3o da Sorte em Aracaju, SE",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "38",
+        "44",
+        "04",
+        "01",
+        "27",
+        "42"
+      ],
+      "dezenas": [
+        "01",
+        "04",
+        "27",
+        "38",
+        "42",
+        "44"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 40,
+          "valorPremio": 11027.47
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2415,
+          "valorPremio": 181.96
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$1.400.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 416,
+      "dataProximoConcurso": "23/11/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5498135.88,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 529318.35,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 416,
+    "draw_date": "2002-11-23",
+    "numbers": [
+      1,
+      13,
+      23,
+      33,
+      54,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 416,
+      "data": "23/11/2002",
+      "local": "Caminh\u00e3o da Sorte em Aracaju, SE",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "13",
+        "01",
+        "23",
+        "56",
+        "54",
+        "33"
+      ],
+      "dezenas": [
+        "01",
+        "13",
+        "23",
+        "33",
+        "54",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 44,
+          "valorPremio": 16547.76
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4032,
+          "valorPremio": 179.9
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$2.400.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 417,
+      "dataProximoConcurso": "27/11/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6080616.92,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1403039.91,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 417,
+    "draw_date": "2002-11-27",
+    "numbers": [
+      7,
+      12,
+      21,
+      25,
+      34,
+      42
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 417,
+      "data": "27/11/2002",
+      "local": "Caminh\u00e3o da Sorte em Canan\u00e9ia, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "25",
+        "07",
+        "12",
+        "21",
+        "42",
+        "34"
+      ],
+      "dezenas": [
+        "07",
+        "12",
+        "21",
+        "25",
+        "34",
+        "42"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 78,
+          "valorPremio": 7435.78
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5218,
+          "valorPremio": 110.73
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$3.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 418,
+      "dataProximoConcurso": "30/11/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6544609.44,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 2099028.66,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 418,
+    "draw_date": "2002-11-30",
+    "numbers": [
+      8,
+      15,
+      32,
+      45,
+      49,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 418,
+      "data": "30/11/2002",
+      "local": "Caminh\u00e3o da Sorte em Registro, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "45",
+        "08",
+        "32",
+        "49",
+        "15",
+        "52"
+      ],
+      "dezenas": [
+        "08",
+        "15",
+        "32",
+        "45",
+        "49",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 1558712.24
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 82,
+          "valorPremio": 10349.55
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5133,
+          "valorPremio": 164.72
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$550.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 419,
+      "dataProximoConcurso": "04/12/2002",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "ES"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7223540.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 419,
+    "draw_date": "2002-12-04",
+    "numbers": [
+      9,
+      16,
+      41,
+      42,
+      52,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 419,
+      "data": "04/12/2002",
+      "local": "Caminh\u00e3o da Sorte em Avar\u00e9, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "41",
+        "42",
+        "52",
+        "53",
+        "16",
+        "09"
+      ],
+      "dezenas": [
+        "09",
+        "16",
+        "41",
+        "42",
+        "52",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 30,
+          "valorPremio": 14860.22
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1594,
+          "valorPremio": 278.62
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$9.500.000,00",
+      "acumulou": true,
+      "proximoConcurso": 420,
+      "dataProximoConcurso": "07/12/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 8115153.05,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 8115153.05,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 420,
+    "draw_date": "2002-12-07",
+    "numbers": [
+      12,
+      29,
+      30,
+      43,
+      57,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 420,
+      "data": "07/12/2002",
+      "local": "Caminh\u00e3o da Sorte em Avar\u00e9, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "43",
+        "12",
+        "59",
+        "30",
+        "57",
+        "29"
+      ],
+      "dezenas": [
+        "12",
+        "29",
+        "30",
+        "43",
+        "57",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 83,
+          "valorPremio": 13949.86
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5614,
+          "valorPremio": 205.47
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$11.000.000,00 (ONZE MILH\u00d5ES!!!).",
+      "acumulou": true,
+      "proximoConcurso": 421,
+      "dataProximoConcurso": "11/12/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 926270.69,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 9504559.06,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 421,
+    "draw_date": "2002-12-11",
+    "numbers": [
+      5,
+      35,
+      37,
+      38,
+      45,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 421,
+      "data": "11/12/2002",
+      "local": "Caminh\u00e3o da Sorte em Jandaia do Sul, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "38",
+        "45",
+        "35",
+        "37",
+        "05",
+        "51"
+      ],
+      "dezenas": [
+        "05",
+        "35",
+        "37",
+        "38",
+        "45",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 47,
+          "valorPremio": 21307.17
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4716,
+          "valorPremio": 211.55
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso:R$12.200.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 422,
+      "dataProximoConcurso": "14/12/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1727420.31,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 10706283.47,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 422,
+    "draw_date": "2002-12-14",
+    "numbers": [
+      12,
+      37,
+      43,
+      55,
+      56,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 422,
+      "data": "14/12/2002",
+      "local": "Caminh\u00e3o da Sorte em Jandaia do Sul, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "60",
+        "12",
+        "56",
+        "37",
+        "55",
+        "43"
+      ],
+      "dezenas": [
+        "12",
+        "37",
+        "43",
+        "55",
+        "56",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 80,
+          "valorPremio": 16823.65
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6516,
+          "valorPremio": 205.77
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$14.000.000,00 (QUATORZE MILH\u00d5ES!!!).",
+      "acumulou": true,
+      "proximoConcurso": 423,
+      "dataProximoConcurso": "18/12/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2804134.07,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 12321354.11,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 423,
+    "draw_date": "2002-12-18",
+    "numbers": [
+      8,
+      22,
+      32,
+      33,
+      40,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 423,
+      "data": "18/12/2002",
+      "local": "Caminh\u00e3o da Sorte em Ribeir\u00e3o Preto, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "08",
+        "22",
+        "33",
+        "40",
+        "32",
+        "53"
+      ],
+      "dezenas": [
+        "08",
+        "22",
+        "32",
+        "33",
+        "40",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 66,
+          "valorPremio": 17925.27
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4178,
+          "valorPremio": 282.1
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$15.500.000,00 (QUINZE MILH\u00d5ES E MEIO!!!).",
+      "acumulou": true,
+      "proximoConcurso": 424,
+      "dataProximoConcurso": "21/12/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3750588.34,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 13741035.48,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 424,
+    "draw_date": "2002-12-21",
+    "numbers": [
+      18,
+      27,
+      29,
+      36,
+      46,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 424,
+      "data": "21/12/2002",
+      "local": "Caminh\u00e3o da Sorte em Ribeir\u00e3o Preto, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "29",
+        "36",
+        "27",
+        "18",
+        "59",
+        "46"
+      ],
+      "dezenas": [
+        "18",
+        "27",
+        "29",
+        "36",
+        "46",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 91,
+          "valorPremio": 17356.78
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7389,
+          "valorPremio": 212.95
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$19.000.000,00 (DEZENOVE MILH\u00d5ES!!!).",
+      "acumulou": true,
+      "proximoConcurso": 425,
+      "dataProximoConcurso": "28/12/2002",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5014161.63,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 15636395.41,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 425,
+    "draw_date": "2002-12-28",
+    "numbers": [
+      6,
+      10,
+      16,
+      34,
+      42,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 425,
+      "data": "28/12/2002",
+      "local": "Caminh\u00e3o da Sorte em Itapira, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "06",
+        "16",
+        "10",
+        "34",
+        "47",
+        "42"
+      ],
+      "dezenas": [
+        "06",
+        "10",
+        "16",
+        "34",
+        "42",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 18979599.19
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 279,
+          "valorPremio": 9985.67
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 17411,
+          "valorPremio": 159.42
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) pr\u00f3ximo concurso: R$700.000,00. A CAIXA informa que o concurso 426 da Mega Sena acontecer\u00e1 em 04/01/2003 (s\u00e1bado).",
+      "acumulou": false,
+      "proximoConcurso": 426,
+      "dataProximoConcurso": "04/01/2003",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "DF"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7242964.15,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  }
+]

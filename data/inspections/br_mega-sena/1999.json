@@ -1,0 +1,3669 @@
+[
+  {
+    "draw_id": 149,
+    "draw_date": "1999-01-09",
+    "numbers": [
+      7,
+      11,
+      20,
+      28,
+      45,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 149,
+      "data": "09/01/1999",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "11",
+        "45",
+        "48",
+        "07",
+        "28",
+        "20"
+      ],
+      "dezenas": [
+        "07",
+        "11",
+        "20",
+        "28",
+        "45",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 106,
+          "valorPremio": 9795.13
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6290,
+          "valorPremio": 164.74
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "A MEGA ACUMULOU - O pr\u00eamio do CONC.150 pode chegar a 21,2 Milh\u00f5es.",
+      "acumulou": true,
+      "proximoConcurso": 150,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 16758059.96,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 2211820.94,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 150,
+    "draw_date": "1999-01-16",
+    "numbers": [
+      12,
+      44,
+      50,
+      52,
+      54,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 150,
+      "data": "16/01/1999",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "50",
+        "44",
+        "12",
+        "55",
+        "52",
+        "54"
+      ],
+      "dezenas": [
+        "12",
+        "44",
+        "50",
+        "52",
+        "54",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 56,
+          "valorPremio": 36378.71
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5540,
+          "valorPremio": 367.0
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 151,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1629766.16,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 21414530.14,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 151,
+    "draw_date": "1999-01-23",
+    "numbers": [
+      3,
+      16,
+      20,
+      43,
+      52,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 151,
+      "data": "23/01/1999",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "03",
+        "43",
+        "16",
+        "56",
+        "52",
+        "20"
+      ],
+      "dezenas": [
+        "03",
+        "16",
+        "20",
+        "43",
+        "52",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 24091811.02
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 152,
+          "valorPremio": 14678.07
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9869,
+          "valorPremio": 225.62
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Ganhador da SENA do Estado do Rio Grande do Norte.",
+      "acumulou": false,
+      "proximoConcurso": 152,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3414620.08,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 152,
+    "draw_date": "1999-01-30",
+    "numbers": [
+      5,
+      12,
+      15,
+      29,
+      51,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 152,
+      "data": "30/01/1999",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "12",
+        "05",
+        "15",
+        "51",
+        "58",
+        "29"
+      ],
+      "dezenas": [
+        "05",
+        "12",
+        "15",
+        "29",
+        "51",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 75,
+          "valorPremio": 11562.39
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5041,
+          "valorPremio": 172.03
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "A MEGA-SENA acumulou em mais de 1 milh\u00e3o de reais.",
+      "acumulou": true,
+      "proximoConcurso": 153,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4108363.28,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1040614.8,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 153,
+    "draw_date": "1999-02-06",
+    "numbers": [
+      2,
+      30,
+      31,
+      42,
+      45,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 153,
+      "data": "06/02/1999",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "47",
+        "02",
+        "31",
+        "42",
+        "45",
+        "30"
+      ],
+      "dezenas": [
+        "02",
+        "30",
+        "31",
+        "42",
+        "45",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 47,
+          "valorPremio": 22846.45
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4218,
+          "valorPremio": 254.57
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 154,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4967389.82,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 2329154.62,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 154,
+    "draw_date": "1999-02-13",
+    "numbers": [
+      8,
+      10,
+      24,
+      33,
+      45,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 154,
+      "data": "13/02/1999",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "08",
+        "10",
+        "24",
+        "33",
+        "45",
+        "48"
+      ],
+      "dezenas": [
+        "08",
+        "10",
+        "24",
+        "33",
+        "45",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 144,
+          "valorPremio": 7888.29
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9252,
+          "valorPremio": 122.78
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "A MEGA EST\u00c1 ACUMULADA - Pr\u00f3ximo Conc. 155, ser\u00e1 dia 20/02/1999",
+      "acumulou": true,
+      "proximoConcurso": 155,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5876121.14,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 3692251.6,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 155,
+    "draw_date": "1999-02-20",
+    "numbers": [
+      12,
+      30,
+      32,
+      35,
+      43,
+      44
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 155,
+      "data": "20/02/1999",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "12",
+        "32",
+        "44",
+        "43",
+        "35",
+        "30"
+      ],
+      "dezenas": [
+        "12",
+        "30",
+        "32",
+        "35",
+        "43",
+        "44"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 4988808.21
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 67,
+          "valorPremio": 16126.32
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4974,
+          "valorPremio": 217.22
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Ganhador da SENA da cidade de Foz do Igua\u00e7u - Estado do Paran\u00e1.",
+      "acumulou": false,
+      "proximoConcurso": 156,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6740492.22,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 156,
+    "draw_date": "1999-02-27",
+    "numbers": [
+      17,
+      23,
+      42,
+      49,
+      52,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 156,
+      "data": "27/02/1999",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "52",
+        "23",
+        "42",
+        "17",
+        "55",
+        "49"
+      ],
+      "dezenas": [
+        "17",
+        "23",
+        "42",
+        "49",
+        "52",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 74,
+          "valorPremio": 11018.1
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4455,
+          "valorPremio": 183.02
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "A MEGA-SENA est\u00e1 A C U M U L A D A !!!",
+      "acumulou": true,
+      "proximoConcurso": 157,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7392763.82,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 978407.41,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 157,
+    "draw_date": "1999-03-06",
+    "numbers": [
+      4,
+      13,
+      17,
+      21,
+      41,
+      44
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 157,
+      "data": "06/03/1999",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "17",
+        "13",
+        "04",
+        "44",
+        "41",
+        "21"
+      ],
+      "dezenas": [
+        "04",
+        "13",
+        "17",
+        "21",
+        "41",
+        "44"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 2140030.92
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 134,
+          "valorPremio": 7224.03
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8894,
+          "valorPremio": 108.84
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Ganhador da SENA do Estado de Goi\u00e1s.",
+      "acumulou": false,
+      "proximoConcurso": 158,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 8167179.49,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 158,
+    "draw_date": "1999-03-13",
+    "numbers": [
+      4,
+      14,
+      17,
+      43,
+      51,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 158,
+      "data": "13/03/1999",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "58",
+        "43",
+        "51",
+        "14",
+        "17",
+        "04"
+      ],
+      "dezenas": [
+        "04",
+        "14",
+        "17",
+        "43",
+        "51",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 31,
+          "valorPremio": 25856.53
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3630,
+          "valorPremio": 220.81
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "A Mega-Sena A C U M U L O U !!!",
+      "acumulou": true,
+      "proximoConcurso": 159,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 8808421.57,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 961863.12,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 159,
+    "draw_date": "1999-03-20",
+    "numbers": [
+      9,
+      11,
+      16,
+      35,
+      50,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 159,
+      "data": "20/03/1999",
+      "local": "Caminh\u00e3o da Sorte em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "16",
+        "09",
+        "50",
+        "58",
+        "11",
+        "35"
+      ],
+      "dezenas": [
+        "09",
+        "11",
+        "16",
+        "35",
+        "50",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 2038170.67
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 57,
+          "valorPremio": 15735.49
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4124,
+          "valorPremio": 217.49
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Ganhador da SENA do Estado do Paran\u00e1.",
+      "acumulou": false,
+      "proximoConcurso": 160,
+      "dataProximoConcurso": "",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 9525959.94,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 160,
+    "draw_date": "1999-03-27",
+    "numbers": [
+      2,
+      13,
+      42,
+      52,
+      54,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 160,
+      "data": "27/03/1999",
+      "local": "Caminh\u00e3o da Sorte em Sto. Ant\u00f4nio da Platina, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "13",
+        "42",
+        "52",
+        "58",
+        "02",
+        "54"
+      ],
+      "dezenas": [
+        "02",
+        "13",
+        "42",
+        "52",
+        "54",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 74,
+          "valorPremio": 19431.89
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6132,
+          "valorPremio": 234.5
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "A MEGA est\u00e1 acumulada - o Pr\u00eamio do Concurso 161, poder\u00e1 chegar a R$ 13 Milh\u00f5es",
+      "acumulou": true,
+      "proximoConcurso": 161,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1150367.8,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 11251511.63,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 161,
+    "draw_date": "1999-04-03",
+    "numbers": [
+      6,
+      25,
+      30,
+      37,
+      39,
+      41
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 161,
+      "data": "03/04/1999",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "25",
+        "37",
+        "30",
+        "39",
+        "06",
+        "41"
+      ],
+      "dezenas": [
+        "06",
+        "25",
+        "30",
+        "37",
+        "39",
+        "41"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 95,
+          "valorPremio": 14430.61
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6865,
+          "valorPremio": 199.69
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 162,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2247094.02,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 12896601.04,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 162,
+    "draw_date": "1999-04-10",
+    "numbers": [
+      21,
+      23,
+      33,
+      38,
+      48,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 162,
+      "data": "10/04/1999",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "23",
+        "33",
+        "51",
+        "38",
+        "48",
+        "21"
+      ],
+      "dezenas": [
+        "21",
+        "23",
+        "33",
+        "38",
+        "48",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 92,
+          "valorPremio": 20941.3
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7244,
+          "valorPremio": 265.96
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 163,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3788373.88,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 15208520.83,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 163,
+    "draw_date": "1999-04-17",
+    "numbers": [
+      8,
+      27,
+      36,
+      41,
+      53,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 163,
+      "data": "17/04/1999",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "41",
+        "56",
+        "27",
+        "36",
+        "53",
+        "08"
+      ],
+      "dezenas": [
+        "08",
+        "27",
+        "36",
+        "41",
+        "53",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 8975833.36
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 146,
+          "valorPremio": 15657.23
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10793,
+          "valorPremio": 211.8
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "02 Ganhadores da MEGA: Distrito Federal e Mato Grosso do Sul",
+      "acumulou": false,
+      "proximoConcurso": 164,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5617137.82,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 164,
+    "draw_date": "1999-04-24",
+    "numbers": [
+      4,
+      10,
+      14,
+      19,
+      28,
+      44
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 164,
+      "data": "24/04/1999",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "04",
+        "19",
+        "14",
+        "10",
+        "44",
+        "28"
+      ],
+      "dezenas": [
+        "04",
+        "10",
+        "14",
+        "19",
+        "28",
+        "44"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 111,
+          "valorPremio": 7595.63
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8386,
+          "valorPremio": 100.54
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "A Mega-Sena ACUMULOU em: R$ 1.011.737,90",
+      "acumulou": true,
+      "proximoConcurso": 165,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6291629.72,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1011737.9,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 165,
+    "draw_date": "1999-05-01",
+    "numbers": [
+      10,
+      19,
+      23,
+      35,
+      39,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 165,
+      "data": "01/05/1999",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "39",
+        "56",
+        "19",
+        "23",
+        "10",
+        "35"
+      ],
+      "dezenas": [
+        "10",
+        "19",
+        "23",
+        "35",
+        "39",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 1044444.54
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 75,
+          "valorPremio": 11968.35
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5378,
+          "valorPremio": 166.91
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Ganhadores da SENA dos Estados de Minas Gerais e Pernambuco.",
+      "acumulou": false,
+      "proximoConcurso": 166,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7009730.5,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 166,
+    "draw_date": "1999-05-08",
+    "numbers": [
+      12,
+      13,
+      22,
+      57,
+      59,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 166,
+      "data": "08/05/1999",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "60",
+        "57",
+        "59",
+        "13",
+        "12",
+        "22"
+      ],
+      "dezenas": [
+        "12",
+        "13",
+        "22",
+        "57",
+        "59",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 47,
+          "valorPremio": 17424.67
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3371,
+          "valorPremio": 242.95
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "A MEGA A C U M U L O U ! ! !",
+      "acumulou": true,
+      "proximoConcurso": 167,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7664898.25,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 982751.54,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 167,
+    "draw_date": "1999-05-15",
+    "numbers": [
+      1,
+      11,
+      28,
+      33,
+      38,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 167,
+      "data": "15/05/1999",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "01",
+        "38",
+        "48",
+        "28",
+        "11",
+        "33"
+      ],
+      "dezenas": [
+        "01",
+        "11",
+        "28",
+        "33",
+        "38",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 2100980.21
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 82,
+          "valorPremio": 11364.11
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4997,
+          "valorPremio": 186.48
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Ganhador da SENA do Estado do Rio de Janeiro.",
+      "acumulou": false,
+      "proximoConcurso": 168,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 8410384.05,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 168,
+    "draw_date": "1999-05-22",
+    "numbers": [
+      2,
+      9,
+      31,
+      35,
+      45,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 168,
+      "data": "22/05/1999",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "45",
+        "02",
+        "35",
+        "09",
+        "50",
+        "31"
+      ],
+      "dezenas": [
+        "02",
+        "09",
+        "31",
+        "35",
+        "45",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 48,
+          "valorPremio": 15743.7
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3528,
+          "valorPremio": 214.2
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "MEGASENA - O pr\u00eamio est\u00e1 ACUMULADO",
+      "acumulou": true,
+      "proximoConcurso": 169,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 9014942.01,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 906836.93,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 169,
+    "draw_date": "1999-05-29",
+    "numbers": [
+      1,
+      13,
+      21,
+      37,
+      51,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 169,
+      "data": "29/05/1999",
+      "local": "Caminh\u00e3o da Sorte em Ourinhos, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "52",
+        "51",
+        "37",
+        "13",
+        "21",
+        "01"
+      ],
+      "dezenas": [
+        "01",
+        "13",
+        "21",
+        "37",
+        "51",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 65,
+          "valorPremio": 13679.08
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4489,
+          "valorPremio": 198.07
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 170,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 9726253.91,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1973804.91,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 170,
+    "draw_date": "1999-06-05",
+    "numbers": [
+      7,
+      41,
+      46,
+      51,
+      55,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 170,
+      "data": "05/06/1999",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "07",
+        "51",
+        "55",
+        "41",
+        "58",
+        "46"
+      ],
+      "dezenas": [
+        "07",
+        "41",
+        "46",
+        "51",
+        "55",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 50,
+          "valorPremio": 32383.95
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6257,
+          "valorPremio": 258.78
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "A MEGA-SENA CONTINUA \"A C U M U L A D A\" podendo passar de 16 MILH\u00d5ES DE REAIS",
+      "acumulou": true,
+      "proximoConcurso": 171,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1295357.87,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 13643095.71,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 171,
+    "draw_date": "1999-06-12",
+    "numbers": [
+      4,
+      27,
+      40,
+      43,
+      46,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 171,
+      "data": "12/06/1999",
+      "local": "Caminh\u00e3o da Sorte em Americana, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "54",
+        "27",
+        "04",
+        "43",
+        "40",
+        "46"
+      ],
+      "dezenas": [
+        "04",
+        "27",
+        "40",
+        "43",
+        "46",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 16052410.83
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 134,
+          "valorPremio": 14983.3
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10378,
+          "valorPremio": 193.46
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "UM GANHADOR DA MEGA-SENA, no Estado do Rio de Janeiro - Capital",
+      "acumulou": false,
+      "proximoConcurso": 172,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2901568.01,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 172,
+    "draw_date": "1999-06-19",
+    "numbers": [
+      10,
+      14,
+      26,
+      35,
+      36,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 172,
+      "data": "19/06/1999",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "49",
+        "36",
+        "14",
+        "26",
+        "35",
+        "10"
+      ],
+      "dezenas": [
+        "10",
+        "14",
+        "26",
+        "35",
+        "36",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 64,
+          "valorPremio": 13460.12
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4592,
+          "valorPremio": 186.89
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 173,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3590725.84,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1033736.7,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 173,
+    "draw_date": "1999-06-26",
+    "numbers": [
+      17,
+      28,
+      29,
+      42,
+      49,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 173,
+      "data": "26/06/1999",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "29",
+        "28",
+        "49",
+        "17",
+        "42",
+        "50"
+      ],
+      "dezenas": [
+        "17",
+        "28",
+        "29",
+        "42",
+        "49",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 2148316.42
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 40,
+          "valorPremio": 23220.41
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3610,
+          "valorPremio": 256.32
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "O Ganhador da SENA \u00e9 do Distrito Federal.",
+      "acumulou": false,
+      "proximoConcurso": 174,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4333778.99,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 174,
+    "draw_date": "1999-07-03",
+    "numbers": [
+      11,
+      22,
+      23,
+      36,
+      52,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 174,
+      "data": "03/07/1999",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "11",
+        "52",
+        "22",
+        "23",
+        "36",
+        "59"
+      ],
+      "dezenas": [
+        "11",
+        "22",
+        "23",
+        "36",
+        "52",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 44,
+          "valorPremio": 17846.85
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3217,
+          "valorPremio": 243.18
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "A MEGA-SENA ( A C U M U L O U ) - R$ 942.313,58",
+      "acumulou": true,
+      "proximoConcurso": 175,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4961988.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 942313.58,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 175,
+    "draw_date": "1999-07-10",
+    "numbers": [
+      1,
+      10,
+      13,
+      20,
+      42,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 175,
+      "data": "10/07/1999",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "10",
+        "20",
+        "13",
+        "01",
+        "42",
+        "50"
+      ],
+      "dezenas": [
+        "01",
+        "10",
+        "13",
+        "20",
+        "42",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 114,
+          "valorPremio": 8094.08
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7058,
+          "valorPremio": 130.25
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "A SENA est\u00e1 ACUMULADA em R$ 2.049.582,99.",
+      "acumulou": true,
+      "proximoConcurso": 176,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5700167.67,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 2049582.99,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 176,
+    "draw_date": "1999-07-17",
+    "numbers": [
+      1,
+      3,
+      4,
+      28,
+      45,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 176,
+      "data": "17/07/1999",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "28",
+        "04",
+        "01",
+        "45",
+        "53",
+        "03"
+      ],
+      "dezenas": [
+        "01",
+        "03",
+        "04",
+        "28",
+        "45",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 62,
+          "valorPremio": 16696.39
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5405,
+          "valorPremio": 190.8
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 177,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6528308.75,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 3291794.61,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 177,
+    "draw_date": "1999-07-24",
+    "numbers": [
+      22,
+      35,
+      38,
+      39,
+      41,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 177,
+      "data": "24/07/1999",
+      "local": "Caminh\u00e3o da Sorte em S\u00e3o Leopoldo, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "35",
+        "22",
+        "39",
+        "41",
+        "59",
+        "38"
+      ],
+      "dezenas": [
+        "22",
+        "35",
+        "38",
+        "39",
+        "41",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 52,
+          "valorPremio": 21716.29
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4408,
+          "valorPremio": 255.21
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "A SENA EST\u00c1 ACUMULADA, E O PR\u00caMIO ESTIMADO \u00c9 DE R$ 6.500.000,00!",
+      "acumulou": true,
+      "proximoConcurso": 178,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7431706.15,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 4646890.81,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 178,
+    "draw_date": "1999-07-31",
+    "numbers": [
+      5,
+      15,
+      19,
+      26,
+      27,
+      33
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 178,
+      "data": "31/07/1999",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "05",
+        "27",
+        "19",
+        "26",
+        "15",
+        "33"
+      ],
+      "dezenas": [
+        "05",
+        "15",
+        "19",
+        "26",
+        "27",
+        "33"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 6129539.43
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 198,
+          "valorPremio": 6240.11
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 13086,
+          "valorPremio": 94.07
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Ganhador do Estado de S\u00e3o Paulo",
+      "acumulou": false,
+      "proximoConcurso": 179,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 8420138.56,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 179,
+    "draw_date": "1999-08-07",
+    "numbers": [
+      5,
+      6,
+      23,
+      26,
+      27,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 179,
+      "data": "07/08/1999",
+      "local": "Caminh\u00e3o da Sorte em Araraquara, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "06",
+        "53",
+        "05",
+        "26",
+        "27",
+        "23"
+      ],
+      "dezenas": [
+        "05",
+        "06",
+        "23",
+        "26",
+        "27",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 78,
+          "valorPremio": 10281.59
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5646,
+          "valorPremio": 141.51
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "N\u00e3o Houve Ganhador da Sena. MEGASENA ACUMULADA.",
+      "acumulou": true,
+      "proximoConcurso": 180,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 9061709.92,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 962357.04,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 180,
+    "draw_date": "1999-08-14",
+    "numbers": [
+      6,
+      23,
+      29,
+      39,
+      51,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 180,
+      "data": "14/08/1999",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "39",
+        "06",
+        "29",
+        "60",
+        "51",
+        "23"
+      ],
+      "dezenas": [
+        "06",
+        "23",
+        "29",
+        "39",
+        "51",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 111,
+          "valorPremio": 15907.98
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6978,
+          "valorPremio": 252.09
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "A MEGA SENA Acumulou - pr\u00eamio previsto superior a 14 Milh\u00f5es.",
+      "acumulou": true,
+      "proximoConcurso": 181,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1412628.6,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 12143009.93,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 181,
+    "draw_date": "1999-08-21",
+    "numbers": [
+      1,
+      27,
+      33,
+      35,
+      51,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 181,
+      "data": "21/08/1999",
+      "local": "Caminh\u00e3o da Sorte em S\u00e3o Caetano do Sul, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "33",
+        "01",
+        "55",
+        "35",
+        "51",
+        "27"
+      ],
+      "dezenas": [
+        "01",
+        "27",
+        "33",
+        "35",
+        "51",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 182,
+          "valorPremio": 11127.07
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11797,
+          "valorPremio": 171.02
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio para a sena do pr\u00f3ximo concurso: R$ 18 milh\u00f5es.",
+      "acumulou": true,
+      "proximoConcurso": 182,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3032730.5,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 14573162.71,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 182,
+    "draw_date": "1999-08-28",
+    "numbers": [
+      3,
+      5,
+      10,
+      28,
+      46,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 182,
+      "data": "28/08/1999",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "46",
+        "60",
+        "05",
+        "10",
+        "28",
+        "03"
+      ],
+      "dezenas": [
+        "03",
+        "05",
+        "10",
+        "28",
+        "46",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 239,
+          "valorPremio": 9954.78
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 17413,
+          "valorPremio": 136.13
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "A MEGASENA continua Acumulada",
+      "acumulou": true,
+      "proximoConcurso": 183,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4936084.82,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 17428194.22,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 183,
+    "draw_date": "1999-09-04",
+    "numbers": [
+      2,
+      7,
+      11,
+      16,
+      40,
+      44
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 183,
+      "data": "04/09/1999",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "16",
+        "11",
+        "07",
+        "40",
+        "44",
+        "02"
+      ],
+      "dezenas": [
+        "02",
+        "07",
+        "11",
+        "16",
+        "40",
+        "44"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 306,
+          "valorPremio": 9468.79
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 20677,
+          "valorPremio": 139.6
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "A MEGASENA Acumulou!!! Pr\u00eamio previsto acima de R$ 25 Milh\u00f5es.",
+      "acumulou": true,
+      "proximoConcurso": 184,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7254042.95,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 20905131.4,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 184,
+    "draw_date": "1999-09-11",
+    "numbers": [
+      9,
+      16,
+      21,
+      34,
+      41,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 184,
+      "data": "11/09/1999",
+      "local": "Caminh\u00e3o da Sorte em Presidente Prudente, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "09",
+        "60",
+        "21",
+        "16",
+        "41",
+        "34"
+      ],
+      "dezenas": [
+        "09",
+        "16",
+        "21",
+        "34",
+        "41",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 217,
+          "valorPremio": 14699.97
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 15462,
+          "valorPremio": 205.53
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "A MEGA-SENA ACUMULOU NOVAMENTE!!!. A PREVIS\u00c3O DE PREMIA\u00c7\u00c3O DO CONC. 185 \u00c9 DE R$ 30.000.000,00",
+      "acumulou": true,
+      "proximoConcurso": 185,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 9805957.47,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 24733003.15,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 185,
+    "draw_date": "1999-09-18",
+    "numbers": [
+      17,
+      22,
+      43,
+      46,
+      55,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 185,
+      "data": "18/09/1999",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "59",
+        "17",
+        "22",
+        "46",
+        "43",
+        "55"
+      ],
+      "dezenas": [
+        "17",
+        "22",
+        "43",
+        "46",
+        "55",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 366,
+          "valorPremio": 12275.86
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 24849,
+          "valorPremio": 180.13
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "A MEGA-SENA ACUMULOU!!! A ESTIMATIVA DE PR\u00caMIO \u00c9 DE R$ 37.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 186,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 13400329.43,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 30124561.09,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 186,
+    "draw_date": "1999-09-25",
+    "numbers": [
+      14,
+      23,
+      24,
+      25,
+      26,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 186,
+      "data": "25/09/1999",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "24",
+        "26",
+        "51",
+        "25",
+        "14",
+        "23"
+      ],
+      "dezenas": [
+        "14",
+        "23",
+        "24",
+        "25",
+        "26",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 352,
+          "valorPremio": 17072.24
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 31164,
+          "valorPremio": 192.1
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Megasena Acumulada. Previsao de premio para o conc.187 e de R$46 Milhoes",
+      "acumulou": true,
+      "proximoConcurso": 187,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 18207871.94,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 37335874.86,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 187,
+    "draw_date": "1999-10-02",
+    "numbers": [
+      6,
+      36,
+      41,
+      44,
+      48,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 187,
+      "data": "02/10/1999",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "06",
+        "44",
+        "58",
+        "41",
+        "36",
+        "48"
+      ],
+      "dezenas": [
+        "06",
+        "36",
+        "41",
+        "44",
+        "48",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 397,
+          "valorPremio": 23058.35
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 39365,
+          "valorPremio": 231.66
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Sorteio Conc. 188 ser\u00e1 domingo, 10/10, \u00e0s 20:30 h. em Salvador/BA. Vendas at\u00e9 \u00e0s 16 h. do domingo.",
+      "acumulou": true,
+      "proximoConcurso": 188,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 25531204.43,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 48320873.6,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 188,
+    "draw_date": "1999-10-10",
+    "numbers": [
+      17,
+      27,
+      34,
+      42,
+      43,
+      46
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 188,
+      "data": "10/10/1999",
+      "local": "Caminh\u00e3o da Sorte em Salvador, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "34",
+        "42",
+        "43",
+        "46",
+        "27",
+        "17"
+      ],
+      "dezenas": [
+        "17",
+        "27",
+        "34",
+        "42",
+        "43",
+        "46"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 64905517.65
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 1200,
+          "valorPremio": 11517.11
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 90235,
+          "valorPremio": 152.58
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Ganhador da MEGASENA \u00e9 do Estado da BAHIA, Pr\u00eamio para o pr\u00f3ximo concurso 1 MILH\u00c3O.",
+      "acumulou": false,
+      "proximoConcurso": 189,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 36587633.8,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 189,
+    "draw_date": "1999-10-16",
+    "numbers": [
+      4,
+      15,
+      31,
+      38,
+      41,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 189,
+      "data": "16/10/1999",
+      "local": "Caminh\u00e3o da Sorte em Passo Fundo, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "41",
+        "53",
+        "38",
+        "04",
+        "31",
+        "15"
+      ],
+      "dezenas": [
+        "04",
+        "15",
+        "31",
+        "38",
+        "41",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 61,
+          "valorPremio": 23476.18
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5485,
+          "valorPremio": 260.09
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "A MEGA-SENA ACUMULOU. PREVIS\u00c3O DE PR\u00caMIO PARA SENA CONC.190 \u00c9 DE R$ 45.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 190,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 37733271.3,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1718456.25,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 190,
+    "draw_date": "1999-10-24",
+    "numbers": [
+      5,
+      10,
+      21,
+      32,
+      40,
+      42
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 190,
+      "data": "24/10/1999",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "32",
+        "40",
+        "42",
+        "21",
+        "10",
+        "05"
+      ],
+      "dezenas": [
+        "05",
+        "10",
+        "21",
+        "32",
+        "40",
+        "42"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 304,
+          "valorPremio": 14923.96
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 21481,
+          "valorPremio": 210.41
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "A MEGASENA Acumulou!!!! pr\u00eamio previsto para o pr\u00f3ximo concurso \u00e9 de R$ 53 Milh\u00f5es.",
+      "acumulou": true,
+      "proximoConcurso": 191,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3629507.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 44895988.05,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 191,
+    "draw_date": "1999-10-31",
+    "numbers": [
+      1,
+      3,
+      5,
+      23,
+      41,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 191,
+      "data": "31/10/1999",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "58",
+        "05",
+        "41",
+        "03",
+        "01",
+        "23"
+      ],
+      "dezenas": [
+        "01",
+        "03",
+        "05",
+        "23",
+        "41",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 50968412.58
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 383,
+          "valorPremio": 13212.41
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 30477,
+          "valorPremio": 165.41
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "MEGA-SENA tem 01 Ganhador de MATO GROSSO DO SUL, Campo Grande",
+      "acumulou": false,
+      "proximoConcurso": 192,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7677790.03,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 192,
+    "draw_date": "1999-11-06",
+    "numbers": [
+      1,
+      26,
+      28,
+      41,
+      54,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 192,
+      "data": "06/11/1999",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "01",
+        "60",
+        "26",
+        "41",
+        "28",
+        "54"
+      ],
+      "dezenas": [
+        "01",
+        "26",
+        "28",
+        "41",
+        "54",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 53,
+          "valorPremio": 23005.08
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4403,
+          "valorPremio": 275.87
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "A MEGASENA Acumulou!!! Estimativa de pr\u00eamio para o pr\u00f3ximo concurso acima de 3 Milh\u00f5es.",
+      "acumulou": true,
+      "proximoConcurso": 193,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 8653205.21,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1463122.78,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 193,
+    "draw_date": "1999-11-13",
+    "numbers": [
+      4,
+      11,
+      12,
+      19,
+      43,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 193,
+      "data": "13/11/1999",
+      "local": "Caminh\u00e3o da Sorte em CASC\u00c1VEL, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "12",
+        "04",
+        "11",
+        "49",
+        "43",
+        "19"
+      ],
+      "dezenas": [
+        "04",
+        "11",
+        "12",
+        "19",
+        "43",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 190,
+          "valorPremio": 7199.87
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11415,
+          "valorPremio": 119.39
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso R$5.300.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 194,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 9747585.12,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 3104692.58,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 194,
+    "draw_date": "1999-11-20",
+    "numbers": [
+      25,
+      28,
+      32,
+      33,
+      42,
+      43
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 194,
+      "data": "20/11/1999",
+      "local": "Caminh\u00e3o da Sorte em ERECHIM, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "32",
+        "42",
+        "43",
+        "25",
+        "28",
+        "33"
+      ],
+      "dezenas": [
+        "25",
+        "28",
+        "32",
+        "33",
+        "42",
+        "43"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 106,
+          "valorPremio": 12862.4
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7456,
+          "valorPremio": 182.18
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso R$6.700.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 195,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 10838316.69,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 4740789.92,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 195,
+    "draw_date": "1999-11-27",
+    "numbers": [
+      3,
+      9,
+      17,
+      32,
+      37,
+      44
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 195,
+      "data": "27/11/1999",
+      "local": "Caminh\u00e3o da Sorte em PONTA GROSSA, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "17",
+        "03",
+        "44",
+        "37",
+        "09",
+        "32"
+      ],
+      "dezenas": [
+        "03",
+        "09",
+        "17",
+        "32",
+        "37",
+        "44"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 6370250.64
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 339,
+          "valorPremio": 4005.56
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 13819,
+          "valorPremio": 97.89
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso R$1.000.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 196,
+      "dataProximoConcurso": "",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "AM"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 11924623.78,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 196,
+    "draw_date": "1999-12-04",
+    "numbers": [
+      7,
+      9,
+      14,
+      17,
+      24,
+      32
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 196,
+      "data": "04/12/1999",
+      "local": "Caminh\u00e3o da Sorte em PONTA GROSSA, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "32",
+        "17",
+        "09",
+        "14",
+        "24",
+        "07"
+      ],
+      "dezenas": [
+        "07",
+        "09",
+        "14",
+        "17",
+        "24",
+        "32"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 182,
+          "valorPremio": 5309.16
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10493,
+          "valorPremio": 91.75
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso R$2.490.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 197,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 12697637.83,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1159520.95,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 197,
+    "draw_date": "1999-12-11",
+    "numbers": [
+      5,
+      12,
+      15,
+      19,
+      29,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 197,
+      "data": "11/12/1999",
+      "local": "Caminh\u00e3o da Sorte em MACEI\u00d3, AL",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "19",
+        "52",
+        "29",
+        "15",
+        "12",
+        "05"
+      ],
+      "dezenas": [
+        "05",
+        "12",
+        "15",
+        "19",
+        "29",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 128,
+          "valorPremio": 8259.15
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8720,
+          "valorPremio": 120.78
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso R$4.200.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 198,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 13543374.44,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 2428125.98,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 198,
+    "draw_date": "1999-12-18",
+    "numbers": [
+      1,
+      8,
+      18,
+      23,
+      35,
+      40
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 198,
+      "data": "18/12/1999",
+      "local": "Caminh\u00e3o da Sorte em MARING\u00c1, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "40",
+        "23",
+        "01",
+        "18",
+        "35",
+        "08"
+      ],
+      "dezenas": [
+        "01",
+        "08",
+        "18",
+        "23",
+        "35",
+        "40"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 125,
+          "valorPremio": 8881.02
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7134,
+          "valorPremio": 155.02
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso R$5.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 199,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 14431475.93,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 3760278.08,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 199,
+    "draw_date": "1999-12-24",
+    "numbers": [
+      10,
+      16,
+      37,
+      50,
+      52,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 199,
+      "data": "24/12/1999",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "52",
+        "37",
+        "57",
+        "16",
+        "10",
+        "50"
+      ],
+      "dezenas": [
+        "10",
+        "16",
+        "37",
+        "50",
+        "52",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 4915593.2
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 34,
+          "valorPremio": 28316.55
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3143,
+          "valorPremio": 305.16
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso R$16.500.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 200,
+      "dataProximoConcurso": "",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 15201685.91,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 200,
+    "draw_date": "1999-12-31",
+    "numbers": [
+      12,
+      15,
+      19,
+      34,
+      44,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 200,
+      "data": "31/12/1999",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "12",
+        "15",
+        "44",
+        "34",
+        "51",
+        "19"
+      ],
+      "dezenas": [
+        "12",
+        "15",
+        "19",
+        "34",
+        "44",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 8829389.2
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 186,
+          "valorPremio": 11008.48
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 13027,
+          "valorPremio": 156.59
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Os ganhadores da MEGASENA s\u00e3o de: Clevel\u00e2ndia/PR e S\u00e3o Jos\u00e9 dos Campos/SP.",
+      "acumulou": false,
+      "proximoConcurso": 201,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1638061.59,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  }
+]

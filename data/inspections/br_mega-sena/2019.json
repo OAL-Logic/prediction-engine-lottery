@@ -1,0 +1,7889 @@
+[
+  {
+    "draw_id": 2111,
+    "draw_date": "2019-01-02",
+    "numbers": [
+      1,
+      41,
+      44,
+      46,
+      54,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2111,
+      "data": "02/01/2019",
+      "local": "Caminh\u00e3o da Sorte em CAIBI, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "54",
+        "41",
+        "01",
+        "46",
+        "58",
+        "44"
+      ],
+      "dezenas": [
+        "01",
+        "41",
+        "44",
+        "46",
+        "54",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 4,
+          "valorPremio": 169338.14
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 689,
+          "valorPremio": 1404.42
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2112,
+      "dataProximoConcurso": "05/01/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 11748467.5,
+      "valorAcumuladoConcurso_0_5": 784302.95,
+      "valorAcumuladoConcursoEspecial": 178250.69,
+      "valorAcumuladoProximoConcurso": 1247754.69,
+      "valorEstimadoProximoConcurso": 4000000.0
+    }
+  },
+  {
+    "draw_id": 2112,
+    "draw_date": "2019-01-05",
+    "numbers": [
+      17,
+      39,
+      43,
+      46,
+      52,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2112,
+      "data": "05/01/2019",
+      "local": "Caminh\u00e3o da Sorte em CAIBI, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "17",
+        "46",
+        "43",
+        "53",
+        "52",
+        "39"
+      ],
+      "dezenas": [
+        "17",
+        "39",
+        "43",
+        "46",
+        "52",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 34,
+          "valorPremio": 48935.85
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2547,
+          "valorPremio": 933.2
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2113,
+      "dataProximoConcurso": "09/01/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 28858417.0,
+      "valorAcumuladoConcurso_0_5": 2710830.11,
+      "valorAcumuladoConcursoEspecial": 616097.77,
+      "valorAcumuladoProximoConcurso": 4312684.25,
+      "valorEstimadoProximoConcurso": 8000000.0
+    }
+  },
+  {
+    "draw_id": 2113,
+    "draw_date": "2019-01-09",
+    "numbers": [
+      11,
+      14,
+      21,
+      25,
+      46,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2113,
+      "data": "09/01/2019",
+      "local": "Espa\u00e7o Loterias Caixa em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "11",
+        "21",
+        "46",
+        "14",
+        "25",
+        "50"
+      ],
+      "dezenas": [
+        "11",
+        "14",
+        "21",
+        "25",
+        "46",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 30,
+          "valorPremio": 63724.36
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2752,
+          "valorPremio": 992.38
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2114,
+      "dataProximoConcurso": "12/01/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 33158373.5,
+      "valorAcumuladoConcurso_0_5": 4924413.3,
+      "valorAcumuladoConcursoEspecial": 1119184.88,
+      "valorAcumuladoProximoConcurso": 7834293.88,
+      "valorEstimadoProximoConcurso": 12000000.0
+    }
+  },
+  {
+    "draw_id": 2114,
+    "draw_date": "2019-01-12",
+    "numbers": [
+      17,
+      25,
+      30,
+      35,
+      42,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2114,
+      "data": "12/01/2019",
+      "local": "Espa\u00e7o Loterias Caixa em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "35",
+        "17",
+        "30",
+        "25",
+        "42",
+        "57"
+      ],
+      "dezenas": [
+        "17",
+        "25",
+        "30",
+        "35",
+        "42",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 70,
+          "valorPremio": 34091.54
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4376,
+          "valorPremio": 779.05
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2115,
+      "dataProximoConcurso": "15/01/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 41391486.5,
+      "valorAcumuladoConcurso_0_5": 19917929.17,
+      "valorAcumuladoConcursoEspecial": 1747186.82,
+      "valorAcumuladoProximoConcurso": 19917929.17,
+      "valorEstimadoProximoConcurso": 25000000.0
+    }
+  },
+  {
+    "draw_id": 2115,
+    "draw_date": "2019-01-15",
+    "numbers": [
+      4,
+      19,
+      27,
+      35,
+      40,
+      44
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2115,
+      "data": "15/01/2019",
+      "local": "Caminh\u00e3o da Sorte em PIRATUBA, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "19",
+        "40",
+        "35",
+        "44",
+        "27",
+        "04"
+      ],
+      "dezenas": [
+        "04",
+        "19",
+        "27",
+        "35",
+        "40",
+        "44"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 75,
+          "valorPremio": 23377.95
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4470,
+          "valorPremio": 560.35
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2116,
+      "dataProximoConcurso": "17/01/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 30411241.0,
+      "valorAcumuladoConcurso_0_5": 2030190.42,
+      "valorAcumuladoConcursoEspecial": 2208593.74,
+      "valorAcumuladoProximoConcurso": 23147777.55,
+      "valorEstimadoProximoConcurso": 27000000.0
+    }
+  },
+  {
+    "draw_id": 2116,
+    "draw_date": "2019-01-17",
+    "numbers": [
+      1,
+      9,
+      19,
+      21,
+      34,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2116,
+      "data": "17/01/2019",
+      "local": "Caminh\u00e3o da Sorte em PIRATUBA, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "21",
+        "19",
+        "01",
+        "09",
+        "34",
+        "54"
+      ],
+      "dezenas": [
+        "01",
+        "09",
+        "19",
+        "21",
+        "34",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 91,
+          "valorPremio": 24748.67
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5468,
+          "valorPremio": 588.39
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2117,
+      "dataProximoConcurso": "19/01/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 39062460.5,
+      "valorAcumuladoConcurso_0_5": 4637918.03,
+      "valorAcumuladoConcursoEspecial": 2801259.13,
+      "valorAcumuladoProximoConcurso": 27296435.12,
+      "valorEstimadoProximoConcurso": 33000000.0
+    }
+  },
+  {
+    "draw_id": 2117,
+    "draw_date": "2019-01-19",
+    "numbers": [
+      4,
+      28,
+      29,
+      30,
+      43,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2117,
+      "data": "19/01/2019",
+      "local": "Caminh\u00e3o da Sorte em PIRATUBA, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "28",
+        "43",
+        "04",
+        "29",
+        "52",
+        "30"
+      ],
+      "dezenas": [
+        "04",
+        "28",
+        "29",
+        "30",
+        "43",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 44,
+          "valorPremio": 60858.91
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4036,
+          "valorPremio": 947.82
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2118,
+      "dataProximoConcurso": "23/01/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 46445458.5,
+      "valorAcumuladoConcurso_0_5": 7738519.04,
+      "valorAcumuladoConcursoEspecial": 3505941.19,
+      "valorAcumuladoProximoConcurso": 32229209.46,
+      "valorEstimadoProximoConcurso": 38000000.0
+    }
+  },
+  {
+    "draw_id": 2118,
+    "draw_date": "2019-01-23",
+    "numbers": [
+      11,
+      12,
+      20,
+      40,
+      41,
+      46
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2118,
+      "data": "23/01/2019",
+      "local": "Caminh\u00e3o da Sorte em QUIRIN\u00d3POLIS, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "41",
+        "11",
+        "12",
+        "46",
+        "20",
+        "40"
+      ],
+      "dezenas": [
+        "11",
+        "12",
+        "20",
+        "40",
+        "41",
+        "46"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 37902607.11
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 58,
+          "valorPremio": 53100.77
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4135,
+          "valorPremio": 1064.03
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2119,
+      "dataProximoConcurso": "26/01/2019",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "TERES\u00d3POLIS",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        }
+      ],
+      "valorArrecadado": 53418935.5,
+      "valorAcumuladoConcurso_0_5": 11304654.7,
+      "valorAcumuladoConcursoEspecial": 4316426.59,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 2119,
+    "draw_date": "2019-01-26",
+    "numbers": [
+      19,
+      21,
+      26,
+      31,
+      42,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2119,
+      "data": "26/01/2019",
+      "local": "Caminh\u00e3o da Sorte em QUIRIN\u00d3POLIS, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "42",
+        "49",
+        "26",
+        "31",
+        "19",
+        "21"
+      ],
+      "dezenas": [
+        "19",
+        "21",
+        "26",
+        "31",
+        "42",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 46,
+          "valorPremio": 33531.53
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2569,
+          "valorPremio": 857.72
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2120,
+      "dataProximoConcurso": "30/01/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 26753317.5,
+      "valorAcumuladoConcurso_0_5": 15932005.75,
+      "valorAcumuladoConcursoEspecial": 4722334.58,
+      "valorAcumuladoProximoConcurso": 15932005.75,
+      "valorEstimadoProximoConcurso": 20000000.0
+    }
+  },
+  {
+    "draw_id": 2120,
+    "draw_date": "2019-01-30",
+    "numbers": [
+      13,
+      20,
+      24,
+      25,
+      38,
+      41
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2120,
+      "data": "30/01/2019",
+      "local": "Caminh\u00e3o da Sorte em GUARACIABA, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "38",
+        "41",
+        "20",
+        "24",
+        "25",
+        "13"
+      ],
+      "dezenas": [
+        "13",
+        "20",
+        "24",
+        "25",
+        "38",
+        "41"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 61,
+          "valorPremio": 34732.22
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3897,
+          "valorPremio": 776.66
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2121,
+      "dataProximoConcurso": "02/02/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 36747588.5,
+      "valorAcumuladoConcurso_0_5": 2453191.63,
+      "valorAcumuladoConcursoEspecial": 5279878.14,
+      "valorAcumuladoProximoConcurso": 19834810.62,
+      "valorEstimadoProximoConcurso": 25000000.0
+    }
+  },
+  {
+    "draw_id": 2121,
+    "draw_date": "2019-02-02",
+    "numbers": [
+      8,
+      10,
+      17,
+      29,
+      37,
+      40
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2121,
+      "data": "02/02/2019",
+      "local": "Caminh\u00e3o da Sorte em GUARACIABA, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "37",
+        "08",
+        "17",
+        "29",
+        "10",
+        "40"
+      ],
+      "dezenas": [
+        "08",
+        "10",
+        "17",
+        "29",
+        "37",
+        "40"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 24666686.76
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 82,
+          "valorPremio": 31988.03
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5493,
+          "valorPremio": 682.17
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2122,
+      "dataProximoConcurso": "06/02/2019",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "RIO DE JANEIRO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        }
+      ],
+      "valorArrecadado": 45495432.5,
+      "valorAcumuladoConcurso_0_5": 5490370.91,
+      "valorAcumuladoConcursoEspecial": 5970146.17,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 2122,
+    "draw_date": "2019-02-06",
+    "numbers": [
+      3,
+      11,
+      15,
+      21,
+      27,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2122,
+      "data": "06/02/2019",
+      "local": "Espa\u00e7o Loterias Caixa em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "27",
+        "21",
+        "03",
+        "11",
+        "15",
+        "49"
+      ],
+      "dezenas": [
+        "03",
+        "11",
+        "15",
+        "21",
+        "27",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 92,
+          "valorPremio": 15878.62
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4938,
+          "valorPremio": 422.62
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2123,
+      "dataProximoConcurso": "09/02/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 25337679.5,
+      "valorAcumuladoConcurso_0_5": 7181861.04,
+      "valorAcumuladoConcursoEspecial": 6354575.76,
+      "valorAcumuladoProximoConcurso": 2691007.02,
+      "valorEstimadoProximoConcurso": 5500000.0
+    }
+  },
+  {
+    "draw_id": 2123,
+    "draw_date": "2019-02-09",
+    "numbers": [
+      14,
+      15,
+      47,
+      50,
+      56,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2123,
+      "data": "09/02/2019",
+      "local": "Espa\u00e7o Loterias Caixa em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "47",
+        "59",
+        "14",
+        "56",
+        "50",
+        "15"
+      ],
+      "dezenas": [
+        "14",
+        "15",
+        "47",
+        "50",
+        "56",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 28,
+          "valorPremio": 67090.9
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2301,
+          "valorPremio": 1166.29
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2124,
+      "dataProximoConcurso": "13/02/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 32582774.0,
+      "valorAcumuladoConcurso_0_5": 9357018.42,
+      "valorAcumuladoConcursoEspecial": 6848929.74,
+      "valorAcumuladoProximoConcurso": 6151484.68,
+      "valorEstimadoProximoConcurso": 10000000.0
+    }
+  },
+  {
+    "draw_id": 2124,
+    "draw_date": "2019-02-13",
+    "numbers": [
+      2,
+      11,
+      20,
+      31,
+      43,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2124,
+      "data": "13/02/2019",
+      "local": "Espa\u00e7o Loterias Caixa em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "31",
+        "20",
+        "47",
+        "43",
+        "02",
+        "11"
+      ],
+      "dezenas": [
+        "02",
+        "11",
+        "20",
+        "31",
+        "43",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 41,
+          "valorPremio": 48151.82
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3660,
+          "valorPremio": 770.57
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2125,
+      "dataProximoConcurso": "16/02/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 34242306.0,
+      "valorAcumuladoConcurso_0_5": 21431176.83,
+      "valorAcumuladoConcursoEspecial": 7368462.53,
+      "valorAcumuladoProximoConcurso": 21431176.83,
+      "valorEstimadoProximoConcurso": 26000000.0
+    }
+  },
+  {
+    "draw_id": 2125,
+    "draw_date": "2019-02-16",
+    "numbers": [
+      1,
+      31,
+      44,
+      46,
+      53,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2125,
+      "data": "16/02/2019",
+      "local": "Espa\u00e7o Loterias Caixa em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "44",
+        "01",
+        "31",
+        "53",
+        "46",
+        "58"
+      ],
+      "dezenas": [
+        "01",
+        "31",
+        "44",
+        "46",
+        "53",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 55,
+          "valorPremio": 48968.88
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4090,
+          "valorPremio": 940.72
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2126,
+      "dataProximoConcurso": "20/02/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 46714244.5,
+      "valorAcumuladoConcurso_0_5": 3118544.61,
+      "valorAcumuladoConcursoEspecial": 8077222.68,
+      "valorAcumuladoProximoConcurso": 26392497.79,
+      "valorEstimadoProximoConcurso": 32000000.0
+    }
+  },
+  {
+    "draw_id": 2126,
+    "draw_date": "2019-02-20",
+    "numbers": [
+      7,
+      12,
+      24,
+      27,
+      39,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2126,
+      "data": "20/02/2019",
+      "local": "Caminh\u00e3o da Sorte em JUNDIA\u00cd, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "58",
+        "39",
+        "27",
+        "07",
+        "24",
+        "12"
+      ],
+      "dezenas": [
+        "07",
+        "12",
+        "24",
+        "27",
+        "39",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 130,
+          "valorPremio": 21346.79
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8139,
+          "valorPremio": 487.08
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2127,
+      "dataProximoConcurso": "23/02/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 48132938.0,
+      "valorAcumuladoConcurso_0_5": 6331798.2,
+      "valorAcumuladoConcursoEspecial": 8807507.61,
+      "valorAcumuladoProximoConcurso": 31504492.15,
+      "valorEstimadoProximoConcurso": 37000000.0
+    }
+  },
+  {
+    "draw_id": 2127,
+    "draw_date": "2019-02-23",
+    "numbers": [
+      1,
+      7,
+      28,
+      30,
+      44,
+      46
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2127,
+      "data": "23/02/2019",
+      "local": "Caminh\u00e3o da Sorte em JUNDIA\u00cd, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "07",
+        "46",
+        "28",
+        "30",
+        "44",
+        "01"
+      ],
+      "dezenas": [
+        "01",
+        "07",
+        "28",
+        "30",
+        "44",
+        "46"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 76,
+          "valorPremio": 42197.6
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6182,
+          "valorPremio": 741.09
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2128,
+      "dataProximoConcurso": "26/02/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 55624709.0,
+      "valorAcumuladoConcurso_0_5": 10045186.66,
+      "valorAcumuladoConcursoEspecial": 9651459.54,
+      "valorAcumuladoProximoConcurso": 37412155.6,
+      "valorEstimadoProximoConcurso": 43000000.0
+    }
+  },
+  {
+    "draw_id": 2128,
+    "draw_date": "2019-02-26",
+    "numbers": [
+      11,
+      16,
+      24,
+      46,
+      54,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2128,
+      "data": "26/02/2019",
+      "local": "Caminh\u00e3o da Sorte em VIDEIRA, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "24",
+        "55",
+        "46",
+        "16",
+        "11",
+        "54"
+      ],
+      "dezenas": [
+        "11",
+        "16",
+        "24",
+        "46",
+        "54",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 47,
+          "valorPremio": 50144.89
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4353,
+          "valorPremio": 773.45
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2129,
+      "dataProximoConcurso": "28/02/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 40878124.0,
+      "valorAcumuladoConcurso_0_5": 12774124.14,
+      "valorAcumuladoConcursoEspecial": 10271672.63,
+      "valorAcumuladoProximoConcurso": 41753647.06,
+      "valorEstimadoProximoConcurso": 46000000.0
+    }
+  },
+  {
+    "draw_id": 2129,
+    "draw_date": "2019-02-28",
+    "numbers": [
+      6,
+      12,
+      31,
+      32,
+      46,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2129,
+      "data": "28/02/2019",
+      "local": "Caminh\u00e3o da Sorte em VIDEIRA, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "60",
+        "46",
+        "12",
+        "06",
+        "32",
+        "31"
+      ],
+      "dezenas": [
+        "06",
+        "12",
+        "31",
+        "32",
+        "46",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 50,
+          "valorPremio": 62827.8
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5113,
+          "valorPremio": 877.7
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2130,
+      "dataProximoConcurso": "02/03/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 54486418.0,
+      "valorAcumuladoConcurso_0_5": 63951940.16,
+      "valorAcumuladoConcursoEspecial": 11098354.14,
+      "valorAcumuladoProximoConcurso": 63951940.16,
+      "valorEstimadoProximoConcurso": 73000000.0
+    }
+  },
+  {
+    "draw_id": 2130,
+    "draw_date": "2019-03-02",
+    "numbers": [
+      13,
+      16,
+      36,
+      53,
+      54,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2130,
+      "data": "02/03/2019",
+      "local": "CAMINH\u00c3O DA SORTE em VIDEIRA, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "13",
+        "53",
+        "16",
+        "36",
+        "55",
+        "54"
+      ],
+      "dezenas": [
+        "13",
+        "16",
+        "36",
+        "53",
+        "54",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 101,
+          "valorPremio": 42283.94
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7900,
+          "valorPremio": 772.27
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2131,
+      "dataProximoConcurso": "06/03/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 74073569.5,
+      "valorAcumuladoConcurso_0_5": 4944995.55,
+      "valorAcumuladoConcursoEspecial": 12222216.77,
+      "valorAcumuladoProximoConcurso": 71818978.53,
+      "valorEstimadoProximoConcurso": 80000000.0
+    }
+  },
+  {
+    "draw_id": 2131,
+    "draw_date": "2019-03-06",
+    "numbers": [
+      2,
+      3,
+      6,
+      18,
+      20,
+      28
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2131,
+      "data": "06/03/2019",
+      "local": "Caminh\u00e3o da Sorte em ITUPEVA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "28",
+        "18",
+        "20",
+        "06",
+        "02",
+        "03"
+      ],
+      "dezenas": [
+        "02",
+        "03",
+        "06",
+        "18",
+        "20",
+        "28"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 78938208.62
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 414,
+          "valorPremio": 9335.09
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 16733,
+          "valorPremio": 329.94
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2132,
+      "dataProximoConcurso": "09/03/2019",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "GRAVATA\u00cd",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RS"
+        }
+      ],
+      "valorArrecadado": 67032441.0,
+      "valorAcumuladoConcurso_0_5": 9419940.18,
+      "valorAcumuladoConcursoEspecial": 13239249.64,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 2132,
+    "draw_date": "2019-03-09",
+    "numbers": [
+      5,
+      18,
+      30,
+      35,
+      39,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2132,
+      "data": "09/03/2019",
+      "local": "Caminh\u00e3o da Sorte em ITUPEVA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "05",
+        "60",
+        "18",
+        "39",
+        "35",
+        "30"
+      ],
+      "dezenas": [
+        "05",
+        "18",
+        "30",
+        "35",
+        "39",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 41,
+          "valorPremio": 41495.7
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2912,
+          "valorPremio": 834.63
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2133,
+      "dataProximoConcurso": "13/03/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 29508923.5,
+      "valorAcumuladoConcurso_0_5": 11389893.78,
+      "valorAcumuladoConcursoEspecial": 13686966.38,
+      "valorAcumuladoProximoConcurso": 3134017.09,
+      "valorEstimadoProximoConcurso": 7000000.0
+    }
+  },
+  {
+    "draw_id": 2133,
+    "draw_date": "2019-03-13",
+    "numbers": [
+      19,
+      20,
+      26,
+      51,
+      52,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2133,
+      "data": "13/03/2019",
+      "local": "Caminh\u00e3o da Sorte em ITUPEVA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "26",
+        "20",
+        "19",
+        "51",
+        "52",
+        "57"
+      ],
+      "dezenas": [
+        "19",
+        "20",
+        "26",
+        "51",
+        "52",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 32,
+          "valorPremio": 58792.56
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2790,
+          "valorPremio": 963.31
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2134,
+      "dataProximoConcurso": "16/03/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 32631630.5,
+      "valorAcumuladoConcurso_0_5": 13568312.72,
+      "valorAcumuladoConcursoEspecial": 14182061.61,
+      "valorAcumuladoProximoConcurso": 6599683.59,
+      "valorEstimadoProximoConcurso": 11000000.0
+    }
+  },
+  {
+    "draw_id": 2134,
+    "draw_date": "2019-03-16",
+    "numbers": [
+      6,
+      21,
+      34,
+      46,
+      54,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2134,
+      "data": "16/03/2019",
+      "local": "Caminh\u00e3o da Sorte em ITUPEVA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "54",
+        "06",
+        "46",
+        "21",
+        "59",
+        "34"
+      ],
+      "dezenas": [
+        "06",
+        "21",
+        "34",
+        "46",
+        "54",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 60,
+          "valorPremio": 39699.48
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4157,
+          "valorPremio": 818.57
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2135,
+      "dataProximoConcurso": "20/03/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 41314493.5,
+      "valorAcumuladoConcurso_0_5": 27313901.3,
+      "valorAcumuladoConcursoEspecial": 14808895.4,
+      "valorAcumuladoProximoConcurso": 27313901.3,
+      "valorEstimadoProximoConcurso": 33000000.0
+    }
+  },
+  {
+    "draw_id": 2135,
+    "draw_date": "2019-03-20",
+    "numbers": [
+      9,
+      23,
+      28,
+      40,
+      48,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2135,
+      "data": "20/03/2019",
+      "local": "Caminh\u00e3o da Sorte em CRAVINHOS, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "23",
+        "48",
+        "59",
+        "28",
+        "40",
+        "09"
+      ],
+      "dezenas": [
+        "09",
+        "23",
+        "28",
+        "40",
+        "48",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 32689083.52
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 50,
+          "valorPremio": 58359.12
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4546,
+          "valorPremio": 916.96
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2136,
+      "dataProximoConcurso": "23/03/2019",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "SALVADOR",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "BA"
+        }
+      ],
+      "valorArrecadado": 50611032.5,
+      "valorAcumuladoConcurso_0_5": 3378685.97,
+      "valorAcumuladoConcursoEspecial": 15576778.59,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 2136,
+    "draw_date": "2019-03-23",
+    "numbers": [
+      1,
+      8,
+      11,
+      22,
+      30,
+      35
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2136,
+      "data": "23/03/2019",
+      "local": "Caminh\u00e3o da Sorte em CRAVINHOS, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "35",
+        "22",
+        "11",
+        "01",
+        "30",
+        "08"
+      ],
+      "dezenas": [
+        "01",
+        "08",
+        "11",
+        "22",
+        "30",
+        "35"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 63,
+          "valorPremio": 25942.87
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4209,
+          "valorPremio": 554.72
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2137,
+      "dataProximoConcurso": "27/03/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 28348166.0,
+      "valorAcumuladoConcurso_0_5": 5271149.84,
+      "valorAcumuladoConcursoEspecial": 16006884.02,
+      "valorAcumuladoProximoConcurso": 3010737.98,
+      "valorEstimadoProximoConcurso": 6000000.0
+    }
+  },
+  {
+    "draw_id": 2137,
+    "draw_date": "2019-03-27",
+    "numbers": [
+      1,
+      2,
+      11,
+      12,
+      34,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2137,
+      "data": "27/03/2019",
+      "local": "Caminh\u00e3o da Sorte em PANCAS, ES",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "02",
+        "01",
+        "49",
+        "11",
+        "12",
+        "34"
+      ],
+      "dezenas": [
+        "01",
+        "02",
+        "11",
+        "12",
+        "34",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 45,
+          "valorPremio": 36544.41
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4488,
+          "valorPremio": 523.45
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2138,
+      "dataProximoConcurso": "30/03/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 28523306.0,
+      "valorAcumuladoConcurso_0_5": 7175305.69,
+      "valorAcumuladoConcursoEspecial": 16439646.73,
+      "valorAcumuladoProximoConcurso": 6040076.83,
+      "valorEstimadoProximoConcurso": 10000000.0
+    }
+  },
+  {
+    "draw_id": 2138,
+    "draw_date": "2019-03-30",
+    "numbers": [
+      4,
+      13,
+      14,
+      21,
+      30,
+      34
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2138,
+      "data": "30/03/2019",
+      "local": "Caminh\u00e3o da Sorte em PANCAS, ES",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "30",
+        "34",
+        "04",
+        "21",
+        "13",
+        "14"
+      ],
+      "dezenas": [
+        "04",
+        "13",
+        "14",
+        "21",
+        "30",
+        "34"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 59,
+          "valorPremio": 36206.08
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4532,
+          "valorPremio": 673.35
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2139,
+      "dataProximoConcurso": "03/04/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 37051000.0,
+      "valorAcumuladoConcurso_0_5": 9648752.43,
+      "valorAcumuladoConcursoEspecial": 17001793.74,
+      "valorAcumuladoProximoConcurso": 9975105.74,
+      "valorEstimadoProximoConcurso": 15000000.0
+    }
+  },
+  {
+    "draw_id": 2139,
+    "draw_date": "2019-04-03",
+    "numbers": [
+      14,
+      23,
+      29,
+      41,
+      57,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2139,
+      "data": "03/04/2019",
+      "local": "Espa\u00e7o Loterias Caixa em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "58",
+        "29",
+        "23",
+        "41",
+        "14",
+        "57"
+      ],
+      "dezenas": [
+        "14",
+        "23",
+        "29",
+        "41",
+        "57",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 65,
+          "valorPremio": 34758.78
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3441,
+          "valorPremio": 937.98
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2140,
+      "dataProximoConcurso": "06/04/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 39187204.0,
+      "valorAcumuladoConcurso_0_5": 26401819.43,
+      "valorAcumuladoConcursoEspecial": 17596351.76,
+      "valorAcumuladoProximoConcurso": 26401819.43,
+      "valorEstimadoProximoConcurso": 32000000.0
+    }
+  },
+  {
+    "draw_id": 2140,
+    "draw_date": "2019-04-06",
+    "numbers": [
+      17,
+      20,
+      26,
+      36,
+      42,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2140,
+      "data": "06/04/2019",
+      "local": "Espa\u00e7o Loterias Caixa em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "20",
+        "54",
+        "36",
+        "17",
+        "42",
+        "26"
+      ],
+      "dezenas": [
+        "17",
+        "20",
+        "26",
+        "36",
+        "42",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 66,
+          "valorPremio": 46099.13
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5044,
+          "valorPremio": 861.71
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2141,
+      "dataProximoConcurso": "10/04/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 52771946.5,
+      "valorAcumuladoConcurso_0_5": 3522944.04,
+      "valorAcumuladoConcursoEspecial": 18397020.86,
+      "valorAcumuladoProximoConcurso": 32006503.13,
+      "valorEstimadoProximoConcurso": 40000000.0
+    }
+  },
+  {
+    "draw_id": 2141,
+    "draw_date": "2019-04-10",
+    "numbers": [
+      10,
+      11,
+      17,
+      19,
+      37,
+      41
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2141,
+      "data": "10/04/2019",
+      "local": "Caminh\u00e3o da Sorte em BOTUCATU, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "10",
+        "19",
+        "11",
+        "37",
+        "41",
+        "17"
+      ],
+      "dezenas": [
+        "10",
+        "11",
+        "17",
+        "19",
+        "37",
+        "41"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 117,
+          "valorPremio": 27422.28
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8868,
+          "valorPremio": 516.85
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2142,
+      "dataProximoConcurso": "13/04/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 55648803.0,
+      "valorAcumuladoConcurso_0_5": 7237940.96,
+      "valorAcumuladoConcursoEspecial": 19241338.37,
+      "valorAcumuladoProximoConcurso": 37916725.5,
+      "valorEstimadoProximoConcurso": 45000000.0
+    }
+  },
+  {
+    "draw_id": 2142,
+    "draw_date": "2019-04-13",
+    "numbers": [
+      7,
+      40,
+      44,
+      50,
+      52,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2142,
+      "data": "13/04/2019",
+      "local": "Caminh\u00e3o da Sorte em BOTUCATU, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "44",
+        "50",
+        "52",
+        "57",
+        "07",
+        "40"
+      ],
+      "dezenas": [
+        "07",
+        "40",
+        "44",
+        "50",
+        "52",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 65,
+          "valorPremio": 55484.51
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5028,
+          "valorPremio": 1024.68
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2143,
+      "dataProximoConcurso": "17/04/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 62553494.5,
+      "valorAcumuladoConcurso_0_5": 11413880.55,
+      "valorAcumuladoConcursoEspecial": 20190415.56,
+      "valorAcumuladoProximoConcurso": 44560265.75,
+      "valorEstimadoProximoConcurso": 52000000.0
+    }
+  },
+  {
+    "draw_id": 2143,
+    "draw_date": "2019-04-17",
+    "numbers": [
+      2,
+      12,
+      35,
+      51,
+      57,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2143,
+      "data": "17/04/2019",
+      "local": "Caminh\u00e3o da Sorte em NOVA PETR\u00d3POLIS, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "12",
+        "58",
+        "35",
+        "51",
+        "02",
+        "57"
+      ],
+      "dezenas": [
+        "02",
+        "12",
+        "35",
+        "51",
+        "57",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 81,
+          "valorPremio": 48904.73
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6545,
+          "valorPremio": 864.62
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2144,
+      "dataProximoConcurso": "20/04/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 68707212.0,
+      "valorAcumuladoConcurso_0_5": 16000629.36,
+      "valorAcumuladoConcursoEspecial": 21232858.49,
+      "valorAcumuladoProximoConcurso": 51857366.14,
+      "valorEstimadoProximoConcurso": 60000000.0
+    }
+  },
+  {
+    "draw_id": 2144,
+    "draw_date": "2019-04-20",
+    "numbers": [
+      7,
+      16,
+      21,
+      33,
+      55,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2144,
+      "data": "20/04/2019",
+      "local": "Caminh\u00e3o da Sorte em NOVA PETR\u00d3POLIS, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "21",
+        "33",
+        "55",
+        "16",
+        "07",
+        "60"
+      ],
+      "dezenas": [
+        "07",
+        "16",
+        "21",
+        "33",
+        "55",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 188,
+          "valorPremio": 21418.23
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10251,
+          "valorPremio": 561.14
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2145,
+      "dataProximoConcurso": "24/04/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 69840589.0,
+      "valorAcumuladoConcurso_0_5": 79937877.7,
+      "valorAcumuladoConcursoEspecial": 22292497.29,
+      "valorAcumuladoProximoConcurso": 79937877.7,
+      "valorEstimadoProximoConcurso": 90000000.0
+    }
+  },
+  {
+    "draw_id": 2145,
+    "draw_date": "2019-04-24",
+    "numbers": [
+      6,
+      8,
+      28,
+      51,
+      53,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2145,
+      "data": "24/04/2019",
+      "local": "Espa\u00e7o Loterias Caixa em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "06",
+        "59",
+        "28",
+        "08",
+        "51",
+        "53"
+      ],
+      "dezenas": [
+        "06",
+        "08",
+        "28",
+        "51",
+        "53",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 115,
+          "valorPremio": 55420.7
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10504,
+          "valorPremio": 866.79
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2146,
+      "dataProximoConcurso": "27/04/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 110544276.5,
+      "valorAcumuladoConcurso_0_5": 7379703.17,
+      "valorAcumuladoConcursoEspecial": 23969702.57,
+      "valorAcumuladoProximoConcurso": 91678314.54,
+      "valorEstimadoProximoConcurso": 105000000.0
+    }
+  },
+  {
+    "draw_id": 2146,
+    "draw_date": "2019-04-27",
+    "numbers": [
+      16,
+      18,
+      31,
+      39,
+      42,
+      44
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2146,
+      "data": "27/04/2019",
+      "local": "Espa\u00e7o Loterias Caixa em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "39",
+        "42",
+        "16",
+        "18",
+        "44",
+        "31"
+      ],
+      "dezenas": [
+        "16",
+        "18",
+        "31",
+        "39",
+        "42",
+        "44"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 283,
+          "valorPremio": 30594.81
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 15338,
+          "valorPremio": 806.43
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2147,
+      "dataProximoConcurso": "02/05/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 150176040.0,
+      "valorAcumuladoConcurso_0_5": 17405139.42,
+      "valorAcumuladoConcursoEspecial": 26248210.83,
+      "valorAcumuladoProximoConcurso": 107627872.22,
+      "valorEstimadoProximoConcurso": 125000000.0
+    }
+  },
+  {
+    "draw_id": 2147,
+    "draw_date": "2019-05-02",
+    "numbers": [
+      17,
+      19,
+      37,
+      41,
+      42,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2147,
+      "data": "02/05/2019",
+      "local": "Espa\u00e7o Loterias Caixa em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "49",
+        "42",
+        "17",
+        "19",
+        "37",
+        "41"
+      ],
+      "dezenas": [
+        "17",
+        "19",
+        "37",
+        "41",
+        "42",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 366,
+          "valorPremio": 28739.81
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 28045,
+          "valorPremio": 535.81
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2148,
+      "dataProximoConcurso": "04/05/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 182444745.0,
+      "valorAcumuladoConcurso_0_5": 29584766.49,
+      "valorAcumuladoConcursoEspecial": 29016307.9,
+      "valorAcumuladoProximoConcurso": 127004551.65,
+      "valorEstimadoProximoConcurso": 140000000.0
+    }
+  },
+  {
+    "draw_id": 2148,
+    "draw_date": "2019-05-04",
+    "numbers": [
+      8,
+      15,
+      32,
+      33,
+      58,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2148,
+      "data": "04/05/2019",
+      "local": "Espa\u00e7o Loterias Caixa em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "59",
+        "33",
+        "08",
+        "58",
+        "32",
+        "15"
+      ],
+      "dezenas": [
+        "08",
+        "15",
+        "32",
+        "33",
+        "58",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 296,
+          "valorPremio": 37666.84
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 21684,
+          "valorPremio": 734.53
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2149,
+      "dataProximoConcurso": "08/05/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 193382595.0,
+      "valorAcumuladoConcurso_0_5": 42494581.39,
+      "valorAcumuladoConcursoEspecial": 31950356.75,
+      "valorAcumuladoProximoConcurso": 147542893.55,
+      "valorEstimadoProximoConcurso": 170000000.0
+    }
+  },
+  {
+    "draw_id": 2149,
+    "draw_date": "2019-05-08",
+    "numbers": [
+      21,
+      23,
+      37,
+      44,
+      46,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2149,
+      "data": "08/05/2019",
+      "local": "Espa\u00e7o Loterias Caixa em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "21",
+        "48",
+        "46",
+        "23",
+        "44",
+        "37"
+      ],
+      "dezenas": [
+        "21",
+        "23",
+        "37",
+        "44",
+        "46",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 496,
+          "valorPremio": 35200.2
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 32880,
+          "valorPremio": 758.57
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2150,
+      "dataProximoConcurso": "11/05/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 302826055.0,
+      "valorAcumuladoConcurso_0_5": 242415370.56,
+      "valorAcumuladoConcursoEspecial": 36544909.01,
+      "valorAcumuladoProximoConcurso": 242415370.56,
+      "valorEstimadoProximoConcurso": 275000000.0
+    }
+  },
+  {
+    "draw_id": 2150,
+    "draw_date": "2019-05-11",
+    "numbers": [
+      23,
+      24,
+      26,
+      38,
+      42,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2150,
+      "data": "11/05/2019",
+      "local": "Espa\u00e7o Loterias Caixa em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "38",
+        "24",
+        "23",
+        "26",
+        "42",
+        "49"
+      ],
+      "dezenas": [
+        "23",
+        "24",
+        "26",
+        "38",
+        "42",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 289420865.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 838,
+          "valorPremio": 30450.2
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 56994,
+          "valorPremio": 639.59
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "A APOSTA GANHADORA DO CONCURSO \u00c9 DA CIDADE DE RECIFE/PE.",
+      "acumulou": false,
+      "proximoConcurso": 2151,
+      "dataProximoConcurso": "15/05/2019",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "Canal Eletr\u00f4nico",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "XX"
+        }
+      ],
+      "valorArrecadado": 442589014.0,
+      "valorAcumuladoConcurso_0_5": 29546310.8,
+      "valorAcumuladoConcursoEspecial": 43259979.66,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 2151,
+    "draw_date": "2019-05-15",
+    "numbers": [
+      2,
+      14,
+      18,
+      29,
+      36,
+      38
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2151,
+      "data": "15/05/2019",
+      "local": "Espa\u00e7o Loterias Caixa em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "36",
+        "38",
+        "02",
+        "29",
+        "14",
+        "18"
+      ],
+      "dezenas": [
+        "02",
+        "14",
+        "18",
+        "29",
+        "36",
+        "38"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 80,
+          "valorPremio": 23556.59
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5236,
+          "valorPremio": 514.16
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2152,
+      "dataProximoConcurso": "18/05/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 32686528.0,
+      "valorAcumuladoConcurso_0_5": 31728394.58,
+      "valorAcumuladoConcursoEspecial": 43755907.79,
+      "valorAcumuladoProximoConcurso": 3471496.94,
+      "valorEstimadoProximoConcurso": 7000000.0
+    }
+  },
+  {
+    "draw_id": 2152,
+    "draw_date": "2019-05-18",
+    "numbers": [
+      26,
+      29,
+      36,
+      49,
+      50,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2152,
+      "data": "18/05/2019",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "49",
+        "36",
+        "29",
+        "26",
+        "59",
+        "50"
+      ],
+      "dezenas": [
+        "26",
+        "29",
+        "36",
+        "49",
+        "50",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 28,
+          "valorPremio": 77547.6
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2420,
+          "valorPremio": 1281.77
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2153,
+      "dataProximoConcurso": "22/05/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 37661085.0,
+      "valorAcumuladoConcurso_0_5": 34242569.32,
+      "valorAcumuladoConcursoEspecial": 44327311.16,
+      "valorAcumuladoProximoConcurso": 7471320.38,
+      "valorEstimadoProximoConcurso": 12000000.0
+    }
+  },
+  {
+    "draw_id": 2153,
+    "draw_date": "2019-05-22",
+    "numbers": [
+      8,
+      13,
+      28,
+      31,
+      32,
+      33
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2153,
+      "data": "22/05/2019",
+      "local": "Espa\u00e7o Loterias Caixa em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "13",
+        "28",
+        "31",
+        "08",
+        "33",
+        "32"
+      ],
+      "dezenas": [
+        "08",
+        "13",
+        "28",
+        "31",
+        "32",
+        "33"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 11825289.36
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 127,
+          "valorPremio": 18610.89
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6356,
+          "valorPremio": 531.23
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2154,
+      "dataProximoConcurso": "25/05/2019",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "ARAMINA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 40995608.5,
+      "valorAcumuladoConcurso_0_5": 36979349.82,
+      "valorAcumuladoConcursoEspecial": 44949306.75,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 2154,
+    "draw_date": "2019-05-25",
+    "numbers": [
+      7,
+      25,
+      41,
+      47,
+      50,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2154,
+      "data": "25/05/2019",
+      "local": "Espa\u00e7o Loterias Caixa em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "53",
+        "41",
+        "47",
+        "50",
+        "07",
+        "25"
+      ],
+      "dezenas": [
+        "07",
+        "25",
+        "41",
+        "47",
+        "50",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 36,
+          "valorPremio": 49285.49
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2951,
+          "valorPremio": 858.92
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2155,
+      "dataProximoConcurso": "29/05/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 30774289.0,
+      "valorAcumuladoConcurso_0_5": 42302182.71,
+      "valorAcumuladoConcursoEspecial": 45416221.93,
+      "valorAcumuladoProximoConcurso": 42302182.71,
+      "valorEstimadoProximoConcurso": 48000000.0
+    }
+  },
+  {
+    "draw_id": 2155,
+    "draw_date": "2019-05-29",
+    "numbers": [
+      2,
+      6,
+      27,
+      37,
+      44,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2155,
+      "data": "29/05/2019",
+      "local": "Espa\u00e7o Loterias Caixa em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "37",
+        "44",
+        "02",
+        "27",
+        "06",
+        "47"
+      ],
+      "dezenas": [
+        "02",
+        "06",
+        "27",
+        "37",
+        "44",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 91,
+          "valorPremio": 34590.53
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6630,
+          "valorPremio": 678.24
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2156,
+      "dataProximoConcurso": "01/06/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 54596528.0,
+      "valorAcumuladoConcurso_0_5": 3644749.26,
+      "valorAcumuladoConcursoEspecial": 46244574.04,
+      "valorAcumuladoProximoConcurso": 48100647.44,
+      "valorEstimadoProximoConcurso": 55000000.0
+    }
+  },
+  {
+    "draw_id": 2156,
+    "draw_date": "2019-06-01",
+    "numbers": [
+      1,
+      6,
+      23,
+      26,
+      39,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2156,
+      "data": "01/06/2019",
+      "local": "Caminh\u00e3o da Sorte em SALVADOR, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "49",
+        "39",
+        "23",
+        "06",
+        "26",
+        "01"
+      ],
+      "dezenas": [
+        "01",
+        "06",
+        "23",
+        "26",
+        "39",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 91,
+          "valorPremio": 40927.21
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7556,
+          "valorPremio": 704.14
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2157,
+      "dataProximoConcurso": "05/06/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 64598138.5,
+      "valorAcumuladoConcurso_0_5": 7957184.97,
+      "valorAcumuladoConcursoEspecial": 47224673.09,
+      "valorAcumuladoProximoConcurso": 54961340.62,
+      "valorEstimadoProximoConcurso": 63000000.0
+    }
+  },
+  {
+    "draw_id": 2157,
+    "draw_date": "2019-06-05",
+    "numbers": [
+      31,
+      33,
+      34,
+      35,
+      39,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2157,
+      "data": "05/06/2019",
+      "local": "Espa\u00e7o Loterias Caixa em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "34",
+        "48",
+        "31",
+        "39",
+        "33",
+        "35"
+      ],
+      "dezenas": [
+        "31",
+        "33",
+        "34",
+        "35",
+        "39",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 188,
+          "valorPremio": 21377.17
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8779,
+          "valorPremio": 653.98
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2158,
+      "dataProximoConcurso": "08/06/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 69706707.0,
+      "valorAcumuladoConcurso_0_5": 12610657.97,
+      "valorAcumuladoConcursoEspecial": 48282280.6,
+      "valorAcumuladoProximoConcurso": 62364593.11,
+      "valorEstimadoProximoConcurso": 70000000.0
+    }
+  },
+  {
+    "draw_id": 2158,
+    "draw_date": "2019-06-08",
+    "numbers": [
+      9,
+      27,
+      35,
+      45,
+      46,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2158,
+      "data": "08/06/2019",
+      "local": "Espa\u00e7o Loterias Caixa em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "09",
+        "27",
+        "46",
+        "59",
+        "35",
+        "45"
+      ],
+      "dezenas": [
+        "09",
+        "27",
+        "35",
+        "45",
+        "46",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 109,
+          "valorPremio": 42724.12
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8855,
+          "valorPremio": 751.29
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2159,
+      "dataProximoConcurso": "12/06/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 80772972.0,
+      "valorAcumuladoConcurso_0_5": 18002891.51,
+      "valorAcumuladoConcursoEspecial": 49507788.24,
+      "valorAcumuladoProximoConcurso": 70943146.49,
+      "valorEstimadoProximoConcurso": 80000000.0
+    }
+  },
+  {
+    "draw_id": 2159,
+    "draw_date": "2019-06-12",
+    "numbers": [
+      14,
+      26,
+      35,
+      38,
+      45,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2159,
+      "data": "12/06/2019",
+      "local": "Espa\u00e7o Loterias Caixa em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "53",
+        "35",
+        "38",
+        "14",
+        "45",
+        "26"
+      ],
+      "dezenas": [
+        "14",
+        "26",
+        "35",
+        "38",
+        "45",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 170,
+          "valorPremio": 27678.48
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9781,
+          "valorPremio": 687.24
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2160,
+      "dataProximoConcurso": "15/06/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 81612678.0,
+      "valorAcumuladoConcurso_0_5": 103062063.53,
+      "valorAcumuladoConcursoEspecial": 50746036.1,
+      "valorAcumuladoProximoConcurso": 103062063.53,
+      "valorEstimadoProximoConcurso": 115000000.0
+    }
+  },
+  {
+    "draw_id": 2160,
+    "draw_date": "2019-06-15",
+    "numbers": [
+      1,
+      19,
+      46,
+      47,
+      49,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2160,
+      "data": "15/06/2019",
+      "local": "Espa\u00e7o Loterias Caixa em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "53",
+        "49",
+        "01",
+        "46",
+        "47",
+        "19"
+      ],
+      "dezenas": [
+        "01",
+        "19",
+        "46",
+        "47",
+        "49",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 116,
+          "valorPremio": 49024.59
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9486,
+          "valorPremio": 856.42
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2161,
+      "dataProximoConcurso": "19/06/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 98636671.0,
+      "valorAcumuladoConcurso_0_5": 6584776.49,
+      "valorAcumuladoConcursoEspecial": 52242576.22,
+      "valorAcumuladoProximoConcurso": 113537844.31,
+      "valorEstimadoProximoConcurso": 125000000.0
+    }
+  },
+  {
+    "draw_id": 2161,
+    "draw_date": "2019-06-19",
+    "numbers": [
+      8,
+      9,
+      10,
+      24,
+      42,
+      44
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2161,
+      "data": "19/06/2019",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "24",
+        "10",
+        "08",
+        "44",
+        "09",
+        "42"
+      ],
+      "dezenas": [
+        "08",
+        "09",
+        "10",
+        "24",
+        "42",
+        "44"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 124209628.25
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 255,
+          "valorPremio": 22718.64
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 15769,
+          "valorPremio": 524.83
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2162,
+      "dataProximoConcurso": "22/06/2019",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "OSASCO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 100482175.5,
+      "valorAcumuladoConcurso_0_5": 13292754.97,
+      "valorAcumuladoConcursoEspecial": 53767116.8,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 2162,
+    "draw_date": "2019-06-22",
+    "numbers": [
+      11,
+      16,
+      22,
+      30,
+      34,
+      42
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2162,
+      "data": "22/06/2019",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "11",
+        "30",
+        "42",
+        "34",
+        "16",
+        "22"
+      ],
+      "dezenas": [
+        "11",
+        "16",
+        "22",
+        "30",
+        "34",
+        "42"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 35,
+          "valorPremio": 44279.94
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2763,
+          "valorPremio": 801.3
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2163,
+      "dataProximoConcurso": "26/06/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 26880756.0,
+      "valorAcumuladoConcurso_0_5": 15087257.64,
+      "valorAcumuladoConcursoEspecial": 54174958.32,
+      "valorAcumuladoProximoConcurso": 2854890.61,
+      "valorEstimadoProximoConcurso": 6200000.0
+    }
+  },
+  {
+    "draw_id": 2163,
+    "draw_date": "2019-06-26",
+    "numbers": [
+      8,
+      18,
+      20,
+      24,
+      36,
+      45
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2163,
+      "data": "26/06/2019",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "45",
+        "20",
+        "24",
+        "36",
+        "18",
+        "08"
+      ],
+      "dezenas": [
+        "08",
+        "18",
+        "20",
+        "24",
+        "36",
+        "45"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 75,
+          "valorPremio": 23088.84
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4758,
+          "valorPremio": 519.92
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2164,
+      "dataProximoConcurso": "29/06/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 30035148.5,
+      "valorAcumuladoConcurso_0_5": 17092340.91,
+      "valorAcumuladoConcursoEspecial": 54630659.09,
+      "valorAcumuladoProximoConcurso": 6044795.82,
+      "valorEstimadoProximoConcurso": 10000000.0
+    }
+  },
+  {
+    "draw_id": 2164,
+    "draw_date": "2019-06-29",
+    "numbers": [
+      16,
+      17,
+      25,
+      47,
+      48,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2164,
+      "data": "29/06/2019",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "48",
+        "17",
+        "58",
+        "47",
+        "16",
+        "25"
+      ],
+      "dezenas": [
+        "16",
+        "17",
+        "25",
+        "47",
+        "48",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 51,
+          "valorPremio": 43294.26
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3431,
+          "valorPremio": 919.35
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2165,
+      "dataProximoConcurso": "03/07/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 38297196.0,
+      "valorAcumuladoConcurso_0_5": 29761158.96,
+      "valorAcumuladoConcursoEspecial": 55211713.68,
+      "valorAcumuladoProximoConcurso": 29761158.96,
+      "valorEstimadoProximoConcurso": 34400000.0
+    }
+  },
+  {
+    "draw_id": 2165,
+    "draw_date": "2019-07-03",
+    "numbers": [
+      5,
+      37,
+      43,
+      49,
+      54,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2165,
+      "data": "03/07/2019",
+      "local": "Espa\u00e7o Loterias Caixa em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "56",
+        "49",
+        "54",
+        "43",
+        "05",
+        "37"
+      ],
+      "dezenas": [
+        "05",
+        "37",
+        "43",
+        "49",
+        "54",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 35218398.02
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 113,
+          "valorPremio": 26216.82
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8189,
+          "valorPremio": 516.8
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2166,
+      "dataProximoConcurso": "06/07/2019",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "S\u00c3O PAULO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 51383654.0,
+      "valorAcumuladoConcurso_0_5": 3430264.56,
+      "valorAcumuladoConcursoEspecial": 55991319.28,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 2166,
+    "draw_date": "2019-07-06",
+    "numbers": [
+      3,
+      19,
+      34,
+      44,
+      56,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2166,
+      "data": "06/07/2019",
+      "local": "Espa\u00e7o Loterias Caixa em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "44",
+        "03",
+        "34",
+        "56",
+        "19",
+        "58"
+      ],
+      "dezenas": [
+        "03",
+        "19",
+        "34",
+        "44",
+        "56",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 44,
+          "valorPremio": 39121.73
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3749,
+          "valorPremio": 655.92
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2167,
+      "dataProximoConcurso": "09/07/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 29856382.5,
+      "valorAcumuladoConcurso_0_5": 5423413.78,
+      "valorAcumuladoConcursoEspecial": 56444307.75,
+      "valorAcumuladoProximoConcurso": 3170919.23,
+      "valorEstimadoProximoConcurso": 6000000.0
+    }
+  },
+  {
+    "draw_id": 2167,
+    "draw_date": "2019-07-09",
+    "numbers": [
+      27,
+      37,
+      38,
+      43,
+      45,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2167,
+      "data": "09/07/2019",
+      "local": "Espa\u00e7o Loterias Caixa em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "37",
+        "45",
+        "38",
+        "43",
+        "54",
+        "27"
+      ],
+      "dezenas": [
+        "27",
+        "37",
+        "38",
+        "43",
+        "45",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 37,
+          "valorPremio": 28747.3
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1971,
+          "valorPremio": 770.92
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2168,
+      "dataProximoConcurso": "11/07/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 18448678.5,
+      "valorAcumuladoConcurso_0_5": 6655008.71,
+      "valorAcumuladoConcursoEspecial": 56724215.7,
+      "valorAcumuladoProximoConcurso": 5130274.8,
+      "valorEstimadoProximoConcurso": 7500000.0
+    }
+  },
+  {
+    "draw_id": 2168,
+    "draw_date": "2019-07-11",
+    "numbers": [
+      1,
+      4,
+      25,
+      27,
+      29,
+      37
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2168,
+      "data": "11/07/2019",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "37",
+        "25",
+        "29",
+        "04",
+        "01",
+        "27"
+      ],
+      "dezenas": [
+        "01",
+        "04",
+        "25",
+        "27",
+        "29",
+        "37"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 8177021.67
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 66,
+          "valorPremio": 25059.82
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4054,
+          "valorPremio": 582.82
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2169,
+      "dataProximoConcurso": "13/07/2019",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "Curitiba",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        }
+      ],
+      "valorArrecadado": 28687214.5,
+      "valorAcumuladoConcurso_0_5": 8570106.74,
+      "valorAcumuladoConcursoEspecial": 57159465.26,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 2169,
+    "draw_date": "2019-07-13",
+    "numbers": [
+      7,
+      34,
+      45,
+      51,
+      54,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2169,
+      "data": "13/07/2019",
+      "local": "Espa\u00e7o Loterias Caixa em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "45",
+        "07",
+        "34",
+        "59",
+        "51",
+        "54"
+      ],
+      "dezenas": [
+        "07",
+        "34",
+        "45",
+        "51",
+        "54",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 18,
+          "valorPremio": 77574.63
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2145,
+          "valorPremio": 929.96
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2170,
+      "dataProximoConcurso": "17/07/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 24219139.0,
+      "valorAcumuladoConcurso_0_5": 12759137.05,
+      "valorAcumuladoConcursoEspecial": 57526924.07,
+      "valorAcumuladoProximoConcurso": 12759137.05,
+      "valorEstimadoProximoConcurso": 16000000.0
+    }
+  },
+  {
+    "draw_id": 2170,
+    "draw_date": "2019-07-17",
+    "numbers": [
+      10,
+      21,
+      24,
+      36,
+      38,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2170,
+      "data": "17/07/2019",
+      "local": "Espa\u00e7o Loterias Caixa em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "36",
+        "21",
+        "51",
+        "10",
+        "24",
+        "38"
+      ],
+      "dezenas": [
+        "10",
+        "21",
+        "24",
+        "36",
+        "38",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 79,
+          "valorPremio": 28962.87
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4697,
+          "valorPremio": 695.9
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2171,
+      "dataProximoConcurso": "20/07/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 39685793.0,
+      "valorAcumuladoConcurso_0_5": 2649339.98,
+      "valorAcumuladoConcursoEspecial": 58129046.82,
+      "valorAcumuladoProximoConcurso": 16973996.11,
+      "valorEstimadoProximoConcurso": 22000000.0
+    }
+  },
+  {
+    "draw_id": 2171,
+    "draw_date": "2019-07-20",
+    "numbers": [
+      12,
+      13,
+      19,
+      36,
+      44,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2171,
+      "data": "20/07/2019",
+      "local": "Espa\u00e7o Loterias Caixa em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "19",
+        "12",
+        "13",
+        "36",
+        "55",
+        "44"
+      ],
+      "dezenas": [
+        "12",
+        "13",
+        "19",
+        "36",
+        "44",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 21978571.91
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 118,
+          "valorPremio": 23023.47
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7127,
+          "valorPremio": 544.56
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2172,
+      "dataProximoConcurso": "24/07/2019",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "S\u00c3O PAULO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 47121518.5,
+      "valorAcumuladoConcurso_0_5": 5795073.34,
+      "valorAcumuladoConcursoEspecial": 58843986.23,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 2172,
+    "draw_date": "2019-07-24",
+    "numbers": [
+      9,
+      24,
+      28,
+      37,
+      43,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2172,
+      "data": "24/07/2019",
+      "local": "Espa\u00e7o Loterias Caixa em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "09",
+        "57",
+        "43",
+        "37",
+        "28",
+        "24"
+      ],
+      "dezenas": [
+        "09",
+        "24",
+        "28",
+        "37",
+        "43",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 73,
+          "valorPremio": 19687.16
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3356,
+          "valorPremio": 611.76
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2173,
+      "dataProximoConcurso": "27/07/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 24927133.0,
+      "valorAcumuladoConcurso_0_5": 7459156.25,
+      "valorAcumuladoConcursoEspecial": 59222186.91,
+      "valorAcumuladoProximoConcurso": 2647404.63,
+      "valorEstimadoProximoConcurso": 6000000.0
+    }
+  },
+  {
+    "draw_id": 2173,
+    "draw_date": "2019-07-27",
+    "numbers": [
+      2,
+      9,
+      42,
+      44,
+      48,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2173,
+      "data": "27/07/2019",
+      "local": "Espa\u00e7o Loterias Caixa em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "09",
+        "48",
+        "44",
+        "42",
+        "02",
+        "50"
+      ],
+      "dezenas": [
+        "02",
+        "09",
+        "42",
+        "44",
+        "48",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 51,
+          "valorPremio": 35892.64
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3884,
+          "valorPremio": 673.28
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2174,
+      "dataProximoConcurso": "31/07/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 31749879.0,
+      "valorAcumuladoConcurso_0_5": 9578711.31,
+      "valorAcumuladoConcursoEspecial": 59703903.99,
+      "valorAcumuladoProximoConcurso": 6019424.06,
+      "valorEstimadoProximoConcurso": 10000000.0
+    }
+  },
+  {
+    "draw_id": 2174,
+    "draw_date": "2019-07-31",
+    "numbers": [
+      10,
+      15,
+      34,
+      36,
+      56,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2174,
+      "data": "31/07/2019",
+      "local": "Espa\u00e7o Loterias Caixa em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "36",
+        "10",
+        "34",
+        "15",
+        "60",
+        "56"
+      ],
+      "dezenas": [
+        "10",
+        "15",
+        "34",
+        "36",
+        "56",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 52,
+          "valorPremio": 38251.95
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3892,
+          "valorPremio": 730.1
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2175,
+      "dataProximoConcurso": "03/08/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 34500333.0,
+      "valorAcumuladoConcurso_0_5": 21565438.38,
+      "valorAcumuladoConcursoEspecial": 60227351.64,
+      "valorAcumuladoProximoConcurso": 21565438.38,
+      "valorEstimadoProximoConcurso": 26000000.0
+    }
+  },
+  {
+    "draw_id": 2175,
+    "draw_date": "2019-08-03",
+    "numbers": [
+      7,
+      25,
+      32,
+      43,
+      53,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2175,
+      "data": "03/08/2019",
+      "local": "Espa\u00e7o Loterias Caixa em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "55",
+        "53",
+        "07",
+        "32",
+        "43",
+        "25"
+      ],
+      "dezenas": [
+        "07",
+        "25",
+        "32",
+        "43",
+        "53",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 73,
+          "valorPremio": 39289.03
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5485,
+          "valorPremio": 746.99
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2176,
+      "dataProximoConcurso": "06/08/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 49746280.5,
+      "valorAcumuladoConcurso_0_5": 3320956.95,
+      "valorAcumuladoConcursoEspecial": 60982114.6,
+      "valorAcumuladoProximoConcurso": 26848778.98,
+      "valorEstimadoProximoConcurso": 32000000.0
+    }
+  },
+  {
+    "draw_id": 2176,
+    "draw_date": "2019-08-06",
+    "numbers": [
+      8,
+      23,
+      25,
+      39,
+      43,
+      44
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2176,
+      "data": "06/08/2019",
+      "local": "Espa\u00e7o Loterias Caixa em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "23",
+        "08",
+        "25",
+        "43",
+        "39",
+        "44"
+      ],
+      "dezenas": [
+        "08",
+        "23",
+        "25",
+        "39",
+        "43",
+        "44"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 30505746.02
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 61,
+          "valorPremio": 32544.44
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4688,
+          "valorPremio": 604.95
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2177,
+      "dataProximoConcurso": "08/08/2019",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "RIO DE JANEIRO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        }
+      ],
+      "valorArrecadado": 34432856.5,
+      "valorAcumuladoConcurso_0_5": 5619621.95,
+      "valorAcumuladoConcursoEspecial": 61504538.48,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 2177,
+    "draw_date": "2019-08-08",
+    "numbers": [
+      9,
+      11,
+      14,
+      31,
+      48,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2177,
+      "data": "08/08/2019",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "14",
+        "09",
+        "48",
+        "11",
+        "31",
+        "51"
+      ],
+      "dezenas": [
+        "09",
+        "11",
+        "14",
+        "31",
+        "48",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 49,
+          "valorPremio": 26809.19
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2338,
+          "valorPremio": 802.67
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2178,
+      "dataProximoConcurso": "10/08/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 22784856.5,
+      "valorAcumuladoConcurso_0_5": 7140690.99,
+      "valorAcumuladoConcursoEspecial": 61850236.0,
+      "valorAcumuladoProximoConcurso": 2419882.57,
+      "valorEstimadoProximoConcurso": 5000000.0
+    }
+  },
+  {
+    "draw_id": 2178,
+    "draw_date": "2019-08-10",
+    "numbers": [
+      2,
+      16,
+      21,
+      42,
+      50,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2178,
+      "data": "10/08/2019",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "16",
+        "21",
+        "42",
+        "02",
+        "50",
+        "56"
+      ],
+      "dezenas": [
+        "02",
+        "16",
+        "21",
+        "42",
+        "50",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 25,
+          "valorPremio": 63031.11
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2304,
+          "valorPremio": 977.04
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2179,
+      "dataProximoConcurso": "14/08/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 27331370.5,
+      "valorAcumuladoConcurso_0_5": 8965275.73,
+      "valorAcumuladoConcursoEspecial": 62264914.37,
+      "valorAcumuladoProximoConcurso": 5322631.02,
+      "valorEstimadoProximoConcurso": 9000000.0
+    }
+  },
+  {
+    "draw_id": 2179,
+    "draw_date": "2019-08-14",
+    "numbers": [
+      2,
+      13,
+      24,
+      35,
+      50,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2179,
+      "data": "14/08/2019",
+      "local": "Espa\u00e7o Loterias Caixa em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "24",
+        "02",
+        "35",
+        "54",
+        "50",
+        "13"
+      ],
+      "dezenas": [
+        "02",
+        "13",
+        "24",
+        "35",
+        "50",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 55,
+          "valorPremio": 34715.39
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4563,
+          "valorPremio": 597.77
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2180,
+      "dataProximoConcurso": "17/08/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 33117017.5,
+      "valorAcumuladoConcurso_0_5": 20015946.48,
+      "valorAcumuladoConcursoEspecial": 62767374.01,
+      "valorAcumuladoProximoConcurso": 20015946.48,
+      "valorEstimadoProximoConcurso": 24000000.0
+    }
+  },
+  {
+    "draw_id": 2180,
+    "draw_date": "2019-08-17",
+    "numbers": [
+      10,
+      12,
+      16,
+      21,
+      28,
+      38
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2180,
+      "data": "17/08/2019",
+      "local": "Espa\u00e7o Loterias Caixa em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "16",
+        "12",
+        "10",
+        "21",
+        "28",
+        "38"
+      ],
+      "dezenas": [
+        "10",
+        "12",
+        "16",
+        "21",
+        "28",
+        "38"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 95,
+          "valorPremio": 28276.52
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6869,
+          "valorPremio": 558.67
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2181,
+      "dataProximoConcurso": "21/08/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 46592493.5,
+      "valorAcumuladoConcurso_0_5": 3110416.77,
+      "valorAcumuladoConcursoEspecial": 63474286.93,
+      "valorAcumuladoProximoConcurso": 24964336.79,
+      "valorEstimadoProximoConcurso": 31000000.0
+    }
+  },
+  {
+    "draw_id": 2181,
+    "draw_date": "2019-08-21",
+    "numbers": [
+      1,
+      8,
+      19,
+      33,
+      36,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2181,
+      "data": "21/08/2019",
+      "local": "Espa\u00e7o Loterias Caixa em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "08",
+        "01",
+        "19",
+        "48",
+        "36",
+        "33"
+      ],
+      "dezenas": [
+        "01",
+        "08",
+        "19",
+        "33",
+        "36",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 138,
+          "valorPremio": 19778.72
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8329,
+          "valorPremio": 468.15
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2182,
+      "dataProximoConcurso": "24/08/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 47341682.5,
+      "valorAcumuladoConcurso_0_5": 6270847.81,
+      "valorAcumuladoConcursoEspecial": 64192566.73,
+      "valorAcumuladoProximoConcurso": 29992295.27,
+      "valorEstimadoProximoConcurso": 35000000.0
+    }
+  },
+  {
+    "draw_id": 2182,
+    "draw_date": "2019-08-24",
+    "numbers": [
+      19,
+      22,
+      39,
+      46,
+      47,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2182,
+      "data": "24/08/2019",
+      "local": "Espa\u00e7o Loterias Caixa em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "59",
+        "47",
+        "46",
+        "19",
+        "39",
+        "22"
+      ],
+      "dezenas": [
+        "19",
+        "22",
+        "39",
+        "46",
+        "47",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 66,
+          "valorPremio": 46519.4
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5179,
+          "valorPremio": 846.9
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2183,
+      "dataProximoConcurso": "28/08/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 53253049.5,
+      "valorAcumuladoConcurso_0_5": 9825909.27,
+      "valorAcumuladoConcursoEspecial": 65000535.25,
+      "valorAcumuladoProximoConcurso": 35648074.87,
+      "valorEstimadoProximoConcurso": 42000000.0
+    }
+  },
+  {
+    "draw_id": 2183,
+    "draw_date": "2019-08-28",
+    "numbers": [
+      13,
+      26,
+      30,
+      34,
+      43,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2183,
+      "data": "28/08/2019",
+      "local": "Espa\u00e7o Loterias Caixa em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "51",
+        "13",
+        "43",
+        "30",
+        "34",
+        "26"
+      ],
+      "dezenas": [
+        "13",
+        "26",
+        "30",
+        "34",
+        "43",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 74,
+          "valorPremio": 42642.36
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6087,
+          "valorPremio": 740.57
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2184,
+      "dataProximoConcurso": "31/08/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 54731757.5,
+      "valorAcumuladoConcurso_0_5": 13479686.16,
+      "valorAcumuladoConcursoEspecial": 65830939.11,
+      "valorAcumuladoProximoConcurso": 41460901.74,
+      "valorEstimadoProximoConcurso": 47000000.0
+    }
+  },
+  {
+    "draw_id": 2184,
+    "draw_date": "2019-08-31",
+    "numbers": [
+      15,
+      36,
+      45,
+      51,
+      52,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2184,
+      "data": "31/08/2019",
+      "local": "Espa\u00e7o Loterias Caixa em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "51",
+        "15",
+        "52",
+        "36",
+        "59",
+        "45"
+      ],
+      "dezenas": [
+        "15",
+        "36",
+        "45",
+        "51",
+        "52",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 64,
+          "valorPremio": 55232.15
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5158,
+          "valorPremio": 979.02
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2185,
+      "dataProximoConcurso": "04/09/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 61310991.0,
+      "valorAcumuladoConcurso_0_5": 65545159.82,
+      "valorAcumuladoConcursoEspecial": 66761164.73,
+      "valorAcumuladoProximoConcurso": 65545159.82,
+      "valorEstimadoProximoConcurso": 72000000.0
+    }
+  },
+  {
+    "draw_id": 2185,
+    "draw_date": "2019-09-04",
+    "numbers": [
+      9,
+      18,
+      19,
+      22,
+      42,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2185,
+      "data": "04/09/2019",
+      "local": "Espa\u00e7o Loterias Caixa em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "19",
+        "42",
+        "18",
+        "47",
+        "22",
+        "09"
+      ],
+      "dezenas": [
+        "09",
+        "18",
+        "19",
+        "22",
+        "42",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 115,
+          "valorPremio": 36432.16
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9835,
+          "valorPremio": 608.56
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2186,
+      "dataProximoConcurso": "09/09/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 72669009.0,
+      "valorAcumuladoConcurso_0_5": 4851230.05,
+      "valorAcumuladoConcursoEspecial": 67863717.02,
+      "valorAcumuladoProximoConcurso": 73263025.8,
+      "valorEstimadoProximoConcurso": 80000000.0
+    }
+  },
+  {
+    "draw_id": 2186,
+    "draw_date": "2019-09-09",
+    "numbers": [
+      12,
+      18,
+      19,
+      27,
+      41,
+      46
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2186,
+      "data": "09/09/2019",
+      "local": "Espa\u00e7o Loterias Caixa em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "27",
+        "19",
+        "12",
+        "41",
+        "18",
+        "46"
+      ],
+      "dezenas": [
+        "12",
+        "18",
+        "19",
+        "27",
+        "41",
+        "46"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 131,
+          "valorPremio": 39638.11
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11409,
+          "valorPremio": 650.18
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2187,
+      "dataProximoConcurso": "11/09/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 90063869.0,
+      "valorAcumuladoConcurso_0_5": 10863704.32,
+      "valorAcumuladoConcursoEspecial": 69230188.45,
+      "valorAcumuladoProximoConcurso": 82828325.78,
+      "valorEstimadoProximoConcurso": 90000000.0
+    }
+  },
+  {
+    "draw_id": 2187,
+    "draw_date": "2019-09-11",
+    "numbers": [
+      10,
+      11,
+      16,
+      21,
+      46,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2187,
+      "data": "11/09/2019",
+      "local": "Espa\u00e7o Loterias Caixa em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "16",
+        "21",
+        "50",
+        "10",
+        "46",
+        "11"
+      ],
+      "dezenas": [
+        "10",
+        "11",
+        "16",
+        "21",
+        "46",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 124,
+          "valorPremio": 40602.31
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10072,
+          "valorPremio": 714.09
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2188,
+      "dataProximoConcurso": "14/09/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 87325042.0,
+      "valorAcumuladoConcurso_0_5": 16693340.27,
+      "valorAcumuladoConcursoEspecial": 70555105.72,
+      "valorAcumuladoProximoConcurso": 92102746.61,
+      "valorEstimadoProximoConcurso": 100000000.0
+    }
+  },
+  {
+    "draw_id": 2188,
+    "draw_date": "2019-09-14",
+    "numbers": [
+      2,
+      17,
+      21,
+      28,
+      51,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2188,
+      "data": "14/09/2019",
+      "local": "Espa\u00e7o Loterias Caixa em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "60",
+        "51",
+        "21",
+        "28",
+        "02",
+        "17"
+      ],
+      "dezenas": [
+        "02",
+        "17",
+        "21",
+        "28",
+        "51",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 154,
+          "valorPremio": 47474.72
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 13387,
+          "valorPremio": 780.19
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2189,
+      "dataProximoConcurso": "18/09/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 126808839.5,
+      "valorAcumuladoConcurso_0_5": 25158831.42,
+      "valorAcumuladoConcursoEspecial": 72479081.0,
+      "valorAcumuladoProximoConcurso": 105570573.43,
+      "valorEstimadoProximoConcurso": 120000000.0
+    }
+  },
+  {
+    "draw_id": 2189,
+    "draw_date": "2019-09-18",
+    "numbers": [
+      4,
+      11,
+      16,
+      22,
+      29,
+      33
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2189,
+      "data": "18/09/2019",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "33",
+        "29",
+        "11",
+        "04",
+        "16",
+        "22"
+      ],
+      "dezenas": [
+        "04",
+        "11",
+        "16",
+        "22",
+        "29",
+        "33"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 120085143.97
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 406,
+          "valorPremio": 19407.24
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 24366,
+          "valorPremio": 461.96
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "A APOSTA GANHADORA DO PR\u00caMIO PRINCIPAL DO MUNIC\u00cdPIO DE BRAS\u00cdLIA \u00c9 UM BOL\u00c3O CAIXA COM 49 COTAS.",
+      "acumulou": false,
+      "proximoConcurso": 2190,
+      "dataProximoConcurso": "21/09/2019",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "BRAS\u00cdLIA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "DF"
+        }
+      ],
+      "valorArrecadado": 136664650.5,
+      "valorAcumuladoConcurso_0_5": 34282275.75,
+      "valorAcumuladoConcursoEspecial": 74552591.09,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 38000000.0
+    }
+  },
+  {
+    "draw_id": 2190,
+    "draw_date": "2019-09-21",
+    "numbers": [
+      5,
+      9,
+      20,
+      25,
+      35,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2190,
+      "data": "21/09/2019",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "53",
+        "35",
+        "25",
+        "09",
+        "05",
+        "20"
+      ],
+      "dezenas": [
+        "05",
+        "09",
+        "20",
+        "25",
+        "35",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 94,
+          "valorPremio": 29098.66
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6835,
+          "valorPremio": 571.69
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2191,
+      "dataProximoConcurso": "24/09/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 47442475.5,
+      "valorAcumuladoConcurso_0_5": 3167159.78,
+      "valorAcumuladoConcursoEspecial": 75272400.15,
+      "valorAcumuladoProximoConcurso": 39320939.03,
+      "valorEstimadoProximoConcurso": 44000000.0
+    }
+  },
+  {
+    "draw_id": 2191,
+    "draw_date": "2019-09-24",
+    "numbers": [
+      4,
+      8,
+      26,
+      33,
+      46,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2191,
+      "data": "24/09/2019",
+      "local": "Espa\u00e7o Loterias Caixa em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "33",
+        "46",
+        "26",
+        "04",
+        "53",
+        "08"
+      ],
+      "dezenas": [
+        "04",
+        "08",
+        "26",
+        "33",
+        "46",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 43258437.8
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 104,
+          "valorPremio": 20552.88
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5272,
+          "valorPremio": 579.2
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2192,
+      "dataProximoConcurso": "26/09/2019",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "SORRISO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MT"
+        }
+      ],
+      "valorArrecadado": 37073641.5,
+      "valorAcumuladoConcurso_0_5": 5642159.0,
+      "valorAcumuladoConcursoEspecial": 75834899.99,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2300000.0
+    }
+  },
+  {
+    "draw_id": 2192,
+    "draw_date": "2019-09-26",
+    "numbers": [
+      7,
+      16,
+      37,
+      53,
+      57,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2192,
+      "data": "26/09/2019",
+      "local": "Espa\u00e7o Loterias Caixa em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "57",
+        "53",
+        "07",
+        "59",
+        "16",
+        "37"
+      ],
+      "dezenas": [
+        "07",
+        "16",
+        "37",
+        "53",
+        "57",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 38,
+          "valorPremio": 36389.59
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2635,
+          "valorPremio": 749.69
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2193,
+      "dataProximoConcurso": "28/09/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 23983911.0,
+      "valorAcumuladoConcurso_0_5": 7243300.92,
+      "valorAcumuladoConcursoEspecial": 76198795.89,
+      "valorAcumuladoProximoConcurso": 2547271.23,
+      "valorEstimadoProximoConcurso": 5500000.0
+    }
+  },
+  {
+    "draw_id": 2193,
+    "draw_date": "2019-09-28",
+    "numbers": [
+      7,
+      8,
+      22,
+      27,
+      29,
+      42
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2193,
+      "data": "28/09/2019",
+      "local": "Espa\u00e7o Loterias Caixa em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "08",
+        "07",
+        "42",
+        "27",
+        "29",
+        "22"
+      ],
+      "dezenas": [
+        "07",
+        "08",
+        "22",
+        "27",
+        "29",
+        "42"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 5698505.42
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 55,
+          "valorPremio": 31103.09
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4664,
+          "valorPremio": 523.97
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2194,
+      "dataProximoConcurso": "02/10/2019",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "LONDRINA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        }
+      ],
+      "valorArrecadado": 29670543.0,
+      "valorAcumuladoConcurso_0_5": 9224076.69,
+      "valorAcumuladoConcursoEspecial": 76648972.22,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 2194,
+    "draw_date": "2019-10-02",
+    "numbers": [
+      8,
+      16,
+      20,
+      21,
+      31,
+      34
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2194,
+      "data": "02/10/2019",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "16",
+        "08",
+        "20",
+        "21",
+        "34",
+        "31"
+      ],
+      "dezenas": [
+        "08",
+        "16",
+        "20",
+        "21",
+        "31",
+        "34"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 38,
+          "valorPremio": 42670.91
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2925,
+          "valorPremio": 791.93
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2195,
+      "dataProximoConcurso": "05/10/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 28123844.0,
+      "valorAcumuladoConcurso_0_5": 14088559.55,
+      "valorAcumuladoConcursoEspecial": 77075681.25,
+      "valorAcumuladoProximoConcurso": 14088559.55,
+      "valorEstimadoProximoConcurso": 18000000.0
+    }
+  },
+  {
+    "draw_id": 2195,
+    "draw_date": "2019-10-05",
+    "numbers": [
+      14,
+      24,
+      32,
+      38,
+      46,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2195,
+      "data": "05/10/2019",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "24",
+        "32",
+        "38",
+        "53",
+        "46",
+        "14"
+      ],
+      "dezenas": [
+        "14",
+        "24",
+        "32",
+        "38",
+        "46",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 107,
+          "valorPremio": 24440.78
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6144,
+          "valorPremio": 608.06
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2196,
+      "dataProximoConcurso": "09/10/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 45358446.0,
+      "valorAcumuladoConcurso_0_5": 3028084.5,
+      "valorAcumuladoConcursoEspecial": 77763882.29,
+      "valorAcumuladoProximoConcurso": 18905966.69,
+      "valorEstimadoProximoConcurso": 25000000.0
+    }
+  },
+  {
+    "draw_id": 2196,
+    "draw_date": "2019-10-09",
+    "numbers": [
+      1,
+      25,
+      27,
+      28,
+      41,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2196,
+      "data": "09/10/2019",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "56",
+        "28",
+        "27",
+        "01",
+        "41",
+        "25"
+      ],
+      "dezenas": [
+        "01",
+        "25",
+        "27",
+        "28",
+        "41",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 58,
+          "valorPremio": 47367.07
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4166,
+          "valorPremio": 942.07
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2197,
+      "dataProximoConcurso": "14/10/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 47650095.5,
+      "valorAcumuladoConcurso_0_5": 6209157.22,
+      "valorAcumuladoConcursoEspecial": 78486853.38,
+      "valorAcumuladoProximoConcurso": 23966764.2,
+      "valorEstimadoProximoConcurso": 30000000.0
+    }
+  },
+  {
+    "draw_id": 2197,
+    "draw_date": "2019-10-14",
+    "numbers": [
+      3,
+      11,
+      29,
+      35,
+      44,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2197,
+      "data": "14/10/2019",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "29",
+        "11",
+        "03",
+        "35",
+        "44",
+        "57"
+      ],
+      "dezenas": [
+        "03",
+        "11",
+        "29",
+        "35",
+        "44",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 150,
+          "valorPremio": 20886.96
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7727,
+          "valorPremio": 579.23
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2198,
+      "dataProximoConcurso": "16/10/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 54340769.0,
+      "valorAcumuladoConcurso_0_5": 9836892.61,
+      "valorAcumuladoConcursoEspecial": 79311338.72,
+      "valorAcumuladoProximoConcurso": 29738161.42,
+      "valorEstimadoProximoConcurso": 34000000.0
+    }
+  },
+  {
+    "draw_id": 2198,
+    "draw_date": "2019-10-16",
+    "numbers": [
+      1,
+      11,
+      34,
+      36,
+      44,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2198,
+      "data": "16/10/2019",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "56",
+        "11",
+        "34",
+        "44",
+        "36",
+        "01"
+      ],
+      "dezenas": [
+        "01",
+        "11",
+        "34",
+        "36",
+        "44",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 34615569.28
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 47,
+          "valorPremio": 56334.8
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4402,
+          "valorPremio": 859.26
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2199,
+      "dataProximoConcurso": "19/10/2019",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "FORTALEZA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "CE"
+        }
+      ],
+      "valorArrecadado": 45923384.5,
+      "valorAcumuladoConcurso_0_5": 12902691.83,
+      "valorAcumuladoConcursoEspecial": 80008111.29,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 2199,
+    "draw_date": "2019-10-19",
+    "numbers": [
+      15,
+      23,
+      30,
+      35,
+      38,
+      44
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2199,
+      "data": "19/10/2019",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "38",
+        "23",
+        "30",
+        "44",
+        "35",
+        "15"
+      ],
+      "dezenas": [
+        "15",
+        "23",
+        "30",
+        "35",
+        "38",
+        "44"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 29,
+          "valorPremio": 58063.07
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3056,
+          "valorPremio": 787.13
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2200,
+      "dataProximoConcurso": "22/10/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 29205001.0,
+      "valorAcumuladoConcurso_0_5": 17954178.62,
+      "valorAcumuladoConcursoEspecial": 80451224.18,
+      "valorAcumuladoProximoConcurso": 17954178.62,
+      "valorEstimadoProximoConcurso": 21500000.0
+    }
+  },
+  {
+    "draw_id": 2200,
+    "draw_date": "2019-10-22",
+    "numbers": [
+      11,
+      15,
+      28,
+      36,
+      43,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2200,
+      "data": "22/10/2019",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "28",
+        "55",
+        "36",
+        "43",
+        "11",
+        "15"
+      ],
+      "dezenas": [
+        "11",
+        "15",
+        "28",
+        "36",
+        "43",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 52,
+          "valorPremio": 31034.46
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3371,
+          "valorPremio": 683.89
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2201,
+      "dataProximoConcurso": "24/10/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 27990245.5,
+      "valorAcumuladoConcurso_0_5": 1868600.8,
+      "valorAcumuladoConcursoEspecial": 80875906.2,
+      "valorAcumuladoProximoConcurso": 20926952.62,
+      "valorEstimadoProximoConcurso": 24000000.0
+    }
+  },
+  {
+    "draw_id": 2201,
+    "draw_date": "2019-10-24",
+    "numbers": [
+      3,
+      13,
+      23,
+      41,
+      49,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2201,
+      "data": "24/10/2019",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "13",
+        "49",
+        "03",
+        "41",
+        "53",
+        "23"
+      ],
+      "dezenas": [
+        "03",
+        "13",
+        "23",
+        "41",
+        "49",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 60,
+          "valorPremio": 34586.33
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5425,
+          "valorPremio": 546.45
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2202,
+      "dataProximoConcurso": "26/10/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 35992747.0,
+      "valorAcumuladoConcurso_0_5": 4271440.6,
+      "valorAcumuladoConcursoEspecial": 81422006.17,
+      "valorAcumuladoProximoConcurso": 24749652.29,
+      "valorEstimadoProximoConcurso": 30000000.0
+    }
+  },
+  {
+    "draw_id": 2202,
+    "draw_date": "2019-10-26",
+    "numbers": [
+      11,
+      29,
+      37,
+      38,
+      43,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2202,
+      "data": "26/10/2019",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "43",
+        "60",
+        "37",
+        "38",
+        "29",
+        "11"
+      ],
+      "dezenas": [
+        "11",
+        "29",
+        "37",
+        "38",
+        "43",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 48,
+          "valorPremio": 51806.91
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3717,
+          "valorPremio": 955.73
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2203,
+      "dataProximoConcurso": "30/10/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 43130867.5,
+      "valorAcumuladoConcurso_0_5": 7150814.18,
+      "valorAcumuladoConcursoEspecial": 82076409.26,
+      "valorAcumuladoProximoConcurso": 29330473.9,
+      "valorEstimadoProximoConcurso": 35000000.0
+    }
+  },
+  {
+    "draw_id": 2203,
+    "draw_date": "2019-10-30",
+    "numbers": [
+      17,
+      34,
+      46,
+      49,
+      50,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2203,
+      "data": "30/10/2019",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "34",
+        "46",
+        "57",
+        "50",
+        "17",
+        "49"
+      ],
+      "dezenas": [
+        "17",
+        "34",
+        "46",
+        "49",
+        "50",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 57,
+          "valorPremio": 49414.01
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4811,
+          "valorPremio": 836.35
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2204,
+      "dataProximoConcurso": "04/11/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 48852209.0,
+      "valorAcumuladoConcurso_0_5": 10412138.8,
+      "valorAcumuladoConcursoEspecial": 82817619.41,
+      "valorAcumuladoProximoConcurso": 34518944.88,
+      "valorEstimadoProximoConcurso": 40000000.0
+    }
+  },
+  {
+    "draw_id": 2204,
+    "draw_date": "2019-11-04",
+    "numbers": [
+      1,
+      28,
+      29,
+      32,
+      35,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2204,
+      "data": "04/11/2019",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "32",
+        "56",
+        "29",
+        "28",
+        "01",
+        "35"
+      ],
+      "dezenas": [
+        "01",
+        "28",
+        "29",
+        "32",
+        "35",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 76,
+          "valorPremio": 45148.15
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5847,
+          "valorPremio": 838.34
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2205,
+      "dataProximoConcurso": "06/11/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 59513128.5,
+      "valorAcumuladoConcurso_0_5": 55224861.21,
+      "valorAcumuladoConcursoEspecial": 83720582.36,
+      "valorAcumuladoProximoConcurso": 55224861.21,
+      "valorEstimadoProximoConcurso": 60000000.0
+    }
+  },
+  {
+    "draw_id": 2205,
+    "draw_date": "2019-11-06",
+    "numbers": [
+      12,
+      21,
+      28,
+      37,
+      42,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2205,
+      "data": "06/11/2019",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "21",
+        "42",
+        "12",
+        "57",
+        "37",
+        "28"
+      ],
+      "dezenas": [
+        "12",
+        "21",
+        "28",
+        "37",
+        "42",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 61429947.73
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 112,
+          "valorPremio": 30075.67
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6318,
+          "valorPremio": 761.65
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2206,
+      "dataProximoConcurso": "09/11/2019",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "SAO PAULO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 58424184.0,
+      "valorAcumuladoConcurso_0_5": 3900340.1,
+      "valorAcumuladoConcursoEspecial": 84607023.31,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 2206,
+    "draw_date": "2019-11-09",
+    "numbers": [
+      6,
+      27,
+      38,
+      42,
+      45,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2206,
+      "data": "09/11/2019",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "42",
+        "38",
+        "45",
+        "06",
+        "27",
+        "57"
+      ],
+      "dezenas": [
+        "06",
+        "27",
+        "38",
+        "42",
+        "45",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 51,
+          "valorPremio": 31401.56
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3495,
+          "valorPremio": 654.6
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2207,
+      "dataProximoConcurso": "13/11/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 27776703.5,
+      "valorAcumuladoConcurso_0_5": 5754685.05,
+      "valorAcumuladoConcursoEspecial": 85028465.35,
+      "valorAcumuladoProximoConcurso": 2950094.24,
+      "valorEstimadoProximoConcurso": 6500000.0
+    }
+  },
+  {
+    "draw_id": 2207,
+    "draw_date": "2019-11-13",
+    "numbers": [
+      6,
+      10,
+      11,
+      43,
+      53,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2207,
+      "data": "13/11/2019",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "43",
+        "11",
+        "06",
+        "55",
+        "53",
+        "10"
+      ],
+      "dezenas": [
+        "06",
+        "10",
+        "11",
+        "43",
+        "53",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 39,
+          "valorPremio": 49905.76
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2736,
+          "valorPremio": 1016.25
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2208,
+      "dataProximoConcurso": "16/11/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 33757825.5,
+      "valorAcumuladoConcurso_0_5": 8008323.71,
+      "valorAcumuladoConcursoEspecial": 85540655.97,
+      "valorAcumuladoProximoConcurso": 6535428.48,
+      "valorEstimadoProximoConcurso": 10500000.0
+    }
+  },
+  {
+    "draw_id": 2208,
+    "draw_date": "2019-11-16",
+    "numbers": [
+      16,
+      25,
+      30,
+      40,
+      45,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2208,
+      "data": "16/11/2019",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "30",
+        "45",
+        "16",
+        "49",
+        "25",
+        "40"
+      ],
+      "dezenas": [
+        "16",
+        "25",
+        "30",
+        "40",
+        "45",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 17,
+          "valorPremio": 113415.57
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1708,
+          "valorPremio": 1612.63
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2209,
+      "dataProximoConcurso": "20/11/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 33441124.5,
+      "valorAcumuladoConcurso_0_5": 10240819.74,
+      "valorAcumuladoConcursoEspecial": 86048041.45,
+      "valorAcumuladoProximoConcurso": 10087126.71,
+      "valorEstimadoProximoConcurso": 14200000.0
+    }
+  },
+  {
+    "draw_id": 2209,
+    "draw_date": "2019-11-20",
+    "numbers": [
+      22,
+      25,
+      28,
+      32,
+      33,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2209,
+      "data": "20/11/2019",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "32",
+        "22",
+        "47",
+        "28",
+        "33",
+        "25"
+      ],
+      "dezenas": [
+        "22",
+        "25",
+        "28",
+        "32",
+        "33",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 49,
+          "valorPremio": 42445.66
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3746,
+          "valorPremio": 793.16
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2210,
+      "dataProximoConcurso": "23/11/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 36073530.0,
+      "valorAcumuladoConcurso_0_5": 26567458.66,
+      "valorAcumuladoConcursoEspecial": 86595367.11,
+      "valorAcumuladoProximoConcurso": 26567458.66,
+      "valorEstimadoProximoConcurso": 31000000.0
+    }
+  },
+  {
+    "draw_id": 2210,
+    "draw_date": "2019-11-23",
+    "numbers": [
+      11,
+      17,
+      24,
+      25,
+      33,
+      34
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2210,
+      "data": "23/11/2019",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "11",
+        "33",
+        "34",
+        "25",
+        "24",
+        "17"
+      ],
+      "dezenas": [
+        "11",
+        "17",
+        "24",
+        "25",
+        "33",
+        "34"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 81,
+          "valorPremio": 36572.74
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5910,
+          "valorPremio": 716.07
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2211,
+      "dataProximoConcurso": "27/11/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 51380914.5,
+      "valorAcumuladoConcurso_0_5": 3430138.47,
+      "valorAcumuladoConcursoEspecial": 87374944.04,
+      "valorAcumuladoProximoConcurso": 32024497.14,
+      "valorEstimadoProximoConcurso": 38000000.0
+    }
+  },
+  {
+    "draw_id": 2211,
+    "draw_date": "2019-11-27",
+    "numbers": [
+      27,
+      36,
+      40,
+      41,
+      44,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2211,
+      "data": "27/11/2019",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "27",
+        "44",
+        "36",
+        "54",
+        "41",
+        "40"
+      ],
+      "dezenas": [
+        "27",
+        "36",
+        "40",
+        "41",
+        "44",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 52,
+          "valorPremio": 59225.53
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3681,
+          "valorPremio": 1195.22
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2212,
+      "dataProximoConcurso": "30/11/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 53416021.5,
+      "valorAcumuladoConcurso_0_5": 6996138.65,
+      "valorAcumuladoConcursoEspecial": 88185398.63,
+      "valorAcumuladoProximoConcurso": 37697679.24,
+      "valorEstimadoProximoConcurso": 44000000.0
+    }
+  },
+  {
+    "draw_id": 2212,
+    "draw_date": "2019-11-30",
+    "numbers": [
+      23,
+      26,
+      51,
+      52,
+      53,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2212,
+      "data": "30/11/2019",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "51",
+        "58",
+        "53",
+        "52",
+        "26",
+        "23"
+      ],
+      "dezenas": [
+        "23",
+        "26",
+        "51",
+        "52",
+        "53",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 61,
+          "valorPremio": 56566.09
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5215,
+          "valorPremio": 945.22
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2213,
+      "dataProximoConcurso": "04/12/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 59847390.0,
+      "valorAcumuladoConcurso_0_5": 10991490.56,
+      "valorAcumuladoConcursoEspecial": 89093433.17,
+      "valorAcumuladoProximoConcurso": 44053920.91,
+      "valorEstimadoProximoConcurso": 50000000.0
+    }
+  },
+  {
+    "draw_id": 2213,
+    "draw_date": "2019-12-04",
+    "numbers": [
+      5,
+      7,
+      10,
+      32,
+      46,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2213,
+      "data": "04/12/2019",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "07",
+        "05",
+        "10",
+        "60",
+        "32",
+        "46"
+      ],
+      "dezenas": [
+        "05",
+        "07",
+        "10",
+        "32",
+        "46",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 51119263.33
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 96,
+          "valorPremio": 39952.83
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7360,
+          "valorPremio": 744.46
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2214,
+      "dataProximoConcurso": "07/12/2019",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "SAO GONCALO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        }
+      ],
+      "valorArrecadado": 66523950.0,
+      "valorAcumuladoConcurso_0_5": 15432562.93,
+      "valorAcumuladoConcursoEspecial": 90102767.8,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 2214,
+    "draw_date": "2019-12-07",
+    "numbers": [
+      4,
+      10,
+      18,
+      30,
+      34,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2214,
+      "data": "07/12/2019",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "18",
+        "30",
+        "04",
+        "10",
+        "34",
+        "47"
+      ],
+      "dezenas": [
+        "04",
+        "10",
+        "18",
+        "30",
+        "34",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 44,
+          "valorPremio": 41300.51
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3223,
+          "valorPremio": 805.47
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2215,
+      "dataProximoConcurso": "11/12/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 31518630.0,
+      "valorAcumuladoConcurso_0_5": 20884230.04,
+      "valorAcumuladoConcursoEspecial": 90580984.23,
+      "valorAcumuladoProximoConcurso": 20884230.04,
+      "valorEstimadoProximoConcurso": 25000000.0
+    }
+  },
+  {
+    "draw_id": 2215,
+    "draw_date": "2019-12-11",
+    "numbers": [
+      1,
+      19,
+      21,
+      23,
+      33,
+      43
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2215,
+      "data": "11/12/2019",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "21",
+        "23",
+        "43",
+        "01",
+        "19",
+        "33"
+      ],
+      "dezenas": [
+        "01",
+        "19",
+        "21",
+        "23",
+        "33",
+        "43"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 48,
+          "valorPremio": 53207.2
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4092,
+          "valorPremio": 891.61
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2216,
+      "dataProximoConcurso": "14/12/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 44296650.0,
+      "valorAcumuladoConcurso_0_5": 2957200.05,
+      "valorAcumuladoConcursoEspecial": 91253075.18,
+      "valorAcumuladoProximoConcurso": 25588866.49,
+      "valorEstimadoProximoConcurso": 31000000.0
+    }
+  },
+  {
+    "draw_id": 2216,
+    "draw_date": "2019-12-14",
+    "numbers": [
+      10,
+      24,
+      42,
+      43,
+      48,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2216,
+      "data": "14/12/2019",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "24",
+        "42",
+        "48",
+        "10",
+        "43",
+        "49"
+      ],
+      "dezenas": [
+        "10",
+        "24",
+        "42",
+        "43",
+        "48",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 49,
+          "valorPremio": 62000.46
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4361,
+          "valorPremio": 995.19
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2217,
+      "dataProximoConcurso": "17/12/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 52692673.5,
+      "valorAcumuladoConcurso_0_5": 6474910.24,
+      "valorAcumuladoConcursoEspecial": 92052554.77,
+      "valorAcumuladoProximoConcurso": 31185223.61,
+      "valorEstimadoProximoConcurso": 36000000.0
+    }
+  },
+  {
+    "draw_id": 2217,
+    "draw_date": "2019-12-17",
+    "numbers": [
+      10,
+      14,
+      16,
+      30,
+      32,
+      36
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2217,
+      "data": "17/12/2019",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "16",
+        "32",
+        "36",
+        "30",
+        "14",
+        "10"
+      ],
+      "dezenas": [
+        "10",
+        "14",
+        "16",
+        "30",
+        "32",
+        "36"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 51,
+          "valorPremio": 41197.38
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3258,
+          "valorPremio": 921.27
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2218,
+      "dataProximoConcurso": "19/12/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 36441738.0,
+      "valorAcumuladoConcurso_0_5": 8907724.23,
+      "valorAcumuladoConcursoEspecial": 92605467.06,
+      "valorAcumuladoProximoConcurso": 35055609.49,
+      "valorEstimadoProximoConcurso": 39000000.0
+    }
+  },
+  {
+    "draw_id": 2218,
+    "draw_date": "2019-12-19",
+    "numbers": [
+      6,
+      16,
+      22,
+      38,
+      48,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2218,
+      "data": "19/12/2019",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "16",
+        "06",
+        "38",
+        "22",
+        "52",
+        "48"
+      ],
+      "dezenas": [
+        "06",
+        "16",
+        "22",
+        "38",
+        "48",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 40059665.22
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 42,
+          "valorPremio": 64678.28
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3345,
+          "valorPremio": 1160.14
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2219,
+      "dataProximoConcurso": "21/12/2019",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "FRANCA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 47115841.5,
+      "valorAcumuladoConcurso_0_5": 12053130.69,
+      "valorAcumuladoConcursoEspecial": 93320332.18,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 2219,
+    "draw_date": "2019-12-21",
+    "numbers": [
+      8,
+      28,
+      36,
+      45,
+      57,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2219,
+      "data": "21/12/2019",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "57",
+        "59",
+        "45",
+        "08",
+        "28",
+        "36"
+      ],
+      "dezenas": [
+        "08",
+        "28",
+        "36",
+        "45",
+        "57",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 26,
+          "valorPremio": 62086.22
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2235,
+          "valorPremio": 1031.79
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2220,
+      "dataProximoConcurso": "31/12/2019",
+      "localGanhadores": [],
+      "valorArrecadado": 27998055.0,
+      "valorAcumuladoConcurso_0_5": 110640988.95,
+      "valorAcumuladoConcursoEspecial": 93745132.69,
+      "valorAcumuladoProximoConcurso": 110640988.95,
+      "valorEstimadoProximoConcurso": 300000000.0
+    }
+  },
+  {
+    "draw_id": 2220,
+    "draw_date": "2019-12-31",
+    "numbers": [
+      3,
+      35,
+      38,
+      40,
+      57,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2220,
+      "data": "31/12/2019",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": true,
+      "dezenasOrdemSorteio": [
+        "38",
+        "58",
+        "35",
+        "03",
+        "40",
+        "57"
+      ],
+      "dezenas": [
+        "03",
+        "35",
+        "38",
+        "40",
+        "57",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 4,
+          "valorPremio": 76053459.66
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 1031,
+          "valorPremio": 57537.06
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 77055,
+          "valorPremio": 1099.78
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2221,
+      "dataProximoConcurso": "04/01/2020",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "JUSCIMEIRA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MT"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "CRICIUMA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SC"
+        },
+        {
+          "ganhadores": 2,
+          "municipio": "SAO PAULO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 1028882101.5,
+      "valorAcumuladoConcurso_0_5": 0.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  }
+]
