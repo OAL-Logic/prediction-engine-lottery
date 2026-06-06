@@ -1,0 +1,7738 @@
+[
+  {
+    "draw_id": 1036,
+    "draw_date": "2009-01-03",
+    "numbers": [
+      10,
+      27,
+      36,
+      39,
+      41,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1036,
+      "data": "03/01/2009",
+      "local": "Caminh\u00e3o da Sorte em NOVA ANDRADINA, MS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "27",
+        "39",
+        "36",
+        "10",
+        "41",
+        "52"
+      ],
+      "dezenas": [
+        "10",
+        "27",
+        "36",
+        "39",
+        "41",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 44550370.27
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 177,
+          "valorPremio": 23079.89
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11703,
+          "valorPremio": 349.07
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "GANHADOR DE 6 ACERTOS: S\u00c3O JO\u00c3O DEL REI/MG.",
+      "acumulou": false,
+      "proximoConcurso": 1037,
+      "dataProximoConcurso": "07/01/2009",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 9424387.17,
+      "valorAcumuladoConcursoEspecial": 2141906.21,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1037,
+    "draw_date": "2009-01-07",
+    "numbers": [
+      4,
+      36,
+      44,
+      46,
+      53,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1037,
+      "data": "07/01/2009",
+      "local": "Audit\u00f3rio em BRAS\u00cdLIA, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "56",
+        "36",
+        "04",
+        "44",
+        "46",
+        "53"
+      ],
+      "dezenas": [
+        "04",
+        "36",
+        "44",
+        "46",
+        "53",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 27,
+          "valorPremio": 41327.23
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3108,
+          "valorPremio": 359.02
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1038,
+      "dataProximoConcurso": "10/01/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 19059299.0,
+      "valorAcumuladoConcurso_0_5": 10716407.0,
+      "valorAcumuladoConcursoEspecial": 2435547.1,
+      "valorAcumuladoProximoConcurso": 2055486.11,
+      "valorEstimadoProximoConcurso": 4300000.0
+    }
+  },
+  {
+    "draw_id": 1038,
+    "draw_date": "2009-01-10",
+    "numbers": [
+      6,
+      7,
+      28,
+      35,
+      43,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1038,
+      "data": "10/01/2009",
+      "local": "Audit\u00f3rio em BRAS\u00cdLIA, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "51",
+        "07",
+        "06",
+        "28",
+        "35",
+        "43"
+      ],
+      "dezenas": [
+        "06",
+        "07",
+        "28",
+        "35",
+        "43",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 80,
+          "valorPremio": 16894.25
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5438,
+          "valorPremio": 248.54
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1039,
+      "dataProximoConcurso": "14/01/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 12281348.39,
+      "valorAcumuladoConcursoEspecial": 2791215.61,
+      "valorAcumuladoProximoConcurso": 4545165.59,
+      "valorEstimadoProximoConcurso": 7500000.0
+    }
+  },
+  {
+    "draw_id": 1039,
+    "draw_date": "2009-01-14",
+    "numbers": [
+      2,
+      20,
+      24,
+      27,
+      36,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1039,
+      "data": "14/01/2009",
+      "local": "Caminh\u00e3o da Sorte em PO\u00c7O VERDE, SE",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "52",
+        "02",
+        "20",
+        "27",
+        "36",
+        "24"
+      ],
+      "dezenas": [
+        "02",
+        "20",
+        "24",
+        "27",
+        "36",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 96,
+          "valorPremio": 15555.92
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6631,
+          "valorPremio": 225.21
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1040,
+      "dataProximoConcurso": "17/01/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 21306617.42,
+      "valorAcumuladoConcursoEspecial": 3184207.15,
+      "valorAcumuladoProximoConcurso": 21306617.42,
+      "valorEstimadoProximoConcurso": 25000000.0
+    }
+  },
+  {
+    "draw_id": 1040,
+    "draw_date": "2009-01-17",
+    "numbers": [
+      1,
+      6,
+      28,
+      39,
+      44,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1040,
+      "data": "17/01/2009",
+      "local": "Caminh\u00e3o da Sorte em PO\u00c7O VERDE, SE",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "44",
+        "01",
+        "28",
+        "55",
+        "06",
+        "39"
+      ],
+      "dezenas": [
+        "01",
+        "06",
+        "28",
+        "39",
+        "44",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 66,
+          "valorPremio": 31738.53
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6431,
+          "valorPremio": 325.73
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1041,
+      "dataProximoConcurso": "21/01/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2425491.91,
+      "valorAcumuladoConcursoEspecial": 3735455.32,
+      "valorAcumuladoProximoConcurso": 25165354.54,
+      "valorEstimadoProximoConcurso": 30000000.0
+    }
+  },
+  {
+    "draw_id": 1041,
+    "draw_date": "2009-01-21",
+    "numbers": [
+      10,
+      12,
+      36,
+      44,
+      54,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1041,
+      "data": "21/01/2009",
+      "local": "Caminh\u00e3o da Sorte em MACEI\u00d3, AL",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "12",
+        "10",
+        "36",
+        "54",
+        "44",
+        "57"
+      ],
+      "dezenas": [
+        "10",
+        "12",
+        "36",
+        "44",
+        "54",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 29372147.91
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 82,
+          "valorPremio": 27849.85
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8071,
+          "valorPremio": 282.95
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "GANHADOR DE 6 ACERTOS: TERES\u00d3POLIS/RJ.",
+      "acumulou": false,
+      "proximoConcurso": 1042,
+      "dataProximoConcurso": "24/01/2009",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5069762.02,
+      "valorAcumuladoConcursoEspecial": 4336425.82,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1500000.0
+    }
+  },
+  {
+    "draw_id": 1042,
+    "draw_date": "2009-01-24",
+    "numbers": [
+      13,
+      18,
+      25,
+      30,
+      46,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1042,
+      "data": "24/01/2009",
+      "local": "Caminh\u00e3o da Sorte em MACEI\u00d3, AL",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "25",
+        "46",
+        "51",
+        "18",
+        "13",
+        "30"
+      ],
+      "dezenas": [
+        "13",
+        "18",
+        "25",
+        "30",
+        "46",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 79,
+          "valorPremio": 13627.16
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4761,
+          "valorPremio": 226.12
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1043,
+      "dataProximoConcurso": "28/01/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6316288.54,
+      "valorAcumuladoConcursoEspecial": 4619727.32,
+      "valorAcumuladoProximoConcurso": 1983110.38,
+      "valorEstimadoProximoConcurso": 4500000.0
+    }
+  },
+  {
+    "draw_id": 1043,
+    "draw_date": "2009-01-28",
+    "numbers": [
+      14,
+      21,
+      25,
+      48,
+      51,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1043,
+      "data": "28/01/2009",
+      "local": "Caminh\u00e3o da Sorte em ARAPIRACA, AL",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "25",
+        "14",
+        "51",
+        "48",
+        "60",
+        "21"
+      ],
+      "dezenas": [
+        "14",
+        "21",
+        "25",
+        "48",
+        "51",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 35,
+          "valorPremio": 33115.91
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3197,
+          "valorPremio": 362.55
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1044,
+      "dataProximoConcurso": "31/01/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7658354.06,
+      "valorAcumuladoConcursoEspecial": 4924742.23,
+      "valorAcumuladoProximoConcurso": 4118214.61,
+      "valorEstimadoProximoConcurso": 7000000.0
+    }
+  },
+  {
+    "draw_id": 1044,
+    "draw_date": "2009-01-31",
+    "numbers": [
+      10,
+      11,
+      13,
+      35,
+      39,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1044,
+      "data": "31/01/2009",
+      "local": "Caminh\u00e3o da Sorte em ARAPIRACA, AL",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "58",
+        "10",
+        "39",
+        "11",
+        "13",
+        "35"
+      ],
+      "dezenas": [
+        "10",
+        "11",
+        "13",
+        "35",
+        "39",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 79,
+          "valorPremio": 17589.08
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6346,
+          "valorPremio": 218.96
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1045,
+      "dataProximoConcurso": "04/02/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 15945179.95,
+      "valorAcumuladoConcursoEspecial": 5290409.89,
+      "valorAcumuladoProximoConcurso": 15945179.95,
+      "valorEstimadoProximoConcurso": 20000000.0
+    }
+  },
+  {
+    "draw_id": 1045,
+    "draw_date": "2009-02-04",
+    "numbers": [
+      1,
+      5,
+      6,
+      17,
+      31,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1045,
+      "data": "04/02/2009",
+      "local": "Caminh\u00e3o da Sorte em ITABUNA, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "31",
+        "06",
+        "05",
+        "17",
+        "50",
+        "01"
+      ],
+      "dezenas": [
+        "01",
+        "05",
+        "06",
+        "17",
+        "31",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 102,
+          "valorPremio": 17541.75
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8623,
+          "valorPremio": 207.5
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1046,
+      "dataProximoConcurso": "07/02/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2071772.99,
+      "valorAcumuladoConcursoEspecial": 5761267.4,
+      "valorAcumuladoProximoConcurso": 19241182.43,
+      "valorEstimadoProximoConcurso": 23000000.0
+    }
+  },
+  {
+    "draw_id": 1046,
+    "draw_date": "2009-02-07",
+    "numbers": [
+      28,
+      40,
+      42,
+      54,
+      55,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1046,
+      "data": "07/02/2009",
+      "local": "Caminh\u00e3o da Sorte em ITABUNA, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "57",
+        "40",
+        "28",
+        "42",
+        "54",
+        "55"
+      ],
+      "dezenas": [
+        "28",
+        "40",
+        "42",
+        "54",
+        "55",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 23031543.81
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 49,
+          "valorPremio": 41992.34
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4875,
+          "valorPremio": 422.08
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "GANHADOR DE 6 ACERTOS: ITAPO\u00c1/SC.",
+      "acumulou": false,
+      "proximoConcurso": 1047,
+      "dataProximoConcurso": "11/02/2009",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SC"
+        }
+      ],
+      "valorArrecadado": 35145764.5,
+      "valorAcumuladoConcurso_0_5": 4454285.85,
+      "valorAcumuladoConcursoEspecial": 6302747.62,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1500000.0
+    }
+  },
+  {
+    "draw_id": 1047,
+    "draw_date": "2009-02-11",
+    "numbers": [
+      1,
+      2,
+      8,
+      10,
+      14,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1047,
+      "data": "11/02/2009",
+      "local": "Caminh\u00e3o da Sorte em ILH\u00c9US, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "01",
+        "02",
+        "10",
+        "48",
+        "14",
+        "08"
+      ],
+      "dezenas": [
+        "01",
+        "02",
+        "08",
+        "10",
+        "14",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 148,
+          "valorPremio": 6309.4
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8110,
+          "valorPremio": 115.14
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1048,
+      "dataProximoConcurso": "14/02/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5535517.43,
+      "valorAcumuladoConcursoEspecial": 6548482.08,
+      "valorAcumuladoProximoConcurso": 1720141.14,
+      "valorEstimadoProximoConcurso": 3500000.0
+    }
+  },
+  {
+    "draw_id": 1048,
+    "draw_date": "2009-02-14",
+    "numbers": [
+      3,
+      16,
+      21,
+      28,
+      38,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1048,
+      "data": "14/02/2009",
+      "local": "Caminh\u00e3o da Sorte em ILH\u00c9US, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "57",
+        "03",
+        "38",
+        "21",
+        "28",
+        "16"
+      ],
+      "dezenas": [
+        "03",
+        "16",
+        "21",
+        "28",
+        "38",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 3901088.76
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 70,
+          "valorPremio": 16913.47
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4990,
+          "valorPremio": 237.26
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "GANHADOR DE 6 ACERTOS: GUARULHOS/SP.",
+      "acumulou": false,
+      "proximoConcurso": 1049,
+      "dataProximoConcurso": "18/02/2009",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6906398.79,
+      "valorAcumuladoConcursoEspecial": 6860046.04,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1700000.0
+    }
+  },
+  {
+    "draw_id": 1049,
+    "draw_date": "2009-02-18",
+    "numbers": [
+      2,
+      5,
+      17,
+      29,
+      34,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1049,
+      "data": "18/02/2009",
+      "local": "Caminh\u00e3o da Sorte em ARACATI, CE",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "34",
+        "17",
+        "52",
+        "05",
+        "02",
+        "29"
+      ],
+      "dezenas": [
+        "02",
+        "05",
+        "17",
+        "29",
+        "34",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 1636050.81
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 143,
+          "valorPremio": 6210.78
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6295,
+          "valorPremio": 141.09
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Ganhador de 6 acertos: S\u00e3o Paulo/SP.",
+      "acumulou": false,
+      "proximoConcurso": 1050,
+      "dataProximoConcurso": "21/02/2009",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7934773.59,
+      "valorAcumuladoConcursoEspecial": 7093767.61,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 10000000.0
+    }
+  },
+  {
+    "draw_id": 1050,
+    "draw_date": "2009-02-21",
+    "numbers": [
+      14,
+      24,
+      26,
+      33,
+      45,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1050,
+      "data": "21/02/2009",
+      "local": "Caminh\u00e3o da Sorte em ARACATI, CE",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "60",
+        "14",
+        "45",
+        "24",
+        "33",
+        "26"
+      ],
+      "dezenas": [
+        "14",
+        "24",
+        "26",
+        "33",
+        "45",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 66,
+          "valorPremio": 18549.47
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4590,
+          "valorPremio": 266.73
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1051,
+      "dataProximoConcurso": "25/02/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1417570.25,
+      "valorAcumuladoConcursoEspecial": 7415942.68,
+      "valorAcumuladoProximoConcurso": 10189998.98,
+      "valorEstimadoProximoConcurso": 12000000.0
+    }
+  },
+  {
+    "draw_id": 1051,
+    "draw_date": "2009-02-25",
+    "numbers": [
+      7,
+      10,
+      11,
+      13,
+      43,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1051,
+      "data": "25/02/2009",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O JO\u00c3O DA BARRA, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "57",
+        "11",
+        "07",
+        "43",
+        "10",
+        "13"
+      ],
+      "dezenas": [
+        "07",
+        "10",
+        "11",
+        "13",
+        "43",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 66,
+          "valorPremio": 11893.94
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5281,
+          "valorPremio": 148.65
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1052,
+      "dataProximoConcurso": "28/02/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2326517.33,
+      "valorAcumuladoConcursoEspecial": 7622521.57,
+      "valorAcumuladoProximoConcurso": 11636051.15,
+      "valorEstimadoProximoConcurso": 14000000.0
+    }
+  },
+  {
+    "draw_id": 1052,
+    "draw_date": "2009-02-28",
+    "numbers": [
+      8,
+      11,
+      15,
+      16,
+      52,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1052,
+      "data": "28/02/2009",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O JO\u00c3O DA BARRA, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "08",
+        "11",
+        "16",
+        "15",
+        "57",
+        "52"
+      ],
+      "dezenas": [
+        "08",
+        "11",
+        "15",
+        "16",
+        "52",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 14557865.34
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 77,
+          "valorPremio": 20599.07
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5743,
+          "valorPremio": 276.18
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "GANHADOR DE 6 ACERTOS: RIO DE JANEIRO/RJ.",
+      "acumulou": false,
+      "proximoConcurso": 1053,
+      "dataProximoConcurso": "04/03/2009",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        }
+      ],
+      "valorArrecadado": 27092243.5,
+      "valorAcumuladoConcurso_0_5": 4163086.25,
+      "valorAcumuladoConcursoEspecial": 8039923.61,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1500000.0
+    }
+  },
+  {
+    "draw_id": 1053,
+    "draw_date": "2009-03-04",
+    "numbers": [
+      15,
+      27,
+      34,
+      42,
+      49,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1053,
+      "data": "04/03/2009",
+      "local": "Caminh\u00e3o da Sorte em PETR\u00d3POLIS, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "15",
+        "42",
+        "27",
+        "53",
+        "34",
+        "49"
+      ],
+      "dezenas": [
+        "15",
+        "27",
+        "34",
+        "42",
+        "49",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 1629650.34
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 112,
+          "valorPremio": 7898.82
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4385,
+          "valorPremio": 201.75
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "GANHADOR DE 6 ACERTOS: CANOAS/RS.",
+      "acumulou": false,
+      "proximoConcurso": 1054,
+      "dataProximoConcurso": "07/03/2009",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RS"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5187437.88,
+      "valorAcumuladoConcursoEspecial": 8272730.82,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1500000.0
+    }
+  },
+  {
+    "draw_id": 1054,
+    "draw_date": "2009-03-07",
+    "numbers": [
+      13,
+      14,
+      18,
+      27,
+      41,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1054,
+      "data": "07/03/2009",
+      "local": "Caminh\u00e3o da Sorte em PETR\u00d3POLIS, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "41",
+        "27",
+        "13",
+        "60",
+        "14",
+        "18"
+      ],
+      "dezenas": [
+        "13",
+        "14",
+        "18",
+        "27",
+        "41",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 37,
+          "valorPremio": 26092.87
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3567,
+          "valorPremio": 270.66
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1055,
+      "dataProximoConcurso": "11/03/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 8083746.3,
+      "valorAcumuladoConcursoEspecial": 8526792.98,
+      "valorAcumuladoProximoConcurso": 8083746.3,
+      "valorEstimadoProximoConcurso": 10000000.0
+    }
+  },
+  {
+    "draw_id": 1055,
+    "draw_date": "2009-03-11",
+    "numbers": [
+      12,
+      15,
+      16,
+      20,
+      27,
+      32
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1055,
+      "data": "11/03/2009",
+      "local": "Caminh\u00e3o da Sorte em PARANAVA\u00cd, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "27",
+        "32",
+        "15",
+        "12",
+        "20",
+        "16"
+      ],
+      "dezenas": [
+        "12",
+        "15",
+        "16",
+        "20",
+        "27",
+        "32"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 5273833.35
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 86,
+          "valorPremio": 15552.99
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6311,
+          "valorPremio": 211.94
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "GANHADORES DE 6 ACERTOS: TAUBAT\u00c9/SP E CAPIVARI/SP.",
+      "acumulou": false,
+      "proximoConcurso": 1056,
+      "dataProximoConcurso": "14/03/2009",
+      "localGanhadores": [
+        {
+          "ganhadores": 2,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1548749.96,
+      "valorAcumuladoConcursoEspecial": 8878781.62,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1500000.0
+    }
+  },
+  {
+    "draw_id": 1056,
+    "draw_date": "2009-03-14",
+    "numbers": [
+      6,
+      8,
+      38,
+      50,
+      53,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1056,
+      "data": "14/03/2009",
+      "local": "Caminh\u00e3o da Sorte em PARANAVA\u00cd, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "38",
+        "08",
+        "50",
+        "53",
+        "59",
+        "06"
+      ],
+      "dezenas": [
+        "06",
+        "08",
+        "38",
+        "50",
+        "53",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 1872397.32
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 23,
+          "valorPremio": 44193.23
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2350,
+          "valorPremio": 432.53
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "GANHADOR DE 6 ACERTOS: BRAS\u00cdLIA/DF.",
+      "acumulou": false,
+      "proximoConcurso": 1057,
+      "dataProximoConcurso": "18/03/2009",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "DF"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2725685.42,
+      "valorAcumuladoConcursoEspecial": 9146266.97,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1600000.0
+    }
+  },
+  {
+    "draw_id": 1057,
+    "draw_date": "2009-03-18",
+    "numbers": [
+      2,
+      3,
+      4,
+      15,
+      49,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1057,
+      "data": "18/03/2009",
+      "local": "Caminh\u00e3o da Sorte em UMUARAMA, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "15",
+        "49",
+        "59",
+        "04",
+        "03",
+        "02"
+      ],
+      "dezenas": [
+        "02",
+        "03",
+        "04",
+        "15",
+        "49",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 46,
+          "valorPremio": 18772.07
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3923,
+          "valorPremio": 220.12
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1058,
+      "dataProximoConcurso": "21/03/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3725544.74,
+      "valorAcumuladoConcursoEspecial": 9373507.73,
+      "valorAcumuladoProximoConcurso": 1590685.29,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 1058,
+    "draw_date": "2009-03-21",
+    "numbers": [
+      18,
+      20,
+      24,
+      45,
+      51,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1058,
+      "data": "21/03/2009",
+      "local": "Caminh\u00e3o da Sorte em UMUARAMA, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "20",
+        "51",
+        "57",
+        "45",
+        "24",
+        "18"
+      ],
+      "dezenas": [
+        "18",
+        "20",
+        "24",
+        "45",
+        "51",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 3671709.67
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 50,
+          "valorPremio": 22593.98
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3853,
+          "valorPremio": 293.2
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "GANHADOR DE 6 ACERTOS: SALVADOR/BA.",
+      "acumulou": false,
+      "proximoConcurso": 1059,
+      "dataProximoConcurso": "25/03/2009",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "BA"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5033617.21,
+      "valorAcumuladoConcursoEspecial": 9670796.94,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1800000.0
+    }
+  },
+  {
+    "draw_id": 1059,
+    "draw_date": "2009-03-25",
+    "numbers": [
+      1,
+      12,
+      14,
+      16,
+      37,
+      45
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1059,
+      "data": "25/03/2009",
+      "local": "Caminh\u00e3o da Sorte em CAMPOS DOS GOYTACAZES, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "37",
+        "01",
+        "14",
+        "45",
+        "12",
+        "16"
+      ],
+      "dezenas": [
+        "01",
+        "12",
+        "14",
+        "16",
+        "37",
+        "45"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 1600783.97
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 63,
+          "valorPremio": 13793.6
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4089,
+          "valorPremio": 212.52
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "GANHADOR DE 6 ACERTOS: S\u00c3O PAULO/SP.",
+      "acumulou": false,
+      "proximoConcurso": 1060,
+      "dataProximoConcurso": "28/03/2009",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6039824.26,
+      "valorAcumuladoConcursoEspecial": 9899480.38,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 8000000.0
+    }
+  },
+  {
+    "draw_id": 1060,
+    "draw_date": "2009-03-28",
+    "numbers": [
+      1,
+      3,
+      16,
+      18,
+      41,
+      42
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1060,
+      "data": "28/03/2009",
+      "local": "Caminh\u00e3o da Sorte em CAMPOS DOS GOYTACAZES, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "01",
+        "41",
+        "03",
+        "18",
+        "16",
+        "42"
+      ],
+      "dezenas": [
+        "01",
+        "03",
+        "16",
+        "18",
+        "41",
+        "42"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 8287163.48
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 60,
+          "valorPremio": 20333.07
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5220,
+          "valorPremio": 233.71
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "GANHADOR DE 6 ACERTOS: CURITIBA/PR.",
+      "acumulou": false,
+      "proximoConcurso": 1061,
+      "dataProximoConcurso": "01/04/2009",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1412613.23,
+      "valorAcumuladoConcursoEspecial": 10220528.85,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1500000.0
+    }
+  },
+  {
+    "draw_id": 1061,
+    "draw_date": "2009-04-01",
+    "numbers": [
+      9,
+      21,
+      23,
+      30,
+      41,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1061,
+      "data": "01/04/2009",
+      "local": "Caminh\u00e3o da Sorte em IVINHEMA, MS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "09",
+        "41",
+        "56",
+        "23",
+        "21",
+        "30"
+      ],
+      "dezenas": [
+        "09",
+        "21",
+        "23",
+        "30",
+        "41",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 29,
+          "valorPremio": 29790.04
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2579,
+          "valorPremio": 334.98
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1062,
+      "dataProximoConcurso": "04/04/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2412931.29,
+      "valorAcumuladoConcursoEspecial": 10447873.88,
+      "valorAcumuladoProximoConcurso": 1591415.12,
+      "valorEstimadoProximoConcurso": 3500000.0
+    }
+  },
+  {
+    "draw_id": 1062,
+    "draw_date": "2009-04-04",
+    "numbers": [
+      2,
+      8,
+      23,
+      33,
+      37,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1062,
+      "data": "04/04/2009",
+      "local": "Caminh\u00e3o da Sorte em NAVIRA\u00cd, MS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "55",
+        "08",
+        "02",
+        "37",
+        "23",
+        "33"
+      ],
+      "dezenas": [
+        "02",
+        "08",
+        "23",
+        "33",
+        "37",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 114,
+          "valorPremio": 9967.04
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6442,
+          "valorPremio": 176.38
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1063,
+      "dataProximoConcurso": "08/04/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3728580.05,
+      "valorAcumuladoConcursoEspecial": 10746884.98,
+      "valorAcumuladoProximoConcurso": 3684492.68,
+      "valorEstimadoProximoConcurso": 6000000.0
+    }
+  },
+  {
+    "draw_id": 1063,
+    "draw_date": "2009-04-08",
+    "numbers": [
+      1,
+      22,
+      44,
+      47,
+      49,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1063,
+      "data": "08/04/2009",
+      "local": "Caminh\u00e3o da Sorte em LONDRINA, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "49",
+        "01",
+        "22",
+        "47",
+        "44",
+        "50"
+      ],
+      "dezenas": [
+        "01",
+        "22",
+        "44",
+        "47",
+        "49",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 68,
+          "valorPremio": 17776.43
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4202,
+          "valorPremio": 287.67
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1064,
+      "dataProximoConcurso": "11/04/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5128240.25,
+      "valorAcumuladoConcursoEspecial": 11064989.58,
+      "valorAcumuladoProximoConcurso": 5911224.82,
+      "valorEstimadoProximoConcurso": 8000000.0
+    }
+  },
+  {
+    "draw_id": 1064,
+    "draw_date": "2009-04-11",
+    "numbers": [
+      4,
+      16,
+      19,
+      28,
+      29,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1064,
+      "data": "11/04/2009",
+      "local": "Caminh\u00e3o da Sorte em LONDRINA, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "28",
+        "04",
+        "19",
+        "16",
+        "49",
+        "29"
+      ],
+      "dezenas": [
+        "04",
+        "16",
+        "19",
+        "28",
+        "29",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 74,
+          "valorPremio": 15699.66
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5517,
+          "valorPremio": 210.58
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1065,
+      "dataProximoConcurso": "15/04/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 14524789.16,
+      "valorAcumuladoConcursoEspecial": 11370719.78,
+      "valorAcumuladoProximoConcurso": 14524789.16,
+      "valorEstimadoProximoConcurso": 17000000.0
+    }
+  },
+  {
+    "draw_id": 1065,
+    "draw_date": "2009-04-15",
+    "numbers": [
+      7,
+      19,
+      30,
+      39,
+      43,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1065,
+      "data": "15/04/2009",
+      "local": "Caminh\u00e3o da Sorte em IVAIPOR\u00c3, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "07",
+        "57",
+        "19",
+        "43",
+        "39",
+        "30"
+      ],
+      "dezenas": [
+        "07",
+        "19",
+        "30",
+        "39",
+        "43",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 72,
+          "valorPremio": 23596.92
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6501,
+          "valorPremio": 261.34
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1066,
+      "dataProximoConcurso": "18/04/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1967237.69,
+      "valorAcumuladoConcursoEspecial": 11817819.26,
+      "valorAcumuladoProximoConcurso": 17654485.48,
+      "valorEstimadoProximoConcurso": 21000000.0
+    }
+  },
+  {
+    "draw_id": 1066,
+    "draw_date": "2009-04-18",
+    "numbers": [
+      6,
+      10,
+      25,
+      32,
+      43,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1066,
+      "data": "18/04/2009",
+      "local": "Caminh\u00e3o da Sorte em IVAIPOR\u00c3, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "10",
+        "43",
+        "49",
+        "32",
+        "25",
+        "06"
+      ],
+      "dezenas": [
+        "06",
+        "10",
+        "25",
+        "32",
+        "43",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 115,
+          "valorPremio": 18205.45
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8153,
+          "valorPremio": 256.79
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1067,
+      "dataProximoConcurso": "22/04/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4391436.74,
+      "valorAcumuladoConcursoEspecial": 12368773.61,
+      "valorAcumuladoProximoConcurso": 21511165.79,
+      "valorEstimadoProximoConcurso": 25000000.0
+    }
+  },
+  {
+    "draw_id": 1067,
+    "draw_date": "2009-04-22",
+    "numbers": [
+      4,
+      10,
+      14,
+      25,
+      28,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1067,
+      "data": "22/04/2009",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "14",
+        "10",
+        "56",
+        "25",
+        "04",
+        "28"
+      ],
+      "dezenas": [
+        "04",
+        "10",
+        "14",
+        "25",
+        "28",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 172,
+          "valorPremio": 11762.29
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10795,
+          "valorPremio": 267.73
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1068,
+      "dataProximoConcurso": "25/04/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6733989.62,
+      "valorAcumuladoConcursoEspecial": 12901172.01,
+      "valorAcumuladoProximoConcurso": 25237954.47,
+      "valorEstimadoProximoConcurso": 30000000.0
+    }
+  },
+  {
+    "draw_id": 1068,
+    "draw_date": "2009-04-25",
+    "numbers": [
+      25,
+      27,
+      44,
+      47,
+      48,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1068,
+      "data": "25/04/2009",
+      "local": "Caminh\u00e3o da Sorte em RANCHARIA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "44",
+        "48",
+        "25",
+        "57",
+        "27",
+        "47"
+      ],
+      "dezenas": [
+        "25",
+        "27",
+        "44",
+        "47",
+        "48",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 146,
+          "valorPremio": 19264.05
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10795,
+          "valorPremio": 372.2
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1069,
+      "dataProximoConcurso": "29/04/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 9990627.53,
+      "valorAcumuladoConcursoEspecial": 13641317.01,
+      "valorAcumuladoProximoConcurso": 30418969.33,
+      "valorEstimadoProximoConcurso": 36000000.0
+    }
+  },
+  {
+    "draw_id": 1069,
+    "draw_date": "2009-04-29",
+    "numbers": [
+      9,
+      17,
+      28,
+      45,
+      49,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1069,
+      "data": "29/04/2009",
+      "local": "Caminh\u00e3o da Sorte em IMBITUVA, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "28",
+        "17",
+        "49",
+        "53",
+        "45",
+        "09"
+      ],
+      "dezenas": [
+        "09",
+        "17",
+        "28",
+        "45",
+        "49",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 36400425.15
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 275,
+          "valorPremio": 11807.55
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 16287,
+          "valorPremio": 284.8
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "GANHADOR DE 6 ACERTOS: NIL\u00d3POLIS/RJ.",
+      "acumulou": false,
+      "proximoConcurso": 1070,
+      "dataProximoConcurso": "02/05/2009",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 13750399.77,
+      "valorAcumuladoConcursoEspecial": 14495810.71,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 17000000.0
+    }
+  },
+  {
+    "draw_id": 1070,
+    "draw_date": "2009-05-02",
+    "numbers": [
+      5,
+      8,
+      16,
+      23,
+      41,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1070,
+      "data": "02/05/2009",
+      "local": "Caminh\u00e3o da Sorte em IMBITUVA, PR, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "41",
+        "53",
+        "08",
+        "23",
+        "05",
+        "16"
+      ],
+      "dezenas": [
+        "05",
+        "08",
+        "16",
+        "23",
+        "41",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 8120833.45
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 302,
+          "valorPremio": 4478.33
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8729,
+          "valorPremio": 221.34
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "GANHADORES DE 06 ACERTOS: BRAS\u00cdLIA/DF E S\u00c3O BERNARDO DO CAMPO/SP.",
+      "acumulou": false,
+      "proximoConcurso": 1071,
+      "dataProximoConcurso": "06/05/2009",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "DF"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1566002.2,
+      "valorAcumuladoConcursoEspecial": 14851720.31,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1500000.0
+    }
+  },
+  {
+    "draw_id": 1071,
+    "draw_date": "2009-05-06",
+    "numbers": [
+      5,
+      7,
+      37,
+      43,
+      53,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1071,
+      "data": "06/05/2009",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "05",
+        "37",
+        "43",
+        "07",
+        "53",
+        "54"
+      ],
+      "dezenas": [
+        "05",
+        "07",
+        "37",
+        "43",
+        "53",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 56,
+          "valorPremio": 17508.53
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3846,
+          "valorPremio": 364.19
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1072,
+      "dataProximoConcurso": "09/05/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2701292.16,
+      "valorAcumuladoConcursoEspecial": 15109740.78,
+      "valorAcumuladoProximoConcurso": 1806143.13,
+      "valorEstimadoProximoConcurso": 4000000.0
+    }
+  },
+  {
+    "draw_id": 1072,
+    "draw_date": "2009-05-09",
+    "numbers": [
+      9,
+      18,
+      19,
+      43,
+      47,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1072,
+      "data": "09/05/2009",
+      "local": "Caminh\u00e3o da Sorte em LEN\u00c7\u00d3IS PAULISTA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "19",
+        "18",
+        "54",
+        "47",
+        "43",
+        "09"
+      ],
+      "dezenas": [
+        "09",
+        "18",
+        "19",
+        "43",
+        "47",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 47,
+          "valorPremio": 27186.35
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4915,
+          "valorPremio": 371.38
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1073,
+      "dataProximoConcurso": "13/05/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4180801.85,
+      "valorAcumuladoConcursoEspecial": 15445992.99,
+      "valorAcumuladoProximoConcurso": 4159908.54,
+      "valorEstimadoProximoConcurso": 7000000.0
+    }
+  },
+  {
+    "draw_id": 1073,
+    "draw_date": "2009-05-13",
+    "numbers": [
+      8,
+      25,
+      32,
+      34,
+      36,
+      44
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1073,
+      "data": "13/05/2009",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O PEDRO DA ALDEIA, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "44",
+        "36",
+        "32",
+        "08",
+        "34",
+        "25"
+      ],
+      "dezenas": [
+        "08",
+        "25",
+        "32",
+        "34",
+        "36",
+        "44"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 66,
+          "valorPremio": 20356.35
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5305,
+          "valorPremio": 361.79
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1074,
+      "dataProximoConcurso": "16/05/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5736455.21,
+      "valorAcumuladoConcursoEspecial": 15799550.59,
+      "valorAcumuladoProximoConcurso": 6634811.63,
+      "valorEstimadoProximoConcurso": 9000000.0
+    }
+  },
+  {
+    "draw_id": 1074,
+    "draw_date": "2009-05-16",
+    "numbers": [
+      3,
+      10,
+      23,
+      29,
+      47,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1074,
+      "data": "16/05/2009",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O PEDRO DA ALDEIA, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "03",
+        "47",
+        "10",
+        "50",
+        "29",
+        "23"
+      ],
+      "dezenas": [
+        "03",
+        "10",
+        "23",
+        "29",
+        "47",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 111,
+          "valorPremio": 13830.94
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7099,
+          "valorPremio": 308.94
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1075,
+      "dataProximoConcurso": "20/05/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 16976970.12,
+      "valorAcumuladoConcursoEspecial": 16203559.66,
+      "valorAcumuladoProximoConcurso": 16976970.12,
+      "valorEstimadoProximoConcurso": 20000000.0
+    }
+  },
+  {
+    "draw_id": 1075,
+    "draw_date": "2009-05-20",
+    "numbers": [
+      10,
+      12,
+      16,
+      21,
+      39,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1075,
+      "data": "20/05/2009",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "53",
+        "39",
+        "16",
+        "21",
+        "10",
+        "12"
+      ],
+      "dezenas": [
+        "10",
+        "12",
+        "16",
+        "21",
+        "39",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 119,
+          "valorPremio": 15845.68
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7179,
+          "valorPremio": 375.22
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1076,
+      "dataProximoConcurso": "23/05/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2183367.93,
+      "valorAcumuladoConcursoEspecial": 16699779.66,
+      "valorAcumuladoProximoConcurso": 20450510.01,
+      "valorEstimadoProximoConcurso": 25000000.0
+    }
+  },
+  {
+    "draw_id": 1076,
+    "draw_date": "2009-05-23",
+    "numbers": [
+      4,
+      10,
+      19,
+      32,
+      33,
+      42
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1076,
+      "data": "23/05/2009",
+      "local": "Caminh\u00e3o da Sorte em PATOS DE MINAS, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "32",
+        "33",
+        "10",
+        "19",
+        "42",
+        "04"
+      ],
+      "dezenas": [
+        "04",
+        "10",
+        "19",
+        "32",
+        "33",
+        "42"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 102,
+          "valorPremio": 21442.45
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8656,
+          "valorPremio": 360.96
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1077,
+      "dataProximoConcurso": "27/05/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4715833.25,
+      "valorAcumuladoConcursoEspecial": 17275339.96,
+      "valorAcumuladoProximoConcurso": 24479432.11,
+      "valorEstimadoProximoConcurso": 30000000.0
+    }
+  },
+  {
+    "draw_id": 1077,
+    "draw_date": "2009-05-27",
+    "numbers": [
+      5,
+      6,
+      9,
+      11,
+      18,
+      37
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1077,
+      "data": "27/05/2009",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O SIM\u00c3O, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "11",
+        "06",
+        "18",
+        "05",
+        "37",
+        "09"
+      ],
+      "dezenas": [
+        "05",
+        "06",
+        "09",
+        "11",
+        "18",
+        "37"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 14486088.42
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 300,
+          "valorPremio": 8129.73
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 19219,
+          "valorPremio": 181.28
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "AS APOSTAS GANHADORAS DE 6 ACERTOS FORAM REALIZADAS EM BELO HORIZONTE/MG E S\u00c3O PAULO/SP.",
+      "acumulou": false,
+      "proximoConcurso": 1078,
+      "dataProximoConcurso": "30/05/2009",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "BELO HORIZONTE",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "S\u00c3O PAULO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 41658547.0,
+      "valorAcumuladoConcurso_0_5": 7539844.22,
+      "valorAcumuladoConcursoEspecial": 17917160.64,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1078,
+    "draw_date": "2009-05-30",
+    "numbers": [
+      3,
+      6,
+      34,
+      41,
+      43,
+      45
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1078,
+      "data": "30/05/2009",
+      "local": "Caminh\u00e3o da Sorte em PRAD\u00d3POLIS, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "03",
+        "06",
+        "45",
+        "34",
+        "41",
+        "43"
+      ],
+      "dezenas": [
+        "03",
+        "06",
+        "34",
+        "41",
+        "43",
+        "45"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 47,
+          "valorPremio": 22507.73
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3645,
+          "valorPremio": 414.6
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1079,
+      "dataProximoConcurso": "03/06/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 18069091.25,
+      "valorAcumuladoConcurso_0_5": 8764738.39,
+      "valorAcumuladoConcursoEspecial": 18195545.69,
+      "valorAcumuladoProximoConcurso": 1948695.28,
+      "valorEstimadoProximoConcurso": 4000000.0
+    }
+  },
+  {
+    "draw_id": 1079,
+    "draw_date": "2009-06-03",
+    "numbers": [
+      5,
+      12,
+      24,
+      28,
+      36,
+      37
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1079,
+      "data": "03/06/2009",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "36",
+        "12",
+        "37",
+        "24",
+        "05",
+        "28"
+      ],
+      "dezenas": [
+        "05",
+        "12",
+        "24",
+        "28",
+        "36",
+        "37"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 4033499.58
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 150,
+          "valorPremio": 7545.01
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8339,
+          "valorPremio": 193.88
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1080,
+      "dataProximoConcurso": "06/06/2009",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "INDAIATUBA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 19331149.25,
+      "valorAcumuladoConcurso_0_5": 10075186.81,
+      "valorAcumuladoConcursoEspecial": 18493374.9,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 12000000.0
+    }
+  },
+  {
+    "draw_id": 1080,
+    "draw_date": "2009-06-06",
+    "numbers": [
+      11,
+      18,
+      20,
+      34,
+      41,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1080,
+      "data": "06/06/2009",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O LUIS DE MONTES BELOS, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "56",
+        "11",
+        "20",
+        "41",
+        "34",
+        "18"
+      ],
+      "dezenas": [
+        "11",
+        "18",
+        "20",
+        "34",
+        "41",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 59,
+          "valorPremio": 24305.19
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4152,
+          "valorPremio": 493.39
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1081,
+      "dataProximoConcurso": "10/06/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 24493897.75,
+      "valorAcumuladoConcurso_0_5": 1660428.43,
+      "valorAcumuladoConcursoEspecial": 18870745.01,
+      "valorAcumuladoProximoConcurso": 12716777.49,
+      "valorEstimadoProximoConcurso": 16000000.0
+    }
+  },
+  {
+    "draw_id": 1081,
+    "draw_date": "2009-06-10",
+    "numbers": [
+      9,
+      16,
+      24,
+      29,
+      52,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1081,
+      "data": "10/06/2009",
+      "local": "Caminh\u00e3o da Sorte em QUISSAM\u00c3, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "09",
+        "56",
+        "29",
+        "52",
+        "16",
+        "24"
+      ],
+      "dezenas": [
+        "09",
+        "16",
+        "24",
+        "29",
+        "52",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 109,
+          "valorPremio": 16360.33
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7213,
+          "valorPremio": 353.18
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1082,
+      "dataProximoConcurso": "13/06/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 30459672.25,
+      "valorAcumuladoConcurso_0_5": 3725273.57,
+      "valorAcumuladoConcursoEspecial": 19340028.0,
+      "valorAcumuladoProximoConcurso": 16001758.39,
+      "valorEstimadoProximoConcurso": 20000000.0
+    }
+  },
+  {
+    "draw_id": 1082,
+    "draw_date": "2009-06-13",
+    "numbers": [
+      4,
+      17,
+      38,
+      40,
+      50,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1082,
+      "data": "13/06/2009",
+      "local": "Caminh\u00e3o da Sorte em QUISSAM\u00c3, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "04",
+        "40",
+        "50",
+        "17",
+        "55",
+        "38"
+      ],
+      "dezenas": [
+        "04",
+        "17",
+        "38",
+        "40",
+        "50",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 63,
+          "valorPremio": 28937.66
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5460,
+          "valorPremio": 476.99
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1083,
+      "dataProximoConcurso": "17/06/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 31139440.5,
+      "valorAcumuladoConcurso_0_5": 5836199.84,
+      "valorAcumuladoConcursoEspecial": 19819783.99,
+      "valorAcumuladoProximoConcurso": 19360050.18,
+      "valorEstimadoProximoConcurso": 23000000.0
+    }
+  },
+  {
+    "draw_id": 1083,
+    "draw_date": "2009-06-17",
+    "numbers": [
+      10,
+      20,
+      23,
+      28,
+      42,
+      43
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1083,
+      "data": "17/06/2009",
+      "local": "Caminh\u00e3o da Sorte em CAMPINA GRANDE, PB",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "20",
+        "28",
+        "42",
+        "23",
+        "10",
+        "43"
+      ],
+      "dezenas": [
+        "10",
+        "20",
+        "23",
+        "28",
+        "42",
+        "43"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 70,
+          "valorPremio": 31956.08
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6647,
+          "valorPremio": 480.75
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1084,
+      "dataProximoConcurso": "20/06/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 38208360.75,
+      "valorAcumuladoConcurso_0_5": 8426324.48,
+      "valorAcumuladoConcursoEspecial": 20408448.69,
+      "valorAcumuladoProximoConcurso": 23480703.04,
+      "valorEstimadoProximoConcurso": 28000000.0
+    }
+  },
+  {
+    "draw_id": 1084,
+    "draw_date": "2009-06-20",
+    "numbers": [
+      5,
+      20,
+      29,
+      33,
+      40,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1084,
+      "data": "20/06/2009",
+      "local": "Caminh\u00e3o da Sorte em CAMPINA GRANDE, PB",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "20",
+        "05",
+        "29",
+        "59",
+        "40",
+        "33"
+      ],
+      "dezenas": [
+        "05",
+        "20",
+        "29",
+        "33",
+        "40",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 108,
+          "valorPremio": 23240.93
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7731,
+          "valorPremio": 463.81
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1085,
+      "dataProximoConcurso": "24/06/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 42873020.75,
+      "valorAcumuladoConcurso_0_5": 39437088.95,
+      "valorAcumuladoConcursoEspecial": 21068980.41,
+      "valorAcumuladoProximoConcurso": 39437088.95,
+      "valorEstimadoProximoConcurso": 45000000.0
+    }
+  },
+  {
+    "draw_id": 1085,
+    "draw_date": "2009-06-24",
+    "numbers": [
+      12,
+      21,
+      39,
+      40,
+      50,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1085,
+      "data": "24/06/2009",
+      "local": "Caminh\u00e3o da Sorte em PATOS, PB",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "39",
+        "50",
+        "21",
+        "12",
+        "40",
+        "55"
+      ],
+      "dezenas": [
+        "12",
+        "21",
+        "39",
+        "40",
+        "50",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 81,
+          "valorPremio": 44000.86
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7674,
+          "valorPremio": 663.47
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1086,
+      "dataProximoConcurso": "27/06/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 60876961.25,
+      "valorAcumuladoConcurso_0_5": 4126817.15,
+      "valorAcumuladoConcursoEspecial": 22006893.41,
+      "valorAcumuladoProximoConcurso": 46002479.88,
+      "valorEstimadoProximoConcurso": 55000000.0
+    }
+  },
+  {
+    "draw_id": 1086,
+    "draw_date": "2009-06-27",
+    "numbers": [
+      2,
+      4,
+      6,
+      10,
+      23,
+      45
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1086,
+      "data": "27/06/2009",
+      "local": "Caminh\u00e3o da Sorte em PATOS, PB",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "45",
+        "04",
+        "06",
+        "23",
+        "10",
+        "02"
+      ],
+      "dezenas": [
+        "02",
+        "04",
+        "06",
+        "10",
+        "23",
+        "45"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 4,
+          "valorPremio": 13904065.2
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 954,
+          "valorPremio": 5470.55
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 52159,
+          "valorPremio": 142.93
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1087,
+      "dataProximoConcurso": "01/07/2009",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "IBIRIT\u00c9",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "LONDRINA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "LEME",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "S\u00c3O BERNARDO DO CAMPO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 89142866.75,
+      "valorAcumuladoConcurso_0_5": 10169765.16,
+      "valorAcumuladoConcursoEspecial": 23380290.7,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1087,
+    "draw_date": "2009-07-01",
+    "numbers": [
+      3,
+      20,
+      28,
+      32,
+      36,
+      46
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1087,
+      "data": "01/07/2009",
+      "local": "Caminh\u00e3o da Sorte em CAMPO MOUR\u00c3O, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "36",
+        "46",
+        "28",
+        "32",
+        "03",
+        "20"
+      ],
+      "dezenas": [
+        "03",
+        "20",
+        "28",
+        "32",
+        "36",
+        "46"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 58,
+          "valorPremio": 20380.65
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4426,
+          "valorPremio": 381.53
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1088,
+      "dataProximoConcurso": "04/07/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 20190770.25,
+      "valorAcumuladoConcurso_0_5": 11538486.83,
+      "valorAcumuladoConcursoEspecial": 23691363.83,
+      "valorAcumuladoProximoConcurso": 2177511.76,
+      "valorEstimadoProximoConcurso": 4000000.0
+    }
+  },
+  {
+    "draw_id": 1088,
+    "draw_date": "2009-07-04",
+    "numbers": [
+      6,
+      24,
+      31,
+      35,
+      42,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1088,
+      "data": "04/07/2009",
+      "local": "Caminh\u00e3o da Sorte em CAMPO MOUR\u00c3O, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "24",
+        "42",
+        "35",
+        "31",
+        "06",
+        "57"
+      ],
+      "dezenas": [
+        "06",
+        "24",
+        "31",
+        "35",
+        "42",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 78,
+          "valorPremio": 19245.3
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5886,
+          "valorPremio": 364.33
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1089,
+      "dataProximoConcurso": "08/07/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 25640480.25,
+      "valorAcumuladoConcurso_0_5": 13276641.48,
+      "valorAcumuladoConcursoEspecial": 24086398.99,
+      "valorAcumuladoProximoConcurso": 4942757.79,
+      "valorEstimadoProximoConcurso": 8000000.0
+    }
+  },
+  {
+    "draw_id": 1089,
+    "draw_date": "2009-07-08",
+    "numbers": [
+      2,
+      18,
+      20,
+      32,
+      37,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1089,
+      "data": "08/07/2009",
+      "local": "Caminh\u00e3o da Sorte em IPAMERI, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "37",
+        "48",
+        "32",
+        "02",
+        "18",
+        "20"
+      ],
+      "dezenas": [
+        "02",
+        "18",
+        "20",
+        "32",
+        "37",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 93,
+          "valorPremio": 17263.31
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6101,
+          "valorPremio": 375.93
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1090,
+      "dataProximoConcurso": "11/07/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 27422916.5,
+      "valorAcumuladoConcurso_0_5": 23035860.57,
+      "valorAcumuladoConcursoEspecial": 24508895.6,
+      "valorAcumuladoProximoConcurso": 23035860.57,
+      "valorEstimadoProximoConcurso": 27000000.0
+    }
+  },
+  {
+    "draw_id": 1090,
+    "draw_date": "2009-07-11",
+    "numbers": [
+      9,
+      20,
+      24,
+      36,
+      40,
+      42
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1090,
+      "data": "11/07/2009",
+      "local": "Caminh\u00e3o da Sorte em IPAMERI, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "24",
+        "09",
+        "40",
+        "20",
+        "36",
+        "42"
+      ],
+      "dezenas": [
+        "09",
+        "20",
+        "24",
+        "36",
+        "40",
+        "42"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 175,
+          "valorPremio": 12820.74
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10325,
+          "valorPremio": 310.42
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1091,
+      "dataProximoConcurso": "15/07/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 38322847.5,
+      "valorAcumuladoConcurso_0_5": 2597885.65,
+      "valorAcumuladoConcursoEspecial": 25099324.18,
+      "valorAcumuladoProximoConcurso": 27168860.47,
+      "valorEstimadoProximoConcurso": 32000000.0
+    }
+  },
+  {
+    "draw_id": 1091,
+    "draw_date": "2009-07-15",
+    "numbers": [
+      17,
+      23,
+      24,
+      27,
+      49,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1091,
+      "data": "15/07/2009",
+      "local": "Caminh\u00e3o da Sorte em CRATO, CE",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "27",
+        "56",
+        "17",
+        "24",
+        "49",
+        "23"
+      ],
+      "dezenas": [
+        "17",
+        "23",
+        "24",
+        "27",
+        "49",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 146,
+          "valorPremio": 18821.58
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 12471,
+          "valorPremio": 314.78
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1092,
+      "dataProximoConcurso": "18/07/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 46937052.75,
+      "valorAcumuladoConcurso_0_5": 5779723.74,
+      "valorAcumuladoConcursoEspecial": 25822469.22,
+      "valorAcumuladoProximoConcurso": 32230875.61,
+      "valorEstimadoProximoConcurso": 38000000.0
+    }
+  },
+  {
+    "draw_id": 1092,
+    "draw_date": "2009-07-18",
+    "numbers": [
+      1,
+      9,
+      30,
+      33,
+      34,
+      40
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1092,
+      "data": "18/07/2009",
+      "local": "Caminh\u00e3o da Sorte em CRATO, CE",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "40",
+        "30",
+        "01",
+        "09",
+        "33",
+        "34"
+      ],
+      "dezenas": [
+        "01",
+        "09",
+        "30",
+        "33",
+        "34",
+        "40"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 130,
+          "valorPremio": 25322.41
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11224,
+          "valorPremio": 418.98
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1093,
+      "dataProximoConcurso": "22/07/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 56228327.75,
+      "valorAcumuladoConcurso_0_5": 9591412.47,
+      "valorAcumuladoConcursoEspecial": 26688762.13,
+      "valorAcumuladoProximoConcurso": 38294925.87,
+      "valorEstimadoProximoConcurso": 45000000.0
+    }
+  },
+  {
+    "draw_id": 1093,
+    "draw_date": "2009-07-22",
+    "numbers": [
+      19,
+      23,
+      27,
+      38,
+      41,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1093,
+      "data": "22/07/2009",
+      "local": "Caminh\u00e3o da Sorte em CURRAIS NOVOS, RN",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "27",
+        "49",
+        "38",
+        "23",
+        "41",
+        "19"
+      ],
+      "dezenas": [
+        "19",
+        "23",
+        "27",
+        "38",
+        "41",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 299,
+          "valorPremio": 13845.47
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 18464,
+          "valorPremio": 320.29
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1094,
+      "dataProximoConcurso": "25/07/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 70710811.5,
+      "valorAcumuladoConcurso_0_5": 14384861.15,
+      "valorAcumuladoConcursoEspecial": 27778182.3,
+      "valorAcumuladoProximoConcurso": 45920866.95,
+      "valorEstimadoProximoConcurso": 56000000.0
+    }
+  },
+  {
+    "draw_id": 1094,
+    "draw_date": "2009-07-25",
+    "numbers": [
+      9,
+      10,
+      21,
+      36,
+      41,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1094,
+      "data": "25/07/2009",
+      "local": "Caminh\u00e3o da Sorte em CURRAIS NOVOS, RN",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "10",
+        "09",
+        "48",
+        "36",
+        "41",
+        "21"
+      ],
+      "dezenas": [
+        "09",
+        "10",
+        "21",
+        "36",
+        "41",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 55863193.02
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 211,
+          "valorPremio": 25579.45
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 18534,
+          "valorPremio": 416.01
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1095,
+      "dataProximoConcurso": "29/07/2009",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "RIO DE JANEIRO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        }
+      ],
+      "valorArrecadado": 92189270.25,
+      "valorAcumuladoConcurso_0_5": 20634323.25,
+      "valorAcumuladoConcursoEspecial": 29198514.62,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 25000000.0
+    }
+  },
+  {
+    "draw_id": 1095,
+    "draw_date": "2009-07-29",
+    "numbers": [
+      10,
+      16,
+      21,
+      23,
+      27,
+      36
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1095,
+      "data": "29/07/2009",
+      "local": "Caminh\u00e3o da Sorte em RIO BRANCO, AC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "27",
+        "23",
+        "36",
+        "10",
+        "21",
+        "16"
+      ],
+      "dezenas": [
+        "10",
+        "16",
+        "21",
+        "23",
+        "27",
+        "36"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 168,
+          "valorPremio": 12339.22
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10462,
+          "valorPremio": 283.06
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1096,
+      "dataProximoConcurso": "01/08/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 35408194.5,
+      "valorAcumuladoConcurso_0_5": 2400302.86,
+      "valorAcumuladoConcursoEspecial": 29744038.01,
+      "valorAcumuladoProximoConcurso": 24452986.89,
+      "valorEstimadoProximoConcurso": 29000000.0
+    }
+  },
+  {
+    "draw_id": 1096,
+    "draw_date": "2009-08-01",
+    "numbers": [
+      3,
+      13,
+      14,
+      16,
+      41,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1096,
+      "data": "01/08/2009",
+      "local": "Caminh\u00e3o da Sorte em RIO BRANCO, AC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "03",
+        "41",
+        "52",
+        "14",
+        "13",
+        "16"
+      ],
+      "dezenas": [
+        "03",
+        "13",
+        "14",
+        "16",
+        "41",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 102,
+          "valorPremio": 26537.4
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9766,
+          "valorPremio": 395.95
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1097,
+      "dataProximoConcurso": "05/08/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 46234424.25,
+      "valorAcumuladoConcurso_0_5": 5534510.13,
+      "valorAcumuladoConcursoEspecial": 30456357.86,
+      "valorAcumuladoProximoConcurso": 29439225.73,
+      "valorEstimadoProximoConcurso": 35000000.0
+    }
+  },
+  {
+    "draw_id": 1097,
+    "draw_date": "2009-08-05",
+    "numbers": [
+      1,
+      17,
+      21,
+      33,
+      48,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1097,
+      "data": "05/08/2009",
+      "local": "Caminh\u00e3o da Sorte em ROLIM DE MOURA, RO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "21",
+        "48",
+        "33",
+        "01",
+        "56",
+        "17"
+      ],
+      "dezenas": [
+        "01",
+        "17",
+        "21",
+        "33",
+        "48",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 34907671.59
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 242,
+          "valorPremio": 12266.88
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 13115,
+          "valorPremio": 323.35
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1098,
+      "dataProximoConcurso": "08/08/2009",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "SANTOS",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 50705642.75,
+      "valorAcumuladoConcurso_0_5": 8971818.95,
+      "valorAcumuladoConcursoEspecial": 31237564.43,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1098,
+    "draw_date": "2009-08-08",
+    "numbers": [
+      11,
+      20,
+      21,
+      30,
+      50,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1098,
+      "data": "08/08/2009",
+      "local": "Caminh\u00e3o da Sorte em JI-PARAN\u00c1, RO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "30",
+        "20",
+        "21",
+        "11",
+        "50",
+        "52"
+      ],
+      "dezenas": [
+        "11",
+        "20",
+        "21",
+        "30",
+        "50",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 2656519.77
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 49,
+          "valorPremio": 29430.83
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3434,
+          "valorPremio": 599.92
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1099,
+      "dataProximoConcurso": "12/08/2009",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "BEL\u00c9M",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PA"
+        }
+      ],
+      "valorArrecadado": 24632326.25,
+      "valorAcumuladoConcurso_0_5": 10641631.38,
+      "valorAcumuladoConcursoEspecial": 31617067.26,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 1099,
+    "draw_date": "2009-08-12",
+    "numbers": [
+      14,
+      31,
+      35,
+      38,
+      44,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1099,
+      "data": "12/08/2009",
+      "local": "Caminh\u00e3o da Sorte em ARIQUEMES, RO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "55",
+        "44",
+        "38",
+        "35",
+        "14",
+        "31"
+      ],
+      "dezenas": [
+        "14",
+        "31",
+        "35",
+        "38",
+        "44",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 42,
+          "valorPremio": 30298.5
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3392,
+          "valorPremio": 535.94
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1100,
+      "dataProximoConcurso": "15/08/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 21735883.75,
+      "valorAcumuladoConcurso_0_5": 14459242.92,
+      "valorAcumuladoConcursoEspecial": 31951945.49,
+      "valorAcumuladoProximoConcurso": 14459242.92,
+      "valorEstimadoProximoConcurso": 17000000.0
+    }
+  },
+  {
+    "draw_id": 1100,
+    "draw_date": "2009-08-15",
+    "numbers": [
+      7,
+      17,
+      18,
+      33,
+      41,
+      42
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1100,
+      "data": "15/08/2009",
+      "local": "Caminh\u00e3o da Sorte em PORTO VELHO, RO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "41",
+        "33",
+        "17",
+        "18",
+        "07",
+        "42"
+      ],
+      "dezenas": [
+        "07",
+        "17",
+        "18",
+        "33",
+        "41",
+        "42"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 119,
+          "valorPremio": 16950.03
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10353,
+          "valorPremio": 278.32
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1101,
+      "dataProximoConcurso": "19/08/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 34452773.25,
+      "valorAcumuladoConcurso_0_5": 2335535.36,
+      "valorAcumuladoConcursoEspecial": 32482748.98,
+      "valorAcumuladoProximoConcurso": 18174867.35,
+      "valorEstimadoProximoConcurso": 23000000.0
+    }
+  },
+  {
+    "draw_id": 1101,
+    "draw_date": "2009-08-19",
+    "numbers": [
+      6,
+      7,
+      10,
+      12,
+      24,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1101,
+      "data": "19/08/2009",
+      "local": "Caminh\u00e3o da Sorte em MACAP\u00c1, AP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "07",
+        "12",
+        "57",
+        "06",
+        "24",
+        "10"
+      ],
+      "dezenas": [
+        "06",
+        "07",
+        "10",
+        "12",
+        "24",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 22310116.55
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 284,
+          "valorPremio": 7904.4
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 17901,
+          "valorPremio": 179.14
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1102,
+      "dataProximoConcurso": "22/08/2009",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "GUARATINGUETA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 38343704.0,
+      "valorAcumuladoConcurso_0_5": 4934834.86,
+      "valorAcumuladoConcursoEspecial": 33073498.88,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1102,
+    "draw_date": "2009-08-22",
+    "numbers": [
+      9,
+      11,
+      23,
+      35,
+      46,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1102,
+      "data": "22/08/2009",
+      "local": "Caminh\u00e3o da Sorte em SANTANA, AP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "46",
+        "23",
+        "09",
+        "35",
+        "11",
+        "51"
+      ],
+      "dezenas": [
+        "09",
+        "11",
+        "23",
+        "35",
+        "46",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 83,
+          "valorPremio": 15534.5
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5695,
+          "valorPremio": 323.43
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1103,
+      "dataProximoConcurso": "26/08/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 22023282.75,
+      "valorAcumuladoConcurso_0_5": 6427781.6,
+      "valorAcumuladoConcursoEspecial": 33412804.97,
+      "valorAcumuladoProximoConcurso": 2375142.54,
+      "valorEstimadoProximoConcurso": 5000000.0
+    }
+  },
+  {
+    "draw_id": 1103,
+    "draw_date": "2009-08-26",
+    "numbers": [
+      10,
+      19,
+      28,
+      41,
+      55,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1103,
+      "data": "26/08/2009",
+      "local": "Caminh\u00e3o da Sorte em BARRETOS, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "41",
+        "19",
+        "10",
+        "28",
+        "55",
+        "56"
+      ],
+      "dezenas": [
+        "10",
+        "19",
+        "28",
+        "41",
+        "55",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 47,
+          "valorPremio": 29544.0
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5696,
+          "valorPremio": 348.25
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1104,
+      "dataProximoConcurso": "29/08/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 23717776.25,
+      "valorAcumuladoConcurso_0_5": 8035597.15,
+      "valorAcumuladoConcursoEspecial": 33778217.62,
+      "valorAcumuladoProximoConcurso": 4933030.92,
+      "valorEstimadoProximoConcurso": 8000000.0
+    }
+  },
+  {
+    "draw_id": 1104,
+    "draw_date": "2009-08-29",
+    "numbers": [
+      2,
+      3,
+      6,
+      35,
+      49,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1104,
+      "data": "29/08/2009",
+      "local": "Caminh\u00e3o da Sorte em BARRETOS, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "03",
+        "35",
+        "58",
+        "49",
+        "02",
+        "06"
+      ],
+      "dezenas": [
+        "02",
+        "03",
+        "06",
+        "35",
+        "49",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 95,
+          "valorPremio": 17867.29
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6982,
+          "valorPremio": 347.29
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1105,
+      "dataProximoConcurso": "02/09/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 28992726.0,
+      "valorAcumuladoConcurso_0_5": 18060804.99,
+      "valorAcumuladoConcursoEspecial": 34224899.83,
+      "valorAcumuladoProximoConcurso": 18060804.99,
+      "valorEstimadoProximoConcurso": 21000000.0
+    }
+  },
+  {
+    "draw_id": 1105,
+    "draw_date": "2009-09-02",
+    "numbers": [
+      1,
+      15,
+      28,
+      43,
+      50,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1105,
+      "data": "02/09/2009",
+      "local": "Caminh\u00e3o da Sorte em NOVO HAMBURGO, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "43",
+        "01",
+        "50",
+        "28",
+        "57",
+        "15"
+      ],
+      "dezenas": [
+        "01",
+        "15",
+        "28",
+        "43",
+        "50",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 21878202.24
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 135,
+          "valorPremio": 15350.38
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7144,
+          "valorPremio": 414.39
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1106,
+      "dataProximoConcurso": "05/09/2009",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "TERRA ROXA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        }
+      ],
+      "valorArrecadado": 35396452.0,
+      "valorAcumuladoConcurso_0_5": 2399506.84,
+      "valorAcumuladoConcursoEspecial": 34770242.31,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1106,
+    "draw_date": "2009-09-05",
+    "numbers": [
+      4,
+      15,
+      43,
+      47,
+      50,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1106,
+      "data": "05/09/2009",
+      "local": "Caminh\u00e3o da Sorte em NOVO HAMBURGO, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "04",
+        "15",
+        "50",
+        "60",
+        "43",
+        "47"
+      ],
+      "dezenas": [
+        "04",
+        "15",
+        "43",
+        "47",
+        "50",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 37,
+          "valorPremio": 31924.48
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3139,
+          "valorPremio": 537.57
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1107,
+      "dataProximoConcurso": "09/09/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 20175874.25,
+      "valorAcumuladoConcurso_0_5": 3767218.73,
+      "valorAcumuladoConcursoEspecial": 35081085.93,
+      "valorAcumuladoProximoConcurso": 2175905.27,
+      "valorEstimadoProximoConcurso": 5000000.0
+    }
+  },
+  {
+    "draw_id": 1107,
+    "draw_date": "2009-09-09",
+    "numbers": [
+      3,
+      9,
+      20,
+      36,
+      53,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1107,
+      "data": "09/09/2009",
+      "local": "Caminh\u00e3o da Sorte em PARAUAPEBAS, PA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "36",
+        "20",
+        "54",
+        "09",
+        "03",
+        "53"
+      ],
+      "dezenas": [
+        "03",
+        "09",
+        "20",
+        "36",
+        "53",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 85,
+          "valorPremio": 14819.61
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6294,
+          "valorPremio": 285.91
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1108,
+      "dataProximoConcurso": "12/09/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 21516050.0,
+      "valorAcumuladoConcurso_0_5": 5225780.42,
+      "valorAcumuladoConcursoEspecial": 35412577.23,
+      "valorAcumuladoProximoConcurso": 4496344.33,
+      "valorEstimadoProximoConcurso": 7000000.0
+    }
+  },
+  {
+    "draw_id": 1108,
+    "draw_date": "2009-09-12",
+    "numbers": [
+      7,
+      9,
+      39,
+      43,
+      44,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1108,
+      "data": "12/09/2009",
+      "local": "Caminh\u00e3o da Sorte em MARAB\u00c1, PA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "60",
+        "44",
+        "07",
+        "39",
+        "43",
+        "09"
+      ],
+      "dezenas": [
+        "07",
+        "09",
+        "39",
+        "43",
+        "44",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 71,
+          "valorPremio": 24403.73
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5791,
+          "valorPremio": 427.42
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1109,
+      "dataProximoConcurso": "16/09/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 29595212.0,
+      "valorAcumuladoConcurso_0_5": 7232024.25,
+      "valorAcumuladoConcursoEspecial": 35868541.75,
+      "valorAcumuladoProximoConcurso": 7688095.88,
+      "valorEstimadoProximoConcurso": 12000000.0
+    }
+  },
+  {
+    "draw_id": 1109,
+    "draw_date": "2009-09-16",
+    "numbers": [
+      6,
+      8,
+      11,
+      14,
+      29,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1109,
+      "data": "16/09/2009",
+      "local": "Caminh\u00e3o da Sorte em IGREJINHA, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "11",
+        "52",
+        "14",
+        "06",
+        "29",
+        "08"
+      ],
+      "dezenas": [
+        "06",
+        "08",
+        "11",
+        "14",
+        "29",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 141,
+          "valorPremio": 12814.67
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8371,
+          "valorPremio": 308.35
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "COMUNICAMOS QUE OS SORTEIOS DE AMANH\u00c3, 17/09, SER\u00c3O REALIZADOS EM IGREJINHA/RS.",
+      "acumulou": true,
+      "proximoConcurso": 1110,
+      "dataProximoConcurso": "19/09/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 30862658.0,
+      "valorAcumuladoConcurso_0_5": 20340725.12,
+      "valorAcumuladoConcursoEspecial": 36344033.43,
+      "valorAcumuladoProximoConcurso": 20340725.12,
+      "valorEstimadoProximoConcurso": 24000000.0
+    }
+  },
+  {
+    "draw_id": 1110,
+    "draw_date": "2009-09-19",
+    "numbers": [
+      6,
+      14,
+      26,
+      28,
+      42,
+      45
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1110,
+      "data": "19/09/2009",
+      "local": "Caminh\u00e3o da Sorte em MONTENEGRO, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "26",
+        "45",
+        "06",
+        "28",
+        "42",
+        "14"
+      ],
+      "dezenas": [
+        "06",
+        "14",
+        "26",
+        "28",
+        "42",
+        "45"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 12343077.59
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 217,
+          "valorPremio": 10870.72
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11277,
+          "valorPremio": 298.83
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1111,
+      "dataProximoConcurso": "23/09/2009",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "Curitiba",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "PORTO ALEGRE",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RS"
+        }
+      ],
+      "valorArrecadado": 40292586.0,
+      "valorAcumuladoConcurso_0_5": 2731413.19,
+      "valorAcumuladoConcursoEspecial": 36964809.17,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1111,
+    "draw_date": "2009-09-23",
+    "numbers": [
+      4,
+      9,
+      25,
+      32,
+      33,
+      43
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1111,
+      "data": "23/09/2009",
+      "local": "Caminh\u00e3o da Sorte em MESQUITA, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "04",
+        "43",
+        "25",
+        "09",
+        "33",
+        "32"
+      ],
+      "dezenas": [
+        "04",
+        "09",
+        "25",
+        "32",
+        "33",
+        "43"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 2100928.15
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 52,
+          "valorPremio": 21932.77
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5266,
+          "valorPremio": 309.39
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1112,
+      "dataProximoConcurso": "26/09/2009",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "S\u00c3O CAETANO DO SUL",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 19480656.0,
+      "valorAcumuladoConcurso_0_5": 4051996.6,
+      "valorAcumuladoConcursoEspecial": 37264941.78,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1112,
+    "draw_date": "2009-09-26",
+    "numbers": [
+      4,
+      32,
+      34,
+      43,
+      52,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1112,
+      "data": "26/09/2009",
+      "local": "Caminh\u00e3o da Sorte em MESQUITA, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "04",
+        "34",
+        "52",
+        "32",
+        "58",
+        "43"
+      ],
+      "dezenas": [
+        "04",
+        "32",
+        "34",
+        "43",
+        "52",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 43,
+          "valorPremio": 28083.09
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3283,
+          "valorPremio": 525.46
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1113,
+      "dataProximoConcurso": "30/09/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 20626242.0,
+      "valorAcumuladoConcurso_0_5": 5450238.67,
+      "valorAcumuladoConcursoEspecial": 37582724.09,
+      "valorAcumuladoProximoConcurso": 2224476.04,
+      "valorEstimadoProximoConcurso": 5000000.0
+    }
+  },
+  {
+    "draw_id": 1113,
+    "draw_date": "2009-09-30",
+    "numbers": [
+      3,
+      6,
+      29,
+      36,
+      47,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1113,
+      "data": "30/09/2009",
+      "local": "Caminh\u00e3o da Sorte em MANAUS, AM",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "47",
+        "36",
+        "29",
+        "59",
+        "03",
+        "06"
+      ],
+      "dezenas": [
+        "03",
+        "06",
+        "29",
+        "36",
+        "47",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 2321158.61
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 82,
+          "valorPremio": 16006.62
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5947,
+          "valorPremio": 315.29
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1114,
+      "dataProximoConcurso": "03/10/2009",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "PARAUAPEBAS",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PA"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "AMPARO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 22419202.0,
+      "valorAcumuladoConcurso_0_5": 6970024.56,
+      "valorAcumuladoConcursoEspecial": 37928129.99,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1114,
+    "draw_date": "2009-10-03",
+    "numbers": [
+      3,
+      15,
+      16,
+      22,
+      25,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1114,
+      "data": "03/10/2009",
+      "local": "Caminh\u00e3o da Sorte em MANAUS, AM",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "16",
+        "03",
+        "22",
+        "54",
+        "25",
+        "15"
+      ],
+      "dezenas": [
+        "03",
+        "15",
+        "16",
+        "22",
+        "25",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 2310563.74
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 65,
+          "valorPremio": 19297.02
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5054,
+          "valorPremio": 354.54
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1115,
+      "dataProximoConcurso": "07/10/2009",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "ITUPEVA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 21424482.0,
+      "valorAcumuladoConcurso_0_5": 8422378.91,
+      "valorAcumuladoConcursoEspecial": 38258210.54,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 11000000.0
+    }
+  },
+  {
+    "draw_id": 1115,
+    "draw_date": "2009-10-07",
+    "numbers": [
+      18,
+      30,
+      37,
+      41,
+      44,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1115,
+      "data": "07/10/2009",
+      "local": "Caminh\u00e3o da Sorte em BOA VISTA, RR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "44",
+        "41",
+        "18",
+        "50",
+        "37",
+        "30"
+      ],
+      "dezenas": [
+        "18",
+        "30",
+        "37",
+        "41",
+        "44",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 26,
+          "valorPremio": 56589.75
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3005,
+          "valorPremio": 699.46
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1116,
+      "dataProximoConcurso": "10/10/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 25131470.0,
+      "valorAcumuladoConcurso_0_5": 1703649.11,
+      "valorAcumuladoConcursoEspecial": 38645403.53,
+      "valorAcumuladoProximoConcurso": 11132729.77,
+      "valorEstimadoProximoConcurso": 14000000.0
+    }
+  },
+  {
+    "draw_id": 1116,
+    "draw_date": "2009-10-10",
+    "numbers": [
+      4,
+      9,
+      13,
+      17,
+      20,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1116,
+      "data": "10/10/2009",
+      "local": "Caminh\u00e3o da Sorte em BOA VISTA, RR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "17",
+        "20",
+        "04",
+        "47",
+        "09",
+        "13"
+      ],
+      "dezenas": [
+        "04",
+        "09",
+        "13",
+        "17",
+        "20",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 14545870.49
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 259,
+          "valorPremio": 7153.85
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 14186,
+          "valorPremio": 186.58
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1117,
+      "dataProximoConcurso": "14/10/2009",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "Florian\u00f3polis",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SC"
+        }
+      ],
+      "valorArrecadado": 31648022.0,
+      "valorAcumuladoConcurso_0_5": 3849051.85,
+      "valorAcumuladoConcursoEspecial": 39132995.07,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1117,
+    "draw_date": "2009-10-14",
+    "numbers": [
+      1,
+      6,
+      17,
+      27,
+      35,
+      40
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1117,
+      "data": "14/10/2009",
+      "local": "Caminh\u00e3o da Sorte em CHAPEC\u00d3, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "27",
+        "35",
+        "40",
+        "01",
+        "06",
+        "17"
+      ],
+      "dezenas": [
+        "01",
+        "06",
+        "17",
+        "27",
+        "35",
+        "40"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 36,
+          "valorPremio": 26269.86
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3143,
+          "valorPremio": 429.85
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1118,
+      "dataProximoConcurso": "17/10/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 16153514.0,
+      "valorAcumuladoConcurso_0_5": 4944090.05,
+      "valorAcumuladoConcursoEspecial": 39381867.4,
+      "valorAcumuladoProximoConcurso": 1742106.23,
+      "valorEstimadoProximoConcurso": 4000000.0
+    }
+  },
+  {
+    "draw_id": 1118,
+    "draw_date": "2009-10-17",
+    "numbers": [
+      8,
+      20,
+      21,
+      43,
+      44,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1118,
+      "data": "17/10/2009",
+      "local": "Caminh\u00e3o da Sorte em CHAPEC\u00d3, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "55",
+        "44",
+        "08",
+        "20",
+        "43",
+        "21"
+      ],
+      "dezenas": [
+        "08",
+        "20",
+        "21",
+        "43",
+        "44",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 30,
+          "valorPremio": 44640.5
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2965,
+          "valorPremio": 645.24
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1119,
+      "dataProximoConcurso": "21/10/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 22874788.0,
+      "valorAcumuladoConcurso_0_5": 6494759.88,
+      "valorAcumuladoConcursoEspecial": 39734292.39,
+      "valorAcumuladoProximoConcurso": 4209080.96,
+      "valorEstimadoProximoConcurso": 7000000.0
+    }
+  },
+  {
+    "draw_id": 1119,
+    "draw_date": "2009-10-21",
+    "numbers": [
+      10,
+      34,
+      41,
+      44,
+      45,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1119,
+      "data": "21/10/2009",
+      "local": "Caminh\u00e3o da Sorte em TIMB\u00d3, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "44",
+        "54",
+        "41",
+        "45",
+        "34",
+        "10"
+      ],
+      "dezenas": [
+        "10",
+        "34",
+        "41",
+        "44",
+        "45",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 22,
+          "valorPremio": 61156.09
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2684,
+          "valorPremio": 716.11
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1120,
+      "dataProximoConcurso": "24/10/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 22981012.0,
+      "valorAcumuladoConcurso_0_5": 14740142.18,
+      "valorAcumuladoConcursoEspecial": 40088353.92,
+      "valorAcumuladoProximoConcurso": 14740142.18,
+      "valorEstimadoProximoConcurso": 18000000.0
+    }
+  },
+  {
+    "draw_id": 1120,
+    "draw_date": "2009-10-24",
+    "numbers": [
+      7,
+      35,
+      40,
+      44,
+      50,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1120,
+      "data": "24/10/2009",
+      "local": "Caminh\u00e3o da Sorte em TIMB\u00d3, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "50",
+        "55",
+        "07",
+        "35",
+        "44",
+        "40"
+      ],
+      "dezenas": [
+        "07",
+        "35",
+        "40",
+        "44",
+        "50",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 63,
+          "valorPremio": 30741.97
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4116,
+          "valorPremio": 672.2
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1121,
+      "dataProximoConcurso": "28/10/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 33081040.0,
+      "valorAcumuladoConcurso_0_5": 2242546.28,
+      "valorAcumuladoConcursoEspecial": 40598023.55,
+      "valorAcumuladoProximoConcurso": 18307829.45,
+      "valorEstimadoProximoConcurso": 22000000.0
+    }
+  },
+  {
+    "draw_id": 1121,
+    "draw_date": "2009-10-28",
+    "numbers": [
+      4,
+      17,
+      18,
+      54,
+      56,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1121,
+      "data": "28/10/2009",
+      "local": "Caminh\u00e3o da Sorte em PARNA\u00cdBA, PI",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "18",
+        "04",
+        "59",
+        "54",
+        "56",
+        "17"
+      ],
+      "dezenas": [
+        "04",
+        "17",
+        "18",
+        "54",
+        "56",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 22023474.44
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 94,
+          "valorPremio": 21458.13
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6105,
+          "valorPremio": 471.99
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1122,
+      "dataProximoConcurso": "31/10/2009",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "S\u00c3O PAULO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 34452964.0,
+      "valorAcumuladoConcurso_0_5": 4578094.56,
+      "valorAcumuladoConcursoEspecial": 41128829.98,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1122,
+    "draw_date": "2009-10-31",
+    "numbers": [
+      26,
+      44,
+      46,
+      49,
+      55,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1122,
+      "data": "31/10/2009",
+      "local": "Caminh\u00e3o da Sorte em PARNA\u00cdBA, PI",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "49",
+        "44",
+        "56",
+        "26",
+        "46",
+        "55"
+      ],
+      "dezenas": [
+        "26",
+        "44",
+        "46",
+        "49",
+        "55",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 20,
+          "valorPremio": 56270.34
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2425,
+          "valorPremio": 662.97
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1123,
+      "dataProximoConcurso": "04/11/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 19222788.0,
+      "valorAcumuladoConcurso_0_5": 5881197.23,
+      "valorAcumuladoConcursoEspecial": 41424989.69,
+      "valorAcumuladoProximoConcurso": 2073117.88,
+      "valorEstimadoProximoConcurso": 4000000.0
+    }
+  },
+  {
+    "draw_id": 1123,
+    "draw_date": "2009-11-04",
+    "numbers": [
+      4,
+      14,
+      19,
+      39,
+      45,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1123,
+      "data": "04/11/2009",
+      "local": "Caminh\u00e3o da Sorte em SANTA MARIA, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "19",
+        "04",
+        "39",
+        "14",
+        "45",
+        "60"
+      ],
+      "dezenas": [
+        "04",
+        "14",
+        "19",
+        "39",
+        "45",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 51,
+          "valorPremio": 20674.9
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3386,
+          "valorPremio": 444.86
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1124,
+      "dataProximoConcurso": "07/11/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 18010282.0,
+      "valorAcumuladoConcurso_0_5": 7102104.76,
+      "valorAcumuladoConcursoEspecial": 41702468.69,
+      "valorAcumuladoProximoConcurso": 4015470.76,
+      "valorEstimadoProximoConcurso": 6000000.0
+    }
+  },
+  {
+    "draw_id": 1124,
+    "draw_date": "2009-11-07",
+    "numbers": [
+      7,
+      11,
+      16,
+      18,
+      33,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1124,
+      "data": "07/11/2009",
+      "local": "Caminh\u00e3o da Sorte em SANTA MARIA, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "49",
+        "11",
+        "07",
+        "18",
+        "16",
+        "33"
+      ],
+      "dezenas": [
+        "07",
+        "11",
+        "16",
+        "18",
+        "33",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 122,
+          "valorPremio": 12110.47
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7528,
+          "valorPremio": 280.37
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1125,
+      "dataProximoConcurso": "11/11/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 25236404.0,
+      "valorAcumuladoConcurso_0_5": 15550005.71,
+      "valorAcumuladoConcursoEspecial": 42091278.37,
+      "valorAcumuladoProximoConcurso": 15550005.71,
+      "valorEstimadoProximoConcurso": 20000000.0
+    }
+  },
+  {
+    "draw_id": 1125,
+    "draw_date": "2009-11-11",
+    "numbers": [
+      3,
+      7,
+      29,
+      33,
+      42,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1125,
+      "data": "11/11/2009",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O MIGUEL DO OESTE, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "07",
+        "42",
+        "56",
+        "29",
+        "33",
+        "03"
+      ],
+      "dezenas": [
+        "03",
+        "07",
+        "29",
+        "33",
+        "42",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 19093732.19
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 263,
+          "valorPremio": 7314.59
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11744,
+          "valorPremio": 234.0
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1126,
+      "dataProximoConcurso": "14/11/2009",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "RIO DE JANEIRO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        }
+      ],
+      "valorArrecadado": 32858866.0,
+      "valorAcumuladoConcurso_0_5": 2227485.22,
+      "valorAcumuladoConcursoEspecial": 42597525.04,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 1126,
+    "draw_date": "2009-11-14",
+    "numbers": [
+      4,
+      31,
+      42,
+      52,
+      57,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1126,
+      "data": "14/11/2009",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O MIGUEL DO OESTE, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "59",
+        "31",
+        "57",
+        "04",
+        "52",
+        "42"
+      ],
+      "dezenas": [
+        "04",
+        "31",
+        "42",
+        "52",
+        "57",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 21,
+          "valorPremio": 55019.03
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2186,
+          "valorPremio": 755.06
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1127,
+      "dataProximoConcurso": "18/11/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 19735086.0,
+      "valorAcumuladoConcurso_0_5": 3565316.3,
+      "valorAcumuladoConcursoEspecial": 42901577.57,
+      "valorAcumuladoProximoConcurso": 2128367.63,
+      "valorEstimadoProximoConcurso": 5000000.0
+    }
+  },
+  {
+    "draw_id": 1127,
+    "draw_date": "2009-11-18",
+    "numbers": [
+      5,
+      8,
+      14,
+      24,
+      29,
+      30
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1127,
+      "data": "18/11/2009",
+      "local": "Caminh\u00e3o da Sorte em RIO NEGRO, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "24",
+        "08",
+        "14",
+        "05",
+        "29",
+        "30"
+      ],
+      "dezenas": [
+        "05",
+        "08",
+        "14",
+        "24",
+        "29",
+        "30"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 3,
+          "valorPremio": 1463875.35
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 152,
+          "valorPremio": 8083.07
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7135,
+          "valorPremio": 245.99
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1128,
+      "dataProximoConcurso": "21/11/2009",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "RIO DE JANEIRO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "PORTO ALEGRE",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RS"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "S\u00c3O BERNARDO DO CAMPO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 20985848.0,
+      "valorAcumuladoConcurso_0_5": 4987935.88,
+      "valorAcumuladoConcursoEspecial": 43224900.21,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1128,
+    "draw_date": "2009-11-21",
+    "numbers": [
+      8,
+      16,
+      24,
+      39,
+      52,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1128,
+      "data": "21/11/2009",
+      "local": "Caminh\u00e3o da Sorte em RIO NEGRO, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "60",
+        "08",
+        "39",
+        "52",
+        "24",
+        "16"
+      ],
+      "dezenas": [
+        "08",
+        "16",
+        "24",
+        "39",
+        "52",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 1903809.92
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 43,
+          "valorPremio": 24034.81
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3389,
+          "valorPremio": 435.65
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1129,
+      "dataProximoConcurso": "25/11/2009",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "SETE LAGOAS",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        }
+      ],
+      "valorArrecadado": 17652896.0,
+      "valorAcumuladoConcurso_0_5": 6184616.39,
+      "valorAcumuladoConcursoEspecial": 43496873.07,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1129,
+    "draw_date": "2009-11-25",
+    "numbers": [
+      12,
+      17,
+      19,
+      32,
+      47,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1129,
+      "data": "25/11/2009",
+      "local": "Caminh\u00e3o da Sorte em DOIS VIZINHOS, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "47",
+        "19",
+        "17",
+        "12",
+        "32",
+        "55"
+      ],
+      "dezenas": [
+        "12",
+        "17",
+        "19",
+        "32",
+        "47",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 75,
+          "valorPremio": 12933.06
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4068,
+          "valorPremio": 340.63
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1130,
+      "dataProximoConcurso": "28/11/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 16567972.0,
+      "valorAcumuladoConcurso_0_5": 9094554.71,
+      "valorAcumuladoConcursoEspecial": 43752130.84,
+      "valorAcumuladoProximoConcurso": 9094554.71,
+      "valorEstimadoProximoConcurso": 12000000.0
+    }
+  },
+  {
+    "draw_id": 1130,
+    "draw_date": "2009-11-28",
+    "numbers": [
+      5,
+      18,
+      23,
+      32,
+      49,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1130,
+      "data": "28/11/2009",
+      "local": "Caminh\u00e3o da Sorte em DOIS VIZINHOS, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "23",
+        "49",
+        "32",
+        "54",
+        "18",
+        "05"
+      ],
+      "dezenas": [
+        "05",
+        "18",
+        "23",
+        "32",
+        "49",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 279,
+          "valorPremio": 5751.46
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9245,
+          "valorPremio": 247.95
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1131,
+      "dataProximoConcurso": "02/12/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 27408748.0,
+      "valorAcumuladoConcurso_0_5": 1858024.59,
+      "valorAcumuladoConcursoEspecial": 44174409.16,
+      "valorAcumuladoProximoConcurso": 12050502.92,
+      "valorEstimadoProximoConcurso": 15000000.0
+    }
+  },
+  {
+    "draw_id": 1131,
+    "draw_date": "2009-12-02",
+    "numbers": [
+      1,
+      8,
+      16,
+      34,
+      36,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1131,
+      "data": "02/12/2009",
+      "local": "Caminh\u00e3o da Sorte em RIBEIR\u00c3O PRETO,, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "49",
+        "34",
+        "36",
+        "01",
+        "16",
+        "08"
+      ],
+      "dezenas": [
+        "01",
+        "08",
+        "16",
+        "34",
+        "36",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 119,
+          "valorPremio": 16728.24
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7753,
+          "valorPremio": 366.8
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1132,
+      "dataProximoConcurso": "05/12/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 34001962.0,
+      "valorAcumuladoConcurso_0_5": 4162999.68,
+      "valorAcumuladoConcursoEspecial": 44698267.16,
+      "valorAcumuladoProximoConcurso": 15717508.75,
+      "valorEstimadoProximoConcurso": 20000000.0
+    }
+  },
+  {
+    "draw_id": 1132,
+    "draw_date": "2009-12-05",
+    "numbers": [
+      12,
+      27,
+      30,
+      33,
+      52,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1132,
+      "data": "05/12/2009",
+      "local": "Caminh\u00e3o da Sorte em SERT\u00c3OZINHO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "52",
+        "30",
+        "27",
+        "12",
+        "55",
+        "33"
+      ],
+      "dezenas": [
+        "12",
+        "27",
+        "30",
+        "33",
+        "52",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 104,
+          "valorPremio": 21594.12
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7799,
+          "valorPremio": 411.36
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1133,
+      "dataProximoConcurso": "09/12/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 38359728.0,
+      "valorAcumuladoConcurso_0_5": 6763385.44,
+      "valorAcumuladoConcursoEspecial": 45289263.93,
+      "valorAcumuladoProximoConcurso": 19854486.1,
+      "valorEstimadoProximoConcurso": 24000000.0
+    }
+  },
+  {
+    "draw_id": 1133,
+    "draw_date": "2009-12-09",
+    "numbers": [
+      5,
+      10,
+      16,
+      21,
+      39,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1133,
+      "data": "09/12/2009",
+      "local": "Caminh\u00e3o da Sorte em VOTUPORANGA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "16",
+        "05",
+        "58",
+        "39",
+        "10",
+        "21"
+      ],
+      "dezenas": [
+        "05",
+        "10",
+        "16",
+        "21",
+        "39",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 23878446.59
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 111,
+          "valorPremio": 19679.6
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8648,
+          "valorPremio": 360.84
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1134,
+      "dataProximoConcurso": "12/12/2009",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "Montes Claros",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        }
+      ],
+      "valorArrecadado": 37311790.0,
+      "valorAcumuladoConcurso_0_5": 9292732.04,
+      "valorAcumuladoConcursoEspecial": 45864115.44,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 1134,
+    "draw_date": "2009-12-12",
+    "numbers": [
+      9,
+      22,
+      29,
+      36,
+      51,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1134,
+      "data": "12/12/2009",
+      "local": "Caminh\u00e3o da Sorte em VOTUPORANGA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "29",
+        "36",
+        "56",
+        "22",
+        "09",
+        "51"
+      ],
+      "dezenas": [
+        "09",
+        "22",
+        "29",
+        "36",
+        "51",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 53,
+          "valorPremio": 23806.49
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3770,
+          "valorPremio": 478.11
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1135,
+      "dataProximoConcurso": "16/12/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 21551532.0,
+      "valorAcumuladoConcurso_0_5": 13077964.72,
+      "valorAcumuladoConcursoEspecial": 46196153.41,
+      "valorAcumuladoProximoConcurso": 13077964.72,
+      "valorEstimadoProximoConcurso": 16000000.0
+    }
+  },
+  {
+    "draw_id": 1135,
+    "draw_date": "2009-12-16",
+    "numbers": [
+      4,
+      5,
+      6,
+      19,
+      23,
+      39
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1135,
+      "data": "16/12/2009",
+      "local": "Caminh\u00e3o da Sorte em PRUDENT\u00d3POLIS, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "05",
+        "04",
+        "19",
+        "39",
+        "06",
+        "23"
+      ],
+      "dezenas": [
+        "04",
+        "05",
+        "06",
+        "19",
+        "23",
+        "39"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 16270571.71
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 127,
+          "valorPremio": 13646.69
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9233,
+          "valorPremio": 268.15
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1136,
+      "dataProximoConcurso": "19/12/2009",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "VIT\u00d3RIA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "ES"
+        }
+      ],
+      "valorArrecadado": 29603144.0,
+      "valorAcumuladoConcurso_0_5": 2006781.54,
+      "valorAcumuladoConcursoEspecial": 46652240.14,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1136,
+    "draw_date": "2009-12-19",
+    "numbers": [
+      7,
+      31,
+      32,
+      34,
+      37,
+      43
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1136,
+      "data": "19/12/2009",
+      "local": "Caminh\u00e3o da Sorte em PRUDENT\u00d3POLIS, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "07",
+        "31",
+        "32",
+        "37",
+        "43",
+        "34"
+      ],
+      "dezenas": [
+        "07",
+        "31",
+        "32",
+        "34",
+        "37",
+        "43"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 41,
+          "valorPremio": 30316.49
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4242,
+          "valorPremio": 418.59
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1137,
+      "dataProximoConcurso": "22/12/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 21230956.0,
+      "valorAcumuladoConcurso_0_5": 3446016.87,
+      "valorAcumuladoConcursoEspecial": 46979339.1,
+      "valorAcumuladoProximoConcurso": 2289692.56,
+      "valorEstimadoProximoConcurso": 5000000.0
+    }
+  },
+  {
+    "draw_id": 1137,
+    "draw_date": "2009-12-22",
+    "numbers": [
+      19,
+      21,
+      25,
+      28,
+      43,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1137,
+      "data": "22/12/2009",
+      "local": "Caminh\u00e3o da Sorte em TUBAR\u00c3O, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "21",
+        "28",
+        "19",
+        "25",
+        "50",
+        "43"
+      ],
+      "dezenas": [
+        "19",
+        "21",
+        "25",
+        "28",
+        "43",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 33,
+          "valorPremio": 25712.12
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2763,
+          "valorPremio": 438.7
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1138,
+      "dataProximoConcurso": "24/12/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 14493008.0,
+      "valorAcumuladoConcurso_0_5": 4428490.24,
+      "valorAcumuladoConcursoEspecial": 47202628.51,
+      "valorAcumuladoProximoConcurso": 3852718.38,
+      "valorEstimadoProximoConcurso": 6000000.0
+    }
+  },
+  {
+    "draw_id": 1138,
+    "draw_date": "2009-12-24",
+    "numbers": [
+      2,
+      4,
+      15,
+      18,
+      25,
+      36
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1138,
+      "data": "24/12/2009",
+      "local": "Caminh\u00e3o da Sorte em TUBAR\u00c3O, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "04",
+        "25",
+        "18",
+        "15",
+        "36",
+        "02"
+      ],
+      "dezenas": [
+        "02",
+        "04",
+        "15",
+        "18",
+        "25",
+        "36"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 118,
+          "valorPremio": 9499.16
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6796,
+          "valorPremio": 235.62
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1139,
+      "dataProximoConcurso": "26/12/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 19145820.0,
+      "valorAcumuladoConcurso_0_5": 5726375.29,
+      "valorAcumuladoConcursoEspecial": 47497602.38,
+      "valorAcumuladoProximoConcurso": 5917535.51,
+      "valorEstimadoProximoConcurso": 7500000.0
+    }
+  },
+  {
+    "draw_id": 1139,
+    "draw_date": "2009-12-26",
+    "numbers": [
+      9,
+      28,
+      31,
+      36,
+      37,
+      42
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1139,
+      "data": "26/12/2009",
+      "local": "Caminh\u00e3o da Sorte em TUBAR\u00c3O, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "36",
+        "42",
+        "37",
+        "09",
+        "28",
+        "31"
+      ],
+      "dezenas": [
+        "09",
+        "28",
+        "31",
+        "36",
+        "37",
+        "42"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 25,
+          "valorPremio": 31748.14
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2049,
+          "valorPremio": 553.37
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "\"URGENTE: O ENCERRAMENTO DAS APOSTAS PARA A MEGA-SENA DA VIRADA, CONCURSO 1140, SER\u00c1 AS 14 HORAS, HOR\u00c1RIO DE BRAS\u00cdLIA, DO DIA 31/12/2009\".",
+      "acumulou": true,
+      "proximoConcurso": 1140,
+      "dataProximoConcurso": "31/12/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 13557048.0,
+      "valorAcumuladoConcurso_0_5": 61731493.11,
+      "valorAcumuladoConcursoEspecial": 61731493.11,
+      "valorAcumuladoProximoConcurso": 61731493.11,
+      "valorEstimadoProximoConcurso": 120000000.0
+    }
+  },
+  {
+    "draw_id": 1140,
+    "draw_date": "2009-12-31",
+    "numbers": [
+      10,
+      27,
+      40,
+      46,
+      49,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1140,
+      "data": "31/12/2009",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "49",
+        "58",
+        "40",
+        "46",
+        "10",
+        "27"
+      ],
+      "dezenas": [
+        "10",
+        "27",
+        "40",
+        "46",
+        "49",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 72450747.46
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 734,
+          "valorPremio": 34724.23
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 55988,
+          "valorPremio": 650.33
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1141,
+      "dataProximoConcurso": "02/01/2010",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "BRAS\u00cdLIA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "DF"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "SANTA RITA DO PASSA QUATRO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 435346884.0,
+      "valorAcumuladoConcurso_0_5": 0.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1500000.0
+    }
+  }
+]

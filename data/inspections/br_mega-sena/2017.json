@@ -1,0 +1,8036 @@
+[
+  {
+    "draw_id": 1891,
+    "draw_date": "2017-01-04",
+    "numbers": [
+      1,
+      3,
+      19,
+      23,
+      47,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1891,
+      "data": "04/01/2017",
+      "local": "ESPA\u00c7O CAIXA LOTERIAS em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "47",
+        "01",
+        "03",
+        "19",
+        "23",
+        "58"
+      ],
+      "dezenas": [
+        "01",
+        "03",
+        "19",
+        "23",
+        "47",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 46,
+          "valorPremio": 26153.43
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3488,
+          "valorPremio": 492.73
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1892,
+      "dataProximoConcurso": "07/01/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 20866660.5,
+      "valorAcumuladoConcurso_0_5": 1393014.32,
+      "valorAcumuladoConcursoEspecial": 316594.18,
+      "valorAcumuladoProximoConcurso": 2216159.14,
+      "valorEstimadoProximoConcurso": 4500000.0
+    }
+  },
+  {
+    "draw_id": 1892,
+    "draw_date": "2017-01-07",
+    "numbers": [
+      6,
+      17,
+      22,
+      30,
+      37,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1892,
+      "data": "07/01/2017",
+      "local": "Espa\u00e7o Caixa Loteria em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "50",
+        "22",
+        "06",
+        "37",
+        "30",
+        "17"
+      ],
+      "dezenas": [
+        "06",
+        "17",
+        "22",
+        "30",
+        "37",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 31,
+          "valorPremio": 52421.85
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2623,
+          "valorPremio": 885.07
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1893,
+      "dataProximoConcurso": "11/01/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 28186455.5,
+      "valorAcumuladoConcurso_0_5": 3274682.74,
+      "valorAcumuladoConcursoEspecial": 744246.11,
+      "valorAcumuladoProximoConcurso": 5209722.53,
+      "valorEstimadoProximoConcurso": 8000000.0
+    }
+  },
+  {
+    "draw_id": 1893,
+    "draw_date": "2017-01-11",
+    "numbers": [
+      16,
+      17,
+      19,
+      28,
+      45,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1893,
+      "data": "11/01/2017",
+      "local": "CAMINH\u00c3O DA SORTE em BEL\u00c9M, PA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "17",
+        "58",
+        "45",
+        "19",
+        "28",
+        "16"
+      ],
+      "dezenas": [
+        "16",
+        "17",
+        "19",
+        "28",
+        "45",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 44,
+          "valorPremio": 37826.41
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3162,
+          "valorPremio": 751.94
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1894,
+      "dataProximoConcurso": "14/01/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 28867835.5,
+      "valorAcumuladoConcurso_0_5": 5201838.65,
+      "valorAcumuladoConcursoEspecial": 1182236.1,
+      "valorAcumuladoProximoConcurso": 8275652.39,
+      "valorEstimadoProximoConcurso": 11000000.0
+    }
+  },
+  {
+    "draw_id": 1894,
+    "draw_date": "2017-01-14",
+    "numbers": [
+      21,
+      31,
+      35,
+      53,
+      54,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1894,
+      "data": "14/01/2017",
+      "local": "CAMINH\u00c3O DA SORTE em BEL\u00c9M, PA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "31",
+        "35",
+        "57",
+        "54",
+        "21",
+        "53"
+      ],
+      "dezenas": [
+        "21",
+        "31",
+        "35",
+        "53",
+        "54",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 37,
+          "valorPremio": 56148.15
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2761,
+          "valorPremio": 1074.91
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1895,
+      "dataProximoConcurso": "18/01/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 36033266.5,
+      "valorAcumuladoConcurso_0_5": 19709935.8,
+      "valorAcumuladoConcursoEspecial": 1728941.8,
+      "valorAcumuladoProximoConcurso": 19709935.8,
+      "valorEstimadoProximoConcurso": 25000000.0
+    }
+  },
+  {
+    "draw_id": 1895,
+    "draw_date": "2017-01-18",
+    "numbers": [
+      2,
+      3,
+      5,
+      10,
+      15,
+      34
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1895,
+      "data": "18/01/2017",
+      "local": "CAMINH\u00c3O DA SORTE em TE\u00d3FILO OTONI, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "03",
+        "05",
+        "02",
+        "34",
+        "10",
+        "15"
+      ],
+      "dezenas": [
+        "02",
+        "03",
+        "05",
+        "10",
+        "15",
+        "34"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 175,
+          "valorPremio": 13303.72
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10199,
+          "valorPremio": 326.1
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1896,
+      "dataProximoConcurso": "21/01/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 40381043.5,
+      "valorAcumuladoConcurso_0_5": 2695753.44,
+      "valorAcumuladoConcursoEspecial": 2341613.05,
+      "valorAcumuladoProximoConcurso": 23998634.45,
+      "valorEstimadoProximoConcurso": 28000000.0
+    }
+  },
+  {
+    "draw_id": 1896,
+    "draw_date": "2017-01-21",
+    "numbers": [
+      3,
+      6,
+      14,
+      15,
+      21,
+      25
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1896,
+      "data": "21/01/2017",
+      "local": "CAMINH\u00c3O DA SORTE em TE\u00d3FILO OTONI, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "25",
+        "06",
+        "14",
+        "21",
+        "03",
+        "15"
+      ],
+      "dezenas": [
+        "03",
+        "06",
+        "14",
+        "15",
+        "21",
+        "25"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 28783383.17
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 133,
+          "valorPremio": 19529.58
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7692,
+          "valorPremio": 482.4
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1897,
+      "dataProximoConcurso": "25/01/2017",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "ITANHA\u00c9M",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 45051695.5,
+      "valorAcumuladoConcurso_0_5": 5703309.78,
+      "valorAcumuladoConcursoEspecial": 3025148.59,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 1897,
+    "draw_date": "2017-01-25",
+    "numbers": [
+      9,
+      22,
+      25,
+      47,
+      52,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1897,
+      "data": "25/01/2017",
+      "local": "Caminh\u00e3o da Sorte em SANTAR\u00c9M, PA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "52",
+        "09",
+        "58",
+        "47",
+        "22",
+        "25"
+      ],
+      "dezenas": [
+        "09",
+        "22",
+        "25",
+        "47",
+        "52",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 46,
+          "valorPremio": 28168.68
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2873,
+          "valorPremio": 644.3
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1898,
+      "dataProximoConcurso": "28/01/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 22474543.0,
+      "valorAcumuladoConcurso_0_5": 7203662.94,
+      "valorAcumuladoConcursoEspecial": 3366137.96,
+      "valorAcumuladoProximoConcurso": 2386925.5,
+      "valorEstimadoProximoConcurso": 5000000.0
+    }
+  },
+  {
+    "draw_id": 1898,
+    "draw_date": "2017-01-28",
+    "numbers": [
+      12,
+      34,
+      45,
+      53,
+      55,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1898,
+      "data": "28/01/2017",
+      "local": "Caminh\u00e3o da Sorte em SANTAR\u00c9M, PA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "53",
+        "12",
+        "58",
+        "55",
+        "34",
+        "45"
+      ],
+      "dezenas": [
+        "12",
+        "34",
+        "45",
+        "53",
+        "55",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 32,
+          "valorPremio": 51269.12
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2722,
+          "valorPremio": 861.03
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1899,
+      "dataProximoConcurso": "01/02/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 28455896.0,
+      "valorAcumuladoConcurso_0_5": 9103318.63,
+      "valorAcumuladoConcursoEspecial": 3797877.91,
+      "valorAcumuladoProximoConcurso": 5409105.01,
+      "valorEstimadoProximoConcurso": 9000000.0
+    }
+  },
+  {
+    "draw_id": 1899,
+    "draw_date": "2017-02-01",
+    "numbers": [
+      20,
+      23,
+      35,
+      36,
+      44,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1899,
+      "data": "01/02/2017",
+      "local": "Caminh\u00e3o da Sorte em MACEI\u00d3, AL",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "48",
+        "35",
+        "44",
+        "23",
+        "36",
+        "20"
+      ],
+      "dezenas": [
+        "20",
+        "23",
+        "35",
+        "36",
+        "44",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 39,
+          "valorPremio": 45462.41
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3023,
+          "valorPremio": 837.87
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1900,
+      "dataProximoConcurso": "04/02/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 30752715.0,
+      "valorAcumuladoConcurso_0_5": 19831525.03,
+      "valorAcumuladoConcursoEspecial": 4264465.77,
+      "valorAcumuladoProximoConcurso": 19831525.03,
+      "valorEstimadoProximoConcurso": 24000000.0
+    }
+  },
+  {
+    "draw_id": 1900,
+    "draw_date": "2017-02-04",
+    "numbers": [
+      8,
+      11,
+      27,
+      28,
+      43,
+      46
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1900,
+      "data": "04/02/2017",
+      "local": "Caminh\u00e3o da Sorte em MACEI\u00d3, AL",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "46",
+        "11",
+        "08",
+        "43",
+        "28",
+        "27"
+      ],
+      "dezenas": [
+        "08",
+        "11",
+        "27",
+        "28",
+        "43",
+        "46"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 87,
+          "valorPremio": 29411.18
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5573,
+          "valorPremio": 655.91
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1901,
+      "dataProximoConcurso": "08/02/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 44381116.5,
+      "valorAcumuladoConcurso_0_5": 2962789.9,
+      "valorAcumuladoConcursoEspecial": 4937827.12,
+      "valorAcumuladoProximoConcurso": 24545054.4,
+      "valorEstimadoProximoConcurso": 30000000.0
+    }
+  },
+  {
+    "draw_id": 1901,
+    "draw_date": "2017-02-08",
+    "numbers": [
+      11,
+      12,
+      26,
+      30,
+      37,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1901,
+      "data": "08/02/2017",
+      "local": "CAMINH\u00c3O DA SORTE em ITABIRA, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "30",
+        "53",
+        "26",
+        "11",
+        "37",
+        "12"
+      ],
+      "dezenas": [
+        "11",
+        "12",
+        "26",
+        "30",
+        "37",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 60,
+          "valorPremio": 46078.62
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4645,
+          "valorPremio": 850.28
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1902,
+      "dataProximoConcurso": "11/02/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 47953150.0,
+      "valorAcumuladoConcurso_0_5": 6164041.22,
+      "valorAcumuladoConcursoEspecial": 5665384.27,
+      "valorAcumuladoProximoConcurso": 29637954.24,
+      "valorEstimadoProximoConcurso": 35000000.0
+    }
+  },
+  {
+    "draw_id": 1902,
+    "draw_date": "2017-02-11",
+    "numbers": [
+      2,
+      7,
+      9,
+      18,
+      21,
+      25
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1902,
+      "data": "11/02/2017",
+      "local": "Caminh\u00e3o da Sorte em ITABIRA, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "25",
+        "18",
+        "02",
+        "21",
+        "09",
+        "07"
+      ],
+      "dezenas": [
+        "02",
+        "07",
+        "09",
+        "18",
+        "21",
+        "25"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 3,
+          "valorPremio": 11813566.31
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 367,
+          "valorPremio": 8583.27
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 13764,
+          "valorPremio": 326.94
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1903,
+      "dataProximoConcurso": "15/02/2017",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "IPATINGA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "ITU",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "SANTA CRUZ DA CONCEI\u00c7\u00c3O",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 54636827.0,
+      "valorAcumuladoConcurso_0_5": 9811480.75,
+      "valorAcumuladoConcursoEspecial": 6494347.82,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 1903,
+    "draw_date": "2017-02-15",
+    "numbers": [
+      9,
+      10,
+      15,
+      28,
+      43,
+      45
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1903,
+      "data": "15/02/2017",
+      "local": "Caminh\u00e3o da Sorte em LAGOA DA PRATA, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "09",
+        "43",
+        "10",
+        "15",
+        "45",
+        "28"
+      ],
+      "dezenas": [
+        "09",
+        "10",
+        "15",
+        "28",
+        "43",
+        "45"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 41,
+          "valorPremio": 33533.69
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3205,
+          "valorPremio": 612.82
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1904,
+      "dataProximoConcurso": "18/02/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 23846886.0,
+      "valorAcumuladoConcurso_0_5": 11403448.65,
+      "valorAcumuladoConcursoEspecial": 6856158.71,
+      "valorAcumuladoProximoConcurso": 2532676.2,
+      "valorEstimadoProximoConcurso": 5000000.0
+    }
+  },
+  {
+    "draw_id": 1904,
+    "draw_date": "2017-02-18",
+    "numbers": [
+      12,
+      15,
+      18,
+      21,
+      51,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1904,
+      "data": "18/02/2017",
+      "local": "Caminh\u00e3o da Sorte em LAGOA DA PRATA, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "21",
+        "18",
+        "56",
+        "15",
+        "51",
+        "12"
+      ],
+      "dezenas": [
+        "12",
+        "15",
+        "18",
+        "21",
+        "51",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 82,
+          "valorPremio": 20742.5
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4003,
+          "valorPremio": 607.0
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1905,
+      "dataProximoConcurso": "21/02/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 29501318.0,
+      "valorAcumuladoConcurso_0_5": 19038780.05,
+      "valorAcumuladoConcursoEspecial": 7303760.06,
+      "valorAcumuladoProximoConcurso": 19038780.05,
+      "valorEstimadoProximoConcurso": 22000000.0
+    }
+  },
+  {
+    "draw_id": 1905,
+    "draw_date": "2017-02-21",
+    "numbers": [
+      29,
+      35,
+      43,
+      54,
+      56,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1905,
+      "data": "21/02/2017",
+      "local": "Espa\u00e7o Caixa Loterias em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "43",
+        "54",
+        "29",
+        "57",
+        "35",
+        "56"
+      ],
+      "dezenas": [
+        "29",
+        "35",
+        "43",
+        "54",
+        "56",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 22,
+          "valorPremio": 70438.67
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2351,
+          "valorPremio": 941.63
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1906,
+      "dataProximoConcurso": "23/02/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 26878204.5,
+      "valorAcumuladoConcurso_0_5": 1794332.34,
+      "valorAcumuladoConcursoEspecial": 7711562.87,
+      "valorAcumuladoProximoConcurso": 21893399.68,
+      "valorEstimadoProximoConcurso": 25000000.0
+    }
+  },
+  {
+    "draw_id": 1906,
+    "draw_date": "2017-02-23",
+    "numbers": [
+      6,
+      27,
+      33,
+      39,
+      40,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1906,
+      "data": "23/02/2017",
+      "local": "Espa\u00e7o Caixa Loterias em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "27",
+        "40",
+        "33",
+        "06",
+        "39",
+        "60"
+      ],
+      "dezenas": [
+        "06",
+        "27",
+        "33",
+        "39",
+        "40",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 54,
+          "valorPremio": 38424.36
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3833,
+          "valorPremio": 773.32
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1907,
+      "dataProximoConcurso": "25/02/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 35988757.0,
+      "valorAcumuladoConcurso_0_5": 4196865.98,
+      "valorAcumuladoConcursoEspecial": 8257593.26,
+      "valorAcumuladoProximoConcurso": 25715612.29,
+      "valorEstimadoProximoConcurso": 30000000.0
+    }
+  },
+  {
+    "draw_id": 1907,
+    "draw_date": "2017-02-25",
+    "numbers": [
+      3,
+      25,
+      35,
+      38,
+      44,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1907,
+      "data": "25/02/2017",
+      "local": "Espa\u00e7o Caixa Loterias em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "03",
+        "48",
+        "44",
+        "35",
+        "25",
+        "38"
+      ],
+      "dezenas": [
+        "03",
+        "25",
+        "35",
+        "38",
+        "44",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 55,
+          "valorPremio": 42855.91
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4353,
+          "valorPremio": 773.54
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1908,
+      "dataProximoConcurso": "01/03/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 40882726.5,
+      "valorAcumuladoConcurso_0_5": 6926110.71,
+      "valorAcumuladoConcursoEspecial": 8877876.17,
+      "valorAcumuladoProximoConcurso": 30057592.56,
+      "valorEstimadoProximoConcurso": 35000000.0
+    }
+  },
+  {
+    "draw_id": 1908,
+    "draw_date": "2017-03-01",
+    "numbers": [
+      4,
+      10,
+      13,
+      23,
+      27,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1908,
+      "data": "01/03/2017",
+      "local": "Espa\u00e7o Caixa Loterias em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "10",
+        "27",
+        "57",
+        "13",
+        "23",
+        "04"
+      ],
+      "dezenas": [
+        "04",
+        "10",
+        "13",
+        "23",
+        "27",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 95,
+          "valorPremio": 17555.12
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5839,
+          "valorPremio": 408.02
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1909,
+      "dataProximoConcurso": "04/03/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 28926369.5,
+      "valorAcumuladoConcurso_0_5": 8857174.23,
+      "valorAcumuladoConcursoEspecial": 9316754.26,
+      "valorAcumuladoProximoConcurso": 33129739.06,
+      "valorEstimadoProximoConcurso": 38000000.0
+    }
+  },
+  {
+    "draw_id": 1909,
+    "draw_date": "2017-03-04",
+    "numbers": [
+      11,
+      40,
+      43,
+      45,
+      47,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1909,
+      "data": "04/03/2017",
+      "local": "Espa\u00e7o Caixa Loterias em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "47",
+        "43",
+        "45",
+        "40",
+        "57",
+        "11"
+      ],
+      "dezenas": [
+        "11",
+        "40",
+        "43",
+        "45",
+        "47",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 27,
+          "valorPremio": 122896.6
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4423,
+          "valorPremio": 1071.73
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1910,
+      "dataProximoConcurso": "08/03/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 57553279.0,
+      "valorAcumuladoConcurso_0_5": 51941537.67,
+      "valorAcumuladoConcursoEspecial": 10189966.95,
+      "valorAcumuladoProximoConcurso": 51941537.67,
+      "valorEstimadoProximoConcurso": 58000000.0
+    }
+  },
+  {
+    "draw_id": 1910,
+    "draw_date": "2017-03-08",
+    "numbers": [
+      6,
+      9,
+      15,
+      22,
+      39,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1910,
+      "data": "08/03/2017",
+      "local": "Caminh\u00e3o da Sorte em SERRA NEGRA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "09",
+        "06",
+        "39",
+        "15",
+        "22",
+        "48"
+      ],
+      "dezenas": [
+        "06",
+        "09",
+        "15",
+        "22",
+        "39",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 59741202.88
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 219,
+          "valorPremio": 19333.81
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10816,
+          "valorPremio": 559.23
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1911,
+      "dataProximoConcurso": "11/03/2017",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "CONCEI\u00c7\u00c3O DO PAR\u00c1",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        }
+      ],
+      "valorArrecadado": 73439205.0,
+      "valorAcumuladoConcurso_0_5": 4902646.7,
+      "valorAcumuladoConcursoEspecial": 11304204.85,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 1911,
+    "draw_date": "2017-03-11",
+    "numbers": [
+      16,
+      18,
+      23,
+      30,
+      32,
+      33
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1911,
+      "data": "11/03/2017",
+      "local": "Caminh\u00e3o da Sorte em SERRA NEGRA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "32",
+        "16",
+        "33",
+        "23",
+        "18",
+        "30"
+      ],
+      "dezenas": [
+        "16",
+        "18",
+        "23",
+        "30",
+        "32",
+        "33"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 42,
+          "valorPremio": 36634.43
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2817,
+          "valorPremio": 780.28
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1912,
+      "dataProximoConcurso": "15/03/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 26687335.5,
+      "valorAcumuladoConcurso_0_5": 6684237.03,
+      "valorAcumuladoConcursoEspecial": 11709111.76,
+      "valorAcumuladoProximoConcurso": 2834348.24,
+      "valorEstimadoProximoConcurso": 6000000.0
+    }
+  },
+  {
+    "draw_id": 1912,
+    "draw_date": "2017-03-15",
+    "numbers": [
+      10,
+      13,
+      33,
+      35,
+      36,
+      42
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1912,
+      "data": "15/03/2017",
+      "local": "Caminh\u00e3o da Sorte em BARRA BONITA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "42",
+        "10",
+        "33",
+        "36",
+        "13",
+        "35"
+      ],
+      "dezenas": [
+        "10",
+        "13",
+        "33",
+        "35",
+        "36",
+        "42"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 5848882.96
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 43,
+          "valorPremio": 38057.25
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4556,
+          "valorPremio": 513.12
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1913,
+      "dataProximoConcurso": "18/03/2017",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "CAMPINA GRANDE",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PB"
+        }
+      ],
+      "valorArrecadado": 28383915.0,
+      "valorAcumuladoConcurso_0_5": 8579087.42,
+      "valorAcumuladoConcursoEspecial": 12139759.59,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 1913,
+    "draw_date": "2017-03-18",
+    "numbers": [
+      4,
+      14,
+      17,
+      43,
+      52,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1913,
+      "data": "18/03/2017",
+      "local": "Caminh\u00e3o da Sorte em BARRA BONITA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "14",
+        "56",
+        "52",
+        "17",
+        "04",
+        "43"
+      ],
+      "dezenas": [
+        "04",
+        "14",
+        "17",
+        "43",
+        "52",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 43,
+          "valorPremio": 35274.91
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2960,
+          "valorPremio": 732.05
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1914,
+      "dataProximoConcurso": "22/03/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 26308782.5,
+      "valorAcumuladoConcurso_0_5": 10335406.34,
+      "valorAcumuladoConcursoEspecial": 12538922.98,
+      "valorAcumuladoProximoConcurso": 2794143.74,
+      "valorEstimadoProximoConcurso": 6000000.0
+    }
+  },
+  {
+    "draw_id": 1914,
+    "draw_date": "2017-03-22",
+    "numbers": [
+      16,
+      29,
+      33,
+      39,
+      42,
+      44
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1914,
+      "data": "22/03/2017",
+      "local": "Caminh\u00e3o da Sorte em TEODORO SAMPAIO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "39",
+        "33",
+        "29",
+        "16",
+        "44",
+        "42"
+      ],
+      "dezenas": [
+        "16",
+        "29",
+        "33",
+        "39",
+        "42",
+        "44"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 5805678.69
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 27,
+          "valorPremio": 60549.38
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2403,
+          "valorPremio": 971.9
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1915,
+      "dataProximoConcurso": "25/03/2017",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "VITORIA DE SANTO ANT\u00c3O",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PE"
+        }
+      ],
+      "valorArrecadado": 28355670.0,
+      "valorAcumuladoConcurso_0_5": 12228371.17,
+      "valorAcumuladoConcursoEspecial": 12969142.27,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 16000000.0
+    }
+  },
+  {
+    "draw_id": 1915,
+    "draw_date": "2017-03-25",
+    "numbers": [
+      2,
+      20,
+      21,
+      33,
+      48,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1915,
+      "data": "25/03/2017",
+      "local": "Caminh\u00e3o da Sorte em TEODORO SAMPAIO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "57",
+        "21",
+        "02",
+        "33",
+        "20",
+        "48"
+      ],
+      "dezenas": [
+        "02",
+        "20",
+        "21",
+        "33",
+        "48",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 39,
+          "valorPremio": 53170.03
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3429,
+          "valorPremio": 863.9
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1916,
+      "dataProximoConcurso": "29/03/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 35966479.5,
+      "valorAcumuladoConcurso_0_5": 2401046.44,
+      "valorAcumuladoConcursoEspecial": 13514834.66,
+      "valorAcumuladoProximoConcurso": 16048217.78,
+      "valorEstimadoProximoConcurso": 20000000.0
+    }
+  },
+  {
+    "draw_id": 1916,
+    "draw_date": "2017-03-29",
+    "numbers": [
+      3,
+      9,
+      18,
+      23,
+      50,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1916,
+      "data": "29/03/2017",
+      "local": "Caminh\u00e3o da Sorte em SUZANO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "03",
+        "50",
+        "18",
+        "23",
+        "09",
+        "52"
+      ],
+      "dezenas": [
+        "03",
+        "09",
+        "18",
+        "23",
+        "50",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 100,
+          "valorPremio": 23094.5
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5478,
+          "valorPremio": 602.26
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1917,
+      "dataProximoConcurso": "01/04/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 40056670.5,
+      "valorAcumuladoConcurso_0_5": 5075145.42,
+      "valorAcumuladoConcursoEspecial": 14122584.45,
+      "valorAcumuladoProximoConcurso": 20302466.15,
+      "valorEstimadoProximoConcurso": 25000000.0
+    }
+  },
+  {
+    "draw_id": 1917,
+    "draw_date": "2017-04-01",
+    "numbers": [
+      4,
+      21,
+      25,
+      33,
+      36,
+      46
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1917,
+      "data": "01/04/2017",
+      "local": "Caminh\u00e3o da Sorte em SUZANO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "04",
+        "36",
+        "25",
+        "21",
+        "46",
+        "33"
+      ],
+      "dezenas": [
+        "04",
+        "21",
+        "25",
+        "33",
+        "36",
+        "46"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 70,
+          "valorPremio": 38222.98
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5412,
+          "valorPremio": 706.26
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1918,
+      "dataProximoConcurso": "05/04/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 46407588.5,
+      "valorAcumuladoConcurso_0_5": 8173218.32,
+      "valorAcumuladoConcursoEspecial": 14826691.93,
+      "valorAcumuladoProximoConcurso": 25231218.49,
+      "valorEstimadoProximoConcurso": 30000000.0
+    }
+  },
+  {
+    "draw_id": 1918,
+    "draw_date": "2017-04-05",
+    "numbers": [
+      16,
+      17,
+      20,
+      22,
+      38,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1918,
+      "data": "05/04/2017",
+      "local": "CAMINH\u00c3O DA SORTE em CANTAGALO, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "22",
+        "17",
+        "50",
+        "38",
+        "20",
+        "16"
+      ],
+      "dezenas": [
+        "16",
+        "17",
+        "20",
+        "22",
+        "38",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 67,
+          "valorPremio": 44701.88
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5269,
+          "valorPremio": 812.03
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1919,
+      "dataProximoConcurso": "08/04/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 51947780.5,
+      "valorAcumuladoConcurso_0_5": 11641142.76,
+      "valorAcumuladoConcursoEspecial": 15614856.6,
+      "valorAcumuladoProximoConcurso": 30748371.01,
+      "valorEstimadoProximoConcurso": 36000000.0
+    }
+  },
+  {
+    "draw_id": 1919,
+    "draw_date": "2017-04-08",
+    "numbers": [
+      11,
+      28,
+      37,
+      45,
+      54,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1919,
+      "data": "08/04/2017",
+      "local": "CAMINH\u00c3O DA SORTE em CANTAGALO, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "60",
+        "28",
+        "54",
+        "37",
+        "45",
+        "11"
+      ],
+      "dezenas": [
+        "11",
+        "28",
+        "37",
+        "45",
+        "54",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 67,
+          "valorPremio": 50218.8
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5858,
+          "valorPremio": 820.52
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1920,
+      "dataProximoConcurso": "12/04/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 58358968.5,
+      "valorAcumuladoConcurso_0_5": 52483493.14,
+      "valorAcumuladoConcursoEspecial": 16500293.42,
+      "valorAcumuladoProximoConcurso": 52483493.14,
+      "valorEstimadoProximoConcurso": 59000000.0
+    }
+  },
+  {
+    "draw_id": 1920,
+    "draw_date": "2017-04-12",
+    "numbers": [
+      25,
+      31,
+      33,
+      39,
+      43,
+      45
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1920,
+      "data": "12/04/2017",
+      "local": "Caminh\u00e3o da Sorte em CANELA, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "39",
+        "45",
+        "31",
+        "25",
+        "43",
+        "33"
+      ],
+      "dezenas": [
+        "25",
+        "31",
+        "33",
+        "39",
+        "43",
+        "45"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 90,
+          "valorPremio": 45091.85
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6586,
+          "valorPremio": 880.27
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1921,
+      "dataProximoConcurso": "15/04/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 70389350.5,
+      "valorAcumuladoConcurso_0_5": 4699044.84,
+      "valorAcumuladoConcursoEspecial": 17568258.17,
+      "valorAcumuladoProximoConcurso": 59959246.3,
+      "valorEstimadoProximoConcurso": 65000000.0
+    }
+  },
+  {
+    "draw_id": 1921,
+    "draw_date": "2017-04-15",
+    "numbers": [
+      10,
+      15,
+      16,
+      19,
+      28,
+      35
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1921,
+      "data": "15/04/2017",
+      "local": "Caminh\u00e3o da Sorte em CANELA, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "19",
+        "10",
+        "16",
+        "15",
+        "28",
+        "35"
+      ],
+      "dezenas": [
+        "10",
+        "15",
+        "16",
+        "19",
+        "28",
+        "35"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 127,
+          "valorPremio": 30856.7
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9277,
+          "valorPremio": 603.45
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1922,
+      "dataProximoConcurso": "19/04/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 67970381.5,
+      "valorAcumuladoConcurso_0_5": 9236604.4,
+      "valorAcumuladoConcursoEspecial": 18599521.71,
+      "valorAcumuladoProximoConcurso": 67178091.05,
+      "valorEstimadoProximoConcurso": 75000000.0
+    }
+  },
+  {
+    "draw_id": 1922,
+    "draw_date": "2017-04-19",
+    "numbers": [
+      20,
+      22,
+      36,
+      38,
+      41,
+      43
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1922,
+      "data": "19/04/2017",
+      "local": "CAMINH\u00c3O DA SORTE em S\u00c3O FID\u00c9LIS, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "20",
+        "41",
+        "22",
+        "36",
+        "43",
+        "38"
+      ],
+      "dezenas": [
+        "20",
+        "22",
+        "36",
+        "38",
+        "41",
+        "43"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 124,
+          "valorPremio": 43174.39
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8817,
+          "valorPremio": 867.41
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1923,
+      "dataProximoConcurso": "22/04/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 92856928.5,
+      "valorAcumuladoConcurso_0_5": 15435537.45,
+      "valorAcumuladoConcursoEspecial": 20008370.14,
+      "valorAcumuladoProximoConcurso": 77040029.99,
+      "valorEstimadoProximoConcurso": 88000000.0
+    }
+  },
+  {
+    "draw_id": 1923,
+    "draw_date": "2017-04-22",
+    "numbers": [
+      9,
+      34,
+      42,
+      45,
+      46,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1923,
+      "data": "22/04/2017",
+      "local": "CAMINH\u00c3O DA SORTE em S\u00c3O FID\u00c9LIS, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "46",
+        "34",
+        "59",
+        "45",
+        "09",
+        "42"
+      ],
+      "dezenas": [
+        "09",
+        "34",
+        "42",
+        "45",
+        "46",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 110,
+          "valorPremio": 50376.11
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9351,
+          "valorPremio": 846.56
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1924,
+      "dataProximoConcurso": "26/04/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 96113356.5,
+      "valorAcumuladoConcurso_0_5": 21851862.77,
+      "valorAcumuladoConcursoEspecial": 21466625.91,
+      "valorAcumuladoProximoConcurso": 87247820.27,
+      "valorEstimadoProximoConcurso": 97000000.0
+    }
+  },
+  {
+    "draw_id": 1924,
+    "draw_date": "2017-04-26",
+    "numbers": [
+      12,
+      16,
+      30,
+      52,
+      53,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1924,
+      "data": "26/04/2017",
+      "local": "Caminh\u00e3o da Sorte em FRANCO DA ROCHA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "16",
+        "52",
+        "53",
+        "58",
+        "30",
+        "12"
+      ],
+      "dezenas": [
+        "12",
+        "16",
+        "30",
+        "52",
+        "53",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 101484527.44
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 188,
+          "valorPremio": 41109.03
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11382,
+          "valorPremio": 970.01
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1925,
+      "dataProximoConcurso": "29/04/2017",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "JACIARA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MT"
+        }
+      ],
+      "valorArrecadado": 134048376.0,
+      "valorAcumuladoConcurso_0_5": 30800650.13,
+      "valorAcumuladoConcursoEspecial": 23500441.23,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 35000000.0
+    }
+  },
+  {
+    "draw_id": 1925,
+    "draw_date": "2017-04-29",
+    "numbers": [
+      1,
+      17,
+      38,
+      43,
+      45,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1925,
+      "data": "29/04/2017",
+      "local": "Caminh\u00e3o da Sorte em FRANCO DA ROCHA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "47",
+        "43",
+        "38",
+        "01",
+        "17",
+        "45"
+      ],
+      "dezenas": [
+        "01",
+        "17",
+        "38",
+        "43",
+        "45",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 50,
+          "valorPremio": 53604.54
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5258,
+          "valorPremio": 728.2
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1926,
+      "dataProximoConcurso": "03/05/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 46487696.5,
+      "valorAcumuladoConcurso_0_5": 3103420.74,
+      "valorAcumuladoConcursoEspecial": 24205764.14,
+      "valorAcumuladoProximoConcurso": 35737910.39,
+      "valorEstimadoProximoConcurso": 40000000.0
+    }
+  },
+  {
+    "draw_id": 1926,
+    "draw_date": "2017-05-03",
+    "numbers": [
+      2,
+      3,
+      14,
+      20,
+      30,
+      46
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1926,
+      "data": "03/05/2017",
+      "local": "Caminh\u00e3o da Sorte em ANAST\u00c1CIO, MS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "46",
+        "03",
+        "02",
+        "30",
+        "14",
+        "20"
+      ],
+      "dezenas": [
+        "02",
+        "03",
+        "14",
+        "20",
+        "30",
+        "46"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 41318205.91
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 95,
+          "valorPremio": 31887.41
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6741,
+          "valorPremio": 641.97
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1927,
+      "dataProximoConcurso": "06/05/2017",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "S\u00c3O PAULO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 52542315.0,
+      "valorAcumuladoConcurso_0_5": 6611035.06,
+      "valorAcumuladoConcursoEspecial": 25002949.22,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 1927,
+    "draw_date": "2017-05-06",
+    "numbers": [
+      5,
+      11,
+      13,
+      19,
+      30,
+      31
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1927,
+      "data": "06/05/2017",
+      "local": "Caminh\u00e3o da Sorte em ANAST\u00c1CIO, MS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "11",
+        "05",
+        "30",
+        "31",
+        "13",
+        "19"
+      ],
+      "dezenas": [
+        "05",
+        "11",
+        "13",
+        "19",
+        "30",
+        "31"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 3343108.9
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 140,
+          "valorPremio": 12963.07
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7385,
+          "valorPremio": 351.06
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1928,
+      "dataProximoConcurso": "09/05/2017",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "PORTO ALEGRE",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RS"
+        }
+      ],
+      "valorArrecadado": 31477666.5,
+      "valorAcumuladoConcurso_0_5": 8712417.79,
+      "valorAcumuladoConcursoEspecial": 25480536.22,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 1928,
+    "draw_date": "2017-05-09",
+    "numbers": [
+      10,
+      26,
+      28,
+      51,
+      53,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1928,
+      "data": "09/05/2017",
+      "local": "Caminh\u00e3o da Sorte em LUCAS DO RIO VERDE, MT",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "28",
+        "51",
+        "59",
+        "26",
+        "53",
+        "10"
+      ],
+      "dezenas": [
+        "10",
+        "26",
+        "28",
+        "51",
+        "53",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 28,
+          "valorPremio": 31886.89
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1630,
+          "valorPremio": 782.5
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1929,
+      "dataProximoConcurso": "11/05/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 15485907.5,
+      "valorAcumuladoConcurso_0_5": 9746224.36,
+      "valorAcumuladoConcursoEspecial": 25715492.26,
+      "valorAcumuladoProximoConcurso": 1644692.28,
+      "valorEstimadoProximoConcurso": 3500000.0
+    }
+  },
+  {
+    "draw_id": 1929,
+    "draw_date": "2017-05-11",
+    "numbers": [
+      3,
+      10,
+      23,
+      36,
+      43,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1929,
+      "data": "11/05/2017",
+      "local": "Caminh\u00e3o da Sorte em LUCAS DO RIO VERDE, MT",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "10",
+        "52",
+        "23",
+        "36",
+        "03",
+        "43"
+      ],
+      "dezenas": [
+        "03",
+        "10",
+        "23",
+        "36",
+        "43",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 45,
+          "valorPremio": 29973.67
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3225,
+          "valorPremio": 597.48
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1930,
+      "dataProximoConcurso": "13/05/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 23394773.5,
+      "valorAcumuladoConcurso_0_5": 15437361.69,
+      "valorAcumuladoConcursoEspecial": 26070443.6,
+      "valorAcumuladoProximoConcurso": 15437361.69,
+      "valorEstimadoProximoConcurso": 18000000.0
+    }
+  },
+  {
+    "draw_id": 1930,
+    "draw_date": "2017-05-13",
+    "numbers": [
+      4,
+      17,
+      18,
+      37,
+      52,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1930,
+      "data": "13/05/2017",
+      "local": "Caminh\u00e3o da Sorte em LUCAS DO RIO VERDE, MT",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "17",
+        "56",
+        "37",
+        "52",
+        "18",
+        "04"
+      ],
+      "dezenas": [
+        "04",
+        "17",
+        "18",
+        "37",
+        "52",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 50,
+          "valorPremio": 41471.66
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4712,
+          "valorPremio": 628.66
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1931,
+      "dataProximoConcurso": "17/05/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 35965646.5,
+      "valorAcumuladoConcurso_0_5": 2400990.83,
+      "valorAcumuladoConcursoEspecial": 26616123.36,
+      "valorAcumuladoProximoConcurso": 19257119.83,
+      "valorEstimadoProximoConcurso": 24000000.0
+    }
+  },
+  {
+    "draw_id": 1931,
+    "draw_date": "2017-05-17",
+    "numbers": [
+      2,
+      8,
+      9,
+      15,
+      22,
+      34
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1931,
+      "data": "17/05/2017",
+      "local": "Caminh\u00e3o da Sorte em PONTES E LACERDA, MT",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "34",
+        "08",
+        "02",
+        "15",
+        "09",
+        "22"
+      ],
+      "dezenas": [
+        "02",
+        "08",
+        "09",
+        "15",
+        "22",
+        "34"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 131,
+          "valorPremio": 19252.27
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8918,
+          "valorPremio": 404.0
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1932,
+      "dataProximoConcurso": "20/05/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 43744127.0,
+      "valorAcumuladoConcurso_0_5": 5321256.64,
+      "valorAcumuladoConcursoEspecial": 27279820.15,
+      "valorAcumuladoProximoConcurso": 23902997.26,
+      "valorEstimadoProximoConcurso": 30000000.0
+    }
+  },
+  {
+    "draw_id": 1932,
+    "draw_date": "2017-05-20",
+    "numbers": [
+      10,
+      16,
+      21,
+      29,
+      44,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1932,
+      "data": "20/05/2017",
+      "local": "Caminh\u00e3o da Sorte em PONTES E LACERDA, MT",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "55",
+        "21",
+        "16",
+        "44",
+        "29",
+        "10"
+      ],
+      "dezenas": [
+        "10",
+        "16",
+        "21",
+        "29",
+        "44",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 72,
+          "valorPremio": 38379.16
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5449,
+          "valorPremio": 724.45
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1933,
+      "dataProximoConcurso": "24/05/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 47928555.5,
+      "valorAcumuladoConcurso_0_5": 8520866.09,
+      "valorAcumuladoConcursoEspecial": 28007004.13,
+      "valorAcumuladoProximoConcurso": 28993285.02,
+      "valorEstimadoProximoConcurso": 34000000.0
+    }
+  },
+  {
+    "draw_id": 1933,
+    "draw_date": "2017-05-24",
+    "numbers": [
+      2,
+      14,
+      15,
+      19,
+      35,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1933,
+      "data": "24/05/2017",
+      "local": "Caminh\u00e3o da Sorte em SANTO ANTONIO DE JESUS, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "15",
+        "19",
+        "35",
+        "59",
+        "14",
+        "02"
+      ],
+      "dezenas": [
+        "02",
+        "14",
+        "15",
+        "19",
+        "35",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 86,
+          "valorPremio": 32514.14
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6417,
+          "valorPremio": 622.5
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1934,
+      "dataProximoConcurso": "27/05/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 48499493.0,
+      "valorAcumuladoConcurso_0_5": 11758590.13,
+      "valorAcumuladoConcursoEspecial": 28742850.52,
+      "valorAcumuladoProximoConcurso": 34144209.63,
+      "valorEstimadoProximoConcurso": 40000000.0
+    }
+  },
+  {
+    "draw_id": 1934,
+    "draw_date": "2017-05-27",
+    "numbers": [
+      8,
+      23,
+      35,
+      39,
+      56,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1934,
+      "data": "27/05/2017",
+      "local": "Caminh\u00e3o da Sorte em SANTO ANTONIO DE JESUS, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "56",
+        "39",
+        "35",
+        "08",
+        "23",
+        "59"
+      ],
+      "dezenas": [
+        "08",
+        "23",
+        "35",
+        "39",
+        "56",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 105,
+          "valorPremio": 30987.58
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6699,
+          "valorPremio": 693.85
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1935,
+      "dataProximoConcurso": "31/05/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 56434322.0,
+      "valorAcumuladoConcurso_0_5": 55663885.26,
+      "valorAcumuladoConcursoEspecial": 29599086.1,
+      "valorAcumuladoProximoConcurso": 55663885.26,
+      "valorEstimadoProximoConcurso": 65000000.0
+    }
+  },
+  {
+    "draw_id": 1935,
+    "draw_date": "2017-05-31",
+    "numbers": [
+      1,
+      3,
+      10,
+      17,
+      23,
+      24
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1935,
+      "data": "31/05/2017",
+      "local": "Caminh\u00e3o da Sorte em PARA\u00cdBA DO SUL, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "24",
+        "17",
+        "10",
+        "01",
+        "03",
+        "23"
+      ],
+      "dezenas": [
+        "01",
+        "03",
+        "10",
+        "17",
+        "23",
+        "24"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 3,
+          "valorPremio": 20928347.7
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 497,
+          "valorPremio": 7778.22
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 18964,
+          "valorPremio": 291.21
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1936,
+      "dataProximoConcurso": "03/06/2017",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "CONTAGEM",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "BOA ESPERAN\u00c7A",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "RIO DE JANEIRO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        }
+      ],
+      "valorArrecadado": 67050592.0,
+      "valorAcumuladoConcurso_0_5": 4476156.35,
+      "valorAcumuladoConcursoEspecial": 30616394.37,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 1936,
+    "draw_date": "2017-06-03",
+    "numbers": [
+      3,
+      12,
+      24,
+      40,
+      51,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1936,
+      "data": "03/06/2017",
+      "local": "Caminh\u00e3o da Sorte em PARA\u00cdBA DO SUL, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "51",
+        "40",
+        "52",
+        "24",
+        "12",
+        "03"
+      ],
+      "dezenas": [
+        "03",
+        "12",
+        "24",
+        "40",
+        "51",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 43,
+          "valorPremio": 38440.62
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2686,
+          "valorPremio": 879.13
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1937,
+      "dataProximoConcurso": "07/06/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 28669844.0,
+      "valorAcumuladoConcurso_0_5": 6390094.77,
+      "valorAcumuladoConcursoEspecial": 31051380.39,
+      "valorAcumuladoProximoConcurso": 3044902.03,
+      "valorEstimadoProximoConcurso": 6500000.0
+    }
+  },
+  {
+    "draw_id": 1937,
+    "draw_date": "2017-06-07",
+    "numbers": [
+      6,
+      10,
+      24,
+      29,
+      43,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1937,
+      "data": "07/06/2017",
+      "local": "Caminh\u00e3o da Sorte em ITATIBA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "10",
+        "29",
+        "24",
+        "43",
+        "06",
+        "55"
+      ],
+      "dezenas": [
+        "06",
+        "10",
+        "24",
+        "29",
+        "43",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 6310224.41
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 71,
+          "valorPremio": 24966.25
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4055,
+          "valorPremio": 624.48
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1938,
+      "dataProximoConcurso": "10/06/2017",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "FORTALEZA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "CE"
+        }
+      ],
+      "valorArrecadado": 30745253.0,
+      "valorAcumuladoConcurso_0_5": 8442583.12,
+      "valorAcumuladoConcursoEspecial": 31517855.04,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 1938,
+    "draw_date": "2017-06-10",
+    "numbers": [
+      10,
+      16,
+      32,
+      40,
+      42,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1938,
+      "data": "10/06/2017",
+      "local": "Caminh\u00e3o da Sorte em ITATIBA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "10",
+        "54",
+        "42",
+        "16",
+        "40",
+        "32"
+      ],
+      "dezenas": [
+        "10",
+        "16",
+        "32",
+        "40",
+        "42",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 24,
+          "valorPremio": 65892.57
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2220,
+          "valorPremio": 1017.64
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1939,
+      "dataProximoConcurso": "14/06/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 27429262.0,
+      "valorAcumuladoConcurso_0_5": 10273702.89,
+      "valorAcumuladoConcursoEspecial": 31934018.64,
+      "valorAcumuladoProximoConcurso": 2913145.1,
+      "valorEstimadoProximoConcurso": 6500000.0
+    }
+  },
+  {
+    "draw_id": 1939,
+    "draw_date": "2017-06-14",
+    "numbers": [
+      7,
+      24,
+      29,
+      39,
+      45,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1939,
+      "data": "14/06/2017",
+      "local": "Caminh\u00e3o da Sorte em CONCEI\u00c7\u00c3O DO MATO DENTRO, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "39",
+        "29",
+        "24",
+        "52",
+        "07",
+        "45"
+      ],
+      "dezenas": [
+        "07",
+        "24",
+        "29",
+        "39",
+        "45",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 59,
+          "valorPremio": 28676.64
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3620,
+          "valorPremio": 667.68
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1940,
+      "dataProximoConcurso": "17/06/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 29345851.5,
+      "valorAcumuladoConcurso_0_5": 18262613.14,
+      "valorAcumuladoConcursoEspecial": 32379261.21,
+      "valorAcumuladoProximoConcurso": 18262613.14,
+      "valorEstimadoProximoConcurso": 21000000.0
+    }
+  },
+  {
+    "draw_id": 1940,
+    "draw_date": "2017-06-17",
+    "numbers": [
+      9,
+      13,
+      16,
+      17,
+      36,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1940,
+      "data": "17/06/2017",
+      "local": "CAMINH\u00c3O DA SORTE em CONCEI\u00c7\u00c3O DO MATO DENTRO, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "36",
+        "16",
+        "09",
+        "47",
+        "13",
+        "17"
+      ],
+      "dezenas": [
+        "09",
+        "13",
+        "16",
+        "17",
+        "36",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 95,
+          "valorPremio": 22002.44
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6468,
+          "valorPremio": 461.66
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1941,
+      "dataProximoConcurso": "21/06/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 36254417.5,
+      "valorAcumuladoConcurso_0_5": 2420268.58,
+      "valorAcumuladoConcursoEspecial": 32929322.27,
+      "valorAcumuladoProximoConcurso": 22113040.42,
+      "valorEstimadoProximoConcurso": 26700000.0
+    }
+  },
+  {
+    "draw_id": 1941,
+    "draw_date": "2017-06-21",
+    "numbers": [
+      1,
+      9,
+      24,
+      38,
+      48,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1941,
+      "data": "21/06/2017",
+      "local": "Caminh\u00e3o da Sorte em CAMPINA GRANDE , PB",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "38",
+        "01",
+        "09",
+        "48",
+        "49",
+        "24"
+      ],
+      "dezenas": [
+        "01",
+        "09",
+        "24",
+        "38",
+        "48",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 26572503.56
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 63,
+          "valorPremio": 38426.22
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4313,
+          "valorPremio": 801.84
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1942,
+      "dataProximoConcurso": "24/06/2017",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "PERU\u00cdBE",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 41988908.5,
+      "valorAcumuladoConcurso_0_5": 5223359.7,
+      "valorAcumuladoConcursoEspecial": 33566388.45,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 1942,
+    "draw_date": "2017-06-24",
+    "numbers": [
+      6,
+      18,
+      20,
+      24,
+      43,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1942,
+      "data": "24/06/2017",
+      "local": "Espa\u00e7o Caixa Loterias em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "48",
+        "20",
+        "43",
+        "18",
+        "06",
+        "24"
+      ],
+      "dezenas": [
+        "06",
+        "18",
+        "20",
+        "24",
+        "43",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 56,
+          "valorPremio": 24941.71
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4126,
+          "valorPremio": 483.6
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1943,
+      "dataProximoConcurso": "28/06/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 24225943.0,
+      "valorAcumuladoConcurso_0_5": 6840632.64,
+      "valorAcumuladoConcursoEspecial": 33933950.5,
+      "valorAcumuladoProximoConcurso": 2572934.23,
+      "valorEstimadoProximoConcurso": 6000000.0
+    }
+  },
+  {
+    "draw_id": 1943,
+    "draw_date": "2017-06-28",
+    "numbers": [
+      9,
+      11,
+      12,
+      30,
+      39,
+      43
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1943,
+      "data": "28/06/2017",
+      "local": "Caminh\u00e3o da Sorte em CACHOEIRA, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "43",
+        "11",
+        "39",
+        "09",
+        "30",
+        "12"
+      ],
+      "dezenas": [
+        "09",
+        "11",
+        "12",
+        "30",
+        "39",
+        "43"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 23,
+          "valorPremio": 66077.13
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2870,
+          "valorPremio": 756.48
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1944,
+      "dataProximoConcurso": "01/07/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 26360005.0,
+      "valorAcumuladoConcurso_0_5": 8600371.06,
+      "valorAcumuladoConcursoEspecial": 34333891.06,
+      "valorAcumuladoProximoConcurso": 5372518.09,
+      "valorEstimadoProximoConcurso": 8000000.0
+    }
+  },
+  {
+    "draw_id": 1944,
+    "draw_date": "2017-07-01",
+    "numbers": [
+      8,
+      9,
+      39,
+      47,
+      57,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1944,
+      "data": "01/07/2017",
+      "local": "Caminh\u00e3o da Sorte em CACHOEIRA, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "08",
+        "57",
+        "47",
+        "39",
+        "09",
+        "59"
+      ],
+      "dezenas": [
+        "08",
+        "09",
+        "39",
+        "47",
+        "57",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 41,
+          "valorPremio": 46673.04
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2879,
+          "valorPremio": 949.53
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1945,
+      "dataProximoConcurso": "04/07/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 33190703.0,
+      "valorAcumuladoConcurso_0_5": 19713673.8,
+      "valorAcumuladoConcursoEspecial": 34837468.68,
+      "valorAcumuladoProximoConcurso": 19713673.8,
+      "valorEstimadoProximoConcurso": 23000000.0
+    }
+  },
+  {
+    "draw_id": 1945,
+    "draw_date": "2017-07-04",
+    "numbers": [
+      4,
+      8,
+      10,
+      21,
+      45,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1945,
+      "data": "04/07/2017",
+      "local": "Caminh\u00e3o da Sorte em UB\u00c1, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "08",
+        "54",
+        "21",
+        "10",
+        "45",
+        "04"
+      ],
+      "dezenas": [
+        "04",
+        "08",
+        "10",
+        "21",
+        "45",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 50,
+          "valorPremio": 30735.95
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4258,
+          "valorPremio": 515.59
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1946,
+      "dataProximoConcurso": "06/07/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 26655265.0,
+      "valorAcumuladoConcurso_0_5": 1779449.37,
+      "valorAcumuladoConcursoEspecial": 35241888.99,
+      "valorAcumuladoProximoConcurso": 22544615.97,
+      "valorEstimadoProximoConcurso": 26000000.0
+    }
+  },
+  {
+    "draw_id": 1946,
+    "draw_date": "2017-07-06",
+    "numbers": [
+      4,
+      6,
+      39,
+      44,
+      52,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1946,
+      "data": "06/07/2017",
+      "local": "Caminh\u00e3o da Sorte em UB\u00c1, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "06",
+        "39",
+        "04",
+        "44",
+        "52",
+        "60"
+      ],
+      "dezenas": [
+        "04",
+        "06",
+        "39",
+        "44",
+        "52",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 40,
+          "valorPremio": 56855.82
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3729,
+          "valorPremio": 871.25
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1947,
+      "dataProximoConcurso": "08/07/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 39445854.0,
+      "valorAcumuladoConcurso_0_5": 4412771.53,
+      "valorAcumuladoConcursoEspecial": 35840371.31,
+      "valorAcumuladoProximoConcurso": 26733992.14,
+      "valorEstimadoProximoConcurso": 32000000.0
+    }
+  },
+  {
+    "draw_id": 1947,
+    "draw_date": "2017-07-08",
+    "numbers": [
+      8,
+      33,
+      40,
+      52,
+      55,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1947,
+      "data": "08/07/2017",
+      "local": "Caminh\u00e3o da Sorte em UB\u00c1, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "52",
+        "59",
+        "55",
+        "40",
+        "08",
+        "33"
+      ],
+      "dezenas": [
+        "08",
+        "33",
+        "40",
+        "52",
+        "55",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 63,
+          "valorPremio": 41438.63
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4250,
+          "valorPremio": 877.52
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1948,
+      "dataProximoConcurso": "12/07/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 45280627.0,
+      "valorAcumuladoConcurso_0_5": 7435610.84,
+      "valorAcumuladoConcursoEspecial": 36527380.26,
+      "valorAcumuladoProximoConcurso": 31543054.69,
+      "valorEstimadoProximoConcurso": 36000000.0
+    }
+  },
+  {
+    "draw_id": 1948,
+    "draw_date": "2017-07-12",
+    "numbers": [
+      12,
+      20,
+      24,
+      28,
+      33,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1948,
+      "data": "12/07/2017",
+      "local": "Caminh\u00e3o da Sorte em IPAMERI, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "28",
+        "33",
+        "20",
+        "24",
+        "57",
+        "12"
+      ],
+      "dezenas": [
+        "12",
+        "20",
+        "24",
+        "28",
+        "33",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 100,
+          "valorPremio": 31746.05
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7199,
+          "valorPremio": 629.96
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1949,
+      "dataProximoConcurso": "15/07/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 55062525.0,
+      "valorAcumuladoConcurso_0_5": 11111469.08,
+      "valorAcumuladoConcursoEspecial": 37362802.61,
+      "valorAcumuladoProximoConcurso": 37391010.97,
+      "valorEstimadoProximoConcurso": 45000000.0
+    }
+  },
+  {
+    "draw_id": 1949,
+    "draw_date": "2017-07-15",
+    "numbers": [
+      1,
+      6,
+      14,
+      22,
+      30,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1949,
+      "data": "15/07/2017",
+      "local": "Caminh\u00e3o da Sorte em IPAMERI, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "30",
+        "01",
+        "14",
+        "56",
+        "22",
+        "06"
+      ],
+      "dezenas": [
+        "01",
+        "06",
+        "14",
+        "22",
+        "30",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 130,
+          "valorPremio": 29304.32
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8455,
+          "valorPremio": 643.67
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1950,
+      "dataProximoConcurso": "19/07/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 66075649.5,
+      "valorAcumuladoConcurso_0_5": 59931164.62,
+      "valorAcumuladoConcursoEspecial": 38365318.81,
+      "valorAcumuladoProximoConcurso": 59931164.62,
+      "valorEstimadoProximoConcurso": 68000000.0
+    }
+  },
+  {
+    "draw_id": 1950,
+    "draw_date": "2017-07-19",
+    "numbers": [
+      10,
+      21,
+      32,
+      34,
+      48,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1950,
+      "data": "19/07/2017",
+      "local": "Caminh\u00e3o da Sorte em ATIBAIA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "32",
+        "21",
+        "10",
+        "48",
+        "34",
+        "57"
+      ],
+      "dezenas": [
+        "10",
+        "21",
+        "32",
+        "34",
+        "48",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 88,
+          "valorPremio": 52163.05
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7215,
+          "valorPremio": 908.88
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1951,
+      "dataProximoConcurso": "22/07/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 79618157.5,
+      "valorAcumuladoConcurso_0_5": 5315140.57,
+      "valorAcumuladoConcursoEspecial": 39573305.31,
+      "valorAcumuladoProximoConcurso": 68387070.06,
+      "valorEstimadoProximoConcurso": 78000000.0
+    }
+  },
+  {
+    "draw_id": 1951,
+    "draw_date": "2017-07-22",
+    "numbers": [
+      14,
+      16,
+      19,
+      21,
+      33,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1951,
+      "data": "22/07/2017",
+      "local": "Caminh\u00e3o da Sorte em ATIBAIA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "55",
+        "14",
+        "16",
+        "21",
+        "33",
+        "19"
+      ],
+      "dezenas": [
+        "14",
+        "16",
+        "19",
+        "21",
+        "33",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 209,
+          "valorPremio": 26220.25
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 13551,
+          "valorPremio": 577.71
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1952,
+      "dataProximoConcurso": "26/07/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 95049423.0,
+      "valorAcumuladoConcurso_0_5": 11660439.93,
+      "valorAcumuladoConcursoEspecial": 41015418.83,
+      "valorAcumuladoProximoConcurso": 78481864.51,
+      "valorEstimadoProximoConcurso": 90000000.0
+    }
+  },
+  {
+    "draw_id": 1952,
+    "draw_date": "2017-07-26",
+    "numbers": [
+      9,
+      21,
+      36,
+      38,
+      52,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1952,
+      "data": "26/07/2017",
+      "local": "CAMINH\u00c3O DA SORTE em RIO BRANCO, AC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "09",
+        "21",
+        "53",
+        "36",
+        "52",
+        "38"
+      ],
+      "dezenas": [
+        "09",
+        "21",
+        "36",
+        "38",
+        "52",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 180,
+          "valorPremio": 39521.6
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 13017,
+          "valorPremio": 780.72
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1953,
+      "dataProximoConcurso": "29/07/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 123388139.0,
+      "valorAcumuladoConcurso_0_5": 19897572.31,
+      "valorAcumuladoConcursoEspecial": 42887494.39,
+      "valorAcumuladoProximoConcurso": 91586393.3,
+      "valorEstimadoProximoConcurso": 105000000.0
+    }
+  },
+  {
+    "draw_id": 1953,
+    "draw_date": "2017-07-29",
+    "numbers": [
+      9,
+      26,
+      29,
+      42,
+      43,
+      45
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1953,
+      "data": "29/07/2017",
+      "local": "Caminh\u00e3o da Sorte em RIO BRANCO, AC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "45",
+        "29",
+        "42",
+        "09",
+        "43",
+        "26"
+      ],
+      "dezenas": [
+        "09",
+        "26",
+        "29",
+        "42",
+        "43",
+        "45"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 107956102.12
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 237,
+          "valorPremio": 37495.41
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 16988,
+          "valorPremio": 747.28
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1954,
+      "dataProximoConcurso": "02/08/2017",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "RIO DE JANEIRO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        }
+      ],
+      "valorArrecadado": 154132051.5,
+      "valorAcumuladoConcurso_0_5": 30187103.56,
+      "valorAcumuladoConcursoEspecial": 45226024.24,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 1954,
+    "draw_date": "2017-08-02",
+    "numbers": [
+      9,
+      25,
+      33,
+      35,
+      40,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1954,
+      "data": "02/08/2017",
+      "local": "Caminh\u00e3o da Sorte em ITABELA, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "40",
+        "09",
+        "49",
+        "25",
+        "35",
+        "33"
+      ],
+      "dezenas": [
+        "09",
+        "25",
+        "33",
+        "35",
+        "40",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 32,
+          "valorPremio": 48479.76
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2483,
+          "valorPremio": 892.55
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1955,
+      "dataProximoConcurso": "05/08/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 26907720.0,
+      "valorAcumuladoConcurso_0_5": 34841160.62,
+      "valorAcumuladoConcursoEspecial": 45634274.87,
+      "valorAcumuladoProximoConcurso": 34841160.62,
+      "valorEstimadoProximoConcurso": 40000000.0
+    }
+  },
+  {
+    "draw_id": 1955,
+    "draw_date": "2017-08-05",
+    "numbers": [
+      15,
+      27,
+      33,
+      36,
+      41,
+      45
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1955,
+      "data": "05/08/2017",
+      "local": "Caminh\u00e3o da Sorte em ITABELA, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "15",
+        "41",
+        "45",
+        "33",
+        "36",
+        "27"
+      ],
+      "dezenas": [
+        "15",
+        "27",
+        "33",
+        "36",
+        "41",
+        "45"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 147,
+          "valorPremio": 22299.78
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7391,
+          "valorPremio": 633.6
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1956,
+      "dataProximoConcurso": "08/08/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 56857055.5,
+      "valorAcumuladoConcurso_0_5": 3795657.32,
+      "valorAcumuladoConcursoEspecial": 46496924.27,
+      "valorAcumuladoProximoConcurso": 40879706.35,
+      "valorEstimadoProximoConcurso": 46000000.0
+    }
+  },
+  {
+    "draw_id": 1956,
+    "draw_date": "2017-08-08",
+    "numbers": [
+      5,
+      8,
+      20,
+      28,
+      40,
+      45
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1956,
+      "data": "08/08/2017",
+      "local": "Caminh\u00e3o da Sorte em FEIJ\u00d3, AC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "20",
+        "40",
+        "28",
+        "05",
+        "08",
+        "45"
+      ],
+      "dezenas": [
+        "05",
+        "08",
+        "20",
+        "28",
+        "40",
+        "45"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 74,
+          "valorPremio": 32189.04
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5000,
+          "valorPremio": 680.56
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1957,
+      "dataProximoConcurso": "10/08/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 41314840.0,
+      "valorAcumuladoConcurso_0_5": 6553749.05,
+      "valorAcumuladoConcursoEspecial": 47123763.31,
+      "valorAcumuladoProximoConcurso": 45267579.56,
+      "valorEstimadoProximoConcurso": 50000000.0
+    }
+  },
+  {
+    "draw_id": 1957,
+    "draw_date": "2017-08-10",
+    "numbers": [
+      2,
+      14,
+      22,
+      23,
+      29,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1957,
+      "data": "10/08/2017",
+      "local": "Caminh\u00e3o da Sorte em FEIJ\u00d3, AC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "23",
+        "47",
+        "29",
+        "02",
+        "14",
+        "22"
+      ],
+      "dezenas": [
+        "02",
+        "14",
+        "22",
+        "23",
+        "29",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 51557331.87
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 98,
+          "valorPremio": 34841.2
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8329,
+          "valorPremio": 585.63
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1958,
+      "dataProximoConcurso": "12/08/2017",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "CURITIBA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        }
+      ],
+      "valorArrecadado": 59222338.0,
+      "valorAcumuladoConcurso_0_5": 10507307.64,
+      "valorAcumuladoConcursoEspecial": 48022299.37,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 1958,
+    "draw_date": "2017-08-12",
+    "numbers": [
+      15,
+      20,
+      22,
+      24,
+      34,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1958,
+      "data": "12/08/2017",
+      "local": "Caminh\u00e3o da Sorte em FEIJ\u00d3, AC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "55",
+        "34",
+        "22",
+        "20",
+        "24",
+        "15"
+      ],
+      "dezenas": [
+        "15",
+        "20",
+        "22",
+        "24",
+        "34",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 32,
+          "valorPremio": 52452.5
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2670,
+          "valorPremio": 898.06
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1959,
+      "dataProximoConcurso": "16/08/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 29112706.0,
+      "valorAcumuladoConcurso_0_5": 12450810.59,
+      "valorAcumuladoConcursoEspecial": 48464004.61,
+      "valorAcumuladoProximoConcurso": 3091936.52,
+      "valorEstimadoProximoConcurso": 7000000.0
+    }
+  },
+  {
+    "draw_id": 1959,
+    "draw_date": "2017-08-16",
+    "numbers": [
+      8,
+      21,
+      27,
+      35,
+      43,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1959,
+      "data": "16/08/2017",
+      "local": "Caminh\u00e3o da Sorte em PRESIDENTE VENCESLAU, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "56",
+        "43",
+        "21",
+        "08",
+        "27",
+        "35"
+      ],
+      "dezenas": [
+        "08",
+        "21",
+        "27",
+        "35",
+        "43",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 94,
+          "valorPremio": 19568.67
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4639,
+          "valorPremio": 566.45
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1960,
+      "dataProximoConcurso": "19/08/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 31904771.5,
+      "valorAcumuladoConcurso_0_5": 21061112.37,
+      "valorAcumuladoConcursoEspecial": 48948071.75,
+      "valorAcumuladoProximoConcurso": 21061112.37,
+      "valorEstimadoProximoConcurso": 26000000.0
+    }
+  },
+  {
+    "draw_id": 1960,
+    "draw_date": "2017-08-19",
+    "numbers": [
+      1,
+      18,
+      25,
+      37,
+      39,
+      43
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1960,
+      "data": "19/08/2017",
+      "local": "Caminh\u00e3o da Sorte em PRESIDENTE VENCESLAU, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "43",
+        "39",
+        "18",
+        "25",
+        "37",
+        "01"
+      ],
+      "dezenas": [
+        "01",
+        "18",
+        "25",
+        "37",
+        "39",
+        "43"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 116,
+          "valorPremio": 24043.13
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6655,
+          "valorPremio": 598.69
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1961,
+      "dataProximoConcurso": "23/08/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 48374375.0,
+      "valorAcumuladoConcurso_0_5": 3229371.42,
+      "valorAcumuladoConcursoEspecial": 49682019.83,
+      "valorAcumuladoProximoConcurso": 26198748.72,
+      "valorEstimadoProximoConcurso": 32000000.0
+    }
+  },
+  {
+    "draw_id": 1961,
+    "draw_date": "2017-08-23",
+    "numbers": [
+      17,
+      25,
+      26,
+      30,
+      32,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1961,
+      "data": "23/08/2017",
+      "local": "Caminh\u00e3o da Sorte em ARARAQUARA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "50",
+        "30",
+        "25",
+        "17",
+        "32",
+        "26"
+      ],
+      "dezenas": [
+        "17",
+        "25",
+        "26",
+        "30",
+        "32",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 55,
+          "valorPremio": 52327.94
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4505,
+          "valorPremio": 912.64
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1962,
+      "dataProximoConcurso": "26/08/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 49918645.0,
+      "valorAcumuladoConcurso_0_5": 6561835.05,
+      "valorAcumuladoConcursoEspecial": 50439397.94,
+      "valorAcumuladoProximoConcurso": 31500395.41,
+      "valorEstimadoProximoConcurso": 37000000.0
+    }
+  },
+  {
+    "draw_id": 1962,
+    "draw_date": "2017-08-26",
+    "numbers": [
+      5,
+      6,
+      15,
+      25,
+      39,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1962,
+      "data": "26/08/2017",
+      "local": "Caminh\u00e3o da Sorte em ARARAQUARA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "39",
+        "05",
+        "06",
+        "53",
+        "15",
+        "25"
+      ],
+      "dezenas": [
+        "05",
+        "06",
+        "15",
+        "25",
+        "39",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 86,
+          "valorPremio": 37850.84
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6431,
+          "valorPremio": 723.09
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1963,
+      "dataProximoConcurso": "30/08/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 56459938.5,
+      "valorAcumuladoConcurso_0_5": 10330981.67,
+      "valorAcumuladoConcursoEspecial": 51296022.19,
+      "valorAcumuladoProximoConcurso": 37496765.04,
+      "valorEstimadoProximoConcurso": 44000000.0
+    }
+  },
+  {
+    "draw_id": 1963,
+    "draw_date": "2017-08-30",
+    "numbers": [
+      4,
+      5,
+      7,
+      34,
+      42,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1963,
+      "data": "30/08/2017",
+      "local": "CAMINH\u00c3O DA SORTE em BOM JESUS DA LAPA, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "34",
+        "60",
+        "05",
+        "04",
+        "07",
+        "42"
+      ],
+      "dezenas": [
+        "04",
+        "05",
+        "07",
+        "34",
+        "42",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 80,
+          "valorPremio": 41892.88
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6686,
+          "valorPremio": 716.08
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1964,
+      "dataProximoConcurso": "02/09/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 58129505.0,
+      "valorAcumuladoConcurso_0_5": 14211585.04,
+      "valorAcumuladoConcursoEspecial": 52177977.51,
+      "valorAcumuladoProximoConcurso": 43670452.21,
+      "valorEstimadoProximoConcurso": 50000000.0
+    }
+  },
+  {
+    "draw_id": 1964,
+    "draw_date": "2017-09-02",
+    "numbers": [
+      2,
+      27,
+      32,
+      36,
+      48,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1964,
+      "data": "02/09/2017",
+      "local": "CAMINH\u00c3O DA SORTE em BOM JESUS DA LAPA, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "32",
+        "27",
+        "48",
+        "36",
+        "02",
+        "50"
+      ],
+      "dezenas": [
+        "02",
+        "27",
+        "32",
+        "36",
+        "48",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 119,
+          "valorPremio": 32635.32
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7880,
+          "valorPremio": 704.06
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1965,
+      "dataProximoConcurso": "06/09/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 67359876.5,
+      "valorAcumuladoConcurso_0_5": 69532846.39,
+      "valorAcumuladoConcursoEspecial": 53199978.32,
+      "valorAcumuladoProximoConcurso": 69532846.39,
+      "valorEstimadoProximoConcurso": 77000000.0
+    }
+  },
+  {
+    "draw_id": 1965,
+    "draw_date": "2017-09-06",
+    "numbers": [
+      26,
+      28,
+      35,
+      38,
+      48,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1965,
+      "data": "06/09/2017",
+      "local": "Caminh\u00e3o da Sorte em SALTO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "28",
+        "26",
+        "55",
+        "38",
+        "48",
+        "35"
+      ],
+      "dezenas": [
+        "26",
+        "28",
+        "35",
+        "38",
+        "48",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 78022245.31
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 98,
+          "valorPremio": 47025.82
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6377,
+          "valorPremio": 1032.4
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1966,
+      "dataProximoConcurso": "09/09/2017",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "JARDIM",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MS"
+        }
+      ],
+      "valorArrecadado": 79933521.5,
+      "valorAcumuladoConcurso_0_5": 5336193.6,
+      "valorAcumuladoConcursoEspecial": 54412749.61,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 1966,
+    "draw_date": "2017-09-09",
+    "numbers": [
+      10,
+      13,
+      19,
+      32,
+      40,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1966,
+      "data": "09/09/2017",
+      "local": "Caminh\u00e3o da Sorte em SALTO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "19",
+        "10",
+        "32",
+        "60",
+        "13",
+        "40"
+      ],
+      "dezenas": [
+        "10",
+        "13",
+        "19",
+        "32",
+        "40",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 29,
+          "valorPremio": 47097.01
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2758,
+          "valorPremio": 707.45
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1967,
+      "dataProximoConcurso": "13/09/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 23689603.0,
+      "valorAcumuladoConcurso_0_5": 6917661.61,
+      "valorAcumuladoConcursoEspecial": 54772174.17,
+      "valorAcumuladoProximoConcurso": 2515971.84,
+      "valorEstimadoProximoConcurso": 5500000.0
+    }
+  },
+  {
+    "draw_id": 1967,
+    "draw_date": "2017-09-13",
+    "numbers": [
+      13,
+      30,
+      32,
+      39,
+      46,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1967,
+      "data": "13/09/2017",
+      "local": "CAMINH\u00c3O DA SORTE em ITUIUTABA, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "32",
+        "39",
+        "13",
+        "54",
+        "30",
+        "46"
+      ],
+      "dezenas": [
+        "13",
+        "30",
+        "32",
+        "39",
+        "46",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 43,
+          "valorPremio": 40787.97
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3175,
+          "valorPremio": 789.14
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1968,
+      "dataProximoConcurso": "16/09/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 30420544.0,
+      "valorAcumuladoConcurso_0_5": 8948473.07,
+      "valorAcumuladoConcursoEspecial": 55233722.23,
+      "valorAcumuladoProximoConcurso": 5746808.26,
+      "valorEstimadoProximoConcurso": 10000000.0
+    }
+  },
+  {
+    "draw_id": 1968,
+    "draw_date": "2017-09-16",
+    "numbers": [
+      35,
+      36,
+      39,
+      44,
+      48,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1968,
+      "data": "16/09/2017",
+      "local": "CAMINH\u00c3O DA SORTE em ITUIUTABA, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "35",
+        "48",
+        "44",
+        "39",
+        "36",
+        "52"
+      ],
+      "dezenas": [
+        "35",
+        "36",
+        "39",
+        "44",
+        "48",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 48,
+          "valorPremio": 46060.89
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3782,
+          "valorPremio": 835.12
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1969,
+      "dataProximoConcurso": "19/09/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 38347757.0,
+      "valorAcumuladoConcurso_0_5": 11508488.58,
+      "valorAcumuladoConcursoEspecial": 55815543.95,
+      "valorAcumuladoProximoConcurso": 9819560.22,
+      "valorEstimadoProximoConcurso": 13400000.0
+    }
+  },
+  {
+    "draw_id": 1969,
+    "draw_date": "2017-09-19",
+    "numbers": [
+      8,
+      20,
+      30,
+      32,
+      48,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1969,
+      "data": "19/09/2017",
+      "local": "Espa\u00e7o Loterias Caixa em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "30",
+        "59",
+        "20",
+        "32",
+        "08",
+        "48"
+      ],
+      "dezenas": [
+        "08",
+        "20",
+        "30",
+        "32",
+        "48",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 20,
+          "valorPremio": 73292.36
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1999,
+          "valorPremio": 1047.55
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1970,
+      "dataProximoConcurso": "21/09/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 25424658.0,
+      "valorAcumuladoConcurso_0_5": 25725590.06,
+      "valorAcumuladoConcursoEspecial": 56201293.19,
+      "valorAcumuladoProximoConcurso": 25725590.06,
+      "valorEstimadoProximoConcurso": 30000000.0
+    }
+  },
+  {
+    "draw_id": 1970,
+    "draw_date": "2017-09-21",
+    "numbers": [
+      5,
+      10,
+      18,
+      24,
+      39,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1970,
+      "data": "21/09/2017",
+      "local": "Caminh\u00e3o da Sorte em GUARAREMA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "10",
+        "18",
+        "24",
+        "05",
+        "39",
+        "52"
+      ],
+      "dezenas": [
+        "05",
+        "10",
+        "18",
+        "24",
+        "39",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 87,
+          "valorPremio": 25762.24
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6153,
+          "valorPremio": 520.37
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1971,
+      "dataProximoConcurso": "23/09/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 38874909.5,
+      "valorAcumuladoConcurso_0_5": 2595207.11,
+      "valorAcumuladoConcursoEspecial": 56791113.01,
+      "valorAcumuladoProximoConcurso": 29854328.64,
+      "valorEstimadoProximoConcurso": 35000000.0
+    }
+  },
+  {
+    "draw_id": 1971,
+    "draw_date": "2017-09-23",
+    "numbers": [
+      4,
+      10,
+      41,
+      44,
+      52,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1971,
+      "data": "23/09/2017",
+      "local": "Caminh\u00e3o da Sorte em GUARAREMA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "54",
+        "10",
+        "52",
+        "41",
+        "44",
+        "04"
+      ],
+      "dezenas": [
+        "04",
+        "10",
+        "41",
+        "44",
+        "52",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 39,
+          "valorPremio": 67779.73
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4001,
+          "valorPremio": 943.83
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1972,
+      "dataProximoConcurso": "27/09/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 45849107.5,
+      "valorAcumuladoConcurso_0_5": 5655996.99,
+      "valorAcumuladoConcursoEspecial": 57486747.09,
+      "valorAcumuladoProximoConcurso": 34723767.08,
+      "valorEstimadoProximoConcurso": 40000000.0
+    }
+  },
+  {
+    "draw_id": 1972,
+    "draw_date": "2017-09-27",
+    "numbers": [
+      9,
+      16,
+      20,
+      54,
+      57,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1972,
+      "data": "27/09/2017",
+      "local": "Caminh\u00e3o da Sorte em JUNDIA\u00cd, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "20",
+        "09",
+        "59",
+        "54",
+        "16",
+        "57"
+      ],
+      "dezenas": [
+        "09",
+        "16",
+        "20",
+        "54",
+        "57",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 85,
+          "valorPremio": 36786.15
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5317,
+          "valorPremio": 840.11
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1973,
+      "dataProximoConcurso": "30/09/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 54233763.5,
+      "valorAcumuladoConcurso_0_5": 9276528.85,
+      "valorAcumuladoConcursoEspecial": 58309595.26,
+      "valorAcumuladoProximoConcurso": 40483704.13,
+      "valorEstimadoProximoConcurso": 47000000.0
+    }
+  },
+  {
+    "draw_id": 1973,
+    "draw_date": "2017-09-30",
+    "numbers": [
+      1,
+      12,
+      16,
+      17,
+      52,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1973,
+      "data": "30/09/2017",
+      "local": "Caminh\u00e3o da Sorte em JUNDIA\u00cd, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "17",
+        "16",
+        "60",
+        "12",
+        "52",
+        "01"
+      ],
+      "dezenas": [
+        "01",
+        "12",
+        "16",
+        "17",
+        "52",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 110,
+          "valorPremio": 32691.06
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7294,
+          "valorPremio": 704.3
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1974,
+      "dataProximoConcurso": "04/10/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 62371778.0,
+      "valorAcumuladoConcurso_0_5": 13440337.42,
+      "valorAcumuladoConcursoEspecial": 59255915.41,
+      "valorAcumuladoProximoConcurso": 47107945.05,
+      "valorEstimadoProximoConcurso": 55000000.0
+    }
+  },
+  {
+    "draw_id": 1974,
+    "draw_date": "2017-10-04",
+    "numbers": [
+      4,
+      19,
+      27,
+      38,
+      54,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1974,
+      "data": "04/10/2017",
+      "local": "Caminh\u00e3o da Sorte em ITAPIRANGA, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "19",
+        "57",
+        "38",
+        "54",
+        "04",
+        "27"
+      ],
+      "dezenas": [
+        "04",
+        "19",
+        "27",
+        "38",
+        "54",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 54268048.74
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 141,
+          "valorPremio": 27566.76
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8994,
+          "valorPremio": 617.38
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1975,
+      "dataProximoConcurso": "07/10/2017",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "ASSIS",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 67417294.0,
+      "valorAcumuladoConcurso_0_5": 17940974.02,
+      "valorAcumuladoConcursoEspecial": 60278787.38,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 22000000.0
+    }
+  },
+  {
+    "draw_id": 1975,
+    "draw_date": "2017-10-07",
+    "numbers": [
+      8,
+      11,
+      24,
+      26,
+      47,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1975,
+      "data": "07/10/2017",
+      "local": "Caminh\u00e3o da Sorte em ITAPIRANGA, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "08",
+        "24",
+        "47",
+        "26",
+        "11",
+        "57"
+      ],
+      "dezenas": [
+        "08",
+        "11",
+        "24",
+        "26",
+        "47",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 22575348.57
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 76,
+          "valorPremio": 33102.68
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5845,
+          "valorPremio": 614.88
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1976,
+      "dataProximoConcurso": "11/10/2017",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "GUARULHOS",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 43635819.5,
+      "valorAcumuladoConcurso_0_5": 2913035.44,
+      "valorAcumuladoConcursoEspecial": 60940840.9,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 1976,
+    "draw_date": "2017-10-11",
+    "numbers": [
+      12,
+      14,
+      19,
+      25,
+      52,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1976,
+      "data": "11/10/2017",
+      "local": "Caminh\u00e3o da Sorte em CHAPEC\u00d3, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "52",
+        "14",
+        "19",
+        "12",
+        "59",
+        "25"
+      ],
+      "dezenas": [
+        "12",
+        "14",
+        "19",
+        "25",
+        "52",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 62,
+          "valorPremio": 24797.36
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3551,
+          "valorPremio": 618.51
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1977,
+      "dataProximoConcurso": "14/10/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 26666353.0,
+      "valorAcumuladoConcurso_0_5": 4693225.01,
+      "valorAcumuladoConcursoEspecial": 61345429.46,
+      "valorAcumuladoProximoConcurso": 2832119.78,
+      "valorEstimadoProximoConcurso": 6000000.0
+    }
+  },
+  {
+    "draw_id": 1977,
+    "draw_date": "2017-10-14",
+    "numbers": [
+      3,
+      16,
+      28,
+      32,
+      34,
+      37
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1977,
+      "data": "14/10/2017",
+      "local": "Caminh\u00e3o da Sorte em CHAPEC\u00d3, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "28",
+        "03",
+        "32",
+        "34",
+        "37",
+        "16"
+      ],
+      "dezenas": [
+        "03",
+        "16",
+        "28",
+        "32",
+        "34",
+        "37"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 5889546.54
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 91,
+          "valorPremio": 18238.97
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4723,
+          "valorPremio": 502.02
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1978,
+      "dataProximoConcurso": "17/10/2017",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "COLATINA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "ES"
+        }
+      ],
+      "valorArrecadado": 28787773.0,
+      "valorAcumuladoConcurso_0_5": 6615036.12,
+      "valorAcumuladoConcursoEspecial": 61782204.72,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 1978,
+    "draw_date": "2017-10-17",
+    "numbers": [
+      2,
+      6,
+      22,
+      44,
+      55,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1978,
+      "data": "17/10/2017",
+      "local": "Espa\u00e7o Loterias Caixa em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "06",
+        "02",
+        "57",
+        "22",
+        "55",
+        "44"
+      ],
+      "dezenas": [
+        "02",
+        "06",
+        "22",
+        "44",
+        "55",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 29,
+          "valorPremio": 30492.05
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2089,
+          "valorPremio": 604.71
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1979,
+      "dataProximoConcurso": "19/10/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 15337374.5,
+      "valorAcumuladoConcurso_0_5": 7638926.94,
+      "valorAcumuladoConcursoEspecial": 62014907.2,
+      "valorAcumuladoProximoConcurso": 1628917.22,
+      "valorEstimadoProximoConcurso": 4000000.0
+    }
+  },
+  {
+    "draw_id": 1979,
+    "draw_date": "2017-10-19",
+    "numbers": [
+      22,
+      23,
+      29,
+      32,
+      38,
+      45
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1979,
+      "data": "19/10/2017",
+      "local": "CAMINH\u00c3O DA SORTE em ASSIS CHATEAUBRIAND, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "38",
+        "23",
+        "45",
+        "32",
+        "29",
+        "22"
+      ],
+      "dezenas": [
+        "22",
+        "23",
+        "29",
+        "32",
+        "38",
+        "45"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 3951513.94
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 32,
+          "valorPremio": 39401.2
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2677,
+          "valorPremio": 672.84
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1980,
+      "dataProximoConcurso": "21/10/2017",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "MUZAMBINHO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        }
+      ],
+      "valorArrecadado": 21868843.5,
+      "valorAcumuladoConcurso_0_5": 9098844.88,
+      "valorAcumuladoConcursoEspecial": 62346706.73,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 11500000.0
+    }
+  },
+  {
+    "draw_id": 1980,
+    "draw_date": "2017-10-21",
+    "numbers": [
+      12,
+      16,
+      17,
+      18,
+      34,
+      37
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1980,
+      "data": "21/10/2017",
+      "local": "Caminh\u00e3o da Sorte em ASSIS CHATEAUBRIAND, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "18",
+        "16",
+        "12",
+        "34",
+        "37",
+        "17"
+      ],
+      "dezenas": [
+        "12",
+        "16",
+        "17",
+        "18",
+        "34",
+        "37"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 77,
+          "valorPremio": 22167.05
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4689,
+          "valorPremio": 520.02
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1981,
+      "dataProximoConcurso": "25/10/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 29605005.5,
+      "valorAcumuladoConcurso_0_5": 1976367.83,
+      "valorAcumuladoConcursoEspecial": 62795881.26,
+      "valorAcumuladoProximoConcurso": 12243066.43,
+      "valorEstimadoProximoConcurso": 16000000.0
+    }
+  },
+  {
+    "draw_id": 1981,
+    "draw_date": "2017-10-25",
+    "numbers": [
+      6,
+      15,
+      19,
+      37,
+      39,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1981,
+      "data": "25/10/2017",
+      "local": "Caminh\u00e3o da Sorte em CARANDA\u00cd, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "15",
+        "06",
+        "39",
+        "19",
+        "37",
+        "53"
+      ],
+      "dezenas": [
+        "06",
+        "15",
+        "19",
+        "37",
+        "39",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 85,
+          "valorPremio": 24999.36
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5215,
+          "valorPremio": 582.09
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1982,
+      "dataProximoConcurso": "28/10/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 36856522.5,
+      "valorAcumuladoConcurso_0_5": 4436831.67,
+      "valorAcumuladoConcursoEspecial": 63355077.59,
+      "valorAcumuladoProximoConcurso": 16157440.72,
+      "valorEstimadoProximoConcurso": 20000000.0
+    }
+  },
+  {
+    "draw_id": 1982,
+    "draw_date": "2017-10-28",
+    "numbers": [
+      4,
+      14,
+      20,
+      24,
+      46,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1982,
+      "data": "28/10/2017",
+      "local": "Caminh\u00e3o da Sorte em CARANDA\u00cd, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "46",
+        "24",
+        "20",
+        "04",
+        "50",
+        "14"
+      ],
+      "dezenas": [
+        "04",
+        "14",
+        "20",
+        "24",
+        "46",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 20777195.15
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 45,
+          "valorPremio": 55730.37
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4144,
+          "valorPremio": 864.54
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1983,
+      "dataProximoConcurso": "01/11/2017",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "CURITIBA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        }
+      ],
+      "valorArrecadado": 43498161.0,
+      "valorAcumuladoConcurso_0_5": 7340677.31,
+      "valorAcumuladoConcursoEspecial": 64015042.52,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 1983,
+    "draw_date": "2017-11-01",
+    "numbers": [
+      5,
+      6,
+      10,
+      14,
+      22,
+      36
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1983,
+      "data": "01/11/2017",
+      "local": "Caminh\u00e3o da Sorte em VOLTA REDONDA, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "14",
+        "22",
+        "06",
+        "05",
+        "10",
+        "36"
+      ],
+      "dezenas": [
+        "05",
+        "06",
+        "10",
+        "14",
+        "22",
+        "36"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 2598401.89
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 73,
+          "valorPremio": 19322.76
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4884,
+          "valorPremio": 412.58
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1984,
+      "dataProximoConcurso": "04/11/2017",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "COTIA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 24465738.5,
+      "valorAcumuladoConcurso_0_5": 8973958.49,
+      "valorAcumuladoConcursoEspecial": 64386242.81,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1984,
+    "draw_date": "2017-11-04",
+    "numbers": [
+      21,
+      29,
+      32,
+      35,
+      43,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1984,
+      "data": "04/11/2017",
+      "local": "Caminh\u00e3o da Sorte em VOLTA REDONDA, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "43",
+        "32",
+        "21",
+        "50",
+        "35",
+        "29"
+      ],
+      "dezenas": [
+        "21",
+        "29",
+        "32",
+        "35",
+        "43",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 13,
+          "valorPremio": 104873.13
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1743,
+          "valorPremio": 1117.4
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1985,
+      "dataProximoConcurso": "07/11/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 23646889.0,
+      "valorAcumuladoConcurso_0_5": 13064010.38,
+      "valorAcumuladoConcursoEspecial": 64745019.31,
+      "valorAcumuladoProximoConcurso": 13064010.38,
+      "valorEstimadoProximoConcurso": 16000000.0
+    }
+  },
+  {
+    "draw_id": 1985,
+    "draw_date": "2017-11-07",
+    "numbers": [
+      9,
+      28,
+      29,
+      34,
+      36,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1985,
+      "data": "07/11/2017",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "09",
+        "36",
+        "29",
+        "28",
+        "34",
+        "55"
+      ],
+      "dezenas": [
+        "09",
+        "28",
+        "29",
+        "34",
+        "36",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 36,
+          "valorPremio": 38578.22
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2503,
+          "valorPremio": 792.65
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1986,
+      "dataProximoConcurso": "09/11/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 24088571.5,
+      "valorAcumuladoConcurso_0_5": 1608102.31,
+      "valorAcumuladoConcursoEspecial": 65110497.11,
+      "valorAcumuladoProximoConcurso": 15622354.96,
+      "valorEstimadoProximoConcurso": 19000000.0
+    }
+  },
+  {
+    "draw_id": 1986,
+    "draw_date": "2017-11-09",
+    "numbers": [
+      23,
+      36,
+      43,
+      44,
+      55,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1986,
+      "data": "09/11/2017",
+      "local": "CAMINH\u00c3O DA SORTE em BRAS\u00cdLIA, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "55",
+        "23",
+        "44",
+        "43",
+        "36",
+        "56"
+      ],
+      "dezenas": [
+        "23",
+        "36",
+        "43",
+        "44",
+        "55",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 41,
+          "valorPremio": 46212.57
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3164,
+          "valorPremio": 855.47
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1987,
+      "dataProximoConcurso": "11/11/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 32863243.0,
+      "valorAcumuladoConcurso_0_5": 3801983.22,
+      "valorAcumuladoConcursoEspecial": 65609106.42,
+      "valorAcumuladoProximoConcurso": 19112620.03,
+      "valorEstimadoProximoConcurso": 24000000.0
+    }
+  },
+  {
+    "draw_id": 1987,
+    "draw_date": "2017-11-11",
+    "numbers": [
+      10,
+      14,
+      31,
+      34,
+      45,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1987,
+      "data": "11/11/2017",
+      "local": "CAMINH\u00c3O DA SORTE em BRAS\u00cdLIA, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "10",
+        "58",
+        "14",
+        "45",
+        "31",
+        "34"
+      ],
+      "dezenas": [
+        "10",
+        "14",
+        "31",
+        "34",
+        "45",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 59,
+          "valorPremio": 38516.27
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3920,
+          "valorPremio": 828.15
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1988,
+      "dataProximoConcurso": "16/11/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 39415096.0,
+      "valorAcumuladoConcurso_0_5": 6433252.03,
+      "valorAcumuladoConcursoEspecial": 66207122.08,
+      "valorAcumuladoProximoConcurso": 23298729.51,
+      "valorEstimadoProximoConcurso": 29000000.0
+    }
+  },
+  {
+    "draw_id": 1988,
+    "draw_date": "2017-11-16",
+    "numbers": [
+      5,
+      10,
+      39,
+      42,
+      46,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1988,
+      "data": "16/11/2017",
+      "local": "Caminh\u00e3o da Sorte em AMPARO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "05",
+        "39",
+        "10",
+        "54",
+        "46",
+        "42"
+      ],
+      "dezenas": [
+        "05",
+        "10",
+        "39",
+        "42",
+        "46",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 87,
+          "valorPremio": 29177.91
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5711,
+          "valorPremio": 634.98
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1989,
+      "dataProximoConcurso": "18/11/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 44029100.5,
+      "valorAcumuladoConcurso_0_5": 9372542.08,
+      "valorAcumuladoConcursoEspecial": 66875142.54,
+      "valorAcumuladoProximoConcurso": 27974872.76,
+      "valorEstimadoProximoConcurso": 33000000.0
+    }
+  },
+  {
+    "draw_id": 1989,
+    "draw_date": "2017-11-18",
+    "numbers": [
+      15,
+      22,
+      30,
+      32,
+      40,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1989,
+      "data": "18/11/2017",
+      "local": "Caminh\u00e3o da Sorte em AMPARO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "40",
+        "58",
+        "30",
+        "32",
+        "15",
+        "22"
+      ],
+      "dezenas": [
+        "15",
+        "22",
+        "30",
+        "32",
+        "40",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 47,
+          "valorPremio": 56106.95
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3280,
+          "valorPremio": 1148.53
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1990,
+      "dataProximoConcurso": "22/11/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 45738399.0,
+      "valorAcumuladoConcurso_0_5": 45258494.61,
+      "valorAcumuladoConcursoEspecial": 67569096.93,
+      "valorAcumuladoProximoConcurso": 45258494.61,
+      "valorEstimadoProximoConcurso": 50000000.0
+    }
+  },
+  {
+    "draw_id": 1990,
+    "draw_date": "2017-11-22",
+    "numbers": [
+      11,
+      24,
+      26,
+      34,
+      37,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1990,
+      "data": "22/11/2017",
+      "local": "Caminh\u00e3o da Sorte em ITALVA, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "37",
+        "26",
+        "11",
+        "24",
+        "59",
+        "34"
+      ],
+      "dezenas": [
+        "11",
+        "24",
+        "26",
+        "34",
+        "37",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 78,
+          "valorPremio": 41488.51
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5852,
+          "valorPremio": 789.98
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1991,
+      "dataProximoConcurso": "25/11/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 56129209.5,
+      "valorAcumuladoConcurso_0_5": 3747067.85,
+      "valorAcumuladoConcursoEspecial": 68420703.27,
+      "valorAcumuladoProximoConcurso": 51219738.92,
+      "valorEstimadoProximoConcurso": 60000000.0
+    }
+  },
+  {
+    "draw_id": 1991,
+    "draw_date": "2017-11-25",
+    "numbers": [
+      19,
+      20,
+      28,
+      34,
+      36,
+      44
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1991,
+      "data": "25/11/2017",
+      "local": "Caminh\u00e3o da Sorte em ITALVA, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "19",
+        "34",
+        "44",
+        "36",
+        "20",
+        "28"
+      ],
+      "dezenas": [
+        "19",
+        "20",
+        "28",
+        "34",
+        "36",
+        "44"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 80,
+          "valorPremio": 48195.29
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6152,
+          "valorPremio": 895.32
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1992,
+      "dataProximoConcurso": "29/11/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 66874573.5,
+      "valorAcumuladoConcurso_0_5": 8211473.58,
+      "valorAcumuladoConcursoEspecial": 69435340.94,
+      "valorAcumuladoProximoConcurso": 58322202.57,
+      "valorEstimadoProximoConcurso": 65000000.0
+    }
+  },
+  {
+    "draw_id": 1992,
+    "draw_date": "2017-11-29",
+    "numbers": [
+      5,
+      11,
+      13,
+      21,
+      53,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1992,
+      "data": "29/11/2017",
+      "local": "Caminh\u00e3o da Sorte em CARDOSO MOREIRA, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "21",
+        "11",
+        "13",
+        "53",
+        "54",
+        "05"
+      ],
+      "dezenas": [
+        "05",
+        "11",
+        "13",
+        "21",
+        "53",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 32953918.65
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 142,
+          "valorPremio": 28999.41
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11405,
+          "valorPremio": 515.8
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1993,
+      "dataProximoConcurso": "02/12/2017",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "CAMPOS BELOS",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "GO"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "ARAGUARI",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        }
+      ],
+      "valorArrecadado": 71423961.0,
+      "valorAcumuladoConcurso_0_5": 12979586.83,
+      "valorAcumuladoConcursoEspecial": 70519003.07,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 1993,
+    "draw_date": "2017-12-02",
+    "numbers": [
+      6,
+      17,
+      33,
+      48,
+      50,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1993,
+      "data": "02/12/2017",
+      "local": "CAMINH\u00c3O DA SORTE em CARDOSO MOREIRA, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "50",
+        "57",
+        "48",
+        "17",
+        "06",
+        "33"
+      ],
+      "dezenas": [
+        "06",
+        "17",
+        "33",
+        "48",
+        "50",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 39,
+          "valorPremio": 42108.85
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3063,
+          "valorPremio": 765.93
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1994,
+      "dataProximoConcurso": "06/12/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 28484228.5,
+      "valorAcumuladoConcurso_0_5": 14881133.95,
+      "valorAcumuladoConcursoEspecial": 70951172.88,
+      "valorAcumuladoProximoConcurso": 3025188.6,
+      "valorEstimadoProximoConcurso": 6700000.0
+    }
+  },
+  {
+    "draw_id": 1994,
+    "draw_date": "2017-12-06",
+    "numbers": [
+      2,
+      5,
+      12,
+      32,
+      40,
+      44
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1994,
+      "data": "06/12/2017",
+      "local": "Caminh\u00e3o da Sorte em TEIXEIRA DE FREITAS, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "44",
+        "05",
+        "32",
+        "02",
+        "12",
+        "40"
+      ],
+      "dezenas": [
+        "02",
+        "05",
+        "12",
+        "32",
+        "40",
+        "44"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 51,
+          "valorPremio": 35175.84
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3686,
+          "valorPremio": 695.28
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1995,
+      "dataProximoConcurso": "09/12/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 31115808.5,
+      "valorAcumuladoConcurso_0_5": 23288225.9,
+      "valorAcumuladoConcursoEspecial": 71423269.68,
+      "valorAcumuladoProximoConcurso": 23288225.9,
+      "valorEstimadoProximoConcurso": 28000000.0
+    }
+  },
+  {
+    "draw_id": 1995,
+    "draw_date": "2017-12-09",
+    "numbers": [
+      14,
+      26,
+      29,
+      35,
+      37,
+      39
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1995,
+      "data": "09/12/2017",
+      "local": "Caminh\u00e3o da Sorte em TEIXEIRA DE FREITAS, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "14",
+        "37",
+        "39",
+        "26",
+        "35",
+        "29"
+      ],
+      "dezenas": [
+        "14",
+        "26",
+        "29",
+        "35",
+        "37",
+        "39"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 66,
+          "valorPremio": 38617.02
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4840,
+          "valorPremio": 752.27
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1996,
+      "dataProximoConcurso": "13/12/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 44206799.0,
+      "valorAcumuladoConcurso_0_5": 2951152.82,
+      "valorAcumuladoConcursoEspecial": 72093986.24,
+      "valorAcumuladoProximoConcurso": 27983241.76,
+      "valorEstimadoProximoConcurso": 33000000.0
+    }
+  },
+  {
+    "draw_id": 1996,
+    "draw_date": "2017-12-13",
+    "numbers": [
+      7,
+      20,
+      21,
+      24,
+      40,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1996,
+      "data": "13/12/2017",
+      "local": "Caminh\u00e3o da Sorte em BRAGAN\u00c7A PAULISTA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "56",
+        "21",
+        "20",
+        "07",
+        "40",
+        "24"
+      ],
+      "dezenas": [
+        "07",
+        "20",
+        "21",
+        "24",
+        "40",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 144,
+          "valorPremio": 19401.81
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4933,
+          "valorPremio": 809.08
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1997,
+      "dataProximoConcurso": "16/12/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 48458620.0,
+      "valorAcumuladoConcurso_0_5": 6186148.27,
+      "valorAcumuladoConcursoEspecial": 72829212.49,
+      "valorAcumuladoProximoConcurso": 33129825.41,
+      "valorEstimadoProximoConcurso": 39000000.0
+    }
+  },
+  {
+    "draw_id": 1997,
+    "draw_date": "2017-12-16",
+    "numbers": [
+      1,
+      7,
+      14,
+      31,
+      35,
+      46
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1997,
+      "data": "16/12/2017",
+      "local": "Caminh\u00e3o da Sorte em BRAGAN\u00c7A PAULISTA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "14",
+        "07",
+        "35",
+        "01",
+        "31",
+        "46"
+      ],
+      "dezenas": [
+        "01",
+        "07",
+        "14",
+        "31",
+        "35",
+        "46"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 86,
+          "valorPremio": 36389.62
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6280,
+          "valorPremio": 711.89
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1998,
+      "dataProximoConcurso": "19/12/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 54280324.0,
+      "valorAcumuladoConcurso_0_5": 9809788.41,
+      "valorAcumuladoConcursoEspecial": 73652767.08,
+      "valorAcumuladoProximoConcurso": 38894707.46,
+      "valorEstimadoProximoConcurso": 43500000.0
+    }
+  },
+  {
+    "draw_id": 1998,
+    "draw_date": "2017-12-19",
+    "numbers": [
+      8,
+      21,
+      24,
+      25,
+      52,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1998,
+      "data": "19/12/2017",
+      "local": "Caminh\u00e3o da Sorte em PORTO UNI\u00c3O, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "57",
+        "21",
+        "24",
+        "52",
+        "25",
+        "08"
+      ],
+      "dezenas": [
+        "08",
+        "21",
+        "24",
+        "25",
+        "52",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 61,
+          "valorPremio": 36388.03
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4810,
+          "valorPremio": 659.24
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1999,
+      "dataProximoConcurso": "21/12/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 38499475.0,
+      "valorAcumuladoConcurso_0_5": 12379932.3,
+      "valorAcumuladoConcursoEspecial": 74236890.71,
+      "valorAcumuladoProximoConcurso": 42983572.73,
+      "valorEstimadoProximoConcurso": 48000000.0
+    }
+  },
+  {
+    "draw_id": 1999,
+    "draw_date": "2017-12-21",
+    "numbers": [
+      15,
+      37,
+      38,
+      42,
+      49,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1999,
+      "data": "21/12/2017",
+      "local": "Caminh\u00e3o da Sorte em PORTO UNI\u00c3O, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "42",
+        "38",
+        "49",
+        "15",
+        "50",
+        "37"
+      ],
+      "dezenas": [
+        "15",
+        "37",
+        "38",
+        "42",
+        "49",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 73,
+          "valorPremio": 39877.23
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4434,
+          "valorPremio": 937.89
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2000,
+      "dataProximoConcurso": "31/12/2017",
+      "localGanhadores": [],
+      "valorArrecadado": 50491038.5,
+      "valorAcumuladoConcurso_0_5": 139099571.93,
+      "valorAcumuladoConcursoEspecial": 139099571.93,
+      "valorAcumuladoProximoConcurso": 139099571.93,
+      "valorEstimadoProximoConcurso": 280000000.0
+    }
+  },
+  {
+    "draw_id": 2000,
+    "draw_date": "2017-12-31",
+    "numbers": [
+      3,
+      6,
+      10,
+      17,
+      34,
+      37
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2000,
+      "data": "31/12/2017",
+      "local": "Est\u00fadio de TV em S\u00c3O PAULO, SP",
+      "concursoEspecial": true,
+      "dezenasOrdemSorteio": [
+        "06",
+        "37",
+        "34",
+        "10",
+        "03",
+        "17"
+      ],
+      "dezenas": [
+        "03",
+        "06",
+        "10",
+        "17",
+        "34",
+        "37"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 17,
+          "valorPremio": 18042279.04
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 4862,
+          "valorPremio": 10565.03
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 173428,
+          "valorPremio": 423.12
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2001,
+      "dataProximoConcurso": "03/01/2018",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "Cruz das Almas",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "BA"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "Prado",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "BA"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "Uru\u00e7uca",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "BA"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "Carmo do Cajuru",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "Contagem",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "Bel\u00e9m",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PA"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "Rio Azul",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "S\u00e3o Jo\u00e3o do Triunfo",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "Rio de Janeiro",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "Serop\u00e9dica",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "Brusque",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SC"
+        },
+        {
+          "ganhadores": 2,
+          "municipio": "Guarulhos",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        },
+        {
+          "ganhadores": 4,
+          "municipio": "S\u00e3o Paulo",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 890947368.5,
+      "valorAcumuladoConcurso_0_5": 0.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  }
+]

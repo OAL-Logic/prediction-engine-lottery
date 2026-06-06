@@ -1,0 +1,7604 @@
+[
+  {
+    "draw_id": 932,
+    "draw_date": "2008-01-05",
+    "numbers": [
+      2,
+      17,
+      21,
+      36,
+      42,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 932,
+      "data": "05/01/2008",
+      "local": "Caminh\u00e3o da Sorte em Maca\u00e9, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "02",
+        "21",
+        "42",
+        "53",
+        "36",
+        "17"
+      ],
+      "dezenas": [
+        "02",
+        "17",
+        "21",
+        "36",
+        "42",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 19685655.01
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 196,
+          "valorPremio": 11370.01
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10515,
+          "valorPremio": 211.94
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "GANHADOR DE 6 ACERTOS: Tenente Ananias/RN.",
+      "acumulou": false,
+      "proximoConcurso": 933,
+      "dataProximoConcurso": "09/01/2008",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RN"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7336525.72,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1300000.0
+    }
+  },
+  {
+    "draw_id": 933,
+    "draw_date": "2008-01-09",
+    "numbers": [
+      8,
+      14,
+      25,
+      39,
+      45,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 933,
+      "data": "09/01/2008",
+      "local": "Caminh\u00e3o da Sorte em PENEDO, AL",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "25",
+        "39",
+        "45",
+        "51",
+        "08",
+        "14"
+      ],
+      "dezenas": [
+        "08",
+        "14",
+        "25",
+        "39",
+        "45",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 66,
+          "valorPremio": 11712.22
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3308,
+          "valorPremio": 233.68
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 934,
+      "dataProximoConcurso": "12/01/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 8302783.62,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1352761.06,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 934,
+    "draw_date": "2008-01-12",
+    "numbers": [
+      1,
+      3,
+      21,
+      25,
+      44,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 934,
+      "data": "12/01/2008",
+      "local": "Caminh\u00e3o da Sorte em PENEDO, AL",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "25",
+        "48",
+        "44",
+        "03",
+        "21",
+        "01"
+      ],
+      "dezenas": [
+        "01",
+        "03",
+        "21",
+        "25",
+        "44",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 55,
+          "valorPremio": 17289.83
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5101,
+          "valorPremio": 186.42
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 935,
+      "dataProximoConcurso": "16/01/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 12508366.08,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 12508366.08,
+      "valorEstimadoProximoConcurso": 15000000.0
+    }
+  },
+  {
+    "draw_id": 935,
+    "draw_date": "2008-01-16",
+    "numbers": [
+      7,
+      13,
+      18,
+      29,
+      31,
+      45
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 935,
+      "data": "16/01/2008",
+      "local": "Caminh\u00e3o da Sorte em Aracaju, SE",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "07",
+        "45",
+        "18",
+        "13",
+        "29",
+        "31"
+      ],
+      "dezenas": [
+        "07",
+        "13",
+        "18",
+        "29",
+        "31",
+        "45"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 243,
+          "valorPremio": 5396.61
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10898,
+          "valorPremio": 120.33
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 936,
+      "dataProximoConcurso": "19/01/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1639220.43,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 14803274.65,
+      "valorEstimadoProximoConcurso": 17000000.0
+    }
+  },
+  {
+    "draw_id": 936,
+    "draw_date": "2008-01-19",
+    "numbers": [
+      5,
+      14,
+      22,
+      29,
+      33,
+      44
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 936,
+      "data": "19/01/2008",
+      "local": "Caminh\u00e3o da Sorte em Aracaju, SE",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "05",
+        "33",
+        "14",
+        "29",
+        "44",
+        "22"
+      ],
+      "dezenas": [
+        "05",
+        "14",
+        "22",
+        "29",
+        "33",
+        "44"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 8699137.89
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 144,
+          "valorPremio": 10297.63
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9280,
+          "valorPremio": 159.79
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Ganhadores de 6 acertos: Rio de Janeiro/RJ e Porto Alegre/RS.",
+      "acumulou": false,
+      "proximoConcurso": 937,
+      "dataProximoConcurso": "23/01/2008",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RS"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3492792.66,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1200000.0
+    }
+  },
+  {
+    "draw_id": 937,
+    "draw_date": "2008-01-23",
+    "numbers": [
+      2,
+      21,
+      22,
+      30,
+      41,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 937,
+      "data": "23/01/2008",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O JO\u00c3O DA BARRA, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "22",
+        "41",
+        "02",
+        "30",
+        "21",
+        "52"
+      ],
+      "dezenas": [
+        "02",
+        "21",
+        "22",
+        "30",
+        "41",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 20,
+          "valorPremio": 36413.65
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1763,
+          "valorPremio": 413.09
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 938,
+      "dataProximoConcurso": "26/01/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4403133.95,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1274477.8,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 938,
+    "draw_date": "2008-01-26",
+    "numbers": [
+      15,
+      27,
+      35,
+      50,
+      57,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 938,
+      "data": "26/01/2008",
+      "local": "Caminh\u00e3o da Sorte em S\u00e3o Jo\u00e3o da Barra, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "35",
+        "15",
+        "27",
+        "57",
+        "50",
+        "59"
+      ],
+      "dezenas": [
+        "15",
+        "27",
+        "35",
+        "50",
+        "57",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 39,
+          "valorPremio": 23406.66
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3235,
+          "valorPremio": 282.18
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 939,
+      "dataProximoConcurso": "30/01/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5544208.62,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 2871982.33,
+      "valorEstimadoProximoConcurso": 5000000.0
+    }
+  },
+  {
+    "draw_id": 939,
+    "draw_date": "2008-01-30",
+    "numbers": [
+      6,
+      19,
+      23,
+      37,
+      49,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 939,
+      "data": "30/01/2008",
+      "local": "Caminh\u00e3o da Sorte em GUARAPARI, ES",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "06",
+        "23",
+        "19",
+        "50",
+        "37",
+        "49"
+      ],
+      "dezenas": [
+        "06",
+        "19",
+        "23",
+        "37",
+        "49",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 103,
+          "valorPremio": 9216.78
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5670,
+          "valorPremio": 167.43
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 940,
+      "dataProximoConcurso": "02/02/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 11264174.77,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 11264174.77,
+      "valorEstimadoProximoConcurso": 13500000.0
+    }
+  },
+  {
+    "draw_id": 940,
+    "draw_date": "2008-02-02",
+    "numbers": [
+      5,
+      25,
+      31,
+      33,
+      37,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 940,
+      "data": "02/02/2008",
+      "local": "Caminh\u00e3o da Sorte em GUARAPARI, ES",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "25",
+        "33",
+        "51",
+        "31",
+        "05",
+        "37"
+      ],
+      "dezenas": [
+        "05",
+        "25",
+        "31",
+        "33",
+        "37",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 109,
+          "valorPremio": 11635.12
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6936,
+          "valorPremio": 182.85
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 941,
+      "dataProximoConcurso": "06/02/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1585284.92,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 13483573.63,
+      "valorEstimadoProximoConcurso": 15000000.0
+    }
+  },
+  {
+    "draw_id": 941,
+    "draw_date": "2008-02-06",
+    "numbers": [
+      10,
+      11,
+      15,
+      27,
+      53,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 941,
+      "data": "06/02/2008",
+      "local": "Caminh\u00e3o da Sorte em PO\u00c7OS DE CALDAS, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "11",
+        "15",
+        "10",
+        "27",
+        "60",
+        "53"
+      ],
+      "dezenas": [
+        "10",
+        "11",
+        "15",
+        "27",
+        "53",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 37,
+          "valorPremio": 20206.51
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3406,
+          "valorPremio": 219.51
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 942,
+      "dataProximoConcurso": "09/02/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2519835.96,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 14791945.07,
+      "valorEstimadoProximoConcurso": 16000000.0
+    }
+  },
+  {
+    "draw_id": 942,
+    "draw_date": "2008-02-09",
+    "numbers": [
+      5,
+      8,
+      18,
+      42,
+      52,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 942,
+      "data": "09/02/2008",
+      "local": "Caminh\u00e3o da Sorte em PO\u00c7OS DE CALDAS, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "05",
+        "52",
+        "18",
+        "08",
+        "59",
+        "42"
+      ],
+      "dezenas": [
+        "05",
+        "08",
+        "18",
+        "42",
+        "52",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 73,
+          "valorPremio": 20890.58
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5310,
+          "valorPremio": 287.2
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 943,
+      "dataProximoConcurso": "13/02/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4426101.53,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 17460716.85,
+      "valorEstimadoProximoConcurso": 20000000.0
+    }
+  },
+  {
+    "draw_id": 943,
+    "draw_date": "2008-02-13",
+    "numbers": [
+      3,
+      12,
+      23,
+      41,
+      47,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 943,
+      "data": "13/02/2008",
+      "local": "Caminh\u00e3o da Sorte em PEDREIRA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "47",
+        "41",
+        "58",
+        "03",
+        "23",
+        "12"
+      ],
+      "dezenas": [
+        "03",
+        "12",
+        "23",
+        "41",
+        "47",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 20498366.41
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 116,
+          "valorPremio": 14963.79
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7783,
+          "valorPremio": 223.02
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Ganhador de 6 acertos: Gravata\u00ed/RS.",
+      "acumulou": false,
+      "proximoConcurso": 944,
+      "dataProximoConcurso": "16/02/2008",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RS"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6595851.22,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1100000.0
+    }
+  },
+  {
+    "draw_id": 944,
+    "draw_date": "2008-02-16",
+    "numbers": [
+      16,
+      37,
+      43,
+      52,
+      58,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 944,
+      "data": "16/02/2008",
+      "local": "Caminh\u00e3o da Sorte em PEDREIRA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "16",
+        "58",
+        "43",
+        "37",
+        "52",
+        "59"
+      ],
+      "dezenas": [
+        "16",
+        "37",
+        "43",
+        "52",
+        "58",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 21,
+          "valorPremio": 38432.28
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2669,
+          "valorPremio": 302.39
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 945,
+      "dataProximoConcurso": "20/02/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 9017085.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 9017085.0,
+      "valorEstimadoProximoConcurso": 11000000.0
+    }
+  },
+  {
+    "draw_id": 945,
+    "draw_date": "2008-02-20",
+    "numbers": [
+      4,
+      8,
+      27,
+      44,
+      54,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 945,
+      "data": "20/02/2008",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "44",
+        "08",
+        "59",
+        "54",
+        "04",
+        "27"
+      ],
+      "dezenas": [
+        "04",
+        "08",
+        "27",
+        "44",
+        "54",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 118,
+          "valorPremio": 9974.16
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6615,
+          "valorPremio": 177.92
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 946,
+      "dataProximoConcurso": "23/02/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1471188.53,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 11076748.93,
+      "valorEstimadoProximoConcurso": 13000000.0
+    }
+  },
+  {
+    "draw_id": 946,
+    "draw_date": "2008-02-23",
+    "numbers": [
+      1,
+      5,
+      12,
+      47,
+      52,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 946,
+      "data": "23/02/2008",
+      "local": "Caminh\u00e3o da Sorte em CAP\u00c3O DA CANOA, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "59",
+        "01",
+        "47",
+        "05",
+        "52",
+        "12"
+      ],
+      "dezenas": [
+        "01",
+        "05",
+        "12",
+        "47",
+        "52",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 92,
+          "valorPremio": 15029.8
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6373,
+          "valorPremio": 216.97
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 947,
+      "dataProximoConcurso": "27/02/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3199615.35,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 13496546.46,
+      "valorEstimadoProximoConcurso": 16000000.0
+    }
+  },
+  {
+    "draw_id": 947,
+    "draw_date": "2008-02-27",
+    "numbers": [
+      3,
+      5,
+      11,
+      14,
+      33,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 947,
+      "data": "27/02/2008",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "33",
+        "11",
+        "03",
+        "58",
+        "14",
+        "05"
+      ],
+      "dezenas": [
+        "03",
+        "05",
+        "11",
+        "14",
+        "33",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 16035424.27
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 95,
+          "valorPremio": 15271.45
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8955,
+          "valorPremio": 162.01
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "GANHADOR DE 6 ACERTOS: TABO\u00c3O DA SERRA/SP.",
+      "acumulou": false,
+      "proximoConcurso": 948,
+      "dataProximoConcurso": "01/03/2008",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5013099.52,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1500000.0
+    }
+  },
+  {
+    "draw_id": 948,
+    "draw_date": "2008-03-01",
+    "numbers": [
+      22,
+      41,
+      44,
+      46,
+      52,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 948,
+      "data": "01/03/2008",
+      "local": "Caminh\u00e3o da Sorte em CRICIUMA, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "22",
+        "44",
+        "41",
+        "46",
+        "52",
+        "54"
+      ],
+      "dezenas": [
+        "22",
+        "41",
+        "44",
+        "46",
+        "52",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 30,
+          "valorPremio": 27177.27
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2141,
+          "valorPremio": 380.81
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 949,
+      "dataProximoConcurso": "05/03/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6032246.97,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1426806.41,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 949,
+    "draw_date": "2008-03-05",
+    "numbers": [
+      1,
+      23,
+      41,
+      44,
+      51,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 949,
+      "data": "05/03/2008",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O LOUREN\u00c7O DO SUL, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "44",
+        "01",
+        "51",
+        "52",
+        "41",
+        "23"
+      ],
+      "dezenas": [
+        "01",
+        "23",
+        "41",
+        "44",
+        "51",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 28,
+          "valorPremio": 31580.9
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2679,
+          "valorPremio": 330.08
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 950,
+      "dataProximoConcurso": "08/03/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 10111849.01,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 10111849.01,
+      "valorEstimadoProximoConcurso": 12000000.0
+    }
+  },
+  {
+    "draw_id": 950,
+    "draw_date": "2008-03-08",
+    "numbers": [
+      23,
+      41,
+      42,
+      48,
+      49,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 950,
+      "data": "08/03/2008",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O LOUREN\u00c7O DO SUL, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "48",
+        "59",
+        "49",
+        "41",
+        "42",
+        "23"
+      ],
+      "dezenas": [
+        "23",
+        "41",
+        "42",
+        "48",
+        "49",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 43,
+          "valorPremio": 30111.09
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3953,
+          "valorPremio": 327.54
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 951,
+      "dataProximoConcurso": "12/03/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1618471.19,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 12377708.64,
+      "valorEstimadoProximoConcurso": 15000000.0
+    }
+  },
+  {
+    "draw_id": 951,
+    "draw_date": "2008-03-12",
+    "numbers": [
+      14,
+      24,
+      34,
+      39,
+      49,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 951,
+      "data": "12/03/2008",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "49",
+        "24",
+        "39",
+        "34",
+        "55",
+        "14"
+      ],
+      "dezenas": [
+        "14",
+        "24",
+        "34",
+        "39",
+        "49",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 41,
+          "valorPremio": 33969.92
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3894,
+          "valorPremio": 357.67
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 952,
+      "dataProximoConcurso": "15/03/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3359429.55,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 14815050.33,
+      "valorEstimadoProximoConcurso": 17000000.0
+    }
+  },
+  {
+    "draw_id": 952,
+    "draw_date": "2008-03-15",
+    "numbers": [
+      2,
+      11,
+      18,
+      27,
+      30,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 952,
+      "data": "15/03/2008",
+      "local": "Caminh\u00e3o da Sorte em FRANCISCO BELTR\u00c3O, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "54",
+        "11",
+        "27",
+        "18",
+        "02",
+        "30"
+      ],
+      "dezenas": [
+        "02",
+        "11",
+        "18",
+        "27",
+        "30",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 132,
+          "valorPremio": 11947.28
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7126,
+          "valorPremio": 221.31
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 953,
+      "dataProximoConcurso": "19/03/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5330729.68,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 17574870.51,
+      "valorEstimadoProximoConcurso": 20000000.0
+    }
+  },
+  {
+    "draw_id": 953,
+    "draw_date": "2008-03-19",
+    "numbers": [
+      1,
+      16,
+      39,
+      42,
+      48,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 953,
+      "data": "19/03/2008",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "55",
+        "48",
+        "01",
+        "39",
+        "16",
+        "42"
+      ],
+      "dezenas": [
+        "01",
+        "16",
+        "39",
+        "42",
+        "48",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 20509951.37
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 71,
+          "valorPremio": 23622.38
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5055,
+          "valorPremio": 331.79
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "GANHADOR DA SENA: UBERL\u00c2NDIA/MG",
+      "acumulou": false,
+      "proximoConcurso": 954,
+      "dataProximoConcurso": "22/03/2008",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7427216.02,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1200000.0
+    }
+  },
+  {
+    "draw_id": 954,
+    "draw_date": "2008-03-22",
+    "numbers": [
+      5,
+      8,
+      18,
+      24,
+      33,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 954,
+      "data": "22/03/2008",
+      "local": "Caminh\u00e3o da Sorte em ITAPERUNA, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "08",
+        "05",
+        "24",
+        "18",
+        "57",
+        "33"
+      ],
+      "dezenas": [
+        "05",
+        "08",
+        "18",
+        "24",
+        "33",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 81,
+          "valorPremio": 7848.36
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5213,
+          "valorPremio": 121.95
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 955,
+      "dataProximoConcurso": "26/03/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 9334367.34,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 9334367.34,
+      "valorEstimadoProximoConcurso": 11000000.0
+    }
+  },
+  {
+    "draw_id": 955,
+    "draw_date": "2008-03-26",
+    "numbers": [
+      5,
+      12,
+      21,
+      32,
+      33,
+      35
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 955,
+      "data": "26/03/2008",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "35",
+        "05",
+        "32",
+        "21",
+        "33",
+        "12"
+      ],
+      "dezenas": [
+        "05",
+        "12",
+        "21",
+        "32",
+        "33",
+        "35"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 5678963.92
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 90,
+          "valorPremio": 12848.01
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6180,
+          "valorPremio": 187.11
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "GANHADORES DE 6 ACERTOS: SANTA LUZIA/MG e S\u00c3O JOS\u00c9 DO RIO PRETO/SP.",
+      "acumulou": false,
+      "proximoConcurso": 956,
+      "dataProximoConcurso": "29/03/2008",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1445400.38,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1200000.0
+    }
+  },
+  {
+    "draw_id": 956,
+    "draw_date": "2008-03-29",
+    "numbers": [
+      46,
+      47,
+      51,
+      54,
+      57,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 956,
+      "data": "29/03/2008",
+      "local": "Caminh\u00e3o da Sorte em NOVA LIMA, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "46",
+        "51",
+        "47",
+        "59",
+        "54",
+        "57"
+      ],
+      "dezenas": [
+        "46",
+        "47",
+        "51",
+        "54",
+        "57",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 1385109.95
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 38,
+          "valorPremio": 20828.72
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2468,
+          "valorPremio": 320.7
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "GANHADOR DE 6 ACERTOS: GUARULHOS/SP.",
+      "acumulou": false,
+      "proximoConcurso": 957,
+      "dataProximoConcurso": "02/04/2008",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2434764.64,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1300000.0
+    }
+  },
+  {
+    "draw_id": 957,
+    "draw_date": "2008-04-02",
+    "numbers": [
+      24,
+      25,
+      32,
+      34,
+      50,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 957,
+      "data": "02/04/2008",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "50",
+        "32",
+        "25",
+        "34",
+        "57",
+        "24"
+      ],
+      "dezenas": [
+        "24",
+        "25",
+        "32",
+        "34",
+        "50",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 24,
+          "valorPremio": 30247.28
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2210,
+          "valorPremio": 328.48
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 958,
+      "dataProximoConcurso": "05/04/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3342182.87,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1270385.5,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 958,
+    "draw_date": "2008-04-05",
+    "numbers": [
+      7,
+      13,
+      22,
+      33,
+      48,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 958,
+      "data": "05/04/2008",
+      "local": "Caminh\u00e3o da Sorte em JACARE\u00cd, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "13",
+        "22",
+        "07",
+        "33",
+        "51",
+        "48"
+      ],
+      "dezenas": [
+        "07",
+        "13",
+        "22",
+        "33",
+        "48",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 3,
+          "valorPremio": 978205.14
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 269,
+          "valorPremio": 3535.28
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8718,
+          "valorPremio": 109.09
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "GANHADORES DA SENA: S\u00c3O PAULO/SP, FEIRA DE SANTANA/BA, RIO DE JANEIRO/RJ.",
+      "acumulou": false,
+      "proximoConcurso": 959,
+      "dataProximoConcurso": "09/04/2008",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "BA"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4530918.54,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1300000.0
+    }
+  },
+  {
+    "draw_id": 959,
+    "draw_date": "2008-04-09",
+    "numbers": [
+      3,
+      5,
+      11,
+      33,
+      39,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 959,
+      "data": "09/04/2008",
+      "local": "Caminh\u00e3o da Sorte em SANTO ANDR\u00c9, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "57",
+        "03",
+        "05",
+        "11",
+        "33",
+        "39"
+      ],
+      "dezenas": [
+        "03",
+        "05",
+        "11",
+        "33",
+        "39",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 138,
+          "valorPremio": 5376.4
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7139,
+          "valorPremio": 103.93
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 960,
+      "dataProximoConcurso": "12/04/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6756745.86,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 6756745.86,
+      "valorEstimadoProximoConcurso": 8500000.0
+    }
+  },
+  {
+    "draw_id": 960,
+    "draw_date": "2008-04-12",
+    "numbers": [
+      6,
+      18,
+      19,
+      33,
+      34,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 960,
+      "data": "12/04/2008",
+      "local": "Caminh\u00e3o da Sorte em SANTO ANDR\u00c9, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "34",
+        "06",
+        "33",
+        "18",
+        "53",
+        "19"
+      ],
+      "dezenas": [
+        "06",
+        "18",
+        "19",
+        "33",
+        "34",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 73,
+          "valorPremio": 15299.06
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4852,
+          "valorPremio": 230.18
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 961,
+      "dataProximoConcurso": "16/04/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1396039.74,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 8711201.48,
+      "valorEstimadoProximoConcurso": 11000000.0
+    }
+  },
+  {
+    "draw_id": 961,
+    "draw_date": "2008-04-16",
+    "numbers": [
+      2,
+      4,
+      16,
+      21,
+      36,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 961,
+      "data": "16/04/2008",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "16",
+        "53",
+        "02",
+        "04",
+        "21",
+        "36"
+      ],
+      "dezenas": [
+        "02",
+        "04",
+        "16",
+        "21",
+        "36",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 81,
+          "valorPremio": 15330.15
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7193,
+          "valorPremio": 172.63
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 962,
+      "dataProximoConcurso": "19/04/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2948217.32,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 10884250.08,
+      "valorEstimadoProximoConcurso": 13000000.0
+    }
+  },
+  {
+    "draw_id": 962,
+    "draw_date": "2008-04-19",
+    "numbers": [
+      2,
+      11,
+      40,
+      48,
+      49,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 962,
+      "data": "19/04/2008",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O FRANCISCO DO SUL, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "02",
+        "48",
+        "49",
+        "40",
+        "55",
+        "11"
+      ],
+      "dezenas": [
+        "02",
+        "11",
+        "40",
+        "48",
+        "49",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 13272508.39
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 41,
+          "valorPremio": 33285.83
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3554,
+          "valorPremio": 384.0
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "GANHADOR DE 6 ACERTOS: PORTO ALEGRE/RS.",
+      "acumulou": false,
+      "proximoConcurso": 963,
+      "dataProximoConcurso": "23/04/2008",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RS"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4654116.11,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1200000.0
+    }
+  },
+  {
+    "draw_id": 963,
+    "draw_date": "2008-04-23",
+    "numbers": [
+      15,
+      17,
+      37,
+      48,
+      50,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 963,
+      "data": "23/04/2008",
+      "local": "Caminh\u00e3o da Sorte em NOVA VEN\u00c9CIA, ES",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "37",
+        "17",
+        "15",
+        "50",
+        "48",
+        "59"
+      ],
+      "dezenas": [
+        "15",
+        "17",
+        "37",
+        "48",
+        "50",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 30,
+          "valorPremio": 20269.81
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2644,
+          "valorPremio": 229.99
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 964,
+      "dataProximoConcurso": "26/04/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5414234.02,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1064165.04,
+      "valorEstimadoProximoConcurso": 2300000.0
+    }
+  },
+  {
+    "draw_id": 964,
+    "draw_date": "2008-04-26",
+    "numbers": [
+      8,
+      13,
+      20,
+      26,
+      33,
+      42
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 964,
+      "data": "26/04/2008",
+      "local": "Caminh\u00e3o da Sorte em NOVA VEN\u00c9CIA, ES",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "42",
+        "13",
+        "33",
+        "20",
+        "08",
+        "26"
+      ],
+      "dezenas": [
+        "08",
+        "13",
+        "20",
+        "26",
+        "33",
+        "42"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 125,
+          "valorPremio": 7097.23
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6128,
+          "valorPremio": 144.77
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 965,
+      "dataProximoConcurso": "30/04/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 9139860.1,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 9139860.1,
+      "valorEstimadoProximoConcurso": 11000000.0
+    }
+  },
+  {
+    "draw_id": 965,
+    "draw_date": "2008-04-30",
+    "numbers": [
+      5,
+      30,
+      36,
+      39,
+      57,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 965,
+      "data": "30/04/2008",
+      "local": "Caminh\u00e3o da Sorte em MONTE SI\u00c3O, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "36",
+        "39",
+        "57",
+        "58",
+        "05",
+        "30"
+      ],
+      "dezenas": [
+        "05",
+        "30",
+        "36",
+        "39",
+        "57",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 61,
+          "valorPremio": 18625.79
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3934,
+          "valorPremio": 288.81
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 966,
+      "dataProximoConcurso": "03/05/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1420216.1,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 11128162.61,
+      "valorEstimadoProximoConcurso": 13000000.0
+    }
+  },
+  {
+    "draw_id": 966,
+    "draw_date": "2008-05-03",
+    "numbers": [
+      1,
+      4,
+      26,
+      28,
+      41,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 966,
+      "data": "03/05/2008",
+      "local": "Caminh\u00e3o da Sorte em MONTE SI\u00c3O, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "01",
+        "58",
+        "26",
+        "28",
+        "04",
+        "41"
+      ],
+      "dezenas": [
+        "01",
+        "04",
+        "26",
+        "28",
+        "41",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 55,
+          "valorPremio": 21206.52
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4397,
+          "valorPremio": 265.26
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 967,
+      "dataProximoConcurso": "07/05/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2878164.42,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 13169290.24,
+      "valorEstimadoProximoConcurso": 15000000.0
+    }
+  },
+  {
+    "draw_id": 967,
+    "draw_date": "2008-05-07",
+    "numbers": [
+      5,
+      13,
+      14,
+      18,
+      30,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 967,
+      "data": "07/05/2008",
+      "local": "Caminh\u00e3o da Sorte em COLATINA, ES",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "18",
+        "14",
+        "57",
+        "30",
+        "13",
+        "05"
+      ],
+      "dezenas": [
+        "05",
+        "13",
+        "14",
+        "18",
+        "30",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 91,
+          "valorPremio": 15768.06
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7445,
+          "valorPremio": 192.74
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 968,
+      "dataProximoConcurso": "10/05/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4671781.22,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 15680353.75,
+      "valorEstimadoProximoConcurso": 18000000.0
+    }
+  },
+  {
+    "draw_id": 968,
+    "draw_date": "2008-05-10",
+    "numbers": [
+      1,
+      4,
+      13,
+      30,
+      51,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 968,
+      "data": "10/05/2008",
+      "local": "Caminh\u00e3o da Sorte em COLATINA, ES",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "30",
+        "04",
+        "13",
+        "60",
+        "51",
+        "01"
+      ],
+      "dezenas": [
+        "01",
+        "04",
+        "13",
+        "30",
+        "51",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 124,
+          "valorPremio": 13308.65
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9572,
+          "valorPremio": 172.41
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 969,
+      "dataProximoConcurso": "14/05/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6734621.87,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 18568330.65,
+      "valorEstimadoProximoConcurso": 22000000.0
+    }
+  },
+  {
+    "draw_id": 969,
+    "draw_date": "2008-05-14",
+    "numbers": [
+      13,
+      25,
+      35,
+      41,
+      50,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 969,
+      "data": "14/05/2008",
+      "local": "Caminh\u00e3o da Sorte em DUQUE DE CAXIAS, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "56",
+        "35",
+        "50",
+        "13",
+        "41",
+        "25"
+      ],
+      "dezenas": [
+        "13",
+        "25",
+        "35",
+        "41",
+        "50",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 21823614.22
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 82,
+          "valorPremio": 22684.9
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6898,
+          "valorPremio": 269.67
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "GANHADOR DA SENA: PALMARES/PE.",
+      "acumulou": false,
+      "proximoConcurso": 970,
+      "dataProximoConcurso": "17/05/2008",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PE"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 9059824.42,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 11000000.0
+    }
+  },
+  {
+    "draw_id": 970,
+    "draw_date": "2008-05-17",
+    "numbers": [
+      5,
+      21,
+      28,
+      34,
+      54,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 970,
+      "data": "17/05/2008",
+      "local": "Caminh\u00e3o da Sorte em DUQUE DE CAXIAS, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "57",
+        "34",
+        "05",
+        "54",
+        "28",
+        "21"
+      ],
+      "dezenas": [
+        "05",
+        "21",
+        "28",
+        "34",
+        "54",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 3,
+          "valorPremio": 3712467.76
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 108,
+          "valorPremio": 10992.48
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6144,
+          "valorPremio": 193.23
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "GANHADORES DE 6 ACERTOS: CRISTALINA/GO, RECIFE/PE, S\u00c3O PAULO/SP.",
+      "acumulou": false,
+      "proximoConcurso": 971,
+      "dataProximoConcurso": "21/05/2008",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "GO"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PE"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1483984.91,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1300000.0
+    }
+  },
+  {
+    "draw_id": 971,
+    "draw_date": "2008-05-21",
+    "numbers": [
+      4,
+      11,
+      14,
+      33,
+      44,
+      45
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 971,
+      "data": "21/05/2008",
+      "local": "Caminh\u00e3o da Sorte em PATOS DE MINAS, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "04",
+        "14",
+        "33",
+        "44",
+        "11",
+        "45"
+      ],
+      "dezenas": [
+        "04",
+        "11",
+        "14",
+        "33",
+        "44",
+        "45"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 66,
+          "valorPremio": 11508.75
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4390,
+          "valorPremio": 173.02
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 972,
+      "dataProximoConcurso": "24/05/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2433456.6,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1329260.36,
+      "valorEstimadoProximoConcurso": 2700000.0
+    }
+  },
+  {
+    "draw_id": 972,
+    "draw_date": "2008-05-24",
+    "numbers": [
+      15,
+      18,
+      31,
+      33,
+      34,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 972,
+      "data": "24/05/2008",
+      "local": "Caminh\u00e3o da Sorte em PATOS DE MINAS, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "33",
+        "18",
+        "15",
+        "56",
+        "31",
+        "34"
+      ],
+      "dezenas": [
+        "15",
+        "18",
+        "31",
+        "33",
+        "34",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 3,
+          "valorPremio": 912435.75
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 723,
+          "valorPremio": 1112.86
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4082,
+          "valorPremio": 197.11
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "GANHADORES DE 6 ACERTOS: OSASCO/SP, BLUMENAU/SC E RECIFE/PE.",
+      "acumulou": false,
+      "proximoConcurso": 973,
+      "dataProximoConcurso": "28/05/2008",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PE"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SC"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3439204.37,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1200000.0
+    }
+  },
+  {
+    "draw_id": 973,
+    "draw_date": "2008-05-28",
+    "numbers": [
+      1,
+      8,
+      30,
+      36,
+      47,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 973,
+      "data": "28/05/2008",
+      "local": "Caminh\u00e3o da Sorte em CONCEI\u00c7\u00c3O DE MACABU, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "53",
+        "36",
+        "08",
+        "30",
+        "01",
+        "47"
+      ],
+      "dezenas": [
+        "01",
+        "08",
+        "30",
+        "36",
+        "47",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 36,
+          "valorPremio": 19679.25
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2274,
+          "valorPremio": 311.55
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 974,
+      "dataProximoConcurso": "31/05/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4324770.77,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1239792.94,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 974,
+    "draw_date": "2008-05-31",
+    "numbers": [
+      12,
+      16,
+      20,
+      31,
+      38,
+      45
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 974,
+      "data": "31/05/2008",
+      "local": "Caminh\u00e3o da Sorte em CONCEI\u00c7\u00c3O DE MACABU, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "45",
+        "20",
+        "38",
+        "31",
+        "16",
+        "12"
+      ],
+      "dezenas": [
+        "12",
+        "16",
+        "20",
+        "31",
+        "38",
+        "45"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 93,
+          "valorPremio": 10307.56
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4213,
+          "valorPremio": 227.53
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 975,
+      "dataProximoConcurso": "04/06/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 8440373.33,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 8440373.33,
+      "valorEstimadoProximoConcurso": 11000000.0
+    }
+  },
+  {
+    "draw_id": 975,
+    "draw_date": "2008-06-04",
+    "numbers": [
+      9,
+      30,
+      33,
+      37,
+      40,
+      41
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 975,
+      "data": "04/06/2008",
+      "local": "Caminh\u00e3o da Sorte em REDEN\u00c7\u00c3O, PA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "33",
+        "09",
+        "37",
+        "40",
+        "41",
+        "30"
+      ],
+      "dezenas": [
+        "09",
+        "30",
+        "33",
+        "37",
+        "40",
+        "41"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 55,
+          "valorPremio": 25191.37
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4524,
+          "valorPremio": 306.26
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 976,
+      "dataProximoConcurso": "07/06/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1731907.08,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 10865043.23,
+      "valorEstimadoProximoConcurso": 13500000.0
+    }
+  },
+  {
+    "draw_id": 976,
+    "draw_date": "2008-06-07",
+    "numbers": [
+      14,
+      23,
+      25,
+      28,
+      38,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 976,
+      "data": "07/06/2008",
+      "local": "Caminh\u00e3o da Sorte em REDEN\u00c7\u00c3O, PA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "28",
+        "53",
+        "38",
+        "23",
+        "14",
+        "25"
+      ],
+      "dezenas": [
+        "14",
+        "23",
+        "25",
+        "28",
+        "38",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 74,
+          "valorPremio": 21152.88
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6395,
+          "valorPremio": 244.77
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 977,
+      "dataProximoConcurso": "11/06/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3688548.06,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 13604340.57,
+      "valorEstimadoProximoConcurso": 16000000.0
+    }
+  },
+  {
+    "draw_id": 977,
+    "draw_date": "2008-06-11",
+    "numbers": [
+      3,
+      5,
+      7,
+      9,
+      17,
+      32
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 977,
+      "data": "11/06/2008",
+      "local": "Caminh\u00e3o da Sorte em GOI\u00c1S, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "17",
+        "03",
+        "09",
+        "32",
+        "07",
+        "05"
+      ],
+      "dezenas": [
+        "03",
+        "05",
+        "07",
+        "09",
+        "17",
+        "32"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 16584111.63
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 452,
+          "valorPremio": 3767.1
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 24482,
+          "valorPremio": 69.55
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Ganhador de seis acertos: S\u00e3o Paulo/SP.",
+      "acumulou": false,
+      "proximoConcurso": 978,
+      "dataProximoConcurso": "14/06/2008",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5816955.96,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1300000.0
+    }
+  },
+  {
+    "draw_id": 978,
+    "draw_date": "2008-06-14",
+    "numbers": [
+      12,
+      16,
+      18,
+      27,
+      42,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 978,
+      "data": "14/06/2008",
+      "local": "Caminh\u00e3o da Sorte em GOI\u00c1S, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "42",
+        "58",
+        "12",
+        "18",
+        "16",
+        "27"
+      ],
+      "dezenas": [
+        "12",
+        "16",
+        "18",
+        "27",
+        "42",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 69,
+          "valorPremio": 13220.26
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4616,
+          "valorPremio": 197.61
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 979,
+      "dataProximoConcurso": "18/06/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6957203.64,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1596346.74,
+      "valorEstimadoProximoConcurso": 3500000.0
+    }
+  },
+  {
+    "draw_id": 979,
+    "draw_date": "2008-06-18",
+    "numbers": [
+      3,
+      15,
+      28,
+      31,
+      39,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 979,
+      "data": "18/06/2008",
+      "local": "Caminh\u00e3o da Sorte em IGUAPE, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "28",
+        "03",
+        "39",
+        "51",
+        "31",
+        "15"
+      ],
+      "dezenas": [
+        "03",
+        "15",
+        "28",
+        "31",
+        "39",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 42,
+          "valorPremio": 23261.38
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3714,
+          "valorPremio": 263.05
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 980,
+      "dataProximoConcurso": "21/06/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 8178426.04,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 11484484.11,
+      "valorEstimadoProximoConcurso": 13000000.0
+    }
+  },
+  {
+    "draw_id": 980,
+    "draw_date": "2008-06-21",
+    "numbers": [
+      15,
+      17,
+      29,
+      35,
+      36,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 980,
+      "data": "21/06/2008",
+      "local": "Caminh\u00e3o da Sorte em JACUPIRANGA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "35",
+        "17",
+        "59",
+        "15",
+        "36",
+        "29"
+      ],
+      "dezenas": [
+        "15",
+        "17",
+        "29",
+        "35",
+        "36",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 88,
+          "valorPremio": 16054.57
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6837,
+          "valorPremio": 206.64
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 981,
+      "dataProximoConcurso": "25/06/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1766003.31,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 13956888.71,
+      "valorEstimadoProximoConcurso": 16000000.0
+    }
+  },
+  {
+    "draw_id": 981,
+    "draw_date": "2008-06-25",
+    "numbers": [
+      1,
+      8,
+      34,
+      41,
+      53,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 981,
+      "data": "25/06/2008",
+      "local": "Caminh\u00e3o da Sorte em BARREIRAS, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "08",
+        "41",
+        "53",
+        "01",
+        "58",
+        "34"
+      ],
+      "dezenas": [
+        "01",
+        "08",
+        "34",
+        "41",
+        "53",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 74,
+          "valorPremio": 20200.29
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4974,
+          "valorPremio": 300.53
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 982,
+      "dataProximoConcurso": "28/06/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3634529.95,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 16572825.97,
+      "valorEstimadoProximoConcurso": 19000000.0
+    }
+  },
+  {
+    "draw_id": 982,
+    "draw_date": "2008-06-28",
+    "numbers": [
+      8,
+      12,
+      24,
+      40,
+      43,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 982,
+      "data": "28/06/2008",
+      "local": "Caminh\u00e3o da Sorte em BARREIRAS, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "12",
+        "24",
+        "08",
+        "40",
+        "43",
+        "49"
+      ],
+      "dezenas": [
+        "08",
+        "12",
+        "24",
+        "40",
+        "43",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 125,
+          "valorPremio": 14102.62
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8510,
+          "valorPremio": 207.15
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 983,
+      "dataProximoConcurso": "02/07/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5838065.15,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 19657775.24,
+      "valorEstimadoProximoConcurso": 23000000.0
+    }
+  },
+  {
+    "draw_id": 983,
+    "draw_date": "2008-07-02",
+    "numbers": [
+      16,
+      22,
+      32,
+      38,
+      40,
+      45
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 983,
+      "data": "02/07/2008",
+      "local": "Caminh\u00e3o da Sorte em CRAVINHOS, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "38",
+        "45",
+        "40",
+        "16",
+        "32",
+        "22"
+      ],
+      "dezenas": [
+        "16",
+        "22",
+        "32",
+        "38",
+        "40",
+        "45"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 24038180.79
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 244,
+          "valorPremio": 10258.56
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9930,
+          "valorPremio": 252.07
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Ganhador de seis acertos: Ibirama/SC.",
+      "acumulou": false,
+      "proximoConcurso": 984,
+      "dataProximoConcurso": "05/07/2008",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SC"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 8966926.26,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1500000.0
+    }
+  },
+  {
+    "draw_id": 984,
+    "draw_date": "2008-07-05",
+    "numbers": [
+      4,
+      10,
+      20,
+      43,
+      46,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 984,
+      "data": "05/07/2008",
+      "local": "Caminh\u00e3o da Sorte em MORRO AGUDO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "46",
+        "20",
+        "04",
+        "43",
+        "47",
+        "10"
+      ],
+      "dezenas": [
+        "04",
+        "10",
+        "20",
+        "43",
+        "46",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 38,
+          "valorPremio": 26313.69
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2643,
+          "valorPremio": 378.33
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 985,
+      "dataProximoConcurso": "09/07/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 11966686.94,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 11966686.94,
+      "valorEstimadoProximoConcurso": 15000000.0
+    }
+  },
+  {
+    "draw_id": 985,
+    "draw_date": "2008-07-09",
+    "numbers": [
+      4,
+      16,
+      18,
+      46,
+      56,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 985,
+      "data": "09/07/2008",
+      "local": "Caminh\u00e3o da Sorte em IPAMERI, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "04",
+        "56",
+        "18",
+        "59",
+        "46",
+        "16"
+      ],
+      "dezenas": [
+        "04",
+        "16",
+        "18",
+        "46",
+        "56",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 55,
+          "valorPremio": 26215.6
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4846,
+          "valorPremio": 297.54
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 986,
+      "dataProximoConcurso": "12/07/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1802322.39,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 14489938.27,
+      "valorEstimadoProximoConcurso": 17000000.0
+    }
+  },
+  {
+    "draw_id": 986,
+    "draw_date": "2008-07-12",
+    "numbers": [
+      6,
+      15,
+      19,
+      24,
+      31,
+      32
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 986,
+      "data": "12/07/2008",
+      "local": "Caminh\u00e3o da Sorte em IPAMERI, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "32",
+        "06",
+        "31",
+        "24",
+        "15",
+        "19"
+      ],
+      "dezenas": [
+        "06",
+        "15",
+        "19",
+        "24",
+        "31",
+        "32"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 120,
+          "valorPremio": 15043.78
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7953,
+          "valorPremio": 226.99
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 987,
+      "dataProximoConcurso": "16/07/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4058889.55,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 17649132.28,
+      "valorEstimadoProximoConcurso": 21000000.0
+    }
+  },
+  {
+    "draw_id": 987,
+    "draw_date": "2008-07-16",
+    "numbers": [
+      13,
+      27,
+      31,
+      34,
+      47,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 987,
+      "data": "16/07/2008",
+      "local": "Caminh\u00e3o da Sorte em RIO CLARO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "47",
+        "27",
+        "13",
+        "31",
+        "34",
+        "58"
+      ],
+      "dezenas": [
+        "13",
+        "27",
+        "31",
+        "34",
+        "47",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 193,
+          "valorPremio": 10707.6
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10923,
+          "valorPremio": 189.19
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 988,
+      "dataProximoConcurso": "19/07/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6642097.84,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 21265623.87,
+      "valorEstimadoProximoConcurso": 25000000.0
+    }
+  },
+  {
+    "draw_id": 988,
+    "draw_date": "2008-07-19",
+    "numbers": [
+      8,
+      17,
+      46,
+      48,
+      56,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 988,
+      "data": "19/07/2008",
+      "local": "Caminh\u00e3o da Sorte em RIO CLARO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "48",
+        "17",
+        "46",
+        "56",
+        "60",
+        "08"
+      ],
+      "dezenas": [
+        "08",
+        "17",
+        "46",
+        "48",
+        "56",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 73,
+          "valorPremio": 31767.36
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6874,
+          "valorPremio": 337.36
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 989,
+      "dataProximoConcurso": "23/07/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 9540869.37,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 25323903.99,
+      "valorEstimadoProximoConcurso": 30000000.0
+    }
+  },
+  {
+    "draw_id": 989,
+    "draw_date": "2008-07-23",
+    "numbers": [
+      2,
+      21,
+      27,
+      29,
+      32,
+      38
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 989,
+      "data": "23/07/2008",
+      "local": "Caminh\u00e3o da Sorte em TOLEDO, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "38",
+        "21",
+        "27",
+        "02",
+        "29",
+        "32"
+      ],
+      "dezenas": [
+        "02",
+        "21",
+        "27",
+        "29",
+        "32",
+        "38"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 130,
+          "valorPremio": 23437.38
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10296,
+          "valorPremio": 295.93
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 990,
+      "dataProximoConcurso": "26/07/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 44005353.43,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 44005353.43,
+      "valorEstimadoProximoConcurso": 52000000.0
+    }
+  },
+  {
+    "draw_id": 990,
+    "draw_date": "2008-07-26",
+    "numbers": [
+      2,
+      10,
+      15,
+      18,
+      29,
+      39
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 990,
+      "data": "26/07/2008",
+      "local": "Caminh\u00e3o da Sorte em JEQUERI, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "29",
+        "18",
+        "02",
+        "15",
+        "10",
+        "39"
+      ],
+      "dezenas": [
+        "02",
+        "10",
+        "15",
+        "18",
+        "29",
+        "39"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 26586140.51
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 290,
+          "valorPremio": 18062.91
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 20863,
+          "valorPremio": 251.08
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Ganhadores da Sena: Belo Horizonte/MG e Ji-Paran\u00e1/RO.",
+      "acumulou": false,
+      "proximoConcurso": 991,
+      "dataProximoConcurso": "30/07/2008",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RO"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6547805.42,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 991,
+    "draw_date": "2008-07-30",
+    "numbers": [
+      8,
+      9,
+      15,
+      38,
+      41,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 991,
+      "data": "30/07/2008",
+      "local": "Caminh\u00e3o da Sorte em BARRA DO GAR\u00c7AS, MT",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "08",
+        "38",
+        "60",
+        "41",
+        "15",
+        "09"
+      ],
+      "dezenas": [
+        "08",
+        "09",
+        "15",
+        "38",
+        "41",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 36,
+          "valorPremio": 26823.95
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3028,
+          "valorPremio": 318.91
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 992,
+      "dataProximoConcurso": "02/08/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7754883.09,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1689908.71,
+      "valorEstimadoProximoConcurso": 4000000.0
+    }
+  },
+  {
+    "draw_id": 992,
+    "draw_date": "2008-08-02",
+    "numbers": [
+      1,
+      4,
+      6,
+      8,
+      25,
+      28
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 992,
+      "data": "02/08/2008",
+      "local": "Caminh\u00e3o da Sorte em ARAGAR\u00c7AS, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "06",
+        "08",
+        "04",
+        "01",
+        "25",
+        "28"
+      ],
+      "dezenas": [
+        "01",
+        "04",
+        "06",
+        "08",
+        "25",
+        "28"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 330,
+          "valorPremio": 3731.21
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 13216,
+          "valorPremio": 93.17
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 993,
+      "dataProximoConcurso": "06/08/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 9294009.32,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 3844685.43,
+      "valorEstimadoProximoConcurso": 6000000.0
+    }
+  },
+  {
+    "draw_id": 993,
+    "draw_date": "2008-08-06",
+    "numbers": [
+      5,
+      24,
+      25,
+      26,
+      42,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 993,
+      "data": "06/08/2008",
+      "local": "Caminh\u00e3o da Sorte em TREMEMB\u00c9, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "26",
+        "25",
+        "42",
+        "60",
+        "05",
+        "24"
+      ],
+      "dezenas": [
+        "05",
+        "24",
+        "25",
+        "26",
+        "42",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 68,
+          "valorPremio": 18539.43
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5121,
+          "valorPremio": 246.18
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 994,
+      "dataProximoConcurso": "09/08/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 10753745.38,
+      "valorAcumuladoConcursoEspecial": 331758.21,
+      "valorAcumuladoProximoConcurso": 6166992.8,
+      "valorEstimadoProximoConcurso": 8500000.0
+    }
+  },
+  {
+    "draw_id": 994,
+    "draw_date": "2008-08-09",
+    "numbers": [
+      3,
+      20,
+      29,
+      40,
+      44,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 994,
+      "data": "09/08/2008",
+      "local": "Caminh\u00e3o da Sorte em TREMEMB\u00c9, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "44",
+        "40",
+        "58",
+        "29",
+        "03",
+        "20"
+      ],
+      "dezenas": [
+        "03",
+        "20",
+        "29",
+        "40",
+        "44",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 47,
+          "valorPremio": 31786.28
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3838,
+          "valorPremio": 389.25
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 995,
+      "dataProximoConcurso": "13/08/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.01,
+      "valorAcumuladoConcurso_0_5": 21402602.8,
+      "valorAcumuladoConcursoEspecial": 724904.25,
+      "valorAcumuladoProximoConcurso": 21402602.8,
+      "valorEstimadoProximoConcurso": 25000000.0
+    }
+  },
+  {
+    "draw_id": 995,
+    "draw_date": "2008-08-13",
+    "numbers": [
+      4,
+      16,
+      31,
+      36,
+      54,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 995,
+      "data": "13/08/2008",
+      "local": "Caminh\u00e3o da Sorte em BAURU, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "04",
+        "54",
+        "55",
+        "36",
+        "16",
+        "31"
+      ],
+      "dezenas": [
+        "04",
+        "16",
+        "31",
+        "36",
+        "54",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 76,
+          "valorPremio": 24991.48
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6790,
+          "valorPremio": 279.73
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 996,
+      "dataProximoConcurso": "16/08/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2199250.45,
+      "valorAcumuladoConcursoEspecial": 1224733.92,
+      "valorAcumuladoProximoConcurso": 24901410.33,
+      "valorEstimadoProximoConcurso": 30000000.0
+    }
+  },
+  {
+    "draw_id": 996,
+    "draw_date": "2008-08-16",
+    "numbers": [
+      7,
+      15,
+      20,
+      21,
+      23,
+      29
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 996,
+      "data": "16/08/2008",
+      "local": "Caminh\u00e3o da Sorte em BAURU, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "21",
+        "23",
+        "20",
+        "07",
+        "29",
+        "15"
+      ],
+      "dezenas": [
+        "07",
+        "15",
+        "20",
+        "21",
+        "23",
+        "29"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 14458257.67
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 165,
+          "valorPremio": 13209.87
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11901,
+          "valorPremio": 183.15
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Ganhadores da Sena: Barretos/SP e Joinville/SC.",
+      "acumulou": false,
+      "proximoConcurso": 997,
+      "dataProximoConcurso": "20/08/2008",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SC"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4723030.74,
+      "valorAcumuladoConcursoEspecial": 1798320.37,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1500000.0
+    }
+  },
+  {
+    "draw_id": 997,
+    "draw_date": "2008-08-20",
+    "numbers": [
+      9,
+      17,
+      18,
+      32,
+      53,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 997,
+      "data": "20/08/2008",
+      "local": "Caminh\u00e3o da Sorte em PONTE NOVA, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "18",
+        "53",
+        "55",
+        "32",
+        "09",
+        "17"
+      ],
+      "dezenas": [
+        "09",
+        "17",
+        "18",
+        "32",
+        "53",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 40,
+          "valorPremio": 22382.42
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3203,
+          "valorPremio": 279.52
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 998,
+      "dataProximoConcurso": "23/08/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5759690.05,
+      "valorAcumuladoConcursoEspecial": 2033924.78,
+      "valorAcumuladoProximoConcurso": 1649230.73,
+      "valorEstimadoProximoConcurso": 3600000.0
+    }
+  },
+  {
+    "draw_id": 998,
+    "draw_date": "2008-08-23",
+    "numbers": [
+      3,
+      4,
+      21,
+      22,
+      28,
+      32
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 998,
+      "data": "23/08/2008",
+      "local": "Caminh\u00e3o da Sorte em PONTE NOVA, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "28",
+        "21",
+        "04",
+        "32",
+        "03",
+        "22"
+      ],
+      "dezenas": [
+        "03",
+        "04",
+        "21",
+        "22",
+        "28",
+        "32"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 40,
+          "valorPremio": 27708.98
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4526,
+          "valorPremio": 244.89
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 999,
+      "dataProximoConcurso": "27/08/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7043053.34,
+      "valorAcumuladoConcursoEspecial": 2325598.27,
+      "valorAcumuladoProximoConcurso": 3690945.05,
+      "valorEstimadoProximoConcurso": 6000000.0
+    }
+  },
+  {
+    "draw_id": 999,
+    "draw_date": "2008-08-27",
+    "numbers": [
+      18,
+      24,
+      36,
+      44,
+      55,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 999,
+      "data": "27/08/2008",
+      "local": "Caminh\u00e3o da Sorte em PRESIDENTE VENCESLAU, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "44",
+        "36",
+        "55",
+        "58",
+        "18",
+        "24"
+      ],
+      "dezenas": [
+        "18",
+        "24",
+        "36",
+        "44",
+        "55",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 103,
+          "valorPremio": 11227.56
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6681,
+          "valorPremio": 173.09
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1000,
+      "dataProximoConcurso": "30/08/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 14203313.76,
+      "valorAcumuladoConcursoEspecial": 2629924.18,
+      "valorAcumuladoProximoConcurso": 14203313.76,
+      "valorEstimadoProximoConcurso": 17000000.0
+    }
+  },
+  {
+    "draw_id": 1000,
+    "draw_date": "2008-08-30",
+    "numbers": [
+      29,
+      38,
+      39,
+      49,
+      53,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1000,
+      "data": "30/08/2008",
+      "local": "Caminh\u00e3o da Sorte em DUQUE DE CAXIAS, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "49",
+        "58",
+        "53",
+        "39",
+        "38",
+        "29"
+      ],
+      "dezenas": [
+        "29",
+        "38",
+        "39",
+        "49",
+        "53",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 41,
+          "valorPremio": 42451.22
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3771,
+          "valorPremio": 461.55
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1001,
+      "dataProximoConcurso": "03/09/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2015316.1,
+      "valorAcumuladoConcursoEspecial": 3087950.58,
+      "valorAcumuladoProximoConcurso": 17409498.46,
+      "valorEstimadoProximoConcurso": 21000000.0
+    }
+  },
+  {
+    "draw_id": 1001,
+    "draw_date": "2008-09-03",
+    "numbers": [
+      12,
+      15,
+      27,
+      37,
+      51,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1001,
+      "data": "03/09/2008",
+      "local": "Caminh\u00e3o da Sorte em TABO\u00c3O DA SERRA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "15",
+        "37",
+        "27",
+        "12",
+        "60",
+        "51"
+      ],
+      "dezenas": [
+        "12",
+        "15",
+        "27",
+        "37",
+        "51",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 87,
+          "valorPremio": 22084.42
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7074,
+          "valorPremio": 271.6
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1002,
+      "dataProximoConcurso": "06/09/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4240030.69,
+      "valorAcumuladoConcursoEspecial": 3593567.54,
+      "valorAcumuladoProximoConcurso": 20948817.14,
+      "valorEstimadoProximoConcurso": 25000000.0
+    }
+  },
+  {
+    "draw_id": 1002,
+    "draw_date": "2008-09-06",
+    "numbers": [
+      3,
+      7,
+      25,
+      31,
+      40,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1002,
+      "data": "06/09/2008",
+      "local": "Caminh\u00e3o da Sorte em TABO\u00c3O DA SERRA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "03",
+        "31",
+        "07",
+        "25",
+        "40",
+        "58"
+      ],
+      "dezenas": [
+        "03",
+        "07",
+        "25",
+        "31",
+        "40",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 24880988.57
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 174,
+          "valorPremio": 12267.86
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10015,
+          "valorPremio": 213.14
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "GANHADOR DE 6 ACERTOS: LAVRAS/MG.",
+      "acumulou": false,
+      "proximoConcurso": 1003,
+      "dataProximoConcurso": "10/09/2008",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6711681.31,
+      "valorAcumuladoConcursoEspecial": 4155306.33,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1500000.0
+    }
+  },
+  {
+    "draw_id": 1003,
+    "draw_date": "2008-09-10",
+    "numbers": [
+      5,
+      10,
+      16,
+      23,
+      26,
+      27
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1003,
+      "data": "10/09/2008",
+      "local": "Caminh\u00e3o da Sorte em AMAMBAI, MS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "10",
+        "27",
+        "23",
+        "05",
+        "16",
+        "26"
+      ],
+      "dezenas": [
+        "05",
+        "10",
+        "16",
+        "23",
+        "26",
+        "27"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 1609524.9
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 86,
+          "valorPremio": 10159.79
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5694,
+          "valorPremio": 153.45
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "GANHADOR DE 6 ACERTOS: CABO DE SANTO AGOSTINHO/PE.",
+      "acumulou": false,
+      "proximoConcurso": 1004,
+      "dataProximoConcurso": "13/09/2008",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PE"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7723382.67,
+      "valorAcumuladoConcursoEspecial": 4385238.47,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1500000.0
+    }
+  },
+  {
+    "draw_id": 1004,
+    "draw_date": "2008-09-13",
+    "numbers": [
+      29,
+      40,
+      43,
+      44,
+      45,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1004,
+      "data": "13/09/2008",
+      "local": "Caminh\u00e3o da Sorte em AMAMBAI, MS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "45",
+        "47",
+        "29",
+        "40",
+        "44",
+        "43"
+      ],
+      "dezenas": [
+        "29",
+        "40",
+        "43",
+        "44",
+        "45",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 34,
+          "valorPremio": 27732.08
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2419,
+          "valorPremio": 389.79
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1005,
+      "dataProximoConcurso": "17/09/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 10552054.8,
+      "valorAcumuladoConcursoEspecial": 4633367.62,
+      "valorAcumuladoProximoConcurso": 10552054.8,
+      "valorEstimadoProximoConcurso": 13000000.0
+    }
+  },
+  {
+    "draw_id": 1005,
+    "draw_date": "2008-09-17",
+    "numbers": [
+      4,
+      6,
+      12,
+      37,
+      41,
+      42
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1005,
+      "data": "17/09/2008",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O MATEUS DO SUL, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "06",
+        "41",
+        "04",
+        "37",
+        "12",
+        "42"
+      ],
+      "dezenas": [
+        "04",
+        "06",
+        "12",
+        "37",
+        "41",
+        "42"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 12989451.54
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 67,
+          "valorPremio": 19748.63
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5871,
+          "valorPremio": 225.37
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "GANHADOR DE 6 ACERTOS: RIO DE JANEIRO/RJ.",
+      "acumulou": false,
+      "proximoConcurso": 1006,
+      "dataProximoConcurso": "20/09/2008",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1532077.96,
+      "valorAcumuladoConcursoEspecial": 4981567.17,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1500000.0
+    }
+  },
+  {
+    "draw_id": 1006,
+    "draw_date": "2008-09-20",
+    "numbers": [
+      2,
+      4,
+      17,
+      33,
+      48,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1006,
+      "data": "20/09/2008",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O MATEUS DO SUL, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "48",
+        "17",
+        "04",
+        "33",
+        "55",
+        "02"
+      ],
+      "dezenas": [
+        "02",
+        "04",
+        "17",
+        "33",
+        "48",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 1675260.09
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 136,
+          "valorPremio": 6686.96
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5935,
+          "valorPremio": 153.23
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "GANHADOR DE 6 ACERTOS: JUIZ DE FORA/MG.",
+      "acumulou": false,
+      "proximoConcurso": 1007,
+      "dataProximoConcurso": "24/09/2008",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2585098.58,
+      "valorAcumuladoConcursoEspecial": 5220890.05,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1500000.0
+    }
+  },
+  {
+    "draw_id": 1007,
+    "draw_date": "2008-09-24",
+    "numbers": [
+      4,
+      27,
+      36,
+      37,
+      49,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1007,
+      "data": "24/09/2008",
+      "local": "Caminh\u00e3o da Sorte em TEUT\u00d4NIA, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "49",
+        "27",
+        "04",
+        "36",
+        "52",
+        "37"
+      ],
+      "dezenas": [
+        "04",
+        "27",
+        "36",
+        "37",
+        "49",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 46,
+          "valorPremio": 17494.4
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2884,
+          "valorPremio": 279.04
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1008,
+      "dataProximoConcurso": "27/09/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3516905.84,
+      "valorAcumuladoConcursoEspecial": 5432664.44,
+      "valorAcumuladoProximoConcurso": 1482420.65,
+      "valorEstimadoProximoConcurso": 3500000.0
+    }
+  },
+  {
+    "draw_id": 1008,
+    "draw_date": "2008-09-27",
+    "numbers": [
+      7,
+      13,
+      15,
+      34,
+      42,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1008,
+      "data": "27/09/2008",
+      "local": "Caminh\u00e3o da Sorte em PORT\u00c3O, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "07",
+        "15",
+        "42",
+        "48",
+        "34",
+        "13"
+      ],
+      "dezenas": [
+        "07",
+        "13",
+        "15",
+        "34",
+        "42",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 159,
+          "valorPremio": 6334.47
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8123,
+          "valorPremio": 124.0
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1009,
+      "dataProximoConcurso": "01/10/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4683113.92,
+      "valorAcumuladoConcursoEspecial": 5697711.74,
+      "valorAcumuladoProximoConcurso": 3337751.69,
+      "valorEstimadoProximoConcurso": 5000000.0
+    }
+  },
+  {
+    "draw_id": 1009,
+    "draw_date": "2008-10-01",
+    "numbers": [
+      1,
+      6,
+      12,
+      29,
+      34,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1009,
+      "data": "01/10/2008",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "34",
+        "12",
+        "01",
+        "06",
+        "58",
+        "29"
+      ],
+      "dezenas": [
+        "01",
+        "06",
+        "12",
+        "29",
+        "34",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 2591825.61
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 111,
+          "valorPremio": 9027.57
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5083,
+          "valorPremio": 197.14
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "GANHADORES DE 6 ACERTOS: BEL\u00c9M/PA e BARUERI/SP.",
+      "acumulou": false,
+      "proximoConcurso": 1010,
+      "dataProximoConcurso": "04/10/2008",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PA"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5843393.62,
+      "valorAcumuladoConcursoEspecial": 5961411.68,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 8000000.0
+    }
+  },
+  {
+    "draw_id": 1010,
+    "draw_date": "2008-10-04",
+    "numbers": [
+      2,
+      3,
+      13,
+      37,
+      46,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1010,
+      "data": "04/10/2008",
+      "local": "Caminh\u00e3o da Sorte em PEN\u00c1POLIS, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "02",
+        "46",
+        "03",
+        "37",
+        "13",
+        "54"
+      ],
+      "dezenas": [
+        "02",
+        "03",
+        "13",
+        "37",
+        "46",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 61,
+          "valorPremio": 18487.52
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4679,
+          "valorPremio": 241.02
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1011,
+      "dataProximoConcurso": "08/10/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1305802.81,
+      "valorAcumuladoConcursoEspecial": 6258185.06,
+      "valorAcumuladoProximoConcurso": 7920807.17,
+      "valorEstimadoProximoConcurso": 10000000.0
+    }
+  },
+  {
+    "draw_id": 1011,
+    "draw_date": "2008-10-08",
+    "numbers": [
+      2,
+      11,
+      21,
+      30,
+      35,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1011,
+      "data": "08/10/2008",
+      "local": "Caminh\u00e3o da Sorte em VENDA NOVA DO IMIGRANTE, ES",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "30",
+        "02",
+        "52",
+        "21",
+        "11",
+        "35"
+      ],
+      "dezenas": [
+        "02",
+        "11",
+        "21",
+        "30",
+        "35",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 113,
+          "valorPremio": 10999.46
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3889,
+          "valorPremio": 319.6
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1012,
+      "dataProximoConcurso": "11/10/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2744995.56,
+      "valorAcumuladoConcursoEspecial": 6585274.33,
+      "valorAcumuladoProximoConcurso": 10210432.01,
+      "valorEstimadoProximoConcurso": 12500000.0
+    }
+  },
+  {
+    "draw_id": 1012,
+    "draw_date": "2008-10-11",
+    "numbers": [
+      14,
+      19,
+      40,
+      47,
+      55,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1012,
+      "data": "11/10/2008",
+      "local": "Caminh\u00e3o da Sorte em VENDA NOVA DO IMIGRANTE, ES",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "47",
+        "19",
+        "58",
+        "14",
+        "40",
+        "55"
+      ],
+      "dezenas": [
+        "14",
+        "19",
+        "40",
+        "47",
+        "55",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 43,
+          "valorPremio": 34250.51
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3755,
+          "valorPremio": 392.21
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1013,
+      "dataProximoConcurso": "15/10/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4450310.14,
+      "valorAcumuladoConcursoEspecial": 6972845.83,
+      "valorAcumuladoProximoConcurso": 12923432.48,
+      "valorEstimadoProximoConcurso": 16000000.0
+    }
+  },
+  {
+    "draw_id": 1013,
+    "draw_date": "2008-10-15",
+    "numbers": [
+      7,
+      9,
+      12,
+      19,
+      20,
+      41
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1013,
+      "data": "15/10/2008",
+      "local": "Caminh\u00e3o da Sorte em CAMPINAS DO SUL, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "07",
+        "09",
+        "20",
+        "41",
+        "12",
+        "19"
+      ],
+      "dezenas": [
+        "07",
+        "09",
+        "12",
+        "19",
+        "20",
+        "41"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 15668367.92
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 178,
+          "valorPremio": 8371.4
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10125,
+          "valorPremio": 147.17
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Ganhador de seis acertos: Bertioga/SP.",
+      "acumulou": false,
+      "proximoConcurso": 1014,
+      "dataProximoConcurso": "18/10/2008",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6175698.13,
+      "valorAcumuladoConcursoEspecial": 7364979.48,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1600000.0
+    }
+  },
+  {
+    "draw_id": 1014,
+    "draw_date": "2008-10-18",
+    "numbers": [
+      8,
+      9,
+      25,
+      41,
+      57,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1014,
+      "data": "18/10/2008",
+      "local": "Caminh\u00e3o da Sorte em IJU\u00cd, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "60",
+        "57",
+        "09",
+        "25",
+        "08",
+        "41"
+      ],
+      "dezenas": [
+        "08",
+        "09",
+        "25",
+        "41",
+        "57",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 65,
+          "valorPremio": 13760.77
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3861,
+          "valorPremio": 231.66
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1015,
+      "dataProximoConcurso": "22/10/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 8859049.04,
+      "valorAcumuladoConcursoEspecial": 7600361.16,
+      "valorAcumuladoProximoConcurso": 8859049.04,
+      "valorEstimadoProximoConcurso": 11000000.0
+    }
+  },
+  {
+    "draw_id": 1015,
+    "draw_date": "2008-10-22",
+    "numbers": [
+      3,
+      8,
+      17,
+      26,
+      28,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1015,
+      "data": "22/10/2008",
+      "local": "Caminh\u00e3o da Sorte em ARCOS, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "49",
+        "08",
+        "28",
+        "03",
+        "26",
+        "17"
+      ],
+      "dezenas": [
+        "03",
+        "08",
+        "17",
+        "26",
+        "28",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 110,
+          "valorPremio": 11111.5
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8105,
+          "valorPremio": 150.81
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1016,
+      "dataProximoConcurso": "25/10/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1415254.2,
+      "valorAcumuladoConcursoEspecial": 7922009.86,
+      "valorAcumuladoProximoConcurso": 11110589.81,
+      "valorEstimadoProximoConcurso": 14000000.0
+    }
+  },
+  {
+    "draw_id": 1016,
+    "draw_date": "2008-10-25",
+    "numbers": [
+      5,
+      9,
+      11,
+      20,
+      25,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1016,
+      "data": "25/10/2008",
+      "local": "Caminh\u00e3o da Sorte em SANTO ANT\u00d4NIO DO MONTE, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "11",
+        "09",
+        "25",
+        "05",
+        "60",
+        "20"
+      ],
+      "dezenas": [
+        "05",
+        "09",
+        "11",
+        "20",
+        "25",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 13814409.97
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 174,
+          "valorPremio": 8435.56
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9476,
+          "valorPremio": 154.89
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "GANHADOR DE 6 ACERTOS: JO\u00c3O PESSOA/PB.",
+      "acumulou": false,
+      "proximoConcurso": 1017,
+      "dataProximoConcurso": "29/10/2008",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PB"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3114798.3,
+      "valorAcumuladoConcursoEspecial": 8308269.91,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1600000.0
+    }
+  },
+  {
+    "draw_id": 1017,
+    "draw_date": "2008-10-29",
+    "numbers": [
+      6,
+      19,
+      31,
+      34,
+      51,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1017,
+      "data": "29/10/2008",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "31",
+        "51",
+        "19",
+        "06",
+        "56",
+        "34"
+      ],
+      "dezenas": [
+        "06",
+        "19",
+        "31",
+        "34",
+        "51",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 36,
+          "valorPremio": 21980.86
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2885,
+          "valorPremio": 274.29
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1018,
+      "dataProximoConcurso": "01/11/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4031052.84,
+      "valorAcumuladoConcursoEspecial": 8516509.59,
+      "valorAcumuladoProximoConcurso": 1457677.69,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 1018,
+    "draw_date": "2008-11-01",
+    "numbers": [
+      9,
+      24,
+      44,
+      51,
+      55,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1018,
+      "data": "01/11/2008",
+      "local": "Caminh\u00e3o da Sorte em PIUMHI, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "55",
+        "51",
+        "58",
+        "09",
+        "44",
+        "24"
+      ],
+      "dezenas": [
+        "09",
+        "24",
+        "44",
+        "51",
+        "55",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 35,
+          "valorPremio": 29464.79
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4170,
+          "valorPremio": 247.31
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1019,
+      "dataProximoConcurso": "05/11/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5225152.15,
+      "valorAcumuladoConcursoEspecial": 8787895.81,
+      "valorAcumuladoProximoConcurso": 3357381.15,
+      "valorEstimadoProximoConcurso": 5000000.0
+    }
+  },
+  {
+    "draw_id": 1019,
+    "draw_date": "2008-11-05",
+    "numbers": [
+      4,
+      13,
+      23,
+      29,
+      46,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1019,
+      "data": "05/11/2008",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O JOS\u00c9 DO RIO PRETO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "29",
+        "47",
+        "04",
+        "13",
+        "46",
+        "23"
+      ],
+      "dezenas": [
+        "04",
+        "13",
+        "23",
+        "29",
+        "46",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 77,
+          "valorPremio": 14084.12
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6124,
+          "valorPremio": 177.09
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1020,
+      "dataProximoConcurso": "08/11/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 11835965.99,
+      "valorAcumuladoConcursoEspecial": 9073284.66,
+      "valorAcumuladoProximoConcurso": 11835965.99,
+      "valorEstimadoProximoConcurso": 15000000.0
+    }
+  },
+  {
+    "draw_id": 1020,
+    "draw_date": "2008-11-08",
+    "numbers": [
+      1,
+      2,
+      19,
+      32,
+      39,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1020,
+      "data": "08/11/2008",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O JOS\u00c9 DO RIO PRETO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "19",
+        "32",
+        "52",
+        "01",
+        "02",
+        "39"
+      ],
+      "dezenas": [
+        "01",
+        "02",
+        "19",
+        "32",
+        "39",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 56,
+          "valorPremio": 27920.81
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4646,
+          "valorPremio": 336.54
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1021,
+      "dataProximoConcurso": "12/11/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1810444.47,
+      "valorAcumuladoConcursoEspecial": 9484749.33,
+      "valorAcumuladoProximoConcurso": 14716218.54,
+      "valorEstimadoProximoConcurso": 18000000.0
+    }
+  },
+  {
+    "draw_id": 1021,
+    "draw_date": "2008-11-12",
+    "numbers": [
+      2,
+      33,
+      42,
+      43,
+      51,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1021,
+      "data": "12/11/2008",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "42",
+        "55",
+        "51",
+        "43",
+        "02",
+        "33"
+      ],
+      "dezenas": [
+        "02",
+        "33",
+        "42",
+        "43",
+        "51",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 17819642.97
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 46,
+          "valorPremio": 36624.26
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4247,
+          "valorPremio": 396.69
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "GANHADOR DE 6 ACERTOS: BELO HORIZONTE/MG.",
+      "acumulou": false,
+      "proximoConcurso": 1022,
+      "dataProximoConcurso": "16/11/2008",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3761168.39,
+      "valorAcumuladoConcursoEspecial": 9928095.69,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1500000.0
+    }
+  },
+  {
+    "draw_id": 1022,
+    "draw_date": "2008-11-16",
+    "numbers": [
+      5,
+      21,
+      31,
+      39,
+      40,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1022,
+      "data": "16/11/2008",
+      "local": "Caminh\u00e3o da Sorte em MARAVILHA, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "31",
+        "21",
+        "40",
+        "39",
+        "56",
+        "05"
+      ],
+      "dezenas": [
+        "05",
+        "21",
+        "31",
+        "39",
+        "40",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 21,
+          "valorPremio": 31512.19
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1505,
+          "valorPremio": 439.7
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1023,
+      "dataProximoConcurso": "19/11/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4527412.12,
+      "valorAcumuladoConcursoEspecial": 10102242.01,
+      "valorAcumuladoProximoConcurso": 1219024.12,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 1023,
+    "draw_date": "2008-11-19",
+    "numbers": [
+      2,
+      7,
+      8,
+      18,
+      40,
+      45
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1023,
+      "data": "19/11/2008",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "45",
+        "40",
+        "02",
+        "07",
+        "18",
+        "08"
+      ],
+      "dezenas": [
+        "02",
+        "07",
+        "08",
+        "18",
+        "40",
+        "45"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 65,
+          "valorPremio": 14980.07
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4937,
+          "valorPremio": 197.23
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1024,
+      "dataProximoConcurso": "22/11/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5654859.94,
+      "valorAcumuladoConcursoEspecial": 10358480.18,
+      "valorAcumuladoProximoConcurso": 3012691.11,
+      "valorEstimadoProximoConcurso": 5000000.0
+    }
+  },
+  {
+    "draw_id": 1024,
+    "draw_date": "2008-11-22",
+    "numbers": [
+      18,
+      22,
+      28,
+      29,
+      39,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1024,
+      "data": "22/11/2008",
+      "local": "Caminh\u00e3o da Sorte em PALMEIRA DAS MISS\u00d5ES, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "28",
+        "53",
+        "18",
+        "39",
+        "22",
+        "29"
+      ],
+      "dezenas": [
+        "18",
+        "22",
+        "28",
+        "29",
+        "39",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 23,
+          "valorPremio": 48677.51
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2722,
+          "valorPremio": 411.31
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1025,
+      "dataProximoConcurso": "26/11/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 12026299.1,
+      "valorAcumuladoConcursoEspecial": 10653107.22,
+      "valorAcumuladoProximoConcurso": 12026299.1,
+      "valorEstimadoProximoConcurso": 15000000.0
+    }
+  },
+  {
+    "draw_id": 1025,
+    "draw_date": "2008-11-26",
+    "numbers": [
+      10,
+      27,
+      28,
+      29,
+      40,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1025,
+      "data": "26/11/2008",
+      "local": "Caminh\u00e3o da Sorte em EMBU-GUA\u00c7U, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "52",
+        "40",
+        "29",
+        "27",
+        "28",
+        "10"
+      ],
+      "dezenas": [
+        "10",
+        "27",
+        "28",
+        "29",
+        "40",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 34,
+          "valorPremio": 44097.09
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3705,
+          "valorPremio": 404.67
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1026,
+      "dataProximoConcurso": "29/11/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1736032.69,
+      "valorAcumuladoConcursoEspecial": 11047660.11,
+      "valorAcumuladoProximoConcurso": 14788169.28,
+      "valorEstimadoProximoConcurso": 18000000.0
+    }
+  },
+  {
+    "draw_id": 1026,
+    "draw_date": "2008-11-29",
+    "numbers": [
+      6,
+      10,
+      17,
+      33,
+      51,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1026,
+      "data": "29/11/2008",
+      "local": "Caminh\u00e3o da Sorte em EMBU-GUA\u00c7U, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "10",
+        "33",
+        "51",
+        "53",
+        "06",
+        "17"
+      ],
+      "dezenas": [
+        "06",
+        "10",
+        "17",
+        "33",
+        "51",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 92,
+          "valorPremio": 19600.34
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7192,
+          "valorPremio": 250.73
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1027,
+      "dataProximoConcurso": "03/12/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3823984.29,
+      "valorAcumuladoConcursoEspecial": 11522194.58,
+      "valorAcumuladoProximoConcurso": 18109910.47,
+      "valorEstimadoProximoConcurso": 22000000.0
+    }
+  },
+  {
+    "draw_id": 1027,
+    "draw_date": "2008-12-03",
+    "numbers": [
+      18,
+      20,
+      33,
+      44,
+      47,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1027,
+      "data": "03/12/2008",
+      "local": "Caminh\u00e3o da Sorte em RIBEIR\u00c3O PRETO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "20",
+        "18",
+        "47",
+        "44",
+        "60",
+        "33"
+      ],
+      "dezenas": [
+        "18",
+        "20",
+        "33",
+        "44",
+        "47",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 112,
+          "valorPremio": 19031.09
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6992,
+          "valorPremio": 304.85
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1028,
+      "dataProximoConcurso": "06/12/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6292015.45,
+      "valorAcumuladoConcursoEspecial": 12083110.77,
+      "valorAcumuladoProximoConcurso": 22036323.69,
+      "valorEstimadoProximoConcurso": 26000000.0
+    }
+  },
+  {
+    "draw_id": 1028,
+    "draw_date": "2008-12-06",
+    "numbers": [
+      20,
+      26,
+      34,
+      51,
+      52,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1028,
+      "data": "06/12/2008",
+      "local": "Caminh\u00e3o da Sorte em RIBEIR\u00c3O PRETO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "54",
+        "26",
+        "34",
+        "51",
+        "20",
+        "52"
+      ],
+      "dezenas": [
+        "20",
+        "26",
+        "34",
+        "51",
+        "52",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 66,
+          "valorPremio": 39415.99
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5453,
+          "valorPremio": 477.07
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1029,
+      "dataProximoConcurso": "10/12/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 9304226.64,
+      "valorAcumuladoConcursoEspecial": 12767704.24,
+      "valorAcumuladoProximoConcurso": 26828477.85,
+      "valorEstimadoProximoConcurso": 32000000.0
+    }
+  },
+  {
+    "draw_id": 1029,
+    "draw_date": "2008-12-10",
+    "numbers": [
+      5,
+      16,
+      17,
+      20,
+      24,
+      32
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1029,
+      "data": "10/12/2008",
+      "local": "Caminh\u00e3o da Sorte em FRANCA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "17",
+        "05",
+        "16",
+        "24",
+        "20",
+        "32"
+      ],
+      "dezenas": [
+        "05",
+        "16",
+        "17",
+        "20",
+        "24",
+        "32"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 32271347.11
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 262,
+          "valorPremio": 11277.48
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 17979,
+          "valorPremio": 164.34
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "GANHADOR DE 6 ACERTOS: DUQUE DE CAXIAS/RJ.",
+      "acumulou": false,
+      "proximoConcurso": 1030,
+      "dataProximoConcurso": "13/12/2008",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 12725458.74,
+      "valorAcumuladoConcursoEspecial": 13545257.02,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 15000000.0
+    }
+  },
+  {
+    "draw_id": 1030,
+    "draw_date": "2008-12-13",
+    "numbers": [
+      1,
+      8,
+      23,
+      37,
+      54,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1030,
+      "data": "13/12/2008",
+      "local": "Caminh\u00e3o da Sorte em FRANCA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "57",
+        "08",
+        "54",
+        "01",
+        "23",
+        "37"
+      ],
+      "dezenas": [
+        "01",
+        "08",
+        "23",
+        "37",
+        "54",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 123,
+          "valorPremio": 12938.02
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7495,
+          "valorPremio": 212.33
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1031,
+      "dataProximoConcurso": "17/12/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1842646.17,
+      "valorAcumuladoConcursoEspecial": 13964040.25,
+      "valorAcumuladoProximoConcurso": 15656941.29,
+      "valorEstimadoProximoConcurso": 19000000.0
+    }
+  },
+  {
+    "draw_id": 1031,
+    "draw_date": "2008-12-17",
+    "numbers": [
+      24,
+      33,
+      40,
+      43,
+      46,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1031,
+      "data": "17/12/2008",
+      "local": "Caminh\u00e3o da Sorte em PIRASSUNUNGA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "49",
+        "33",
+        "24",
+        "40",
+        "46",
+        "43"
+      ],
+      "dezenas": [
+        "24",
+        "33",
+        "40",
+        "43",
+        "46",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 19067463.74
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 59,
+          "valorPremio": 31380.11
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5508,
+          "valorPremio": 336.14
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Ganhador de 6 acertos: S\u00e3o Jos\u00e9 do Rio Preto/SP.",
+      "acumulou": false,
+      "proximoConcurso": 1032,
+      "dataProximoConcurso": "20/12/2008",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3986403.14,
+      "valorAcumuladoConcursoEspecial": 14451257.75,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1600000.0
+    }
+  },
+  {
+    "draw_id": 1032,
+    "draw_date": "2008-12-20",
+    "numbers": [
+      15,
+      16,
+      26,
+      29,
+      43,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1032,
+      "data": "20/12/2008",
+      "local": "Caminh\u00e3o da Sorte em PIRASSUNUNGA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "57",
+        "43",
+        "15",
+        "29",
+        "26",
+        "16"
+      ],
+      "dezenas": [
+        "15",
+        "16",
+        "26",
+        "29",
+        "43",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 49,
+          "valorPremio": 22063.82
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3682,
+          "valorPremio": 293.63
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1033,
+      "dataProximoConcurso": "24/12/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5238234.51,
+      "valorAcumuladoConcursoEspecial": 14735764.89,
+      "valorAcumuladoProximoConcurso": 1991549.91,
+      "valorEstimadoProximoConcurso": 4000000.0
+    }
+  },
+  {
+    "draw_id": 1033,
+    "draw_date": "2008-12-24",
+    "numbers": [
+      5,
+      6,
+      17,
+      33,
+      39,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1033,
+      "data": "24/12/2008",
+      "local": "Caminh\u00e3o da Sorte em IPOR\u00c3, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "39",
+        "06",
+        "05",
+        "33",
+        "54",
+        "17"
+      ],
+      "dezenas": [
+        "05",
+        "06",
+        "17",
+        "33",
+        "39",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 83,
+          "valorPremio": 13662.29
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6445,
+          "valorPremio": 175.95
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1034,
+      "dataProximoConcurso": "27/12/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6551252.25,
+      "valorAcumuladoConcursoEspecial": 15034178.04,
+      "valorAcumuladoProximoConcurso": 4080441.78,
+      "valorEstimadoProximoConcurso": 6000000.0
+    }
+  },
+  {
+    "draw_id": 1034,
+    "draw_date": "2008-12-27",
+    "numbers": [
+      1,
+      3,
+      18,
+      20,
+      42,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1034,
+      "data": "27/12/2008",
+      "local": "Caminh\u00e3o da Sorte em IPOR\u00c3, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "20",
+        "42",
+        "01",
+        "03",
+        "49",
+        "18"
+      ],
+      "dezenas": [
+        "01",
+        "03",
+        "18",
+        "20",
+        "42",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 61,
+          "valorPremio": 19548.37
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4635,
+          "valorPremio": 257.27
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1035,
+      "dataProximoConcurso": "31/12/2008",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 29557027.04,
+      "valorAcumuladoConcursoEspecial": 29557027.04,
+      "valorAcumuladoProximoConcurso": 29557027.04,
+      "valorEstimadoProximoConcurso": 35000000.0
+    }
+  },
+  {
+    "draw_id": 1035,
+    "draw_date": "2008-12-31",
+    "numbers": [
+      1,
+      11,
+      26,
+      51,
+      59,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1035,
+      "data": "31/12/2008",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "51",
+        "60",
+        "01",
+        "11",
+        "59",
+        "26"
+      ],
+      "dezenas": [
+        "01",
+        "11",
+        "26",
+        "51",
+        "59",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 289,
+          "valorPremio": 14028.04
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 19044,
+          "valorPremio": 212.88
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1036,
+      "dataProximoConcurso": "03/01/2009",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4694224.16,
+      "valorAcumuladoConcursoEspecial": 1066869.15,
+      "valorAcumuladoProximoConcurso": 37025110.94,
+      "valorEstimadoProximoConcurso": 45000000.0
+    }
+  }
+]

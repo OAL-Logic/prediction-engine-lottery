@@ -1,0 +1,7921 @@
+[
+  {
+    "draw_id": 2221,
+    "draw_date": "2020-01-04",
+    "numbers": [
+      5,
+      23,
+      34,
+      45,
+      56,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2221,
+      "data": "04/01/2020",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "23",
+        "34",
+        "45",
+        "57",
+        "05",
+        "56"
+      ],
+      "dezenas": [
+        "05",
+        "23",
+        "34",
+        "45",
+        "56",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 101,
+          "valorPremio": 13753.65
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3669,
+          "valorPremio": 540.87
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2222,
+      "dataProximoConcurso": "08/01/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 24093418.5,
+      "valorAcumuladoConcurso_0_5": 1608452.53,
+      "valorAcumuladoConcursoEspecial": 365557.41,
+      "valorAcumuladoProximoConcurso": 2558901.74,
+      "valorEstimadoProximoConcurso": 6000000.0
+    }
+  },
+  {
+    "draw_id": 2222,
+    "draw_date": "2020-01-08",
+    "numbers": [
+      13,
+      14,
+      29,
+      30,
+      48,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2222,
+      "data": "08/01/2020",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "14",
+        "48",
+        "30",
+        "29",
+        "59",
+        "13"
+      ],
+      "dezenas": [
+        "13",
+        "14",
+        "29",
+        "30",
+        "48",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 29,
+          "valorPremio": 58660.41
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1969,
+          "valorPremio": 1234.23
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2223,
+      "dataProximoConcurso": "11/01/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 29505456.0,
+      "valorAcumuladoConcurso_0_5": 3578207.26,
+      "valorAcumuladoConcursoEspecial": 813228.95,
+      "valorAcumuladoProximoConcurso": 5692602.45,
+      "valorEstimadoProximoConcurso": 10000000.0
+    }
+  },
+  {
+    "draw_id": 2223,
+    "draw_date": "2020-01-11",
+    "numbers": [
+      2,
+      26,
+      40,
+      42,
+      49,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2223,
+      "data": "11/01/2020",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "49",
+        "26",
+        "02",
+        "56",
+        "40",
+        "42"
+      ],
+      "dezenas": [
+        "02",
+        "26",
+        "40",
+        "42",
+        "49",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 45,
+          "valorPremio": 47600.35
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2702,
+          "valorPremio": 1132.5
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2224,
+      "dataProximoConcurso": "15/01/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 37151973.0,
+      "valorAcumuladoConcurso_0_5": 6058435.82,
+      "valorAcumuladoConcursoEspecial": 1376917.27,
+      "valorAcumuladoProximoConcurso": 9638420.62,
+      "valorEstimadoProximoConcurso": 14000000.0
+    }
+  },
+  {
+    "draw_id": 2224,
+    "draw_date": "2020-01-15",
+    "numbers": [
+      16,
+      23,
+      32,
+      50,
+      52,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2224,
+      "data": "15/01/2020",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "23",
+        "50",
+        "58",
+        "32",
+        "52",
+        "16"
+      ],
+      "dezenas": [
+        "16",
+        "23",
+        "32",
+        "50",
+        "52",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 28,
+          "valorPremio": 78328.49
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2283,
+          "valorPremio": 1372.37
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2225,
+      "dataProximoConcurso": "18/01/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 38039692.5,
+      "valorAcumuladoConcurso_0_5": 22276448.91,
+      "valorAcumuladoConcursoEspecial": 1954074.51,
+      "valorAcumuladoProximoConcurso": 22276448.91,
+      "valorEstimadoProximoConcurso": 27000000.0
+    }
+  },
+  {
+    "draw_id": 2225,
+    "draw_date": "2020-01-18",
+    "numbers": [
+      1,
+      32,
+      37,
+      44,
+      46,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2225,
+      "data": "18/01/2020",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "01",
+        "37",
+        "47",
+        "44",
+        "46",
+        "32"
+      ],
+      "dezenas": [
+        "01",
+        "32",
+        "37",
+        "44",
+        "46",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 34,
+          "valorPremio": 81317.28
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3100,
+          "valorPremio": 1274.09
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2226,
+      "dataProximoConcurso": "21/01/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 47953575.0,
+      "valorAcumuladoConcurso_0_5": 3201332.71,
+      "valorAcumuladoConcursoEspecial": 2681650.14,
+      "valorAcumuladoProximoConcurso": 27369478.22,
+      "valorEstimadoProximoConcurso": 32000000.0
+    }
+  },
+  {
+    "draw_id": 2226,
+    "draw_date": "2020-01-21",
+    "numbers": [
+      2,
+      4,
+      7,
+      16,
+      30,
+      38
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2226,
+      "data": "21/01/2020",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "02",
+        "07",
+        "38",
+        "30",
+        "04",
+        "16"
+      ],
+      "dezenas": [
+        "02",
+        "04",
+        "07",
+        "16",
+        "30",
+        "38"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 43,
+          "valorPremio": 46161.97
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3798,
+          "valorPremio": 746.62
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2227,
+      "dataProximoConcurso": "23/01/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 34428024.0,
+      "valorAcumuladoConcurso_0_5": 5499713.16,
+      "valorAcumuladoConcursoEspecial": 3204009.35,
+      "valorAcumuladoProximoConcurso": 31025992.58,
+      "valorEstimadoProximoConcurso": 35000000.0
+    }
+  },
+  {
+    "draw_id": 2227,
+    "draw_date": "2020-01-23",
+    "numbers": [
+      6,
+      9,
+      12,
+      27,
+      32,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2227,
+      "data": "23/01/2020",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "09",
+        "06",
+        "27",
+        "32",
+        "12",
+        "57"
+      ],
+      "dezenas": [
+        "06",
+        "09",
+        "12",
+        "27",
+        "32",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 92,
+          "valorPremio": 27202.9
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5732,
+          "valorPremio": 623.73
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2228,
+      "dataProximoConcurso": "25/01/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 43407252.0,
+      "valorAcumuladoConcurso_0_5": 8397537.89,
+      "valorAcumuladoConcursoEspecial": 3862605.89,
+      "valorAcumuladoProximoConcurso": 35636168.29,
+      "valorEstimadoProximoConcurso": 40000000.0
+    }
+  },
+  {
+    "draw_id": 2228,
+    "draw_date": "2020-01-25",
+    "numbers": [
+      9,
+      19,
+      23,
+      32,
+      39,
+      45
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2228,
+      "data": "25/01/2020",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "19",
+        "45",
+        "39",
+        "09",
+        "23",
+        "32"
+      ],
+      "dezenas": [
+        "09",
+        "19",
+        "23",
+        "32",
+        "39",
+        "45"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 85,
+          "valorPremio": 34599.33
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5562,
+          "valorPremio": 755.36
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2229,
+      "dataProximoConcurso": "29/01/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 51008890.5,
+      "valorAcumuladoConcurso_0_5": 11802840.41,
+      "valorAcumuladoConcursoEspecial": 4636538.3,
+      "valorAcumuladoProximoConcurso": 41053695.02,
+      "valorEstimadoProximoConcurso": 47000000.0
+    }
+  },
+  {
+    "draw_id": 2229,
+    "draw_date": "2020-01-29",
+    "numbers": [
+      6,
+      11,
+      29,
+      40,
+      41,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2229,
+      "data": "29/01/2020",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "06",
+        "41",
+        "40",
+        "29",
+        "58",
+        "11"
+      ],
+      "dezenas": [
+        "06",
+        "11",
+        "29",
+        "40",
+        "41",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 64,
+          "valorPremio": 53757.09
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4315,
+          "valorPremio": 1139.03
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2230,
+      "dataProximoConcurso": "01/02/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 59672605.5,
+      "valorAcumuladoConcurso_0_5": 63177897.14,
+      "valorAcumuladoConcursoEspecial": 5541920.91,
+      "valorAcumuladoProximoConcurso": 63177897.14,
+      "valorEstimadoProximoConcurso": 70000000.0
+    }
+  },
+  {
+    "draw_id": 2230,
+    "draw_date": "2020-02-01",
+    "numbers": [
+      7,
+      17,
+      26,
+      39,
+      56,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2230,
+      "data": "01/02/2020",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "39",
+        "17",
+        "56",
+        "60",
+        "26",
+        "07"
+      ],
+      "dezenas": [
+        "07",
+        "17",
+        "26",
+        "39",
+        "56",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 75,
+          "valorPremio": 61137.23
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6440,
+          "valorPremio": 1017.14
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2231,
+      "dataProximoConcurso": "05/02/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 79529139.0,
+      "valorAcumuladoConcurso_0_5": 5309285.79,
+      "valorAcumuladoConcursoEspecial": 6748576.78,
+      "valorAcumuladoProximoConcurso": 71624488.16,
+      "valorEstimadoProximoConcurso": 80000000.0
+    }
+  },
+  {
+    "draw_id": 2231,
+    "draw_date": "2020-02-05",
+    "numbers": [
+      4,
+      13,
+      25,
+      40,
+      53,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2231,
+      "data": "05/02/2020",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "04",
+        "13",
+        "53",
+        "40",
+        "25",
+        "57"
+      ],
+      "dezenas": [
+        "04",
+        "13",
+        "25",
+        "40",
+        "53",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 127,
+          "valorPremio": 39228.56
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8326,
+          "valorPremio": 854.81
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2232,
+      "dataProximoConcurso": "08/02/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 86410260.0,
+      "valorAcumuladoConcurso_0_5": 11077948.33,
+      "valorAcumuladoConcursoEspecial": 8059636.47,
+      "valorAcumuladoProximoConcurso": 80801905.85,
+      "valorEstimadoProximoConcurso": 90000000.0
+    }
+  },
+  {
+    "draw_id": 2232,
+    "draw_date": "2020-02-08",
+    "numbers": [
+      7,
+      8,
+      31,
+      34,
+      38,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2232,
+      "data": "08/02/2020",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "31",
+        "34",
+        "38",
+        "47",
+        "07",
+        "08"
+      ],
+      "dezenas": [
+        "07",
+        "08",
+        "31",
+        "34",
+        "38",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 111,
+          "valorPremio": 54265.87
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8685,
+          "valorPremio": 990.79
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2233,
+      "dataProximoConcurso": "12/02/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 104474196.0,
+      "valorAcumuladoConcurso_0_5": 18052541.18,
+      "valorAcumuladoConcursoEspecial": 9644771.22,
+      "valorAcumuladoProximoConcurso": 91897849.01,
+      "valorEstimadoProximoConcurso": 105000000.0
+    }
+  },
+  {
+    "draw_id": 2233,
+    "draw_date": "2020-02-12",
+    "numbers": [
+      4,
+      6,
+      32,
+      35,
+      41,
+      45
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2233,
+      "data": "12/02/2020",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "45",
+        "35",
+        "06",
+        "41",
+        "04",
+        "32"
+      ],
+      "dezenas": [
+        "04",
+        "06",
+        "32",
+        "35",
+        "41",
+        "45"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 89,
+          "valorPremio": 75344.43
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8107,
+          "valorPremio": 1181.63
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2234,
+      "dataProximoConcurso": "15/02/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 116305533.0,
+      "valorAcumuladoConcurso_0_5": 25816982.26,
+      "valorAcumuladoConcursoEspecial": 11409416.93,
+      "valorAcumuladoProximoConcurso": 104250368.91,
+      "valorEstimadoProximoConcurso": 120000000.0
+    }
+  },
+  {
+    "draw_id": 2234,
+    "draw_date": "2020-02-15",
+    "numbers": [
+      4,
+      21,
+      27,
+      29,
+      42,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2234,
+      "data": "15/02/2020",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "47",
+        "29",
+        "42",
+        "04",
+        "27",
+        "21"
+      ],
+      "dezenas": [
+        "04",
+        "21",
+        "27",
+        "29",
+        "42",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 216,
+          "valorPremio": 36114.36
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 13800,
+          "valorPremio": 807.52
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2235,
+      "dataProximoConcurso": "19/02/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 135298489.5,
+      "valorAcumuladoConcurso_0_5": 153469457.33,
+      "valorAcumuladoConcursoEspecial": 13462233.27,
+      "valorAcumuladoProximoConcurso": 153469457.33,
+      "valorEstimadoProximoConcurso": 170000000.0
+    }
+  },
+  {
+    "draw_id": 2235,
+    "draw_date": "2020-02-19",
+    "numbers": [
+      14,
+      18,
+      30,
+      35,
+      55,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2235,
+      "data": "19/02/2020",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "14",
+        "55",
+        "35",
+        "30",
+        "18",
+        "57"
+      ],
+      "dezenas": [
+        "14",
+        "18",
+        "30",
+        "35",
+        "55",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 133,
+          "valorPremio": 69161.57
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11895,
+          "valorPremio": 1104.72
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2236,
+      "dataProximoConcurso": "22/02/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 159542253.0,
+      "valorAcumuladoConcurso_0_5": 10650881.27,
+      "valorAcumuladoConcursoEspecial": 15882888.12,
+      "valorAcumuladoProximoConcurso": 170414041.17,
+      "valorEstimadoProximoConcurso": 190000000.0
+    }
+  },
+  {
+    "draw_id": 2236,
+    "draw_date": "2020-02-22",
+    "numbers": [
+      7,
+      20,
+      38,
+      43,
+      45,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2236,
+      "data": "22/02/2020",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "07",
+        "53",
+        "43",
+        "20",
+        "45",
+        "38"
+      ],
+      "dezenas": [
+        "07",
+        "20",
+        "38",
+        "43",
+        "45",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 190,
+          "valorPremio": 56213.79
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 14982,
+          "valorPremio": 1018.42
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2237,
+      "dataProximoConcurso": "27/02/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 185248930.5,
+      "valorAcumuladoConcurso_0_5": 23017914.62,
+      "valorAcumuladoConcursoEspecial": 18693577.53,
+      "valorAcumuladoProximoConcurso": 190088866.94,
+      "valorEstimadoProximoConcurso": 200000000.0
+    }
+  },
+  {
+    "draw_id": 2237,
+    "draw_date": "2020-02-27",
+    "numbers": [
+      11,
+      20,
+      27,
+      28,
+      53,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2237,
+      "data": "27/02/2020",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "60",
+        "27",
+        "28",
+        "20",
+        "53",
+        "11"
+      ],
+      "dezenas": [
+        "11",
+        "20",
+        "27",
+        "28",
+        "53",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 105826358.87
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 263,
+          "valorPremio": 44509.85
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 15054,
+          "valorPremio": 1110.86
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2238,
+      "dataProximoConcurso": "29/02/2020",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "RIO BRANCO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "AC"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "FORTALEZA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "CE"
+        }
+      ],
+      "valorArrecadado": 203035104.0,
+      "valorAcumuladoConcurso_0_5": 36572335.12,
+      "valorAcumuladoConcursoEspecial": 21774127.65,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 2238,
+    "draw_date": "2020-02-29",
+    "numbers": [
+      11,
+      36,
+      45,
+      55,
+      57,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2238,
+      "data": "29/02/2020",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "57",
+        "36",
+        "11",
+        "58",
+        "55",
+        "45"
+      ],
+      "dezenas": [
+        "11",
+        "36",
+        "45",
+        "55",
+        "57",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 14,
+          "valorPremio": 123443.51
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1679,
+          "valorPremio": 1470.44
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2239,
+      "dataProximoConcurso": "04/03/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 29974747.5,
+      "valorAcumuladoConcurso_0_5": 38573419.28,
+      "valorAcumuladoConcursoEspecial": 22228919.53,
+      "valorAcumuladoProximoConcurso": 3183543.0,
+      "valorEstimadoProximoConcurso": 7000000.0
+    }
+  },
+  {
+    "draw_id": 2239,
+    "draw_date": "2020-03-04",
+    "numbers": [
+      7,
+      27,
+      31,
+      39,
+      45,
+      46
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2239,
+      "data": "04/03/2020",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "27",
+        "39",
+        "07",
+        "31",
+        "46",
+        "45"
+      ],
+      "dezenas": [
+        "07",
+        "27",
+        "31",
+        "39",
+        "45",
+        "46"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 29,
+          "valorPremio": 76121.74
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3057,
+          "valorPremio": 1031.6
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2240,
+      "dataProximoConcurso": "07/03/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 38288290.5,
+      "valorAcumuladoConcurso_0_5": 48379553.86,
+      "valorAcumuladoConcursoEspecial": 22809848.63,
+      "valorAcumuladoProximoConcurso": 48379553.86,
+      "valorEstimadoProximoConcurso": 55000000.0
+    }
+  },
+  {
+    "draw_id": 2240,
+    "draw_date": "2020-03-07",
+    "numbers": [
+      7,
+      9,
+      10,
+      19,
+      25,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2240,
+      "data": "07/03/2020",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "25",
+        "09",
+        "07",
+        "10",
+        "58",
+        "19"
+      ],
+      "dezenas": [
+        "07",
+        "09",
+        "10",
+        "19",
+        "25",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 27894020.38
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 143,
+          "valorPremio": 28124.13
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10345,
+          "valorPremio": 555.37
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2241,
+      "dataProximoConcurso": "10/03/2020",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "BELO HORIZONTE",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "SAO PAULO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 69754837.5,
+      "valorAcumuladoConcurso_0_5": 4656763.2,
+      "valorAcumuladoConcursoEspecial": 23868203.92,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 2241,
+    "draw_date": "2020-03-10",
+    "numbers": [
+      1,
+      13,
+      18,
+      26,
+      40,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2241,
+      "data": "10/03/2020",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "56",
+        "18",
+        "26",
+        "13",
+        "01",
+        "40"
+      ],
+      "dezenas": [
+        "01",
+        "13",
+        "18",
+        "26",
+        "40",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 33,
+          "valorPremio": 31946.06
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1575,
+          "valorPremio": 956.2
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2242,
+      "dataProximoConcurso": "12/03/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 18284809.5,
+      "valorAcumuladoConcurso_0_5": 5877438.8,
+      "valorAcumuladoConcursoEspecial": 24145630.21,
+      "valorAcumuladoProximoConcurso": 1941983.9,
+      "valorEstimadoProximoConcurso": 4500000.0
+    }
+  },
+  {
+    "draw_id": 2242,
+    "draw_date": "2020-03-12",
+    "numbers": [
+      5,
+      9,
+      18,
+      24,
+      25,
+      42
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2242,
+      "data": "12/03/2020",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "24",
+        "42",
+        "18",
+        "05",
+        "25",
+        "09"
+      ],
+      "dezenas": [
+        "05",
+        "09",
+        "18",
+        "24",
+        "25",
+        "42"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 89,
+          "valorPremio": 17495.28
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4514,
+          "valorPremio": 492.77
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2243,
+      "dataProximoConcurso": "14/03/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 27006615.0,
+      "valorAcumuladoConcurso_0_5": 7680373.4,
+      "valorAcumuladoConcursoEspecial": 24555388.08,
+      "valorAcumuladoProximoConcurso": 4810288.96,
+      "valorEstimadoProximoConcurso": 8500000.0
+    }
+  },
+  {
+    "draw_id": 2243,
+    "draw_date": "2020-03-14",
+    "numbers": [
+      14,
+      18,
+      28,
+      35,
+      38,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2243,
+      "data": "14/03/2020",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "14",
+        "38",
+        "28",
+        "18",
+        "35",
+        "54"
+      ],
+      "dezenas": [
+        "14",
+        "18",
+        "28",
+        "35",
+        "38",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 45,
+          "valorPremio": 43218.75
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3079,
+          "valorPremio": 902.35
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2244,
+      "dataProximoConcurso": "18/03/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 33732144.0,
+      "valorAcumuladoConcurso_0_5": 9932297.6,
+      "valorAcumuladoConcursoEspecial": 25067189.05,
+      "valorAcumuladoProximoConcurso": 8392895.64,
+      "valorEstimadoProximoConcurso": 12500000.0
+    }
+  },
+  {
+    "draw_id": 2244,
+    "draw_date": "2020-03-18",
+    "numbers": [
+      3,
+      5,
+      11,
+      34,
+      37,
+      42
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2244,
+      "data": "18/03/2020",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "11",
+        "05",
+        "42",
+        "03",
+        "34",
+        "37"
+      ],
+      "dezenas": [
+        "03",
+        "05",
+        "11",
+        "34",
+        "37",
+        "42"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 12147334.8
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 77,
+          "valorPremio": 26469.15
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4706,
+          "valorPremio": 618.7
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2245,
+      "dataProximoConcurso": "21/03/2020",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "CANAL ELETRONICO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "--"
+        }
+      ],
+      "valorArrecadado": 35350038.0,
+      "valorAcumuladoConcurso_0_5": 12292230.79,
+      "valorAcumuladoConcursoEspecial": 25603537.52,
+      "valorAcumuladoProximoConcurso": 12292230.79,
+      "valorEstimadoProximoConcurso": 16000000.0
+    }
+  },
+  {
+    "draw_id": 2245,
+    "draw_date": "2020-03-21",
+    "numbers": [
+      11,
+      14,
+      15,
+      18,
+      33,
+      34
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2245,
+      "data": "21/03/2020",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "33",
+        "11",
+        "14",
+        "34",
+        "15",
+        "18"
+      ],
+      "dezenas": [
+        "11",
+        "14",
+        "15",
+        "18",
+        "33",
+        "34"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 15186785.88
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 51,
+          "valorPremio": 30810.39
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3048,
+          "valorPremio": 736.46
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2246,
+      "dataProximoConcurso": "25/03/2020",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "MINACU",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "GO"
+        }
+      ],
+      "valorArrecadado": 27253773.0,
+      "valorAcumuladoConcurso_0_5": 1819434.63,
+      "valorAcumuladoConcursoEspecial": 26017045.41,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1000000.0
+    }
+  },
+  {
+    "draw_id": 2246,
+    "draw_date": "2020-03-25",
+    "numbers": [
+      5,
+      9,
+      24,
+      27,
+      33,
+      46
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2246,
+      "data": "25/03/2020",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "09",
+        "33",
+        "46",
+        "24",
+        "27",
+        "05"
+      ],
+      "dezenas": [
+        "05",
+        "09",
+        "24",
+        "27",
+        "33",
+        "46"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 51,
+          "valorPremio": 13197.43
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2227,
+          "valorPremio": 431.75
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2247,
+      "dataProximoConcurso": "28/03/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 11673981.0,
+      "valorAcumuladoConcurso_0_5": 2598777.92,
+      "valorAcumuladoConcursoEspecial": 26194168.9,
+      "valorAcumuladoProximoConcurso": 1239864.34,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 2247,
+    "draw_date": "2020-03-28",
+    "numbers": [
+      1,
+      42,
+      44,
+      47,
+      48,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2247,
+      "data": "28/03/2020",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "42",
+        "53",
+        "47",
+        "01",
+        "44",
+        "48"
+      ],
+      "dezenas": [
+        "01",
+        "42",
+        "44",
+        "47",
+        "48",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 10,
+          "valorPremio": 86553.24
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 908,
+          "valorPremio": 1361.75
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2248,
+      "dataProximoConcurso": "01/04/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 15012139.5,
+      "valorAcumuladoConcurso_0_5": 3600973.34,
+      "valorAcumuladoConcursoEspecial": 26421940.61,
+      "valorAcumuladoProximoConcurso": 2834266.14,
+      "valorEstimadoProximoConcurso": 4800000.0
+    }
+  },
+  {
+    "draw_id": 2248,
+    "draw_date": "2020-04-01",
+    "numbers": [
+      9,
+      15,
+      20,
+      29,
+      30,
+      42
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2248,
+      "data": "01/04/2020",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "20",
+        "09",
+        "42",
+        "29",
+        "30",
+        "15"
+      ],
+      "dezenas": [
+        "09",
+        "15",
+        "20",
+        "29",
+        "30",
+        "42"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 4906932.9
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 29,
+          "valorPremio": 38798.69
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1618,
+          "valorPremio": 993.43
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2249,
+      "dataProximoConcurso": "04/04/2020",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "CANAL ELETRONICO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "--"
+        }
+      ],
+      "valorArrecadado": 19515258.0,
+      "valorAcumuladoConcurso_0_5": 4903792.44,
+      "valorAcumuladoConcursoEspecial": 26718035.87,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1800000.0
+    }
+  },
+  {
+    "draw_id": 2249,
+    "draw_date": "2020-04-04",
+    "numbers": [
+      4,
+      9,
+      31,
+      47,
+      49,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2249,
+      "data": "04/04/2020",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "04",
+        "49",
+        "09",
+        "31",
+        "47",
+        "53"
+      ],
+      "dezenas": [
+        "04",
+        "09",
+        "31",
+        "47",
+        "49",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 27,
+          "valorPremio": 39850.68
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1782,
+          "valorPremio": 862.56
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2250,
+      "dataProximoConcurso": "08/04/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 18662022.0,
+      "valorAcumuladoConcurso_0_5": 8131697.06,
+      "valorAcumuladoConcursoEspecial": 27001185.41,
+      "valorAcumuladoProximoConcurso": 8131697.06,
+      "valorEstimadoProximoConcurso": 10500000.0
+    }
+  },
+  {
+    "draw_id": 2250,
+    "draw_date": "2020-04-08",
+    "numbers": [
+      27,
+      33,
+      39,
+      52,
+      57,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2250,
+      "data": "08/04/2020",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "39",
+        "52",
+        "27",
+        "57",
+        "58",
+        "33"
+      ],
+      "dezenas": [
+        "27",
+        "33",
+        "39",
+        "52",
+        "57",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 27,
+          "valorPremio": 53018.19
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2385,
+          "valorPremio": 857.43
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2251,
+      "dataProximoConcurso": "11/04/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 24828354.0,
+      "valorAcumuladoConcurso_0_5": 1657516.08,
+      "valorAcumuladoConcursoEspecial": 27377893.63,
+      "valorAcumuladoProximoConcurso": 10768654.46,
+      "valorEstimadoProximoConcurso": 13000000.0
+    }
+  },
+  {
+    "draw_id": 2251,
+    "draw_date": "2020-04-11",
+    "numbers": [
+      5,
+      15,
+      22,
+      26,
+      54,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2251,
+      "data": "11/04/2020",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "58",
+        "22",
+        "26",
+        "15",
+        "54",
+        "05"
+      ],
+      "dezenas": [
+        "05",
+        "15",
+        "22",
+        "26",
+        "54",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 29,
+          "valorPremio": 49650.39
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2222,
+          "valorPremio": 925.71
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2252,
+      "dataProximoConcurso": "15/04/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 24973528.5,
+      "valorAcumuladoConcurso_0_5": 3324723.87,
+      "valorAcumuladoConcursoEspecial": 27756804.5,
+      "valorAcumuladoProximoConcurso": 13421030.49,
+      "valorEstimadoProximoConcurso": 17000000.0
+    }
+  },
+  {
+    "draw_id": 2252,
+    "draw_date": "2020-04-15",
+    "numbers": [
+      1,
+      17,
+      30,
+      37,
+      46,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2252,
+      "data": "15/04/2020",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "46",
+        "50",
+        "01",
+        "17",
+        "37",
+        "30"
+      ],
+      "dezenas": [
+        "01",
+        "17",
+        "30",
+        "37",
+        "46",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 20,
+          "valorPremio": 83292.59
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1723,
+          "valorPremio": 1381.18
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2253,
+      "dataProximoConcurso": "18/04/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 28893199.5,
+      "valorAcumuladoConcurso_0_5": 5253604.97,
+      "valorAcumuladoConcursoEspecial": 28195186.58,
+      "valorAcumuladoProximoConcurso": 16489704.97,
+      "valorEstimadoProximoConcurso": 20000000.0
+    }
+  },
+  {
+    "draw_id": 2253,
+    "draw_date": "2020-04-18",
+    "numbers": [
+      31,
+      32,
+      33,
+      39,
+      52,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2253,
+      "data": "18/04/2020",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "32",
+        "39",
+        "55",
+        "33",
+        "52",
+        "31"
+      ],
+      "dezenas": [
+        "31",
+        "32",
+        "33",
+        "39",
+        "52",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 26,
+          "valorPremio": 73343.98
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2224,
+          "valorPremio": 1224.91
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2254,
+      "dataProximoConcurso": "22/04/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 33074788.5,
+      "valorAcumuladoConcurso_0_5": 7461644.77,
+      "valorAcumuladoConcursoEspecial": 28697013.83,
+      "valorAcumuladoProximoConcurso": 20002495.57,
+      "valorEstimadoProximoConcurso": 24000000.0
+    }
+  },
+  {
+    "draw_id": 2254,
+    "draw_date": "2020-04-22",
+    "numbers": [
+      4,
+      9,
+      24,
+      44,
+      47,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2254,
+      "data": "22/04/2020",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "47",
+        "04",
+        "24",
+        "44",
+        "56",
+        "09"
+      ],
+      "dezenas": [
+        "04",
+        "09",
+        "24",
+        "44",
+        "47",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 55,
+          "valorPremio": 31749.26
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3561,
+          "valorPremio": 700.52
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2255,
+      "dataProximoConcurso": "25/04/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 30286948.5,
+      "valorAcumuladoConcurso_0_5": 32702767.79,
+      "valorAcumuladoConcursoEspecial": 29156542.57,
+      "valorAcumuladoProximoConcurso": 32702767.79,
+      "valorEstimadoProximoConcurso": 36000000.0
+    }
+  },
+  {
+    "draw_id": 2255,
+    "draw_date": "2020-04-25",
+    "numbers": [
+      15,
+      20,
+      39,
+      41,
+      49,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2255,
+      "data": "25/04/2020",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "20",
+        "15",
+        "57",
+        "49",
+        "39",
+        "41"
+      ],
+      "dezenas": [
+        "15",
+        "20",
+        "39",
+        "41",
+        "49",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 25,
+          "valorPremio": 93534.52
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2144,
+          "valorPremio": 1558.07
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2256,
+      "dataProximoConcurso": "29/04/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 40557501.0,
+      "valorAcumuladoConcurso_0_5": 2707578.21,
+      "valorAcumuladoConcursoEspecial": 29771901.28,
+      "valorAcumuladoProximoConcurso": 37010278.58,
+      "valorEstimadoProximoConcurso": 42000000.0
+    }
+  },
+  {
+    "draw_id": 2256,
+    "draw_date": "2020-04-29",
+    "numbers": [
+      9,
+      10,
+      30,
+      37,
+      47,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2256,
+      "data": "29/04/2020",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "09",
+        "37",
+        "30",
+        "10",
+        "54",
+        "47"
+      ],
+      "dezenas": [
+        "09",
+        "10",
+        "30",
+        "37",
+        "47",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 45,
+          "valorPremio": 59723.61
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3334,
+          "valorPremio": 1151.58
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2257,
+      "dataProximoConcurso": "02/05/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 46614150.0,
+      "valorAcumuladoConcurso_0_5": 5819492.24,
+      "valorAcumuladoConcursoEspecial": 30479154.48,
+      "valorAcumuladoProximoConcurso": 41961050.91,
+      "valorEstimadoProximoConcurso": 47000000.0
+    }
+  },
+  {
+    "draw_id": 2257,
+    "draw_date": "2020-05-02",
+    "numbers": [
+      18,
+      21,
+      30,
+      31,
+      34,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2257,
+      "data": "02/05/2020",
+      "local": " em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "18",
+        "30",
+        "21",
+        "31",
+        "34",
+        "51"
+      ],
+      "dezenas": [
+        "18",
+        "21",
+        "30",
+        "31",
+        "34",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 32,
+          "valorPremio": 83236.06
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2791,
+          "valorPremio": 1363.33
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2258,
+      "dataProximoConcurso": "05/05/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 46197742.5,
+      "valorAcumuladoConcurso_0_5": 8903607.33,
+      "valorAcumuladoConcursoEspecial": 31180089.74,
+      "valorAcumuladoProximoConcurso": 46867597.63,
+      "valorEstimadoProximoConcurso": 50000000.0
+    }
+  },
+  {
+    "draw_id": 2258,
+    "draw_date": "2020-05-05",
+    "numbers": [
+      1,
+      5,
+      7,
+      14,
+      23,
+      26
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2258,
+      "data": "05/05/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "26",
+        "07",
+        "01",
+        "23",
+        "14",
+        "05"
+      ],
+      "dezenas": [
+        "01",
+        "05",
+        "07",
+        "14",
+        "23",
+        "26"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 113,
+          "valorPremio": 19496.62
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6772,
+          "valorPremio": 464.75
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2259,
+      "dataProximoConcurso": "07/05/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 38211759.0,
+      "valorAcumuladoConcurso_0_5": 11454586.15,
+      "valorAcumuladoConcursoEspecial": 31759857.67,
+      "valorAcumuladoProximoConcurso": 50925973.03,
+      "valorEstimadoProximoConcurso": 56000000.0
+    }
+  },
+  {
+    "draw_id": 2259,
+    "draw_date": "2020-05-07",
+    "numbers": [
+      20,
+      27,
+      41,
+      54,
+      56,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2259,
+      "data": "07/05/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "54",
+        "56",
+        "58",
+        "20",
+        "27",
+        "41"
+      ],
+      "dezenas": [
+        "20",
+        "27",
+        "41",
+        "54",
+        "56",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 31,
+          "valorPremio": 99682.34
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3356,
+          "valorPremio": 1315.4
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2260,
+      "dataProximoConcurso": "09/05/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 53596836.0,
+      "valorAcumuladoConcurso_0_5": 71651016.29,
+      "valorAcumuladoConcursoEspecial": 32573055.67,
+      "valorAcumuladoProximoConcurso": 71651016.29,
+      "valorEstimadoProximoConcurso": 80000000.0
+    }
+  },
+  {
+    "draw_id": 2260,
+    "draw_date": "2020-05-09",
+    "numbers": [
+      12,
+      14,
+      34,
+      35,
+      37,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2260,
+      "data": "09/05/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "37",
+        "12",
+        "14",
+        "34",
+        "35",
+        "47"
+      ],
+      "dezenas": [
+        "12",
+        "14",
+        "34",
+        "35",
+        "37",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 91,
+          "valorPremio": 45513.08
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6688,
+          "valorPremio": 884.67
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2261,
+      "dataProximoConcurso": "13/05/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 71835133.5,
+      "valorAcumuladoConcurso_0_5": 4795641.68,
+      "valorAcumuladoConcursoEspecial": 33662974.24,
+      "valorAcumuladoProximoConcurso": 79280446.23,
+      "valorEstimadoProximoConcurso": 90000000.0
+    }
+  },
+  {
+    "draw_id": 2261,
+    "draw_date": "2020-05-13",
+    "numbers": [
+      7,
+      23,
+      26,
+      27,
+      29,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2261,
+      "data": "13/05/2020",
+      "local": "ESPA\u00c7O LOTERIAS em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "23",
+        "26",
+        "51",
+        "27",
+        "29",
+        "07"
+      ],
+      "dezenas": [
+        "07",
+        "23",
+        "26",
+        "27",
+        "29",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 141,
+          "valorPremio": 36059.08
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10502,
+          "valorPremio": 691.61
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2262,
+      "dataProximoConcurso": "16/05/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 88184646.0,
+      "valorAcumuladoConcurso_0_5": 10682760.46,
+      "valorAcumuladoConcursoEspecial": 35000955.81,
+      "valorAcumuladoProximoConcurso": 88646317.02,
+      "valorEstimadoProximoConcurso": 100000000.0
+    }
+  },
+  {
+    "draw_id": 2262,
+    "draw_date": "2020-05-16",
+    "numbers": [
+      7,
+      8,
+      14,
+      23,
+      30,
+      46
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2262,
+      "data": "16/05/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "07",
+        "30",
+        "46",
+        "23",
+        "08",
+        "14"
+      ],
+      "dezenas": [
+        "07",
+        "08",
+        "14",
+        "23",
+        "30",
+        "46"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 101195308.3
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 198,
+          "valorPremio": 34405.61
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 12850,
+          "valorPremio": 757.34
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2263,
+      "dataProximoConcurso": "20/05/2020",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "CURITIBA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        }
+      ],
+      "valorArrecadado": 118155415.5,
+      "valorAcumuladoConcurso_0_5": 18570697.84,
+      "valorAcumuladoConcursoEspecial": 36793668.86,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 2263,
+    "draw_date": "2020-05-20",
+    "numbers": [
+      9,
+      24,
+      33,
+      43,
+      49,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2263,
+      "data": "20/05/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "43",
+        "49",
+        "57",
+        "33",
+        "09",
+        "24"
+      ],
+      "dezenas": [
+        "09",
+        "24",
+        "33",
+        "43",
+        "49",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 36,
+          "valorPremio": 40048.08
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2492,
+          "valorPremio": 826.49
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2264,
+      "dataProximoConcurso": "23/05/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 25005951.0,
+      "valorAcumuladoConcurso_0_5": 20240070.11,
+      "valorAcumuladoConcursoEspecial": 37173071.66,
+      "valorAcumuladoProximoConcurso": 2655819.54,
+      "valorEstimadoProximoConcurso": 5500000.0
+    }
+  },
+  {
+    "draw_id": 2264,
+    "draw_date": "2020-05-23",
+    "numbers": [
+      2,
+      3,
+      8,
+      19,
+      29,
+      37
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2264,
+      "data": "23/05/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "29",
+        "19",
+        "08",
+        "02",
+        "37",
+        "03"
+      ],
+      "dezenas": [
+        "02",
+        "03",
+        "08",
+        "19",
+        "29",
+        "37"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 73,
+          "valorPremio": 25246.01
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4354,
+          "valorPremio": 604.68
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2265,
+      "dataProximoConcurso": "27/05/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 31965007.5,
+      "valorAcumuladoConcurso_0_5": 28424765.11,
+      "valorAcumuladoConcursoEspecial": 37658060.75,
+      "valorAcumuladoProximoConcurso": 28424765.11,
+      "valorEstimadoProximoConcurso": 33000000.0
+    }
+  },
+  {
+    "draw_id": 2265,
+    "draw_date": "2020-05-27",
+    "numbers": [
+      14,
+      20,
+      23,
+      39,
+      46,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2265,
+      "data": "27/05/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "50",
+        "20",
+        "46",
+        "23",
+        "14",
+        "39"
+      ],
+      "dezenas": [
+        "14",
+        "20",
+        "23",
+        "39",
+        "46",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 50,
+          "valorPremio": 51863.4
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2926,
+          "valorPremio": 1266.07
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2266,
+      "dataProximoConcurso": "30/05/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 44976969.0,
+      "valorAcumuladoConcurso_0_5": 3002617.48,
+      "valorAcumuladoConcursoEspecial": 38340473.81,
+      "valorAcumuladoProximoConcurso": 33201656.55,
+      "valorEstimadoProximoConcurso": 38000000.0
+    }
+  },
+  {
+    "draw_id": 2266,
+    "draw_date": "2020-05-30",
+    "numbers": [
+      10,
+      23,
+      31,
+      37,
+      58,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2266,
+      "data": "30/05/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "23",
+        "37",
+        "59",
+        "10",
+        "58",
+        "31"
+      ],
+      "dezenas": [
+        "10",
+        "23",
+        "31",
+        "37",
+        "58",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 50,
+          "valorPremio": 64685.64
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4167,
+          "valorPremio": 1108.8
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2267,
+      "dataProximoConcurso": "03/06/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 56096676.0,
+      "valorAcumuladoConcurso_0_5": 6747575.46,
+      "valorAcumuladoConcursoEspecial": 39191600.65,
+      "valorAcumuladoProximoConcurso": 39159544.26,
+      "valorEstimadoProximoConcurso": 45000000.0
+    }
+  },
+  {
+    "draw_id": 2267,
+    "draw_date": "2020-06-03",
+    "numbers": [
+      20,
+      32,
+      33,
+      48,
+      49,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2267,
+      "data": "03/06/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "48",
+        "49",
+        "53",
+        "20",
+        "32",
+        "33"
+      ],
+      "dezenas": [
+        "20",
+        "32",
+        "33",
+        "48",
+        "49",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 45553191.42
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 33,
+          "valorPremio": 105176.88
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4064,
+          "valorPremio": 1220.06
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2268,
+      "dataProximoConcurso": "06/06/2020",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "CANAL ELETRONICO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "--"
+        }
+      ],
+      "valorArrecadado": 60199582.5,
+      "valorAcumuladoConcurso_0_5": 10766439.39,
+      "valorAcumuladoConcursoEspecial": 40104978.82,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 2268,
+    "draw_date": "2020-06-06",
+    "numbers": [
+      4,
+      13,
+      23,
+      28,
+      30,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2268,
+      "data": "06/06/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "04",
+        "30",
+        "52",
+        "23",
+        "13",
+        "28"
+      ],
+      "dezenas": [
+        "04",
+        "13",
+        "23",
+        "28",
+        "30",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 48,
+          "valorPremio": 35721.3
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2953,
+          "valorPremio": 829.48
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2269,
+      "dataProximoConcurso": "10/06/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 29739091.5,
+      "valorAcumuladoConcurso_0_5": 12751791.39,
+      "valorAcumuladoConcursoEspecial": 40556195.19,
+      "valorAcumuladoProximoConcurso": 3158514.56,
+      "valorEstimadoProximoConcurso": 7000000.0
+    }
+  },
+  {
+    "draw_id": 2269,
+    "draw_date": "2020-06-10",
+    "numbers": [
+      1,
+      11,
+      14,
+      23,
+      29,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2269,
+      "data": "10/06/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "55",
+        "14",
+        "23",
+        "29",
+        "11",
+        "01"
+      ],
+      "dezenas": [
+        "01",
+        "11",
+        "14",
+        "23",
+        "29",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 47,
+          "valorPremio": 39726.16
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3225,
+          "valorPremio": 827.07
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2270,
+      "dataProximoConcurso": "13/06/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 32384236.5,
+      "valorAcumuladoConcurso_0_5": 21511693.98,
+      "valorAcumuladoConcursoEspecial": 41047545.04,
+      "valorAcumuladoProximoConcurso": 21511693.98,
+      "valorEstimadoProximoConcurso": 26000000.0
+    }
+  },
+  {
+    "draw_id": 2270,
+    "draw_date": "2020-06-13",
+    "numbers": [
+      14,
+      16,
+      38,
+      39,
+      41,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2270,
+      "data": "13/06/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "41",
+        "16",
+        "48",
+        "14",
+        "38",
+        "39"
+      ],
+      "dezenas": [
+        "14",
+        "16",
+        "38",
+        "39",
+        "41",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 53,
+          "valorPremio": 46373.51
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2707,
+          "valorPremio": 1297.05
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2271,
+      "dataProximoConcurso": "17/06/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 42628995.0,
+      "valorAcumuladoConcurso_0_5": 2845869.08,
+      "valorAcumuladoConcursoEspecial": 41694333.48,
+      "valorAcumuladoProximoConcurso": 26039212.97,
+      "valorEstimadoProximoConcurso": 32000000.0
+    }
+  },
+  {
+    "draw_id": 2271,
+    "draw_date": "2020-06-17",
+    "numbers": [
+      6,
+      10,
+      27,
+      28,
+      41,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2271,
+      "data": "17/06/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "06",
+        "10",
+        "41",
+        "52",
+        "27",
+        "28"
+      ],
+      "dezenas": [
+        "06",
+        "10",
+        "27",
+        "28",
+        "41",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 50,
+          "valorPremio": 56983.62
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4150,
+          "valorPremio": 980.78
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2272,
+      "dataProximoConcurso": "20/06/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 49417326.0,
+      "valorAcumuladoConcurso_0_5": 6144920.35,
+      "valorAcumuladoConcursoEspecial": 42444117.87,
+      "valorAcumuladoProximoConcurso": 31287703.61,
+      "valorEstimadoProximoConcurso": 37000000.0
+    }
+  },
+  {
+    "draw_id": 2272,
+    "draw_date": "2020-06-20",
+    "numbers": [
+      2,
+      5,
+      11,
+      24,
+      41,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2272,
+      "data": "20/06/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "05",
+        "41",
+        "11",
+        "49",
+        "24",
+        "02"
+      ],
+      "dezenas": [
+        "02",
+        "05",
+        "11",
+        "24",
+        "41",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 71,
+          "valorPremio": 45670.97
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5667,
+          "valorPremio": 817.42
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2273,
+      "dataProximoConcurso": "24/06/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 56241625.5,
+      "valorAcumuladoConcurso_0_5": 9899555.02,
+      "valorAcumuladoConcursoEspecial": 43297443.94,
+      "valorAcumuladoProximoConcurso": 37260986.05,
+      "valorEstimadoProximoConcurso": 45000000.0
+    }
+  },
+  {
+    "draw_id": 2273,
+    "draw_date": "2020-06-24",
+    "numbers": [
+      15,
+      16,
+      20,
+      38,
+      40,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2273,
+      "data": "24/06/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "58",
+        "15",
+        "20",
+        "16",
+        "38",
+        "40"
+      ],
+      "dezenas": [
+        "15",
+        "16",
+        "20",
+        "38",
+        "40",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 43269740.25
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 48,
+          "valorPremio": 67956.15
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3830,
+          "valorPremio": 1216.67
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2274,
+      "dataProximoConcurso": "27/06/2020",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "BRASILIA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "DF"
+        }
+      ],
+      "valorArrecadado": 56575611.0,
+      "valorAcumuladoConcurso_0_5": 13676486.23,
+      "valorAcumuladoConcursoEspecial": 44155837.42,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 2274,
+    "draw_date": "2020-06-27",
+    "numbers": [
+      8,
+      11,
+      17,
+      33,
+      40,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2274,
+      "data": "27/06/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "08",
+        "55",
+        "40",
+        "11",
+        "33",
+        "17"
+      ],
+      "dezenas": [
+        "08",
+        "11",
+        "17",
+        "33",
+        "40",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 62,
+          "valorPremio": 24042.23
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2996,
+          "valorPremio": 710.76
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2275,
+      "dataProximoConcurso": "01/07/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 25853877.0,
+      "valorAcumuladoConcurso_0_5": 18148340.83,
+      "valorAcumuladoConcursoEspecial": 44548105.39,
+      "valorAcumuladoProximoConcurso": 18148340.83,
+      "valorEstimadoProximoConcurso": 23000000.0
+    }
+  },
+  {
+    "draw_id": 2275,
+    "draw_date": "2020-07-01",
+    "numbers": [
+      2,
+      4,
+      25,
+      36,
+      50,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2275,
+      "data": "01/07/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "25",
+        "50",
+        "02",
+        "53",
+        "04",
+        "36"
+      ],
+      "dezenas": [
+        "02",
+        "04",
+        "25",
+        "36",
+        "50",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 51,
+          "valorPremio": 43339.89
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3212,
+          "valorPremio": 983.06
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2276,
+      "dataProximoConcurso": "04/07/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 38336917.5,
+      "valorAcumuladoConcurso_0_5": 2559334.28,
+      "valorAcumuladoConcursoEspecial": 45129772.29,
+      "valorAcumuladoProximoConcurso": 22220008.99,
+      "valorEstimadoProximoConcurso": 27000000.0
+    }
+  },
+  {
+    "draw_id": 2276,
+    "draw_date": "2020-07-04",
+    "numbers": [
+      5,
+      15,
+      18,
+      27,
+      49,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2276,
+      "data": "04/07/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "49",
+        "27",
+        "05",
+        "18",
+        "57",
+        "15"
+      ],
+      "dezenas": [
+        "05",
+        "15",
+        "18",
+        "27",
+        "49",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 75,
+          "valorPremio": 36939.97
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5403,
+          "valorPremio": 732.52
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2277,
+      "dataProximoConcurso": "08/07/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 48052620.0,
+      "valorAcumuladoConcurso_0_5": 5767279.13,
+      "valorAcumuladoConcursoEspecial": 45858850.69,
+      "valorAcumuladoProximoConcurso": 27323557.62,
+      "valorEstimadoProximoConcurso": 33000000.0
+    }
+  },
+  {
+    "draw_id": 2277,
+    "draw_date": "2020-07-08",
+    "numbers": [
+      10,
+      22,
+      23,
+      37,
+      53,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2277,
+      "data": "08/07/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "23",
+        "10",
+        "53",
+        "60",
+        "22",
+        "37"
+      ],
+      "dezenas": [
+        "10",
+        "22",
+        "23",
+        "37",
+        "53",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 89,
+          "valorPremio": 31990.12
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5597,
+          "valorPremio": 726.69
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2278,
+      "dataProximoConcurso": "11/07/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 49381600.5,
+      "valorAcumuladoConcurso_0_5": 9063945.39,
+      "valorAcumuladoConcursoEspecial": 46608093.03,
+      "valorAcumuladoProximoConcurso": 32568253.95,
+      "valorEstimadoProximoConcurso": 40000000.0
+    }
+  },
+  {
+    "draw_id": 2278,
+    "draw_date": "2020-07-11",
+    "numbers": [
+      8,
+      17,
+      34,
+      37,
+      43,
+      45
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2278,
+      "data": "11/07/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "34",
+        "17",
+        "37",
+        "43",
+        "08",
+        "45"
+      ],
+      "dezenas": [
+        "08",
+        "17",
+        "34",
+        "37",
+        "43",
+        "45"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 98,
+          "valorPremio": 35640.86
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6533,
+          "valorPremio": 763.77
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2279,
+      "dataProximoConcurso": "14/07/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 60580597.5,
+      "valorAcumuladoConcurso_0_5": 13108245.5,
+      "valorAcumuladoConcursoEspecial": 47527252.15,
+      "valorAcumuladoProximoConcurso": 39002367.76,
+      "valorEstimadoProximoConcurso": 44000000.0
+    }
+  },
+  {
+    "draw_id": 2279,
+    "draw_date": "2020-07-14",
+    "numbers": [
+      5,
+      12,
+      14,
+      20,
+      27,
+      28
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2279,
+      "data": "14/07/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "28",
+        "12",
+        "20",
+        "05",
+        "27",
+        "14"
+      ],
+      "dezenas": [
+        "05",
+        "12",
+        "14",
+        "20",
+        "27",
+        "28"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 43234926.1
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 120,
+          "valorPremio": 19147.29
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6212,
+          "valorPremio": 528.39
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2280,
+      "dataProximoConcurso": "16/07/2020",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "SAO PAULO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 39851784.0,
+      "valorAcumuladoConcurso_0_5": 15768710.74,
+      "valorAcumuladoConcursoEspecial": 48131903.37,
+      "valorAcumuladoProximoConcurso": 15768710.74,
+      "valorEstimadoProximoConcurso": 20000000.0
+    }
+  },
+  {
+    "draw_id": 2280,
+    "draw_date": "2020-07-16",
+    "numbers": [
+      28,
+      29,
+      31,
+      50,
+      58,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2280,
+      "data": "16/07/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "50",
+        "28",
+        "58",
+        "29",
+        "59",
+        "31"
+      ],
+      "dezenas": [
+        "28",
+        "29",
+        "31",
+        "50",
+        "58",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 20,
+          "valorPremio": 98944.99
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1639,
+          "valorPremio": 1724.83
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2281,
+      "dataProximoConcurso": "18/07/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 34322827.5,
+      "valorAcumuladoConcurso_0_5": 2291357.64,
+      "valorAcumuladoConcursoEspecial": 48652666.49,
+      "valorAcumuladoProximoConcurso": 19414052.44,
+      "valorEstimadoProximoConcurso": 24000000.0
+    }
+  },
+  {
+    "draw_id": 2281,
+    "draw_date": "2020-07-18",
+    "numbers": [
+      14,
+      27,
+      35,
+      40,
+      50,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2281,
+      "data": "18/07/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "35",
+        "40",
+        "14",
+        "55",
+        "50",
+        "27"
+      ],
+      "dezenas": [
+        "14",
+        "27",
+        "35",
+        "40",
+        "50",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 43,
+          "valorPremio": 52989.08
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2462,
+          "valorPremio": 1322.11
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2282,
+      "dataProximoConcurso": "22/07/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 39519742.5,
+      "valorAcumuladoConcurso_0_5": 4929656.13,
+      "valorAcumuladoConcursoEspecial": 49252279.79,
+      "valorAcumuladoProximoConcurso": 23611345.48,
+      "valorEstimadoProximoConcurso": 29000000.0
+    }
+  },
+  {
+    "draw_id": 2282,
+    "draw_date": "2020-07-22",
+    "numbers": [
+      12,
+      27,
+      30,
+      36,
+      45,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2282,
+      "data": "22/07/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "30",
+        "52",
+        "12",
+        "27",
+        "36",
+        "45"
+      ],
+      "dezenas": [
+        "12",
+        "27",
+        "30",
+        "36",
+        "45",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 28456665.08
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 44,
+          "valorPremio": 59779.92
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3467,
+          "valorPremio": 1083.81
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2283,
+      "dataProximoConcurso": "25/07/2020",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "ATIBAIA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 45621256.5,
+      "valorAcumuladoConcurso_0_5": 7975285.59,
+      "valorAcumuladoConcursoEspecial": 49944468.31,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 2283,
+    "draw_date": "2020-07-25",
+    "numbers": [
+      4,
+      24,
+      37,
+      43,
+      59,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2283,
+      "data": "25/07/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "24",
+        "04",
+        "37",
+        "43",
+        "59",
+        "60"
+      ],
+      "dezenas": [
+        "04",
+        "24",
+        "37",
+        "43",
+        "59",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 41,
+          "valorPremio": 39429.16
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2615,
+          "valorPremio": 883.14
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2284,
+      "dataProximoConcurso": "29/07/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 28038879.0,
+      "valorAcumuladoConcurso_0_5": 9847133.1,
+      "valorAcumuladoConcursoEspecial": 50369888.22,
+      "valorAcumuladoProximoConcurso": 2977939.24,
+      "valorEstimadoProximoConcurso": 6600000.0
+    }
+  },
+  {
+    "draw_id": 2284,
+    "draw_date": "2020-07-29",
+    "numbers": [
+      4,
+      10,
+      12,
+      14,
+      36,
+      46
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2284,
+      "data": "29/07/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "46",
+        "36",
+        "12",
+        "10",
+        "04",
+        "14"
+      ],
+      "dezenas": [
+        "04",
+        "10",
+        "12",
+        "14",
+        "36",
+        "46"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 43,
+          "valorPremio": 39587.48
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3278,
+          "valorPremio": 741.85
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2285,
+      "dataProximoConcurso": "01/08/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 29524707.0,
+      "valorAcumuladoConcurso_0_5": 17931857.56,
+      "valorAcumuladoConcursoEspecial": 50817851.84,
+      "valorAcumuladoProximoConcurso": 17931857.56,
+      "valorEstimadoProximoConcurso": 23000000.0
+    }
+  },
+  {
+    "draw_id": 2285,
+    "draw_date": "2020-08-01",
+    "numbers": [
+      1,
+      7,
+      10,
+      12,
+      33,
+      42
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2285,
+      "data": "01/08/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "12",
+        "10",
+        "33",
+        "07",
+        "42",
+        "01"
+      ],
+      "dezenas": [
+        "01",
+        "07",
+        "10",
+        "12",
+        "33",
+        "42"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 11323343.69
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 160,
+          "valorPremio": 15996.75
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7967,
+          "valorPremio": 458.94
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2286,
+      "dataProximoConcurso": "05/08/2020",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "BRASILIA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "DF"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "ARACATUBA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 44392626.0,
+      "valorAcumuladoConcurso_0_5": 2963607.32,
+      "valorAcumuladoConcursoEspecial": 51491398.97,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 2286,
+    "draw_date": "2020-08-05",
+    "numbers": [
+      9,
+      21,
+      30,
+      41,
+      42,
+      43
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2286,
+      "data": "05/08/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "42",
+        "43",
+        "41",
+        "09",
+        "21",
+        "30"
+      ],
+      "dezenas": [
+        "09",
+        "21",
+        "30",
+        "41",
+        "42",
+        "43"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 28,
+          "valorPremio": 56321.66
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1649,
+          "valorPremio": 1366.2
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2287,
+      "dataProximoConcurso": "08/08/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 27352228.5,
+      "valorAcumuladoConcurso_0_5": 4789614.74,
+      "valorAcumuladoConcursoEspecial": 51906400.68,
+      "valorAcumuladoProximoConcurso": 2905011.81,
+      "valorEstimadoProximoConcurso": 6500000.0
+    }
+  },
+  {
+    "draw_id": 2287,
+    "draw_date": "2020-08-08",
+    "numbers": [
+      2,
+      4,
+      6,
+      29,
+      41,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2287,
+      "data": "08/08/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "29",
+        "04",
+        "02",
+        "41",
+        "06",
+        "56"
+      ],
+      "dezenas": [
+        "02",
+        "04",
+        "06",
+        "29",
+        "41",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 45,
+          "valorPremio": 45775.06
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3261,
+          "valorPremio": 902.38
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2288,
+      "dataProximoConcurso": "11/08/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 35727336.0,
+      "valorAcumuladoConcurso_0_5": 7174735.96,
+      "valorAcumuladoConcursoEspecial": 52448473.7,
+      "valorAcumuladoProximoConcurso": 6699522.84,
+      "valorEstimadoProximoConcurso": 11000000.0
+    }
+  },
+  {
+    "draw_id": 2288,
+    "draw_date": "2020-08-11",
+    "numbers": [
+      2,
+      26,
+      35,
+      39,
+      40,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2288,
+      "data": "11/08/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "35",
+        "39",
+        "02",
+        "26",
+        "56",
+        "40"
+      ],
+      "dezenas": [
+        "02",
+        "26",
+        "35",
+        "39",
+        "40",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 16,
+          "valorPremio": 81484.2
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1545,
+          "valorPremio": 1205.49
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2289,
+      "dataProximoConcurso": "13/08/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 22612711.5,
+      "valorAcumuladoConcurso_0_5": 8684337.97,
+      "valorAcumuladoConcursoEspecial": 52791565.07,
+      "valorAcumuladoProximoConcurso": 9101162.4,
+      "valorEstimadoProximoConcurso": 12500000.0
+    }
+  },
+  {
+    "draw_id": 2289,
+    "draw_date": "2020-08-13",
+    "numbers": [
+      6,
+      9,
+      34,
+      37,
+      38,
+      45
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2289,
+      "data": "13/08/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "06",
+        "34",
+        "37",
+        "38",
+        "45",
+        "09"
+      ],
+      "dezenas": [
+        "06",
+        "09",
+        "34",
+        "37",
+        "38",
+        "45"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 33,
+          "valorPremio": 53948.07
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2808,
+          "valorPremio": 905.72
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2290,
+      "dataProximoConcurso": "15/08/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 30877992.0,
+      "valorAcumuladoConcurso_0_5": 23126358.55,
+      "valorAcumuladoConcursoEspecial": 53260061.41,
+      "valorAcumuladoProximoConcurso": 23126358.55,
+      "valorEstimadoProximoConcurso": 27000000.0
+    }
+  },
+  {
+    "draw_id": 2290,
+    "draw_date": "2020-08-15",
+    "numbers": [
+      5,
+      18,
+      36,
+      44,
+      57,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2290,
+      "data": "15/08/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "60",
+        "36",
+        "05",
+        "57",
+        "44",
+        "18"
+      ],
+      "dezenas": [
+        "05",
+        "18",
+        "36",
+        "44",
+        "57",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 96,
+          "valorPremio": 25025.89
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4532,
+          "valorPremio": 757.3
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2291,
+      "dataProximoConcurso": "19/08/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 41669662.5,
+      "valorAcumuladoConcurso_0_5": 2781825.0,
+      "valorAcumuladoConcursoEspecial": 53892294.37,
+      "valorAcumuladoProximoConcurso": 27551989.23,
+      "valorEstimadoProximoConcurso": 33000000.0
+    }
+  },
+  {
+    "draw_id": 2291,
+    "draw_date": "2020-08-19",
+    "numbers": [
+      12,
+      26,
+      31,
+      36,
+      37,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2291,
+      "data": "19/08/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "37",
+        "31",
+        "26",
+        "12",
+        "36",
+        "49"
+      ],
+      "dezenas": [
+        "12",
+        "26",
+        "31",
+        "36",
+        "37",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 37,
+          "valorPremio": 79084.35
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3269,
+          "valorPremio": 1278.73
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2292,
+      "dataProximoConcurso": "22/08/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 50751810.0,
+      "valorAcumuladoConcurso_0_5": 6169965.08,
+      "valorAcumuladoConcursoEspecial": 54662326.23,
+      "valorAcumuladoProximoConcurso": 32942212.09,
+      "valorEstimadoProximoConcurso": 40000000.0
+    }
+  },
+  {
+    "draw_id": 2292,
+    "draw_date": "2020-08-22",
+    "numbers": [
+      6,
+      16,
+      18,
+      33,
+      42,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2292,
+      "data": "22/08/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "18",
+        "57",
+        "06",
+        "33",
+        "42",
+        "16"
+      ],
+      "dezenas": [
+        "06",
+        "16",
+        "18",
+        "33",
+        "42",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 94,
+          "valorPremio": 36313.4
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5865,
+          "valorPremio": 831.43
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2293,
+      "dataProximoConcurso": "26/08/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 59204407.5,
+      "valorAcumuladoConcurso_0_5": 10122392.12,
+      "valorAcumuladoConcursoEspecial": 55560605.11,
+      "valorAcumuladoProximoConcurso": 39230164.19,
+      "valorEstimadoProximoConcurso": 47000000.0
+    }
+  },
+  {
+    "draw_id": 2293,
+    "draw_date": "2020-08-26",
+    "numbers": [
+      1,
+      2,
+      10,
+      37,
+      42,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2293,
+      "data": "26/08/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "01",
+        "48",
+        "42",
+        "10",
+        "02",
+        "37"
+      ],
+      "dezenas": [
+        "01",
+        "02",
+        "10",
+        "37",
+        "42",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 69,
+          "valorPremio": 51206.89
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5498,
+          "valorPremio": 918.06
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2294,
+      "dataProximoConcurso": "29/08/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 61282534.5,
+      "valorAcumuladoConcurso_0_5": 14213552.83,
+      "valorAcumuladoConcursoEspecial": 56490414.38,
+      "valorAcumuladoProximoConcurso": 45738828.97,
+      "valorEstimadoProximoConcurso": 52000000.0
+    }
+  },
+  {
+    "draw_id": 2294,
+    "draw_date": "2020-08-29",
+    "numbers": [
+      9,
+      15,
+      20,
+      33,
+      41,
+      43
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2294,
+      "data": "29/08/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "09",
+        "43",
+        "20",
+        "41",
+        "33",
+        "15"
+      ],
+      "dezenas": [
+        "09",
+        "15",
+        "20",
+        "33",
+        "41",
+        "43"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 49,
+          "valorPremio": 85567.49
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5779,
+          "valorPremio": 1036.46
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2295,
+      "dataProximoConcurso": "02/09/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 72721714.5,
+      "valorAcumuladoConcurso_0_5": 72530802.23,
+      "valorAcumuladoConcursoEspecial": 57593784.6,
+      "valorAcumuladoProximoConcurso": 72530802.23,
+      "valorEstimadoProximoConcurso": 82000000.0
+    }
+  },
+  {
+    "draw_id": 2295,
+    "draw_date": "2020-09-02",
+    "numbers": [
+      6,
+      13,
+      26,
+      28,
+      35,
+      41
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2295,
+      "data": "02/09/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "28",
+        "06",
+        "41",
+        "26",
+        "35",
+        "13"
+      ],
+      "dezenas": [
+        "06",
+        "13",
+        "26",
+        "28",
+        "35",
+        "41"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 162,
+          "valorPremio": 33025.53
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9693,
+          "valorPremio": 788.51
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2296,
+      "dataProximoConcurso": "05/09/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 92794887.0,
+      "valorAcumuladoConcurso_0_5": 6194893.86,
+      "valorAcumuladoConcursoEspecial": 59001715.04,
+      "valorAcumuladoProximoConcurso": 82386315.18,
+      "valorEstimadoProximoConcurso": 95000000.0
+    }
+  },
+  {
+    "draw_id": 2296,
+    "draw_date": "2020-09-05",
+    "numbers": [
+      1,
+      6,
+      21,
+      29,
+      36,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2296,
+      "data": "05/09/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "29",
+        "06",
+        "36",
+        "59",
+        "21",
+        "01"
+      ],
+      "dezenas": [
+        "01",
+        "06",
+        "21",
+        "29",
+        "36",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 47160446.98
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 166,
+          "valorPremio": 39028.74
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8642,
+          "valorPremio": 1070.97
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2297,
+      "dataProximoConcurso": "09/09/2020",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "CANAL ELETRONICO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "--"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "CAMPINAS",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 112370395.5,
+      "valorAcumuladoConcurso_0_5": 13696629.09,
+      "valorAcumuladoConcursoEspecial": 60706654.87,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 2297,
+    "draw_date": "2020-09-09",
+    "numbers": [
+      20,
+      22,
+      35,
+      40,
+      41,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2297,
+      "data": "09/09/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "20",
+        "22",
+        "41",
+        "59",
+        "35",
+        "40"
+      ],
+      "dezenas": [
+        "20",
+        "22",
+        "35",
+        "40",
+        "41",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 14,
+          "valorPremio": 97017.77
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1200,
+          "valorPremio": 1616.96
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2298,
+      "dataProximoConcurso": "12/09/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 23558008.5,
+      "valorAcumuladoConcurso_0_5": 15269338.17,
+      "valorAcumuladoConcursoEspecial": 61064088.78,
+      "valorAcumuladoProximoConcurso": 2502037.19,
+      "valorEstimadoProximoConcurso": 6000000.0
+    }
+  },
+  {
+    "draw_id": 2298,
+    "draw_date": "2020-09-12",
+    "numbers": [
+      13,
+      17,
+      21,
+      31,
+      41,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2298,
+      "data": "12/09/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "13",
+        "21",
+        "49",
+        "41",
+        "17",
+        "31"
+      ],
+      "dezenas": [
+        "13",
+        "17",
+        "21",
+        "31",
+        "41",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 46,
+          "valorPremio": 41659.96
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3133,
+          "valorPremio": 873.81
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2299,
+      "dataProximoConcurso": "15/09/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 33238080.0,
+      "valorAcumuladoConcurso_0_5": 17488279.15,
+      "valorAcumuladoConcursoEspecial": 61568393.58,
+      "valorAcumuladoProximoConcurso": 6032170.56,
+      "valorEstimadoProximoConcurso": 9000000.0
+    }
+  },
+  {
+    "draw_id": 2299,
+    "draw_date": "2020-09-15",
+    "numbers": [
+      2,
+      3,
+      19,
+      40,
+      44,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2299,
+      "data": "15/09/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "03",
+        "40",
+        "19",
+        "60",
+        "02",
+        "44"
+      ],
+      "dezenas": [
+        "02",
+        "03",
+        "19",
+        "40",
+        "44",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 22,
+          "valorPremio": 55054.82
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1903,
+          "valorPremio": 909.24
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2300,
+      "dataProximoConcurso": "17/09/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 21007638.0,
+      "valorAcumuladoConcurso_0_5": 27154067.32,
+      "valorAcumuladoConcursoEspecial": 61887131.98,
+      "valorAcumuladoProximoConcurso": 27154067.32,
+      "valorEstimadoProximoConcurso": 32000000.0
+    }
+  },
+  {
+    "draw_id": 2300,
+    "draw_date": "2020-09-17",
+    "numbers": [
+      9,
+      21,
+      37,
+      39,
+      43,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2300,
+      "data": "17/09/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "37",
+        "39",
+        "21",
+        "09",
+        "54",
+        "43"
+      ],
+      "dezenas": [
+        "09",
+        "21",
+        "37",
+        "39",
+        "43",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 76,
+          "valorPremio": 29541.74
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3877,
+          "valorPremio": 827.28
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2301,
+      "dataProximoConcurso": "19/09/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 38941159.5,
+      "valorAcumuladoConcurso_0_5": 2599672.87,
+      "valorAcumuladoConcursoEspecial": 62477966.72,
+      "valorAcumuladoProximoConcurso": 31289910.51,
+      "valorEstimadoProximoConcurso": 36000000.0
+    }
+  },
+  {
+    "draw_id": 2301,
+    "draw_date": "2020-09-19",
+    "numbers": [
+      17,
+      18,
+      35,
+      36,
+      47,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2301,
+      "data": "19/09/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "18",
+        "36",
+        "47",
+        "52",
+        "35",
+        "17"
+      ],
+      "dezenas": [
+        "17",
+        "18",
+        "35",
+        "36",
+        "47",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 66,
+          "valorPremio": 44296.26
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4333,
+          "valorPremio": 963.88
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2302,
+      "dataProximoConcurso": "23/09/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 50707269.0,
+      "valorAcumuladoConcurso_0_5": 5984839.44,
+      "valorAcumuladoConcursoEspecial": 63247322.77,
+      "valorAcumuladoProximoConcurso": 36675402.78,
+      "valorEstimadoProximoConcurso": 43000000.0
+    }
+  },
+  {
+    "draw_id": 2302,
+    "draw_date": "2020-09-23",
+    "numbers": [
+      18,
+      22,
+      25,
+      27,
+      43,
+      44
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2302,
+      "data": "23/09/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "44",
+        "43",
+        "25",
+        "18",
+        "27",
+        "22"
+      ],
+      "dezenas": [
+        "18",
+        "22",
+        "25",
+        "27",
+        "43",
+        "44"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 126,
+          "valorPremio": 27380.62
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6684,
+          "valorPremio": 737.35
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2303,
+      "dataProximoConcurso": "26/09/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 59837436.0,
+      "valorAcumuladoConcurso_0_5": 9979526.83,
+      "valorAcumuladoConcursoEspecial": 64155206.28,
+      "valorAcumuladoProximoConcurso": 43030587.25,
+      "valorEstimadoProximoConcurso": 50000000.0
+    }
+  },
+  {
+    "draw_id": 2303,
+    "draw_date": "2020-09-26",
+    "numbers": [
+      3,
+      7,
+      17,
+      20,
+      48,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2303,
+      "data": "26/09/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "17",
+        "50",
+        "48",
+        "20",
+        "03",
+        "07"
+      ],
+      "dezenas": [
+        "03",
+        "07",
+        "17",
+        "20",
+        "48",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 145,
+          "valorPremio": 28857.2
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8431,
+          "valorPremio": 708.99
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2304,
+      "dataProximoConcurso": "30/09/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 72574060.5,
+      "valorAcumuladoConcurso_0_5": 14824498.53,
+      "valorAcumuladoConcursoEspecial": 65256336.23,
+      "valorAcumuladoProximoConcurso": 50738496.78,
+      "valorEstimadoProximoConcurso": 60000000.0
+    }
+  },
+  {
+    "draw_id": 2304,
+    "draw_date": "2020-09-30",
+    "numbers": [
+      12,
+      21,
+      29,
+      54,
+      56,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2304,
+      "data": "30/09/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "12",
+        "54",
+        "57",
+        "21",
+        "29",
+        "56"
+      ],
+      "dezenas": [
+        "12",
+        "21",
+        "29",
+        "54",
+        "56",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 90,
+          "valorPremio": 47955.93
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5934,
+          "valorPremio": 1039.05
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2305,
+      "dataProximoConcurso": "03/10/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 74858998.5,
+      "valorAcumuladoConcurso_0_5": 78511094.25,
+      "valorAcumuladoConcursoEspecial": 66392134.4,
+      "valorAcumuladoProximoConcurso": 78511094.25,
+      "valorEstimadoProximoConcurso": 90000000.0
+    }
+  },
+  {
+    "draw_id": 2305,
+    "draw_date": "2020-10-03",
+    "numbers": [
+      7,
+      16,
+      22,
+      38,
+      55,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2305,
+      "data": "03/10/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "57",
+        "55",
+        "38",
+        "07",
+        "16",
+        "22"
+      ],
+      "dezenas": [
+        "07",
+        "16",
+        "22",
+        "38",
+        "55",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 124,
+          "valorPremio": 48190.57
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9225,
+          "valorPremio": 925.37
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2306,
+      "dataProximoConcurso": "07/10/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 103643721.0,
+      "valorAcumuladoConcurso_0_5": 6919151.17,
+      "valorAcumuladoConcursoEspecial": 67964668.78,
+      "valorAcumuladoProximoConcurso": 89518834.75,
+      "valorEstimadoProximoConcurso": 100000000.0
+    }
+  },
+  {
+    "draw_id": 2306,
+    "draw_date": "2020-10-07",
+    "numbers": [
+      3,
+      19,
+      28,
+      33,
+      57,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2306,
+      "data": "07/10/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "28",
+        "58",
+        "19",
+        "03",
+        "57",
+        "33"
+      ],
+      "dezenas": [
+        "03",
+        "19",
+        "28",
+        "33",
+        "57",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 103029826.38
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 258,
+          "valorPremio": 28428.45
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 15713,
+          "valorPremio": 666.83
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2307,
+      "dataProximoConcurso": "10/10/2020",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "ABREU E LIMA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PE"
+        }
+      ],
+      "valorArrecadado": 127213159.5,
+      "valorAcumuladoConcurso_0_5": 15411774.49,
+      "valorAcumuladoConcursoEspecial": 69894810.44,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 2307,
+    "draw_date": "2020-10-10",
+    "numbers": [
+      16,
+      33,
+      38,
+      46,
+      53,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2307,
+      "data": "10/10/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "38",
+        "53",
+        "46",
+        "55",
+        "33",
+        "16"
+      ],
+      "dezenas": [
+        "16",
+        "33",
+        "38",
+        "46",
+        "53",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 45,
+          "valorPremio": 41739.35
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2828,
+          "valorPremio": 948.81
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2308,
+      "dataProximoConcurso": "14/10/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 32577475.5,
+      "valorAcumuladoConcurso_0_5": 17586614.17,
+      "valorAcumuladoConcursoEspecial": 70389092.21,
+      "valorAcumuladoProximoConcurso": 3459972.23,
+      "valorEstimadoProximoConcurso": 6500000.0
+    }
+  },
+  {
+    "draw_id": 2308,
+    "draw_date": "2020-10-14",
+    "numbers": [
+      9,
+      13,
+      26,
+      38,
+      58,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2308,
+      "data": "14/10/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "26",
+        "09",
+        "58",
+        "38",
+        "60",
+        "13"
+      ],
+      "dezenas": [
+        "09",
+        "13",
+        "26",
+        "38",
+        "58",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 6648106.25
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 57,
+          "valorPremio": 30363.18
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3408,
+          "valorPremio": 725.47
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2309,
+      "dataProximoConcurso": "17/10/2020",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "SANTOS",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 30017974.5,
+      "valorAcumuladoConcurso_0_5": 19590584.12,
+      "valorAcumuladoConcursoEspecial": 70844539.95,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 2309,
+    "draw_date": "2020-10-17",
+    "numbers": [
+      9,
+      11,
+      29,
+      30,
+      33,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2309,
+      "data": "17/10/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "33",
+        "60",
+        "11",
+        "29",
+        "09",
+        "30"
+      ],
+      "dezenas": [
+        "09",
+        "11",
+        "29",
+        "30",
+        "33",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 38,
+          "valorPremio": 46985.6
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3092,
+          "valorPremio": 824.91
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2310,
+      "dataProximoConcurso": "20/10/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 30967605.0,
+      "valorAcumuladoConcurso_0_5": 24946942.36,
+      "valorAcumuladoConcursoEspecial": 71314395.95,
+      "valorAcumuladoProximoConcurso": 24946942.36,
+      "valorEstimadoProximoConcurso": 29000000.0
+    }
+  },
+  {
+    "draw_id": 2310,
+    "draw_date": "2020-10-20",
+    "numbers": [
+      13,
+      17,
+      28,
+      29,
+      42,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2310,
+      "data": "20/10/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "13",
+        "42",
+        "17",
+        "28",
+        "53",
+        "29"
+      ],
+      "dezenas": [
+        "13",
+        "17",
+        "28",
+        "29",
+        "42",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 52,
+          "valorPremio": 34291.23
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3573,
+          "valorPremio": 712.94
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2311,
+      "dataProximoConcurso": "22/10/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 30927559.5,
+      "valorAcumuladoConcurso_0_5": 2064692.94,
+      "valorAcumuladoConcursoEspecial": 71783644.37,
+      "valorAcumuladoProximoConcurso": 28231681.13,
+      "valorEstimadoProximoConcurso": 32000000.0
+    }
+  },
+  {
+    "draw_id": 2311,
+    "draw_date": "2020-10-22",
+    "numbers": [
+      3,
+      5,
+      9,
+      35,
+      43,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2311,
+      "data": "22/10/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "60",
+        "09",
+        "35",
+        "43",
+        "05",
+        "03"
+      ],
+      "dezenas": [
+        "03",
+        "05",
+        "09",
+        "35",
+        "43",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 58,
+          "valorPremio": 42990.76
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5162,
+          "valorPremio": 690.06
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2312,
+      "dataProximoConcurso": "24/10/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 43247637.0,
+      "valorAcumuladoConcurso_0_5": 4951861.93,
+      "valorAcumuladoConcursoEspecial": 72439819.16,
+      "valorAcumuladoProximoConcurso": 32824904.54,
+      "valorEstimadoProximoConcurso": 38000000.0
+    }
+  },
+  {
+    "draw_id": 2312,
+    "draw_date": "2020-10-24",
+    "numbers": [
+      3,
+      27,
+      39,
+      46,
+      47,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2312,
+      "data": "24/10/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "60",
+        "39",
+        "03",
+        "46",
+        "47",
+        "27"
+      ],
+      "dezenas": [
+        "03",
+        "27",
+        "39",
+        "46",
+        "47",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 43,
+          "valorPremio": 71554.38
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3773,
+          "valorPremio": 1164.98
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2313,
+      "dataProximoConcurso": "28/10/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 53365909.5,
+      "valorAcumuladoConcurso_0_5": 8514516.68,
+      "valorAcumuladoConcursoEspecial": 73249513.44,
+      "valorAcumuladoProximoConcurso": 38492764.36,
+      "valorEstimadoProximoConcurso": 45000000.0
+    }
+  },
+  {
+    "draw_id": 2313,
+    "draw_date": "2020-10-28",
+    "numbers": [
+      3,
+      20,
+      26,
+      45,
+      49,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2313,
+      "data": "28/10/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "45",
+        "03",
+        "58",
+        "26",
+        "20",
+        "49"
+      ],
+      "dezenas": [
+        "03",
+        "20",
+        "26",
+        "45",
+        "49",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 66,
+          "valorPremio": 54216.4
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5055,
+          "valorPremio": 1011.24
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2314,
+      "dataProximoConcurso": "31/10/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 62063154.0,
+      "valorAcumuladoConcurso_0_5": 12657790.77,
+      "valorAcumuladoConcursoEspecial": 74191166.66,
+      "valorAcumuladoProximoConcurso": 45084336.78,
+      "valorEstimadoProximoConcurso": 52000000.0
+    }
+  },
+  {
+    "draw_id": 2314,
+    "draw_date": "2020-10-31",
+    "numbers": [
+      6,
+      7,
+      28,
+      42,
+      45,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2314,
+      "data": "31/10/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "28",
+        "06",
+        "07",
+        "42",
+        "45",
+        "49"
+      ],
+      "dezenas": [
+        "06",
+        "07",
+        "28",
+        "42",
+        "45",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 53047796.53
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 105,
+          "valorPremio": 41171.63
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7551,
+          "valorPremio": 817.87
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "O ganhador do canal eletr\u00f4nico do pr\u00eamio principal \u00e9 da cidade de Goi\u00e2nia/GO.",
+      "acumulou": false,
+      "proximoConcurso": 2315,
+      "dataProximoConcurso": "04/11/2020",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "CANAL ELETRONICO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "--"
+        }
+      ],
+      "valorArrecadado": 74980201.5,
+      "valorAcumuladoConcurso_0_5": 17663394.04,
+      "valorAcumuladoConcursoEspecial": 75328803.79,
+      "valorAcumuladoProximoConcurso": 17663394.04,
+      "valorEstimadoProximoConcurso": 22000000.0
+    }
+  },
+  {
+    "draw_id": 2315,
+    "draw_date": "2020-11-04",
+    "numbers": [
+      1,
+      10,
+      17,
+      26,
+      30,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2315,
+      "data": "04/11/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "10",
+        "17",
+        "01",
+        "26",
+        "30",
+        "53"
+      ],
+      "dezenas": [
+        "01",
+        "10",
+        "17",
+        "26",
+        "30",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 55,
+          "valorPremio": 40631.54
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3898,
+          "valorPremio": 819.0
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2316,
+      "dataProximoConcurso": "07/11/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 38760129.0,
+      "valorAcumuladoConcurso_0_5": 2587587.45,
+      "valorAcumuladoConcursoEspecial": 75916891.85,
+      "valorAcumuladoProximoConcurso": 21780010.44,
+      "valorEstimadoProximoConcurso": 27000000.0
+    }
+  },
+  {
+    "draw_id": 2316,
+    "draw_date": "2020-11-07",
+    "numbers": [
+      2,
+      11,
+      43,
+      49,
+      52,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2316,
+      "data": "07/11/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "49",
+        "11",
+        "56",
+        "43",
+        "52",
+        "02"
+      ],
+      "dezenas": [
+        "02",
+        "11",
+        "43",
+        "49",
+        "52",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 56,
+          "valorPremio": 57345.38
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3984,
+          "valorPremio": 1151.51
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2317,
+      "dataProximoConcurso": "11/11/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 55698781.5,
+      "valorAcumuladoConcurso_0_5": 6305982.41,
+      "valorAcumuladoConcursoEspecial": 76761981.63,
+      "valorAcumuladoProximoConcurso": 27695638.77,
+      "valorEstimadoProximoConcurso": 34000000.0
+    }
+  },
+  {
+    "draw_id": 2317,
+    "draw_date": "2020-11-11",
+    "numbers": [
+      3,
+      8,
+      30,
+      33,
+      35,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2317,
+      "data": "11/11/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "35",
+        "48",
+        "30",
+        "33",
+        "03",
+        "08"
+      ],
+      "dezenas": [
+        "03",
+        "08",
+        "30",
+        "33",
+        "35",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 132,
+          "valorPremio": 25311.77
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7472,
+          "valorPremio": 638.79
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2318,
+      "dataProximoConcurso": "14/11/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 57950307.0,
+      "valorAcumuladoConcurso_0_5": 10174686.95,
+      "valorAcumuladoConcursoEspecial": 77641232.68,
+      "valorAcumuladoProximoConcurso": 33850396.0,
+      "valorEstimadoProximoConcurso": 40000000.0
+    }
+  },
+  {
+    "draw_id": 2318,
+    "draw_date": "2020-11-14",
+    "numbers": [
+      28,
+      44,
+      52,
+      54,
+      58,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2318,
+      "data": "14/11/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "54",
+        "58",
+        "52",
+        "28",
+        "44",
+        "60"
+      ],
+      "dezenas": [
+        "28",
+        "44",
+        "52",
+        "54",
+        "58",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 59,
+          "valorPremio": 66282.12
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5014,
+          "valorPremio": 1114.2
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2319,
+      "dataProximoConcurso": "18/11/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 67827784.5,
+      "valorAcumuladoConcurso_0_5": 14702802.01,
+      "valorAcumuladoConcursoEspecial": 78670349.75,
+      "valorAcumuladoProximoConcurso": 41054215.42,
+      "valorEstimadoProximoConcurso": 50000000.0
+    }
+  },
+  {
+    "draw_id": 2319,
+    "draw_date": "2020-11-18",
+    "numbers": [
+      6,
+      17,
+      25,
+      35,
+      40,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2319,
+      "data": "18/11/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "17",
+        "25",
+        "06",
+        "35",
+        "49",
+        "40"
+      ],
+      "dezenas": [
+        "06",
+        "17",
+        "25",
+        "35",
+        "40",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 51,
+          "valorPremio": 74635.43
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5009,
+          "valorPremio": 1085.59
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2320,
+      "dataProximoConcurso": "21/11/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 66019842.0,
+      "valorAcumuladoConcurso_0_5": 67176238.41,
+      "valorAcumuladoConcursoEspecial": 79672035.81,
+      "valorAcumuladoProximoConcurso": 67176238.41,
+      "valorEstimadoProximoConcurso": 75000000.0
+    }
+  },
+  {
+    "draw_id": 2320,
+    "draw_date": "2020-11-21",
+    "numbers": [
+      6,
+      30,
+      35,
+      39,
+      42,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2320,
+      "data": "21/11/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "30",
+        "06",
+        "35",
+        "48",
+        "39",
+        "42"
+      ],
+      "dezenas": [
+        "06",
+        "30",
+        "35",
+        "39",
+        "42",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 76128023.58
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 92,
+          "valorPremio": 52821.09
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6334,
+          "valorPremio": 1096.02
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2321,
+      "dataProximoConcurso": "25/11/2020",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "RIBEIRAO PRETO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 84285810.0,
+      "valorAcumuladoConcurso_0_5": 5626836.39,
+      "valorAcumuladoConcursoEspecial": 80950862.28,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 2321,
+    "draw_date": "2020-11-25",
+    "numbers": [
+      14,
+      25,
+      28,
+      41,
+      43,
+      46
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2321,
+      "data": "25/11/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "41",
+        "43",
+        "25",
+        "28",
+        "14",
+        "46"
+      ],
+      "dezenas": [
+        "14",
+        "25",
+        "28",
+        "41",
+        "43",
+        "46"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 3036906.71
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 40,
+          "valorPremio": 41215.16
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2494,
+          "valorPremio": 944.32
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2322,
+      "dataProximoConcurso": "28/11/2020",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "MACEIO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "AL"
+        }
+      ],
+      "valorArrecadado": 28594089.0,
+      "valorAcumuladoConcurso_0_5": 7535749.17,
+      "valorAcumuladoConcursoEspecial": 81384706.11,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 2322,
+    "draw_date": "2020-11-28",
+    "numbers": [
+      2,
+      5,
+      10,
+      29,
+      34,
+      41
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2322,
+      "data": "28/11/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "05",
+        "10",
+        "02",
+        "29",
+        "34",
+        "41"
+      ],
+      "dezenas": [
+        "02",
+        "05",
+        "10",
+        "29",
+        "34",
+        "41"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 65,
+          "valorPremio": 27702.32
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3753,
+          "valorPremio": 685.41
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2323,
+      "dataProximoConcurso": "02/12/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 31231210.5,
+      "valorAcumuladoConcurso_0_5": 9620713.55,
+      "valorAcumuladoConcursoEspecial": 81858561.66,
+      "valorAcumuladoProximoConcurso": 3316988.79,
+      "valorEstimadoProximoConcurso": 7000000.0
+    }
+  },
+  {
+    "draw_id": 2323,
+    "draw_date": "2020-12-02",
+    "numbers": [
+      20,
+      27,
+      35,
+      39,
+      50,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2323,
+      "data": "02/12/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "35",
+        "27",
+        "39",
+        "20",
+        "50",
+        "59"
+      ],
+      "dezenas": [
+        "20",
+        "27",
+        "35",
+        "39",
+        "50",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 29,
+          "valorPremio": 67337.34
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1825,
+          "valorPremio": 1528.59
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2324,
+      "dataProximoConcurso": "05/12/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 33869844.0,
+      "valorAcumuladoConcurso_0_5": 11881830.46,
+      "valorAcumuladoConcursoEspecial": 82372451.87,
+      "valorAcumuladoProximoConcurso": 6914220.24,
+      "valorEstimadoProximoConcurso": 11000000.0
+    }
+  },
+  {
+    "draw_id": 2324,
+    "draw_date": "2020-12-05",
+    "numbers": [
+      2,
+      16,
+      19,
+      31,
+      43,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2324,
+      "data": "05/12/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "31",
+        "02",
+        "43",
+        "19",
+        "60",
+        "16"
+      ],
+      "dezenas": [
+        "02",
+        "16",
+        "19",
+        "31",
+        "43",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 43,
+          "valorPremio": 58591.46
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3451,
+          "valorPremio": 1042.94
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2325,
+      "dataProximoConcurso": "08/12/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 43698046.5,
+      "valorAcumuladoConcurso_0_5": 26354348.85,
+      "valorAcumuladoConcursoEspecial": 83035460.5,
+      "valorAcumuladoProximoConcurso": 26354348.85,
+      "valorEstimadoProximoConcurso": 32000000.0
+    }
+  },
+  {
+    "draw_id": 2325,
+    "draw_date": "2020-12-08",
+    "numbers": [
+      33,
+      34,
+      37,
+      46,
+      52,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2325,
+      "data": "08/12/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "33",
+        "37",
+        "60",
+        "34",
+        "46",
+        "52"
+      ],
+      "dezenas": [
+        "33",
+        "34",
+        "37",
+        "46",
+        "52",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 27,
+          "valorPremio": 68402.27
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2233,
+          "valorPremio": 1181.53
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2326,
+      "dataProximoConcurso": "10/12/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 32032696.5,
+      "valorAcumuladoConcurso_0_5": 2138470.79,
+      "valorAcumuladoConcursoEspecial": 83521476.6,
+      "valorAcumuladoProximoConcurso": 29756461.46,
+      "valorEstimadoProximoConcurso": 34000000.0
+    }
+  },
+  {
+    "draw_id": 2326,
+    "draw_date": "2020-12-10",
+    "numbers": [
+      10,
+      16,
+      27,
+      34,
+      36,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2326,
+      "data": "10/12/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "27",
+        "36",
+        "34",
+        "16",
+        "57",
+        "10"
+      ],
+      "dezenas": [
+        "10",
+        "16",
+        "27",
+        "34",
+        "36",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 55,
+          "valorPremio": 45721.34
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3883,
+          "valorPremio": 925.15
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2327,
+      "dataProximoConcurso": "12/12/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 43615498.5,
+      "valorAcumuladoConcurso_0_5": 5050197.84,
+      "valorAcumuladoConcursoEspecial": 84183232.77,
+      "valorAcumuladoProximoConcurso": 34388754.51,
+      "valorEstimadoProximoConcurso": 40000000.0
+    }
+  },
+  {
+    "draw_id": 2327,
+    "draw_date": "2020-12-12",
+    "numbers": [
+      30,
+      37,
+      45,
+      54,
+      57,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2327,
+      "data": "12/12/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "54",
+        "45",
+        "30",
+        "57",
+        "37",
+        "58"
+      ],
+      "dezenas": [
+        "30",
+        "37",
+        "45",
+        "54",
+        "57",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 47,
+          "valorPremio": 64714.34
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3521,
+          "valorPremio": 1234.05
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2328,
+      "dataProximoConcurso": "16/12/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 52754274.0,
+      "valorAcumuladoConcurso_0_5": 8572020.41,
+      "valorAcumuladoConcursoEspecial": 84983647.01,
+      "valorAcumuladoProximoConcurso": 39991654.06,
+      "valorEstimadoProximoConcurso": 46000000.0
+    }
+  },
+  {
+    "draw_id": 2328,
+    "draw_date": "2020-12-16",
+    "numbers": [
+      8,
+      11,
+      14,
+      39,
+      48,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2328,
+      "data": "16/12/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "11",
+        "08",
+        "39",
+        "14",
+        "48",
+        "53"
+      ],
+      "dezenas": [
+        "08",
+        "11",
+        "14",
+        "39",
+        "48",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 67,
+          "valorPremio": 49966.34
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5059,
+          "valorPremio": 945.34
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 2329,
+      "dataProximoConcurso": "19/12/2020",
+      "localGanhadores": [],
+      "valorArrecadado": 58064620.5,
+      "valorAcumuladoConcurso_0_5": 12448356.41,
+      "valorAcumuladoConcursoEspecial": 85864632.48,
+      "valorAcumuladoProximoConcurso": 46158552.23,
+      "valorEstimadoProximoConcurso": 52000000.0
+    }
+  },
+  {
+    "draw_id": 2329,
+    "draw_date": "2020-12-19",
+    "numbers": [
+      12,
+      14,
+      28,
+      42,
+      45,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2329,
+      "data": "19/12/2020",
+      "local": "ESPA\u00c7O LOTERIAS CAIXA em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "42",
+        "28",
+        "45",
+        "14",
+        "12",
+        "55"
+      ],
+      "dezenas": [
+        "12",
+        "14",
+        "28",
+        "42",
+        "45",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 26798752.27
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 93,
+          "valorPremio": 43422.45
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6837,
+          "valorPremio": 843.78
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2330,
+      "dataProximoConcurso": "31/12/2020",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "CAMPINA GRANDE",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PB"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "SAO PAULO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 70041685.5,
+      "valorAcumuladoConcurso_0_5": 104051609.25,
+      "valorAcumuladoConcursoEspecial": 104051609.25,
+      "valorAcumuladoProximoConcurso": 104051609.25,
+      "valorEstimadoProximoConcurso": 300000000.0
+    }
+  },
+  {
+    "draw_id": 2330,
+    "draw_date": "2020-12-31",
+    "numbers": [
+      17,
+      20,
+      22,
+      35,
+      41,
+      42
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 2330,
+      "data": "31/12/2020",
+      "local": "ESTUDIO DE TV REDE GLOBO/SP em S\u00c3O PAULO, SP",
+      "concursoEspecial": true,
+      "dezenasOrdemSorteio": [
+        "22",
+        "35",
+        "17",
+        "41",
+        "20",
+        "42"
+      ],
+      "dezenas": [
+        "17",
+        "20",
+        "22",
+        "35",
+        "41",
+        "42"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 162625108.22
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 1384,
+          "valorPremio": 48978.81
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 105342,
+          "valorPremio": 919.27
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 2331,
+      "dataProximoConcurso": "02/01/2021",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "CANAL ELETRONICO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "--"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "ARACAJU",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SE"
+        }
+      ],
+      "valorArrecadado": 1175719054.5,
+      "valorAcumuladoConcurso_0_5": 0.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 1500000.0
+    }
+  }
+]

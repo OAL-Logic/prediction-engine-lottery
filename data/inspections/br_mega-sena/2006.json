@@ -1,0 +1,7424 @@
+[
+  {
+    "draw_id": 726,
+    "draw_date": "2006-01-04",
+    "numbers": [
+      1,
+      5,
+      7,
+      37,
+      40,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 726,
+      "data": "04/01/2006",
+      "local": "Caminh\u00e3o da Sorte em NOVA FRIBURGO, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "40",
+        "47",
+        "01",
+        "05",
+        "07",
+        "37"
+      ],
+      "dezenas": [
+        "01",
+        "05",
+        "07",
+        "37",
+        "40",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 35,
+          "valorPremio": 15459.49
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2838,
+          "valorPremio": 189.94
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 07/01/2006: R$2.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 727,
+      "dataProximoConcurso": "07/01/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5091873.23,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 946893.69,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 727,
+    "draw_date": "2006-01-07",
+    "numbers": [
+      4,
+      12,
+      14,
+      30,
+      42,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 727,
+      "data": "07/01/2006",
+      "local": "Caminh\u00e3o da Sorte em Nova Friburgo, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "14",
+        "42",
+        "12",
+        "04",
+        "59",
+        "30"
+      ],
+      "dezenas": [
+        "04",
+        "12",
+        "14",
+        "30",
+        "42",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 29,
+          "valorPremio": 25008.46
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2688,
+          "valorPremio": 268.79
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 11/01/2006: R$3.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 728,
+      "dataProximoConcurso": "11/01/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5998429.8,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 2216072.86,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 728,
+    "draw_date": "2006-01-11",
+    "numbers": [
+      8,
+      13,
+      24,
+      32,
+      42,
+      44
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 728,
+      "data": "11/01/2006",
+      "local": "Caminh\u00e3o da Sorte em Santos, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "44",
+        "42",
+        "13",
+        "08",
+        "24",
+        "32"
+      ],
+      "dezenas": [
+        "08",
+        "13",
+        "24",
+        "32",
+        "42",
+        "44"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 81,
+          "valorPremio": 8575.31
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5381,
+          "valorPremio": 128.59
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 14/01/2006: R$5.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 729,
+      "dataProximoConcurso": "14/01/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6866679.38,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 3431622.25,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 729,
+    "draw_date": "2006-01-14",
+    "numbers": [
+      5,
+      18,
+      33,
+      43,
+      56,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 729,
+      "data": "14/01/2006",
+      "local": "Caminh\u00e3o da Sorte em GUARUJ\u00c1, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "33",
+        "56",
+        "18",
+        "57",
+        "43",
+        "05"
+      ],
+      "dezenas": [
+        "05",
+        "18",
+        "33",
+        "43",
+        "56",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 4969519.9
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 51,
+          "valorPremio": 17231.34
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5041,
+          "valorPremio": 173.67
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 18/01/2006: R$9.000.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 730,
+      "dataProximoConcurso": "18/01/2006",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7965177.71,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 730,
+    "draw_date": "2006-01-18",
+    "numbers": [
+      2,
+      15,
+      16,
+      45,
+      50,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 730,
+      "data": "18/01/2006",
+      "local": "Caminh\u00e3o da Sorte em Campos dos Goytacazes, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "45",
+        "15",
+        "02",
+        "54",
+        "16",
+        "50"
+      ],
+      "dezenas": [
+        "02",
+        "15",
+        "16",
+        "45",
+        "50",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 34,
+          "valorPremio": 23412.97
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2824,
+          "valorPremio": 280.82
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 21/01/2006: R$11.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 731,
+      "dataProximoConcurso": "21/01/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 995051.41,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 9358249.67,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 731,
+    "draw_date": "2006-01-21",
+    "numbers": [
+      6,
+      15,
+      16,
+      23,
+      28,
+      35
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 731,
+      "data": "21/01/2006",
+      "local": "Caminh\u00e3o da Sorte em Campos dos Goytacazes, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "35",
+        "06",
+        "15",
+        "23",
+        "28",
+        "16"
+      ],
+      "dezenas": [
+        "06",
+        "15",
+        "16",
+        "23",
+        "28",
+        "35"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 88,
+          "valorPremio": 11554.63
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6659,
+          "valorPremio": 152.12
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 25/01/2006: R$13.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 732,
+      "dataProximoConcurso": "25/01/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2266060.48,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 11137662.34,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 732,
+    "draw_date": "2006-01-25",
+    "numbers": [
+      6,
+      17,
+      19,
+      49,
+      50,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 732,
+      "data": "25/01/2006",
+      "local": "Caminh\u00e3o da Sorte em V\u00e1rzea Paulista, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "49",
+        "19",
+        "53",
+        "50",
+        "17",
+        "06"
+      ],
+      "dezenas": [
+        "06",
+        "17",
+        "19",
+        "49",
+        "50",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 65,
+          "valorPremio": 14610.54
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4196,
+          "valorPremio": 225.48
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 28/01/2006: R$14.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 733,
+      "dataProximoConcurso": "28/01/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3453167.14,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 12799611.64,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 733,
+    "draw_date": "2006-01-28",
+    "numbers": [
+      2,
+      12,
+      26,
+      31,
+      43,
+      46
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 733,
+      "data": "28/01/2006",
+      "local": "Caminh\u00e3o da Sorte em \u00c1guas de Lind\u00f3ia, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "12",
+        "26",
+        "31",
+        "43",
+        "46",
+        "02"
+      ],
+      "dezenas": [
+        "02",
+        "12",
+        "26",
+        "31",
+        "43",
+        "46"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 67,
+          "valorPremio": 16737.98
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5110,
+          "valorPremio": 218.63
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 01/02/2006: R$17.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 734,
+      "dataProximoConcurso": "01/02/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4854972.83,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 14762139.6,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 734,
+    "draw_date": "2006-02-01",
+    "numbers": [
+      27,
+      29,
+      43,
+      44,
+      45,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 734,
+      "data": "01/02/2006",
+      "local": "Caminh\u00e3o da Sorte em Uni\u00e3o da Vit\u00f3ria, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "44",
+        "45",
+        "27",
+        "29",
+        "43",
+        "54"
+      ],
+      "dezenas": [
+        "27",
+        "29",
+        "43",
+        "44",
+        "45",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 16726569.98
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 58,
+          "valorPremio": 19354.0
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3984,
+          "valorPremio": 280.69
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso a ser realizado em 04/02/2006: R$8.000.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 735,
+      "dataProximoConcurso": "04/02/2006",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6258137.41,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 735,
+    "draw_date": "2006-02-04",
+    "numbers": [
+      9,
+      15,
+      38,
+      40,
+      42,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 735,
+      "data": "04/02/2006",
+      "local": "Caminh\u00e3o da Sorte em General Carneiro, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "40",
+        "42",
+        "15",
+        "52",
+        "38",
+        "09"
+      ],
+      "dezenas": [
+        "09",
+        "15",
+        "38",
+        "40",
+        "42",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 33,
+          "valorPremio": 27163.91
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3043,
+          "valorPremio": 293.47
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 08/02/2006: R$9.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 736,
+      "dataProximoConcurso": "08/02/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1120511.35,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 7826853.28,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 736,
+    "draw_date": "2006-02-08",
+    "numbers": [
+      1,
+      21,
+      38,
+      41,
+      49,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 736,
+      "data": "08/02/2006",
+      "local": "Caminh\u00e3o da Sorte em LAVRAS, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "01",
+        "21",
+        "38",
+        "41",
+        "56",
+        "49"
+      ],
+      "dezenas": [
+        "01",
+        "21",
+        "38",
+        "41",
+        "49",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 19,
+          "valorPremio": 47835.6
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2190,
+          "valorPremio": 413.44
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 11/02/2006: R$11.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 737,
+      "dataProximoConcurso": "11/02/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2256606.74,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 9417386.79,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 737,
+    "draw_date": "2006-02-11",
+    "numbers": [
+      11,
+      12,
+      24,
+      32,
+      33,
+      38
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 737,
+      "data": "11/02/2006",
+      "local": "Caminh\u00e3o da Sorte em LAVRAS, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "33",
+        "12",
+        "24",
+        "38",
+        "11",
+        "32"
+      ],
+      "dezenas": [
+        "11",
+        "12",
+        "24",
+        "32",
+        "33",
+        "38"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 65,
+          "valorPremio": 18730.63
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6267,
+          "valorPremio": 193.54
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 15/02/2006: R$13.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 738,
+      "dataProximoConcurso": "15/02/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3778470.18,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 11547995.59,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 738,
+    "draw_date": "2006-02-15",
+    "numbers": [
+      14,
+      15,
+      26,
+      30,
+      42,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 738,
+      "data": "15/02/2006",
+      "local": "Caminh\u00e3o da Sorte em RIO GRANDE, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "15",
+        "30",
+        "14",
+        "42",
+        "26",
+        "54"
+      ],
+      "dezenas": [
+        "14",
+        "15",
+        "26",
+        "30",
+        "42",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 47,
+          "valorPremio": 26720.69
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4178,
+          "valorPremio": 299.45
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 18/02/2006: R$16.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 739,
+      "dataProximoConcurso": "18/02/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5348310.77,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 13745772.39,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 739,
+    "draw_date": "2006-02-18",
+    "numbers": [
+      6,
+      10,
+      35,
+      45,
+      49,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 739,
+      "data": "18/02/2006",
+      "local": "Caminh\u00e3o da Sorte em RIO GRANDE, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "06",
+        "45",
+        "56",
+        "49",
+        "35",
+        "10"
+      ],
+      "dezenas": [
+        "06",
+        "10",
+        "35",
+        "45",
+        "49",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 54,
+          "valorPremio": 25993.77
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4723,
+          "valorPremio": 296.08
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 22/02/2006: R$26.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 740,
+      "dataProximoConcurso": "22/02/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 23305073.75,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 23305073.75,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 740,
+    "draw_date": "2006-02-22",
+    "numbers": [
+      12,
+      16,
+      28,
+      29,
+      47,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 740,
+      "data": "22/02/2006",
+      "local": "Caminh\u00e3o da Sorte em CORUMB\u00c1, MS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "29",
+        "47",
+        "12",
+        "50",
+        "16",
+        "28"
+      ],
+      "dezenas": [
+        "12",
+        "16",
+        "28",
+        "29",
+        "47",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 26132814.65
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 90,
+          "valorPremio": 17953.91
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6943,
+          "valorPremio": 231.85
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 25/02/2006: R$1.000.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 741,
+      "dataProximoConcurso": "25/02/2006",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2019814.95,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 741,
+    "draw_date": "2006-02-25",
+    "numbers": [
+      24,
+      26,
+      27,
+      36,
+      39,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 741,
+      "data": "25/02/2006",
+      "local": "Caminh\u00e3o da Sorte em CORUMB\u00c1, MS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "26",
+        "39",
+        "27",
+        "24",
+        "59",
+        "36"
+      ],
+      "dezenas": [
+        "24",
+        "26",
+        "27",
+        "36",
+        "39",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 23,
+          "valorPremio": 28453.38
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2133,
+          "valorPremio": 305.65
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 01/03/2006: R$2.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 742,
+      "dataProximoConcurso": "01/03/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2837849.63,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1145248.54,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 742,
+    "draw_date": "2006-03-01",
+    "numbers": [
+      2,
+      7,
+      17,
+      34,
+      41,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 742,
+      "data": "01/03/2006",
+      "local": "Audit\u00f3rio em BRAS\u00cdLIA, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "34",
+        "17",
+        "07",
+        "41",
+        "02",
+        "50"
+      ],
+      "dezenas": [
+        "02",
+        "07",
+        "17",
+        "34",
+        "41",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 25,
+          "valorPremio": 14199.0
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1622,
+          "valorPremio": 218.02
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 04/03/2006: R$3.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 743,
+      "dataProximoConcurso": "04/03/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3281568.43,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1766454.86,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 743,
+    "draw_date": "2006-03-04",
+    "numbers": [
+      20,
+      23,
+      25,
+      32,
+      54,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 743,
+      "data": "04/03/2006",
+      "local": "Caminh\u00e3o da Sorte em Goian\u00e9sia, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "54",
+        "20",
+        "32",
+        "60",
+        "25",
+        "23"
+      ],
+      "dezenas": [
+        "20",
+        "23",
+        "25",
+        "32",
+        "54",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 28,
+          "valorPremio": 29491.22
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2762,
+          "valorPremio": 297.84
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 08/03/2006: R$4.500.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 744,
+      "dataProximoConcurso": "08/03/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4313761.16,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 3211524.66,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 744,
+    "draw_date": "2006-03-08",
+    "numbers": [
+      4,
+      12,
+      23,
+      26,
+      39,
+      46
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 744,
+      "data": "08/03/2006",
+      "local": "Caminh\u00e3o da Sorte em Diadema, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "26",
+        "46",
+        "12",
+        "23",
+        "39",
+        "04"
+      ],
+      "dezenas": [
+        "04",
+        "12",
+        "23",
+        "26",
+        "39",
+        "46"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 77,
+          "valorPremio": 10441.97
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5387,
+          "valorPremio": 148.7
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 11/03/2006: R$12.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 745,
+      "dataProximoConcurso": "11/03/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 9937380.49,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 9937380.49,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 745,
+    "draw_date": "2006-03-11",
+    "numbers": [
+      2,
+      16,
+      21,
+      37,
+      43,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 745,
+      "data": "11/03/2006",
+      "local": "Caminh\u00e3o da Sorte em Diadema, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "21",
+        "57",
+        "37",
+        "16",
+        "43",
+        "02"
+      ],
+      "dezenas": [
+        "02",
+        "16",
+        "21",
+        "37",
+        "43",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 134,
+          "valorPremio": 8604.62
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5262,
+          "valorPremio": 218.3
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) para o pr\u00f3ximo concurso, a ser realizado em 15/03/2006: R$14.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 746,
+      "dataProximoConcurso": "15/03/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1441273.38,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 11955163.21,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 746,
+    "draw_date": "2006-03-15",
+    "numbers": [
+      1,
+      10,
+      12,
+      25,
+      49,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 746,
+      "data": "15/03/2006",
+      "local": "Caminh\u00e3o da Sorte em N\u00e3o-me-Toque, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "49",
+        "12",
+        "10",
+        "57",
+        "25",
+        "01"
+      ],
+      "dezenas": [
+        "01",
+        "10",
+        "12",
+        "25",
+        "49",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 6995681.58
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 114,
+          "valorPremio": 10206.52
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6686,
+          "valorPremio": 173.36
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 18/03/2006: R$1.000.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 747,
+      "dataProximoConcurso": "18/03/2006",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RS"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2895701.93,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 747,
+    "draw_date": "2006-03-18",
+    "numbers": [
+      2,
+      3,
+      12,
+      21,
+      23,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 747,
+      "data": "18/03/2006",
+      "local": "Caminh\u00e3o da Sorte em Passo Fundo, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "21",
+        "23",
+        "56",
+        "12",
+        "03",
+        "02"
+      ],
+      "dezenas": [
+        "02",
+        "03",
+        "12",
+        "21",
+        "23",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 53,
+          "valorPremio": 13079.29
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4363,
+          "valorPremio": 158.28
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 22/03/2006: R$2.500.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 748,
+      "dataProximoConcurso": "22/03/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3762205.09,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1213104.4,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 748,
+    "draw_date": "2006-03-22",
+    "numbers": [
+      1,
+      2,
+      7,
+      19,
+      35,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 748,
+      "data": "22/03/2006",
+      "local": "Caminh\u00e3o da Sorte em S\u00e3o Jos\u00e9 do Rio Preto, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "01",
+        "07",
+        "19",
+        "51",
+        "35",
+        "02"
+      ],
+      "dezenas": [
+        "01",
+        "02",
+        "07",
+        "19",
+        "35",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 74,
+          "valorPremio": 9080.42
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4519,
+          "valorPremio": 148.14
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 25/03/2006: R$4.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 749,
+      "dataProximoConcurso": "25/03/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4602143.94,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 2389018.77,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 749,
+    "draw_date": "2006-03-25",
+    "numbers": [
+      4,
+      24,
+      47,
+      48,
+      50,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 749,
+      "data": "25/03/2006",
+      "local": "Caminh\u00e3o da Sorte em S\u00e3o Jos\u00e9 do Rio Preto, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "24",
+        "47",
+        "04",
+        "57",
+        "48",
+        "50"
+      ],
+      "dezenas": [
+        "04",
+        "24",
+        "47",
+        "48",
+        "50",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 31,
+          "valorPremio": 26214.36
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2669,
+          "valorPremio": 303.33
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 29/03/2006: R$11.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 750,
+      "dataProximoConcurso": "29/03/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 9429097.84,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 9429097.84,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 750,
+    "draw_date": "2006-03-29",
+    "numbers": [
+      10,
+      17,
+      33,
+      42,
+      54,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 750,
+      "data": "29/03/2006",
+      "local": "Caminh\u00e3o da Sorte em Vit\u00f3ria da Conquista, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "58",
+        "17",
+        "54",
+        "10",
+        "42",
+        "33"
+      ],
+      "dezenas": [
+        "10",
+        "17",
+        "33",
+        "42",
+        "54",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 49,
+          "valorPremio": 18795.69
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3799,
+          "valorPremio": 241.51
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 01/04/2006: R$13.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 751,
+      "dataProximoConcurso": "01/04/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1151236.05,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 11040828.28,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 751,
+    "draw_date": "2006-04-01",
+    "numbers": [
+      4,
+      7,
+      20,
+      25,
+      38,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 751,
+      "data": "01/04/2006",
+      "local": "Caminh\u00e3o da Sorte em VIT\u00d3RIA DA CONQUISTA, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "04",
+        "25",
+        "38",
+        "50",
+        "20",
+        "07"
+      ],
+      "dezenas": [
+        "04",
+        "07",
+        "20",
+        "25",
+        "38",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 74,
+          "valorPremio": 15221.68
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5579,
+          "valorPremio": 201.14
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 752,
+      "dataProximoConcurso": "05/04/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2559241.35,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 13012035.71,
+      "valorEstimadoProximoConcurso": 15000000.0
+    }
+  },
+  {
+    "draw_id": 752,
+    "draw_date": "2006-04-05",
+    "numbers": [
+      4,
+      23,
+      24,
+      25,
+      29,
+      42
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 752,
+      "data": "05/04/2006",
+      "local": "Caminh\u00e3o da Sorte em Santo Andr\u00e9, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "25",
+        "04",
+        "29",
+        "42",
+        "24",
+        "23"
+      ],
+      "dezenas": [
+        "04",
+        "23",
+        "24",
+        "25",
+        "29",
+        "42"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 86,
+          "valorPremio": 13022.3
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6849,
+          "valorPremio": 162.9
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 08/04/2006: R$17.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 753,
+      "dataProximoConcurso": "08/04/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3959138.86,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 14971892.19,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 753,
+    "draw_date": "2006-04-08",
+    "numbers": [
+      2,
+      7,
+      22,
+      35,
+      43,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 753,
+      "data": "08/04/2006",
+      "local": "Caminh\u00e3o da Sorte em Santo Andr\u00e9, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "59",
+        "35",
+        "43",
+        "22",
+        "07",
+        "02"
+      ],
+      "dezenas": [
+        "02",
+        "07",
+        "22",
+        "35",
+        "43",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 17388228.32
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 152,
+          "valorPremio": 9083.97
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8630,
+          "valorPremio": 159.4
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 12/04/2006: R$1.000.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 754,
+      "dataProximoConcurso": "12/04/2006",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "BA"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5685093.25,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 754,
+    "draw_date": "2006-04-12",
+    "numbers": [
+      3,
+      4,
+      13,
+      34,
+      42,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 754,
+      "data": "12/04/2006",
+      "local": "Caminh\u00e3o da Sorte em DRACENA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "04",
+        "42",
+        "34",
+        "50",
+        "03",
+        "13"
+      ],
+      "dezenas": [
+        "03",
+        "04",
+        "13",
+        "34",
+        "42",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 41,
+          "valorPremio": 14457.22
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2827,
+          "valorPremio": 208.89
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 15/04/2006: R$9.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 755,
+      "dataProximoConcurso": "15/04/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7463330.98,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 7463330.98,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 755,
+    "draw_date": "2006-04-15",
+    "numbers": [
+      4,
+      12,
+      30,
+      47,
+      49,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 755,
+      "data": "15/04/2006",
+      "local": "Caminh\u00e3o da Sorte em Tup\u00e3, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "59",
+        "30",
+        "47",
+        "12",
+        "04",
+        "49"
+      ],
+      "dezenas": [
+        "04",
+        "12",
+        "30",
+        "47",
+        "49",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 41,
+          "valorPremio": 18319.33
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2977,
+          "valorPremio": 251.35
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 19/04/2006: R$10.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 756,
+      "dataProximoConcurso": "19/04/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 938865.69,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 8777742.92,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 756,
+    "draw_date": "2006-04-19",
+    "numbers": [
+      5,
+      27,
+      37,
+      38,
+      41,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 756,
+      "data": "19/04/2006",
+      "local": "Caminh\u00e3o da Sorte em S\u00e3o Luiz Gonzaga, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "37",
+        "50",
+        "41",
+        "05",
+        "38",
+        "27"
+      ],
+      "dezenas": [
+        "05",
+        "27",
+        "37",
+        "38",
+        "41",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 34,
+          "valorPremio": 27503.13
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3135,
+          "valorPremio": 297.15
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 22/04/2006: R$12.500.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 757,
+      "dataProximoConcurso": "22/04/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2107748.68,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 10414179.09,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 757,
+    "draw_date": "2006-04-22",
+    "numbers": [
+      12,
+      17,
+      18,
+      30,
+      32,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 757,
+      "data": "22/04/2006",
+      "local": "Caminh\u00e3o da Sorte em Tr\u00eas Passos, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "17",
+        "32",
+        "12",
+        "18",
+        "58",
+        "30"
+      ],
+      "dezenas": [
+        "12",
+        "17",
+        "18",
+        "30",
+        "32",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 53,
+          "valorPremio": 17988.72
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3448,
+          "valorPremio": 275.46
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 26/04/2006: R$14.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 758,
+      "dataProximoConcurso": "26/04/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3299501.26,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 12082632.69,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 758,
+    "draw_date": "2006-04-26",
+    "numbers": [
+      1,
+      23,
+      36,
+      43,
+      47,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 758,
+      "data": "26/04/2006",
+      "local": "Caminh\u00e3o da Sorte em Aracruz, ES",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "47",
+        "59",
+        "01",
+        "23",
+        "36",
+        "43"
+      ],
+      "dezenas": [
+        "01",
+        "23",
+        "36",
+        "43",
+        "47",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 74,
+          "valorPremio": 14352.34
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4910,
+          "valorPremio": 215.49
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) parao pr\u00f3ximo concurso, a ser realizado em 29/04/2006: R$16.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 759,
+      "dataProximoConcurso": "29/04/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4627092.61,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 13941260.58,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 759,
+    "draw_date": "2006-04-29",
+    "numbers": [
+      30,
+      31,
+      39,
+      45,
+      48,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 759,
+      "data": "29/04/2006",
+      "local": "Caminh\u00e3o da Sorte em Ibira\u00e7u, ES",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "59",
+        "39",
+        "30",
+        "31",
+        "48",
+        "45"
+      ],
+      "dezenas": [
+        "30",
+        "31",
+        "39",
+        "45",
+        "48",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 38,
+          "valorPremio": 32431.5
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2588,
+          "valorPremio": 474.4
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 03/05/2006: R$25.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 760,
+      "dataProximoConcurso": "03/05/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 22265544.19,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 22265544.19,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 760,
+    "draw_date": "2006-05-03",
+    "numbers": [
+      12,
+      17,
+      44,
+      45,
+      46,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 760,
+      "data": "03/05/2006",
+      "local": "Caminh\u00e3o da Sorte em Len\u00e7\u00f3is Paulista, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "12",
+        "17",
+        "60",
+        "44",
+        "46",
+        "45"
+      ],
+      "dezenas": [
+        "12",
+        "17",
+        "44",
+        "45",
+        "46",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 80,
+          "valorPremio": 16005.08
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5517,
+          "valorPremio": 231.2
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 06/05/2006: R$27.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 761,
+      "dataProximoConcurso": "06/05/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1600507.86,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 24506255.18,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 761,
+    "draw_date": "2006-05-06",
+    "numbers": [
+      13,
+      17,
+      27,
+      29,
+      40,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 761,
+      "data": "06/05/2006",
+      "local": "Caminh\u00e3o da Sorte em Len\u00e7\u00f3is Paulista, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "56",
+        "29",
+        "17",
+        "13",
+        "27",
+        "40"
+      ],
+      "dezenas": [
+        "13",
+        "17",
+        "27",
+        "29",
+        "40",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 100,
+          "valorPremio": 17175.97
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8936,
+          "valorPremio": 191.48
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 10/05/2006: R$30.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 762,
+      "dataProximoConcurso": "10/05/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3747503.28,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 27512048.76,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 762,
+    "draw_date": "2006-05-10",
+    "numbers": [
+      9,
+      12,
+      21,
+      37,
+      39,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 762,
+      "data": "10/05/2006",
+      "local": "Caminh\u00e3o da Sorte em VEN\u00c2NCIO AIRES, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "39",
+        "09",
+        "21",
+        "12",
+        "37",
+        "54"
+      ],
+      "dezenas": [
+        "09",
+        "12",
+        "21",
+        "37",
+        "39",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 143,
+          "valorPremio": 13668.11
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10120,
+          "valorPremio": 192.4
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 13/05/2006: R$35.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 763,
+      "dataProximoConcurso": "13/05/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6190676.97,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 30932491.92,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 763,
+    "draw_date": "2006-05-13",
+    "numbers": [
+      1,
+      9,
+      26,
+      40,
+      47,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 763,
+      "data": "13/05/2006",
+      "local": "Caminh\u00e3o da Sorte em VEN\u00c2NCIO AIRES, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "40",
+        "47",
+        "01",
+        "48",
+        "09",
+        "26"
+      ],
+      "dezenas": [
+        "01",
+        "09",
+        "26",
+        "40",
+        "47",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 101,
+          "valorPremio": 23502.31
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7655,
+          "valorPremio": 308.92
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "O CONCURSO 764 SER\u00c1 SORTEADO EM 18/05/2006 (QUINTA-FEIRA) \u00c0S 20 HORAS EM RIBEIR\u00c3O PRETO/SP. A ESTIMATIVA DE PR\u00caMIO (SENA) PARA O CONCURSO 764 \u00c9 DE R$40.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 764,
+      "dataProximoConcurso": "18/05/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 9157843.61,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 35086525.19,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 764,
+    "draw_date": "2006-05-18",
+    "numbers": [
+      3,
+      7,
+      45,
+      47,
+      53,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 764,
+      "data": "18/05/2006",
+      "local": "Caminh\u00e3o da Sorte em Ribeir\u00e3o Preto, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "07",
+        "03",
+        "55",
+        "47",
+        "53",
+        "45"
+      ],
+      "dezenas": [
+        "03",
+        "07",
+        "45",
+        "47",
+        "53",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 40539530.9
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 189,
+          "valorPremio": 16486.79
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 15290,
+          "valorPremio": 203.03
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (sena): R$15.000.000,00. SORTEIO DO CONCURSO 765 ADIADO PARA 21/05/2006, \u00c0S 17 HORAS.",
+      "acumulou": false,
+      "proximoConcurso": 765,
+      "dataProximoConcurso": "20/05/2006",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PA"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 13052847.71,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 765,
+    "draw_date": "2006-05-21",
+    "numbers": [
+      3,
+      10,
+      16,
+      30,
+      37,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 765,
+      "data": "21/05/2006",
+      "local": "Caminh\u00e3o da Sorte em Ribeir\u00e3o Preto, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "03",
+        "37",
+        "50",
+        "16",
+        "30",
+        "10"
+      ],
+      "dezenas": [
+        "03",
+        "10",
+        "16",
+        "30",
+        "37",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 62,
+          "valorPremio": 15552.09
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4336,
+          "valorPremio": 221.54
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (Sena) para o pr\u00f3ximo concurso a ser realizado em 24/05/2006: R$16.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 766,
+      "dataProximoConcurso": "24/05/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1205286.41,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 14740248.65,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 766,
+    "draw_date": "2006-05-24",
+    "numbers": [
+      1,
+      19,
+      24,
+      42,
+      50,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 766,
+      "data": "24/05/2006",
+      "local": "Caminh\u00e3o da Sorte em Cachoeira do Sul, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "01",
+        "50",
+        "19",
+        "42",
+        "24",
+        "58"
+      ],
+      "dezenas": [
+        "01",
+        "19",
+        "24",
+        "42",
+        "50",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 63,
+          "valorPremio": 16857.33
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4477,
+          "valorPremio": 236.31
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 27/05/2006: R$18.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 767,
+      "dataProximoConcurso": "27/05/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2532801.63,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 16598769.93,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 767,
+    "draw_date": "2006-05-27",
+    "numbers": [
+      15,
+      22,
+      32,
+      38,
+      50,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 767,
+      "data": "27/05/2006",
+      "local": "Caminh\u00e3o da Sorte em Cachoeira do Sul, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "22",
+        "50",
+        "32",
+        "38",
+        "54",
+        "15"
+      ],
+      "dezenas": [
+        "15",
+        "22",
+        "32",
+        "38",
+        "50",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 62,
+          "valorPremio": 20318.55
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4419,
+          "valorPremio": 284.0
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 31/05/2006: R$21.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 768,
+      "dataProximoConcurso": "31/05/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4107488.74,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 18803331.88,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 768,
+    "draw_date": "2006-05-31",
+    "numbers": [
+      4,
+      8,
+      30,
+      33,
+      37,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 768,
+      "data": "31/05/2006",
+      "local": "Caminh\u00e3o da Sorte em Gama, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "33",
+        "37",
+        "59",
+        "30",
+        "04",
+        "08"
+      ],
+      "dezenas": [
+        "04",
+        "08",
+        "30",
+        "33",
+        "37",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 21024430.31
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 93,
+          "valorPremio": 13647.3
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6408,
+          "valorPremio": 197.31
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) para o pr\u00f3ximo concurso, a ser realizado em 03/06/2006: R$1.000.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 769,
+      "dataProximoConcurso": "03/06/2006",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5693987.63,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 769,
+    "draw_date": "2006-06-03",
+    "numbers": [
+      12,
+      16,
+      20,
+      21,
+      29,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 769,
+      "data": "03/06/2006",
+      "local": "Caminh\u00e3o da Sorte em Gama, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "20",
+        "21",
+        "50",
+        "29",
+        "12",
+        "16"
+      ],
+      "dezenas": [
+        "12",
+        "16",
+        "20",
+        "21",
+        "29",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 49,
+          "valorPremio": 14382.06
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3078,
+          "valorPremio": 228.08
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) para o pr\u00f3ximo concurso, a ser realizado em 07/06/2006: R$10.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 770,
+      "dataProximoConcurso": "07/06/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7808149.6,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 7808149.6,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 770,
+    "draw_date": "2006-06-07",
+    "numbers": [
+      4,
+      12,
+      25,
+      34,
+      35,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 770,
+      "data": "07/06/2006",
+      "local": "Caminh\u00e3o da Sorte em GAMA, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "04",
+        "34",
+        "25",
+        "35",
+        "48",
+        "12"
+      ],
+      "dezenas": [
+        "04",
+        "12",
+        "25",
+        "34",
+        "35",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 68,
+          "valorPremio": 13703.65
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5401,
+          "valorPremio": 171.88
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 10/06/2006: R$11.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 771,
+      "dataProximoConcurso": "10/06/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1164809.51,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 9438882.88,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 771,
+    "draw_date": "2006-06-10",
+    "numbers": [
+      14,
+      21,
+      29,
+      34,
+      46,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 771,
+      "data": "10/06/2006",
+      "local": "Caminh\u00e3o da Sorte em GAMA, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "29",
+        "46",
+        "34",
+        "47",
+        "21",
+        "14"
+      ],
+      "dezenas": [
+        "14",
+        "21",
+        "29",
+        "34",
+        "46",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 69,
+          "valorPremio": 15089.83
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4559,
+          "valorPremio": 227.53
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (Sena) para o pr\u00f3ximo concurso, a ser realizado em 14/06/2006: R$13.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 772,
+      "dataProximoConcurso": "14/06/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2466307.2,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 11260979.64,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 772,
+    "draw_date": "2006-06-14",
+    "numbers": [
+      10,
+      35,
+      38,
+      51,
+      52,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 772,
+      "data": "14/06/2006",
+      "local": "Caminh\u00e3o da Sorte em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "38",
+        "51",
+        "52",
+        "60",
+        "10",
+        "35"
+      ],
+      "dezenas": [
+        "10",
+        "35",
+        "38",
+        "51",
+        "52",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 66,
+          "valorPremio": 13476.3
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5330,
+          "valorPremio": 166.25
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 773,
+      "dataProximoConcurso": "17/06/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3578102.03,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 12817492.36,
+      "valorEstimadoProximoConcurso": 15000000.0
+    }
+  },
+  {
+    "draw_id": 773,
+    "draw_date": "2006-06-17",
+    "numbers": [
+      3,
+      5,
+      14,
+      29,
+      34,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 773,
+      "data": "17/06/2006",
+      "local": "Caminh\u00e3o da Sorte em BRAS\u00cdLIA, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "03",
+        "05",
+        "51",
+        "29",
+        "34",
+        "14"
+      ],
+      "dezenas": [
+        "03",
+        "05",
+        "14",
+        "29",
+        "34",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 58,
+          "valorPremio": 16454.7
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4919,
+          "valorPremio": 193.29
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 21/06/2006: R$16.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 774,
+      "dataProximoConcurso": "21/06/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4771068.01,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 14487644.71,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 774,
+    "draw_date": "2006-06-21",
+    "numbers": [
+      5,
+      10,
+      37,
+      46,
+      54,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 774,
+      "data": "21/06/2006",
+      "local": "Caminh\u00e3o da Sorte em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "37",
+        "05",
+        "54",
+        "58",
+        "46",
+        "10"
+      ],
+      "dezenas": [
+        "05",
+        "10",
+        "37",
+        "46",
+        "54",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 16319071.08
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 64,
+          "valorPremio": 16352.03
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4336,
+          "valorPremio": 240.45
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso a ser apurado em 24/06/2006: R$7.500.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 775,
+      "dataProximoConcurso": "24/06/2006",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PA"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6079229.71,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 775,
+    "draw_date": "2006-06-24",
+    "numbers": [
+      12,
+      27,
+      42,
+      46,
+      47,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 775,
+      "data": "24/06/2006",
+      "local": "Caminh\u00e3o da Sorte em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "27",
+        "12",
+        "46",
+        "47",
+        "42",
+        "50"
+      ],
+      "dezenas": [
+        "12",
+        "27",
+        "42",
+        "46",
+        "47",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 30,
+          "valorPremio": 25559.59
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3058,
+          "valorPremio": 249.8
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 28/06/2006: R$9.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 776,
+      "dataProximoConcurso": "28/06/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 958484.61,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 7421108.15,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 776,
+    "draw_date": "2006-06-28",
+    "numbers": [
+      3,
+      15,
+      35,
+      41,
+      57,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 776,
+      "data": "28/06/2006",
+      "local": "Caminh\u00e3o da Sorte em BRAS\u00cdLIA, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "57",
+        "35",
+        "60",
+        "41",
+        "03",
+        "15"
+      ],
+      "dezenas": [
+        "03",
+        "15",
+        "35",
+        "41",
+        "57",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 56,
+          "valorPremio": 13543.61
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3075,
+          "valorPremio": 245.72
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 01/07/2006: R$10.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 777,
+      "dataProximoConcurso": "01/07/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1906537.57,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 8748382.29,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 777,
+    "draw_date": "2006-07-01",
+    "numbers": [
+      2,
+      14,
+      23,
+      28,
+      50,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 777,
+      "data": "01/07/2006",
+      "local": "Caminh\u00e3o da Sorte em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "14",
+        "50",
+        "23",
+        "02",
+        "28",
+        "56"
+      ],
+      "dezenas": [
+        "02",
+        "14",
+        "23",
+        "28",
+        "50",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 80,
+          "valorPremio": 10746.73
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3943,
+          "valorPremio": 217.22
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso: R$ 12.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 778,
+      "dataProximoConcurso": "05/07/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2981209.8,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 10252923.38,
+      "valorEstimadoProximoConcurso": 12000000.0
+    }
+  },
+  {
+    "draw_id": 778,
+    "draw_date": "2006-07-05",
+    "numbers": [
+      20,
+      31,
+      36,
+      37,
+      45,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 778,
+      "data": "05/07/2006",
+      "local": "Caminh\u00e3o da Sorte em BRAS\u00cdLIA, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "45",
+        "20",
+        "36",
+        "37",
+        "31",
+        "51"
+      ],
+      "dezenas": [
+        "20",
+        "31",
+        "36",
+        "37",
+        "45",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 21,
+          "valorPremio": 42785.84
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1890,
+          "valorPremio": 473.6
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 08/07/2006: R$14.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 779,
+      "dataProximoConcurso": "08/07/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4104338.03,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 11825302.87,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 779,
+    "draw_date": "2006-07-08",
+    "numbers": [
+      25,
+      26,
+      29,
+      36,
+      52,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 779,
+      "data": "08/07/2006",
+      "local": "Caminh\u00e3o da Sorte em BRAS\u00cdLIA, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "36",
+        "54",
+        "52",
+        "25",
+        "29",
+        "26"
+      ],
+      "dezenas": [
+        "25",
+        "26",
+        "29",
+        "36",
+        "52",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 26,
+          "valorPremio": 39580.32
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3127,
+          "valorPremio": 327.85
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 12/07/2006: R$21.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 780,
+      "dataProximoConcurso": "12/07/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 19016906.07,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 19016906.07,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 780,
+    "draw_date": "2006-07-12",
+    "numbers": [
+      7,
+      10,
+      28,
+      50,
+      51,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 780,
+      "data": "12/07/2006",
+      "local": "Caminh\u00e3o da Sorte em Rio de Janeiro, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "10",
+        "50",
+        "28",
+        "51",
+        "59",
+        "07"
+      ],
+      "dezenas": [
+        "07",
+        "10",
+        "28",
+        "50",
+        "51",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 43,
+          "valorPremio": 26754.56
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3828,
+          "valorPremio": 299.4
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Acumulou!!! Estimativa de pr\u00eamio (SENA) para o pr\u00f3ximo concurso, a ser realizado em 15/07/2006: R$23.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 781,
+      "dataProximoConcurso": "15/07/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1438057.63,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 21030186.72,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 781,
+    "draw_date": "2006-07-15",
+    "numbers": [
+      8,
+      10,
+      13,
+      39,
+      54,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 781,
+      "data": "15/07/2006",
+      "local": "Caminh\u00e3o da Sorte em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "10",
+        "54",
+        "08",
+        "39",
+        "56",
+        "13"
+      ],
+      "dezenas": [
+        "08",
+        "10",
+        "13",
+        "39",
+        "54",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 66,
+          "valorPremio": 19809.51
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5707,
+          "valorPremio": 228.22
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) para o pr\u00f3ximo concurso, a ser realizado em 19/07/2006: R$25.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 782,
+      "dataProximoConcurso": "19/07/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3072342.32,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 23318185.27,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 782,
+    "draw_date": "2006-07-19",
+    "numbers": [
+      2,
+      11,
+      23,
+      35,
+      42,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 782,
+      "data": "19/07/2006",
+      "local": "Caminh\u00e3o da Sorte em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "11",
+        "23",
+        "59",
+        "42",
+        "35",
+        "02"
+      ],
+      "dezenas": [
+        "02",
+        "11",
+        "23",
+        "35",
+        "42",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 144,
+          "valorPremio": 9270.41
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7533,
+          "valorPremio": 176.55
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 22/07/2006: R$28.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 783,
+      "dataProximoConcurso": "22/07/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4741014.87,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 25654326.84,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 783,
+    "draw_date": "2006-07-22",
+    "numbers": [
+      4,
+      8,
+      21,
+      32,
+      43,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 783,
+      "data": "22/07/2006",
+      "local": "Caminh\u00e3o da Sorte em BRAS\u00cdLIA, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "43",
+        "21",
+        "48",
+        "08",
+        "04",
+        "32"
+      ],
+      "dezenas": [
+        "04",
+        "08",
+        "21",
+        "32",
+        "43",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 28244624.32
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 140,
+          "valorPremio": 10572.64
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8427,
+          "valorPremio": 174.99
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 26/07/2006: R$1.000.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 784,
+      "dataProximoConcurso": "26/07/2006",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MT"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6591227.36,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 784,
+    "draw_date": "2006-07-26",
+    "numbers": [
+      8,
+      27,
+      37,
+      42,
+      53,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 784,
+      "data": "26/07/2006",
+      "local": "Caminh\u00e3o da Sorte em Taguatinga, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "42",
+        "56",
+        "08",
+        "37",
+        "27",
+        "53"
+      ],
+      "dezenas": [
+        "08",
+        "27",
+        "37",
+        "42",
+        "53",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 27,
+          "valorPremio": 20363.8
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2163,
+          "valorPremio": 253.24
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) para o pr\u00f3ximo concurso, a ser realizado em 29/07/2006: R$10.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 785,
+      "dataProximoConcurso": "29/07/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 8240695.17,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 8240695.17,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 785,
+    "draw_date": "2006-07-29",
+    "numbers": [
+      5,
+      8,
+      17,
+      35,
+      37,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 785,
+      "data": "29/07/2006",
+      "local": "Caminh\u00e3o da Sorte em Taguatinga, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "35",
+        "05",
+        "37",
+        "08",
+        "48",
+        "17"
+      ],
+      "dezenas": [
+        "05",
+        "08",
+        "17",
+        "35",
+        "37",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 9770979.43
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 126,
+          "valorPremio": 6940.06
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6657,
+          "valorPremio": 130.87
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (SENA) para o pr\u00f3ximo concurso, a ser realizado em 02/08/2006: R$1.000.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 786,
+      "dataProximoConcurso": "02/08/2006",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1093060.19,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 786,
+    "draw_date": "2006-08-02",
+    "numbers": [
+      10,
+      11,
+      26,
+      27,
+      31,
+      41
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 786,
+      "data": "02/08/2006",
+      "local": "Caminh\u00e3o da Sorte em TAGUATINGA, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "27",
+        "31",
+        "26",
+        "11",
+        "10",
+        "41"
+      ],
+      "dezenas": [
+        "10",
+        "11",
+        "26",
+        "27",
+        "31",
+        "41"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 19,
+          "valorPremio": 25700.08
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1521,
+          "valorPremio": 319.83
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 05/08/2006: R$2.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 787,
+      "dataProximoConcurso": "05/08/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1703437.23,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 854527.84,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 787,
+    "draw_date": "2006-08-05",
+    "numbers": [
+      20,
+      31,
+      34,
+      37,
+      54,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 787,
+      "data": "05/08/2006",
+      "local": "Caminh\u00e3o da Sorte em TAGUATINGA, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "37",
+        "31",
+        "20",
+        "60",
+        "34",
+        "54"
+      ],
+      "dezenas": [
+        "20",
+        "31",
+        "34",
+        "37",
+        "54",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 40,
+          "valorPremio": 16922.47
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1955,
+          "valorPremio": 344.93
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 09/08/2006: R$3.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 788,
+      "dataProximoConcurso": "09/08/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2549560.68,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 2039100.64,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 788,
+    "draw_date": "2006-08-09",
+    "numbers": [
+      17,
+      19,
+      29,
+      31,
+      44,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 788,
+      "data": "09/08/2006",
+      "local": "Caminh\u00e3o da Sorte em BRAS\u00cdLIA, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "31",
+        "57",
+        "17",
+        "19",
+        "29",
+        "44"
+      ],
+      "dezenas": [
+        "17",
+        "19",
+        "29",
+        "31",
+        "44",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 62,
+          "valorPremio": 10763.88
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3247,
+          "valorPremio": 204.75
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 12/08/2006; R$5.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 789,
+      "dataProximoConcurso": "12/08/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3383761.3,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 3206981.5,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 789,
+    "draw_date": "2006-08-12",
+    "numbers": [
+      6,
+      31,
+      38,
+      39,
+      50,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 789,
+      "data": "12/08/2006",
+      "local": "Caminh\u00e3o da Sorte em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "60",
+        "39",
+        "31",
+        "38",
+        "06",
+        "50"
+      ],
+      "dezenas": [
+        "06",
+        "31",
+        "38",
+        "39",
+        "50",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 13,
+          "valorPremio": 62482.48
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1808,
+          "valorPremio": 447.56
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (06 acertos) para o pr\u00f3ximo concurso, a ser realizado em 16/08/2006: R$11.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 790,
+      "dataProximoConcurso": "16/08/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 9027559.48,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 9027559.48,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 790,
+    "draw_date": "2006-08-16",
+    "numbers": [
+      2,
+      6,
+      19,
+      22,
+      28,
+      43
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 790,
+      "data": "16/08/2006",
+      "local": "Caminh\u00e3o da Sorte em TAGUATINGA, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "22",
+        "02",
+        "19",
+        "28",
+        "43",
+        "06"
+      ],
+      "dezenas": [
+        "02",
+        "06",
+        "19",
+        "22",
+        "28",
+        "43"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 71,
+          "valorPremio": 11717.34
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5884,
+          "valorPremio": 140.86
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 19/08/2006: R$12.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 791,
+      "dataProximoConcurso": "19/08/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1039914.03,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 10483439.1,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 791,
+    "draw_date": "2006-08-19",
+    "numbers": [
+      9,
+      14,
+      19,
+      35,
+      42,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 791,
+      "data": "19/08/2006",
+      "local": "Caminh\u00e3o da Sorte em TAGUATINGA, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "42",
+        "35",
+        "19",
+        "09",
+        "14",
+        "58"
+      ],
+      "dezenas": [
+        "09",
+        "14",
+        "19",
+        "35",
+        "42",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 12212213.94
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 114,
+          "valorPremio": 8665.54
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5756,
+          "valorPremio": 170.97
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 23/08/2006: R$1.000.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 792,
+      "dataProximoConcurso": "23/08/2006",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2274753.21,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 792,
+    "draw_date": "2006-08-23",
+    "numbers": [
+      9,
+      29,
+      34,
+      43,
+      45,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 792,
+      "data": "23/08/2006",
+      "local": "Caminh\u00e3o da Sorte em Taguatinga, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "43",
+        "56",
+        "09",
+        "45",
+        "29",
+        "34"
+      ],
+      "dezenas": [
+        "09",
+        "29",
+        "34",
+        "43",
+        "45",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 32,
+          "valorPremio": 15844.65
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1949,
+          "valorPremio": 259.17
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) para o pr\u00f3ximo concurso a ser realizado em 26/08/2006: R$2.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 793,
+      "dataProximoConcurso": "26/08/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2908539.22,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 887300.41,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 793,
+    "draw_date": "2006-08-26",
+    "numbers": [
+      3,
+      15,
+      16,
+      33,
+      51,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 793,
+      "data": "26/08/2006",
+      "local": "Caminh\u00e3o da Sorte em Taguatinga, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "03",
+        "51",
+        "33",
+        "15",
+        "16",
+        "57"
+      ],
+      "dezenas": [
+        "03",
+        "15",
+        "16",
+        "33",
+        "51",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 62,
+          "valorPremio": 10387.12
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3629,
+          "valorPremio": 176.79
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!! Estimativa de pr\u00eamio (SENA) para o pr\u00f3ximo concurso a ser realizado em 30/08/2006: R$3.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 794,
+      "dataProximoConcurso": "30/08/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3713540.4,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 2014302.06,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 794,
+    "draw_date": "2006-08-30",
+    "numbers": [
+      3,
+      38,
+      42,
+      47,
+      55,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 794,
+      "data": "30/08/2006",
+      "local": "Caminh\u00e3o da Sorte em TAGUATINGA, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "56",
+        "47",
+        "55",
+        "38",
+        "42",
+        "03"
+      ],
+      "dezenas": [
+        "03",
+        "38",
+        "42",
+        "47",
+        "55",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 15,
+          "valorPremio": 37006.71
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1730,
+          "valorPremio": 319.66
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) para o pr\u00f3ximo concurso, a ser realizado em 02/09/2006: R$9.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 795,
+      "dataProximoConcurso": "02/09/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7393144.45,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 7393144.45,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 795,
+    "draw_date": "2006-09-02",
+    "numbers": [
+      14,
+      21,
+      26,
+      29,
+      36,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 795,
+      "data": "02/09/2006",
+      "local": "Caminh\u00e3o da Sorte em TAGUATINGA, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "14",
+        "36",
+        "21",
+        "29",
+        "26",
+        "48"
+      ],
+      "dezenas": [
+        "14",
+        "21",
+        "26",
+        "29",
+        "36",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 76,
+          "valorPremio": 11029.2
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4389,
+          "valorPremio": 190.27
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) para o pr\u00f3ximo concurso, a ser realizado em 06/09/2006: R$10.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 796,
+      "dataProximoConcurso": "06/09/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1047774.1,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 8860028.16,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 796,
+    "draw_date": "2006-09-06",
+    "numbers": [
+      5,
+      19,
+      24,
+      34,
+      39,
+      43
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 796,
+      "data": "06/09/2006",
+      "local": "Caminh\u00e3o da Sorte em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "19",
+        "24",
+        "43",
+        "34",
+        "39",
+        "05"
+      ],
+      "dezenas": [
+        "05",
+        "19",
+        "24",
+        "34",
+        "39",
+        "43"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 80,
+          "valorPremio": 9974.9
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4883,
+          "valorPremio": 162.81
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) para o pr\u00f3ximo concurso a ser realizado em 09/09/2006: R$12.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 797,
+      "dataProximoConcurso": "09/09/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2045264.08,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 10256514.12,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 797,
+    "draw_date": "2006-09-09",
+    "numbers": [
+      6,
+      12,
+      47,
+      48,
+      52,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 797,
+      "data": "09/09/2006",
+      "local": "Caminh\u00e3o da Sorte em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "58",
+        "48",
+        "52",
+        "47",
+        "12",
+        "06"
+      ],
+      "dezenas": [
+        "06",
+        "12",
+        "47",
+        "48",
+        "52",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 66,
+          "valorPremio": 12566.42
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3447,
+          "valorPremio": 239.7
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) para o pr\u00f3ximo concurso a ser realizado em 13/09/2006: R$13.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 798,
+      "dataProximoConcurso": "13/09/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3081993.31,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 11707935.01,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 798,
+    "draw_date": "2006-09-13",
+    "numbers": [
+      3,
+      4,
+      9,
+      29,
+      32,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 798,
+      "data": "13/09/2006",
+      "local": "Caminh\u00e3o da Sorte em BOITUVA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "32",
+        "09",
+        "04",
+        "52",
+        "29",
+        "03"
+      ],
+      "dezenas": [
+        "03",
+        "04",
+        "09",
+        "29",
+        "32",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 48,
+          "valorPremio": 19610.77
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4104,
+          "valorPremio": 228.5
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 16/09/2006: R$15.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 799,
+      "dataProximoConcurso": "16/09/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4258639.66,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 13355239.88,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 799,
+    "draw_date": "2006-09-16",
+    "numbers": [
+      19,
+      29,
+      35,
+      42,
+      55,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 799,
+      "data": "16/09/2006",
+      "local": "Caminh\u00e3o da Sorte em Boituva, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "29",
+        "35",
+        "19",
+        "57",
+        "42",
+        "55"
+      ],
+      "dezenas": [
+        "19",
+        "29",
+        "35",
+        "42",
+        "55",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 56,
+          "valorPremio": 19330.65
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4675,
+          "valorPremio": 230.69
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) para o pr\u00f3ximo concurso a ser realizado em 20/09/2006: R$23.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 800,
+      "dataProximoConcurso": "20/09/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 20861429.08,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 20861429.08,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 800,
+    "draw_date": "2006-09-20",
+    "numbers": [
+      1,
+      7,
+      11,
+      37,
+      38,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 800,
+      "data": "20/09/2006",
+      "local": "Caminh\u00e3o da Sorte em Itapeva, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "01",
+        "07",
+        "56",
+        "11",
+        "37",
+        "38"
+      ],
+      "dezenas": [
+        "01",
+        "07",
+        "11",
+        "37",
+        "38",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 44,
+          "valorPremio": 26411.64
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4497,
+          "valorPremio": 257.44
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) para o pr\u00f3ximo concurso a ser realizado em 23/09/2006: R$ 25.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 801,
+      "dataProximoConcurso": "23/09/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1452640.07,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 22895125.15,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 801,
+    "draw_date": "2006-09-23",
+    "numbers": [
+      11,
+      19,
+      20,
+      22,
+      42,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 801,
+      "data": "23/09/2006",
+      "local": "Caminh\u00e3o da Sorte em ITAPEVA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "20",
+        "22",
+        "11",
+        "19",
+        "48",
+        "42"
+      ],
+      "dezenas": [
+        "11",
+        "19",
+        "20",
+        "22",
+        "42",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 73,
+          "valorPremio": 19406.93
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5791,
+          "valorPremio": 243.72
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 27/09/2006: R$28.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 802,
+      "dataProximoConcurso": "27/09/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3223522.36,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 25374360.34,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 802,
+    "draw_date": "2006-09-27",
+    "numbers": [
+      6,
+      14,
+      18,
+      24,
+      48,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 802,
+      "data": "27/09/2006",
+      "local": "Caminh\u00e3o da Sorte em Rio Branco, AC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "14",
+        "24",
+        "60",
+        "06",
+        "18",
+        "48"
+      ],
+      "dezenas": [
+        "06",
+        "14",
+        "18",
+        "24",
+        "48",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 117,
+          "valorPremio": 12287.8
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8216,
+          "valorPremio": 174.32
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) para o pr\u00f3ximo concurso a ser realizado em 30/09/2006: R$31.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 803,
+      "dataProximoConcurso": "30/09/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5020613.29,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 27890287.63,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 803,
+    "draw_date": "2006-09-30",
+    "numbers": [
+      3,
+      5,
+      10,
+      21,
+      28,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 803,
+      "data": "30/09/2006",
+      "local": "Caminh\u00e3o da Sorte em Rio Branco, AC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "10",
+        "57",
+        "28",
+        "03",
+        "05",
+        "21"
+      ],
+      "dezenas": [
+        "03",
+        "05",
+        "10",
+        "21",
+        "28",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 193,
+          "valorPremio": 8993.04
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 12055,
+          "valorPremio": 143.44
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) para o pr\u00f3ximo concurso a ser realizado em 04/10/2006: R$34.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 804,
+      "dataProximoConcurso": "04/10/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7190184.93,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 30927687.9,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 804,
+    "draw_date": "2006-10-04",
+    "numbers": [
+      3,
+      13,
+      37,
+      47,
+      56,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 804,
+      "data": "04/10/2006",
+      "local": "Caminh\u00e3o da Sorte em PORTO VELHO, RO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "13",
+        "59",
+        "37",
+        "56",
+        "03",
+        "47"
+      ],
+      "dezenas": [
+        "03",
+        "13",
+        "37",
+        "47",
+        "56",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 34172202.25
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 134,
+          "valorPremio": 13835.88
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9937,
+          "valorPremio": 185.88
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 07/10/2006: R$11.000.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 805,
+      "dataProximoConcurso": "07/10/2006",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 9507695.19,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 805,
+    "draw_date": "2006-10-07",
+    "numbers": [
+      2,
+      30,
+      36,
+      43,
+      48,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 805,
+      "data": "07/10/2006",
+      "local": "Caminh\u00e3o da Sorte em PORTO VELHO, RO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "30",
+        "02",
+        "48",
+        "60",
+        "43",
+        "36"
+      ],
+      "dezenas": [
+        "02",
+        "30",
+        "36",
+        "43",
+        "48",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 62,
+          "valorPremio": 14428.43
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3489,
+          "valorPremio": 255.42
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "POR PROBLEMAS T\u00c9CNICOS O SORTEIO DO CONCURSO 806 DA MEGA-SENA SER\u00c1 REALIZADO EM 12/10 \u00c0S 20 HORAS NO CAMINH\u00c3O DA SORTE EM BOA ESPERAN\u00c7A/MG. A Estimativa de pr\u00eamio (sena) para o concurso 806 \u00e9 de: R$13.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 806,
+      "dataProximoConcurso": "11/10/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1118203.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 11073179.39,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 806,
+    "draw_date": "2006-10-12",
+    "numbers": [
+      18,
+      26,
+      35,
+      41,
+      47,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 806,
+      "data": "12/10/2006",
+      "local": "Caminh\u00e3o da Sorte em Boa Esperan\u00e7a, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "60",
+        "41",
+        "47",
+        "26",
+        "35",
+        "18"
+      ],
+      "dezenas": [
+        "18",
+        "26",
+        "35",
+        "41",
+        "47",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 50,
+          "valorPremio": 18518.81
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3179,
+          "valorPremio": 290.17
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 14/10/2006: R$14.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 807,
+      "dataProximoConcurso": "14/10/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2275628.26,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 12693574.74,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 807,
+    "draw_date": "2006-10-14",
+    "numbers": [
+      2,
+      8,
+      27,
+      32,
+      49,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 807,
+      "data": "14/10/2006",
+      "local": "Caminh\u00e3o da Sorte em BOA ESPERAN\u00c7A, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "08",
+        "27",
+        "02",
+        "32",
+        "56",
+        "49"
+      ],
+      "dezenas": [
+        "02",
+        "08",
+        "27",
+        "32",
+        "49",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 130,
+          "valorPremio": 7262.48
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6188,
+          "valorPremio": 152.01
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 18/10/2006: R$16.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 808,
+      "dataProximoConcurso": "18/10/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3455782.03,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 14345789.99,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 808,
+    "draw_date": "2006-10-18",
+    "numbers": [
+      2,
+      15,
+      21,
+      31,
+      46,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 808,
+      "data": "18/10/2006",
+      "local": "Caminh\u00e3o da Sorte em ARIQUEMES, RO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "15",
+        "21",
+        "31",
+        "46",
+        "02",
+        "57"
+      ],
+      "dezenas": [
+        "02",
+        "15",
+        "21",
+        "31",
+        "46",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 44,
+          "valorPremio": 24446.08
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3844,
+          "valorPremio": 278.76
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 21/10/2006: R$18.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 809,
+      "dataProximoConcurso": "21/10/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4800316.52,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 16228138.27,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 809,
+    "draw_date": "2006-10-21",
+    "numbers": [
+      5,
+      11,
+      15,
+      23,
+      25,
+      30
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 809,
+      "data": "21/10/2006",
+      "local": "Caminh\u00e3o da Sorte em ARIQUEMES, RO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "25",
+        "23",
+        "11",
+        "05",
+        "30",
+        "15"
+      ],
+      "dezenas": [
+        "05",
+        "11",
+        "15",
+        "23",
+        "25",
+        "30"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 121,
+          "valorPremio": 8582.38
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7669,
+          "valorPremio": 134.9
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 25/10/2006: R$26.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 810,
+      "dataProximoConcurso": "25/10/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 24143857.18,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 24143857.18,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 810,
+    "draw_date": "2006-10-25",
+    "numbers": [
+      1,
+      4,
+      5,
+      33,
+      37,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 810,
+      "data": "25/10/2006",
+      "local": "Caminh\u00e3o da Sorte em JI-PARAN\u00c1, RO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "04",
+        "33",
+        "01",
+        "48",
+        "05",
+        "37"
+      ],
+      "dezenas": [
+        "01",
+        "04",
+        "05",
+        "33",
+        "37",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 75,
+          "valorPremio": 17505.65
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6450,
+          "valorPremio": 202.79
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (Sena) para o pr\u00f3ximo concurso, a ser realizado em 28/10/2006: R$30.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 811,
+      "dataProximoConcurso": "28/10/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1641154.04,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 26441472.82,
+      "valorEstimadoProximoConcurso": 30000000.0
+    }
+  },
+  {
+    "draw_id": 811,
+    "draw_date": "2006-10-28",
+    "numbers": [
+      10,
+      28,
+      32,
+      41,
+      47,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 811,
+      "data": "28/10/2006",
+      "local": "Caminh\u00e3o da Sorte em JI-PARAN\u00c1, RO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "32",
+        "57",
+        "28",
+        "41",
+        "10",
+        "47"
+      ],
+      "dezenas": [
+        "10",
+        "28",
+        "32",
+        "41",
+        "47",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 14597902.39
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 89,
+          "valorPremio": 17684.31
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5508,
+          "valorPremio": 284.67
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 01/11/2006: R$1.000.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 812,
+      "dataProximoConcurso": "01/11/2006",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RS"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3608534.02,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 812,
+    "draw_date": "2006-11-01",
+    "numbers": [
+      11,
+      13,
+      38,
+      39,
+      54,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 812,
+      "data": "01/11/2006",
+      "local": "Caminh\u00e3o da Sorte em CACOAL, RO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "57",
+        "39",
+        "54",
+        "11",
+        "38",
+        "13"
+      ],
+      "dezenas": [
+        "11",
+        "13",
+        "38",
+        "39",
+        "54",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 57,
+          "valorPremio": 9696.24
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2116,
+          "valorPremio": 260.21
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 04/11/2006: R$2.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 813,
+      "dataProximoConcurso": "04/11/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4299390.99,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 967199.74,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 813,
+    "draw_date": "2006-11-04",
+    "numbers": [
+      9,
+      15,
+      23,
+      45,
+      46,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 813,
+      "data": "04/11/2006",
+      "local": "Caminh\u00e3o da Sorte em Cacoal, RO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "23",
+        "15",
+        "56",
+        "46",
+        "09",
+        "45"
+      ],
+      "dezenas": [
+        "09",
+        "15",
+        "23",
+        "45",
+        "46",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 43,
+          "valorPremio": 14647.97
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3244,
+          "valorPremio": 193.43
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso a ser realizado em 08/11/2006: R$3.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 814,
+      "dataProximoConcurso": "08/11/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5086719.46,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 2069459.59,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 814,
+    "draw_date": "2006-11-08",
+    "numbers": [
+      2,
+      8,
+      11,
+      41,
+      46,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 814,
+      "data": "08/11/2006",
+      "local": "Caminh\u00e3o da Sorte em Porto Alegre, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "11",
+        "02",
+        "46",
+        "50",
+        "08",
+        "41"
+      ],
+      "dezenas": [
+        "02",
+        "08",
+        "11",
+        "41",
+        "46",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 37,
+          "valorPremio": 18442.44
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2534,
+          "valorPremio": 268.27
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) para o pr\u00f3ximo concurso a ser realizado em 11/11/2006: R$11.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 815,
+      "dataProximoConcurso": "11/11/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 9203290.18,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 9203290.18,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 815,
+    "draw_date": "2006-11-11",
+    "numbers": [
+      9,
+      19,
+      37,
+      39,
+      50,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 815,
+      "data": "11/11/2006",
+      "local": "Caminh\u00e3o da Sorte em Porto Alegre, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "57",
+        "50",
+        "09",
+        "39",
+        "37",
+        "19"
+      ],
+      "dezenas": [
+        "09",
+        "19",
+        "37",
+        "39",
+        "50",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 56,
+          "valorPremio": 17528.89
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3621,
+          "valorPremio": 270.06
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) para o pr\u00f3ximo concurso, a ser realizado em 16/11/2006: R$13.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 816,
+      "dataProximoConcurso": "16/11/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1227022.44,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 10921121.58,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 816,
+    "draw_date": "2006-11-16",
+    "numbers": [
+      20,
+      21,
+      30,
+      40,
+      47,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 816,
+      "data": "16/11/2006",
+      "local": "Caminh\u00e3o da Sorte em LAJEADO, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "21",
+        "47",
+        "40",
+        "52",
+        "30",
+        "20"
+      ],
+      "dezenas": [
+        "20",
+        "21",
+        "30",
+        "40",
+        "47",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 21,
+          "valorPremio": 39708.11
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 1885,
+          "valorPremio": 440.69
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 18/11/2006: R$14.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 817,
+      "dataProximoConcurso": "18/11/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2269360.48,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 12380394.81,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 817,
+    "draw_date": "2006-11-18",
+    "numbers": [
+      10,
+      29,
+      30,
+      34,
+      43,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 817,
+      "data": "18/11/2006",
+      "local": "Caminh\u00e3o da Sorte em LAJEADO, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "34",
+        "43",
+        "29",
+        "30",
+        "10",
+        "52"
+      ],
+      "dezenas": [
+        "10",
+        "29",
+        "30",
+        "34",
+        "43",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 27,
+          "valorPremio": 34364.35
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2469,
+          "valorPremio": 374.37
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Acumulou!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 22/11/2006: R$16.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 818,
+      "dataProximoConcurso": "22/11/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3429157.18,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 14004110.17,
+      "valorEstimadoProximoConcurso": 16000000.0
+    }
+  },
+  {
+    "draw_id": 818,
+    "draw_date": "2006-11-22",
+    "numbers": [
+      8,
+      9,
+      22,
+      25,
+      41,
+      44
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 818,
+      "data": "22/11/2006",
+      "local": "Caminh\u00e3o da Sorte em Vilhena, RO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "44",
+        "41",
+        "22",
+        "08",
+        "09",
+        "25"
+      ],
+      "dezenas": [
+        "08",
+        "09",
+        "22",
+        "25",
+        "41",
+        "44"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 58,
+          "valorPremio": 16865.13
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4935,
+          "valorPremio": 197.47
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realzado em 25/11/2006:R$18.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 819,
+      "dataProximoConcurso": "25/11/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4651878.6,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 15715920.16,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 819,
+    "draw_date": "2006-11-25",
+    "numbers": [
+      5,
+      19,
+      25,
+      46,
+      51,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 819,
+      "data": "25/11/2006",
+      "local": "Caminh\u00e3o da Sorte em Vilhena, RO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "51",
+        "05",
+        "58",
+        "46",
+        "25",
+        "19"
+      ],
+      "dezenas": [
+        "05",
+        "19",
+        "25",
+        "46",
+        "51",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 105,
+          "valorPremio": 11132.9
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5868,
+          "valorPremio": 198.46
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 29/11/2006: R$26.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 820,
+      "dataProximoConcurso": "29/11/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 23874662.7,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 23874662.7,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 820,
+    "draw_date": "2006-11-29",
+    "numbers": [
+      10,
+      17,
+      21,
+      32,
+      45,
+      46
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 820,
+      "data": "29/11/2006",
+      "local": "Caminh\u00e3o da Sorte em MIRANTE DO PARANAPANEMA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "17",
+        "45",
+        "32",
+        "21",
+        "10",
+        "46"
+      ],
+      "dezenas": [
+        "10",
+        "17",
+        "21",
+        "32",
+        "45",
+        "46"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 13046320.38
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 82,
+          "valorPremio": 15456.29
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5102,
+          "valorPremio": 247.47
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (Sena) para o pr\u00f3ximo concurso, a ser realizado em 02/12/2006: R$1.000.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 821,
+      "dataProximoConcurso": "02/12/2006",
+      "localGanhadores": [
+        {
+          "ganhadores": 2,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1584270.04,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 821,
+    "draw_date": "2006-12-02",
+    "numbers": [
+      4,
+      29,
+      33,
+      36,
+      38,
+      42
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 821,
+      "data": "02/12/2006",
+      "local": "Caminh\u00e3o da Sorte em ARA\u00c7ATUBA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "04",
+        "29",
+        "38",
+        "36",
+        "33",
+        "42"
+      ],
+      "dezenas": [
+        "04",
+        "29",
+        "33",
+        "36",
+        "38",
+        "42"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 37,
+          "valorPremio": 17462.93
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3307,
+          "valorPremio": 194.64
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (Sena) para o pr\u00f3ximo concurso, a ser realizado em 06/12/2006: R$2.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 822,
+      "dataProximoConcurso": "06/12/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2391930.62,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1130724.8,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 822,
+    "draw_date": "2006-12-06",
+    "numbers": [
+      4,
+      10,
+      17,
+      27,
+      41,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 822,
+      "data": "06/12/2006",
+      "local": "Caminh\u00e3o da Sorte em Santa B\u00e1rbara, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "04",
+        "17",
+        "41",
+        "10",
+        "27",
+        "52"
+      ],
+      "dezenas": [
+        "04",
+        "10",
+        "17",
+        "27",
+        "41",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 31,
+          "valorPremio": 19931.52
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2585,
+          "valorPremio": 238.13
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) para o pr\u00f3ximo concurso a ser realizado em 09/12/2006: R$3.500.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 823,
+      "dataProximoConcurso": "09/12/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3164276.85,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 2212009.51,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 823,
+    "draw_date": "2006-12-09",
+    "numbers": [
+      1,
+      15,
+      26,
+      51,
+      54,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 823,
+      "data": "09/12/2006",
+      "local": "Caminh\u00e3o da Sorte em Bar\u00e3o de Cocais, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "15",
+        "26",
+        "59",
+        "01",
+        "54",
+        "51"
+      ],
+      "dezenas": [
+        "01",
+        "15",
+        "26",
+        "51",
+        "54",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 22,
+          "valorPremio": 35180.77
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2144,
+          "valorPremio": 359.62
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (6 acertos) para o pr\u00f3ximo concurso, a ser realizado em 13/12/2006: R$5.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 824,
+      "dataProximoConcurso": "13/12/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4131747.81,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 3566468.83,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 824,
+    "draw_date": "2006-12-13",
+    "numbers": [
+      6,
+      7,
+      9,
+      20,
+      33,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 824,
+      "data": "13/12/2006",
+      "local": "Caminh\u00e3o da Sorte em CAMPINAS, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "33",
+        "48",
+        "06",
+        "07",
+        "20",
+        "09"
+      ],
+      "dezenas": [
+        "06",
+        "07",
+        "09",
+        "20",
+        "33",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 53,
+          "valorPremio": 14753.39
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5002,
+          "valorPremio": 155.73
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (Sena) para o pr\u00f3ximo concurso, a ser realizado em 16/12/2006: R$12.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 825,
+      "dataProximoConcurso": "16/12/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 10044004.79,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 10044004.79,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 825,
+    "draw_date": "2006-12-16",
+    "numbers": [
+      10,
+      21,
+      28,
+      40,
+      41,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 825,
+      "data": "16/12/2006",
+      "local": "Caminh\u00e3o da Sorte em CAMPINAS, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "28",
+        "21",
+        "40",
+        "10",
+        "41",
+        "47"
+      ],
+      "dezenas": [
+        "10",
+        "21",
+        "28",
+        "40",
+        "41",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 52,
+          "valorPremio": 19453.75
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4148,
+          "valorPremio": 242.96
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (Sena) para o pr\u00f3ximo concurso, a ser realizado em 19/12/2006: R$13.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 826,
+      "dataProximoConcurso": "19/12/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1264493.66,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 11814295.88,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 826,
+    "draw_date": "2006-12-19",
+    "numbers": [
+      6,
+      7,
+      8,
+      27,
+      45,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 826,
+      "data": "19/12/2006",
+      "local": "Caminh\u00e3o da Sorte em ARVOREZINHA, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "45",
+        "06",
+        "08",
+        "07",
+        "53",
+        "27"
+      ],
+      "dezenas": [
+        "06",
+        "07",
+        "08",
+        "27",
+        "45",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 68,
+          "valorPremio": 9188.18
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3571,
+          "valorPremio": 174.3
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) para o pr\u00f3ximo concurso, a ser realizado em 21/12/2006: R$15.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 827,
+      "dataProximoConcurso": "21/12/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2045488.83,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 12907689.09,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 827,
+    "draw_date": "2006-12-21",
+    "numbers": [
+      18,
+      24,
+      30,
+      42,
+      51,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 827,
+      "data": "21/12/2006",
+      "local": "Caminh\u00e3o da Sorte em Nonoai, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "24",
+        "56",
+        "30",
+        "51",
+        "42",
+        "18"
+      ],
+      "dezenas": [
+        "18",
+        "24",
+        "30",
+        "42",
+        "51",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 47,
+          "valorPremio": 21021.73
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4106,
+          "valorPremio": 239.72
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (sena) para o pr\u00f3ximo concurso, a ser realizado em 23/12/2006: R$17.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 828,
+      "dataProximoConcurso": "23/12/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3280514.98,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 14636725.67,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 828,
+    "draw_date": "2006-12-23",
+    "numbers": [
+      23,
+      28,
+      38,
+      42,
+      50,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 828,
+      "data": "23/12/2006",
+      "local": "Caminh\u00e3o da Sorte em Nonoai, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "23",
+        "50",
+        "53",
+        "42",
+        "28",
+        "38"
+      ],
+      "dezenas": [
+        "23",
+        "28",
+        "38",
+        "42",
+        "50",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 29,
+          "valorPremio": 40114.62
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3478,
+          "valorPremio": 333.21
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) para o pr\u00f3ximo concurso, a ser realizado em 31/12/2006, DOMINGO: R$22.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 829,
+      "dataProximoConcurso": "30/12/2006",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4734669.91,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 16672542.56,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 829,
+    "draw_date": "2006-12-31",
+    "numbers": [
+      10,
+      14,
+      32,
+      47,
+      50,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 829,
+      "data": "31/12/2006",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "32",
+        "50",
+        "14",
+        "47",
+        "10",
+        "56"
+      ],
+      "dezenas": [
+        "10",
+        "14",
+        "32",
+        "47",
+        "50",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 162,
+          "valorPremio": 18311.2
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10814,
+          "valorPremio": 273.27
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ACUMULOU!!! Estimativa de pr\u00eamio (SENA) para o pr\u00f3ximo concurso a ser realizado em 03/01/2007: R$33.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 830,
+      "dataProximoConcurso": "03/01/2007",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 30306455.18,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 30306455.18,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  }
+]

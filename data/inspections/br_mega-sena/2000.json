@@ -1,0 +1,3839 @@
+[
+  {
+    "draw_id": 201,
+    "draw_date": "2000-01-08",
+    "numbers": [
+      5,
+      20,
+      22,
+      30,
+      35,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 201,
+      "data": "08/01/2000",
+      "local": "Caminh\u00e3o da Sorte em BELO HORIZONTE, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "55",
+        "22",
+        "05",
+        "30",
+        "35",
+        "20"
+      ],
+      "dezenas": [
+        "05",
+        "20",
+        "22",
+        "30",
+        "35",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 1038373.94
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 77,
+          "valorPremio": 11237.81
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4502,
+          "valorPremio": 191.48
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso R$1.070.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 202,
+      "dataProximoConcurso": "",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RN"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2330310.92,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 202,
+    "draw_date": "2000-01-15",
+    "numbers": [
+      12,
+      24,
+      44,
+      45,
+      49,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 202,
+      "data": "15/01/2000",
+      "local": "Caminh\u00e3o da Sorte em VIT\u00d3RIA, ES",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "49",
+        "53",
+        "44",
+        "12",
+        "24",
+        "45"
+      ],
+      "dezenas": [
+        "12",
+        "24",
+        "44",
+        "45",
+        "49",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 65,
+          "valorPremio": 12412.65
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4279,
+          "valorPremio": 187.85
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio pr\u00f3ximo concurso R$2.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 203,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2975768.8,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 968186.82,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 203,
+    "draw_date": "2000-01-22",
+    "numbers": [
+      11,
+      19,
+      29,
+      44,
+      47,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 203,
+      "data": "22/01/2000",
+      "local": "Caminh\u00e3o da Sorte em GUARAPARI, ES",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "11",
+        "55",
+        "44",
+        "19",
+        "29",
+        "47"
+      ],
+      "dezenas": [
+        "11",
+        "19",
+        "29",
+        "44",
+        "47",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 63,
+          "valorPremio": 14099.33
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5417,
+          "valorPremio": 163.36
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio pr\u00f3ximo concurso R$3.300.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 204,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3686375.03,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 2034096.14,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 204,
+    "draw_date": "2000-01-29",
+    "numbers": [
+      29,
+      31,
+      39,
+      41,
+      51,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 204,
+      "data": "29/01/2000",
+      "local": "Caminh\u00e3o da Sorte em GUARUJ\u00c1, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "31",
+        "41",
+        "51",
+        "39",
+        "58",
+        "29"
+      ],
+      "dezenas": [
+        "29",
+        "31",
+        "39",
+        "41",
+        "51",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 32,
+          "valorPremio": 30221.85
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2400,
+          "valorPremio": 401.43
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso R$4.500.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 205,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4460054.39,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 3194615.19,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 205,
+    "draw_date": "2000-02-05",
+    "numbers": [
+      26,
+      32,
+      40,
+      43,
+      46,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 205,
+      "data": "05/02/2000",
+      "local": "Audit\u00f3rio em BRAS\u00cdLIA, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "26",
+        "32",
+        "54",
+        "43",
+        "46",
+        "40"
+      ],
+      "dezenas": [
+        "26",
+        "32",
+        "40",
+        "43",
+        "46",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 4490339.49
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 71,
+          "valorPremio": 15208.03
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6014,
+          "valorPremio": 178.86
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso R$900.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 206,
+      "dataProximoConcurso": "",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5323870.6,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 206,
+    "draw_date": "2000-02-12",
+    "numbers": [
+      18,
+      20,
+      26,
+      34,
+      51,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 206,
+      "data": "12/02/2000",
+      "local": "Caminh\u00e3o da Sorte em CURITIBA, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "20",
+        "26",
+        "56",
+        "18",
+        "34",
+        "51"
+      ],
+      "dezenas": [
+        "18",
+        "20",
+        "26",
+        "34",
+        "51",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 43,
+          "valorPremio": 17769.34
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3478,
+          "valorPremio": 218.86
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso R$2.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 207,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5935135.77,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 916897.74,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 207,
+    "draw_date": "2000-02-19",
+    "numbers": [
+      3,
+      7,
+      19,
+      24,
+      53,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 207,
+      "data": "19/02/2000",
+      "local": "Caminh\u00e3o da Sorte em FLORIAN\u00d3POLIS, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "19",
+        "07",
+        "03",
+        "55",
+        "24",
+        "53"
+      ],
+      "dezenas": [
+        "03",
+        "07",
+        "19",
+        "24",
+        "53",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 90,
+          "valorPremio": 9663.76
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6510,
+          "valorPremio": 133.1
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso R$3.200.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 208,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6630925.89,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1960583.04,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 208,
+    "draw_date": "2000-02-26",
+    "numbers": [
+      15,
+      23,
+      24,
+      25,
+      47,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 208,
+      "data": "26/02/2000",
+      "local": "Caminh\u00e3o da Sorte em CAXIAS DO SUL, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "23",
+        "15",
+        "57",
+        "24",
+        "47",
+        "25"
+      ],
+      "dezenas": [
+        "15",
+        "23",
+        "24",
+        "25",
+        "47",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 72,
+          "valorPremio": 12679.18
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5232,
+          "valorPremio": 173.83
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso R$4.300.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 209,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7361246.86,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 3056064.34,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 209,
+    "draw_date": "2000-03-04",
+    "numbers": [
+      13,
+      21,
+      26,
+      32,
+      41,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 209,
+      "data": "04/03/2000",
+      "local": "Caminh\u00e3o da Sorte em BALNE\u00c1RIO CAMBORI\u00da, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "13",
+        "52",
+        "32",
+        "41",
+        "21",
+        "26"
+      ],
+      "dezenas": [
+        "13",
+        "21",
+        "26",
+        "32",
+        "41",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 81,
+          "valorPremio": 12349.82
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5496,
+          "valorPremio": 181.32
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso R$14.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 210,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 8161515.16,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 4256466.94,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 210,
+    "draw_date": "2000-03-11",
+    "numbers": [
+      20,
+      32,
+      37,
+      38,
+      48,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 210,
+      "data": "11/03/2000",
+      "local": "Caminh\u00e3o da Sorte em BRAS\u00cdLIA, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "37",
+        "58",
+        "20",
+        "38",
+        "48",
+        "32"
+      ],
+      "dezenas": [
+        "20",
+        "32",
+        "37",
+        "38",
+        "48",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 29,
+          "valorPremio": 46721.17
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3921,
+          "valorPremio": 344.24
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concursoR$16MILH\u00d5ES.",
+      "acumulou": true,
+      "proximoConcurso": 211,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1083931.16,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 14043878.83,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 211,
+    "draw_date": "2000-03-18",
+    "numbers": [
+      10,
+      20,
+      33,
+      40,
+      45,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 211,
+      "data": "18/03/2000",
+      "local": "Caminh\u00e3o da Sorte em PALMAS, TO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "10",
+        "20",
+        "40",
+        "45",
+        "50",
+        "33"
+      ],
+      "dezenas": [
+        "10",
+        "20",
+        "33",
+        "40",
+        "45",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 164,
+          "valorPremio": 10880.27
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 16680,
+          "valorPremio": 106.58
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso R$19.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 212,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2511421.96,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 16185115.03,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 212,
+    "draw_date": "2000-03-25",
+    "numbers": [
+      6,
+      15,
+      29,
+      45,
+      57,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 212,
+      "data": "25/03/2000",
+      "local": "Caminh\u00e3o da Sorte em PORTO VELHO, RO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "29",
+        "57",
+        "15",
+        "45",
+        "59",
+        "06"
+      ],
+      "dezenas": [
+        "06",
+        "15",
+        "29",
+        "45",
+        "57",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 147,
+          "valorPremio": 13318.79
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9880,
+          "valorPremio": 197.42
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso R$21.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 213,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4077710.92,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 18534548.53,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 213,
+    "draw_date": "2000-04-01",
+    "numbers": [
+      3,
+      9,
+      23,
+      30,
+      32,
+      35
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 213,
+      "data": "01/04/2000",
+      "local": "Caminh\u00e3o da Sorte em CAMPO GRANDE, MS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "03",
+        "30",
+        "09",
+        "35",
+        "23",
+        "32"
+      ],
+      "dezenas": [
+        "03",
+        "09",
+        "23",
+        "30",
+        "32",
+        "35"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 3,
+          "valorPremio": 7089194.54
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 312,
+          "valorPremio": 7299.77
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 18348,
+          "valorPremio": 123.66
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso R$1.000.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 214,
+      "dataProximoConcurso": "",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RS"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SC"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5899734.4,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 214,
+    "draw_date": "2000-04-08",
+    "numbers": [
+      6,
+      12,
+      30,
+      31,
+      35,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 214,
+      "data": "08/04/2000",
+      "local": "Caminh\u00e3o da Sorte em SANTA ROSA, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "30",
+        "12",
+        "06",
+        "50",
+        "35",
+        "31"
+      ],
+      "dezenas": [
+        "06",
+        "12",
+        "30",
+        "31",
+        "35",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 54,
+          "valorPremio": 15578.04
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3769,
+          "valorPremio": 222.35
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso R$2.100.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 215,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6572705.51,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1009456.63,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 215,
+    "draw_date": "2000-04-15",
+    "numbers": [
+      7,
+      28,
+      37,
+      46,
+      53,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 215,
+      "data": "15/04/2000",
+      "local": "Caminh\u00e3o da Sorte em LONDRINA, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "07",
+        "58",
+        "28",
+        "53",
+        "37",
+        "46"
+      ],
+      "dezenas": [
+        "07",
+        "28",
+        "37",
+        "46",
+        "53",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 78,
+          "valorPremio": 12078.4
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4942,
+          "valorPremio": 189.92
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso R$3.400.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 216,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7326397.36,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 2139994.41,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 216,
+    "draw_date": "2000-04-22",
+    "numbers": [
+      14,
+      18,
+      30,
+      35,
+      42,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 216,
+      "data": "22/04/2000",
+      "local": "Caminh\u00e3o da Sorte em PORTO SEGURO, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "35",
+        "42",
+        "59",
+        "18",
+        "30",
+        "14"
+      ],
+      "dezenas": [
+        "14",
+        "18",
+        "30",
+        "35",
+        "42",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 4,
+          "valorPremio": 801057.55
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 91,
+          "valorPremio": 9745.75
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5049,
+          "valorPremio": 175.0
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso R$900.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 217,
+      "dataProximoConcurso": "",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "BA"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 8035887.89,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 217,
+    "draw_date": "2000-04-29",
+    "numbers": [
+      3,
+      27,
+      32,
+      45,
+      49,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 217,
+      "data": "29/04/2000",
+      "local": "Caminh\u00e3o da Sorte em XANXER\u00ca, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "27",
+        "32",
+        "03",
+        "51",
+        "49",
+        "45"
+      ],
+      "dezenas": [
+        "03",
+        "27",
+        "32",
+        "45",
+        "49",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 159,
+          "valorPremio": 4599.62
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5820,
+          "valorPremio": 125.19
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso R$1.800.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 218,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 8620959.44,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 877607.32,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 218,
+    "draw_date": "2000-05-06",
+    "numbers": [
+      12,
+      17,
+      40,
+      42,
+      47,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 218,
+      "data": "06/05/2000",
+      "local": "Caminh\u00e3o da Sorte em SARANDI, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "54",
+        "40",
+        "42",
+        "17",
+        "47",
+        "12"
+      ],
+      "dezenas": [
+        "12",
+        "17",
+        "40",
+        "42",
+        "47",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 1878255.09
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 95,
+          "valorPremio": 8777.61
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4679,
+          "valorPremio": 177.55
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso R$1.000.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 219,
+      "dataProximoConcurso": "",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 9288057.97,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 219,
+    "draw_date": "2000-05-13",
+    "numbers": [
+      23,
+      26,
+      28,
+      36,
+      42,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 219,
+      "data": "13/05/2000",
+      "local": "Caminh\u00e3o da Sorte em OSASCO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "26",
+        "23",
+        "49",
+        "28",
+        "42",
+        "36"
+      ],
+      "dezenas": [
+        "23",
+        "26",
+        "28",
+        "36",
+        "42",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 80,
+          "valorPremio": 9221.78
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5139,
+          "valorPremio": 143.02
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso R$12.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 220,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 9878252.05,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 885291.29,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 220,
+    "draw_date": "2000-05-20",
+    "numbers": [
+      13,
+      14,
+      36,
+      53,
+      55,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 220,
+      "data": "20/05/2000",
+      "local": "Caminh\u00e3o da Sorte em FRANCA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "36",
+        "53",
+        "55",
+        "13",
+        "60",
+        "14"
+      ],
+      "dezenas": [
+        "13",
+        "14",
+        "36",
+        "53",
+        "55",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 12636751.12
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 125,
+          "valorPremio": 12488.05
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8067,
+          "valorPremio": 192.78
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso R$1.000.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 221,
+      "dataProximoConcurso": "",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1248805.13,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 221,
+    "draw_date": "2000-05-27",
+    "numbers": [
+      13,
+      27,
+      43,
+      50,
+      54,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 221,
+      "data": "27/05/2000",
+      "local": "Caminh\u00e3o da Sorte em JUIZ DE FORA, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "54",
+        "13",
+        "58",
+        "43",
+        "50",
+        "27"
+      ],
+      "dezenas": [
+        "13",
+        "27",
+        "43",
+        "50",
+        "54",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 49,
+          "valorPremio": 14565.66
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3793,
+          "valorPremio": 187.45
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso R$2.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 222,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1819779.07,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 856460.89,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 222,
+    "draw_date": "2000-06-03",
+    "numbers": [
+      5,
+      19,
+      30,
+      48,
+      52,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 222,
+      "data": "03/06/2000",
+      "local": "Caminh\u00e3o da Sorte em OURINHOS, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "05",
+        "48",
+        "30",
+        "55",
+        "52",
+        "19"
+      ],
+      "dezenas": [
+        "05",
+        "19",
+        "30",
+        "48",
+        "52",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 55,
+          "valorPremio": 15243.16
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4462,
+          "valorPremio": 187.18
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso R$3.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 223,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2490478.23,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1862509.6,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 223,
+    "draw_date": "2000-06-10",
+    "numbers": [
+      2,
+      6,
+      22,
+      24,
+      28,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 223,
+      "data": "10/06/2000",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "28",
+        "24",
+        "22",
+        "02",
+        "58",
+        "06"
+      ],
+      "dezenas": [
+        "02",
+        "06",
+        "22",
+        "24",
+        "28",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 163,
+          "valorPremio": 5838.31
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7780,
+          "valorPremio": 121.86
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio p/ Conc.224 (Sena) R$ 4.400.000,00. Sorteio realizado em Gra\u00e7a/SP.",
+      "acumulou": true,
+      "proximoConcurso": 224,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3251793.98,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 3004483.21,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 224,
+    "draw_date": "2000-06-17",
+    "numbers": [
+      7,
+      16,
+      18,
+      20,
+      21,
+      44
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 224,
+      "data": "17/06/2000",
+      "local": "Caminh\u00e3o da Sorte em CARUARU, PE",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "20",
+        "16",
+        "18",
+        "07",
+        "44",
+        "21"
+      ],
+      "dezenas": [
+        "07",
+        "16",
+        "18",
+        "20",
+        "21",
+        "44"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 119,
+          "valorPremio": 8706.35
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7185,
+          "valorPremio": 143.77
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso R$5.800.00,00.",
+      "acumulou": true,
+      "proximoConcurso": 225,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4080638.55,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 4247750.04,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 225,
+    "draw_date": "2000-06-24",
+    "numbers": [
+      2,
+      4,
+      16,
+      21,
+      37,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 225,
+      "data": "24/06/2000",
+      "local": "Audit\u00f3rio em BRAS\u00cdLIA, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "21",
+        "16",
+        "04",
+        "37",
+        "02",
+        "58"
+      ],
+      "dezenas": [
+        "02",
+        "04",
+        "16",
+        "21",
+        "37",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 83,
+          "valorPremio": 12542.39
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5517,
+          "valorPremio": 188.14
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso R$7.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 226,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4913453.05,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 5496971.76,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 226,
+    "draw_date": "2000-07-01",
+    "numbers": [
+      1,
+      2,
+      38,
+      49,
+      50,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 226,
+      "data": "01/07/2000",
+      "local": "Audit\u00f3rio em BRAS\u00cdLIA, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "02",
+        "50",
+        "59",
+        "38",
+        "49",
+        "01"
+      ],
+      "dezenas": [
+        "01",
+        "02",
+        "38",
+        "49",
+        "50",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 6916920.13
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 78,
+          "valorPremio": 15170.39
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4123,
+          "valorPremio": 286.14
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso R$1.000.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 227,
+      "dataProximoConcurso": "",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5860085.2,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 227,
+    "draw_date": "2000-07-08",
+    "numbers": [
+      11,
+      26,
+      27,
+      37,
+      42,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 227,
+      "data": "08/07/2000",
+      "local": "Caminh\u00e3o da Sorte em MONTES CLAROS, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "37",
+        "26",
+        "27",
+        "42",
+        "11",
+        "48"
+      ],
+      "dezenas": [
+        "11",
+        "26",
+        "27",
+        "37",
+        "42",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 51,
+          "valorPremio": 14471.45
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3648,
+          "valorPremio": 201.72
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso R$2.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 228,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6450520.35,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 885652.57,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 228,
+    "draw_date": "2000-07-15",
+    "numbers": [
+      13,
+      16,
+      40,
+      43,
+      45,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 228,
+      "data": "15/07/2000",
+      "local": "Caminh\u00e3o da Sorte em JACAREI, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "16",
+        "40",
+        "45",
+        "59",
+        "43",
+        "13"
+      ],
+      "dezenas": [
+        "13",
+        "16",
+        "40",
+        "43",
+        "45",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 64,
+          "valorPremio": 13240.28
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4497,
+          "valorPremio": 187.87
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso R$3.300.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 229,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7128422.75,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1902506.15,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 229,
+    "draw_date": "2000-07-22",
+    "numbers": [
+      11,
+      13,
+      21,
+      33,
+      39,
+      45
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 229,
+      "data": "22/07/2000",
+      "local": "Caminh\u00e3o da Sorte em GARANHUNS, PE",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "39",
+        "45",
+        "11",
+        "21",
+        "33",
+        "13"
+      ],
+      "dezenas": [
+        "11",
+        "13",
+        "21",
+        "33",
+        "39",
+        "45"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 2992781.57
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 121,
+          "valorPremio": 7508.79
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7685,
+          "valorPremio": 117.88
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso R$8.800.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 230,
+      "dataProximoConcurso": "",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "AM"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7855273.05,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 230,
+    "draw_date": "2000-07-29",
+    "numbers": [
+      8,
+      40,
+      41,
+      44,
+      53,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 230,
+      "data": "29/07/2000",
+      "local": "Caminh\u00e3o da Sorte em CAIC\u00d3, RN",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "56",
+        "44",
+        "41",
+        "40",
+        "08",
+        "53"
+      ],
+      "dezenas": [
+        "08",
+        "40",
+        "41",
+        "44",
+        "53",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 94,
+          "valorPremio": 15000.56
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5820,
+          "valorPremio": 241.56
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso R$11.600.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 231,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1128042.08,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 9547336.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 231,
+    "draw_date": "2000-08-05",
+    "numbers": [
+      16,
+      27,
+      36,
+      42,
+      44,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 231,
+      "data": "05/08/2000",
+      "local": "Caminh\u00e3o da Sorte em ASSIS, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "16",
+        "59",
+        "27",
+        "42",
+        "44",
+        "36"
+      ],
+      "dezenas": [
+        "16",
+        "27",
+        "36",
+        "42",
+        "44",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 125,
+          "valorPremio": 12896.11
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9458,
+          "valorPremio": 169.93
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso R$13.800.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 232,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2417653.03,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 11481752.44,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 232,
+    "draw_date": "2000-08-12",
+    "numbers": [
+      19,
+      22,
+      29,
+      37,
+      41,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 232,
+      "data": "12/08/2000",
+      "local": "Caminh\u00e3o da Sorte em ASSIS, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "29",
+        "19",
+        "41",
+        "22",
+        "37",
+        "59"
+      ],
+      "dezenas": [
+        "19",
+        "22",
+        "29",
+        "37",
+        "41",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 124,
+          "valorPremio": 14598.36
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8807,
+          "valorPremio": 204.93
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso R$16.200.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 233,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3865810.51,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 13653988.77,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 233,
+    "draw_date": "2000-08-19",
+    "numbers": [
+      3,
+      7,
+      24,
+      32,
+      36,
+      45
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 233,
+      "data": "19/08/2000",
+      "local": "Audit\u00f3rio em BRAS\u00cdLIA, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "45",
+        "03",
+        "24",
+        "36",
+        "07",
+        "32"
+      ],
+      "dezenas": [
+        "03",
+        "07",
+        "24",
+        "32",
+        "36",
+        "45"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 5,
+          "valorPremio": 3196547.03
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 512,
+          "valorPremio": 3790.28
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 21452,
+          "valorPremio": 90.2
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso R$1.000.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 234,
+      "dataProximoConcurso": "",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "DF"
+        },
+        {
+          "ganhadores": 4,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5418308.11,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 234,
+    "draw_date": "2000-08-26",
+    "numbers": [
+      15,
+      25,
+      41,
+      42,
+      45,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 234,
+      "data": "26/08/2000",
+      "local": "Audit\u00f3rio em BRAS\u00cdLIA, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "15",
+        "45",
+        "54",
+        "25",
+        "42",
+        "41"
+      ],
+      "dezenas": [
+        "15",
+        "25",
+        "41",
+        "42",
+        "45",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 39,
+          "valorPremio": 19369.91
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3505,
+          "valorPremio": 214.89
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso R$2.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 235,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6022649.2,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 906511.63,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 235,
+    "draw_date": "2000-09-02",
+    "numbers": [
+      2,
+      22,
+      29,
+      31,
+      41,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 235,
+      "data": "02/09/2000",
+      "local": "Caminh\u00e3o da Sorte em UNA\u00cd, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "29",
+        "41",
+        "55",
+        "02",
+        "31",
+        "22"
+      ],
+      "dezenas": [
+        "02",
+        "22",
+        "29",
+        "31",
+        "41",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 52,
+          "valorPremio": 16604.49
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3086,
+          "valorPremio": 278.96
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso R$3.200.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 236,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6713395.87,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1942631.63,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 236,
+    "draw_date": "2000-09-09",
+    "numbers": [
+      10,
+      25,
+      50,
+      52,
+      57,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 236,
+      "data": "09/09/2000",
+      "local": "Caminh\u00e3o da Sorte em BIRIGUI, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "10",
+        "52",
+        "50",
+        "57",
+        "25",
+        "60"
+      ],
+      "dezenas": [
+        "10",
+        "25",
+        "50",
+        "52",
+        "57",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 76,
+          "valorPremio": 12197.95
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4703,
+          "valorPremio": 196.53
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso R$4.300.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 237,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7455031.34,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 3055084.91,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 237,
+    "draw_date": "2000-09-16",
+    "numbers": [
+      7,
+      31,
+      36,
+      45,
+      56,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 237,
+      "data": "16/09/2000",
+      "local": "Caminh\u00e3o da Sorte em TUBAR\u00c3O, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "36",
+        "07",
+        "45",
+        "31",
+        "56",
+        "57"
+      ],
+      "dezenas": [
+        "07",
+        "31",
+        "36",
+        "45",
+        "56",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 54,
+          "valorPremio": 19896.75
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4145,
+          "valorPremio": 258.44
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso R$5.900.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 238,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 8314570.91,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 4344394.18,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 238,
+    "draw_date": "2000-09-23",
+    "numbers": [
+      9,
+      13,
+      15,
+      37,
+      41,
+      42
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 238,
+      "data": "23/09/2000",
+      "local": "Caminh\u00e3o da Sorte em PORTO ALEGRE, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "15",
+        "09",
+        "41",
+        "13",
+        "37",
+        "42"
+      ],
+      "dezenas": [
+        "09",
+        "13",
+        "15",
+        "37",
+        "41",
+        "42"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 4,
+          "valorPremio": 1429476.11
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 188,
+          "valorPremio": 6088.25
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10483,
+          "valorPremio": 108.86
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso R$900.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 239,
+      "dataProximoConcurso": "",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "BA"
+        },
+        {
+          "ganhadores": 3,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 9230244.42,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 239,
+    "draw_date": "2000-09-30",
+    "numbers": [
+      6,
+      21,
+      33,
+      44,
+      46,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 239,
+      "data": "30/09/2000",
+      "local": "Caminh\u00e3o da Sorte em Bel\u00e9m, PA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "33",
+        "21",
+        "44",
+        "46",
+        "47",
+        "06"
+      ],
+      "dezenas": [
+        "06",
+        "21",
+        "33",
+        "44",
+        "46",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 866183.32
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 30,
+          "valorPremio": 24060.65
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3826,
+          "valorPremio": 188.1
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso: R$11.500.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 240,
+      "dataProximoConcurso": "",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "BA"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 9807699.88,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 240,
+    "draw_date": "2000-10-07",
+    "numbers": [
+      25,
+      28,
+      38,
+      41,
+      57,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 240,
+      "data": "07/10/2000",
+      "local": "Caminh\u00e3o da Sorte em Bel\u00e9m, PA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "59",
+        "28",
+        "25",
+        "41",
+        "57",
+        "38"
+      ],
+      "dezenas": [
+        "25",
+        "28",
+        "38",
+        "41",
+        "57",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 103,
+          "valorPremio": 15200.74
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6244,
+          "valorPremio": 250.0
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio (sena) do pr\u00f3ximo concurso R$14 MILH\u00d5ES.",
+      "acumulou": true,
+      "proximoConcurso": 241,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1252540.92,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 11686511.34,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 241,
+    "draw_date": "2000-10-14",
+    "numbers": [
+      11,
+      31,
+      35,
+      40,
+      56,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 241,
+      "data": "14/10/2000",
+      "local": "Caminh\u00e3o da Sorte em Santa Cruz do Sul, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "11",
+        "57",
+        "40",
+        "35",
+        "56",
+        "31"
+      ],
+      "dezenas": [
+        "11",
+        "31",
+        "35",
+        "40",
+        "56",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 74,
+          "valorPremio": 22811.94
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5485,
+          "valorPremio": 306.85
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio pr\u00f3ximo concurso R$16.000.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 242,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2603007.75,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 13712211.55,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 242,
+    "draw_date": "2000-10-21",
+    "numbers": [
+      4,
+      7,
+      21,
+      22,
+      28,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 242,
+      "data": "21/10/2000",
+      "local": "Caminh\u00e3o da Sorte em Teresina, PI",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "22",
+        "07",
+        "04",
+        "21",
+        "28",
+        "56"
+      ],
+      "dezenas": [
+        "04",
+        "07",
+        "21",
+        "22",
+        "28",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 203,
+          "valorPremio": 9933.73
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 13497,
+          "valorPremio": 148.97
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio do pr\u00f3ximo concurso (sena): R$ 19MILH\u00d5ES.",
+      "acumulou": true,
+      "proximoConcurso": 243,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4216246.16,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 16132069.11,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 243,
+    "draw_date": "2000-10-28",
+    "numbers": [
+      11,
+      16,
+      20,
+      23,
+      32,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 243,
+      "data": "28/10/2000",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O LU\u00cdS, MA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "20",
+        "47",
+        "23",
+        "32",
+        "16",
+        "11"
+      ],
+      "dezenas": [
+        "11",
+        "16",
+        "20",
+        "23",
+        "32",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 180,
+          "valorPremio": 12019.97
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 13705,
+          "valorPremio": 157.4
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio pr\u00f3ximo concurso: R$23.000.000,00",
+      "acumulou": true,
+      "proximoConcurso": 244,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5947122.21,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 18728383.13,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 244,
+    "draw_date": "2000-11-04",
+    "numbers": [
+      19,
+      24,
+      33,
+      47,
+      50,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 244,
+      "data": "04/11/2000",
+      "local": "Caminh\u00e3o da Sorte em Juazeiro do Norte, CE",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "19",
+        "60",
+        "50",
+        "24",
+        "47",
+        "33"
+      ],
+      "dezenas": [
+        "19",
+        "24",
+        "33",
+        "47",
+        "50",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 204,
+          "valorPremio": 13698.02
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 14735,
+          "valorPremio": 189.08
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o de pr\u00eamio para pr\u00f3ximo concurso (245) \u00e9 de R$ 27 MILH\u00d5ES.",
+      "acumulou": true,
+      "proximoConcurso": 245,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 8182639.92,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 22081659.67,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 245,
+    "draw_date": "2000-11-11",
+    "numbers": [
+      8,
+      27,
+      44,
+      51,
+      53,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 245,
+      "data": "11/11/2000",
+      "local": "Caminh\u00e3o da Sorte em FORTALEZA, CE",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "44",
+        "51",
+        "27",
+        "53",
+        "08",
+        "60"
+      ],
+      "dezenas": [
+        "08",
+        "27",
+        "44",
+        "51",
+        "53",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 3,
+          "valorPremio": 9153484.88
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 283,
+          "valorPremio": 15838.62
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 21593,
+          "valorPremio": 206.96
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o de pr\u00eamio do pr\u00f3ximo concurso R$900.000,00.",
+      "acumulou": false,
+      "proximoConcurso": 246,
+      "dataProximoConcurso": "",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "GO"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SC"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 11768503.16,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 246,
+    "draw_date": "2000-11-18",
+    "numbers": [
+      2,
+      16,
+      32,
+      37,
+      43,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 246,
+      "data": "18/11/2000",
+      "local": "Caminh\u00e3o da Sorte em Cascavel, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "02",
+        "57",
+        "32",
+        "43",
+        "16",
+        "37"
+      ],
+      "dezenas": [
+        "02",
+        "16",
+        "32",
+        "37",
+        "43",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 93,
+          "valorPremio": 9292.06
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5429,
+          "valorPremio": 158.71
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa de pr\u00eamio do pr\u00f3ximo concurso (247): R$2.300.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 247,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 12459832.38,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1036993.8,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 247,
+    "draw_date": "2000-11-25",
+    "numbers": [
+      3,
+      10,
+      23,
+      30,
+      34,
+      46
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 247,
+      "data": "25/11/2000",
+      "local": "Caminh\u00e3o da Sorte em Ponta Grossa, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "34",
+        "03",
+        "30",
+        "10",
+        "23",
+        "46"
+      ],
+      "dezenas": [
+        "03",
+        "10",
+        "23",
+        "30",
+        "34",
+        "46"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 80,
+          "valorPremio": 12080.19
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6425,
+          "valorPremio": 149.96
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o de pr\u00eamio (sena) para pr\u00f3ximo concurso (248) \u00e9 de R$3.600.000,00",
+      "acumulou": true,
+      "proximoConcurso": 248,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 13232964.71,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 2196692.29,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 248,
+    "draw_date": "2000-12-02",
+    "numbers": [
+      16,
+      32,
+      34,
+      35,
+      41,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 248,
+      "data": "02/12/2000",
+      "local": "Caminh\u00e3o da Sorte em PONTA GROSSA, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "56",
+        "16",
+        "34",
+        "41",
+        "35",
+        "32"
+      ],
+      "dezenas": [
+        "16",
+        "32",
+        "34",
+        "35",
+        "41",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 50,
+          "valorPremio": 21550.72
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4862,
+          "valorPremio": 220.96
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio pr\u00f3ximo concurso:R$5MILH\u00d5ES.",
+      "acumulou": true,
+      "proximoConcurso": 249,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 14094993.24,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 3489735.08,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 249,
+    "draw_date": "2000-12-09",
+    "numbers": [
+      21,
+      36,
+      40,
+      49,
+      54,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 249,
+      "data": "09/12/2000",
+      "local": "Caminh\u00e3o da Sorte em MACEI\u00d3, AL",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "21",
+        "55",
+        "54",
+        "40",
+        "36",
+        "49"
+      ],
+      "dezenas": [
+        "21",
+        "36",
+        "40",
+        "49",
+        "54",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 60,
+          "valorPremio": 19680.2
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4247,
+          "valorPremio": 277.21
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso final zero R$22.500.000,00.",
+      "acumulou": true,
+      "proximoConcurso": 250,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 15039642.93,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 4906709.76,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 250,
+    "draw_date": "2000-12-16",
+    "numbers": [
+      7,
+      25,
+      41,
+      42,
+      43,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 250,
+      "data": "16/12/2000",
+      "local": "Caminh\u00e3o da Sorte em Suzano, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "55",
+        "25",
+        "41",
+        "42",
+        "43",
+        "07"
+      ],
+      "dezenas": [
+        "07",
+        "25",
+        "41",
+        "42",
+        "43",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 203,
+          "valorPremio": 10867.31
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 15545,
+          "valorPremio": 141.5
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ESTIMATIVA PR\u00caMIO PR\u00d3XIMO CONCURSO (SENA): R$26MILH\u00d5ES.",
+      "acumulou": true,
+      "proximoConcurso": 251,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1764850.55,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 22593628.59,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 251,
+    "draw_date": "2000-12-23",
+    "numbers": [
+      15,
+      23,
+      30,
+      34,
+      49,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 251,
+      "data": "23/12/2000",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "34",
+        "15",
+        "23",
+        "55",
+        "49",
+        "30"
+      ],
+      "dezenas": [
+        "15",
+        "23",
+        "30",
+        "34",
+        "49",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 180,
+          "valorPremio": 15473.98
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 12813,
+          "valorPremio": 216.73
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Previs\u00e3o pr\u00eamio pr\u00f3ximo concurso \r\n(sena) R$31 MILH\u00d5ES.",
+      "acumulou": true,
+      "proximoConcurso": 252,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3993103.28,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 25936007.67,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 252,
+    "draw_date": "2000-12-30",
+    "numbers": [
+      4,
+      17,
+      26,
+      32,
+      51,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 252,
+      "data": "30/12/2000",
+      "local": "Caminh\u00e3o da Sorte em Ubatuba, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "17",
+        "54",
+        "04",
+        "51",
+        "32",
+        "26"
+      ],
+      "dezenas": [
+        "04",
+        "17",
+        "26",
+        "32",
+        "51",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 15107002.24
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 354,
+          "valorPremio": 10070.62
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 22122,
+          "valorPremio": 160.67
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Estimativa pr\u00eamio pr\u00f3ximo concurso: R$1 MILH\u00c3O.",
+      "acumulou": false,
+      "proximoConcurso": 253,
+      "dataProximoConcurso": "",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "DF"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6845101.18,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  }
+]

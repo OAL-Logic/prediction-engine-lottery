@@ -12,7 +12,7 @@ The Prediction Engine doesn't just "guess" numbers. It runs dozens of independen
 ### Tier 1: Statistical (Quantitative)
 Pure math. These strategies look at the "physics" of the draw distribution.
 - **Top Picks:** `markov`, `bayesian`, `spectral`, `weighted`.
-- **New Additions:** `structural` (Howard-style balance), `survival` (meta-adaptive), `mutual_info`.
+- **New Additions:** `structural` (Howard-style balance), `survival` (meta-adaptive), `mutual_info`, `stefan_mandel` (Combinatorial Condensation).
 
 ### Tier 2: Machine Learning (Tabular)
 Detects non-linear patterns that humans miss.

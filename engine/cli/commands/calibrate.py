@@ -58,6 +58,35 @@ console = Console()
 _DATA_DIR = Path(__file__).parent.parent.parent.parent / "data"
 _CAL_CACHE = _DATA_DIR / "calibration_cache.json"
 
+# --- Typical Prizes and Payout Helpers ---
+_TYPICAL_LOWER: dict[str, dict[int, float]] = {
+    "br/mega-sena":  {4: 1_400.0,  5: 36_000.0, 6: 10_000_000.0},
+    "br/lotofacil":  {11: 6.0, 12: 25.0, 13: 120.0, 14: 1_200.0, 15: 1_500_000.0},
+    "us/powerball":  {3: 7.0,    4: 100.0, 5: 1_000_000.0, 6: 40_000_000.0},
+    "us/megamillions": {3: 10.0, 4: 150.0, 5: 1_000_000.0, 6: 40_000_000.0},
+}
+
+def _hyp_prob(pool: int, pick: int, match: int) -> float:
+    from math import comb
+    denom = comb(pool, pick)
+    if denom == 0:
+        return 0.0
+    numer = comb(pick, match) * comb(pool - pick, pick - match)
+    return numer / denom
+
+def calculate_simulated_prize(game_id: str, hits: int, rules: Any) -> float:
+    prizes = _TYPICAL_LOWER.get(game_id, {})
+    if hits in prizes:
+        return prizes[hits]
+    if hits in rules.prize_tiers:
+        lo, hi = rules.number_range
+        pool = hi - lo + 1
+        pick = rules.pick_count
+        prob = _hyp_prob(pool, pick, hits)
+        if prob > 0:
+            return min(10_000_000.0, rules.ticket_price * 0.5 / prob)
+    return 0.0
+
 
 def calibrate(
     lottery: Annotated[str, typer.Argument(help="Lottery name [Required]")],
@@ -71,6 +100,8 @@ def calibrate(
         help="Append calibration report to this .md file")] = None,
     min_training: Annotated[int, typer.Option("--min-training",
         help="Minimum training draws required; skip earlier targets")] = 30,
+    metric: Annotated[str, typer.Option("--metric",
+        help="Ranking metric: lift | hits | profit | roi | precision")] = "lift",
 ) -> None:
     """🎯 Empirical strategy calibration — rank by actual out-of-sample hit rates.
 
@@ -188,6 +219,18 @@ def calibrate(
         lift_pct = (lift - 1.0) * 100.0
         best    = max(hit_list)
         n       = len(hit_list)
+        
+        # Simulated financials
+        ticket_cost = rules.ticket_price if rules.ticket_price > 0 else 1.0
+        total_payout = sum(calculate_simulated_prize(lottery, h, rules) for h in hit_list)
+        total_cost = len(hit_list) * ticket_cost
+        profit = total_payout - total_cost
+        roi = (total_payout / total_cost * 100.0) if total_cost > 0 else 0.0
+        
+        # Precision metric (hypergeometric/exponential weighting of hits)
+        min_win_tier = min(rules.prize_tiers) if rules.prize_tiers else 3
+        precision = float(np.mean([2**(h - min_win_tier + 1) if h >= min_win_tier else 0.0 for h in hit_list]))
+        
         rows.append({
             "name":      name,
             "mean_hits": mean_h,
@@ -196,10 +239,21 @@ def calibrate(
             "lift":      lift,
             "lift_pct":  lift_pct,
             "best":      best,
+            "profit":    profit,
+            "roi":       roi,
+            "precision": precision,
             "n":         n,
         })
 
-    rows.sort(key=lambda r: r["lift"], reverse=True)
+    # Sort by chosen metric
+    sort_key = (
+        "profit" if metric == "profit"
+        else "roi" if metric == "roi"
+        else "precision" if metric == "precision"
+        else "mean_hits" if metric == "hits"
+        else "lift"
+    )
+    rows.sort(key=lambda r: r[sort_key], reverse=True)
 
     table = Table(
         title=f"Strategy Calibration — {rules.name}  ({n_targets} draws)",
@@ -212,6 +266,9 @@ def calibrate(
     table.add_column("Hit rate",  justify="right")
     table.add_column("Lift",      justify="right")
     table.add_column("Lift %",    justify="right")
+    table.add_column("Net Profit", justify="right")
+    table.add_column("ROI%",       justify="right")
+    table.add_column("Precision",  justify="right")
     table.add_column("Best",      justify="right",  style="dim")
     table.add_column("N",         justify="right",  style="dim")
 
@@ -230,6 +287,9 @@ def calibrate(
             else f"[red]{lp_str}[/red]" if lp < -1
             else f"[dim]{lp_str}[/dim]"
         )
+        profit_style = "bold green" if r["profit"] > 0 else "green" if r["profit"] == 0 else "red"
+        roi_style = "bold green" if r["roi"] > 100 else "green" if r["roi"] > 0 else "red"
+        
         table.add_row(
             str(rank),
             r["name"],
@@ -238,6 +298,9 @@ def calibrate(
             f"{r['hit_rate']:.4f}",
             lift_fmt,
             lp_fmt,
+            f"[{profit_style}]{rules.currency} {r['profit']:.2f}[/]",
+            f"[{roi_style}]{r['roi']:.1f}%[/]",
+            f"{r['precision']:.2f}",
             str(r["best"]),
             str(r["n"]),
         )
@@ -261,7 +324,7 @@ def calibrate(
         console.print(Panel(
             f"Best: [bold cyan]{top['name']}[/bold cyan]  "
             f"mean hits={top['mean_hits']:.3f}  lift={top['lift']:.3f}  "
-            f"({verdict} random baseline)\n"
+            f"Net Profit=[bold]{rules.currency} {top['profit']:.2f}[/] (ROI: {top['roi']:.1f}%) · Precision={top['precision']:.2f}\n"
             f"[dim]Tested {n_targets} draws  ·  training window ≤ {window}[/dim]",
             title="🎯 Calibration Summary",
             border_style="cyan",
@@ -273,7 +336,7 @@ def calibrate(
 
     if export_md:
         _append_md(export_md, lottery, rules.name, _date.today(), rows,
-                   n_targets, window, baseline, pick_count, pool_size)
+                   n_targets, window, baseline, pick_count, pool_size, rules.currency)
         console.print(f"[green]✔ Calibration report appended to {export_md}[/green]")
 
 
@@ -315,10 +378,12 @@ def load_calibration_weights(lottery: str, strat_names: list[str]) -> dict[str, 
 def _append_md(
     path: str, lottery: str, game_name: str, today: _date,
     rows: list[dict], n_targets: int, window: int,
-    baseline: float, pick_count: int, pool_size: int,
+    baseline: float, pick_count: int, pool_size: int, currency: str
 ) -> None:
     top = rows[0]["name"] if rows else "—"
     top_lift = f"{rows[0]['lift']:.3f}" if rows else "—"
+    top_profit = f"{rows[0]['profit']:.2f}" if rows else "—"
+    top_roi = f"{rows[0]['roi']:.1f}%" if rows else "—"
 
     header = f"""
 ---
@@ -332,19 +397,21 @@ training_window: {window}
 baseline_hits: {baseline:.3f}
 top_strategy: {top}
 top_lift: {top_lift}
+top_profit: {top_profit}
+top_roi: {top_roi}
 ---
 
 ## Calibration: {game_name} ({today.isoformat()})
 
-| # | Strategy | Mean Hits | Hit Rate | Lift | Lift % | Best | N |
-|---|----------|-----------|----------|------|--------|------|---|
+| # | Strategy | Mean Hits | Hit Rate | Lift | Lift % | Net Profit | ROI % | Precision | Best | N |
+|---|----------|-----------|----------|------|--------|------------|-------|-----------|------|---|
 """
     table_rows = ""
     for rank, r in enumerate(rows, 1):
         lp = f"+{r['lift_pct']:.1f}%" if r["lift_pct"] >= 0 else f"{r['lift_pct']:.1f}%"
         table_rows += (
             f"| {rank} | {r['name']} | {r['mean_hits']:.3f} | {r['hit_rate']:.4f} "
-            f"| {r['lift']:.3f} | {lp} | {r['best']} | {r['n']} |\n"
+            f"| {r['lift']:.3f} | {lp} | {currency} {r['profit']:.2f} | {r['roi']:.1f}% | {r['precision']:.2f} | {r['best']} | {r['n']} |\n"
         )
 
     footer = f"\n*Random baseline: {baseline:.3f} hits/draw  ·  pick {pick_count} from {pool_size}*\n"

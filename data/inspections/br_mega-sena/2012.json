@@ -1,0 +1,7803 @@
+[
+  {
+    "draw_id": 1351,
+    "draw_date": "2012-01-04",
+    "numbers": [
+      13,
+      33,
+      36,
+      41,
+      50,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1351,
+      "data": "04/01/2012",
+      "local": "Caminh\u00e3o da Sorte em TR\u00caS RIOS, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "13",
+        "50",
+        "41",
+        "36",
+        "56",
+        "33"
+      ],
+      "dezenas": [
+        "13",
+        "33",
+        "36",
+        "41",
+        "50",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 34,
+          "valorPremio": 35012.63
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3264,
+          "valorPremio": 521.02
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1352,
+      "dataProximoConcurso": "07/01/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 20333424.0,
+      "valorAcumuladoConcurso_0_5": 1378392.1,
+      "valorAcumuladoConcursoEspecial": 313270.94,
+      "valorAcumuladoProximoConcurso": 2192896.53,
+      "valorEstimadoProximoConcurso": 4700000.0
+    }
+  },
+  {
+    "draw_id": 1352,
+    "draw_date": "2012-01-07",
+    "numbers": [
+      9,
+      18,
+      24,
+      35,
+      36,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1352,
+      "data": "07/01/2012",
+      "local": "Caminh\u00e3o da Sorte em TR\u00caS RIOS, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "35",
+        "59",
+        "36",
+        "09",
+        "18",
+        "24"
+      ],
+      "dezenas": [
+        "09",
+        "18",
+        "24",
+        "35",
+        "36",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 75,
+          "valorPremio": 21559.89
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6632,
+          "valorPremio": 348.3
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1353,
+      "dataProximoConcurso": "11/01/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 27619428.0,
+      "valorAcumuladoConcurso_0_5": 3250698.57,
+      "valorAcumuladoConcursoEspecial": 738795.15,
+      "valorAcumuladoProximoConcurso": 5171565.92,
+      "valorEstimadoProximoConcurso": 8000000.0
+    }
+  },
+  {
+    "draw_id": 1353,
+    "draw_date": "2012-01-11",
+    "numbers": [
+      3,
+      11,
+      13,
+      27,
+      32,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1353,
+      "data": "11/01/2012",
+      "local": "Caminh\u00e3o da Sorte em Para\u00edba do Sul, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "47",
+        "11",
+        "03",
+        "27",
+        "32",
+        "13"
+      ],
+      "dezenas": [
+        "03",
+        "11",
+        "13",
+        "27",
+        "32",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 8311160.99
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 161,
+          "valorPremio": 10586.03
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10308,
+          "valorPremio": 236.2
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1354,
+      "dataProximoConcurso": "14/01/2012",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "S\u00c3O LEOPOLDO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RS"
+        }
+      ],
+      "valorArrecadado": 29111596.0,
+      "valorAcumuladoConcurso_0_5": 5224158.33,
+      "valorAcumuladoConcursoEspecial": 1187308.75,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1354,
+    "draw_date": "2012-01-14",
+    "numbers": [
+      2,
+      8,
+      38,
+      42,
+      48,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1354,
+      "data": "14/01/2012",
+      "local": "Caminh\u00e3o da Sorte em Para\u00edba do Sul, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "02",
+        "42",
+        "08",
+        "49",
+        "48",
+        "38"
+      ],
+      "dezenas": [
+        "02",
+        "08",
+        "38",
+        "42",
+        "48",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 2815977.4
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 71,
+          "valorPremio": 21530.61
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4842,
+          "valorPremio": 451.01
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1355,
+      "dataProximoConcurso": "18/01/2012",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "INDAIAL",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SC"
+        }
+      ],
+      "valorArrecadado": 26110882.0,
+      "valorAcumuladoConcurso_0_5": 6994201.26,
+      "valorAcumuladoConcursoEspecial": 1589591.26,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 9500000.0
+    }
+  },
+  {
+    "draw_id": 1355,
+    "draw_date": "2012-01-18",
+    "numbers": [
+      11,
+      17,
+      24,
+      39,
+      46,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1355,
+      "data": "18/01/2012",
+      "local": "Caminh\u00e3o da Sorte em PRAIA GRANDE, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "39",
+        "49",
+        "11",
+        "24",
+        "17",
+        "46"
+      ],
+      "dezenas": [
+        "11",
+        "17",
+        "24",
+        "39",
+        "46",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 133,
+          "valorPremio": 12427.32
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6490,
+          "valorPremio": 363.81
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1356,
+      "dataProximoConcurso": "21/01/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 28231626.0,
+      "valorAcumuladoConcurso_0_5": 1913807.06,
+      "valorAcumuladoConcursoEspecial": 2024547.42,
+      "valorAcumuladoProximoConcurso": 10038894.3,
+      "valorEstimadoProximoConcurso": 13500000.0
+    }
+  },
+  {
+    "draw_id": 1356,
+    "draw_date": "2012-01-21",
+    "numbers": [
+      6,
+      13,
+      21,
+      22,
+      31,
+      46
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1356,
+      "data": "21/01/2012",
+      "local": "Caminh\u00e3o da Sorte em PRAIA GRANDE, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "21",
+        "46",
+        "06",
+        "22",
+        "13",
+        "31"
+      ],
+      "dezenas": [
+        "06",
+        "13",
+        "21",
+        "22",
+        "31",
+        "46"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 90,
+          "valorPremio": 22697.17
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7070,
+          "valorPremio": 412.75
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1357,
+      "dataProximoConcurso": "25/01/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 34891612.0,
+      "valorAcumuladoConcurso_0_5": 4279091.06,
+      "valorAcumuladoConcursoEspecial": 2562111.99,
+      "valorAcumuladoProximoConcurso": 13801846.13,
+      "valorEstimadoProximoConcurso": 18000000.0
+    }
+  },
+  {
+    "draw_id": 1357,
+    "draw_date": "2012-01-25",
+    "numbers": [
+      1,
+      19,
+      24,
+      26,
+      52,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1357,
+      "data": "25/01/2012",
+      "local": "Caminh\u00e3o da Sorte em SANTOS, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "55",
+        "52",
+        "26",
+        "19",
+        "01",
+        "24"
+      ],
+      "dezenas": [
+        "01",
+        "19",
+        "24",
+        "26",
+        "52",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 116,
+          "valorPremio": 17572.17
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6940,
+          "valorPremio": 419.59
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1358,
+      "dataProximoConcurso": "28/01/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 34816916.0,
+      "valorAcumuladoConcurso_0_5": 6639311.46,
+      "valorAcumuladoConcursoEspecial": 3098525.73,
+      "valorAcumuladoProximoConcurso": 17556742.21,
+      "valorEstimadoProximoConcurso": 21500000.0
+    }
+  },
+  {
+    "draw_id": 1358,
+    "draw_date": "2012-01-28",
+    "numbers": [
+      3,
+      15,
+      16,
+      35,
+      37,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1358,
+      "data": "28/01/2012",
+      "local": "Caminh\u00e3o da Sorte em Santos, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "16",
+        "15",
+        "37",
+        "03",
+        "35",
+        "47"
+      ],
+      "dezenas": [
+        "03",
+        "15",
+        "16",
+        "35",
+        "37",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 145,
+          "valorPremio": 16856.7
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10440,
+          "valorPremio": 334.45
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1359,
+      "dataProximoConcurso": "01/02/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 41749108.0,
+      "valorAcumuladoConcurso_0_5": 9469461.5,
+      "valorAcumuladoConcursoEspecial": 3741741.67,
+      "valorAcumuladoProximoConcurso": 22059253.65,
+      "valorEstimadoProximoConcurso": 27000000.0
+    }
+  },
+  {
+    "draw_id": 1359,
+    "draw_date": "2012-02-01",
+    "numbers": [
+      6,
+      10,
+      12,
+      17,
+      28,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1359,
+      "data": "01/02/2012",
+      "local": "Caminh\u00e3o da Sorte em GAROPABA, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "12",
+        "17",
+        "28",
+        "53",
+        "06",
+        "10"
+      ],
+      "dezenas": [
+        "06",
+        "10",
+        "12",
+        "17",
+        "28",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 254,
+          "valorPremio": 10009.69
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 13663,
+          "valorPremio": 265.83
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1360,
+      "dataProximoConcurso": "04/02/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 43427112.0,
+      "valorAcumuladoConcurso_0_5": 39156095.15,
+      "valorAcumuladoConcursoEspecial": 4410810.11,
+      "valorAcumuladoProximoConcurso": 39156095.15,
+      "valorEstimadoProximoConcurso": 45000000.0
+    }
+  },
+  {
+    "draw_id": 1360,
+    "draw_date": "2012-02-04",
+    "numbers": [
+      2,
+      16,
+      17,
+      25,
+      50,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1360,
+      "data": "04/02/2012",
+      "local": "Caminh\u00e3o da Sorte em GAROPABA, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "50",
+        "25",
+        "17",
+        "16",
+        "54",
+        "02"
+      ],
+      "dezenas": [
+        "02",
+        "16",
+        "17",
+        "25",
+        "50",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 22673254.06
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 112,
+          "valorPremio": 30004.55
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9880,
+          "valorPremio": 485.9
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1361,
+      "dataProximoConcurso": "08/02/2012",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "ARAPIRACA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "AL"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "ITA\u00daNA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        }
+      ],
+      "valorArrecadado": 57400014.0,
+      "valorAcumuladoConcurso_0_5": 3891116.73,
+      "valorAcumuladoConcursoEspecial": 5295154.83,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 1361,
+    "draw_date": "2012-02-08",
+    "numbers": [
+      23,
+      27,
+      30,
+      37,
+      38,
+      44
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1361,
+      "data": "08/02/2012",
+      "local": "Caminh\u00e3o da Sorte em TRAMANDA\u00cd, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "37",
+        "27",
+        "44",
+        "30",
+        "38",
+        "23"
+      ],
+      "dezenas": [
+        "23",
+        "27",
+        "30",
+        "37",
+        "38",
+        "44"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 38,
+          "valorPremio": 36490.98
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3381,
+          "valorPremio": 585.9
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1362,
+      "dataProximoConcurso": "11/02/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 23685136.0,
+      "valorAcumuladoConcurso_0_5": 5496719.62,
+      "valorAcumuladoConcursoEspecial": 5660064.59,
+      "valorAcumuladoProximoConcurso": 2554368.24,
+      "valorEstimadoProximoConcurso": 5000000.0
+    }
+  },
+  {
+    "draw_id": 1362,
+    "draw_date": "2012-02-11",
+    "numbers": [
+      2,
+      12,
+      19,
+      22,
+      36,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1362,
+      "data": "11/02/2012",
+      "local": "Caminh\u00e3o da Sorte em TRAMANDA\u00cd, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "58",
+        "19",
+        "12",
+        "22",
+        "02",
+        "36"
+      ],
+      "dezenas": [
+        "02",
+        "12",
+        "19",
+        "22",
+        "36",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 3,
+          "valorPremio": 1924196.22
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 129,
+          "valorPremio": 13542.9
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8825,
+          "valorPremio": 282.8
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1363,
+      "dataProximoConcurso": "15/02/2012",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "VIT\u00d3RIA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "ES"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "AMERICANA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "S\u00c3O PAULO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 29840642.0,
+      "valorAcumuladoConcurso_0_5": 7519601.02,
+      "valorAcumuladoConcursoEspecial": 6119810.37,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1363,
+    "draw_date": "2012-02-15",
+    "numbers": [
+      25,
+      35,
+      42,
+      45,
+      52,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1363,
+      "data": "15/02/2012",
+      "local": "Caminh\u00e3o da Sorte em GUARAN\u00c9SIA, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "52",
+        "25",
+        "42",
+        "45",
+        "35",
+        "57"
+      ],
+      "dezenas": [
+        "25",
+        "35",
+        "42",
+        "45",
+        "52",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 36,
+          "valorPremio": 36166.13
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2744,
+          "valorPremio": 677.83
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1364,
+      "dataProximoConcurso": "18/02/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 22238800.0,
+      "valorAcumuladoConcurso_0_5": 9027157.56,
+      "valorAcumuladoConcursoEspecial": 6462436.87,
+      "valorAcumuladoProximoConcurso": 2398385.4,
+      "valorEstimadoProximoConcurso": 5000000.0
+    }
+  },
+  {
+    "draw_id": 1364,
+    "draw_date": "2012-02-18",
+    "numbers": [
+      10,
+      13,
+      20,
+      40,
+      44,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1364,
+      "data": "18/02/2012",
+      "local": "Caminh\u00e3o da Sorte em GUARAN\u00c9SIA, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "20",
+        "13",
+        "40",
+        "10",
+        "53",
+        "44"
+      ],
+      "dezenas": [
+        "10",
+        "13",
+        "20",
+        "40",
+        "44",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 60,
+          "valorPremio": 26450.47
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4436,
+          "valorPremio": 511.08
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1365,
+      "dataProximoConcurso": "22/02/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 27107626.0,
+      "valorAcumuladoConcurso_0_5": 16186627.78,
+      "valorAcumuladoConcursoEspecial": 6880075.89,
+      "valorAcumuladoProximoConcurso": 16186627.78,
+      "valorEstimadoProximoConcurso": 19000000.0
+    }
+  },
+  {
+    "draw_id": 1365,
+    "draw_date": "2012-02-22",
+    "numbers": [
+      2,
+      24,
+      26,
+      32,
+      35,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1365,
+      "data": "22/02/2012",
+      "local": "Audit\u00f3rio em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "50",
+        "35",
+        "32",
+        "26",
+        "02",
+        "24"
+      ],
+      "dezenas": [
+        "02",
+        "24",
+        "26",
+        "32",
+        "35",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 52,
+          "valorPremio": 23397.34
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3368,
+          "valorPremio": 516.05
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV.",
+      "acumulou": true,
+      "proximoConcurso": 1366,
+      "dataProximoConcurso": "25/02/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 20781492.0,
+      "valorAcumuladoConcurso_0_5": 1408766.4,
+      "valorAcumuladoConcursoEspecial": 7200250.08,
+      "valorAcumuladoProximoConcurso": 18427847.04,
+      "valorEstimadoProximoConcurso": 22000000.0
+    }
+  },
+  {
+    "draw_id": 1366,
+    "draw_date": "2012-02-25",
+    "numbers": [
+      12,
+      27,
+      37,
+      44,
+      54,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1366,
+      "data": "25/02/2012",
+      "local": "Caminh\u00e3o da Sorte em CAP\u00c3O DA CANOA, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "59",
+        "44",
+        "54",
+        "37",
+        "27",
+        "12"
+      ],
+      "dezenas": [
+        "12",
+        "27",
+        "37",
+        "44",
+        "54",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 22902720.55
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 124,
+          "valorPremio": 19590.46
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7974,
+          "valorPremio": 435.2
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1367,
+      "dataProximoConcurso": "29/02/2012",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "CUIAB\u00c1",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MT"
+        }
+      ],
+      "valorArrecadado": 41492838.0,
+      "valorAcumuladoConcurso_0_5": 4221544.04,
+      "valorAcumuladoConcursoEspecial": 7839517.74,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1367,
+    "draw_date": "2012-03-01",
+    "numbers": [
+      2,
+      7,
+      13,
+      29,
+      38,
+      43
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1367,
+      "data": "01/03/2012",
+      "local": "Caminh\u00e3o da Sorte em IGARAP\u00c9, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "38",
+        "29",
+        "43",
+        "13",
+        "07",
+        "02"
+      ],
+      "dezenas": [
+        "02",
+        "07",
+        "13",
+        "29",
+        "38",
+        "43"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 111,
+          "valorPremio": 9193.08
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6443,
+          "valorPremio": 226.25
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1368,
+      "dataProximoConcurso": "03/03/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 17429746.0,
+      "valorAcumuladoConcurso_0_5": 5403097.33,
+      "valorAcumuladoConcursoEspecial": 8108052.58,
+      "valorAcumuladoProximoConcurso": 1879743.88,
+      "valorEstimadoProximoConcurso": 3800000.0
+    }
+  },
+  {
+    "draw_id": 1368,
+    "draw_date": "2012-03-03",
+    "numbers": [
+      10,
+      21,
+      26,
+      29,
+      32,
+      38
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1368,
+      "data": "03/03/2012",
+      "local": "Caminh\u00e3o da Sorte em IGARAP\u00c9, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "10",
+        "26",
+        "29",
+        "38",
+        "32",
+        "21"
+      ],
+      "dezenas": [
+        "10",
+        "21",
+        "26",
+        "29",
+        "32",
+        "38"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 4873830.43
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 34,
+          "valorPremio": 47804.75
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4447,
+          "valorPremio": 522.13
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1369,
+      "dataProximoConcurso": "07/03/2012",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "MORRETES",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        }
+      ],
+      "valorArrecadado": 27762382.0,
+      "valorAcumuladoConcurso_0_5": 7285094.58,
+      "valorAcumuladoConcursoEspecial": 8535779.24,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1369,
+    "draw_date": "2012-03-07",
+    "numbers": [
+      5,
+      16,
+      24,
+      32,
+      38,
+      46
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1369,
+      "data": "07/03/2012",
+      "local": "Caminh\u00e3o da Sorte em TIET\u00ca, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "32",
+        "24",
+        "16",
+        "38",
+        "05",
+        "46"
+      ],
+      "dezenas": [
+        "05",
+        "16",
+        "24",
+        "32",
+        "38",
+        "46"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 195,
+          "valorPremio": 6509.72
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7636,
+          "valorPremio": 237.48
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1370,
+      "dataProximoConcurso": "10/03/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 21682238.0,
+      "valorAcumuladoConcurso_0_5": 11093283.98,
+      "valorAcumuladoConcursoEspecial": 8869830.97,
+      "valorAcumuladoProximoConcurso": 11093283.98,
+      "valorEstimadoProximoConcurso": 14500000.0
+    }
+  },
+  {
+    "draw_id": 1370,
+    "draw_date": "2012-03-10",
+    "numbers": [
+      2,
+      4,
+      5,
+      27,
+      49,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1370,
+      "data": "10/03/2012",
+      "local": "Caminh\u00e3o da Sorte em TIET\u00ca, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "02",
+        "27",
+        "59",
+        "49",
+        "04",
+        "05"
+      ],
+      "dezenas": [
+        "02",
+        "04",
+        "05",
+        "27",
+        "49",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 7499281.75
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 115,
+          "valorPremio": 18434.86
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9979,
+          "valorPremio": 303.49
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1371,
+      "dataProximoConcurso": "14/03/2012",
+      "localGanhadores": [
+        {
+          "ganhadores": 2,
+          "municipio": "SALVADOR",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "BA"
+        }
+      ],
+      "valorArrecadado": 36211332.0,
+      "valorAcumuladoConcurso_0_5": 2454747.13,
+      "valorAcumuladoConcursoEspecial": 9427728.06,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1371,
+    "draw_date": "2012-03-14",
+    "numbers": [
+      3,
+      4,
+      8,
+      11,
+      47,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1371,
+      "data": "14/03/2012",
+      "local": "Caminh\u00e3o da Sorte em ITUPORANGA, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "47",
+        "11",
+        "08",
+        "49",
+        "03",
+        "04"
+      ],
+      "dezenas": [
+        "03",
+        "04",
+        "08",
+        "11",
+        "47",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 101,
+          "valorPremio": 12265.25
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7421,
+          "valorPremio": 238.47
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1372,
+      "dataProximoConcurso": "17/03/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 21159460.0,
+      "valorAcumuladoConcurso_0_5": 3889135.77,
+      "valorAcumuladoConcursoEspecial": 9753725.5,
+      "valorAcumuladoProximoConcurso": 2281981.94,
+      "valorEstimadoProximoConcurso": 5000000.0
+    }
+  },
+  {
+    "draw_id": 1372,
+    "draw_date": "2012-03-17",
+    "numbers": [
+      3,
+      36,
+      40,
+      46,
+      58,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1372,
+      "data": "17/03/2012",
+      "local": "Caminh\u00e3o da Sorte em ITUPORANGA, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "46",
+        "60",
+        "58",
+        "36",
+        "40",
+        "03"
+      ],
+      "dezenas": [
+        "03",
+        "36",
+        "40",
+        "46",
+        "58",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 48,
+          "valorPremio": 34817.31
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4069,
+          "valorPremio": 586.74
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1373,
+      "dataProximoConcurso": "21/03/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 28545872.0,
+      "valorAcumuladoConcurso_0_5": 5824245.4,
+      "valorAcumuladoConcursoEspecial": 10193523.16,
+      "valorAcumuladoProximoConcurso": 5360565.43,
+      "valorEstimadoProximoConcurso": 9000000.0
+    }
+  },
+  {
+    "draw_id": 1373,
+    "draw_date": "2012-03-21",
+    "numbers": [
+      7,
+      27,
+      39,
+      52,
+      55,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1373,
+      "data": "21/03/2012",
+      "local": "Audit\u00f3rio em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "52",
+        "39",
+        "07",
+        "27",
+        "55",
+        "57"
+      ],
+      "dezenas": [
+        "07",
+        "27",
+        "39",
+        "52",
+        "55",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 8520148.41
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 73,
+          "valorPremio": 23495.92
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6082,
+          "valorPremio": 402.87
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV.",
+      "acumulou": false,
+      "proximoConcurso": 1374,
+      "dataProximoConcurso": "24/03/2012",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "IPATINGA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        }
+      ],
+      "valorArrecadado": 29296932.0,
+      "valorAcumuladoConcurso_0_5": 7810268.98,
+      "valorAcumuladoConcursoEspecial": 10644892.18,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1374,
+    "draw_date": "2012-03-24",
+    "numbers": [
+      6,
+      21,
+      28,
+      31,
+      33,
+      43
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1374,
+      "data": "24/03/2012",
+      "local": "Caminh\u00e3o da Sorte em CA\u00c7ADOR, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "21",
+        "33",
+        "28",
+        "31",
+        "43",
+        "06"
+      ],
+      "dezenas": [
+        "06",
+        "21",
+        "28",
+        "31",
+        "33",
+        "43"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 32,
+          "valorPremio": 44298.35
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3575,
+          "valorPremio": 566.45
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1375,
+      "dataProximoConcurso": "28/03/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 24212762.0,
+      "valorAcumuladoConcurso_0_5": 12062910.42,
+      "valorAcumuladoConcursoEspecial": 11017930.91,
+      "valorAcumuladoProximoConcurso": 12062910.42,
+      "valorEstimadoProximoConcurso": 15000000.0
+    }
+  },
+  {
+    "draw_id": 1375,
+    "draw_date": "2012-03-28",
+    "numbers": [
+      14,
+      25,
+      28,
+      45,
+      53,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1375,
+      "data": "28/03/2012",
+      "local": "Caminh\u00e3o da Sorte em CHARQUEADAS, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "25",
+        "28",
+        "53",
+        "45",
+        "14",
+        "58"
+      ],
+      "dezenas": [
+        "14",
+        "25",
+        "28",
+        "45",
+        "53",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 7822077.02
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 121,
+          "valorPremio": 16066.97
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7136,
+          "valorPremio": 389.19
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1376,
+      "dataProximoConcurso": "31/03/2012",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "FOZ DO IGUA\u00c7U",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "S\u00c3O PAULO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 33206740.0,
+      "valorAcumuladoConcurso_0_5": 2251067.42,
+      "valorAcumuladoConcursoEspecial": 11529537.16,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1376,
+    "draw_date": "2012-03-31",
+    "numbers": [
+      9,
+      11,
+      21,
+      49,
+      53,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1376,
+      "data": "31/03/2012",
+      "local": "Caminh\u00e3o da Sorte em CHARQUEADAS, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "53",
+        "49",
+        "21",
+        "11",
+        "54",
+        "09"
+      ],
+      "dezenas": [
+        "09",
+        "11",
+        "21",
+        "49",
+        "53",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 57,
+          "valorPremio": 25317.58
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4091,
+          "valorPremio": 503.92
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1377,
+      "dataProximoConcurso": "04/04/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 24649260.0,
+      "valorAcumuladoConcurso_0_5": 3922027.76,
+      "valorAcumuladoConcursoEspecial": 11909300.9,
+      "valorAcumuladoProximoConcurso": 2658346.01,
+      "valorEstimadoProximoConcurso": 5500000.0
+    }
+  },
+  {
+    "draw_id": 1377,
+    "draw_date": "2012-04-04",
+    "numbers": [
+      2,
+      5,
+      12,
+      13,
+      25,
+      35
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1377,
+      "data": "04/04/2012",
+      "local": "Caminh\u00e3o da Sorte em RIO GRANDE, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "25",
+        "05",
+        "13",
+        "12",
+        "35",
+        "02"
+      ],
+      "dezenas": [
+        "02",
+        "05",
+        "12",
+        "13",
+        "25",
+        "35"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 5600981.17
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 175,
+          "valorPremio": 9128.17
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 12352,
+          "valorPremio": 184.75
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1378,
+      "dataProximoConcurso": "07/04/2012",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "RIO DE JANEIRO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        }
+      ],
+      "valorArrecadado": 27285304.0,
+      "valorAcumuladoConcurso_0_5": 5771684.15,
+      "valorAcumuladoConcursoEspecial": 12329677.36,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1378,
+    "draw_date": "2012-04-07",
+    "numbers": [
+      2,
+      5,
+      17,
+      18,
+      54,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1378,
+      "data": "07/04/2012",
+      "local": "Caminh\u00e3o da Sorte em RIO GRANDE, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "18",
+        "17",
+        "59",
+        "02",
+        "54",
+        "05"
+      ],
+      "dezenas": [
+        "02",
+        "05",
+        "17",
+        "18",
+        "54",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 74,
+          "valorPremio": 15789.08
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5614,
+          "valorPremio": 297.31
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1379,
+      "dataProximoConcurso": "11/04/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 19957006.0,
+      "valorAcumuladoConcurso_0_5": 7124559.07,
+      "valorAcumuladoConcursoEspecial": 12637148.96,
+      "valorAcumuladoProximoConcurso": 2152301.02,
+      "valorEstimadoProximoConcurso": 5000000.0
+    }
+  },
+  {
+    "draw_id": 1379,
+    "draw_date": "2012-04-11",
+    "numbers": [
+      5,
+      12,
+      36,
+      45,
+      50,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1379,
+      "data": "11/04/2012",
+      "local": "Caminh\u00e3o da Sorte em ITAJA\u00cd, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "45",
+        "05",
+        "36",
+        "12",
+        "50",
+        "58"
+      ],
+      "dezenas": [
+        "05",
+        "12",
+        "36",
+        "45",
+        "50",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 61,
+          "valorPremio": 24980.79
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5455,
+          "valorPremio": 399.06
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1380,
+      "dataProximoConcurso": "14/04/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 26028118.0,
+      "valorAcumuladoConcurso_0_5": 13848344.05,
+      "valorAcumuladoConcursoEspecial": 13038156.32,
+      "valorAcumuladoProximoConcurso": 13848344.05,
+      "valorEstimadoProximoConcurso": 17000000.0
+    }
+  },
+  {
+    "draw_id": 1380,
+    "draw_date": "2012-04-14",
+    "numbers": [
+      3,
+      14,
+      52,
+      55,
+      57,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1380,
+      "data": "14/04/2012",
+      "local": "Caminh\u00e3o da Sorte em ITAJA\u00cd, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "52",
+        "14",
+        "03",
+        "60",
+        "57",
+        "55"
+      ],
+      "dezenas": [
+        "03",
+        "14",
+        "52",
+        "55",
+        "57",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 100,
+          "valorPremio": 23424.79
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6994,
+          "valorPremio": 478.46
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1381,
+      "dataProximoConcurso": "18/04/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 40011288.0,
+      "valorAcumuladoConcurso_0_5": 2712344.15,
+      "valorAcumuladoConcursoEspecial": 13654598.19,
+      "valorAcumuladoProximoConcurso": 18163437.01,
+      "valorEstimadoProximoConcurso": 23000000.0
+    }
+  },
+  {
+    "draw_id": 1381,
+    "draw_date": "2012-04-18",
+    "numbers": [
+      11,
+      27,
+      30,
+      40,
+      44,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1381,
+      "data": "18/04/2012",
+      "local": "Caminh\u00e3o da Sorte em ITAPEMA, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "44",
+        "30",
+        "27",
+        "11",
+        "40",
+        "57"
+      ],
+      "dezenas": [
+        "11",
+        "27",
+        "30",
+        "40",
+        "44",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 22817234.34
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 109,
+          "valorPremio": 23177.49
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7087,
+          "valorPremio": 509.25
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1382,
+      "dataProximoConcurso": "20/04/2012",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "S\u00c3O PAULO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 43151892.0,
+      "valorAcumuladoConcurso_0_5": 5637588.18,
+      "valorAcumuladoConcursoEspecial": 14319426.39,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1382,
+    "draw_date": "2012-04-20",
+    "numbers": [
+      5,
+      13,
+      16,
+      17,
+      27,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1382,
+      "data": "20/04/2012",
+      "local": "Caminh\u00e3o da Sorte em ITAPEMA, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "17",
+        "27",
+        "55",
+        "13",
+        "05",
+        "16"
+      ],
+      "dezenas": [
+        "05",
+        "13",
+        "16",
+        "17",
+        "27",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 70,
+          "valorPremio": 14068.17
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6131,
+          "valorPremio": 229.45
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1383,
+      "dataProximoConcurso": "25/04/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 16820638.0,
+      "valorAcumuladoConcurso_0_5": 6777850.37,
+      "valorAcumuladoConcursoEspecial": 14578576.91,
+      "valorAcumuladoProximoConcurso": 1814053.48,
+      "valorEstimadoProximoConcurso": 4500000.0
+    }
+  },
+  {
+    "draw_id": 1383,
+    "draw_date": "2012-04-25",
+    "numbers": [
+      7,
+      9,
+      23,
+      44,
+      46,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1383,
+      "data": "25/04/2012",
+      "local": "Caminh\u00e3o da Sorte em FORQUILHINHA, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "09",
+        "55",
+        "23",
+        "44",
+        "07",
+        "46"
+      ],
+      "dezenas": [
+        "07",
+        "09",
+        "23",
+        "44",
+        "46",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 106,
+          "valorPremio": 14064.76
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6224,
+          "valorPremio": 342.19
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1384,
+      "dataProximoConcurso": "28/04/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 25465080.0,
+      "valorAcumuladoConcurso_0_5": 8504114.73,
+      "valorAcumuladoConcursoEspecial": 14970909.73,
+      "valorAcumuladoProximoConcurso": 4560383.15,
+      "valorEstimadoProximoConcurso": 7500000.0
+    }
+  },
+  {
+    "draw_id": 1384,
+    "draw_date": "2012-04-28",
+    "numbers": [
+      2,
+      18,
+      30,
+      31,
+      45,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1384,
+      "data": "28/04/2012",
+      "local": "Caminh\u00e3o da Sorte em FORQUILHINHA, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "56",
+        "18",
+        "31",
+        "02",
+        "30",
+        "45"
+      ],
+      "dezenas": [
+        "02",
+        "18",
+        "30",
+        "31",
+        "45",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 4030007.03
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 56,
+          "valorPremio": 33924.99
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5010,
+          "valorPremio": 541.71
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1385,
+      "dataProximoConcurso": "02/05/2012",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "LONDRINA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "S\u00c3O CAETANO DO SUL",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 32449994.0,
+      "valorAcumuladoConcurso_0_5": 10703882.73,
+      "valorAcumuladoConcursoEspecial": 15470857.02,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 14000000.0
+    }
+  },
+  {
+    "draw_id": 1385,
+    "draw_date": "2012-05-02",
+    "numbers": [
+      27,
+      35,
+      36,
+      37,
+      42,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1385,
+      "data": "02/05/2012",
+      "local": "Caminh\u00e3o da Sorte em ANAST\u00c1CIO, MS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "42",
+        "37",
+        "35",
+        "27",
+        "59",
+        "36"
+      ],
+      "dezenas": [
+        "27",
+        "35",
+        "36",
+        "37",
+        "42",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 13402970.05
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 52,
+          "valorPremio": 28177.29
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4170,
+          "valorPremio": 501.95
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1386,
+      "dataProximoConcurso": "05/05/2012",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "ITATIBA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 25027030.0,
+      "valorAcumuladoConcurso_0_5": 1696569.18,
+      "valorAcumuladoConcursoEspecial": 15856440.95,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1386,
+    "draw_date": "2012-05-05",
+    "numbers": [
+      12,
+      28,
+      38,
+      39,
+      51,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1386,
+      "data": "05/05/2012",
+      "local": "Caminh\u00e3o da Sorte em ANAST\u00c1CIO, MS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "39",
+        "56",
+        "28",
+        "12",
+        "51",
+        "38"
+      ],
+      "dezenas": [
+        "12",
+        "28",
+        "38",
+        "39",
+        "51",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 27,
+          "valorPremio": 54363.88
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3462,
+          "valorPremio": 605.68
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1387,
+      "dataProximoConcurso": "09/05/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 25071540.0,
+      "valorAcumuladoConcurso_0_5": 3396155.67,
+      "valorAcumuladoConcursoEspecial": 16242710.61,
+      "valorAcumuladoProximoConcurso": 2703887.6,
+      "valorEstimadoProximoConcurso": 6000000.0
+    }
+  },
+  {
+    "draw_id": 1387,
+    "draw_date": "2012-05-09",
+    "numbers": [
+      18,
+      27,
+      32,
+      43,
+      50,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1387,
+      "data": "09/05/2012",
+      "local": "Audit\u00f3rio em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "43",
+        "27",
+        "18",
+        "52",
+        "50",
+        "32"
+      ],
+      "dezenas": [
+        "18",
+        "27",
+        "32",
+        "43",
+        "50",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 47,
+          "valorPremio": 34677.09
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3492,
+          "valorPremio": 666.75
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV.",
+      "acumulou": true,
+      "proximoConcurso": 1388,
+      "dataProximoConcurso": "12/05/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 27838600.0,
+      "valorAcumuladoConcurso_0_5": 5283319.7,
+      "valorAcumuladoConcursoEspecial": 16671611.54,
+      "valorAcumuladoProximoConcurso": 5706194.01,
+      "valorEstimadoProximoConcurso": 9000000.0
+    }
+  },
+  {
+    "draw_id": 1388,
+    "draw_date": "2012-05-12",
+    "numbers": [
+      22,
+      29,
+      31,
+      43,
+      50,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1388,
+      "data": "12/05/2012",
+      "local": "Caminh\u00e3o da Sorte em MINA\u00c7U, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "54",
+        "31",
+        "50",
+        "43",
+        "29",
+        "22"
+      ],
+      "dezenas": [
+        "22",
+        "29",
+        "31",
+        "43",
+        "50",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 48,
+          "valorPremio": 42785.64
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4047,
+          "valorPremio": 724.95
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1389,
+      "dataProximoConcurso": "16/05/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 35078914.0,
+      "valorAcumuladoConcurso_0_5": 7661300.81,
+      "valorAcumuladoConcursoEspecial": 17212061.81,
+      "valorAcumuladoProximoConcurso": 9489345.77,
+      "valorEstimadoProximoConcurso": 14000000.0
+    }
+  },
+  {
+    "draw_id": 1389,
+    "draw_date": "2012-05-16",
+    "numbers": [
+      1,
+      16,
+      28,
+      39,
+      44,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1389,
+      "data": "16/05/2012",
+      "local": "Caminh\u00e3o da Sorte em MARING\u00c1, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "01",
+        "44",
+        "39",
+        "16",
+        "57",
+        "28"
+      ],
+      "dezenas": [
+        "01",
+        "16",
+        "28",
+        "39",
+        "44",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 13488668.85
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 146,
+          "valorPremio": 14870.28
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7397,
+          "valorPremio": 419.29
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1390,
+      "dataProximoConcurso": "19/05/2012",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "CORRENTE",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PI"
+        }
+      ],
+      "valorArrecadado": 37083342.0,
+      "valorAcumuladoConcurso_0_5": 10175161.03,
+      "valorAcumuladoConcursoEspecial": 17783393.69,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 13000000.0
+    }
+  },
+  {
+    "draw_id": 1390,
+    "draw_date": "2012-05-19",
+    "numbers": [
+      4,
+      19,
+      27,
+      28,
+      29,
+      31
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1390,
+      "data": "19/05/2012",
+      "local": "Caminh\u00e3o da Sorte em MARING\u00c1, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "29",
+        "27",
+        "19",
+        "04",
+        "28",
+        "31"
+      ],
+      "dezenas": [
+        "04",
+        "19",
+        "27",
+        "28",
+        "29",
+        "31"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 6920519.93
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 149,
+          "valorPremio": 13356.03
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7924,
+          "valorPremio": 358.77
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1391,
+      "dataProximoConcurso": "23/05/2012",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "FORTALEZA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "CE"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "CORUMB\u00c1",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MS"
+        }
+      ],
+      "valorArrecadado": 33991512.0,
+      "valorAcumuladoConcurso_0_5": 2304266.7,
+      "valorAcumuladoConcursoEspecial": 18307090.69,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1391,
+    "draw_date": "2012-05-23",
+    "numbers": [
+      7,
+      12,
+      19,
+      34,
+      40,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1391,
+      "data": "23/05/2012",
+      "local": "Caminh\u00e3o da Sorte em PIRACICABA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "19",
+        "07",
+        "12",
+        "34",
+        "53",
+        "40"
+      ],
+      "dezenas": [
+        "07",
+        "12",
+        "19",
+        "34",
+        "40",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 74,
+          "valorPremio": 17006.16
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5293,
+          "valorPremio": 339.65
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1392,
+      "dataProximoConcurso": "26/05/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 21495362.0,
+      "valorAcumuladoConcurso_0_5": 3761425.96,
+      "valorAcumuladoConcursoEspecial": 18638263.26,
+      "valorAcumuladoProximoConcurso": 2318207.92,
+      "valorEstimadoProximoConcurso": 5000000.0
+    }
+  },
+  {
+    "draw_id": 1392,
+    "draw_date": "2012-05-26",
+    "numbers": [
+      2,
+      8,
+      12,
+      28,
+      33,
+      43
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1392,
+      "data": "26/05/2012",
+      "local": "Caminh\u00e3o da Sorte em PIRACICABA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "43",
+        "08",
+        "02",
+        "28",
+        "33",
+        "12"
+      ],
+      "dezenas": [
+        "02",
+        "08",
+        "12",
+        "28",
+        "33",
+        "43"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 116,
+          "valorPremio": 14023.2
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8651,
+          "valorPremio": 268.62
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1393,
+      "dataProximoConcurso": "30/05/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 27785084.0,
+      "valorAcumuladoConcurso_0_5": 5644962.17,
+      "valorAcumuladoConcursoEspecial": 19066339.69,
+      "valorAcumuladoProximoConcurso": 5314742.8,
+      "valorEstimadoProximoConcurso": 10000000.0
+    }
+  },
+  {
+    "draw_id": 1393,
+    "draw_date": "2012-05-30",
+    "numbers": [
+      4,
+      18,
+      24,
+      28,
+      39,
+      44
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1393,
+      "data": "30/05/2012",
+      "local": "Caminh\u00e3o da Sorte em CAMPO MAIOR, PI",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "44",
+        "28",
+        "18",
+        "24",
+        "04",
+        "39"
+      ],
+      "dezenas": [
+        "04",
+        "18",
+        "24",
+        "28",
+        "39",
+        "44"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 8139697.37
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 86,
+          "valorPremio": 17831.94
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5717,
+          "valorPremio": 383.2
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1394,
+      "dataProximoConcurso": "02/06/2012",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "GOVERNADOR VALADARES",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        }
+      ],
+      "valorArrecadado": 26194122.0,
+      "valorAcumuladoConcurso_0_5": 7420647.9,
+      "valorAcumuladoConcursoEspecial": 19469904.65,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1394,
+    "draw_date": "2012-06-02",
+    "numbers": [
+      11,
+      16,
+      24,
+      35,
+      46,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1394,
+      "data": "02/06/2012",
+      "local": "Caminh\u00e3o da Sorte em CAMPO MAIOR, PI",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "11",
+        "35",
+        "16",
+        "46",
+        "24",
+        "50"
+      ],
+      "dezenas": [
+        "11",
+        "16",
+        "24",
+        "35",
+        "46",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 32,
+          "valorPremio": 45243.54
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4092,
+          "valorPremio": 505.44
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1395,
+      "dataProximoConcurso": "06/06/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 24729388.0,
+      "valorAcumuladoConcurso_0_5": 11764027.65,
+      "valorAcumuladoConcursoEspecial": 19850902.89,
+      "valorAcumuladoProximoConcurso": 11764027.65,
+      "valorEstimadoProximoConcurso": 15000000.0
+    }
+  },
+  {
+    "draw_id": 1395,
+    "draw_date": "2012-06-06",
+    "numbers": [
+      5,
+      11,
+      17,
+      19,
+      44,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1395,
+      "data": "06/06/2012",
+      "local": "Caminh\u00e3o da Sorte em JACUTINGA, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "05",
+        "44",
+        "11",
+        "19",
+        "17",
+        "48"
+      ],
+      "dezenas": [
+        "05",
+        "11",
+        "17",
+        "19",
+        "44",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 245,
+          "valorPremio": 8770.07
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 13657,
+          "valorPremio": 224.75
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1396,
+      "dataProximoConcurso": "09/06/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 36700846.0,
+      "valorAcumuladoConcurso_0_5": 2487931.02,
+      "valorAcumuladoConcursoEspecial": 20416341.78,
+      "valorAcumuladoProximoConcurso": 15722099.73,
+      "valorEstimadoProximoConcurso": 20000000.0
+    }
+  },
+  {
+    "draw_id": 1396,
+    "draw_date": "2012-06-09",
+    "numbers": [
+      29,
+      48,
+      52,
+      54,
+      55,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1396,
+      "data": "09/06/2012",
+      "local": "Caminh\u00e3o da Sorte em JACUTINGA, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "52",
+        "48",
+        "54",
+        "58",
+        "55",
+        "29"
+      ],
+      "dezenas": [
+        "29",
+        "48",
+        "52",
+        "54",
+        "55",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 44,
+          "valorPremio": 51823.24
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4577,
+          "valorPremio": 711.7
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1397,
+      "dataProximoConcurso": "13/06/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 38947900.0,
+      "valorAcumuladoConcurso_0_5": 5128188.65,
+      "valorAcumuladoConcursoEspecial": 21016400.35,
+      "valorAcumuladoProximoConcurso": 19922509.6,
+      "valorEstimadoProximoConcurso": 25000000.0
+    }
+  },
+  {
+    "draw_id": 1397,
+    "draw_date": "2012-06-13",
+    "numbers": [
+      3,
+      4,
+      7,
+      15,
+      27,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1397,
+      "data": "13/06/2012",
+      "local": "Caminh\u00e3o da Sorte em REDEN\u00c7\u00c3O, PA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "15",
+        "56",
+        "03",
+        "27",
+        "04",
+        "07"
+      ],
+      "dezenas": [
+        "03",
+        "04",
+        "07",
+        "15",
+        "27",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 249,
+          "valorPremio": 11336.06
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 18115,
+          "valorPremio": 222.59
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1398,
+      "dataProximoConcurso": "16/06/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 48213450.0,
+      "valorAcumuladoConcurso_0_5": 8396553.04,
+      "valorAcumuladoConcursoEspecial": 21759210.45,
+      "valorAcumuladoProximoConcurso": 25122180.21,
+      "valorEstimadoProximoConcurso": 31000000.0
+    }
+  },
+  {
+    "draw_id": 1398,
+    "draw_date": "2012-06-16",
+    "numbers": [
+      14,
+      32,
+      33,
+      40,
+      42,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1398,
+      "data": "16/06/2012",
+      "local": "Caminh\u00e3o da Sorte em REDEN\u00c7\u00c3O, PA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "42",
+        "51",
+        "14",
+        "40",
+        "32",
+        "33"
+      ],
+      "dezenas": [
+        "14",
+        "32",
+        "33",
+        "40",
+        "42",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 75,
+          "valorPremio": 43777.11
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7149,
+          "valorPremio": 656.09
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1399,
+      "dataProximoConcurso": "20/06/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 56080918.0,
+      "valorAcumuladoConcurso_0_5": 12198248.93,
+      "valorAcumuladoConcursoEspecial": 22623232.27,
+      "valorAcumuladoProximoConcurso": 31170332.79,
+      "valorEstimadoProximoConcurso": 37000000.0
+    }
+  },
+  {
+    "draw_id": 1399,
+    "draw_date": "2012-06-20",
+    "numbers": [
+      34,
+      39,
+      43,
+      56,
+      57,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1399,
+      "data": "20/06/2012",
+      "local": "Audit\u00f3rio em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "39",
+        "43",
+        "60",
+        "57",
+        "34",
+        "56"
+      ],
+      "dezenas": [
+        "34",
+        "39",
+        "43",
+        "56",
+        "57",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 19136470.53
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 648,
+          "valorPremio": 5950.16
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9834,
+          "valorPremio": 560.11
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV.",
+      "acumulou": false,
+      "proximoConcurso": 1400,
+      "dataProximoConcurso": "23/06/2012",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "JARAGU\u00c1",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "GO"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "CURITIBA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        }
+      ],
+      "valorArrecadado": 65858258.0,
+      "valorAcumuladoConcurso_0_5": 16662745.57,
+      "valorAcumuladoConcursoEspecial": 23637890.6,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 20000000.0
+    }
+  },
+  {
+    "draw_id": 1400,
+    "draw_date": "2012-06-23",
+    "numbers": [
+      9,
+      26,
+      34,
+      43,
+      53,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1400,
+      "data": "23/06/2012",
+      "local": "Caminh\u00e3o da Sorte em OURIL\u00c2NDIA DO NORTE, PA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "34",
+        "26",
+        "09",
+        "43",
+        "54",
+        "53"
+      ],
+      "dezenas": [
+        "09",
+        "26",
+        "34",
+        "43",
+        "53",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 72,
+          "valorPremio": 30435.06
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6208,
+          "valorPremio": 504.26
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1401,
+      "dataProximoConcurso": "27/06/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 37429448.0,
+      "valorAcumuladoConcurso_0_5": 2537322.57,
+      "valorAcumuladoConcursoEspecial": 24214554.83,
+      "valorAcumuladoProximoConcurso": 20699395.11,
+      "valorEstimadoProximoConcurso": 25000000.0
+    }
+  },
+  {
+    "draw_id": 1401,
+    "draw_date": "2012-06-27",
+    "numbers": [
+      11,
+      12,
+      25,
+      33,
+      48,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1401,
+      "data": "27/06/2012",
+      "local": "Caminh\u00e3o da Sorte em PARAUAPEBAS, PA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "12",
+        "11",
+        "54",
+        "33",
+        "48",
+        "25"
+      ],
+      "dezenas": [
+        "11",
+        "12",
+        "25",
+        "33",
+        "48",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 25157779.26
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 233,
+          "valorPremio": 10387.41
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11965,
+          "valorPremio": 288.96
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1402,
+      "dataProximoConcurso": "30/06/2012",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "NAVIRA\u00cd",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MS"
+        }
+      ],
+      "valorArrecadado": 41339942.0,
+      "valorAcumuladoConcurso_0_5": 5339735.47,
+      "valorAcumuladoConcursoEspecial": 24851466.86,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1402,
+    "draw_date": "2012-06-30",
+    "numbers": [
+      2,
+      9,
+      10,
+      21,
+      27,
+      38
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1402,
+      "data": "30/06/2012",
+      "local": "Audit\u00f3rio em BRAS\u00cdLIA, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "38",
+        "10",
+        "27",
+        "02",
+        "21",
+        "09"
+      ],
+      "dezenas": [
+        "02",
+        "09",
+        "10",
+        "21",
+        "27",
+        "38"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 101,
+          "valorPremio": 15262.45
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7929,
+          "valorPremio": 277.73
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1403,
+      "dataProximoConcurso": "04/07/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 26330100.0,
+      "valorAcumuladoConcurso_0_5": 7124639.08,
+      "valorAcumuladoConcursoEspecial": 25257126.79,
+      "valorAcumuladoProximoConcurso": 2839619.38,
+      "valorEstimadoProximoConcurso": 6000000.0
+    }
+  },
+  {
+    "draw_id": 1403,
+    "draw_date": "2012-07-04",
+    "numbers": [
+      13,
+      16,
+      20,
+      26,
+      39,
+      42
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1403,
+      "data": "04/07/2012",
+      "local": "Caminh\u00e3o da Sorte em UNA\u00cd, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "16",
+        "39",
+        "13",
+        "26",
+        "42",
+        "20"
+      ],
+      "dezenas": [
+        "13",
+        "16",
+        "20",
+        "26",
+        "39",
+        "42"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 95,
+          "valorPremio": 19010.85
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6176,
+          "valorPremio": 417.75
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1404,
+      "dataProximoConcurso": "07/07/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 30848352.0,
+      "valorAcumuladoConcurso_0_5": 9215832.61,
+      "valorAcumuladoConcursoEspecial": 25732398.05,
+      "valorAcumuladoProximoConcurso": 6166518.19,
+      "valorEstimadoProximoConcurso": 10000000.0
+    }
+  },
+  {
+    "draw_id": 1404,
+    "draw_date": "2012-07-07",
+    "numbers": [
+      7,
+      8,
+      27,
+      31,
+      32,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1404,
+      "data": "07/07/2012",
+      "local": "Caminh\u00e3o da Sorte em UNA\u00cd, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "07",
+        "32",
+        "31",
+        "51",
+        "27",
+        "08"
+      ],
+      "dezenas": [
+        "07",
+        "08",
+        "27",
+        "31",
+        "32",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 88,
+          "valorPremio": 25404.89
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7470,
+          "valorPremio": 427.54
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1405,
+      "dataProximoConcurso": "11/07/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 38186236.0,
+      "valorAcumuladoConcurso_0_5": 22089242.39,
+      "valorAcumuladoConcursoEspecial": 26320721.89,
+      "valorAcumuladoProximoConcurso": 22089242.39,
+      "valorEstimadoProximoConcurso": 27000000.0
+    }
+  },
+  {
+    "draw_id": 1405,
+    "draw_date": "2012-07-11",
+    "numbers": [
+      3,
+      14,
+      17,
+      32,
+      37,
+      39
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1405,
+      "data": "11/07/2012",
+      "local": "Caminh\u00e3o da Sorte em IPAMERI, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "14",
+        "17",
+        "32",
+        "37",
+        "39",
+        "03"
+      ],
+      "dezenas": [
+        "03",
+        "14",
+        "17",
+        "32",
+        "37",
+        "39"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 27622910.73
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 315,
+          "valorPremio": 9536.48
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 15516,
+          "valorPremio": 276.58
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1406,
+      "dataProximoConcurso": "14/07/2012",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "CURITIBA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        }
+      ],
+      "valorArrecadado": 51310412.0,
+      "valorAcumuladoConcurso_0_5": 3478305.81,
+      "valorAcumuladoConcursoEspecial": 27111245.95,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 1406,
+    "draw_date": "2012-07-14",
+    "numbers": [
+      7,
+      10,
+      17,
+      24,
+      38,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1406,
+      "data": "14/07/2012",
+      "local": "Caminh\u00e3o da Sorte em IPAMERI, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "07",
+        "10",
+        "38",
+        "17",
+        "24",
+        "57"
+      ],
+      "dezenas": [
+        "07",
+        "10",
+        "17",
+        "24",
+        "38",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 134,
+          "valorPremio": 12809.17
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9133,
+          "valorPremio": 268.48
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1407,
+      "dataProximoConcurso": "18/07/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 29317880.0,
+      "valorAcumuladoConcurso_0_5": 5465749.45,
+      "valorAcumuladoConcursoEspecial": 27562937.71,
+      "valorAcumuladoProximoConcurso": 3161842.16,
+      "valorEstimadoProximoConcurso": 6000000.0
+    }
+  },
+  {
+    "draw_id": 1407,
+    "draw_date": "2012-07-18",
+    "numbers": [
+      18,
+      29,
+      31,
+      42,
+      43,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1407,
+      "data": "18/07/2012",
+      "local": "Caminh\u00e3o da Sorte em GUAXUP\u00c9, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "53",
+        "42",
+        "31",
+        "43",
+        "29",
+        "18"
+      ],
+      "dezenas": [
+        "18",
+        "29",
+        "31",
+        "42",
+        "43",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 53,
+          "valorPremio": 34598.18
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3583,
+          "valorPremio": 731.11
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1408,
+      "dataProximoConcurso": "21/07/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 31321024.0,
+      "valorAcumuladoConcurso_0_5": 7588985.17,
+      "valorAcumuladoConcursoEspecial": 28045491.3,
+      "valorAcumuladoProximoConcurso": 6539717.17,
+      "valorEstimadoProximoConcurso": 11000000.0
+    }
+  },
+  {
+    "draw_id": 1408,
+    "draw_date": "2012-07-21",
+    "numbers": [
+      4,
+      19,
+      20,
+      24,
+      39,
+      43
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1408,
+      "data": "21/07/2012",
+      "local": "Caminh\u00e3o da Sorte em GUAXUP\u00c9, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "43",
+        "39",
+        "20",
+        "19",
+        "24",
+        "04"
+      ],
+      "dezenas": [
+        "04",
+        "19",
+        "20",
+        "24",
+        "39",
+        "43"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 118,
+          "valorPremio": 19353.93
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8075,
+          "valorPremio": 404.02
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1409,
+      "dataProximoConcurso": "25/07/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 39008398.0,
+      "valorAcumuladoConcurso_0_5": 10233343.93,
+      "valorAcumuladoConcursoEspecial": 28646481.94,
+      "valorAcumuladoProximoConcurso": 10746651.56,
+      "valorEstimadoProximoConcurso": 16000000.0
+    }
+  },
+  {
+    "draw_id": 1409,
+    "draw_date": "2012-07-25",
+    "numbers": [
+      6,
+      19,
+      26,
+      47,
+      50,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1409,
+      "data": "25/07/2012",
+      "local": "Caminh\u00e3o da Sorte em CAETIT\u00c9, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "50",
+        "06",
+        "47",
+        "58",
+        "26",
+        "19"
+      ],
+      "dezenas": [
+        "06",
+        "19",
+        "26",
+        "47",
+        "50",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 96,
+          "valorPremio": 25376.4
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6846,
+          "valorPremio": 508.35
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1410,
+      "dataProximoConcurso": "28/07/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 41611002.0,
+      "valorAcumuladoConcurso_0_5": 28288400.52,
+      "valorAcumuladoConcursoEspecial": 29287570.12,
+      "valorAcumuladoProximoConcurso": 28288400.52,
+      "valorEstimadoProximoConcurso": 33000000.0
+    }
+  },
+  {
+    "draw_id": 1410,
+    "draw_date": "2012-07-28",
+    "numbers": [
+      18,
+      29,
+      40,
+      42,
+      50,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1410,
+      "data": "28/07/2012",
+      "local": "Caminh\u00e3o da Sorte em CAETIT\u00c9, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "54",
+        "29",
+        "18",
+        "42",
+        "40",
+        "50"
+      ],
+      "dezenas": [
+        "18",
+        "29",
+        "40",
+        "42",
+        "50",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 70,
+          "valorPremio": 48372.46
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6917,
+          "valorPremio": 699.32
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1411,
+      "dataProximoConcurso": "01/08/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 57836634.0,
+      "valorAcumuladoConcurso_0_5": 3920714.97,
+      "valorAcumuladoConcursoEspecial": 30178641.72,
+      "valorAcumuladoProximoConcurso": 34525901.6,
+      "valorEstimadoProximoConcurso": 42000000.0
+    }
+  },
+  {
+    "draw_id": 1411,
+    "draw_date": "2012-08-01",
+    "numbers": [
+      8,
+      12,
+      32,
+      44,
+      46,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1411,
+      "data": "01/08/2012",
+      "local": "Caminh\u00e3o da Sorte em GUANAMBI, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "32",
+        "44",
+        "12",
+        "08",
+        "48",
+        "46"
+      ],
+      "dezenas": [
+        "08",
+        "12",
+        "32",
+        "44",
+        "46",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 21505646.36
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 360,
+          "valorPremio": 12795.43
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 21016,
+          "valorPremio": 313.11
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1412,
+      "dataProximoConcurso": "04/08/2012",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "ARAUC\u00c1RIA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PR"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "S\u00c3O BERNARDO DO CAMPO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 78679980.0,
+      "valorAcumuladoConcurso_0_5": 9254389.39,
+      "valorAcumuladoConcursoEspecial": 31390840.47,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 1412,
+    "draw_date": "2012-08-04",
+    "numbers": [
+      6,
+      8,
+      24,
+      37,
+      41,
+      45
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1412,
+      "data": "04/08/2012",
+      "local": "Caminh\u00e3o da Sorte em GUANAMBI, BA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "06",
+        "08",
+        "37",
+        "24",
+        "45",
+        "41"
+      ],
+      "dezenas": [
+        "06",
+        "08",
+        "24",
+        "37",
+        "41",
+        "45"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 3288513.09
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 103,
+          "valorPremio": 17331.97
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6893,
+          "valorPremio": 369.98
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1413,
+      "dataProximoConcurso": "07/08/2012",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "COLATINA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "ES"
+        }
+      ],
+      "valorArrecadado": 30492424.0,
+      "valorAcumuladoConcurso_0_5": 11321454.76,
+      "valorAcumuladoConcursoEspecial": 31860628.06,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1413,
+    "draw_date": "2012-08-07",
+    "numbers": [
+      13,
+      15,
+      33,
+      45,
+      54,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1413,
+      "data": "07/08/2012",
+      "local": "Audit\u00f3rio em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "54",
+        "33",
+        "13",
+        "55",
+        "45",
+        "15"
+      ],
+      "dezenas": [
+        "13",
+        "15",
+        "33",
+        "45",
+        "54",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 70,
+          "valorPremio": 12672.64
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3887,
+          "valorPremio": 326.02
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV.",
+      "acumulou": true,
+      "proximoConcurso": 1414,
+      "dataProximoConcurso": "09/08/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 15152076.0,
+      "valorAcumuladoConcurso_0_5": 12348606.0,
+      "valorAcumuladoConcursoEspecial": 32094071.54,
+      "valorAcumuladoProximoConcurso": 1634104.26,
+      "valorEstimadoProximoConcurso": 4000000.0
+    }
+  },
+  {
+    "draw_id": 1414,
+    "draw_date": "2012-08-09",
+    "numbers": [
+      21,
+      37,
+      44,
+      46,
+      49,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1414,
+      "data": "09/08/2012",
+      "local": "Caminh\u00e3o da Sorte em ASCURRA, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "44",
+        "49",
+        "57",
+        "37",
+        "21",
+        "46"
+      ],
+      "dezenas": [
+        "21",
+        "37",
+        "44",
+        "46",
+        "49",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 36,
+          "valorPremio": 41848.78
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3349,
+          "valorPremio": 642.64
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1415,
+      "dataProximoConcurso": "11/08/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 25733096.0,
+      "valorAcumuladoConcurso_0_5": 18502377.63,
+      "valorAcumuladoConcursoEspecial": 32490533.6,
+      "valorAcumuladoProximoConcurso": 18502377.63,
+      "valorEstimadoProximoConcurso": 22000000.0
+    }
+  },
+  {
+    "draw_id": 1415,
+    "draw_date": "2012-08-11",
+    "numbers": [
+      26,
+      36,
+      40,
+      46,
+      49,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1415,
+      "data": "11/08/2012",
+      "local": "Caminh\u00e3o da Sorte em ASCURRA, SC",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "51",
+        "49",
+        "46",
+        "40",
+        "36",
+        "26"
+      ],
+      "dezenas": [
+        "26",
+        "36",
+        "40",
+        "46",
+        "49",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 39,
+          "valorPremio": 61075.63
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3766,
+          "valorPremio": 903.55
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1416,
+      "dataProximoConcurso": "15/08/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 40685478.0,
+      "valorAcumuladoConcurso_0_5": 2758047.13,
+      "valorAcumuladoConcursoEspecial": 33117362.51,
+      "valorAcumuladoProximoConcurso": 22890179.88,
+      "valorEstimadoProximoConcurso": 28000000.0
+    }
+  },
+  {
+    "draw_id": 1416,
+    "draw_date": "2012-08-15",
+    "numbers": [
+      3,
+      19,
+      22,
+      24,
+      35,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1416,
+      "data": "15/08/2012",
+      "local": "Caminh\u00e3o da Sorte em SOROCABA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "49",
+        "03",
+        "19",
+        "35",
+        "22",
+        "24"
+      ],
+      "dezenas": [
+        "03",
+        "19",
+        "22",
+        "24",
+        "35",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 14192091.49
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 206,
+          "valorPremio": 14477.96
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 14457,
+          "valorPremio": 294.71
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1417,
+      "dataProximoConcurso": "18/08/2012",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "BRAS\u00cdLIA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "DF"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "ESTRELA DO NORTE",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 50942620.0,
+      "valorAcumuladoConcurso_0_5": 6211420.51,
+      "valorAcumuladoConcursoEspecial": 33902220.11,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 1417,
+    "draw_date": "2012-08-18",
+    "numbers": [
+      5,
+      12,
+      45,
+      52,
+      56,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1417,
+      "data": "18/08/2012",
+      "local": "Caminh\u00e3o da Sorte em SOROCABA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "12",
+        "56",
+        "05",
+        "52",
+        "45",
+        "59"
+      ],
+      "dezenas": [
+        "05",
+        "12",
+        "45",
+        "52",
+        "56",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 4,
+          "valorPremio": 773932.3
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 83,
+          "valorPremio": 20247.46
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6383,
+          "valorPremio": 376.11
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1418,
+      "dataProximoConcurso": "22/08/2012",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "NOVA GL\u00d3RIA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "GO"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "CORONEL FABRICIANO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "BOM PRINC\u00cdPIO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RS"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "GUARULHOS",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 28704854.0,
+      "valorAcumuladoConcurso_0_5": 8157307.44,
+      "valorAcumuladoConcursoEspecial": 34344467.15,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1418,
+    "draw_date": "2012-08-22",
+    "numbers": [
+      7,
+      8,
+      10,
+      12,
+      27,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1418,
+      "data": "22/08/2012",
+      "local": "Caminh\u00e3o da Sorte em TAQUARITINGA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "07",
+        "08",
+        "10",
+        "27",
+        "12",
+        "56"
+      ],
+      "dezenas": [
+        "07",
+        "08",
+        "10",
+        "12",
+        "27",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 188,
+          "valorPremio": 7637.07
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11107,
+          "valorPremio": 184.66
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1419,
+      "dataProximoConcurso": "25/08/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 24524004.0,
+      "valorAcumuladoConcurso_0_5": 9819776.75,
+      "valorAcumuladoConcursoEspecial": 34722301.1,
+      "valorAcumuladoProximoConcurso": 2644837.54,
+      "valorEstimadoProximoConcurso": 5600000.0
+    }
+  },
+  {
+    "draw_id": 1419,
+    "draw_date": "2012-08-25",
+    "numbers": [
+      17,
+      21,
+      30,
+      48,
+      52,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1419,
+      "data": "25/08/2012",
+      "local": "Caminh\u00e3o da Sorte em TAQUARITINGA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "52",
+        "21",
+        "48",
+        "58",
+        "30",
+        "17"
+      ],
+      "dezenas": [
+        "17",
+        "21",
+        "30",
+        "48",
+        "52",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 56,
+          "valorPremio": 32191.4
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3828,
+          "valorPremio": 672.75
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1420,
+      "dataProximoConcurso": "29/08/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 30791774.0,
+      "valorAcumuladoConcurso_0_5": 17872769.48,
+      "valorAcumuladoConcursoEspecial": 35196700.69,
+      "valorAcumuladoProximoConcurso": 17872769.48,
+      "valorEstimadoProximoConcurso": 22000000.0
+    }
+  },
+  {
+    "draw_id": 1420,
+    "draw_date": "2012-08-29",
+    "numbers": [
+      2,
+      11,
+      16,
+      18,
+      36,
+      45
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1420,
+      "data": "29/08/2012",
+      "local": "Caminh\u00e3o da Sorte em MORRINHOS, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "45",
+        "16",
+        "18",
+        "11",
+        "36",
+        "02"
+      ],
+      "dezenas": [
+        "02",
+        "11",
+        "16",
+        "18",
+        "36",
+        "45"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 129,
+          "valorPremio": 18723.93
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9189,
+          "valorPremio": 375.5
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1421,
+      "dataProximoConcurso": "01/09/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 41256602.0,
+      "valorAcumuladoConcurso_0_5": 2796763.32,
+      "valorAcumuladoConcursoEspecial": 35832328.73,
+      "valorAcumuladoProximoConcurso": 22322165.67,
+      "valorEstimadoProximoConcurso": 28000000.0
+    }
+  },
+  {
+    "draw_id": 1421,
+    "draw_date": "2012-09-01",
+    "numbers": [
+      19,
+      31,
+      39,
+      44,
+      53,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1421,
+      "data": "01/09/2012",
+      "local": "Caminh\u00e3o da Sorte em MORRINHOS, GO",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "31",
+        "39",
+        "59",
+        "19",
+        "53",
+        "44"
+      ],
+      "dezenas": [
+        "19",
+        "31",
+        "39",
+        "44",
+        "53",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 27700609.77
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 142,
+          "valorPremio": 20561.45
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8046,
+          "valorPremio": 518.39
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1422,
+      "dataProximoConcurso": "05/09/2012",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "S\u00c3O PAULO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 49871110.0,
+      "valorAcumuladoConcurso_0_5": 6177499.61,
+      "valorAcumuladoConcursoEspecial": 36600677.91,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 1422,
+    "draw_date": "2012-09-05",
+    "numbers": [
+      2,
+      5,
+      13,
+      17,
+      39,
+      44
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1422,
+      "data": "05/09/2012",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O LU\u00cdS, MA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "17",
+        "44",
+        "02",
+        "05",
+        "13",
+        "39"
+      ],
+      "dezenas": [
+        "02",
+        "05",
+        "13",
+        "17",
+        "39",
+        "44"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 2662243.82
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 250,
+          "valorPremio": 5780.87
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 12007,
+          "valorPremio": 171.94
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1423,
+      "dataProximoConcurso": "08/09/2012",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "CA\u00c7APAVA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 24685402.0,
+      "valorAcumuladoConcurso_0_5": 7850910.01,
+      "valorAcumuladoConcursoEspecial": 36980998.47,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1423,
+    "draw_date": "2012-09-08",
+    "numbers": [
+      3,
+      8,
+      21,
+      25,
+      27,
+      43
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1423,
+      "data": "08/09/2012",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O LU\u00cdS, MA",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "43",
+        "08",
+        "21",
+        "27",
+        "03",
+        "25"
+      ],
+      "dezenas": [
+        "03",
+        "08",
+        "21",
+        "25",
+        "27",
+        "43"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 3,
+          "valorPremio": 729819.96
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 187,
+          "valorPremio": 6355.96
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8340,
+          "valorPremio": 203.59
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1424,
+      "dataProximoConcurso": "12/09/2012",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "MANAUS",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "AM"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "JABOAT\u00c3O DOS GUARARAPES",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PE"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "MAU\u00c1",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 20301558.0,
+      "valorAcumuladoConcurso_0_5": 9227141.93,
+      "valorAcumuladoConcursoEspecial": 37293778.46,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1424,
+    "draw_date": "2012-09-12",
+    "numbers": [
+      3,
+      7,
+      15,
+      29,
+      38,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1424,
+      "data": "12/09/2012",
+      "local": "Audit\u00f3rio em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "60",
+        "38",
+        "29",
+        "03",
+        "07",
+        "15"
+      ],
+      "dezenas": [
+        "03",
+        "07",
+        "15",
+        "29",
+        "38",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 83,
+          "valorPremio": 16458.38
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6625,
+          "valorPremio": 294.56
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV.",
+      "acumulou": true,
+      "proximoConcurso": 1425,
+      "dataProximoConcurso": "15/09/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 23333070.0,
+      "valorAcumuladoConcurso_0_5": 13325277.46,
+      "valorAcumuladoConcursoEspecial": 37653264.05,
+      "valorAcumuladoProximoConcurso": 13325277.46,
+      "valorEstimadoProximoConcurso": 17000000.0
+    }
+  },
+  {
+    "draw_id": 1425,
+    "draw_date": "2012-09-15",
+    "numbers": [
+      7,
+      16,
+      29,
+      36,
+      38,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1425,
+      "data": "15/09/2012",
+      "local": "Caminh\u00e3o da Sorte em DIAMANTINA, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "07",
+        "29",
+        "50",
+        "16",
+        "38",
+        "36"
+      ],
+      "dezenas": [
+        "07",
+        "16",
+        "29",
+        "36",
+        "38",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 17534538.97
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 82,
+          "valorPremio": 27866.19
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6460,
+          "valorPremio": 505.31
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1426,
+      "dataProximoConcurso": "19/09/2012",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "RIO DE JANEIRO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        }
+      ],
+      "valorArrecadado": 39029976.0,
+      "valorAcumuladoConcurso_0_5": 2645821.53,
+      "valorAcumuladoConcursoEspecial": 38254587.13,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1426,
+    "draw_date": "2012-09-19",
+    "numbers": [
+      6,
+      15,
+      18,
+      24,
+      30,
+      44
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1426,
+      "data": "19/09/2012",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O MATEUS, ES",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "24",
+        "44",
+        "06",
+        "15",
+        "18",
+        "30"
+      ],
+      "dezenas": [
+        "06",
+        "15",
+        "18",
+        "24",
+        "30",
+        "44"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 67,
+          "valorPremio": 19687.18
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5957,
+          "valorPremio": 316.32
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1427,
+      "dataProximoConcurso": "22/09/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 22530210.0,
+      "valorAcumuladoConcurso_0_5": 4173132.59,
+      "valorAcumuladoConcursoEspecial": 38601703.29,
+      "valorAcumuladoProximoConcurso": 2429813.06,
+      "valorEstimadoProximoConcurso": 5500000.0
+    }
+  },
+  {
+    "draw_id": 1427,
+    "draw_date": "2012-09-22",
+    "numbers": [
+      8,
+      39,
+      44,
+      47,
+      53,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1427,
+      "data": "22/09/2012",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O MATEUS, ES",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "47",
+        "44",
+        "53",
+        "56",
+        "08",
+        "39"
+      ],
+      "dezenas": [
+        "08",
+        "39",
+        "44",
+        "47",
+        "53",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 73,
+          "valorPremio": 23322.46
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4824,
+          "valorPremio": 504.18
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1428,
+      "dataProximoConcurso": "26/09/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 29080638.0,
+      "valorAcumuladoConcurso_0_5": 6144493.72,
+      "valorAcumuladoConcursoEspecial": 39049739.92,
+      "valorAcumuladoProximoConcurso": 5566069.41,
+      "valorEstimadoProximoConcurso": 9000000.0
+    }
+  },
+  {
+    "draw_id": 1428,
+    "draw_date": "2012-09-26",
+    "numbers": [
+      7,
+      15,
+      19,
+      34,
+      37,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1428,
+      "data": "26/09/2012",
+      "local": "Caminh\u00e3o da Sorte em MANGARATIBA, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "15",
+        "55",
+        "37",
+        "34",
+        "19",
+        "07"
+      ],
+      "dezenas": [
+        "07",
+        "15",
+        "19",
+        "34",
+        "37",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 8826040.59
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 204,
+          "valorPremio": 8674.99
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9777,
+          "valorPremio": 258.58
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1429,
+      "dataProximoConcurso": "29/09/2012",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "RECIFE",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "PE"
+        }
+      ],
+      "valorArrecadado": 30227772.0,
+      "valorAcumuladoConcurso_0_5": 8193618.47,
+      "valorAcumuladoConcursoEspecial": 39515450.1,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1429,
+    "draw_date": "2012-09-29",
+    "numbers": [
+      9,
+      12,
+      22,
+      39,
+      48,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1429,
+      "data": "29/09/2012",
+      "local": "Caminh\u00e3o da Sorte em MANGARATIBA, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "09",
+        "22",
+        "60",
+        "48",
+        "12",
+        "39"
+      ],
+      "dezenas": [
+        "09",
+        "12",
+        "22",
+        "39",
+        "48",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 59,
+          "valorPremio": 25259.36
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4805,
+          "valorPremio": 443.08
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1430,
+      "dataProximoConcurso": "03/10/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 25455478.0,
+      "valorAcumuladoConcurso_0_5": 12664526.03,
+      "valorAcumuladoConcursoEspecial": 39907634.98,
+      "valorAcumuladoProximoConcurso": 12664526.03,
+      "valorEstimadoProximoConcurso": 16000000.0
+    }
+  },
+  {
+    "draw_id": 1430,
+    "draw_date": "2012-10-03",
+    "numbers": [
+      2,
+      19,
+      22,
+      30,
+      46,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1430,
+      "data": "03/10/2012",
+      "local": "Audit\u00f3rio em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "19",
+        "02",
+        "30",
+        "46",
+        "22",
+        "52"
+      ],
+      "dezenas": [
+        "02",
+        "19",
+        "22",
+        "30",
+        "46",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 87,
+          "valorPremio": 26310.37
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6685,
+          "valorPremio": 489.15
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV.",
+      "acumulou": true,
+      "proximoConcurso": 1431,
+      "dataProximoConcurso": "06/10/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 39097864.0,
+      "valorAcumuladoConcurso_0_5": 2650423.61,
+      "valorAcumuladoConcursoEspecial": 40510004.01,
+      "valorAcumuladoProximoConcurso": 16881109.04,
+      "valorEstimadoProximoConcurso": 22000000.0
+    }
+  },
+  {
+    "draw_id": 1431,
+    "draw_date": "2012-10-06",
+    "numbers": [
+      5,
+      9,
+      13,
+      33,
+      40,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1431,
+      "data": "06/10/2012",
+      "local": "Caminh\u00e3o da Sorte em S\u00c3O MARCOS, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "33",
+        "54",
+        "40",
+        "05",
+        "09",
+        "13"
+      ],
+      "dezenas": [
+        "05",
+        "09",
+        "13",
+        "33",
+        "40",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 278,
+          "valorPremio": 10435.48
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 17721,
+          "valorPremio": 233.86
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1432,
+      "dataProximoConcurso": "10/10/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 49552308.0,
+      "valorAcumuladoConcurso_0_5": 6009548.48,
+      "valorAcumuladoConcursoEspecial": 41273441.49,
+      "valorAcumuladoProximoConcurso": 22225171.32,
+      "valorEstimadoProximoConcurso": 28000000.0
+    }
+  },
+  {
+    "draw_id": 1432,
+    "draw_date": "2012-10-10",
+    "numbers": [
+      16,
+      24,
+      25,
+      42,
+      45,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1432,
+      "data": "10/10/2012",
+      "local": "Caminh\u00e3o da Sorte em TOLEDO, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "16",
+        "24",
+        "25",
+        "45",
+        "59",
+        "42"
+      ],
+      "dezenas": [
+        "16",
+        "24",
+        "25",
+        "42",
+        "45",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 124,
+          "valorPremio": 24792.19
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10268,
+          "valorPremio": 427.71
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1433,
+      "dataProximoConcurso": "13/10/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 52510170.0,
+      "valorAcumuladoConcurso_0_5": 9569185.25,
+      "valorAcumuladoConcursoEspecial": 42082449.86,
+      "valorAcumuladoProximoConcurso": 27888229.83,
+      "valorEstimadoProximoConcurso": 35000000.0
+    }
+  },
+  {
+    "draw_id": 1433,
+    "draw_date": "2012-10-13",
+    "numbers": [
+      4,
+      13,
+      14,
+      40,
+      46,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1433,
+      "data": "13/10/2012",
+      "local": "Caminh\u00e3o da Sorte em TOLEDO , PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "14",
+        "46",
+        "40",
+        "13",
+        "04",
+        "52"
+      ],
+      "dezenas": [
+        "04",
+        "13",
+        "14",
+        "40",
+        "46",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 33905517.49
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 124,
+          "valorPremio": 26342.96
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9358,
+          "valorPremio": 498.66
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1434,
+      "dataProximoConcurso": "17/10/2012",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "VI\u00c7OSA DO CEAR\u00c1",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "CE"
+        }
+      ],
+      "valorArrecadado": 55794726.0,
+      "valorAcumuladoConcurso_0_5": 13351480.35,
+      "valorAcumuladoConcursoEspecial": 42942062.39,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1434,
+    "draw_date": "2012-10-17",
+    "numbers": [
+      3,
+      18,
+      22,
+      34,
+      55,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1434,
+      "data": "17/10/2012",
+      "local": "Caminh\u00e3o da Sorte em SANTA CRUZ DO SUL, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "03",
+        "34",
+        "58",
+        "22",
+        "18",
+        "55"
+      ],
+      "dezenas": [
+        "03",
+        "18",
+        "22",
+        "34",
+        "55",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 1352380.47
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 116,
+          "valorPremio": 12657.75
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6335,
+          "valorPremio": 331.1
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1435,
+      "dataProximoConcurso": "20/10/2012",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "LUIZ ALVES",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SC"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "Ribeir\u00e3o Preto",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 25079638.0,
+      "valorAcumuladoConcurso_0_5": 15051615.79,
+      "valorAcumuladoConcursoEspecial": 43328456.82,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 19000000.0
+    }
+  },
+  {
+    "draw_id": 1435,
+    "draw_date": "2012-10-20",
+    "numbers": [
+      4,
+      15,
+      45,
+      47,
+      50,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1435,
+      "data": "20/10/2012",
+      "local": "Caminh\u00e3o da Sorte em SANTA CRUZ DO SUL, RS",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "45",
+        "47",
+        "50",
+        "52",
+        "15",
+        "04"
+      ],
+      "dezenas": [
+        "04",
+        "15",
+        "45",
+        "47",
+        "50",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 93,
+          "valorPremio": 26165.43
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6915,
+          "valorPremio": 502.71
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1436,
+      "dataProximoConcurso": "24/10/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 41564024.0,
+      "valorAcumuladoConcurso_0_5": 2817603.3,
+      "valorAcumuladoConcursoEspecial": 43968821.22,
+      "valorAcumuladoProximoConcurso": 19534166.5,
+      "valorEstimadoProximoConcurso": 25000000.0
+    }
+  },
+  {
+    "draw_id": 1436,
+    "draw_date": "2012-10-24",
+    "numbers": [
+      1,
+      13,
+      23,
+      24,
+      30,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1436,
+      "data": "24/10/2012",
+      "local": "Caminh\u00e3o da Sorte em VIT\u00d3RIA, ES",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "01",
+        "23",
+        "13",
+        "30",
+        "24",
+        "57"
+      ],
+      "dezenas": [
+        "01",
+        "13",
+        "23",
+        "24",
+        "30",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 127,
+          "valorPremio": 21218.15
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9275,
+          "valorPremio": 415.04
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1437,
+      "dataProximoConcurso": "27/10/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 46027556.0,
+      "valorAcumuladoConcurso_0_5": 5937787.08,
+      "valorAcumuladoConcursoEspecial": 44677953.92,
+      "valorAcumuladoProximoConcurso": 24498095.24,
+      "valorEstimadoProximoConcurso": 30000000.0
+    }
+  },
+  {
+    "draw_id": 1437,
+    "draw_date": "2012-10-27",
+    "numbers": [
+      22,
+      23,
+      26,
+      37,
+      38,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1437,
+      "data": "27/10/2012",
+      "local": "Caminh\u00e3o da Sorte em VIT\u00d3RIA, ES",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "48",
+        "37",
+        "26",
+        "22",
+        "38",
+        "23"
+      ],
+      "dezenas": [
+        "22",
+        "23",
+        "26",
+        "37",
+        "38",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 107,
+          "valorPremio": 33311.44
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8856,
+          "valorPremio": 574.96
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1438,
+      "dataProximoConcurso": "31/10/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 60881314.0,
+      "valorAcumuladoConcurso_0_5": 10064899.3,
+      "valorAcumuladoConcursoEspecial": 45615933.98,
+      "valorAcumuladoProximoConcurso": 31063955.59,
+      "valorEstimadoProximoConcurso": 38000000.0
+    }
+  },
+  {
+    "draw_id": 1438,
+    "draw_date": "2012-10-31",
+    "numbers": [
+      7,
+      14,
+      31,
+      33,
+      36,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1438,
+      "data": "31/10/2012",
+      "local": "Caminh\u00e3o da Sorte em MORUNGABA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "49",
+        "07",
+        "33",
+        "31",
+        "36",
+        "14"
+      ],
+      "dezenas": [
+        "07",
+        "14",
+        "31",
+        "33",
+        "36",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 19240377.33
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 712,
+          "valorPremio": 5654.86
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 19524,
+          "valorPremio": 294.6
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1439,
+      "dataProximoConcurso": "03/11/2012",
+      "localGanhadores": [
+        {
+          "ganhadores": 2,
+          "municipio": "S\u00c3O PAULO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 68771562.0,
+      "valorAcumuladoConcurso_0_5": 14726887.28,
+      "valorAcumuladoConcursoEspecial": 46675476.71,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 1439,
+    "draw_date": "2012-11-03",
+    "numbers": [
+      2,
+      34,
+      35,
+      42,
+      43,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1439,
+      "data": "03/11/2012",
+      "local": "Caminh\u00e3o da Sorte em MORUNGABA, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "35",
+        "55",
+        "02",
+        "43",
+        "34",
+        "42"
+      ],
+      "dezenas": [
+        "02",
+        "34",
+        "35",
+        "42",
+        "43",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 45,
+          "valorPremio": 32387.25
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3961,
+          "valorPremio": 525.63
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1440,
+      "dataProximoConcurso": "07/11/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 24893922.0,
+      "valorAcumuladoConcurso_0_5": 19099165.19,
+      "valorAcumuladoConcursoEspecial": 47059009.86,
+      "valorAcumuladoProximoConcurso": 19099165.19,
+      "valorEstimadoProximoConcurso": 25000000.0
+    }
+  },
+  {
+    "draw_id": 1440,
+    "draw_date": "2012-11-07",
+    "numbers": [
+      2,
+      6,
+      28,
+      36,
+      51,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1440,
+      "data": "07/11/2012",
+      "local": "Caminh\u00e3o da Sorte em REALEZA, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "06",
+        "28",
+        "56",
+        "02",
+        "36",
+        "51"
+      ],
+      "dezenas": [
+        "02",
+        "06",
+        "28",
+        "36",
+        "51",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 24405605.1
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 148,
+          "valorPremio": 19463.78
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11068,
+          "valorPremio": 371.81
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1441,
+      "dataProximoConcurso": "10/11/2012",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "RIALMA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "GO"
+        }
+      ],
+      "valorArrecadado": 49203458.0,
+      "valorAcumuladoConcurso_0_5": 3335476.51,
+      "valorAcumuladoConcursoEspecial": 47817072.71,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2000000.0
+    }
+  },
+  {
+    "draw_id": 1441,
+    "draw_date": "2012-11-10",
+    "numbers": [
+      17,
+      29,
+      36,
+      38,
+      53,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1441,
+      "data": "10/11/2012",
+      "local": "Caminh\u00e3o da Sorte em REALEZA, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "56",
+        "29",
+        "53",
+        "36",
+        "38",
+        "17"
+      ],
+      "dezenas": [
+        "17",
+        "29",
+        "36",
+        "38",
+        "53",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 66,
+          "valorPremio": 26165.75
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5471,
+          "valorPremio": 450.93
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1442,
+      "dataProximoConcurso": "14/11/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 29497406.0,
+      "valorAcumuladoConcurso_0_5": 5335090.13,
+      "valorAcumuladoConcursoEspecial": 48271530.35,
+      "valorAcumuladoProximoConcurso": 3181203.48,
+      "valorEstimadoProximoConcurso": 6700000.0
+    }
+  },
+  {
+    "draw_id": 1442,
+    "draw_date": "2012-11-14",
+    "numbers": [
+      12,
+      13,
+      20,
+      30,
+      34,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1442,
+      "data": "14/11/2012",
+      "local": "Caminh\u00e3o da Sorte em CASCAVEL, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "12",
+        "20",
+        "13",
+        "49",
+        "34",
+        "30"
+      ],
+      "dezenas": [
+        "12",
+        "13",
+        "20",
+        "30",
+        "34",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 80,
+          "valorPremio": 25198.19
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6274,
+          "valorPremio": 459.0
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1443,
+      "dataProximoConcurso": "17/11/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 34432308.0,
+      "valorAcumuladoConcurso_0_5": 7669238.15,
+      "valorAcumuladoConcursoEspecial": 48802018.55,
+      "valorAcumuladoProximoConcurso": 6894620.79,
+      "valorEstimadoProximoConcurso": 11000000.0
+    }
+  },
+  {
+    "draw_id": 1443,
+    "draw_date": "2012-11-17",
+    "numbers": [
+      12,
+      20,
+      32,
+      48,
+      52,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1443,
+      "data": "17/11/2012",
+      "local": "Caminh\u00e3o da Sorte em CASCAVEL, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "52",
+        "32",
+        "12",
+        "54",
+        "20",
+        "48"
+      ],
+      "dezenas": [
+        "12",
+        "20",
+        "32",
+        "48",
+        "52",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 72,
+          "valorPremio": 29228.38
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5984,
+          "valorPremio": 502.39
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1444,
+      "dataProximoConcurso": "21/11/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 35945462.0,
+      "valorAcumuladoConcurso_0_5": 10105962.09,
+      "valorAcumuladoConcursoEspecial": 49355819.46,
+      "valorAcumuladoProximoConcurso": 10771227.06,
+      "valorEstimadoProximoConcurso": 15000000.0
+    }
+  },
+  {
+    "draw_id": 1444,
+    "draw_date": "2012-11-21",
+    "numbers": [
+      2,
+      5,
+      27,
+      28,
+      48,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1444,
+      "data": "21/11/2012",
+      "local": "Caminh\u00e3o da Sorte em QUATIS, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "02",
+        "05",
+        "55",
+        "28",
+        "27",
+        "48"
+      ],
+      "dezenas": [
+        "02",
+        "05",
+        "27",
+        "28",
+        "48",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 175,
+          "valorPremio": 13021.24
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11165,
+          "valorPremio": 291.56
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1445,
+      "dataProximoConcurso": "24/11/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 38922186.0,
+      "valorAcumuladoConcurso_0_5": 27713340.32,
+      "valorAcumuladoConcursoEspecial": 49955481.87,
+      "valorAcumuladoProximoConcurso": 27713340.32,
+      "valorEstimadoProximoConcurso": 32000000.0
+    }
+  },
+  {
+    "draw_id": 1445,
+    "draw_date": "2012-11-24",
+    "numbers": [
+      5,
+      19,
+      32,
+      41,
+      49,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1445,
+      "data": "24/11/2012",
+      "local": "Caminh\u00e3o da Sorte em QUATIS, RJ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "41",
+        "32",
+        "19",
+        "58",
+        "05",
+        "49"
+      ],
+      "dezenas": [
+        "05",
+        "19",
+        "32",
+        "41",
+        "49",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 33883410.57
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 133,
+          "valorPremio": 25183.96
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10497,
+          "valorPremio": 455.83
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1446,
+      "dataProximoConcurso": "28/11/2012",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "ARAX\u00c1",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        }
+      ],
+      "valorArrecadado": 57211388.0,
+      "valorAcumuladoConcurso_0_5": 3878329.87,
+      "valorAcumuladoConcursoEspecial": 50836920.5,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 1446,
+    "draw_date": "2012-11-28",
+    "numbers": [
+      6,
+      13,
+      24,
+      32,
+      40,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1446,
+      "data": "28/11/2012",
+      "local": "Caminh\u00e3o da Sorte em JAGUAPIT\u00c3, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "13",
+        "32",
+        "06",
+        "51",
+        "40",
+        "24"
+      ],
+      "dezenas": [
+        "06",
+        "13",
+        "24",
+        "32",
+        "40",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 2639040.77
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 87,
+          "valorPremio": 16466.92
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5521,
+          "valorPremio": 370.69
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 1447,
+      "dataProximoConcurso": "01/12/2012",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "RIBEIR\u00c3O PIRES",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 24470254.0,
+      "valorAcumuladoConcurso_0_5": 5537155.5,
+      "valorAcumuladoConcursoEspecial": 51213926.34,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  },
+  {
+    "draw_id": 1447,
+    "draw_date": "2012-12-01",
+    "numbers": [
+      1,
+      19,
+      28,
+      33,
+      39,
+      41
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1447,
+      "data": "01/12/2012",
+      "local": "Caminh\u00e3o da Sorte em JAGUAPIT\u00c3, PR",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "01",
+        "41",
+        "28",
+        "33",
+        "39",
+        "19"
+      ],
+      "dezenas": [
+        "01",
+        "19",
+        "28",
+        "33",
+        "39",
+        "41"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 51,
+          "valorPremio": 32040.96
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4339,
+          "valorPremio": 538.0
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1448,
+      "dataProximoConcurso": "05/12/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 27911454.0,
+      "valorAcumuladoConcurso_0_5": 7429258.26,
+      "valorAcumuladoConcursoEspecial": 51643949.71,
+      "valorAcumuladoProximoConcurso": 3010163.5,
+      "valorEstimadoProximoConcurso": 6000000.0
+    }
+  },
+  {
+    "draw_id": 1448,
+    "draw_date": "2012-12-05",
+    "numbers": [
+      1,
+      25,
+      29,
+      36,
+      56,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1448,
+      "data": "05/12/2012",
+      "local": "Audit\u00f3rio em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "25",
+        "29",
+        "36",
+        "01",
+        "56",
+        "60"
+      ],
+      "dezenas": [
+        "01",
+        "25",
+        "29",
+        "36",
+        "56",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 83,
+          "valorPremio": 21898.01
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6212,
+          "valorPremio": 417.97
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV.",
+      "acumulou": true,
+      "proximoConcurso": 1449,
+      "dataProximoConcurso": "08/12/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 31044854.0,
+      "valorAcumuladoConcurso_0_5": 9533772.56,
+      "valorAcumuladoConcursoEspecial": 52122248.43,
+      "valorAcumuladoProximoConcurso": 6358254.43,
+      "valorEstimadoProximoConcurso": 10000000.0
+    }
+  },
+  {
+    "draw_id": 1449,
+    "draw_date": "2012-12-08",
+    "numbers": [
+      2,
+      6,
+      18,
+      30,
+      52,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1449,
+      "data": "08/12/2012",
+      "local": "Audit\u00f3rio em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "02",
+        "18",
+        "30",
+        "56",
+        "52",
+        "06"
+      ],
+      "dezenas": [
+        "02",
+        "06",
+        "18",
+        "30",
+        "52",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 116,
+          "valorPremio": 18517.69
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8481,
+          "valorPremio": 361.82
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV.",
+      "acumulou": true,
+      "proximoConcurso": 1450,
+      "dataProximoConcurso": "12/12/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 36690336.0,
+      "valorAcumuladoConcurso_0_5": 22336184.15,
+      "valorAcumuladoConcursoEspecial": 52687525.39,
+      "valorAcumuladoProximoConcurso": 22336184.15,
+      "valorEstimadoProximoConcurso": 27000000.0
+    }
+  },
+  {
+    "draw_id": 1450,
+    "draw_date": "2012-12-12",
+    "numbers": [
+      26,
+      27,
+      31,
+      38,
+      44,
+      45
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1450,
+      "data": "12/12/2012",
+      "local": "Caminh\u00e3o da Sorte em CARMO DO RIO CLARO, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "27",
+        "45",
+        "44",
+        "26",
+        "38",
+        "31"
+      ],
+      "dezenas": [
+        "26",
+        "27",
+        "31",
+        "38",
+        "44",
+        "45"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 88,
+          "valorPremio": 30888.14
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7146,
+          "valorPremio": 543.39
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1451,
+      "dataProximoConcurso": "15/12/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 46428132.0,
+      "valorAcumuladoConcurso_0_5": 3147338.63,
+      "valorAcumuladoConcursoEspecial": 53402829.63,
+      "valorAcumuladoProximoConcurso": 27343313.77,
+      "valorEstimadoProximoConcurso": 33000000.0
+    }
+  },
+  {
+    "draw_id": 1451,
+    "draw_date": "2012-12-15",
+    "numbers": [
+      2,
+      10,
+      11,
+      33,
+      52,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1451,
+      "data": "15/12/2012",
+      "local": "Caminh\u00e3o da Sorte em CARMO DO RIO CLARO, MG",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "57",
+        "10",
+        "33",
+        "02",
+        "11",
+        "52"
+      ],
+      "dezenas": [
+        "02",
+        "10",
+        "11",
+        "33",
+        "52",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 164,
+          "valorPremio": 19191.54
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 12868,
+          "valorPremio": 349.41
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1452,
+      "dataProximoConcurso": "18/12/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 53760158.0,
+      "valorAcumuladoConcurso_0_5": 6791711.43,
+      "valorAcumuladoConcursoEspecial": 54231096.19,
+      "valorAcumuladoProximoConcurso": 33141179.59,
+      "valorEstimadoProximoConcurso": 40000000.0
+    }
+  },
+  {
+    "draw_id": 1452,
+    "draw_date": "2012-12-18",
+    "numbers": [
+      2,
+      14,
+      28,
+      50,
+      57,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1452,
+      "data": "18/12/2012",
+      "local": "Audit\u00f3rio em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "50",
+        "57",
+        "58",
+        "28",
+        "02",
+        "14"
+      ],
+      "dezenas": [
+        "02",
+        "14",
+        "28",
+        "50",
+        "57",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 60,
+          "valorPremio": 36504.89
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5878,
+          "valorPremio": 532.32
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV.",
+      "acumulou": true,
+      "proximoConcurso": 1453,
+      "dataProximoConcurso": "20/12/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 37411840.0,
+      "valorAcumuladoConcurso_0_5": 9327840.36,
+      "valorAcumuladoConcursoEspecial": 54807489.15,
+      "valorAcumuladoProximoConcurso": 37175930.17,
+      "valorEstimadoProximoConcurso": 41000000.0
+    }
+  },
+  {
+    "draw_id": 1453,
+    "draw_date": "2012-12-20",
+    "numbers": [
+      6,
+      13,
+      25,
+      32,
+      47,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1453,
+      "data": "20/12/2012",
+      "local": "Caminh\u00e3o da Sorte em MACEI\u00d3, AL",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "47",
+        "32",
+        "25",
+        "57",
+        "06",
+        "13"
+      ],
+      "dezenas": [
+        "06",
+        "13",
+        "25",
+        "32",
+        "47",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 282,
+          "valorPremio": 10734.25
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 14237,
+          "valorPremio": 303.74
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 1454,
+      "dataProximoConcurso": "22/12/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 51704394.0,
+      "valorAcumuladoConcurso_0_5": 12832854.0,
+      "valorAcumuladoConcursoEspecial": 55604083.17,
+      "valorAcumuladoProximoConcurso": 42752088.24,
+      "valorEstimadoProximoConcurso": 48000000.0
+    }
+  },
+  {
+    "draw_id": 1454,
+    "draw_date": "2012-12-22",
+    "numbers": [
+      4,
+      27,
+      29,
+      41,
+      48,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1454,
+      "data": "22/12/2012",
+      "local": "Audit\u00f3rio em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "27",
+        "52",
+        "41",
+        "29",
+        "04",
+        "48"
+      ],
+      "dezenas": [
+        "04",
+        "27",
+        "29",
+        "41",
+        "48",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 144,
+          "valorPremio": 23883.32
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11007,
+          "valorPremio": 446.36
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV.",
+      "acumulou": true,
+      "proximoConcurso": 1455,
+      "dataProximoConcurso": "31/12/2012",
+      "localGanhadores": [],
+      "valorArrecadado": 58744064.0,
+      "valorAcumuladoConcurso_0_5": 122411671.25,
+      "valorAcumuladoConcursoEspecial": 122411671.25,
+      "valorAcumuladoProximoConcurso": 122411671.25,
+      "valorEstimadoProximoConcurso": 230000000.0
+    }
+  },
+  {
+    "draw_id": 1455,
+    "draw_date": "2012-12-31",
+    "numbers": [
+      14,
+      32,
+      33,
+      36,
+      41,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 1455,
+      "data": "31/12/2012",
+      "local": "Audit\u00f3rio em S\u00c3O PAULO, SP",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "33",
+        "14",
+        "52",
+        "36",
+        "32",
+        "41"
+      ],
+      "dezenas": [
+        "14",
+        "32",
+        "33",
+        "36",
+        "41",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 3,
+          "valorPremio": 81594699.72
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 1368,
+          "valorPremio": 27413.18
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 113258,
+          "valorPremio": 473.01
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "SORTEIO REALIZADO EM EST\u00daDIO DE TV.",
+      "acumulou": false,
+      "proximoConcurso": 1456,
+      "dataProximoConcurso": "02/01/2013",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "APARECIDA DE GOI\u00c2NIA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "GO"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "FRANCA",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "S\u00c3O PAULO",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 640548924.0,
+      "valorAcumuladoConcurso_0_5": 0.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 2500000.0
+    }
+  }
+]

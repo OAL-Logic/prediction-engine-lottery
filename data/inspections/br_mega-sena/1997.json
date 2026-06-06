@@ -1,0 +1,3722 @@
+[
+  {
+    "draw_id": 44,
+    "draw_date": "1997-01-05",
+    "numbers": [
+      14,
+      18,
+      29,
+      38,
+      44,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 44,
+      "data": "05/01/1997",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "47",
+        "38",
+        "18",
+        "14",
+        "29",
+        "44"
+      ],
+      "dezenas": [
+        "14",
+        "18",
+        "29",
+        "38",
+        "44",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 103,
+          "valorPremio": 7099.32
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7742,
+          "valorPremio": 94.45
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 45,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4137173.54,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 2642633.14,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 45,
+    "draw_date": "1997-01-12",
+    "numbers": [
+      7,
+      30,
+      37,
+      44,
+      53,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 45,
+      "data": "12/01/1997",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "30",
+        "07",
+        "37",
+        "55",
+        "44",
+        "53"
+      ],
+      "dezenas": [
+        "07",
+        "30",
+        "37",
+        "44",
+        "53",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 33,
+          "valorPremio": 27201.47
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3004,
+          "valorPremio": 298.82
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 46,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4855292.41,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 3719811.46,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 46,
+    "draw_date": "1997-01-19",
+    "numbers": [
+      1,
+      23,
+      24,
+      32,
+      46,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 46,
+      "data": "19/01/1997",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "32",
+        "46",
+        "01",
+        "60",
+        "24",
+        "23"
+      ],
+      "dezenas": [
+        "01",
+        "23",
+        "24",
+        "32",
+        "46",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 91,
+          "valorPremio": 9982.42
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6263,
+          "valorPremio": 145.04
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 47,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5582012.48,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 4809891.56,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 47,
+    "draw_date": "1997-01-26",
+    "numbers": [
+      3,
+      17,
+      25,
+      35,
+      48,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 47,
+      "data": "26/01/1997",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "35",
+        "17",
+        "03",
+        "48",
+        "25",
+        "56"
+      ],
+      "dezenas": [
+        "03",
+        "17",
+        "25",
+        "35",
+        "48",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 210,
+          "valorPremio": 4458.44
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10873,
+          "valorPremio": 85.94
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 48,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6331030.45,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 5933418.51,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 48,
+    "draw_date": "1997-02-02",
+    "numbers": [
+      2,
+      5,
+      28,
+      34,
+      47,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 48,
+      "data": "02/02/1997",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "47",
+        "05",
+        "34",
+        "28",
+        "02",
+        "50"
+      ],
+      "dezenas": [
+        "02",
+        "05",
+        "28",
+        "34",
+        "47",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 132,
+          "valorPremio": 7482.95
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7454,
+          "valorPremio": 132.25
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 49,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7121229.7,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 7118717.38,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 49,
+    "draw_date": "1997-02-09",
+    "numbers": [
+      7,
+      13,
+      33,
+      35,
+      43,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 49,
+      "data": "09/02/1997",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "33",
+        "07",
+        "43",
+        "35",
+        "13",
+        "55"
+      ],
+      "dezenas": [
+        "07",
+        "13",
+        "33",
+        "35",
+        "43",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 8405156.76
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 155,
+          "valorPremio": 6916.34
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9830,
+          "valorPremio": 108.85
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Ganhador RJ (Barra Mansa)",
+      "acumulou": false,
+      "proximoConcurso": 50,
+      "dataProximoConcurso": "",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7978855.95,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 50,
+    "draw_date": "1997-02-16",
+    "numbers": [
+      6,
+      16,
+      21,
+      44,
+      57,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 50,
+      "data": "16/02/1997",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "57",
+        "44",
+        "21",
+        "16",
+        "58",
+        "06"
+      ],
+      "dezenas": [
+        "06",
+        "16",
+        "21",
+        "44",
+        "57",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 31,
+          "valorPremio": 25241.25
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2800,
+          "valorPremio": 278.91
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 51,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 625982.96,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 8917830.39,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 51,
+    "draw_date": "1997-02-23",
+    "numbers": [
+      17,
+      23,
+      24,
+      25,
+      42,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 51,
+      "data": "23/02/1997",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "23",
+        "24",
+        "42",
+        "25",
+        "17",
+        "47"
+      ],
+      "dezenas": [
+        "17",
+        "23",
+        "24",
+        "25",
+        "42",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 143,
+          "valorPremio": 7231.47
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9361,
+          "valorPremio": 110.25
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 52,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1453262.52,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 10158749.73,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 52,
+    "draw_date": "1997-03-02",
+    "numbers": [
+      15,
+      30,
+      38,
+      46,
+      58,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 52,
+      "data": "02/03/1997",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "58",
+        "15",
+        "59",
+        "30",
+        "38",
+        "46"
+      ],
+      "dezenas": [
+        "15",
+        "30",
+        "38",
+        "46",
+        "58",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 77,
+          "valorPremio": 15544.23
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6442,
+          "valorPremio": 185.43
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 53,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2410787.17,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 11595036.71,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 53,
+    "draw_date": "1997-03-09",
+    "numbers": [
+      3,
+      13,
+      16,
+      38,
+      42,
+      46
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 53,
+      "data": "09/03/1997",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "42",
+        "13",
+        "03",
+        "46",
+        "38",
+        "16"
+      ],
+      "dezenas": [
+        "03",
+        "13",
+        "16",
+        "38",
+        "42",
+        "46"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 210,
+          "valorPremio": 6337.79
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10941,
+          "valorPremio": 121.41
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 54,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3475535.67,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 13192159.46,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 54,
+    "draw_date": "1997-03-16",
+    "numbers": [
+      5,
+      9,
+      18,
+      21,
+      36,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 54,
+      "data": "16/03/1997",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "05",
+        "21",
+        "09",
+        "56",
+        "18",
+        "36"
+      ],
+      "dezenas": [
+        "05",
+        "09",
+        "18",
+        "21",
+        "36",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 7469653.99
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 207,
+          "valorPremio": 7033.61
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 13067,
+          "valorPremio": 111.2
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Ganhadores dos estados: BA e SP.",
+      "acumulou": false,
+      "proximoConcurso": 55,
+      "dataProximoConcurso": "",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "BA"
+        },
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4640301.36,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 55,
+    "draw_date": "1997-03-23",
+    "numbers": [
+      2,
+      14,
+      23,
+      29,
+      38,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 55,
+      "data": "23/03/1997",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "29",
+        "02",
+        "14",
+        "38",
+        "23",
+        "52"
+      ],
+      "dezenas": [
+        "02",
+        "14",
+        "23",
+        "29",
+        "38",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 66,
+          "valorPremio": 10817.63
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3840,
+          "valorPremio": 185.56
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 56,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5211472.28,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 856756.39,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 56,
+    "draw_date": "1997-03-30",
+    "numbers": [
+      2,
+      7,
+      20,
+      35,
+      51,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 56,
+      "data": "30/03/1997",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "51",
+        "35",
+        "59",
+        "07",
+        "20",
+        "02"
+      ],
+      "dezenas": [
+        "02",
+        "07",
+        "20",
+        "35",
+        "51",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 48,
+          "valorPremio": 12142.2
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2599,
+          "valorPremio": 223.81
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 57,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5677732.99,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1556147.46,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 57,
+    "draw_date": "1997-04-06",
+    "numbers": [
+      7,
+      16,
+      17,
+      27,
+      34,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 57,
+      "data": "06/04/1997",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "27",
+        "17",
+        "16",
+        "34",
+        "07",
+        "59"
+      ],
+      "dezenas": [
+        "07",
+        "16",
+        "17",
+        "27",
+        "34",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 79,
+          "valorPremio": 10699.1
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6173,
+          "valorPremio": 136.65
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 58,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6353915.88,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 2570421.8,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 58,
+    "draw_date": "1997-04-13",
+    "numbers": [
+      12,
+      27,
+      30,
+      37,
+      44,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 58,
+      "data": "13/04/1997",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "30",
+        "49",
+        "27",
+        "37",
+        "12",
+        "44"
+      ],
+      "dezenas": [
+        "12",
+        "27",
+        "30",
+        "37",
+        "44",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 3631304.91
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 65,
+          "valorPremio": 13601.07
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5040,
+          "valorPremio": 175.06
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Ganhador do Estado: SP",
+      "acumulou": false,
+      "proximoConcurso": 59,
+      "dataProximoConcurso": "",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "SP"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7061171.29,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 59,
+    "draw_date": "1997-04-20",
+    "numbers": [
+      2,
+      8,
+      13,
+      28,
+      34,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 59,
+      "data": "20/04/1997",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "28",
+        "13",
+        "34",
+        "02",
+        "08",
+        "54"
+      ],
+      "dezenas": [
+        "02",
+        "08",
+        "13",
+        "28",
+        "34",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 90,
+          "valorPremio": 7312.34
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5351,
+          "valorPremio": 122.75
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 60,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7587660.23,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 789733.42,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 60,
+    "draw_date": "1997-04-27",
+    "numbers": [
+      3,
+      14,
+      15,
+      20,
+      21,
+      38
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 60,
+      "data": "27/04/1997",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "38",
+        "14",
+        "21",
+        "15",
+        "03",
+        "20"
+      ],
+      "dezenas": [
+        "03",
+        "14",
+        "15",
+        "20",
+        "21",
+        "38"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 129,
+          "valorPremio": 7111.47
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7914,
+          "valorPremio": 115.69
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 61,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 733903.74,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 9478249.26,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 61,
+    "draw_date": "1997-05-04",
+    "numbers": [
+      8,
+      18,
+      29,
+      42,
+      44,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 61,
+      "data": "04/05/1997",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "59",
+        "08",
+        "18",
+        "29",
+        "42",
+        "44"
+      ],
+      "dezenas": [
+        "08",
+        "18",
+        "29",
+        "42",
+        "44",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 52,
+          "valorPremio": 18902.94
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3866,
+          "valorPremio": 253.76
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 62,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1520265.87,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 10657792.45,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 62,
+    "draw_date": "1997-05-11",
+    "numbers": [
+      6,
+      8,
+      13,
+      24,
+      31,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 62,
+      "data": "11/05/1997",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "52",
+        "13",
+        "06",
+        "24",
+        "08",
+        "31"
+      ],
+      "dezenas": [
+        "06",
+        "08",
+        "13",
+        "24",
+        "31",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 119,
+          "valorPremio": 9968.7
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8613,
+          "valorPremio": 137.46
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 63,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2469286.54,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 12081323.45,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 63,
+    "draw_date": "1997-05-18",
+    "numbers": [
+      9,
+      25,
+      26,
+      40,
+      41,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 63,
+      "data": "18/05/1997",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "26",
+        "09",
+        "41",
+        "49",
+        "25",
+        "40"
+      ],
+      "dezenas": [
+        "09",
+        "25",
+        "26",
+        "40",
+        "41",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 13680019.57
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 82,
+          "valorPremio": 16246.91
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6359,
+          "valorPremio": 209.1
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": false,
+      "proximoConcurso": 64,
+      "dataProximoConcurso": "",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "MG"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3535083.96,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 64,
+    "draw_date": "1997-05-25",
+    "numbers": [
+      8,
+      12,
+      23,
+      50,
+      54,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 64,
+      "data": "25/05/1997",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "08",
+        "54",
+        "50",
+        "60",
+        "23",
+        "12"
+      ],
+      "dezenas": [
+        "08",
+        "12",
+        "23",
+        "50",
+        "54",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 29,
+          "valorPremio": 23309.96
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2441,
+          "valorPremio": 276.38
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 65,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4075875.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 811186.58,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 65,
+    "draw_date": "1997-06-01",
+    "numbers": [
+      1,
+      5,
+      20,
+      25,
+      32,
+      34
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 65,
+      "data": "01/06/1997",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "20",
+        "01",
+        "05",
+        "32",
+        "25",
+        "34"
+      ],
+      "dezenas": [
+        "01",
+        "05",
+        "20",
+        "25",
+        "32",
+        "34"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 61,
+          "valorPremio": 11542.37
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4932,
+          "valorPremio": 142.48
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 66,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4639142.68,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1656088.09,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 66,
+    "draw_date": "1997-06-08",
+    "numbers": [
+      12,
+      13,
+      15,
+      26,
+      33,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 66,
+      "data": "08/06/1997",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "15",
+        "26",
+        "12",
+        "33",
+        "48",
+        "13"
+      ],
+      "dezenas": [
+        "12",
+        "13",
+        "15",
+        "26",
+        "33",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 102,
+          "valorPremio": 8054.25
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7686,
+          "valorPremio": 106.68
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 67,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5296369.16,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 2641927.81,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 67,
+    "draw_date": "1997-06-15",
+    "numbers": [
+      12,
+      14,
+      17,
+      27,
+      47,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 67,
+      "data": "15/06/1997",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "47",
+        "14",
+        "27",
+        "52",
+        "17",
+        "12"
+      ],
+      "dezenas": [
+        "12",
+        "14",
+        "17",
+        "27",
+        "47",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 83,
+          "valorPremio": 10617.25
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5479,
+          "valorPremio": 160.52
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 68,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6001354.92,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 3699406.44,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 68,
+    "draw_date": "1997-06-22",
+    "numbers": [
+      1,
+      3,
+      12,
+      13,
+      53,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 68,
+      "data": "22/06/1997",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "53",
+        "13",
+        "03",
+        "01",
+        "12",
+        "59"
+      ],
+      "dezenas": [
+        "01",
+        "03",
+        "12",
+        "13",
+        "53",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 49,
+          "valorPremio": 18496.73
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4758,
+          "valorPremio": 190.11
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 69,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6726426.93,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 4787014.46,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 69,
+    "draw_date": "1997-06-29",
+    "numbers": [
+      25,
+      34,
+      45,
+      53,
+      56,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 69,
+      "data": "29/06/1997",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "56",
+        "58",
+        "34",
+        "53",
+        "25",
+        "45"
+      ],
+      "dezenas": [
+        "25",
+        "34",
+        "45",
+        "53",
+        "56",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 55,
+          "valorPremio": 17271.48
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3661,
+          "valorPremio": 258.96
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 70,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7486371.91,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 5926931.93,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 70,
+    "draw_date": "1997-07-06",
+    "numbers": [
+      17,
+      23,
+      27,
+      40,
+      43,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 70,
+      "data": "06/07/1997",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "40",
+        "17",
+        "23",
+        "43",
+        "27",
+        "58"
+      ],
+      "dezenas": [
+        "17",
+        "23",
+        "27",
+        "40",
+        "43",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 95,
+          "valorPremio": 12899.52
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6071,
+          "valorPremio": 201.46
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 71,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 980363.16,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 14883849.29,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 71,
+    "draw_date": "1997-07-13",
+    "numbers": [
+      16,
+      27,
+      33,
+      43,
+      45,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 71,
+      "data": "13/07/1997",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "53",
+        "16",
+        "45",
+        "43",
+        "33",
+        "27"
+      ],
+      "dezenas": [
+        "16",
+        "27",
+        "33",
+        "43",
+        "45",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 115,
+          "valorPremio": 12451.74
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7430,
+          "valorPremio": 192.35
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 72,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2125923.08,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 16602188.45,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 72,
+    "draw_date": "1997-07-20",
+    "numbers": [
+      1,
+      19,
+      34,
+      43,
+      44,
+      48
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 72,
+      "data": "20/07/1997",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "19",
+        "48",
+        "43",
+        "01",
+        "34",
+        "44"
+      ],
+      "dezenas": [
+        "01",
+        "19",
+        "34",
+        "43",
+        "44",
+        "48"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 85,
+          "valorPremio": 19676.33
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7982,
+          "valorPremio": 209.13
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 73,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3463913.61,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 18609174.26,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 73,
+    "draw_date": "1997-07-27",
+    "numbers": [
+      25,
+      26,
+      28,
+      45,
+      51,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 73,
+      "data": "27/07/1997",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "57",
+        "25",
+        "45",
+        "28",
+        "51",
+        "26"
+      ],
+      "dezenas": [
+        "25",
+        "26",
+        "28",
+        "45",
+        "51",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 21026575.4
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 95,
+          "valorPremio": 21205.27
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8222,
+          "valorPremio": 244.52
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "GANHADOR: BA - SALVADOR",
+      "acumulou": false,
+      "proximoConcurso": 74,
+      "dataProximoConcurso": "",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "BA"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5075514.37,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 74,
+    "draw_date": "1997-08-03",
+    "numbers": [
+      2,
+      24,
+      34,
+      37,
+      38,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 74,
+      "data": "03/08/1997",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "02",
+        "24",
+        "34",
+        "50",
+        "38",
+        "37"
+      ],
+      "dezenas": [
+        "02",
+        "24",
+        "34",
+        "37",
+        "38",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 40,
+          "valorPremio": 18257.68
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3321,
+          "valorPremio": 219.48
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 75,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5659760.18,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 876368.71,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 75,
+    "draw_date": "1997-08-10",
+    "numbers": [
+      21,
+      24,
+      35,
+      36,
+      37,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 75,
+      "data": "10/08/1997",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "36",
+        "49",
+        "37",
+        "35",
+        "24",
+        "21"
+      ],
+      "dezenas": [
+        "21",
+        "24",
+        "35",
+        "36",
+        "37",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 70,
+          "valorPremio": 12395.02
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5032,
+          "valorPremio": 172.09
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 76,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6353881.05,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1917550.02,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 76,
+    "draw_date": "1997-08-17",
+    "numbers": [
+      8,
+      17,
+      18,
+      23,
+      33,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 76,
+      "data": "17/08/1997",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "33",
+        "18",
+        "23",
+        "08",
+        "17",
+        "53"
+      ],
+      "dezenas": [
+        "08",
+        "17",
+        "18",
+        "23",
+        "33",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 92,
+          "valorPremio": 10247.61
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6399,
+          "valorPremio": 147.04
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 77,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7108105.13,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 3048886.14,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 77,
+    "draw_date": "1997-08-24",
+    "numbers": [
+      21,
+      29,
+      40,
+      49,
+      54,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 77,
+      "data": "24/08/1997",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "29",
+        "54",
+        "40",
+        "57",
+        "49",
+        "21"
+      ],
+      "dezenas": [
+        "21",
+        "29",
+        "40",
+        "49",
+        "54",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 20,
+          "valorPremio": 49648.81
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2635,
+          "valorPremio": 376.09
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 78,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7902486.1,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 4240457.6,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 78,
+    "draw_date": "1997-08-31",
+    "numbers": [
+      12,
+      22,
+      25,
+      31,
+      32,
+      46
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 78,
+      "data": "31/08/1997",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "22",
+        "32",
+        "46",
+        "12",
+        "25",
+        "31"
+      ],
+      "dezenas": [
+        "12",
+        "22",
+        "25",
+        "31",
+        "32",
+        "46"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 103,
+          "valorPremio": 9907.36
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5984,
+          "valorPremio": 170.19
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 79,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 8718851.96,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 5465006.39,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 79,
+    "draw_date": "1997-09-07",
+    "numbers": [
+      2,
+      13,
+      17,
+      25,
+      31,
+      43
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 79,
+      "data": "07/09/1997",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "43",
+        "25",
+        "02",
+        "13",
+        "31",
+        "17"
+      ],
+      "dezenas": [
+        "02",
+        "13",
+        "17",
+        "25",
+        "31",
+        "43"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 6770601.75
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 247,
+          "valorPremio": 4404.85
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 13375,
+          "valorPremio": 81.18
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "O ganhador da SENA do Estado do Rio Grande do Sul",
+      "acumulou": false,
+      "proximoConcurso": 80,
+      "dataProximoConcurso": "",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RS"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 9589248.87,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 80,
+    "draw_date": "1997-09-14",
+    "numbers": [
+      23,
+      28,
+      37,
+      40,
+      48,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 80,
+      "data": "14/09/1997",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "51",
+        "40",
+        "37",
+        "23",
+        "48",
+        "28"
+      ],
+      "dezenas": [
+        "23",
+        "28",
+        "37",
+        "40",
+        "48",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 43,
+          "valorPremio": 26443.0
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4284,
+          "valorPremio": 264.89
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 81,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 909639.11,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 10953707.53,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 81,
+    "draw_date": "1997-09-21",
+    "numbers": [
+      10,
+      23,
+      41,
+      47,
+      54,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 81,
+      "data": "21/09/1997",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "47",
+        "41",
+        "10",
+        "60",
+        "54",
+        "23"
+      ],
+      "dezenas": [
+        "10",
+        "23",
+        "41",
+        "47",
+        "54",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 62,
+          "valorPremio": 19453.15
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4870,
+          "valorPremio": 247.17
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 82,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1874515.21,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 12401021.68,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 82,
+    "draw_date": "1997-09-28",
+    "numbers": [
+      15,
+      18,
+      29,
+      36,
+      51,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 82,
+      "data": "28/09/1997",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "51",
+        "36",
+        "53",
+        "29",
+        "18",
+        "15"
+      ],
+      "dezenas": [
+        "15",
+        "18",
+        "29",
+        "36",
+        "51",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 13877826.02
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 77,
+          "valorPremio": 15982.73
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5889,
+          "valorPremio": 208.57
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Ganhador da SENA do Estado da Bahia.",
+      "acumulou": false,
+      "proximoConcurso": 83,
+      "dataProximoConcurso": "",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "BA"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2859051.43,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 83,
+    "draw_date": "1997-10-05",
+    "numbers": [
+      4,
+      15,
+      16,
+      24,
+      42,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 83,
+      "data": "05/10/1997",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "24",
+        "16",
+        "04",
+        "42",
+        "57",
+        "15"
+      ],
+      "dezenas": [
+        "04",
+        "15",
+        "16",
+        "24",
+        "42",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 76,
+          "valorPremio": 9408.43
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4756,
+          "valorPremio": 150.04
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 84,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3431084.05,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 858048.93,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 84,
+    "draw_date": "1997-10-12",
+    "numbers": [
+      4,
+      6,
+      10,
+      25,
+      34,
+      40
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 84,
+      "data": "12/10/1997",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "10",
+        "34",
+        "04",
+        "06",
+        "25",
+        "40"
+      ],
+      "dezenas": [
+        "04",
+        "06",
+        "10",
+        "25",
+        "34",
+        "40"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 102,
+          "valorPremio": 7539.68
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5546,
+          "valorPremio": 138.4
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 85,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4046321.96,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1780905.8,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 85,
+    "draw_date": "1997-10-19",
+    "numbers": [
+      6,
+      15,
+      30,
+      37,
+      45,
+      47
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 85,
+      "data": "19/10/1997",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "47",
+        "15",
+        "30",
+        "37",
+        "45",
+        "06"
+      ],
+      "dezenas": [
+        "06",
+        "15",
+        "30",
+        "37",
+        "45",
+        "47"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 45,
+          "valorPremio": 17279.25
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4312,
+          "valorPremio": 179.96
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 86,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4668374.67,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 2713984.86,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 86,
+    "draw_date": "1997-10-26",
+    "numbers": [
+      6,
+      21,
+      22,
+      34,
+      36,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 86,
+      "data": "26/10/1997",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "54",
+        "21",
+        "06",
+        "34",
+        "36",
+        "22"
+      ],
+      "dezenas": [
+        "06",
+        "21",
+        "22",
+        "34",
+        "36",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 48,
+          "valorPremio": 16752.96
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3752,
+          "valorPremio": 213.9
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 87,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5311688.21,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 3678955.17,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 87,
+    "draw_date": "1997-11-02",
+    "numbers": [
+      4,
+      5,
+      11,
+      28,
+      32,
+      40
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 87,
+      "data": "02/11/1997",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "40",
+        "04",
+        "28",
+        "32",
+        "11",
+        "05"
+      ],
+      "dezenas": [
+        "04",
+        "05",
+        "11",
+        "28",
+        "32",
+        "40"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 64,
+          "valorPremio": 12696.6
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5195,
+          "valorPremio": 156.11
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "A SENA ESTA ACUMULADA.",
+      "acumulou": true,
+      "proximoConcurso": 88,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5961754.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 4654053.86,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 88,
+    "draw_date": "1997-11-09",
+    "numbers": [
+      4,
+      18,
+      29,
+      37,
+      43,
+      45
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 88,
+      "data": "09/11/1997",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "45",
+        "37",
+        "29",
+        "04",
+        "43",
+        "18"
+      ],
+      "dezenas": [
+        "04",
+        "18",
+        "29",
+        "37",
+        "43",
+        "45"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 110,
+          "valorPremio": 7965.82
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6805,
+          "valorPremio": 128.51
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "A MEGASENA ESTA ACUMULADA",
+      "acumulou": true,
+      "proximoConcurso": 89,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6662745.42,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 5705540.99,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 89,
+    "draw_date": "1997-11-16",
+    "numbers": [
+      13,
+      34,
+      42,
+      44,
+      55,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 89,
+      "data": "16/11/1997",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "59",
+        "42",
+        "34",
+        "13",
+        "44",
+        "55"
+      ],
+      "dezenas": [
+        "13",
+        "34",
+        "42",
+        "44",
+        "55",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 36,
+          "valorPremio": 24246.0
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3847,
+          "valorPremio": 226.45
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "A MEGA SENA EST- ACUMULADA.",
+      "acumulou": true,
+      "proximoConcurso": 90,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7361030.27,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 6752968.26,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 90,
+    "draw_date": "1997-11-23",
+    "numbers": [
+      9,
+      21,
+      26,
+      40,
+      52,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 90,
+      "data": "23/11/1997",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "21",
+        "26",
+        "40",
+        "54",
+        "09",
+        "52"
+      ],
+      "dezenas": [
+        "09",
+        "21",
+        "26",
+        "40",
+        "52",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 15764300.87
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 74,
+          "valorPremio": 18584.49
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4763,
+          "valorPremio": 288.17
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ESTADO CONTEMPLADO COM SENA: RIO DE JANEIRO",
+      "acumulou": false,
+      "proximoConcurso": 91,
+      "dataProximoConcurso": "",
+      "localGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "",
+          "nomeFatansiaUL": "",
+          "serie": "",
+          "posicao": 1,
+          "uf": "RJ"
+        }
+      ],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1100201.57,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 91,
+    "draw_date": "1997-11-30",
+    "numbers": [
+      2,
+      4,
+      10,
+      35,
+      39,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 91,
+      "data": "30/11/1997",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "60",
+        "04",
+        "10",
+        "35",
+        "39",
+        "02"
+      ],
+      "dezenas": [
+        "02",
+        "04",
+        "10",
+        "35",
+        "39",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 68,
+          "valorPremio": 9588.8
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3878,
+          "valorPremio": 167.81
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 92,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1621832.18,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 782445.93,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 92,
+    "draw_date": "1997-12-07",
+    "numbers": [
+      1,
+      3,
+      5,
+      23,
+      24,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 92,
+      "data": "07/12/1997",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "05",
+        "23",
+        "51",
+        "03",
+        "01",
+        "24"
+      ],
+      "dezenas": [
+        "01",
+        "03",
+        "05",
+        "23",
+        "24",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 75,
+          "valorPremio": 9792.64
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5530,
+          "valorPremio": 132.56
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 93,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2209390.53,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1663783.45,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 93,
+    "draw_date": "1997-12-14",
+    "numbers": [
+      2,
+      22,
+      28,
+      31,
+      36,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 93,
+      "data": "14/12/1997",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "22",
+        "53",
+        "31",
+        "28",
+        "02",
+        "36"
+      ],
+      "dezenas": [
+        "02",
+        "22",
+        "28",
+        "31",
+        "36",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 61,
+          "valorPremio": 12369.31
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3795,
+          "valorPremio": 198.44
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 94,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2813013.1,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 2569217.31,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 94,
+    "draw_date": "1997-12-21",
+    "numbers": [
+      8,
+      18,
+      28,
+      51,
+      52,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 94,
+      "data": "21/12/1997",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "28",
+        "51",
+        "55",
+        "18",
+        "52",
+        "08"
+      ],
+      "dezenas": [
+        "08",
+        "18",
+        "28",
+        "51",
+        "52",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 25,
+          "valorPremio": 31457.49
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2086,
+          "valorPremio": 376.26
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 95,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3442163.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 3512942.16,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 95,
+    "draw_date": "1997-12-28",
+    "numbers": [
+      6,
+      40,
+      45,
+      46,
+      50,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 95,
+      "data": "28/12/1997",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "46",
+        "60",
+        "06",
+        "40",
+        "50",
+        "45"
+      ],
+      "dezenas": [
+        "06",
+        "40",
+        "45",
+        "46",
+        "50",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 22,
+          "valorPremio": 30807.89
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2185,
+          "valorPremio": 309.58
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 96,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3984381.93,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 4326270.55,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  }
+]

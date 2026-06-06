@@ -1,0 +1,3712 @@
+[
+  {
+    "draw_id": 96,
+    "draw_date": "1998-01-04",
+    "numbers": [
+      4,
+      7,
+      26,
+      40,
+      42,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 96,
+      "data": "04/01/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "04",
+        "42",
+        "58",
+        "26",
+        "07",
+        "40"
+      ],
+      "dezenas": [
+        "04",
+        "07",
+        "26",
+        "40",
+        "42",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 5218562.47
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 62,
+          "valorPremio": 11993.17
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3984,
+          "valorPremio": 186.27
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Ganhador da SENA do Estado da Bahia.",
+      "acumulou": false,
+      "proximoConcurso": 97,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4579243.21,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 97,
+    "draw_date": "1998-01-11",
+    "numbers": [
+      5,
+      11,
+      14,
+      35,
+      53,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 97,
+      "data": "11/01/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "56",
+        "53",
+        "11",
+        "14",
+        "05",
+        "35"
+      ],
+      "dezenas": [
+        "05",
+        "11",
+        "14",
+        "35",
+        "53",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 727932.66
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 56,
+          "valorPremio": 10832.33
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3441,
+          "valorPremio": 175.94
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Ganhador da SENA do Estado de Minas Gerais.",
+      "acumulou": false,
+      "proximoConcurso": 98,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5064531.65,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 98,
+    "draw_date": "1998-01-18",
+    "numbers": [
+      13,
+      14,
+      31,
+      33,
+      35,
+      43
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 98,
+      "data": "18/01/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "43",
+        "33",
+        "14",
+        "31",
+        "35",
+        "13"
+      ],
+      "dezenas": [
+        "13",
+        "14",
+        "31",
+        "33",
+        "35",
+        "43"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 89,
+          "valorPremio": 6508.88
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4972,
+          "valorPremio": 116.28
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 99,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5527964.35,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 695149.05,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 99,
+    "draw_date": "1998-01-25",
+    "numbers": [
+      11,
+      24,
+      30,
+      33,
+      46,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 99,
+      "data": "25/01/1998",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "30",
+        "33",
+        "24",
+        "11",
+        "46",
+        "60"
+      ],
+      "dezenas": [
+        "11",
+        "24",
+        "30",
+        "33",
+        "46",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 46,
+          "valorPremio": 14037.92
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3015,
+          "valorPremio": 213.76
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "A MEGA EST- ACUMULADA ! ! !",
+      "acumulou": true,
+      "proximoConcurso": 100,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6044559.62,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1470041.96,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 100,
+    "draw_date": "1998-02-01",
+    "numbers": [
+      14,
+      29,
+      30,
+      46,
+      48,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 100,
+      "data": "01/02/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "46",
+        "48",
+        "30",
+        "14",
+        "29",
+        "51"
+      ],
+      "dezenas": [
+        "14",
+        "29",
+        "30",
+        "46",
+        "48",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 56,
+          "valorPremio": 15930.48
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3600,
+          "valorPremio": 247.32
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 101,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 713685.27,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 8585129.47,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 101,
+    "draw_date": "1998-02-08",
+    "numbers": [
+      1,
+      18,
+      29,
+      31,
+      37,
+      39
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 101,
+      "data": "08/02/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "39",
+        "01",
+        "37",
+        "31",
+        "29",
+        "18"
+      ],
+      "dezenas": [
+        "01",
+        "18",
+        "29",
+        "31",
+        "37",
+        "39"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 52,
+          "valorPremio": 20589.41
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4653,
+          "valorPremio": 229.64
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "A MEGA EST- A C U M U L A D A ! ! !",
+      "acumulou": true,
+      "proximoConcurso": 102,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1570204.72,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 9869908.65,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 102,
+    "draw_date": "1998-02-15",
+    "numbers": [
+      19,
+      20,
+      37,
+      42,
+      44,
+      56
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 102,
+      "data": "15/02/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "44",
+        "42",
+        "37",
+        "56",
+        "19",
+        "20"
+      ],
+      "dezenas": [
+        "19",
+        "20",
+        "37",
+        "42",
+        "44",
+        "56"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 11336626.88
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 73,
+          "valorPremio": 16743.36
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6197,
+          "valorPremio": 196.85
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "Ganhador da SENA do Estado de Minas Gerais.",
+      "acumulou": false,
+      "proximoConcurso": 103,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2548016.87,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 103,
+    "draw_date": "1998-02-22",
+    "numbers": [
+      1,
+      7,
+      9,
+      49,
+      54,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 103,
+      "data": "22/02/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "09",
+        "01",
+        "57",
+        "07",
+        "54",
+        "49"
+      ],
+      "dezenas": [
+        "01",
+        "07",
+        "09",
+        "49",
+        "54",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 696984.24
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 28,
+          "valorPremio": 20743.58
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2632,
+          "valorPremio": 220.24
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "GANHADOR DA SENA DO ESTADO DO PARAN-",
+      "acumulou": false,
+      "proximoConcurso": 104,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3012673.03,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 104,
+    "draw_date": "1998-03-01",
+    "numbers": [
+      1,
+      4,
+      13,
+      21,
+      38,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 104,
+      "data": "01/03/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "13",
+        "01",
+        "38",
+        "21",
+        "52",
+        "04"
+      ],
+      "dezenas": [
+        "01",
+        "04",
+        "13",
+        "21",
+        "38",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 37,
+          "valorPremio": 14006.33
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2588,
+          "valorPremio": 199.85
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "A C U M U L O U !!!",
+      "acumulou": true,
+      "proximoConcurso": 105,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3427260.18,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 621880.72,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 105,
+    "draw_date": "1998-03-08",
+    "numbers": [
+      3,
+      13,
+      31,
+      43,
+      46,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 105,
+      "data": "08/03/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "03",
+        "13",
+        "31",
+        "43",
+        "46",
+        "49"
+      ],
+      "dezenas": [
+        "03",
+        "13",
+        "31",
+        "43",
+        "46",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 55,
+          "valorPremio": 11824.08
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4875,
+          "valorPremio": 133.14
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "A MEGA-SENA EST- ACUMULADA ! ! !",
+      "acumulou": true,
+      "proximoConcurso": 106,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3947519.62,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1402269.88,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 106,
+    "draw_date": "1998-03-15",
+    "numbers": [
+      5,
+      16,
+      24,
+      35,
+      38,
+      39
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 106,
+      "data": "15/03/1998",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "24",
+        "16",
+        "38",
+        "05",
+        "39",
+        "35"
+      ],
+      "dezenas": [
+        "05",
+        "16",
+        "24",
+        "35",
+        "38",
+        "39"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 94,
+          "valorPremio": 7678.27
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5390,
+          "valorPremio": 133.65
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 107,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 9795278.0,
+      "valorAcumuladoConcurso_0_5": 4524925.47,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 2268378.66,
+      "valorEstimadoProximoConcurso": 3000000.0
+    }
+  },
+  {
+    "draw_id": 107,
+    "draw_date": "1998-03-22",
+    "numbers": [
+      2,
+      4,
+      16,
+      24,
+      51,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 107,
+      "data": "22/03/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "02",
+        "24",
+        "52",
+        "04",
+        "16",
+        "51"
+      ],
+      "dezenas": [
+        "02",
+        "04",
+        "16",
+        "24",
+        "51",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 35,
+          "valorPremio": 21494.23
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3554,
+          "valorPremio": 211.26
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "A MEGA EST- ACUMULADA ! ! !",
+      "acumulou": true,
+      "proximoConcurso": 108,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5126763.7,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 3171136.01,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 108,
+    "draw_date": "1998-03-29",
+    "numbers": [
+      21,
+      24,
+      29,
+      34,
+      59,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 108,
+      "data": "29/03/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "60",
+        "29",
+        "34",
+        "24",
+        "21",
+        "59"
+      ],
+      "dezenas": [
+        "21",
+        "24",
+        "29",
+        "34",
+        "59",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 35,
+          "valorPremio": 22511.72
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2453,
+          "valorPremio": 320.57
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 109,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5757092.02,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 4116628.49,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 109,
+    "draw_date": "1998-04-04",
+    "numbers": [
+      1,
+      13,
+      44,
+      48,
+      49,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 109,
+      "data": "04/04/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "54",
+        "13",
+        "44",
+        "49",
+        "48",
+        "01"
+      ],
+      "dezenas": [
+        "01",
+        "13",
+        "44",
+        "48",
+        "49",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 39,
+          "valorPremio": 21153.3
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3881,
+          "valorPremio": 212.15
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "A MEGA-SENA EST- ACUMULADA ! ! !",
+      "acumulou": true,
+      "proximoConcurso": 110,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 0.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 11523677.38,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 110,
+    "draw_date": "1998-04-11",
+    "numbers": [
+      18,
+      31,
+      43,
+      52,
+      57,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 110,
+      "data": "11/04/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "57",
+        "58",
+        "18",
+        "31",
+        "43",
+        "52"
+      ],
+      "dezenas": [
+        "18",
+        "31",
+        "43",
+        "52",
+        "57",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 35,
+          "valorPremio": 27771.48
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3212,
+          "valorPremio": 302.01
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 111,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 777601.19,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 12690079.16,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 111,
+    "draw_date": "1998-04-18",
+    "numbers": [
+      4,
+      22,
+      25,
+      32,
+      33,
+      52
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 111,
+      "data": "18/04/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "52",
+        "32",
+        "04",
+        "33",
+        "25",
+        "22"
+      ],
+      "dezenas": [
+        "04",
+        "22",
+        "25",
+        "32",
+        "33",
+        "52"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 68,
+          "valorPremio": 18082.94
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6109,
+          "valorPremio": 200.88
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 112,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1761313.22,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 14165647.19,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 112,
+    "draw_date": "1998-04-25",
+    "numbers": [
+      12,
+      20,
+      34,
+      37,
+      42,
+      43
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 112,
+      "data": "25/04/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "37",
+        "43",
+        "34",
+        "20",
+        "12",
+        "42"
+      ],
+      "dezenas": [
+        "12",
+        "20",
+        "34",
+        "37",
+        "42",
+        "43"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 15802579.93
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 137,
+          "valorPremio": 9957.01
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 8340,
+          "valorPremio": 163.25
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "01 GANHADOR DO ESTADO DO \"RIO GRANDE DO NORTE\"",
+      "acumulou": false,
+      "proximoConcurso": 113,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 2852601.71,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 113,
+    "draw_date": "1998-05-02",
+    "numbers": [
+      7,
+      26,
+      28,
+      34,
+      54,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 113,
+      "data": "02/05/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "34",
+        "54",
+        "26",
+        "28",
+        "55",
+        "07"
+      ],
+      "dezenas": [
+        "07",
+        "26",
+        "28",
+        "34",
+        "54",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 38,
+          "valorPremio": 14269.55
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2572,
+          "valorPremio": 210.4
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 114,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3286395.97,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 650691.4,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 114,
+    "draw_date": "1998-05-09",
+    "numbers": [
+      6,
+      12,
+      18,
+      37,
+      47,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 114,
+      "data": "09/05/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "47",
+        "54",
+        "18",
+        "06",
+        "12",
+        "37"
+      ],
+      "dezenas": [
+        "06",
+        "12",
+        "18",
+        "37",
+        "47",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 71,
+          "valorPremio": 9626.08
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4908,
+          "valorPremio": 138.99
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 115,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3833157.5,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1470833.69,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 115,
+    "draw_date": "1998-05-16",
+    "numbers": [
+      4,
+      6,
+      14,
+      20,
+      24,
+      38
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 115,
+      "data": "16/05/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "06",
+        "14",
+        "24",
+        "20",
+        "04",
+        "38"
+      ],
+      "dezenas": [
+        "04",
+        "06",
+        "14",
+        "20",
+        "24",
+        "38"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 78,
+          "valorPremio": 9283.1
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5091,
+          "valorPremio": 141.95
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "A MEGA-SENA EST- ACUMULADA !!!",
+      "acumulou": true,
+      "proximoConcurso": 116,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4412422.9,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 2339731.79,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 116,
+    "draw_date": "1998-05-23",
+    "numbers": [
+      5,
+      13,
+      32,
+      36,
+      42,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 116,
+      "data": "23/05/1998",
+      "local": "Audit\u00f3rio em BRAS\u00cdLIA, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "36",
+        "42",
+        "32",
+        "05",
+        "13",
+        "51"
+      ],
+      "dezenas": [
+        "05",
+        "13",
+        "32",
+        "36",
+        "42",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 64,
+          "valorPremio": 11956.28
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5270,
+          "valorPremio": 144.91
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 117,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 10384878.0,
+      "valorAcumuladoConcurso_0_5": 5024584.12,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 3257973.62,
+      "valorEstimadoProximoConcurso": 4200000.0
+    }
+  },
+  {
+    "draw_id": 117,
+    "draw_date": "1998-05-30",
+    "numbers": [
+      20,
+      25,
+      27,
+      33,
+      42,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 117,
+      "data": "30/05/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "53",
+        "42",
+        "27",
+        "20",
+        "33",
+        "25"
+      ],
+      "dezenas": [
+        "20",
+        "25",
+        "27",
+        "33",
+        "42",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 36,
+          "valorPremio": 22046.87
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3822,
+          "valorPremio": 207.26
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 118,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5659533.98,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 4210398.41,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 118,
+    "draw_date": "1998-06-06",
+    "numbers": [
+      9,
+      22,
+      25,
+      37,
+      56,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 118,
+      "data": "06/06/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "22",
+        "57",
+        "37",
+        "09",
+        "25",
+        "56"
+      ],
+      "dezenas": [
+        "09",
+        "22",
+        "25",
+        "37",
+        "56",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 53,
+          "valorPremio": 16052.88
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4342,
+          "valorPremio": 195.56
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "A MEGA-SENA EST- ACUMULADA ! ! !",
+      "acumulou": true,
+      "proximoConcurso": 119,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 6340175.95,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 5231361.36,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 119,
+    "draw_date": "1998-06-13",
+    "numbers": [
+      1,
+      21,
+      36,
+      38,
+      47,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 119,
+      "data": "13/06/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "47",
+        "21",
+        "01",
+        "50",
+        "36",
+        "38"
+      ],
+      "dezenas": [
+        "01",
+        "21",
+        "36",
+        "38",
+        "47",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 21,
+          "valorPremio": 38921.16
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2691,
+          "valorPremio": 303.13
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 120,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 0.0,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 13206225.91,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 120,
+    "draw_date": "1998-06-20",
+    "numbers": [
+      3,
+      16,
+      27,
+      40,
+      45,
+      46
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 120,
+      "data": "20/06/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "46",
+        "45",
+        "16",
+        "40",
+        "27",
+        "03"
+      ],
+      "dezenas": [
+        "03",
+        "16",
+        "27",
+        "40",
+        "45",
+        "46"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 92,
+          "valorPremio": 13020.97
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7073,
+          "valorPremio": 169.04
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 121,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 958343.2,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 14643740.7,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 121,
+    "draw_date": "1998-06-27",
+    "numbers": [
+      2,
+      29,
+      41,
+      44,
+      53,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 121,
+      "data": "27/06/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "53",
+        "41",
+        "44",
+        "02",
+        "29",
+        "55"
+      ],
+      "dezenas": [
+        "02",
+        "29",
+        "41",
+        "44",
+        "53",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 45,
+          "valorPremio": 28917.0
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4554,
+          "valorPremio": 285.17
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "A MEGA-SENA EST- ACUMULADA ! ! !",
+      "acumulou": true,
+      "proximoConcurso": 122,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1999354.96,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 16205258.33,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 122,
+    "draw_date": "1998-07-04",
+    "numbers": [
+      11,
+      17,
+      20,
+      39,
+      43,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 122,
+      "data": "04/07/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "20",
+        "43",
+        "39",
+        "11",
+        "53",
+        "17"
+      ],
+      "dezenas": [
+        "11",
+        "17",
+        "20",
+        "39",
+        "43",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 83,
+          "valorPremio": 18210.45
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7203,
+          "valorPremio": 209.43
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 123,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3208528.7,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 18019018.95,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 123,
+    "draw_date": "1998-07-11",
+    "numbers": [
+      13,
+      14,
+      16,
+      26,
+      32,
+      42
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 123,
+      "data": "11/07/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "13",
+        "42",
+        "16",
+        "32",
+        "14",
+        "26"
+      ],
+      "dezenas": [
+        "13",
+        "14",
+        "16",
+        "26",
+        "32",
+        "42"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 176,
+          "valorPremio": 12440.56
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 13159,
+          "valorPremio": 166.06
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "A MEGA-SENA ACUMULOU (11\u00ac Vez)",
+      "acumulou": true,
+      "proximoConcurso": 124,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 4960159.59,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 20646465.28,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 124,
+    "draw_date": "1998-07-18",
+    "numbers": [
+      5,
+      15,
+      34,
+      41,
+      52,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 124,
+      "data": "18/07/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "52",
+        "05",
+        "34",
+        "57",
+        "15",
+        "41"
+      ],
+      "dezenas": [
+        "05",
+        "15",
+        "34",
+        "41",
+        "52",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 24536288.72
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 188,
+          "valorPremio": 17242.12
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 14019,
+          "valorPremio": 230.76
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "O PREMIO PRINCIPAL SAIU PARA A CIDADE DE VILA VELHA NO ESTADO DO ESPIRITO SANTO.",
+      "acumulou": false,
+      "proximoConcurso": 125,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 7553375.21,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 125,
+    "draw_date": "1998-07-25",
+    "numbers": [
+      25,
+      41,
+      47,
+      53,
+      56,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 125,
+      "data": "25/07/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "56",
+        "47",
+        "25",
+        "59",
+        "53",
+        "41"
+      ],
+      "dezenas": [
+        "25",
+        "41",
+        "47",
+        "53",
+        "56",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 46,
+          "valorPremio": 15425.68
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2784,
+          "valorPremio": 254.38
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 126,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 8121040.18,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 851497.47,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 126,
+    "draw_date": "1998-08-01",
+    "numbers": [
+      6,
+      10,
+      11,
+      28,
+      32,
+      40
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 126,
+      "data": "01/08/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "32",
+        "28",
+        "06",
+        "10",
+        "11",
+        "40"
+      ],
+      "dezenas": [
+        "06",
+        "10",
+        "11",
+        "28",
+        "32",
+        "40"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 83,
+          "valorPremio": 10052.56
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5510,
+          "valorPremio": 151.13
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "A MEGA-SENA EST- ACUMULADA ! ! !",
+      "acumulou": true,
+      "proximoConcurso": 127,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 8788529.75,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1852731.83,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 127,
+    "draw_date": "1998-08-08",
+    "numbers": [
+      21,
+      29,
+      50,
+      51,
+      54,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 127,
+      "data": "08/08/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "59",
+        "21",
+        "51",
+        "54",
+        "29",
+        "50"
+      ],
+      "dezenas": [
+        "21",
+        "29",
+        "50",
+        "51",
+        "54",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 40,
+          "valorPremio": 23638.47
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2613,
+          "valorPremio": 361.14
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 128,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 9544960.65,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 2987378.17,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 128,
+    "draw_date": "1998-08-15",
+    "numbers": [
+      3,
+      9,
+      18,
+      21,
+      23,
+      43
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 128,
+      "data": "15/08/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "23",
+        "43",
+        "03",
+        "21",
+        "09",
+        "18"
+      ],
+      "dezenas": [
+        "03",
+        "09",
+        "18",
+        "21",
+        "23",
+        "43"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 973,
+          "valorPremio": 1024.41
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11715,
+          "valorPremio": 84.91
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 129,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 10342364.2,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 4183483.5,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 129,
+    "draw_date": "1998-08-22",
+    "numbers": [
+      1,
+      9,
+      10,
+      32,
+      46,
+      54
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 129,
+      "data": "22/08/1998",
+      "local": "Audit\u00f3rio em Bras\u00edlia, DF",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "46",
+        "54",
+        "10",
+        "09",
+        "01",
+        "32"
+      ],
+      "dezenas": [
+        "01",
+        "09",
+        "10",
+        "32",
+        "46",
+        "54"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 67,
+          "valorPremio": 15634.41
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5320,
+          "valorPremio": 196.51
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "A MEGA-SENA EST- BIG ACUMULADA ! ! !",
+      "acumulou": true,
+      "proximoConcurso": 130,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 11180368.53,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 5440490.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 130,
+    "draw_date": "1998-08-29",
+    "numbers": [
+      13,
+      29,
+      38,
+      42,
+      49,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 130,
+      "data": "29/08/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "13",
+        "42",
+        "38",
+        "49",
+        "53",
+        "29"
+      ],
+      "dezenas": [
+        "13",
+        "29",
+        "38",
+        "42",
+        "49",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 155,
+          "valorPremio": 11796.24
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 11403,
+          "valorPremio": 160.03
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 131,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1462733.2,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 18814958.31,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 131,
+    "draw_date": "1998-09-05",
+    "numbers": [
+      4,
+      9,
+      17,
+      27,
+      30,
+      44
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 131,
+      "data": "05/09/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "30",
+        "09",
+        "17",
+        "27",
+        "04",
+        "44"
+      ],
+      "dezenas": [
+        "04",
+        "09",
+        "17",
+        "27",
+        "30",
+        "44"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 361,
+          "valorPremio": 6811.67
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 21683,
+          "valorPremio": 113.19
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 132,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3429943.98,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 21765774.49,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 132,
+    "draw_date": "1998-09-12",
+    "numbers": [
+      7,
+      9,
+      35,
+      41,
+      44,
+      50
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 132,
+      "data": "12/09/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "44",
+        "35",
+        "50",
+        "41",
+        "09",
+        "07"
+      ],
+      "dezenas": [
+        "07",
+        "09",
+        "35",
+        "41",
+        "44",
+        "50"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 143,
+          "valorPremio": 20846.64
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 12179,
+          "valorPremio": 244.29
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "A MEGA CONTINUA ACUMULADA - Previs\u00e3o de Pr\u00eamio para o Conc.133 = 29.000.000,00",
+      "acumulou": true,
+      "proximoConcurso": 133,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5814799.58,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 25343057.89,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 133,
+    "draw_date": "1998-09-19",
+    "numbers": [
+      5,
+      6,
+      19,
+      34,
+      39,
+      57
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 133,
+      "data": "19/09/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "19",
+        "57",
+        "06",
+        "39",
+        "34",
+        "05"
+      ],
+      "dezenas": [
+        "05",
+        "06",
+        "19",
+        "34",
+        "39",
+        "57"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 30533241.12
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 431,
+          "valorPremio": 10035.16
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 29264,
+          "valorPremio": 147.51
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ESTADO CONTEMPLADO COM SENA: 01 MINAS GERAIS.",
+      "acumulou": false,
+      "proximoConcurso": 134,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 9274921.74,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 134,
+    "draw_date": "1998-09-26",
+    "numbers": [
+      4,
+      25,
+      32,
+      36,
+      52,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 134,
+      "data": "26/09/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "60",
+        "32",
+        "25",
+        "36",
+        "52",
+        "04"
+      ],
+      "dezenas": [
+        "04",
+        "25",
+        "32",
+        "36",
+        "52",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 82,
+          "valorPremio": 10253.38
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4575,
+          "valorPremio": 183.42
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 135,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 9947543.32,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1008932.39,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 135,
+    "draw_date": "1998-10-03",
+    "numbers": [
+      21,
+      22,
+      35,
+      40,
+      53,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 135,
+      "data": "03/10/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "35",
+        "40",
+        "21",
+        "59",
+        "53",
+        "22"
+      ],
+      "dezenas": [
+        "21",
+        "22",
+        "35",
+        "40",
+        "53",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 40,
+          "valorPremio": 24573.18
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3604,
+          "valorPremio": 272.19
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "A MEGA-SENA EST\u00c1 ACUMULADA ! ! !",
+      "acumulou": true,
+      "proximoConcurso": 136,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 10733884.88,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 2188444.72,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 136,
+    "draw_date": "1998-10-10",
+    "numbers": [
+      1,
+      17,
+      25,
+      38,
+      45,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 136,
+      "data": "10/10/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "17",
+        "25",
+        "45",
+        "38",
+        "01",
+        "59"
+      ],
+      "dezenas": [
+        "01",
+        "17",
+        "25",
+        "38",
+        "45",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 126,
+          "valorPremio": 8435.36
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 7403,
+          "valorPremio": 143.29
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 137,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 11584169.17,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 3463871.17,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 137,
+    "draw_date": "1998-10-17",
+    "numbers": [
+      15,
+      16,
+      19,
+      22,
+      26,
+      49
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 137,
+      "data": "17/10/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "26",
+        "15",
+        "16",
+        "22",
+        "19",
+        "49"
+      ],
+      "dezenas": [
+        "15",
+        "16",
+        "19",
+        "22",
+        "26",
+        "49"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 88,
+          "valorPremio": 12675.49
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6701,
+          "valorPremio": 166.13
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "A MEGA-SENA EST\u00c1 ACUMULADA ! ! !",
+      "acumulou": true,
+      "proximoConcurso": 138,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 12476523.68,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 4802402.93,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 138,
+    "draw_date": "1998-10-24",
+    "numbers": [
+      5,
+      14,
+      27,
+      37,
+      40,
+      41
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 138,
+      "data": "24/10/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "41",
+        "14",
+        "37",
+        "05",
+        "40",
+        "27"
+      ],
+      "dezenas": [
+        "05",
+        "14",
+        "27",
+        "37",
+        "40",
+        "41"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 86,
+          "valorPremio": 14074.36
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 6953,
+          "valorPremio": 173.74
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 139,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 13444839.59,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 6254876.8,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 139,
+    "draw_date": "1998-10-31",
+    "numbers": [
+      3,
+      13,
+      26,
+      27,
+      41,
+      42
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 139,
+      "data": "31/10/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "26",
+        "27",
+        "13",
+        "42",
+        "41",
+        "03"
+      ],
+      "dezenas": [
+        "03",
+        "13",
+        "26",
+        "27",
+        "41",
+        "42"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 2,
+          "valorPremio": 3902486.14
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 179,
+          "valorPremio": 7216.46
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 9401,
+          "valorPremio": 137.14
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "02 Ganhadores do Estado de S\u00c3O PAULO (Taubat\u00e9 e S\u00e3o Paulo-Capital)",
+      "acumulou": false,
+      "proximoConcurso": 140,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 14478236.58,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 140,
+    "draw_date": "1998-11-07",
+    "numbers": [
+      7,
+      31,
+      41,
+      44,
+      46,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 140,
+      "data": "07/11/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "55",
+        "31",
+        "46",
+        "44",
+        "41",
+        "07"
+      ],
+      "dezenas": [
+        "07",
+        "31",
+        "41",
+        "44",
+        "46",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 45,
+          "valorPremio": 36581.33
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4945,
+          "valorPremio": 332.24
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 141,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 1316927.83,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 16453628.31,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 141,
+    "draw_date": "1998-11-14",
+    "numbers": [
+      10,
+      13,
+      22,
+      41,
+      42,
+      58
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 141,
+      "data": "14/11/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "10",
+        "22",
+        "42",
+        "13",
+        "41",
+        "58"
+      ],
+      "dezenas": [
+        "10",
+        "13",
+        "22",
+        "41",
+        "42",
+        "58"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 119,
+          "valorPremio": 20106.1
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10533,
+          "valorPremio": 226.7
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "A MEGA-SENA EST\u00c1 ACUMULADA. PREVIS\u00c3O DO PR\u00caMIO: 23 Milh\u00f5es. ! ! !",
+      "acumulou": true,
+      "proximoConcurso": 142,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 3231028.21,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 19324778.9,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 142,
+    "draw_date": "1998-11-21",
+    "numbers": [
+      8,
+      15,
+      19,
+      20,
+      54,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 142,
+      "data": "21/11/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "20",
+        "59",
+        "19",
+        "54",
+        "15",
+        "08"
+      ],
+      "dezenas": [
+        "08",
+        "15",
+        "19",
+        "20",
+        "54",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 162,
+          "valorPremio": 18143.56
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 13991,
+          "valorPremio": 209.66
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "A MEGA-SENA CONTINUA A C U M U L A A A D A !",
+      "acumulou": true,
+      "proximoConcurso": 143,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 5582433.77,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 22851887.24,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 143,
+    "draw_date": "1998-11-28",
+    "numbers": [
+      6,
+      18,
+      20,
+      40,
+      50,
+      53
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 143,
+      "data": "28/11/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "40",
+        "18",
+        "06",
+        "20",
+        "50",
+        "53"
+      ],
+      "dezenas": [
+        "06",
+        "18",
+        "20",
+        "40",
+        "50",
+        "53"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 144,
+          "valorPremio": 24792.99
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 10994,
+          "valorPremio": 324.1
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "A MEGA ACUMULOU E A BOLADA ESTAR\u00c1 BEM MAIOR ! ! !",
+      "acumulou": true,
+      "proximoConcurso": 144,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 8438586.2,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 27136115.88,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 144,
+    "draw_date": "1998-12-05",
+    "numbers": [
+      8,
+      32,
+      36,
+      44,
+      45,
+      55
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 144,
+      "data": "05/12/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "08",
+        "32",
+        "44",
+        "36",
+        "45",
+        "55"
+      ],
+      "dezenas": [
+        "08",
+        "32",
+        "36",
+        "44",
+        "45",
+        "55"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 33597755.21
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 257,
+          "valorPremio": 20952.14
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 23952,
+          "valorPremio": 224.38
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "ESTADO CONTEMPLADO COM A SENA: RONDONIA - CIDADE PORTO VELHO.",
+      "acumulou": false,
+      "proximoConcurso": 145,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 12746345.75,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 145,
+    "draw_date": "1998-12-12",
+    "numbers": [
+      15,
+      16,
+      31,
+      41,
+      43,
+      51
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 145,
+      "data": "12/12/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "43",
+        "15",
+        "41",
+        "51",
+        "16",
+        "31"
+      ],
+      "dezenas": [
+        "15",
+        "16",
+        "31",
+        "41",
+        "43",
+        "51"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 71,
+          "valorPremio": 15061.27
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 3389,
+          "valorPremio": 314.91
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "A C U M U L O U ! ! !",
+      "acumulou": true,
+      "proximoConcurso": 146,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 13601826.14,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 1283220.59,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 146,
+    "draw_date": "1998-12-19",
+    "numbers": [
+      25,
+      32,
+      34,
+      42,
+      51,
+      60
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 146,
+      "data": "19/12/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "51",
+        "34",
+        "25",
+        "60",
+        "42",
+        "32"
+      ],
+      "dezenas": [
+        "25",
+        "32",
+        "34",
+        "42",
+        "51",
+        "60"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 51,
+          "valorPremio": 23923.45
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 4079,
+          "valorPremio": 298.52
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 147,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 14577902.95,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 2747335.81,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 147,
+    "draw_date": "1998-12-24",
+    "numbers": [
+      6,
+      16,
+      23,
+      24,
+      28,
+      38
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 147,
+      "data": "24/12/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "24",
+        "06",
+        "38",
+        "23",
+        "28",
+        "16"
+      ],
+      "dezenas": [
+        "06",
+        "16",
+        "23",
+        "24",
+        "28",
+        "38"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 1,
+          "valorPremio": 3805750.38
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 75,
+          "valorPremio": 11760.17
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 5418,
+          "valorPremio": 162.48
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "01 Ganhador da MEGA - Distrito Federal",
+      "acumulou": false,
+      "proximoConcurso": 148,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 15283512.67,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 0.0,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  },
+  {
+    "draw_id": 148,
+    "draw_date": "1998-12-31",
+    "numbers": [
+      32,
+      35,
+      41,
+      55,
+      58,
+      59
+    ],
+    "bonus": [],
+    "raw_json": {
+      "loteria": "megasena",
+      "concurso": 148,
+      "data": "31/12/1998",
+      "local": " em ",
+      "concursoEspecial": false,
+      "dezenasOrdemSorteio": [
+        "32",
+        "55",
+        "59",
+        "41",
+        "58",
+        "35"
+      ],
+      "dezenas": [
+        "32",
+        "35",
+        "41",
+        "55",
+        "58",
+        "59"
+      ],
+      "trevos": [],
+      "timeCoracao": null,
+      "mesSorte": null,
+      "premiacoes": [
+        {
+          "descricao": "6 acertos",
+          "faixa": 1,
+          "ganhadores": 0,
+          "valorPremio": 0.0
+        },
+        {
+          "descricao": "5 acertos",
+          "faixa": 2,
+          "ganhadores": 15,
+          "valorPremio": 53660.04
+        },
+        {
+          "descricao": "4 acertos",
+          "faixa": 3,
+          "ganhadores": 2322,
+          "valorPremio": 345.95
+        }
+      ],
+      "estadosPremiados": [],
+      "observacao": "",
+      "acumulou": true,
+      "proximoConcurso": 149,
+      "dataProximoConcurso": "",
+      "localGanhadores": [],
+      "valorArrecadado": 0.0,
+      "valorAcumuladoConcurso_0_5": 15927433.07,
+      "valorAcumuladoConcursoEspecial": 0.0,
+      "valorAcumuladoProximoConcurso": 965880.61,
+      "valorEstimadoProximoConcurso": 0.0
+    }
+  }
+]

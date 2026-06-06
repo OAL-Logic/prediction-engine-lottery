@@ -5,15 +5,64 @@ from PySide6.QtWidgets import (
     QComboBox, QSpinBox, QGroupBox, QFormLayout, QTextEdit, QRadioButton, 
     QButtonGroup, QSplitter, QScrollArea, QMessageBox
 )
-from PySide6.QtCore import Qt, Signal
+from PySide6.QtCore import Qt, Signal, QThread
 from matplotlib.backends.backend_qtagg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.figure import Figure
+from typing import Any
 
 from engine.wheels import generate_full_wheel, generate_key_wheel, generate_abbreviated_wheel
 from engine.modules.wheels_wrg import WheelingEngine
 from engine.cli.utils import get_adapter
 
 logger = logging.getLogger(__name__)
+
+
+class WheelingWorker(QThread):
+    """Background worker thread to run wheel calculations and avoid freezing the GUI."""
+    finished = Signal(list, int, int, float, float, object, str) # tickets, universe, reduced, shrinkage, saved_cost, gap_matrix, error_msg
+
+    def __init__(self, wheel_type: str, total_pool: list[int], pick: int, key_numbers: list[int], g: int, m: int, cap: int, ticket_price: float):
+        super().__init__()
+        self.wheel_type = wheel_type
+        self.total_pool = total_pool
+        self.pick = pick
+        self.key_numbers = key_numbers
+        self.g = g
+        self.m = m
+        self.cap = cap
+        self.ticket_price = ticket_price
+
+    def run(self):
+        try:
+            from math import comb
+            import numpy as np
+
+            tickets = []
+            if self.wheel_type == "Full Wheel":
+                tickets = generate_full_wheel(self.total_pool, self.pick)
+            elif self.wheel_type == "Key Number Wheel":
+                tickets = generate_key_wheel(self.total_pool, self.pick, self.key_numbers)
+            elif self.wheel_type == "Abbreviated Wheel":
+                tickets = generate_abbreviated_wheel(self.total_pool, self.pick, guarantee=self.g, max_tickets=self.cap)
+
+            reduced = len(tickets)
+            universe = comb(len(self.total_pool), self.pick)
+            shrinkage = (1.0 - (reduced / universe)) * 100 if universe > 0 else 0.0
+            saved_cost = (universe - reduced) * self.ticket_price
+
+            # Compute gap matrix using WheelingEngine
+            gap_matrix = None
+            if tickets:
+                n_pool = len(self.total_pool)
+                pool_map = {n: i+1 for i, n in enumerate(self.total_pool)}
+                shifted_tickets = [[pool_map[num] for num in t if num in pool_map] for t in tickets]
+                engine = WheelingEngine(n_pool, self.pick)
+                gap_matrix = engine.get_gap_matrix(np.array(shifted_tickets))
+
+            self.finished.emit(tickets, universe, reduced, shrinkage, saved_cost, gap_matrix, "")
+        except Exception as e:
+            self.finished.emit([], 0, 0, 0.0, 0.0, None, str(e))
+
 
 class WheelingTab(QWidget):
     """
@@ -403,7 +452,7 @@ class WheelingTab(QWidget):
                 self.update_status_label()
 
     def generate_wheel(self):
-        """Invokes combinatorial wheel algorithms on background thread or locally and prints lines."""
+        """Invokes combinatorial wheel algorithms on background thread to prevent GUI freezing."""
         wheel_type = self.combo_wheel_type.currentText()
         pick = self.spin_pick.value()
         
@@ -421,108 +470,91 @@ class WheelingTab(QWidget):
             )
             return
 
-        # Perform wheels logic
-        try:
-            tickets = []
-            
-            if wheel_type == "Full Wheel":
-                tickets = generate_full_wheel(total_pool, pick)
-            elif wheel_type == "Key Number Wheel":
-                if not self.key_numbers:
-                    QMessageBox.warning(self, "No Keys", "Please select some Key Numbers first (use Select Keys mode).")
-                    return
-                tickets = generate_key_wheel(total_pool, pick, self.key_numbers)
-            elif wheel_type == "Abbreviated Wheel":
-                g = self.spin_guarantee.value()
-                m = self.spin_if_hit.value()
-                cap = self.spin_max_tickets.value()
-                
-                if g > pick:
-                    QMessageBox.warning(self, "Invalid Guarantee", "Guarantee match (t) cannot exceed ticket size (k).")
-                    return
-                if m > len(total_pool):
-                    QMessageBox.warning(self, "Invalid Bounds", "If drawn count (m) cannot exceed selected pool size.")
-                    return
-                    
-                tickets = generate_abbreviated_wheel(total_pool, pick, guarantee=g, max_tickets=cap)
-
-            self.generated_tickets = tickets
-            
-            # Print output
-            output_str = ""
-            for idx, t in enumerate(tickets):
-                output_str += f"Ticket #{idx+1:03d} ➔ " + " ".join(f"{x:02d}" for x in t) + "\n"
-            self.txt_output.setText(output_str)
-
-            # Update reduction analytics
-            from math import comb
-            universe = comb(len(total_pool), pick)
-            reduced = len(tickets)
-            shrinkage = (1.0 - (reduced / universe)) * 100 if universe > 0 else 0.0
-            
-            try:
-                rules = get_adapter(self.active_lottery).rules
-                price = rules.ticket_price
-                curr = rules.currency
-            except Exception:
-                price = 3.0
-                curr = "R$"
-                
-            saved_cost = (universe - reduced) * price
-            
-            self.lbl_reduction_stats.setText(
-                f"Combinatorial Universe : {universe:,}\n"
-                f"Golden Reduced Bet Size : {reduced:,} lines\n"
-                f"Bet Space Shrinkage    : {shrinkage:.4f}%\n"
-                f"Estimated Capital Saved : {curr} {saved_cost:,.2f}"
-            )
-            
-            self.btn_send_to_verify.setEnabled(True)
-            self.tickets_generated.emit(self.generated_tickets)
-
-            # Plot live gap coverage heatmap!
-            self.plot_gap_heatmap(total_pool, tickets)
-
-        except Exception as e:
-            logger.exception("Failed to generate wheel.")
-            QMessageBox.critical(self, "Generation Failure", f"Failed to calculate combinations:\n{str(e)}")
-
-    def plot_gap_heatmap(self, pool: list[int], tickets: list[list[int]]):
-        """Renders the mutual coverage heatmap of the selected pool using WheelingEngine."""
-        try:
-            self.ax.clear()
-            
-            if not tickets:
-                self.clear_heatmap()
+        g = self.spin_guarantee.value()
+        m = self.spin_if_hit.value()
+        cap = self.spin_max_tickets.value()
+        
+        if wheel_type == "Key Number Wheel" and not self.key_numbers:
+            QMessageBox.warning(self, "No Keys", "Please select some Key Numbers first (use Select Keys mode).")
+            return
+        if wheel_type == "Abbreviated Wheel":
+            if g > pick:
+                QMessageBox.warning(self, "Invalid Guarantee", "Guarantee match (t) cannot exceed ticket size (k).")
+                return
+            if m > len(total_pool):
+                QMessageBox.warning(self, "Invalid Bounds", "If drawn count (m) cannot exceed selected pool size.")
                 return
 
-            # Shift numbers from [1..max] to [1..len(pool)] indices for get_gap_matrix
-            # Let's map numbers to consecutive index values [1..len(pool)]
-            pool_map = {n: i+1 for i, n in enumerate(pool)}
-            shifted_tickets = []
-            for t in tickets:
-                shifted_tickets.append([pool_map[num] for num in t if num in pool_map])
-            
-            # Compute gap matrix using WheelingEngine
+        try:
+            rules = get_adapter(self.active_lottery).rules
+            price = rules.ticket_price
+            curr = rules.currency
+        except Exception:
+            price = 3.0
+            curr = "R$"
+
+        # Disable button and show generating status
+        self.btn_generate.setEnabled(False)
+        self.btn_generate.setText("⚙ Generating...")
+        self.lbl_status.setText("⚙ WHEEL GENERATION IN PROGRESS...")
+
+        # Setup worker thread to do the heavy lifting
+        self.worker = WheelingWorker(
+            wheel_type, total_pool, pick, self.key_numbers.copy(), g, m, cap, price
+        )
+        self.worker.finished.connect(
+            lambda tickets, univ, red, shrink, saved, matrix, err: 
+            self.on_generation_finished(tickets, univ, red, shrink, saved, matrix, err, curr, total_pool)
+        )
+        self.worker.start()
+
+    def on_generation_finished(self, tickets, universe, reduced, shrinkage, saved_cost, gap_matrix, error_msg, curr, pool):
+        # Re-enable button
+        self.btn_generate.setEnabled(True)
+        self.btn_generate.setText("⚡ GENERATE GOLDEN WHEEL")
+        self.update_status_label()
+
+        if error_msg:
+            QMessageBox.critical(self, "Generation Failure", f"Failed to calculate combinations:\n{error_msg}")
+            return
+
+        self.generated_tickets = tickets
+        
+        # Display tickets with truncation limit for UI rendering performance
+        max_display = 1000
+        output_str = ""
+        for idx, t in enumerate(tickets[:max_display]):
+            output_str += f"Ticket #{idx+1:03d} ➔ " + " ".join(f"{x:02d}" for x in t) + "\n"
+        
+        if len(tickets) > max_display:
+            output_str += f"\n[Output truncated to first {max_display} tickets for UI performance. Total tickets: {len(tickets)}]"
+
+        self.txt_output.setText(output_str)
+
+        self.lbl_reduction_stats.setText(
+            f"Combinatorial Universe : {universe:,}\n"
+            f"Golden Reduced Bet Size : {reduced:,} lines\n"
+            f"Bet Space Shrinkage    : {shrinkage:.4f}%\n"
+            f"Estimated Capital Saved : {curr} {saved_cost:,.2f}"
+        )
+        
+        self.btn_send_to_verify.setEnabled(True)
+        self.tickets_generated.emit(self.generated_tickets)
+
+        # Plot live gap coverage heatmap
+        if gap_matrix is not None:
+            self.ax.clear()
             n_pool = len(pool)
-            engine = WheelingEngine(n_pool, self.spin_pick.value())
-            gap_matrix = engine.get_gap_matrix(np.array(shifted_tickets))
-            
-            # Plot matrix in Matplotlib
             im = self.ax.imshow(gap_matrix, cmap='viridis', interpolation='nearest')
-            
-            # Set labels
             self.ax.set_xticks(range(n_pool))
             self.ax.set_yticks(range(n_pool))
             self.ax.set_xticklabels([f"{n:02d}" for n in pool], color='#008f11', fontsize=8, rotation=90)
             self.ax.set_yticklabels([f"{n:02d}" for n in pool], color='#008f11', fontsize=8)
-            
             self.ax.set_title("Mutual Pair Coverage Matrix", color='#00ff41', fontsize=10)
             self.figure.tight_layout()
             self.canvas.draw()
-            
-        except Exception as e:
-            logger.exception("Failed to plot gap matrix heatmap.")
+        else:
+            self.clear_heatmap()
 
     def clear_heatmap(self):
         self.ax.clear()

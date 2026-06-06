@@ -61,6 +61,35 @@ FILTER_GRIDS = [
     ['sum_range', 'parity', 'breadth']
 ]
 
+# --- Typical Prizes and Payout Helpers ---
+_TYPICAL_LOWER: dict[str, dict[int, float]] = {
+    "br/mega-sena":  {4: 1_400.0,  5: 36_000.0, 6: 10_000_000.0},
+    "br/lotofacil":  {11: 6.0, 12: 25.0, 13: 120.0, 14: 1_200.0, 15: 1_500_000.0},
+    "us/powerball":  {3: 7.0,    4: 100.0, 5: 1_000_000.0, 6: 40_000_000.0},
+    "us/megamillions": {3: 10.0, 4: 150.0, 5: 1_000_000.0, 6: 40_000_000.0},
+}
+
+def _hyp_prob(pool: int, pick: int, match: int) -> float:
+    from math import comb
+    denom = comb(pool, pick)
+    if denom == 0:
+        return 0.0
+    numer = comb(pick, match) * comb(pool - pick, pick - match)
+    return numer / denom
+
+def calculate_simulated_prize(game_id: str, hits: int, rules: Any) -> float:
+    prizes = _TYPICAL_LOWER.get(game_id, {})
+    if hits in prizes:
+        return prizes[hits]
+    if hits in rules.prize_tiers:
+        lo, hi = rules.number_range
+        pool = hi - lo + 1
+        pick = rules.pick_count
+        prob = _hyp_prob(pool, pick, hits)
+        if prob > 0:
+            return min(10_000_000.0, rules.ticket_price * 0.5 / prob)
+    return 0.0
+
 def tune(
     lottery: Annotated[str, typer.Argument(help="Lottery name (e.g. br/lotofacil)")],
     draws: Annotated[int, typer.Option("--draws", "-n",
@@ -74,7 +103,7 @@ def tune(
     stacking: Annotated[bool, typer.Option("--stacking",
         help="Train the Stacking AI meta-learner for this lottery")] = False,
     metric: Annotated[str, typer.Option("--metric",
-        help="Ranking metric: lift | hits | capture")] = "lift",
+        help="Ranking metric: lift | hits | capture | profit | roi | precision")] = "lift",
     top: Annotated[int, typer.Option("--top",
         help="How many winners to write to the YAML")] = 1,
     fmt: Annotated[str, typer.Option("--format",
@@ -265,6 +294,17 @@ def tune(
         lift = hit_rate / (baseline / pick_count) if baseline > 0 else 1.0
         capture = sum(1 for h in hits_list if h >= 1) / len(hits_list)
         
+        # Simulated financial metrics
+        ticket_cost = rules.ticket_price if rules.ticket_price > 0 else 1.0
+        total_payout = sum(calculate_simulated_prize(lottery, h, rules) for h in hits_list)
+        total_cost = len(hits_list) * ticket_cost
+        profit = total_payout - total_cost
+        roi = (total_payout / total_cost * 100.0) if total_cost > 0 else 0.0
+        
+        # Precision metric (hypergeometric/exponential weighting of hits)
+        min_win_tier = min(rules.prize_tiers) if rules.prize_tiers else 3
+        precision = float(np.mean([2**(h - min_win_tier + 1) if h >= min_win_tier else 0.0 for h in hits_list]))
+        
         ranked.append({
             "strategy": strat_name,
             "params": params,
@@ -272,11 +312,21 @@ def tune(
             "mean_hits": mean_hits,
             "lift": lift,
             "capture": capture,
+            "profit": profit,
+            "roi": roi,
+            "precision": precision,
             "n": len(hits_list)
         })
 
     # Sort by chosen metric
-    sort_key = "lift" if metric == "lift" else "mean_hits" if metric == "hits" else "capture"
+    sort_key = (
+        "profit" if metric == "profit"
+        else "roi" if metric == "roi"
+        else "precision" if metric == "precision"
+        else "lift" if metric == "lift"
+        else "mean_hits" if metric == "hits"
+        else "capture"
+    )
     ranked.sort(key=lambda x: x[sort_key], reverse=True)
 
     # Leaderboard UI
@@ -288,12 +338,17 @@ def tune(
     table.add_column("Mean Hits", justify="right")
     table.add_column("Lift", justify="right")
     table.add_column("Capture", justify="right")
+    table.add_column("Net Profit", justify="right")
+    table.add_column("ROI%", justify="right")
+    table.add_column("Precision", justify="right")
 
     for i, r in enumerate(ranked[:15], 1):
         p_str = ", ".join([f"{k}={v}" for k, v in r["params"].items()]) if r["params"] else "Default"
         f_str = ",".join(r["filters"]) if r["filters"] else "None"
         
         lift_style = "bold green" if r["lift"] > 1.1 else "green" if r["lift"] > 1.0 else "red"
+        profit_style = "bold green" if r["profit"] > 0 else "green" if r["profit"] == 0 else "red"
+        roi_style = "bold green" if r["roi"] > 100 else "green" if r["roi"] > 0 else "red"
         
         table.add_row(
             str(i),
@@ -302,7 +357,10 @@ def tune(
             f_str,
             f"{r['mean_hits']:.3f}",
             f"[{lift_style}]{r['lift']:.3f}[/]",
-            f"{r['capture']*100:.1f}%"
+            f"{r['capture']*100:.1f}%",
+            f"[{profit_style}]{rules.currency} {r['profit']:.2f}[/]",
+            f"[{roi_style}]{r['roi']:.1f}%[/]",
+            f"{r['precision']:.2f}"
         )
 
     console.print("\n")
@@ -314,7 +372,7 @@ def tune(
         f"Strategy: [bold cyan]{winner['strategy']}[/bold cyan]\n"
         f"Params: [yellow]{winner['params']}[/yellow]\n"
         f"Filters: [green]{winner['filters']}[/green]\n\n"
-        f"Metrics: Lift=[bold]{winner['lift']:.3f}[/] | Mean Hits={winner['mean_hits']:.3f} | Capture={winner['capture']*100:.1f}%",
+        f"Metrics: Lift=[bold]{winner['lift']:.3f}[/] | Mean Hits={winner['mean_hits']:.3f} | Net Profit=[bold]{rules.currency} {winner['profit']:.2f}[/] (ROI: {winner['roi']:.1f}%) | Precision={winner['precision']:.2f}",
         title="✨ Best Configuration Found",
         border_style="gold1"
     ))
@@ -349,7 +407,10 @@ def tune(
                 "metrics": {
                     "lift": float(r["lift"]),
                     "mean_hits": float(r["mean_hits"]),
-                    "capture": float(r["capture"])
+                    "capture": float(r["capture"]),
+                    "profit": float(r["profit"]),
+                    "roi": float(r["roi"]),
+                    "precision": float(r["precision"])
                 }
             }
             for r in ranked[:top]
@@ -362,13 +423,13 @@ def tune(
 
     if export_md:
         _append_md(export_md, lottery, rules.name, _date.today(), ranked,
-                  n_targets, limit, baseline, pick_count, pool_size, metric)
+                  n_targets, limit, baseline, pick_count, pool_size, metric, rules.currency)
 
 
 def _append_md(
     path: str, lottery: str, game_name: str, today: _date,
     ranked: list[dict], n_targets: int, window: int,
-    baseline: float, pick_count: int, pool_size: int, metric: str
+    baseline: float, pick_count: int, pool_size: int, metric: str, currency: str
 ) -> None:
     winner = ranked[0]
     
@@ -384,13 +445,15 @@ training_window: {window}
 baseline_hits: {baseline:.3f}
 top_strategy: {winner['strategy']}
 top_lift: {winner['lift']:.3f}
+top_profit: {winner['profit']:.2f}
+top_roi: {winner['roi']:.1f}%
 ranking_metric: {metric}
 ---
 
 ## Tuning Report: {game_name} ({today.isoformat()})
 
-| # | Strategy | Parameters | Filters | Mean Hits | Lift | Capture |
-|---|----------|------------|---------|-----------|------|---------|
+| # | Strategy | Parameters | Filters | Mean Hits | Lift | Capture | Net Profit | ROI % | Precision |
+|---|----------|------------|---------|-----------|------|---------|------------|-------|-----------|
 """
     table_rows = ""
     for rank, r in enumerate(ranked[:15], 1):
@@ -398,7 +461,7 @@ ranking_metric: {metric}
         f_str = ",".join(r["filters"]) if r["filters"] else "None"
         table_rows += (
             f"| {rank} | {r['strategy']} | {p_str} | {f_str} | {r['mean_hits']:.3f} "
-            f"| {r['lift']:.3f} | {r['capture']*100:.1f}% |\n"
+            f"| {r['lift']:.3f} | {r['capture']*100:.1f}% | {currency} {r['profit']:.2f} | {r['roi']:.1f}% | {r['precision']:.2f} |\n"
         )
 
     footer = f"\n*Random baseline: {baseline:.3f} hits/draw  ·  pick {pick_count} from {pool_size}*\n"
