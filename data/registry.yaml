@@ -87,3 +87,18 @@
   draw_lat: 48.8566
   draw_lon: 2.3522
   data_available: false
+
+- id: br/quina
+  name: Quina
+  pick_count: 5
+  pool_size: 80
+  ticket_price: 2.5
+  currency: BRL
+  draw_days: [Monday, Tuesday, Wednesday, Thursday, Friday, Saturday]
+  draw_city: "São Paulo"
+  draw_lat: -23.5505
+  draw_lon: -46.6333
+  adapter: quina
+  data_available: true
+  board_cols: 10
+
