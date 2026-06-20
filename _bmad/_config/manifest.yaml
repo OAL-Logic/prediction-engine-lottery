@@ -1,35 +1,35 @@
 installation:
-  version: 6.7.1
+  version: 6.8.0
   installDate: 2026-05-13T20:40:50.491Z
-  lastUpdated: 2026-05-20T22:53:18.261Z
+  lastUpdated: 2026-06-20T21:21:33.321Z
 modules:
   - name: core
-    version: 6.7.1
+    version: 6.8.0
     installDate: 2026-05-13T20:40:29.805Z
-    lastUpdated: 2026-05-20T22:53:18.234Z
+    lastUpdated: 2026-06-20T21:21:33.303Z
     source: built-in
     npmPackage: null
     repoUrl: null
   - name: bmm
-    version: 6.7.1
+    version: 6.8.0
     installDate: 2026-05-13T20:40:29.470Z
-    lastUpdated: 2026-05-20T22:53:18.237Z
+    lastUpdated: 2026-06-20T21:21:33.307Z
     source: built-in
     npmPackage: null
     repoUrl: null
   - name: bmb
     version: v1.8.1
     installDate: 2026-05-13T20:40:31.025Z
-    lastUpdated: 2026-05-20T22:53:18.241Z
+    lastUpdated: 2026-06-20T21:21:33.309Z
     source: external
     npmPackage: bmad-builder
     repoUrl: https://github.com/bmad-code-org/bmad-builder
-    channel: stable
+    channel: pinned
     sha: 3410d952eafe621f31fcdf4dd5efb2b06690a306
   - name: cis
     version: v0.2.1
     installDate: 2026-05-13T20:40:31.367Z
-    lastUpdated: 2026-05-20T22:53:18.253Z
+    lastUpdated: 2026-06-20T21:21:33.314Z
     source: external
     npmPackage: bmad-creative-intelligence-suite
     repoUrl: https://github.com/bmad-code-org/bmad-module-creative-intelligence-suite
@@ -38,7 +38,7 @@ modules:
   - name: tea
     version: v1.19.0
     installDate: 2026-05-13T20:40:41.031Z
-    lastUpdated: 2026-05-20T22:53:18.256Z
+    lastUpdated: 2026-06-20T21:21:33.318Z
     source: external
     npmPackage: bmad-method-test-architecture-enterprise
     repoUrl: https://github.com/bmad-code-org/bmad-method-test-architecture-enterprise
@@ -47,7 +47,7 @@ modules:
   - name: wds
     version: v0.4.3
     installDate: 2026-05-13T20:40:47.048Z
-    lastUpdated: 2026-05-20T22:53:18.261Z
+    lastUpdated: 2026-06-20T21:21:33.321Z
     source: external
     npmPackage: bmad-wds
     repoUrl: https://github.com/bmad-code-org/bmad-method-wds-expansion
