@@ -116,6 +116,7 @@ STRATEGY_REGISTRY = {
     "biorhythm": {"module": "engine.strategies.fun.biorhythm", "tier": "fun", "description": "Personal Biorhythm Alignment"},
     "fibonacci": {"module": "engine.strategies.fun.fibonacci", "tier": "fun", "description": "Golden Ratio (Phi) intervals"},
     "zodiac": {"module": "engine.strategies.fun.zodiac", "tier": "fun", "description": "Astrological transit alignment"},
+    "planetary_transits": {"module": "engine.strategies.fun.planetary_transits", "tier": "fun", "description": "🪐 Planetary transits, aspects, and Placidus house mapping"},
     "kabbalistic": {"module": "engine.strategies.fun.kabbalistic", "tier": "fun", "description": "Gematria & Kabbalistic Arcanos"},
     "esoteric_statistical": {"module": "engine.strategies.fun.esoteric_statistical", "tier": "fun", "description": "🔮 Esoteric Hashing × Statistical Core (Parity, StdDev, Cluster Gates)"},
     "reincarnation": {"module": "engine.strategies.fun.reincarnation", "tier": "fun", "description": "Past-draw reincarnation"},
@@ -586,7 +587,8 @@ CURATED_PRESETS = {
         "noosphere",
         "numerology",
         "fibonacci",
-        "kabbalistic"
+        "kabbalistic",
+        "planetary_transits"
     ]
 }
 

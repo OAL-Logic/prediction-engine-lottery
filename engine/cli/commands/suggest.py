@@ -616,6 +616,15 @@ def _print_single_result(result, label, rules, df, top_scored, strat_obj, explai
     # Explain Panel: top contributing features
     if explain:
         _print_explain_panel(result, rules, df)
+        if "placidus_wheel" in result.metadata:
+            from rich.panel import Panel
+            console.print(Panel(
+                result.metadata["placidus_wheel"].strip("\n"),
+                title="🪐 Astrological House Wheel (Placidus)",
+                border_style="magenta",
+                expand=False
+            ))
+
 
 def _print_evidence_panel(metadata: dict):
     """Draw the fancy 'OSINT' evidence panel."""
