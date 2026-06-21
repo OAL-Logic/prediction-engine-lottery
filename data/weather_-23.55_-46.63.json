@@ -70624,5 +70624,95 @@
     "precipitation_sum": 0.3,
     "windspeed_10m_max": 21.9,
     "surface_pressure_mean": 932.7
+  },
+  "2026-06-06": {
+    "temperature_2m_mean": 16.1,
+    "precipitation_sum": 0.0,
+    "windspeed_10m_max": 10.6,
+    "surface_pressure_mean": 933.6
+  },
+  "2026-06-07": {
+    "temperature_2m_mean": 16.4,
+    "precipitation_sum": 0.0,
+    "windspeed_10m_max": 6.6,
+    "surface_pressure_mean": 932.1
+  },
+  "2026-06-08": {
+    "temperature_2m_mean": 16.8,
+    "precipitation_sum": 0.0,
+    "windspeed_10m_max": 10.5,
+    "surface_pressure_mean": 933.1
+  },
+  "2026-06-09": {
+    "temperature_2m_mean": 17.5,
+    "precipitation_sum": 0.0,
+    "windspeed_10m_max": 12.8,
+    "surface_pressure_mean": 931.7
+  },
+  "2026-06-10": {
+    "temperature_2m_mean": 17.5,
+    "precipitation_sum": 3.8,
+    "windspeed_10m_max": 10.2,
+    "surface_pressure_mean": 931.1
+  },
+  "2026-06-11": {
+    "temperature_2m_mean": 16.6,
+    "precipitation_sum": 7.4,
+    "windspeed_10m_max": 11.9,
+    "surface_pressure_mean": 931.5
+  },
+  "2026-06-12": {
+    "temperature_2m_mean": 17.0,
+    "precipitation_sum": 2.7,
+    "windspeed_10m_max": 23.0,
+    "surface_pressure_mean": 928.7
+  },
+  "2026-06-13": {
+    "temperature_2m_mean": 17.8,
+    "precipitation_sum": 3.9,
+    "windspeed_10m_max": 19.9,
+    "surface_pressure_mean": 931.0
+  },
+  "2026-06-14": {
+    "temperature_2m_mean": 18.4,
+    "precipitation_sum": 1.2,
+    "windspeed_10m_max": 15.4,
+    "surface_pressure_mean": 932.5
+  },
+  "2026-06-15": {
+    "temperature_2m_mean": 15.7,
+    "precipitation_sum": 17.0,
+    "windspeed_10m_max": 9.5,
+    "surface_pressure_mean": 932.8
+  },
+  "2026-06-16": {
+    "temperature_2m_mean": 15.0,
+    "precipitation_sum": 1.0,
+    "windspeed_10m_max": 7.6,
+    "surface_pressure_mean": 933.3
+  },
+  "2026-06-17": {
+    "temperature_2m_mean": 14.0,
+    "precipitation_sum": 0.0,
+    "windspeed_10m_max": 9.7,
+    "surface_pressure_mean": 935.2
+  },
+  "2026-06-18": {
+    "temperature_2m_mean": 12.9,
+    "precipitation_sum": 0.0,
+    "windspeed_10m_max": 11.1,
+    "surface_pressure_mean": 937.0
+  },
+  "2026-06-19": {
+    "temperature_2m_mean": 15.6,
+    "precipitation_sum": 0.0,
+    "windspeed_10m_max": 14.1,
+    "surface_pressure_mean": 933.8
+  },
+  "2026-06-20": {
+    "temperature_2m_mean": 17.7,
+    "precipitation_sum": 3.9,
+    "windspeed_10m_max": 17.2,
+    "surface_pressure_mean": 929.6
   }
 }
