@@ -339,7 +339,6 @@ class UniversalConjunction(BaseStrategy):
         # 3. Geometric Neighbors (Singularity Injection)
         try:
             # We use local references to avoid circularity if possible
-            from engine.strategies import get_strategy
             s_weighted = get_strategy("weighted").score(df, rules)
             s_iching = get_strategy("iching").score(df, rules)
             

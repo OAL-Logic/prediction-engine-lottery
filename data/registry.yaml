@@ -102,3 +102,20 @@
   data_available: true
   board_cols: 10
 
+- id: br/mais-milionaria
+  name: +Milionária
+  pick_count: 6
+  pool_size: 50
+  bonus_count: 2
+  bonus_pool: 6
+  max_picks: 12
+  ticket_price: 6.0
+  currency: BRL
+  draw_days: [Wednesday, Saturday]
+  draw_city: "São Paulo"
+  draw_lat: -23.5505
+  draw_lon: -46.6333
+  adapter: mais_milionaria
+  data_available: true
+  board_cols: 10
+
