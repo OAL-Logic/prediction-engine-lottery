@@ -1,0 +1,20 @@
+{
+    "enableTerminalSandbox": true,
+    "permissions": {
+        "allow": [
+            "command(git)",
+            "command(npm run (build|lint|test))",
+            "unsandboxed(git push)",
+            "command(python3 -m engine.cli.main .*)",
+            "command(python3 scripts/.*.py)",
+            "command(./lottery)"
+        ],
+        "deny": [
+            "command(rm -rf)",
+            "command(curl)",
+            "command(sudo)",
+            "write_file(.git/)",
+            "write_file(/home/user/.ssh)"
+        ]
+    }
+}
