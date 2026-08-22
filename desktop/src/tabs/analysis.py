@@ -1,14 +1,18 @@
 import logging
 import numpy as np
 import pandas as pd
-from PySide6.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QLabel, QGroupBox, QComboBox, QSplitter
-from PySide6.QtCore import Qt
+import scipy.stats as stats
+from PySide6.QtWidgets import (
+    QWidget, QVBoxLayout, QHBoxLayout, QLabel, QGroupBox, QComboBox, 
+    QSplitter, QTableWidget, QTableWidgetItem, QHeaderView, QMessageBox
+)
+from PySide6.QtCore import Qt, Slot
 from matplotlib.backends.backend_qtagg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.figure import Figure
-import scipy.stats as stats
 
 from engine.modules.storage import storage
 from engine.cli.utils import get_adapter
+from desktop.src.telemetry.manager import SkipsJob
 
 logger = logging.getLogger(__name__)
 
@@ -16,13 +20,29 @@ class AnalysisTab(QWidget):
     """
     Statistical Cockpit Tab.
     Provides live high-density Matplotlib analytics matching the dark neon theme,
-    linked directly to the active DuckDB history backend.
+    coupled with an interactive statistics ledger that supports click-to-drill-down
+    skips analysis.
     """
     
     def __init__(self, parent=None):
         super().__init__(parent)
         self.active_lottery = "br/lotofacil"
         self.df_draws = pd.DataFrame()
+        self.skips_dialog = None
+        
+        # Default fallback palette (Sleek Dark Mode)
+        self.colors = {
+            "background": "#121214",
+            "primary":    "#00F0FF",   # Cyber Cyan
+            "accent":     "#FF3366",   # Active Red
+            "success":    "#39FF14",   # Radioactive Green
+            "warning":    "#FFEA00",   # Supernova Gold
+            "panel":      "#1A1A1E",
+            "border":     "#222226",
+            "text":       "#E0E0E5",
+            "text_dim":   "#8A8A95",
+        }
+        
         self.initUI()
 
     def initUI(self):
@@ -48,33 +68,66 @@ class AnalysisTab(QWidget):
         
         layout.addLayout(top_layout)
 
-        # 2. Main Analytics Splitter (Chart Canvas vs Tabular Summary card)
-        splitter = QSplitter(Qt.Vertical)
+        # 2. Main Analytics Splitter (Upper Table + Chart vs Lower Summary card)
+        main_splitter = QSplitter(Qt.Vertical)
 
-        # 2.1 Matplotlib Chart Canvas
-        self.figure = Figure(figsize=(10, 6), facecolor='#000000')
+        # Horizontal Splitter dividing Left Stats Table & Right Plot Canvas
+        upper_splitter = QSplitter(Qt.Horizontal)
+
+        # 2.1 QTableWidget for Statistics Data
+        self.stats_table = QTableWidget()
+        self.stats_table.setSelectionBehavior(QTableWidget.SelectRows)
+        self.stats_table.setSelectionMode(QTableWidget.SingleSelection)
+        self.stats_table.setEditTriggers(QTableWidget.NoEditTriggers)
+        self.stats_table.verticalHeader().setVisible(False)
+        self.stats_table.cellClicked.connect(self.on_row_selected)
+        upper_splitter.addWidget(self.stats_table)
+
+        # 2.2 Matplotlib Chart Canvas
+        self.figure = Figure(figsize=(8, 6), facecolor=self.colors["background"])
         self.canvas = FigureCanvas(self.figure)
         self.ax = self.figure.add_subplot(111)
-        self.ax.set_facecolor('#000000')
-        
-        splitter.addWidget(self.canvas)
+        self.ax.set_facecolor(self.colors["panel"])
+        upper_splitter.addWidget(self.canvas)
 
-        # 2.2 Diagnostic Summary Box
+        # Set sizes (35% table, 65% chart)
+        upper_splitter.setSizes([350, 650])
+        main_splitter.addWidget(upper_splitter)
+
+        # 2.3 Diagnostic Summary Box
         self.stats_box = QGroupBox("Diagnostic Summary")
         stats_layout = QVBoxLayout(self.stats_box)
         
         self.summary_label = QLabel("Awaiting database load...")
-        self.summary_label.setStyleSheet("font-family: 'JetBrains Mono'; font-size: 12px; color: #00ff41;")
+        self.summary_label.setStyleSheet("font-family: 'JetBrains Mono'; font-size: 12px;")
         stats_layout.addWidget(self.summary_label)
         
-        splitter.addWidget(self.stats_box)
+        main_splitter.addWidget(self.stats_box)
         
-        # Ratio: 4 parts chart, 1 part diagnostic card
-        splitter.setSizes([600, 150])
-        layout.addWidget(splitter)
+        # Ratio: 4 parts upper workspace, 1 part diagnostic card
+        main_splitter.setSizes([600, 150])
+        layout.addWidget(main_splitter)
 
         # Initial load
         self.load_data()
+
+    def sync_theme_colors(self):
+        """Syncs local color map with the top-level main window theme settings."""
+        main_win = self.window()
+        if hasattr(main_win, "theme_manager") and main_win.theme_manager:
+            theme_name = main_win.theme_manager.settings.value("theme", "Sleek Dark Mode")
+            theme_palette = main_win.theme_manager.themes.get(theme_name)
+            if theme_palette:
+                for k, v in theme_palette.items():
+                    self.colors[k] = v
+        
+        # Apply stylesheet to table to match theme
+        self.stats_table.setStyleSheet(
+            f"QTableWidget {{ background-color: {self.colors['panel']}; border: 1px solid {self.colors['border']}; font-family: 'JetBrains Mono'; font-size: 11px; color: {self.colors['text']}; }}"
+            f"QTableWidget::item:selected {{ background-color: {self.colors['primary']}; color: {self.colors['background']}; }}"
+            f"QHeaderView::section {{ background-color: {self.colors['border']}; color: {self.colors['text_dim']}; border: none; padding: 4px; }}"
+        )
+        self.summary_label.setStyleSheet(f"font-family: 'JetBrains Mono'; font-size: 12px; color: {self.colors['success']};")
 
     def set_lottery(self, lottery_id: str):
         """Called globally when active lottery swaps."""
@@ -84,7 +137,6 @@ class AnalysisTab(QWidget):
     def load_data(self):
         """Queries DuckDB storage for the latest 200 draws to perform fast real-time analytics."""
         try:
-            # Query last 200 draws for high quality stats without slowing down GUI
             self.df_draws = storage.load_draws(self.active_lottery, limit=200)
             self.update_chart()
         except Exception as e:
@@ -95,12 +147,17 @@ class AnalysisTab(QWidget):
         self.update_chart()
 
     def update_chart(self):
-        """Clears figure and redraws using DuckDB data according to chosen selector view."""
+        """Clears figure, populates stats table, and redraws chart using DuckDB data."""
+        self.sync_theme_colors()
         self.ax.clear()
+        self.stats_table.setRowCount(0)
+        self.stats_table.setColumnCount(0)
         
         if self.df_draws.empty or len(self.df_draws) < 3:
             self.ax.text(0.5, 0.5, "Insufficient drawings in database to perform analysis.", 
-                         color='#ff3131', ha='center', va='center', transform=self.ax.transAxes)
+                         color=self.colors["error"], ha='center', va='center', transform=self.ax.transAxes)
+            self.figure.patch.set_facecolor(self.colors["background"])
+            self.ax.set_facecolor(self.colors["panel"])
             self.canvas.draw()
             self.summary_label.setText("Diagnostician State: INSUFFICIENT DATA")
             return
@@ -118,59 +175,90 @@ class AnalysisTab(QWidget):
         all_numbers = np.concatenate(self.df_draws["numbers"].values)
         total_draws = len(self.df_draws)
 
+        # Style standard chart background/axes
+        self.figure.patch.set_facecolor(self.colors["background"])
+        self.ax.set_facecolor(self.colors["panel"])
+        self.ax.tick_params(colors=self.colors["text_dim"])
+        for spine in self.ax.spines.values():
+            spine.set_color(self.colors["border"])
+        self.ax.grid(True, color=self.colors["border"], linestyle=":", alpha=0.5)
+
         if view_type == "Frequency Distribution":
-            # 1. Frequency Bar Chart
+            # Compute Frequencies
             counts = pd.Series(all_numbers).value_counts()
-            # Ensure all numbers are represented
             freqs = [counts.get(n, 0) for n in range(min_n, max_n + 1)]
             x_vals = list(range(min_n, max_n + 1))
             
-            # Sort to identify Hot / Cold
             sorted_counts = counts.sort_values(ascending=False)
             hot_balls = list(sorted_counts.index[:3])
             cold_balls = list(sorted_counts.index[-3:])
             
-            # Set bar colors (Matrix Green for standard, Cyan for Hot, Astro Violet for Cold)
             colors = []
             for n in x_vals:
                 if n in hot_balls:
-                    colors.append("#00B0FF") # Hot cyan
+                    colors.append(self.colors["primary"]) # Hot
                 elif n in cold_balls:
-                    colors.append("#8a2be2") # Cold violet
+                    colors.append(self.colors["accent"])  # Cold
                 else:
-                    colors.append("#00ff41") # Standard green
+                    colors.append(self.colors["success"]) # Standard
             
-            self.ax.bar(x_vals, freqs, color=colors, edgecolor='#333333', linewidth=1)
-            self.ax.set_title(f"Historical Frequency Distribution (Last {total_draws} Draws)", color='#00ff41', fontsize=12)
-            self.ax.set_xlabel("Lottery Ball Number", color='#008f11')
-            self.ax.set_ylabel("Occurrence Count", color='#008f11')
-            self.ax.tick_params(colors='#008f11')
+            # Plot
+            self.ax.bar(x_vals, freqs, color=colors, edgecolor=self.colors["border"], linewidth=1)
+            self.ax.set_title(f"Historical Frequency Distribution (Last {total_draws} Draws)", color=self.colors["primary"], fontsize=12, fontproperties={'family': 'JetBrains Mono'})
+            self.ax.set_xlabel("Lottery Ball Number", color=self.colors["text_dim"], fontproperties={'family': 'JetBrains Mono'})
+            self.ax.set_ylabel("Occurrence Count", color=self.colors["text_dim"], fontproperties={'family': 'JetBrains Mono'})
             self.ax.set_xticks(x_vals)
             
+            # Populate Table
+            self.stats_table.setColumnCount(4)
+            self.stats_table.setHorizontalHeaderLabels(["Ball Number", "Occurrence Count", "Frequency %", "Status"])
+            self.stats_table.horizontalHeader().setSectionResizeMode(QHeaderView.Stretch)
+            self.stats_table.setRowCount(max_n - min_n + 1)
+            
+            for row, n in enumerate(x_vals):
+                cnt = counts.get(n, 0)
+                pct = (cnt / total_draws) * 100
+                status = "Normal"
+                if n in hot_balls:
+                    status = "Hot"
+                elif n in cold_balls:
+                    status = "Cold"
+                
+                self.stats_table.setItem(row, 0, QTableWidgetItem(f"Ball {n:02d}"))
+                self.stats_table.setItem(row, 1, QTableWidgetItem(str(cnt)))
+                self.stats_table.setItem(row, 2, QTableWidgetItem(f"{pct:.2f}%"))
+                self.stats_table.setItem(row, 3, QTableWidgetItem(status))
+                
+                # Apply custom text color based on status
+                for col in range(4):
+                    item = self.stats_table.item(row, col)
+                    if status == "Hot":
+                        item.setForeground(QColor(self.colors["primary"]))
+                    elif status == "Cold":
+                        item.setForeground(QColor(self.colors["accent"]))
+                    else:
+                        item.setForeground(QColor(self.colors["text"]))
+
             # Diagnostic Summary Text
             summary = (
                 f"📊 Frequency Diagnostic (Lookback: {total_draws} drawings):\n"
-                f"  ➔ Hottest Swarm Numbers (Cyan)   : " + ", ".join(f"{b:02d}" for b in hot_balls) + f" (Freq: {counts.get(hot_balls[0],0)}, {counts.get(hot_balls[1],0)}, {counts.get(hot_balls[2],0)})\n"
-                f"  ➔ Coldest Frozen Numbers (Violet) : " + ", ".join(f"{b:02d}" for b in cold_balls) + f" (Freq: {counts.get(cold_balls[0],0)}, {counts.get(cold_balls[1],0)}, {counts.get(cold_balls[2],0)})"
+                f"  ➔ Hottest Swarm Numbers   : " + ", ".join(f"{b:02d}" for b in hot_balls) + f" (Freq: {counts.get(hot_balls[0],0)}, {counts.get(hot_balls[1],0)}, {counts.get(hot_balls[2],0)})\n"
+                f"  ➔ Coldest Frozen Numbers : " + ", ".join(f"{b:02d}" for b in cold_balls) + f" (Freq: {counts.get(cold_balls[0],0)}, {counts.get(cold_balls[1],0)}, {counts.get(cold_balls[2],0)})"
             )
             self.summary_label.setText(summary)
 
         elif view_type == "Actual Skips Statistics":
-            # 2. Skips Statistics (Current vs Average Skips side-by-side)
-            # We calculate skips for each number in history
             curr_skips = {}
             avg_skips = {}
             max_skips = {}
             
             for n in range(min_n, max_n + 1):
-                # Trace indices where n appeared
                 appearances = []
                 for idx, row in self.df_draws.iterrows():
                     if n in row["numbers"]:
                         appearances.append(idx)
                 
                 if appearances:
-                    # Calculate gaps between indices
                     gaps = np.diff(appearances) - 1
                     avg_skips[n] = np.mean(gaps) if len(gaps) > 0 else 0.0
                     max_skips[n] = np.max(gaps) if len(gaps) > 0 else 0.0
@@ -182,93 +270,148 @@ class AnalysisTab(QWidget):
 
             x_vals = np.arange(min_n, max_n + 1)
             width = 0.35
-            
-            # Plot side by side bars
             currents = [curr_skips[n] for n in x_vals]
             averages = [avg_skips[n] for n in x_vals]
             
-            self.ax.bar(x_vals - width/2, currents, width, label='Current Skip', color='#ffea00') # Yellow warning alert
-            self.ax.bar(x_vals + width/2, averages, width, label='Average Skip', color='#00ff41')  # Neon Green
-            
-            self.ax.set_title("Actual Skips Cockpit (Current vs Average Skips)", color='#00ff41', fontsize=12)
-            self.ax.set_xlabel("Lottery Ball Number", color='#008f11')
-            self.ax.set_ylabel("Drawing Gaps (Draws)", color='#008f11')
-            self.ax.tick_params(colors='#008f11')
+            # Plot
+            self.ax.bar(x_vals - width/2, currents, width, label='Current Skip', color=self.colors["warning"])
+            self.ax.bar(x_vals + width/2, averages, width, label='Average Skip', color=self.colors["success"])
+            self.ax.set_title("Actual Skips Cockpit (Current vs Average Skips)", color=self.colors["primary"], fontsize=12, fontproperties={'family': 'JetBrains Mono'})
+            self.ax.set_xlabel("Lottery Ball Number", color=self.colors["text_dim"], fontproperties={'family': 'JetBrains Mono'})
+            self.ax.set_ylabel("Drawing Gaps (Draws)", color=self.colors["text_dim"], fontproperties={'family': 'JetBrains Mono'})
             self.ax.set_xticks(x_vals)
-            self.ax.legend(facecolor='#000000', labelcolor='#00ff41', edgecolor='#333333')
+            self.ax.legend(facecolor=self.colors["panel"], labelcolor=self.colors["text"], edgecolor=self.colors["border"])
             
-            # Find extreme overdue number
+            # Populate Table
+            self.stats_table.setColumnCount(5)
+            self.stats_table.setHorizontalHeaderLabels(["Ball Number", "Current Skip", "Average Skip", "Max Skip", "Status"])
+            self.stats_table.horizontalHeader().setSectionResizeMode(QHeaderView.Stretch)
+            self.stats_table.setRowCount(max_n - min_n + 1)
+            
+            for row, n in enumerate(x_vals):
+                c_skip = curr_skips[n]
+                a_skip = avg_skips[n]
+                m_skip = max_skips[n]
+                status = "Overdue" if c_skip > a_skip else "Normal"
+                
+                self.stats_table.setItem(row, 0, QTableWidgetItem(f"Ball {n:02d}"))
+                self.stats_table.setItem(row, 1, QTableWidgetItem(str(c_skip)))
+                self.stats_table.setItem(row, 2, QTableWidgetItem(f"{a_skip:.2f}"))
+                self.stats_table.setItem(row, 3, QTableWidgetItem(str(m_skip)))
+                self.stats_table.setItem(row, 4, QTableWidgetItem(status))
+                
+                for col in range(5):
+                    item = self.stats_table.item(row, col)
+                    if status == "Overdue":
+                        item.setForeground(QColor(self.colors["accent"]))
+                    else:
+                        item.setForeground(QColor(self.colors["text"]))
+
             overdue_n = max(x_vals, key=lambda n: curr_skips[n] - avg_skips[n])
             summary = (
                 f"⏳ Actual Skips Diagnostic Ledger:\n"
                 f"  ➔ Average Skip Range : {min(averages):.1f} to {max(averages):.1f} draws\n"
-                f"  ➔ Most Overdue Ball (Current Skip > Average Skip) : Ball {overdue_n:02d} (Current: {curr_skips[overdue_n]} draws vs Avg: {avg_skips[overdue_n]:.1f})"
+                f"  ➔ Most Overdue Ball  : Ball {overdue_n:02d} (Current: {curr_skips[overdue_n]} draws vs Avg: {avg_skips[overdue_n]:.1f})"
             )
             self.summary_label.setText(summary)
 
         elif view_type == "Sum Range Bell Curve":
-            # 3. Sum Range curve
             sums = self.df_draws["numbers"].apply(sum).values
             
-            # Plot histogram
+            # Plot
             n_bins = min(20, len(np.unique(sums)))
-            self.ax.hist(sums, bins=n_bins, density=True, color='#008f11', alpha=0.6, edgecolor='#00ff41')
+            self.ax.hist(sums, bins=n_bins, density=True, color=self.colors["success"], alpha=0.4, edgecolor=self.colors["border"])
             
-            # Overlay normal curve fit
             mu, std = stats.norm.fit(sums)
             xmin, xmax = self.ax.get_xlim()
             x = np.linspace(xmin, xmax, 100)
             p = stats.norm.pdf(x, mu, std)
-            self.ax.plot(x, p, '#00B0FF', linewidth=2, linestyle='--', label='Gaussian Normal Fit')
+            self.ax.plot(x, p, self.colors["primary"], linewidth=2, linestyle='--', label='Gaussian Normal Fit')
             
-            self.ax.set_title(f"Ticket Sum Range Bell Curve (Mean: {mu:.1f}, StdDev: {std:.1f})", color='#00ff41', fontsize=12)
-            self.ax.set_xlabel("Drawing Ticket Sum Value", color='#008f11')
-            self.ax.set_ylabel("Probability Density", color='#008f11')
-            self.ax.tick_params(colors='#008f11')
-            self.ax.legend(facecolor='#000000', labelcolor='#00ff41', edgecolor='#333333')
+            self.ax.set_title(f"Ticket Sum Range Bell Curve (Mean: {mu:.1f}, StdDev: {std:.1f})", color=self.colors["primary"], fontsize=12, fontproperties={'family': 'JetBrains Mono'})
+            self.ax.set_xlabel("Drawing Ticket Sum Value", color=self.colors["text_dim"], fontproperties={'family': 'JetBrains Mono'})
+            self.ax.set_ylabel("Probability Density", color=self.colors["text_dim"], fontproperties={'family': 'JetBrains Mono'})
+            self.ax.legend(facecolor=self.colors["panel"], labelcolor=self.colors["text"], edgecolor=self.colors["border"])
             
-            # Find how many draws are within 1.5 standard deviation (The golden "Resonance zone")
-            resonance_lower = mu - 1.5 * std
-            resonance_upper = mu + 1.5 * std
-            inside_resonance = np.sum((sums >= resonance_lower) & (sums <= resonance_upper))
+            # Populate Table (Recent draws and sums)
+            self.stats_table.setColumnCount(5)
+            self.stats_table.setHorizontalHeaderLabels(["Draw ID", "Draw Date", "Numbers", "Ticket Sum", "Deviation (z)"])
+            self.stats_table.horizontalHeader().setSectionResizeMode(QHeaderView.Stretch)
+            self.stats_table.setRowCount(len(self.df_draws))
+            
+            # Reverse order (most recent first)
+            for idx, (_, row_data) in enumerate(self.df_draws.iloc[::-1].iterrows()):
+                d_sum = sum(row_data["numbers"])
+                z_score = (d_sum - mu) / std if std > 0 else 0.0
+                nums_str = ", ".join(map(str, sorted(row_data["numbers"])))
+                
+                self.stats_table.setItem(idx, 0, QTableWidgetItem(str(row_data["draw_id"])))
+                self.stats_table.setItem(idx, 1, QTableWidgetItem(str(row_data["draw_date"])))
+                self.stats_table.setItem(idx, 2, QTableWidgetItem(nums_str))
+                self.stats_table.setItem(idx, 3, QTableWidgetItem(str(d_sum)))
+                self.stats_table.setItem(idx, 4, QTableWidgetItem(f"{z_score:+.2f}"))
+                
+                # Check for extreme sums (z-score > 1.5 or < -1.5)
+                for col in range(5):
+                    item = self.stats_table.item(idx, col)
+                    if abs(z_score) > 1.5:
+                        item.setForeground(QColor(self.colors["warning"]))
+                    else:
+                        item.setForeground(QColor(self.colors["text"]))
+
+            inside_resonance = np.sum((sums >= mu - 1.5 * std) & (sums <= mu + 1.5 * std))
             resonance_pct = (inside_resonance / len(sums)) * 100
             
             summary = (
                 f"🔔 Sum Range Normal Curve Fit:\n"
                 f"  ➔ Mathematical Mean Sum : {mu:.2f} | Standard Deviation: {std:.2f}\n"
-                f"  ➔ Golden Resonance Zone [mu - 1.5*std, mu + 1.5*std] : {int(resonance_lower)} to {int(resonance_upper)} sum value\n"
+                f"  ➔ Golden Resonance Zone [mu - 1.5*std, mu + 1.5*std] : {int(mu - 1.5*std)} to {int(mu + 1.5*std)} sum value\n"
                 f"  ➔ Drawings inside Resonance Zone : {inside_resonance} / {total_draws} ({resonance_pct:.2f}% of draws)"
             )
             self.summary_label.setText(summary)
 
         elif view_type == "Positional Matrix Heatmap":
-            # 4. Positional Density Heatmap
-            # Build index position counts: pick_k rows, max_n columns
             pos_matrix = np.zeros((pick_k, max_n - min_n + 1), dtype=np.int32)
-            
-            for _, row in self.df_draws.iterrows():
-                sorted_nums = sorted(row["numbers"])
+            for _, row_data in self.df_draws.iterrows():
+                sorted_nums = sorted(row_data["numbers"])
                 for pos, num in enumerate(sorted_nums):
                     if pos < pick_k and min_n <= num <= max_n:
                         pos_matrix[pos, num - min_n] += 1
             
-            # Draw matrix using imshow
-            im = self.ax.imshow(pos_matrix, cmap='viridis', aspect='auto', interpolation='nearest')
-            
-            # Style titles & labels
-            self.ax.set_title("Positional Index Frequency Heatmap", color='#00ff41', fontsize=12)
-            self.ax.set_ylabel("Ball Sort Index (Pos 1..Pos K)", color='#008f11')
-            self.ax.set_xlabel("Ball Number value", color='#008f11')
-            
+            # Plot
+            self.ax.imshow(pos_matrix, cmap='viridis', aspect='auto', interpolation='nearest')
+            self.ax.set_title("Positional Index Frequency Heatmap", color=self.colors["primary"], fontsize=12, fontproperties={'family': 'JetBrains Mono'})
+            self.ax.set_ylabel("Ball Sort Index (Pos 1..Pos K)", color=self.colors["text_dim"], fontproperties={'family': 'JetBrains Mono'})
+            self.ax.set_xlabel("Ball Number value", color=self.colors["text_dim"], fontproperties={'family': 'JetBrains Mono'})
             self.ax.set_yticks(range(pick_k))
-            self.ax.set_yticklabels([f"Pos {i+1}" for i in range(pick_k)], color='#008f11')
+            self.ax.set_yticklabels([f"Pos {i+1}" for i in range(pick_k)])
             
             x_ticks = list(range(0, max_n - min_n + 1, max(1, (max_n - min_n) // 10)))
             self.ax.set_xticks(x_ticks)
-            self.ax.set_xticklabels([f"{x + min_n:02d}" for x in x_ticks], color='#008f11')
-            self.ax.tick_params(colors='#008f11')
+            self.ax.set_xticklabels([f"{x + min_n:02d}" for x in x_ticks])
             
-            # Find the most locked ball (highest position frequency)
+            # Populate Table
+            self.stats_table.setColumnCount(4)
+            self.stats_table.setHorizontalHeaderLabels(["Ball Number", "Sort Position", "Peak Count", "Peak %"])
+            self.stats_table.horizontalHeader().setSectionResizeMode(QHeaderView.Stretch)
+            self.stats_table.setRowCount(max_n - min_n + 1)
+            
+            x_vals = list(range(min_n, max_n + 1))
+            for row, n in enumerate(x_vals):
+                pos_counts = pos_matrix[:, n - min_n]
+                peak_pos = int(np.argmax(pos_counts))
+                peak_cnt = int(pos_counts[peak_pos])
+                peak_pct = (peak_cnt / total_draws) * 100
+                
+                self.stats_table.setItem(row, 0, QTableWidgetItem(f"Ball {n:02d}"))
+                self.stats_table.setItem(row, 1, QTableWidgetItem(f"Pos {peak_pos + 1}"))
+                self.stats_table.setItem(row, 2, QTableWidgetItem(str(peak_cnt)))
+                self.stats_table.setItem(row, 3, QTableWidgetItem(f"{peak_pct:.2f}%"))
+                
+                for col in range(4):
+                    item = self.stats_table.item(row, col)
+                    item.setForeground(QColor(self.colors["text"]))
+
             max_idx = np.unravel_index(np.argmax(pos_matrix, axis=None), pos_matrix.shape)
             locked_pos = max_idx[0] + 1
             locked_val = max_idx[1] + min_n
@@ -283,3 +426,55 @@ class AnalysisTab(QWidget):
 
         self.figure.tight_layout()
         self.canvas.draw()
+
+    @Slot(int, int)
+    def on_row_selected(self, row: int, col: int):
+        """Triggered when a user clicks a row in the stats table. Parses target number and launches background skips calculations."""
+        item = self.stats_table.item(row, 0)
+        if not item:
+            return
+            
+        text = item.text()
+        try:
+            if text.startswith("Ball "):
+                number = int(text.split(" ")[-1])
+            else:
+                number = int(text)
+            self.inspect_number_skips(number)
+        except ValueError:
+            # Clicking non-number rows (e.g. Draw IDs in Sum Range) is ignored
+            pass
+
+    def inspect_number_skips(self, number: int):
+        """Launches QThread skips job for the target number."""
+        main_win = self.window()
+        if not hasattr(main_win, "thread_manager") or main_win.thread_manager is None:
+            logger.warning("Main window thread manager not found, skipping skips drill-down.")
+            return
+
+        # Start background job using ThreadManager
+        task_id = f"skips_{self.active_lottery}_{number}"
+        job = main_win.thread_manager.start_job(
+            task_id,
+            SkipsJob(self.active_lottery, number, num_draws=200)
+        )
+        if job:
+            job.signals.finished.connect(self.on_skips_job_finished)
+            job.signals.failed.connect(self.on_skips_job_failed)
+
+    @Slot(dict)
+    def on_skips_job_finished(self, payload: dict):
+        """Displays or updates the modeless SkipsInspectorDialog once calculations finish."""
+        if not hasattr(self, "skips_dialog") or self.skips_dialog is None:
+            from desktop.src.widgets.skips_inspector import SkipsInspectorDialog
+            self.skips_dialog = SkipsInspectorDialog(self)
+        
+        self.skips_dialog.show()
+        self.skips_dialog.raise_()
+        self.skips_dialog.activateWindow()
+        self.skips_dialog.update_data(payload)
+
+    @Slot(str, str, str)
+    def on_skips_job_failed(self, title: str, msg: str, tb: str):
+        """Displays error details if skips calculations fail."""
+        QMessageBox.critical(self, title, f"Failed to compute skips profile:\n{msg}")

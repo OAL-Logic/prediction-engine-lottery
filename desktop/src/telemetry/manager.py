@@ -305,6 +305,58 @@ class TrainJob(QThread):
             self.signals.new_log.emit(f"Swarm evolution error: {err_msg}", "ERROR")
             self.signals.failed.emit("Swarm Evolution Error", err_msg, tb_str)
 
+class SkipsJob(QThread):
+    """
+    Computes skip metrics (Actual Skips, Average Skip, Now Skip) for a specific number in the background.
+    """
+    def __init__(
+        self,
+        lottery_id: str,
+        number: int,
+        num_draws: int = 200,
+        parent: QObject | None = None
+    ):
+        super().__init__(parent)
+        self.lottery_id = lottery_id
+        self.number = number
+        self.num_draws = num_draws
+        self.signals = JobSignals()
+
+    def run(self) -> None:
+        self.signals.new_log.emit(f"Initializing skips calculations for Ball {self.number:02d} on '{self.lottery_id}'...", "INFO")
+        self.signals.progress.emit(10, "Loading draw database...")
+
+        try:
+            from engine.modules.storage import storage
+            from engine.modules.skips import compute_skip_profile
+
+            # Load draws (newest to oldest or vice versa; load_draws sorts draw_id ascending internally)
+            df = storage.load_draws(self.lottery_id, limit=self.num_draws)
+            if df.empty:
+                raise ValueError(f"No draw history found for lottery '{self.lottery_id}'.")
+
+            self.signals.progress.emit(50, "Computing skips sequence...")
+            
+            # Compute skips profile
+            result_payload = compute_skip_profile(df, self.number)
+            result_payload["status"] = "success"
+            result_payload["lottery_id"] = self.lottery_id
+            result_payload["num_draws_analyzed"] = len(df)
+
+            self.signals.progress.emit(100, "Skips calculation complete.")
+            self.signals.new_log.emit(
+                f"Computed skips for Ball {self.number:02d}. Avg Skip: {result_payload['average_skip']:.2f}, Now Skip: {result_payload['now_skip']}",
+                "RESONANCE"
+            )
+            self.signals.finished.emit(result_payload)
+
+        except Exception as exc:
+            tb_str = traceback.format_exc()
+            err_msg = str(exc) or type(exc).__name__
+            self.signals.new_log.emit(f"Skips calculation error: {err_msg}", "ERROR")
+            self.signals.failed.emit("Skips Calculation Error", err_msg, tb_str)
+
+
 class ThreadManager:
     """Orchestrates background threads to prevent UI lockup and coordinate cleanup."""
     def __init__(self) -> None:
