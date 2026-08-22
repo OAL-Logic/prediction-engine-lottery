@@ -2,7 +2,7 @@
 id: "004"
 type: prototype
 status: open
-blocked_by: ["001", "003"]
+blocked_by: ["003"]
 map: strategy-pruning-meta-selection-map.md
 created: 2026-07-11
 ---

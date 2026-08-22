@@ -1,7 +1,8 @@
 ---
 id: "002"
 type: research
-status: open
+status: closed
+assignee: antigravity
 blocked_by: []
 map: strategy-pruning-meta-selection-map.md
 created: 2026-07-11
@@ -39,7 +40,20 @@ Several subsystems already compute strategy quality metrics but do not act on th
 
 ## Acceptance criteria
 
-- [ ] A markdown comparison table of candidate inputs exists.
-- [ ] A recommendation for MVP inputs is stated with rationale.
-- [ ] Gaps that need closing before policy design are listed.
-- [ ] No code is required; output is a markdown research summary linked from this ticket.
+- [x] A markdown comparison table of candidate inputs exists.
+- [x] A recommendation for MVP inputs is stated with rationale.
+- [x] Gaps that need closing before policy design are listed.
+- [x] No code is required; output is a markdown research summary linked from this ticket.
+
+## Resolution
+
+Resolved on 2026-08-11. See [Selection Inputs Survey Findings](../decisions/002-selection-inputs-survey-findings.md) for full details.
+
+### Key Findings & Recommendations
+- **Primary Selector Input**: Out-of-sample calibration lift (`data/calibration_cache.json`) is the most robust and ready metric for strategy selection.
+- **Secondary Input**: Strategy tier (statistical/ML/deep/fun) from `STRATEGY_REGISTRY` to prevent high runtime latencies or system incompatibilities.
+- **Critical Gaps to Close**: 
+  1. `lottery prune` output is currently stdout-only; need to either run audits dynamically or cache pruning results to a JSON file.
+  2. Calibration cache overwrites on each run, meaning historical trend of lift is not captured.
+  3. No explicit latency metadata in strategy definitions.
+  4. Redundancy Jaccard matrix is printed to console but not saved.

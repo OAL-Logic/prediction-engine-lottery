@@ -1,4 +1,4 @@
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, ConfigDict, Field
 from typing import List, Dict, Any, Optional
 from datetime import date
 
@@ -59,6 +59,36 @@ class BacktestRequest(BaseModel):
     limit: Optional[int] = None
     summary: bool = True
     show_map: bool = False
+
+class StrategyDrawResultSchema(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+    hits: List[int]
+    avg_rank: float
+    top_n: int
+
+class DrawResultSchema(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+    draw_id: int
+    date: Optional[str] = None
+    winning_numbers: List[int]
+    strategies: Dict[str, StrategyDrawResultSchema]
+    errors: Dict[str, str]
+
+class StrategySummarySchema(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+    avg_rank: float
+    top_n_capture: int
+    capture_pct: float
+    best_hit: int
+    win_rate_pct: float
+
+class BacktestResponse(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+    lottery: str
+    game_name: str
+    strategy_names: List[str]
+    draws: List[DrawResultSchema]
+    summary: Dict[str, StrategySummarySchema]
 
 class CheckRequest(BaseModel):
     numbers: List[int]

@@ -6,20 +6,17 @@ Evaluate one or more strategies against one or more historical draws.
 
 from __future__ import annotations
 
-import math
-from collections import Counter
 from datetime import date
 from pathlib import Path
-from typing import Annotated, Optional, Any
+from typing import Annotated, Optional
 
 import typer
-# import pandas as pd # Moved inside
 from rich.console import Console
 from rich.table import Table
 from rich.markup import escape
 
 from engine.cli.utils import get_adapter, print_command_summary
-# from engine.strategies import get_strategy, list_strategies # Moved inside
+from engine.services.backtest import BacktestResult, DrawResult, UnknownStrategyError, run_backtest
 
 console = Console()
 
@@ -41,277 +38,124 @@ def backtest(
 ) -> None:
     """
     🔬 Evaluate one or more strategies against one or more historical draws.
-    
+
     This command performs \"blind\" testing: if you choose strategies, it only
     gives them access to draws that happened BEFORE the one you are testing.
     Supports multiple strategies (comma-separated), IDs, and ranges.
     """
-    import pandas as pd
-    from engine.strategies import get_strategy, list_strategies
-
     if draw_id is None and prev is None:
         raise typer.BadParameter("Provide either DRAW_ID(s) or use --prev/-p. Run 'lottery backtest --help' for examples.")
 
-    # Resolve strategies (validate before fetch)
-    strategy_names = []
-    config_payload = None
-    
+    # Resolve strategy names + per-strategy kwargs (config YAML stays a CLI-only concern)
+    strategy_names: list[str] = []
+    strategy_kwargs: dict[str, dict] = {}
+
     if config and config.exists():
         import yaml
         try:
             with open(config, "r") as f:
                 config_payload = yaml.safe_load(f)
             if isinstance(config_payload, list):
-                strategy_names = [s["name"] for s in config_payload if "name" in s]
+                entries = config_payload
             elif isinstance(config_payload, dict) and "strategies" in config_payload:
-                strategy_names = [s["name"] for s in config_payload["strategies"]]
+                entries = config_payload["strategies"]
+            else:
+                entries = []
+            strategy_names = [e["name"] for e in entries if "name" in e]
+            strategy_kwargs = {e["name"]: e.get("params", {}) for e in entries if "name" in e}
         except Exception as exc:
             console.print(f"[red]Failed to load config: {exc}[/red]")
             raise typer.Exit(1)
 
     if not strategy_names:
         if strategy:
-            if strategy.lower() == "all":
-                strategy_names = [s["name"] for s in list_strategies()]
-            else:
-                strategy_names = [s.strip() for s in strategy.split(",")]
+            strategy_names = ["all"] if strategy.lower() == "all" else [s.strip() for s in strategy.split(",")]
         else:
             strategy_names = ["weighted"]
 
-    # Validate strategy names early
-    for s_name in strategy_names:
-        try:
-            get_strategy(s_name)
-        except KeyError:
-            console.print(f"[red]✗ Unknown strategy '{s_name}'. Run 'lottery strategies' for available options.[/red]")
-            raise typer.Exit(1)
-
     print_command_summary("backtest", lottery, strategy=strategy, count=count, temp=temperature, limit=limit)
 
-    with console.status(f"[bold green]Loading {lottery} data…"):
-        adapter = get_adapter(lottery)
-        df = adapter.fetch()
+    game_name = get_adapter(lottery).rules.name
 
-    # Resolve target draws
-    target_rows = []
-    
-    # Mode A: Relative index via --prev
-    if prev is not None:
-        indices = []
-        for part in prev.split(","):
-            if ".." in part:
-                start, end = part.split("..")
-                indices.extend(range(int(start), int(end) + 1))
-            elif "-" in part:
-                start, end = part.split("-")
-                indices.extend(range(int(start), int(end) + 1))
-            else:
-                indices.append(int(part))
-        for idx in indices:
-            try: target_rows.append(df.iloc[-idx])
-            except IndexError: console.print(f"[yellow]⚠ Index {idx} out of range.[/yellow]")
-
-    # Mode B: Explicit draw_id
-    elif draw_id is not None:
-        ids_to_fetch = []
-        for part in draw_id.split(","):
-            if ".." in part:
-                start, end = part.split("..")
-                ids_to_fetch.extend(range(int(start), int(end) + 1))
-            elif "-" in part and not part.startswith("-"):
-                start, end = part.split("-")
-                ids_to_fetch.extend(range(int(start), int(end) + 1))
-            else:
-                ids_to_fetch.append(part)
-        for val in ids_to_fetch:
-            try:
-                tid = int(val)
-                matches = df[df["draw_id"] == tid]
-                if not matches.empty: target_rows.append(matches.iloc[0])
-            except ValueError:
-                matches = df[df["date"].astype(str).str.contains(str(val))]
-                if not matches.empty: target_rows.append(matches.iloc[0])
-    else:
-        console.print("[yellow]⚠ Provide either DRAW_ID(s) or use --prev/-p.[/yellow]")
-        raise typer.Exit(1)
-
-    if not target_rows:
-        console.print("[red]✗ No draws found to test.[/red]")
-        raise typer.Exit(1)
-
-    # Sort target rows by draw_id ascending
-    target_rows.sort(key=lambda r: int(r["draw_id"]))
-
-    global_stats = []
-
-    for target_row in target_rows:
-        t_id = int(target_row["draw_id"])
-        t_date = target_row["date"]
-        
-        # Handle NaT / None dates
-        if pd.isna(t_date):
-            # Try to infer date from previous draw or keep as None
-            # Strategies must handle None/NaT gracefully now
-            pass
-        elif hasattr(t_date, "date"): 
-            t_date = t_date.date()
-
-        console.rule(f"[bold cyan]BACKTEST — {adapter.rules.name} Draw {t_id} ({t_date})[/bold cyan]")
-        console.print(f"  [bold]Winning Numbers:[/bold] [green]{escape(str([int(n) for n in sorted(target_row['numbers'])]))}[/green]\n")
-
-        # Data available before the target draw
-        train_df = df[df["draw_id"] < t_id].copy()
-        if train_df.empty:
-            console.print(f"[yellow]⚠ No historical data available before draw {t_id} — skipping.[/yellow]")
-            continue
-
-        if show_map:
-            # Heatmap implementation... (omitted for brevity in first draft or kept if needed)
-            pass
-
-        draw_stat = {
-            "draw_id": t_id,
-            "winning_numbers": sorted(target_row["numbers"]),
-            "manual_hits": [],
-            "strategies": {}
-        }
-
-        # Mode B: Run strategies
-        for s_idx, s_name in enumerate(strategy_names):
+    def _on_draw(draw: DrawResult) -> None:
+        console.rule(f"[bold cyan]BACKTEST — {game_name} Draw {draw.draw_id} ({draw.date})[/bold cyan]")
+        console.print(f"  [bold]Winning Numbers:[/bold] [green]{escape(str(draw.winning_numbers))}[/green]\n")
+        for s_name in draw.attempted_strategies:
             console.print(f"\n[bold]Simulating strategy:[/bold] [cyan]{s_name}[/cyan]")
-            
-            strat_kwargs = {}
-            # Load params from config if available
-            if config_payload:
-                strats_list = config_payload if isinstance(config_payload, list) else config_payload.get("strategies", [])
-                # Match by index or name
-                s_conf = strats_list[s_idx] if s_idx < len(strats_list) else {}
-                if s_conf.get("name") == s_name:
-                    strat_kwargs.update(s_conf.get("params", {}))
-
-            if s_name in ["weather", "moon_phase"]: strat_kwargs["upcoming_draw_date"] = t_date
-            elif s_name in ["numerology"]: strat_kwargs["target_date"] = t_date
-            elif s_name in ["biorhythm", "zodiac"]: strat_kwargs["draw_date"] = t_date
-
-            try:
-                strat_obj = get_strategy(s_name, **strat_kwargs)
-                result = strat_obj.suggest(
-                    train_df, 
-                    adapter.rules, 
-                    count=count, 
-                    temperature=temperature,
-                    history_limit=limit
-                )
-            except Exception as exc:
-                console.print(f"[red]Failed: {exc}[/red]")
+            if s_name in draw.errors:
+                console.print(f"[red]Failed: {draw.errors[s_name]}[/red]")
                 continue
+            data = draw.strategies[s_name]
+            console.print(f"  [dim]Result:[/dim] Avg Rank: [bold]{data.avg_rank:.1f}[/bold] | Top-N Hits: [bold]{data.top_n}[/bold] | Ticket Hits: [bold]{data.hits}[/bold]")
 
-            # Analysis...
-            strat_hits = []
-            for ticket in result.tickets:
-                matches = len(set(ticket) & set(target_row["numbers"]))
-                strat_hits.append(matches)
+    try:
+        result = run_backtest(
+            lottery=lottery,
+            draw_id=draw_id,
+            prev=prev,
+            strategy_names=strategy_names,
+            strategy_kwargs=strategy_kwargs,
+            count=count,
+            temperature=temperature,
+            limit=limit,
+            on_draw=_on_draw,
+        )
+    except UnknownStrategyError as exc:
+        console.print(f"[red]✗ {exc} Run 'lottery strategies' for available options.[/red]")
+        raise typer.Exit(1)
+    except ValueError as exc:
+        console.print(f"[red]✗ {exc}[/red]")
+        raise typer.Exit(1)
 
-            sorted_scores = sorted(result.scores.items(), key=lambda x: x[1], reverse=True)
-            ranks = {num: rank + 1 for rank, (num, score) in enumerate(sorted_scores)}
-            found_in_top = sum(1 for n in target_row["numbers"] if ranks.get(n, 999) <= adapter.rules.pick_count)
-            avg_rank = sum(ranks.get(n, 0) for n in target_row["numbers"]) / len(target_row["numbers"])
-            
-            draw_stat["strategies"][s_name] = {
-                "hits": strat_hits,
-                "avg_rank": avg_rank,
-                "top_n": found_in_top
-            }
-            
-            console.print(f"  [dim]Result:[/dim] Avg Rank: [bold]{avg_rank:.1f}[/bold] | Top-{adapter.rules.pick_count} Hits: [bold]{found_in_top}[/bold] | Ticket Hits: [bold]{strat_hits}[/bold]")
-
-        global_stats.append(draw_stat)
-
-    # --- Global Summary ---
-    if summary and global_stats:
-        min_win = min(adapter.rules.odds.keys()) if adapter.rules.odds else 4
+    if summary and result.summary:
         summary_table = Table(title="BACKTEST COMPARISON SUMMARY", header_style="bold cyan")
         summary_table.add_column("Strategy", style="cyan")
         summary_table.add_column("Avg Rank", justify="right")
         summary_table.add_column("Top-N Capture", justify="right")
         summary_table.add_column("Best Hit", justify="right")
-        summary_table.add_column(f"Win Rate (min {min_win})", justify="right")
+        summary_table.add_column("Win Rate", justify="right")
 
-        for s_name in strategy_names:
-            all_ranks = []
-            total_top_n = 0
-            best_hit = 0
-            wins = 0
-            total_tickets = 0
-            
-            for d in global_stats:
-                if s_name in d["strategies"]:
-                    data = d["strategies"][s_name]
-                    all_ranks.append(data["avg_rank"])
-                    total_top_n += data["top_n"]
-                    best_hit = max(best_hit, max(data["hits"]) if data["hits"] else 0)
-                    wins += sum(1 for h in data["hits"] if h >= min_win)
-                    total_tickets += len(data["hits"])
-            
-            if all_ranks:
-                avg_r = sum(all_ranks) / len(all_ranks)
-                cap_pct = (total_top_n / (len(all_ranks) * adapter.rules.pick_count)) * 100
-                win_rate = (wins / total_tickets * 100) if total_tickets > 0 else 0
-                
-                summary_table.add_row(
-                    s_name, f"{avg_r:.1f}", f"{total_top_n} ({cap_pct:.1f}%)", str(best_hit), f"{win_rate:.1f}%"
-                )
+        for s_name in result.strategy_names:
+            s = result.summary.get(s_name)
+            if s is None:
+                continue
+            summary_table.add_row(
+                s_name, f"{s.avg_rank:.1f}", f"{s.top_n_capture} ({s.capture_pct:.1f}%)",
+                str(s.best_hit), f"{s.win_rate_pct:.1f}%",
+            )
         console.print(summary_table)
 
-    if export_md and global_stats:
-        _append_md_backtest(export_md, lottery, adapter.rules.name,
-                            strategy_names, global_stats,
-                            adapter.rules.pick_count,
-                            adapter.rules.odds)
+    if export_md and result.draws:
+        _append_md_backtest(export_md, result)
         console.print(f"[green]✔ Backtest report appended to {export_md}[/green]")
 
 
-def _append_md_backtest(
-    path: str, lottery: str, game_name: str,
-    strategy_names: list[str], global_stats: list[dict],
-    pick_count: int, odds: dict,
-) -> None:
+def _append_md_backtest(path: str, result: BacktestResult) -> None:
     today = date.today().isoformat()
-    min_win = min(odds.keys()) if odds else pick_count - 1
-    draws_tested = len(global_stats)
+    draws_tested = len(result.draws)
 
     rows = ""
-    for s_name in strategy_names:
-        all_ranks, total_top_n, best_hit, wins, total_tickets = [], 0, 0, 0, 0
-        for d in global_stats:
-            if s_name in d["strategies"]:
-                data = d["strategies"][s_name]
-                all_ranks.append(data["avg_rank"])
-                total_top_n += data["top_n"]
-                best_hit = max(best_hit, max(data["hits"]) if data["hits"] else 0)
-                wins += sum(1 for h in data["hits"] if h >= min_win)
-                total_tickets += len(data["hits"])
-        if all_ranks:
-            avg_r = sum(all_ranks) / len(all_ranks)
-            cap_pct = total_top_n / (len(all_ranks) * pick_count) * 100
-            win_rate = wins / total_tickets * 100 if total_tickets > 0 else 0.0
-            rows += f"| {s_name} | {avg_r:.1f} | {total_top_n} ({cap_pct:.1f}%) | {best_hit} | {win_rate:.1f}% |\n"
+    for s_name in result.strategy_names:
+        s = result.summary.get(s_name)
+        if s is None:
+            continue
+        rows += f"| {s_name} | {s.avg_rank:.1f} | {s.top_n_capture} ({s.capture_pct:.1f}%) | {s.best_hit} | {s.win_rate_pct:.1f}% |\n"
 
     content = f"""
 ---
 type: diagnostic
 subtype: backtest
 date: {today}
-game: {lottery}
-game_name: {game_name}
-strategies: "{', '.join(strategy_names)}"
+game: {result.lottery}
+game_name: {result.game_name}
+strategies: "{', '.join(result.strategy_names)}"
 draws_tested: {draws_tested}
 tags: [prediction-engine, backtest, evaluation, pattern-log]
 ---
 
-## Backtest: {game_name} ({today})
+## Backtest: {result.game_name} ({today})
 
-**Strategies:** {', '.join(strategy_names)}  ·  **Draws tested:** {draws_tested}
+**Strategies:** {', '.join(result.strategy_names)}  ·  **Draws tested:** {draws_tested}
 
 | Strategy | Avg Rank | Top-N Capture | Best Hit | Win Rate |
 |----------|----------|---------------|----------|----------|

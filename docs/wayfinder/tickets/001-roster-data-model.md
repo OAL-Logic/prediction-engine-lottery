@@ -1,7 +1,8 @@
 ---
 id: "001"
 type: research
-status: open
+status: closed
+assignee: antigravity
 blocked_by: []
 map: strategy-pruning-meta-selection-map.md
 created: 2026-07-11
@@ -37,7 +38,18 @@ What is the persistent representation of a per-game strategy roster, where does 
 
 ## Acceptance criteria
 
-- [ ] A recommended file path and schema are documented.
-- [ ] A note explains how the roster relates to `STRATEGY_PRESETS` and explicit `--strategies`.
-- [ ] Migration/rollback story is described (how a user abandons a roster).
-- [ ] No code is required; output is a markdown decision record linked from this ticket.
+- [x] A recommended file path and schema are documented.
+- [x] A note explains how the roster relates to `STRATEGY_PRESETS` and explicit `--strategies`.
+- [x] Migration/rollback story is described (how a user abandons a roster).
+- [x] No code is required; output is a markdown decision record linked from this ticket.
+
+## Resolution
+
+Resolved on 2026-08-11. See [MDR-001: Roster Data Model Design](../decisions/001-roster-data-model-decision.md) for full design and details.
+
+### Key Decisions
+- **Storage Location**: `data/strategy_roster.json`
+- **CLI Integration**: Accessed via `--strategies roster` on both `forecast` and `rank-numbers`.
+- **Fallback Policy**: Falls back to the `default` preset group if the roster is missing or contains no active strategies for the game.
+- **Error Handling**: Missing/unresolved strategies inside a roster are skipped with a warning; if all strategies fail, execution aborts with exit code 1.
+- **Seams**: Encapsulate strategy resolution logic in a unified `resolve_strategies()` utility function inside `engine/cli/utils.py`.

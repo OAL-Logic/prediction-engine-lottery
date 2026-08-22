@@ -36,6 +36,18 @@ class SynapseStrategy(BaseStrategy):
         lo, hi = rules.number_range
         all_numbers = list(range(lo, hi + 1))
         
+        # Try to load stacking weights for this lottery (AC: 7.3.1)
+        stacking_weights = {}
+        try:
+            import joblib
+            from pathlib import Path
+            slug = rules.name.replace(" ", "_").lower()
+            cache_path = Path("data/model_cache") / f"stacking_weights_{slug}.joblib"
+            if cache_path.exists():
+                stacking_weights = joblib.load(cache_path)
+        except Exception:
+            pass
+
         # 1. Run the three cylinders
         cylinder_scores = {}
         for cyl_name, members in self.cylinders.items():
@@ -45,13 +57,17 @@ class SynapseStrategy(BaseStrategy):
                 try:
                     strat = get_strategy(s_name)
                     s_scores = strat.score(df, rules)
+                    weight = float(stacking_weights.get(s_name, 1.0))
                     for n, val in s_scores.items():
-                        cyl_total[n] += val
+                        cyl_total[n] += val * weight
                     valid_count += 1
                 except Exception:
                     continue
             
             if valid_count > 0:
+                min_v = min(cyl_total.values())
+                if min_v < 0:
+                    cyl_total = {n: v - min_v for n, v in cyl_total.items()}
                 max_v = max(cyl_total.values()) or 1.0
                 cylinder_scores[cyl_name] = {n: v / max_v for n, v in cyl_total.items()}
             else:

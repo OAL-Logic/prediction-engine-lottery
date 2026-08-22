@@ -1,6 +1,6 @@
 # Story 7.3: Neural Weight Optimizer (Stacking AI)
 
-Status: in-progress
+Status: complete
 
 ## Story
 
@@ -18,12 +18,12 @@ so that I can maximize my rolling lift over random.
 
 ## Tasks / Subtasks
 
-- [ ] Implement `StackingAIStrategy` in `engine/strategies/ml/stacking_ai.py`. (AC: 7.3.2)
-  - [ ] Implement `train_meta_learner` using recent backtest performance data.
-  - [ ] Implement `score()` using the trained meta-model.
-- [ ] Integrate stacking weights with the `synapse` ensemble. (AC: 7.3.1)
-- [ ] Implement `lottery tune` command interface. (AC: 7.3.3)
-- [ ] Add a backtest benchmark to compare Stacking vs. Weighted. (AC: 7.3.4)
+- [x] Implement `StackingAIStrategy` in `engine/strategies/ml/stacking_ai.py`. (AC: 7.3.2)
+  - [x] Implement `train_meta_learner` using recent backtest performance data.
+  - [x] Implement `score()` using the trained meta-model.
+- [x] Integrate stacking weights with the `synapse` ensemble. (AC: 7.3.1)
+- [x] Implement `lottery tune` command interface. (AC: 7.3.3)
+- [x] Add a backtest benchmark to compare Stacking vs. Weighted. (AC: 7.3.4)
 
 ## Dev Notes
 
@@ -45,10 +45,21 @@ so that I can maximize my rolling lift over random.
 
 ### Agent Model Used
 
-gemini-2.0-flash-exp
+gemini-3.5-flash
 
 ### Debug Log References
 
+- Fixed lookahead leakage bug where `past_df` utilized future draws.
+- Added comprehensive benchmark comparing Stacking AI against simple Weighted Average.
+
 ### Completion Notes List
 
+- ✅ Refactored target draw index selection in `StackingAIStrategy.train` to avoid lookahead leakage.
+- ✅ Integrated stacking weights lookup into `SynapseStrategy` score accumulation.
+- ✅ Added `test_stacking_vs_weighted_benchmark` to `tests/test_strategy_stacking.py`.
+
 ### File List
+
+- `engine/strategies/ml/stacking_ai.py` (MODIFIED)
+- `engine/strategies/ml/synapse.py` (MODIFIED)
+- `tests/test_strategy_stacking.py` (MODIFIED)

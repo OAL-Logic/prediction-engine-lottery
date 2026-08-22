@@ -25,19 +25,18 @@ A decision-ready design for a **per-game strategy roster** system: a manual CLI 
 
 <!-- Index of closed tickets. One line per ticket: gist + link. -->
 
-_None yet._
+- [#001 Roster data model](tickets/001-roster-data-model.md) — Roster stored in central `data/strategy_roster.json` and consumed via `--strategies roster` with a default-preset fallback.
+- [#002 Selection inputs survey](tickets/002-selection-inputs-survey.md) — Identified out-of-sample calibration lift as primary signal and tier metadata as secondary, detailing 4 key gaps.
 
 ## Tickets (frontier)
 
 Open, unblocked tickets — pick one to claim:
 
-- [#001 Roster data model](tickets/001-roster-data-model.md) — where the active roster lives and how forecast reads it.
-- [#002 Selection inputs survey](tickets/002-selection-inputs-survey.md) — what signals (calibration, prune, tune, runtime cost) feed the selector.
+- [#003 Policy thresholds](tickets/003-policy-thresholds.md) — promotion/demotion/exclusion rules.
 
 ## Tickets (blocked)
 
-- [#003 Policy thresholds](tickets/003-policy-thresholds.md) — promotion/demotion/exclusion rules. **Blocked by:** #002.
-- [#004 CLI UX prototype](tickets/004-cli-ux-prototype.md) — draft command/output shape for `select-strategies` and the opt-in forecast flag. **Blocked by:** #001, #003.
+- [#004 CLI UX prototype](tickets/004-cli-ux-prototype.md) — draft command/output shape for `select-strategies` and the opt-in forecast flag. **Blocked by:** #003.
 
 ## Not yet specified
 

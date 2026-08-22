@@ -5,7 +5,7 @@ from datetime import date
 
 from engine.api.models import (
     GameRulesSchema, GameSummary, AnalysisResultSchema,
-    SuggestionRequest, SuggestionResponse, BacktestRequest, CheckRequest,
+    SuggestionRequest, SuggestionResponse, BacktestRequest, BacktestResponse, CheckRequest,
     OddsResponse, OddsTier, PruningResponse, PruningMetricsSchema,
     CalibrateRequest, TuneRequest,
     SacredManifoldRequest, SacredManifoldResponse, APIExpertSuggestRequest,
@@ -157,28 +157,23 @@ async def suggest_tickets(name: str, request: SuggestionRequest):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-@app.post("/games/{name:path}/backtest")
+@app.post("/games/{name:path}/backtest", response_model=BacktestResponse)
 async def backtest_strategy(name: str, request: BacktestRequest):
+    from engine.services.backtest import UnknownStrategyError, run_backtest
     try:
-        from engine.cli.commands.backtest import backtest as backtest_impl
-        # For API, we'll capture output or return a structured summary
-        # Note: calling CLI impl directly might print to stdout. 
-        # In a real API we'd refactor the core logic out.
-        backtest_impl(
+        strategy_names = ["all"] if request.strategy.lower() == "all" else [s.strip() for s in request.strategy.split(",")]
+        result = run_backtest(
             lottery=name,
             draw_id=request.draw_ids,
             prev=request.prev,
-            strategy=request.strategy,
-            numbers=None,
+            strategy_names=strategy_names,
             count=request.count,
             temperature=request.temperature,
             limit=request.limit,
-            summary=request.summary,
-            show_map=request.show_map,
-            config=None,
-            export_md=None
         )
-        return {"message": "Backtest completed", "game": name, "strategy": request.strategy}
+        return BacktestResponse.model_validate(result)
+    except UnknownStrategyError as e:
+        raise HTTPException(status_code=400, detail=str(e))
     except ValueError as e:
         raise HTTPException(status_code=404, detail=str(e))
     except Exception as e:

@@ -150,6 +150,8 @@ engine/modules/filters/tier3_algebraic.py
 engine/modules/filters/tier4_historical.py
 engine/modules/filters/tier5_custom.py
 engine/odds/comparator.py
+engine/services/__init__.py
+engine/services/backtest.py
 engine/strategies/__init__.py
 engine/strategies/deep/__init__.py
 engine/strategies/deep/cnn_1d.py
@@ -259,6 +261,7 @@ lottery_engine.egg-info/entry_points.txt
 lottery_engine.egg-info/requires.txt
 lottery_engine.egg-info/top_level.txt
 tests/test_api_and_integration.py
+tests/test_api_backtest.py
 tests/test_architect_compliance.py
 tests/test_base_strategy_filters.py
 tests/test_bridge_timeout.py

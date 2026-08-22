@@ -46,19 +46,33 @@ class StackingAIStrategy(BaseStrategy):
         df = adapter.fetch()
         rules = adapter.rules
         
+        # Determine minimum history required by sub-strategies
+        req_histories = []
+        for name in self.base_strategies:
+            try:
+                s = get_strategy(name)
+                req = getattr(s, "requires_history", 30)
+                if not isinstance(req, int):
+                    req = 30
+                req_histories.append(req)
+            except:
+                req_histories.append(30)
+        min_history = max(req_histories) if req_histories else 30
+
         # 1. Generate Training Data
         # X: [Samples * Numbers, Strategies] - scores for each number
         # y: [Samples * Numbers] - 1 if number hit, 0 otherwise
         X, y = [], []
         
-        # Limit window for speed
-        df_target = df.iloc[:window]
+        n = len(df)
+        start_idx = max(min_history, n - window)
         
         lo, hi = rules.number_range
         pool_size = hi - lo + 1
         
-        for i in range(len(df_target) - 1):
-            past_df = df.iloc[i+1:]
+        # Loop over recent draws in chronological order
+        for i in range(start_idx, n):
+            past_df = df.iloc[:i]
             real_draw = set(df.iloc[i]['numbers'])
             
             # Get scores from all sub-models for this past draw
@@ -79,6 +93,12 @@ class StackingAIStrategy(BaseStrategy):
             # Create labels for each number
             y_draw = [1.0 if n in real_draw else 0.0 for n in range(lo, hi + 1)]
             y.extend(y_draw)
+
+        if not X:
+            # Fallback in case of empty training data
+            self.weights = {name: 1.0/len(self.base_strategies) for name in self.base_strategies}
+            joblib.dump(self.weights, self._get_cache_path(rules))
+            return self.weights
 
         X_final = np.vstack(X)
         y_final = np.array(y)
