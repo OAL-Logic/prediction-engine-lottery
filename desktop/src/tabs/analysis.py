@@ -7,6 +7,7 @@ from PySide6.QtWidgets import (
     QSplitter, QTableWidget, QTableWidgetItem, QHeaderView, QMessageBox
 )
 from PySide6.QtCore import Qt, Slot
+from PySide6.QtGui import QColor
 from matplotlib.backends.backend_qtagg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.figure import Figure
 
@@ -430,6 +431,11 @@ class AnalysisTab(QWidget):
     @Slot(int, int)
     def on_row_selected(self, row: int, col: int):
         """Triggered when a user clicks a row in the stats table. Parses target number and launches background skips calculations."""
+        # Only allow clicks in views that represent ball statistics
+        view_type = self.combo_analysis_type.currentText()
+        if view_type == "Sum Range Bell Curve":
+            return
+
         item = self.stats_table.item(row, 0)
         if not item:
             return
