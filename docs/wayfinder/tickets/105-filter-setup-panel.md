@@ -1,7 +1,8 @@
 ---
 id: "105"
 type: prototype
-status: open
+status: closed
+assignee: claude
 blocked_by: ["103"]
 map: samlotto-qt-interface-map.md
 created: 2026-08-11

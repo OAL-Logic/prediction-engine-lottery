@@ -30,18 +30,19 @@ See the full [Product Requirement Document (PRD)](decisions/samlotto-qt-interfac
 
 - [#101 Qt app bootstrap and threading](tickets/101-qt-app-bootstrap-and-threading.md) — Asynchronous QThread worker model with custom JobSignals and main-thread QMessageBox error logging established.
 - [#102 Drawings and registry manager](tickets/102-drawings-and-registry-manager.md) — Implemented DuckDB CRUD QAbstractTableModel and bidirectional parser stubs for SamLotto .txt compatibility.
+- [#103 Sleek dark theme and layout](tickets/103-sleek-dark-theme-and-layout.md) — Unified split-pane cockpit layout designed and implemented in a runnable PySide6 prototype with custom QSS styling and responsive grids.
+- [#104 Interactive skips chart](tickets/104-interactive-skips-chart.md) — Matplotlib (`FigureCanvasQTAgg`) kept as the single plotting library (zero new dependency, only one with a native heatmap); drill-down flows through a new `SkipsJob(QThread)` into a table+chart `SkipsInspectorPanel`.
+- [#105 Filter setup panel](tickets/105-filter-setup-panel.md) — Implemented tabbed Setup Dock (FiltersTab) with inline range sliders, advanced filters add/remove panels, logical N-of-M condition checks, auto-calculating limits, and background pruning execution.
 
 ## Tickets (frontier)
 
 Open, unblocked tickets — pick one to claim:
 
-- [#103 Sleek dark theme and layout](tickets/103-sleek-dark-theme-and-layout.md) — Design QSS stylesheet for the dark theme and lay out the core dashboard (Pool Builder left, Ticket Store right, Setup Dock bottom).
 - [#106 Prediction verification GUI](tickets/106-prediction-verification-gui.md) — Build the Formula-1..6 prediction form, verification run console, and pool-push interaction.
 
 ## Tickets (blocked)
 
-- [#104 Interactive skips chart](tickets/104-interactive-skips-chart.md) — Build the drill-down skips inspector (Actual/Average/Now skips) using pyqtgraph or Matplotlib. **Blocked by:** #103.
-- [#105 Filter setup panel](tickets/105-filter-setup-panel.md) — Implement the base/advanced filters panel, N-of-M logical condition checkboxes, and "Generate Default Condition" helper. **Blocked by:** #103.
+<!-- No blocked tickets remaining -->
 
 ## Not yet specified
 

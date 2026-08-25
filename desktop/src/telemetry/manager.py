@@ -357,6 +357,221 @@ class SkipsJob(QThread):
             self.signals.failed.emit("Skips Calculation Error", err_msg, tb_str)
 
 
+def compute_metric_values(uid: str, combinations: np.ndarray, mid_point: int) -> np.ndarray:
+    import numpy as np
+    from engine.modules.filters import PRIMES, count_bits_64
+    n_rows, k = combinations.shape
+    
+    # Sorting combinations is useful for positional/distance calculations
+    sorted_combs = np.sort(combinations, axis=1)
+
+    if uid == "structural_odd_count":
+        return np.sum(combinations % 2 != 0, axis=1)
+    elif uid == "structural_even_count":
+        return np.sum(combinations % 2 == 0, axis=1)
+    elif uid == "structural_prime_count":
+        return np.sum(np.isin(combinations, PRIMES), axis=1)
+    elif uid == "structural_ac_value":
+        if k < 2: return np.zeros(n_rows, dtype=np.int32)
+        bitmasks = np.zeros(n_rows, dtype=np.uint64)
+        for i in range(k):
+            for j in range(i + 1, k):
+                diff = sorted_combs[:, j] - sorted_combs[:, i]
+                bitmasks |= (np.uint64(1) << (diff.astype(np.uint64) - 1))
+        unique_counts = count_bits_64(bitmasks)
+        return unique_counts - (k - 1)
+    elif uid == "structural_digit_sum":
+        return np.sum((combinations // 10) + (combinations % 10), axis=1)
+    elif uid == "structural_unit_sum":
+        return np.sum(combinations % 10, axis=1)
+    elif uid == "structural_high_count":
+        return np.sum(combinations > mid_point, axis=1)
+    elif uid == "structural_low_count":
+        return np.sum(combinations <= mid_point, axis=1)
+    elif uid.startswith("positional_ball_") and uid.endswith("_range"):
+        try:
+            ball_idx = int(uid.split("_")[2]) - 1
+            if 0 <= ball_idx < k:
+                return sorted_combs[:, ball_idx]
+        except Exception:
+            pass
+    elif uid == "positional_first_last_distance":
+        return sorted_combs[:, -1] - sorted_combs[:, 0]
+    elif uid.startswith("positional_gap_"):
+        try:
+            parts = uid.split("_")
+            idx1 = int(parts[2]) - 1
+            idx2 = int(parts[3]) - 1
+            if 0 <= idx1 < k and 0 <= idx2 < k:
+                return np.abs(sorted_combs[:, idx2] - sorted_combs[:, idx1])
+        except Exception:
+            pass
+    elif uid.startswith("algebraic_div_by_"):
+        try:
+            n = int(uid.split("_")[-1])
+            return np.sum(combinations % n == 0, axis=1)
+        except Exception:
+            pass
+            
+    # Fallback to sum of combinations
+    return np.sum(combinations, axis=1)
+
+
+class LimitsCalculationJob(QThread):
+    def __init__(self, lottery_id: str, active_filter_ids: list[str], limit: int = 50, parent: QObject | None = None):
+        super().__init__(parent)
+        self.lottery_id = lottery_id
+        self.active_filter_ids = active_filter_ids
+        self.limit = limit
+        self.signals = JobSignals()
+
+    def run(self) -> None:
+        self.signals.new_log.emit(f"Starting auto calculate limits for '{self.lottery_id}' (lookback {self.limit} draws)...", "INFO")
+        self.signals.progress.emit(10, "Fetching historical draws...")
+        
+        try:
+            from engine.modules.storage import storage
+            from engine.cli.utils import get_adapter
+            
+            df = storage.load_draws(self.lottery_id, limit=self.limit)
+            if df.empty:
+                raise ValueError("No draw history found.")
+                
+            combinations = np.array(df["numbers"].tolist())
+            adapter = get_adapter(self.lottery_id)
+            rules = adapter.rules
+            number_range = rules.number_range
+            mid_point = (number_range[0] + number_range[1]) // 2
+            
+            self.signals.progress.emit(40, "Calculating filter limits...")
+            
+            results = {}
+            for idx, fid in enumerate(self.active_filter_ids):
+                vals = compute_metric_values(fid, combinations, mid_point)
+                min_v = int(np.min(vals))
+                max_v = int(np.max(vals))
+                results[fid] = (min_v, max_v)
+                
+                # Report progress
+                pct = 40 + int((idx + 1) / len(self.active_filter_ids) * 50)
+                self.signals.progress.emit(pct, f"Calculated bounds for {fid}...")
+                
+            self.signals.progress.emit(100, "Limits calculation complete.")
+            self.signals.new_log.emit(f"Successfully auto-calculated limits for {len(results)} filters.", "RESONANCE")
+            self.signals.finished.emit({"status": "success", "limits": results})
+            
+        except Exception as exc:
+            tb_str = traceback.format_exc()
+            err_msg = str(exc) or type(exc).__name__
+            self.signals.new_log.emit(f"Auto limits calculation error: {err_msg}", "ERROR")
+            self.signals.failed.emit("Auto Limits Error", err_msg, tb_str)
+
+
+class PruningJob(QThread):
+    def __init__(self, lottery_id: str, tickets: list[list[int]], active_filters: list[dict], logical_condition: dict, parent: QObject | None = None):
+        super().__init__(parent)
+        self.lottery_id = lottery_id
+        self.tickets = tickets
+        self.active_filters = active_filters
+        self.logical_condition = logical_condition
+        self.signals = JobSignals()
+
+    def run(self) -> None:
+        self.signals.new_log.emit(f"Starting pruning on {len(self.tickets)} tickets in background thread...", "INFO")
+        self.signals.progress.emit(10, "Initializing filter engine...")
+        
+        try:
+            from engine.cli.utils import get_adapter
+            from engine.modules.filters import registry
+            
+            if not self.tickets:
+                self.signals.progress.emit(100, "No tickets to filter.")
+                self.signals.finished.emit({"status": "success", "passed_indices": [], "elimination_counts": {}})
+                return
+                
+            combinations = np.array(self.tickets)
+            n_tickets = combinations.shape[0]
+            adapter = get_adapter(self.lottery_id)
+            rules = adapter.rules
+            number_range = rules.number_range
+            mid_point = (number_range[0] + number_range[1]) // 2
+            
+            # Store pass/fail matrix: shape (n_tickets, n_active_filters)
+            n_filters = len(self.active_filters)
+            if n_filters == 0:
+                self.signals.progress.emit(100, "No active filters.")
+                self.signals.finished.emit({
+                    "status": "success",
+                    "passed_indices": list(range(n_tickets)),
+                    "elimination_counts": {}
+                })
+                return
+                
+            filter_results = np.zeros((n_tickets, n_filters), dtype=bool)
+            elimination_counts = {}
+            
+            for i, item in enumerate(self.active_filters):
+                fid = item["id"]
+                ftype = item["type"]
+                
+                if ftype == "base":
+                    lo, hi = item["lo"], item["hi"]
+                    vals = compute_metric_values(fid, combinations, mid_point)
+                    passed = (vals >= lo) & (vals <= hi)
+                else: # advanced
+                    f = registry.get(fid)
+                    if not f:
+                        passed = np.ones(n_tickets, dtype=bool)
+                    else:
+                        val = item.get("val", "")
+                        passed = f.apply(combinations, rules)
+                        if val and "-" in val:
+                            try:
+                                lo, hi = map(int, val.split("-"))
+                                vals = compute_metric_values(fid, combinations, mid_point)
+                                passed = (vals >= lo) & (vals <= hi)
+                            except Exception:
+                                pass
+                                
+                filter_results[:, i] = passed
+                eliminated_count = int(np.sum(~passed))
+                elimination_counts[fid] = eliminated_count
+                
+                pct = 10 + int((i + 1) / n_filters * 70)
+                self.signals.progress.emit(pct, f"Evaluated filter {fid}...")
+                
+            # Combine results based on logical condition
+            mode = self.logical_condition.get("mode", "AND")
+            if mode == "AND":
+                passed_mask = np.all(filter_results, axis=1)
+            elif mode == "OR":
+                passed_mask = np.any(filter_results, axis=1)
+            else: # N-of-M
+                n_min = self.logical_condition.get("n_min", 1)
+                n_max = self.logical_condition.get("n_max", n_filters)
+                match_counts = np.sum(filter_results, axis=1)
+                passed_mask = (match_counts >= n_min) & (match_counts <= n_max)
+                
+            passed_indices = np.where(passed_mask)[0].tolist()
+            
+            self.signals.progress.emit(100, "Pruning complete.")
+            self.signals.new_log.emit(
+                f"Pruning finished. {len(passed_indices)} / {n_tickets} tickets passed, {n_tickets - len(passed_indices)} eliminated.",
+                "RESONANCE"
+            )
+            self.signals.finished.emit({
+                "status": "success",
+                "passed_indices": passed_indices,
+                "elimination_counts": elimination_counts
+            })
+            
+        except Exception as exc:
+            tb_str = traceback.format_exc()
+            err_msg = str(exc) or type(exc).__name__
+            self.signals.new_log.emit(f"Pruning error: {err_msg}", "ERROR")
+            self.signals.failed.emit("Pruning Error", err_msg, tb_str)
+
+
 class ThreadManager:
     """Orchestrates background threads to prevent UI lockup and coordinate cleanup."""
     def __init__(self) -> None:

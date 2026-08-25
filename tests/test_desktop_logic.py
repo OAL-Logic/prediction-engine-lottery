@@ -281,4 +281,68 @@ def test_analysis_tab_stats_table_click(app, qtbot):
         job.wait()
 
 
+def test_limits_calculation_job(app, qtbot):
+    from desktop.src.telemetry.manager import LimitsCalculationJob
+    
+    # Run limit calculation for odd/even count
+    job = LimitsCalculationJob(
+        lottery_id="br/lotofacil",
+        active_filter_ids=["structural_odd_count", "structural_prime_count"],
+        limit=10
+    )
+    
+    results = {}
+    job.signals.finished.connect(results.update)
+    
+    job.start()
+    
+    with qtbot.waitSignal(job.signals.finished, timeout=5000):
+        pass
+        
+    assert results.get("status") == "success"
+    assert "limits" in results
+    limits = results["limits"]
+    assert "structural_odd_count" in limits
+    assert "structural_prime_count" in limits
+    lo, hi = limits["structural_odd_count"]
+    assert lo >= 0 and hi <= 15
+
+
+def test_pruning_job(app, qtbot):
+    from desktop.src.telemetry.manager import PruningJob
+    
+    tickets = [
+        [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], # 8 odd
+        [2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 25, 23, 21], # 3 odd
+    ]
+    active_filters = [
+        {"id": "structural_odd_count", "type": "base", "lo": 5, "hi": 10}
+    ]
+    logical_condition = {"mode": "AND"}
+    
+    job = PruningJob(
+        lottery_id="br/lotofacil",
+        tickets=tickets,
+        active_filters=active_filters,
+        logical_condition=logical_condition
+    )
+    
+    results = {}
+    job.signals.finished.connect(results.update)
+    
+    job.start()
+    
+    with qtbot.waitSignal(job.signals.finished, timeout=5000):
+        pass
+        
+    assert results.get("status") == "success"
+    passed_indices = results.get("passed_indices", [])
+    elimination_counts = results.get("elimination_counts", {})
+    
+    assert 0 in passed_indices # 1st ticket has 8 odds, falls in [5, 10]
+    assert 1 not in passed_indices # 2nd ticket has 3 odds, outside [5, 10]
+    assert elimination_counts.get("structural_odd_count") == 1
+
+
+
 
