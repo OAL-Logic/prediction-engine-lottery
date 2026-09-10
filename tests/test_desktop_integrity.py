@@ -53,8 +53,12 @@ def test_prophet_dashboard_init(qapp):
     assert dashboard is not None
     assert dashboard.active_lottery == "br/lotofacil"
     
-    # Verify exact 8 tabs are registered
-    assert dashboard.tabs.count() == 8
+    # Verify new QSplitter layout hierarchy is registered
+    assert dashboard.main_splitter is not None
+    assert dashboard.upper_splitter is not None
+    assert dashboard.setup_tabs.count() == 3
+    assert dashboard.number_grid is not None
+    assert dashboard.ticket_table is not None
     
     # Verify lottery context propagation
     dashboard.change_global_lottery("br/mega-sena")
@@ -63,3 +67,4 @@ def test_prophet_dashboard_init(qapp):
     assert dashboard.filters_tab.active_lottery == "br/mega-sena"
     assert dashboard.wheeling_tab.active_lottery == "br/mega-sena"
     assert dashboard.verification_tab.active_lottery == "br/mega-sena"
+

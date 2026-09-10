@@ -108,7 +108,7 @@ class WheelingEngine:
         
         # 1. Generate target space (all subsets of size m in the chosen pool)
         pool_range = np.arange(1, self.n + 1)
-        target_subsets = [self._to_bitmask(list(s)) for subset in combinations(pool_range, m)]
+        target_subsets = [self._to_bitmask(list(subset)) for subset in combinations(pool_range, m)]
         total_targets = len(target_subsets)
         
         # target_masks[j] is the bitmask for subset j

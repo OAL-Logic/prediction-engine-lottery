@@ -1,7 +1,8 @@
 ---
 id: "104"
 type: research
-status: open
+status: closed
+assignee: claude
 blocked_by: ["103"]
 map: samlotto-qt-interface-map.md
 created: 2026-08-11
@@ -35,7 +36,15 @@ Which plotting library (pyqtgraph, QChart, or Matplotlib) should be used to disp
 
 ## Acceptance criteria
 
-- [ ] A comparison of PySide6-compatible plotting libraries is documented.
-- [ ] An interface layout showing the stats table and skips chart relationship is designed.
-- [ ] Rationale for the chosen plotting library and its QSS integration is stated.
-- [ ] Output is a markdown design spec linked from this ticket.
+- [x] A comparison of PySide6-compatible plotting libraries is documented.
+- [x] An interface layout showing the stats table and skips chart relationship is designed.
+- [x] Rationale for the chosen plotting library and its QSS integration is stated.
+- [x] Output is a markdown design spec linked from this ticket.
+
+## Resolution
+
+Resolved on 2026-08-22. See [MDR-104: Interactive Skips Chart — Plotting Library & Drill-down Design](../decisions/104-interactive-skips-chart-decision.md) for full comparison and details.
+
+### Key Decisions
+- **Plotting library: Matplotlib (`FigureCanvasQTAgg`/`QtAgg`)**, kept as the single library for all cockpit charts. Zero new dependency (already required), covers all four existing `analysis.py` chart types including the heatmap (which `QtCharts` cannot do natively), and its discrete-update cadence (once per game-context/history-window change) makes pyqtgraph's streaming-performance advantage irrelevant. `pyqtgraph` was rejected mainly for lacking a native per-bar click signal on `BarGraphItem`; `QtCharts` was rejected mainly for no heatmap chart type and more verbose pixel-exact token styling.
+- **Skips drill-down flow**: `QHeaderView.sectionClicked` on a stats table → `ThreadManager.start_job` → a new `SkipsJob(QThread)` calling a proposed vectorized `engine/modules/skips.py::compute_skip_profile()` → `JobSignals.finished(dict)` → a main-thread `SkipsInspectorPanel` (left: `QTableWidget` skip ledger; right: Matplotlib bar/line chart of the actual skip sequence), styled with `rcParams`/`Figure(facecolor=...)`/`Axes.set_facecolor()` against the MDR-103 Sleek Dark Mode tokens.

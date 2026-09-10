@@ -1,7 +1,8 @@
 ---
 id: "103"
 type: prototype
-status: open
+status: closed
+assignee: antigravity
 blocked_by: []
 map: samlotto-qt-interface-map.md
 created: 2026-08-11
@@ -37,7 +38,17 @@ What are the QSS style rules, layout configurations, and custom widget structure
 
 ## Acceptance criteria
 
-- [ ] A design stylesheet (QSS) with color tokens is documented.
-- [ ] A layout hierarchy (widgets and layouts) is specified.
-- [ ] Responsive resizing behavior is outlined.
-- [ ] Output is a markdown design/style record linked from this ticket.
+- [x] A design stylesheet (QSS) with color tokens is documented.
+- [x] A layout hierarchy (widgets and layouts) is specified.
+- [x] Responsive resizing behavior is outlined.
+- [x] Output is a markdown design/style record linked from this ticket.
+
+## Resolution
+
+Resolved on 2026-08-22. See [MDR-103: Sleek Dark Theme and Layout Design](../decisions/103-sleek-dark-theme-and-layout-decision.md) for full design and details.
+
+### Key Decisions
+- **Sleek Dark Mode theme**: Configured colors (background `#121214`, active red `#FF3366`, accent cyan `#00F0FF`, success green `#39FF14`) in `ThemeManager` (`desktop/src/theme/manager.py`).
+- **Nested Split-Pane Layout**: Standardized on an outer vertical `QSplitter` dividing the upper workspace and the bottom Setup Dock, with an inner horizontal `QSplitter` partitioning the `PoolBuilder` (left) and `TicketStore` (right).
+- **Interactive NumberGrid States**: Standardized on cyan border-only for unselected balls and active neon red (`#FF3366`) solid fill for selected pool numbers.
+- **Runnable Prototype**: Created a standalone prototype at `desktop/src/prototype_layout.py` mapping out all controls, layouts, responsive grids, and stylesheets.

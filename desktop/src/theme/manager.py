@@ -65,9 +65,24 @@ class ThemeManager:
                 "success": "#66BB6A",
                 "warning": "#FFA726",
                 "error": "#EF5350"
+            },
+            "Sleek Dark Mode": {
+                "background": "#121214",
+                "primary": "#00F0FF",
+                "primary_hover": "#00D7E6",
+                "primary_pressed": "#00C3CF",
+                "text": "#E0E0E5",
+                "text_dim": "#8A8A95",
+                "border": "#222226",
+                "panel": "#1A1A1E",
+                "tab_bg": "#141418",
+                "accent": "#FF3366",
+                "success": "#39FF14",
+                "warning": "#FFEA00",
+                "error": "#FF3366"
             }
         }
-        self.current_theme = self.settings.value("current_theme", "Cyber Synthwave")
+        self.current_theme = self.settings.value("current_theme", "Sleek Dark Mode")
 
     def generate_stylesheet(self, theme_name=None):
         theme = self.themes.get(theme_name or self.current_theme, self.themes["Cyber Synthwave"])
@@ -191,5 +206,68 @@ class ThemeManager:
                 background-color: {theme['primary']};
                 color: {theme['background']};
             }}
+            QCheckBox {{
+                color: {theme['text']};
+                spacing: 8px;
+            }}
+            QCheckBox::indicator {{
+                width: 16px;
+                height: 16px;
+                border: 1px solid {theme['border']};
+                background-color: {theme['panel']};
+                border-radius: 2px;
+            }}
+            QCheckBox::indicator:hover {{
+                border-color: {theme['primary']};
+            }}
+            QCheckBox::indicator:checked {{
+                background-color: {theme['primary']};
+                border: 2px solid {theme['panel']};
+            }}
+            QScrollBar:vertical {{
+                border: none;
+                background-color: {theme['tab_bg']};
+                width: 10px;
+                margin: 0px;
+            }}
+            QScrollBar::handle:vertical {{
+                background-color: {theme['border']};
+                min-height: 20px;
+                border-radius: 5px;
+            }}
+            QScrollBar::handle:vertical:hover {{
+                background-color: {theme['primary']};
+            }}
+            QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {{
+                border: none;
+                background: none;
+                height: 0px;
+            }}
+            QScrollBar:horizontal {{
+                border: none;
+                background-color: {theme['tab_bg']};
+                height: 10px;
+                margin: 0px;
+            }}
+            QScrollBar::handle:horizontal {{
+                background-color: {theme['border']};
+                min-width: 20px;
+                border-radius: 5px;
+            }}
+            QScrollBar::handle:horizontal:hover {{
+                background-color: {theme['primary']};
+            }}
+            QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal {{
+                border: none;
+                background: none;
+                width: 0px;
+            }}
+            QTableWidget {{
+                gridline-color: {theme['border']};
+                border: 1px solid {theme['border']};
+                background-color: {theme['panel']};
+                alternate-background-color: {theme['tab_bg']};
+            }}
         """
+
 
