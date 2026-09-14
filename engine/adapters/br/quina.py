@@ -18,5 +18,6 @@ class QuinaAdapter(CaixaBaseAdapter):
         number_range=(1, 80),
         board_cols=10,
         ticket_price=2.5,
-        currency="BRL"
+        currency="BRL",
+        max_picks=15
     )
