@@ -134,38 +134,91 @@ class EsotericPipeline:
         intensity = 1.0 - (dist / 0.25)
         return round(max(0.0, min(1.0, intensity)), 4)
 
+    def fetch_weather(self, lat: float, lon: float, target_date: date) -> Dict[str, Optional[float]]:
+        """
+        Fetches real daily weather (mean temperature °C, precipitation mm) for the
+        given coordinates and date from Open-Meteo — the same free/no-key public
+        source used by the historical `weather` fun-strategy
+        (engine/strategies/fun/weather.py). Used here only as one more real-world,
+        deterministic ingredient for the hash below; on any network issue we fall
+        back to `None` rather than raising, since this is personalization data,
+        never a hard dependency.
+        """
+        try:
+            today = date.today()
+            is_past = target_date < today
+            base = (
+                "https://archive-api.open-meteo.com/v1/archive"
+                if is_past else "https://api.open-meteo.com/v1/forecast"
+            )
+            params = f"latitude={lat}&longitude={lon}&daily=temperature_2m_mean,precipitation_sum&timezone=auto"
+            if is_past:
+                params += f"&start_date={target_date.isoformat()}&end_date={target_date.isoformat()}"
+            else:
+                params += "&forecast_days=3"
+            resp = httpx.get(f"{base}?{params}", timeout=self.timeout)
+            if resp.status_code == 200:
+                daily = resp.json().get("daily", {})
+                dates = daily.get("time", [])
+                temps = daily.get("temperature_2m_mean", [])
+                precs = daily.get("precipitation_sum", [])
+                target_str = target_date.isoformat()
+                idx = dates.index(target_str) if target_str in dates else (0 if dates else None)
+                if idx is not None:
+                    return {
+                        "temperature_c": temps[idx] if idx < len(temps) else None,
+                        "precip_mm": precs[idx] if idx < len(precs) else None,
+                    }
+        except Exception:
+            pass
+        return {"temperature_c": None, "precip_mm": None}
+
     def compile_context(
         self,
-        full_name: str,
-        birth_date: str,
-        coords: Tuple[float, float],
+        full_name: str = "",
+        birth_date: str = "1990-01-01",
+        coords: Tuple[float, float] = (-23.5505, -46.6333),
         target_date: Optional[str] = None,
         override_solar_kp: Optional[float] = None,
         override_seismic_mag: Optional[float] = None,
         override_lunar_phase: Optional[float] = None,
-        override_tide_level: Optional[float] = None
+        override_tide_level: Optional[float] = None,
+        override_temp_c: Optional[float] = None,
+        override_precip_mm: Optional[float] = None,
     ) -> Dict[str, Any]:
         """
         Aggregates all personal and environmental features into a canonical
         context dictionary.
+
+        `full_name` / `birth_date` default to neutral placeholders (matching the
+        convention already used by `portfolio`'s "GEMINI ENGINE" / "1990-01-01")
+        so pure environmental/weather use — no personal numerology requested —
+        never requires real personal data.
         """
         # 1. Standardize dates
         t_date = date.fromisoformat(target_date[:10]) if target_date else date.today()
         b_date = date.fromisoformat(birth_date[:10])
-        
+
         # 2. Personal Numerology
         gematria = _calculate_gematria(full_name)
         destiny = _calculate_destiny(b_date)
         mission = _digit_reduce(gematria["expression"] + destiny)
-        
+
         # 3. Geophysical & Solar Data
         solar_kp = override_solar_kp if override_solar_kp is not None else self.fetch_solar_kp()
         seismic_mag = override_seismic_mag if override_seismic_mag is not None else self.fetch_seismic_mag(coords[0], coords[1])
-        
+
         # 4. Lunar & Tidal calculations
         lunar_phase = override_lunar_phase if override_lunar_phase is not None else self.calculate_lunar_phase(t_date)
         tide_level = override_tide_level if override_tide_level is not None else self.calculate_tide_intensity(lunar_phase)
-        
+
+        # 5. Real weather (Open-Meteo) — see fetch_weather() docstring above.
+        if override_temp_c is not None or override_precip_mm is not None:
+            temp_c, precip_mm = override_temp_c, override_precip_mm
+        else:
+            w = self.fetch_weather(coords[0], coords[1], t_date)
+            temp_c, precip_mm = w.get("temperature_c"), w.get("precip_mm")
+
         return {
             "full_name": full_name,
             "birth_date": b_date.isoformat(),
@@ -182,22 +235,31 @@ class EsotericPipeline:
                 "solar_kp": round(solar_kp, 2),
                 "seismic_mag": round(seismic_mag, 2),
                 "lunar_phase": round(lunar_phase, 4),
-                "tide_level": round(tide_level, 4)
+                "tide_level": round(tide_level, 4),
+                "temperature_c": round(temp_c, 2) if temp_c is not None else None,
+                "precip_mm": round(precip_mm, 2) if precip_mm is not None else None,
             }
         }
+
+    def derive_seed(self, context: Dict[str, Any]) -> int:
+        """
+        Deterministically hashes a context dict (as produced by compile_context())
+        down to a 32-bit integer seed. Same context in → same seed out, always —
+        this is the property that makes it useful for reproducible runs, and it is
+        the ONLY property being claimed. It carries no predictive information about
+        future lottery draws (see module docstring).
+        """
+        serialized = json.dumps(context, sort_keys=True)
+        h = hashlib.sha256(serialized.encode()).hexdigest()
+        return int(h[:8], 16)
 
     def generate_weights(self, context: Dict[str, Any], lo: int, hi: int) -> Tuple[int, Dict[int, float]]:
         """
         Maps the aggregated context deterministically to a discrete 32-bit integer seed
         and a normalized, number-specific weighting matrix.
         """
-        # Serialize to deterministic JSON
-        serialized = json.dumps(context, sort_keys=True)
-        h = hashlib.sha256(serialized.encode()).hexdigest()
-        
-        # 1. Discrete numerical seed (take first 8 hex characters as 32-bit integer)
-        seed = int(h[:8], 16)
-        
+        seed = self.derive_seed(context)
+
         # 2. Deterministic weight generation
         # We initialize a NumPy generator with this exact seed to guarantee determinism
         rng = np.random.default_rng(seed)
@@ -225,7 +287,15 @@ class EsotericPipeline:
                 base_w = min(1.0, base_w + rng.uniform(0.01, 0.1))
             if seismic >= 3.0:
                 base_w = min(1.0, base_w + rng.uniform(0.01, 0.1))
-                
+
+            # Weather jitter — extreme heat/cold at the draw location on record.
+            # Same category of cosmetic, deterministic jitter as the Kp/seismic
+            # terms above: it changes WHICH equally-valid combination this run
+            # lands on, not the odds of any of them.
+            temp_c = context["environmental"].get("temperature_c")
+            if temp_c is not None and (temp_c >= 32.0 or temp_c <= 8.0):
+                base_w = min(1.0, base_w + rng.uniform(0.01, 0.1))
+
             # Lunar amplification
             # Amplification peaking during spring tides (high tide_level)
             tide = context["environmental"]["tide_level"]
@@ -236,5 +306,48 @@ class EsotericPipeline:
         # Normalize weights so they map cleanly to the suggestion engine expectations
         max_w = max(raw_weights.values()) or 1.0
         normed_weights = {n: float(round(w / max_w, 6)) for n, w in raw_weights.items()}
-        
+
         return seed, normed_weights
+
+
+# ---------------------------------------------------------------------------
+# CLI convenience entry point
+# ---------------------------------------------------------------------------
+
+def build_environmental_seed(
+    coords: Tuple[float, float],
+    target_date: Optional[date] = None,
+    full_name: str = "",
+    birth_date: str = "1990-01-01",
+    **overrides: Any,
+) -> Tuple[int, Dict[str, Any]]:
+    """
+    Build today's (or `target_date`'s) full environmental context for `coords`
+    and hash it down to a deterministic seed — no personal numerology required.
+
+    Used by `suggest --weather-seed` / `--esoteric-mode` and `genetic-wheel
+    --weather-seed` to replace *unseeded* randomness (Python's default
+    OS-entropy `random`) with a *reproducible* one derived from real,
+    independently-checkable data: today's date, real weather at the draw
+    location (Open-Meteo), real lunar phase/tide, and real solar Kp (NOAA).
+
+    This changes WHICH of the many equally-valid combinations a run lands on.
+    It does not, and structurally cannot, change the probability that any
+    given combination matches a future draw — see this module's docstring
+    and README's "Privacy & Integrity" section.
+
+    Returns
+    -------
+    (seed, context) — `context` is the full ingredient breakdown, suitable for
+    printing so the choice stays fully auditable.
+    """
+    pipeline = EsotericPipeline()
+    context = pipeline.compile_context(
+        full_name=full_name,
+        birth_date=birth_date,
+        coords=coords,
+        target_date=target_date.isoformat() if target_date else None,
+        **overrides,
+    )
+    seed = pipeline.derive_seed(context)
+    return seed, context

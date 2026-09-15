@@ -23,20 +23,21 @@ console = Console()
 
 class WheelGenome:
     """A set of tickets representing a wheel."""
-    def __init__(self, tickets: list[list[int]], v: int, k: int, t: int):
+    def __init__(self, tickets: list[list[int]], v: int, k: int, t: int, rng: random.Random | None = None):
         self.tickets = [set(t) for t in tickets]
         self.v = v # pool size
         self.k = k # ticket size
         self.t = t # match target
-        
+        self.rng = rng or random  # module-level `random` if no seeded instance given (back-compat)
+
     def calculate_fitness(self, trials: int = 200) -> float:
         """Estimate coverage using Monte Carlo."""
         hits = 0
         pool = list(range(1, self.v + 1))
-        
+
         for _ in range(trials):
             # Simulate a draw of 'k' numbers
-            draw = set(random.sample(pool, self.k))
+            draw = set(self.rng.sample(pool, self.k))
             
             # Check if any ticket in wheel covers 't' numbers in this draw
             covered = False
@@ -58,25 +59,60 @@ def genetic_wheel(
     target: Annotated[int, typer.Option("--target", "-t", help="Match target (e.g. 4 for 4-if-6)")] = 4,
     tickets: Annotated[int, typer.Option("--tickets", "-n", help="Max tickets in the wheel")] = 7,
     gens: Annotated[int, typer.Option("--gens", "-g", help="Generations")] = 50,
+    seed: Annotated[Optional[int], typer.Option("--seed",
+        help="Explicit RNG seed for a fully reproducible evolution run")] = None,
+    weather_seed: Annotated[bool, typer.Option("--weather-seed",
+        help="Derive the RNG seed from today's real weather/lunar/solar data at the draw "
+             "location instead of OS-entropy randomness (ignored if --seed is also given). "
+             "Reproducible and printed for audit — does NOT change coverage odds.")] = False,
 ) -> None:
     """🎡 Evolve a reduced wheel for a specific match guarantee.
 
-    Uses an evolutionary loop to find a set of tickets that maximizes 
+    Uses an evolutionary loop to find a set of tickets that maximizes
     the probability of hitting the target, using as few plays as possible.
     Targeting the 'Abbreviated Wheel' global optimum.
+
+    By default (no --seed / --weather-seed) every run uses fresh OS entropy,
+    same as before — this command's behaviour is unchanged unless one of these
+    flags is passed.
     """
     adapter = get_adapter(lottery)
     rules = adapter.rules
     k = rules.pick_count
-    
+
+    # ── Deterministic seeding (opt-in; preserves old unseeded behaviour) ───────
+    active_seed = seed
+    if active_seed is None and weather_seed:
+        from engine.modules.esoteric_pipeline import build_environmental_seed
+        coords = adapter.get_draw_location() if hasattr(adapter, "get_draw_location") else (-23.5505, -46.6333)
+        try:
+            active_seed, env_context = build_environmental_seed(coords)
+            env = env_context["environmental"]
+            console.print(Panel(
+                f"Date: [bold]{env_context['target_date']}[/bold]   Coords: {coords}\n"
+                f"Temp: {env['temperature_c']}°C   Precip: {env['precip_mm']}mm   "
+                f"Solar Kp: {env['solar_kp']}   Lunar phase: {env['lunar_phase']:.0%}\n"
+                f"→ Deterministic seed: [bold yellow]{active_seed}[/bold yellow]  "
+                f"[dim](reproducible; NOT a coverage/win-probability signal)[/dim]",
+                title="🌍 Environmental Seed (--weather-seed)",
+                border_style="cyan",
+            ))
+        except Exception as exc:
+            console.print(f"[yellow]⚠ Environmental seed unavailable ({exc}); using OS-entropy randomness.[/yellow]")
+            active_seed = None
+
+    rng = random.Random(active_seed) if active_seed is not None else random.Random()
+    if active_seed is not None:
+        console.print(f"[dim]RNG seed: {active_seed} — rerun with --seed {active_seed} to reproduce this exact wheel.[/dim]")
+
     # 1. Initialize Population (Sets of tickets)
     pop_size = 20
     population = []
     pool_nums = list(range(1, pool_size + 1))
-    
+
     for _ in range(pop_size):
-        wheel_tickets = [random.sample(pool_nums, k) for _ in range(tickets)]
-        population.append(WheelGenome(wheel_tickets, pool_size, k, target))
+        wheel_tickets = [rng.sample(pool_nums, k) for _ in range(tickets)]
+        population.append(WheelGenome(wheel_tickets, pool_size, k, target, rng=rng))
 
     # 2. Evolution
     with Progress(
@@ -85,46 +121,46 @@ def genetic_wheel(
         transient=True,
     ) as progress:
         task = progress.add_task(f"[yellow]Evolving wheel (v={pool_size}, k={k}, t={target})...", total=gens)
-        
+
         for gen in range(gens):
             # Sort by fitness
             population.sort(key=lambda w: w.calculate_fitness(), reverse=True)
-            
+
             # Keep top 5
             new_pop = population[:5]
-            
+
             while len(new_pop) < pop_size:
                 # Crossover
-                p1, p2 = random.sample(population[:10], 2)
+                p1, p2 = rng.sample(population[:10], 2)
                 # Combine tickets from both parents
-                child_tickets = random.sample(p1.tickets + p2.tickets, tickets)
-                child = WheelGenome([list(t) for t in child_tickets], pool_size, k, target)
-                
+                child_tickets = rng.sample(p1.tickets + p2.tickets, tickets)
+                child = WheelGenome([list(t) for t in child_tickets], pool_size, k, target, rng=rng)
+
                 # Mutation (Randomize one ticket)
-                if random.random() < 0.2:
-                    idx = random.randint(0, tickets - 1)
-                    child.tickets[idx] = set(random.sample(pool_nums, k))
-                    
+                if rng.random() < 0.2:
+                    idx = rng.randint(0, tickets - 1)
+                    child.tickets[idx] = set(rng.sample(pool_nums, k))
+
                 new_pop.append(child)
-            
+
             population = new_pop
             progress.advance(task)
 
     # 3. Results
     best = population[0]
     coverage = best.calculate_fitness(trials=1000)
-    
+
     console.rule(f"[bold yellow]🎡 GENETIC WHEEL EVOLVED — {rules.name}[/bold yellow]")
-    
+
     table = Table(title=f"Evolved Wheel: {len(best.tickets)} tickets | {target}-if-{k} Guarantee", box=None)
     table.add_column("ID", style="dim")
     table.add_column("Numbers", style="bold green")
-    
+
     for i, t in enumerate(best.tickets):
         table.add_row(f"#{i+1}", ", ".join(map(str, sorted(list(t)))))
-        
+
     console.print(table)
-    
+
     summary = (
         f"Design: [cyan]v={pool_size}, k={k}, t={target}[/cyan]\n"
         f"Estimated Coverage: [bold green]{coverage*100:.1f}%[/bold green]\n\n"

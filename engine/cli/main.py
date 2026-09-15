@@ -233,11 +233,18 @@ def suggest(
     filter_anomalies: Annotated[bool, typer.Option("--filter-anomalies", help="Automatically restrict generation to correct statistical pattern anomalies")] = False,
     kelly: Annotated[Optional[float], typer.Option("--kelly", help="Calculate optimal bet size using Kelly Criterion for this bankroll")] = None,
     chaos: Annotated[bool, typer.Option("--chaos", help="Enable Real-time Environmental Jitter (Solar/Seismic)")] = False,
+    weather_seed: Annotated[bool, typer.Option("--weather-seed",
+        help="Derive a deterministic RNG seed from today's real weather/lunar/solar data at the "
+             "draw location (Open-Meteo + NOAA), instead of unseeded OS-entropy randomness. "
+             "Reproducible and fully printed for audit — does NOT change win probability.")] = False,
+    esoteric_mode: Annotated[bool, typer.Option("--esoteric-mode",
+        help="Cross-check today's lunar/solar bucket against historical draws with a chi-squared "
+             "significance test, and print the (honest) result. Implies --weather-seed.")] = False,
     export_md: Annotated[Optional[str], typer.Option("--export-md", help="Append suggest report to this .md file")] = None,
 ):
     """🎟️ Generate ticket suggestions using a specific prediction strategy."""
     from engine.cli.commands.suggest import suggest as impl
-    return impl(lottery, strategy, count, temperature, limit, top_scored, recent_matches, top_numbers, full_name, birth_date, topic, adaptive_window, pool, key, filters, k_of_n, pick, explain, window_check, filter_anomalies, kelly, chaos, export_md)
+    return impl(lottery, strategy, count, temperature, limit, top_scored, recent_matches, top_numbers, full_name, birth_date, topic, adaptive_window, pool, key, filters, k_of_n, pick, explain, window_check, filter_anomalies, kelly, chaos, weather_seed, esoteric_mode, export_md)
 
 @app.command(rich_help_panel=PANEL_PRIMARY)
 def wizard():
@@ -826,6 +833,22 @@ def wheel(
     """🎡 Generate combinatorial wheels for a pool of numbers."""
     from engine.cli.commands.management import wheel as impl
     return impl(lottery, pool, mode, keys, guarantee, test, preset)
+
+@app.command(name="genetic-wheel", rich_help_panel=PANEL_BETTING)
+def genetic_wheel(
+    lottery: Annotated[str, typer.Argument(help="Lottery name")],
+    pool_size: Annotated[int, typer.Option("--pool", "-p", help="Size of number pool to wheel")] = 10,
+    target: Annotated[int, typer.Option("--target", "-t", help="Match target (e.g. 4 for 4-if-6)")] = 4,
+    tickets: Annotated[int, typer.Option("--tickets", "-n", help="Max tickets in the wheel")] = 7,
+    gens: Annotated[int, typer.Option("--gens", "-g", help="Generations")] = 50,
+    seed: Annotated[Optional[int], typer.Option("--seed", help="Explicit RNG seed for a fully reproducible evolution run")] = None,
+    weather_seed: Annotated[bool, typer.Option("--weather-seed",
+        help="Derive the RNG seed from today's real weather/lunar/solar data instead of OS-entropy "
+             "randomness (ignored if --seed is also given). Does NOT change coverage odds.")] = False,
+):
+    """🎡 Evolve a reduced wheel for a specific match guarantee (Genetic Algorithm)."""
+    from engine.cli.commands.genetic_wheel import genetic_wheel as impl
+    return impl(lottery, pool_size, target, tickets, gens, seed, weather_seed)
 
 @app.command(rich_help_panel=PANEL_BETTING)
 def portfolio(

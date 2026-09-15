@@ -85,6 +85,13 @@ def suggest(
     filter_anomalies: Annotated[bool, typer.Option("--filter-anomalies", help="Automatically restrict generation to correct statistical pattern anomalies")] = False,
     kelly: Annotated[Optional[float], typer.Option("--kelly", help="Calculate optimal bet size using Kelly Criterion for this bankroll")] = None,
     chaos: Annotated[bool, typer.Option("--chaos", help="Enable Real-time Environmental Jitter (Solar/Seismic)")] = False,
+    weather_seed: Annotated[bool, typer.Option("--weather-seed",
+        help="Derive a deterministic RNG seed from today's real weather/lunar/solar data at the "
+             "draw location (Open-Meteo + NOAA), instead of unseeded OS-entropy randomness. "
+             "Reproducible and fully printed for audit — does NOT change win probability.")] = False,
+    esoteric_mode: Annotated[bool, typer.Option("--esoteric-mode",
+        help="Cross-check today's lunar/solar bucket against historical draws with a chi-squared "
+             "significance test, and print the (honest) result. Implies --weather-seed.")] = False,
     export_md: Annotated[Optional[str], typer.Option("--export-md", help="Append suggest report to this .md file")] = None,
 ) -> None:
     """
@@ -154,6 +161,8 @@ def suggest(
         filter_anomalies=filter_anomalies,
         kelly=kelly,
         chaos=chaos,
+        weather_seed=weather_seed,
+        esoteric_mode=esoteric_mode,
         export_md=export_md,
     )
 
@@ -180,6 +189,8 @@ def _run_comparison(
     filter_anomalies: bool = False,
     kelly: float | None = None,
     chaos: bool = False,
+    weather_seed: bool = False,
+    esoteric_mode: bool = False,
     export_md: str | None = None,
 ) -> None:
     """Internal helper to run the actual comparison logic."""
@@ -248,6 +259,56 @@ def _run_comparison(
         
         # Apply global recency limit
         df_sliced = df_full.tail(limit) if limit else df_full
+
+    # ── --weather-seed / --esoteric-mode ───────────────────────────────────────
+    # esoteric_mode implies weather_seed (it wants both the reproducible seed
+    # AND the honest significance check).
+    if esoteric_mode:
+        weather_seed = True
+
+    env_seed: int | None = None
+    if weather_seed:
+        from engine.modules.esoteric_pipeline import build_environmental_seed
+        coords = adapter.get_draw_location() if hasattr(adapter, "get_draw_location") else (-23.5505, -46.6333)
+        try:
+            env_seed, env_context = build_environmental_seed(coords)
+            env = env_context["environmental"]
+            console.print(Panel(
+                f"Date: [bold]{env_context['target_date']}[/bold]   Coords: {coords}\n"
+                f"Temp: {env['temperature_c']}°C   Precip: {env['precip_mm']}mm   "
+                f"Solar Kp: {env['solar_kp']}   Lunar phase: {env['lunar_phase']:.0%}   "
+                f"Tide: {env['tide_level']:.0%}\n"
+                f"→ Deterministic seed: [bold yellow]{env_seed}[/bold yellow]  "
+                f"[dim](SHA-256 of the values above — reproducible; NOT a win-probability signal.\n"
+                f" Lotofácil-style draws are independent random events regardless of this seed.)[/dim]",
+                title="🌍 Environmental Seed (--weather-seed)",
+                border_style="cyan",
+            ))
+        except Exception as exc:
+            console.print(f"[yellow]⚠ Environmental seed unavailable ({exc}); falling back to unseeded randomness.[/yellow]")
+            env_seed = None
+
+    if esoteric_mode:
+        try:
+            from engine.cli.utils import esoteric_significance
+            check = esoteric_significance(df_full, adapter.rules, date.today())
+            if check.get("chi2") is not None:
+                sig = "[red]SIGNIFICANT (p<0.05)[/red]" if check["significant"] else "[green]not significant — consistent with random draws[/green]"
+                console.print(Panel(
+                    f"Today's lunar bucket: [bold]{check['lunar_bucket']}[/bold] ({check['moon_phase_name']})   "
+                    f"Solar bucket: {check['solar_bucket'] or 'n/a'}\n"
+                    f"Matched historical draws in this bucket: {check['matched_draws']}\n"
+                    f"χ²={check['chi2']:.2f}   p={check['p_value']:.4f}   → {sig}\n\n"
+                    f"[dim]Tests whether numbers historically drawn under today's lunar bucket differ from "
+                    f"the overall frequency distribution. This describes the past dataset — it does NOT "
+                    f"forecast the next draw, and no result here changes which strategy is used below.[/dim]",
+                    title="🔭 Esoteric Significance Check (--esoteric-mode)",
+                    border_style="magenta",
+                ))
+            else:
+                console.print(f"[yellow]⚠ Esoteric check skipped: {check.get('reason', 'unknown')}[/yellow]")
+        except Exception as exc:
+            console.print(f"[yellow]⚠ Esoteric significance check failed: {exc}[/yellow]")
 
     # Detect Anomaly Constraints (Phase 3)
     anomaly_constraints = {}
@@ -376,11 +437,12 @@ def _run_comparison(
             
             with console.status(f"  Running {strategy_label}…"):
                 result = strat.suggest(
-                    df_sliced, 
-                    adapter.rules, 
-                    count=count, 
-                    temperature=active_temp, 
+                    df_sliced,
+                    adapter.rules,
+                    count=count,
+                    temperature=active_temp,
                     history_limit=None,
+                    seed=env_seed,
                     pick=pick_count,
                     pool=pool_list,
                     key=key_list,

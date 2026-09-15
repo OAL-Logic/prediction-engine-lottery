@@ -350,3 +350,86 @@ def sparkline(values: list[float], width: int = 20) -> str:
         idx = int((v - lo_v) / rng * 7)
         out.append(_BLOCKS[idx])
     return "".join(out)
+
+
+# ── Esoteric significance check (shared by `suggest --esoteric-mode`) ────────
+
+def esoteric_significance(df, rules, today) -> dict[str, Any]:
+    """
+    Honest, cheap significance check: among historical draws whose date falls
+    in the SAME lunar quintile bucket as `today`, is the resulting number
+    frequency distribution significantly different (chi-squared goodness-of-fit)
+    from the distribution across ALL historical draws?
+
+    This reuses the exact bucket-labelling helpers `detect-patterns` already
+    uses (`_lunar_quintile`, `_solar_bucket`), just scored against raw drawn-
+    number frequency instead of strategy-confidence stability — cheaper (one
+    pass over history, no repeated strategy refits) and more directly relevant
+    to "which numbers came up," which is what a ticket actually needs.
+
+    IMPORTANT: a significant result describes THIS historical dataset. It is
+    not, and cannot be, a forecast — future draws are independent of past ones
+    regardless of what this test reports. Callers must not use this result to
+    silently change which strategy/numbers are recommended; it is for
+    transparent reporting only.
+    """
+    import numpy as np
+    from collections import Counter
+    from datetime import date as _date
+    from scipy import stats as _stats
+    # Lazy import: detect_patterns.py imports from this module, so importing it
+    # back at module load time would create a circular import.
+    from engine.cli.commands.detect_patterns import _lunar_quintile, _solar_bucket, _load_solar_cache
+    from engine.strategies.fun.moon_phase import phase_name
+
+    lo, hi = rules.number_range
+    pool = list(range(lo, hi + 1))
+
+    today_bucket = _lunar_quintile(today)
+    today_solar = _solar_bucket(today, _load_solar_cache())
+
+    def _row_date(row):
+        d = row.get("date") if hasattr(row, "get") else row["date"]
+        try:
+            import pandas as pd
+            if pd.isna(d):
+                return None
+            return d.date() if hasattr(d, "date") else _date.fromisoformat(str(d)[:10])
+        except Exception:
+            return None
+
+    overall_counts: Counter = Counter(n for nums in df["numbers"] for n in nums)
+    overall_total = sum(overall_counts.values())
+
+    matched_counts: Counter = Counter()
+    matched_draws = 0
+    for _, row in df.iterrows():
+        d = _row_date(row)
+        if d is None or _lunar_quintile(d) != today_bucket:
+            continue
+        matched_counts.update(row["numbers"])
+        matched_draws += 1
+
+    result: dict[str, Any] = {
+        "lunar_bucket": today_bucket,
+        "moon_phase_name": phase_name(today),
+        "solar_bucket": today_solar,
+        "matched_draws": matched_draws,
+        "chi2": None,
+        "p_value": None,
+        "significant": False,
+    }
+    if matched_draws < 20 or overall_total == 0:
+        result["reason"] = "insufficient matching historical draws for a meaningful test (need >= 20)"
+        return result
+
+    observed = np.array([matched_counts.get(n, 0) for n in pool], dtype=float)
+    expected_rate = np.array([overall_counts.get(n, 0) / overall_total for n in pool], dtype=float)
+    expected = expected_rate * observed.sum()
+    eps = 1e-9  # guard against zero-expected cells
+    chi2, p_val = _stats.chisquare(observed + eps, f_exp=(expected + eps))
+
+    result["chi2"] = float(chi2)
+    result["p_value"] = float(p_val)
+    result["significant"] = bool(p_val < 0.05)
+    return result
