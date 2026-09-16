@@ -20,5 +20,6 @@ class MaisMilionariaAdapter(CaixaBaseAdapter):
         bonus_range=(1, 6),
         board_cols=10,
         ticket_price=6.0,
-        currency="BRL"
+        currency="BRL",
+        odds={6: 238_360_500},  # C(50, 6) * C(6, 2) — jackpot tier only; see odds.py's _run_comparison()
     )

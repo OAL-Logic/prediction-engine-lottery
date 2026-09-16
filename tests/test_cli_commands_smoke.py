@@ -2150,6 +2150,12 @@ def test_odds_compare():
     result = runner.invoke(app, ["odds", "--compare"])
     assert result.exit_code == 0
     assert "Global Odds Comparison" in result.output
+    # Regression guard: _run_comparison() used to build its rows from
+    # GameDefinition.to_rules(), which never sets DrawRules.odds — so this
+    # table silently rendered zero rows for every registered game. Assert
+    # real games with real jackpot odds actually show up.
+    assert "Mega-Sena" in result.output
+    assert "1 in" in result.output
 
 
 def test_prune_smoke():

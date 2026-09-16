@@ -20,5 +20,6 @@ class DiaDeSorteAdapter(CaixaBaseAdapter):
         bonus_range=(1, 12),
         board_cols=7,
         ticket_price=2.5,
-        currency="BRL"
+        currency="BRL",
+        odds={7: 31_554_900},  # C(31, 7) * 12 — jackpot tier only; see odds.py's _run_comparison()
     )

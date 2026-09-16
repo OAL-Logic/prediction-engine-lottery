@@ -65,10 +65,24 @@ def odds(
 
 
 def _run_comparison() -> None:
-    """Compare all registered games."""
-    all_games = registry.list_games()
-    all_rules = [g.to_rules() for g in all_games]
-    
+    """Compare every registered game that has a working adapter.
+
+    Deliberately uses get_adapter(g.id).rules, not GameDefinition.to_rules():
+    the registry doesn't carry a game's odds table (to_rules() never sets
+    DrawRules.odds), and compare_lotteries() skips anything with
+    jackpot_odds == 0 — so building the comparison from to_rules() alone
+    always produced an empty table. Adapter rules also model bonus-ball
+    jackpot odds correctly (e.g. Powerball's 5-white + 1-red), which a
+    generic comb(pool_size, pick_count) fallback could not.
+    """
+    all_games = registry.list_games(only_available=True)
+    all_rules = []
+    for g in all_games:
+        try:
+            all_rules.append(get_adapter(g.id).rules)
+        except Exception:
+            continue
+
     results = compare_lotteries(all_rules)
     
     table = Table(title="Global Odds Comparison (Ranked by Jackpot Odds)", box=None)
@@ -86,6 +100,17 @@ def _run_comparison() -> None:
             f"{res.currency} {res.ticket_price:.2f}",
             f"{res.efficiency_score:.2f}"
         )
-        
+
     console.print(table)
-    console.print("\n[dim]* Efficiency = log10(odds) / price. Lower is better (more probability per currency unit).[/dim]")
+
+    # Jackpot-odds ranking is currency-independent (pure probability), but
+    # Efficiency = log10(odds) / ticket_price divides by a raw currency amount —
+    # comparable only *within* the same currency, not converted across them. No FX
+    # rate is applied (this engine avoids fabricating precision it can't back —
+    # see README "Honest defaults"), so make that explicit whenever the compared
+    # set spans more than one currency instead of implying a single global scale.
+    currencies = sorted({res.currency for res in results})
+    note = "\n[dim]* Efficiency = log10(odds) / ticket price. Lower is better (more probability per currency unit).[/dim]"
+    if len(currencies) > 1:
+        note += f"\n[dim]  Comparable only within the same currency (mixed here: {', '.join(currencies)}); not FX-adjusted.[/dim]"
+    console.print(note)

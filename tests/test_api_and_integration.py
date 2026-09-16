@@ -219,7 +219,23 @@ class TestOddsComparator:
     def test_compare_lotteries(self, mock_draw_rules):
         from engine.odds.comparator import compare_lotteries
         results = compare_lotteries([mock_draw_rules])
-        assert len(results) >= 0  # May be 0 if odds not set properly
+        # mock_draw_rules.odds is populated, so this must produce a real row —
+        # not just "some non-negative number of results" (see
+        # engine/cli/commands/odds.py's _run_comparison() fix: building this
+        # list from GameDefinition.to_rules() instead of an adapter's real
+        # rules silently produced zero rows for every registered game, because
+        # to_rules() never sets DrawRules.odds).
+        assert len(results) == 1
+        assert results[0].jackpot_odds == 50063860
+        assert results[0].name == "Test Lottery"
+
+    def test_compare_lotteries_skips_games_with_no_odds_modeled(self, mock_draw_rules):
+        from dataclasses import replace
+        from engine.odds.comparator import compare_lotteries
+
+        unmodeled = replace(mock_draw_rules, name="Unmodeled Game", odds={})
+        results = compare_lotteries([unmodeled, mock_draw_rules])
+        assert [r.name for r in results] == ["Test Lottery"]
 
 
 # ---------------------------------------------------------------------------

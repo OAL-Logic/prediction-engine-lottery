@@ -19,5 +19,6 @@ class QuinaAdapter(CaixaBaseAdapter):
         board_cols=10,
         ticket_price=2.5,
         currency="BRL",
-        max_picks=15
+        max_picks=15,
+        odds={5: 24_040_016},  # C(80, 5) — jackpot tier only; see odds.py's _run_comparison()
     )

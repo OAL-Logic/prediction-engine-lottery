@@ -18,7 +18,8 @@ class DuplaSenaAdapter(CaixaBaseAdapter):
         number_range=(1, 50),
         board_cols=10,
         ticket_price=2.5,
-        currency="BRL"
+        currency="BRL",
+        odds={6: 15_890_700},  # C(50, 6) — jackpot tier only; see odds.py's _run_comparison()
     )
 
     # Note: CaixaBaseAdapter default fetch logic handles the latest draw.
