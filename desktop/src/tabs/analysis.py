@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import scipy.stats as stats
 from PySide6.QtWidgets import (
-    QWidget, QVBoxLayout, QHBoxLayout, QLabel, QGroupBox, QComboBox, 
+    QWidget, QVBoxLayout, QHBoxLayout, QLabel, QGroupBox, QComboBox,
     QSplitter, QTableWidget, QTableWidgetItem, QHeaderView, QMessageBox
 )
 from PySide6.QtCore import Qt, Slot
@@ -13,6 +13,11 @@ from matplotlib.figure import Figure
 
 from engine.modules.storage import storage
 from engine.cli.utils import get_adapter
+from engine.modules.filters import (
+    PRIMES, get_odd_count, get_high_low_counts, get_ac_value, get_root_sum,
+    get_decade_metrics, get_successive_metrics, get_prime_count,
+    get_composite_count, get_unit_metrics,
+)
 from desktop.src.telemetry.manager import SkipsJob
 
 logger = logging.getLogger(__name__)
@@ -24,7 +29,7 @@ class AnalysisTab(QWidget):
     coupled with an interactive statistics ledger that supports click-to-drill-down
     skips analysis.
     """
-    
+
     def __init__(self, parent=None):
         super().__init__(parent)
         self.active_lottery = "br/lotofacil"
@@ -56,10 +61,17 @@ class AnalysisTab(QWidget):
         
         self.combo_analysis_type = QComboBox()
         self.combo_analysis_type.addItems([
-            "Frequency Distribution", 
-            "Actual Skips Statistics", 
-            "Sum Range Bell Curve", 
-            "Positional Matrix Heatmap"
+            "Frequency Distribution",
+            "Actual Skips Statistics",
+            "Sum Range Bell Curve",
+            "Positional Matrix Heatmap",
+            "Odd/Even & High/Low Balance",
+            "Arithmetic Complexity (AC) Distribution",
+            "Root Sum Distribution",
+            "Decade Distribution",
+            "Consecutive Groups Analysis",
+            "Prime & Composite Balance",
+            "Unit Digit Analysis",
         ])
         self.combo_analysis_type.currentTextChanged.connect(self.on_analysis_changed)
         
@@ -425,15 +437,287 @@ class AnalysisTab(QWidget):
             )
             self.summary_label.setText(summary)
 
+        elif view_type == "Odd/Even & High/Low Balance":
+            odd_counts = [get_odd_count(r["numbers"]) for _, r in self.df_draws.iterrows()]
+            high_counts = [get_high_low_counts(r["numbers"], max_n)["high"] for _, r in self.df_draws.iterrows()]
+            x_vals = list(range(pick_k + 1))
+            odd_dist = [odd_counts.count(v) for v in x_vals]
+            high_dist = [high_counts.count(v) for v in x_vals]
+            width = 0.35
+
+            self.ax.bar([x - width / 2 for x in x_vals], odd_dist, width, label="Odd Count", color=self.colors["primary"])
+            self.ax.bar([x + width / 2 for x in x_vals], high_dist, width, label="High Count", color=self.colors["accent"])
+            self.ax.set_title("Odd/Even & High/Low Balance Distribution", color=self.colors["primary"], fontsize=12, fontproperties={'family': 'JetBrains Mono'})
+            self.ax.set_xlabel("Count per Draw (of pick size)", color=self.colors["text_dim"], fontproperties={'family': 'JetBrains Mono'})
+            self.ax.set_ylabel("Number of Historical Draws", color=self.colors["text_dim"], fontproperties={'family': 'JetBrains Mono'})
+            self.ax.set_xticks(x_vals)
+            self.ax.legend(facecolor=self.colors["panel"], labelcolor=self.colors["text"], edgecolor=self.colors["border"])
+
+            self.stats_table.setColumnCount(6)
+            self.stats_table.setHorizontalHeaderLabels(["Draw ID", "Draw Date", "Odd", "Even", "High", "Low"])
+            self.stats_table.horizontalHeader().setSectionResizeMode(QHeaderView.Stretch)
+            self.stats_table.setRowCount(total_draws)
+
+            for idx, (_, row_data) in enumerate(self.df_draws.iloc[::-1].iterrows()):
+                nums = row_data["numbers"]
+                o = get_odd_count(nums)
+                hl = get_high_low_counts(nums, max_n)
+                for col, val in enumerate([row_data["draw_id"], row_data["draw_date"], o, len(nums) - o, hl["high"], hl["low"]]):
+                    item = QTableWidgetItem(str(val))
+                    item.setForeground(QColor(self.colors["text"]))
+                    self.stats_table.setItem(idx, col, item)
+
+            most_common_odd = max(x_vals, key=lambda v: odd_dist[v])
+            summary = (
+                f"⚖️ Odd/Even & High/Low Diagnostic:\n"
+                f"  ➔ Most Common Odd Count : {most_common_odd} odds / {pick_k - most_common_odd} evens ({odd_dist[most_common_odd]} of {total_draws} draws)\n"
+                f"  ➔ Balanced Draw Theory  : Ideal split is close to {pick_k // 2}/{pick_k - pick_k // 2}"
+            )
+            self.summary_label.setText(summary)
+
+        elif view_type == "Arithmetic Complexity (AC) Distribution":
+            ac_values = [get_ac_value(r["numbers"]) for _, r in self.df_draws.iterrows()]
+            mean_ac = float(np.mean(ac_values)) if ac_values else 0.0
+            max_possible_ac = (pick_k * (pick_k - 1)) // 2 - (pick_k - 1)
+            n_bins = max(1, min(20, len(set(ac_values))))
+
+            self.ax.hist(ac_values, bins=n_bins, color=self.colors["primary"], alpha=0.6, edgecolor=self.colors["border"])
+            self.ax.axvline(mean_ac, color=self.colors["warning"], linestyle="--", linewidth=2, label=f"Mean AC: {mean_ac:.1f}")
+            self.ax.set_title("Arithmetic Complexity (AC) Value Distribution", color=self.colors["primary"], fontsize=12, fontproperties={'family': 'JetBrains Mono'})
+            self.ax.set_xlabel("AC Value (Higher = More Random Spacing)", color=self.colors["text_dim"], fontproperties={'family': 'JetBrains Mono'})
+            self.ax.set_ylabel("Occurrence Count", color=self.colors["text_dim"], fontproperties={'family': 'JetBrains Mono'})
+            self.ax.legend(facecolor=self.colors["panel"], labelcolor=self.colors["text"], edgecolor=self.colors["border"])
+
+            self.stats_table.setColumnCount(4)
+            self.stats_table.setHorizontalHeaderLabels(["Draw ID", "Draw Date", "Numbers", "AC Value"])
+            self.stats_table.horizontalHeader().setSectionResizeMode(QHeaderView.Stretch)
+            self.stats_table.setRowCount(total_draws)
+
+            for idx, (_, row_data) in enumerate(self.df_draws.iloc[::-1].iterrows()):
+                nums = row_data["numbers"]
+                ac = get_ac_value(nums)
+                nums_str = ", ".join(map(str, sorted(nums)))
+                is_low = max_possible_ac > 0 and ac < max_possible_ac * 0.5
+                for col, val in enumerate([row_data["draw_id"], row_data["draw_date"], nums_str, ac]):
+                    item = QTableWidgetItem(str(val))
+                    item.setForeground(QColor(self.colors["warning"] if is_low else self.colors["text"]))
+                    self.stats_table.setItem(idx, col, item)
+
+            summary = (
+                f"🧮 Arithmetic Complexity Diagnostic:\n"
+                f"  ➔ Mean AC Value : {mean_ac:.2f} (Max possible: {max_possible_ac})\n"
+                f"  ➔ Low-complexity draws (highlighted) suggest arithmetic/patterned number spacing."
+            )
+            self.summary_label.setText(summary)
+
+        elif view_type == "Root Sum Distribution":
+            root_sums = [get_root_sum(r["numbers"]) for _, r in self.df_draws.iterrows()]
+            digits = list(range(1, 10))
+            dist = [root_sums.count(v) for v in digits]
+            expected = total_draws / 9.0
+
+            self.ax.bar(digits, dist, color=self.colors["success"], edgecolor=self.colors["border"])
+            self.ax.axhline(expected, color=self.colors["accent"], linestyle="--", linewidth=1.5, label=f"Uniform Expectation ({expected:.1f})")
+            self.ax.set_title("Root Sum (Digital Root) Distribution", color=self.colors["primary"], fontsize=12, fontproperties={'family': 'JetBrains Mono'})
+            self.ax.set_xlabel("Root Sum Digit (1-9)", color=self.colors["text_dim"], fontproperties={'family': 'JetBrains Mono'})
+            self.ax.set_ylabel("Historical Draw Count", color=self.colors["text_dim"], fontproperties={'family': 'JetBrains Mono'})
+            self.ax.set_xticks(digits)
+            self.ax.legend(facecolor=self.colors["panel"], labelcolor=self.colors["text"], edgecolor=self.colors["border"])
+
+            self.stats_table.setColumnCount(3)
+            self.stats_table.setHorizontalHeaderLabels(["Root Sum Digit", "Occurrence Count", "Frequency %"])
+            self.stats_table.horizontalHeader().setSectionResizeMode(QHeaderView.Stretch)
+            self.stats_table.setRowCount(9)
+
+            for row, digit in enumerate(digits):
+                cnt = dist[row]
+                pct = (cnt / total_draws) * 100 if total_draws else 0.0
+                for col, val in enumerate([digit, cnt, f"{pct:.2f}%"]):
+                    item = QTableWidgetItem(str(val))
+                    item.setForeground(QColor(self.colors["text"]))
+                    self.stats_table.setItem(row, col, item)
+
+            peak_digit = int(np.argmax(dist)) + 1
+            summary = (
+                f"🔢 Root Sum (Digital Root) Diagnostic:\n"
+                f"  ➔ Most Frequent Root Sum : {peak_digit} ({dist[peak_digit - 1]} of {total_draws} draws)\n"
+                f"  ➔ Uniform Expectation    : ~{expected:.1f} draws per digit if perfectly random"
+            )
+            self.summary_label.setText(summary)
+
+        elif view_type == "Decade Distribution":
+            n_buckets = ((max_n - min_n) // 10) + 1
+            bucket_counts = [0] * n_buckets
+            for n in all_numbers:
+                b = int((n - min_n) // 10)
+                if 0 <= b < n_buckets:
+                    bucket_counts[b] += 1
+            bucket_labels = [f"{min_n + b * 10:02d}-{min(min_n + b * 10 + 9, max_n):02d}" for b in range(n_buckets)]
+            peak_cnt, trough_cnt = max(bucket_counts), min(bucket_counts)
+
+            bar_colors = [
+                self.colors["primary"] if c == peak_cnt else (self.colors["accent"] if c == trough_cnt else self.colors["success"])
+                for c in bucket_counts
+            ]
+            self.ax.bar(range(n_buckets), bucket_counts, color=bar_colors, edgecolor=self.colors["border"])
+            self.ax.set_title(f"Decade Group Frequency (Last {total_draws} Draws)", color=self.colors["primary"], fontsize=12, fontproperties={'family': 'JetBrains Mono'})
+            self.ax.set_xlabel("Decade Bucket", color=self.colors["text_dim"], fontproperties={'family': 'JetBrains Mono'})
+            self.ax.set_ylabel("Ball Appearances", color=self.colors["text_dim"], fontproperties={'family': 'JetBrains Mono'})
+            self.ax.set_xticks(range(n_buckets))
+            self.ax.set_xticklabels(bucket_labels, rotation=45, ha="right")
+
+            self.stats_table.setColumnCount(5)
+            self.stats_table.setHorizontalHeaderLabels(["Decade Bucket", "Total Hits", "Frequency %", "Avg Hits/Draw", "Status"])
+            self.stats_table.horizontalHeader().setSectionResizeMode(QHeaderView.Stretch)
+            self.stats_table.setRowCount(n_buckets)
+
+            total_balls = len(all_numbers)
+            for row in range(n_buckets):
+                cnt = bucket_counts[row]
+                pct = (cnt / total_balls) * 100 if total_balls else 0.0
+                avg = cnt / total_draws if total_draws else 0.0
+                status = "Hot" if cnt == peak_cnt else ("Cold" if cnt == trough_cnt else "Normal")
+                for col, val in enumerate([bucket_labels[row], cnt, f"{pct:.2f}%", f"{avg:.2f}", status]):
+                    item = QTableWidgetItem(str(val))
+                    if status == "Hot":
+                        item.setForeground(QColor(self.colors["primary"]))
+                    elif status == "Cold":
+                        item.setForeground(QColor(self.colors["accent"]))
+                    else:
+                        item.setForeground(QColor(self.colors["text"]))
+                    self.stats_table.setItem(row, col, item)
+
+            avg_groups = float(np.mean([get_decade_metrics(r["numbers"])["groups"] for _, r in self.df_draws.iterrows()]))
+            hot_bucket = bucket_labels[int(np.argmax(bucket_counts))]
+            summary = (
+                f"🎚️ Decade Group Diagnostic:\n"
+                f"  ➔ Hottest Decade Bucket : {hot_bucket} ({peak_cnt} hits)\n"
+                f"  ➔ Avg Contiguous Decade Groups per Draw : {avg_groups:.2f}"
+            )
+            self.summary_label.setText(summary)
+
+        elif view_type == "Consecutive Groups Analysis":
+            run_lengths = [get_successive_metrics(r["numbers"])["max_successive"] for _, r in self.df_draws.iterrows()]
+            max_run = max(run_lengths) if run_lengths else 0
+            x_vals = list(range(max_run + 1))
+            dist = [run_lengths.count(v) for v in x_vals]
+
+            bar_colors = [self.colors["success"] if v == 0 else self.colors["warning"] for v in x_vals]
+            self.ax.bar(x_vals, dist, color=bar_colors, edgecolor=self.colors["border"])
+            self.ax.set_title("Longest Consecutive Run Length Distribution", color=self.colors["primary"], fontsize=12, fontproperties={'family': 'JetBrains Mono'})
+            self.ax.set_xlabel("Max Consecutive Run Length (0 = none)", color=self.colors["text_dim"], fontproperties={'family': 'JetBrains Mono'})
+            self.ax.set_ylabel("Historical Draw Count", color=self.colors["text_dim"], fontproperties={'family': 'JetBrains Mono'})
+            self.ax.set_xticks(x_vals)
+
+            self.stats_table.setColumnCount(5)
+            self.stats_table.setHorizontalHeaderLabels(["Draw ID", "Draw Date", "Numbers", "Max Run Length", "Run Groups"])
+            self.stats_table.horizontalHeader().setSectionResizeMode(QHeaderView.Stretch)
+            self.stats_table.setRowCount(total_draws)
+
+            for idx, (_, row_data) in enumerate(self.df_draws.iloc[::-1].iterrows()):
+                nums = row_data["numbers"]
+                metrics = get_successive_metrics(nums)
+                nums_str = ", ".join(map(str, sorted(nums)))
+                has_run = metrics["max_successive"] > 0
+                for col, val in enumerate([row_data["draw_id"], row_data["draw_date"], nums_str, metrics["max_successive"], metrics["groups"]]):
+                    item = QTableWidgetItem(str(val))
+                    item.setForeground(QColor(self.colors["warning"] if has_run else self.colors["text"]))
+                    self.stats_table.setItem(idx, col, item)
+
+            pct_with_run = (sum(1 for r in run_lengths if r > 0) / total_draws) * 100 if total_draws else 0.0
+            summary = (
+                f"🔗 Consecutive Groups Diagnostic:\n"
+                f"  ➔ Draws with at least one consecutive pair : {pct_with_run:.1f}% of history\n"
+                f"  ➔ Longest run ever observed : {max_run} consecutive numbers"
+            )
+            self.summary_label.setText(summary)
+
+        elif view_type == "Prime & Composite Balance":
+            prime_counts = [get_prime_count(r["numbers"]) for _, r in self.df_draws.iterrows()]
+            x_vals = list(range(pick_k + 1))
+            dist = [prime_counts.count(v) for v in x_vals]
+            mean_p = float(np.mean(prime_counts)) if prime_counts else 0.0
+            primes_in_pool = int(np.sum((PRIMES >= min_n) & (PRIMES <= max_n)))
+
+            self.ax.bar(x_vals, dist, color=self.colors["primary"], edgecolor=self.colors["border"])
+            self.ax.axvline(mean_p, color=self.colors["warning"], linestyle="--", linewidth=2, label=f"Mean: {mean_p:.2f}")
+            self.ax.set_title("Prime Number Count Distribution", color=self.colors["primary"], fontsize=12, fontproperties={'family': 'JetBrains Mono'})
+            self.ax.set_xlabel("Prime Numbers per Draw", color=self.colors["text_dim"], fontproperties={'family': 'JetBrains Mono'})
+            self.ax.set_ylabel("Historical Draw Count", color=self.colors["text_dim"], fontproperties={'family': 'JetBrains Mono'})
+            self.ax.set_xticks(x_vals)
+            self.ax.legend(facecolor=self.colors["panel"], labelcolor=self.colors["text"], edgecolor=self.colors["border"])
+
+            self.stats_table.setColumnCount(4)
+            self.stats_table.setHorizontalHeaderLabels(["Draw ID", "Draw Date", "Prime Count", "Composite Count"])
+            self.stats_table.horizontalHeader().setSectionResizeMode(QHeaderView.Stretch)
+            self.stats_table.setRowCount(total_draws)
+
+            for idx, (_, row_data) in enumerate(self.df_draws.iloc[::-1].iterrows()):
+                nums = row_data["numbers"]
+                for col, val in enumerate([row_data["draw_id"], row_data["draw_date"], get_prime_count(nums), get_composite_count(nums)]):
+                    item = QTableWidgetItem(str(val))
+                    item.setForeground(QColor(self.colors["text"]))
+                    self.stats_table.setItem(idx, col, item)
+
+            summary = (
+                f"🔷 Prime & Composite Diagnostic:\n"
+                f"  ➔ Mean Prime Count per Draw : {mean_p:.2f} of {pick_k} balls\n"
+                f"  ➔ Primes available in pool [{min_n}-{max_n}] : {primes_in_pool}"
+            )
+            self.summary_label.setText(summary)
+
+        elif view_type == "Unit Digit Analysis":
+            unit_sums = [get_unit_metrics(r["numbers"])["sum"] for _, r in self.df_draws.iterrows()]
+            mean_u = float(np.mean(unit_sums)) if unit_sums else 0.0
+            n_bins = max(1, min(20, len(set(unit_sums))))
+
+            self.ax.hist(unit_sums, bins=n_bins, color=self.colors["success"], alpha=0.6, edgecolor=self.colors["border"])
+            self.ax.axvline(mean_u, color=self.colors["primary"], linestyle="--", linewidth=2, label=f"Mean: {mean_u:.1f}")
+            self.ax.set_title("Unit Digit Sum Distribution (Sum of Last Digits)", color=self.colors["primary"], fontsize=12, fontproperties={'family': 'JetBrains Mono'})
+            self.ax.set_xlabel("Unit Digit Sum", color=self.colors["text_dim"], fontproperties={'family': 'JetBrains Mono'})
+            self.ax.set_ylabel("Historical Draw Count", color=self.colors["text_dim"], fontproperties={'family': 'JetBrains Mono'})
+            self.ax.legend(facecolor=self.colors["panel"], labelcolor=self.colors["text"], edgecolor=self.colors["border"])
+
+            self.stats_table.setColumnCount(4)
+            self.stats_table.setHorizontalHeaderLabels(["Draw ID", "Draw Date", "Unit Sum", "Distinct Units"])
+            self.stats_table.horizontalHeader().setSectionResizeMode(QHeaderView.Stretch)
+            self.stats_table.setRowCount(total_draws)
+
+            for idx, (_, row_data) in enumerate(self.df_draws.iloc[::-1].iterrows()):
+                um = get_unit_metrics(row_data["numbers"])
+                for col, val in enumerate([row_data["draw_id"], row_data["draw_date"], um["sum"], um["different"]]):
+                    item = QTableWidgetItem(str(val))
+                    item.setForeground(QColor(self.colors["text"]))
+                    self.stats_table.setItem(idx, col, item)
+
+            summary = (
+                f"🔟 Unit Digit Diagnostic:\n"
+                f"  ➔ Mean Unit Digit Sum : {mean_u:.2f}\n"
+                f"  ➔ Higher distinct-unit counts suggest broader last-digit spread (less digit clustering)."
+            )
+            self.summary_label.setText(summary)
+
         self.figure.tight_layout()
         self.canvas.draw()
 
     @Slot(int, int)
     def on_row_selected(self, row: int, col: int):
         """Triggered when a user clicks a row in the stats table. Parses target number and launches background skips calculations."""
-        # Only allow clicks in views that represent ball statistics
+        # Only allow clicks in views that represent per-ball statistics (first column "Ball NN").
+        # All other views are keyed by Draw ID / bucket / digit, which would otherwise be
+        # misparsed as a ball number by the int(text) fallback below.
         view_type = self.combo_analysis_type.currentText()
-        if view_type == "Sum Range Bell Curve":
+        NON_BALL_VIEWS = {
+            "Sum Range Bell Curve",
+            "Odd/Even & High/Low Balance",
+            "Arithmetic Complexity (AC) Distribution",
+            "Root Sum Distribution",
+            "Decade Distribution",
+            "Consecutive Groups Analysis",
+            "Prime & Composite Balance",
+            "Unit Digit Analysis",
+        }
+        if view_type in NON_BALL_VIEWS:
             return
 
         item = self.stats_table.item(row, 0)

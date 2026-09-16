@@ -178,19 +178,31 @@ def get_unit_metrics(nums: List[int]) -> Dict[str, Any]:
 
 def get_successive_metrics(nums: List[int]) -> Dict[str, int]:
     sorted_nums = sorted(nums)
-    if not sorted_nums: return {"max_successive": 0, "groups": 0}
+    empty = {"max_successive": 0, "groups": 0, "groups_of_2": 0, "groups_of_3": 0, "groups_of_4": 0}
+    if not sorted_nums: return empty
     groups, current = 0, 1
     max_s = 1
+    run_lengths = []
     for i in range(1, len(sorted_nums)):
         if sorted_nums[i] == sorted_nums[i-1] + 1:
             current += 1
         else:
-            if current > 1: groups += 1
+            if current > 1:
+                groups += 1
+                run_lengths.append(current)
             max_s = max(max_s, current)
             current = 1
-    if current > 1: groups += 1
+    if current > 1:
+        groups += 1
+        run_lengths.append(current)
     max_s = max(max_s, current)
-    return {"max_successive": max_s if max_s > 1 else 0, "groups": groups}
+    return {
+        "max_successive": max_s if max_s > 1 else 0,
+        "groups": groups,
+        "groups_of_2": sum(1 for r in run_lengths if r == 2),
+        "groups_of_3": sum(1 for r in run_lengths if r == 3),
+        "groups_of_4": sum(1 for r in run_lengths if r >= 4),  # filter_successive_4 blocks any 4-or-longer streak
+    }
 
 def get_root_sum(nums: List[int]) -> int:
     s = sum(nums)

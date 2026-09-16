@@ -38,6 +38,24 @@ def test_get_successive_metrics():
     metrics = filters.get_successive_metrics(nums)
     assert metrics["max_successive"] == 3 # 10, 11, 12
     assert metrics["groups"] == 2 # (1,2) and (10,11,12)
+    assert metrics["groups_of_2"] == 1 # (1,2)
+    assert metrics["groups_of_3"] == 1 # (10,11,12)
+    assert metrics["groups_of_4"] == 0
+
+def test_get_successive_metrics_groups_of_4_counts_longer_runs_too():
+    nums = [1, 2, 3, 4, 5, 20]
+    metrics = filters.get_successive_metrics(nums)
+    assert metrics["max_successive"] == 5
+    assert metrics["groups_of_4"] == 1 # the 5-run counts as a "4 or longer" streak
+
+def test_filter_successive_2_3_4_do_not_raise():
+    """Regression test: these registered filters used to KeyError because
+    get_successive_metrics() didn't expose groups_of_2/3/4 (see harmony.py)."""
+    from engine.modules import harmony
+    ticket = [1, 2, 10, 11, 12, 20]
+    assert harmony.filter_successive_2(ticket, rules=None) in (True, False)
+    assert harmony.filter_successive_3(ticket, rules=None) in (True, False)
+    assert harmony.filter_successive_4(ticket, rules=None) in (True, False)
 
 def test_get_distance_metrics():
     nums = [1, 5, 10]
