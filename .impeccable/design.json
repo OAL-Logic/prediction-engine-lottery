@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-16T15:12:00Z",
+  "title": "Design System: Lottery Engine — Desktop Cockpit",
+  "extensions": {
+    "colorMeta": {
+      "obsidian-black": { "role": "neutral", "displayName": "Obsidian Black", "canonical": "#000000", "tonalRamp": ["#262626", "#434343", "#616161", "#7e7e7e", "#9b9b9b", "#b8b8b8", "#d5d5d5", "#f2f2f2"] },
+      "matrix-green": { "role": "primary", "displayName": "Matrix Green", "canonical": "#00ff41", "tonalRamp": ["#004c14", "#008722", "#00c131", "#00fb40", "#37ff6a", "#71ff95", "#abffc1", "#e5ffec"] },
+      "lead-grey": { "role": "neutral", "displayName": "Lead Grey", "canonical": "#333333", "tonalRamp": ["#262626", "#434343", "#616161", "#7e7e7e", "#9b9b9b", "#b8b8b8", "#d5d5d5", "#f2f2f2"] },
+      "panel-black": { "role": "neutral", "displayName": "Panel Black", "canonical": "#0a0a0a", "tonalRamp": ["#262626", "#434343", "#616161", "#7e7e7e", "#9b9b9b", "#b8b8b8", "#d5d5d5", "#f2f2f2"] },
+      "tab-charcoal": { "role": "neutral", "displayName": "Tab Charcoal", "canonical": "#1a1a1a", "tonalRamp": ["#262626", "#434343", "#616161", "#7e7e7e", "#9b9b9b", "#b8b8b8", "#d5d5d5", "#f2f2f2"] },
+      "astro-violet": { "role": "secondary", "displayName": "Astro Violet", "canonical": "#8a2be2", "tonalRamp": ["#270943", "#451077", "#6317aa", "#811edd", "#9e4fe7", "#ba82ee", "#d6b5f5", "#f3e9fc"] },
+      "signal-red": { "role": "error", "displayName": "Signal Red", "canonical": "#ff3131", "tonalRamp": ["#4c0000", "#870000", "#c10000", "#fb0000", "#ff3737", "#ff7171", "#ffabab", "#ffe5e5"] },
+      "warning-amber": { "role": "warning", "displayName": "Warning Amber", "canonical": "#ffea00", "tonalRamp": ["#4c4600", "#877c00", "#c1b100", "#fbe700", "#ffee37", "#fff371", "#fff8ab", "#fffde5"] },
+      "cyber-cyan": { "role": "tertiary", "displayName": "Cyber Cyan", "canonical": "#00f0ff", "tonalRamp": ["#00484c", "#007f87", "#00b6c1", "#00edfb", "#37f3ff", "#71f7ff", "#abfaff", "#e5feff"] },
+      "neon-magenta-red": { "role": "tertiary", "displayName": "Neon Magenta-Red", "canonical": "#ff3366", "tonalRamp": ["#4c0013", "#870022", "#c10030", "#fb003f", "#ff3769", "#ff7194", "#ffabc0", "#ffe5ec"] }
+    },
+    "typographyMeta": {
+      "body": { "displayName": "Body", "purpose": "Default widget/label text; inherits platform base size, no explicit override." },
+      "label": { "displayName": "Label", "purpose": "Uppercase bold — buttons, tab names, group-box titles. The system's primary hierarchy device." },
+      "data": { "displayName": "Data", "purpose": "Tabular and statistical readouts (analysis summaries, verification output)." },
+      "numeric-ball": { "displayName": "Numeric Ball", "purpose": "Digits inside the number-ball grid." }
+    },
+    "shadows": [],
+    "motion": [
+      { "name": "hover-fill", "value": "instant (no transition declared in QSS)", "purpose": "Button rest→hover fill swap is an immediate color change, not an eased transition — consistent with the flat, no-decoration system." }
+    ],
+    "breakpoints": []
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Ghost at rest, inverts to a solid fill on hover. The only fill transition in the system.",
+      "html": "<button class=\"ds-btn-primary\">RUN FORECAST</button>",
+      "css": ".ds-btn-primary { background-color: #0a0a0a; color: #00ff41; border: 1px solid #00ff41; border-radius: 4px; padding: 8px 16px; font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace; font-weight: 700; text-transform: uppercase; letter-spacing: 0.03em; } .ds-btn-primary:hover { background-color: #00ff41; color: #000000; } .ds-btn-primary:focus-visible { outline: 2px solid #00e63a; outline-offset: 2px; } .ds-btn-primary:active { background-color: #00cc33; color: #000000; }"
+    },
+    {
+      "name": "Text Input",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Uniform style for line edits, combo boxes, and spin boxes.",
+      "html": "<input class=\"ds-input\" type=\"text\" placeholder=\"concurso #\" />",
+      "css": ".ds-input { background-color: #0a0a0a; color: #00ff41; border: 1px solid #333333; border-radius: 2px; padding: 4px; font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace; } .ds-input:focus-visible { outline: none; border-color: #00ff41; }"
+    },
+    {
+      "name": "Group Box",
+      "kind": "card",
+      "refersTo": null,
+      "description": "Bordered section container; the title is the system's one reserved use of Astro Violet.",
+      "html": "<fieldset class=\"ds-group\"><legend class=\"ds-group-title\">FILTER CONFIGURATION</legend><p style=\"color:#00ff41;margin:0;\">5-tier filter pass status readout.</p></fieldset>",
+      "css": ".ds-group { background-color: #000000; border: 1px solid #333333; border-radius: 4px; padding: 16px 12px 12px; margin-top: 12px; } .ds-group-title { color: #8a2be2; text-transform: uppercase; font-weight: 700; font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace; padding: 0 3px; }"
+    },
+    {
+      "name": "Tab",
+      "kind": "nav",
+      "refersTo": null,
+      "description": "Top-level workflow-stage navigation (Database, Analysis, Filters, Wheeling, Predict, Verification, EV, Telemetry).",
+      "html": "<div class=\"ds-tabbar\"><span class=\"ds-tab\">DATABASE</span><span class=\"ds-tab ds-tab--active\">PREDICT</span><span class=\"ds-tab\">VERIFICATION</span></div>",
+      "css": ".ds-tabbar { display: flex; background-color: #1a1a1a; } .ds-tab { padding: 8px 12px; border: 1px solid #333333; color: #008f11; font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace; font-weight: 700; text-transform: uppercase; cursor: pointer; } .ds-tab:hover { color: #00ff41; } .ds-tab--active { background-color: #0a0a0a; color: #00ff41; border-bottom: 2px solid #00ff41; }"
+    },
+    {
+      "name": "Number Ball — Unselected",
+      "kind": "custom",
+      "refersTo": "number-ball",
+      "description": "Signature component: one cell of the interactive number-pool grid, at rest.",
+      "html": "<button class=\"ds-ball\">07</button>",
+      "css": ".ds-ball { width: 36px; height: 36px; border-radius: 18px; background-color: #1a1a1e; color: #00f0ff; border: 1px solid #222226; font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace; font-weight: 700; font-size: 13px; } .ds-ball:hover { background-color: #222226; border-color: #00f0ff; } .ds-ball:focus-visible { outline: 2px solid #00f0ff; outline-offset: 1px; }"
+    },
+    {
+      "name": "Number Ball — Selected",
+      "kind": "custom",
+      "refersTo": "number-ball-selected",
+      "description": "Signature component: a chosen number in the active pool.",
+      "html": "<button class=\"ds-ball ds-ball--selected\">07</button>",
+      "css": ".ds-ball--selected { background-color: #ff3366; color: #ffffff; border: 2px solid #ff3366; } .ds-ball--selected:hover { background-color: #ff5588; border-color: #ff5588; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Trading Terminal",
+    "overview": "The Cockpit is an instrument panel for a professional operator making a real decision, not a consumer dashboard. Every surface is flat, dense, and monospaced — Bloomberg-terminal energy applied to lottery draw data: statistical regimes, filter passes, wheeling coverage, and backtested win rates rendered as high-contrast data on obsidian black. Nothing here is decorative; a color or a glow exists to carry a specific piece of state (primary action, dim/inactive, success, warning, error), never to soften the tool into something friendlier than it is.\n\nThe canonical theme, Forensic Neon, is Matrix Green text and primary actions on true black, with Astro Violet held in reserve as the system's one deliberate second voice. The Cockpit ships four sibling themes that recolor the same structural tokens without changing layout, radius, spacing, or component structure.\n\nThis is explicitly not a generic admin/CRUD dashboard. There is no card-grid-with-shadows softness, no rounded-pill nav, no pastel status chips. Density and monospace type are load-bearing to the identity, not an unstyled default.",
+    "keyCharacteristics": [
+      "Flat, bordered panels on true black — zero shadows, zero gradients.",
+      "One typeface everywhere (JetBrains Mono stack); hierarchy comes from weight, size, and case.",
+      "Matrix Green carries both body text and primary actions; Astro Violet is the only other accent, reserved for section titles.",
+      "Outlined (\"ghost\") controls at rest that invert to a solid fill on hover — restrained by default, precise and legible before interaction.",
+      "A circular number-ball grid (the signature component) as the one place the interface gets tactile."
+    ],
+    "rules": [
+      { "name": "The Single-Channel Rule", "body": "Matrix Green carries both running text and primary actions — the interface reads as one continuous signal. Astro Violet is switched on only for section/group titles; introducing it anywhere else dilutes the one contrast it's meant to provide.", "section": "colors" },
+      { "name": "The All-Monospace Rule", "body": "Every text role uses the JetBrains Mono stack. A second typeface anywhere in the Cockpit is a defect, not a variation.", "section": "typography" },
+      { "name": "The No-Shadow Rule", "body": "Depth is never simulated with box-shadow or glow blur. A panel separates from its background with a 1px border and a tonal step, full stop.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do keep every surface flat — no box-shadow, no gradients. Separate panels with a 1px Lead Grey border and a tonal step (Obsidian Black → Panel Black → Tab Charcoal), never elevation.",
+      "Do use uppercase, bold labels for every interactive control (buttons, tab names, group-box titles) — it is the system's primary hierarchy device beyond size.",
+      "Do route new or refactored component colors through ThemeManager's token dict so components repaint correctly across all 5 themes.",
+      "Do reserve Astro Violet for group/section titles only — it is the one deliberate second color against the dominant Matrix Green.",
+      "Do prefix data-fetching, data-mutating, or destructive actions (fetch, import/export, save, delete, generate, verification runs) with a single leading emoji glyph on an uppercase label — established on Database, Wheeling, Verification, and the pool-builder toolbar. Keep toggles, list navigation, and some primary CTAs plain-text; it is not a universal rule."
+    ],
+    "donts": [
+      "Don't add drop shadows, glow-as-blur, or soft elevation of any kind — this system has none, anywhere, by design.",
+      "Don't introduce a second typeface. Every text role uses the JetBrains Mono stack.",
+      "Don't hardcode component colors independent of the active theme. The number-ball grid and several stat/status labels currently do this as a known, flagged inconsistency, and it has produced unregistered one-off near-duplicates (#ffb300, #ff3b30, #b15dff, filters.py's #1A1A1C/#333338) — not a pattern to extend.",
+      "Don't style this as a generic Bootstrap/Material admin dashboard. Density, monospace type, and flat bordered panels are load-bearing to the Trading Terminal identity, not an unstyled default."
+    ]
+  }
+}
