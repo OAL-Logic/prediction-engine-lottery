@@ -1738,6 +1738,14 @@ def filter_funnel(
     from engine.cli.commands.filter_funnel import filter_funnel as impl
     return impl(lottery, pool, filters, list_filters, tier)
 
+@app.command(name="filter-assistant", rich_help_panel=PANEL_VERIFY)
+def filter_assistant(
+    lottery: Annotated[str, typer.Argument(help="Lottery name [Required]")],
+):
+    """🧙‍♂️ Guided, tier-by-tier filter picker ending in an elimination-funnel report."""
+    from engine.cli.commands.filter_assistant import filter_assistant as impl
+    return impl(lottery)
+
 @app.command(name="batch-grade", rich_help_panel=PANEL_VERIFY)
 def batch_grade(
     lottery: Annotated[str, typer.Argument(help="Lottery name [Required]")],
