@@ -1382,6 +1382,19 @@ def audit_data(
     return impl(lottery)
 
 @app.command(rich_help_panel=PANEL_SYSTEM)
+def record(
+    lottery: Annotated[str, typer.Argument(help="Lottery name [Required]")],
+    draw_id: Annotated[int, typer.Option("--draw-id", help="Sequential draw number (contest/concurso id)")],
+    date: Annotated[str, typer.Option("--date", help="Draw date, ISO format (YYYY-MM-DD)")],
+    numbers: Annotated[str, typer.Option("--numbers", help="Comma-separated main numbers, e.g. 3,7,12,24,31,45")],
+    bonus: Annotated[str, typer.Option("--bonus", help="Comma-separated bonus/powerball numbers")] = "",
+    dry_run: Annotated[bool, typer.Option("--dry-run", help="Validate and preview only — do not write to storage")] = False,
+):
+    """📝 Manually record or correct a single historical draw result."""
+    from engine.cli.commands.record import record as impl
+    return impl(lottery, draw_id, date, numbers, bonus, dry_run)
+
+@app.command(rich_help_panel=PANEL_SYSTEM)
 def export(
     lottery: Annotated[str, typer.Argument(help="Lottery name")],
     format:  Annotated[str, typer.Option("--format", "-f", help="json | csv")] = "json",
