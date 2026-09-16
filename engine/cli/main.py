@@ -660,6 +660,16 @@ def twin_draws(
     from engine.cli.commands.twin_draws import twin_draws as impl
     return impl(lottery, top, limit)
 
+@app.command(name="combo-diff", rich_help_panel=PANEL_ANALYTICS)
+def combo_diff(
+    lottery: Annotated[str, typer.Argument(help="Lottery name [Required]")],
+    a: Annotated[str, typer.Option("--a", help="First ticket, comma-separated numbers")],
+    b: Annotated[str, typer.Option("--b", help="Second ticket, comma-separated numbers")],
+):
+    """🆚 Structural side-by-side comparison of two tickets."""
+    from engine.cli.commands.combo_diff import combo_diff as impl
+    return impl(lottery, a, b)
+
 @app.command(name="draw-summary", rich_help_panel=PANEL_ANALYTICS)
 def draw_summary(
     lottery: Annotated[str, typer.Argument(help="Lottery name [Required]")],
