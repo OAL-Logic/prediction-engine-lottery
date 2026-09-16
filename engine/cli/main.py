@@ -650,6 +650,18 @@ def pattern_search(
     from engine.cli.commands.pattern_search import pattern_search as impl
     return impl(lottery, numbers, top, min_overlap)
 
+@app.command(name="pair-trend", rich_help_panel=PANEL_ANALYTICS)
+def pair_trend(
+    lottery: Annotated[str, typer.Argument(help="Lottery name [Required]")],
+    a: Annotated[int, typer.Argument(help="First number")],
+    b: Annotated[int, typer.Argument(help="Second number")],
+    window: Annotated[int, typer.Option("--window", "-w", help="Draws per rolling window")] = 100,
+    step: Annotated[int, typer.Option("--step", "-s", help="Draws to advance between windows")] = 20,
+):
+    """📈 Track how a number pair's co-occurrence rate has trended over rolling windows."""
+    from engine.cli.commands.pair_trend import pair_trend as impl
+    return impl(lottery, a, b, window, step)
+
 @app.command(name="twin-draws", rich_help_panel=PANEL_ANALYTICS)
 def twin_draws(
     lottery: Annotated[str, typer.Argument(help="Lottery name [Required]")],
