@@ -1314,6 +1314,44 @@ def watchlist_run(
 
 app.add_typer(watchlist_app, name="watchlist", rich_help_panel=PANEL_MONITOR)
 
+profile_app = typer.Typer(name="profile", help="💾 Save and replay named command presets.", rich_help_panel=PANEL_SYSTEM)
+
+@profile_app.command(name="save")
+def profile_save(
+    name: Annotated[str, typer.Argument(help="Profile name")],
+    command: Annotated[str, typer.Option("--command", "-c", help='Full command to save, e.g. "suggest br/mega-sena --strategy weighted --count 3"')],
+    description: Annotated[str, typer.Option("--description", "-d", help="Optional note")] = "",
+):
+    """Save a named command preset."""
+    from engine.cli.commands.profile import save as impl
+    return impl(name, command, description)
+
+@profile_app.command(name="list")
+def profile_list():
+    """List all saved profiles."""
+    from engine.cli.commands.profile import list_cmd as impl
+    return impl()
+
+@profile_app.command(name="show")
+def profile_show(name: Annotated[str, typer.Argument(help="Profile name")]):
+    """Show a saved profile's command."""
+    from engine.cli.commands.profile import show as impl
+    return impl(name)
+
+@profile_app.command(name="delete")
+def profile_delete(name: Annotated[str, typer.Argument(help="Profile name")]):
+    """Delete a saved profile."""
+    from engine.cli.commands.profile import delete as impl
+    return impl(name)
+
+@profile_app.command(name="run")
+def profile_run(name: Annotated[str, typer.Argument(help="Profile name")]):
+    """Run a saved profile."""
+    from engine.cli.commands.profile import run as impl
+    return impl(name)
+
+app.add_typer(profile_app, name="profile", rich_help_panel=PANEL_SYSTEM)
+
 @app.command(rich_help_panel=PANEL_MONITOR)
 def hitcheck(
     lottery: Annotated[str, typer.Argument(help="Lottery name [Required]")],
