@@ -1490,6 +1490,14 @@ def audit_data(
     from engine.cli.commands.management import audit_data as impl
     return impl(lottery)
 
+@app.command(name="storage-consistency", rich_help_panel=PANEL_SYSTEM)
+def storage_consistency(
+    lottery: Annotated[str, typer.Argument(help="Lottery name [Required]")],
+):
+    """🗄️🔍 Cross-check DuckDB against the JSON partition files for one lottery."""
+    from engine.cli.commands.storage_consistency import storage_consistency as impl
+    return impl(lottery)
+
 @app.command(rich_help_panel=PANEL_SYSTEM)
 def record(
     lottery: Annotated[str, typer.Argument(help="Lottery name [Required]")],
