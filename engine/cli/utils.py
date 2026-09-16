@@ -80,6 +80,8 @@ ADAPTER_MAP = {
     "mais_milionaria": "engine.adapters.br.mais_milionaria.MaisMilionariaAdapter",
     "lotomania": "engine.adapters.br.lotomania.LotomaniaAdapter",
     "powerball": "engine.adapters.us.powerball.PowerballAdapter",
+    "mega_millions": "engine.adapters.us.mega_millions.MegaMillionsAdapter",
+    "euro_millions": "engine.adapters.eu.euro_millions.EuroMillionsAdapter",
 }
 
 # --- Caching Primitives 🗄️ ---

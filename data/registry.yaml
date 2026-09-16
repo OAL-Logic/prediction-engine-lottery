@@ -61,7 +61,6 @@
   data_available: true
   board_cols: 10
 
-# Placeholder for expansion (Sprint 2.4)
 - id: us/mega-millions
   name: Mega Millions
   pick_count: 5
@@ -70,10 +69,13 @@
   bonus_pool: 25
   ticket_price: 2.0
   currency: USD
+  draw_days: [Tuesday, Friday]
   draw_city: "Atlanta"
   draw_lat: 33.7490
   draw_lon: -84.3880
-  data_available: false
+  adapter: mega_millions
+  data_available: true
+  board_cols: 10
 
 - id: eu/euro-millions
   name: EuroMillions
@@ -83,10 +85,13 @@
   bonus_pool: 12
   ticket_price: 2.5
   currency: EUR
+  draw_days: [Tuesday, Friday]
   draw_city: "Paris"
   draw_lat: 48.8566
   draw_lon: 2.3522
-  data_available: false
+  adapter: euro_millions
+  data_available: true
+  board_cols: 10
 
 - id: br/quina
   name: Quina
