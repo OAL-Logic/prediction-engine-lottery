@@ -73,6 +73,12 @@
       "skillPath": "scientific-skills/bioservices/SKILL.md",
       "computedHash": "6b94cac7930574bca19be94f4b457d5542a6b1411c5417605b819718b975a144"
     },
+    "brag": {
+      "source": "latent-spaces/brag",
+      "sourceType": "github",
+      "skillPath": "skills/brag/SKILL.md",
+      "computedHash": "bfa006908e7389adc592000980b99638f4db108286679ccd454a2d378709790b"
+    },
     "cellxgene-census": {
       "source": "K-Dense-AI/scientific-agent-skills",
       "sourceType": "github",
@@ -690,6 +696,19 @@
       "sourceType": "github",
       "skillPath": "scientific-skills/pyopenms/SKILL.md",
       "computedHash": "cf791626e9896ace6aed7f9a25ed21071349fad7af8c172f6e12ae513341f945"
+    },
+    "pyqt": {
+      "source": "CodeAtCode/oss-ai-skills",
+      "ref": "master",
+      "sourceType": "github",
+      "skillPath": "frameworks/pyqt/SKILL.md",
+      "computedHash": "2c9b5056cf5c5c6cad52974fc7d6d39b082cf34fafa9ed36149aa6749db87086"
+    },
+    "pyqt6-ui-designer": {
+      "source": "aminechraibi/pyqt6-ui-designer",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "8596712a57c4729d5f03e315aa8977f7a63052c1015975779376b5cca2e1836e"
     },
     "pysam": {
       "source": "K-Dense-AI/scientific-agent-skills",
