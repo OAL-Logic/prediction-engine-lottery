@@ -319,6 +319,11 @@ The engine supports a vast library of analytical and esoteric strategies. You ca
 - **`prob_weighted`**: Precision-weighted adaptive ensemble.
 - **`hybrid`**: Two-stage statistical-structural filter.
 - **`stacking`**: Meta-learner strategy blending.
+- **`gnn`**: Graph Convolutional Network — spatial propagation over the number-adjacency grid.
+
+### Foundation Tier (Zero-Shot)
+- **`timesfm`**: Google TimesFM 2.5 zero-shot forecast over each number's binary hit-indicator series — no per-game training. `pip install 'lottery-engine[foundation]'`.
+- **`tabfm`**: TabPFN zero-shot in-context tabular classification over engineered per-number features (gap, rolling frequency, historical mean gap, parity, pool position). Same optional install as `timesfm`.
 
 ---
 

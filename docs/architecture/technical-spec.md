@@ -212,4 +212,8 @@ The engine supports a "Bring Your Own Data" (BYOD) security model for personaliz
 | **`pattern`**         | Structural distribution analysis  | Section 14          |
 | **`momentum`**        | Regime-based trend tracking       | Section 11          |
 | **`refraction`**      | Atmospheric physics               | Section 2           |
+| **`stefan_mandel`**   | Combinatorial cost-arbitrage condensation | Section 4    |
+| **`gnn`**             | Graph Convolutional Network (grid-spatial propagation) | Section 13 |
+| **`timesfm`**         | Zero-shot foundation-model forecast (Google TimesFM 2.5), per-number hit-indicator series | Section 13 |
+| **`tabfm`**           | Zero-shot tabular foundation-model classification (TabPFN) over engineered per-number features | Section 13 |
 

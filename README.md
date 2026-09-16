@@ -73,6 +73,7 @@ git clone <repo-url> && cd lottery-engine
 | 📈 **Statistical** | 38 | `weighted`, `bayesian`, `markov`, `monte_carlo`, `spectral`, `fourier_forecast`, `nash_equilibrium`, `graph_influence`, `hurst_memory` |
 | 🤖 **ML** | 14 | `random_forest`, `gradient_boost`, `ml_regressor` (XGB/LGBM/CAT), `stacking_ai`, `ensemble_pro`, `synapse` |
 | 🧠 **Deep** | 5 | `transformer`, `lstm`, `lstm_crf`, `cnn_1d`, `gru` |
+| 🔭 **Foundation** | 2 | `timesfm` (zero-shot time-series via TimesFM 2.5), `tabfm` (zero-shot tabular classification via TabPFN) — both `pip install 'lottery-engine[foundation]'` |
 | ✨ **Fun / Chaos** | 27+ | `sacred_manifold`, `kabbalistic`, `ley_lines`, `vix_jitter`, `tda_topology`, `ising_model`, `zeno_quantum`, `lyapunov_chaos` |
 
 ### Ensemble Support
@@ -161,6 +162,7 @@ git clone <repo-url> && cd lottery-engine
 | `calibrate` | Empirical out-of-sample calibration |
 | `tune` | Grid search optimization |
 | `prune` | Strategy pruning audit |
+| `select-strategies` | Build a per-game active roster from empirical lift (consume via `forecast`/`rank-numbers --strategies roster`) |
 | `optimize` | Strategy × params grid search |
 | `audit-data` | Data integrity validator |
 | `games` | List registered lotteries |
@@ -248,8 +250,8 @@ Interactive docs at `http://localhost:8000/docs` (Swagger UI).
 | Structural Filters | 30+ |
 | Test Files | 41 |
 | API Endpoints | 17 |
-| Supported Lotteries | 150+ (registry) |
-| Strategy Tiers | 4 (Statistical, ML, Deep, Fun) |
+| Supported Lotteries | 10 with live adapters (`lottery games`); registry designed for many more |
+| Strategy Tiers | 5 (Statistical, ML, Deep, Foundation, Fun) |
 
 ---
 
