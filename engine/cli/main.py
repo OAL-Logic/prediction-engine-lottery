@@ -1720,6 +1720,15 @@ def batch_grade(
     from engine.cli.commands.batch_grade import batch_grade as impl
     return impl(lottery, file, export_csv)
 
+@app.command(name="ticket-backtest", rich_help_panel=PANEL_VERIFY)
+def ticket_backtest(
+    lottery: Annotated[str, typer.Argument(help="Lottery name [Required]")],
+    numbers: Annotated[str, typer.Argument(help="Comma-separated ticket numbers")],
+):
+    """⏮️ Replay one fixed ticket against every historical draw and tally prize-tier hits."""
+    from engine.cli.commands.ticket_backtest import ticket_backtest as impl
+    return impl(lottery, numbers)
+
 @app.command(name="property-tests", rich_help_panel=PANEL_VERIFY)
 def property_tests(
     strategy: Annotated[str, typer.Option("--strategy", "-s", help="Strategy to test (or 'all')")] = "all",
