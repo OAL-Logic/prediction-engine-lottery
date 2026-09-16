@@ -1510,6 +1510,14 @@ def storage_consistency(
     from engine.cli.commands.storage_consistency import storage_consistency as impl
     return impl(lottery)
 
+@app.command(name="data-status", rich_help_panel=PANEL_SYSTEM)
+def data_status(
+    all_games: Annotated[bool, typer.Option("--all", help="Include games with no data adapter yet")] = False,
+):
+    """📡📋 Cached-data freshness overview across every registered game."""
+    from engine.cli.commands.data_status import data_status as impl
+    return impl(all_games)
+
 @app.command(rich_help_panel=PANEL_SYSTEM)
 def record(
     lottery: Annotated[str, typer.Argument(help="Lottery name [Required]")],
