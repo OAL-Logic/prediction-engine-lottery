@@ -674,6 +674,18 @@ def pair_graph_export(
     from engine.cli.commands.pair_graph_export import pair_graph_export as impl
     return impl(lottery, draws, min_count, format, output)
 
+@app.command(name="number-clique", rich_help_panel=PANEL_ANALYTICS)
+def number_clique(
+    lottery: Annotated[str, typer.Argument(help="Lottery name [Required]")],
+    k: Annotated[int, typer.Option("--k", help="Clique size (group of k mutually co-occurring numbers)")] = 3,
+    min_pair_count: Annotated[int, typer.Option("--min-pair-count", help="Minimum co-occurrence count required for every pair in the group")] = 5,
+    draws: Annotated[Optional[int], typer.Option("--draws", "-n", help="Use only the N most recent draws (default: all)")] = None,
+    max_results: Annotated[int, typer.Option("--max-results", help="How many cliques to show")] = 15,
+):
+    """🔗🕸️ Find groups of k numbers that ALL mutually co-occur at least --min-pair-count times."""
+    from engine.cli.commands.number_clique import number_clique as impl
+    return impl(lottery, k, min_pair_count, draws, max_results)
+
 @app.command(name="twin-draws", rich_help_panel=PANEL_ANALYTICS)
 def twin_draws(
     lottery: Annotated[str, typer.Argument(help="Lottery name [Required]")],
