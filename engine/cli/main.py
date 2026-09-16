@@ -686,6 +686,16 @@ def number_clique(
     from engine.cli.commands.number_clique import number_clique as impl
     return impl(lottery, k, min_pair_count, draws, max_results)
 
+@app.command(name="random-baseline", rich_help_panel=PANEL_ANALYTICS)
+def random_baseline(
+    lottery: Annotated[str, typer.Argument(help="Lottery name [Required]")],
+    count: Annotated[int, typer.Option("--count", "-n", help="How many random tickets to generate")] = 2000,
+    seed: Annotated[Optional[int], typer.Option("--seed", help="RNG seed for a reproducible baseline")] = None,
+):
+    """🎲📏 Empirical structural baseline from pure-random tickets — no strategy involved."""
+    from engine.cli.commands.random_baseline import random_baseline as impl
+    return impl(lottery, count, seed)
+
 @app.command(name="twin-draws", rich_help_panel=PANEL_ANALYTICS)
 def twin_draws(
     lottery: Annotated[str, typer.Argument(help="Lottery name [Required]")],
