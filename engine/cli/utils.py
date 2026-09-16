@@ -25,22 +25,39 @@ if TYPE_CHECKING:
 
 from engine.adapters.registry import registry
 
+_PERSONAL_CONFIG_KEYS = ("full_name", "birth_date")
+
+
 def load_local_config() -> dict[str, Any]:
     """
     Search for personal.local.yaml or any *.local.yaml in the project root
-    and return a merged dictionary of their contents.
-    Used to inject private data (name, birth_date) into strategies.
+    and return a merged dict of their `full_name` / `birth_date` fields —
+    the personal-numerology inputs consumed by strategies like `numerology`,
+    `kabbalistic`, `gematria`, `biorhythm`, and `esoteric_statistical`.
+
+    Only these known keys are extracted (not the whole file) because the
+    `*.local.yaml` naming convention is also used in this repo for unrelated
+    "don't commit this" files — e.g. `report`-pipeline templates with their
+    own top-level `name`/`steps` keys. Merging those wholesale used to leak
+    arbitrary keys into `get_strategy(name, **personal_data)` call sites
+    (`forecast`, `suggest`, ...); a `name` key from such a file would collide
+    with `get_strategy`'s own `name` parameter and raise
+    `TypeError: get_strategy() got multiple values for argument 'name'` for
+    every strategy, silently swallowed by callers' broad `except Exception`
+    guards. Extracting only the two keys this function actually documents
+    fixes that without needing to special-case any particular filename.
     """
     import yaml
-    config = {}
-    # Look for files matching *.local.yaml or .local.yml
+    config: dict[str, Any] = {}
     local_files = sorted(list(Path(".").glob("*.local.y*ml")))
     for file_path in local_files:
         try:
             with open(file_path, "r") as f:
                 data = yaml.safe_load(f)
                 if isinstance(data, dict):
-                    config.update(data)
+                    for key in _PERSONAL_CONFIG_KEYS:
+                        if key in data:
+                            config[key] = data[key]
         except Exception as e:
             import logging
             logging.warning(f"Failed to load local config {file_path}: {e}")
@@ -176,7 +193,7 @@ def get_adapter(lottery_id: str):  # type: ignore[return]
         "lotomania": "engine.adapters.br.lotomania.LotomaniaAdapter",
         "powerball": "engine.adapters.us.powerball.PowerballAdapter",
     }
-    
+
     path = adapter_map.get(game.adapter, game.adapter)
     if not path or "." not in path:
         rprint(f"[red]Error: Adapter path for '{lottery_id}' is invalid: {path}[/red]")
