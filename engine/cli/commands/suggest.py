@@ -679,7 +679,6 @@ def _print_single_result(result, label, rules, df, top_scored, strat_obj, explai
     if explain:
         _print_explain_panel(result, rules, df)
         if "placidus_wheel" in result.metadata:
-            from rich.panel import Panel
             console.print(Panel(
                 result.metadata["placidus_wheel"].strip("\n"),
                 title="🪐 Astrological House Wheel (Placidus)",
