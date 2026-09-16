@@ -34,10 +34,15 @@ See the full [Product Requirement Document (PRD)](decisions/samlotto-qt-interfac
 - [#104 Interactive skips chart](tickets/104-interactive-skips-chart.md) — Matplotlib (`FigureCanvasQTAgg`) kept as the single plotting library (zero new dependency, only one with a native heatmap); drill-down flows through a new `SkipsJob(QThread)` into a table+chart `SkipsInspectorPanel`.
 - [#105 Filter setup panel](tickets/105-filter-setup-panel.md) — Implemented tabbed Setup Dock (FiltersTab) with inline range sliders, advanced filters add/remove panels, logical N-of-M condition checks, auto-calculating limits, and background pruning execution.
 - [#106 Prediction verification GUI](tickets/106-prediction-verification-gui.md) — Implemented. SamLotto's fixed Formula-1..6 picker adapted to this engine's registry as a live Formula (STRATEGY_PRESETS family) -> Algorithm (specific strategy) drill-down in `PredictionTab`, plus Offset/Depth controls (`ForecastJob.offset`). "Push to Pool" is a real `numbers_recommended` Qt signal wired to `NumberGrid.select_numbers()`. `VerificationTab` gained a second "Formula Leaderboard" sub-tab (existing single-ticket auditor kept as-is) backed by a new `FormulaVerificationJob` — a thin QThread wrapper around the already-existing `engine.services.backtest.run_backtest()`, so no backtest logic was reimplemented. Drawings Trend manual predictor (E5) was not built — still fog, see below.
+- [#107 High-density statistics tabs](tickets/107-high-density-statistics-tabs.md) — Implemented. `AnalysisTab` grew from 4 to 11 views (Odd/Even & High/Low Balance, AC Distribution, Root Sum, Decade Distribution, Consecutive Groups, Prime & Composite Balance, Unit Digit Analysis added), all reusing `engine.modules.filters` helpers rather than reimplementing metric math. Found and fixed a pre-existing `KeyError` bug in `harmony.py`'s `successive_2`/`_3`/`_4` filters along the way.
+- **Online database updater (A11)** — already implemented prior to this map being last edited (`DatabaseTab.sync_online_draws()` / `FetchWorker` in `desktop/src/tabs/database.py`, wired to each adapter's `.fetch()`). Documenting here since the "Not yet specified" section below still listed it as fog; removing that entry.
+- [#108 Ticket Store WRG reduction and real printing](tickets/108-ticket-store-wrg-reduction-and-print.md) — Implemented. `WheelingEngine.reduce_tickets()` (existed, zero callers) wired up as `TicketStoreReductionJob`, exposed via a Ticket Store toolbar button and context-menu action with a combinatorial-universe safety guard. `print_tickets()`'s fake "queued to spooler" stub replaced with a real `QPrinter`/`QPrintDialog`/`QTextDocument` flow.
+- [#109 Drawings Trend manual predictor (E5)](tickets/109-drawings-trend-manual-checker.md) — Implemented. `AnalysisTab` gained a manual number-checker panel (reusing the existing `NumberGrid` widget as-is) below its chart/table, with its own `numbers_recommended` signal wired to the same `handle_push_to_pool()` slot `PredictionTab` uses — deliberately not tied to any view's computed data, since the point is a manual, opinion-driven pick distinct from #106's algorithmic predictor.
+- [#110 Custom export formats](tickets/110-ticket-store-csv-export.md) — Implemented. `export_tickets()` gained a CSV filter (stdlib `csv` module, `Index,Numbers,Score` with header) alongside the existing `.txt` export.
 
 ## Tickets (frontier)
 
-None open — #105 and #106 are closed.
+None open — #105-#110 are closed.
 
 ## Tickets (blocked)
 
@@ -45,13 +50,7 @@ None open — #105 and #106 are closed.
 
 ## Not yet specified
 
-Fog that is in scope but not sharp enough to ticket yet:
-
-- **Optimization and wheeling port**: Mapping the abbreviated wheels and ticket store reduction optimization algorithms (F10-F12) to the GUI ticket store menu actions.
-- **Online database updater**: Interfacing the GUI drawings update window (A11) with the engine's scraping and fetch adapters.
-- **High-density statistics tabs**: Deciding how to present the 11+ statistics sheets (AC, Low-High, Sums, etc.) cleanly inside the tabbed stats workspace without overwhelming the screen.
-- **Export & Print formatting**: Designing print layouts for tickets (S40) and custom export formatting options.
-- **Drawings Trend manual predictor (E5)**: #106 shipped the Formula/Algorithm predictor and the Verification leaderboard but not this — a manual visual-frequency-chart number checker inside the stats tabs. Needs its own ticket.
+No open fog — #101-#110 closed every item this map had queued. New gaps get a fresh ticket when they surface.
 
 ## Out of scope
 
