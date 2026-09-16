@@ -66,6 +66,22 @@ def load_local_config() -> dict[str, Any]:
 console = Console()
 DATA_DIR = Path(__file__).parent.parent.parent / "data"
 
+# Adapter short-name (registry.yaml's `adapter:` field) -> fully-qualified class path.
+# Module-level (rather than local to get_adapter()) so it can be cross-checked against
+# data/registry.yaml directly — see tests/test_adapters_registry_consistency.py, added
+# after dupla_sena/dia_de_sorte/lotomania sat here fully wired but missing from the
+# registry, making them unreachable from the CLI despite being fully implemented.
+ADAPTER_MAP = {
+    "mega_sena": "engine.adapters.br.mega_sena.MegaSenaAdapter",
+    "lotofacil": "engine.adapters.br.lotofacil.LotofacilAdapter",
+    "quina": "engine.adapters.br.quina.QuinaAdapter",
+    "dupla_sena": "engine.adapters.br.dupla_sena.DuplaSenaAdapter",
+    "dia_de_sorte": "engine.adapters.br.dia_de_sorte.DiaDeSorteAdapter",
+    "mais_milionaria": "engine.adapters.br.mais_milionaria.MaisMilionariaAdapter",
+    "lotomania": "engine.adapters.br.lotomania.LotomaniaAdapter",
+    "powerball": "engine.adapters.us.powerball.PowerballAdapter",
+}
+
 # --- Caching Primitives 🗄️ ---
 
 def get_cached_data(cache_name: str, fetch_func: Callable[[], Any], ttl: int = 3600) -> Any:
@@ -183,18 +199,7 @@ def get_adapter(lottery_id: str):  # type: ignore[return]
         raise typer.Exit(1)
 
     # Resolve adapter class path
-    adapter_map = {
-        "mega_sena": "engine.adapters.br.mega_sena.MegaSenaAdapter",
-        "lotofacil": "engine.adapters.br.lotofacil.LotofacilAdapter",
-        "quina": "engine.adapters.br.quina.QuinaAdapter",
-        "dupla_sena": "engine.adapters.br.dupla_sena.DuplaSenaAdapter",
-        "dia_de_sorte": "engine.adapters.br.dia_de_sorte.DiaDeSorteAdapter",
-        "mais_milionaria": "engine.adapters.br.mais_milionaria.MaisMilionariaAdapter",
-        "lotomania": "engine.adapters.br.lotomania.LotomaniaAdapter",
-        "powerball": "engine.adapters.us.powerball.PowerballAdapter",
-    }
-
-    path = adapter_map.get(game.adapter, game.adapter)
+    path = ADAPTER_MAP.get(game.adapter, game.adapter)
     if not path or "." not in path:
         rprint(f"[red]Error: Adapter path for '{lottery_id}' is invalid: {path}[/red]")
         raise typer.Exit(1)

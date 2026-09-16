@@ -33,12 +33,13 @@ class GameDefinition:
     adapter: Optional[str] = None
     data_available: bool = False
     board_cols: int = 10
+    number_range_min: int = 1  # lowest drawable number; 0 for zero-indexed pools (e.g. Lotomania's 00-99)
 
     def to_rules(self) -> DrawRules:
         return DrawRules(
             name=self.name,
             pick_count=self.pick_count,
-            number_range=(1, self.pool_size),
+            number_range=(self.number_range_min, self.number_range_min + self.pool_size - 1),
             bonus_count=self.bonus_count,
             bonus_range=(1, self.bonus_pool) if self.bonus_pool else None,
             ticket_price=self.ticket_price,
