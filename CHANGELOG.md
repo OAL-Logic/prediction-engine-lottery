@@ -6,6 +6,27 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [11.3.0] - 2026-09-15
+
+### Added
+**24 new capabilities**, closing gaps against the SamLotto feature catalog (`detailed_features.md`) and general engine QoL. Each shipped as its own commit:
+
+- **Deterministic seeding** — `--weather-seed` on `genetic-wheel`/`suggest` derives a reproducible RNG seed from real weather/lunar/solar data instead of OS entropy; `seed-audit` previews it for any date without running a full generation.
+- **Historical lookup** — `record` (manual draw entry/correction — the "DrawingsUpdate" equivalent), `pattern-search` (nsSearch-style historical overlap ranking), `twin-draws` (most-similar historical draw pairs), `draw-anniversary` (on-this-day-in-history lookup), `number-lifecycle` (per-number historical dossier), `ticket-backtest` (replay one fixed ticket across all history), `pair-trend` (rolling co-occurrence trend), `number-clique` (mutually co-occurring groups of k numbers, not just pairs).
+- **Filter tooling** — `filter-funnel` (elimination-tracking report; the first real consumer of the previously-unused 100+ filter registry), `filter-assistant` (guided tier-by-tier filter picker — the "Assistant Filter" wizard equivalent), `--list-filters` catalog browser.
+- **Tickets & data** — `combo-diff` (structural ticket comparison), `batch-grade` (bulk structural screening from a file), `random-baseline` (empirical structural control group from pure-random tickets).
+- **Data integrity & ops** — `storage-consistency` (DuckDB vs JSON partition cross-check), `data-status` (cached-data freshness across every registered game), `config-check` (environment/setup health check), `pair-graph-export` (GraphML/DOT co-occurrence network export).
+- **Workflow** — `profile` (save/list/show/delete/run named CLI presets), `calendar-export` (.ics upcoming-draw export).
+- **Desktop (PySide6)** — Quick Calculator (combinatorics/bet-cost popup — the "PopupCalculator" equivalent), Pattern Search dialog, Number Dossier dialog.
+
+### Fixed
+- `--weather-seed` was not actually reproducible for same-day repeated calls: `fetch_weather`/`fetch_seismic_mag`/`fetch_solar_kp` each hit their live upstream API uncached on every call, so two runs made minutes apart on the same day could land on different readings and silently produce different seeds. Each is now cached for the rest of the calendar day.
+
+### Changed
+- **pyproject.toml** / **FastAPI sidecar** — version bumped to 11.3.0.
+
+---
+
 ## [11.2.0] - 2026-05-29
 
 ### Added

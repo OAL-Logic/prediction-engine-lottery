@@ -29,7 +29,7 @@ from starlette.responses import JSONResponse
 app = FastAPI(
     title="Prediction Engine Sidecar",
     description="REST API for lottery analysis and ticket suggestion.",
-    version="11.2.0"
+    version="11.3.0"
 )
 
 _APP_START_TIME = time.time()
@@ -394,7 +394,7 @@ async def health_check():
 
     return HealthResponse(
         status="healthy",
-        version="11.2.0",
+        version="11.3.0",
         uptime_seconds=round(time.time() - _APP_START_TIME, 2),
         registered_games=len(reg.list_games()),
         registered_strategies=strategy_count

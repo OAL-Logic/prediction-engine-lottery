@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "lottery-engine"
-version = "11.2.0"
+version = "11.3.0"
 description = "High-performance lottery prediction engine — 100+ CLI commands, 80+ strategies, FastAPI sidecar, Go gateway"
 readme = "README.md"
 requires-python = ">=3.11"
