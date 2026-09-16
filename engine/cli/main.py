@@ -1352,6 +1352,16 @@ def profile_run(name: Annotated[str, typer.Argument(help="Profile name")]):
 
 app.add_typer(profile_app, name="profile", rich_help_panel=PANEL_SYSTEM)
 
+@app.command(name="calendar-export", rich_help_panel=PANEL_MONITOR)
+def calendar_export(
+    lottery: Annotated[str, typer.Argument(help="Lottery name [Required]")],
+    count: Annotated[int, typer.Option("--count", "-n", help="How many upcoming draws to export")] = 8,
+    output: Annotated[Optional[str], typer.Option("--output", "-o", help="Write to this .ics file instead of printing")] = None,
+):
+    """🗓️ Export the next N draw dates as a standard .ics calendar file."""
+    from engine.cli.commands.calendar_export import calendar_export as impl
+    return impl(lottery, count, output)
+
 @app.command(rich_help_panel=PANEL_MONITOR)
 def hitcheck(
     lottery: Annotated[str, typer.Argument(help="Lottery name [Required]")],
