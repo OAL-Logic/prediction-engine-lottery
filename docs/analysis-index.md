@@ -11,3 +11,4 @@
 | 2026-05-18 16:59:04 | +Milionária | [[maismilionaria_personalized.md]] |
 | 2026-05-18 16:59:19 | Lotomania | [[lotomania_personalized.md]] |
 | 2026-09-15 20:19:16 | Lotofácil | [[suggestion_concurso_3780.md]] |
+| 2026-09-15 | Lotofácil | [[relatorio_final_concurso_3780.md]] |
