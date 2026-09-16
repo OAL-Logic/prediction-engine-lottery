@@ -2,12 +2,13 @@ import pytest
 import asyncio
 import json
 import websockets
-from PySide6.QtCore import QCoreApplication
+from PySide6.QtWidgets import QApplication
 from desktop.src.telemetry.client import TelemetryClient
 
 @pytest.fixture
 def app(qtbot):
-    return QCoreApplication.instance() or QCoreApplication([])
+    # Must be QApplication — see test_desktop_gateway.py's fixture comment.
+    return QApplication.instance() or QApplication([])
 
 async def mock_ws_server(stop_event):
     async def handler(websocket):

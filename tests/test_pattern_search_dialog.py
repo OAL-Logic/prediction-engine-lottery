@@ -1,6 +1,6 @@
 import pandas as pd
 import pytest
-from PySide6.QtCore import QCoreApplication
+from PySide6.QtWidgets import QApplication
 
 from desktop.src.widgets.pattern_search_dialog import rank_by_overlap, PatternSearchDialog
 
@@ -24,7 +24,8 @@ def test_rank_by_overlap_respects_min_overlap():
 
 @pytest.fixture
 def app():
-    return QCoreApplication.instance() or QCoreApplication([])
+    # Must be QApplication — see test_desktop_gateway.py's fixture comment.
+    return QApplication.instance() or QApplication([])
 
 
 def test_dialog_constructs(app, qtbot):

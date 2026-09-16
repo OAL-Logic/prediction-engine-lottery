@@ -1,12 +1,13 @@
 import pytest
-from PySide6.QtCore import QCoreApplication
+from PySide6.QtWidgets import QApplication
 
 from desktop.src.widgets.number_dossier_dialog import NumberDossierDialog
 
 
 @pytest.fixture
 def app():
-    return QCoreApplication.instance() or QCoreApplication([])
+    # Must be QApplication — see test_desktop_gateway.py's fixture comment.
+    return QApplication.instance() or QApplication([])
 
 
 def test_dialog_constructs_with_correct_range(app, qtbot):

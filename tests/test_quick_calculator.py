@@ -1,5 +1,5 @@
 import pytest
-from PySide6.QtCore import QCoreApplication
+from PySide6.QtWidgets import QApplication
 
 from desktop.src.widgets.quick_calculator import combination_cost, QuickCalculatorDialog
 
@@ -25,7 +25,8 @@ def test_combination_cost_zero_price_zero_cost():
 
 @pytest.fixture
 def app():
-    return QCoreApplication.instance() or QCoreApplication([])
+    # Must be QApplication — see test_desktop_gateway.py's fixture comment.
+    return QApplication.instance() or QApplication([])
 
 
 def test_dialog_constructs_and_shows_result(app, qtbot):

@@ -1,10 +1,21 @@
 import pytest
 import httpx
-from PySide6.QtCore import QCoreApplication
+from PySide6.QtWidgets import QApplication
 
 @pytest.fixture
 def app():
-    return QCoreApplication.instance() or QCoreApplication([])
+    # Must be QApplication, not QCoreApplication: QApplication.instance() /
+    # QCoreApplication.instance() share one process-wide singleton, and
+    # whichever subclass creates it first "wins" for every test that follows
+    # in the same pytest run. This file collects alphabetically before any
+    # real widget test, so a bare QCoreApplication here used to become that
+    # singleton — and the first real QWidget() built afterwards (anywhere in
+    # the suite) hit a native "Fatal Python error: Aborted" in Qt/Shiboken,
+    # since a QCoreApplication never initializes the GUI subsystems a QWidget
+    # needs. This test doesn't touch Qt at all beyond needing "some app
+    # instance" to exist; QApplication costs nothing extra here and is safe
+    # for every test that runs afterward.
+    return QApplication.instance() or QApplication([])
 
 def test_desktop_gateway_contract(app):
     # Mock Gateway Response for /suggest
