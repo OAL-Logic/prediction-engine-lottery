@@ -1,8 +1,10 @@
 import logging
 from PySide6.QtWidgets import (
-    QWidget, QVBoxLayout, QHBoxLayout, QPushButton, QLabel, 
-    QTableView, QGroupBox, QFormLayout, QComboBox, QTextEdit, 
-    QHeaderView, QMessageBox, QSplitter, QCheckBox, QLineEdit
+    QWidget, QVBoxLayout, QHBoxLayout, QPushButton, QLabel,
+    QTableView, QGroupBox, QFormLayout, QComboBox, QTextEdit,
+    QHeaderView, QMessageBox, QSplitter, QCheckBox, QLineEdit,
+    QTabWidget, QListWidget, QListWidgetItem, QTableWidget, QTableWidgetItem,
+    QSpinBox, QProgressBar
 )
 from PySide6.QtCore import Qt, QAbstractTableModel, Signal
 from PySide6.QtGui import QBrush, QColor
@@ -151,7 +153,22 @@ class VerificationTab(QWidget):
         self.initUI()
 
     def initUI(self):
-        main_layout = QHBoxLayout(self)
+        outer_layout = QVBoxLayout(self)
+        outer_layout.setContentsMargins(0, 0, 0, 0)
+        outer_layout.setSpacing(0)
+
+        self.desk_tabs = QTabWidget()
+        outer_layout.addWidget(self.desk_tabs)
+
+        self.desk_tabs.addTab(self._build_ticket_auditor_tab(), "Ticket Auditor")
+        self.desk_tabs.addTab(self._build_leaderboard_tab(), "Formula Leaderboard")
+
+        # Load initial drawings history
+        self.load_historical_draws()
+
+    def _build_ticket_auditor_tab(self) -> QWidget:
+        auditor_widget = QWidget()
+        main_layout = QHBoxLayout(auditor_widget)
         main_layout.setContentsMargins(10, 10, 10, 10)
         main_layout.setSpacing(10)
 
@@ -245,8 +262,109 @@ class VerificationTab(QWidget):
         splitter.setSizes([350, 850])
         main_layout.addWidget(splitter)
 
-        # Load initial drawings history
-        self.load_historical_draws()
+        return auditor_widget
+
+    # ------------------------------------------------------------------
+    # Formula Leaderboard — verification backtest across multiple strategies
+    # ------------------------------------------------------------------
+
+    def _build_leaderboard_tab(self) -> QWidget:
+        widget = QWidget()
+        layout = QHBoxLayout(widget)
+        layout.setContentsMargins(10, 10, 10, 10)
+        layout.setSpacing(10)
+
+        left_group = QGroupBox("Formula Selection & Verification Depth")
+        left_layout = QVBoxLayout(left_group)
+
+        left_layout.addWidget(QLabel("Formulas to compare (checked = included):"))
+        self.formula_list = QListWidget()
+        self._populate_formula_list()
+        left_layout.addWidget(self.formula_list, stretch=1)
+
+        depth_row = QHBoxLayout()
+        depth_row.addWidget(QLabel("Verification depth:"))
+        self.leaderboard_depth_spin = QSpinBox()
+        self.leaderboard_depth_spin.setRange(5, 500)
+        self.leaderboard_depth_spin.setValue(20)
+        self.leaderboard_depth_spin.setSuffix(" draws")
+        depth_row.addWidget(self.leaderboard_depth_spin)
+        left_layout.addLayout(depth_row)
+
+        self.run_leaderboard_button = QPushButton("⚡ RUN VERIFICATION")
+        self.run_leaderboard_button.setStyleSheet(
+            "background-color: #FF3366; color: white; font-weight: bold; padding: 12px;"
+        )
+        left_layout.addWidget(self.run_leaderboard_button)
+
+        self.leaderboard_progress = QProgressBar()
+        self.leaderboard_progress.setRange(0, 100)
+        self.leaderboard_progress.setValue(0)
+        self.leaderboard_progress.setTextVisible(False)
+        self.leaderboard_progress.setFixedHeight(4)
+        left_layout.addWidget(self.leaderboard_progress)
+
+        self.leaderboard_status = QLabel("Idle.")
+        self.leaderboard_status.setStyleSheet("font-size: 10px; color: #8A8A95;")
+        left_layout.addWidget(self.leaderboard_status)
+
+        layout.addWidget(left_group, stretch=1)
+
+        right_group = QGroupBox("Formula Leaderboard — ranked by win rate")
+        right_layout = QVBoxLayout(right_group)
+        self.leaderboard_table = QTableWidget(0, 6)
+        self.leaderboard_table.setHorizontalHeaderLabels(
+            ["Formula", "Draws Tested", "Win Rate %", "Capture %", "Best Hit", "Avg Rank"]
+        )
+        self.leaderboard_table.horizontalHeader().setSectionResizeMode(0, QHeaderView.Stretch)
+        self.leaderboard_table.setAlternatingRowColors(True)
+        self.leaderboard_table.setEditTriggers(QTableWidget.NoEditTriggers)
+        right_layout.addWidget(self.leaderboard_table)
+        layout.addWidget(right_group, stretch=2)
+
+        return widget
+
+    def _populate_formula_list(self):
+        """Default candidate set = the `default` + `fast` presets (deduped) —
+        comparing all 150+ registered strategies at once would make a single
+        verification run impractically slow; the user can still check/uncheck
+        freely, this only seeds a sane starting point."""
+        from engine.strategies import STRATEGY_PRESETS
+        default_members = set(STRATEGY_PRESETS.get("default", []))
+        fast_members = set(STRATEGY_PRESETS.get("fast", []))
+        candidates = sorted(default_members | fast_members) or ["weighted"]
+        for name in candidates:
+            item = QListWidgetItem(name)
+            item.setFlags(item.flags() | Qt.ItemIsUserCheckable)
+            item.setCheckState(Qt.Checked if name in default_members else Qt.Unchecked)
+            self.formula_list.addItem(item)
+
+    def selected_formulas(self) -> list[str]:
+        return [
+            self.formula_list.item(i).text()
+            for i in range(self.formula_list.count())
+            if self.formula_list.item(i).checkState() == Qt.Checked
+        ]
+
+    def populate_leaderboard(self, payload: dict):
+        """Renders a FormulaVerificationJob finished-payload's ranked rows."""
+        rows = payload.get("leaderboard", [])
+        self.leaderboard_table.setRowCount(len(rows))
+        for r, row in enumerate(rows):
+            values = [
+                row["formula"],
+                str(row["draws_tested"]),
+                f"{row['win_rate_pct']:.1f}",
+                f"{row['capture_pct']:.1f}",
+                str(row["best_hit"]),
+                f"{row['avg_rank']:.1f}",
+            ]
+            for c, val in enumerate(values):
+                item = QTableWidgetItem(val)
+                item.setFlags(item.flags() & ~Qt.ItemIsEditable)
+                if r == 0:
+                    item.setForeground(QBrush(QColor("#00ff41")))
+                self.leaderboard_table.setItem(r, c, item)
 
     def set_lottery(self, lottery_id: str):
         """Updates the active lottery, reloads historical dropdown, and clears current matches."""

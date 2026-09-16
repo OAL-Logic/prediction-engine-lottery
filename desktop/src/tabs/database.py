@@ -10,6 +10,7 @@ from datetime import datetime
 
 from engine.modules.storage import storage
 from engine.cli.utils import get_adapter
+from engine.adapters.registry import registry
 
 logger = logging.getLogger(__name__)
 
@@ -331,7 +332,8 @@ class DatabaseTab(QWidget):
         header_layout = QHBoxLayout()
         
         self.lottery_selector = QComboBox()
-        self.lottery_selector.addItems(["br/lotofacil", "br/mega-sena", "us/powerball"])
+        available_games = registry.list_games(only_available=True)
+        self.lottery_selector.addItems([g.id for g in available_games] or ["br/lotofacil"])
         self.lottery_selector.currentTextChanged.connect(self.set_lottery)
         
         self.sync_button = QPushButton("⚡ FETCH ONLINE DRAWINGS")

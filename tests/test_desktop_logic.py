@@ -1,11 +1,16 @@
 import pytest
-from PySide6.QtCore import QCoreApplication
+from PySide6.QtWidgets import QApplication
 from desktop.src.telemetry.manager import ThreadManager
 
 @pytest.fixture
 def app(qtbot):
-    # This fixture ensures a QApplication is running for the tests
-    return QCoreApplication.instance() or QCoreApplication([])
+    # Must be QApplication, not QCoreApplication — see the comment in
+    # test_desktop_gateway.py's identical fixture for why: this file builds
+    # real widgets (test_analysis_tab_stats_table_click), so it needs the
+    # real thing regardless, but the bug was cross-file (whichever ran first
+    # won the process-wide singleton), so every one of these fixtures had to
+    # be consistent.
+    return QApplication.instance() or QApplication([])
 
 def test_thread_manager_starts_job(app, qtbot):
     manager = ThreadManager()
@@ -306,6 +311,67 @@ def test_limits_calculation_job(app, qtbot):
     assert "structural_prime_count" in limits
     lo, hi = limits["structural_odd_count"]
     assert lo >= 0 and hi <= 15
+
+
+def test_forecast_job_offset_uses_earlier_history(app, qtbot):
+    """offset=N holds back the last N draws before slicing — ticket #106's
+    Predict Center 'Offset' control. Zero-offset default stays covered by
+    test_forecast_job_runs; this only exercises the new parameter."""
+    from desktop.src.telemetry.manager import ForecastJob
+
+    job = ForecastJob(lottery_id="br/lotofacil", strategies=["weighted"], count=1, num_draws=35, offset=5)
+
+    results = {}
+    job.signals.finished.connect(results.update)
+
+    failures = []
+    job.signals.failed.connect(lambda title, msg, tb: failures.append((title, msg, tb)))
+
+    job.start()
+    with qtbot.waitSignal(job.signals.finished, timeout=15000):
+        pass
+
+    if failures:
+        title, msg, tb = failures[0]
+        pytest.fail(f"ForecastJob(offset=5) failed: {title} - {msg}\nTraceback:\n{tb}")
+
+    assert results.get("status") == "success"
+    assert results.get("num_draws_analyzed", 0) <= 35
+
+
+def test_formula_verification_job_runs(app, qtbot):
+    """Verification Desk 'Formula Leaderboard' — thin QThread wrapper around
+    engine.services.backtest.run_backtest(). Kept to a single fast strategy
+    and a short depth so the walk-forward backtest stays quick in CI."""
+    from desktop.src.telemetry.manager import FormulaVerificationJob
+
+    job = FormulaVerificationJob(lottery_id="br/lotofacil", strategy_names=["weighted"], depth=6)
+
+    logs = []
+    job.signals.new_log.connect(lambda msg, lvl: logs.append(msg))
+
+    failures = []
+    job.signals.failed.connect(lambda title, msg, tb: failures.append((title, msg, tb)))
+
+    results = {}
+    job.signals.finished.connect(results.update)
+
+    job.start()
+    with qtbot.waitSignal(job.signals.finished, timeout=20000):
+        pass
+
+    if failures:
+        title, msg, tb = failures[0]
+        pytest.fail(f"FormulaVerificationJob failed: {title} - {msg}\nTraceback:\n{tb}")
+
+    assert results.get("status") == "success"
+    leaderboard = results.get("leaderboard", [])
+    assert len(leaderboard) == 1
+    row = leaderboard[0]
+    assert row["formula"] == "weighted"
+    assert row["draws_tested"] <= 6
+    assert 0.0 <= row["win_rate_pct"] <= 100.0
+    assert len(logs) > 0
 
 
 def test_pruning_job(app, qtbot):

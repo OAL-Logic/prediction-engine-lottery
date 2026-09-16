@@ -33,12 +33,11 @@ See the full [Product Requirement Document (PRD)](decisions/samlotto-qt-interfac
 - [#103 Sleek dark theme and layout](tickets/103-sleek-dark-theme-and-layout.md) — Unified split-pane cockpit layout designed and implemented in a runnable PySide6 prototype with custom QSS styling and responsive grids.
 - [#104 Interactive skips chart](tickets/104-interactive-skips-chart.md) — Matplotlib (`FigureCanvasQTAgg`) kept as the single plotting library (zero new dependency, only one with a native heatmap); drill-down flows through a new `SkipsJob(QThread)` into a table+chart `SkipsInspectorPanel`.
 - [#105 Filter setup panel](tickets/105-filter-setup-panel.md) — Implemented tabbed Setup Dock (FiltersTab) with inline range sliders, advanced filters add/remove panels, logical N-of-M condition checks, auto-calculating limits, and background pruning execution.
+- [#106 Prediction verification GUI](tickets/106-prediction-verification-gui.md) — Implemented. SamLotto's fixed Formula-1..6 picker adapted to this engine's registry as a live Formula (STRATEGY_PRESETS family) -> Algorithm (specific strategy) drill-down in `PredictionTab`, plus Offset/Depth controls (`ForecastJob.offset`). "Push to Pool" is a real `numbers_recommended` Qt signal wired to `NumberGrid.select_numbers()`. `VerificationTab` gained a second "Formula Leaderboard" sub-tab (existing single-ticket auditor kept as-is) backed by a new `FormulaVerificationJob` — a thin QThread wrapper around the already-existing `engine.services.backtest.run_backtest()`, so no backtest logic was reimplemented. Drawings Trend manual predictor (E5) was not built — still fog, see below.
 
 ## Tickets (frontier)
 
-Open, unblocked tickets — pick one to claim:
-
-- [#106 Prediction verification GUI](tickets/106-prediction-verification-gui.md) — Build the Formula-1..6 prediction form, verification run console, and pool-push interaction.
+None open — #105 and #106 are closed.
 
 ## Tickets (blocked)
 
@@ -52,6 +51,7 @@ Fog that is in scope but not sharp enough to ticket yet:
 - **Online database updater**: Interfacing the GUI drawings update window (A11) with the engine's scraping and fetch adapters.
 - **High-density statistics tabs**: Deciding how to present the 11+ statistics sheets (AC, Low-High, Sums, etc.) cleanly inside the tabbed stats workspace without overwhelming the screen.
 - **Export & Print formatting**: Designing print layouts for tickets (S40) and custom export formatting options.
+- **Drawings Trend manual predictor (E5)**: #106 shipped the Formula/Algorithm predictor and the Verification leaderboard but not this — a manual visual-frequency-chart number checker inside the stats tabs. Needs its own ticket.
 
 ## Out of scope
 

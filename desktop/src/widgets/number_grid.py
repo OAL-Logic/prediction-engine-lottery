@@ -19,10 +19,17 @@ class NumberGrid(QWidget):
         self.layout.setContentsMargins(5, 5, 5, 5)
         self.buttons = {}
         self.selected_numbers = set()
+        self.min_number = 1
         self.max_number = 25
         self.build_grid()
 
     def set_max_number(self, max_num: int):
+        """Shorthand for the common case: a 1-indexed pool. See set_range() for
+        pools that don't start at 1 (e.g. Lotomania's 00-99)."""
+        self.set_range(1, max_num)
+
+    def set_range(self, min_num: int, max_num: int):
+        self.min_number = min_num
         self.max_number = max_num
         self.selected_numbers.clear()
         self.build_grid()
@@ -36,8 +43,9 @@ class NumberGrid(QWidget):
         self.buttons.clear()
 
         # Wrap at 5 columns for small pools (<= 30) or 10 columns for larger pools (> 30)
-        cols = 5 if self.max_number <= 30 else 10
-        for n in range(1, self.max_number + 1):
+        pool_width = self.max_number - self.min_number + 1
+        cols = 5 if pool_width <= 30 else 10
+        for n in range(self.min_number, self.max_number + 1):
             btn = QPushButton(f"{n:02d}")
             btn.setCheckable(False)
             btn.setFixedSize(36, 36)
@@ -94,7 +102,16 @@ class NumberGrid(QWidget):
         self.number_toggled.emit(num, is_selected)
 
     def select_all(self):
-        self.selected_numbers = set(range(1, self.max_number + 1))
+        self.selected_numbers = set(range(self.min_number, self.max_number + 1))
+        for n, btn in self.buttons.items():
+            btn.setStyleSheet(self.get_ball_style(n))
+        self.number_toggled.emit(0, True)
+
+    def select_numbers(self, numbers: list[int]):
+        """Replace the active pool with exactly `numbers` (clamped to the current
+        grid range) — used by callers pushing an externally-computed set (e.g. a
+        predicted ticket) rather than a locally-computed one like hot/cold/prime."""
+        self.selected_numbers = {n for n in numbers if self.min_number <= n <= self.max_number}
         for n, btn in self.buttons.items():
             btn.setStyleSheet(self.get_ball_style(n))
         self.number_toggled.emit(0, True)

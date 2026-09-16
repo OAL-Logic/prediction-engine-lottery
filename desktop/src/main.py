@@ -27,10 +27,11 @@ from desktop.src.tabs.predict import PredictionTab
 from desktop.src.tabs.verification import VerificationTab
 from desktop.src.tabs.ev import ExpectedValueTab
 from desktop.src.tabs.telemetry import TelemetryTab
-from desktop.src.telemetry.manager import ThreadManager, ForecastJob, TrainJob
+from desktop.src.telemetry.manager import ThreadManager, ForecastJob, TrainJob, FormulaVerificationJob
 from desktop.src.telemetry.client import TelemetryClient
 from desktop.src.widgets.number_grid import NumberGrid
 from engine.cli.utils import get_adapter
+from engine.adapters.registry import registry
 
 # Pre-import heavy engine modules on the main thread to prevent PySide6/Shiboken import deadlocks in background QThreads
 try:
@@ -82,10 +83,19 @@ class ProphetDashboard(QMainWindow):
         self.db_tab.database_changed.connect(self.verification_tab.load_historical_draws)
         self.wheeling_tab.tickets_generated.connect(self.handle_wheeling_tickets_shared)
         
-        self.predict_tab.predict_button.clicked.connect(self.run_prediction_job)
+        self.predict_tab.predict_button.clicked.connect(self.run_prediction_job_from_predict_center)
         self.predict_tab.train_button.clicked.connect(self.run_training_job)
+        self.predict_tab.numbers_recommended.connect(self.handle_push_to_pool)
+        self.verification_tab.run_leaderboard_button.clicked.connect(self.run_verification_job)
         self.telemetry_client.new_log.connect(self.telemetry_tab.append_log)
-        
+
+        # game_combo/db_tab.lottery_selector list every available game in registry
+        # order, which won't generally put self.active_lottery's default first —
+        # run one explicit sync so every child tab's starting state (NumberGrid
+        # range included) actually matches self.active_lottery from the first
+        # frame, the same way selecting a game from either combo would.
+        self.change_global_lottery(self.active_lottery)
+
         # Start Websocket client background listener
         self.telemetry_client.start()
 
@@ -121,7 +131,7 @@ class ProphetDashboard(QMainWindow):
         game_selector_layout = QHBoxLayout()
         game_selector_layout.addWidget(QLabel("Active Game:"))
         self.game_combo = QComboBox()
-        self.game_combo.addItems(["Lotofácil (br/lotofacil)", "Mega-Sena (br/mega-sena)", "Powerball (us/powerball)"])
+        self.game_combo.addItems([f"{g.name} ({g.id})" for g in registry.list_games(only_available=True)])
         game_selector_layout.addWidget(self.game_combo)
         pool_layout.addLayout(game_selector_layout)
 
@@ -449,13 +459,13 @@ class ProphetDashboard(QMainWindow):
         self.active_lottery = lottery_id
         self.telemetry_tab.append_log(f"Global lottery context updated to: {lottery_id}", "INFO")
         
-        # Update NumberGrid max limits based on active rules
-        if lottery_id == "br/lotofacil":
-            self.number_grid.set_max_number(25)
-        elif lottery_id == "br/mega-sena":
-            self.number_grid.set_max_number(60)
-        elif lottery_id == "us/powerball":
-            self.number_grid.set_max_number(69)
+        # Update NumberGrid bounds from the registry (covers every registered game,
+        # including zero-indexed pools like Lotomania's 00-99 via number_range_min —
+        # this used to be a 3-game if/elif that silently defaulted everything else
+        # to a 25-number grid).
+        game_def = registry.get_game(lottery_id)
+        if game_def:
+            self.number_grid.set_range(game_def.number_range_min, game_def.number_range_min + game_def.pool_size - 1)
         else:
             self.number_grid.set_max_number(25)
 
@@ -712,6 +722,98 @@ class ProphetDashboard(QMainWindow):
             self.predict_tab.predict_button.setEnabled(True)
             self.predict_tab.status_label.setText("Engine State: IDLE")
 
+    def run_prediction_job_from_predict_center(self):
+        """Predict Center's own trigger — unlike the Pool Builder's quick 'SMART
+        SUGGEST' (run_prediction_job, which reads the left-rail radio buttons),
+        this reads the Predict Center's Formula/Algorithm/Offset/Depth controls."""
+        self.predict_tab.predict_button.setEnabled(False)
+        self.predict_tab.progress_bar.setValue(0)
+        self.predict_tab.status_label.setText("Engine State: SCANNED")
+
+        lottery_id = self.active_lottery
+        count = self.predict_tab.prediction_spin.value()
+        strategy = self.predict_tab.selected_strategy()
+        offset = self.predict_tab.offset_spin.value()
+        depth = self.predict_tab.depth_spin.value()
+
+        if self.predict_tab.gpu_checkbox.isChecked():
+            self.telemetry_tab.append_log("CUDA GPU Acceleration flag activated.", "INFO")
+
+        job = ForecastJob(
+            lottery_id=lottery_id,
+            strategies=[strategy],
+            count=count,
+            num_draws=depth,
+            offset=offset,
+        )
+
+        started_job = self.thread_manager.start_job("predict", job)
+        if started_job:
+            started_job.signals.new_log.connect(self.telemetry_tab.append_log)
+            started_job.signals.progress.connect(self.handle_job_progress)
+            started_job.signals.finished.connect(self.handle_prediction_finished)
+            started_job.signals.failed.connect(self.handle_job_failed)
+        else:
+            self.predict_tab.predict_button.setEnabled(True)
+            self.predict_tab.status_label.setText("Engine State: IDLE")
+
+    def handle_push_to_pool(self, numbers: list):
+        """Predict Center's 'Push to Pool' — loads a recommended ticket into the
+        main NumberGrid (colored as selected) and brings the cockpit to front."""
+        self.number_grid.select_numbers(numbers)
+        self.update_pool_counter(0, True)
+        self.telemetry_tab.append_log(f"Pushed predicted ticket to Pool Builder: {numbers}", "RESONANCE")
+        self.raise_()
+        self.activateWindow()
+
+    def run_verification_job(self):
+        """Verification Desk's 'Formula Leaderboard' — walk-forward backtests
+        the checked formulas and ranks them by win rate."""
+        formulas = self.verification_tab.selected_formulas()
+        if not formulas:
+            QMessageBox.warning(self, "No Formulas Selected", "Check at least one formula to verify.")
+            return
+
+        depth = self.verification_tab.leaderboard_depth_spin.value()
+        self.verification_tab.run_leaderboard_button.setEnabled(False)
+        self.verification_tab.leaderboard_progress.setValue(0)
+        self.verification_tab.leaderboard_status.setText(f"Verifying {len(formulas)} formula(s)...")
+
+        job = FormulaVerificationJob(
+            lottery_id=self.active_lottery,
+            strategy_names=formulas,
+            depth=depth,
+        )
+
+        started_job = self.thread_manager.start_job("verify_formulas", job)
+        if not started_job:
+            self.verification_tab.run_leaderboard_button.setEnabled(True)
+            return
+
+        started_job.signals.new_log.connect(self.telemetry_tab.append_log)
+        started_job.signals.progress.connect(self.handle_leaderboard_progress)
+        started_job.signals.finished.connect(self.handle_leaderboard_finished)
+        started_job.signals.failed.connect(self.handle_leaderboard_failed)
+
+    def handle_leaderboard_progress(self, val: int, msg: str):
+        self.verification_tab.leaderboard_progress.setValue(val)
+        self.verification_tab.leaderboard_status.setText(msg)
+
+    def handle_leaderboard_finished(self, payload: dict):
+        self.verification_tab.run_leaderboard_button.setEnabled(True)
+        self.verification_tab.leaderboard_progress.setValue(0)
+        self.verification_tab.leaderboard_status.setText(
+            f"Ranked {len(payload.get('leaderboard', []))} formula(s) over the last "
+            f"{self.verification_tab.leaderboard_depth_spin.value()} draws."
+        )
+        self.verification_tab.populate_leaderboard(payload)
+
+    def handle_leaderboard_failed(self, title: str, message: str, traceback_str: str):
+        self.verification_tab.run_leaderboard_button.setEnabled(True)
+        self.verification_tab.leaderboard_progress.setValue(0)
+        self.verification_tab.leaderboard_status.setText("Verification failed — see error dialog.")
+        self.handle_job_failed(title, message, traceback_str)
+
     def run_training_job(self):
         self.predict_tab.train_button.setEnabled(False)
         self.predict_tab.progress_bar.setValue(0)
@@ -747,7 +849,8 @@ class ProphetDashboard(QMainWindow):
         self.predict_tab.status_label.setText("Engine State: IDLE")
 
         tickets = result.get("tickets", [])
-        
+        self.predict_tab.set_last_ticket(tickets[0] if tickets else [])
+
         # Populate ticket_table
         self.ticket_table.setRowCount(0)
         confidence_scores = result.get("confidence_scores", [])

@@ -1,7 +1,7 @@
 ---
 id: "106"
 type: grilling
-status: open
+status: closed
 blocked_by: []
 map: samlotto-qt-interface-map.md
 created: 2026-08-11

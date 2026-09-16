@@ -54,12 +54,13 @@ class ForecastJob(QThread):
     Builds a weighted consensus matrix from specified strategies and generates suggestions.
     """
     def __init__(
-        self, 
-        lottery_id: str, 
-        strategies: list[str], 
-        count: int = 1, 
-        num_draws: int = 100, 
-        pick_count: int | None = None, 
+        self,
+        lottery_id: str,
+        strategies: list[str],
+        count: int = 1,
+        num_draws: int = 100,
+        pick_count: int | None = None,
+        offset: int = 0,
         parent: QObject | None = None
     ):
         super().__init__(parent)
@@ -68,6 +69,7 @@ class ForecastJob(QThread):
         self.count = count
         self.num_draws = num_draws
         self.pick_count = pick_count
+        self.offset = max(0, offset)  # draws to hold back from the end (predict as of `offset` draws ago)
         self.signals = JobSignals()
 
     def run(self) -> None:
@@ -83,9 +85,13 @@ class ForecastJob(QThread):
             if df.empty:
                 raise ValueError(f"No draw history found for lottery '{self.lottery_id}'.")
 
-            df_slice = df.tail(self.num_draws)
+            df_held_back = df.iloc[: len(df) - self.offset] if self.offset > 0 else df
+            if df_held_back.empty:
+                raise ValueError(f"Offset {self.offset} exceeds available history ({len(df)} draws).")
+            df_slice = df_held_back.tail(self.num_draws)
             total_strategies = len(self.strategies)
-            self.signals.new_log.emit(f"Loaded {len(df_slice)} draws. Running ensemble across {total_strategies} strategies...", "INFO")
+            offset_note = f" (as of {self.offset} draws ago)" if self.offset > 0 else ""
+            self.signals.new_log.emit(f"Loaded {len(df_slice)} draws{offset_note}. Running ensemble across {total_strategies} strategies...", "INFO")
 
             rules = adapter.rules
             lo, hi = rules.number_range
@@ -355,6 +361,86 @@ class SkipsJob(QThread):
             err_msg = str(exc) or type(exc).__name__
             self.signals.new_log.emit(f"Skips calculation error: {err_msg}", "ERROR")
             self.signals.failed.emit("Skips Calculation Error", err_msg, tb_str)
+
+
+class FormulaVerificationJob(QThread):
+    """
+    Verification Desk 'Formula Leaderboard': walk-forward backtests each
+    candidate strategy ('formula', in SamLotto's terms) over the last
+    `depth` historical draws and ranks them by win rate / capture rate.
+
+    Thin QThread wrapper around engine.services.backtest.run_backtest() —
+    that function already implements "blind" walk-forward evaluation (each
+    draw is scored using only draws strictly before it) and per-strategy
+    summary stats; this job adds no verification logic of its own, only
+    progress/signal plumbing via the existing `on_draw` callback hook.
+    """
+    def __init__(self, lottery_id: str, strategy_names: list[str], depth: int = 20, parent: QObject | None = None):
+        super().__init__(parent)
+        self.lottery_id = lottery_id
+        self.strategy_names = strategy_names
+        self.depth = max(1, depth)
+        self.signals = JobSignals()
+
+    def run(self) -> None:
+        self.signals.new_log.emit(
+            f"Starting formula verification on '{self.lottery_id}' — "
+            f"{len(self.strategy_names)} formula(s) x last {self.depth} draws...",
+            "INFO",
+        )
+        self.signals.progress.emit(5, "Loading draw database...")
+
+        try:
+            from engine.services.backtest import run_backtest
+
+            tested = {"n": 0}
+
+            def _on_draw(draw_result):
+                tested["n"] += 1
+                pct = 10 + int(min(1.0, tested["n"] / self.depth) * 80)
+                self.signals.progress.emit(pct, f"Backtested draw #{draw_result.draw_id} ({tested['n']}/{self.depth})")
+
+            result = run_backtest(
+                self.lottery_id,
+                prev=f"1-{self.depth}",
+                strategy_names=self.strategy_names,
+                on_draw=_on_draw,
+            )
+
+            self.signals.progress.emit(92, "Ranking formulas...")
+
+            leaderboard = []
+            for name in result.strategy_names:
+                summary = result.summary.get(name)
+                if summary is None:
+                    continue
+                leaderboard.append({
+                    "formula": name,
+                    "draws_tested": len(result.draws),
+                    "avg_rank": summary.avg_rank,
+                    "capture_pct": summary.capture_pct,
+                    "best_hit": summary.best_hit,
+                    "win_rate_pct": summary.win_rate_pct,
+                })
+            leaderboard.sort(key=lambda r: (r["win_rate_pct"], r["capture_pct"]), reverse=True)
+
+            self.signals.progress.emit(100, "Verification complete.")
+            self.signals.new_log.emit(
+                f"Formula verification complete. {len(leaderboard)} formula(s) ranked over {len(result.draws)} draws.",
+                "RESONANCE",
+            )
+            self.signals.finished.emit({
+                "status": "success",
+                "lottery_id": self.lottery_id,
+                "game_name": result.game_name,
+                "leaderboard": leaderboard,
+            })
+
+        except Exception as exc:
+            tb_str = traceback.format_exc()
+            err_msg = str(exc) or type(exc).__name__
+            self.signals.new_log.emit(f"Formula verification error: {err_msg}", "ERROR")
+            self.signals.failed.emit("Formula Verification Error", err_msg, tb_str)
 
 
 def compute_metric_values(uid: str, combinations: np.ndarray, mid_point: int) -> np.ndarray:
