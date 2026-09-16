@@ -1,7 +1,8 @@
 ---
 id: "003"
 type: grilling
-status: open
+status: closed
+assignee: claude-code
 blocked_by: ["002"]
 map: strategy-pruning-meta-selection-map.md
 created: 2026-07-11
@@ -36,7 +37,21 @@ This ticket is blocked until [#002 Selection inputs survey](002-selection-inputs
 
 ## Acceptance criteria
 
-- [ ] A concrete policy is documented in plain language.
-- [ ] Threshold defaults and their rationale are recorded.
-- [ ] Edge cases (no calibration, all strategies below threshold, missing strategies) are addressed.
-- [ ] Output is a markdown policy decision record linked from this ticket.
+- [x] A concrete policy is documented in plain language.
+- [x] Threshold defaults and their rationale are recorded.
+- [x] Edge cases (no calibration, all strategies below threshold, missing strategies) are addressed.
+- [x] Output is a markdown policy decision record linked from this ticket.
+
+## Resolution
+
+Resolved 2026-09-16. See [MDR-003: Strategy Selection Policy Thresholds](../decisions/003-policy-thresholds-decision.md) for the full policy.
+
+### Key decisions
+- **Primary metric**: calibration lift (1.0-baseline scale, matching `lottery calibrate`), with a live `run_pruning_audit()` fallback (normalized onto the same scale) for strategies with no calibration entry.
+- **Thresholds**: `min_lift = 1.0` (must beat random), `window = 20` draws for the live-audit fallback only (calibration-cache entries are trusted as-is). No fixed roster size — threshold-based inclusion.
+- **Tier handling**: one pool, no per-tier quota; tier is only used to label dependency/cost-related exclusions. Diversity, if wanted, is opt-in via `--pin`.
+- **New/untested strategies**: evaluated live rather than guessed; "insufficient history" and "evaluation raised" are reported as distinct, correctly-labelled reasons.
+- **Transparency**: identical report in the terminal table, the persisted `data/strategy_roster.json`, and optional `--export-md`.
+- **Overrides**: `--pin` / `--exclude`, comma-separated; exclude wins on conflict.
+
+Unlike #001/#002, this ticket was carried through to a working implementation (not just a design record) — see the map's scope note.

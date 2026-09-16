@@ -144,7 +144,7 @@ def _get_help_panel() -> Panel:
             "log-export", "watchlist", "hitcheck"
         ]),
         make_cat_section(PANEL_SYSTEM, [
-            "serve", "games", "odds", "daemon", "daemon-status", "optimize", "calibrate", "prune", "audit-data", "export", 
+            "serve", "games", "odds", "daemon", "daemon-status", "optimize", "calibrate", "prune", "select-strategies", "audit-data", "export",
             "history", "compare-draws", "compare-strategies", "compare-bets", "stress-test", "tune"
         ]),
         make_cat_section(PANEL_VERIFY, [
@@ -1515,6 +1515,28 @@ def prune(
     """✂️ Identify and 'hibernate' underperforming strategies."""
     from engine.cli.commands.prune import prune as impl
     return impl(lottery, strategies, window, threshold, redundancy, export_md)
+
+@app.command(name="select-strategies", rich_help_panel=PANEL_SYSTEM)
+def select_strategies(
+    lottery: Annotated[str, typer.Argument(help="Lottery name [Required]")],
+    strategies: Annotated[str, typer.Option("--strategies", "-s",
+        help="Candidate pool to evaluate: 'all', a preset name, or a comma list")] = "all",
+    min_lift: Annotated[float, typer.Option("--min-lift",
+        help="Minimum lift (1.0 = random baseline) to stay in the active roster")] = 1.0,
+    window: Annotated[int, typer.Option("--limit", "-L",
+        help="Backtest window for strategies with no calibration cache entry")] = 20,
+    pin: Annotated[Optional[str], typer.Option("--pin",
+        help="Comma-separated strategies to force-include regardless of lift")] = None,
+    exclude: Annotated[Optional[str], typer.Option("--exclude",
+        help="Comma-separated strategies to force-exclude regardless of lift")] = None,
+    dry_run: Annotated[bool, typer.Option("--dry-run",
+        help="Preview the roster without saving it")] = False,
+    export_md: Annotated[Optional[str], typer.Option("--export-md",
+        help="Append the roster report to this .md file")] = None,
+):
+    """🗳️ Build the empirically-active strategy roster (consumed via `--strategies roster`)."""
+    from engine.cli.commands.select_strategies import select_strategies as impl
+    return impl(lottery, strategies, min_lift, window, pin, exclude, dry_run, export_md)
 
 @app.command(name="audit-data", rich_help_panel=PANEL_SYSTEM)
 def audit_data(

@@ -43,7 +43,7 @@ from rich.console import Console
 from rich.panel import Panel
 from rich.table import Table
 
-from engine.cli.utils import get_adapter, print_command_summary, load_local_config
+from engine.cli.utils import get_adapter, print_command_summary, load_local_config, resolve_strategies
 from engine.strategies import get_strategy
 
 console = Console()
@@ -122,7 +122,7 @@ def _composite_weight(stab: float, delta: float) -> float:
 def forecast(
     lottery: Annotated[str, typer.Argument(help="Lottery name [Required]")],
     strategies: Annotated[str, typer.Option("--strategies", "-s",
-        help="Group or comma list: default | statistical | fast | esoteric | <names>")] = "default",
+        help="Group or comma list: default | statistical | fast | esoteric | roster | <names>")] = "default",
     window: Annotated[int, typer.Option("--limit", "-L",
         help="History window for each strategy")] = 50,
     step: Annotated[int, typer.Option("--step",
@@ -153,6 +153,7 @@ def forecast(
     Example: lottery forecast br/lotofacil
              lottery forecast br/lotofacil --strategies fast --quiet
              lottery forecast br/lotofacil --strategies default --export-md fc.md
+             lottery forecast br/lotofacil --strategies roster   # from `lottery select-strategies`
     """
     personal_data = load_local_config()
 
@@ -186,10 +187,9 @@ def forecast(
     if not quiet:
         print_command_summary("forecast", lottery, strategies=strategies, window=window)
 
-    if strategies in _STRATEGY_GROUPS:
-        names = _STRATEGY_GROUPS[strategies]
-    else:
-        names = [s.strip() for s in strategies.split(",") if s.strip()]
+    names, strategy_source = resolve_strategies(strategies, lottery, _STRATEGY_GROUPS)
+    if strategy_source == "roster" and not quiet:
+        console.print(f"[dim]Using {len(names)} strategies from the saved roster.[/dim]")
 
     with console.status(f"[bold green]Loading {lottery} data…"):
         adapter = get_adapter(lottery)

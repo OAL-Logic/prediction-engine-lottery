@@ -1,8 +1,9 @@
 ---
 label: wayfinder:map
 destination: Strategy pruning and meta-selection system
-status: active
+status: shipped
 created: 2026-07-11
+updated: 2026-09-16
 ---
 
 # Strategy Pruning & Meta-Selection Map
@@ -27,16 +28,22 @@ A decision-ready design for a **per-game strategy roster** system: a manual CLI 
 
 - [#001 Roster data model](tickets/001-roster-data-model.md) — Roster stored in central `data/strategy_roster.json` and consumed via `--strategies roster` with a default-preset fallback.
 - [#002 Selection inputs survey](tickets/002-selection-inputs-survey.md) — Identified out-of-sample calibration lift as primary signal and tier metadata as secondary, detailing 4 key gaps.
+- [#003 Policy thresholds](tickets/003-policy-thresholds.md) — Calibration lift (1.0-baseline) as primary metric with a live pruning-audit fallback for uncalibrated strategies; `min_lift=1.0`, `window=20` (fallback path only); one pool, no per-tier quota; `--pin`/`--exclude` overrides, exclude wins on conflict.
+- [#004 CLI UX prototype](tickets/004-cli-ux-prototype.md) — `lottery select-strategies <game>`, roster consumed via the existing `--strategies roster` value on `forecast`/`rank-numbers` (no new flag).
 
 ## Tickets (frontier)
 
-Open, unblocked tickets — pick one to claim:
+None open — #003 and #004 are closed. This map's original destination (a decision-ready design) is reached; see "Scope note" below for why it was then also implemented.
 
-- [#003 Policy thresholds](tickets/003-policy-thresholds.md) — promotion/demotion/exclusion rules.
+## Scope note: design carried through to implementation
 
-## Tickets (blocked)
+This map's own text originally said: *"this effort stops at a spec/design that can be handed off for implementation... It does not build the feature in place unless a later ticket explicitly overrides that."* #003 and #004 are recorded as that override: both were resolved directly against a working implementation rather than a plan for one, because the session's goal was explicitly to ship modular engine features, not just design them, and the design was already unambiguous enough (thanks to #001/#002) to implement without further back-and-forth. Shipped as:
 
-- [#004 CLI UX prototype](tickets/004-cli-ux-prototype.md) — draft command/output shape for `select-strategies` and the opt-in forecast flag. **Blocked by:** #003.
+- `engine/modules/strategy_roster.py` — policy (`compute_roster`, `load_roster`, `save_roster`).
+- `engine/cli/commands/select_strategies.py` + `lottery select-strategies` in `engine/cli/main.py`.
+- `resolve_strategies()` in `engine/cli/utils.py` — the unified seam from MDR-001 §5, consumed by both `forecast.py` and `rank_numbers.py`.
+- Tests: `tests/test_strategy_roster.py`.
+- Bugfix found via this work: `load_local_config()` was leaking arbitrary keys from unrelated `*.local.yaml` files (e.g. a `report`-pipeline template's `name`/`steps`) into `get_strategy(**personal_data)` calls, crashing `forecast`/`suggest`/`tune` for every strategy whenever such a file was present. Narrowed to only extract the two keys it actually documents (`full_name`, `birth_date`) — see `engine/cli/utils.py` docstring and CHANGELOG.
 
 ## Not yet specified
 

@@ -40,7 +40,7 @@ from rich.console import Console
 from rich.panel import Panel
 from rich.table import Table
 
-from engine.cli.utils import get_adapter, print_command_summary
+from engine.cli.utils import get_adapter, print_command_summary, resolve_strategies
 from engine.strategies import get_strategy
 
 console = Console()
@@ -85,7 +85,7 @@ def _bar(score: float, width: int = 10) -> str:
 def rank_numbers(
     lottery: Annotated[str, typer.Argument(help="Lottery name (e.g. br/lotofacil)")],
     strategies: Annotated[str, typer.Option("--strategies", "-s",
-        help="Group: default | fast | statistical | esoteric | comma-list")] = "default",
+        help="Group: default | fast | statistical | esoteric | roster | comma-list")] = "default",
     window: Annotated[int, typer.Option("--limit", "-L",
         help="History window for strategy scoring")] = 50,
     top: Annotated[int, typer.Option("--top", "-N",
@@ -115,10 +115,9 @@ def rank_numbers(
     pool_size = hi - lo + 1
     pick      = rules.pick_count
 
-    if strategies in _STRATEGY_GROUPS:
-        names = _STRATEGY_GROUPS[strategies]
-    else:
-        names = [s.strip() for s in strategies.split(",") if s.strip()]
+    names, strategy_source = resolve_strategies(strategies, lottery, _STRATEGY_GROUPS)
+    if strategy_source == "roster":
+        console.print(f"[dim]Using {len(names)} strategies from the saved roster.[/dim]")
 
     win_df = df.tail(window)
 

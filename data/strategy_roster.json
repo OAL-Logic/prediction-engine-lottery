@@ -1,0 +1,22 @@
+{
+  "br/lotofacil": {
+    "game_id": "br/lotofacil",
+    "updated_at": "2026-09-16T11:33:26Z",
+    "policy_id": "calibration-lift-threshold-v1",
+    "active_strategies": [
+      "weighted",
+      "monte_carlo",
+      "copairs"
+    ],
+    "exclusions": {
+      "bayesian": {
+        "reason": "live audit lift 0.994 < min 1.000 (no calibration cache \u2014 ran live over last 20 draws)",
+        "metrics": {
+          "lift": 0.9944,
+          "n_draws": 20
+        }
+      }
+    },
+    "regime_overrides": {}
+  }
+}

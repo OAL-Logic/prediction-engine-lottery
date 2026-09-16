@@ -1,7 +1,8 @@
 ---
 id: "004"
 type: prototype
-status: open
+status: closed
+assignee: claude-code
 blocked_by: ["003"]
 map: strategy-pruning-meta-selection-map.md
 created: 2026-07-11
@@ -39,7 +40,11 @@ The user has decided the trigger is a manual CLI command and the forecast integr
 
 ## Acceptance criteria
 
-- [ ] A markdown UX proposal with command signatures and sample output exists.
-- [ ] The proposal is consistent with the roster data model from #001.
-- [ ] The proposal reflects the policy from #003.
-- [ ] No working code is required, but concrete command/output examples are.
+- [x] A markdown UX proposal with command signatures and sample output exists.
+- [x] The proposal is consistent with the roster data model from #001.
+- [x] The proposal reflects the policy from #003.
+- [x] No working code is required, but concrete command/output examples are.
+
+## Resolution
+
+Resolved 2026-09-16. See [MDR-004: `select-strategies` CLI UX](../decisions/004-cli-ux-prototype-decision.md). Command name `select-strategies`; roster consumed via the existing `--strategies roster` value (not a new flag) on both `forecast` and `rank-numbers`. Carried through to a working implementation — the example output in the decision record is real captured output, not a mockup.

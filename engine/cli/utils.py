@@ -212,6 +212,56 @@ def get_adapter(lottery_id: str):  # type: ignore[return]
     return cls()
 
 
+def resolve_strategies(
+    strategies_arg: str, lottery_id: str, groups: dict[str, list[str]]
+) -> tuple[list[str], str]:
+    """
+    Resolve a --strategies CLI value into a concrete list of strategy names.
+    Single seam shared by `forecast`, `rank-numbers`, and any future ensemble
+    command, per MDR-001 (docs/wayfinder/decisions/001-roster-data-model-decision.md).
+
+    Supports, in order:
+      1. The literal "roster" — reads data/strategy_roster.json (written by
+         `lottery select-strategies`) for this game's persisted active list.
+         Falls back to the "default" group if the roster/game entry is
+         missing, unreadable, or has no active strategies.
+      2. A known preset name in `groups` (e.g. "default", "fast").
+      3. An explicit comma-separated list of strategy names — this always
+         bypasses the roster, so a "retired" strategy remains runnable when
+         the user names it directly.
+
+    Returns (names, source) where `source` is a short label for display:
+    "roster" | "preset:<name>" | "explicit".
+    """
+    arg = strategies_arg.strip()
+
+    if arg == "roster":
+        roster_path = DATA_DIR / "strategy_roster.json"
+        active: list[str] | None = None
+        if roster_path.exists():
+            try:
+                roster_data = json.loads(roster_path.read_text())
+                game_roster = roster_data.get(lottery_id)
+                active = game_roster.get("active_strategies") if game_roster else None
+            except Exception as exc:
+                rprint(f"[yellow]Warning: failed to read strategy roster ({exc}). Falling back to 'default'.[/yellow]")
+        if active:
+            return list(active), "roster"
+        if roster_path.exists():
+            rprint(f"[yellow]Warning: no active roster for {lottery_id}. Falling back to 'default'. "
+                   f"Run 'lottery select-strategies {lottery_id}' first.[/yellow]")
+        else:
+            rprint(f"[yellow]Warning: no strategy roster found. Falling back to 'default'. "
+                   f"Run 'lottery select-strategies {lottery_id}' first.[/yellow]")
+        arg = "default"
+
+    if arg in groups:
+        return list(groups[arg]), f"preset:{arg}"
+
+    names = [s.strip() for s in arg.split(",") if s.strip()]
+    return names, "explicit"
+
+
 def geocode(address: str) -> tuple[float, float] | None:
     """Simulate geocoding an address into (lat, lon) using OpenStreetMap (Nominatim)."""
     import httpx
