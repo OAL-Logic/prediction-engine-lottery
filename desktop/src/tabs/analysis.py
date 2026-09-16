@@ -4,9 +4,10 @@ import pandas as pd
 import scipy.stats as stats
 from PySide6.QtWidgets import (
     QWidget, QVBoxLayout, QHBoxLayout, QLabel, QGroupBox, QComboBox,
-    QSplitter, QTableWidget, QTableWidgetItem, QHeaderView, QMessageBox
+    QSplitter, QTableWidget, QTableWidgetItem, QHeaderView, QMessageBox,
+    QPushButton, QScrollArea
 )
-from PySide6.QtCore import Qt, Slot
+from PySide6.QtCore import Qt, Slot, Signal
 from PySide6.QtGui import QColor
 from matplotlib.backends.backend_qtagg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.figure import Figure
@@ -19,6 +20,7 @@ from engine.modules.filters import (
     get_composite_count, get_unit_metrics,
 )
 from desktop.src.telemetry.manager import SkipsJob
+from desktop.src.widgets.number_grid import NumberGrid
 
 logger = logging.getLogger(__name__)
 
@@ -29,6 +31,10 @@ class AnalysisTab(QWidget):
     coupled with an interactive statistics ledger that supports click-to-drill-down
     skips analysis.
     """
+
+    # Emitted by the Drawings Trend checker's "Push to Pool" — ProphetDashboard
+    # connects this to the same handle_push_to_pool() slot PredictionTab uses.
+    numbers_recommended = Signal(list)
 
     def __init__(self, parent=None):
         super().__init__(parent)
@@ -121,6 +127,41 @@ class AnalysisTab(QWidget):
         main_splitter.setSizes([600, 150])
         layout.addWidget(main_splitter)
 
+        # 3. Drawings Trend — Manual Number Checker (SamLotto "Drawings Trend" / E5).
+        # Unlike Predict Center's algorithmic push-to-pool, this pool is entirely
+        # the user's own call — they eyeball whichever chart/table is on screen
+        # above and manually check numbers here.
+        trend_group = QGroupBox("Drawings Trend — Manual Number Checker")
+        trend_layout = QVBoxLayout(trend_group)
+        trend_layout.setSpacing(8)
+
+        trend_hint = QLabel(
+            "Eyeball the chart/table above, then manually check the numbers you want — "
+            "this pool is your own call, not an algorithm's."
+        )
+        trend_hint.setWordWrap(True)
+        trend_hint.setStyleSheet(f"color: {self.colors['text_dim']}; font-size: 10px;")
+        trend_layout.addWidget(trend_hint)
+
+        trend_scroll = QScrollArea()
+        trend_scroll.setWidgetResizable(True)
+        trend_scroll.setFixedHeight(140)
+        self.trend_grid = NumberGrid()
+        trend_scroll.setWidget(self.trend_grid)
+        trend_layout.addWidget(trend_scroll)
+
+        trend_actions = QHBoxLayout()
+        btn_trend_clear = QPushButton("Clear")
+        btn_trend_clear.clicked.connect(self.trend_grid.clear_selection)
+        btn_trend_push = QPushButton("→ PUSH CHECKED NUMBERS TO POOL")
+        btn_trend_push.clicked.connect(self._emit_trend_selection)
+        trend_actions.addWidget(btn_trend_clear)
+        trend_actions.addWidget(btn_trend_push, stretch=1)
+        trend_layout.addLayout(trend_actions)
+
+        layout.addWidget(trend_group)
+        self._sync_trend_grid_range()
+
         # Initial load
         self.load_data()
 
@@ -145,7 +186,26 @@ class AnalysisTab(QWidget):
     def set_lottery(self, lottery_id: str):
         """Called globally when active lottery swaps."""
         self.active_lottery = lottery_id
+        self._sync_trend_grid_range()
         self.load_data()
+
+    def _sync_trend_grid_range(self):
+        """Keeps the Drawings Trend checker's ball range matching the active game."""
+        try:
+            rules = get_adapter(self.active_lottery).rules
+            min_n, max_n = rules.number_range
+        except Exception:
+            min_n, max_n = 1, 25
+        self.trend_grid.set_range(min_n, max_n)
+
+    def _emit_trend_selection(self):
+        """'Push Checked Numbers to Pool' — the manual counterpart to Predict
+        Center's algorithmic numbers_recommended."""
+        numbers = sorted(self.trend_grid.selected_numbers)
+        if not numbers:
+            QMessageBox.warning(self, "No Numbers Checked", "Check at least one number in the grid first.")
+            return
+        self.numbers_recommended.emit(numbers)
 
     def load_data(self):
         """Queries DuckDB storage for the latest 200 draws to perform fast real-time analytics."""

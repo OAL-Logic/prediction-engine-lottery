@@ -286,6 +286,42 @@ def test_analysis_tab_stats_table_click(app, qtbot):
         job.wait()
 
 
+def test_analysis_tab_drawings_trend_manual_checker(app, qtbot, monkeypatch):
+    """Ticket #109 'Drawings Trend' (E5) — manual visual-frequency-chart number
+    checker. Unlike Predict Center's algorithmic push, numbers_recommended here
+    is driven entirely by what the user checks in trend_grid."""
+    from desktop.src.tabs.analysis import AnalysisTab
+
+    tab = AnalysisTab()
+    assert (tab.trend_grid.min_number, tab.trend_grid.max_number) == (1, 25)  # br/lotofacil default
+
+    tab.trend_grid.on_ball_clicked(3)
+    tab.trend_grid.on_ball_clicked(7)
+    tab.trend_grid.on_ball_clicked(21)
+
+    with qtbot.waitSignal(tab.numbers_recommended, timeout=2000) as blocker:
+        tab._emit_trend_selection()
+    assert blocker.args == [[3, 7, 21]]
+
+    # Empty selection must warn instead of emitting — stub the modal so it
+    # doesn't block the test process waiting for a dismiss that never comes.
+    warnings = []
+    monkeypatch.setattr(
+        "desktop.src.tabs.analysis.QMessageBox.warning",
+        lambda *a, **kw: warnings.append(a),
+    )
+    tab.trend_grid.clear_selection()
+    received = []
+    tab.numbers_recommended.connect(lambda nums: received.append(nums))
+    tab._emit_trend_selection()
+    assert received == []
+    assert len(warnings) == 1
+
+    # Switching games must resync the checker's ball range
+    tab.set_lottery("us/powerball")
+    assert tab.trend_grid.max_number == 69
+
+
 def test_limits_calculation_job(app, qtbot):
     from desktop.src.telemetry.manager import LimitsCalculationJob
     

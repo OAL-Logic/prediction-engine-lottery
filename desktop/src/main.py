@@ -87,6 +87,7 @@ class ProphetDashboard(QMainWindow):
         self.predict_tab.predict_button.clicked.connect(self.run_prediction_job_from_predict_center)
         self.predict_tab.train_button.clicked.connect(self.run_training_job)
         self.predict_tab.numbers_recommended.connect(self.handle_push_to_pool)
+        self.analysis_tab.numbers_recommended.connect(self.handle_push_to_pool)
         self.verification_tab.run_leaderboard_button.clicked.connect(self.run_verification_job)
         self.telemetry_client.new_log.connect(self.telemetry_tab.append_log)
 

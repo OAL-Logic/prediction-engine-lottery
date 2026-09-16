@@ -157,3 +157,12 @@ def test_prophet_dashboard_push_to_pool_wiring(qapp):
     dashboard.predict_tab.numbers_recommended.emit([4, 8, 15, 16, 23, 42])
     assert dashboard.number_grid.selected_numbers == {4, 8, 15, 16, 23, 42}
 
+def test_prophet_dashboard_drawings_trend_push_to_pool_wiring(qapp):
+    """Same end-to-end signal chain as above, but for ticket #109's Drawings
+    Trend manual checker (AnalysisTab.numbers_recommended) — both tabs share
+    the same handle_push_to_pool() slot."""
+    dashboard = ProphetDashboard()
+    dashboard.number_grid.set_max_number(60)
+    dashboard.analysis_tab.numbers_recommended.emit([1, 2, 3])
+    assert dashboard.number_grid.selected_numbers == {1, 2, 3}
+
