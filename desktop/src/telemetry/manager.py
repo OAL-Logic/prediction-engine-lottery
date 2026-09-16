@@ -658,6 +658,92 @@ class PruningJob(QThread):
             self.signals.failed.emit("Pruning Error", err_msg, tb_str)
 
 
+class TicketStoreReductionJob(QThread):
+    """
+    Ticket Store 'Reduce (WRG Guarantee)': applies engine.modules.wheels_wrg
+    .WheelingEngine's greedy set-cover reduction to an already-generated batch
+    of tickets (the main window's Ticket Store), dropping tickets whose
+    t-if-m coverage is already subsumed by others already kept. Thin QThread
+    wrapper — WheelingEngine.reduce_tickets() does all the actual set-cover
+    work; this job only remaps ticket numbers to the dense 1..N range that
+    engine expects (same convention WheelingTab's WheelingWorker uses for
+    get_gap_matrix()) and guards against a combinatorial explosion in the
+    coverage universe C(pool_size, m), which is a plain Python loop with no
+    interruption support.
+    """
+    SAFE_UNIVERSE_LIMIT = 50_000
+
+    def __init__(self, tickets: list[list[int]], t: int, m: int, target_coverage: float = 1.0, parent: QObject | None = None):
+        super().__init__(parent)
+        self.tickets = tickets
+        self.t = t
+        self.m = m
+        self.target_coverage = target_coverage
+        self.signals = JobSignals()
+
+    def run(self) -> None:
+        self.signals.new_log.emit(
+            f"Starting ticket store reduction on {len(self.tickets)} tickets (guarantee {self.t}-if-{self.m})...",
+            "INFO",
+        )
+        self.signals.progress.emit(5, "Building coverage pool...")
+
+        try:
+            from math import comb
+            from engine.modules.wheels_wrg import WheelingEngine
+
+            if not self.tickets:
+                self.signals.finished.emit({"status": "success", "kept_tickets": [], "original_count": 0, "reduced_count": 0})
+                return
+
+            pool = sorted({n for ticket in self.tickets for n in ticket})
+            if self.m > len(pool):
+                raise ValueError(f"'If drawn' (m={self.m}) exceeds the ticket store's pool size ({len(pool)} distinct numbers).")
+            if self.t > self.m:
+                raise ValueError(f"Guarantee (t={self.t}) cannot exceed m={self.m}.")
+            if len(pool) > 64:
+                raise ValueError(f"WheelingEngine supports pools up to 64 numbers (bit-packed limit); this store spans {len(pool)}.")
+
+            universe = comb(len(pool), self.m)
+            if universe > self.SAFE_UNIVERSE_LIMIT:
+                raise ValueError(
+                    f"Coverage universe C({len(pool)}, {self.m}) = {universe:,} target subsets is too large to "
+                    f"reduce in the UI (limit {self.SAFE_UNIVERSE_LIMIT:,}). Narrow the ticket store's pool or "
+                    f"raise 'm' first."
+                )
+
+            self.signals.progress.emit(15, f"Pool: {len(pool)} numbers, {universe:,} target subsets to cover...")
+            pool_map = {n: i + 1 for i, n in enumerate(pool)}
+            reverse_map = {i + 1: n for i, n in enumerate(pool)}
+            shifted = np.array([[pool_map[n] for n in ticket] for ticket in self.tickets])
+
+            wrg = WheelingEngine(len(pool), self.m)
+            self.signals.progress.emit(30, "Running greedy WRG set-cover reduction...")
+            kept_shifted = wrg.reduce_tickets(shifted, self.t, self.m, self.target_coverage)
+            kept = [sorted(reverse_map[i] for i in ticket) for ticket in kept_shifted.tolist()]
+
+            reduction_pct = (1.0 - (len(kept) / len(self.tickets))) * 100 if self.tickets else 0.0
+            self.signals.progress.emit(100, "Reduction complete.")
+            self.signals.new_log.emit(
+                f"Ticket store reduced from {len(self.tickets)} to {len(kept)} tickets "
+                f"({reduction_pct:.1f}% smaller) while preserving {self.t}-if-{self.m} coverage.",
+                "RESONANCE",
+            )
+            self.signals.finished.emit({
+                "status": "success",
+                "kept_tickets": kept,
+                "original_count": len(self.tickets),
+                "reduced_count": len(kept),
+                "pool_size": len(pool),
+            })
+
+        except Exception as exc:
+            tb_str = traceback.format_exc()
+            err_msg = str(exc) or type(exc).__name__
+            self.signals.new_log.emit(f"Ticket store reduction error: {err_msg}", "ERROR")
+            self.signals.failed.emit("Ticket Store Reduction Error", err_msg, tb_str)
+
+
 class ThreadManager:
     """Orchestrates background threads to prevent UI lockup and coordinate cleanup."""
     def __init__(self) -> None:

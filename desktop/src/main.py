@@ -13,10 +13,11 @@ from PySide6.QtWidgets import (
     QApplication, QMainWindow, QMessageBox, QWidget, QVBoxLayout, QHBoxLayout,
     QGridLayout, QSplitter, QGroupBox, QLabel, QComboBox, QScrollArea, QPushButton,
     QTableWidget, QTableWidgetItem, QHeaderView, QRadioButton, QButtonGroup, QCheckBox, QSpinBox,
-    QTabWidget, QMenu, QFileDialog, QDialog
+    QTabWidget, QMenu, QFileDialog, QDialog, QInputDialog
 )
 from PySide6.QtCore import Qt, Signal, Slot
-from PySide6.QtGui import QFont, QColor
+from PySide6.QtGui import QFont, QColor, QTextDocument
+from PySide6.QtPrintSupport import QPrinter, QPrintDialog
 
 from desktop.src.theme.manager import ThemeManager
 from desktop.src.tabs.database import DatabaseTab
@@ -232,14 +233,18 @@ class ProphetDashboard(QMainWindow):
         # Table Action Toolbar
         table_actions = QHBoxLayout()
         btn_dedupe = QPushButton("DEDUPLICATE")
+        btn_reduce = QPushButton("🎯 REDUCE (WRG)")
+        btn_reduce.setToolTip("Greedy WRG set-cover reduction: drop tickets whose t-if-m coverage is already subsumed by others.")
         btn_export = QPushButton("EXPORT TXT")
         btn_print = QPushButton("PRINT")
-        
+
         btn_dedupe.clicked.connect(self.dedupe_tickets)
+        btn_reduce.clicked.connect(self.reduce_ticket_store)
         btn_export.clicked.connect(self.export_tickets)
         btn_print.clicked.connect(self.print_tickets)
-        
+
         table_actions.addWidget(btn_dedupe)
+        table_actions.addWidget(btn_reduce)
         table_actions.addWidget(btn_export)
         table_actions.addWidget(btn_print)
         store_layout.addLayout(table_actions)
@@ -343,14 +348,16 @@ class ProphetDashboard(QMainWindow):
         menu = QMenu(self)
         sort_action = menu.addAction("Sort by Score")
         dedupe_action = menu.addAction("Deduplicate Tickets")
+        reduce_action = menu.addAction("🎯 Reduce (WRG Guarantee)...")
         export_action = menu.addAction("Export to TXT...")
         print_action = menu.addAction("Print Tickets")
-        
+
         sort_action.triggered.connect(self.sort_tickets)
         dedupe_action.triggered.connect(self.dedupe_tickets)
+        reduce_action.triggered.connect(self.reduce_ticket_store)
         export_action.triggered.connect(self.export_tickets)
         print_action.triggered.connect(self.print_tickets)
-        
+
         menu.exec(self.ticket_table.mapToGlobal(pos))
 
     def sort_tickets(self):
@@ -390,10 +397,129 @@ class ProphetDashboard(QMainWindow):
             QMessageBox.critical(self, "Export Error", f"Failed to export: {str(e)}")
 
     def print_tickets(self):
-        QMessageBox.information(
-            self, "Print Tickets", 
-            f"Successfully queued {self.ticket_table.rowCount()} tickets to system spooler."
+        row_count = self.ticket_table.rowCount()
+        if row_count == 0:
+            QMessageBox.warning(self, "No Tickets", "Ticket store is empty. Nothing to print.")
+            return
+
+        printer = QPrinter(QPrinter.HighResolution)
+        print_dialog = QPrintDialog(printer, self)
+        print_dialog.setWindowTitle("Print Ticket Store")
+        if print_dialog.exec() != QDialog.Accepted:
+            return
+
+        html = [
+            f"<h2>Lottery Engine — Ticket Store ({self.active_lottery})</h2>",
+            f"<p>Printed {datetime.now().strftime('%Y-%m-%d %H:%M')} — {row_count} ticket(s)</p>",
+            "<table border='1' cellspacing='0' cellpadding='4' width='100%'>",
+            "<tr><th>#</th><th>Combination</th><th>Score</th></tr>",
+        ]
+        for row in range(row_count):
+            idx_item = self.ticket_table.item(row, 0)
+            comb_item = self.ticket_table.item(row, 1)
+            score_item = self.ticket_table.item(row, 2)
+            html.append(
+                f"<tr><td>{idx_item.text() if idx_item else ''}</td>"
+                f"<td>{comb_item.text() if comb_item else ''}</td>"
+                f"<td>{score_item.text() if score_item else ''}</td></tr>"
+            )
+        html.append("</table>")
+
+        document = QTextDocument()
+        document.setHtml("".join(html))
+        document.print_(printer)
+
+        self.telemetry_tab.append_log(f"Printed {row_count} tickets via system print dialog.", "INFO")
+
+    def reduce_ticket_store(self):
+        """Runs WheelingEngine's greedy WRG set-cover reduction (F10-F12 wheel-reduction
+        parity) against the tickets currently sitting in the Ticket Store, dropping
+        tickets whose t-if-m coverage is already subsumed by others kept."""
+        tickets = []
+        for row in range(self.ticket_table.rowCount()):
+            item = self.ticket_table.item(row, 1)
+            if item:
+                nums = [int(x) for x in item.text().split() if x.isdigit()]
+                if nums:
+                    tickets.append(nums)
+
+        if len(tickets) < 2:
+            QMessageBox.warning(self, "Nothing to Reduce", "Ticket store needs at least 2 tickets to reduce.")
+            return
+
+        try:
+            default_pick = get_adapter(self.active_lottery).rules.pick_count
+        except Exception:
+            default_pick = len(tickets[0])
+
+        pool_size = len({n for t in tickets for n in t})
+        m, ok = QInputDialog.getInt(
+            self, "Reduce Ticket Store — Step 1/2",
+            f"If-drawn count (m): how many numbers out of the store's {pool_size}-number pool\n"
+            f"must be drawn to trigger the guarantee?",
+            default_pick, 2, max(2, pool_size)
         )
+        if not ok:
+            return
+        t, ok = QInputDialog.getInt(
+            self, "Reduce Ticket Store — Step 2/2",
+            f"Guarantee match (t): minimum matches guaranteed in at least one\nkept ticket, if {m} pool numbers are drawn.",
+            max(2, min(default_pick - 1, m)), 2, m
+        )
+        if not ok:
+            return
+
+        self.telemetry_tab.append_log(
+            f"Running WRG ticket store reduction on {len(tickets)} tickets ({t}-if-{m})...", "INFO"
+        )
+
+        from desktop.src.telemetry.manager import TicketStoreReductionJob
+        job = self.thread_manager.start_job(
+            "ticket_store_reduction",
+            TicketStoreReductionJob(tickets, t, m)
+        )
+        if not job:
+            return
+
+        def on_finished(payload):
+            if payload.get("status") != "success":
+                QMessageBox.critical(self, "Reduction Failed", "Ticket store reduction failed.")
+                return
+
+            kept = payload.get("kept_tickets", [])
+            original = payload.get("original_count", len(tickets))
+
+            self.ticket_table.setRowCount(0)
+            for idx, tk in enumerate(kept):
+                t_str = " ".join(f"{num:02d}" for num in tk)
+                row = self.ticket_table.rowCount()
+                self.ticket_table.insertRow(row)
+
+                idx_item = QTableWidgetItem(str(idx + 1))
+                comb_item = QTableWidgetItem(t_str)
+                score_item = QTableWidgetItem("1.0000")
+                idx_item.setFlags(idx_item.flags() & ~Qt.ItemIsEditable)
+                comb_item.setFlags(comb_item.flags() & ~Qt.ItemIsEditable)
+                score_item.setFlags(score_item.flags() & ~Qt.ItemIsEditable)
+
+                self.ticket_table.setItem(row, 0, idx_item)
+                self.ticket_table.setItem(row, 1, comb_item)
+                self.ticket_table.setItem(row, 2, score_item)
+
+            self.telemetry_tab.append_log(
+                f"Ticket store reduced: {original} -> {len(kept)} tickets (guarantee {t}-if-{m} preserved).",
+                "RESONANCE",
+            )
+            QMessageBox.information(
+                self, "Reduction Complete",
+                f"Reduced {original} tickets down to {len(kept)}, preserving the {t}-if-{m} coverage guarantee."
+            )
+
+        def on_failed(title, msg, tb):
+            QMessageBox.critical(self, title, msg)
+
+        job.signals.finished.connect(on_finished)
+        job.signals.failed.connect(on_failed)
 
     # Sub window modeless dialog triggers
     def show_db_tab(self):

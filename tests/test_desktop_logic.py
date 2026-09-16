@@ -410,5 +410,65 @@ def test_pruning_job(app, qtbot):
     assert elimination_counts.get("structural_odd_count") == 1
 
 
+def test_ticket_store_reduction_job(app, qtbot):
+    """Ticket Store 'Reduce (WRG)' — thin QThread wrapper around
+    engine.modules.wheels_wrg.WheelingEngine.reduce_tickets(). Full wheel over
+    a 5-number pool (all C(5,3)=10 tickets) reduced under a '2 if 3' guarantee
+    must shrink, and the guarantee must still hold for every possible 3-draw."""
+    from itertools import combinations
+    from desktop.src.telemetry.manager import TicketStoreReductionJob
+
+    pool = [1, 2, 3, 4, 5]
+    all_tickets = [list(c) for c in combinations(pool, 3)]
+
+    job = TicketStoreReductionJob(all_tickets, t=2, m=3)
+
+    failures = []
+    job.signals.failed.connect(lambda title, msg, tb: failures.append((title, msg, tb)))
+
+    results = {}
+    job.signals.finished.connect(results.update)
+
+    job.start()
+    with qtbot.waitSignal(job.signals.finished, timeout=5000):
+        pass
+
+    if failures:
+        title, msg, tb = failures[0]
+        pytest.fail(f"TicketStoreReductionJob failed: {title} - {msg}\nTraceback:\n{tb}")
+
+    assert results.get("status") == "success"
+    assert results.get("original_count") == 10
+    kept = results.get("kept_tickets", [])
+    assert 0 < len(kept) < 10
+
+    for subset in combinations(pool, 3):
+        subset = set(subset)
+        assert any(len(subset & set(ticket)) >= 2 for ticket in kept), (
+            f"coverage guarantee violated for draw {subset}: no kept ticket has >=2 matches"
+        )
+
+
+def test_ticket_store_reduction_job_rejects_oversized_universe(app, qtbot):
+    """Guards against the pure-Python O(subsets) reduce_tickets() loop hanging
+    the UI: a pool this size makes C(30, 15) > 150M target subsets, which must
+    fail fast with a clear message instead of freezing."""
+    from desktop.src.telemetry.manager import TicketStoreReductionJob
+
+    tickets = [list(range(1, 16)), list(range(16, 31))]
+    job = TicketStoreReductionJob(tickets, t=10, m=15)
+
+    failures = []
+    job.signals.failed.connect(lambda title, msg, tb: failures.append((title, msg, tb)))
+
+    job.start()
+    with qtbot.waitSignal(job.signals.failed, timeout=5000):
+        pass
+
+    assert len(failures) == 1
+    title, msg, tb = failures[0]
+    assert "too large" in msg
+
+
 
 
