@@ -662,6 +662,18 @@ def pair_trend(
     from engine.cli.commands.pair_trend import pair_trend as impl
     return impl(lottery, a, b, window, step)
 
+@app.command(name="pair-graph-export", rich_help_panel=PANEL_ANALYTICS)
+def pair_graph_export(
+    lottery: Annotated[str, typer.Argument(help="Lottery name [Required]")],
+    draws: Annotated[Optional[int], typer.Option("--draws", "-n", help="Use only the N most recent draws (default: all)")] = None,
+    min_count: Annotated[int, typer.Option("--min-count", help="Only include pairs that co-occurred at least this many times")] = 3,
+    format: Annotated[str, typer.Option("--format", "-f", help="graphml | dot")] = "graphml",
+    output: Annotated[Optional[str], typer.Option("--output", "-o", help="Write to this file instead of printing")] = None,
+):
+    """🕸️ Export the number co-occurrence network as GraphML or DOT for external graph tools."""
+    from engine.cli.commands.pair_graph_export import pair_graph_export as impl
+    return impl(lottery, draws, min_count, format, output)
+
 @app.command(name="twin-draws", rich_help_panel=PANEL_ANALYTICS)
 def twin_draws(
     lottery: Annotated[str, typer.Argument(help="Lottery name [Required]")],
