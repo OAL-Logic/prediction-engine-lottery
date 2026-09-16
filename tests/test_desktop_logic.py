@@ -506,5 +506,56 @@ def test_ticket_store_reduction_job_rejects_oversized_universe(app, qtbot):
     assert "too large" in msg
 
 
+def _make_dashboard_with_tickets(qapp, tmp_path, tickets):
+    """Shared setup for export_tickets() tests: a real ProphetDashboard with
+    its Ticket Store populated, matching the "NN NN NN..." text format
+    run_pruning()/handle_wheeling_tickets_shared() already write."""
+    from PySide6.QtWidgets import QTableWidgetItem
+    from PySide6.QtCore import Qt
+    from desktop.src.main import ProphetDashboard
+
+    dashboard = ProphetDashboard()
+    dashboard.ticket_table.setRowCount(0)
+    for idx, ticket in enumerate(tickets):
+        row = dashboard.ticket_table.rowCount()
+        dashboard.ticket_table.insertRow(row)
+        dashboard.ticket_table.setItem(row, 0, QTableWidgetItem(str(idx + 1)))
+        dashboard.ticket_table.setItem(row, 1, QTableWidgetItem(" ".join(f"{n:02d}" for n in ticket)))
+        dashboard.ticket_table.setItem(row, 2, QTableWidgetItem("1.0000"))
+    return dashboard
+
+
+def test_export_tickets_txt(app, qtbot, tmp_path, monkeypatch):
+    dashboard = _make_dashboard_with_tickets(app, tmp_path, [[1, 2, 3], [4, 5, 6]])
+    out_file = tmp_path / "tickets.txt"
+    monkeypatch.setattr(
+        "desktop.src.main.QFileDialog.getSaveFileName",
+        lambda *a, **kw: (str(out_file), "Text Files (*.txt)"),
+    )
+    monkeypatch.setattr("desktop.src.main.QMessageBox.information", lambda *a, **kw: None)
+    dashboard.export_tickets()
+
+    content = out_file.read_text(encoding="utf-8")
+    assert content == "01 02 03\n04 05 06"
+
+
+def test_export_tickets_csv(app, qtbot, tmp_path, monkeypatch):
+    dashboard = _make_dashboard_with_tickets(app, tmp_path, [[1, 2, 3], [4, 5, 6]])
+    out_file = tmp_path / "tickets.csv"
+    monkeypatch.setattr(
+        "desktop.src.main.QFileDialog.getSaveFileName",
+        lambda *a, **kw: (str(out_file), "CSV Files (*.csv)"),
+    )
+    monkeypatch.setattr("desktop.src.main.QMessageBox.information", lambda *a, **kw: None)
+    dashboard.export_tickets()
+
+    import csv
+    with open(out_file, newline="", encoding="utf-8") as f:
+        rows = list(csv.reader(f))
+    assert rows[0] == ["Index", "Numbers", "Score"]
+    assert rows[1] == ["1", "01 02 03", "1.0000"]
+    assert rows[2] == ["2", "04 05 06", "1.0000"]
+
+
 
 

@@ -380,19 +380,35 @@ class ProphetDashboard(QMainWindow):
         self.telemetry_tab.append_log(f"Removed {len(rows_to_remove)} duplicate tickets.", "INFO")
 
     def export_tickets(self):
-        file_path, _ = QFileDialog.getSaveFileName(
-            self, "Export Tickets", "tickets.txt", "Text Files (*.txt);;All Files (*)"
+        file_path, selected_filter = QFileDialog.getSaveFileName(
+            self, "Export Tickets", "tickets.txt",
+            "Text Files (*.txt);;CSV Files (*.csv);;All Files (*)"
         )
         if not file_path:
             return
         try:
-            lines = []
-            for row in range(self.ticket_table.rowCount()):
-                item = self.ticket_table.item(row, 1)
-                if item:
-                    lines.append(item.text())
-            with open(file_path, "w", encoding="utf-8") as f:
-                f.write("\n".join(lines))
+            if file_path.lower().endswith(".csv") or "CSV" in selected_filter:
+                import csv
+                with open(file_path, "w", encoding="utf-8", newline="") as f:
+                    writer = csv.writer(f)
+                    writer.writerow(["Index", "Numbers", "Score"])
+                    for row in range(self.ticket_table.rowCount()):
+                        idx_item = self.ticket_table.item(row, 0)
+                        comb_item = self.ticket_table.item(row, 1)
+                        score_item = self.ticket_table.item(row, 2)
+                        writer.writerow([
+                            idx_item.text() if idx_item else "",
+                            comb_item.text() if comb_item else "",
+                            score_item.text() if score_item else "",
+                        ])
+            else:
+                lines = []
+                for row in range(self.ticket_table.rowCount()):
+                    item = self.ticket_table.item(row, 1)
+                    if item:
+                        lines.append(item.text())
+                with open(file_path, "w", encoding="utf-8") as f:
+                    f.write("\n".join(lines))
             QMessageBox.information(self, "Export Complete", f"Successfully exported tickets to:\n{file_path}")
         except Exception as e:
             QMessageBox.critical(self, "Export Error", f"Failed to export: {str(e)}")
