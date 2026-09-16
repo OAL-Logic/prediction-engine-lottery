@@ -650,6 +650,16 @@ def pattern_search(
     from engine.cli.commands.pattern_search import pattern_search as impl
     return impl(lottery, numbers, top, min_overlap)
 
+@app.command(name="twin-draws", rich_help_panel=PANEL_ANALYTICS)
+def twin_draws(
+    lottery: Annotated[str, typer.Argument(help="Lottery name [Required]")],
+    top: Annotated[int, typer.Option("--top", help="How many twin pairs to show")] = 10,
+    limit: Annotated[int, typer.Option("--limit", help="Scan only the N most recent draws (0 = all history)")] = 1500,
+):
+    """👯 Find the pairs of historical draws with the highest number overlap."""
+    from engine.cli.commands.twin_draws import twin_draws as impl
+    return impl(lottery, top, limit)
+
 @app.command(name="draw-summary", rich_help_panel=PANEL_ANALYTICS)
 def draw_summary(
     lottery: Annotated[str, typer.Argument(help="Lottery name [Required]")],
