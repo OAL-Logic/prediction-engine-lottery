@@ -1729,6 +1729,15 @@ def ticket_backtest(
     from engine.cli.commands.ticket_backtest import ticket_backtest as impl
     return impl(lottery, numbers)
 
+@app.command(name="seed-audit", rich_help_panel=PANEL_VERIFY)
+def seed_audit(
+    lottery: Annotated[str, typer.Argument(help="Lottery name [Required]")],
+    date: Annotated[Optional[str], typer.Option("--date", help="Date to audit, YYYY-MM-DD (default: today)")] = None,
+):
+    """🌍🔍 Preview the deterministic --weather-seed for a given date, without running a generation."""
+    from engine.cli.commands.seed_audit import seed_audit as impl
+    return impl(lottery, date)
+
 @app.command(name="property-tests", rich_help_panel=PANEL_VERIFY)
 def property_tests(
     strategy: Annotated[str, typer.Option("--strategy", "-s", help="Strategy to test (or 'all')")] = "all",
