@@ -1698,6 +1698,16 @@ def filter_funnel(
     from engine.cli.commands.filter_funnel import filter_funnel as impl
     return impl(lottery, pool, filters, list_filters, tier)
 
+@app.command(name="batch-grade", rich_help_panel=PANEL_VERIFY)
+def batch_grade(
+    lottery: Annotated[str, typer.Argument(help="Lottery name [Required]")],
+    file: Annotated[str, typer.Option("--file", "-f", help="File with one ticket per line, space-separated numbers")],
+    export_csv: Annotated[Optional[str], typer.Option("--export-csv", help="Write the summary table to this CSV file")] = None,
+):
+    """📋 Quick structural screen (sum/parity/primes/spread) for many tickets at once."""
+    from engine.cli.commands.batch_grade import batch_grade as impl
+    return impl(lottery, file, export_csv)
+
 @app.command(name="property-tests", rich_help_panel=PANEL_VERIFY)
 def property_tests(
     strategy: Annotated[str, typer.Option("--strategy", "-s", help="Strategy to test (or 'all')")] = "all",
