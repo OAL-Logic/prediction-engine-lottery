@@ -670,6 +670,24 @@ def combo_diff(
     from engine.cli.commands.combo_diff import combo_diff as impl
     return impl(lottery, a, b)
 
+@app.command(name="draw-anniversary", rich_help_panel=PANEL_ANALYTICS)
+def draw_anniversary(
+    lottery: Annotated[str, typer.Argument(help="Lottery name [Required]")],
+    date: Annotated[Optional[str], typer.Option("--date", help="Anniversary date to check, YYYY-MM-DD (default: today)")] = None,
+):
+    """📅 Show every historical draw that fell on this same month/day, across all years."""
+    from engine.cli.commands.draw_anniversary import draw_anniversary as impl
+    return impl(lottery, date)
+
+@app.command(name="number-lifecycle", rich_help_panel=PANEL_ANALYTICS)
+def number_lifecycle(
+    lottery: Annotated[str, typer.Argument(help="Lottery name [Required]")],
+    number: Annotated[int, typer.Argument(help="Number to profile")],
+):
+    """🧬 Full historical dossier for a single number: hits, gaps, streaks."""
+    from engine.cli.commands.number_lifecycle import number_lifecycle as impl
+    return impl(lottery, number)
+
 @app.command(name="draw-summary", rich_help_panel=PANEL_ANALYTICS)
 def draw_summary(
     lottery: Annotated[str, typer.Argument(help="Lottery name [Required]")],
