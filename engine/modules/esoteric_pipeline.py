@@ -83,33 +83,53 @@ class EsotericPipeline:
         self.timeout = timeout
         
     def fetch_solar_kp(self) -> float:
-        """Fetches planetary Kp-index from NOAA with static fallback."""
-        try:
-            url = "https://services.swpc.noaa.gov/products/noaa-planetary-k-index.json"
-            resp = httpx.get(url, timeout=self.timeout)
-            if resp.status_code == 200:
-                data = resp.json()
-                if len(data) > 1:
-                    return float(data[-1][1])
-        except Exception:
-            pass
-        return 3.0 # Quiet baseline
+        """
+        Fetches planetary Kp-index from NOAA with static fallback. Cached for
+        the rest of the calendar day (keyed by today's date) so repeated
+        calls on the same day — as --weather-seed relies on for its
+        reproducibility guarantee — don't race a live, sub-daily-updating
+        feed and land on different values.
+        """
+        def _do_fetch() -> float:
+            try:
+                url = "https://services.swpc.noaa.gov/products/noaa-planetary-k-index.json"
+                resp = httpx.get(url, timeout=self.timeout)
+                if resp.status_code == 200:
+                    data = resp.json()
+                    if len(data) > 1:
+                        return float(data[-1][1])
+            except Exception:
+                pass
+            return 3.0  # Quiet baseline
+
+        from engine.cli.utils import get_cached_data
+        result = get_cached_data(f"solar_kp_{date.today().isoformat()}", _do_fetch, ttl=86400)
+        return result if result is not None else _do_fetch()
         
     def fetch_seismic_mag(self, lat: float, lon: float) -> float:
-        """Fetches latest max magnitude seismic tremor near location within last day."""
-        try:
-            # Query USGS last 24h
-            url = f"https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&latitude={lat}&longitude={lon}&maxradiuskm=500&minmagnitude=1.0"
-            resp = httpx.get(url, timeout=self.timeout)
-            if resp.status_code == 200:
-                data = resp.json()
-                features = data.get("features", [])
-                if features:
-                    mags = [f["properties"]["mag"] for f in features if f["properties"]["mag"] is not None]
-                    return max(mags) if mags else 0.0
-        except Exception:
-            pass
-        return 0.0 # Stable tectonic state
+        """
+        Fetches latest max magnitude seismic tremor near location within last
+        day. Cached for the rest of the calendar day (see fetch_solar_kp) so
+        --weather-seed stays reproducible across repeated same-day calls
+        instead of racing a rolling "last 24h" live feed.
+        """
+        def _do_fetch() -> float:
+            try:
+                url = f"https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&latitude={lat}&longitude={lon}&maxradiuskm=500&minmagnitude=1.0"
+                resp = httpx.get(url, timeout=self.timeout)
+                if resp.status_code == 200:
+                    data = resp.json()
+                    features = data.get("features", [])
+                    if features:
+                        mags = [f["properties"]["mag"] for f in features if f["properties"]["mag"] is not None]
+                        return max(mags) if mags else 0.0
+            except Exception:
+                pass
+            return 0.0  # Stable tectonic state
+
+        from engine.cli.utils import get_cached_data
+        result = get_cached_data(f"seismic_mag_{lat}_{lon}_{date.today().isoformat()}", _do_fetch, ttl=86400)
+        return result if result is not None else _do_fetch()
 
     def calculate_lunar_phase(self, target_date: date) -> float:
         """
@@ -143,35 +163,46 @@ class EsotericPipeline:
         deterministic ingredient for the hash below; on any network issue we fall
         back to `None` rather than raising, since this is personalization data,
         never a hard dependency.
+
+        For today/future dates this hits the *forecast* endpoint, which is
+        updated intraday — cached per (lat, lon, target_date) for the rest of
+        the calendar day so repeated same-day calls (what --weather-seed's
+        reproducibility guarantee depends on) don't race an updating forecast
+        and land on different readings.
         """
-        try:
-            today = date.today()
-            is_past = target_date < today
-            base = (
-                "https://archive-api.open-meteo.com/v1/archive"
-                if is_past else "https://api.open-meteo.com/v1/forecast"
-            )
-            params = f"latitude={lat}&longitude={lon}&daily=temperature_2m_mean,precipitation_sum&timezone=auto"
-            if is_past:
-                params += f"&start_date={target_date.isoformat()}&end_date={target_date.isoformat()}"
-            else:
-                params += "&forecast_days=3"
-            resp = httpx.get(f"{base}?{params}", timeout=self.timeout)
-            if resp.status_code == 200:
-                daily = resp.json().get("daily", {})
-                dates = daily.get("time", [])
-                temps = daily.get("temperature_2m_mean", [])
-                precs = daily.get("precipitation_sum", [])
-                target_str = target_date.isoformat()
-                idx = dates.index(target_str) if target_str in dates else (0 if dates else None)
-                if idx is not None:
-                    return {
-                        "temperature_c": temps[idx] if idx < len(temps) else None,
-                        "precip_mm": precs[idx] if idx < len(precs) else None,
-                    }
-        except Exception:
-            pass
-        return {"temperature_c": None, "precip_mm": None}
+        def _do_fetch() -> Dict[str, Optional[float]]:
+            try:
+                today = date.today()
+                is_past = target_date < today
+                base = (
+                    "https://archive-api.open-meteo.com/v1/archive"
+                    if is_past else "https://api.open-meteo.com/v1/forecast"
+                )
+                params = f"latitude={lat}&longitude={lon}&daily=temperature_2m_mean,precipitation_sum&timezone=auto"
+                if is_past:
+                    params += f"&start_date={target_date.isoformat()}&end_date={target_date.isoformat()}"
+                else:
+                    params += "&forecast_days=3"
+                resp = httpx.get(f"{base}?{params}", timeout=self.timeout)
+                if resp.status_code == 200:
+                    daily = resp.json().get("daily", {})
+                    dates = daily.get("time", [])
+                    temps = daily.get("temperature_2m_mean", [])
+                    precs = daily.get("precipitation_sum", [])
+                    target_str = target_date.isoformat()
+                    idx = dates.index(target_str) if target_str in dates else (0 if dates else None)
+                    if idx is not None:
+                        return {
+                            "temperature_c": temps[idx] if idx < len(temps) else None,
+                            "precip_mm": precs[idx] if idx < len(precs) else None,
+                        }
+            except Exception:
+                pass
+            return {"temperature_c": None, "precip_mm": None}
+
+        from engine.cli.utils import get_cached_data
+        result = get_cached_data(f"esoteric_weather_{lat}_{lon}_{target_date.isoformat()}", _do_fetch, ttl=86400)
+        return result if result is not None else _do_fetch()
 
     def compile_context(
         self,
