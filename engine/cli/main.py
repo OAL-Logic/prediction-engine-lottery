@@ -1638,6 +1638,18 @@ def coverage_check(
     from engine.cli.commands.coverage_check import coverage_check as impl
     return impl(lottery, tickets, file, export_md)
 
+@app.command(name="filter-funnel", rich_help_panel=PANEL_VERIFY)
+def filter_funnel(
+    lottery: Annotated[str, typer.Argument(help="Lottery name [Required]")],
+    pool: Annotated[Optional[str], typer.Option("--pool", help="Comma-separated candidate number pool to sweep")] = None,
+    filters: Annotated[Optional[str], typer.Option("--filters", help="Comma-separated filter unique_ids, applied in order")] = None,
+    list_filters: Annotated[bool, typer.Option("--list-filters", help="List every available filter (tier, id, name) and exit")] = False,
+    tier: Annotated[Optional[int], typer.Option("--tier", help="With --list-filters, restrict to a single tier (1-5)")] = None,
+):
+    """🕳️ Track how many combinations survive each filter in a chain, tier by tier."""
+    from engine.cli.commands.filter_funnel import filter_funnel as impl
+    return impl(lottery, pool, filters, list_filters, tier)
+
 @app.command(name="property-tests", rich_help_panel=PANEL_VERIFY)
 def property_tests(
     strategy: Annotated[str, typer.Option("--strategy", "-s", help="Strategy to test (or 'all')")] = "all",
