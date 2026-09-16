@@ -639,6 +639,17 @@ def pair_analysis(
     from engine.cli.commands.pair_analysis import pair_analysis as impl
     return impl(lottery, draws, top, focus, min_count, export_md)
 
+@app.command(name="pattern-search", rich_help_panel=PANEL_ANALYTICS)
+def pattern_search(
+    lottery: Annotated[str, typer.Argument(help="Lottery name [Required]")],
+    numbers: Annotated[str, typer.Option("--numbers", "-n", help="Comma-separated numbers to search for, e.g. 3,7,12,24")],
+    top: Annotated[int, typer.Option("--top", help="How many best matches to show")] = 10,
+    min_overlap: Annotated[int, typer.Option("--min-overlap", help="Only show draws matching at least this many numbers")] = 2,
+):
+    """🔎 Rank historical draws by overlap with a given set of numbers."""
+    from engine.cli.commands.pattern_search import pattern_search as impl
+    return impl(lottery, numbers, top, min_overlap)
+
 @app.command(name="draw-summary", rich_help_panel=PANEL_ANALYTICS)
 def draw_summary(
     lottery: Annotated[str, typer.Argument(help="Lottery name [Required]")],
