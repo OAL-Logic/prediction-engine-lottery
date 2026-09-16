@@ -242,7 +242,9 @@ class TestStrategyRegistry:
     
     def test_valid_tiers(self):
         from engine.strategies import STRATEGY_REGISTRY
-        valid_tiers = {"statistical", "ml", "deep", "fun"}
+        # "foundation" (timesfm, tabfm) has been a real tier since 11.4.0 — this
+        # set was never updated when it was added, so it's failed since then.
+        valid_tiers = {"statistical", "ml", "deep", "fun", "foundation"}
         for name, info in STRATEGY_REGISTRY.items():
             assert info["tier"] in valid_tiers, \
                 f"Strategy '{name}' has invalid tier '{info['tier']}'"

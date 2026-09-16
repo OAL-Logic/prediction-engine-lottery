@@ -105,7 +105,11 @@ STRATEGY_REGISTRY = {
     "cnn_1d": {"module": "engine.strategies.deep.cnn_1d", "tier": "deep", "description": "1D Convolutional Neural Network"},
     "deep_lstm": {"module": "engine.strategies.ml.deep_lstm", "tier": "ml", "description": "🧠 Deep LSTM — manual NumPy RNN"},
     "gnn": {"module": "engine.strategies.deep.gnn", "tier": "deep", "description": "🕸️ Graph Neural Network (GCN) — spatial propagation on grid"},
-    
+
+    # Foundation (zero-shot, no per-game training)
+    "timesfm": {"module": "engine.strategies.foundation.timesfm_forecast", "tier": "foundation", "description": "🔭 TimesFM — zero-shot foundation-model forecast per number's hit series"},
+    "tabfm": {"module": "engine.strategies.foundation.tabfm_forecast", "tier": "foundation", "description": "📊 TabFM — zero-shot tabular foundation-model (TabPFN) classification over per-number draw features"},
+
     # Fun / Chaos
     "numerology": {"module": "engine.strategies.fun.numerology", "tier": "fun", "description": "Pythagorean Gematria"},
     "archetypes": {"module": "engine.strategies.fun.archetypes", "tier": "fun", "description": "🎭 Numerical Archetypes (Balanced Narrative)"},

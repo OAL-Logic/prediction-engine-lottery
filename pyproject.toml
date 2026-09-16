@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "lottery-engine"
-version = "11.3.0"
+version = "11.5.0"
 description = "High-performance lottery prediction engine — 100+ CLI commands, 80+ strategies, FastAPI sidecar, Go gateway"
 readme = "README.md"
 requires-python = ">=3.11"
@@ -47,6 +47,12 @@ ml = [
 deep = [
     "torch>=2.3",
     "pytorch-crf>=0.7",
+]
+foundation = [
+    "timesfm",  # zero-shot forecasting (TimesFM 2.5); pulls in torch. Not in `all` —
+                # opt-in: downloads ~800MB of model weights from HF Hub on first use.
+    "tabpfn",   # zero-shot tabular classification (TabPFN); also pulls in torch.
+                # Weights are much smaller than TimesFM's but still opt-in, same reason.
 ]
 all = [
     "scikit-learn>=1.5",
