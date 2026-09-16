@@ -1540,6 +1540,12 @@ def data_status(
     from engine.cli.commands.data_status import data_status as impl
     return impl(all_games)
 
+@app.command(name="config-check", rich_help_panel=PANEL_SYSTEM)
+def config_check():
+    """🩺 Environment/setup health check — DuckDB, registry, optional ML/UI extras, local config."""
+    from engine.cli.commands.config_check import config_check as impl
+    return impl()
+
 @app.command(rich_help_panel=PANEL_SYSTEM)
 def record(
     lottery: Annotated[str, typer.Argument(help="Lottery name [Required]")],
