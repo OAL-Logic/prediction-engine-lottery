@@ -71152,5 +71152,23 @@
     "precipitation_sum": 0.2,
     "windspeed_10m_max": 11.7,
     "surface_pressure_mean": 932.9
+  },
+  "2026-09-08": {
+    "temperature_2m_mean": 15.7,
+    "precipitation_sum": 16.5,
+    "windspeed_10m_max": 9.0,
+    "surface_pressure_mean": 934.0
+  },
+  "2026-09-10": {
+    "temperature_2m_mean": 18.3,
+    "precipitation_sum": 25.0,
+    "windspeed_10m_max": 14.2,
+    "surface_pressure_mean": 930.5
+  },
+  "2026-09-13": {
+    "temperature_2m_mean": 15.1,
+    "precipitation_sum": 12.9,
+    "windspeed_10m_max": 11.4,
+    "surface_pressure_mean": 934.6
   }
 }
