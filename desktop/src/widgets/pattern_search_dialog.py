@@ -35,8 +35,6 @@ class PatternSearchDialog(QDialog):
         self.lottery_id = lottery_id
         self.setWindowTitle("Pattern Search")
         self.resize(560, 420)
-        self.setStyleSheet("background-color: #121214; color: #E0E0E5;")
-
         self.numbers_input = QLineEdit()
         self.numbers_input.setPlaceholderText("e.g. 3,7,12,24")
 

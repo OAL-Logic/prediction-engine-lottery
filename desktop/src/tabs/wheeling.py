@@ -6,6 +6,7 @@ from PySide6.QtWidgets import (
     QButtonGroup, QSplitter, QScrollArea, QMessageBox
 )
 from PySide6.QtCore import Qt, Signal, QThread
+from PySide6.QtGui import QColor
 from matplotlib.backends.backend_qtagg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.figure import Figure
 from typing import Any
@@ -13,6 +14,7 @@ from typing import Any
 from engine.wheels import generate_full_wheel, generate_key_wheel, generate_abbreviated_wheel
 from engine.modules.wheels_wrg import WheelingEngine
 from engine.cli.utils import get_adapter
+from desktop.src.theme.manager import THEMES, DEFAULT_THEME
 
 logger = logging.getLogger(__name__)
 
@@ -81,7 +83,10 @@ class WheelingTab(QWidget):
         self.key_numbers = []
         self.generated_tickets = []
         self.buttons = {}
-        
+        # Default-theme fallback; apply_theme() overwrites these once ThemeManager
+        # is wired up, so the very first paint before that call still looks right.
+        self.colors = THEMES[DEFAULT_THEME]
+
         self.initUI()
 
     def initUI(self):
@@ -120,10 +125,9 @@ class WheelingTab(QWidget):
         # Scroll area containing the number grid
         scroll_area = QScrollArea()
         scroll_area.setWidgetResizable(True)
-        scroll_area.setStyleSheet("QScrollArea { border: 1px solid #333333; background-color: #000000; }")
-        
+        self.scroll_area = scroll_area
+
         self.grid_widget = QWidget()
-        self.grid_widget.setStyleSheet("background-color: #000000;")
         self.grid_layout = QGridLayout(self.grid_widget)
         self.grid_layout.setSpacing(6)
         scroll_area.setWidget(self.grid_widget)
@@ -143,7 +147,6 @@ class WheelingTab(QWidget):
 
         # Selection counters status label
         self.lbl_status = QLabel("Pool: 0 selected | Keys: 0 selected")
-        self.lbl_status.setStyleSheet("color: #008f11; font-weight: bold; font-size: 11px;")
         pool_layout.addWidget(self.lbl_status)
 
         splitter.addWidget(pool_group)
@@ -187,22 +190,19 @@ class WheelingTab(QWidget):
 
         # Action Button to generate
         self.btn_generate = QPushButton("⚡ GENERATE GOLDEN WHEEL")
-        self.btn_generate.setStyleSheet("""
-            QPushButton {
-                background-color: #008f11;
-                color: #ffffff;
-                font-weight: bold;
-                padding: 10px;
-                font-size: 13px;
-                border-radius: 4px;
-            }
-            QPushButton:hover {
-                background-color: #00ff41;
-                color: #000000;
-            }
-        """)
         self.btn_generate.clicked.connect(self.generate_wheel)
         config_layout.addRow(self.btn_generate)
+
+        # A different generation mode (SamLotto's "Position" tab of Build
+        # Tickets — independent candidate numbers per ticket position, not a
+        # pool/key wheel) — its own dialog, not another pool-based wheel type.
+        self.btn_position_tickets = QPushButton("🎯 Position Number Tickets...")
+        self.btn_position_tickets.setToolTip(
+            "Give each ticket position its own candidate numbers and generate\n"
+            "every valid combination — independent of the pool grid above."
+        )
+        self.btn_position_tickets.clicked.connect(self.launch_position_tickets_dialog)
+        config_layout.addRow(self.btn_position_tickets)
 
         right_splitter.addWidget(config_group)
 
@@ -229,7 +229,7 @@ class WheelingTab(QWidget):
             "Bet Space Shrinkage    : 0.00%\n"
             "Estimated Capital Saved : $0.00"
         )
-        self.lbl_reduction_stats.setStyleSheet("font-family: 'JetBrains Mono'; font-size: 11px; color: #00ff41;")
+        self.lbl_reduction_stats.setStyleSheet("font-family: 'JetBrains Mono'; font-size: 11px;")
         reduction_layout.addWidget(self.lbl_reduction_stats)
         
         self.btn_send_to_verify = QPushButton("🛡️ SEND TO VERIFICATION DESK")
@@ -245,10 +245,10 @@ class WheelingTab(QWidget):
         heatmap_layout = QVBoxLayout(heatmap_group)
         heatmap_layout.setContentsMargins(4, 4, 4, 4)
         
-        self.figure = Figure(figsize=(6, 5), facecolor='#000000')
+        self.figure = Figure(figsize=(6, 5), facecolor=self.colors["background"])
         self.canvas = FigureCanvas(self.figure)
         self.ax = self.figure.add_subplot(111)
-        self.ax.set_facecolor('#000000')
+        self.ax.set_facecolor(self.colors["background"])
         
         heatmap_layout.addWidget(self.canvas)
         output_splitter.addWidget(heatmap_group)
@@ -328,47 +328,49 @@ class WheelingTab(QWidget):
 
     def get_ball_style(self, num: int) -> str:
         """Returns the neon style sheet string depending on number selection state."""
+        c = self.colors
         if num in self.key_numbers:
-            # Selected as Key (Purple Astro Violet theme)
-            return """
-                QPushButton {
-                    background-color: #8a2be2;
-                    color: #ffffff;
-                    border: 2px solid #ffffff;
+            # Selected as Key (Astro Violet accent)
+            accent_hover = QColor(c["accent"]).lighter(130).name()
+            return f"""
+                QPushButton {{
+                    background-color: {c['accent']};
+                    color: white;
+                    border: 2px solid white;
                     border-radius: 18px;
                     font-weight: bold;
-                }
-                QPushButton:hover {
-                    background-color: #b15dff;
-                }
+                }}
+                QPushButton:hover {{
+                    background-color: {accent_hover};
+                }}
             """
         elif num in self.pool_numbers:
-            # Selected in Pool (Matrix Green theme)
-            return """
-                QPushButton {
-                    background-color: #00ff41;
-                    color: #000000;
-                    border: 2px solid #00ff41;
+            # Selected in Pool (primary theme color)
+            return f"""
+                QPushButton {{
+                    background-color: {c['primary']};
+                    color: {c['background']};
+                    border: 2px solid {c['primary']};
                     border-radius: 18px;
                     font-weight: bold;
-                }
-                QPushButton:hover {
-                    background-color: #00e63a;
-                }
+                }}
+                QPushButton:hover {{
+                    background-color: {c['primary_hover']};
+                }}
             """
         else:
-            # Unselected default state (Sleek obsidian border-only)
-            return """
-                QPushButton {
-                    background-color: #000000;
-                    color: #00ff41;
-                    border: 1px solid #333333;
+            # Unselected default state (border-only)
+            return f"""
+                QPushButton {{
+                    background-color: {c['background']};
+                    color: {c['primary']};
+                    border: 1px solid {c['border']};
                     border-radius: 18px;
-                }
-                QPushButton:hover {
-                    background-color: #1a1a1a;
-                    border: 1px solid #00ff41;
-                }
+                }}
+                QPushButton:hover {{
+                    background-color: {c['tab_bg']};
+                    border: 1px solid {c['primary']};
+                }}
             """
 
     def on_ball_clicked(self, num: int):
@@ -548,9 +550,9 @@ class WheelingTab(QWidget):
             im = self.ax.imshow(gap_matrix, cmap='viridis', interpolation='nearest')
             self.ax.set_xticks(range(n_pool))
             self.ax.set_yticks(range(n_pool))
-            self.ax.set_xticklabels([f"{n:02d}" for n in pool], color='#008f11', fontsize=8, rotation=90)
-            self.ax.set_yticklabels([f"{n:02d}" for n in pool], color='#008f11', fontsize=8)
-            self.ax.set_title("Mutual Pair Coverage Matrix", color='#00ff41', fontsize=10)
+            self.ax.set_xticklabels([f"{n:02d}" for n in pool], color=self.colors["text_dim"], fontsize=8, rotation=90)
+            self.ax.set_yticklabels([f"{n:02d}" for n in pool], color=self.colors["text_dim"], fontsize=8)
+            self.ax.set_title("Mutual Pair Coverage Matrix", color=self.colors["primary"], fontsize=10)
             self.figure.tight_layout()
             self.canvas.draw()
         else:
@@ -558,11 +560,36 @@ class WheelingTab(QWidget):
 
     def clear_heatmap(self):
         self.ax.clear()
-        self.ax.text(0.5, 0.5, "No Active Wheel Coverage Data", 
-                     color='#008f11', ha='center', va='center', transform=self.ax.transAxes)
+        self.ax.text(0.5, 0.5, "No Active Wheel Coverage Data",
+                     color=self.colors["text_dim"], ha='center', va='center', transform=self.ax.transAxes)
         self.ax.set_xticks([])
         self.ax.set_yticks([])
         self.canvas.draw()
+
+    def apply_theme(self, colors: dict):
+        """Repaints per-widget styles and the matplotlib canvas that live outside
+        the global QSS cascade, then redraws whatever coverage state is current
+        so the heatmap's own text/title colors pick up the new theme too."""
+        self.colors = colors
+        self.scroll_area.setStyleSheet(
+            f"QScrollArea {{ border: 1px solid {colors['border']}; background-color: {colors['background']}; }}"
+        )
+        self.grid_widget.setStyleSheet(f"background-color: {colors['background']};")
+        self.lbl_status.setStyleSheet(f"color: {colors['text_dim']}; font-weight: bold; font-size: 11px;")
+        for n, btn in self.buttons.items():
+            btn.setStyleSheet(self.get_ball_style(n))
+
+        self.figure.set_facecolor(colors["background"])
+        self.ax.set_facecolor(colors["background"])
+        # Re-run whichever state the heatmap is currently in so its text/title
+        # colors (set at draw time, not via QSS) reflect the new theme too.
+        if self.ax.images or self.ax.get_title():
+            self.ax.set_title(self.ax.get_title(), color=colors["primary"], fontsize=10)
+            for label in self.ax.get_xticklabels() + self.ax.get_yticklabels():
+                label.set_color(colors["text_dim"])
+            self.canvas.draw()
+        else:
+            self.clear_heatmap()
 
     def send_to_verification(self):
         """Sends generated tickets list to Verification Desk."""
@@ -575,3 +602,20 @@ class WheelingTab(QWidget):
 
     def get_generated_tickets(self) -> list[list[int]]:
         return self.generated_tickets
+
+    def launch_position_tickets_dialog(self):
+        """Opens the Position Number Tickets dialog for the active lottery.
+        Re-emits through this tab's own tickets_generated signal rather than
+        wiring a second path into ProphetDashboard — main.py already connects
+        WheelingTab.tickets_generated to the Ticket Store/Verification Desk,
+        so this dialog's results reach both for free."""
+        try:
+            rules = get_adapter(self.active_lottery).rules
+        except Exception as e:
+            QMessageBox.critical(self, "Registry Error", f"Failed to load rules for '{self.active_lottery}':\n{str(e)}")
+            return
+
+        from desktop.src.widgets.position_tickets_dialog import PositionTicketsDialog
+        dialog = PositionTicketsDialog(rules, parent=self)
+        dialog.tickets_generated.connect(self.tickets_generated.emit)
+        dialog.exec()

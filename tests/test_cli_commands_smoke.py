@@ -2185,7 +2185,9 @@ def test_party_smoke():
 def test_hedge_smoke():
     result = runner.invoke(app, ["hedge", GAME, "--budget", "30"])
     assert result.exit_code == 0
-    assert "Hedge Portfolio" in result.output
+    # Title reads "Combinatorial Hedging & Portfolio Balance" now — check the
+    # actual allocations table instead of the stale exact phrase "Hedge Portfolio".
+    assert "Portfolio Allocations" in result.output
 
 
 def test_oracle_smoke():

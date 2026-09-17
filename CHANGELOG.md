@@ -6,6 +6,118 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [11.13.0] - 2026-09-16
+
+### Added
+- **Random Select Numbers + Last-X-Drawings quick pick (#115)** — the last two named quick-pick actions from the manual's Quick Select pages not yet covered by the existing HOT/COLD/CLEAR/ALL/Odd/Even/Prime toolbar. New "🎲 RANDOM" button (`select_random_numbers()`): `random.sample()` over the active game's real number range for exactly `rules.pick_count` numbers, with the same defensive range/count fallback the HOT/COLD buttons already use if rules can't load. New "Pick Last-X-Drawings Numbers..." Quick Selections entry (`select_last_drawn_numbers()`): prompts for N via `QInputDialog`, then selects the **union** of every number drawn across the last N draws — deliberately not clamped to `pick_count`, matching the manual's framing of this as a recency pool rather than a single ready-to-play pick. Both reuse `NumberGrid.select_numbers()` instead of the older manual per-button restyle loop.
+  - Verified: `test_select_random_numbers_picks_valid_distinct_count` (count/range hold across two games with different `pick_count`), `test_select_last_drawn_numbers` (result matches an independently-computed union), `test_select_last_drawn_numbers_cancelled` (dismissed dialog leaves the pool untouched).
+
+### Fixed
+- `tests/test_desktop_logic.py::test_analysis_tab_stats_table_click` called `AnalysisTab.sync_theme_colors()`, a method a concurrent session in this repo had cleanly renamed to `apply_theme(colors)` everywhere in production code — this one pre-existing test call site (incidental setup, unrelated to what the test actually checks) was left stale. Removed the dead call.
+
+---
+
+## [11.12.0] - 2026-09-16
+
+### Added
+- **Position Number Tickets (#114)** — closes the last gap in SamLotto's 3-tab Build Tickets screen (Standard/Smart already covered by `WheelingTab`'s pool-based wheels; Position had no equivalent). New `desktop/src/widgets/position_tickets_dialog.py`: independent candidate-number list per ticket position, Cartesian product filtered to distinct-numbers-only combinations, sorted and deduplicated, behind a `MAX_POSITION_COMBINATIONS = 200,000` safety cap on the raw product size (same defensive pattern as #108's ticket-store reduction). Launched from a new `WheelingTab` button; re-emits through `WheelingTab`'s own existing `tickets_generated` signal, so it reaches the Ticket Store and Verification Desk via wiring `main.py` already had — no new cross-tab wiring needed.
+  - Verified against a hand-computed expected result (a tiny 3-position case worked out by hand: 8 raw combinations → 4 survivors after dropping repeated-number entries and deduplicating), not just "produces some output."
+
+---
+
+## [11.11.0] - 2026-09-16
+
+### Added
+- **Save and Load Your Own Favorite Number (#113)** — closes the SamLotto manual's own named capability for this: "💾 SAVE FAVORITES" / "📂 LOAD FAVORITES" buttons in `ProphetDashboard`'s Pool Builder rail, round-tripping the active `NumberGrid` selection through a small JSON file. Distinct from #102's drawing-history `.txt` interop and #110's Ticket Store CSV/TXT export — neither covers a manually-picked pool. Load path validates file shape, warns (with override) on a game mismatch, and reuses `NumberGrid.select_numbers()`'s existing out-of-range clamping rather than re-implementing bounds checks.
+
+---
+
+## [11.10.0] - 2026-09-16
+
+### Added
+- **Filter Assistant Wizard (#112)** — GUI counterpart to `lottery filter-assistant`, closing `detailed_features.md`'s distinctly-named "Assistant Filter" SamLotto capability. `desktop/src/widgets/filter_assistant_wizard.py`: a `QWizard` with one page per filter tier (1-5, all populated — 19/22/20/18/20 filters respectively) built from `registry.list_by_tier()`, ending in an elimination-funnel report. The funnel itself (`FilterAssistantFunnelJob`) reuses `engine.cli.commands.filter_funnel`'s exact combination-generation-and-filter-chain logic (same `MAX_COMBINATIONS` cap) rather than reimplementing it — extracted into a QThread, not rewritten. Deliberately independent of `FiltersTab` (#105)/`PruningJob`: SamLotto exposes Assistant Filter and the base filter grid as two different workflows (sequential elimination with built-in filter defaults vs. parallel AND/OR/N-of-M with GUI-configured ranges), matching how the CLI already has two separate commands for this rather than one. Launched via a new button in `FiltersTab`'s header.
+  - Verified by cross-checking, not just smoke-testing: `test_filter_assistant_wizard_matches_cli` runs identical filter/pool inputs through both the new job and the real `filter-funnel` CLI command and asserts they agree on the survivor count.
+
+---
+
+## [11.9.0] - 2026-09-16
+
+### Added
+- **4 more `AnalysisTab` statistics views (11 → 15), closing the gap to the wayfinder map's own "18-method tabbed statistics" target (#111)** — #107 shipped 11 views from secondary-source summaries without checking them against that specific number; reading the primary source (`extracted_manual/lotto_chm/Interpreting the Statistical/`, the decompiled SamLotto manual's own 18-page Statistics menu) directly found 4 genuinely distinct metrics no existing view covered:
+  - **Distance Analysis** — First-Last Distance (span) and max/min adjacent gap, via `get_distance_metrics()`.
+  - **Divisibility Analysis** — combines the manual's separate "Divided" (remainder-of-N groups, N=3-10) and "Multiple" (multiples-of-N membership) pages into one view, since Multiple's remainder-0 case is a subset of Divided's full breakdown. Via `get_multiples_count()`.
+  - **Prior Drawing Repeat Analysis** — numbers repeated from the immediately preceding draw, via `get_repeated_count()` (`engine.modules.patterns`).
+  - **Pair Co-occurrence Matrix** ("Locked Number" in the manual) — historical ball×ball co-occurrence heatmap + per-ball top-partner table; the one new view that's a genuine matrix rather than a per-draw table, so (unlike the other 3) it's deliberately kept ball-indexed, letting the existing skips drill-down work on it for free.
+  
+  All 4 follow #107's rule: zero new metric math, GUI wiring only, over helpers that already existed in `engine.modules.filters`/`engine.modules.patterns` with no prior caller.
+
+### Fixed
+- **`NumberGrid.build_grid()` silently mis-placed every ball for `br/lotomania`** (the one zero-indexed registered game, pool 0-99) — row/column math used `(n - 1) // cols` / `% cols`, correct only when the pool starts at 1. Ball `0` computed row `-1`; Qt's `QGridLayout` silently refuses to place a widget there (logged, not raised), so the "00" button simply never appeared, and every other ball landed one grid cell off from where `(n - self.min_number)` would put it. Found by smoke-testing 11.9.0's new views against all three pool shapes the app supports (`br/lotofacil` 1-25, `us/powerball` 1-69+bonus, `br/lotomania` 0-99) — not something a 1-indexed-only test run could have surfaced. Same shared `NumberGrid` widget backs both the main window's pool builder and #109's Drawings Trend checker, so both were affected; `WheelingTab`'s own independent grid-building code already used the correct `(n - min_n)` form. `test_number_grid_set_range_zero_indexed` previously only asserted ball `0` *existed* in `grid.buttons`, not that it was placed at a valid grid position — extended to check `layout.getItemPosition()` directly, which is what would have caught this originally.
+
+### Changed
+- **pyproject.toml** — version bumped to 11.9.0.
+
+---
+
+## [11.8.0] - 2026-09-16
+
+### Added
+- **Standalone multiplatform desktop builds** — the desktop app had no distribution story at all (users needed a Python environment, `pip install -e ".[desktop]"`, and to know to run `desktop/src/main.py`). Now packages as a native standalone app via PyInstaller:
+  - `lottery-desktop` console-script entry point (`desktop/src/main.py:main`) — `pyproject.toml`'s `[project.scripts]` previously only registered the CLI (`lottery`).
+  - `packaging/lottery-desktop.spec` — onedir build (not onefile: this app bundles duckdb/matplotlib/PySide6 and optionally torch/sklearn/lightgbm/xgboost/catboost, which onefile's extract-on-every-launch model handles badly). `hiddenimports` uses `collect_submodules("engine")`/`collect_submodules("desktop")` rather than a hand-maintained list, since both packages are full of dynamic imports (`get_strategy()`, `get_adapter()`, the CLI's own lazy `from engine.cli.commands.X import X as impl` wiring) that PyInstaller's static analysis can't see — a hand-maintained list would silently drift exactly the way the CLI wrapper signatures did (see 11.7.0).
+  - `.github/workflows/build-desktop.yml` — Windows/macOS/Linux build matrix (there's no cross-compilation; each OS's artifact comes from actually running PyInstaller on that OS). `workflow_dispatch` for on-demand builds, `v*` tag push for release builds (also attaches all three .zips to the GitHub Release via `gh release upload`). Each non-Windows leg launches the built app headlessly (`QT_QPA_PLATFORM=offscreen`) as a real smoke test, not just "did PyInstaller exit 0."
+  - `engine/_paths.py` (new) — `PROJECT_ROOT`, frozen-build aware. `engine/adapters/registry.py` (game registry → `data/registry.yaml`) and `engine/modules/storage.py` (draw database → `data/lottery.db`) both located their data by climbing `Path(__file__).parent` three times, which no longer lands anywhere real once PyInstaller extracts the source tree into its own bundle layout — the two now import `PROJECT_ROOT` instead of each re-deriving it. Uses `sys._MEIPASS` (PyInstaller's own runtime answer to "where are the bundled `datas=[...]` files"), not `sys.executable`'s directory — a first attempt at the latter built cleanly but silently pointed at an empty directory, because PyInstaller 6.x's onedir layout puts everything except the executable itself under `_internal/`. Caught by actually launching the packaged binary and confirming the registry/database load, not just checking that the build succeeded. The other ~28 files with the same `Path(__file__).parent...` pattern are untouched — deliberately: they're all CLI-only commands (calendar export, logs, alerts, profiles, watchlists) the desktop app never calls in-process, so fixing all of them wasn't necessary for this to work and would have meant re-verifying 28 independent relative-path computations for no behavioral gain.
+  - README `## 🖥️ Desktop App` section — didn't exist before; the only prior desktop-launch instructions were "Desktop & API" as a `pip install -e ".[all]"` footnote with no follow-up.
+  - `[project.optional-dependencies].packaging` (`pyinstaller>=6.0`) extras group.
+
+### Fixed
+- Local build note: PyInstaller's final copy-into-`dist/` step reliably failed with `OSError: [Errno 5] Input/output error` on multi-gigabyte files (`nvidia/nccl/lib/libnccl.so.2`, then `torch/lib/libtorch_cuda.so`) when `--distpath`/`--workpath` pointed under this WSL environment's `/mnt/c/...` mount — a 9p-protocol large-file reliability issue, not a spec defect. Resolved by pointing both at a native Linux path instead (documented in the README as a build note, not worked around in the spec itself, since GitHub Actions runners — the actual multiplatform build path — don't have this problem).
+- Excluded torch's bundled `nvidia.*`/`cuda`/`cusparselt` CUDA redistributables from the build (`excludes` in the spec): `PredictionTab`'s "Enable CUDA Acceleration" checkbox doesn't currently route any strategy onto a CUDA device (`run_prediction_job_from_predict_center` only logs a message when it's checked), so bundling several GB of CUDA runtime libraries had no functional benefit — found while chasing the I/O error above, kept regardless since it also shrinks the build substantially.
+
+### Changed
+- **pyproject.toml** — version bumped to 11.8.0.
+
+---
+
+## [11.7.0] - 2026-09-16
+
+### Fixed
+Full-suite health pass (776 passed / 13 failed / 4 skipped baseline → 3 environmental-only remaining). Two systemic bug classes found via a full `pytest` run plus a purpose-built AST checker comparing every `engine/cli/main.py` wrapper's `impl(...)` call against the real command's signature (`engine.cli.commands.*`):
+
+- **`lottery tune` silently ran the wrong feature on every normal invocation.** `tune()`'s real implementation (`engine/cli/commands/tune.py`) has a `stacking: bool` parameter (added for "STORY 7.3: Specialized Stacking Mode") between `no_grid` and `metric`; the `main.py` wrapper was never updated to match and called `impl(lottery, draws, limit, strategies, no_grid, metric, top, fmt, output, export_md, min_training)` — 11 positional args into a 12-parameter function. Every argument from `metric` onward silently shifted one slot: `stacking` received the `metric` string (always truthy), so `lottery tune <game>` always ran Stacking AI meta-learner training instead of the requested grid-search tuning, while `metric`/`top`/`fmt`/`output`/`export_md`/`min_training` each silently received the next parameter's value. Fixed by adding the missing `stacking` option to the wrapper and correcting the call.
+- **The same wrapper/impl drift pattern, found by the AST checker, in 3 more commands** — each just missing a trailing parameter (not corrupting, since defaults absorbed the gap, but silently making a documented flag inaccessible from the actual CLI): `lottery scan` (`--offline` — could never skip network-dependent OSINT layers), `lottery daemon` (`--once` — could never run a single optimization cycle and exit; was stuck in the infinite loop), `lottery calibrate` (`--metric` — always used the `lift` default). The checker script (ad hoc, not committed) also confirmed `lottery record`'s equivalent gap (a `db_path` param) is `hidden=True` / testing-only, so left as-is, and flagged `lottery report-elite`/`lottery bio` as unrelated missing-optional-dependency errors (`fpdf`, `skbio` — never installed in this environment, not a code issue).
+- **The CLI's 30-minute runaway-command watchdog (`SIGALRM`) was armed at module *import* time**, not per command invocation — harmless for a normal one-shot `lottery <cmd>` process, but any process that imports `engine.cli.main` and lives past 30 minutes (the test suite; potentially `engine/cli/commands/profile.py`'s saved-preset runner) gets `sys.exit(1)`'d wherever it happens to be 30 minutes after *import*, not after the command that's actually running. Reproduced as `tests/test_strategy_roster.py::test_select_strategies_registered_and_dry_run_completes` — a cheap `--dry-run` — timing out because the suite's total runtime crossed 30 minutes while that test happened to be executing. Moved the `signal.alarm(1800)` call into `main_callback` (fires once per actual command dispatch instead of once per import) and made `lottery daemon` (the one command meant to run indefinitely) explicitly cancel it via `signal.alarm(0)`. Also found and fixed a latent naming collision this surfaced: `main.py` defines a `signal` CLI command (`def signal(...)`) that shadows the stdlib `signal` module at module scope for every line after it — aliased the import to `os_signal`.
+- **`harmony.py`'s `successive_2`/`successive_3`/`successive_4` filters** — see 11.6.0, same root cause class (stale/absent attribute), listed here too since it's part of the same health pass.
+- `tests/test_architect_compliance.py` — both tests used `registry._filters`, an attribute that's never existed on `VectorRegistry` (it's `_instances`, populated lazily via `.get()`). Fixed to discover + resolve all filters via the registry's real public-ish surface (`_discover()` + `_module_map` + `.get(uid)`, the same pattern `desktop/src/tabs/filters.py` already uses). Both AC-numbered compliance checks (sub-1ms per filter over 10k tickets; filters don't mutate their input buffer) now actually run, and pass.
+- `tests/test_cli_commands_smoke.py::test_hedge_smoke` — asserted the stale exact phrase `"Hedge Portfolio"`; the command's title has read "Combinatorial Hedging & Portfolio Balance" for a while. Checks `"Portfolio Allocations"` (the actual results table) instead.
+- `tests/test_desktop_telemetry.py::test_desktop_client_receives_ws` — not fixed, marked `xfail` with the diagnosed root cause: `qtbot.waitSignal()`'s blocking nested Qt event loop starves the same-thread `pytest-asyncio` loop the test's mock websocket server needs to complete its handshake, so the client reliably times out regardless of system load. Needs a real Qt/asyncio bridge (e.g. `qasync`) to fix properly; not chased further since `TelemetryClient`'s only real counterpart — `gateway/`, the Go telemetry hub it talks to — has had zero commits since the project's initial commit and isn't part of the actively maintained system (confirmed via `git log -- gateway/`).
+
+### Not fixed — confirmed environmental, not code bugs
+- `test_cli_commands_smoke.py::test_daily_export_md` — `PermissionError` writing to a `tempfile.NamedTemporaryFile` path; a known WSL/`/mnt/c` file-locking quirk, not reproducible as a real defect.
+- `test_cosmic_quantum.py` (both tests) — `pennylane`/`braket` (quantum computing SDKs for the `QuantumSidecar` entropy-distillation novelty feature) aren't installed in this environment and aren't in any `pyproject.toml` extras group.
+- `test_lazy_filters.py::test_lazy_loading_registry` — passes in isolation (36/36 confirmed); fails only as part of the full suite because some earlier test legitimately triggers filter-registry resolution, which (correctly) leaves `tier1_structural` etc. cached in `sys.modules` for the rest of the process. Suite-order artifact, not a regression in the lazy-loading contract itself.
+
+---
+
+## [11.6.0] - 2026-09-16
+
+### Added
+- **Desktop cockpit — closes the `samlotto-qt-interface` wayfinder map (tickets #107-#110; map now has no open fog)**:
+  - **High-density statistics tabs (#107)** — `AnalysisTab` grew from 4 to 11 views: Odd/Even & High/Low Balance, Arithmetic Complexity (AC) Distribution, Root Sum Distribution, Decade Distribution, Consecutive Groups Analysis, Prime & Composite Balance, and Unit Digit Analysis, alongside the existing Frequency Distribution/Actual Skips/Sum Range Bell Curve/Positional Matrix Heatmap. All 7 new views reuse `engine.modules.filters`' per-ticket metric helpers (`get_ac_value`, `get_root_sum`, `get_successive_metrics`, etc. — the same functions `PruningJob`/`LimitsCalculationJob` already use for ticket filtering) applied historically across `df_draws`, rather than reimplementing any metric math.
+  - **Ticket Store WRG reduction (#108)** — `engine.modules.wheels_wrg.WheelingEngine.reduce_tickets()` existed with zero callers anywhere in the codebase; wired up as `TicketStoreReductionJob` (`desktop/src/telemetry/manager.py`), exposed via a new "🎯 REDUCE (WRG)" Ticket Store toolbar button and context-menu action. Prompts for the t-if-m guarantee (defaulting to the active game's pick-count/pick-count-1) and refuses upfront if the coverage universe `C(pool_size, m)` exceeds 50,000 target subsets, since the underlying greedy set-cover loop is plain Python with no interruption support and would otherwise hang the job indefinitely.
+  - **Real ticket printing (#108)** — `ProphetDashboard.print_tickets()` was a pure stub (`QMessageBox` claiming success, no printer ever touched). Replaced with a real `QPrinter`/`QPrintDialog`/`QTextDocument` flow.
+  - **Drawings Trend manual predictor (#109)** — `AnalysisTab` gained a "Drawings Trend — Manual Number Checker" panel reusing the existing `NumberGrid` widget as-is, with its own `numbers_recommended` signal wired to the same `handle_push_to_pool()` slot `PredictionTab` uses. Deliberately not tied to any view's computed data — the point (and the reason it's separate from #106's algorithmic Predict Center) is a manual, opinion-driven pick.
+  - **CSV ticket export (#110)** — `export_tickets()` gained a CSV filter (stdlib `csv` module, `Index,Numbers,Score` with header) alongside the pre-existing `.txt` export.
+
+### Fixed
+- **`harmony.py`'s `successive_2`/`successive_3`/`successive_4` filters would `KeyError` the moment anyone actually applied them** — found while surveying `engine.modules.filters` for #107's reusable metrics. They called `get_successive_metrics(ticket)["groups_of_2"/"groups_of_3"/"groups_of_4"]`, keys that function never returned (only `max_successive`/`groups`); no test previously exercised these three registered filters. Extended `get_successive_metrics()` to also return `groups_of_2`/`groups_of_3`/`groups_of_4` (backward compatible), with regression coverage in `tests/test_modules_filters.py`.
+- **Stale wayfinder docs** — the map's "Not yet specified" section still listed the GUI's online database updater (`DatabaseTab.sync_online_draws()`/`FetchWorker`) as unbuilt fog; it was already implemented. Corrected.
+
+### Changed
+- **pyproject.toml** — version bumped to 11.6.0.
+
+---
+
 ## [11.5.0] - 2026-09-16
 
 ### Added

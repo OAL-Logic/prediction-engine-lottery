@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "lottery-engine"
-version = "11.5.0"
+version = "11.13.0"
 description = "High-performance lottery prediction engine — 100+ CLI commands, 80+ strategies, FastAPI sidecar, Go gateway"
 readme = "README.md"
 requires-python = ">=3.11"
@@ -74,13 +74,17 @@ desktop = [
     "seaborn>=0.13",
     "websockets>=12.0",
 ]
+packaging = [
+    "pyinstaller>=6.0",  # standalone builds — see packaging/lottery-desktop.spec
+]
 
 [project.scripts]
 lottery = "engine.cli.main:app"
+lottery-desktop = "desktop.src.main:main"
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["engine*"]
+include = ["engine*", "desktop*"]
 
 [tool.ruff]
 line-length = 100

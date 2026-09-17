@@ -1,2 +1,3 @@
 [console_scripts]
 lottery = engine.cli.main:app
+lottery-desktop = desktop.src.main:main

@@ -1,0 +1,96 @@
+name: Build Desktop App
+
+# Builds the PySide6 desktop app ("Prophet Dashboard") as a native app on
+# Windows, macOS, and Linux via PyInstaller (packaging/lottery-desktop.spec).
+# There's no cross-compilation — each OS's artifact comes from running the
+# build on that OS, which is what the matrix below does.
+#
+# Manual runs (workflow_dispatch) just upload build artifacts for download.
+# Pushing a `v*` tag additionally attaches all three to a GitHub Release.
+
+on:
+  workflow_dispatch: {}
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: windows-latest
+            artifact-name: ProphetDashboard-windows
+          - os: macos-latest
+            artifact-name: ProphetDashboard-macos
+          - os: ubuntu-latest
+            artifact-name: ProphetDashboard-linux
+
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Linux Qt runtime dependencies
+        if: matrix.os == 'ubuntu-latest'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libegl1 libopengl0 libxkbcommon0 libxcb-cursor0
+
+      - name: Install project (all strategy tiers + desktop)
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[all]"
+          pip install pyinstaller
+
+      - name: Build with PyInstaller
+        run: pyinstaller packaging/lottery-desktop.spec --distpath dist --workpath build --noconfirm
+
+      - name: Smoke-test the build (headless launch)
+        if: matrix.os != 'windows-latest'
+        env:
+          QT_QPA_PLATFORM: offscreen
+        shell: bash
+        run: |
+          if [ "${{ matrix.os }}" = "macos-latest" ]; then
+            ./dist/ProphetDashboard/ProphetDashboard.app/Contents/MacOS/ProphetDashboard &
+          else
+            ./dist/ProphetDashboard/ProphetDashboard &
+          fi
+          PID=$!
+          sleep 8
+          if ! kill -0 $PID 2>/dev/null; then
+            echo "App exited early — treating as a build/runtime failure."
+            wait $PID
+            exit $?
+          fi
+          kill $PID
+
+      - name: Package artifact
+        shell: bash
+        run: |
+          cd dist
+          if [ "${{ matrix.os }}" = "windows-latest" ]; then
+            7z a -tzip "../${{ matrix.artifact-name }}.zip" ProphetDashboard
+          else
+            zip -r "../${{ matrix.artifact-name }}.zip" ProphetDashboard
+          fi
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.artifact-name }}
+          path: ${{ matrix.artifact-name }}.zip
+          retention-days: 30
+
+      - name: Attach to release
+        if: startsWith(github.ref, 'refs/tags/v')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release upload "${{ github.ref_name }}" "${{ matrix.artifact-name }}.zip" \
+            --repo "${{ github.repository }}" --clobber

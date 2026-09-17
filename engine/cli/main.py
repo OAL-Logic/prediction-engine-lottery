@@ -9,7 +9,10 @@ from __future__ import annotations
 import logging
 import sys
 import os
-import signal
+# Aliased: this module also defines a `signal` CLI command (the "resonance
+# signal" command, not an OS signal) as a top-level function, which would
+# otherwise shadow the stdlib module for every line below it.
+import signal as os_signal
 from typing import Annotated, Optional
 from pathlib import Path
 
@@ -27,10 +30,8 @@ def _timeout_handler(signum, frame):
     Console().print("\n[bold red]☠️ EXECUTION TIMEOUT:[/bold red] Script terminated after 30 minutes of execution.")
     sys.exit(1)
 
-# Set 30 minute alarm (1800 seconds)
 if os.name != 'nt': # signal.alarm is not available on Windows
-    signal.signal(signal.SIGALRM, _timeout_handler)
-    signal.alarm(1800)
+    os_signal.signal(os_signal.SIGALRM, _timeout_handler)
 
 # --- Command Panel Constants ---
 PANEL_PRIMARY   = "⭐ Primary Golden Path"
@@ -370,10 +371,11 @@ def scan(
     window: Annotated[int, typer.Option("--limit", "-L", help="Rolling window size for stability check")] = 50,
     auto_suggest: Annotated[bool, typer.Option("--suggest/--no-suggest", help="Auto-generate a ticket if the scan verdict is GO")] = False,
     export_md: Annotated[Optional[str], typer.Option("--export-md", help="Append condition log to this .md file")] = None,
+    offline: Annotated[bool, typer.Option("--offline", help="Skip network-dependent OSINT layers")] = False,
 ):
     """📡 Multi-layer GO/NO-GO signal scanner."""
     from engine.cli.commands.scan import scan as impl
-    return impl(lottery, strategy, window, auto_suggest, export_md)
+    return impl(lottery, strategy, window, auto_suggest, export_md, False, offline)
 
 @app.command(rich_help_panel=PANEL_ANALYTICS)
 def cluster(
@@ -1466,10 +1468,11 @@ def daemon(
     lottery: Annotated[str, typer.Argument(help="Lottery name to monitor")],
     interval: Annotated[int, typer.Option("--interval", "-i", help="Optimization interval in seconds")] = 3600,
     prev: Annotated[int, typer.Option("--prev", "-p", help="Validation window (number of previous draws)")] = 10,
+    once: Annotated[bool, typer.Option("--once", help="Run a single optimization cycle and exit")] = False,
 ):
     """🤖 Start the AutoML Background Daemon to continuously optimize strategies."""
     from engine.cli.commands.daemon import daemon as impl
-    return impl(lottery, interval, prev)
+    return impl(lottery, interval, prev, once)
 
 @app.command(name="daemon-status", rich_help_panel=PANEL_SYSTEM)
 def daemon_status():
@@ -1498,10 +1501,11 @@ def calibrate(
     window: Annotated[int, typer.Option("--limit", "-L", help="Training window size (draws before each target)")] = 50,
     export_md: Annotated[Optional[str], typer.Option("--export-md", help="Append calibration report to this .md file")] = None,
     min_training: Annotated[int, typer.Option("--min-training", help="Minimum training draws required; skip earlier targets")] = 30,
+    metric: Annotated[str, typer.Option("--metric", help="Ranking metric: lift | hits | profit | roi | precision")] = "lift",
 ):
     """🎯 Empirical strategy calibration — rank by actual out-of-sample hit rates."""
     from engine.cli.commands.calibrate import calibrate as impl
-    return impl(lottery, draws, strategies, window, export_md, min_training)
+    return impl(lottery, draws, strategies, window, export_md, min_training, metric)
 
 @app.command(rich_help_panel=PANEL_SYSTEM)
 def prune(
@@ -1659,8 +1663,10 @@ def tune(
         help="Training window size (draws before each target)")] = 50,
     strategies: Annotated[str, typer.Option("--strategies", "-s",
         help="Strategies to evaluate: preset (statistical|fast|default) or comma list")] = "statistical",
-    no_grid: Annotated[bool, typer.Option("--no-grid",
+    no_grid: Annotated[bool, typer.Option("--no-grid/--grid",
         help="Skip parameter grids — run each strategy once with defaults (faster)")] = False,
+    stacking: Annotated[bool, typer.Option("--stacking",
+        help="Train the Stacking AI meta-learner for this lottery")] = False,
     metric: Annotated[str, typer.Option("--metric",
         help="Ranking metric: lift | hits | capture")] = "lift",
     top: Annotated[int, typer.Option("--top",
@@ -1676,7 +1682,7 @@ def tune(
 ):
     """🎯⚙️ Auto-select the best strategy + parameters from historical evidence."""
     from engine.cli.commands.tune import tune as impl
-    return impl(lottery, draws, limit, strategies, no_grid, metric, top, fmt, output, export_md, min_training)
+    return impl(lottery, draws, limit, strategies, no_grid, stacking, metric, top, fmt, output, export_md, min_training)
 
 # --- PANEL_VERIFY Commands ---
 
@@ -1844,8 +1850,17 @@ def main_callback(
     detailed_help: Annotated[bool, typer.Option("--detailed-help", help="Show complete manual with all parameters and examples for each command")] = False,
 ):
     """Global configuration for the Lottery Engine."""
+    # Arm the 30-minute runaway-command guard here (once per actual command
+    # dispatch), not at module import time: this module gets imported by
+    # tests, engine/cli/commands/profile.py, and potentially other long-lived
+    # hosts that never call an SIGALRM-safe command — an import-time alarm
+    # fires 30 minutes after *import*, killing whatever happens to be running
+    # in that process then, regardless of whether it's this CLI's own work.
+    if os.name != 'nt':
+        os_signal.alarm(1800)
+
     os.environ["LOTTERY_STORAGE_ENGINE"] = storage_engine.lower()
-    
+
     if detailed_help:
         _print_detailed_help(app)
         raise typer.Exit(0)
@@ -1908,9 +1923,6 @@ def _print_detailed_help(typer_app: typer.Typer):
     console.rule(style="cyan")
     console.print("[dim]Use [bold]--help[/bold] for simplified summary help.[/dim]\n")
 
-
-if __name__ == "__main__":
-    app()
 
 if __name__ == "__main__":
     app()

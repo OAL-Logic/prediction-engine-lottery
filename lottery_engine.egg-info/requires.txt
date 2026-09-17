@@ -46,8 +46,15 @@ pytest-asyncio>=0.23
 ruff>=0.4
 mypy>=1.10
 
+[foundation]
+timesfm
+tabpfn
+
 [ml]
 scikit-learn>=1.5
 lightgbm>=4.3
 xgboost>=2.0
 catboost>=1.2
+
+[packaging]
+pyinstaller>=6.0

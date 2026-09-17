@@ -12,8 +12,9 @@ from dataclasses import dataclass, field
 from typing import Any, Dict, List, Optional
 
 from engine.adapters import DrawRules
+from engine._paths import PROJECT_ROOT
 
-DATA_DIR = Path(__file__).parent.parent.parent / "data"
+DATA_DIR = PROJECT_ROOT / "data"
 
 @dataclass
 class GameDefinition:

@@ -63,6 +63,9 @@ class ProphetDashboard(QMainWindow):
         
         self.setWindowTitle("Prophet Dashboard v11.1 - The Asset Class Factory")
         self.resize(1300, 850)
+        # Floor beneath which the two-rail workspace (Pool Builder + Ticket Store)
+        # and the Harmony Gate dock start clipping their controls.
+        self.setMinimumSize(1000, 650)
 
         # Initialize High-Density Dialog tabs
         self.db_tab = DatabaseTab()
@@ -103,6 +106,19 @@ class ProphetDashboard(QMainWindow):
 
         # Apply Theme manager styles
         self.apply_theme()
+
+        # Tabs that paint outside the global QSS cascade (per-widget setStyleSheet
+        # calls, matplotlib canvases) own an apply_theme(colors) hook — wire them to
+        # live theme swaps and prime them with whatever theme is active right now,
+        # since the global QSS alone would otherwise leave them stuck on their
+        # Forensic-Neon-era hardcoded defaults regardless of the selected theme.
+        themed_tabs = [
+            self.db_tab, self.analysis_tab, self.wheeling_tab, self.filters_tab,
+            self.ev_tab, self.telemetry_tab, self.predict_tab, self.verification_tab,
+        ]
+        for tab in themed_tabs:
+            self.theme_manager.theme_changed.connect(tab.apply_theme)
+            tab.apply_theme(self.theme_manager.get_colors())
 
         # Welcome sequence logs
         self.telemetry_tab.append_log("Prophet Dashboard v11.1 initialised.", "INFO")
@@ -166,16 +182,19 @@ class ProphetDashboard(QMainWindow):
         quick_select_layout = QHBoxLayout()
         btn_hot = QPushButton("HOT")
         btn_cold = QPushButton("COLD")
+        btn_random = QPushButton("🎲 RANDOM")
         btn_clear = QPushButton("CLEAR")
         btn_all = QPushButton("ALL")
-        
+
         btn_hot.clicked.connect(self.select_hot_numbers)
         btn_cold.clicked.connect(self.select_cold_numbers)
+        btn_random.clicked.connect(self.select_random_numbers)
         btn_clear.clicked.connect(self.number_grid.clear_selection)
         btn_all.clicked.connect(self.number_grid.select_all)
 
         quick_select_layout.addWidget(btn_hot)
         quick_select_layout.addWidget(btn_cold)
+        quick_select_layout.addWidget(btn_random)
         quick_select_layout.addWidget(btn_clear)
         quick_select_layout.addWidget(btn_all)
         pool_layout.addLayout(quick_select_layout)
@@ -189,12 +208,26 @@ class ProphetDashboard(QMainWindow):
         pick_even_action.triggered.connect(self.select_even_numbers)
         pick_primes_action = qp_menu.addAction("Pick Prime Numbers")
         pick_primes_action.triggered.connect(self.select_prime_numbers)
+        pick_last_drawn_action = qp_menu.addAction("Pick Last-X-Drawings Numbers...")
+        pick_last_drawn_action.triggered.connect(self.select_last_drawn_numbers)
         self.btn_quick_pick.setMenu(qp_menu)
         pool_layout.addWidget(self.btn_quick_pick)
 
+        # Save/Load Favorite Numbers ("Save and Load Your Own Favorite Number"
+        # in the SamLotto manual) — a named pool selection, independent of the
+        # Ticket Store's SamLotto .txt drawings import/export (DatabaseTab).
+        favorites_layout = QHBoxLayout()
+        btn_save_favorites = QPushButton("💾 SAVE FAVORITES")
+        btn_load_favorites = QPushButton("📂 LOAD FAVORITES")
+        btn_save_favorites.clicked.connect(self.save_favorite_numbers)
+        btn_load_favorites.clicked.connect(self.load_favorite_numbers)
+        favorites_layout.addWidget(btn_save_favorites)
+        favorites_layout.addWidget(btn_load_favorites)
+        pool_layout.addLayout(favorites_layout)
+
         # Counter Status Label
         self.lbl_pool_status = QLabel("Active Pool Size: 0 numbers selected")
-        self.lbl_pool_status.setStyleSheet("color: #00F0FF; font-weight: bold; font-size: 11px;")
+        self.lbl_pool_status.setStyleSheet("font-weight: bold; font-size: 11px;")
         self.number_grid.number_toggled.connect(self.update_pool_counter)
         pool_layout.addWidget(self.lbl_pool_status)
 
@@ -276,21 +309,6 @@ class ProphetDashboard(QMainWindow):
         btn_calc_defaults.clicked.connect(self.run_pruning_limits_calculation)
         
         self.btn_run_prune = QPushButton("⚡ RUN HARMONY GATE PRUNING")
-        self.btn_run_prune.setStyleSheet("""
-            QPushButton {
-                background-color: #FF3366;
-                color: #FFFFFF;
-                font-weight: bold;
-                font-size: 13px;
-                padding: 15px;
-                border-radius: 4px;
-                border: 1px solid #FF3366;
-            }
-            QPushButton:hover {
-                background-color: #FF5588;
-                border-color: #FF5588;
-            }
-        """)
         self.btn_run_prune.clicked.connect(self.run_pruning)
         
         action_panel.addWidget(btn_calc_defaults)
@@ -659,6 +677,58 @@ class ProphetDashboard(QMainWindow):
             btn.setStyleSheet(self.number_grid.get_ball_style(n))
         self.update_pool_counter(0, True)
 
+    def select_random_numbers(self):
+        """SamLotto manual: 'Random Select Numbers' — picks pick_count distinct
+        random numbers from the active game's range."""
+        import random
+        try:
+            rules = get_adapter(self.active_lottery).rules
+            lo, hi = rules.number_range
+            count = rules.pick_count
+        except Exception:
+            lo, hi = self.number_grid.min_number, self.number_grid.max_number
+            count = min(6, hi - lo + 1)
+        pool = list(range(lo, hi + 1))
+        count = min(count, len(pool))
+        picks = set(random.sample(pool, count))
+        self.number_grid.select_numbers(picks)
+        self.update_pool_counter(0, True)
+
+    def select_last_drawn_numbers(self):
+        """SamLotto manual: 'How to Quick to Pick Numbers' — 'Last x Drawings
+        Numbers with one click'. Selects the union of every number drawn in
+        the most recent N draws (N asked via a prompt), not a fixed count —
+        matching the manual's own framing (a recency-based pool, not a
+        precise pick_count-sized selection like HOT/COLD/RANDOM)."""
+        from engine.modules.storage import storage
+
+        n, ok = QInputDialog.getInt(
+            self, "Last-X-Drawings Numbers",
+            "Include numbers drawn in the last how many draws?",
+            5, 1, 100
+        )
+        if not ok:
+            return
+
+        try:
+            df = storage.load_draws(self.active_lottery, limit=n)
+        except Exception as e:
+            QMessageBox.critical(self, "Database Error", f"Failed to load recent draws:\n{str(e)}")
+            return
+        if df.empty:
+            QMessageBox.warning(self, "No Draws", f"No historical draws found for {self.active_lottery}.")
+            return
+
+        recent_numbers = set()
+        for nums in df["numbers"]:
+            recent_numbers.update(nums)
+
+        self.number_grid.select_numbers(recent_numbers)
+        self.update_pool_counter(0, True)
+        self.telemetry_tab.append_log(
+            f"Selected {len(recent_numbers)} numbers drawn across the last {len(df)} draws.", "INFO"
+        )
+
     def select_odd_numbers(self):
         self.number_grid.clear_selection()
         odds = [x for x in range(1, self.number_grid.max_number + 1) if x % 2 != 0]
@@ -687,6 +757,66 @@ class ProphetDashboard(QMainWindow):
         for n, btn in self.number_grid.buttons.items():
             btn.setStyleSheet(self.number_grid.get_ball_style(n))
         self.update_pool_counter(0, True)
+
+    # Save/Load Favorite Numbers
+    def save_favorite_numbers(self):
+        """SamLotto manual: 'Save and Load Your Own Favorite Number' — writes
+        the active pool selection to a JSON file for later recall."""
+        numbers = sorted(self.number_grid.selected_numbers)
+        if not numbers:
+            QMessageBox.warning(self, "Nothing to Save", "Select some numbers in the pool builder first.")
+            return
+
+        file_path, _ = QFileDialog.getSaveFileName(
+            self, "Save Favorite Numbers", f"{self.active_lottery.replace('/', '_')}_favorites.json",
+            "Favorite Numbers (*.json);;All Files (*)"
+        )
+        if not file_path:
+            return
+        try:
+            import json
+            payload = {"lottery": self.active_lottery, "numbers": numbers}
+            with open(file_path, "w", encoding="utf-8") as f:
+                json.dump(payload, f, indent=2)
+            self.telemetry_tab.append_log(f"Saved {len(numbers)} favorite numbers to {file_path}", "INFO")
+            QMessageBox.information(self, "Favorites Saved", f"Saved {len(numbers)} numbers to:\n{file_path}")
+        except Exception as e:
+            QMessageBox.critical(self, "Save Error", f"Failed to save favorites: {str(e)}")
+
+    def load_favorite_numbers(self):
+        """SamLotto manual: 'Save and Load Your Own Favorite Number' — restores
+        a previously-saved pool selection into the active NumberGrid."""
+        file_path, _ = QFileDialog.getOpenFileName(
+            self, "Load Favorite Numbers", "", "Favorite Numbers (*.json);;All Files (*)"
+        )
+        if not file_path:
+            return
+        try:
+            import json
+            with open(file_path, "r", encoding="utf-8") as f:
+                payload = json.load(f)
+            numbers = payload.get("numbers", [])
+            if not isinstance(numbers, list) or not all(isinstance(n, int) for n in numbers):
+                raise ValueError("File does not contain a valid list of favorite numbers.")
+
+            saved_lottery = payload.get("lottery")
+            if saved_lottery and saved_lottery != self.active_lottery:
+                proceed = QMessageBox.question(
+                    self, "Different Game",
+                    f"These favorites were saved for {saved_lottery}, but the active game is "
+                    f"{self.active_lottery}. Load anyway (out-of-range numbers will be dropped)?",
+                    QMessageBox.Yes | QMessageBox.No, QMessageBox.No
+                )
+                if proceed != QMessageBox.Yes:
+                    return
+
+            self.number_grid.select_numbers(numbers)
+            self.update_pool_counter(0, True)
+            loaded_count = len(self.number_grid.selected_numbers)
+            self.telemetry_tab.append_log(f"Loaded {loaded_count} favorite numbers from {file_path}", "INFO")
+            QMessageBox.information(self, "Favorites Loaded", f"Loaded {loaded_count} numbers from:\n{file_path}")
+        except Exception as e:
+            QMessageBox.critical(self, "Load Error", f"Failed to load favorites: {str(e)}")
 
     # Pruning action implementations
     def run_pruning_limits_calculation(self):
@@ -1071,12 +1201,37 @@ class ProphetDashboard(QMainWindow):
         msg_box.exec()
 
     def apply_theme(self):
-        self.setStyleSheet(self.theme_manager.generate_stylesheet())
+        # Applied on QApplication, not self: a QSS stylesheet set on a widget only
+        # cascades to its non-window descendants. Every QDialog is a top-level
+        # window regardless of its `parent=`, so a main-window-level stylesheet
+        # never reached them — every dialog had to re-derive and re-apply its own
+        # copy of the theme (background/text at minimum) to avoid rendering with
+        # the raw OS widget style. QApplication-level styling reaches all
+        # top-level windows, so new dialogs are themed for free.
+        QApplication.instance().setStyleSheet(self.theme_manager.generate_stylesheet())
+        colors = self.theme_manager.get_colors()
+        self.number_grid.apply_theme(colors)
+        self.lbl_pool_status.setStyleSheet(f"color: {colors['primary']}; font-weight: bold; font-size: 11px;")
+        accent_hover = QColor(colors["accent"]).lighter(125).name()
+        self.btn_run_prune.setStyleSheet(f"""
+            QPushButton {{
+                background-color: {colors['accent']};
+                color: {colors['background']};
+                font-weight: bold;
+                font-size: 13px;
+                padding: 15px;
+                border-radius: 4px;
+                border: 1px solid {colors['accent']};
+            }}
+            QPushButton:hover {{
+                background-color: {accent_hover};
+                border-color: {accent_hover};
+            }}
+        """)
 
     def change_theme(self, theme_name: str):
         """Persistent application theme swap & instant reload."""
-        self.theme_manager.settings.setValue("current_theme", theme_name)
-        self.theme_manager.current_theme = theme_name
+        self.theme_manager.set_theme(theme_name)
         self.apply_theme()
         self.telemetry_tab.append_log(f"Visual identity re-aligned to theme: {theme_name}", "RESONANCE")
 

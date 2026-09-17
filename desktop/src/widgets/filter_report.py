@@ -5,8 +5,10 @@ from PySide6.QtWidgets import (
 )
 from PySide6.QtCore import Qt
 
+from desktop.src.theme.manager import THEMES, DEFAULT_THEME
+
 class TfilterrepForm(QDialog):
-    def __init__(self, elimination_counts: dict[str, int], total_tickets: int, passed_count: int, parent=None):
+    def __init__(self, elimination_counts: dict[str, int], total_tickets: int, passed_count: int, parent=None, colors: dict | None = None):
         super().__init__(parent)
         self.setWindowTitle("Harmony Gate Pruning Cuts Report")
         self.resize(550, 400)
@@ -14,17 +16,18 @@ class TfilterrepForm(QDialog):
         self.total_tickets = total_tickets
         self.passed_count = passed_count
         self.elimination_counts = elimination_counts
-        
+        self.colors = dict(colors) if colors else dict(THEMES[DEFAULT_THEME])
+
         self.initUI()
-        
+
     def initUI(self):
         lay = QVBoxLayout(self)
-        
+
         # Summary card
         summary_lbl = QLabel(
             f"<b>Total Tickets Processed:</b> {self.total_tickets}<br>"
-            f"<b>Passed:</b> <font color='#00FF41'>{self.passed_count}</font><br>"
-            f"<b>Eliminated:</b> <font color='#FF3366'>{self.eliminated_count}</font> "
+            f"<b>Passed:</b> <font color='{self.colors['success']}'>{self.passed_count}</font><br>"
+            f"<b>Eliminated:</b> <font color='{self.colors['error']}'>{self.eliminated_count}</font> "
             f"({(self.eliminated_count / max(1, self.total_tickets) * 100):.2f}%)"
         )
         summary_lbl.setStyleSheet("font-size: 13px; line-height: 1.4;")

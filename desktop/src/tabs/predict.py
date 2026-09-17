@@ -33,6 +33,9 @@ class PredictionTab(QWidget):
         self.last_ticket: list[int] = []
         self.initUI()
 
+    def apply_theme(self, colors: dict):
+        self.status_label.setStyleSheet(f"font-size: 10px; color: {colors['text_dim']};")
+
     def initUI(self):
         layout = QVBoxLayout(self)
         layout.setContentsMargins(10, 10, 10, 10)
@@ -114,7 +117,7 @@ class PredictionTab(QWidget):
 
         # 6. Status Footer
         self.status_label = QLabel("Engine State: IDLE | PQC: ACTIVE")
-        self.status_label.setStyleSheet("font-size: 10px; color: #008f11;")
+        self.status_label.setStyleSheet("font-size: 10px;")
         layout.addWidget(self.status_label)
 
     # ------------------------------------------------------------------

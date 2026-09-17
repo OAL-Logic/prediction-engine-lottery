@@ -15,15 +15,16 @@ from PySide6.QtWidgets import (
 
 from engine.cli.utils import get_adapter
 from engine.cli.commands.number_lifecycle import compute_lifecycle
+from desktop.src.theme.manager import THEMES, DEFAULT_THEME
 
 
 class NumberDossierDialog(QDialog):
-    def __init__(self, parent=None, lottery_id: str = "br/mega-sena"):
+    def __init__(self, parent=None, lottery_id: str = "br/mega-sena", colors: dict | None = None):
         super().__init__(parent)
         self.lottery_id = lottery_id
         self.setWindowTitle("Number Dossier")
         self.resize(420, 300)
-        self.setStyleSheet("background-color: #121214; color: #E0E0E5;")
+        colors = dict(colors) if colors else dict(THEMES[DEFAULT_THEME])
 
         adapter = get_adapter(lottery_id)
         lo, hi = adapter.rules.number_range
@@ -39,7 +40,7 @@ class NumberDossierDialog(QDialog):
 
         self.result_label = QLabel("")
         self.result_label.setWordWrap(True)
-        self.result_label.setStyleSheet("font-family: 'JetBrains Mono'; font-size: 13px; color: #00F0FF;")
+        self.result_label.setStyleSheet(f"font-family: 'JetBrains Mono'; font-size: 13px; color: {colors['primary']};")
 
         box = QGroupBox(f"{adapter.rules.name} — historical dossier")
         box.setLayout(form)

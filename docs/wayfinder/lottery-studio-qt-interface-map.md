@@ -39,10 +39,19 @@ See the full [Product Requirement Document (PRD)](decisions/samlotto-qt-interfac
 - [#108 Ticket Store WRG reduction and real printing](tickets/108-ticket-store-wrg-reduction-and-print.md) — Implemented. `WheelingEngine.reduce_tickets()` (existed, zero callers) wired up as `TicketStoreReductionJob`, exposed via a Ticket Store toolbar button and context-menu action with a combinatorial-universe safety guard. `print_tickets()`'s fake "queued to spooler" stub replaced with a real `QPrinter`/`QPrintDialog`/`QTextDocument` flow.
 - [#109 Drawings Trend manual predictor (E5)](tickets/109-drawings-trend-manual-checker.md) — Implemented. `AnalysisTab` gained a manual number-checker panel (reusing the existing `NumberGrid` widget as-is) below its chart/table, with its own `numbers_recommended` signal wired to the same `handle_push_to_pool()` slot `PredictionTab` uses — deliberately not tied to any view's computed data, since the point is a manual, opinion-driven pick distinct from #106's algorithmic predictor.
 - [#110 Custom export formats](tickets/110-ticket-store-csv-export.md) — Implemented. `export_tickets()` gained a CSV filter (stdlib `csv` module, `Index,Numbers,Score` with header) alongside the existing `.txt` export.
+- [#111 Closing the gap to "18-method tabbed statistics"](tickets/111-eighteen-method-statistics-parity.md) — Implemented. This map's own Destination text named "18-method" statistics; #107 shipped 11 without checking against the primary-source manual's actual 18-page Statistics menu. Reading it (not the secondary summaries #107 used) found 4 genuinely distinct missing metrics — Distance Analysis, Divisibility Analysis, Prior Drawing Repeat Analysis, Pair Co-occurrence Matrix — `AnalysisTab` now at 15/18 (the other 3 are menu umbrellas/near-duplicates by design). Also fixed a real bug found via testing: `NumberGrid.build_grid()`'s `(n - 1)`-based row/col math silently mis-placed ball `0` (and shifted every other ball) for `br/lotomania`, the one zero-indexed game.
+
+- [#112 Filter Assistant Wizard](tickets/112-filter-assistant-wizard.md) — Implemented. GUI counterpart to `lottery filter-assistant` (detailed_features.md's "Assistant Filter"): a `QWizard` walking tiers 1-5's filter registry, ending in an elimination-funnel report via a new `FilterAssistantFunnelJob` that reuses `engine.cli.commands.filter_funnel`'s exact logic. Deliberately separate from FiltersTab (#105) — different SamLotto workflow, confirmed by the CLI already having two distinct commands for it. Cross-checked against the real CLI command's own output for identical inputs, not just "does it run."
+
+- [#113 Save and Load Your Own Favorite Number](tickets/113-save-load-favorite-numbers.md) — Implemented. Two Pool Builder buttons in `ProphetDashboard` save/restore the active number selection to a small JSON file — distinct from #102's drawing-history .txt round-trip and #110's Ticket Store CSV/TXT export, neither of which covers the raw manually-picked pool.
+
+- [#114 Position Number Tickets](tickets/114-position-number-tickets.md) — Implemented. New `PositionTicketsDialog`/`PositionTicketsJob`: independent candidate numbers per ticket position, Cartesian product filtered to distinct-numbers-only and deduplicated, with a combinatorial safety cap. Launched from `WheelingTab` but re-emits through its own existing `tickets_generated` signal rather than adding a second `main.py` wiring path.
+
+- [#115 Random Select Numbers + Last-X-Drawings quick pick](tickets/115-random-and-last-drawn-quick-picks.md) — Implemented. New "🎲 RANDOM" quick-select button and "Pick Last-X-Drawings Numbers..." menu entry, filling the last two named quick-pick actions from the manual's Quick Select pages that weren't yet covered by the existing HOT/COLD/CLEAR/ALL/Odd/Even/Prime set. Also fixed a stale test (`sync_theme_colors` → `apply_theme`) left over from a concurrent session's clean rename.
 
 ## Tickets (frontier)
 
-None open — #105-#110 are closed.
+None open — #105-#115 are closed.
 
 ## Tickets (blocked)
 
@@ -50,7 +59,7 @@ None open — #105-#110 are closed.
 
 ## Not yet specified
 
-No open fog — #101-#110 closed every item this map had queued. New gaps get a fresh ticket when they surface.
+No open fog — #101-#115 closed every item this map had queued. New gaps get a fresh ticket when they surface.
 
 ## Out of scope
 

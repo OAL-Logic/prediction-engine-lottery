@@ -2,8 +2,12 @@
   params:
     alpha0: 0.5
     decay: 0.999
-  filters: []
+  filters:
+  - sum_range
   metrics:
-    lift: 1.1666666666666667
-    mean_hits: 10.5
+    lift: 1.0
+    mean_hits: 9.0
     capture: 1.0
+    profit: -6.0
+    roi: 0.0
+    precision: 0.0

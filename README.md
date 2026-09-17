@@ -227,6 +227,31 @@ Interactive docs at `http://localhost:8000/docs` (Swagger UI).
 
 ---
 
+## 🖥️ Desktop App (Prophet Dashboard)
+
+A PySide6 cockpit matching SamLotto Free Edition's feature set — drawings management, 11-view statistics workspace, 50+ base and 18 advanced filters with N-of-M logic, WRG wheel reduction, and Formula/Algorithm predictions. See `docs/wayfinder/samlotto-qt-interface-map.md` for the full feature-parity tracker.
+
+```bash
+pip install -e ".[desktop]"   # or ".[all]" for every strategy tier the app can invoke
+lottery-desktop                # launch
+```
+
+### Standalone builds
+
+For users without a Python environment, the app packages as a native standalone build (no `pip install` needed) via PyInstaller:
+
+```bash
+pip install -e ".[all,packaging]"
+pyinstaller packaging/lottery-desktop.spec --distpath dist --workpath build --noconfirm
+# → dist/ProphetDashboard/  (run the ProphetDashboard executable inside it)
+```
+
+This builds for whichever OS you run it on — there's no cross-compilation. `.github/workflows/build-desktop.yml` runs it on a Windows/macOS/Linux matrix (manually via "Run workflow", or automatically on any `v*` tag push, which also attaches the three builds to that release).
+
+> **Building on WSL:** point `--distpath`/`--workpath` at a native Linux path (e.g. `/tmp/...`), not one under `/mnt/c/...`. The final copy step moves several very large files (PyTorch alone bundles gigabyte-scale `.so`s), and the 9p protocol behind Windows-drive mounts reliably drops those with `OSError: [Errno 5] Input/output error` — confirmed by hitting it twice, on two different files, in the same spot both times, before moving the build output to `/tmp`.
+
+---
+
 ## 📖 Documentation
 
 | Document | Path |

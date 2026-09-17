@@ -17,10 +17,12 @@ from engine.cli.utils import get_adapter
 from engine.modules.filters import (
     PRIMES, get_odd_count, get_high_low_counts, get_ac_value, get_root_sum,
     get_decade_metrics, get_successive_metrics, get_prime_count,
-    get_composite_count, get_unit_metrics,
+    get_composite_count, get_unit_metrics, get_distance_metrics, get_multiples_count,
 )
+from engine.modules.patterns import get_repeated_count
 from desktop.src.telemetry.manager import SkipsJob
 from desktop.src.widgets.number_grid import NumberGrid
+from desktop.src.theme.manager import THEMES, DEFAULT_THEME
 
 logger = logging.getLogger(__name__)
 
@@ -42,18 +44,9 @@ class AnalysisTab(QWidget):
         self.df_draws = pd.DataFrame()
         self.skips_dialog = None
         
-        # Default fallback palette (Sleek Dark Mode)
-        self.colors = {
-            "background": "#121214",
-            "primary":    "#00F0FF",   # Cyber Cyan
-            "accent":     "#FF3366",   # Active Red
-            "success":    "#39FF14",   # Radioactive Green
-            "warning":    "#FFEA00",   # Supernova Gold
-            "panel":      "#1A1A1E",
-            "border":     "#222226",
-            "text":       "#E0E0E5",
-            "text_dim":   "#8A8A95",
-        }
+        # Fallback palette until ProphetDashboard's first apply_theme() call — the
+        # registered default theme, not a re-typed copy of its values.
+        self.colors = THEMES[DEFAULT_THEME]
         
         self.initUI()
 
@@ -78,6 +71,10 @@ class AnalysisTab(QWidget):
             "Consecutive Groups Analysis",
             "Prime & Composite Balance",
             "Unit Digit Analysis",
+            "Distance Analysis",
+            "Divisibility Analysis",
+            "Prior Drawing Repeat Analysis",
+            "Pair Co-occurrence Matrix",
         ])
         self.combo_analysis_type.currentTextChanged.connect(self.on_analysis_changed)
         
@@ -135,13 +132,13 @@ class AnalysisTab(QWidget):
         trend_layout = QVBoxLayout(trend_group)
         trend_layout.setSpacing(8)
 
-        trend_hint = QLabel(
+        self.trend_hint = QLabel(
             "Eyeball the chart/table above, then manually check the numbers you want — "
             "this pool is your own call, not an algorithm's."
         )
-        trend_hint.setWordWrap(True)
-        trend_hint.setStyleSheet(f"color: {self.colors['text_dim']}; font-size: 10px;")
-        trend_layout.addWidget(trend_hint)
+        self.trend_hint.setWordWrap(True)
+        self.trend_hint.setStyleSheet(f"color: {self.colors['text_dim']}; font-size: 10px;")
+        trend_layout.addWidget(self.trend_hint)
 
         trend_scroll = QScrollArea()
         trend_scroll.setWidgetResizable(True)
@@ -165,23 +162,23 @@ class AnalysisTab(QWidget):
         # Initial load
         self.load_data()
 
-    def sync_theme_colors(self):
-        """Syncs local color map with the top-level main window theme settings."""
-        main_win = self.window()
-        if hasattr(main_win, "theme_manager") and main_win.theme_manager:
-            theme_name = main_win.theme_manager.settings.value("theme", "Sleek Dark Mode")
-            theme_palette = main_win.theme_manager.themes.get(theme_name)
-            if theme_palette:
-                for k, v in theme_palette.items():
-                    self.colors[k] = v
-        
-        # Apply stylesheet to table to match theme
+    def apply_theme(self, colors: dict):
+        """Repaints per-widget styles and the matplotlib canvas that live outside
+        the global QSS cascade, then redraws the chart from cached data so its
+        own text/title/bar colors (set at draw time, not via QSS) pick up the
+        new theme too."""
+        self.colors = colors
         self.stats_table.setStyleSheet(
-            f"QTableWidget {{ background-color: {self.colors['panel']}; border: 1px solid {self.colors['border']}; font-family: 'JetBrains Mono'; font-size: 11px; color: {self.colors['text']}; }}"
-            f"QTableWidget::item:selected {{ background-color: {self.colors['primary']}; color: {self.colors['background']}; }}"
-            f"QHeaderView::section {{ background-color: {self.colors['border']}; color: {self.colors['text_dim']}; border: none; padding: 4px; }}"
+            f"QTableWidget {{ background-color: {colors['panel']}; border: 1px solid {colors['border']}; font-family: 'JetBrains Mono'; font-size: 11px; color: {colors['text']}; }}"
+            f"QTableWidget::item:selected {{ background-color: {colors['primary']}; color: {colors['background']}; }}"
+            f"QHeaderView::section {{ background-color: {colors['border']}; color: {colors['text_dim']}; border: none; padding: 4px; }}"
         )
-        self.summary_label.setStyleSheet(f"font-family: 'JetBrains Mono'; font-size: 12px; color: {self.colors['success']};")
+        self.summary_label.setStyleSheet(f"font-family: 'JetBrains Mono'; font-size: 12px; color: {colors['success']};")
+        self.trend_hint.setStyleSheet(f"color: {colors['text_dim']}; font-size: 10px;")
+        self.trend_grid.apply_theme(colors)
+        self.update_chart()
+        if self.skips_dialog is not None:
+            self.skips_dialog.apply_theme(colors)
 
     def set_lottery(self, lottery_id: str):
         """Called globally when active lottery swaps."""
@@ -221,7 +218,6 @@ class AnalysisTab(QWidget):
 
     def update_chart(self):
         """Clears figure, populates stats table, and redraws chart using DuckDB data."""
-        self.sync_theme_colors()
         self.ax.clear()
         self.stats_table.setRowCount(0)
         self.stats_table.setColumnCount(0)
@@ -757,6 +753,168 @@ class AnalysisTab(QWidget):
             )
             self.summary_label.setText(summary)
 
+        elif view_type == "Distance Analysis":
+            spreads, max_gaps = [], []
+            for _, r in self.df_draws.iterrows():
+                dm = get_distance_metrics(r["numbers"])
+                spreads.append(dm["spread"])
+                max_gaps.append(dm["max"])
+            mean_spread = float(np.mean(spreads)) if spreads else 0.0
+            n_bins = max(1, min(20, len(set(spreads))))
+
+            self.ax.hist(spreads, bins=n_bins, color=self.colors["primary"], alpha=0.6, edgecolor=self.colors["border"])
+            self.ax.axvline(mean_spread, color=self.colors["warning"], linestyle="--", linewidth=2, label=f"Mean: {mean_spread:.1f}")
+            self.ax.set_title("First-Last Distance (Span) Distribution", color=self.colors["primary"], fontsize=12, fontproperties={'family': 'JetBrains Mono'})
+            self.ax.set_xlabel("Distance (Highest - Lowest Number)", color=self.colors["text_dim"], fontproperties={'family': 'JetBrains Mono'})
+            self.ax.set_ylabel("Historical Draw Count", color=self.colors["text_dim"], fontproperties={'family': 'JetBrains Mono'})
+            self.ax.legend(facecolor=self.colors["panel"], labelcolor=self.colors["text"], edgecolor=self.colors["border"])
+
+            self.stats_table.setColumnCount(6)
+            self.stats_table.setHorizontalHeaderLabels(["Draw ID", "Draw Date", "Numbers", "First-Last Distance", "Max Adjacent Gap", "Min Adjacent Gap"])
+            self.stats_table.horizontalHeader().setSectionResizeMode(QHeaderView.Stretch)
+            self.stats_table.setRowCount(total_draws)
+
+            for idx, (_, row_data) in enumerate(self.df_draws.iloc[::-1].iterrows()):
+                nums = row_data["numbers"]
+                dm = get_distance_metrics(nums)
+                nums_str = ", ".join(map(str, sorted(nums)))
+                for col, val in enumerate([row_data["draw_id"], row_data["draw_date"], nums_str, dm["spread"], dm["max"], dm["min"]]):
+                    item = QTableWidgetItem(str(val))
+                    item.setForeground(QColor(self.colors["text"]))
+                    self.stats_table.setItem(idx, col, item)
+
+            summary = (
+                f"📏 Distance Diagnostic:\n"
+                f"  ➔ Mean First-Last Distance : {mean_spread:.2f} (pool span: {max_n - min_n})\n"
+                f"  ➔ Mean Max Adjacent Gap    : {float(np.mean(max_gaps)) if max_gaps else 0.0:.2f}"
+            )
+            self.summary_label.setText(summary)
+
+        elif view_type == "Divisibility Analysis":
+            divisors = list(range(3, 11))
+            per_draw_counts = {d: [] for d in divisors}
+            for _, r in self.df_draws.iterrows():
+                nums = r["numbers"]
+                for d in divisors:
+                    per_draw_counts[d].append(get_multiples_count(nums, d))
+            means = [float(np.mean(per_draw_counts[d])) if per_draw_counts[d] else 0.0 for d in divisors]
+
+            self.ax.bar([str(d) for d in divisors], means, color=self.colors["success"], edgecolor=self.colors["border"])
+            self.ax.set_title("Mean Count of Numbers Divisible by N, per Draw", color=self.colors["primary"], fontsize=12, fontproperties={'family': 'JetBrains Mono'})
+            self.ax.set_xlabel("Divisor (N)", color=self.colors["text_dim"], fontproperties={'family': 'JetBrains Mono'})
+            self.ax.set_ylabel("Mean Count per Draw", color=self.colors["text_dim"], fontproperties={'family': 'JetBrains Mono'})
+
+            self.stats_table.setColumnCount(2 + len(divisors))
+            self.stats_table.setHorizontalHeaderLabels(["Draw ID", "Draw Date"] + [f"÷{d}" for d in divisors])
+            self.stats_table.horizontalHeader().setSectionResizeMode(QHeaderView.Stretch)
+            self.stats_table.setRowCount(total_draws)
+
+            for idx, (_, row_data) in enumerate(self.df_draws.iloc[::-1].iterrows()):
+                nums = row_data["numbers"]
+                counts = [get_multiples_count(nums, d) for d in divisors]
+                for col, val in enumerate([row_data["draw_id"], row_data["draw_date"]] + counts):
+                    item = QTableWidgetItem(str(val))
+                    item.setForeground(QColor(self.colors["text"]))
+                    self.stats_table.setItem(idx, col, item)
+
+            top_divisor = divisors[int(np.argmax(means))] if means else 3
+            summary = (
+                f"➗ Divisibility Diagnostic:\n"
+                f"  ➔ Highest Mean Membership : divisible-by-{top_divisor} ({max(means) if means else 0.0:.2f} numbers/draw avg)\n"
+                f"  ➔ Columns show, per draw, how many of the {pick_k} numbers are multiples of each divisor 3-10."
+            )
+            self.summary_label.setText(summary)
+
+        elif view_type == "Prior Drawing Repeat Analysis":
+            sorted_draws = self.df_draws.sort_values("draw_id").reset_index(drop=True)
+            repeat_counts = []
+            for i in range(1, len(sorted_draws)):
+                repeat_counts.append(get_repeated_count(sorted_draws.iloc[i]["numbers"], sorted_draws.iloc[i - 1]["numbers"]))
+
+            max_possible = min(pick_k, max_n - min_n + 1)
+            x_vals = list(range(max_possible + 1))
+            dist = [repeat_counts.count(v) for v in x_vals]
+
+            self.ax.bar(x_vals, dist, color=self.colors["warning"], edgecolor=self.colors["border"])
+            self.ax.set_title("Repeats from Immediately Prior Drawing", color=self.colors["primary"], fontsize=12, fontproperties={'family': 'JetBrains Mono'})
+            self.ax.set_xlabel("Numbers Repeated from Previous Draw", color=self.colors["text_dim"], fontproperties={'family': 'JetBrains Mono'})
+            self.ax.set_ylabel("Historical Draw Count", color=self.colors["text_dim"], fontproperties={'family': 'JetBrains Mono'})
+            self.ax.set_xticks(x_vals)
+
+            self.stats_table.setColumnCount(4)
+            self.stats_table.setHorizontalHeaderLabels(["Draw ID", "Draw Date", "Numbers", "Repeats from Prev Draw"])
+            self.stats_table.horizontalHeader().setSectionResizeMode(QHeaderView.Stretch)
+            self.stats_table.setRowCount(max(0, len(sorted_draws) - 1))
+
+            for row_idx, i in enumerate(range(len(sorted_draws) - 1, 0, -1)):
+                row_data = sorted_draws.iloc[i]
+                rep = get_repeated_count(row_data["numbers"], sorted_draws.iloc[i - 1]["numbers"])
+                nums_str = ", ".join(map(str, sorted(row_data["numbers"])))
+                for col, val in enumerate([row_data["draw_id"], row_data["draw_date"], nums_str, rep]):
+                    item = QTableWidgetItem(str(val))
+                    item.setForeground(QColor(self.colors["warning"] if rep >= 2 else self.colors["text"]))
+                    self.stats_table.setItem(row_idx, col, item)
+
+            mean_rep = float(np.mean(repeat_counts)) if repeat_counts else 0.0
+            summary = (
+                f"🔁 Prior Drawing Repeat Diagnostic:\n"
+                f"  ➔ Mean Repeats from Previous Draw : {mean_rep:.2f}\n"
+                f"  ➔ Draws with 2+ repeats (highlighted) : {sum(1 for r in repeat_counts if r >= 2)} of {len(repeat_counts)}"
+            )
+            self.summary_label.setText(summary)
+
+        elif view_type == "Pair Co-occurrence Matrix":
+            n_pool = max_n - min_n + 1
+            matrix = np.zeros((n_pool, n_pool), dtype=np.int32)
+            for _, row_data in self.df_draws.iterrows():
+                nums = row_data["numbers"]
+                for i in range(len(nums)):
+                    for j in range(i + 1, len(nums)):
+                        a, b = nums[i] - min_n, nums[j] - min_n
+                        if 0 <= a < n_pool and 0 <= b < n_pool:
+                            matrix[a, b] += 1
+                            matrix[b, a] += 1
+
+            self.ax.imshow(matrix, cmap='viridis', aspect='auto', interpolation='nearest')
+            self.ax.set_title("Historical Pair Co-occurrence Matrix", color=self.colors["primary"], fontsize=12, fontproperties={'family': 'JetBrains Mono'})
+            self.ax.set_xlabel("Ball Number", color=self.colors["text_dim"], fontproperties={'family': 'JetBrains Mono'})
+            self.ax.set_ylabel("Ball Number", color=self.colors["text_dim"], fontproperties={'family': 'JetBrains Mono'})
+            ticks = list(range(0, n_pool, max(1, n_pool // 10)))
+            self.ax.set_xticks(ticks)
+            self.ax.set_xticklabels([f"{t + min_n:02d}" for t in ticks])
+            self.ax.set_yticks(ticks)
+            self.ax.set_yticklabels([f"{t + min_n:02d}" for t in ticks])
+
+            self.stats_table.setColumnCount(4)
+            self.stats_table.setHorizontalHeaderLabels(["Ball Number", "Top Partner", "Co-occurrences", "Total Pair Hits"])
+            self.stats_table.horizontalHeader().setSectionResizeMode(QHeaderView.Stretch)
+            self.stats_table.setRowCount(n_pool)
+
+            x_vals = list(range(min_n, max_n + 1))
+            for row, n in enumerate(x_vals):
+                idx_n = n - min_n
+                partner_counts = matrix[idx_n].copy()
+                partner_counts[idx_n] = -1  # exclude self
+                best_partner_idx = int(np.argmax(partner_counts))
+                best_count = int(partner_counts[best_partner_idx])
+                total_hits = int(matrix[idx_n].sum())
+
+                self.stats_table.setItem(row, 0, QTableWidgetItem(f"Ball {n:02d}"))
+                self.stats_table.setItem(row, 1, QTableWidgetItem(f"Ball {best_partner_idx + min_n:02d}" if best_count > 0 else "—"))
+                self.stats_table.setItem(row, 2, QTableWidgetItem(str(max(0, best_count))))
+                self.stats_table.setItem(row, 3, QTableWidgetItem(str(total_hits)))
+                for col in range(4):
+                    self.stats_table.item(row, col).setForeground(QColor(self.colors["text"]))
+
+            flat_idx = int(np.argmax(matrix))
+            r_idx, c_idx = flat_idx // n_pool, flat_idx % n_pool
+            summary = (
+                f"🔗 Pair Co-occurrence Diagnostic:\n"
+                f"  ➔ Strongest Historical Pair : Ball {r_idx + min_n:02d} + Ball {c_idx + min_n:02d} ({int(matrix[r_idx, c_idx])} joint appearances)\n"
+                f"  ➔ Click any row to drill into that ball's Actual Skips profile."
+            )
+            self.summary_label.setText(summary)
+
         self.figure.tight_layout()
         self.canvas.draw()
 
@@ -776,6 +934,11 @@ class AnalysisTab(QWidget):
             "Consecutive Groups Analysis",
             "Prime & Composite Balance",
             "Unit Digit Analysis",
+            "Distance Analysis",
+            "Divisibility Analysis",
+            "Prior Drawing Repeat Analysis",
+            # "Pair Co-occurrence Matrix" deliberately excluded from this set — its
+            # table is genuinely "Ball NN"-indexed, so the drill-down below works.
         }
         if view_type in NON_BALL_VIEWS:
             return
@@ -817,7 +980,7 @@ class AnalysisTab(QWidget):
         """Displays or updates the modeless SkipsInspectorDialog once calculations finish."""
         if not hasattr(self, "skips_dialog") or self.skips_dialog is None:
             from desktop.src.widgets.skips_inspector import SkipsInspectorDialog
-            self.skips_dialog = SkipsInspectorDialog(self)
+            self.skips_dialog = SkipsInspectorDialog(self, colors=self.colors)
         
         self.skips_dialog.show()
         self.skips_dialog.raise_()

@@ -20,8 +20,9 @@ def test_filter_performance_threshold(mock_context):
     candidates = np.random.randint(1, POOL + 1, size=(N_TICKETS, K))
     candidates.sort(axis=1)
     
-    all_filters = list(registry._filters.values())
-    
+    registry._discover()
+    all_filters = [registry.get(uid) for uid in registry._module_map]
+
     for f in all_filters:
         # Pre-warm (ignore first run if needed, but for 1ms we should be consistent)
         f.apply(candidates, mock_context)
@@ -45,7 +46,9 @@ def test_shared_memory_compliance(mock_context):
     candidates = np.random.randint(1, POOL + 1, size=(N_TICKETS, K))
     original_copy = candidates.copy()
     
-    for f in registry._filters.values():
+    registry._discover()
+    for uid in registry._module_map:
+        f = registry.get(uid)
         f.apply(candidates, mock_context)
         # Check if candidates was mutated
         assert np.array_equal(candidates, original_copy), f"Filter {f.unique_id} mutated input buffer!"

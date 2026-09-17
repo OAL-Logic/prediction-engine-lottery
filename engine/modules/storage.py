@@ -15,6 +15,8 @@ from pathlib import Path
 from typing import Any, List, Optional, Dict
 import pandas as pd
 
+from engine._paths import PROJECT_ROOT
+
 try:
     import duckdb
     _HAS_DUCKDB = True
@@ -24,7 +26,7 @@ except ImportError:
 logger = logging.getLogger(__name__)
 
 # --- Paths ---
-BASE_DIR = Path(__file__).parent.parent.parent
+BASE_DIR = PROJECT_ROOT
 DATA_DIR = BASE_DIR / "data"
 DB_PATH = DATA_DIR / "lottery.db"
 INSPECTION_DIR = DATA_DIR / "inspections"

@@ -31,6 +31,9 @@ MANIFEST
 #   before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
+#   ...but packaging/lottery-desktop.spec is hand-authored, not template-generated
+#   (see its own header comment) — it's the actual build config, track it.
+!packaging/lottery-desktop.spec
 
 # Installer logs
 pip-log.txt

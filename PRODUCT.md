@@ -4,7 +4,7 @@
 
 ## Platform
 
-desktop (PySide6/Qt — cross-platform native desktop app; not web/iOS/Android)
+web (closest fit for Impeccable's platform enum — actual runtime is PySide6/Qt Widgets, a cross-platform native desktop app; there is no iOS/Android build and `adaptive` would wrongly imply one, so generic non-native guidance applies over Qt Widgets/QSS instead of HTML/CSS)
 
 ## Users
 

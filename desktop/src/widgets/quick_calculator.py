@@ -16,6 +16,8 @@ from PySide6.QtWidgets import (
 )
 from PySide6.QtCore import Qt
 
+from desktop.src.theme.manager import THEMES, DEFAULT_THEME
+
 
 def combination_cost(pool_size: int, pick_count: int, ticket_price: float = 0.0) -> dict:
     """Pure calculation, independent of Qt — easy to unit test."""
@@ -28,11 +30,11 @@ def combination_cost(pool_size: int, pick_count: int, ticket_price: float = 0.0)
 class QuickCalculatorDialog(QDialog):
     """Standalone popup: pick pool size / pick count / unit price, see C(n,k) and total cost live."""
 
-    def __init__(self, parent=None, pool_size: int = 60, pick_count: int = 6, ticket_price: float = 0.0):
+    def __init__(self, parent=None, pool_size: int = 60, pick_count: int = 6, ticket_price: float = 0.0, colors: dict | None = None):
         super().__init__(parent)
         self.setWindowTitle("Quick Calculator")
         self.resize(360, 220)
-        self.setStyleSheet("background-color: #121214; color: #E0E0E5;")
+        colors = dict(colors) if colors else dict(THEMES[DEFAULT_THEME])
 
         self.pool_spin = QSpinBox()
         self.pool_spin.setRange(1, 999)
@@ -48,7 +50,7 @@ class QuickCalculatorDialog(QDialog):
         self.price_spin.setValue(ticket_price)
 
         self.result_label = QLabel()
-        self.result_label.setStyleSheet("font-family: 'JetBrains Mono'; font-size: 14px; color: #00F0FF;")
+        self.result_label.setStyleSheet(f"font-family: 'JetBrains Mono'; font-size: 14px; color: {colors['primary']};")
         self.result_label.setTextInteractionFlags(Qt.TextSelectableByMouse)
 
         form = QFormLayout()

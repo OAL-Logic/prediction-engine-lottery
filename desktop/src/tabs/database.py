@@ -337,55 +337,14 @@ class DatabaseTab(QWidget):
         self.lottery_selector.currentTextChanged.connect(self.set_lottery)
         
         self.sync_button = QPushButton("⚡ FETCH ONLINE DRAWINGS")
-        self.sync_button.setStyleSheet("""
-            QPushButton {
-                background-color: #008f11;
-                color: #ffffff;
-                font-weight: bold;
-                padding: 6px 12px;
-                border-radius: 4px;
-            }
-            QPushButton:hover {
-                background-color: #00ff41;
-                color: #000000;
-            }
-        """)
         self.sync_button.clicked.connect(self.sync_online_draws)
 
         self.import_button = QPushButton("📥 IMPORT SAMLOTTO .TXT")
-        self.import_button.setStyleSheet("""
-            QPushButton {
-                background-color: #2a2a2a;
-                color: #00ff41;
-                font-weight: bold;
-                padding: 6px 12px;
-                border: 1px solid #00ff41;
-                border-radius: 4px;
-            }
-            QPushButton:hover {
-                background-color: #00ff41;
-                color: #000000;
-            }
-        """)
         self.import_button.clicked.connect(self.import_samlotto_txt)
 
         self.export_button = QPushButton("📤 EXPORT SAMLOTTO .TXT")
-        self.export_button.setStyleSheet("""
-            QPushButton {
-                background-color: #2a2a2a;
-                color: #ffb300;
-                font-weight: bold;
-                padding: 6px 12px;
-                border: 1px solid #ffb300;
-                border-radius: 4px;
-            }
-            QPushButton:hover {
-                background-color: #ffb300;
-                color: #000000;
-            }
-        """)
         self.export_button.clicked.connect(self.export_samlotto_txt)
-        
+
         header_layout.addWidget(QLabel("Select Active Lottery:"))
         header_layout.addWidget(self.lottery_selector)
         header_layout.addSpacing(15)
@@ -442,11 +401,9 @@ class DatabaseTab(QWidget):
         actions_layout = QVBoxLayout(actions_group)
         
         self.save_button = QPushButton("💾 SAVE / UPDATE DRAW")
-        self.save_button.setStyleSheet("padding: 8px; font-weight: bold; color: #00ff41;")
         self.save_button.clicked.connect(self.save_draw_record)
-        
+
         self.delete_button = QPushButton("❌ DELETE SELECTED DRAW")
-        self.delete_button.setStyleSheet("padding: 8px; font-weight: bold; color: #ff3b30;")
         self.delete_button.clicked.connect(self.delete_draw_record)
         
         actions_layout.addWidget(self.save_button)
@@ -459,6 +416,54 @@ class DatabaseTab(QWidget):
 
         # Load initial database rows
         self.load_database()
+
+    def apply_theme(self, colors: dict):
+        """Repaints the buttons this tab styles directly (outside the global QSS
+        cascade) with the active theme's tokens, so they track theme swaps
+        instead of staying frozen on Forensic-Neon-era hex values."""
+        self.sync_button.setStyleSheet(f"""
+            QPushButton {{
+                background-color: {colors['text_dim']};
+                color: white;
+                font-weight: bold;
+                padding: 6px 12px;
+                border-radius: 4px;
+            }}
+            QPushButton:hover {{
+                background-color: {colors['primary']};
+                color: {colors['background']};
+            }}
+        """)
+        self.import_button.setStyleSheet(f"""
+            QPushButton {{
+                background-color: {colors['tab_bg']};
+                color: {colors['primary']};
+                font-weight: bold;
+                padding: 6px 12px;
+                border: 1px solid {colors['primary']};
+                border-radius: 4px;
+            }}
+            QPushButton:hover {{
+                background-color: {colors['primary']};
+                color: {colors['background']};
+            }}
+        """)
+        self.export_button.setStyleSheet(f"""
+            QPushButton {{
+                background-color: {colors['tab_bg']};
+                color: {colors['warning']};
+                font-weight: bold;
+                padding: 6px 12px;
+                border: 1px solid {colors['warning']};
+                border-radius: 4px;
+            }}
+            QPushButton:hover {{
+                background-color: {colors['warning']};
+                color: {colors['background']};
+            }}
+        """)
+        self.save_button.setStyleSheet(f"padding: 8px; font-weight: bold; color: {colors['success']};")
+        self.delete_button.setStyleSheet(f"padding: 8px; font-weight: bold; color: {colors['error']};")
 
     def set_lottery(self, lottery_id: str):
         self.active_lottery = lottery_id

@@ -10,6 +10,8 @@ from __future__ import annotations
 
 import json
 import logging
+import os
+import signal
 import time
 from pathlib import Path
 from typing import Annotated
@@ -110,6 +112,9 @@ def daemon(
     Runs a grid-search to find optimal strategy configurations and sliding-window weights.
     Saves outputs dynamically to `data/daemon_state.json`.
     """
+    if os.name != 'nt':
+        signal.alarm(0)  # cancel the CLI's 30-minute runaway-command guard — this command is meant to run indefinitely
+
     console.print(f"[bold green]Starting AutoML Daemon for {lottery}[/bold green]")
     console.print(f"  [dim]Interval: {interval}s | Validation Window: {prev} draws[/dim]")
     console.print(f"  [dim]State will be saved to {DAEMON_STATE_FILE}[/dim]\n")

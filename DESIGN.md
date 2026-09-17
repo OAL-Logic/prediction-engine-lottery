@@ -6,7 +6,7 @@ colors:
   matrix-green: "#00ff41"
   matrix-green-hover: "#00e63a"
   matrix-green-pressed: "#00cc33"
-  neon-green-dim: "#008f11"
+  neon-green-dim: "#009c11"
   lead-grey: "#333333"
   panel-black: "#0a0a0a"
   tab-charcoal: "#1a1a1a"
@@ -104,7 +104,7 @@ A near-monochrome system: one dominant signal color doing double duty as text an
 - **Astro Violet** (`#8a2be2`): reserved exclusively for `QGroupBox` section titles. The system's only deliberate second color — its rarity is the point.
 
 ### Tertiary
-- **Neon Green Dim** (`#008f11`): secondary/inactive text — unselected tab labels, muted status lines.
+- **Neon Green Dim** (`#009c11`): secondary/inactive text — unselected tab labels, muted status lines. Bumped from `#008f11` (4.09:1 on Tab Charcoal) to meet the 4.5:1 body-text contrast floor.
 
 ### Neutral
 - **Obsidian Black** (`#000000`): the base window/app background.

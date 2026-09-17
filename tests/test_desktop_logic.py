@@ -261,8 +261,7 @@ def test_analysis_tab_stats_table_click(app, qtbot):
     tab = AnalysisTab()
     win = DummyMainWindow()
     tab.window = lambda: win
-    
-    tab.sync_theme_colors()
+
     tab.load_data()
     
     # Ensure stats table is populated

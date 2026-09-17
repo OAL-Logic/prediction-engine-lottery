@@ -12,6 +12,7 @@ from PySide6.QtGui import QColor, QPainter
 from engine.modules.filters import registry
 from engine.modules.storage import storage
 from engine.cli.utils import get_adapter
+from desktop.src.theme.manager import THEMES, DEFAULT_THEME
 
 logger = logging.getLogger(__name__)
 
@@ -45,13 +46,13 @@ class RangeIndicator(QWidget):
         p = QPainter(self)
         w, h = self.width(), self.height()
         # Draw background track
-        p.fillRect(0, 2, w, h - 4, QColor("#222226"))
-        
+        p.fillRect(0, 2, w, h - 4, QColor(self.colors["border"]))
+
         span = max(1, self.bound_hi - self.bound_lo)
         x0 = int((self.lo - self.bound_lo) / span * w)
         x1 = int((self.hi - self.bound_lo) / span * w)
         # Draw selected range track
-        p.fillRect(x0, 2, max(2, x1 - x0), h - 4, QColor(self.colors.get("primary", "#00F0FF")))
+        p.fillRect(x0, 2, max(2, x1 - x0), h - 4, QColor(self.colors["primary"]))
         p.end()
 
 
@@ -60,25 +61,26 @@ class RangeEditorRow(QWidget):
 
     def __init__(self, bound_lo: int, bound_hi: int, lo: int, hi: int, colors, parent=None):
         super().__init__(parent)
+        self.colors = colors
         lay = QHBoxLayout(self)
         lay.setContentsMargins(0, 0, 0, 0)
         lay.setSpacing(4)
-        
+
         self.spin_lo = QSpinBox()
         self.spin_lo.setRange(bound_lo, bound_hi)
         self.spin_lo.setValue(lo)
         self.spin_lo.setFixedWidth(50)
-        self.spin_lo.setStyleSheet("background-color: #1A1A1C; border: 1px solid #333338; color: #FFFFFF;")
-        
+
         self.bar = RangeIndicator(bound_lo, bound_hi, colors)
         self.bar.set_range(lo, hi)
-        
+
         self.spin_hi = QSpinBox()
         self.spin_hi.setRange(bound_lo, bound_hi)
         self.spin_hi.setValue(hi)
         self.spin_hi.setFixedWidth(50)
-        self.spin_hi.setStyleSheet("background-color: #1A1A1C; border: 1px solid #333338; color: #FFFFFF;")
-        
+
+        self._style_spins()
+
         self.spin_lo.valueChanged.connect(self._on_change)
         self.spin_hi.valueChanged.connect(self._on_change)
         
@@ -101,6 +103,21 @@ class RangeEditorRow(QWidget):
                 lo = hi
         self.bar.set_range(lo, hi)
         self.changed.emit()
+
+    def _style_spins(self):
+        style = (
+            f"background-color: {self.colors['panel']}; "
+            f"border: 1px solid {self.colors['border']}; "
+            f"color: {self.colors['text']};"
+        )
+        self.spin_lo.setStyleSheet(style)
+        self.spin_hi.setStyleSheet(style)
+
+    def apply_theme(self, colors: dict):
+        self.colors = colors
+        self.bar.colors = colors
+        self.bar.update()
+        self._style_spins()
 
     def get_range(self) -> tuple[int, int]:
         return self.spin_lo.value(), self.spin_hi.value()
@@ -126,19 +143,33 @@ class FiltersTab(QWidget):
         self.active_lottery = "br/lotofacil"
         self._active_filters = []
         self.adv_active = {}  # uid -> value summary (str)
-        self.colors = {"primary": "#00F0FF", "accent": "#FF3366", "bg": "#121214"}
-        
-        # Load theme colors if possible
-        main_win = self.window()
-        if main_win and hasattr(main_win, "colors"):
-            self.colors = main_win.colors
+        self.range_editors: list[RangeEditorRow] = []
+        # Default-theme fallback; apply_theme() overwrites these once main.py
+        # wires up the real ThemeManager tokens.
+        self.colors = THEMES[DEFAULT_THEME]
 
         self.initUI()
 
     def initUI(self):
         main_layout = QVBoxLayout(self)
         main_layout.setContentsMargins(0, 0, 0, 0)
-        
+
+        # Header: launches the guided Filter Assistant wizard — a separate,
+        # simpler workflow from the tabs below (built-in default thresholds,
+        # sequential elimination funnel) rather than a replacement for them.
+        header_layout = QHBoxLayout()
+        header_layout.addWidget(QLabel("Manual Setup (below) or:"))
+        self.btn_filter_assistant = QPushButton("🧙 Launch Filter Assistant...")
+        self.btn_filter_assistant.setToolTip(
+            "SamLotto's 'Assistant Filter' equivalent — a guided, tier-by-tier filter\n"
+            "picker ending in an elimination-funnel report. Simpler than the tabs below:\n"
+            "no custom ranges, just pick filters by name and see what survives."
+        )
+        self.btn_filter_assistant.clicked.connect(self.launch_filter_assistant)
+        header_layout.addWidget(self.btn_filter_assistant)
+        header_layout.addStretch()
+        main_layout.addLayout(header_layout)
+
         self.tab_widget = QTabWidget(self)
         main_layout.addWidget(self.tab_widget)
 
@@ -224,12 +255,18 @@ class FiltersTab(QWidget):
         self.populate_base_tree()
         self.populate_advanced_lists()
 
+    def apply_theme(self, colors: dict):
+        self.colors = colors
+        for editor in self.range_editors:
+            editor.apply_theme(colors)
+
     def set_lottery(self, lottery_id: str):
         self.active_lottery = lottery_id
 
     def populate_base_tree(self):
         self.base_tree.blockSignals(True)
         self.base_tree.clear()
+        self.range_editors.clear()
 
         # Define Tiers
         tier_names = {
@@ -267,7 +304,8 @@ class FiltersTab(QWidget):
                     
                     editor = RangeEditorRow(lo_b, hi_b, lo, hi, self.colors)
                     editor.changed.connect(self.on_base_filter_changed)
-                    
+                    self.range_editors.append(editor)
+
                     self.base_tree.setItemWidget(child_node, 1, editor)
         except Exception as e:
             logger.exception("Error populating base filters tree.")
@@ -407,3 +445,21 @@ class FiltersTab(QWidget):
                         child.setCheckState(0, Qt.Checked)
         self.base_tree.blockSignals(False)
         self.filters_updated.emit(self.get_active_filters())
+
+    def launch_filter_assistant(self):
+        """Opens the guided Filter Assistant wizard (SamLotto 'Assistant Filter')
+        for the active lottery. Self-contained — the wizard runs its own
+        elimination-funnel job and doesn't touch this tab's own filter state,
+        matching how the CLI's filter-assistant is independent of filter-funnel."""
+        try:
+            rules = get_adapter(self.active_lottery).rules
+        except Exception as e:
+            QMessageBox.critical(self, "Registry Error", f"Failed to load rules for '{self.active_lottery}':\n{str(e)}")
+            return
+
+        main_win = self.window()
+        thread_manager = getattr(main_win, "thread_manager", None)
+
+        from desktop.src.widgets.filter_assistant_wizard import FilterAssistantWizard
+        wizard = FilterAssistantWizard(rules, thread_manager=thread_manager, parent=self)
+        wizard.exec()

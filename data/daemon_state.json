@@ -5,5 +5,21 @@
     "optimal_limit": 50,
     "optimal_temp": 0.0,
     "capture_rate": 100.0
+  },
+  "br/lotofacil": {
+    "last_optimized": "2026-09-16 17:05:26",
+    "best_strategy": "weighted",
+    "optimal_limit": 50,
+    "optimal_temp": 0.0,
+    "capture_rate": 100.0,
+    "strategy_weights": {
+      "weighted": 100.0,
+      "markov": 100.0,
+      "bayesian": 100.0,
+      "momentum": 100.0,
+      "random_forest": 100.0,
+      "pattern": 100.0,
+      "streak": 100.0
+    }
   }
 }

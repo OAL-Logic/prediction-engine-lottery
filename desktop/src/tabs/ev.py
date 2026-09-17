@@ -11,6 +11,7 @@ from matplotlib.figure import Figure
 
 from engine.modules.storage import storage
 from engine.cli.utils import get_adapter
+from desktop.src.theme.manager import THEMES, DEFAULT_THEME
 
 logger = logging.getLogger(__name__)
 
@@ -20,11 +21,14 @@ class ExpectedValueTab(QWidget):
     Provides premium real-time calculated combination value indicators,
     re-generating high-density Matplotlib resonance heatmaps matched to real DuckDB draw data.
     """
-    
+
     def __init__(self, parent=None):
         super().__init__(parent)
         self.active_lottery = "br/lotofacil"
         self.df_draws = pd.DataFrame()
+        # Default-theme fallback; apply_theme() overwrites these once ThemeManager
+        # is wired up, so the very first paint before that call still looks right.
+        self.colors = THEMES[DEFAULT_THEME]
         self.initUI()
 
     def initUI(self):
@@ -33,9 +37,9 @@ class ExpectedValueTab(QWidget):
         layout.setSpacing(15)
 
         # 1. Header Information
-        info_label = QLabel("Advantage Principle Analysis — Game Theory Model")
-        info_label.setStyleSheet("font-size: 16px; font-weight: bold; color: #00ff41;")
-        layout.addWidget(info_label)
+        self.info_label = QLabel("Advantage Principle Analysis — Game Theory Model")
+        self.info_label.setStyleSheet("font-size: 16px; font-weight: bold;")
+        layout.addWidget(self.info_label)
 
         # Main splitter (Controls on the Left, High-Density Visualizer on the Right)
         splitter = QSplitter(Qt.Horizontal)
@@ -76,7 +80,7 @@ class ExpectedValueTab(QWidget):
 
         # Text results details panel
         self.lbl_stats = QLabel("Awaiting database scan...")
-        self.lbl_stats.setStyleSheet("font-family: 'JetBrains Mono'; font-size: 11px; color: #00ff41;")
+        self.lbl_stats.setStyleSheet("font-family: 'JetBrains Mono'; font-size: 11px;")
         self.lbl_stats.setWordWrap(True)
         controls_layout.addRow(self.lbl_stats)
 
@@ -87,10 +91,10 @@ class ExpectedValueTab(QWidget):
         chart_layout = QVBoxLayout(chart_group)
         chart_layout.setContentsMargins(4, 4, 4, 4)
 
-        self.figure = Figure(figsize=(8, 6), facecolor='#000000')
+        self.figure = Figure(figsize=(8, 6), facecolor=self.colors["background"])
         self.canvas = FigureCanvas(self.figure)
         self.ax = self.figure.add_subplot(111)
-        self.ax.set_facecolor('#000000')
+        self.ax.set_facecolor(self.colors["background"])
         
         chart_layout.addWidget(self.canvas)
         splitter.addWidget(chart_group)
@@ -101,6 +105,13 @@ class ExpectedValueTab(QWidget):
 
         # Initial load
         self.load_data()
+
+    def apply_theme(self, colors: dict):
+        self.colors = colors
+        self.info_label.setStyleSheet(f"font-size: 16px; font-weight: bold; color: {colors['primary']};")
+        self.figure.set_facecolor(colors["background"])
+        self.ax.set_facecolor(colors["background"])
+        self.calculate_advantage()
 
     def set_lottery(self, lottery_id: str):
         """Called globally when active lottery swaps."""
@@ -121,8 +132,8 @@ class ExpectedValueTab(QWidget):
         self.ax.clear()
         
         if self.df_draws.empty or len(self.df_draws) < 5:
-            self.ax.text(0.5, 0.5, "Insufficient drawings to map EV clusters.", 
-                         color='#ff3131', ha='center', va='center', transform=self.ax.transAxes)
+            self.ax.text(0.5, 0.5, "Insufficient drawings to map EV clusters.",
+                         color=self.colors["error"], ha='center', va='center', transform=self.ax.transAxes)
             self.canvas.draw()
             self.lbl_stats.setText("Diagnostician State: INSUFFICIENT DATA")
             return
@@ -161,7 +172,7 @@ class ExpectedValueTab(QWidget):
 
         # Render Heatmap Grid
         im = self.ax.imshow(ev_matrix, cmap='nipy_spectral', interpolation='nearest')
-        self.ax.set_title("Probability Resonance Clusters", color='#00ff41')
+        self.ax.set_title("Probability Resonance Clusters", color=self.colors["primary"])
         
         # Tick offsets matching ball numbers
         ticks = np.arange(0, total_numbers, max(1, total_numbers // 10))
@@ -169,7 +180,7 @@ class ExpectedValueTab(QWidget):
         self.ax.set_xticklabels([f"{min_n + t:02d}" for t in ticks])
         self.ax.set_yticks(ticks)
         self.ax.set_yticklabels([f"{min_n + t:02d}" for t in ticks])
-        self.ax.tick_params(colors='#008f11')
+        self.ax.tick_params(colors=self.colors["text_dim"])
         self.figure.tight_layout()
         self.canvas.draw()
         

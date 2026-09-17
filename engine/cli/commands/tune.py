@@ -98,7 +98,7 @@ def tune(
         help="Training window size (draws before each target)")] = 50,
     strategies: Annotated[str, typer.Option("--strategies", "-s",
         help="Strategies to evaluate: preset (statistical|fast|default) or comma list")] = "statistical",
-    no_grid: Annotated[bool, typer.Option("--no-grid",
+    no_grid: Annotated[bool, typer.Option("--no-grid/--grid",
         help="Skip parameter grids — run each strategy once with defaults (faster)")] = False,
     stacking: Annotated[bool, typer.Option("--stacking",
         help="Train the Stacking AI meta-learner for this lottery")] = False,

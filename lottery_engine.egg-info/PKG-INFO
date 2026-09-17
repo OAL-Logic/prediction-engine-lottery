@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: lottery-engine
-Version: 11.2.0
+Version: 11.13.0
 Summary: High-performance lottery prediction engine — 100+ CLI commands, 80+ strategies, FastAPI sidecar, Go gateway
 License: MIT
 Keywords: lottery,statistics,analysis,mega-sena,powerball
@@ -35,6 +35,9 @@ Requires-Dist: catboost>=1.2; extra == "ml"
 Provides-Extra: deep
 Requires-Dist: torch>=2.3; extra == "deep"
 Requires-Dist: pytorch-crf>=0.7; extra == "deep"
+Provides-Extra: foundation
+Requires-Dist: timesfm; extra == "foundation"
+Requires-Dist: tabpfn; extra == "foundation"
 Provides-Extra: all
 Requires-Dist: scikit-learn>=1.5; extra == "all"
 Requires-Dist: lightgbm>=4.3; extra == "all"
@@ -53,6 +56,8 @@ Requires-Dist: PySide6>=6.7; extra == "desktop"
 Requires-Dist: matplotlib>=3.9; extra == "desktop"
 Requires-Dist: seaborn>=0.13; extra == "desktop"
 Requires-Dist: websockets>=12.0; extra == "desktop"
+Provides-Extra: packaging
+Requires-Dist: pyinstaller>=6.0; extra == "packaging"
 
 # Lottery Engine v11.2 (Singularity) 🚀🌌
 
@@ -129,6 +134,7 @@ git clone <repo-url> && cd lottery-engine
 | 📈 **Statistical** | 38 | `weighted`, `bayesian`, `markov`, `monte_carlo`, `spectral`, `fourier_forecast`, `nash_equilibrium`, `graph_influence`, `hurst_memory` |
 | 🤖 **ML** | 14 | `random_forest`, `gradient_boost`, `ml_regressor` (XGB/LGBM/CAT), `stacking_ai`, `ensemble_pro`, `synapse` |
 | 🧠 **Deep** | 5 | `transformer`, `lstm`, `lstm_crf`, `cnn_1d`, `gru` |
+| 🔭 **Foundation** | 2 | `timesfm` (zero-shot time-series via TimesFM 2.5), `tabfm` (zero-shot tabular classification via TabPFN) — both `pip install 'lottery-engine[foundation]'` |
 | ✨ **Fun / Chaos** | 27+ | `sacred_manifold`, `kabbalistic`, `ley_lines`, `vix_jitter`, `tda_topology`, `ising_model`, `zeno_quantum`, `lyapunov_chaos` |
 
 ### Ensemble Support
@@ -217,6 +223,7 @@ git clone <repo-url> && cd lottery-engine
 | `calibrate` | Empirical out-of-sample calibration |
 | `tune` | Grid search optimization |
 | `prune` | Strategy pruning audit |
+| `select-strategies` | Build a per-game active roster from empirical lift (consume via `forecast`/`rank-numbers --strategies roster`) |
 | `optimize` | Strategy × params grid search |
 | `audit-data` | Data integrity validator |
 | `games` | List registered lotteries |
@@ -281,6 +288,31 @@ Interactive docs at `http://localhost:8000/docs` (Swagger UI).
 
 ---
 
+## 🖥️ Desktop App (Prophet Dashboard)
+
+A PySide6 cockpit matching SamLotto Free Edition's feature set — drawings management, 11-view statistics workspace, 50+ base and 18 advanced filters with N-of-M logic, WRG wheel reduction, and Formula/Algorithm predictions. See `docs/wayfinder/samlotto-qt-interface-map.md` for the full feature-parity tracker.
+
+```bash
+pip install -e ".[desktop]"   # or ".[all]" for every strategy tier the app can invoke
+lottery-desktop                # launch
+```
+
+### Standalone builds
+
+For users without a Python environment, the app packages as a native standalone build (no `pip install` needed) via PyInstaller:
+
+```bash
+pip install -e ".[all,packaging]"
+pyinstaller packaging/lottery-desktop.spec --distpath dist --workpath build --noconfirm
+# → dist/ProphetDashboard/  (run the ProphetDashboard executable inside it)
+```
+
+This builds for whichever OS you run it on — there's no cross-compilation. `.github/workflows/build-desktop.yml` runs it on a Windows/macOS/Linux matrix (manually via "Run workflow", or automatically on any `v*` tag push, which also attaches the three builds to that release).
+
+> **Building on WSL:** point `--distpath`/`--workpath` at a native Linux path (e.g. `/tmp/...`), not one under `/mnt/c/...`. The final copy step moves several very large files (PyTorch alone bundles gigabyte-scale `.so`s), and the 9p protocol behind Windows-drive mounts reliably drops those with `OSError: [Errno 5] Input/output error` — confirmed by hitting it twice, on two different files, in the same spot both times, before moving the build output to `/tmp`.
+
+---
+
 ## 📖 Documentation
 
 | Document | Path |
@@ -304,8 +336,8 @@ Interactive docs at `http://localhost:8000/docs` (Swagger UI).
 | Structural Filters | 30+ |
 | Test Files | 41 |
 | API Endpoints | 17 |
-| Supported Lotteries | 150+ (registry) |
-| Strategy Tiers | 4 (Statistical, ML, Deep, Fun) |
+| Supported Lotteries | 10 with live adapters (`lottery games`); registry designed for many more |
+| Strategy Tiers | 5 (Statistical, ML, Deep, Foundation, Fun) |
 
 ---
 

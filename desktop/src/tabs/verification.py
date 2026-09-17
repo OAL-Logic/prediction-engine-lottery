@@ -11,17 +11,23 @@ from PySide6.QtGui import QBrush, QColor
 
 from engine.modules.storage import storage
 from engine.cli.utils import get_adapter
+from desktop.src.theme.manager import THEMES, DEFAULT_THEME
 
 logger = logging.getLogger(__name__)
 
 class TicketVerificationModel(QAbstractTableModel):
     """High-performance custom table model displaying tickets and color-highlighting hits."""
-    
-    def __init__(self, tickets: list[list[int]] = None, winning_set: set[int] = None, rules = None):
+
+    # Default-theme fallback; VerificationTab passes the live ThemeManager
+    # colors once constructed, so this only backstops a model built standalone.
+    _DEFAULT_COLORS = THEMES[DEFAULT_THEME]
+
+    def __init__(self, tickets: list[list[int]] = None, winning_set: set[int] = None, rules = None, colors: dict = None):
         super().__init__()
         self.tickets = tickets or []
         self.winning_set = winning_set or set()
         self.rules = rules
+        self.colors = colors or self._DEFAULT_COLORS
 
     def rowCount(self, parent=None) -> int:
         return len(self.tickets)
@@ -68,22 +74,27 @@ class TicketVerificationModel(QAbstractTableModel):
             if 1 <= col <= k:
                 val = ticket[col - 1]
                 if val in self.winning_set:
-                    return QBrush(QColor("#00ff41")) # Neon Green hit
+                    return QBrush(QColor(self.colors["primary"])) # Hit
             elif col == k + 1:
                 # Hit count column
                 matches = len(set(ticket) & self.winning_set)
                 if self.rules and matches in self.rules.prize_tiers:
-                    return QBrush(QColor("#008f11")) # Dim green for winning tier
-                    
+                    return QBrush(QColor(self.colors["text_dim"])) # Dim tone for winning tier
+
         elif role == Qt.ForegroundRole:
             if 1 <= col <= k:
                 val = ticket[col - 1]
                 if val in self.winning_set:
-                    return QBrush(QColor("#000000")) # High contrast black text on green
+                    # theme's window background is near-black in every variant, so it
+                    # reads as high-contrast text against any of the primary hues.
+                    return QBrush(QColor(self.colors["background"]))
             elif col == k + 1:
                 matches = len(set(ticket) & self.winning_set)
                 if self.rules and matches in self.rules.prize_tiers:
-                    return QBrush(QColor("#ffffff"))
+                    # text_dim is a muted mid-tone in every theme (its background
+                    # brush two branches up), so a theme token would under-contrast
+                    # here where "background" (near-black) reads fine against "primary".
+                    return QBrush(QColor(Qt.white))
 
         return None
 
@@ -149,8 +160,36 @@ class VerificationTab(QWidget):
         self.active_lottery = "br/lotofacil"
         self.tickets = []
         self.winning_numbers = set()
-        
+        self.model = None
+        # Default-theme fallback; apply_theme() overwrites these once ThemeManager
+        # is wired up, so the very first paint before that call still looks right.
+        self.colors = THEMES[DEFAULT_THEME]
+
         self.initUI()
+
+    def apply_theme(self, colors: dict):
+        self.colors = colors
+        self.leaderboard_status.setStyleSheet(f"font-size: 10px; color: {colors['text_dim']};")
+        # No registered "accent_hover" token, so lighten the accent fill at
+        # runtime rather than reaching for another unregistered hex literal.
+        accent_hover = QColor(colors["accent"]).lighter(125).name()
+        self.run_leaderboard_button.setStyleSheet(f"""
+            QPushButton {{
+                background-color: {colors['accent']};
+                color: {colors['background']};
+                font-weight: bold;
+                padding: 12px;
+                border: 1px solid {colors['accent']};
+                border-radius: 4px;
+            }}
+            QPushButton:hover {{
+                background-color: {accent_hover};
+                border-color: {accent_hover};
+            }}
+        """)
+        # Re-run the data-dependent styling (hit highlights, ROI color state)
+        # against the new palette rather than duplicating that state logic here.
+        self.update_results_grid()
 
     def initUI(self):
         outer_layout = QVBoxLayout(self)
@@ -251,7 +290,7 @@ class VerificationTab(QWidget):
             "Total Dividends Returned : $0.00\n"
             "Net Yield (ROI %)       : 0.00% (IDLE)"
         )
-        self.lbl_payout_stats.setStyleSheet("font-family: 'JetBrains Mono'; font-size: 13px; font-weight: bold; color: #008f11;")
+        self.lbl_payout_stats.setStyleSheet(f"font-family: 'JetBrains Mono'; font-size: 13px; font-weight: bold; color: {self.colors['text_dim']};")
         self.payout_card_layout.addWidget(self.lbl_payout_stats)
 
         right_layout.addWidget(self.payout_box, stretch=1)
@@ -292,9 +331,6 @@ class VerificationTab(QWidget):
         left_layout.addLayout(depth_row)
 
         self.run_leaderboard_button = QPushButton("⚡ RUN VERIFICATION")
-        self.run_leaderboard_button.setStyleSheet(
-            "background-color: #FF3366; color: white; font-weight: bold; padding: 12px;"
-        )
         left_layout.addWidget(self.run_leaderboard_button)
 
         self.leaderboard_progress = QProgressBar()
@@ -305,7 +341,7 @@ class VerificationTab(QWidget):
         left_layout.addWidget(self.leaderboard_progress)
 
         self.leaderboard_status = QLabel("Idle.")
-        self.leaderboard_status.setStyleSheet("font-size: 10px; color: #8A8A95;")
+        self.leaderboard_status.setStyleSheet(f"font-size: 10px; color: {self.colors['text_dim']};")
         left_layout.addWidget(self.leaderboard_status)
 
         layout.addWidget(left_group, stretch=1)
@@ -363,7 +399,7 @@ class VerificationTab(QWidget):
                 item = QTableWidgetItem(val)
                 item.setFlags(item.flags() & ~Qt.ItemIsEditable)
                 if r == 0:
-                    item.setForeground(QBrush(QColor("#00ff41")))
+                    item.setForeground(QBrush(QColor(self.colors["primary"])))
                 self.leaderboard_table.setItem(r, c, item)
 
     def set_lottery(self, lottery_id: str):
@@ -479,7 +515,7 @@ class VerificationTab(QWidget):
         except Exception:
             rules = None
 
-        self.model = TicketVerificationModel(self.tickets, self.winning_numbers, rules)
+        self.model = TicketVerificationModel(self.tickets, self.winning_numbers, rules, colors=self.colors)
         self.table_view.setModel(self.model)
         
         self.calculate_roi_summary(rules)
@@ -493,7 +529,7 @@ class VerificationTab(QWidget):
                 "Total Dividends Returned : $0.00\n"
                 "Net Yield (ROI %)       : 0.00% (IDLE)"
             )
-            self.lbl_payout_stats.setStyleSheet("font-family: 'JetBrains Mono'; font-size: 13px; font-weight: bold; color: #008f11;")
+            self.lbl_payout_stats.setStyleSheet(f"font-family: 'JetBrains Mono'; font-size: 13px; font-weight: bold; color: {self.colors['text_dim']};")
             return
 
         total_tickets = len(self.tickets)
@@ -528,17 +564,17 @@ class VerificationTab(QWidget):
 
         # Style colors depending on net return (green for profit, red for loss, yellow for break-even)
         if net_yield > 0:
-            # High profit neon green
+            # High profit — primary
             self.lbl_payout_stats.setStyleSheet(
-                "font-family: 'JetBrains Mono'; font-size: 13px; font-weight: bold; color: #00ff41;"
+                f"font-family: 'JetBrains Mono'; font-size: 13px; font-weight: bold; color: {self.colors['primary']};"
             )
         elif net_yield < 0:
-            # Loss signal red
+            # Loss — error
             self.lbl_payout_stats.setStyleSheet(
-                "font-family: 'JetBrains Mono'; font-size: 13px; font-weight: bold; color: #ff3131;"
+                f"font-family: 'JetBrains Mono'; font-size: 13px; font-weight: bold; color: {self.colors['error']};"
             )
         else:
-            # Equal / break even dim green
+            # Equal / break even — dim
             self.lbl_payout_stats.setStyleSheet(
-                "font-family: 'JetBrains Mono'; font-size: 13px; font-weight: bold; color: #008f11;"
+                f"font-family: 'JetBrains Mono'; font-size: 13px; font-weight: bold; color: {self.colors['text_dim']};"
             )
