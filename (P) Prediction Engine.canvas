@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"57d68c04f841c869","type":"text","text":"### Skills / Agents\n\n- [[2026-05-08 - Clippings Git Repo - K-Dense-AI scientific-agent-skills|github.com/K-Dense-Ai/scientific-agent-skills]]\n- [[2026-05-08 - Clippings Git Repo - K-Dense-AI mimeo|github.com/K-Dense-AI/mimeo - Clone an expert's way of thinking into your coding agent]]","x":-440,"y":-360,"width":360,"height":300,"color":"2"},
+		{"id":"6ee4e019d42e7e45","x":120,"y":-448,"width":320,"height":188,"type":"text","text":"### Inspiration for TUI\n\n[[2026-05-08 - Clippings Git Repo - wesm moneyflow - Untitled|github.com/wesm/moneyflow]]"}
+	],
+	"edges":[]
+}
