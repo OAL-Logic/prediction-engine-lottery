@@ -1,0 +1,62 @@
+# Family High-Performance Report 📄
+# Optimized for Mega-Sena and Lotofácil with Narrative Storytelling.
+
+name: "Family Strategic Portfolio"
+
+steps:
+  - type: fetch
+    lottery: br/mega-sena
+  - type: fetch
+    lottery: br/lotofacil
+
+  - type: narrative
+    name: "Mega-Sena Strategic Story"
+    lottery: br/mega-sena
+    persona: "Synapse Architect"
+    output: "reports/mega_sena_story.md"
+
+  - type: suggest
+    name: "Mega-Sena Bayesian Elite"
+    lottery: "br/mega-sena"
+    limit: 150
+    count: 7
+    temperature: 0.7
+    strategies:
+      - name: "bayesian"
+    output: "reports/mega_sena_elite.md"
+
+  - type: narrative
+    name: "Lotofácil Intelligence Story"
+    lottery: br/lotofacil
+    persona: "Chaos Oracle"
+    output: "reports/lotofacil_story.md"
+
+  - type: suggest
+    name: "Lotofácil Random Forest Intelligence"
+    lottery: "br/lotofacil"
+    limit: 500
+    count: 7
+    temperature: 0.7
+    strategies:
+      - name: "random_forest"
+    output: "reports/lotofacil_elite.md"
+
+  - type: suggest
+    name: "Lotofácil Steiner Wheel (7+ Coverage)"
+    lottery: "br/lotofacil"
+    strategies:
+      - name: "steiner_wheel"
+        params:
+          pool_size: 21
+          match_guarantee: 14
+    count: 10
+    output: "reports/lotofacil_wheel.md"
+
+  - type: suggest
+    name: "Personalized Kabbalistic (Vibrational)"
+    lottery: "br/lotofacil"
+    count: 7
+    temperature: 0.8
+    strategies:
+      - name: "kabbalistic"
+    output: "reports/family_kabbalah.md"

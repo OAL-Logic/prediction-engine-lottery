@@ -1,0 +1,38 @@
+# v11.0 Quantum-Astro-Agentic Synthesis - Lotofacil Optimized Config
+# This config uses a meta-learner (Stacking AI) and high-fidelity 
+# esoteric/quantum strategies to find the 'Resonance Intersection'.
+
+- name: markov_regime
+  params:
+    window: 50
+  filters: ["sum_range", "parity", "breadth", "no_consecutive"]
+
+- name: stacking_ai
+  params:
+    base_strategies: 
+      - markov_regime
+      - transformer
+      - ley_lines
+      - zeno_quantum
+      - monte_carlo
+  filters: ["sum_range", "parity", "no_historical_dupes"]
+
+- name: transformer
+  params:
+    epochs: 30
+  filters: ["ac_value", "prime_count", "fibonacci_count"]
+
+- name: ley_lines
+  params:
+    precision: "high"
+  filters: ["pos_1_low", "pos_last_high"]
+
+- name: zeno_quantum
+  params:
+    observation_rate: 0.85
+  filters: ["hot_cold", "successive_2"]
+
+- name: geomagnetic
+  params:
+    kp_threshold: 4
+  filters: ["unit_groups", "decade_groups"]

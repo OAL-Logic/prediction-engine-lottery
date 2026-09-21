@@ -1,0 +1,63 @@
+# lotofacil_backtest.local.yaml
+# Complete high-fidelity strategy and parameter evaluation matrix for Lotofácil
+
+- name: weighted
+  params:
+    decay: 0.98
+  filters: ["sum_range", "parity"]
+
+- name: markov_regime
+  params:
+    window: 50
+  filters: ["sum_range", "parity", "no_consecutive"]
+
+- name: bayesian
+  params:
+    alpha0: 0.5
+    decay: 0.99
+  filters: ["sum_range", "parity"]
+
+- name: synapse
+  params:
+    learning_rate: 0.05
+  filters: ["sum_range", "parity", "no_consecutive"]
+
+- name: transformer
+  params:
+    epochs: 25
+  filters: ["prime_count", "fibonacci_count"]
+
+- name: lstm_gru
+  params:
+    epochs: 25
+  filters: ["prime_count", "fibonacci_count"]
+
+- name: kabbalistic
+  params:
+    full_name: "JANE DOE"
+    birth_date: "1990-01-01"
+    use_history: true
+  filters: ["sum_range", "parity"]
+
+- name: moon_phase
+  params: {}
+  filters: ["sum_range", "parity"]
+
+- name: weather
+  params:
+    latitude: -23.5505
+    longitude: -46.6333
+  filters: ["sum_range", "parity"]
+
+- name: momentum
+  params:
+    window: 14
+  filters: ["sum_range", "parity"]
+
+- name: stacking_ai
+  params: {}
+  filters: ["sum_range", "parity", "no_historical_dupes"]
+
+- name: ensemble_pro
+  params: {}
+  filters: ["sum_range", "parity", "no_historical_dupes"]

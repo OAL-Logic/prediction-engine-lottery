@@ -1,0 +1,34 @@
+╭──────────────────────────────────────────────────────────────────────────────╮
+│ Launching ANALYZE                                                            │
+│   Lottery:  Lotofácil (br/lotofacil)                                         │
+│   Module:  dashboard                                                         │
+│   Top:  10                                                                   │
+╰──────────────────────────────────────────────────────────────────────────────╯
+╭────────────────────────── Automated Insight Ribbon ──────────────────────────╮
+│ ● Regime: Statistical distribution appears stable.                           │
+│ ● Cycle: Current cycle is nearly complete (88.0%). Watch missing numbers:    │
+│ [7, 9, 13].                                                                  │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+──────────────────────── Statistical Anomalies & Alerts ────────────────────────
+ Pattern             QTY  Delay   Avg Freq  Probability 
+ Segment C1 (1-5)     1     110  1 in 16.2          99% 
+ Odd Numbers          7      16   1 in 3.9          99% 
+ Even Numbers         8      16   1 in 3.9          99% 
+ Primes               4      23   1 in 5.8          99% 
+ Fibonacci            2      61  1 in 17.1          99% 
+ Frame (Perimeter)   10      39  1 in 13.7          99% 
+ Center               5      39  1 in 13.7          99% 
+ Segment C5 (21-25)   5      49  1 in 17.6          99% 
+ Segment C3 (11-15)   4       9   1 in 3.7          99% 
+ Frame (Perimeter)    6      19   1 in 8.6          99% 
+ Center               9      19   1 in 8.6          99% 
+ Repeated Numbers     7      23  1 in 10.8          99% 
+ Segment C5 (21-25)   2       9   1 in 4.3          99% 
+ Repeated Numbers    11      25  1 in 11.9          99% 
+ Segment C2 (6-10)    5      38  1 in 18.8          99% 
+ Segment C2 (6-10)    3       5   1 in 2.6          94% 
+ Segment C3 (11-15)   5      32  1 in 18.5          86% 
+ Multiples of 3       4       6   1 in 3.7          81% 
+
+Action: lottery suggest --filter-anomalies
