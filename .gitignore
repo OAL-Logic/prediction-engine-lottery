@@ -242,9 +242,9 @@ node_modules/
 tui/node_modules/
 tui/dist/
 # Reverse Engineering Logs
-disassembly_*.txt
-BinaryNinja_*.txt
-*.chm
+#disassembly_*.txt
+#BinaryNinja_*.txt
+#*.chm
 #extracted_manual/
 # Generated Reports
 docs/backtest_report_*.md
