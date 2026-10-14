@@ -18,9 +18,10 @@ from __future__ import annotations
 from PySide6.QtWidgets import (
     QWidget, QVBoxLayout, QHBoxLayout, QPushButton, QLabel,
     QComboBox, QSpinBox, QCheckBox, QGroupBox, QFormLayout,
-    QTextEdit, QProgressBar
+    QTextEdit, QProgressBar, QSplitter
 )
 from PySide6.QtCore import Signal
+from desktop.src.widgets.pipeline_diagram import PredictionPipelineWidget
 
 
 class PredictionTab(QWidget):
@@ -34,12 +35,18 @@ class PredictionTab(QWidget):
         self.initUI()
 
     def apply_theme(self, colors: dict):
-        self.status_label.setStyleSheet(f"font-size: 10px; color: {colors['text_dim']};")
+        self.status_label.setStyleSheet(f"font-size: 10px; color: {colors.get('text_dim', '#9ca3af')};")
+        if hasattr(self, 'pipeline_widget'):
+            self.pipeline_widget.apply_theme(colors)
 
     def initUI(self):
         layout = QVBoxLayout(self)
         layout.setContentsMargins(10, 10, 10, 10)
-        layout.setSpacing(15)
+        layout.setSpacing(12)
+
+        # Top Pipeline Visual Diagram
+        self.pipeline_widget = PredictionPipelineWidget()
+        layout.addWidget(self.pipeline_widget)
 
         # 1. Configuration Group
         config_group = QGroupBox("Engine Configuration")

@@ -267,18 +267,26 @@ class ProphetDashboard(QMainWindow):
         # Table Action Toolbar
         table_actions = QHBoxLayout()
         btn_dedupe = QPushButton("DEDUPLICATE")
+        btn_optimize = QPushButton("⚡ OPTIMIZE (OVERLAP)")
+        btn_optimize.setToolTip("SamLotto TopForm: eliminate redundant tickets with excessive number overlap.")
         btn_reduce = QPushButton("🎯 REDUCE (WRG)")
         btn_reduce.setToolTip("Greedy WRG set-cover reduction: drop tickets whose t-if-m coverage is already subsumed by others.")
+        btn_check_draw = QPushButton("🔍 CHECK LAST DRAW")
+        btn_check_draw.setToolTip("1-click quick verification of stored tickets against the most recent official draw.")
         btn_export = QPushButton("EXPORT TXT")
         btn_print = QPushButton("PRINT")
 
         btn_dedupe.clicked.connect(self.dedupe_tickets)
+        btn_optimize.clicked.connect(self.optimize_ticket_store_overlap)
         btn_reduce.clicked.connect(self.reduce_ticket_store)
+        btn_check_draw.clicked.connect(self.quick_check_last_draw)
         btn_export.clicked.connect(self.export_tickets)
         btn_print.clicked.connect(self.print_tickets)
 
         table_actions.addWidget(btn_dedupe)
+        table_actions.addWidget(btn_optimize)
         table_actions.addWidget(btn_reduce)
+        table_actions.addWidget(btn_check_draw)
         table_actions.addWidget(btn_export)
         table_actions.addWidget(btn_print)
         store_layout.addLayout(table_actions)
@@ -555,6 +563,102 @@ class ProphetDashboard(QMainWindow):
 
         job.signals.finished.connect(on_finished)
         job.signals.failed.connect(on_failed)
+
+    def optimize_ticket_store_overlap(self):
+        """SamLotto TopForm parity: eliminates ticket redundancy by enforcing
+        that no two tickets share more than M numbers."""
+        from engine.modules.ticket_optimizer import same_number_reduction
+        tickets = []
+        for row in range(self.ticket_table.rowCount()):
+            item = self.ticket_table.item(row, 1)
+            if item:
+                nums = [int(x) for x in item.text().split() if x.isdigit()]
+                if nums:
+                    tickets.append(nums)
+
+        if len(tickets) < 2:
+            QMessageBox.warning(self, "Nothing to Optimize", "Ticket store needs at least 2 tickets to optimize.")
+            return
+
+        k = len(tickets[0])
+        max_overlap, ok = QInputDialog.getInt(
+            self, "Ticket Optimizer (SamLotto TopForm)",
+            f"Maximum allowed numbers shared between any two tickets (1 to {k - 1}):",
+            min(3, k - 1), 1, k - 1
+        )
+        if not ok:
+            return
+
+        optimized = same_number_reduction(tickets, max_overlap=max_overlap)
+        original_count = len(tickets)
+        kept_count = len(optimized)
+        pruned_count = original_count - kept_count
+
+        self.ticket_table.setRowCount(0)
+        for idx, t in enumerate(optimized):
+            t_str = " ".join(f"{num:02d}" for num in t)
+            row = self.ticket_table.rowCount()
+            self.ticket_table.insertRow(row)
+            idx_item = QTableWidgetItem(str(idx + 1))
+            comb_item = QTableWidgetItem(t_str)
+            score_item = QTableWidgetItem("1.0000")
+            idx_item.setFlags(idx_item.flags() & ~Qt.ItemIsEditable)
+            comb_item.setFlags(comb_item.flags() & ~Qt.ItemIsEditable)
+            score_item.setFlags(score_item.flags() & ~Qt.ItemIsEditable)
+            self.ticket_table.setItem(row, 0, idx_item)
+            self.ticket_table.setItem(row, 1, comb_item)
+            self.ticket_table.setItem(row, 2, score_item)
+
+        self.telemetry_tab.append_log(
+            f"Ticket Optimizer: Kept {kept_count}/{original_count} tickets (pruned {pruned_count}, max overlap: {max_overlap}).", "SUCCESS"
+        )
+        QMessageBox.information(
+            self, "Optimization Complete",
+            f"Kept: {kept_count} tickets\nPruned: {pruned_count} redundant tickets\nOverlap constraint: ≤ {max_overlap} numbers."
+        )
+
+    def quick_check_last_draw(self):
+        """1-click verification of all tickets in store against the latest official draw."""
+        from engine.modules.storage import storage
+        tickets = []
+        for row in range(self.ticket_table.rowCount()):
+            item = self.ticket_table.item(row, 1)
+            if item:
+                nums = [int(x) for x in item.text().split() if x.isdigit()]
+                if nums:
+                    tickets.append(nums)
+
+        if not tickets:
+            QMessageBox.warning(self, "No Tickets", "Generate or add tickets before running quick check.")
+            return
+
+        try:
+            df = storage.load_draws(self.active_lottery, limit=1)
+        except Exception as e:
+            QMessageBox.critical(self, "Error", f"Failed to load latest draw: {e}")
+            return
+
+        if df.empty:
+            QMessageBox.warning(self, "No Draws", f"No historical draws found for {self.active_lottery}.")
+            return
+
+        last_draw = df.iloc[0]
+        draw_num = last_draw.get("draw_number", "Latest")
+        winning_nums = set(last_draw["numbers"])
+
+        hit_counts = {}
+        for t in tickets:
+            hits = len(set(t) & winning_nums)
+            hit_counts[hits] = hit_counts.get(hits, 0) + 1
+
+        summary_lines = [f"Official Draw #{draw_num} Winning Numbers: {sorted(list(winning_nums))}\n"]
+        summary_lines.append("Audit Results:")
+        for hits in sorted(hit_counts.keys(), reverse=True):
+            summary_lines.append(f"  • {hits} Hits: {hit_counts[hits]} ticket(s)")
+
+        summary_msg = "\n".join(summary_lines)
+        self.telemetry_tab.append_log(f"Quick Check: {summary_msg}", "INFO")
+        QMessageBox.information(self, f"Quick Check — Draw #{draw_num}", summary_msg)
 
     # Sub window modeless dialog triggers
     def show_db_tab(self):
@@ -1114,12 +1218,17 @@ class ProphetDashboard(QMainWindow):
     def handle_job_progress(self, val: int, msg: str):
         self.predict_tab.progress_bar.setValue(val)
         self.predict_tab.status_label.setText(f"Engine State: {msg.upper()}")
+        if hasattr(self.predict_tab, "pipeline_widget"):
+            stage = min(5, max(1, (val // 20) + 1))
+            self.predict_tab.pipeline_widget.set_pipeline_stage(stage, "running", msg)
 
     def handle_prediction_finished(self, result: dict):
         self.predict_tab.progress_bar.setValue(0)
         self.btn_smart_gen.setEnabled(True)
         self.predict_tab.predict_button.setEnabled(True)
         self.predict_tab.status_label.setText("Engine State: IDLE")
+        if hasattr(self.predict_tab, "pipeline_widget"):
+            self.predict_tab.pipeline_widget.set_pipeline_stage(6, "done", "Assets Verified")
 
         tickets = result.get("tickets", [])
         self.predict_tab.set_last_ticket(tickets[0] if tickets else [])

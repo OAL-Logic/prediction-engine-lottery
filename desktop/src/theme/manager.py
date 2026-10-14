@@ -14,13 +14,43 @@ REQUIRED_TOKENS = frozenset({
 # The one theme name every fallback path trusts. Settings files can outlive the
 # theme they point at (a theme gets renamed or retired between versions), so any
 # lookup that misses must land here instead of on an arbitrary hardcoded name.
-DEFAULT_THEME = "Sleek Dark Mode"
+DEFAULT_THEME = "Modern Studio"
 
 # Module-level so widgets that need a color dict before a ThemeManager instance
 # exists (a pre-`apply_theme` fallback, a modal dialog built with no `theme_manager`
 # in reach) can import THEMES/DEFAULT_THEME directly instead of re-typing hex
 # literals that silently drift from the registered palette.
 THEMES = {
+    "Modern Studio": {
+        "background": "#14171f",      # Modern Deep Charcoal / Obsidian Slate
+        "primary": "#3b82f6",         # Modern Electric Blue
+        "primary_hover": "#2563eb",
+        "primary_pressed": "#1d4ed8",
+        "text": "#f3f4f6",            # High-legibility crisp off-white
+        "text_dim": "#9ca3af",        # Soft neutral slate
+        "border": "#282f3e",          # Clean modern card boundary
+        "panel": "#1c2230",           # Elevated slate card surface
+        "tab_bg": "#161a24",          # Recessed background for inactive tabs
+        "accent": "#8b5cf6",          # Royal Violet Accent
+        "success": "#10b981",         # Emerald Green
+        "warning": "#f59e0b",         # Amber Gold
+        "error": "#ef4444"            # Coral Red
+    },
+    "SamLotto Modern": {
+        "background": "#0f172a",      # Deep Navy Slate
+        "primary": "#06b6d4",         # Vibrant Cyan
+        "primary_hover": "#0891b2",
+        "primary_pressed": "#0e7490",
+        "text": "#f8fafc",            # Pure crisp text
+        "text_dim": "#94a3b8",        # Accessible muted slate
+        "border": "#334155",          # Refined border
+        "panel": "#1e293b",           # Card panel
+        "tab_bg": "#0f172a",          # Base background
+        "accent": "#ec4899",          # Vibrant Pink
+        "success": "#22c55e",         # Green
+        "warning": "#eab308",         # Yellow
+        "error": "#f43f5e"            # Rose Red
+    },
     "Forensic Neon": {
         "background": "#000000",      # Obsidian Black
         "primary": "#00ff41",         # Matrix Green
@@ -154,88 +184,128 @@ class ThemeManager(QObject):
             QWidget {{
                 background-color: {theme['background']};
                 color: {theme['text']};
-                font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', Helvetica, Arial, sans-serif;
+                font-size: 12px;
             }}
             QTabWidget::pane {{
                 border: 1px solid {theme['border']};
+                border-radius: 6px;
                 background-color: {theme['panel']};
             }}
             QTabBar::tab {{
-                background-color: {theme['tab_bg']};
-                border: 1px solid {theme['border']};
-                padding: 8px 12px;
+                background-color: transparent;
+                border: 1px solid transparent;
+                border-bottom: 2px solid transparent;
+                padding: 8px 16px;
                 color: {theme['text_dim']};
+                font-weight: 500;
             }}
             QTabBar::tab:selected {{
                 background-color: {theme['panel']};
-                color: {theme['text']};
+                color: {theme['primary']};
+                border: 1px solid {theme['border']};
                 border-bottom: 2px solid {theme['primary']};
+                border-top-left-radius: 6px;
+                border-top-right-radius: 6px;
+                font-weight: 600;
+            }}
+            QTabBar::tab:hover:!selected {{
+                color: {theme['text']};
+                background-color: {theme['tab_bg']};
             }}
             QPushButton {{
                 background-color: {theme['panel']};
-                color: {theme['primary']};
-                border: 1px solid {theme['primary']};
-                border-radius: 4px;
-                padding: 8px 16px;
-                text-transform: uppercase;
-                font-weight: bold;
+                color: {theme['text']};
+                border: 1px solid {theme['border']};
+                border-radius: 6px;
+                padding: 7px 14px;
+                font-weight: 600;
             }}
             QPushButton:hover {{
-                background-color: {theme['primary']};
-                color: {theme['background']};
+                background-color: {theme['border']};
+                border-color: {theme['primary']};
+                color: {theme['primary']};
             }}
             QPushButton:pressed {{
-                background-color: {theme['primary_pressed']};
+                background-color: {theme['tab_bg']};
+            }}
+            QPushButton:disabled {{
+                color: {theme['text_dim']};
+                border-color: {theme['border']};
+                background-color: {theme['tab_bg']};
             }}
             QTextEdit, QLineEdit {{
-                background-color: {theme['panel']};
+                background-color: {theme['tab_bg']};
                 color: {theme['text']};
                 border: 1px solid {theme['border']};
-                border-radius: 2px;
+                border-radius: 6px;
+                padding: 6px;
+                font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace;
+            }}
+            QTextEdit:focus, QLineEdit:focus {{
+                border: 1px solid {theme['primary']};
             }}
             QComboBox, QSpinBox, QDoubleSpinBox, QDateEdit {{
-                background-color: {theme['panel']};
+                background-color: {theme['tab_bg']};
                 color: {theme['text']};
                 border: 1px solid {theme['border']};
-                border-radius: 2px;
-                padding: 4px;
+                border-radius: 6px;
+                padding: 5px 8px;
+            }}
+            QComboBox:focus, QSpinBox:focus, QDoubleSpinBox:focus, QDateEdit:focus {{
+                border: 1px solid {theme['primary']};
             }}
             QGroupBox {{
                 border: 1px solid {theme['border']};
-                border-radius: 4px;
-                margin-top: 12px;
-                font-weight: bold;
-                text-transform: uppercase;
+                border-radius: 8px;
+                margin-top: 14px;
+                padding-top: 12px;
+                font-weight: 600;
+                background-color: {theme['panel']};
             }}
             QGroupBox::title {{
                 subcontrol-origin: margin;
-                left: 8px;
-                padding: 0 3px;
-                color: {theme['accent']};
+                left: 12px;
+                padding: 0 6px;
+                color: {theme['primary']};
+                background-color: {theme['panel']};
+                border-radius: 4px;
             }}
             QHeaderView::section {{
                 background-color: {theme['tab_bg']};
-                color: {theme['text']};
-                padding: 4px;
-                border: 1px solid {theme['border']};
+                color: {theme['text_dim']};
+                font-weight: 600;
+                padding: 6px 8px;
+                border: none;
+                border-bottom: 1px solid {theme['border']};
+                border-right: 1px solid {theme['border']};
             }}
-            QTableView {{
+            QTableView, QTableWidget {{
                 gridline-color: {theme['border']};
                 border: 1px solid {theme['border']};
+                border-radius: 6px;
+                background-color: {theme['panel']};
+                alternate-background-color: {theme['tab_bg']};
+                selection-background-color: {theme['primary']};
+                selection-color: #ffffff;
+                font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace;
             }}
             QTreeWidget, QListWidget {{
                 background-color: {theme['panel']};
                 border: 1px solid {theme['border']};
+                border-radius: 6px;
             }}
             QProgressBar {{
                 border: 1px solid {theme['border']};
-                border-radius: 2px;
+                border-radius: 4px;
                 text-align: center;
                 background-color: {theme['tab_bg']};
+                color: {theme['text']};
+                height: 12px;
             }}
             QProgressBar::chunk {{
                 background-color: {theme['primary']};
-                width: 10px;
+                border-radius: 3px;
             }}
             QLabel {{
                 color: {theme['text']};
@@ -247,24 +317,28 @@ class ThemeManager(QObject):
             }}
             QMenuBar::item {{
                 background-color: transparent;
-                padding: 4px 10px;
+                padding: 6px 12px;
                 color: {theme['text_dim']};
             }}
             QMenuBar::item:selected {{
                 background-color: {theme['primary']};
-                color: {theme['background']};
+                color: #ffffff;
+                border-radius: 4px;
             }}
             QMenu {{
                 background-color: {theme['panel']};
                 border: 1px solid {theme['border']};
+                border-radius: 6px;
                 color: {theme['text']};
+                padding: 4px;
             }}
             QMenu::item {{
                 padding: 6px 20px;
+                border-radius: 4px;
             }}
             QMenu::item:selected {{
                 background-color: {theme['primary']};
-                color: {theme['background']};
+                color: #ffffff;
             }}
             QCheckBox {{
                 color: {theme['text']};
@@ -274,8 +348,8 @@ class ThemeManager(QObject):
                 width: 16px;
                 height: 16px;
                 border: 1px solid {theme['border']};
-                background-color: {theme['panel']};
-                border-radius: 2px;
+                background-color: {theme['tab_bg']};
+                border-radius: 4px;
             }}
             QCheckBox::indicator:hover {{
                 border-color: {theme['primary']};
@@ -287,13 +361,13 @@ class ThemeManager(QObject):
             QScrollBar:vertical {{
                 border: none;
                 background-color: {theme['tab_bg']};
-                width: 10px;
+                width: 8px;
                 margin: 0px;
             }}
             QScrollBar::handle:vertical {{
                 background-color: {theme['border']};
                 min-height: 20px;
-                border-radius: 5px;
+                border-radius: 4px;
             }}
             QScrollBar::handle:vertical:hover {{
                 background-color: {theme['primary']};
@@ -306,13 +380,13 @@ class ThemeManager(QObject):
             QScrollBar:horizontal {{
                 border: none;
                 background-color: {theme['tab_bg']};
-                height: 10px;
+                height: 8px;
                 margin: 0px;
             }}
             QScrollBar::handle:horizontal {{
                 background-color: {theme['border']};
                 min-width: 20px;
-                border-radius: 5px;
+                border-radius: 4px;
             }}
             QScrollBar::handle:horizontal:hover {{
                 background-color: {theme['primary']};
@@ -321,12 +395,6 @@ class ThemeManager(QObject):
                 border: none;
                 background: none;
                 width: 0px;
-            }}
-            QTableWidget {{
-                gridline-color: {theme['border']};
-                border: 1px solid {theme['border']};
-                background-color: {theme['panel']};
-                alternate-background-color: {theme['tab_bg']};
             }}
         """
 

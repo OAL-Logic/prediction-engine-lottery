@@ -50,20 +50,29 @@ class LotteryStorage:
 
     def _init_db(self):
         """Initialise DuckDB schema."""
-        self.db_path.parent.mkdir(parents=True, exist_ok=True)
-        with duckdb.connect(str(self.db_path)) as con:
-            con.execute("""
-                CREATE TABLE IF NOT EXISTS draws (
-                    lottery_id TEXT,
-                    draw_id INTEGER,
-                    draw_date DATE,
-                    numbers INTEGER[],
-                    bonus INTEGER[],
-                    raw_json JSON,
-                    PRIMARY KEY (lottery_id, draw_id)
-                )
-            """)
-            con.execute("CREATE INDEX IF NOT EXISTS idx_lottery_date ON draws (lottery_id, draw_date)")
+        try:
+            self.db_path.parent.mkdir(parents=True, exist_ok=True)
+            with duckdb.connect(str(self.db_path)) as con:
+                con.execute("""
+                    CREATE TABLE IF NOT EXISTS draws (
+                        lottery_id TEXT,
+                        draw_id INTEGER,
+                        draw_date DATE,
+                        numbers INTEGER[],
+                        bonus INTEGER[],
+                        raw_json JSON,
+                        PRIMARY KEY (lottery_id, draw_id)
+                    )
+                """)
+                con.execute("CREATE INDEX IF NOT EXISTS idx_lottery_date ON draws (lottery_id, draw_date)")
+        except Exception as e:
+            # Fall back to read-only DuckDB or JSON-only mode if filesystem is read-only
+            try:
+                with duckdb.connect(str(self.db_path), read_only=True) as con:
+                    logger.info("Storage using DuckDB in read-only mode.")
+            except Exception:
+                logger.warning(f"Could not initialize DuckDB ({e}), falling back to JSON-only mode.")
+                self.use_duckdb = False
 
     def _get_inspection_dir(self, lottery_id: str) -> Path:
         return INSPECTION_DIR / lottery_id.replace("/", "_")
@@ -88,19 +97,22 @@ class LotteryStorage:
 
         # 2. Write to DB if enabled
         if self.use_duckdb:
-            df = pd.DataFrame(rows)
-            with duckdb.connect(str(self.db_path)) as con:
-                con.execute("CREATE TEMP TABLE temp_draws AS SELECT * FROM df")
-                con.execute("""
-                    INSERT INTO draws 
-                    SELECT * FROM temp_draws
-                    ON CONFLICT (lottery_id, draw_id) DO UPDATE SET
-                        draw_date = excluded.draw_date,
-                        numbers = excluded.numbers,
-                        bonus = excluded.bonus,
-                        raw_json = excluded.raw_json
-                """)
-                con.execute("DROP TABLE temp_draws")
+            try:
+                df = pd.DataFrame(rows)
+                with duckdb.connect(str(self.db_path)) as con:
+                    con.execute("CREATE TEMP TABLE temp_draws AS SELECT * FROM df")
+                    con.execute("""
+                        INSERT INTO draws 
+                        SELECT * FROM temp_draws
+                        ON CONFLICT (lottery_id, draw_id) DO UPDATE SET
+                            draw_date = excluded.draw_date,
+                            numbers = excluded.numbers,
+                            bonus = excluded.bonus,
+                            raw_json = excluded.raw_json
+                    """)
+                    con.execute("DROP TABLE temp_draws")
+            except Exception as e:
+                logger.warning(f"Could not write draws to DuckDB ({e}), writing to JSON partition.")
 
         # 3. Handle JSON Persistence (Partitioned by Year)
         # Always do this if policy is 'cache' or if no-DB.
@@ -137,14 +149,14 @@ class LotteryStorage:
             query = "SELECT * FROM draws WHERE lottery_id = ? ORDER BY draw_id ASC"
             if limit:
                 query = f"SELECT * FROM ({query}) ORDER BY draw_id DESC LIMIT {limit}"
-            with duckdb.connect(str(self.db_path)) as con:
+            with duckdb.connect(str(self.db_path), read_only=True) as con:
                 df = con.execute(query, [lottery_id]).df()
                 return df.sort_values("draw_id").reset_index(drop=True)
 
         # Cache policy: Try DB first for speed, fallback to Partitioned JSON
         if self.use_duckdb:
             try:
-                with duckdb.connect(str(self.db_path)) as con:
+                with duckdb.connect(str(self.db_path), read_only=True) as con:
                     count = con.execute("SELECT COUNT(*) FROM draws WHERE lottery_id = ?", [lottery_id]).fetchone()[0]
                     if count > 0:
                         query = "SELECT * FROM draws WHERE lottery_id = ? ORDER BY draw_id ASC"

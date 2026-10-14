@@ -1184,6 +1184,55 @@ def simulate(
     from engine.cli.commands.management import simulate as impl
     return impl(lottery, numbers, range_str)
 
+@app.command(name="ticket-optimize", rich_help_panel=PANEL_BETTING)
+def ticket_optimize(
+    lottery: Annotated[str, typer.Argument(help="Lottery name [Required], e.g. br/lotofacil")],
+    tickets_file: Annotated[Optional[Path], typer.Option("--file", "-f", help="Path to text file containing tickets (one line per ticket)")] = None,
+    strategy: Annotated[str, typer.Option("--strategy", "-s", help="Optimization strategy: 'same-number' or 'reserve-per-block'")] = "same-number",
+    shared: Annotated[int, typer.Option("--shared", help="For same-number: prune lines sharing >= this many numbers")] = 4,
+    reserve: Annotated[int, typer.Option("--reserve", help="For reserve-per-block: how many tickets to keep per block")] = 3,
+    block_size: Annotated[int, typer.Option("--block-size", help="For reserve-per-block: block partition size (default 10)")] = 10,
+    generate_count: Annotated[int, typer.Option("--gen-count", help="If no file provided, auto-generate this many tickets to optimize")] = 30,
+    out: Annotated[Optional[Path], typer.Option("--out", "-o", help="Optional output file to save optimized tickets")] = None,
+):
+    """✂️ Optimize and prune bet tickets using SamLotto's TopForm reduction rules."""
+    from engine.cli.commands.ticket_optimize import ticket_optimize as impl
+    return impl(
+        lottery=lottery,
+        tickets_file=tickets_file,
+        strategy=strategy,
+        shared=shared,
+        reserve=reserve,
+        block_size=block_size,
+        generate_count=generate_count,
+        out=out,
+    )
+
+@app.command(name="position-generate", rich_help_panel=PANEL_BETTING)
+def position_generate(
+    lottery: Annotated[str, typer.Argument(help="Lottery name [Required], e.g. br/mega-sena")],
+    positions: Annotated[Optional[str], typer.Option("--positions", "-p", help="Semicolon-separated number lists per slot, e.g. '1,2,3; 10,11,12; 20,21,22'")] = None,
+    file: Annotated[Optional[Path], typer.Option("--file", "-f", help="Path to file with one position candidate list per line")] = None,
+    limit: Annotated[Optional[int], typer.Option("--limit", "-l", help="Maximum combinations to generate")] = None,
+    out: Annotated[Optional[Path], typer.Option("--out", "-o", help="Optional output file to save generated tickets")] = None,
+):
+    """🎯 Generate tickets from Cartesian product of independent position candidates (SamLotto C3)."""
+    from engine.cli.commands.position_generate import position_generate as impl
+    return impl(lottery, positions, file, limit, out)
+
+@app.command(name="predict-pool", rich_help_panel=PANEL_BETTING)
+def predict_pool(
+    lottery: Annotated[str, typer.Argument(help="Lottery name [Required], e.g. br/mega-sena")],
+    formula: Annotated[str, typer.Option("--formula", "-f", help="Strategy preset family or specific strategy (e.g. 'default', 'weighted', 'markov')")] = "default",
+    depth: Annotated[int, typer.Option("--depth", "-d", help="Historical window depth (draws to analyze)")] = 100,
+    offset: Annotated[int, typer.Option("--offset", help="Predict as of N draws ago (0 = latest upcoming draw)")] = 0,
+    pool_size: Annotated[Optional[int], typer.Option("--pool-size", "-p", help="Size of recommended pool to output")] = None,
+    out: Annotated[Optional[Path], typer.Option("--out", "-o", help="Optional output file to save recommended numbers")] = None,
+):
+    """🔮 Generate a SamLotto Recommended Pool and Eliminated Pool for the next draw (SamLotto E1..E4)."""
+    from engine.cli.commands.predict_pool import predict_pool as impl
+    return impl(lottery, formula, depth, offset, pool_size, out)
+
 # --- PANEL_MONITOR Commands ---
 
 @app.command(rich_help_panel=PANEL_PRIMARY)
@@ -1595,6 +1644,16 @@ def export(
     """📤 Export draw history to JSON or CSV."""
     from engine.cli.commands.management import export as impl
     return impl(lottery, format, output, console_out)
+
+@app.command(name="import-samlotto", rich_help_panel=PANEL_SYSTEM)
+def import_samlotto(
+    lottery: Annotated[str, typer.Argument(help="Lottery name [Required], e.g. br/mega-sena")],
+    file: Annotated[Path, typer.Argument(help="Path to SamLotto space-delimited .txt file")],
+    dry_run: Annotated[bool, typer.Option("--dry-run", help="Validate and preview only — do not write to storage")] = False,
+):
+    """📥 Ingest historical lottery drawings from a SamLotto flat .txt file (SamLotto A8)."""
+    from engine.cli.commands.import_samlotto import import_samlotto as impl
+    return impl(lottery, file, dry_run)
 
 @app.command(rich_help_panel=PANEL_SYSTEM)
 def history(
