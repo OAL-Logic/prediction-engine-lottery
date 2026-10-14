@@ -83,8 +83,7 @@ class DrawRules:
             return False  # duplicates
         if not all(lo <= n <= hi for n in numbers):
             return False
-        if self.bonus_count > 0:
-            bonus = bonus or []
+        if self.bonus_count > 0 and bonus is not None and len(bonus) > 0:
             if len(bonus) != self.bonus_count:
                 return False
             blo, bhi = self.bonus_range  # type: ignore[misc]
@@ -152,4 +151,28 @@ class LotteryAdapter(ABC):
         df = pd.DataFrame(rows)
         if not df.empty:
             df = df.sort_values("draw_id").reset_index(drop=True)
+        return df
+
+
+class GenericLotteryAdapter(LotteryAdapter):
+    """Generic adapter for lotteries defined in registry.yaml that use local storage or flat files."""
+
+    def __init__(self, game_def):
+        self.game_def = game_def
+        self.rules = game_def.to_rules()
+
+    def fetch(self, limit: int | None = None) -> pd.DataFrame:
+        from engine.modules.storage import storage
+        from pathlib import Path
+        import pandas as pd
+        
+        df = storage.load_draws(self.game_def.id, limit=limit)
+        if df.empty and getattr(self.game_def, "draw_file", None):
+            draw_path = Path(self.game_def.draw_file)
+            if draw_path.exists():
+                from engine.cli.commands.import_samlotto import parse_samlotto_file
+                draws = parse_samlotto_file(draw_path, self.game_def.pick_count, self.game_def.bonus_count)
+                df = self.to_dataframe(draws)
+                if limit and not df.empty:
+                    df = df.tail(limit)
         return df

@@ -35,6 +35,7 @@ class GameDefinition:
     data_available: bool = False
     board_cols: int = 10
     number_range_min: int = 1  # lowest drawable number; 0 for zero-indexed pools (e.g. Lotomania's 00-99)
+    draw_file: Optional[str] = None
 
     def to_rules(self) -> DrawRules:
         return DrawRules(
@@ -78,7 +79,7 @@ class LotteryRegistry:
                     # If this is not the same game ID, we have a collision
                     if self._games[alias].id != game.id:
                         import logging
-                        logging.warning(f"Alias collision: '{alias}' already points to {self._games[alias].id}. Skipping alias for {game.id}.")
+                        logging.debug(f"Alias collision: '{alias}' already points to {self._games[alias].id}. Skipping alias for {game.id}.")
                 else:
                     self._games[alias] = game
 

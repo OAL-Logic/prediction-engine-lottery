@@ -192,24 +192,26 @@ def get_adapter(lottery_id: str):  # type: ignore[return]
     lottery_id = str(lottery_id)
     
     game = registry.get_game(lottery_id)
-    if not game or not game.data_available or not game.adapter:
+    if not game or not game.data_available:
         available = [g.id for g in registry.list_games(only_available=True)]
         rprint(
-            f"[red]Lottery '{lottery_id}' is not available or has no historical data adapter yet.[/red]\n"
-            f"Available: {', '.join(available)}"
+            f"[red]Lottery '{lottery_id}' is not available in the registry.[/red]\n"
+            f"Available: {', '.join(available[:15])} ... (+{len(available) - 15} more)"
         )
         raise typer.Exit(1)
 
-    # Resolve adapter class path
-    path = ADAPTER_MAP.get(game.adapter, game.adapter)
-    if not path or "." not in path:
-        rprint(f"[red]Error: Adapter path for '{lottery_id}' is invalid: {path}[/red]")
-        raise typer.Exit(1)
+    # Resolve adapter class path if explicit adapter specified
+    if game.adapter:
+        path = ADAPTER_MAP.get(game.adapter, game.adapter)
+        if path and "." in path:
+            module_path, class_name = path.rsplit(".", 1)
+            module = importlib.import_module(module_path)
+            cls = getattr(module, class_name)
+            return cls()
 
-    module_path, class_name = path.rsplit(".", 1)
-    module = importlib.import_module(module_path)
-    cls = getattr(module, class_name)
-    return cls()
+    # Fallback to generic adapter using registry rules and draw_file/storage
+    from engine.adapters import GenericLotteryAdapter
+    return GenericLotteryAdapter(game)
 
 
 def resolve_strategies(

@@ -1,20 +1,3 @@
-# Global Lottery Registry
-# Schema:
-# - id: <country>/<slug>
-#   name: Display Name
-#   pick_count: k
-#   pool_size: n
-#   bonus_count: j
-#   bonus_pool: m
-#   ticket_price: 5.0
-#   currency: BRL
-#   draw_days: [Wednesday, Saturday]
-#   draw_city: "São Paulo"
-#   draw_lat: -23.5505
-#   draw_lon: -46.6333
-#   adapter: mega_sena
-#   data_available: true
-
 - id: br/mega-sena
   name: Mega-Sena
   pick_count: 6
@@ -22,14 +5,17 @@
   max_picks: 20
   ticket_price: 5.0
   currency: BRL
-  draw_days: [Tuesday, Thursday, Saturday]
-  draw_city: "São Paulo"
+  draw_days:
+  - Tuesday
+  - Thursday
+  - Saturday
+  draw_city: São Paulo
   draw_lat: -23.5505
   draw_lon: -46.6333
   adapter: mega_sena
   data_available: true
   board_cols: 10
-
+  draw_file: SamLotto Free Edition/Drawings/BrazilMegaSenaBR660.Txt
 - id: br/lotofacil
   name: Lotofácil
   pick_count: 15
@@ -37,14 +23,19 @@
   max_picks: 20
   ticket_price: 3.0
   currency: BRL
-  draw_days: [Monday, Tuesday, Wednesday, Thursday, Friday, Saturday]
-  draw_city: "São Paulo"
+  draw_days:
+  - Monday
+  - Tuesday
+  - Wednesday
+  - Thursday
+  - Friday
+  - Saturday
+  draw_city: São Paulo
   draw_lat: -23.5505
   draw_lon: -46.6333
   adapter: lotofacil
   data_available: true
   board_cols: 5
-
 - id: us/powerball
   name: Powerball
   pick_count: 5
@@ -53,14 +44,17 @@
   bonus_pool: 26
   ticket_price: 2.0
   currency: USD
-  draw_days: [Monday, Wednesday, Saturday]
-  draw_city: "Tallahassee"
+  draw_days:
+  - Monday
+  - Wednesday
+  - Saturday
+  draw_city: Tallahassee
   draw_lat: 30.4518
   draw_lon: -84.2727
   adapter: powerball
   data_available: true
   board_cols: 10
-
+  draw_file: SamLotto Free Edition/Drawings/PowerballPB553.Txt
 - id: us/mega-millions
   name: Mega Millions
   pick_count: 5
@@ -69,14 +63,16 @@
   bonus_pool: 25
   ticket_price: 2.0
   currency: USD
-  draw_days: [Tuesday, Friday]
-  draw_city: "Atlanta"
-  draw_lat: 33.7490
-  draw_lon: -84.3880
+  draw_days:
+  - Tuesday
+  - Friday
+  draw_city: Atlanta
+  draw_lat: 33.749
+  draw_lon: -84.388
   adapter: mega_millions
   data_available: true
   board_cols: 10
-
+  draw_file: SamLotto Free Edition/Drawings/MegaMillionsMM570.Txt
 - id: eu/euro-millions
   name: EuroMillions
   pick_count: 5
@@ -85,14 +81,16 @@
   bonus_pool: 12
   ticket_price: 2.5
   currency: EUR
-  draw_days: [Tuesday, Friday]
-  draw_city: "Paris"
+  draw_days:
+  - Tuesday
+  - Friday
+  draw_city: Paris
   draw_lat: 48.8566
   draw_lon: 2.3522
   adapter: euro_millions
   data_available: true
   board_cols: 10
-
+  draw_file: SamLotto Free Edition/Drawings/EuroMillionsEURO550.Txt
 - id: br/quina
   name: Quina
   pick_count: 5
@@ -100,14 +98,20 @@
   max_picks: 15
   ticket_price: 2.5
   currency: BRL
-  draw_days: [Monday, Tuesday, Wednesday, Thursday, Friday, Saturday]
-  draw_city: "São Paulo"
+  draw_days:
+  - Monday
+  - Tuesday
+  - Wednesday
+  - Thursday
+  - Friday
+  - Saturday
+  draw_city: São Paulo
   draw_lat: -23.5505
   draw_lon: -46.6333
   adapter: quina
   data_available: true
   board_cols: 10
-
+  draw_file: SamLotto Free Edition/Drawings/BrazilQuinaBR580.Txt
 - id: br/mais-milionaria
   name: +Milionária
   pick_count: 6
@@ -117,28 +121,30 @@
   max_picks: 12
   ticket_price: 6.0
   currency: BRL
-  draw_days: [Wednesday, Saturday]
-  draw_city: "São Paulo"
+  draw_days:
+  - Wednesday
+  - Saturday
+  draw_city: São Paulo
   draw_lat: -23.5505
   draw_lon: -46.6333
   adapter: mais_milionaria
   data_available: true
   board_cols: 10
-
 - id: br/dupla-sena
   name: Dupla Sena
   pick_count: 6
   pool_size: 50
   ticket_price: 2.5
   currency: BRL
-  draw_days: [Wednesday, Saturday]
-  draw_city: "São Paulo"
+  draw_days:
+  - Wednesday
+  - Saturday
+  draw_city: São Paulo
   draw_lat: -23.5505
   draw_lon: -46.6333
   adapter: dupla_sena
   data_available: true
   board_cols: 10
-
 - id: br/dia-de-sorte
   name: Dia de Sorte
   pick_count: 7
@@ -147,14 +153,16 @@
   bonus_pool: 12
   ticket_price: 2.5
   currency: BRL
-  draw_days: [Tuesday, Thursday, Saturday]
-  draw_city: "São Paulo"
+  draw_days:
+  - Tuesday
+  - Thursday
+  - Saturday
+  draw_city: São Paulo
   draw_lat: -23.5505
   draw_lon: -46.6333
   adapter: dia_de_sorte
   data_available: true
   board_cols: 7
-
 - id: br/lotomania
   name: Lotomania
   pick_count: 50
@@ -162,11 +170,2787 @@
   number_range_min: 0
   ticket_price: 3.0
   currency: BRL
-  draw_days: [Tuesday, Thursday, Saturday]
-  draw_city: "São Paulo"
+  draw_days:
+  - Tuesday
+  - Thursday
+  - Saturday
+  draw_city: São Paulo
   draw_lat: -23.5505
   draw_lon: -46.6333
   adapter: lotomania
   data_available: true
   board_cols: 10
-
+- id: cb/caribbean-superlotto
+  name: Anguilla Caribbean SuperLotto
+  pick_count: 5
+  pool_size: 35
+  ticket_price: 2.0
+  currency: XCD
+  draw_city: The Valley
+  draw_lat: 18.2206
+  draw_lon: -63.0515
+  data_available: true
+  board_cols: 5
+  bonus_count: 1
+  bonus_pool: 10
+  draw_file: SamLotto Free Edition/Drawings/Caribbean_SuperLotto.Txt
+- id: cb/caribbean-superlotto-535
+  name: Virgin Islands Caribbean SuperLotto
+  pick_count: 5
+  pool_size: 35
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Charlotte Amalie
+  draw_lat: 18.3419
+  draw_lon: -64.9307
+  data_available: true
+  board_cols: 5
+  bonus_count: 1
+  bonus_pool: 10
+  draw_file: SamLotto Free Edition/Drawings/Caribbean_SuperLotto.Txt
+- id: ar/brinco
+  name: Argentina Brinco
+  pick_count: 6
+  pool_size: 39
+  ticket_price: 2.0
+  currency: ARS
+  draw_city: Buenos Aires
+  draw_lat: -34.6037
+  draw_lon: -58.3816
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/ArgentinaBrinco.Txt
+- id: ar/loto-5
+  name: Argentina Loto 5
+  pick_count: 5
+  pool_size: 36
+  ticket_price: 2.0
+  currency: ARS
+  draw_city: Buenos Aires
+  draw_lat: -34.6037
+  draw_lon: -58.3816
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/ArgentinaLoto5.Txt
+- id: au/monday-wednesday-lotto
+  name: Monday & Wednesday Lotto
+  pick_count: 6
+  pool_size: 45
+  ticket_price: 2.0
+  currency: AUD
+  draw_city: Sydney
+  draw_lat: -33.8688
+  draw_lon: 151.2093
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 45
+  draw_file: SamLotto Free Edition/Drawings/MondayWendnesdayLottoAUMW645.Txt
+- id: au/oz-lotto-tuesday
+  name: Oz Lotto-Tuesday
+  pick_count: 7
+  pool_size: 45
+  ticket_price: 2.0
+  currency: AUD
+  draw_city: Sydney
+  draw_lat: -33.8688
+  draw_lon: 151.2093
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 45
+  draw_file: SamLotto Free Edition/Drawings/OzLottoAU745.Txt
+- id: au/powerball
+  name: Powerball
+  pick_count: 7
+  pool_size: 35
+  ticket_price: 2.0
+  currency: AUD
+  draw_city: Sydney
+  draw_lat: -33.8688
+  draw_lon: 151.2093
+  data_available: true
+  board_cols: 5
+  bonus_count: 1
+  bonus_pool: 20
+  draw_file: SamLotto Free Edition/Drawings/PowerballAU735.Txt
+- id: au/sa-lotto
+  name: SA Lotto
+  pick_count: 6
+  pool_size: 45
+  ticket_price: 2.0
+  currency: AUD
+  draw_city: Sydney
+  draw_lat: -33.8688
+  draw_lon: 151.2093
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 45
+  draw_file: SamLotto Free Edition/Drawings/SALottoAUSA645.Txt
+- id: au/tattslotto
+  name: Tattslotto
+  pick_count: 6
+  pool_size: 45
+  ticket_price: 2.0
+  currency: AUD
+  draw_city: Sydney
+  draw_lat: -33.8688
+  draw_lon: 151.2093
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 45
+  draw_file: SamLotto Free Edition/Drawings/TattslottoAU645.Txt
+- id: at/lotto
+  name: Austria Lotto
+  pick_count: 6
+  pool_size: 45
+  ticket_price: 2.0
+  currency: EUR
+  draw_city: Vienna
+  draw_lat: 48.2082
+  draw_lon: 16.3738
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/AustriaLotto.Txt
+- id: cb/caribbean-super-lotto
+  name: Barbados Caribbean Super Lotto
+  pick_count: 5
+  pool_size: 35
+  ticket_price: 2.0
+  currency: BBD
+  draw_city: Bridgetown
+  draw_lat: 13.1939
+  draw_lon: -59.5432
+  data_available: true
+  board_cols: 5
+  bonus_count: 1
+  bonus_pool: 10
+  draw_file: SamLotto Free Edition/Drawings/Caribbean_SuperLotto.Txt
+- id: be/lotto
+  name: Belgium Lotto
+  pick_count: 6
+  pool_size: 45
+  ticket_price: 2.0
+  currency: EUR
+  draw_city: Brussels
+  draw_lat: 50.8503
+  draw_lon: 4.3517
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 42
+  draw_file: SamLotto Free Edition/Drawings/BelgiumLottoBE642.Txt
+- id: ca/49
+  name: British Columbia 49
+  pick_count: 6
+  pool_size: 49
+  ticket_price: 2.0
+  currency: CAD
+  draw_city: Vancouver
+  draw_lat: 49.2827
+  draw_lon: -123.1207
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 49
+  draw_file: SamLotto Free Edition/Drawings/BritishColumbia49.Txt
+- id: ca/atlantic-649
+  name: Atlantic 649
+  pick_count: 6
+  pool_size: 49
+  ticket_price: 2.0
+  currency: CAD
+  draw_city: Toronto
+  draw_lat: 43.6532
+  draw_lon: -79.3832
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 49
+  draw_file: SamLotto Free Edition/Drawings/Atlantic649CNAT649.Txt
+- id: ca/atlantic-bucko
+  name: Atlantic Bucko
+  pick_count: 5
+  pool_size: 41
+  ticket_price: 2.0
+  currency: CAD
+  draw_city: Toronto
+  draw_lat: 43.6532
+  draw_lon: -79.3832
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/AtlanticBuckoCNAT541.Txt
+- id: ca/bc49
+  name: BC49
+  pick_count: 6
+  pool_size: 49
+  ticket_price: 2.0
+  currency: CAD
+  draw_city: Toronto
+  draw_lat: 43.6532
+  draw_lon: -79.3832
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 49
+  draw_file: SamLotto Free Edition/Drawings/BC49CNBC49.Txt
+- id: ca/lotto-6-49
+  name: Canada Lotto 6/49
+  pick_count: 6
+  pool_size: 49
+  ticket_price: 2.0
+  currency: CAD
+  draw_city: Toronto
+  draw_lat: 43.6532
+  draw_lon: -79.3832
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 49
+  draw_file: SamLotto Free Edition/Drawings/Canadian649CN649.Txt
+- id: ca/canadian-daily-grand
+  name: Canadian Daily Grand
+  pick_count: 5
+  pool_size: 49
+  ticket_price: 2.0
+  currency: CAD
+  draw_city: Toronto
+  draw_lat: 43.6532
+  draw_lon: -79.3832
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 7
+  draw_file: SamLotto Free Edition/Drawings/CanadianDailyGrandCN549.Txt
+- id: ca/canadian-lotto-max
+  name: Canadian Lotto Max
+  pick_count: 7
+  pool_size: 50
+  ticket_price: 2.0
+  currency: CAD
+  draw_city: Toronto
+  draw_lat: 43.6532
+  draw_lon: -79.3832
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 49
+  draw_file: SamLotto Free Edition/Drawings/CanadianLottoMaxCN749.Txt
+- id: ca/ontario-49
+  name: Ontario 49
+  pick_count: 6
+  pool_size: 49
+  ticket_price: 2.0
+  currency: CAD
+  draw_city: Toronto
+  draw_lat: 43.6532
+  draw_lon: -79.3832
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 49
+  draw_file: SamLotto Free Edition/Drawings/Ontario49CNONT49.Txt
+- id: ca/ontario-lottario
+  name: Ontario Lottario
+  pick_count: 6
+  pool_size: 49
+  ticket_price: 2.0
+  currency: CAD
+  draw_city: Toronto
+  draw_lat: 43.6532
+  draw_lon: -79.3832
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 49
+  draw_file: SamLotto Free Edition/Drawings/OntarioLottarioCNLOT.Txt
+- id: ca/quebec-49
+  name: Quebec 49
+  pick_count: 6
+  pool_size: 50
+  ticket_price: 2.0
+  currency: CAD
+  draw_city: Toronto
+  draw_lat: 43.6532
+  draw_lon: -79.3832
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 49
+  draw_file: SamLotto Free Edition/Drawings/Quebec49CNQUE49.Txt
+- id: ca/quebec-max
+  name: Quebec Max
+  pick_count: 7
+  pool_size: 49
+  ticket_price: 2.0
+  currency: CAD
+  draw_city: Toronto
+  draw_lat: 43.6532
+  draw_lon: -79.3832
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 49
+  draw_file: SamLotto Free Edition/Drawings/QuebecMaxCNQUMAX.Txt
+- id: ca/western-649
+  name: Western 649
+  pick_count: 6
+  pool_size: 49
+  ticket_price: 2.0
+  currency: CAD
+  draw_city: Toronto
+  draw_lat: 43.6532
+  draw_lon: -79.3832
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 49
+  draw_file: SamLotto Free Edition/Drawings/Western649CNW649.Txt
+- id: ca/western-max
+  name: Western Max
+  pick_count: 7
+  pool_size: 50
+  ticket_price: 2.0
+  currency: CAD
+  draw_city: Toronto
+  draw_lat: 43.6532
+  draw_lon: -79.3832
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 49
+  draw_file: SamLotto Free Edition/Drawings/WesternMaxCNW749.Txt
+- id: cl/loto
+  name: Chile Loto
+  pick_count: 6
+  pool_size: 39
+  ticket_price: 2.0
+  currency: CLP
+  draw_city: Santiago
+  draw_lat: -33.4489
+  draw_lon: -70.6693
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 49
+  draw_file: SamLotto Free Edition/Drawings/ChileLoto.Txt
+- id: cl/polla-4
+  name: Chile Polla 4
+  pick_count: 4
+  pool_size: 23
+  ticket_price: 2.0
+  currency: CLP
+  draw_city: Santiago
+  draw_lat: -33.4489
+  draw_lon: -70.6693
+  data_available: true
+  board_cols: 5
+  draw_file: SamLotto Free Edition/Drawings/ChilePolla4.Txt
+- id: co/ultimo-sorteo
+  name: Columbia Ultimo Sorteo
+  pick_count: 6
+  pool_size: 45
+  ticket_price: 2.0
+  currency: COP
+  draw_city: Bogota
+  draw_lat: 4.711
+  draw_lon: -74.0721
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/ColumbiaUltimoSorteo.Txt
+- id: cr/pega-6
+  name: Costa Rica Pega 6
+  pick_count: 6
+  pool_size: 35
+  ticket_price: 2.0
+  currency: CRC
+  draw_city: San Jose
+  draw_lat: 9.9281
+  draw_lon: -84.0907
+  data_available: true
+  board_cols: 5
+  draw_file: SamLotto Free Edition/Drawings/CostaRicaPega6.Txt
+- id: hr/lotto-6-45
+  name: Croatia Lotto 6-45
+  pick_count: 6
+  pool_size: 45
+  ticket_price: 2.0
+  currency: EUR
+  draw_city: Zagreb
+  draw_lat: 45.815
+  draw_lon: 15.9819
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 45
+  draw_file: SamLotto Free Edition/Drawings/CroatiaLotto645.Txt
+- id: hr/lotto-7-39
+  name: Croatia Lotto 7-39
+  pick_count: 7
+  pool_size: 39
+  ticket_price: 2.0
+  currency: EUR
+  draw_city: Zagreb
+  draw_lat: 45.815
+  draw_lon: 15.9819
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 39
+  draw_file: SamLotto Free Edition/Drawings/CroatiaLotto739.Txt
+- id: cz/euromiliony
+  name: Czech Republic Euromiliony
+  pick_count: 7
+  pool_size: 35
+  ticket_price: 2.0
+  currency: CZK
+  draw_city: Prague
+  draw_lat: 50.0755
+  draw_lon: 14.4378
+  data_available: true
+  board_cols: 5
+  bonus_count: 1
+  bonus_pool: 5
+  draw_file: SamLotto Free Edition/Drawings/CzechRepublicEuromiliony.Txt
+- id: dk/euro-jackpot
+  name: Denmark Euro Jackpot
+  pick_count: 5
+  pool_size: 50
+  ticket_price: 2.0
+  currency: DKK
+  draw_city: Copenhagen
+  draw_lat: 55.6761
+  draw_lon: 12.5683
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 10
+  draw_file: SamLotto Free Edition/Drawings/EuroJackpot750.Txt
+- id: dk/lotto
+  name: Denmark Lotto
+  pick_count: 7
+  pool_size: 36
+  ticket_price: 2.0
+  currency: DKK
+  draw_city: Copenhagen
+  draw_lat: 55.6761
+  draw_lon: 12.5683
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 36
+  draw_file: SamLotto Free Edition/Drawings/DenmarkLotto.Txt
+- id: dk/viking-lotto
+  name: Denmark Viking Lotto
+  pick_count: 6
+  pool_size: 48
+  ticket_price: 2.0
+  currency: DKK
+  draw_city: Copenhagen
+  draw_lat: 55.6761
+  draw_lon: 12.5683
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 48
+  draw_file: SamLotto Free Edition/Drawings/VikingLotto.Txt
+- id: do/caribbean-superlotto
+  name: Dominican Republic Caribbean SuperLotto
+  pick_count: 5
+  pool_size: 35
+  ticket_price: 2.0
+  currency: DOP
+  draw_city: Santo Domingo
+  draw_lat: 18.4861
+  draw_lon: -69.9312
+  data_available: true
+  board_cols: 5
+  bonus_count: 1
+  bonus_pool: 10
+  draw_file: SamLotto Free Edition/Drawings/Caribbean_SuperLotto.Txt
+- id: ee/euro-jackpot
+  name: Estonia Euro Jackpot
+  pick_count: 5
+  pool_size: 50
+  ticket_price: 2.0
+  currency: EUR
+  draw_city: Tallinn
+  draw_lat: 59.437
+  draw_lon: 24.7535
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 10
+  draw_file: SamLotto Free Edition/Drawings/EuroJackpot750.Txt
+- id: ee/viking-lotto
+  name: Estonia Viking Lotto
+  pick_count: 6
+  pool_size: 48
+  ticket_price: 2.0
+  currency: EUR
+  draw_city: Tallinn
+  draw_lat: 59.437
+  draw_lon: 24.7535
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 48
+  draw_file: SamLotto Free Edition/Drawings/VikingLotto.Txt
+- id: fi/euro-jackpot
+  name: Finland Euro Jackpot
+  pick_count: 5
+  pool_size: 50
+  ticket_price: 2.0
+  currency: EUR
+  draw_city: Helsinki
+  draw_lat: 60.1699
+  draw_lon: 24.9384
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 10
+  draw_file: SamLotto Free Edition/Drawings/EuroJackpot750.Txt
+- id: fi/viking-lotto
+  name: Finland Viking Lotto
+  pick_count: 6
+  pool_size: 48
+  ticket_price: 2.0
+  currency: EUR
+  draw_city: Helsinki
+  draw_lat: 60.1699
+  draw_lon: 24.9384
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 48
+  draw_file: SamLotto Free Edition/Drawings/VikingLotto.Txt
+- id: fr/euro-millions
+  name: Euro Millions
+  pick_count: 5
+  pool_size: 50
+  ticket_price: 2.0
+  currency: EUR
+  draw_city: Paris
+  draw_lat: 48.8566
+  draw_lon: 2.3522
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 12
+  draw_file: SamLotto Free Edition/Drawings/EuroMillionsEURO550.Txt
+- id: de/euro-jackpot
+  name: Germany Euro Jackpot
+  pick_count: 5
+  pool_size: 50
+  ticket_price: 2.0
+  currency: EUR
+  draw_city: Berlin
+  draw_lat: 52.52
+  draw_lon: 13.405
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 10
+  draw_file: SamLotto Free Edition/Drawings/EuroJackpot750.Txt
+- id: de/lotto-649
+  name: Germany Lotto 649
+  pick_count: 6
+  pool_size: 49
+  ticket_price: 2.0
+  currency: EUR
+  draw_city: Berlin
+  draw_lat: 52.52
+  draw_lon: 13.405
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 9
+  draw_file: SamLotto Free Edition/Drawings/GermanyLotto649GE649.Txt
+- id: gh/daywa
+  name: Daywa
+  pick_count: 5
+  pool_size: 35
+  ticket_price: 2.0
+  currency: GHS
+  draw_city: Accra
+  draw_lat: 5.6037
+  draw_lon: -0.187
+  data_available: true
+  board_cols: 5
+  draw_file: SamLotto Free Edition/Drawings/GhanaDaywa.Txt
+- id: gh/fortune-thursday
+  name: Fortune Thursday
+  pick_count: 5
+  pool_size: 90
+  ticket_price: 2.0
+  currency: GHS
+  draw_city: Accra
+  draw_lat: 5.6037
+  draw_lon: -0.187
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/GhanaFortuneThursday.Txt
+- id: gh/friday-bonanza
+  name: Friday Bonanza
+  pick_count: 5
+  pool_size: 90
+  ticket_price: 2.0
+  currency: GHS
+  draw_city: Accra
+  draw_lat: 5.6037
+  draw_lon: -0.187
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/GhanaFridayBonanza.Txt
+- id: gh/lucky-tuesday
+  name: Lucky Tuesday
+  pick_count: 5
+  pool_size: 90
+  ticket_price: 2.0
+  currency: GHS
+  draw_city: Accra
+  draw_lat: 5.6037
+  draw_lon: -0.187
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/GhanaLuckyTuesday.Txt
+- id: gh/mid-week
+  name: Mid - Week
+  pick_count: 5
+  pool_size: 90
+  ticket_price: 2.0
+  currency: GHS
+  draw_city: Accra
+  draw_lat: 5.6037
+  draw_lon: -0.187
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/GhanaMidWeek.Txt
+- id: gh/monday-special
+  name: Monday Special
+  pick_count: 5
+  pool_size: 90
+  ticket_price: 2.0
+  currency: GHS
+  draw_city: Accra
+  draw_lat: 5.6037
+  draw_lon: -0.187
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/GhanaMondaySpecial.Txt
+- id: gh/national-weekly-lotto
+  name: National Weekly Lotto
+  pick_count: 5
+  pool_size: 90
+  ticket_price: 2.0
+  currency: GHS
+  draw_city: Accra
+  draw_lat: 5.6037
+  draw_lon: -0.187
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/GhanaNationalWeeklyLotto.Txt
+- id: gh/super-6
+  name: Super 6
+  pick_count: 6
+  pool_size: 55
+  ticket_price: 2.0
+  currency: GHS
+  draw_city: Accra
+  draw_lat: 5.6037
+  draw_lon: -0.187
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/GhanaSuper6.Txt
+- id: gr/greek-joker
+  name: Greek Joker
+  pick_count: 5
+  pool_size: 45
+  ticket_price: 2.0
+  currency: EUR
+  draw_city: Athens
+  draw_lat: 37.9838
+  draw_lon: 23.7275
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 20
+  draw_file: SamLotto Free Edition/Drawings/GreekJokerGR545.Txt
+- id: gr/greek-lotto
+  name: Greek Lotto
+  pick_count: 6
+  pool_size: 49
+  ticket_price: 2.0
+  currency: EUR
+  draw_city: Athens
+  draw_lat: 37.9838
+  draw_lon: 23.7275
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/GreekLottoGR649.Txt
+- id: hk/mark-six
+  name: Hong Kong Mark Six
+  pick_count: 6
+  pool_size: 49
+  ticket_price: 2.0
+  currency: HKD
+  draw_city: Hong Kong
+  draw_lat: 22.3193
+  draw_lon: 114.1694
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 49
+  draw_file: SamLotto Free Edition/Drawings/HongKongMarkSixHK649.Txt
+- id: hu/hatoslotto
+  name: Hungary Hatoslotto
+  pick_count: 6
+  pool_size: 45
+  ticket_price: 2.0
+  currency: HUF
+  draw_city: Budapest
+  draw_lat: 47.4979
+  draw_lon: 19.0402
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/HungaryHatoslotto.Txt
+- id: hu/otoslotto
+  name: Hungary Otoslotto
+  pick_count: 5
+  pool_size: 90
+  ticket_price: 2.0
+  currency: HUF
+  draw_city: Budapest
+  draw_lat: 47.4979
+  draw_lon: 19.0402
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/HungaryOtoslotto.Txt
+- id: is/viking-lotto
+  name: Iceland Viking Lotto
+  pick_count: 6
+  pool_size: 48
+  ticket_price: 2.0
+  currency: ISK
+  draw_city: Reykjavik
+  draw_lat: 64.1466
+  draw_lon: -21.9426
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 48
+  draw_file: SamLotto Free Edition/Drawings/VikingLotto.Txt
+- id: in/jaldi-5-lotto
+  name: India Jaldi 5 Lotto
+  pick_count: 5
+  pool_size: 36
+  ticket_price: 2.0
+  currency: INR
+  draw_city: New Delhi
+  draw_lat: 28.6139
+  draw_lon: 77.209
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/IndiaJaldi5Lotto.Txt
+- id: in/sikkim-6-49-saturday
+  name: India Sikkim 6-49 Saturday
+  pick_count: 6
+  pool_size: 49
+  ticket_price: 2.0
+  currency: INR
+  draw_city: New Delhi
+  draw_lat: 28.6139
+  draw_lon: 77.209
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/IndiaSikkim649Saturday.Txt
+- id: in/sikkim-6-49-thursday
+  name: India Sikkim 6-49 Thursday
+  pick_count: 6
+  pool_size: 49
+  ticket_price: 2.0
+  currency: INR
+  draw_city: New Delhi
+  draw_lat: 28.6139
+  draw_lon: 77.209
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/IndiaSikkim649Thursday.Txt
+- id: in/super-lotto
+  name: India Super Lotto
+  pick_count: 6
+  pool_size: 49
+  ticket_price: 2.0
+  currency: INR
+  draw_city: New Delhi
+  draw_lat: 28.6139
+  draw_lon: 77.209
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/IndiaSuperLotto.Txt
+- id: in/thunderball
+  name: India Thunderball
+  pick_count: 5
+  pool_size: 42
+  ticket_price: 2.0
+  currency: INR
+  draw_city: New Delhi
+  draw_lat: 28.6139
+  draw_lon: 77.209
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 15
+  draw_file: SamLotto Free Edition/Drawings/IndiaThunderball.Txt
+- id: ie/daily-million-9pm
+  name: Ireland Daily Million 9pm
+  pick_count: 6
+  pool_size: 39
+  ticket_price: 2.0
+  currency: EUR
+  draw_city: Dublin
+  draw_lat: 53.3498
+  draw_lon: -6.2603
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 39
+  draw_file: SamLotto Free Edition/Drawings/IrshMondayMillionIR639.Txt
+- id: ie/lotto
+  name: Ireland Lotto
+  pick_count: 6
+  pool_size: 47
+  ticket_price: 2.0
+  currency: EUR
+  draw_city: Dublin
+  draw_lat: 53.3498
+  draw_lon: -6.2603
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 47
+  draw_file: SamLotto Free Edition/Drawings/IrshLottoIR642.Txt
+- id: ie/lotto-plus-1
+  name: Ireland Lotto Plus 1
+  pick_count: 6
+  pool_size: 47
+  ticket_price: 2.0
+  currency: EUR
+  draw_city: Dublin
+  draw_lat: 53.3498
+  draw_lon: -6.2603
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 47
+  draw_file: SamLotto Free Edition/Drawings/IrshLottoPlus1IR642P.Txt
+- id: ie/lotto-plus-2
+  name: Ireland Lotto Plus 2
+  pick_count: 6
+  pool_size: 47
+  ticket_price: 2.0
+  currency: EUR
+  draw_city: Dublin
+  draw_lat: 53.3498
+  draw_lon: -6.2603
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 47
+  draw_file: SamLotto Free Edition/Drawings/IrshLottoPlus2IR642P2.Txt
+- id: il/new-lotto
+  name: Israel New Lotto
+  pick_count: 6
+  pool_size: 37
+  ticket_price: 2.0
+  currency: ILS
+  draw_city: Tel Aviv
+  draw_lat: 32.0853
+  draw_lon: 34.7818
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 8
+  draw_file: SamLotto Free Edition/Drawings/IsraelNewLotto.Txt
+- id: il/sweepstakes
+  name: Israel Sweepstakes
+  pick_count: 6
+  pool_size: 37
+  ticket_price: 2.0
+  currency: ILS
+  draw_city: Tel Aviv
+  draw_lat: 32.0853
+  draw_lon: 34.7818
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 7
+  draw_file: SamLotto Free Edition/Drawings/Israel_Sweepstakes.Txt
+- id: jm/caribbean-superlotto
+  name: Jamaica Caribbean SuperLotto
+  pick_count: 5
+  pool_size: 35
+  ticket_price: 2.0
+  currency: JMD
+  draw_city: Kingston
+  draw_lat: 17.9714
+  draw_lon: -76.7936
+  data_available: true
+  board_cols: 5
+  bonus_count: 1
+  bonus_pool: 10
+  draw_file: SamLotto Free Edition/Drawings/Caribbean_SuperLotto.Txt
+- id: jm/lotto-6-37
+  name: Jamaica Lotto 6-37
+  pick_count: 6
+  pool_size: 45
+  ticket_price: 2.0
+  currency: JMD
+  draw_city: Kingston
+  draw_lat: 17.9714
+  draw_lon: -76.7936
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 45
+  draw_file: SamLotto Free Edition/Drawings/JamaicaLotto637.Txt
+- id: jm/lucky-5
+  name: Jamaica Lucky 5
+  pick_count: 5
+  pool_size: 26
+  ticket_price: 2.0
+  currency: JMD
+  draw_city: Kingston
+  draw_lat: 17.9714
+  draw_lon: -76.7936
+  data_available: true
+  board_cols: 5
+  draw_file: SamLotto Free Edition/Drawings/JamaicaLucky5.Txt
+- id: jp/loto-6
+  name: Japan Loto 6
+  pick_count: 6
+  pool_size: 43
+  ticket_price: 2.0
+  currency: JPY
+  draw_city: Tokyo
+  draw_lat: 35.6762
+  draw_lon: 139.6503
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 43
+  draw_file: SamLotto Free Edition/Drawings/JapanLoto6.Txt
+- id: jp/loto-7
+  name: Japan Loto 7
+  pick_count: 7
+  pool_size: 37
+  ticket_price: 2.0
+  currency: JPY
+  draw_city: Tokyo
+  draw_lat: 35.6762
+  draw_lon: 139.6503
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 37
+  draw_file: SamLotto Free Edition/Drawings/JapanLoto7.Txt
+- id: jp/lotto-643
+  name: Japan Lotto 643
+  pick_count: 6
+  pool_size: 43
+  ticket_price: 2.0
+  currency: JPY
+  draw_city: Tokyo
+  draw_lat: 35.6762
+  draw_lon: 139.6503
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 43
+  draw_file: SamLotto Free Edition/Drawings/Japanlotto643.Txt
+- id: jp/mini-loto
+  name: Japan Mini Loto
+  pick_count: 5
+  pool_size: 31
+  ticket_price: 2.0
+  currency: JPY
+  draw_city: Tokyo
+  draw_lat: 35.6762
+  draw_lon: 139.6503
+  data_available: true
+  board_cols: 5
+  bonus_count: 1
+  bonus_pool: 31
+  draw_file: SamLotto Free Edition/Drawings/JapanMiniLoto.Txt
+- id: kr/lotto-6-45
+  name: Korea Lotto 6-45
+  pick_count: 6
+  pool_size: 45
+  ticket_price: 2.0
+  currency: KRW
+  draw_city: Seoul
+  draw_lat: 37.5665
+  draw_lon: 126.978
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 45
+  draw_file: SamLotto Free Edition/Drawings/KoreaLotto645.Txt
+- id: lv/lotto-5-35
+  name: Latvia Lotto 5-35
+  pick_count: 5
+  pool_size: 35
+  ticket_price: 2.0
+  currency: EUR
+  draw_city: Riga
+  draw_lat: 56.9496
+  draw_lon: 24.1052
+  data_available: true
+  board_cols: 5
+  bonus_count: 1
+  bonus_pool: 35
+  draw_file: SamLotto Free Edition/Drawings/LatviaLotto535.Txt
+- id: lv/viking-lotto
+  name: Latvia Viking Lotto
+  pick_count: 6
+  pool_size: 48
+  ticket_price: 2.0
+  currency: EUR
+  draw_city: Riga
+  draw_lat: 56.9496
+  draw_lon: 24.1052
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 48
+  draw_file: SamLotto Free Edition/Drawings/VikingLotto.Txt
+- id: lb/lotto
+  name: Lebanon Lotto
+  pick_count: 6
+  pool_size: 42
+  ticket_price: 2.0
+  currency: LBP
+  draw_city: Beirut
+  draw_lat: 33.8938
+  draw_lon: 35.5018
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 42
+  draw_file: SamLotto Free Edition/Drawings/LebanonLotto.Txt
+- id: lu/euro-millions
+  name: Luxembourg Euro Millions
+  pick_count: 5
+  pool_size: 50
+  ticket_price: 2.0
+  currency: EUR
+  draw_city: Luxembourg
+  draw_lat: 49.6116
+  draw_lon: 6.1319
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 11
+  draw_file: SamLotto Free Edition/Drawings/EuroMillionsEURO550.Txt
+- id: cn/supperlotto
+  name: SupperLotto
+  pick_count: 5
+  pool_size: 35
+  ticket_price: 2.0
+  currency: CNY
+  draw_city: Beijing
+  draw_lat: 39.9042
+  draw_lon: 116.4074
+  data_available: true
+  board_cols: 5
+  bonus_count: 1
+  bonus_pool: 12
+  draw_file: SamLotto Free Edition/Drawings/SupperLotto.Txt
+- id: cn/unionlotto
+  name: UnionLotto
+  pick_count: 6
+  pool_size: 33
+  ticket_price: 2.0
+  currency: CNY
+  draw_city: Beijing
+  draw_lat: 39.9042
+  draw_lon: 116.4074
+  data_available: true
+  board_cols: 5
+  bonus_count: 1
+  bonus_pool: 16
+  draw_file: SamLotto Free Edition/Drawings/UnionLotto.Txt
+- id: my/power-toto
+  name: Malaysia Power Toto
+  pick_count: 6
+  pool_size: 55
+  ticket_price: 2.0
+  currency: MYR
+  draw_city: Kuala Lumpur
+  draw_lat: 3.139
+  draw_lon: 101.6869
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/MalaysiaPowerTotoTOTO655.Txt
+- id: my/start-toto
+  name: Malaysia Start Toto
+  pick_count: 6
+  pool_size: 50
+  ticket_price: 2.0
+  currency: MYR
+  draw_city: Kuala Lumpur
+  draw_lat: 3.139
+  draw_lon: 101.6869
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 50
+  draw_file: SamLotto Free Edition/Drawings/MalaysiaStartTotoTOTO650.Txt
+- id: my/supreme-toto
+  name: Malaysia Supreme Toto
+  pick_count: 6
+  pool_size: 58
+  ticket_price: 2.0
+  currency: MYR
+  draw_city: Kuala Lumpur
+  draw_lat: 3.139
+  draw_lon: 101.6869
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/MalaysiaSupremeTotoTOTO658.Txt
+- id: mu/lotto
+  name: Mauritius Lotto
+  pick_count: 6
+  pool_size: 40
+  ticket_price: 2.0
+  currency: MUR
+  draw_city: Port Louis
+  draw_lat: -20.1609
+  draw_lon: 57.5012
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/MauritiusLotto.Txt
+- id: mx/chispazo
+  name: Mexico Chispazo
+  pick_count: 5
+  pool_size: 28
+  ticket_price: 2.0
+  currency: MXN
+  draw_city: Mexico City
+  draw_lat: 19.4326
+  draw_lon: -99.1332
+  data_available: true
+  board_cols: 5
+  draw_file: SamLotto Free Edition/Drawings/MexicoChispazoMX528.Txt
+- id: mx/melate-lotto
+  name: Mexico Melate Lotto
+  pick_count: 6
+  pool_size: 56
+  ticket_price: 2.0
+  currency: MXN
+  draw_city: Mexico City
+  draw_lat: 19.4326
+  draw_lon: -99.1332
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 56
+  draw_file: SamLotto Free Edition/Drawings/MexicoMelateLottoMX647.Txt
+- id: mx/melate-retro
+  name: Mexico Melate Retro
+  pick_count: 6
+  pool_size: 39
+  ticket_price: 2.0
+  currency: MXN
+  draw_city: Mexico City
+  draw_lat: 19.4326
+  draw_lon: -99.1332
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 39
+  draw_file: SamLotto Free Edition/Drawings/MexicoMelateRetroMX639.Txt
+- id: mx/revancha-lotto
+  name: Mexico Revancha Lotto
+  pick_count: 6
+  pool_size: 56
+  ticket_price: 2.0
+  currency: MXN
+  draw_city: Mexico City
+  draw_lat: 19.4326
+  draw_lon: -99.1332
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/MexicoRevanchaLottoMXREV.Txt
+- id: mx/revanchita-lotto
+  name: Mexico Revanchita Lotto
+  pick_count: 6
+  pool_size: 56
+  ticket_price: 2.0
+  currency: MXN
+  draw_city: Mexico City
+  draw_lat: 19.4326
+  draw_lon: -99.1332
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/MexicoRevanchitaLottoMXREV2.Txt
+- id: nl/dutch-lotto
+  name: Netherlands Dutch Lotto
+  pick_count: 6
+  pool_size: 45
+  ticket_price: 2.0
+  currency: EUR
+  draw_city: Amsterdam
+  draw_lat: 52.3676
+  draw_lon: 4.9041
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/NetherlandsDutchLotto.Txt
+- id: nl/euro-jackpot
+  name: Netherlands Euro Jackpot
+  pick_count: 5
+  pool_size: 50
+  ticket_price: 2.0
+  currency: EUR
+  draw_city: Amsterdam
+  draw_lat: 52.3676
+  draw_lon: 4.9041
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 10
+  draw_file: SamLotto Free Edition/Drawings/EuroJackpot750.Txt
+- id: nz/lotto
+  name: New Zealand Lotto
+  pick_count: 6
+  pool_size: 40
+  ticket_price: 2.0
+  currency: NZD
+  draw_city: Wellington
+  draw_lat: -41.2865
+  draw_lon: 174.7762
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 40
+  draw_file: SamLotto Free Edition/Drawings/NewZealandLottoNZ640.Txt
+- id: no/lotto
+  name: Norway Lotto
+  pick_count: 7
+  pool_size: 34
+  ticket_price: 2.0
+  currency: NOK
+  draw_city: Oslo
+  draw_lat: 59.9139
+  draw_lon: 10.7522
+  data_available: true
+  board_cols: 5
+  bonus_count: 1
+  bonus_pool: 34
+  draw_file: SamLotto Free Edition/Drawings/NorwayLotto.Txt
+- id: no/viking-lotto
+  name: Norway Viking Lotto
+  pick_count: 6
+  pool_size: 48
+  ticket_price: 2.0
+  currency: NOK
+  draw_city: Oslo
+  draw_lat: 59.9139
+  draw_lon: 10.7522
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 48
+  draw_file: SamLotto Free Edition/Drawings/VikingLotto.Txt
+- id: pe/gana-diario
+  name: Peru Gana Diario
+  pick_count: 5
+  pool_size: 35
+  ticket_price: 2.0
+  currency: PEN
+  draw_city: Lima
+  draw_lat: -12.0464
+  draw_lon: -77.0428
+  data_available: true
+  board_cols: 5
+  draw_file: SamLotto Free Edition/Drawings/PeruGanaDiario.Txt
+- id: ph/grand-lotto-6-55
+  name: Philippines Grand Lotto 6-55
+  pick_count: 6
+  pool_size: 55
+  ticket_price: 2.0
+  currency: PHP
+  draw_city: Manila
+  draw_lat: 14.5995
+  draw_lon: 120.9842
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/PhilippinesGrandLotto655.Txt
+- id: ph/lotto-6-42
+  name: Philippines Lotto 6-42
+  pick_count: 6
+  pool_size: 42
+  ticket_price: 2.0
+  currency: PHP
+  draw_city: Manila
+  draw_lat: 14.5995
+  draw_lon: 120.9842
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/PhilippinesLotto642.Txt
+- id: ph/megalotto-6-45
+  name: Philippines MegaLotto 6-45
+  pick_count: 6
+  pool_size: 45
+  ticket_price: 2.0
+  currency: PHP
+  draw_city: Manila
+  draw_lat: 14.5995
+  draw_lon: 120.9842
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/PhilippinesMegaLotto645.Txt
+- id: ph/superlotto-6-49
+  name: Philippines SuperLotto 6-49
+  pick_count: 6
+  pool_size: 49
+  ticket_price: 2.0
+  currency: PHP
+  draw_city: Manila
+  draw_lat: 14.5995
+  draw_lon: 120.9842
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/PhilippinesSuperLotto649.Txt
+- id: pl/lotto
+  name: Poland Lotto
+  pick_count: 6
+  pool_size: 49
+  ticket_price: 2.0
+  currency: PLN
+  draw_city: Warsaw
+  draw_lat: 52.2297
+  draw_lon: 21.0122
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/PolandLotto.Txt
+- id: pl/mini-lotto
+  name: Poland Mini Lotto
+  pick_count: 5
+  pool_size: 42
+  ticket_price: 2.0
+  currency: PLN
+  draw_city: Warsaw
+  draw_lat: 52.2297
+  draw_lon: 21.0122
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/PolandMiniLotto.Txt
+- id: pt/euro-millions
+  name: Portugal Euro Millions
+  pick_count: 5
+  pool_size: 50
+  ticket_price: 2.0
+  currency: EUR
+  draw_city: Lisbon
+  draw_lat: 38.7223
+  draw_lon: -9.1393
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 11
+  draw_file: SamLotto Free Edition/Drawings/EuroMillionsEURO550.Txt
+- id: ro/6-49
+  name: Romania 6 49
+  pick_count: 6
+  pool_size: 49
+  ticket_price: 2.0
+  currency: RON
+  draw_city: Bucharest
+  draw_lat: 44.4268
+  draw_lon: 26.1025
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/Romania 6_49.txt
+- id: ro/superloto-5-din-40
+  name: Superloto 5 din 40
+  pick_count: 5
+  pool_size: 40
+  ticket_price: 2.0
+  currency: RON
+  draw_city: Bucharest
+  draw_lat: 44.4268
+  draw_lon: 26.1025
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 40
+  draw_file: SamLotto Free Edition/Drawings/Romania-Superloto-5 din-401995_2009.Txt
+- id: ru/5-36-midday
+  name: Russia 5 36-Midday
+  pick_count: 5
+  pool_size: 36
+  ticket_price: 2.0
+  currency: RUB
+  draw_city: Moscow
+  draw_lat: 55.7558
+  draw_lon: 37.6173
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/Russia_536_M.Txt
+- id: ru/5-36-night
+  name: Russia 5 36-Night
+  pick_count: 5
+  pool_size: 36
+  ticket_price: 2.0
+  currency: RUB
+  draw_city: Moscow
+  draw_lat: 55.7558
+  draw_lon: 37.6173
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/Russia_536_N.Txt
+- id: ru/6-45
+  name: Russia 6 45
+  pick_count: 6
+  pool_size: 45
+  ticket_price: 2.0
+  currency: RUB
+  draw_city: Moscow
+  draw_lat: 55.7558
+  draw_lon: 37.6173
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/Russia_645.Txt
+- id: ru/7-49
+  name: Russia 7 49
+  pick_count: 7
+  pool_size: 49
+  ticket_price: 2.0
+  currency: RUB
+  draw_city: Moscow
+  draw_lat: 55.7558
+  draw_lon: 37.6173
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/Russia_749.Txt
+- id: sg/toto
+  name: Singapore Toto
+  pick_count: 6
+  pool_size: 49
+  ticket_price: 2.0
+  currency: SGD
+  draw_city: Singapore
+  draw_lat: 1.3521
+  draw_lon: 103.8198
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 49
+  draw_file: SamLotto Free Edition/Drawings/SingaporeTotoSG645.Txt
+- id: si/euro-jackpot
+  name: Slovenia Euro Jackpot
+  pick_count: 5
+  pool_size: 50
+  ticket_price: 2.0
+  currency: EUR
+  draw_city: Ljubljana
+  draw_lat: 46.0569
+  draw_lon: 14.5058
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 10
+  draw_file: SamLotto Free Edition/Drawings/EuroJackpot750.Txt
+- id: za/daily-lotto
+  name: South Africa Daily Lotto
+  pick_count: 5
+  pool_size: 36
+  ticket_price: 2.0
+  currency: ZAR
+  draw_city: Johannesburg
+  draw_lat: -26.2041
+  draw_lon: 28.0473
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/SouthAfricaDailyLottoSA536.Txt
+- id: za/lotto
+  name: South Africa Lotto
+  pick_count: 6
+  pool_size: 52
+  ticket_price: 2.0
+  currency: ZAR
+  draw_city: Johannesburg
+  draw_lat: -26.2041
+  draw_lon: 28.0473
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 52
+  draw_file: SamLotto Free Edition/Drawings/SouthAfricaNationalLotterySA649.Txt
+- id: za/lotto-plus-1
+  name: South Africa Lotto Plus 1
+  pick_count: 6
+  pool_size: 52
+  ticket_price: 2.0
+  currency: ZAR
+  draw_city: Johannesburg
+  draw_lat: -26.2041
+  draw_lon: 28.0473
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 52
+  draw_file: SamLotto Free Edition/Drawings/SouthAfricaLottoPlusSA649P.Txt
+- id: za/lotto-plus-2
+  name: South Africa Lotto Plus 2
+  pick_count: 6
+  pool_size: 52
+  ticket_price: 2.0
+  currency: ZAR
+  draw_city: Johannesburg
+  draw_lat: -26.2041
+  draw_lon: 28.0473
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 52
+  draw_file: SamLotto Free Edition/Drawings/SouthAfricaLottoPlus2SA6522.Txt
+- id: za/powerball
+  name: South Africa PowerBall
+  pick_count: 5
+  pool_size: 50
+  ticket_price: 2.0
+  currency: ZAR
+  draw_city: Johannesburg
+  draw_lat: -26.2041
+  draw_lon: 28.0473
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 20
+  draw_file: SamLotto Free Edition/Drawings/SouthAfricaPowerBallSA545.Txt
+- id: za/powerball-plus
+  name: South Africa Powerball Plus
+  pick_count: 5
+  pool_size: 50
+  ticket_price: 2.0
+  currency: ZAR
+  draw_city: Johannesburg
+  draw_lat: -26.2041
+  draw_lon: 28.0473
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 20
+  draw_file: SamLotto Free Edition/Drawings/SouthAfricaPowerBallPlusSA545P.Txt
+- id: es/649
+  name: Spain 649
+  pick_count: 6
+  pool_size: 49
+  ticket_price: 2.0
+  currency: EUR
+  draw_city: Madrid
+  draw_lat: 40.4168
+  draw_lon: -3.7038
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 49
+  draw_file: SamLotto Free Edition/Drawings/Spain649SP649.Txt
+- id: se/lotto-1
+  name: Sweden Lotto 1
+  pick_count: 7
+  pool_size: 35
+  ticket_price: 2.0
+  currency: SEK
+  draw_city: Stockholm
+  draw_lat: 59.3293
+  draw_lon: 18.0686
+  data_available: true
+  board_cols: 5
+  bonus_count: 1
+  bonus_pool: 35
+  draw_file: SamLotto Free Edition/Drawings/SwedenLotto1.Txt
+- id: se/lotto-2
+  name: Sweden Lotto 2
+  pick_count: 7
+  pool_size: 35
+  ticket_price: 2.0
+  currency: SEK
+  draw_city: Stockholm
+  draw_lat: 59.3293
+  draw_lon: 18.0686
+  data_available: true
+  board_cols: 5
+  bonus_count: 1
+  bonus_pool: 35
+  draw_file: SamLotto Free Edition/Drawings/SwedenLotto2.Txt
+- id: se/viking-lotto
+  name: Sweden Viking Lotto
+  pick_count: 6
+  pool_size: 48
+  ticket_price: 2.0
+  currency: SEK
+  draw_city: Stockholm
+  draw_lat: 59.3293
+  draw_lon: 18.0686
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 48
+  draw_file: SamLotto Free Edition/Drawings/VikingLotto.Txt
+- id: ch/euro-millions
+  name: Switzerland Euro Millions
+  pick_count: 5
+  pool_size: 50
+  ticket_price: 2.0
+  currency: CHF
+  draw_city: Bern
+  draw_lat: 46.948
+  draw_lon: 7.4474
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 11
+  draw_file: SamLotto Free Edition/Drawings/EuroMillionsEURO550.Txt
+- id: ch/swiss-lotto
+  name: Switzerland Swiss Lotto
+  pick_count: 6
+  pool_size: 42
+  ticket_price: 2.0
+  currency: CHF
+  draw_city: Bern
+  draw_lat: 46.948
+  draw_lon: 7.4474
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 6
+  draw_file: SamLotto Free Edition/Drawings/SwitzerlandSwisLotto.Txt
+- id: tw/539-tw539
+  name: Taiwan 539-TW539
+  pick_count: 5
+  pool_size: 39
+  ticket_price: 2.0
+  currency: TWD
+  draw_city: Taipei
+  draw_lat: 25.033
+  draw_lon: 121.5654
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/Taiwan539TW539.Txt
+- id: tw/big-lotto
+  name: Taiwan Big Lotto
+  pick_count: 6
+  pool_size: 49
+  ticket_price: 2.0
+  currency: TWD
+  draw_city: Taipei
+  draw_lat: 25.033
+  draw_lon: 121.5654
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 49
+  draw_file: SamLotto Free Edition/Drawings/TaiwanBigLottoTW649.Txt
+- id: tw/lotto
+  name: Taiwan Lotto
+  pick_count: 6
+  pool_size: 38
+  ticket_price: 2.0
+  currency: TWD
+  draw_city: Taipei
+  draw_lat: 25.033
+  draw_lon: 121.5654
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 8
+  draw_file: SamLotto Free Edition/Drawings/TaiwanLottoTW638.Txt
+- id: tt/lotto-plus
+  name: Trinidad and Tobago Lotto Plus
+  pick_count: 5
+  pool_size: 35
+  ticket_price: 2.0
+  currency: TTD
+  draw_city: Port of Spain
+  draw_lat: 10.6549
+  draw_lon: -61.5019
+  data_available: true
+  board_cols: 5
+  bonus_count: 1
+  bonus_pool: 10
+  draw_file: SamLotto Free Edition/Drawings/TrinidadandTobagoLottoPlus.Txt
+- id: tr/turkish-sans-topu
+  name: Turkish Sans Topu
+  pick_count: 5
+  pool_size: 34
+  ticket_price: 2.0
+  currency: TRY
+  draw_city: Ankara
+  draw_lat: 39.9334
+  draw_lon: 32.8597
+  data_available: true
+  board_cols: 5
+  bonus_count: 1
+  bonus_pool: 14
+  draw_file: SamLotto Free Edition/Drawings/TurkishSansTopuTR534.Txt
+- id: tr/turkish-sayisal-lotto
+  name: Turkish Sayisal Lotto
+  pick_count: 6
+  pool_size: 90
+  ticket_price: 2.0
+  currency: TRY
+  draw_city: Ankara
+  draw_lat: 39.9334
+  draw_lon: 32.8597
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 90
+  draw_file: SamLotto Free Edition/Drawings/TurkishSayisalLotoTR690.Txt
+- id: tr/turkish-super-lotto
+  name: Turkish Super Lotto
+  pick_count: 6
+  pool_size: 60
+  ticket_price: 2.0
+  currency: TRY
+  draw_city: Ankara
+  draw_lat: 39.9334
+  draw_lon: 32.8597
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/TurkishSuperLottoTR654.Txt
+- id: uk/set-for-life
+  name: Set For Life
+  pick_count: 5
+  pool_size: 47
+  ticket_price: 2.0
+  currency: GBP
+  draw_city: London
+  draw_lat: 51.5074
+  draw_lon: -0.1278
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 10
+  draw_file: SamLotto Free Edition/Drawings/SetForLifeUK547.Txt
+- id: uk/thunderball
+  name: Thunderball
+  pick_count: 5
+  pool_size: 39
+  ticket_price: 2.0
+  currency: GBP
+  draw_city: London
+  draw_lat: 51.5074
+  draw_lon: -0.1278
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 14
+  draw_file: SamLotto Free Edition/Drawings/ThunderballUK534.Txt
+- id: uk/lotto
+  name: United Kingdom Lotto
+  pick_count: 6
+  pool_size: 59
+  ticket_price: 2.0
+  currency: GBP
+  draw_city: London
+  draw_lat: 51.5074
+  draw_lon: -0.1278
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 59
+  draw_file: SamLotto Free Edition/Drawings/BritishNationalLotteryUK649.Txt
+- id: uy/kini
+  name: Uruguay Kini
+  pick_count: 5
+  pool_size: 36
+  ticket_price: 2.0
+  currency: UYU
+  draw_city: Montevideo
+  draw_lat: -34.9011
+  draw_lon: -56.1645
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/UruguayKini.Txt
+- id: uy/revancha
+  name: Uruguay Revancha
+  pick_count: 5
+  pool_size: 44
+  ticket_price: 2.0
+  currency: UYU
+  draw_city: Montevideo
+  draw_lat: -34.9011
+  draw_lon: -56.1645
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/UruguayRevancha.Txt
+- id: other/other
+  name: Other
+  pick_count: 6
+  pool_size: 35
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Other
+  draw_lat: 0.0
+  draw_lon: 0.0
+  data_available: true
+  board_cols: 5
+  draw_file: SamLotto Free Edition/Drawings/Russia_Other.Txt
+- id: us/arizona-fantasy-5
+  name: Arizona Fantasy 5
+  pick_count: 5
+  pool_size: 41
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Arizona
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/ArizonaThePick5AZ535.Txt
+- id: us/arizona-the-pick
+  name: Arizona The Pick
+  pick_count: 6
+  pool_size: 44
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Arizona
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/ArizonaThePickAZ644.Txt
+- id: us/arizona-triple-twist
+  name: Arizona Triple Twist
+  pick_count: 6
+  pool_size: 42
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Arizona
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/ArizonaTripleTwistAZ642.Txt
+- id: us/arkansas-natural-state-jackpot
+  name: Natural State Jackpot
+  pick_count: 5
+  pool_size: 39
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Arkansas
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/NaturalStateJackpotAR539.Txt
+- id: us/california-fantasy-5
+  name: California Fantasy 5
+  pick_count: 5
+  pool_size: 39
+  ticket_price: 2.0
+  currency: USD
+  draw_city: California
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/CaliforniaFantasy5CA539.Txt
+- id: us/california-superlotto-plus
+  name: California SuperLotto Plus
+  pick_count: 5
+  pool_size: 47
+  ticket_price: 2.0
+  currency: USD
+  draw_city: California
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 27
+  draw_file: SamLotto Free Edition/Drawings/CaliforniaSuperLottoPlusCA547.Txt
+- id: us/colorado-cash-5
+  name: Colorado Cash 5
+  pick_count: 5
+  pool_size: 32
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Colorado
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 5
+  draw_file: SamLotto Free Edition/Drawings/ColoradoCash5CO532.Txt
+- id: us/colorado-lotto
+  name: Colorado Lotto+
+  pick_count: 6
+  pool_size: 40
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Colorado
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/ColoradoLottoaddCO640.Txt
+- id: us/connecticut-cash-5
+  name: Connecticut Cash 5
+  pick_count: 5
+  pool_size: 35
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Connecticut
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 5
+  draw_file: SamLotto Free Edition/Drawings/ConnecticutCash5CT535.Txt
+- id: us/connecticut-lotto
+  name: Connecticut Lotto
+  pick_count: 6
+  pool_size: 44
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Connecticut
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/ConnecticutClassicLottoCT644.Txt
+- id: us/delaware-multi-win-lotto
+  name: Delaware Multi-Win Lotto
+  pick_count: 6
+  pool_size: 35
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Delaware
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 5
+  draw_file: SamLotto Free Edition/Drawings/DelawareMultiWinLottoDe635.Txt
+- id: us/florida-fantasy-5
+  name: Florida Fantasy 5
+  pick_count: 5
+  pool_size: 36
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Florida
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/FloridaFantasy5FL536.Txt
+- id: us/florida-jackpot-triple-play
+  name: Florida Jackpot Triple Play
+  pick_count: 6
+  pool_size: 46
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Florida
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/FloridaJackpotTriplePlayFL646.Txt
+- id: us/florida-lotto
+  name: Florida Lotto
+  pick_count: 6
+  pool_size: 53
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Florida
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/FloridaLottoFL653.Txt
+- id: us/georgia-fantasy-5
+  name: Georgia Fantasy 5
+  pick_count: 5
+  pool_size: 42
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Georgia
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/GeorgiaFantasy5GA539.Txt
+- id: us/georgia-jumbo-bucks-lotto
+  name: Georgia Jumbo Bucks Lotto
+  pick_count: 6
+  pool_size: 47
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Georgia
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/GeorgiaJumboBucksLottoGA647.Txt
+- id: us/idaho-cash
+  name: Idaho Cash
+  pick_count: 5
+  pool_size: 45
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Idaho
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/IdahoCashID545.Txt
+- id: us/idaho-weekly-grand
+  name: Idaho Weekly Grand
+  pick_count: 5
+  pool_size: 32
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Idaho
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 5
+  draw_file: SamLotto Free Edition/Drawings/IdahoWeeklyGrandID532.Txt
+- id: us/illinois-evening-lucky-day-lotto
+  name: Illinois Evening Lucky Day Lotto
+  pick_count: 5
+  pool_size: 45
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Illinois
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/IllinoisLittleLottoIL539.Txt
+- id: us/illinois-lotto
+  name: Illinois Lotto
+  pick_count: 6
+  pool_size: 52
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Illinois
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/IllinoisLottoIL652.Txt
+- id: us/illinois-midday-lucky-day-lotto
+  name: Illinois Midday Lucky Day Lotto
+  pick_count: 5
+  pool_size: 45
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Illinois
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/IllinoisLittleLottoMIL539M.Txt
+- id: us/indiana-cash-5
+  name: Indiana Cash 5
+  pick_count: 5
+  pool_size: 45
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Indiana
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/IndianaCash5541IN539.Txt
+- id: us/indiana-hoosier-lotto
+  name: Indiana Hoosier Lotto
+  pick_count: 6
+  pool_size: 46
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Indiana
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/IndianaHoosierLottoIN648.Txt
+- id: us/kansas-super-kansas
+  name: Super Kansas
+  pick_count: 5
+  pool_size: 32
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Kansas
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 5
+  bonus_count: 1
+  bonus_pool: 25
+  draw_file: SamLotto Free Edition/Drawings/SuperKansasKS532.Txt
+- id: us/kentucky-cash-ball
+  name: Kentucky Cash Ball
+  pick_count: 4
+  pool_size: 35
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Kentucky
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 5
+  bonus_count: 1
+  bonus_pool: 25
+  draw_file: SamLotto Free Edition/Drawings/KentuckyCashBallKY533.Txt
+- id: us/louisiana-easy-5
+  name: Louisiana Easy 5
+  pick_count: 5
+  pool_size: 37
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Louisiana
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/LouisianaEasy5LA537.Txt
+- id: us/louisiana-lotto
+  name: Louisiana Lotto
+  pick_count: 6
+  pool_size: 42
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Louisiana
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/LouisianaLottoLA644.Txt
+- id: us/maryland-bonus-match-5
+  name: Maryland Bonus Match 5
+  pick_count: 5
+  pool_size: 39
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Maryland
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 39
+  draw_file: SamLotto Free Edition/Drawings/MarylandBonusMatch5MD539.Txt
+- id: us/maryland-multi-match
+  name: Maryland Multi-Match
+  pick_count: 6
+  pool_size: 43
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Maryland
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/MarylandMultiMatchMD643.Txt
+- id: us/massachusetts-mass-cash
+  name: Massachusetts Mass Cash
+  pick_count: 5
+  pool_size: 35
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Massachusetts
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 5
+  draw_file: SamLotto Free Edition/Drawings/MassachusettsMashCashMA535.Txt
+- id: us/massachusetts-megabucks-doubler
+  name: Massachusetts Megabucks Doubler
+  pick_count: 6
+  pool_size: 49
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Massachusetts
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/MassachusettsMegabucksMA642.Txt
+- id: us/michigan-classic-lotto-47
+  name: Michigan Classic Lotto 47
+  pick_count: 6
+  pool_size: 47
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Michigan
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/MichiganClassicLotto47MI647.Txt
+- id: us/michigan-fantasy-5
+  name: Michigan Fantasy 5
+  pick_count: 5
+  pool_size: 39
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Michigan
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/MichiganFantasy5Mi539.Txt
+- id: us/minnesota-gopher-5
+  name: Minnesota Gopher 5
+  pick_count: 5
+  pool_size: 47
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Minnesota
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/MinnesotaGopher5MN547.Txt
+- id: us/minnesota-northstar-cash
+  name: Minnesota Northstar cash
+  pick_count: 5
+  pool_size: 31
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Minnesota
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 5
+  draw_file: SamLotto Free Edition/Drawings/MinnesotaNorthstarCashMN531.Txt
+- id: us/mississippi-match-5
+  name: Mississippi Match 5
+  pick_count: 5
+  pool_size: 35
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Mississippi
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 5
+  draw_file: SamLotto Free Edition/Drawings/MississippiMatch5.Txt
+- id: us/missouri-lotto
+  name: Missouri Lotto
+  pick_count: 6
+  pool_size: 44
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Missouri
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/MissouriLottoMO644.Txt
+- id: us/missouri-show-me-cash
+  name: Missouri Show Me Cash
+  pick_count: 5
+  pool_size: 39
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Missouri
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/MissouriShowMeCashMO539.Txt
+- id: us/montana-cash
+  name: Montana Cash
+  pick_count: 5
+  pool_size: 45
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Montana
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/MontanaCashMT537.Txt
+- id: us/lotto-america
+  name: Lotto America
+  pick_count: 5
+  pool_size: 52
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Multi-State
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 10
+  draw_file: SamLotto Free Edition/Drawings/LottoAmericaLAM552.Txt
+- id: us/lucky-for-life
+  name: Lucky for Life
+  pick_count: 5
+  pool_size: 48
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Multi-State
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 18
+  draw_file: SamLotto Free Edition/Drawings/LucklyforLifeLFL548.Txt
+- id: us/tristate-megabucks-plus
+  name: TriState Megabucks Plus!
+  pick_count: 5
+  pool_size: 41
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Multi-State
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 6
+  draw_file: SamLotto Free Edition/Drawings/TriStateMegabucksTS541.Txt
+- id: us/nebraska-pick-5
+  name: Nebraska Pick 5
+  pick_count: 5
+  pool_size: 38
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Nebraska
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/NebraskaPick5NE538.Txt
+- id: us/new-hampahire-tri-state-gimme-5
+  name: Tri-State Gimme 5
+  pick_count: 5
+  pool_size: 39
+  ticket_price: 2.0
+  currency: USD
+  draw_city: New Hampahire
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/TriStateGimme5Ts539.Txt
+- id: us/new-jersey-cash-5
+  name: New Jersey Cash 5
+  pick_count: 5
+  pool_size: 45
+  ticket_price: 2.0
+  currency: USD
+  draw_city: New Jersey
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/NewJerseyCash5NJ540.Txt
+- id: us/new-jersey-pick-6
+  name: New Jersey Pick 6
+  pick_count: 6
+  pool_size: 49
+  ticket_price: 2.0
+  currency: USD
+  draw_city: New Jersey
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/NewJerseyPickSixLottoNJ649.Txt
+- id: us/new-mexico-road-runner-cash
+  name: Road Runner Cash
+  pick_count: 5
+  pool_size: 37
+  ticket_price: 2.0
+  currency: USD
+  draw_city: New Mexico
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/RoadRunnerCashNM537.Txt
+- id: us/new-york-lotto
+  name: New York Lotto
+  pick_count: 6
+  pool_size: 59
+  ticket_price: 2.0
+  currency: USD
+  draw_city: New York
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 59
+  draw_file: SamLotto Free Edition/Drawings/NewYorkLottoNY659.Txt
+- id: us/new-york-take-5
+  name: New York Take 5
+  pick_count: 5
+  pool_size: 39
+  ticket_price: 2.0
+  currency: USD
+  draw_city: New York
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/NewYorkTake5NY539.Txt
+- id: us/north-carolina-cash-5
+  name: North Carolina Cash 5
+  pick_count: 5
+  pool_size: 43
+  ticket_price: 2.0
+  currency: USD
+  draw_city: North Carolina
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/NorthCarolinaCashNC539.Txt
+- id: us/ohio-classic-lotto
+  name: Ohio Classic Lotto
+  pick_count: 6
+  pool_size: 49
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Ohio
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/OhioClassicLottoOH649.Txt
+- id: us/ohio-rolling-cash-5
+  name: Ohio Rolling Cash 5
+  pick_count: 5
+  pool_size: 39
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Ohio
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/OhioRollingCash5OH539.Txt
+- id: us/oklahoma-cash-5
+  name: Oklahoma Cash 5
+  pick_count: 5
+  pool_size: 36
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Oklahoma
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/OklahomaCash5OK536.Txt
+- id: us/oregon-648-megabucks
+  name: Oregon 648 megabucks
+  pick_count: 6
+  pool_size: 48
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Oregon
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/Oregon648megabucksOR648.Txt
+- id: us/oregon-win-for-life
+  name: Oregon Win for Life
+  pick_count: 4
+  pool_size: 77
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Oregon
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/OregonWinforLifeOR477.Txt
+- id: us/pennsylvania-cash-5
+  name: Pennsylvania Cash 5
+  pick_count: 5
+  pool_size: 43
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Pennsylvania
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/PennsylvaniaCash5PA543.Txt
+- id: us/pennsylvania-match-6-lotto
+  name: Pennsylvania Match 6 Lotto
+  pick_count: 6
+  pool_size: 49
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Pennsylvania
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/PennsylvaniaMatch6LottoPA649.Txt
+- id: us/pennsylvania-treasure-hunt
+  name: Pennsylvania Treasure Hunt
+  pick_count: 5
+  pool_size: 30
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Pennsylvania
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 5
+  draw_file: SamLotto Free Edition/Drawings/PennsylvaniaTreasureHuntPA530.Txt
+- id: us/puerto-rico-loto-plus
+  name: Puerto Rico Loto Plus
+  pick_count: 5
+  pool_size: 40
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Puerto Rico
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 15
+  draw_file: SamLotto Free Edition/Drawings/PuertoRicoLotoPlusPR540.Txt
+- id: us/rhode-island-wild-money
+  name: Rhode Island Wild Money
+  pick_count: 5
+  pool_size: 35
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Rhode Island
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 5
+  bonus_count: 1
+  bonus_pool: 35
+  draw_file: SamLotto Free Edition/Drawings/RhodeIslandWildMoneyRI535.Txt
+- id: us/south-carolina-palmetto-cash-5
+  name: South Carolina Palmetto Cash 5
+  pick_count: 5
+  pool_size: 38
+  ticket_price: 2.0
+  currency: USD
+  draw_city: South Carolina
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/SouthCarolinaPalmettoCash5SC538.Txt
+- id: us/south-dakota-cash
+  name: South Dakota Cash
+  pick_count: 5
+  pool_size: 35
+  ticket_price: 2.0
+  currency: USD
+  draw_city: South Dakota
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 5
+  draw_file: SamLotto Free Edition/Drawings/SouthDakotaCashSD535.Txt
+- id: us/tennessee-cash4life
+  name: Cash4Life
+  pick_count: 5
+  pool_size: 60
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Tennessee
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 4
+  draw_file: SamLotto Free Edition/Drawings/Cash4LifeC4L560.Txt
+- id: us/tennessee-cash
+  name: Tennessee Cash
+  pick_count: 5
+  pool_size: 35
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Tennessee
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 5
+  bonus_count: 1
+  bonus_pool: 5
+  draw_file: SamLotto Free Edition/Drawings/TennesseeCashTN535.Txt
+- id: us/texas-lotto-texas
+  name: Lotto Texas
+  pick_count: 6
+  pool_size: 54
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Texas
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/LottoTexasTX654.Txt
+- id: us/texas-cash-five
+  name: Texas Cash Five
+  pick_count: 5
+  pool_size: 35
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Texas
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 5
+  draw_file: SamLotto Free Edition/Drawings/TexasCashFiveTX537.Txt
+- id: us/texas-two-step
+  name: Texas Two Step
+  pick_count: 4
+  pool_size: 35
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Texas
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 5
+  bonus_count: 1
+  bonus_pool: 35
+  draw_file: SamLotto Free Edition/Drawings/TexasTwoStepTX435.Txt
+- id: us/virginia-bank-a-million
+  name: Virginia Bank a Million
+  pick_count: 6
+  pool_size: 40
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Virginia
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  bonus_count: 1
+  bonus_pool: 40
+  draw_file: SamLotto Free Edition/Drawings/VirginiaBankaMillionVA640.Txt
+- id: us/virginia-cash-5
+  name: Virginia Cash 5
+  pick_count: 5
+  pool_size: 41
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Virginia
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/VirginiaCash5VA534.Txt
+- id: us/washington-hit-5
+  name: Washington Hit 5
+  pick_count: 5
+  pool_size: 42
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Washington
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/WashingtonHit5WA539.Txt
+- id: us/washington-lotto
+  name: Washington Lotto
+  pick_count: 6
+  pool_size: 49
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Washington
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/WashingtonLottoWA649.Txt
+- id: us/washington-match-4
+  name: Washington Match 4
+  pick_count: 4
+  pool_size: 24
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Washington
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 5
+  draw_file: SamLotto Free Edition/Drawings/WashingtonMatch4WA424.Txt
+- id: us/west-virginia-west-wirginia-cash-25
+  name: West Wirginia Cash 25
+  pick_count: 6
+  pool_size: 25
+  ticket_price: 2.0
+  currency: USD
+  draw_city: West Virginia
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 5
+  draw_file: SamLotto Free Edition/Drawings/WestWirginiaCash25WV625.Txt
+- id: us/wisconsin-badger-5
+  name: Wisconsin Badger 5
+  pick_count: 5
+  pool_size: 31
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Wisconsin
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 5
+  draw_file: SamLotto Free Edition/Drawings/WisconsinBadger5WI531.Txt
+- id: us/wisconsin-megabucks
+  name: Wisconsin Megabucks
+  pick_count: 6
+  pool_size: 49
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Wisconsin
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/WisconsinMegabucksWI649.Txt
+- id: us/wisconsin-super-cash
+  name: Wisconsin Super Cash
+  pick_count: 6
+  pool_size: 39
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Wisconsin
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/WisconsinSuperCashWI636.Txt
+- id: us/wyoming-cowboy-draw
+  name: Wyoming Cowboy Draw
+  pick_count: 5
+  pool_size: 45
+  ticket_price: 2.0
+  currency: USD
+  draw_city: Wyoming
+  draw_lat: 39.8283
+  draw_lon: -98.5795
+  data_available: true
+  board_cols: 10
+  draw_file: SamLotto Free Edition/Drawings/WyomingCowboyDrawWY545.Txt
