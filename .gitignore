@@ -241,19 +241,9 @@ data/cache/
 node_modules/
 tui/node_modules/
 tui/dist/
-# Reverse Engineering Logs
-disassembly_*.txt
-BinaryNinja_*.txt
 *.chm
 *.exe
 *.mdb
-SamLotto Free Edition/
-Clippings - *.md
-docs/Clippings - *.md
-docs/research/samlotto/
-docs/research/samlotto-feature-map.md
-scripts/extract_samlotto_features.py
-extracted_manual/
 # Generated Reports
 docs/backtest_report_*.md
 
@@ -269,3 +259,7 @@ reports/**
 .scratch/*.md
 lottery_personal.toml
 *.personal.*
+
+# Local Ignored Reference & Binary Archives
+reference.local/
+reference.ignore/
