@@ -255,3 +255,9 @@ reports/**
 
 !reports/lotofacil_story.example.md
 !reports/mega_sena_story.example.md
+
+
+# --- Privacy & No-PII Local Files ---
+.scratch/*.md
+lottery_personal.toml
+*.personal.*

@@ -43,7 +43,7 @@ def portfolio(
     
     tiers = {
         "Statistical (Nerd)": ["hybrid:markov,bayesian,weighted", "mutual_info"],
-        "Chaos (Esoteric)": ["kabbalistic", "reincarnation"],
+        "Chaos (Esoteric)": ["trevo_sorte", "kabbalistic", "reincarnation"],
         "Deep Learning (AI)": ["transformer", "cnn_1d"]
     }
     
@@ -58,7 +58,7 @@ def portfolio(
                     ename, mstr = s_name.split(":", 1)
                     members = [m.strip() for m in mstr.split(",")]
                     from engine.strategies.ml.ensemble import HybridEnsemble
-                    strat = HybridEnsemble(members=members)
+                    strat = HybridEnsemble(members=members, full_name=full_name, birth_date=birth_date)
                 else:
                     strat = get_strategy(s_name, full_name=full_name, birth_date=birth_date)
                 
@@ -69,7 +69,7 @@ def portfolio(
                 
                 # Display
                 s_label = s_name.split(":")[0]
-                console.print(f"    • {s_label:15} : [bold green]{ticket}[/bold bold green]  [dim](conf: {res.confidence:.2f})[/dim]")
+                console.print(f"    • {s_label:15} : [bold green]{ticket}[/bold green]  [dim](conf: {res.confidence:.2f})[/dim]")
             except Exception as e:
                 console.print(f"    • {s_name:15} : [red]Failed ({type(e).__name__})[/red]")
 

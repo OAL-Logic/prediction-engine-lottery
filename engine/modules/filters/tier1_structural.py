@@ -43,7 +43,7 @@ class ACValueFilter(VectorizedFilter):
                 diff = sorted_combs[:, j] - sorted_combs[:, i]
                 bitmasks |= (np.uint64(1) << (diff.astype(np.uint64) - 1))
         unique_counts = count_bits_64(bitmasks)
-        min_ac = 7 if k == 6 else (k - 1)
+        min_ac = 4 if k <= 5 else (7 if k == 6 else 10)
         return (unique_counts - (k - 1)) >= min_ac
 
 class EvenCountFilter(VectorizedFilter):

@@ -132,11 +132,17 @@ class EsotericStatisticalStrategy(BaseStrategy):
         scores = self.score(df, rules)
         
         lo, hi = rules.number_range
-        pick = rules.pick_count
+        pick = kwargs.get("pick") or rules.pick_count
+        pool_override = kwargs.get("pool")
+        key_numbers = [n for n in (kwargs.get("key") or []) if lo <= n <= hi]
+        filters_list = kwargs.get("filters")
+        k_of_n = kwargs.get("filters_k_of_n", 0)
+        seed_override = kwargs.get("seed")
         
-        # Calculate historical statistical bounds from history
+        # Calculate historical statistical bounds from history (scaled if pick != rules.pick_count)
+        pick_ratio = pick / float(rules.pick_count) if rules.pick_count else 1.0
         if not df.empty:
-            hist_sums = df["numbers"].apply(sum)
+            hist_sums = df["numbers"].apply(sum) * pick_ratio
             mean_sum = hist_sums.mean()
             std_sum = hist_sums.std()
             # If standard deviation is 0 or NaN, default to logical bounds
@@ -151,35 +157,46 @@ class EsotericStatisticalStrategy(BaseStrategy):
         sum_max = mean_sum + 2.0 * std_sum
         
         # Active numbers
-        numbers = list(range(lo, hi + 1))
+        if pool_override:
+            numbers = [n for n in pool_override if lo <= n <= hi and n not in key_numbers]
+        else:
+            numbers = [n for n in range(lo, hi + 1) if n not in key_numbers]
+        needed = max(0, pick - len(key_numbers))
         
-        # Deterministic generator seeded by our pipeline hash
-        local_rng = np.random.default_rng(self._last_seed)
+        # Deterministic generator seeded by our pipeline hash (or seed override)
+        active_seed = seed_override if seed_override is not None else self._last_seed
+        local_rng = np.random.default_rng(active_seed)
         
         tickets: list[list[int]] = []
         attempts = 0
         max_attempts = count * 500
         
         # Parity limits
-        if pick == 6: # Mega-Sena
+        if pick == 5: # Quina
+            allowed_odds = {2, 3} # 2:3 or 3:2 balance
+        elif pick == 6: # Mega-Sena
             allowed_odds = {2, 3, 4} # 2:4, 3:3, 4:2 balance
         elif pick == 15: # Lotofácil
             allowed_odds = {7, 8, 9, 6, 10} # High parity balance (around 8:7)
         else:
-            allowed_odds = set(range(int(pick * 0.3), int(pick * 0.7) + 1))
+            allowed_odds = set(range(max(1, int(pick * 0.3)), min(pick - 1, int(pick * 0.7)) + 1))
             
         # Compile probabilities based on temperature-scaled weights
-        raw_p = np.array([scores[n] for n in numbers])
+        raw_p = np.array([max(1e-9, scores[n]) for n in numbers], dtype=float)
         # Sharpen weights with temperature
         scaled_temp = max(0.1, temperature)
         raw_p = raw_p ** (1.0 / scaled_temp)
-        probs = raw_p / raw_p.sum()
+        probs = raw_p / raw_p.sum() if len(raw_p) > 0 else np.array([])
         
         while len(tickets) < count and attempts < max_attempts:
             attempts += 1
             
             # Weighted sample of numbers without replacement
-            ticket = sorted(local_rng.choice(numbers, size=pick, replace=False, p=probs).tolist())
+            if needed > 0 and len(numbers) >= needed:
+                sampled = local_rng.choice(numbers, size=needed, replace=False, p=probs).tolist()
+                ticket = sorted(list(key_numbers) + sampled)
+            else:
+                ticket = sorted(list(key_numbers)[:pick])
             
             # --- Strict Statistical Core Gate Filters ---
             
@@ -194,13 +211,18 @@ class EsotericStatisticalStrategy(BaseStrategy):
                 continue
                 
             # Gate C: Historical Cluster Detection (Prevent decade crowding)
-            # Mega-Sena decades: 0s (1-9), 10s (10-19), 20s (20-29), etc.
-            # Lotofácil rows: 1-5, 6-10, 11-15, 16-20, 21-25.
-            if pick == 6:
-                # Max 3 numbers in any decade
+            if pick == 5:
+                # Quina (1-80): Max 2 numbers in any decade
+                decade_counts = [0] * 9
+                for n in ticket:
+                    decade_counts[(n - 1) // 10] += 1
+                if max(decade_counts) > 2:
+                    continue
+            elif pick == 6:
+                # Mega-Sena (1-60): Max 3 numbers in any decade
                 decade_counts = [0] * 7
                 for n in ticket:
-                    decade_counts[n // 10] += 1
+                    decade_counts[(n - 1) // 10] += 1
                 if max(decade_counts) > 3:
                     continue
             elif pick == 15:
@@ -211,6 +233,10 @@ class EsotericStatisticalStrategy(BaseStrategy):
                 if max(row_counts) > 5:
                     continue
                     
+            # Gate D: Optional Harmony Filters from CLI
+            if filters_list and not self.is_harmonious(ticket, rules, filters=filters_list, k_of_n=k_of_n, df=df, birth_date=self.birth_date, target_date=self.target_date):
+                continue
+
             # Avoid duplicate tickets
             if ticket not in tickets:
                 tickets.append(ticket)
@@ -219,7 +245,11 @@ class EsotericStatisticalStrategy(BaseStrategy):
         if len(tickets) < count:
             logger.warning("Strict statistical gates failed to fully converge. Relaxing constraints for fallback tickets.")
             while len(tickets) < count:
-                ticket = sorted(local_rng.choice(numbers, size=pick, replace=False, p=probs).tolist())
+                if needed > 0 and len(numbers) >= needed:
+                    sampled = local_rng.choice(numbers, size=needed, replace=False, p=probs).tolist()
+                    ticket = sorted(list(key_numbers) + sampled)
+                else:
+                    ticket = sorted(list(key_numbers)[:pick])
                 if ticket not in tickets:
                     tickets.append(ticket)
                     

@@ -122,6 +122,7 @@ STRATEGY_REGISTRY = {
     "zodiac": {"module": "engine.strategies.fun.zodiac", "tier": "fun", "description": "Astrological transit alignment"},
     "planetary_transits": {"module": "engine.strategies.fun.planetary_transits", "tier": "fun", "description": "🪐 Planetary transits, aspects, and Placidus house mapping"},
     "kabbalistic": {"module": "engine.strategies.fun.kabbalistic", "tier": "fun", "description": "Gematria & Kabbalistic Arcanos"},
+    "trevo_sorte": {"module": "engine.strategies.fun.trevo_sorte", "tier": "fun", "description": "🍀 Trevo da Sorte — Numerologia Pitagórica, Mapa Márcia Sensitiva & Teimosinha"},
     "esoteric_statistical": {"module": "engine.strategies.fun.esoteric_statistical", "tier": "fun", "description": "🔮 Esoteric Hashing × Statistical Core (Parity, StdDev, Cluster Gates)"},
     "reincarnation": {"module": "engine.strategies.fun.reincarnation", "tier": "fun", "description": "Past-draw reincarnation"},
     "lorentz": {"module": "engine.strategies.fun.lorentz", "tier": "fun", "description": "Chaotic Attractor Jitter"},
@@ -365,8 +366,15 @@ class BaseStrategy(ABC):
                 f"({len(df)}/{self.requires_history} draws). Results may be volatile."
             )
 
-        # Only pass kwargs that belong to score
-        score_kwargs = {k: v for k, v in kwargs.items() if k not in ["filters", "k_of_n", "density", "pool", "key"]}
+        # Only pass kwargs that belong to score's signature
+        import inspect as _inspect
+        score_sig = _inspect.signature(self.score)
+        has_var_kw = any(p.kind == _inspect.Parameter.VAR_KEYWORD for p in score_sig.parameters.values())
+        raw_score_kwargs = {k: v for k, v in kwargs.items() if k not in ["filters", "k_of_n", "density", "pool", "key"]}
+        if has_var_kw:
+            score_kwargs = raw_score_kwargs
+        else:
+            score_kwargs = {k: v for k, v in raw_score_kwargs.items() if k in score_sig.parameters}
         scores = self.score(df, rules, **score_kwargs)
 
         # Normalise to [0, 1]
@@ -405,7 +413,13 @@ class BaseStrategy(ABC):
         # --- (Howard Idea 3) Key Number Handling ---
         mandatory_keys = []
         if key:
-            mandatory_keys = sorted(list(set(key) & set(active_numbers)))
+            valid_keys = [k for k in key if lo <= k <= hi]
+            for vk in valid_keys:
+                if vk not in active_numbers:
+                    active_numbers.append(vk)
+                    normed[vk] = (scores.get(vk, 0.0) - min_s) / rng
+            active_numbers.sort()
+            mandatory_keys = sorted(list(set(valid_keys)))
             if len(mandatory_keys) > target_pick:
                 raise ValueError(f"Too many mandatory keys ({len(mandatory_keys)}) for pick-{target_pick}")
         
@@ -413,7 +427,7 @@ class BaseStrategy(ABC):
 
         tickets: list[list[int]] = []
         # Max attempts to find harmonious tickets
-        max_attempts = count * 20
+        max_attempts = max(200, count * 80)
         attempts = 0
         
         muon_strike_occurred = False
@@ -424,7 +438,8 @@ class BaseStrategy(ABC):
             # --- (Howard Idea 3) Key Number Injection ---
             remaining_normed = {n: v for n, v in normed.items() if n not in mandatory_keys}
             if n_to_sample > 0:
-                sampled = _weighted_sample(list(remaining_normed.keys()), remaining_normed, n_to_sample, active_temp, rng=local_rng)
+                eff_temp = active_temp if (active_temp > 0 or attempts == 1) else min(0.5, 0.05 * attempts)
+                sampled = _weighted_sample(list(remaining_normed.keys()), remaining_normed, n_to_sample, eff_temp, rng=local_rng)
                 ticket = sorted(list(sampled) + mandatory_keys)
             else:
                 ticket = sorted(mandatory_keys)
@@ -441,10 +456,14 @@ class BaseStrategy(ABC):
                 
             last_draw = list(df.iloc[-1]["numbers"]) if not df.empty else []
             filters_active = bool(filters)
-            if (target_pick != rules.pick_count
-                    or not filters_active
-                    or self.is_harmonious(ticket, rules, filters=filters, k_of_n=filters_k_of_n, last_draw=last_draw, df=df, **kwargs)
-                    or attempts > (max_attempts * 0.8)):
+            extra_filter_kwargs = dict(kwargs)
+            if hasattr(self, "birth_date") and "birth_date" not in extra_filter_kwargs:
+                extra_filter_kwargs["birth_date"] = getattr(self, "birth_date")
+            if hasattr(self, "target_date") and "target_date" not in extra_filter_kwargs:
+                extra_filter_kwargs["target_date"] = getattr(self, "target_date")
+            if (not filters_active
+                    or self.is_harmonious(ticket, rules, filters=filters, k_of_n=filters_k_of_n, last_draw=last_draw, df=df, **extra_filter_kwargs)
+                    or attempts > (max_attempts * 0.9)):
                 tickets.append(ticket)
 
         confidence = float(np.mean(list(normed.values())))
@@ -575,6 +594,7 @@ CURATED_PRESETS = {
         "momentum",
         "streak",
         "kabbalistic",
+        "trevo_sorte",
         "synapse",
         "copairs",
         "steiner_wheel"
@@ -586,6 +606,7 @@ CURATED_PRESETS = {
         "copairs"
     ],
     "esoteric": [
+        "trevo_sorte",
         "moon_phase",
         "solar",
         "noosphere",

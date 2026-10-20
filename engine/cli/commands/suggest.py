@@ -92,6 +92,8 @@ def suggest(
     esoteric_mode: Annotated[bool, typer.Option("--esoteric-mode",
         help="Cross-check today's lunar/solar bucket against historical draws with a chi-squared "
              "significance test, and print the (honest) result. Implies --weather-seed.")] = False,
+    target_date: Annotated[Optional[str], typer.Option("--target-date", "-d", help="Target draw date (YYYY-MM-DD) for temporal/esoteric alignment and Teimosinha start")] = None,
+    teimosinha: Annotated[Optional[int], typer.Option("--teimosinha", "-T", help="Teimosinha consecutive draws count (e.g. 2, 3, 4, 6, 8, 9, 12, 18, 24)")] = None,
     export_md: Annotated[Optional[str], typer.Option("--export-md", help="Append suggest report to this .md file")] = None,
 ) -> None:
     """
@@ -102,6 +104,14 @@ def suggest(
     if full_name: personal_data["full_name"] = full_name
     if birth_date: personal_data["birth_date"] = birth_date
     if topic: personal_data["topic"] = topic
+    if target_date:
+        personal_data["target_date"] = target_date
+        try:
+            personal_data["draw_date"] = date.fromisoformat(target_date)
+        except ValueError:
+            pass
+    if teimosinha is not None and teimosinha > 0:
+        personal_data["teimosinha_draws"] = teimosinha
 
     # ── Entropy gate: abort early when signal is noisy ────────────────────────
     if window_check:
@@ -163,6 +173,8 @@ def suggest(
         chaos=chaos,
         weather_seed=weather_seed,
         esoteric_mode=esoteric_mode,
+        target_date=target_date,
+        teimosinha=teimosinha,
         export_md=export_md,
     )
 
@@ -191,6 +203,8 @@ def _run_comparison(
     chaos: bool = False,
     weather_seed: bool = False,
     esoteric_mode: bool = False,
+    target_date: str | None = None,
+    teimosinha: int | None = None,
     export_md: str | None = None,
 ) -> None:
     """Internal helper to run the actual comparison logic."""
@@ -260,6 +274,19 @@ def _run_comparison(
         # Apply global recency limit
         df_sliced = df_full.tail(limit) if limit else df_full
 
+    # Resolve target draw date
+    target_date_obj = date.today()
+    if target_date:
+        try:
+            target_date_obj = date.fromisoformat(target_date)
+        except ValueError:
+            pass
+    elif personal_data.get("target_date"):
+        try:
+            target_date_obj = date.fromisoformat(str(personal_data["target_date"]))
+        except ValueError:
+            pass
+
     # ── --weather-seed / --esoteric-mode ───────────────────────────────────────
     # esoteric_mode implies weather_seed (it wants both the reproducible seed
     # AND the honest significance check).
@@ -271,7 +298,7 @@ def _run_comparison(
         from engine.modules.esoteric_pipeline import build_environmental_seed
         coords = adapter.get_draw_location() if hasattr(adapter, "get_draw_location") else (-23.5505, -46.6333)
         try:
-            env_seed, env_context = build_environmental_seed(coords)
+            env_seed, env_context = build_environmental_seed(coords, target_date=target_date_obj)
             env = env_context["environmental"]
             console.print(Panel(
                 f"Date: [bold]{env_context['target_date']}[/bold]   Coords: {coords}\n"
@@ -291,15 +318,15 @@ def _run_comparison(
     if esoteric_mode:
         try:
             from engine.cli.utils import esoteric_significance
-            check = esoteric_significance(df_full, adapter.rules, date.today())
+            check = esoteric_significance(df_full, adapter.rules, target_date_obj)
             if check.get("chi2") is not None:
                 sig = "[red]SIGNIFICANT (p<0.05)[/red]" if check["significant"] else "[green]not significant — consistent with random draws[/green]"
                 console.print(Panel(
-                    f"Today's lunar bucket: [bold]{check['lunar_bucket']}[/bold] ({check['moon_phase_name']})   "
+                    f"Target date ({target_date_obj.isoformat()}) lunar bucket: [bold]{check['lunar_bucket']}[/bold] ({check['moon_phase_name']})   "
                     f"Solar bucket: {check['solar_bucket'] or 'n/a'}\n"
                     f"Matched historical draws in this bucket: {check['matched_draws']}\n"
                     f"χ²={check['chi2']:.2f}   p={check['p_value']:.4f}   → {sig}\n\n"
-                    f"[dim]Tests whether numbers historically drawn under today's lunar bucket differ from "
+                    f"[dim]Tests whether numbers historically drawn under this lunar bucket differ from "
                     f"the overall frequency distribution. This describes the past dataset — it does NOT "
                     f"forecast the next draw, and no result here changes which strategy is used below.[/dim]",
                     title="🔭 Esoteric Significance Check (--esoteric-mode)",
@@ -371,7 +398,7 @@ def _run_comparison(
             # we increase the temperature for high-reward exploration.
             
             entropy_boost = 0.0
-            draw_date_obj = date.today() # Placeholder
+            draw_date_obj = target_date_obj
             
             # (A) Esoteric signal (Kabbalistic Arcano)
             if name == "kabbalistic" and hasattr(strat, 'current_arcano') and getattr(strat, 'current_arcano') == 78:
@@ -436,6 +463,13 @@ def _run_comparison(
             strat.adaptive_window = adaptive_window
             
             with console.status(f"  Running {strategy_label}…"):
+                extra_suggest_kwargs = dict(anomaly_constraints)
+                if personal_data.get("birth_date"):
+                    extra_suggest_kwargs["birth_date"] = personal_data["birth_date"]
+                if target_date_obj:
+                    extra_suggest_kwargs["target_date"] = target_date_obj.isoformat()
+                if teimosinha is not None and teimosinha > 0:
+                    extra_suggest_kwargs["teimosinha_draws"] = teimosinha
                 result = strat.suggest(
                     df_sliced,
                     adapter.rules,
@@ -449,7 +483,7 @@ def _run_comparison(
                     filters=filter_list,
                     filters_k_of_n=k_of_n,
                     chaos=chaos,
-                    **anomaly_constraints # Pass the specific counts
+                    **extra_suggest_kwargs # Pass the specific counts & personal context
                 )
             
             # --- For Dummies Shortcut Tip ---
@@ -498,7 +532,11 @@ def _run_comparison(
                 top_scored=top, 
                 strat_obj=strat, 
                 explain=explain,
-                kelly_bankroll=kelly
+                kelly_bankroll=kelly,
+                teimosinha=teimosinha,
+                target_date_obj=target_date_obj,
+                birth_date_str=personal_data.get("birth_date"),
+                pick_count=pick_count,
             )
 
         except Exception as exc:
@@ -508,6 +546,17 @@ def _run_comparison(
 
     if len(all_results) > 1:
         _print_consensus(all_results)
+
+    if teimosinha and teimosinha > 1 and all_results:
+        _print_teimosinha_summary(
+            all_results=all_results,
+            rules=adapter.rules,
+            df=df_full,
+            teimosinha=teimosinha,
+            target_date_obj=target_date_obj,
+            birth_date_str=personal_data.get("birth_date"),
+            pick_count=pick_count,
+        )
 
     if learn:
         _print_learn_section()
@@ -593,7 +642,20 @@ data-payload: {json.dumps(serializable_results)}
     with open(index_path, "a", encoding="utf-8") as f:
         f.write(f"| {timestamp} | {game_name} | [[{p.name}]] |\n")
 
-def _print_single_result(result, label, rules, df, top_scored, strat_obj, explain: bool = False, kelly_bankroll: float | None = None):
+def _print_single_result(
+    result,
+    label,
+    rules,
+    df,
+    top_scored,
+    strat_obj,
+    explain: bool = False,
+    kelly_bankroll: float | None = None,
+    teimosinha: int | None = None,
+    target_date_obj: date | None = None,
+    birth_date_str: str | None = None,
+    pick_count: int | None = None,
+):
     """Prints formatted output for a single strategy suggestion."""
     from engine.cli.utils import ui_panel, ui_table, ui_dummy_block, Theme
     import numpy as np
@@ -604,6 +666,7 @@ def _print_single_result(result, label, rules, df, top_scored, strat_obj, explai
     if "phase_name" in result.metadata: meta.append(f"🌕 {result.metadata['phase_name']}")
     if "kp" in result.metadata: meta.append(f"☀️ Kp {result.metadata['kp']}")
     if "chaos_boost" in result.metadata: meta.append(f"🌀 Boost +{result.metadata['chaos_boost']}")
+    if teimosinha and teimosinha > 1: meta.append(f"🔁 Teimosinha {teimosinha}x")
     subtitle = " | ".join(meta)
 
     # 2. Main Ticket Content
@@ -795,6 +858,101 @@ def _print_consensus(results: list[Any]) -> None:
         title="CONSENSUS ANALYSIS",
         style=Theme.SECONDARY
     ))
+
+
+def _print_teimosinha_summary(
+    all_results: list[Any],
+    rules: Any,
+    df: Any,
+    teimosinha: int,
+    target_date_obj: date | None = None,
+    birth_date_str: str | None = None,
+    pick_count: int | None = None,
+) -> None:
+    """Prints Teimosinha multi-draw schedule, cost breakdown, and historical block persistence replay."""
+    from datetime import timedelta
+    from engine.strategies.fun.trevo_sorte import compute_trevo_profile
+
+    t_date = target_date_obj or date.today()
+    b_date = birth_date_str or "1990-01-01"
+    p_count = pick_count or rules.pick_count
+    mult = math.comb(p_count, rules.pick_count) if p_count >= rules.pick_count else 1
+    single_draw_ticket_cost = rules.ticket_price * mult
+
+    profile = compute_trevo_profile(
+        birth_date_str=str(b_date),
+        target_date_str=t_date.isoformat(),
+        teimosinha_draws=teimosinha,
+        max_num=rules.number_range[1],
+        game_name=rules.name,
+    )
+
+    # Build draw schedule for this game
+    game_lower = rules.name.lower()
+    if "mega" in game_lower:
+        draw_weekdays = {1, 3, 5}  # Tue, Thu, Sat
+    elif "quina" in game_lower or "lotofacil" in game_lower or "lotofácil" in game_lower:
+        draw_weekdays = {0, 1, 2, 3, 4, 5}  # Mon-Sat
+    else:
+        draw_weekdays = {1, 3, 5}
+
+    schedule_dates: list[date] = []
+    cur = t_date
+    for _ in range(90):
+        if cur.weekday() in draw_weekdays:
+            schedule_dates.append(cur)
+            if len(schedule_dates) >= teimosinha:
+                break
+        cur = cur + timedelta(days=1)
+
+    wd_pt = {0: "Seg", 1: "Ter", 2: "Qua", 3: "Qui", 4: "Sex", 5: "Sáb", 6: "Dom"}
+    sched_str = " → ".join(
+        f"[bold green]{d.isoformat()} ({wd_pt[d.weekday()]})★[/]"
+        if d.weekday() == profile["sacred_py_weekday"]
+        else f"{d.isoformat()} ({wd_pt[d.weekday()]})"
+        for d in schedule_dates
+    )
+
+    # Deduplicate all suggested tickets across strategies
+    unique_tickets: list[list[int]] = []
+    for res in all_results:
+        for t in res.tickets:
+            st = sorted(t)
+            if st not in unique_tickets:
+                unique_tickets.append(st)
+
+    total_cost_per_draw = len(unique_tickets) * single_draw_ticket_cost
+    total_teimosinha_cost = total_cost_per_draw * teimosinha
+
+    # Historical rolling Teimosinha block evaluation (over last 300 draws)
+    recent_df = df.tail(300) if len(df) > 300 else df
+    draw_sets = [set(nums) for nums in recent_df["numbers"]]
+    min_prize_tier = min(rules.prize_tiers) if rules.prize_tiers else rules.pick_count
+    n_blocks = max(1, len(draw_sets) - teimosinha + 1)
+    winning_blocks = 0
+    for b_idx in range(n_blocks):
+        block = draw_sets[b_idx : b_idx + teimosinha]
+        block_hit = False
+        for d_set in block:
+            for t in unique_tickets:
+                if len(set(t) & d_set) >= min_prize_tier:
+                    block_hit = True
+                    break
+            if block_hit:
+                break
+        if block_hit:
+            winning_blocks += 1
+
+    block_win_rate = winning_blocks / n_blocks
+
+    lines = [
+        f"🍀 [bold]Trevo da Sorte Profile[/]: Nascimento [cyan]{b_date}[/] → Número da Sorte [bold yellow]{profile['lucky_number']}[/] | "
+        f"Dia Ideal: [bold green]{profile['sacred_weekday_pt']}[/] | Dias Sorte: {profile['lucky_days']} | Caminho de Vida: {profile['life_path']}",
+        f"📅 [bold]Teimosinha Schedule ({teimosinha} Concursos)[/]: {sched_str}",
+        f"💰 [bold]Investimento[/]: {len(unique_tickets)} jogo(s) × {p_count} dezenas ({single_draw_ticket_cost:.2f} {rules.currency}/concurso) × {teimosinha} concursos = [bold yellow]{total_teimosinha_cost:.2f} {rules.currency}[/]",
+        f"📊 [bold]Persistência Histórica ({teimosinha}-Draw Rolling Blocks)[/]: [bold cyan]{winning_blocks}/{n_blocks}[/] blocos premiados ([bold green]{block_win_rate:.1%}[/] de ciclos com prêmio M{min_prize_tier}+ nos últimos {len(draw_sets)} sorteios)",
+    ]
+    console.print(Panel("\n".join(lines), title=f"🔁 Teimosinha Multi-Draw Analysis ({rules.name})", border_style="yellow"))
 
 
 def _print_learn_section() -> None:

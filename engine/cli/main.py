@@ -241,11 +241,92 @@ def suggest(
     esoteric_mode: Annotated[bool, typer.Option("--esoteric-mode",
         help="Cross-check today's lunar/solar bucket against historical draws with a chi-squared "
              "significance test, and print the (honest) result. Implies --weather-seed.")] = False,
+    target_date: Annotated[Optional[str], typer.Option("--target-date", "-d", help="Target draw date (YYYY-MM-DD) for temporal/esoteric alignment and Teimosinha start")] = None,
+    teimosinha: Annotated[Optional[int], typer.Option("--teimosinha", "-T", help="Teimosinha consecutive draws count (e.g. 2, 3, 4, 6, 8, 9, 12, 18, 24)")] = None,
     export_md: Annotated[Optional[str], typer.Option("--export-md", help="Append suggest report to this .md file")] = None,
 ):
     """🎟️ Generate ticket suggestions using a specific prediction strategy."""
     from engine.cli.commands.suggest import suggest as impl
-    return impl(lottery, strategy, count, temperature, limit, top_scored, recent_matches, top_numbers, full_name, birth_date, topic, adaptive_window, pool, key, filters, k_of_n, pick, explain, window_check, filter_anomalies, kelly, chaos, weather_seed, esoteric_mode, export_md)
+    return impl(
+        lottery=lottery,
+        strategy=strategy,
+        count=count,
+        temperature=temperature,
+        limit=limit,
+        top_scored=top_scored,
+        recent_matches=recent_matches,
+        top_numbers=top_numbers,
+        full_name=full_name,
+        birth_date=birth_date,
+        topic=topic,
+        adaptive_window=adaptive_window,
+        pool=pool,
+        key=key,
+        filters=filters,
+        k_of_n=k_of_n,
+        pick=pick,
+        explain=explain,
+        window_check=window_check,
+        filter_anomalies=filter_anomalies,
+        kelly=kelly,
+        chaos=chaos,
+        weather_seed=weather_seed,
+        esoteric_mode=esoteric_mode,
+        target_date=target_date,
+        teimosinha=teimosinha,
+        export_md=export_md,
+    )
+
+
+@app.command(rich_help_panel=PANEL_PRIMARY)
+def teimosinha(
+    lottery: Annotated[str, typer.Argument(help="Lottery slug (e.g. br/mega-sena, br/quina) [Required]")],
+    birth_date: Annotated[Optional[str], typer.Option("--birth-date", "-b", help="Player birth date (YYYY-MM-DD); defaults to personal.local.yaml or synthetic 1990-01-01")] = None,
+    target_date: Annotated[Optional[str], typer.Option("--target-date", "-d", help="Start date of the Teimosinha week (YYYY-MM-DD)")] = None,
+    draws: Annotated[Optional[int], typer.Option("--draws", "-T", help="Number of consecutive Teimosinha draws (default: 3 for Mega-Sena, 6 for Quina)")] = None,
+    full_name: Annotated[Optional[str], typer.Option("--full-name", help="Optional full name for Kabbalistic/Gematria resonance")] = None,
+    tickets_count: Annotated[int, typer.Option("--count", "-c", help="Number of simple tickets to generate")] = 5,
+    export_md: Annotated[Optional[str], typer.Option("--export-md", help="Export full Teimosinha report to Markdown file")] = None,
+):
+    """🍀🔁 Generate a complete Teimosinha weekly game package (Simple, Multiple, and Wheeled/Unfolded bets)."""
+    from engine.cli.commands.teimosinha import teimosinha as impl
+    return impl(
+        lottery=lottery,
+        birth_date=birth_date,
+        target_date=target_date,
+        draws=draws,
+        full_name=full_name,
+        tickets_count=tickets_count,
+        export_md=export_md,
+    )
+
+
+@app.command(rich_help_panel=PANEL_PRIMARY)
+def cockpit(
+    lottery: Annotated[str, typer.Option("--lottery", "-l", help="Initial game slug (e.g. br/lotofacil, br/mega-sena)")] = "br/lotofacil",
+    perspective: Annotated[str, typer.Option("--perspective", "-p", help="express | studio | esoteric | printer")] = "studio",
+    theme: Annotated[str, typer.Option("--theme", "-t", help="dark | light")] = "dark",
+    import_file: Annotated[Optional[Path], typer.Option("--import-file", "-i", help="Import .slk, .csv, or .txt ticket file")] = None,
+):
+    """🎛️ Launch the Next-Gen Operator Desktop Cockpit (PySide6 & OpenGL)."""
+    Console().print(f"[bold cyan]🚀 Initializing Lottery Engine Cockpit Suite V2 ({lottery} // {perspective})...[/bold cyan]")
+    from cockpit.src.app import run_cockpit
+    argv = ["--game", lottery, "--perspective", perspective, "--theme", theme]
+    if import_file:
+        argv.extend(["--import-file", str(import_file)])
+    return run_cockpit(argv)
+
+
+@app.command(rich_help_panel=PANEL_PRIMARY)
+def desktop(
+    lottery: Annotated[str, typer.Option("--lottery", "-l", help="Initial game slug (e.g. br/lotofacil, br/mega-sena)")] = "br/lotofacil",
+    perspective: Annotated[str, typer.Option("--perspective", "-p", help="express | studio | esoteric | printer")] = "express",
+    theme: Annotated[str, typer.Option("--theme", "-t", help="dark | light")] = "dark",
+    import_file: Annotated[Optional[Path], typer.Option("--import-file", "-i", help="Import .slk, .csv, or .txt ticket file")] = None,
+):
+    """🖥️ Launch the Desktop Cockpit (Alias for 'lottery cockpit')."""
+    return cockpit(lottery=lottery, perspective=perspective, theme=theme, import_file=import_file)
+
 
 @app.command(rich_help_panel=PANEL_PRIMARY)
 def wizard():

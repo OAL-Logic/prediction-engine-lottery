@@ -26,25 +26,44 @@ class VotingEnsemble(BaseStrategy):
     tier        = "ml"
     requires_history = 50
 
-    def __init__(self, members: list[str] | None = None, weights: list[float] | None = None) -> None:
-        self._member_names = members or ["markov", "bayesian", "weighted", "monte_carlo"]
-        self._weights = weights or [1.0] * len(self._member_names)
+    def __init__(self, members: list[str] | None = None, weights: list[float] | None = None, **kwargs: Any) -> None:
+        raw_members = members or ["markov", "bayesian", "weighted", "monte_carlo"]
+        parsed_members: list[str] = []
+        parsed_weights: list[float] = []
+        has_inline_weights = False
+        for m in raw_members:
+            if "=" in m:
+                m_name, w_str = m.split("=", 1)
+                parsed_members.append(m_name.strip())
+                try:
+                    parsed_weights.append(float(w_str.strip()))
+                    has_inline_weights = True
+                except ValueError:
+                    parsed_weights.append(1.0)
+            else:
+                parsed_members.append(m.strip())
+                parsed_weights.append(1.0)
+        self._member_names = parsed_members
+        if weights is not None:
+            self._weights = weights
+        elif has_inline_weights:
+            self._weights = parsed_weights
+        else:
+            self._weights = [1.0] * len(self._member_names)
         if len(self._weights) != len(self._member_names):
             self._weights = [1.0] * len(self._member_names)
+        self._extra_kwargs = kwargs
 
     def suggest(self, *args, **kwargs) -> SuggestionResult:
         result = super().suggest(*args, **kwargs)
-        
-        # Capture member parameters for transparency
-        member_params = []
-        # We need to extract some info for the metadata
-        # Since we use *args, **kwargs, we can peek into kwargs or use defaults
-        # But for the consensus display, we just need to know what ran.
+        result.metadata["ensemble_members"] = self._member_names
+        result.metadata["ensemble_weights"] = self._weights
         return result
 
     def score(self, df: pd.DataFrame, rules: DrawRules, **kwargs: Any) -> dict[int, float]:
         lo, hi = rules.number_range
         all_numbers = list(range(lo, hi + 1))
+        merged_kwargs = {**self._extra_kwargs, **kwargs}
 
         all_scores: dict[int, float] = {n: 0.0 for n in all_numbers}
         active_weight = 0.0
@@ -74,7 +93,7 @@ class VotingEnsemble(BaseStrategy):
         
         for name, weight in zip(self._member_names, active_weights):
             try:
-                strategy = get_strategy(name, **kwargs)
+                strategy = get_strategy(name, **merged_kwargs)
                 s = strategy.score(df, rules)
                 for n in all_numbers:
                     all_scores[n] += s.get(n, 0.0) * weight
@@ -108,9 +127,11 @@ class ProbWeightedEnsemble(BaseStrategy):
         self,
         members: list[str] | None = None,
         backtest_draws: int = 20,
+        **kwargs: Any,
     ) -> None:
-        self._member_names = members or ["markov", "bayesian", "weighted", "monte_carlo"]
+        self._member_names = [m.split("=", 1)[0].strip() for m in (members or ["markov", "bayesian", "weighted", "monte_carlo"])]
         self.backtest_draws = backtest_draws
+        self._extra_kwargs = kwargs
 
     def suggest(self, *args, **kwargs) -> SuggestionResult:
         return super().suggest(*args, **kwargs)
@@ -118,13 +139,14 @@ class ProbWeightedEnsemble(BaseStrategy):
     def score(self, df: pd.DataFrame, rules: DrawRules, **kwargs: Any) -> dict[int, float]:
         lo, hi = rules.number_range
         all_numbers = list(range(lo, hi + 1))
+        merged_kwargs = {**self._extra_kwargs, **kwargs}
         n = len(df)
         bt = min(self.backtest_draws, n // 4)
 
         weights: dict[str, float] = {}
         for name in self._member_names:
             try:
-                strategy = get_strategy(name, **kwargs)
+                strategy = get_strategy(name, **merged_kwargs)
                 hits = 0
                 for i in range(n - bt - 1, n - 1):
                     sub_df   = df.iloc[:i]
@@ -132,7 +154,7 @@ class ProbWeightedEnsemble(BaseStrategy):
                     scores   = strategy.score(sub_df, rules)
                     top_k    = sorted(scores, key=scores.get, reverse=True)[: rules.pick_count]
                     hits    += len(set(top_k) & actual)
-                weights[name] = hits / (bt * rules.pick_count)
+                weights[name] = max(0.01, hits / (bt * rules.pick_count))
             except Exception:
                 weights[name] = 0.01
 
@@ -141,7 +163,7 @@ class ProbWeightedEnsemble(BaseStrategy):
         all_scores = {}
         for name in self._member_names:
             try:
-                strategy = get_strategy(name, **kwargs)
+                strategy = get_strategy(name, **merged_kwargs)
                 s = strategy.score(df, rules)
                 w = weights[name] / total_w
                 for num in all_numbers:
@@ -168,9 +190,11 @@ class HybridEnsemble(BaseStrategy):
         self,
         members: list[str] | None = None,
         candidate_multiplier: int = 3,
+        **kwargs: Any,
     ) -> None:
-        self._member_names    = members or ["markov", "bayesian", "weighted"]
-        self.candidate_mult   = candidate_multiplier
+        self._member_names  = [m.split("=", 1)[0].strip() for m in (members or ["markov", "bayesian", "weighted"])]
+        self.candidate_mult = candidate_multiplier
+        self._extra_kwargs  = kwargs
 
     def suggest(self, *args, **kwargs) -> SuggestionResult:
         return super().suggest(*args, **kwargs)
@@ -179,9 +203,10 @@ class HybridEnsemble(BaseStrategy):
         lo, hi = rules.number_range
         all_numbers = list(range(lo, hi + 1))
         k = rules.pick_count * self.candidate_mult
+        merged_kwargs = {**self._extra_kwargs, **kwargs}
 
-        stage1 = ProbWeightedEnsemble(members=self._member_names)
-        s1_scores = stage1.score(df, rules, **kwargs)
+        stage1 = ProbWeightedEnsemble(members=self._member_names, **merged_kwargs)
+        s1_scores = stage1.score(df, rules, **merged_kwargs)
         candidates = sorted(all_numbers, key=lambda n: s1_scores.get(n, 0), reverse=True)[:k]
 
         from engine.strategies.statistical.pattern import PatternStrategy

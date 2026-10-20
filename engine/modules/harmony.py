@@ -111,6 +111,14 @@ def filter_no_consecutive(ticket, rules, **kwargs):
     max_c = max(max_c, consecutive)
     return max_c < 4
 
+@registry.register("no_3_consecutive", "Avoid 3 or more consecutive numbers (e.g. 7, 8, 9)")
+def filter_no_3_consecutive(ticket, rules, **kwargs):
+    sorted_t = sorted(ticket)
+    for i in range(len(sorted_t) - 2):
+        if sorted_t[i+1] == sorted_t[i] + 1 and sorted_t[i+2] == sorted_t[i+1] + 1:
+            return False
+    return True
+
 @registry.register("no_arithmetic", "Avoid arithmetic sequences (e.g. 2, 4, 6)")
 def filter_no_arithmetic(ticket, rules, **kwargs):
     if len(ticket) < 3: return True
@@ -191,7 +199,46 @@ def filter_density(ticket, rules, **kwargs):
 def filter_ac_value(ticket, rules, **kwargs):
     from engine.modules import filters as f_mod
     ac = f_mod.get_ac_value(ticket)
-    return ac >= (7 if len(ticket) == 6 else 10)
+    if len(ticket) <= 5:
+        min_ac = max(1, len(ticket) - 1)  # For Quina (pick=5, max AC=6), require >= 4
+    elif len(ticket) == 6:
+        min_ac = 7
+    else:
+        min_ac = 10
+    return ac >= min_ac
+
+@registry.register("quadrant_balance", "Spatial spread across the 4 Cartesian quadrants of the slip")
+def filter_quadrant_balance(ticket, rules, **kwargs):
+    """Ensures numbers are distributed across at least 3 of the 4 slip quadrants (no single quadrant > 50% of picks)."""
+    lo, hi = rules.number_range
+    cols = getattr(rules, "board_cols", 10) or 10
+    total_rows = max(2, (hi - lo + cols) // cols)
+    mid_row = total_rows / 2.0
+    mid_col = cols / 2.0
+    q_counts = [0, 0, 0, 0]
+    for n in ticket:
+        idx = n - lo
+        r = idx // cols
+        c = idx % cols
+        q = (0 if r < mid_row else 2) + (0 if c < mid_col else 1)
+        q_counts[q] += 1
+    max_per_quadrant = max(2, (len(ticket) + 1) // 2)
+    occupied = sum(1 for c in q_counts if c > 0)
+    min_occupied = 3 if len(ticket) >= 5 else 2
+    return max(q_counts) <= max_per_quadrant and occupied >= min_occupied
+
+@registry.register("trevo_resonance", "At least 2 numbers aligned with Trevo da Sorte numerological harmonics")
+def filter_trevo_resonance(ticket, rules, **kwargs):
+    """Validates that the ticket includes at least 2 personal/numerological harmonic numbers from Trevo da Sorte."""
+    birth_date = kwargs.get("birth_date") or "1990-01-01"
+    target_date = kwargs.get("target_date")
+    try:
+        from engine.strategies.fun.trevo_sorte import compute_trevo_profile
+        profile = compute_trevo_profile(birth_date_str=str(birth_date), target_date_str=target_date, max_num=rules.number_range[1])
+        core_pool = set(profile["core_anchors"]) | set(profile["harmonic_pool"])
+        return len(set(ticket) & core_pool) >= 2
+    except Exception:
+        return True
 
 @registry.register("hot_cold", "Balance of hot and cold numbers")
 def filter_hot_cold(ticket, rules, **kwargs):

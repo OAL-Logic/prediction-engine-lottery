@@ -43,6 +43,20 @@ def get_current_cycle_missing(df: pd.DataFrame, lottery_id: str) -> Set[int]:
                     current_cycle_seen.update(set(df.iloc[j]['numbers']))
                 return all_numbers - current_cycle_seen
         return all_numbers - seen_recent
+    elif "quina" in lottery_id:
+        all_numbers = set(range(1, 81))
+        seen_recent = set()
+        for idx in range(len(df)):
+            draw = set(df.iloc[idx]['numbers'])
+            seen_recent.update(draw)
+            if len(seen_recent) >= 72:
+                if idx == 0:
+                    return set()
+                current_cycle_seen = set()
+                for j in range(idx):
+                    current_cycle_seen.update(set(df.iloc[j]['numbers']))
+                return all_numbers - current_cycle_seen
+        return all_numbers - seen_recent
     else:
         # Mega-Sena: Cycle is too long (60 numbers), we use 90% threshold
         all_numbers = set(range(1, 61))
@@ -58,6 +72,32 @@ def get_current_cycle_missing(df: pd.DataFrame, lottery_id: str) -> Set[int]:
                     current_cycle_seen.update(set(df.iloc[j]['numbers']))
                 return all_numbers - current_cycle_seen
         return all_numbers - seen_recent
+
+def apply_quina_filters(ticket: List[int]) -> bool:
+    """Structural harmony filters for Quina (5/80)."""
+    soma = sum(ticket)
+    odds = len([n for n in ticket if n % 2 != 0])
+    if not (130 <= soma <= 280): return False
+    if not (1 <= odds <= 4): return False
+    return True
+
+def calculate_quina_winnings(hits: int, played_count: int) -> float:
+    """Calculates Quina winnings including official Caixa multiple-bet multipliers."""
+    payout_2 = 4.50
+    payout_3 = 130.0
+    payout_4 = 7500.0
+    payout_5 = 5000000.0
+    if played_count == 5:
+        if hits == 2: return payout_2
+        if hits == 3: return payout_3
+        if hits == 4: return payout_4
+        if hits == 5: return payout_5
+    elif played_count == 6:
+        if hits == 2: return 4 * payout_2
+        if hits == 3: return 3 * payout_3 + 3 * payout_2
+        if hits == 4: return 2 * payout_4 + 4 * payout_3
+        if hits == 5: return 1 * payout_5 + 5 * payout_4
+    return 0.0
 
 def apply_mega_filters(ticket: List[int]) -> bool:
     """Structural harmony filters for Mega-Sena."""
@@ -135,7 +175,12 @@ def generate_wheel_tickets(pool: List[int], lottery_id: str, ticket_count: int, 
     
     raw_tickets = generate_abbreviated_wheel(pool, pick=pick, guarantee=guarantee, max_tickets=ticket_count * 5)
     
-    filter_func = apply_lotofacil_filters if "lotofacil" in lottery_id else apply_mega_filters
+    if "lotofacil" in lottery_id:
+        filter_func = apply_lotofacil_filters
+    elif "quina" in lottery_id:
+        filter_func = apply_quina_filters
+    else:
+        filter_func = apply_mega_filters
     
     filtered = []
     for t in raw_tickets:
@@ -199,7 +244,8 @@ def resolve_scenario_config(lottery_id: str, budget: float) -> tuple[int, int, f
     Returns (played_picks, ticket_count, cost_per_draw, scenario_desc)
     """
     is_lf = "lotofacil" in lottery_id
-    ticket_price = 3.0 if is_lf else 5.0
+    is_quina = "quina" in lottery_id
+    ticket_price = 3.0 if is_lf else (2.5 if is_quina else 5.0)
     
     if is_lf:
         if 48.0 <= budget < 90.0:
@@ -212,6 +258,14 @@ def resolve_scenario_config(lottery_id: str, budget: float) -> tuple[int, int, f
             ticket_count = int(budget // ticket_price)
             if ticket_count < 1: ticket_count = 1
             return 15, ticket_count, ticket_count * ticket_price, f"{ticket_count}-Ticket Abbreviated Wheel (V=18, K=15, T=13) ({ticket_count * ticket_price:.2f} BRL)"
+    elif is_quina:
+        if 15.0 <= budget < 30.0:
+            return 6, 1, 15.0, "Single 6-Number Multiple Ticket (15.00 BRL)"
+        else:
+            ticket_count = int(budget // ticket_price)
+            if ticket_count < 1: ticket_count = 1
+            if ticket_count > 24: ticket_count = 24
+            return 5, ticket_count, ticket_count * ticket_price, f"{ticket_count}-Ticket Quina Abbreviated Wheel ({ticket_count * ticket_price:.2f} BRL)"
     else:
         # Mega-Sena
         if 35.0 <= budget < 90.0:
@@ -622,8 +676,8 @@ def expert_suggest(
     # 1. SWEEP GRID-SEARCH WINNERS
     winner_configs = {}
     
-    # Strategies to test including the beautiful new sacred manifold celestial one!
-    strategies_list = ["spectral", "markov_regime", "bayesian", "weighted", "sacred_manifold"]
+    # Strategies to test including the beautiful new sacred manifold celestial and trevo_sorte ones!
+    strategies_list = ["trevo_sorte", "spectral", "markov_regime", "bayesian", "weighted", "sacred_manifold"]
     history_limits = [50, 100, 200, None]
     
     # Run sweeps for each target lottery
@@ -633,8 +687,9 @@ def expert_suggest(
         rules = adapter.rules
         
         is_lf = "lotofacil" in lot_id
+        is_quina = "quina" in lot_id
         pool_sizes = [20, 18, 15] if is_lf else [18, 15, 12]
-        target_winning_threshold = 11 if is_lf else 4
+        target_winning_threshold = 11 if is_lf else (3 if is_quina else 4)
         
         local_draws = draws
         if len(df) < local_draws + 10:
@@ -787,7 +842,8 @@ def expert_suggest(
                 "draw_id": int(row["draw_id"]),
                 "numbers": set(row["numbers"]),
                 "row_data": row,
-                "df": df
+                "df": df,
+                "rules": adapter.rules,
             })
             
     # Sort chronologically
@@ -807,6 +863,7 @@ def expert_suggest(
         t_id = event["draw_id"]
         target_nums = event["numbers"]
         full_df = event["df"]
+        ev_rules = event["rules"]
         
         # Deduct cost
         cost = cost_per_draw[lot_id]
@@ -823,7 +880,7 @@ def expert_suggest(
         if best_limit is not None:
             train_df = train_df.tail(int(best_limit))
             
-        scores = strat_obj.score(train_df, adapter.rules)
+        scores = strat_obj.score(train_df, ev_rules)
         missing = get_current_cycle_missing(train_df, lot_id)
         
         # Apply cycle missing boost
@@ -836,10 +893,10 @@ def expert_suggest(
         
         # Play tickets
         sim_tickets = []
-        if played_picks[lot_id] > adapter.rules.pick_count:
+        if played_picks[lot_id] > ev_rules.pick_count:
             sim_tickets = [sorted(pool[:played_picks[lot_id]])]
         else:
-            sim_tickets = generate_wheel_tickets(pool, lot_id, ticket_count[lot_id], adapter.rules.pick_count, fast=True)
+            sim_tickets = generate_wheel_tickets(pool, lot_id, ticket_count[lot_id], ev_rules.pick_count, fast=True)
             
         # Check hits & winnings
         draw_winnings = 0.0
@@ -847,6 +904,8 @@ def expert_suggest(
             hits = len(set(ticket) & target_nums)
             if "lotofacil" in lot_id:
                 draw_winnings += calculate_lotofacil_winnings(hits, played_picks[lot_id])
+            elif "quina" in lot_id:
+                draw_winnings += calculate_quina_winnings(hits, played_picks[lot_id])
             else:
                 draw_winnings += calculate_megasena_winnings(hits, played_picks[lot_id])
                 

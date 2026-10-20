@@ -1,0 +1,14 @@
+# ============================================================================
+# Generic Mock Example for Personal Esoteric/Numerology Configuration
+# ============================================================================
+# Copy this file to `personal.local.yaml` (which is git-ignored) to use your
+# own parameters locally without ever committing PII to the repository:
+#
+#   cp personal.example.yaml personal.local.yaml
+#
+# NEVER put real PII (names or birth dates) in tracked repository files.
+# All tracked examples, configs, and tests must use generic mocks only.
+# ============================================================================
+
+full_name: "JANE DOE"
+birth_date: "1990-01-01"
