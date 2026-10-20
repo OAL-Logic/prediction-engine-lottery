@@ -3,7 +3,7 @@ Pattern Search Dialog 🔎
 ========================
 Desktop front-end for the `pattern-search` engine command: type a few
 numbers, see every historical draw ranked by overlap, without leaving the
-desktop app. SamLotto's "nsSearch" equivalent in dialog form.
+desktop app. Lottery Studio's "nsSearch" equivalent in dialog form.
 """
 
 from __future__ import annotations

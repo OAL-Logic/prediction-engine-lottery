@@ -2,7 +2,7 @@
 PROTOTYPE — throwaway code, not production.
 
 Answers wayfinder ticket #105 "Filter setup panel" (docs/wayfinder/tickets/105-filter-setup-panel.md)
-on the SamLotto Qt Modern Interface Map (docs/wayfinder/samlotto-qt-interface-map.md).
+on the Lottery Studio Qt Modern Interface Map (docs/wayfinder/lottery-studio-qt-interface-map.md).
 
 Question: how should we lay out the 50 base + 18 advanced filters inside the Setup Dock, and how
 should the value editor / N-of-M logic / "Generate Default Condition" flow work?

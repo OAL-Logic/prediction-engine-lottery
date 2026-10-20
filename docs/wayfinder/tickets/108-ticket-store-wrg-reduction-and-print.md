@@ -3,7 +3,7 @@ id: "108"
 type: task
 status: closed
 blocked_by: []
-map: samlotto-qt-interface-map.md
+map: lottery-studio-qt-interface-map.md
 created: 2026-09-16
 ---
 
@@ -13,7 +13,7 @@ created: 2026-09-16
 
 Two related fog items on the map:
 
-1. **Optimization and wheeling port**: map the abbreviated-wheel / ticket-store reduction algorithms (F10-F12 in `docs/research/samlotto-feature-map.md`'s WRG Combinatorial Layer) to the GUI's Ticket Store menu actions.
+1. **Optimization and wheeling port**: map the abbreviated-wheel / ticket-store reduction algorithms (F10-F12 in `docs/research/Lottery Studio-feature-map.md`'s WRG Combinatorial Layer) to the GUI's Ticket Store menu actions.
 2. **Export & Print formatting (S40)**: `ProphetDashboard.print_tickets()` (`desktop/src/main.py`) was a pure stub — `QMessageBox.information(..., "Successfully queued N tickets to system spooler.")` with no printer ever touched.
 
 ## Resolution

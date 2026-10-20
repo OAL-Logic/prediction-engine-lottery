@@ -165,8 +165,8 @@ def test_duckdb_draws_table_model_crud(tmp_path):
         storage.policy = orig_policy
 
 
-def test_samlotto_bidirectional_converter(tmp_path):
-    from desktop.src.utils.converter import parse_samlotto_txt, export_duckdb_to_samlotto
+def test_studio_bidirectional_converter(tmp_path):
+    from desktop.src.utils.converter import parse_studio_txt, export_duckdb_to_studio
     from engine.modules.storage import storage
     
     # Test file parsing
@@ -177,7 +177,7 @@ def test_samlotto_bidirectional_converter(tmp_path):
     )
     
     # Pick count = 5, Bonus count = 1
-    draws = parse_samlotto_txt(file_content, pick_count=5, bonus_count=1)
+    draws = parse_studio_txt(file_content, pick_count=5, bonus_count=1)
     
     assert len(draws) == 2
     assert draws[0]["draw_id"] == 1
@@ -203,7 +203,7 @@ def test_samlotto_bidirectional_converter(tmp_path):
         storage.save_draws("us/powerball", draws)
         
         # Export from DB
-        exported_content = export_duckdb_to_samlotto("us/powerball")
+        exported_content = export_duckdb_to_studio("us/powerball")
         
         # Compare
         # Export formats to M/D/YYYY, zero-pads to 2 digits, CRLF endings

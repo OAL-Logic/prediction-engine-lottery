@@ -36,7 +36,7 @@ THEMES = {
         "warning": "#f59e0b",         # Amber Gold
         "error": "#ef4444"            # Coral Red
     },
-    "SamLotto Modern": {
+    "Lottery Studio Modern": {
         "background": "#0f172a",      # Deep Navy Slate
         "primary": "#06b6d4",         # Vibrant Cyan
         "primary_hover": "#0891b2",

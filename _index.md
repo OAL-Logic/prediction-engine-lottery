@@ -131,8 +131,8 @@ Some ideas
 - [Google Software Lottery](https://www.google.com/search?q=software+lottery&newwindow=1&sca_esv=903386efdd046f5a&biw=1620&bih=1016&sxsrf=ANbL-n4oiiviMZRZ854ajHOhyuAM4JxloQ%3A1777135797702&ei=tfDsafrOKv_T1sQPutHqsQQ&ved=0ahUKEwi6_cHfuomUAxX_qZUCHbqoOkY4ChDh1QMIEQ&uact=5&oq=software+lottery&gs_lp=Egxnd3Mtd2l6LXNlcnAiEHNvZnR3YXJlIGxvdHRlcnlIrBlQjQRY3hNwAXgBkAEAmAGiAaABwBCqAQQwLjE2uAEDyAEA-AEBmAINoAKmDcICChAAGEcY1gQYsAPCAhcQLhjcBhi4BhjaBhjYAhjIAxiwA9gBAcICChAjGIAEGIoFGCfCAgQQIxgnwgIKEAAYgAQYigUYQ8ICBRAAGIAEwgILEAAYgAQYigUYkQLCAhEQLhiABBiKBRiRAhjHARjRA8ICChAuGIAEGIoFGEPCAgoQABiABBgUGIcCwgILEC4YgAQYigUYkQLCAhoQLhiABBiKBRiRAhiXBRjcBBjeBBjgBNgBAsICCxAuGIAEGMcBGNEDwgIGEAAYFhgewgIaEC4YgAQYxwEY0QMYlwUY3AQY3gQY4ATYAQKYAwCIBgGQBgy6BgQIARgZugYGCAIQARgUkgcEMS4xMqAH9GqyBwQwLjEyuAebDcIHBjItMTIuMcgHPYAIAQ&sclient=gws-wiz-serp)
 - Create same app as: https://www.brsoftech.com/blog/best-lottery-software-and-analysis-tools/
 	- https://powerfall.com/
-	- https://www.samlotto.com/
-		- https://www.samlotto.com/free-lottery-software/
+	- https://example.org/lottery-studio
+		- https://example.org/lottery-studio
 	- https://www.timersoft.com/downloads/
 	- https://smartluck.com/
 		- https://www.youtube.com/watch?v=8CrTpJSZqZ0

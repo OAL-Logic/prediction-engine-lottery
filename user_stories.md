@@ -1,7 +1,7 @@
-# SamLotto (Lotto PowerPlayer) - User Stories
+# Lottery Studio (Lottery Analysis Studio) - User Stories
 
 ## Overview
-SamLotto is a comprehensive lottery analysis and prediction application designed for Windows. It allows users to manage drawing results for multiple lotteries, apply complex statistical filters to identify patterns, generate optimized tickets, and check for winnings.
+Lottery Studio is a comprehensive lottery analysis and prediction application designed for Windows. It allows users to manage drawing results for multiple lotteries, apply complex statistical filters to identify patterns, generate optimized tickets, and check for winnings.
 
 ## Personas
 - **The Hobbyist:** Plays the lottery occasionally and wants an easy way to pick "smarter" numbers than random quick-picks.
@@ -38,7 +38,7 @@ SamLotto is a comprehensive lottery analysis and prediction application designed
 **so that** I don't have to enter them manually every time.
 
 **Acceptance Criteria:**
-- Application provides links to official lottery results websites (samlotto.com, etc.).
+- Application provides links to official lottery results websites (lottery-studio.example, etc.).
 - [Implicit] UI contains "Update" buttons that suggest potential web-scraping or API integration for drawings.
 
 ---

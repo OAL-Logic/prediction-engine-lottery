@@ -241,9 +241,9 @@ def test_streaming_combinatorial_worker(qapp):
 
 
 # -------------------------------------------------------------
-# 6. SamLotto 68-Filter Catalog & Empirical Analytics Tests
+# 6. Lottery Studio 68-Filter Catalog & Empirical Analytics Tests
 # -------------------------------------------------------------
-def test_samlotto_68_filter_catalog():
+def test_studio_68_filter_catalog():
     bridge = EngineBridge()
     lotofacil = bridge.get_game("br/lotofacil")
     filters = bridge.load_catalog_filters(lotofacil)
@@ -258,7 +258,7 @@ def test_samlotto_68_filter_catalog():
     assert "Decades & Units" in categories
     assert "Advanced & Sets" in categories
 
-    # Verify SamLotto signature tags
+    # Verify Lottery Studio signature tags
     tag_1 = next(f for f in filters if "tag:1" in f.tags)
     assert tag_1.name == "Odd Count"
     assert tag_1.min_val >= 1
@@ -317,7 +317,7 @@ def test_generate_archetype_tickets():
 
 
 def test_advanced_filters_dialog(qapp):
-    """Verifies modal dialog for SamLotto advanced sets."""
+    """Verifies modal dialog for Lottery Studio advanced sets."""
     from desktop.src.widgets.advanced_filters_dialog import AdvancedFiltersDialog
     bridge = EngineBridge()
     game = bridge.get_game("br/lotofacil")

@@ -1,12 +1,12 @@
 ---
-title: Issue 02 — Phase 2: Complete SamLotto Filter & Wheeling Engine
+title: Issue 02 — Phase 2: Complete Lottery Studio Filter & Wheeling Engine
 status: resolved
 labels:
   - phase-2
   - resolved
 ---
 
-# Issue 02: Phase 2 — Complete SamLotto Combinatorial Filter & Wheeling Engine
+# Issue 02: Phase 2 — Complete Lottery Studio Combinatorial Filter & Wheeling Engine
 
 ## Scope
 - Implement full 105+ filter catalog across 7 categories.

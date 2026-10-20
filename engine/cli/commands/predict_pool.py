@@ -1,10 +1,10 @@
 """
-SamLotto Predict Pool Command 🔮
+Lottery Studio Predict Pool Command 🔮
 ================================
-SamLotto's "How to Predict" equivalent (Feature E1..E4, AC-P1, Doc 05 §B):
+Lottery Studio's "How to Predict" equivalent (Feature E1..E4, AC-P1, Doc 05 §B):
 Generates a Recommended Number Pool and an Eliminated Number Pool for the next draw.
 
-Unlike single-ticket predictors, SamLotto formulas output a narrowed POOL of
+Unlike single-ticket predictors, Lottery Studio formulas output a narrowed POOL of
 candidate numbers (~17-27 numbers for 6/60 games, 16-18 for Lotofácil)
 which players then wheel or filter.
 """
@@ -32,7 +32,7 @@ def predict_pool(
     pool_size: Annotated[Optional[int], typer.Option("--pool-size", "-p", help="Size of recommended pool to output (defaults to ~35-40% of pool)")] = None,
     out: Annotated[Optional[Path], typer.Option("--out", "-o", help="Optional output file to save recommended numbers")] = None,
 ) -> None:
-    """🔮 Generate a SamLotto Recommended Pool and Eliminated Pool for the next draw."""
+    """🔮 Generate a Lottery Studio Recommended Pool and Eliminated Pool for the next draw."""
 
     adapter = get_adapter(lottery)
     rules = adapter.rules
@@ -57,7 +57,7 @@ def predict_pool(
         if rules.pick_count >= 15:  # Lotofácil style
             target_pool_size = min(total_balls, rules.pick_count + 3)
         else:
-            # 6-number lotto style (SamLotto standard recommended pool: ~20-25 numbers for 6/60)
+            # 6-number lotto style (Lottery Studio standard recommended pool: ~20-25 numbers for 6/60)
             target_pool_size = max(rules.pick_count + 5, int(total_balls * 0.35))
     else:
         target_pool_size = max(rules.pick_count, min(total_balls, pool_size))
@@ -88,7 +88,7 @@ def predict_pool(
     eliminated_pool = sorted(sorted_numbers[target_pool_size:])
 
     ui_header(
-        "SAMLOTTO PREDICT POOL",
+        "Lottery Studio PREDICT POOL",
         f"{rules.name} · Formula: {formula} · Depth: {len(df_slice)} draws"
         + (f" (offset={offset})" if offset > 0 else "")
     )

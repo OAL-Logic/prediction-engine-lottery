@@ -96,7 +96,7 @@ class FilterNode:
 class ToleranceRule:
     """
     Fault Tolerance Engine Configuration.
-    Implements SamLotto's Error Allowance logic to prevent discarding jackpot
+    Implements Lottery Studio's Error Allowance logic to prevent discarding jackpot
     lines due to small deviations or single filter edge-case misses.
     """
     mode: ToleranceMode = ToleranceMode.AND

@@ -161,7 +161,7 @@ class FiltersTab(QWidget):
         header_layout.addWidget(QLabel("Manual Setup (below) or:"))
         self.btn_filter_assistant = QPushButton("🧙 Launch Filter Assistant...")
         self.btn_filter_assistant.setToolTip(
-            "SamLotto's 'Assistant Filter' equivalent — a guided, tier-by-tier filter\n"
+            "Lottery Studio's 'Assistant Filter' equivalent — a guided, tier-by-tier filter\n"
             "picker ending in an elimination-funnel report. Simpler than the tabs below:\n"
             "no custom ranges, just pick filters by name and see what survives."
         )
@@ -447,7 +447,7 @@ class FiltersTab(QWidget):
         self.filters_updated.emit(self.get_active_filters())
 
     def launch_filter_assistant(self):
-        """Opens the guided Filter Assistant wizard (SamLotto 'Assistant Filter')
+        """Opens the guided Filter Assistant wizard (Lottery Studio 'Assistant Filter')
         for the active lottery. Self-contained — the wizard runs its own
         elimination-funnel job and doesn't touch this tab's own filter state,
         matching how the CLI's filter-assistant is independent of filter-funnel."""

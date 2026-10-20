@@ -222,8 +222,8 @@ class ProphetDashboard(QMainWindow):
         pool_layout.addWidget(self.btn_quick_pick)
 
         # Save/Load Favorite Numbers ("Save and Load Your Own Favorite Number"
-        # in the SamLotto manual) — a named pool selection, independent of the
-        # Ticket Store's SamLotto .txt drawings import/export (DatabaseTab).
+        # in the Lottery Studio manual) — a named pool selection, independent of the
+        # Ticket Store's Lottery Studio .txt drawings import/export (DatabaseTab).
         favorites_layout = QHBoxLayout()
         btn_save_favorites = QPushButton("💾 SAVE FAVORITES")
         btn_load_favorites = QPushButton("📂 LOAD FAVORITES")
@@ -276,7 +276,7 @@ class ProphetDashboard(QMainWindow):
         table_actions = QHBoxLayout()
         btn_dedupe = QPushButton("DEDUPLICATE")
         btn_optimize = QPushButton("⚡ OPTIMIZE (OVERLAP)")
-        btn_optimize.setToolTip("SamLotto TopForm: eliminate redundant tickets with excessive number overlap.")
+        btn_optimize.setToolTip("Lottery Studio TopForm: eliminate redundant tickets with excessive number overlap.")
         btn_reduce = QPushButton("🎯 REDUCE (WRG)")
         btn_reduce.setToolTip("Greedy WRG set-cover reduction: drop tickets whose t-if-m coverage is already subsumed by others.")
         btn_check_draw = QPushButton("🔍 CHECK LAST DRAW")
@@ -341,10 +341,10 @@ class ProphetDashboard(QMainWindow):
         
         # File Menu
         file_menu = menu_bar.addMenu("&File")
-        import_action = file_menu.addAction("📥 Import SamLotto TXT...")
-        import_action.triggered.connect(self.import_samlotto)
-        export_action = file_menu.addAction("📤 Export SamLotto TXT...")
-        export_action.triggered.connect(self.export_samlotto)
+        import_action = file_menu.addAction("📥 Import Lottery Studio TXT...")
+        import_action.triggered.connect(self.import_drawings)
+        export_action = file_menu.addAction("📤 Export Lottery Studio TXT...")
+        export_action.triggered.connect(self.export_drawings)
         file_menu.addSeparator()
         exit_action = file_menu.addAction("Exit")
         exit_action.triggered.connect(self.close)
@@ -573,7 +573,7 @@ class ProphetDashboard(QMainWindow):
         job.signals.failed.connect(on_failed)
 
     def optimize_ticket_store_overlap(self):
-        """SamLotto TopForm parity: eliminates ticket redundancy by enforcing
+        """Lottery Studio TopForm parity: eliminates ticket redundancy by enforcing
         that no two tickets share more than M numbers."""
         from engine.modules.ticket_optimizer import same_number_reduction
         tickets = []
@@ -590,7 +590,7 @@ class ProphetDashboard(QMainWindow):
 
         k = len(tickets[0])
         max_overlap, ok = QInputDialog.getInt(
-            self, "Ticket Optimizer (SamLotto TopForm)",
+            self, "Ticket Optimizer (Lottery Studio TopForm)",
             f"Maximum allowed numbers shared between any two tickets (1 to {k - 1}):",
             min(3, k - 1), 1, k - 1
         )
@@ -705,11 +705,11 @@ class ProphetDashboard(QMainWindow):
         widget._window_container.activateWindow()
 
     # Import / Export delegates
-    def import_samlotto(self):
-        self.db_tab.import_samlotto_txt()
+    def import_drawings(self):
+        self.db_tab.import_studio_txt()
         
-    def export_samlotto(self):
-        self.db_tab.export_samlotto_txt()
+    def export_drawings(self):
+        self.db_tab.export_studio_txt()
 
     def closeEvent(self, event):
         self.telemetry_client.stop()
@@ -790,7 +790,7 @@ class ProphetDashboard(QMainWindow):
         self.update_pool_counter(0, True)
 
     def select_random_numbers(self):
-        """SamLotto manual: 'Random Select Numbers' — picks pick_count distinct
+        """Lottery Studio manual: 'Random Select Numbers' — picks pick_count distinct
         random numbers from the active game's range."""
         import random
         try:
@@ -807,7 +807,7 @@ class ProphetDashboard(QMainWindow):
         self.update_pool_counter(0, True)
 
     def select_last_drawn_numbers(self):
-        """SamLotto manual: 'How to Quick to Pick Numbers' — 'Last x Drawings
+        """Lottery Studio manual: 'How to Quick to Pick Numbers' — 'Last x Drawings
         Numbers with one click'. Selects the union of every number drawn in
         the most recent N draws (N asked via a prompt), not a fixed count —
         matching the manual's own framing (a recency-based pool, not a
@@ -872,7 +872,7 @@ class ProphetDashboard(QMainWindow):
 
     # Save/Load Favorite Numbers
     def save_favorite_numbers(self):
-        """SamLotto manual: 'Save and Load Your Own Favorite Number' — writes
+        """Lottery Studio manual: 'Save and Load Your Own Favorite Number' — writes
         the active pool selection to a JSON file for later recall."""
         numbers = sorted(self.number_grid.selected_numbers)
         if not numbers:
@@ -896,7 +896,7 @@ class ProphetDashboard(QMainWindow):
             QMessageBox.critical(self, "Save Error", f"Failed to save favorites: {str(e)}")
 
     def load_favorite_numbers(self):
-        """SamLotto manual: 'Save and Load Your Own Favorite Number' — restores
+        """Lottery Studio manual: 'Save and Load Your Own Favorite Number' — restores
         a previously-saved pool selection into the active NumberGrid."""
         file_path, _ = QFileDialog.getOpenFileName(
             self, "Load Favorite Numbers", "", "Favorite Numbers (*.json);;All Files (*)"

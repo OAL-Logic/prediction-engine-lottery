@@ -1,7 +1,7 @@
 """
 Pattern Search Command 🔎
 =========================
-SamLotto's "nsSearch" equivalent: given a set of numbers (a full ticket or
+Lottery Studio's "nsSearch" equivalent: given a set of numbers (a full ticket or
 just a handful of numbers you care about), rank every historical draw by how
 much it overlaps with that set. Answers "has anything like this ever come
 up before, and when?" — a direct historical lookup, not a forecast.

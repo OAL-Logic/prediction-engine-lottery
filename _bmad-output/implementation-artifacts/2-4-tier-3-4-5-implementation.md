@@ -6,7 +6,7 @@ Status: complete
 
 As a **Data Alchemist**,
 I want the remaining 60+ filters covering Root Sums, Modular Congruence, and Repeating Unit Digits,
-so that I have parity with professional-grade analytical software (SamLotto).
+so that I have parity with professional-grade analytical software (Lottery Studio).
 
 ## Acceptance Criteria
 
@@ -28,7 +28,7 @@ gemini-2.0-flash-exp
 ### Completion Notes List
 
 - ✅ Implemented Tier 3 (Algebraic), Tier 4 (Historical), and Tier 5 (Custom) filters.
-- ✅ Verified SamLotto parity for all core 100+ feature vectors.
+- ✅ Verified Lottery Studio parity for all core 100+ feature vectors.
 
 ### File List
 

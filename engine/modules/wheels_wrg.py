@@ -2,7 +2,7 @@
 Wheel Reduction Guarantee (WRG) Engine 🎡
 =========================================
 High-speed combinatorial coverage evaluator and ticket reducer.
-Optimized for SamLotto-style formula parity and gap analysis.
+Optimized for Lottery Studio-style formula parity and gap analysis.
 """
 
 from __future__ import annotations

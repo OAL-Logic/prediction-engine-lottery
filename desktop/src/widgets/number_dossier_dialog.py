@@ -3,7 +3,7 @@ Number Dossier Dialog 🧬
 ========================
 Desktop front-end for the `number-lifecycle` historical dossier: pick a
 number, see its first/last appearance, hit rate, gaps and streaks without
-leaving the app. SamLotto's "nsStat" aggregate-stats equivalent, scoped to
+leaving the app. Lottery Studio's "nsStat" aggregate-stats equivalent, scoped to
 one number at a time, in dialog form.
 """
 

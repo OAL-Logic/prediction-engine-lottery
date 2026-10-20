@@ -1,4 +1,4 @@
-# 2. Modern SamLotto Desktop Cockpit Architecture & Visual Overhaul
+# 2. Modern Lottery Studio Desktop Cockpit Architecture & Visual Overhaul
 
 Date: 2026-10-13
 
@@ -8,12 +8,12 @@ Accepted
 
 ## Context
 
-SamLotto Free Edition is an aging 32-bit Delphi/Win32 application with an iconic, straightforward layout (Drawings Table, Number Grid, Filter Sliders, Wheel Generator, Ticket Verifier), but burdened by artificial commercial restrictions (candidate pool capped at $\le 10$ numbers, locked abbreviated wheels, paywalled filters) and an obsolete 1990s Windows 98 aesthetic.
+Standard Lottery Studio is an aging 32-bit Delphi/Win32 application with an iconic, straightforward layout (Drawings Table, Number Grid, Filter Sliders, Wheel Generator, Ticket Verifier), but burdened by artificial commercial restrictions (candidate pool capped at $\le 10$ numbers, locked abbreviated wheels, paywalled filters) and an obsolete 1990s Windows 98 aesthetic.
 
 The modern `lottery-engine` project has reverse-engineered every core formula (integer floor averages, consecutive run distance, digital root sums, decades) and distilled every feature into high-performance Python, DuckDB, NumPy, and CLI commands. 
 
 However, users need:
-1. **Familiarity & Simplicity**: A user experience that preserves the frictionless, instant workflow of SamLotto for casual play ("Simple Mode").
+1. **Familiarity & Simplicity**: A user experience that preserves the frictionless, instant workflow of Lottery Studio for casual play ("Simple Mode").
 2. **Modern Visual Aesthetics**: A departure from both harsh 90s gray and high-contrast, eye-straining radioactive green, moving towards a modern, refined dark-slate design system with elegant typography, soft rounded cards, and high-readability data tables.
 3. **Advanced Forensic Power**: Unrestricted deep analysis tools (105+ filters, covering wheels, combinatorial ticket optimizer, and multi-model machine learning ensembles).
 4. **Transparent Engine Visualization**: Live visual diagrams and charts illustrating exactly what happens inside the multi-stage prediction engine (data ingestion, regime classification, ensemble weight arbitration, filter funnel elimination, and candidate justification).
@@ -29,7 +29,7 @@ We adopt **PySide6 / Qt 6** as the primary desktop client platform ("Prophet Des
 - **Cross-Platform Packaging**: PyInstaller builds single-bundle executables for Windows, macOS, and Linux via `packaging/lottery-desktop.spec`.
 
 ### 2. Dual-Tier UX Design: Simple Pick-and-Play vs. Forensic Lab
-- **Tier 1: Simple Mode (SamLotto Parity)**
+- **Tier 1: Simple Mode (Lottery Studio Parity)**
   - Prominent Top Bar: Game Selector (Mega-Sena, Lotofácil, Quina, etc.) with last draw winning numbers displayed.
   - Interactive Number Grid (`NumberGrid`): 1-click number pool toggles, hot/cold highlights, and quick presets.
   - 1-Click Action Bar: "Generate Smart Pick", "Run Overlap Reducer", and "Quick Check Against Last Draw".
@@ -68,7 +68,7 @@ flowchart LR
 ## Consequences
 
 **Positive:**
-- Casual users get the familiar, fast 3-click workflow of SamLotto with an intuitive modern layout.
+- Casual users get the familiar, fast 3-click workflow of Lottery Studio with an intuitive modern layout.
 - Power users gain access to unprecedented mathematical depth (105+ filters, unlimited candidate pools, ML ensembles, and real-time pipeline visualization).
 - High visual appeal with an accessible, eye-friendly theme that replaces outdated 90s gray and radioactive neon.
 - Clean architectural seam: UI code consumes engine modules directly via type-safe Qt signals and worker threads.

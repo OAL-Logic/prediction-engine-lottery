@@ -5,9 +5,9 @@ from typing import List, Dict, Any
 
 logger = logging.getLogger(__name__)
 
-def parse_samlotto_txt(file_content: str, pick_count: int, bonus_count: int) -> List[Dict[str, Any]]:
+def parse_studio_txt(file_content: str, pick_count: int, bonus_count: int) -> List[Dict[str, Any]]:
     """
-    Parses SamLotto space-delimited text files.
+    Parses Lottery Studio space-delimited text files.
     Maps line numbers to implicit 1-based draw IDs and converts M/D/YYYY date styles.
     """
     draws = []
@@ -53,7 +53,7 @@ def parse_samlotto_txt(file_content: str, pick_count: int, bonus_count: int) -> 
         })
     return draws
 
-def export_duckdb_to_samlotto(lottery_id: str) -> str:
+def export_duckdb_to_studio(lottery_id: str) -> str:
     """
     Queries draws from DuckDB, formats dates to M/D/YYYY, zero-pads numbers
     to 2-digit strings, and writes the output with CRLF endings.

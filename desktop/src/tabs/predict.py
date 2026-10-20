@@ -1,14 +1,14 @@
 """
 Predict Center Tab.
 
-Formula -> Algorithm drill-down, adapted from SamLotto's fixed Formula-1..6
+Formula -> Algorithm drill-down, adapted from Lottery Studio's fixed Formula-1..6
 picker onto this engine's registry of 150+ strategies (see
 docs/wayfinder/tickets/106-prediction-verification-gui.md): "Formula" is a
 strategy family/preset (engine.strategies.STRATEGY_PRESETS — tiers like
 statistical/ml/deep/fun/foundation plus curated groups like default/fast/
 chaos/esoteric), "Algorithm" is one concrete strategy within that family. A
 fixed 6-item dropdown doesn't fit an engine this size; family-then-algorithm
-is the same two-step "pick a method" flow SamLotto offers, sized to what's
+is the same two-step "pick a method" flow Lottery Studio offers, sized to what's
 actually here — and it's driven live from the registry, so new strategies
 (and new families/tiers, like `tabfm` in `foundation`) show up with no
 changes to this file.

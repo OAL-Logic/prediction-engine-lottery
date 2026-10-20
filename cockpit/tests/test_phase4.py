@@ -2,7 +2,7 @@
 Phase 4 Automated Test Suite
 ============================
 Verifies:
-1. TicketFileIO (SamLotto .slk, .txt, .csv parsers and exporters)
+1. TicketFileIO (Lottery Studio .slk, .txt, .csv parsers and exporters)
 2. ProfileManager (bidirectional JSON & CLI YAML roundtrips)
 3. BetslipTemplate & Brazilian Caixa Presets (Lotofácil, Mega-Sena, Quina, Lotomania)
 4. BetslipPrintEngine (PDF rendering, calibration sheets, metric transforms)
@@ -73,7 +73,7 @@ def test_ticket_file_io_roundtrips(tmp_path):
     assert len(loaded_csv) == 3
     assert loaded_csv[1] == sample_tickets[1]
 
-    # 3. SamLotto SYLK .slk
+    # 3. Lottery Studio SYLK .slk
     slk_path = str(tmp_path / "test_tickets.slk")
     TicketFileIO.export_tickets_slk(sample_tickets, slk_path)
     assert os.path.exists(slk_path)

@@ -5,7 +5,7 @@
 **Status:** RELEASED  
 
 ## 🏛️ Executive Summary
-The Lottery Engine has evolved from a collection of statistical scripts into a professional-grade, high-performance Intelligence Platform (v10.0). By reverse-engineering 100+ features from legacy SamLotto code and reimagining them for a modern Terminal environment, we have established a new standard for predictive gaming analytics.
+The Lottery Engine has evolved from a collection of statistical scripts into a professional-grade, high-performance Intelligence Platform (v10.0). By reverse-engineering 100+ features from legacy Lottery Studio code and reimagining them for a modern Terminal environment, we have established a new standard for predictive gaming analytics.
 
 The system now operates on a **Five-Tier Intelligence Hierarchy**, seamlessly blending statistical frequency, deep sequential neural networks, and real-time planetary resonance.
 
@@ -17,7 +17,7 @@ The system now operates on a **Five-Tier Intelligence Hierarchy**, seamlessly bl
 Implemented a sophisticated narrative engine that generates daily intelligence briefings. It audits its own decisions using Jensen-Shannon Divergence and provides optimal bet sizing via the **Kelly Criterion**.
 
 ### 2. Universal Harmony Gate (100+ Vectorized Filters)
-Achieved parity with legacy SamLotto filtering logic using a custom **NumPy-based Vectorized Protocol**. All 100+ filters (Structural, Positional, Algebraic) now process 10k tickets in **< 1ms**, satisfying the high-performance sub-second CLI mandate.
+Achieved parity with legacy Lottery Studio filtering logic using a custom **NumPy-based Vectorized Protocol**. All 100+ filters (Structural, Positional, Algebraic) now process 10k tickets in **< 1ms**, satisfying the high-performance sub-second CLI mandate.
 
 ### 3. Deep Learning Tier (The Sequential)
 Introduced state-of-the-art neural architectures:

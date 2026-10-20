@@ -124,7 +124,7 @@ class AnalysisTab(QWidget):
         main_splitter.setSizes([600, 150])
         layout.addWidget(main_splitter)
 
-        # 3. Drawings Trend — Manual Number Checker (SamLotto "Drawings Trend" / E5).
+        # 3. Drawings Trend — Manual Number Checker (Lottery Studio "Drawings Trend" / E5).
         # Unlike Predict Center's algorithmic push-to-pool, this pool is entirely
         # the user's own call — they eyeball whichever chart/table is on screen
         # above and manually check numbers here.

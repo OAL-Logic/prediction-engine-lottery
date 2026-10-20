@@ -229,7 +229,7 @@ Interactive docs at `http://localhost:8000/docs` (Swagger UI).
 
 ## 🖥️ Desktop App (Prophet Dashboard)
 
-A PySide6 cockpit matching SamLotto Free Edition's feature set — drawings management, 11-view statistics workspace, 50+ base and 18 advanced filters with N-of-M logic, WRG wheel reduction, and Formula/Algorithm predictions. See `docs/wayfinder/samlotto-qt-interface-map.md` for the full feature-parity tracker.
+A PySide6 cockpit matching Standard Lottery Studio's feature set — drawings management, 11-view statistics workspace, 50+ base and 18 advanced filters with N-of-M logic, WRG wheel reduction, and Formula/Algorithm predictions. See `docs/wayfinder/lottery-studio-qt-interface-map.md` for the full feature-parity tracker.
 
 ```bash
 pip install -e ".[desktop]"   # or ".[all]" for every strategy tier the app can invoke

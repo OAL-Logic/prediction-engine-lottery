@@ -3,7 +3,7 @@ id: "115"
 type: task
 status: closed
 blocked_by: []
-map: samlotto-qt-interface-map.md
+map: lottery-studio-qt-interface-map.md
 created: 2026-09-16
 ---
 
@@ -11,7 +11,7 @@ created: 2026-09-16
 
 ## Question
 
-Two small, separately-named SamLotto capabilities, both missing from the existing HOT/COLD/CLEAR/ALL/Odd/Even/Prime quick-select toolbar:
+Two small, separately-named Lottery Studio capabilities, both missing from the existing HOT/COLD/CLEAR/ALL/Odd/Even/Prime quick-select toolbar:
 - `extracted_manual/.../Random Select Numbers.htm` — a dedicated random-pick action.
 - `extracted_manual/.../How to Quick Picked Numbers.htm` — "you can picked the Hot Numbers, Cold Numbers and **Last x Drawings Numbers** with one click." HOT/COLD already existed; Last-X-Drawings didn't.
 

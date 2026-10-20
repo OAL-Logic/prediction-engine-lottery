@@ -1,7 +1,7 @@
 """
 Filter Assistant Command 🧙‍♂️
 =============================
-SamLotto's "Assistant Filter" wizard equivalent: a guided, tier-by-tier
+Lottery Studio's "Assistant Filter" wizard equivalent: a guided, tier-by-tier
 walk through the filter registry (rather than requiring you to already
 know unique_ids), ending in the same elimination-funnel report as
 `filter-funnel` — and an offer to save the resulting recipe as a

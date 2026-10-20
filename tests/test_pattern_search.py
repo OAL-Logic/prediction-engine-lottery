@@ -2,7 +2,7 @@
 Pattern Search CLI Tests 🔎
 ===========================
 `pattern-search` is the "has anything like this come up before" historical
-lookup (SamLotto's nsSearch equivalent). Runs against real cached history —
+lookup (Lottery Studio's nsSearch equivalent). Runs against real cached history —
 no network calls, since `fetch()` reads the local cache when present.
 """
 

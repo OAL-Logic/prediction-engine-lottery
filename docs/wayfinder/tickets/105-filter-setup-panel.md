@@ -4,7 +4,7 @@ type: prototype
 status: closed
 assignee: claude
 blocked_by: ["103"]
-map: samlotto-qt-interface-map.md
+map: lottery-studio-qt-interface-map.md
 created: 2026-08-11
 ---
 
@@ -16,7 +16,7 @@ How should we lay out the 50 base and 18 advanced filters within a compact, high
 
 ## Context
 
-- In SamLotto, filters are configured in the bottom Setup panel.
+- In Lottery Studio, filters are configured in the bottom Setup panel.
 - Base filters are listed in `S03` with checkboxes, range columns, and a `…` button for editing lists.
 - Advanced filters are configured in `S04` where filters can be added, replaced, or deleted.
 - The "Logical Condition" tab (`S05`) lets users combine active filters using AND, OR, or fault-tolerant N-of-M logic (e.g. "let the ticket pass if between 3 and 5 of the selected filters are satisfied").

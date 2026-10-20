@@ -1,7 +1,7 @@
 """
 Quick Calculator Widget 🧮
 ==========================
-SamLotto's "PopupCalculator" equivalent: a small standalone dialog for
+Lottery Studio's "PopupCalculator" equivalent: a small standalone dialog for
 combinatorics (C(n,k)) and multi-bet cost math, so you don't have to leave
 the desktop app to sanity-check "how many combinations is this pool, and
 what would a multi-bet on it cost?"

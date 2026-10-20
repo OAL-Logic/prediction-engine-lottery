@@ -20,7 +20,7 @@ from engine.modules import harmony, filters as f_mod, patterns as p_mod
 console = Console()
 
 def get_ticket_metrics(ticket, rules, df_full):
-    """Calculates structural metrics like SamLotto/Zen images."""
+    """Calculates structural metrics like Lottery Studio/Zen images."""
     odds = sum(1 for n in ticket if n % 2 != 0)
     evens = len(ticket) - odds
     t_sum = sum(ticket)

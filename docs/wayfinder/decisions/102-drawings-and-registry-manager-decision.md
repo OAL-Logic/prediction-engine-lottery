@@ -3,7 +3,7 @@
 * **Status**: Accepted (Research Complete)
 * **Date**: 2026-08-11
 * **Author**: Antigravity (AI Assistant)
-* **Decides**: DuckDB drawings storage, editable table model class, and conversion scripts for bidirectional import/export between SamLotto `.txt` files and DuckDB.
+* **Decides**: DuckDB drawings storage, editable table model class, and conversion scripts for bidirectional import/export between Lottery Studio `.txt` files and DuckDB.
 
 ---
 
@@ -25,9 +25,9 @@ CREATE TABLE IF NOT EXISTS draws (
 
 ---
 
-## 2. SamLotto Flat File Format Specification
+## 2. Lottery Studio Flat File Format Specification
 
-SamLotto Free Edition stores drawings under AppData as space-delimited text files (`.Txt`) with no header lines.
+Standard Lottery Studio stores drawings under AppData as space-delimited text files (`.Txt`) with no header lines.
 - **Implicit Draw ID**: The draw ID is represented by the 1-indexed line number in the file.
 - **Date Format**: Standard US dates: `M/D/YYYY` or `MM/DD/YYYY` (e.g. `3/11/1996`, `10/12/2002`).
 - **Numbers Format**: Main numbers (ascending order) followed immediately by bonus numbers on the same line, zero-padded to 2 digits.
@@ -202,7 +202,7 @@ class DuckDBDrawsTableModel(QAbstractTableModel):
 
 ---
 
-## 4. Import / Export Scripts (SamLotto Bidirectional Converter)
+## 4. Import / Export Scripts (Lottery Studio Bidirectional Converter)
 
 ```python
 from __future__ import annotations
@@ -218,14 +218,14 @@ from engine.modules.storage import storage, LotteryStorage
 
 logger = logging.getLogger(__name__)
 
-def parse_samlotto_txt(file_path: Path, lottery_id: str) -> List[Dict[str, Any]]:
+def parse_studio_txt(file_path: Path, lottery_id: str) -> List[Dict[str, Any]]:
     game = registry.get_game(lottery_id)
     pick_count = game.pick_count if game else 6
     bonus_count = game.bonus_count if game else 0
 
     draws: List[Dict[str, Any]] = []
     if not file_path.exists():
-        raise FileNotFoundError(f"SamLotto file not found: {file_path}")
+        raise FileNotFoundError(f"Lottery Studio file not found: {file_path}")
 
     with open(file_path, "r", encoding="utf-8", errors="ignore") as f:
         line_idx = 0
@@ -262,13 +262,13 @@ def parse_samlotto_txt(file_path: Path, lottery_id: str) -> List[Dict[str, Any]]
             })
     return draws
 
-def import_samlotto_to_duckdb(txt_path: Path, lottery_id: str, storage_engine: LotteryStorage = storage) -> int:
-    draws = parse_samlotto_txt(txt_path, lottery_id)
+def import_drawings_to_duckdb(txt_path: Path, lottery_id: str, storage_engine: LotteryStorage = storage) -> int:
+    draws = parse_studio_txt(txt_path, lottery_id)
     if draws:
         storage_engine.save_draws(lottery_id, draws)
     return len(draws)
 
-def export_duckdb_to_samlotto(lottery_id: str, output_path: Path, storage_engine: LotteryStorage = storage) -> int:
+def export_duckdb_to_studio(lottery_id: str, output_path: Path, storage_engine: LotteryStorage = storage) -> int:
     output_path.parent.mkdir(parents=True, exist_ok=True)
     if not storage_engine.use_duckdb:
         df = storage_engine.load_draws(lottery_id)

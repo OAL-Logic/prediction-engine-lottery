@@ -3,7 +3,7 @@ id: "114"
 type: task
 status: closed
 blocked_by: []
-map: samlotto-qt-interface-map.md
+map: lottery-studio-qt-interface-map.md
 created: 2026-09-16
 ---
 
@@ -11,7 +11,7 @@ created: 2026-09-16
 
 ## Question
 
-SamLotto's Build Tickets screen has three tabs — Standard, Position, Smart (`extracted_manual/.../Creating a Positon Number Tickets.htm`, screenshot `Pic/position.jpg`). "Standard"/"Smart" map to WheelingTab's existing pool-based generation (Full/Key wheels, Abbreviated ≈ Smart). "Position" — independently specify candidate numbers for each ticket position, then generate every valid combination — had no equivalent anywhere.
+Lottery Studio's Build Tickets screen has three tabs — Standard, Position, Smart (`extracted_manual/.../Creating a Positon Number Tickets.htm`, screenshot `Pic/position.jpg`). "Standard"/"Smart" map to WheelingTab's existing pool-based generation (Full/Key wheels, Abbreviated ≈ Smart). "Position" — independently specify candidate numbers for each ticket position, then generate every valid combination — had no equivalent anywhere.
 
 ## Resolution
 

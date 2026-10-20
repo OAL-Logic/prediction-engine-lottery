@@ -268,7 +268,7 @@ def filter_pos_last(ticket, rules, **kwargs):
     lo, hi = rules.number_range
     return sorted(ticket)[-1] >= hi - (hi - lo) * 0.25
 
-# ── 4. SamLotto Advanced Metrics ─────────────────────────────────────────────
+# ── 4. Lottery Studio Advanced Metrics ─────────────────────────────────────────────
 
 @registry.register("high_low_sums", "Sum of High vs Low numbers")
 def filter_high_low_sums(ticket, rules, **kwargs):

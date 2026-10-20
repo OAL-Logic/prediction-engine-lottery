@@ -3,7 +3,7 @@ id: "106"
 type: grilling
 status: closed
 blocked_by: []
-map: samlotto-qt-interface-map.md
+map: lottery-studio-qt-interface-map.md
 created: 2026-08-11
 ---
 
@@ -15,7 +15,7 @@ How should we design the PySide6 Predict Center and Verification Desk tabs to ru
 
 ## Context
 
-- The SamLotto prediction engine uses six formulas (`Formula-1` ... `Formula-6`), adjustable offsets, and evaluation depths to recommend a pool of numbers (~17-27 numbers) for the next draw.
+- The Lottery Studio prediction engine uses six formulas (`Formula-1` ... `Formula-6`), adjustable offsets, and evaluation depths to recommend a pool of numbers (~17-27 numbers) for the next draw.
 - The `Verification` desk replays a formula over a selected historical draw range (e.g., last 20 draws) and tracks the hit-rate of recommended numbers versus actual results.
 - When a prediction is made, the recommended numbers must be sent back to the main window's `NumberGrid` to serve as the active pool.
 - This ticket is blocked by:

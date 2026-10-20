@@ -3,7 +3,7 @@ id: "110"
 type: task
 status: closed
 blocked_by: []
-map: samlotto-qt-interface-map.md
+map: lottery-studio-qt-interface-map.md
 created: 2026-09-16
 ---
 
@@ -11,7 +11,7 @@ created: 2026-09-16
 
 ## Question
 
-Last item on the map's fog list: `export_tickets()` (`desktop/src/main.py`) only ever wrote `.txt`. S40 (export/print formatting) wanted "custom export formatting options" beyond the SamLotto-compatible flat file.
+Last item on the map's fog list: `export_tickets()` (`desktop/src/main.py`) only ever wrote `.txt`. S40 (export/print formatting) wanted "custom export formatting options" beyond the Lottery Studio-compatible flat file.
 
 ## Resolution
 
@@ -21,4 +21,4 @@ Extended `export_tickets()`'s save dialog with a second filter, "CSV Files (*.cs
 
 ## Map status
 
-This was the last open item on `samlotto-qt-interface-map.md`'s "Not yet specified" list. The map has no remaining fog as of this ticket.
+This was the last open item on `lottery-studio-qt-interface-map.md`'s "Not yet specified" list. The map has no remaining fog as of this ticket.

@@ -1,7 +1,7 @@
 """
-SamLotto Ticket Optimization Engine ✂️
+Lottery Studio Ticket Optimization Engine ✂️
 ======================================
-Ported from SamLotto TopForm (Doc 01 §F10, Doc 05 §C, EPIC 7 F7.2).
+Ported from Lottery Studio TopForm (Doc 01 §F10, Doc 05 §C, EPIC 7 F7.2).
 
 Provides combinatorial cost-reduction algorithms to reduce large sets of
 candidate tickets while maximizing space coverage and diversity:
@@ -39,7 +39,7 @@ def same_number_reduction(
     positions: Optional[Sequence[int]] = None,
 ) -> OptimizationReport:
     """
-    Same-number reduction (SamLotto 'Optimization 1'):
+    Same-number reduction (Lottery Studio 'Optimization 1'):
     Eliminates candidate tickets that share >= `max_shared` numbers with
     any already accepted representative ticket.
 
@@ -112,7 +112,7 @@ def reserve_per_block(
     block_size: int = 10,
 ) -> OptimizationReport:
     """
-    Reserve-per-block reduction (SamLotto 'Optimization 2' / AC-T3):
+    Reserve-per-block reduction (Lottery Studio 'Optimization 2' / AC-T3):
     From each consecutive block of `block_size` tickets, keeps `reserve_count`
     tickets (e.g., reserve 3 tickets per 10 lines).
 

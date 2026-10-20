@@ -17,7 +17,7 @@ The project encompasses four main interfaces:
 ### Lottery Assets & Configurations
 - **Lottery Asset / Context (`lottery_id`)**: A specific game identified by country and slug (e.g. `br/mega-sena`, `br/lotofacil`, `br/quina`, `us/powerball`). Defines the game matrix: pool size $N$, draw size $k$, bonus numbers, and prize payout tiers.
 - **Draw Record**: A single historical event with draw number (`concurso`), date, drawn winning numbers, and prize payout statistics.
-- **Candidate Pool**: A chosen subset of numbers ($v$ numbers where $k \le v \le N$) from which tickets will be generated. In legacy SamLotto, this pool was artificially restricted to $\le 10$; in this engine, it is completely unrestricted.
+- **Candidate Pool**: A chosen subset of numbers ($v$ numbers where $k \le v \le N$) from which tickets will be generated. In legacy Lottery Studio, this pool was artificially restricted to $\le 10$; in this engine, it is completely unrestricted.
 
 ### Analytical & Diagnostic Cockpit
 - **6-Layer Diagnostic Scan**: A comprehensive health check of the historical draw stream:
@@ -63,7 +63,7 @@ The project encompasses four main interfaces:
 ## User Experience Archetypes
 
 1. **Simple Usage (Pick & Play)**:
-   - For users who want the intuitive, familiar feel of SamLotto:
+   - For users who want the intuitive, familiar feel of Lottery Studio:
      - Select Game $\to$ View latest results $\to$ Click "Generate Optimized Pick" $\to$ 1-Click Check against recent draws.
 2. **Forensic Analysis (Advanced Cockpit)**:
    - For quantitative analysts, mathematicians, and researchers:

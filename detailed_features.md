@@ -1,4 +1,4 @@
-# SamLotto (Lotto PowerPlayer Pro) - Detailed Technical Feature Catalog
+# Lottery Studio (Lottery Analysis Studio Pro) - Detailed Technical Feature Catalog
 
 ## 1. Database & Data Architecture
 The application uses **Microsoft Jet OLEDB 4.0** (Access/MDB files) for its backend.
@@ -49,6 +49,6 @@ Built with **Embarcadero Delphi/C++ Builder** using high-end component libraries
 
 ## 6. Connectivity & Licensing
 - **Update System:** `update.exe` and `updateForm` for drawing and software updates.
-- **Web Integration:** Links to `samlotto.com`, `lotto-007.com`, and `samlottery.xyz`.
+- **Web Integration:** Links to `lottery-studio.example`, `lotto-007.com`, and `samlottery.xyz`.
 - **Licensing:** Password-protected MDB access and `reg` (Registration) forms for license key validation.
 - **Support:** Integrated support email (`support@lotto-007.com`).

@@ -104,7 +104,7 @@ class NumberGrid(QWidget):
 
 
 class SleekCockpitPrototype(QMainWindow):
-    """High-density consolidated dashboard matching SamLotto features in Sleek Dark Mode."""
+    """High-density consolidated dashboard matching Lottery Studio features in Sleek Dark Mode."""
     
     def __init__(self):
         super().__init__()
@@ -117,8 +117,8 @@ class SleekCockpitPrototype(QMainWindow):
     def setup_menu_bar(self):
         menu_bar = self.menuBar()
         file_menu = menu_bar.addMenu("&File")
-        file_menu.addAction("Import SamLotto TXT...")
-        file_menu.addAction("Export SamLotto TXT...")
+        file_menu.addAction("Import Lottery Studio TXT...")
+        file_menu.addAction("Export Lottery Studio TXT...")
         file_menu.addSeparator()
         file_menu.addAction("Exit")
 

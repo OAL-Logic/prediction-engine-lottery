@@ -2,7 +2,7 @@
 Advanced Studio Mode Perspective View
 =====================================
 Power-user combinatorial laboratory featuring:
-1. Searchable multi-column node/filter graph builder (Complete 105+ SamLotto catalog)
+1. Searchable multi-column node/filter graph builder (Complete 105+ Lottery Studio catalog)
 2. Fault Tolerance Engine (Error Allowance sliders & N-of-M combinatorial survival)
 3. Full & Abbreviated Wheeling Studio (covering designs, Banker keys, Hamming pruning)
 4. High-performance native QPainter ball matrix pool selector
@@ -74,7 +74,7 @@ class StudioPerspectiveView(QWidget):
         # -------------------------------------------------------------
         # Left Rail: Searchable Multi-Column Filter Graph Builder
         # -------------------------------------------------------------
-        filter_box = QGroupBox("COMBINATORIAL FILTER GRAPH (105+ SAMLOTTO VECTORS)")
+        filter_box = QGroupBox("COMBINATORIAL FILTER GRAPH (105+ Lottery Studio VECTORS)")
         filter_layout = QVBoxLayout(filter_box)
         filter_layout.setContentsMargins(SPACING_SM, SPACING_MD, SPACING_SM, SPACING_SM)
         filter_layout.setSpacing(SPACING_SM)

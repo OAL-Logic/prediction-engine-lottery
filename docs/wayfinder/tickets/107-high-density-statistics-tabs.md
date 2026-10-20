@@ -3,7 +3,7 @@ id: "107"
 type: task
 status: closed
 blocked_by: []
-map: samlotto-qt-interface-map.md
+map: lottery-studio-qt-interface-map.md
 created: 2026-09-16
 ---
 
@@ -11,7 +11,7 @@ created: 2026-09-16
 
 ## Question
 
-The map's "Not yet specified" section flagged deciding "how to present the 11+ statistics sheets (AC, Low-High, Sums, etc.) cleanly inside the tabbed stats workspace without overwhelming the screen" as fog. `AnalysisTab` (`desktop/src/tabs/analysis.py`) only had 4 views (Frequency Distribution, Actual Skips, Sum Range Bell Curve, Positional Matrix Heatmap) against `detailed_features.md`'s "Statistical Analysis Engine" catalog and the 5-tier filter taxonomy in `docs/research/samlotto-feature-map.md`.
+The map's "Not yet specified" section flagged deciding "how to present the 11+ statistics sheets (AC, Low-High, Sums, etc.) cleanly inside the tabbed stats workspace without overwhelming the screen" as fog. `AnalysisTab` (`desktop/src/tabs/analysis.py`) only had 4 views (Frequency Distribution, Actual Skips, Sum Range Bell Curve, Positional Matrix Heatmap) against `detailed_features.md`'s "Statistical Analysis Engine" catalog and the 5-tier filter taxonomy in `docs/research/Lottery Studio-feature-map.md`.
 
 ## Resolution
 

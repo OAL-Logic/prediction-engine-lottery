@@ -5,7 +5,7 @@ Status: complete
 ## Story
 
 As a **Reverse Engineer**,
-I want to extract the exact algorithmic constants and function entry points from the SamLotto disassembly,
+I want to extract the exact algorithmic constants and function entry points from the Lottery Studio disassembly,
 so that I can recreate its core logic with 100% parity.
 
 ## Acceptance Criteria
@@ -28,9 +28,9 @@ gemini-2.0-flash-exp
 ### Completion Notes List
 
 - ✅ Completed exhaustive landmark indexing of the 1.5M line disassembly.
-- ✅ Synthesized the SamLotto feature map in `docs/research/samlotto-feature-map.md`.
+- ✅ Synthesized the Lottery Studio feature map in `docs/research/Lottery Studio-feature-map.md`.
 - ✅ Extracted the logic for the 5-Tier Harmony Gate.
 
 ### File List
 
-- `docs/research/samlotto-feature-map.md` (NEW)
+- `docs/research/Lottery Studio-feature-map.md` (NEW)

@@ -1,7 +1,7 @@
 """
 Filter Funnel Command 🕳️
 ========================
-SamLotto's "Elimination Tracking" equivalent: apply a chain of structural
+Lottery Studio's "Elimination Tracking" equivalent: apply a chain of structural
 filters (from the 100+ filter registry in engine.modules.filters — tiers
 1-5) to every combination of a candidate number pool, and report how many
 combinations survive after each filter, in order. Also doubles as a

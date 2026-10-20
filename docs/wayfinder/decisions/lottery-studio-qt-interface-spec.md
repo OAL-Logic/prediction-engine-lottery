@@ -1,4 +1,4 @@
-# Product Requirement Document (PRD): SamLotto PySide6 Modern Cockpit
+# Product Requirement Document (PRD): Lottery Studio PySide6 Modern Cockpit
 
 * **Status**: Proposed / Ready for Triage (`ready-for-agent`)
 * **Date**: 2026-08-11
@@ -9,13 +9,13 @@
 
 ## Problem Statement
 
-The Lottery Prediction Engine currently has over 80 advanced strategies and extensive filtering layers, but they are accessed primarily through a CLI or a basic terminal TUI. Quantitative users and lottery analysts lack a high-density, modern desktop graphical cockpit to interactively select active number pools, inspect mathematical statistics (like skips) visually, manage historical draws, execute predictions/verifications, and configure multi-layered filters. The legacy **SamLotto Free Edition** provides a robust feature footprint, but its Windows XP-era styling, flat-file architecture, and lack of integration with our advanced predictive engine prevent it from serving as a modern analytical workspace.
+The Lottery Prediction Engine currently has over 80 advanced strategies and extensive filtering layers, but they are accessed primarily through a CLI or a basic terminal TUI. Quantitative users and lottery analysts lack a high-density, modern desktop graphical cockpit to interactively select active number pools, inspect mathematical statistics (like skips) visually, manage historical draws, execute predictions/verifications, and configure multi-layered filters. The legacy **Standard Lottery Studio** provides a robust feature footprint, but its Windows XP-era styling, flat-file architecture, and lack of integration with our advanced predictive engine prevent it from serving as a modern analytical workspace.
 
 ---
 
 ## Solution
 
-Build a modern PySide6 desktop cockpit that wraps our core Python lottery engine in-process. The cockpit will implement the complete feature set of SamLotto Free Edition, running directly on our DuckDB database (`data/lottery.db`), but styled with a premium dark-themed aesthetic. It features a split-pane central workspace: a **Pool Builder** (interactive number grid to toggle active pools) on the left, a **Ticket Store** (editable table of generated lines with sort/dedupe/export tools) on the right, and a tabbed **Setup Dock** at the bottom (base/advanced filters, logical N-of-M conditions, and automatic parameter generator). Long-running calculations (ensemble forecasts, verifications) are delegated to background worker threads using `QThread` and custom signal channels to keep the GUI fluid and responsive.
+Build a modern PySide6 desktop cockpit that wraps our core Python lottery engine in-process. The cockpit will implement the complete feature set of Standard Lottery Studio, running directly on our DuckDB database (`data/lottery.db`), but styled with a premium dark-themed aesthetic. It features a split-pane central workspace: a **Pool Builder** (interactive number grid to toggle active pools) on the left, a **Ticket Store** (editable table of generated lines with sort/dedupe/export tools) on the right, and a tabbed **Setup Dock** at the bottom (base/advanced filters, logical N-of-M conditions, and automatic parameter generator). Long-running calculations (ensemble forecasts, verifications) are delegated to background worker threads using `QThread` and custom signal channels to keep the GUI fluid and responsive.
 
 ---
 
@@ -29,8 +29,8 @@ Build a modern PySide6 desktop cockpit that wraps our core Python lottery engine
 5. As a lottery analyst, I want to insert a draw at a specific historical position, so that I can correct missed entries in past drawings.
 6. As a lottery analyst, I want to modify any cell in the drawings grid inline, so that I can correct data-entry mistakes quickly.
 7. As a lottery analyst, I want to delete a draw from the history, so that I can remove corrupted or test draws.
-8. As a lottery analyst, I want to import drawings from a flat space-delimited `.txt` file, so that I can reuse my existing SamLotto draw files.
-9. As a lottery analyst, I want to export drawings from the DuckDB database back to a flat SamLotto-compatible `.txt` file, so that I can share data with legacy systems.
+8. As a lottery analyst, I want to import drawings from a flat space-delimited `.txt` file, so that I can reuse my existing Lottery Studio draw files.
+9. As a lottery analyst, I want to export drawings from the DuckDB database back to a flat Lottery Studio-compatible `.txt` file, so that I can share data with legacy systems.
 10. As a lottery analyst, I want to split drawings by specific weekdays, so that I can run analyses restricted to particular draw cycles (e.g. only Saturday draws).
 11. As a lottery analyst, I want to update drawings online with a single click, so that I don't have to input latest results manually.
 
@@ -95,9 +95,9 @@ Build a modern PySide6 desktop cockpit that wraps our core Python lottery engine
 
 ### 3. Database CRUD & Converter bindings (MDR-102)
 - **Editable Table Model**: Grid views for drawings bind to `DuckDBDrawsTableModel` (derived from `QAbstractTableModel`). Inline modifications are written back to DuckDB via `storage.save_draws()` and emit `data_mutated` signals.
-- **SamLotto Converter**: Bidirectional conversion scripts are in place:
-  - `parse_samlotto_txt` reads files, matching implicit draw IDs with line numbers, and parsing date formats (`M/D/YYYY` or `MM/DD/YYYY`).
-  - `export_duckdb_to_samlotto` queries DuckDB, sorts ascending by draw ID, formats dates back, and writes file with CRLF line endings.
+- **Lottery Studio Converter**: Bidirectional conversion scripts are in place:
+  - `parse_studio_txt` reads files, matching implicit draw IDs with line numbers, and parsing date formats (`M/D/YYYY` or `MM/DD/YYYY`).
+  - `export_duckdb_to_studio` queries DuckDB, sorts ascending by draw ID, formats dates back, and writes file with CRLF line endings.
 
 ### 4. Layout & UI Controls
 - **Split-Panel Layout**: Uses `QSplitter` to partition the **Pool Builder** (Left Rail) and the **Ticket Store** (Right Rail) dynamically.
@@ -119,7 +119,7 @@ Build a modern PySide6 desktop cockpit that wraps our core Python lottery engine
 
 ### 2. Module Test Coverage
 - **`DuckDBDrawsTableModel`**: Test inline updates via `setData()`, verify CRUD modifications write successfully to a temporary DuckDB instance, and assert that the `data_mutated` signal is emitted.
-- **Import/Export Converters**: Test importing and exporting SamLotto `.txt` files, asserting that draw counts, date formats, and number values are preserved exactly.
+- **Import/Export Converters**: Test importing and exporting Lottery Studio `.txt` files, asserting that draw counts, date formats, and number values are preserved exactly.
 - **Concurrency Workers**: Spin up `ForecastJob`, mock worker executions, monitor signal emissions, check that progress values scale properly, and assert that trapped exceptions trigger `failed` signals containing correct error messages.
 - **Global Context Propagation**: Verify that changing the global lottery ID in `DatabaseTab` triggers slot handlers that successfully update rules, number pools, and active lists across all tabs.
 
@@ -127,9 +127,9 @@ Build a modern PySide6 desktop cockpit that wraps our core Python lottery engine
 
 ## Out of Scope
 
-- Direct execution, decompilation, or linking of the `samlotto.exe` assembly binaries.
+- Direct execution, decompilation, or linking of the `studio_app.bin` assembly binaries.
 - Running the GUI as a web application or exposing it over a remote gateway (remains local-only).
-- Features locked behind SamLotto Pro Edition that are not present in the Free Edition (unlimited abbreviated wheels, custom filter scripting engines, multi-game concurrent windows).
+- Features locked behind Lottery Studio Full Edition that are not present in the Free Edition (unlimited abbreviated wheels, custom filter scripting engines, multi-game concurrent windows).
 
 ---
 

@@ -13,7 +13,7 @@
       package-lock.json
       package.json
       tsconfig.json
-   BinaryNinja_SamLotto_linear.txt
+   BinaryNinja_Lottery Studio_linear.txt
    data
       br_lotofacil.json
       cache
@@ -21,7 +21,7 @@
          seismic_-23.55_-46.63.json
       daemon_state.json
       draw_log.jsonl
-      extracted_samlotto_summary.json
+      extracted_Lottery Studio_summary.json
       hyper_explorer_3d.html
       inspections
          br_lotofacil
@@ -363,8 +363,8 @@
          numerology
          Pruning.md
          saliu
-         samlotto
-         samlotto-feature-map.md
+         Lottery Studio
+         Lottery Studio-feature-map.md
          smartluck-analysis
          strategy-leaderboard-2026-05-01.md
       sessions
@@ -509,12 +509,12 @@
    pyproject.toml
    pyrightconfig.json
    README.md
-   SamLotto_Manual.chm
+   studio_manual_archive
    scripts
       audit_filters.py
       bio_feedback_pulse.py
       detailed_stats.py
-      extract_samlotto_features.py
+      extract_Lottery Studio_features.py
       find_15_hit.py
       find_6_hit_mega.py
       generate_pdf_report.py

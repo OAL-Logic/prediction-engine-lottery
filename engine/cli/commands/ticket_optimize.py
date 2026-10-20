@@ -1,7 +1,7 @@
 """
 Ticket Optimize Command ✂️
 =========================
-SamLotto's "Optimize Bet Tickets" (TopForm) equivalent: reduces candidate
+Lottery Studio's "Optimize Bet Tickets" (TopForm) equivalent: reduces candidate
 ticket pools to save wager costs while preserving broad combinatorial coverage.
 
 Offers two core strategies:
@@ -53,7 +53,7 @@ def ticket_optimize(
     generate_count: Annotated[int, typer.Option("--gen-count", help="If no file provided, auto-generate this many tickets to optimize")] = 30,
     out: Annotated[Optional[Path], typer.Option("--out", "-o", help="Optional output file to save optimized tickets")] = None,
 ) -> None:
-    """✂️ Optimize and prune bet tickets using SamLotto's TopForm reduction rules."""
+    """✂️ Optimize and prune bet tickets using Lottery Studio's TopForm reduction rules."""
 
     adapter = get_adapter(lottery)
     rules = adapter.rules
@@ -81,7 +81,7 @@ def ticket_optimize(
 
     ui_header(
         "TICKET OPTIMIZER",
-        f"{rules.name} · SamLotto TopForm · {len(raw_tickets)} candidate tickets loaded"
+        f"{rules.name} · Lottery Studio TopForm · {len(raw_tickets)} candidate tickets loaded"
     )
 
     # Execute optimization based on strategy

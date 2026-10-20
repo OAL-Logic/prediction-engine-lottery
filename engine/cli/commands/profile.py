@@ -2,7 +2,7 @@
 Profile Command 💾
 ==================
 Save a full CLI invocation under a short name and replay it later —
-"bookmarks" for the CLI's option surface. Not a SamLotto feature per se,
+"bookmarks" for the CLI's option surface. Not a Lottery Studio feature per se,
 but a natural companion to a 100+ command engine: `lottery profile save
 weighted3 --command "suggest br/mega-sena --strategy weighted --count 3"`
 then `lottery profile run weighted3`.

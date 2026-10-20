@@ -5,7 +5,7 @@ Automated unit and integration tests verifying Phase 1 architecture:
 - Dynamic Game Schema Discovery
 - Theme Manager & pyqt6-ui-designer Tokens
 - Headless Engine Bridge & Real Draws
-- SamLotto Actual Skips Analytics
+- Lottery Studio Actual Skips Analytics
 - Vector BallMatrixWidget & TicketReceiptWidget
 - Perspective Manager & CockpitMainWindow
 - Bidirectional Profile Bundle Serialization
@@ -105,7 +105,7 @@ def test_engine_bridge_draws():
 
 
 def test_actual_skips_computation():
-    """Verifies SamLotto actual skips calculation logic."""
+    """Verifies Lottery Studio actual skips calculation logic."""
     bridge = EngineBridge()
     skips_data = bridge.compute_skips_analysis("br/lotofacil", target_number=10)
     assert "actual_skips" in skips_data

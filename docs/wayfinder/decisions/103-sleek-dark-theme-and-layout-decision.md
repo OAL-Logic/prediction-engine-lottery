@@ -31,7 +31,7 @@ To achieve the premium dark-themed aesthetic requested by the user, we establish
 
 ## 2. Split-Pane Layout Hierarchy
 
-To emulate the functional cockpit workflow of SamLotto, we consolidate the interface into a single high-density layout. The container layout is split both horizontally and vertically to enable fluid, user-controlled resizing.
+To emulate the functional cockpit workflow of Lottery Studio, we consolidate the interface into a single high-density layout. The container layout is split both horizontally and vertically to enable fluid, user-controlled resizing.
 
 ```mermaid
 graph TD
@@ -105,4 +105,4 @@ Run the prototype from the repository root directory using:
 ```bash
 .venv/bin/python desktop/src/prototype_layout.py
 ```
-*(Requires PySide6 installed in the virtual environment. It renders a fully interactive layout mimicking the final SamLotto replacement cockpit.)*
+*(Requires PySide6 installed in the virtual environment. It renders a fully interactive layout mimicking the final Lottery Studio replacement cockpit.)*

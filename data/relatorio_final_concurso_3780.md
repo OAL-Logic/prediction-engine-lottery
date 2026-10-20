@@ -132,11 +132,11 @@ Lista completa de commits: `git log --oneline backup/from-pre-merge-2026-09-15..
 
 ---
 
-## 8. Roadmap de paridade de features com o SamLotto
+## 8. Roadmap de paridade de features com o Lottery Studio
 
-Baseado em `detailed_features.md` (catálogo técnico do SamLotto reverse-engineered), **não** no dump de disassembly (`BinaryNinja_SamLotto_linear.txt`), conforme solicitado.
+Baseado em `detailed_features.md` (catálogo técnico do Lottery Studio reverse-engineered), **não** no dump de disassembly (`BinaryNinja_Lottery Studio_linear.txt`), conforme solicitado.
 
-| Seção do catálogo SamLotto | Status antes desta sessão | Status agora |
+| Seção do catálogo Lottery Studio | Status antes desta sessão | Status agora |
 |---|---|---|
 | 1. Banco de dados (MDB: `lottery`, `drawings`, `filters`, `perdiction`, `nsSearch`, `nsStat`) | Equivalente via DuckDB + JSON particionado, já existia | Sem mudança arquitetural — `nsSearch` ganhou equivalente funcional (linha abaixo) |
 | 2. Motor de análise estatística (frequência, hot/cold, intervalo, soma, par/ímpar, consecutivos, primos) | Já coberto (`number-heat`, `streak-report`, `gap-forecast`, `analyze`) | + `number-lifecycle` (dossiê histórico por número) e `batch-grade` (screening estrutural em lote) |
@@ -145,4 +145,4 @@ Baseado em `detailed_features.md` (catálogo técnico do SamLotto reverse-engine
 | 5. UI/UX (grids de dados, **PopupCalculator**, **DrawingsUpdate**, CheckWinning) | Grid de dados e CheckWinning (aba `verification.py`) já existiam | + Quick Calculator (PopupCalculator) e Pattern Search dialog no desktop. `record` (= DrawingsUpdate) só tem versão CLI — **ainda falta o formulário desktop** |
 | 6. Conectividade & licenciamento (senha do MDB, chave de registro) | Fora de escopo | Continua fora de escopo — seria replicar o mecanismo de proteção de outro produto, não uma funcionalidade de análise; não faz sentido para uma ferramenta própria e independente |
 
-**Próximo passo sugerido, se o objetivo é fechar 100% do catálogo:** um diálogo desktop para `record` (formulário `DrawingsUpdate`), e um drill-down de detalhes para `pattern-search` no desktop (`nsSearchDetails`). Fora isso, a paridade funcional com o catálogo do SamLotto está, na prática, coberta.
+**Próximo passo sugerido, se o objetivo é fechar 100% do catálogo:** um diálogo desktop para `record` (formulário `DrawingsUpdate`), e um drill-down de detalhes para `pattern-search` no desktop (`nsSearchDetails`). Fora isso, a paridade funcional com o catálogo do Lottery Studio está, na prática, coberta.

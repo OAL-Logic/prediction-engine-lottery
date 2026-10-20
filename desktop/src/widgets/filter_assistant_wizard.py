@@ -1,7 +1,7 @@
 """
 Filter Assistant Wizard 🧙
 ==========================
-GUI counterpart to `lottery filter-assistant` — SamLotto's "Assistant
+GUI counterpart to `lottery filter-assistant` — Lottery Studio's "Assistant
 Filter" (detailed_features.md §3): a guided, tier-by-tier walk through the
 filter registry that doesn't require already knowing unique_ids, ending in
 an elimination-funnel report. Deliberately a different workflow from

@@ -19,4 +19,4 @@ The core engine is the mathematical heartbeat of the system.
 
 ---
 _Generated: 2026-05-14_
-_Updated: 2026-09-16 (strategy roster, foundation tier: timesfm + tabfm, 3 orphaned BR adapters + Mega Millions/EuroMillions wired into the registry, SamLotto Qt interface #106)_
+_Updated: 2026-09-16 (strategy roster, foundation tier: timesfm + tabfm, 3 orphaned BR adapters + Mega Millions/EuroMillions wired into the registry, Lottery Studio Qt interface #106)_

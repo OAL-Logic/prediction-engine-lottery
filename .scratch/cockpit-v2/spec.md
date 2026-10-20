@@ -5,14 +5,14 @@ labels:
   - ready-for-agent
   - cockpit-v2
   - pyside6
-  - samlotto-parity
+  - Lottery Studio-parity
 ---
 
 # Specification: Next-Gen Lottery Engine Desktop Cockpit (`cockpit/`)
 
 ## 1. Problem Statement & Mission
 The legacy desktop interface in `desktop/` carries technical debt and mixed conventions. The user requires a completely greenfield, decoupled PySide6 desktop suite in a dedicated root directory (`cockpit/`).
-The cockpit must achieve **100% functional parity and functional superiority over SamLotto Free and Registered/Pro Editions**:
+The cockpit must achieve **100% functional parity and functional superiority over Lottery Studio Free and Registered/Pro Editions**:
 - Full 105+ combinatorial filter engine + Fault Tolerance Engine (Error Allowance $N$-of-$M$).
 - Complete Wheeling Subsystem (Covering designs $t$-if-$m$ of $v$, Positional Wheels, Banker/Key numbers, Hamming redundancy pruning, reduction zones).
 - Physical Betslip Layout Calibrator & Printer for Caixa Econômica Federal slips (Lotofácil, Mega-Sena, Quina, Lotomania, Dupla Sena).
@@ -34,7 +34,7 @@ The cockpit must achieve **100% functional parity and functional superiority ove
 - Standalone launcher: `cockpit/src/app.py`.
 - Phase 1 test suite (`cockpit/tests/test_phase1.py`).
 
-### Phase 2: Complete SamLotto Combinatorial Filter & Wheeling Engine
+### Phase 2: Complete Lottery Studio Combinatorial Filter & Wheeling Engine
 - Full 105+ filter catalog across 7 categories.
 - High-performance vectorized chunked streaming worker (`StreamingCombinatorialWorker`).
 - Fault Tolerance Engine ($N$-of-$M$ Error Allowance).
@@ -49,7 +49,7 @@ The cockpit must achieve **100% functional parity and functional superiority ove
 
 ### Phase 4: Physical Betslip Calibrator, File I/O & CLI Subcommands
 - Caixa betslip layout calibrator & printer (Lotofácil, Mega-Sena, Quina, Lotomania).
-- File format support: `.slk`, `.csv`, `.txt`, and SamLotto space-delimited text.
+- File format support: `.slk`, `.csv`, `.txt`, and Lottery Studio space-delimited text.
 - CLI subcommands `lottery cockpit` and `lottery desktop`.
 
 ### Phase 5: Verification, Test Automation & Visual Audits

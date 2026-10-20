@@ -1,11 +1,11 @@
 ---
-title: Spec — SamLotto Qt Desktop Interface (Prophet Dashboard)
+title: Spec — Lottery Studio Qt Desktop Interface (Prophet Dashboard)
 status: ready-for-agent
 labels:
   - ready-for-agent
 ---
 
-# Specification: SamLotto Qt Desktop Interface (Prophet Dashboard)
+# Specification: Lottery Studio Qt Desktop Interface (Prophet Dashboard)
 
 ## Problem Statement
 
@@ -16,7 +16,7 @@ Users need a persistent, high-density, cross-platform desktop application cockpi
 ## Solution
 
 Implement the **Prophet Desktop Client** (PySide6/Qt for Python). The client acts as a professional-grade alternative cockpit styled under a dark neon design aesthetic ("Forensic Neon"). It integrates:
-- **Draws Database Tab:** Spreadsheet-like editable grid of all drawings with DuckDB backend CRUD operations, and flat-file import/export of SamLotto `.txt` formats.
+- **Draws Database Tab:** Spreadsheet-like editable grid of all drawings with DuckDB backend CRUD operations, and flat-file import/export of Lottery Studio `.txt` formats.
 - **Statistical Cockpit Tab:** Multi-dimensional charts showing frequencies, gaps, and number intervals.
 - **Harmony Gate Filters Tab:** Interactive number pool selection and range filters running in background worker threads.
 - **Wheeling Workshop Tab:** Cover designs generation with direct ticket transfer to verification.
@@ -31,8 +31,8 @@ Implement the **Prophet Desktop Client** (PySide6/Qt for Python). The client act
 4. As an Analyst, I want to view a spreadsheet-like grid of all historical drawings, so that I can browse drawing history efficiently.
 5. As an Administrator, I want to edit drawings directly in the grid, so that I can quickly fix typos or incorrect records in the database.
 6. As an Administrator, I want to insert or delete drawings, so that I can keep the database up-to-date with new results.
-7. As a User, I want to import drawings from a SamLotto space-delimited flat text file, so that I do not have to enter thousands of draws manually.
-8. As a User, I want to export drawings to a SamLotto format text file, so that I can share or reuse my database with other legacy lottery tools.
+7. As a User, I want to import drawings from a Lottery Studio space-delimited flat text file, so that I do not have to enter thousands of draws manually.
+8. As a User, I want to export drawings to a Lottery Studio format text file, so that I can share or reuse my database with other legacy lottery tools.
 9. As an Analyst, I want to visualize number frequencies and gaps in interactive charts, so that I can recognize underlying trends.
 10. As an Analyst, I want to inspect a number's skips (Actual, Average, and Now skips) and view its historical skip interval spacing on a bar chart, so that I can determine if a number is overdue.
 11. As a User, I want to toggle numbers in/out of a pool using an interactive clickable grid, so that I can define a custom subset of numbers to generate tickets from.
@@ -58,7 +58,7 @@ Implement the **Prophet Desktop Client** (PySide6/Qt for Python). The client act
   - `WheelingTab.tickets_generated` shares combinations with the Verification Desk.
 - **Asynchronous Processing (`ThreadManager` & `JobSignals`):** All computational jobs (forecasting, training, filter audits, db loading) must subclass `QThread` (e.g., `ForecastJob`, `TrainJob`) or use `QRunnable`. Communication between worker threads and the main thread is strictly mediated via `JobSignals` (type-safe `pyqtSignal` objects for progress, logs, finish payloads, and errors). The GUI thread must never execute blocking calculations directly.
 - **Database Model (`DuckDBDrawsTableModel`):** An editable model derived from `QAbstractTableModel` wraps DuckDB queries, managing CRUD edits safely by upserting dates and number sequences, and emitting `dataChanged` to trigger view refreshes.
-- **File Conversion Utilities:** Bidirectional parser/converter logic for legacy SamLotto `.txt` files (space-delimited, `M/D/YYYY` date format, CRLF line endings) to enable instant database synchronization.
+- **File Conversion Utilities:** Bidirectional parser/converter logic for legacy Lottery Studio `.txt` files (space-delimited, `M/D/YYYY` date format, CRLF line endings) to enable instant database synchronization.
 - **Charts and Visualizations (`pyqtgraph` & `matplotlib`):** Integrating fast-rendering charts styled with neon aesthetics. Specifically, skips analysis plots use `pyqtgraph` for interactive bar charts, and general analysis plots use a styled `matplotlib` backend.
 - **Theming System (`ThemeManager`):** Manages stylesheet injection using custom QSS files or dynamically generated styling tokens (`dark` background, neon colors for selected/active states).
 

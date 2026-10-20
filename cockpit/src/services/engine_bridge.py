@@ -3,7 +3,7 @@ Engine Bridge Service
 =====================
 Decoupled service layer connecting the PySide6 Cockpit application to the
 underlying headless computational engine (`engine/`) and registry.
-Provides full feature parity with SamLotto's 105+ filter catalog, Fault Tolerance
+Provides full feature parity with Lottery Studio's 105+ filter catalog, Fault Tolerance
 Engine, historical draw access, actual skips analytics, and covering wheel solver.
 """
 
@@ -104,12 +104,12 @@ class EngineBridge:
         return df
 
     # -------------------------------------------------------------------------
-    # Skips & Gaps Analytics Engine (SamLotto Parity)
+    # Skips & Gaps Analytics Engine (Lottery Studio Parity)
     # -------------------------------------------------------------------------
 
     def compute_skips_analysis(self, game_id: str, target_number: int) -> Dict[str, Any]:
         """
-        Calculates signature SamLotto skips metrics:
+        Calculates signature Lottery Studio skips metrics:
         - Actual Skips: Sequence of draw gaps between occurrences
         - Average Skip: Historical mean gap
         - Now Skip: Current draws elapsed since target_number last appeared
@@ -160,7 +160,7 @@ class EngineBridge:
         last_n_draws: int = 30
     ) -> Dict[str, Tuple[float, float]]:
         """
-        Implements SamLotto's signature 'Auto-Generate Default Condition' feature.
+        Implements Lottery Studio's signature 'Auto-Generate Default Condition' feature.
         Scans the last N historical draws and determines observed min and max boundaries.
         """
         df = self.get_draws(game_id, limit=last_n_draws)
@@ -264,12 +264,12 @@ class EngineBridge:
         return fitted_ranges
 
     # -------------------------------------------------------------------------
-    # Exhaustive 105+ Filter Catalog across 7 Categories (SamLotto Parity)
+    # Exhaustive 105+ Filter Catalog across 7 Categories (Lottery Studio Parity)
     # -------------------------------------------------------------------------
 
     def load_catalog_filters(self, game: Optional[GameSchema] = None) -> List[FilterNode]:
         """
-        Loads the exhaustive 105+ filter catalog reverse-engineered from SamLotto:
+        Loads the exhaustive 105+ filter catalog reverse-engineered from Lottery Studio:
         1. Structural / Count (Tags 1-5, plus composite, square, fibonacci, ratios)
         2. Sums & Averages (Tags 6-11, 41, 68-69, digit sum, even/odd/prime sums, means)
         3. Positional & Distance (Tags 12-19, min/max, adjacent gaps, ball ranges, spread)

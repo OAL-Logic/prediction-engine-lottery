@@ -339,11 +339,11 @@ class DatabaseTab(QWidget):
         self.sync_button = QPushButton("⚡ FETCH ONLINE DRAWINGS")
         self.sync_button.clicked.connect(self.sync_online_draws)
 
-        self.import_button = QPushButton("📥 IMPORT SAMLOTTO .TXT")
-        self.import_button.clicked.connect(self.import_samlotto_txt)
+        self.import_button = QPushButton("📥 IMPORT Lottery Studio .TXT")
+        self.import_button.clicked.connect(self.import_studio_txt)
 
-        self.export_button = QPushButton("📤 EXPORT SAMLOTTO .TXT")
-        self.export_button.clicked.connect(self.export_samlotto_txt)
+        self.export_button = QPushButton("📤 EXPORT Lottery Studio .TXT")
+        self.export_button.clicked.connect(self.export_studio_txt)
 
         header_layout.addWidget(QLabel("Select Active Lottery:"))
         header_layout.addWidget(self.lottery_selector)
@@ -686,10 +686,10 @@ class DatabaseTab(QWidget):
         else:
             QMessageBox.warning(self, "Synchronization Failed", f"Could not sync with Caixa/Powerball:\n{message}")
 
-    def import_samlotto_txt(self):
-        """Launches QFileDialog to import drawings from a SamLotto .txt flat file."""
+    def import_studio_txt(self):
+        """Launches QFileDialog to import drawings from a Lottery Studio .txt flat file."""
         file_path, _ = QFileDialog.getOpenFileName(
-            self, "Import SamLotto TXT", "", "Text Files (*.txt);;All Files (*)"
+            self, "Import Lottery Studio TXT", "", "Text Files (*.txt);;All Files (*)"
         )
         if not file_path:
             return
@@ -702,8 +702,8 @@ class DatabaseTab(QWidget):
             with open(file_path, "r", encoding="utf-8", errors="ignore") as f:
                 content = f.read()
 
-            from desktop.src.utils.converter import parse_samlotto_txt
-            draws = parse_samlotto_txt(content, rules.pick_count, rules.bonus_count)
+            from desktop.src.utils.converter import parse_studio_txt
+            draws = parse_studio_txt(content, rules.pick_count, rules.bonus_count)
             
             if not draws:
                 QMessageBox.warning(self, "Import Failed", "No valid draws were parsed from the file.")
@@ -721,21 +721,21 @@ class DatabaseTab(QWidget):
                 f"Successfully parsed and loaded {len(draws)} draws for {self.active_lottery} into the database!"
             )
         except Exception as e:
-            logger.exception("Failed to import SamLotto file.")
+            logger.exception("Failed to import Lottery Studio file.")
             QMessageBox.critical(self, "Import Error", f"An error occurred while importing:\n{str(e)}")
 
-    def export_samlotto_txt(self):
-        """Launches QFileDialog to export drawings to a SamLotto .txt flat file."""
+    def export_studio_txt(self):
+        """Launches QFileDialog to export drawings to a Lottery Studio .txt flat file."""
         file_path, _ = QFileDialog.getSaveFileName(
-            self, "Export SamLotto TXT", f"{self.active_lottery.replace('/', '_')}_samlotto.txt", 
+            self, "Export Lottery Studio TXT", f"{self.active_lottery.replace('/', '_')}_studio.txt", 
             "Text Files (*.txt);;All Files (*)"
         )
         if not file_path:
             return
 
         try:
-            from desktop.src.utils.converter import export_duckdb_to_samlotto
-            content = export_duckdb_to_samlotto(self.active_lottery)
+            from desktop.src.utils.converter import export_duckdb_to_studio
+            content = export_duckdb_to_studio(self.active_lottery)
             
             if not content:
                 QMessageBox.warning(self, "Export Failed", "No drawings found in the database to export.")
@@ -749,6 +749,6 @@ class DatabaseTab(QWidget):
                 f"Successfully exported {self.active_lottery} drawings to:\n{file_path}"
             )
         except Exception as e:
-            logger.exception("Failed to export SamLotto file.")
+            logger.exception("Failed to export Lottery Studio file.")
             QMessageBox.critical(self, "Export Error", f"An error occurred while exporting:\n{str(e)}")
 

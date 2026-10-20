@@ -1,5 +1,5 @@
 """
-Unit tests for SamLotto Ticket Optimizer Engine ✂️
+Unit tests for Lottery Studio Ticket Optimizer Engine ✂️
 ==================================================
 Tests same-number reduction (AC-T4) and reserve-per-block reduction (AC-T3).
 """

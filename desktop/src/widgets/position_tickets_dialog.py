@@ -1,7 +1,7 @@
 """
 Position Number Tickets Dialog 🎯
 ==================================
-SamLotto's "Creating a Position Number Tickets" (its Build Tickets screen's
+Lottery Studio's "Creating a Position Number Tickets" (its Build Tickets screen's
 "Position" tab, alongside "Standard" and "Smart"): independently specify a
 candidate-number list for each ticket position, then generate every valid
 ticket from the Cartesian product of those lists (distinct numbers only,

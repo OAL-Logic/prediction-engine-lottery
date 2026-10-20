@@ -1,0 +1,223 @@
+Region,Country_State,Lottery_Name,Pick,MaxNumber,HasBonus,BonusMax,File
+Other,Anguilla,Anguilla Caribbean SuperLotto,5,35,1,10,Caribbean_SuperLotto.Txt
+Other,Antigua,Antigua Caribbean SuperLotto,5,35,1,10,Caribbean_SuperLotto.Txt
+Other,Argentina,Argentina Brinco,6,39,0,0,ArgentinaBrinco.Txt
+Other,Argentina,Argentina Loto 5,5,36,0,0,ArgentinaLoto5.Txt
+Other,Australia,Monday & Wednesday Lotto,6,45,2,45,MondayWendnesdayLottoAUMW645.Txt
+Other,Australia,Oz Lotto-Tuesday,7,45,2,45,OzLottoAU745.Txt
+Other,Australia,Powerball,7,35,1,20,PowerballAU735.Txt
+Other,Australia,SA Lotto,6,45,2,45,SALottoAUSA645.Txt
+Other,Australia,Tattslotto,6,45,2,45,TattslottoAU645.Txt
+Other,Austria,Austria Euro Millions,5,50,2,11,EuroMillionsEURO550.Txt
+Other,Austria,Austria Lotto,6,45,1,0,AustriaLotto.Txt
+Other,Barbados,Barbados Caribbean Super Lotto,5,35,1,10,Caribbean_SuperLotto.Txt
+Other,Belgium,Belgium Lotto,6,45,1,42,BelgiumLottoBE642.Txt
+Other,Brazil,Brazil Mega Sena,6,60,0,,BrazilMegaSenaBR660.Txt
+Other,Brazil,Brazil Quina,5,80,0,,BrazilQuinaBR580.Txt
+Other,British Columbia,British Columbia 49,6,49,1,49,BritishColumbia49.Txt
+Other,Canada,Atlantic 649,6,49,1,49,Atlantic649CNAT649.Txt
+Other,Canada,Atlantic Bucko,5,41,0,,AtlanticBuckoCNAT541.Txt
+Other,Canada,BC49,6,49,1,49,BC49CNBC49.Txt
+Other,Canada,Canada Lotto 6/49,6,49,1,49,Canadian649CN649.Txt
+Other,Canada,Canadian Daily Grand,5,49,1,7,CanadianDailyGrandCN549.Txt
+Other,Canada,Canadian Lotto Max,7,50,1,49,CanadianLottoMaxCN749.Txt
+Other,Canada,Ontario 49,6,49,1,49,Ontario49CNONT49.Txt
+Other,Canada,Ontario Lottario,6,49,1,49,OntarioLottarioCNLOT.Txt
+Other,Canada,Quebec 49,6,50,1,49,Quebec49CNQUE49.Txt
+Other,Canada,Quebec Max,7,49,1,49,QuebecMaxCNQUMAX.Txt
+Other,Canada,Western 649,6,49,1,49,Western649CNW649.Txt
+Other,Canada,Western Max,7,50,1,49,WesternMaxCNW749.Txt
+Other,Chile,Chile Loto,6,39,1,49,ChileLoto.Txt
+Other,Chile,Chile Polla 4,4,23,0,0,ChilePolla4.Txt
+Other,Columbia,Columbia Ultimo Sorteo,6,45,0,0,ColumbiaUltimoSorteo.Txt
+Other,Costa Rica,Costa Rica Pega 6,6,35,0,0,CostaRicaPega6.Txt
+Other,Croatia,Croatia Lotto 6-45,6,45,1,45,CroatiaLotto645.Txt
+Other,Croatia,Croatia Lotto 7-39,7,39,1,39,CroatiaLotto739.Txt
+Other,Czech Republic,Czech Republic Euromiliony,7,35,1,5,CzechRepublicEuromiliony.Txt
+Other,Denmark,Denmark Euro Jackpot,5,50,2,10,EuroJackpot750.Txt
+Other,Denmark,Denmark Lotto,7,36,1,36,DenmarkLotto.Txt
+Other,Denmark,Denmark Viking Lotto,6,48,2,48,VikingLotto.Txt
+Other,Dominican Republic,Dominican Republic Caribbean SuperLotto,5,35,1,10,Caribbean_SuperLotto.Txt
+Other,Estonia,Estonia Euro Jackpot,5,50,2,10,EuroJackpot750.Txt
+Other,Estonia,Estonia Viking Lotto,6,48,2,48,VikingLotto.Txt
+Other,Finland,Finland Euro Jackpot,5,50,2,10,EuroJackpot750.Txt
+Other,Finland,Finland Viking Lotto,6,48,2,48,VikingLotto.Txt
+Other,France,Euro Millions,5,50,2,12,EuroMillionsEURO550.Txt
+Other,Germany,Germany Euro Jackpot,5,50,2,10,EuroJackpot750.Txt
+Other,Germany,Germany Lotto 649,6,49,1,9,GermanyLotto649GE649.Txt
+Other,Ghana,Daywa,5,35,0,0,GhanaDaywa.Txt
+Other,Ghana,Fortune Thursday,5,90,0,0,GhanaFortuneThursday.Txt
+Other,Ghana,Friday Bonanza,5,90,0,0,GhanaFridayBonanza.Txt
+Other,Ghana,Lucky Tuesday,5,90,0,0,GhanaLuckyTuesday.Txt
+Other,Ghana,Mid - Week,5,90,0,0,GhanaMidWeek.Txt
+Other,Ghana,Monday Special,5,90,0,0,GhanaMondaySpecial.Txt
+Other,Ghana,National Weekly Lotto,5,90,0,0,GhanaNationalWeeklyLotto.Txt
+Other,Ghana,Super 6,6,55,0,0,GhanaSuper6.Txt
+Other,Greece,Greek Joker,5,45,1,20,GreekJokerGR545.Txt
+Other,Greece,Greek Lotto,6,49,0,,GreekLottoGR649.Txt
+Other,Hong Kong,Hong Kong Mark Six,6,49,1,49,HongKongMarkSixHK649.Txt
+Other,Hungary,Hungary Hatoslotto,6,45,0,0,HungaryHatoslotto.Txt
+Other,Hungary,Hungary Otoslotto,5,90,0,0,HungaryOtoslotto.Txt
+Other,Iceland,Iceland Viking Lotto,6,48,2,48,VikingLotto.Txt
+Other,India,India Jaldi 5 Lotto,5,36,0,0,IndiaJaldi5Lotto.Txt
+Other,India,India Sikkim 6-49 Saturday,6,49,0,0,IndiaSikkim649Saturday.Txt
+Other,India,India Sikkim 6-49 Thursday,6,49,0,0,IndiaSikkim649Thursday.Txt
+Other,India,India Super Lotto,6,49,0,0,IndiaSuperLotto.Txt
+Other,India,India Thunderball,5,42,1,15,IndiaThunderball.Txt
+Other,Ireland,Ireland Daily Million 9pm,6,39,1,39,IrshMondayMillionIR639.Txt
+Other,Ireland,Ireland Lotto,6,47,1,47,IrshLottoIR642.Txt
+Other,Ireland,Ireland Lotto Plus 1,6,47,1,47,IrshLottoPlus1IR642P.Txt
+Other,Ireland,Ireland Lotto Plus 2,6,47,1,47,IrshLottoPlus2IR642P2.Txt
+Other,Israel,Israel New Lotto,6,37,1,8,IsraelNewLotto.Txt
+Other,Israel,Israel Sweepstakes,6,37,1,7,Israel_Sweepstakes.Txt
+Other,Jamaica,Jamaica Caribbean SuperLotto,5,35,1,10,Caribbean_SuperLotto.Txt
+Other,Jamaica,Jamaica Lotto 6-37,6,45,1,45,JamaicaLotto637.Txt
+Other,Jamaica,Jamaica Lucky 5,5,26,0,0,JamaicaLucky5.Txt
+Other,Japan,Japan Loto 6,6,43,1,43,JapanLoto6.Txt
+Other,Japan,Japan Loto 7,7,37,2,37,JapanLoto7.Txt
+Other,Japan,Japan Lotto 643,6,43,1,43,Japanlotto643.Txt
+Other,Japan,Japan Mini Loto,5,31,1,31,JapanMiniLoto.Txt
+Other,Korea,Korea Lotto 6-45,6,45,1,45,KoreaLotto645.Txt
+Other,Latvia,Latvia Lotto 5-35,5,35,1,35,LatviaLotto535.Txt
+Other,Latvia,Latvia Viking Lotto,6,48,2,48,VikingLotto.Txt
+Other,Lebanon,Lebanon Lotto,6,42,1,42,LebanonLotto.Txt
+Other,Luxembourg,Luxembourg Euro Millions,5,50,2,11,EuroMillionsEURO550.Txt
+Other,Mainland China,SupperLotto,5,35,2,12,SupperLotto.Txt
+Other,Mainland China,UnionLotto,6,33,1,16,UnionLotto.Txt
+Other,Malaysia,Malaysia Power Toto,6,55,0,,MalaysiaPowerTotoTOTO655.Txt
+Other,Malaysia,Malaysia Start Toto,6,50,1,50,MalaysiaStartTotoTOTO650.Txt
+Other,Malaysia,Malaysia Supreme Toto,6,58,0,0,MalaysiaSupremeTotoTOTO658.Txt
+Other,Mauritius,Mauritius Lotto,6,40,0,0,MauritiusLotto.Txt
+Other,Mexico,Mexico Chispazo,5,28,0,,MexicoChispazoMX528.Txt
+Other,Mexico,Mexico Melate Lotto,6,56,1,56,MexicoMelateLottoMX647.Txt
+Other,Mexico,Mexico Melate Retro,6,39,1,39,MexicoMelateRetroMX639.Txt
+Other,Mexico,Mexico Revancha Lotto,6,56,0,,MexicoRevanchaLottoMXREV.Txt
+Other,Mexico,Mexico Revanchita Lotto,6,56,0,0,MexicoRevanchitaLottoMXREV2.Txt
+Other,Netherlands,Netherlands Dutch Lotto,6,45,0,0,NetherlandsDutchLotto.Txt
+Other,Netherlands,Netherlands Euro Jackpot,5,50,2,10,EuroJackpot750.Txt
+Other,New Zealand,New Zealand Lotto,6,40,1,40,NewZealandLottoNZ640.Txt
+Other,Norway,Norway Lotto,7,34,3,34,NorwayLotto.Txt
+Other,Norway,Norway Viking Lotto,6,48,2,48,VikingLotto.Txt
+Other,Peru,Peru Gana Diario,5,35,0,0,PeruGanaDiario.Txt
+Other,Philippines,Philippines Grand Lotto 6-55,6,55,0,0,PhilippinesGrandLotto655.Txt
+Other,Philippines,Philippines Lotto 6-42,6,42,0,0,PhilippinesLotto642.Txt
+Other,Philippines,Philippines MegaLotto 6-45,6,45,0,0,PhilippinesMegaLotto645.Txt
+Other,Philippines,Philippines SuperLotto 6-49,6,49,0,0,PhilippinesSuperLotto649.Txt
+Other,Poland,Poland Lotto,6,49,0,0,PolandLotto.Txt
+Other,Poland,Poland Mini Lotto,5,42,0,0,PolandMiniLotto.Txt
+Other,Portugal,Portugal Euro Millions,5,50,2,11,EuroMillionsEURO550.Txt
+Other,Romania,Romania 6 49,6,49,0,,Romania 6_49.txt
+Other,Romania,Superloto 5 din 40,5,40,1,40,Romania-Superloto-5 din-401995_2009.Txt
+Other,Russia,Russia 5 36-Midday,5,36,0,0,Russia_536_M.Txt
+Other,Russia,Russia 5 36-Night,5,36,0,0,Russia_536_N.Txt
+Other,Russia,Russia 6 45,6,45,0,0,Russia_645.Txt
+Other,Russia,Russia 7 49,7,49,0,0,Russia_749.Txt
+Other,Singapore,Singapore Toto,6,49,1,49,SingaporeTotoSG645.Txt
+Other,Slovenia,Slovenia Euro Jackpot,5,50,2,10,EuroJackpot750.Txt
+Other,South Africa,South Africa Daily Lotto,5,36,0,,SouthAfricaDailyLottoSA536.Txt
+Other,South Africa,South Africa Lotto,6,52,1,52,SouthAfricaNationalLotterySA649.Txt
+Other,South Africa,South Africa Lotto Plus 1,6,52,1,52,SouthAfricaLottoPlusSA649P.Txt
+Other,South Africa,South Africa Lotto Plus 2,6,52,1,52,SouthAfricaLottoPlus2SA6522.Txt
+Other,South Africa,South Africa PowerBall,5,50,1,20,SouthAfricaPowerBallSA545.Txt
+Other,South Africa,South Africa Powerball Plus,5,50,1,20,SouthAfricaPowerBallPlusSA545P.Txt
+Other,Spain,Spain 649,6,49,1,49,Spain649SP649.Txt
+Other,St. Kitts and Nevis,St. Kitts and Nevis Caribbean SuperLotto,5,35,1,10,Caribbean_SuperLotto.Txt
+Other,St. Maarten,St. Maarten Caribbean SuperLotto,5,35,1,10,Caribbean_SuperLotto.Txt
+Other,Sweden,Sweden Lotto 1,7,35,4,35,SwedenLotto1.Txt
+Other,Sweden,Sweden Lotto 2,7,35,4,35,SwedenLotto2.Txt
+Other,Sweden,Sweden Viking Lotto,6,48,2,48,VikingLotto.Txt
+Other,Switzerland,Switzerland Euro Millions,5,50,2,11,EuroMillionsEURO550.Txt
+Other,Switzerland,Switzerland Swiss Lotto,6,42,1,6,SwitzerlandSwisLotto.Txt
+Other,Taiwan,Taiwan 539-TW539,5,39,0,0,Taiwan539TW539.Txt
+Other,Taiwan,Taiwan Big Lotto,6,49,1,49,TaiwanBigLottoTW649.Txt
+Other,Taiwan,Taiwan Lotto,6,38,1,8,TaiwanLottoTW638.Txt
+Other,Trinidad and Tobago,Trinidad and Tobago Lotto Plus,5,35,1,10,TrinidadandTobagoLottoPlus.Txt
+Other,Turkey,Turkish Sans Topu,5,34,1,14,TurkishSansTopuTR534.Txt
+Other,Turkey,Turkish Sayisal Lotto,6,90,1,90,TurkishSayisalLotoTR690.Txt
+Other,Turkey,Turkish Super Lotto,6,60,0,0,TurkishSuperLottoTR654.Txt
+Other,United Kingdom,Set For Life,5,47,1,10,SetForLifeUK547.Txt
+Other,United Kingdom,Thunderball,5,39,1,14,ThunderballUK534.Txt
+Other,United Kingdom,United Kingdom Lotto,6,59,1,59,BritishNationalLotteryUK649.Txt
+Other,Uruguay,Uruguay Kini,5,36,0,0,UruguayKini.Txt
+Other,Uruguay,Uruguay Revancha,5,44,0,0,UruguayRevancha.Txt
+Other,Virgin Islands,Virgin Islands Caribbean SuperLotto,5,35,1,10,Caribbean_SuperLotto.Txt
+Russia,Other,Other,6,35,0,0,Russia_Other.Txt
+United States,Arizona,Arizona Fantasy 5,5,41,0,,ArizonaThePick5AZ535.Txt
+United States,Arizona,Arizona The Pick,6,44,0,,ArizonaThePickAZ644.Txt
+United States,Arizona,Arizona Triple Twist,6,42,0,0,ArizonaTripleTwistAZ642.Txt
+United States,Arizona,Mega Millions,5,70,1,25,MegaMillionsMM570.Txt
+United States,Arizona,Powerball,5,69,1,26,PowerballPB553.Txt
+United States,Arkansas,Natural State Jackpot,5,39,0,0,NaturalStateJackpotAR539.Txt
+United States,California,California Fantasy 5,5,39,0,,CaliforniaFantasy5CA539.Txt
+United States,California,California SuperLotto Plus,5,47,1,27,CaliforniaSuperLottoPlusCA547.Txt
+United States,Colorado,Colorado Cash 5,5,32,0,,ColoradoCash5CO532.Txt
+United States,Colorado,Colorado Lotto+,6,40,0,0,ColoradoLottoaddCO640.Txt
+United States,Connecticut,Connecticut Cash 5,5,35,0,,ConnecticutCash5CT535.Txt
+United States,Connecticut,Connecticut Lotto,6,44,0,,ConnecticutClassicLottoCT644.Txt
+United States,Delaware,Delaware Multi-Win Lotto,6,35,0,,DelawareMultiWinLottoDe635.Txt
+United States,Florida,Florida Fantasy 5,5,36,0,,FloridaFantasy5FL536.Txt
+United States,Florida,Florida Jackpot Triple Play,6,46,0,0,FloridaJackpotTriplePlayFL646.Txt
+United States,Florida,Florida Lotto,6,53,0,,FloridaLottoFL653.Txt
+United States,Georgia,Georgia Fantasy 5,5,42,0,,GeorgiaFantasy5GA539.Txt
+United States,Georgia,Georgia Jumbo Bucks Lotto,6,47,0,0,GeorgiaJumboBucksLottoGA647.Txt
+United States,Idaho,Idaho Cash,5,45,0,0,IdahoCashID545.Txt
+United States,Idaho,Idaho Weekly Grand,5,32,0,0,IdahoWeeklyGrandID532.Txt
+United States,Illinois,Illinois Evening Lucky Day Lotto,5,45,0,,IllinoisLittleLottoIL539.Txt
+United States,Illinois,Illinois Lotto,6,52,0,,IllinoisLottoIL652.Txt
+United States,Illinois,Illinois Midday Lucky Day Lotto,5,45,0,,IllinoisLittleLottoMIL539M.Txt
+United States,Indiana,Indiana Cash 5,5,45,0,0,IndianaCash5541IN539.Txt
+United States,Indiana,Indiana Hoosier Lotto,6,46,0,,IndianaHoosierLottoIN648.Txt
+United States,Kansas,Super Kansas,5,32,1,25,SuperKansasKS532.Txt
+United States,Kentucky,Kentucky Cash Ball,4,35,1,25,KentuckyCashBallKY533.Txt
+United States,Louisiana,Louisiana Easy 5,5,37,0,,LouisianaEasy5LA537.Txt
+United States,Louisiana,Louisiana Lotto,6,42,0,,LouisianaLottoLA644.Txt
+United States,Maryland,Maryland Bonus Match 5,5,39,1,39,MarylandBonusMatch5MD539.Txt
+United States,Maryland,Maryland Multi-Match,6,43,0,,MarylandMultiMatchMD643.Txt
+United States,Massachusetts,Massachusetts Mass Cash,5,35,0,,MassachusettsMashCashMA535.Txt
+United States,Massachusetts,Massachusetts Megabucks Doubler,6,49,0,,MassachusettsMegabucksMA642.Txt
+United States,Michigan,Michigan Classic Lotto 47,6,47,0,,MichiganClassicLotto47MI647.Txt
+United States,Michigan,Michigan Fantasy 5,5,39,0,,MichiganFantasy5Mi539.Txt
+United States,Minnesota,Minnesota Gopher 5,5,47,0,,MinnesotaGopher5MN547.Txt
+United States,Minnesota,Minnesota Northstar cash,5,31,0,,MinnesotaNorthstarCashMN531.Txt
+United States,Mississippi,Mississippi Match 5,5,35,0,0,MississippiMatch5.Txt
+United States,Missouri,Missouri Lotto,6,44,0,,MissouriLottoMO644.Txt
+United States,Missouri,Missouri Show Me Cash,5,39,0,,MissouriShowMeCashMO539.Txt
+United States,Montana,Montana Cash,5,45,0,,MontanaCashMT537.Txt
+United States,Multi-State,Lotto America,5,52,1,10,LottoAmericaLAM552.Txt
+United States,Multi-State,Lucky for Life,5,48,1,18,LucklyforLifeLFL548.Txt
+United States,Multi-State,TriState Megabucks Plus!,5,41,1,6,TriStateMegabucksTS541.Txt
+United States,Nebraska,Nebraska Pick 5,5,38,0,,NebraskaPick5NE538.Txt
+United States,New Hampahire,Tri-State Gimme 5,5,39,0,19,TriStateGimme5Ts539.Txt
+United States,New Jersey,New Jersey Cash 5,5,45,0,,NewJerseyCash5NJ540.Txt
+United States,New Jersey,New Jersey Pick 6,6,49,0,,NewJerseyPickSixLottoNJ649.Txt
+United States,New Mexico,Road Runner Cash,5,37,0,,RoadRunnerCashNM537.Txt
+United States,New York,New York Lotto,6,59,1,59,NewYorkLottoNY659.Txt
+United States,New York,New York Take 5,5,39,0,,NewYorkTake5NY539.Txt
+United States,North Carolina,North Carolina Cash 5,5,43,0,,NorthCarolinaCashNC539.Txt
+United States,Ohio,Ohio Classic Lotto,6,49,0,,OhioClassicLottoOH649.Txt
+United States,Ohio,Ohio Rolling Cash 5,5,39,0,,OhioRollingCash5OH539.Txt
+United States,Oklahoma,Oklahoma Cash 5,5,36,0,0,OklahomaCash5OK536.Txt
+United States,Oregon,Oregon 648 megabucks,6,48,0,,Oregon648megabucksOR648.Txt
+United States,Oregon,Oregon Win for Life,4,77,0,0,OregonWinforLifeOR477.Txt
+United States,Pennsylvania,Pennsylvania Cash 5,5,43,0,,PennsylvaniaCash5PA543.Txt
+United States,Pennsylvania,Pennsylvania Match 6 Lotto,6,49,0,0,PennsylvaniaMatch6LottoPA649.Txt
+United States,Pennsylvania,Pennsylvania Treasure Hunt,5,30,0,,PennsylvaniaTreasureHuntPA530.Txt
+United States,Puerto Rico,Puerto Rico Loto Plus,5,40,1,15,PuertoRicoLotoPlusPR540.Txt
+United States,Rhode Island,Rhode Island Wild Money,5,35,1,35,RhodeIslandWildMoneyRI535.Txt
+United States,South Carolina,South Carolina Palmetto Cash 5,5,38,0,,SouthCarolinaPalmettoCash5SC538.Txt
+United States,South Dakota,South Dakota Cash,5,35,0,,SouthDakotaCashSD535.Txt
+United States,Tennessee,Cash4Life,5,60,1,4,Cash4LifeC4L560.Txt
+United States,Tennessee,Tennessee Cash,5,35,1,5,TennesseeCashTN535.Txt
+United States,Texas,Lotto Texas,6,54,0,,LottoTexasTX654.Txt
+United States,Texas,Texas Cash Five,5,35,0,,TexasCashFiveTX537.Txt
+United States,Texas,Texas Two Step,4,35,1,35,TexasTwoStepTX435.Txt
+United States,Virginia,Virginia Bank a Million,6,40,1,40,VirginiaBankaMillionVA640.Txt
+United States,Virginia,Virginia Cash 5,5,41,0,,VirginiaCash5VA534.Txt
+United States,Washington,Washington Hit 5,5,42,0,,WashingtonHit5WA539.Txt
+United States,Washington,Washington Lotto,6,49,0,,WashingtonLottoWA649.Txt
+United States,Washington,Washington Match 4,4,24,0,,WashingtonMatch4WA424.Txt
+United States,West Virginia,West Wirginia Cash 25,6,25,0,,WestWirginiaCash25WV625.Txt
+United States,Wisconsin,Wisconsin Badger 5,5,31,0,,WisconsinBadger5WI531.Txt
+United States,Wisconsin,Wisconsin Megabucks,6,49,0,,WisconsinMegabucksWI649.Txt
+United States,Wisconsin,Wisconsin Super Cash,6,39,0,0,WisconsinSuperCashWI636.Txt
+United States,Wyoming,Wyoming Cowboy Draw,5,45,0,0,WyomingCowboyDrawWY545.Txt

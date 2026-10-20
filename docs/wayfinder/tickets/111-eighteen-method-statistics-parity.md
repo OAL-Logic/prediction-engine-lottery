@@ -3,7 +3,7 @@ id: "111"
 type: task
 status: closed
 blocked_by: []
-map: samlotto-qt-interface-map.md
+map: lottery-studio-qt-interface-map.md
 created: 2026-09-16
 ---
 
@@ -11,9 +11,9 @@ created: 2026-09-16
 
 ## Question
 
-The map's own **Destination** text (written 2026-08-11, before any of #101-107 existed) says: "a modern PySide6 desktop application... that implements every feature of the SamLotto Free Edition (drawings management, **18-method tabbed statistics** with skips drill-down, ...)". #107 took `AnalysisTab` from 4 to 11 views by working from `detailed_features.md`'s summary and `docs/research/samlotto-feature-map.md` — both secondary sources. Neither actually enumerates 18 methods, so #107's closure didn't check its 11 against that specific number.
+The map's own **Destination** text (written 2026-08-11, before any of #101-107 existed) says: "a modern PySide6 desktop application... that implements every feature of the Standard Lottery Studio (drawings management, **18-method tabbed statistics** with skips drill-down, ...)". #107 took `AnalysisTab` from 4 to 11 views by working from `detailed_features.md`'s summary and `docs/research/Lottery Studio-feature-map.md` — both secondary sources. Neither actually enumerates 18 methods, so #107's closure didn't check its 11 against that specific number.
 
-The primary source does: `extracted_manual/lotto_chm/Interpreting the Statistical/` — the decompiled SamLotto help manual's own Statistics menu — has exactly 18 `.htm` pages (one per `Statistics ->` submenu entry). Reading them (not just the filenames) was the actual unlock here: several — Distance, Divided, Multiple, Prior Drawing, Locked Number — turned out to be genuinely distinct metrics with no equivalent among the 11.
+The primary source does: `extracted_manual/lotto_chm/Interpreting the Statistical/` — the decompiled Lottery Studio help manual's own Statistics menu — has exactly 18 `.htm` pages (one per `Statistics ->` submenu entry). Reading them (not just the filenames) was the actual unlock here: several — Distance, Divided, Multiple, Prior Drawing, Locked Number — turned out to be genuinely distinct metrics with no equivalent among the 11.
 
 ## Resolution
 

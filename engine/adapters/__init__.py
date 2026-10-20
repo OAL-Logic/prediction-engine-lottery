@@ -170,8 +170,8 @@ class GenericLotteryAdapter(LotteryAdapter):
         if df.empty and getattr(self.game_def, "draw_file", None):
             draw_path = Path(self.game_def.draw_file)
             if draw_path.exists():
-                from engine.cli.commands.import_samlotto import parse_samlotto_file
-                draws = parse_samlotto_file(draw_path, self.game_def.pick_count, self.game_def.bonus_count)
+                from engine.cli.commands.import_drawings import parse_studio_file
+                draws = parse_studio_file(draw_path, self.game_def.pick_count, self.game_def.bonus_count)
                 df = self.to_dataframe(draws)
                 if limit and not df.empty:
                     df = df.tail(limit)

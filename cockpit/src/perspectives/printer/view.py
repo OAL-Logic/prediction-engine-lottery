@@ -565,7 +565,7 @@ class PrinterPerspectiveView(QWidget):
             self,
             "Export Tickets",
             "tickets.slk",
-            "SamLotto SYLK (*.slk);;Space-delimited Text (*.txt);;CSV Spreadsheet (*.csv)",
+            "Lottery Studio SYLK (*.slk);;Space-delimited Text (*.txt);;CSV Spreadsheet (*.csv)",
         )
         if path:
             if path.endswith(".slk"):

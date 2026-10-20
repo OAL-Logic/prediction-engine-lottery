@@ -1,7 +1,7 @@
 """
 Advanced Sets & Filters Dialog
 ==============================
-Provides full feature parity with SamLotto's signature advanced filters:
+Provides full feature parity with Lottery Studio's signature advanced filters:
 - Tag 24: Successive Number Filter (multi-length consecutive runs)
 - Tag 25: Range Filter (dynamic pool partition counts)
 - Tag 26: Number Groups Filter (custom ball groups & hit counts)
@@ -32,7 +32,7 @@ logger = logging.getLogger(__name__)
 
 class AdvancedFiltersDialog(QDialog):
     """
-    Modal dialog configuring SamLotto advanced sets and combinatorial rules.
+    Modal dialog configuring Lottery Studio advanced sets and combinatorial rules.
     """
 
     filters_configured = Signal(dict)
@@ -56,7 +56,7 @@ class AdvancedFiltersDialog(QDialog):
         layout.setSpacing(SPACING_MD)
 
         # Header Title
-        lbl_title = QLabel("SAMLOTTO ADVANCED SETS & COMBINATORIAL RULES")
+        lbl_title = QLabel("Lottery Studio ADVANCED SETS & COMBINATORIAL RULES")
         lbl_title.setStyleSheet(f"""
             font-family: '{FONT_MONO}';
             font-weight: 900;
@@ -286,7 +286,7 @@ class AdvancedFiltersDialog(QDialog):
 
         lbl_info = QLabel(
             "Eliminates candidate tickets that represent exact 100% matches with any past drawn "
-            "jackpot combination in the database (SamLotto Tag 38 algorithm)."
+            "jackpot combination in the database (Lottery Studio Tag 38 algorithm)."
         )
         lbl_info.setWordWrap(True)
         lbl_info.setStyleSheet(f"color: #8b9bb4; font-size: 11px;")

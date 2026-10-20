@@ -33,7 +33,7 @@ class SkipsAnalyticsCanvas(QWidget):
         layout = QVBoxLayout(self)
         layout.setContentsMargins(0, 0, 0, 0)
 
-        self.plot_widget = pg.PlotWidget(title="ACTUAL SKIPS TRAJECTORY (SAMLOTTO SIGNATURE)")
+        self.plot_widget = pg.PlotWidget(title="ACTUAL SKIPS TRAJECTORY (Lottery Studio SIGNATURE)")
         self.plot_widget.showGrid(x=True, y=True, alpha=0.3)
         self.plot_widget.setLabel('bottom', "Draw Sequence (Historical Miss Events)")
         self.plot_widget.setLabel('left', "Skip Gap Length (Draws)")

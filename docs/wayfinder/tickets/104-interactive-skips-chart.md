@@ -4,7 +4,7 @@ type: research
 status: closed
 assignee: claude
 blocked_by: ["103"]
-map: samlotto-qt-interface-map.md
+map: lottery-studio-qt-interface-map.md
 created: 2026-08-11
 ---
 
@@ -16,7 +16,7 @@ Which plotting library (pyqtgraph, QChart, or Matplotlib) should be used to disp
 
 ## Context
 
-- In the original SamLotto, clicking a column in the statistics grids triggers a drill-down skips analysis (Actual Skips sequence, Average Skip, Now Skip).
+- In the original Lottery Studio, clicking a column in the statistics grids triggers a drill-down skips analysis (Actual Skips sequence, Average Skip, Now Skip).
 - The app also displays Drawings Distributing (trend chart) and filter assistants with frequency charts.
 - The charts must load instantly, fit the dark mode QSS theme (colors, gridlines, fonts), and handle dynamic updates when the user switches game context or changes the draw history window.
 - This ticket is blocked by:

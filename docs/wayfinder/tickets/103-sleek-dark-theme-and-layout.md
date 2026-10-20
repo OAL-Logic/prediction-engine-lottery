@@ -4,7 +4,7 @@ type: prototype
 status: closed
 assignee: antigravity
 blocked_by: []
-map: samlotto-qt-interface-map.md
+map: lottery-studio-qt-interface-map.md
 created: 2026-08-11
 ---
 

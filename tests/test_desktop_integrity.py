@@ -96,7 +96,7 @@ def test_wheeling_tab_init(qapp):
     assert len(tab.key_numbers) == 0
 
 def test_position_tickets_job_combinatorics(qapp):
-    """SamLotto's 'Creating a Position Number Tickets'. Hand-verified: with
+    """Lottery Studio's 'Creating a Position Number Tickets'. Hand-verified: with
     positions {1,2} x {2,3} x {3,4}, the 8-entry raw product has 4 entries
     with a repeated number (dropped), leaving exactly {1,2,3} {1,2,4} {1,3,4}
     {2,3,4} once sorted and deduplicated."""
@@ -291,7 +291,7 @@ def test_prophet_dashboard_drawings_trend_push_to_pool_wiring(qapp):
     assert dashboard.number_grid.selected_numbers == {1, 2, 3}
 
 def test_save_and_load_favorite_numbers_round_trip(qapp, tmp_path, monkeypatch):
-    """SamLotto manual: 'Save and Load Your Own Favorite Number'."""
+    """Lottery Studio manual: 'Save and Load Your Own Favorite Number'."""
     dashboard = ProphetDashboard()
     dashboard.change_global_lottery("br/lotofacil")
     dashboard.number_grid.select_numbers([1, 7, 12, 23])
@@ -335,7 +335,7 @@ def test_load_favorite_numbers_rejects_malformed_file(qapp, tmp_path, monkeypatc
     assert len(errors) == 1
 
 def test_select_random_numbers_picks_valid_distinct_count(qapp):
-    """SamLotto manual: 'Random Select Numbers'."""
+    """Lottery Studio manual: 'Random Select Numbers'."""
     dashboard = ProphetDashboard()
     dashboard.change_global_lottery("br/lotofacil")  # pick_count=15, range 1-25
     dashboard.select_random_numbers()
@@ -353,7 +353,7 @@ def test_select_random_numbers_picks_valid_distinct_count(qapp):
     assert all(1 <= n <= 60 for n in picked2)
 
 def test_select_last_drawn_numbers(qapp, monkeypatch):
-    """SamLotto manual: quick-pick 'Last x Drawings Numbers'."""
+    """Lottery Studio manual: quick-pick 'Last x Drawings Numbers'."""
     dashboard = ProphetDashboard()
     dashboard.change_global_lottery("br/lotofacil")
 

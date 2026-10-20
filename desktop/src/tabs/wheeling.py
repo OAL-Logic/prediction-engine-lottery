@@ -193,7 +193,7 @@ class WheelingTab(QWidget):
         self.btn_generate.clicked.connect(self.generate_wheel)
         config_layout.addRow(self.btn_generate)
 
-        # A different generation mode (SamLotto's "Position" tab of Build
+        # A different generation mode (Lottery Studio's "Position" tab of Build
         # Tickets — independent candidate numbers per ticket position, not a
         # pool/key wheel) — its own dialog, not another pool-based wheel type.
         self.btn_position_tickets = QPushButton("🎯 Position Number Tickets...")

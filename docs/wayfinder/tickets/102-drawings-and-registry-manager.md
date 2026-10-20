@@ -4,7 +4,7 @@ type: research
 status: closed
 assignee: antigravity
 blocked_by: []
-map: samlotto-qt-interface-map.md
+map: lottery-studio-qt-interface-map.md
 created: 2026-08-11
 ---
 
@@ -12,11 +12,11 @@ created: 2026-08-11
 
 ## Question
 
-How should the PySide6 Drawings Manager interface with the core DuckDB database to load, insert, modify, and delete draws, and how do we implement robust import/export routines for SamLotto flat `.txt` drawing files?
+How should the PySide6 Drawings Manager interface with the core DuckDB database to load, insert, modify, and delete draws, and how do we implement robust import/export routines for Lottery Studio flat `.txt` drawing files?
 
 ## Context
 
-- In the original SamLotto Free Edition, drawings are managed via `S12 TDrawingsForm` (supporting Add, Insert, Modify, Delete, Import, Export, and weekday Splitting).
+- In the original Standard Lottery Studio, drawings are managed via `S12 TDrawingsForm` (supporting Add, Insert, Modify, Delete, Import, Export, and weekday Splitting).
 - The Python engine stores draw histories in [lottery.db](file:///mnt/c/Users/ag/Documents/Obsidian/PKM/Workspace/(P) Prediction Engine/lottery/data/lottery.db) (DuckDB) in a `draws` table containing `lottery_id`, `draw_id`, `draw_date`, and arrays of `numbers` and `bonus`.
 - The GUI must provide a high-fidelity editor that binds directly to this database while also supporting flat `.txt` drawings (which use space/tab delimited columns, e.g., `YYYY-MM-DD Num1 Num2 Num3...`) for interoperability.
 
@@ -27,15 +27,15 @@ How should the PySide6 Drawings Manager interface with the core DuckDB database 
 2. **CRUD Dialogs Design**:
    - Specify the layout and validation rules for the Add/Insert/Modify drawing dialogs (ensuring correct count, ranges, dates, and handling of bonus numbers).
 3. **Import/Export Format Specification**:
-   - Define the exact regex or parser needed to read SamLotto `.txt` drawings.
+   - Define the exact regex or parser needed to read Lottery Studio `.txt` drawings.
    - Address issues like date format variations (e.g. `YYYY-MM-DD`, `DD/MM/YYYY`, `MM/DD/YYYY`) and draw order parsing.
 4. **Weekday Splitter Logic**:
-   - Replicate SamLotto's "Split Drawings" feature, allowing the user to select specific weekdays and filter the active drawing history inside the engine, either dynamically or by exporting a subset.
+   - Replicate Lottery Studio's "Split Drawings" feature, allowing the user to select specific weekdays and filter the active drawing history inside the engine, either dynamically or by exporting a subset.
 
 ## Acceptance criteria
 
 - [x] A PySide6 table model design for DuckDB draws is specified.
-- [x] Text format specifications for importing and exporting SamLotto `.txt` drawings are documented.
+- [x] Text format specifications for importing and exporting Lottery Studio `.txt` drawings are documented.
 - [x] Validation and layout designs for the Add/Insert/Modify dialogs are outlined.
 - [x] Output is a markdown design spec linked from this ticket.
 
@@ -45,6 +45,6 @@ Resolved on 2026-08-11. See [MDR-102: Drawings and Registry Manager Design](../d
 
 ### Key Decisions
 - **Model Bindings**: Designed `DuckDBDrawsTableModel` subclassing `QAbstractTableModel` for inline CRUD and direct binding to DuckDB records.
-- **Interoperability**: Documented flat file parser specifications for SamLotto's space-delimited text drawing format (handling US date style and sorted integers).
+- **Interoperability**: Documented flat file parser specifications for Lottery Studio's space-delimited text drawing format (handling US date style and sorted integers).
 - **CRUD Operations**: Mapped out dialog layouts and validators for CRUD operations on table cells.
 - **Weekday Splitting**: Integrated weekday split selection queries.

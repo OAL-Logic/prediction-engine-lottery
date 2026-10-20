@@ -11,13 +11,13 @@ labels:
 
 ## Scope
 - Caixa betslip layout calibrator & printer (Lotofácil, Mega-Sena, Quina, Lotomania).
-- File format support: `.slk`, `.csv`, `.txt`, and SamLotto space-delimited text.
+- File format support: `.slk`, `.csv`, `.txt`, and Lottery Studio space-delimited text.
 - Bidirectional Profile JSON <-> Headless Engine YAML translation.
 - CLI subcommands `lottery cockpit` and `lottery desktop`.
 
 ## Implemented Deliverables
 1. `cockpit/src/services/file_io.py`:
-   - `TicketFileIO`: Parsers and serializers for SamLotto SYLK (`.slk`), space-delimited text (`.txt`), and CSV (`.csv`).
+   - `TicketFileIO`: Parsers and serializers for Lottery Studio SYLK (`.slk`), space-delimited text (`.txt`), and CSV (`.csv`).
    - `ProfileManager`: Bidirectional save/load of native desktop `.json` profiles and headless engine CLI `.yaml` profiles.
 2. `cockpit/src/perspectives/printer/`:
    - `models.py`: `BetslipTemplate` and official Brazilian Caixa Econômica Federal presets (`Caixa Lotofácil`, `Caixa Mega-Sena`, `Caixa Quina`, `Caixa Lotomania`, `Caixa Dupla Sena`) with sub-millimeter coordinates and hardware compensation.

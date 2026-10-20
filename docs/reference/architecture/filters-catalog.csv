@@ -1,0 +1,70 @@
+Tag,EngineType,Caption,DefaultCondition,IncludePos
+1,base,Odd Count,1-5,1 2 3 4 5
+2,base,Even Count,0-4,1 2 3 4 5
+3,base,High Count,0-5,1 2 3 4 5
+4,base,Low Count,0-5,1 2 3 4 5
+5,base,Prime Count,0-3,1 2 3 4 5
+6,base,Number Sum,96-271,1 2 3 4 5
+7,base,Average Value,19-54,1 2 3 4 5
+8,base,Unit Number Sum,15-37,1 2 3 4 5
+9,base,Unit Number Different Number Count,3-5,1 2 3 4 5
+10,base,Successive,0-2,1 2 3 4 5
+11,base,Successive Groups,0-2,1 2 3 4 5
+12,base,Odd Successive,0-5,1 2 3 4 5
+13,base,Even Successive,0-4,1 2 3 4 5
+14,base,Minimum Number,1-42,1 2 3 4 5
+15,base,Maximum Number,37-80,1 2 3 4 5
+16,base,First-Last Distance,16-76,1 2 3 4 5
+17,base,Max Distance,8-47,1 2 3 4 5
+18,base,Average Distance,4-19,1 2 3 4 5
+19,base,Different Distance,2-4,1 2 3 4 5
+20,base,AC,2-6,1 2 3 4 5
+21,base,Same Last Drawn,0-2,1 2 3 4 5
+22,advanced-bundle,Adv Number Count,......,1 2 3 4 5
+23,advanced-bundle,Adv Number Sum,......,1 2 3 4 5
+24,advanced-bundle,Successive Number Filter,......,1 2 3 4 5
+25,advanced-set,Range Filter,......,1 2 3 4 5
+26,advanced-set,Number Groups Filter,......,1 2 3 4 5
+27,advanced-set,Must Contain the Numbers,......,1 2 3 4 5
+28,advanced-set,Locked Numbers,......,1 2 3 4 5
+29,advanced-set,Divided by 3,......,1 2 3 4 5
+30,advanced-set,Divided by 4,......,1 2 3 4 5
+31,advanced-set,Divided by 5,......,1 2 3 4 5
+32,advanced-set,Divided by 6,......,1 2 3 4 5
+33,advanced-set,Divided by 7,......,1 2 3 4 5
+34,advanced-set,Divided by 8,......,1 2 3 4 5
+35,advanced-set,Divided by 9,......,1 2 3 4 5
+36,advanced-set,Divided by 10,......,1 2 3 4 5
+37,advanced-set,Multiple Filter,......,1 2 3 4 5
+38,advanced-set,Delete History Drawings,......,1 2 3 4 5
+39,advanced-set,Hot-Cold Filter,......,1 2 3 4 5
+40,advanced-special,Difference Filter,,
+41,base,Sum Value Even Odd,0-1,1 2 3 4 5
+42,base,Unit Number Group Count,2-4,1 2 3 4 5
+43,base,Decade Group Count,1-4,1 2 3 4 5
+44,base,Different Decade Count,2-5,1 2 3 4 5
+45,base,Same End Units with Last Drawn,0-2,1 2 3 4 5
+46,base,High Units Count,0-4,1 2 3 4 5
+47,base,Odd Units Count,2-5,1 2 3 4 5
+48,base,Lowest 4 Units Count,0-4,1 2 3 4 5
+49,base,Successive Paired Units Count,0-2,1 2 3 4 5
+50,base,Pairs Count Odd and Even Units,0-4,1 2 3 4 5
+51,base,InterChangeable Units Count,2-5,1 2 3 4 5
+52,base,Count for 1 2 3 Units,0-7,1 2 3 4 5
+53,base,Even Units Count,1-4,1 2 3 4 5
+54,base,Pairs Count Even Units Only,0-3,1 2 3 4 5
+55,base,Pairs Count for 1 2 3 Units,0-2,1 2 3 4 5
+56,base,Successive End Units,0-4,1 2 3 4 5
+57,base,Pairs Count Odd units Only,0-3,1 2 3 4 5
+58,base,Units (0) Number Count,0-3,1 2 3 4 5
+59,base,Units (1) Number Count,0-3,1 2 3 4 5
+60,base,Units (2) Number Count,0-3,1 2 3 4 5
+61,base,Units (3) Number Count,0-3,1 2 3 4 5
+62,base,Units (4) Number Count,0-4,1 2 3 4 5
+63,base,Units (5) Number Count,0-3,1 2 3 4 5
+64,base,Units (6) Number Count,0-3,1 2 3 4 5
+65,base,Units (7) Number Count,0-4,1 2 3 4 5
+66,base,Units (8) Number Count,0-2,1 2 3 4 5
+67,base,Units (9) Number Count,0-2,1 2 3 4 5
+68,base,Root Sum,4-17,1 2 3 4 5
+69,base,First and Second Unit Sum,24-60,1 2 3 4 5

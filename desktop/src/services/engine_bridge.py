@@ -3,7 +3,7 @@ Engine Bridge Service
 =====================
 Decoupled service layer connecting the PySide6 Desktop application to the
 underlying headless computational engine (`engine/`) and registry.
-Provides full feature parity with SamLotto's 68-filter catalog, Fault Tolerance
+Provides full feature parity with Lottery Studio's 68-filter catalog, Fault Tolerance
 Engine, historical draw access, actual skips analytics, and covering wheel solver.
 """
 
@@ -114,7 +114,7 @@ class EngineBridge:
 
     def compute_skips_analysis(self, game_id: str, target_number: Optional[int] = None) -> Dict[str, Any]:
         """
-        Calculates signature SamLotto metrics:
+        Calculates signature Lottery Studio metrics:
         - Actual Skips: chronological sequence of gap lengths between hits.
         - Average Skips: mean gap length.
         - Now Skip: count of draws since last appearance.
@@ -188,7 +188,7 @@ class EngineBridge:
         last_n_draws: int = 30
     ) -> Dict[str, Tuple[float, float]]:
         """
-        Reverse-Engineered SamLotto 'Auto-Generate Default Condition':
+        Reverse-Engineered Lottery Studio 'Auto-Generate Default Condition':
         Calculates observed min and max for each filter across the last N historical draws.
         """
         df = self.get_draws(game_id, limit=last_n_draws)
@@ -267,12 +267,12 @@ class EngineBridge:
         return fitted_ranges
 
     # -------------------------------------------------------------------------
-    # 68-Filter Catalog (Complete SamLotto Reverse-Engineered Schema)
+    # 68-Filter Catalog (Complete Lottery Studio Reverse-Engineered Schema)
     # -------------------------------------------------------------------------
 
     def load_catalog_filters(self, game: Optional[GameSchema] = None) -> List[FilterNode]:
         """
-        Loads the exhaustive 68-filter catalog reverse-engineered from SamLotto:
+        Loads the exhaustive 68-filter catalog reverse-engineered from Lottery Studio:
         - 50 Base Filters (Tags 1-21, 41-69)
         - 18/19 Advanced Filters (Tags 22-40)
         Scales default parameters dynamically to active game pick count and pool size.

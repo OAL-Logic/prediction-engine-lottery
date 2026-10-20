@@ -1,8 +1,8 @@
 """
-Import SamLotto Drawings Command 📥
+Import Lottery Studio Drawings Command 📥
 ===================================
-SamLotto's "Import Drawings (TXT)" equivalent (Feature A8):
-Ingests flat, space-delimited SamLotto draw files (e.g. M/D/YYYY date format)
+Lottery Studio's "Import Drawings (TXT)" equivalent (Feature A8):
+Ingests flat, space-delimited Lottery Studio draw files (e.g. M/D/YYYY date format)
 directly into the high-performance local DuckDB / Partitioned JSON storage.
 """
 
@@ -16,17 +16,17 @@ from rich.console import Console
 
 from engine.cli.utils import get_adapter, ui_header, ui_table
 from engine.modules.storage import storage
-from desktop.src.utils.converter import parse_samlotto_txt
+from desktop.src.utils.converter import parse_studio_txt
 
 console = Console()
 
 
-def import_samlotto(
+def import_drawings(
     lottery: Annotated[str, typer.Argument(help="Lottery name [Required], e.g. br/mega-sena")],
-    file_path: Annotated[Path, typer.Argument(help="Path to SamLotto space-delimited .txt file")],
+    file_path: Annotated[Path, typer.Argument(help="Path to Lottery Studio space-delimited .txt file")],
     dry_run: Annotated[bool, typer.Option("--dry-run", help="Validate and preview only — do not write to storage")] = False,
 ) -> None:
-    """📥 Ingest historical lottery drawings from a SamLotto flat .txt file."""
+    """📥 Ingest historical lottery drawings from a Lottery Studio flat .txt file."""
 
     if not file_path.exists():
         console.print(f"[red]✗ File not found: {file_path}[/red]")
@@ -36,14 +36,14 @@ def import_samlotto(
     rules = adapter.rules
 
     content = file_path.read_text(encoding="utf-8", errors="replace")
-    parsed_draws = parse_samlotto_txt(
+    parsed_draws = parse_studio_txt(
         file_content=content,
         pick_count=rules.pick_count,
         bonus_count=rules.bonus_count,
     )
 
     if not parsed_draws:
-        console.print(f"[yellow]⚠ No valid draws parsed from {file_path}. Ensure it follows SamLotto 'M/D/YYYY N1 N2...' format.[/yellow]")
+        console.print(f"[yellow]⚠ No valid draws parsed from {file_path}. Ensure it follows Lottery Studio 'M/D/YYYY N1 N2...' format.[/yellow]")
         raise typer.Exit(1)
 
     # Ingest into engine storage if not dry run
@@ -51,7 +51,7 @@ def import_samlotto(
         storage.save_draws(lottery, parsed_draws)
 
     status_note = " (dry-run preview)" if dry_run else " ingested"
-    ui_header("SAMLOTTO DRAWINGS IMPORT", f"{rules.name} · {len(parsed_draws)} records{status_note}")
+    ui_header("Lottery Studio DRAWINGS IMPORT", f"{rules.name} · {len(parsed_draws)} records{status_note}")
 
     table = ui_table("Import Details", ["Property", "Value"])
     table.add_row("Source File", str(file_path))

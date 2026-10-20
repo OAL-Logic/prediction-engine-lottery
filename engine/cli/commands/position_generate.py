@@ -1,7 +1,7 @@
 """
 Positional Ticket Generator Command 🎯
 ======================================
-SamLotto's "Creating a Position Number Tickets" equivalent (Feature C3):
+Lottery Studio's "Creating a Position Number Tickets" equivalent (Feature C3):
 Independently specify a candidate-number list for each ticket slot/position,
 then generate every valid ticket from the Cartesian product of those lists
 (distinct numbers only, sorted into the final ticket).

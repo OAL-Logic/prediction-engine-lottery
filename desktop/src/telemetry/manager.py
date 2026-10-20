@@ -366,7 +366,7 @@ class SkipsJob(QThread):
 class FormulaVerificationJob(QThread):
     """
     Verification Desk 'Formula Leaderboard': walk-forward backtests each
-    candidate strategy ('formula', in SamLotto's terms) over the last
+    candidate strategy ('formula', in Lottery Studio's terms) over the last
     `depth` historical draws and ranks them by win rate / capture rate.
 
     Thin QThread wrapper around engine.services.backtest.run_backtest() —
