@@ -1,5 +1,35 @@
 # Lottery Studio-qt-interface-spec
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · [⬅️ Lottery Studio-qt-interface-map](lottery-studio-qt-interface-map.md) · [Pick 3 Tic-Tac-Toe Generator  Free Lottery Software ➡️](pick-3-tic-tac-toe-generator-free-lottery-software.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [Problem Statement](#problem-statement)
+- [Solution](#solution)
+- [User Stories](#user-stories)
+  - [A. Drawings & Game Management](#a-drawings-game-management)
+  - [B. Statistical Analysis](#b-statistical-analysis)
+  - [C. Ticket Generation](#c-ticket-generation)
+  - [D. Filtering](#d-filtering)
+  - [E. Prediction & Verification](#e-prediction-verification)
+  - [F. Ticket Store Workspace](#f-ticket-store-workspace)
+- [Implementation Decisions](#implementation-decisions)
+  - [1. Architectural Integration](#1-architectural-integration)
+  - [2. Concurrency & Concurrency Model (MDR-101)](#2-concurrency-concurrency-model-mdr-101)
+  - [3. Database CRUD & Converter bindings (MDR-102)](#3-database-crud-converter-bindings-mdr-102)
+  - [4. Layout & UI Controls](#4-layout-ui-controls)
+- [Testing Decisions](#testing-decisions)
+  - [1. Headless GUI & Integration Testing](#1-headless-gui-integration-testing)
+  - [2. Module Test Coverage](#2-module-test-coverage)
+- [Out of Scope](#out-of-scope)
+- [Further Notes](#further-notes)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 # Product Requirement Document (PRD): Lottery Studio PySide6 Modern Cockpit
 
 * **Status**: Proposed / Ready for Triage (`ready-for-agent`)
@@ -154,3 +184,6 @@ def compute_ac_value(ticket: list[int]) -> int:
     diffs = {abs(a - b) for i, a in enumerate(ticket) for b in ticket[i + 1 :]}
     return len(diffs) - (k - 1)
 ```
+
+---
+> **Next Steps**: [⬅️ Lottery Studio-qt-interface-map](lottery-studio-qt-interface-map.md) · [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [Pick 3 Tic-Tac-Toe Generator  Free Lottery Software ➡️](pick-3-tic-tac-toe-generator-free-lottery-software.md)

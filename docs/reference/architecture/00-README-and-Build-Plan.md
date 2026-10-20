@@ -1,5 +1,28 @@
 # Lottery Studio — Complete Feature Extraction & Rebuild Plan
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 01. Architecture & Data Structures](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · Start · [01 — Complete Feature Inventory ➡️](01-Feature-Inventory.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [Document set](#document-set)
+- [Product editions (feature gates)](#product-editions-feature-gates)
+- [The app at a glance (6 subsystems)](#the-app-at-a-glance-6-subsystems)
+- [Phased rebuild plan](#phased-rebuild-plan)
+  - [Phase 1 — Data foundation (game model + results store)](#phase-1-data-foundation-game-model-results-store)
+  - [Phase 2 — Statistical analysis engine](#phase-2-statistical-analysis-engine)
+  - [Phase 3 — Ticket generation](#phase-3-ticket-generation)
+  - [Phase 4 — Filtering engine (the core value)](#phase-4-filtering-engine-the-core-value)
+  - [Phase 5 — Wheeling systems](#phase-5-wheeling-systems)
+  - [Phase 6 — Prediction & verification](#phase-6-prediction-verification)
+  - [Phase 7 — Tickets lifecycle & output](#phase-7-tickets-lifecycle-output)
+  - [Cross-cutting](#cross-cutting)
+- [How to read the algorithm docs](#how-to-read-the-algorithm-docs)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 > **What this is.** A full, evidence-based extraction of every feature, math
 > algorithm, strategy, filter, and concept in **Standard Lottery Studio**
 > (product lineage: *Lottery Analysis Studio*, "a true winning tool since 2003"),
@@ -153,3 +176,6 @@ Every filter/stat entry uses this shape so it's directly implementable:
 > **Name** — *what it measures* · **Formula/rule** · **Worked example** · **Used by** (analysis / filter / prediction).
 
 See `02` and `03` for the full catalog.
+
+---
+> **Next Steps**: Start · [🏠 Reference Hub](../INDEX.md) · [📂 01. Architecture & Data Structures](INDEX.md) · [01 — Complete Feature Inventory ➡️](01-Feature-Inventory.md)

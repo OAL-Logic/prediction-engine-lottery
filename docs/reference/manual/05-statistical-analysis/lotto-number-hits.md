@@ -1,5 +1,17 @@
 # Lotto Number Hits Analysis
 
+> **Navigation**: [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [🌐 Dynamic Portal](../../dynamic-portal.html) · [⬅️ Locked Number Analysis](locked-number.md) · [Low-High Analysis ➡️](low-high.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [Statistical Analysis Numbers Hits & Skips](#statistical-analysis-numbers-hits-skips)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 > **Category:** 18 Statistical Analysis Methods (`05-statistical-analysis`)
 
 ## Statistical Analysis Numbers Hits & Skips
@@ -65,3 +77,6 @@ def evaluate_filter_suite(
         return lo <= passed <= hi
     return True
 ```
+
+---
+> **Next Steps**: [⬅️ Locked Number Analysis](locked-number.md) · [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [Low-High Analysis ➡️](low-high.md)

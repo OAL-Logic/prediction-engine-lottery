@@ -1,5 +1,20 @@
 # How to Optimize Tickets with Odd-Even Pattern and Low-High Pattern
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · [⬅️ How to Generate Pick 3 Pick 4 Lottery Combinations](how-to-generate-pick-3-pick-4-lottery-combinations.md) · [How to Set Filter Fault Tolerance to Avoid Losing the Big Prize ➡️](how-to-set-filter-fault-tolerance-to-avoid-losing-the-big-prize.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+  - [What is Odd-Even Pattern and Low-High Pattern？](#what-is-odd-even-pattern-and-low-high-pattern)
+  - [Statistics and Analysis Past Drawings Odd-Even Pattern and Low-High Pattern](#statistics-and-analysis-past-drawings-odd-even-pattern-and-low-high-pattern)
+  - [How to Optimize Tickets](#how-to-optimize-tickets)
+  - [Summary](#summary)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 ### What is Odd-Even Pattern and Low-High Pattern？
 
 In a ticket, the odd number is marked by the first letter O of Odd and the even number is marked by the first letter E of Odd, and then identify the even-odd pattern using the EOE or EEO pattern, etc. In addition, the High and low would also read in this way such as HHH or LLL, etc.
@@ -90,3 +105,6 @@ def evaluate_filter_suite(
         return lo <= passed <= hi
     return True
 ```
+
+---
+> **Next Steps**: [⬅️ How to Generate Pick 3 Pick 4 Lottery Combinations](how-to-generate-pick-3-pick-4-lottery-combinations.md) · [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [How to Set Filter Fault Tolerance to Avoid Losing the Big Prize ➡️](how-to-set-filter-fault-tolerance-to-avoid-losing-the-big-prize.md)

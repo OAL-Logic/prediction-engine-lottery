@@ -1,5 +1,23 @@
 # EPIC 4 — Filtering Engine (the core value)
 
+> **Navigation**: [🏠 Reference Hub](../../INDEX.md) · [📂 04. Clean-Room Engineering Epics](../INDEX.md) · [🌐 Dynamic Portal](../../dynamic-portal.html) · [⬅️ EPIC 3 — Ticket Generation](EPIC-3-generation.md) · [EPIC 5 — Wheeling Systems ➡️](EPIC-5-wheeling.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [F4.1 — Filter framework](#f4-1-filter-framework)
+- [F4.2 — Base filters (50)](#f4-2-base-filters-50)
+- [F4.3 — Advanced filters (19)](#f4-3-advanced-filters-19)
+- [F4.4 — Logic combinator (AND / OR / N-of-M)](#f4-4-logic-combinator-and-or-n-of-m)
+- [F4.5 — Auto-parameter generation](#f4-5-auto-parameter-generation)
+- [F4.6 — Filter assistant + report](#f4-6-filter-assistant-report)
+- [F4.7 — Filtering UI](#f4-7-filtering-ui)
+  - [Epic 4 exit criteria](#epic-4-exit-criteria)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 **Goal:** 69 filters (50 base + 19 advanced), each a predicate over a combination,
 combinable by AND / OR / N-of-M, with auto-parameters from history, an assistant,
 and a report. **Verified source:** Doc 03, `../../Documentation/filters-catalog.csv`
@@ -130,3 +148,6 @@ scope, click Start Filtering, and the pool is cut with a report.
 ### Epic 4 exit criteria
 All 69 filters registered + tested; AND/OR/N-of-M correct; auto-params match Doc 03;
 Flow-4 verified end-to-end with a reconciling report.
+
+---
+> **Next Steps**: [⬅️ EPIC 3 — Ticket Generation](EPIC-3-generation.md) · [🏠 Reference Hub](../../INDEX.md) · [📂 04. Clean-Room Engineering Epics](../INDEX.md) · [EPIC 5 — Wheeling Systems ➡️](EPIC-5-wheeling.md)

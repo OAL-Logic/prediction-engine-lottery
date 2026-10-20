@@ -1,5 +1,26 @@
 # 03 — Filters Reference (68 filters: 50 base + 18 advanced)
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 01. Architecture & Data Structures](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · [⬅️ 02 — Statistical Analysis Reference (every method + exact math)](02-Statistical-Analysis-Reference.md) · [04 — Wheeling Systems (covering designs) ➡️](04-Wheeling-Systems.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [How filters work (shared mechanics)](#how-filters-work-shared-mechanics)
+- [Base filters (50)](#base-filters-50)
+  - [Count filters](#count-filters)
+  - [Sum / average](#sum-average)
+  - [Successive](#successive)
+  - [Extremes / distance](#extremes-distance)
+  - [Complexity / repeats](#complexity-repeats)
+  - [Decade / group structure](#decade-group-structure)
+  - [Unit / digit filters (map to doc 02 §18)](#unit-digit-filters-map-to-doc-02-18)
+- [Advanced filters (18)](#advanced-filters-18)
+- [Implementation contract (for rebuild)](#implementation-contract-for-rebuild)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 A **filter** is a predicate over a candidate combination. If a line fails a
 selected filter, it is removed from the ticket pool. Filters are the app's core
 value: "play more numbers, save money."
@@ -143,3 +164,6 @@ Engine.run(pool, selectedFilters, mode) where mode ∈ {AND, OR, {n,m}}:
 ```
 
 Auto-params: `defaults(filter, range) = observedMinMax(filter.metric over lastN draws)`.
+
+---
+> **Next Steps**: [⬅️ 02 — Statistical Analysis Reference (every method + exact math)](02-Statistical-Analysis-Reference.md) · [🏠 Reference Hub](../INDEX.md) · [📂 01. Architecture & Data Structures](INDEX.md) · [04 — Wheeling Systems (covering designs) ➡️](04-Wheeling-Systems.md)

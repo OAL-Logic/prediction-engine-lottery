@@ -1,5 +1,30 @@
 # 18 Advanced Filters Most Detailed Introduction(2022 Updated)
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · [⬅️ 0002-modern-Lottery Studio-desktop-cockpit-architecture](0002-modern-lottery-studio-desktop-cockpit-architecture.md) · [52 Base Lottery Filters Detailed Introduction(2022 Updated) ➡️](52-base-lottery-filters-detailed-introduction-2022-updated.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [1\. Adv Number Count](#1-adv-number-count)
+- [2\. Adv Number Sum](#2-adv-number-sum)
+- [3\. Successive Number Filter](#3-successive-number-filter)
+- [4\. Range Filter](#4-range-filter)
+- [5\. Number Groups Filter](#5-number-groups-filter)
+- [6\. Must Contain Numbers](#6-must-contain-numbers)
+- [7\. Locked Nunber](#7-locked-nunber)
+- [8\. Divided by 3](#8-divided-by-3)
+- [9\. Divided by 4](#9-divided-by-4)
+- [Divided by 5 to Divided by 10](#divided-by-5-to-divided-by-10)
+- [16\. Multiple Filter](#16-multiple-filter)
+- [17\. Delete History Drawings](#17-delete-history-drawings)
+- [18\. Hot-Cold Filter](#18-hot-cold-filter)
+- [Summary](#summary)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 The filter is a very useful feature that can help us eliminate bad tickets. Our software provides advanced filtering methods all not available in any other lottery programs. All filters provide auxiliary tools that make it very easy to set filter condition parameters. For base filters conditions, please visit [[Clippings - lottery-studio.example - 52 Base Lottery Filters Detailed Introduction(2022 Updated) - 2026-04-28|52 Base Filters]].
 
 For more information on [[Clippings - lottery-studio.example - How to Use Lottery Analysis Studio Filters to Eliminate Bad Tickets - 2026-05-06|how to use the advanced filters]] and how to set the filter condition parameters please refer to our other articles.
@@ -197,3 +222,6 @@ def evaluate_number_groups_filter(
     satisfied = sum(1 for grp, lo, hi in groups if lo <= len(t_set & grp) <= hi)
     return min_groups_matched <= satisfied <= max_groups_matched
 ```
+
+---
+> **Next Steps**: [⬅️ 0002-modern-Lottery Studio-desktop-cockpit-architecture](0002-modern-lottery-studio-desktop-cockpit-architecture.md) · [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [52 Base Lottery Filters Detailed Introduction(2022 Updated) ➡️](52-base-lottery-filters-detailed-introduction-2022-updated.md)

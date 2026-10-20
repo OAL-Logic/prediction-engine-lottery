@@ -1,5 +1,22 @@
 # How to Use Lottery Analysis Studio Filters to Eliminate Bad Tickets
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · [⬅️ How to Set Filter Fault Tolerance to Avoid Losing the Big Prize](how-to-set-filter-fault-tolerance-to-avoid-losing-the-big-prize.md) · [How to Use Lottery Software to Analyze History Results ➡️](how-to-use-lottery-software-to-analyze-history-results.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [Automatic Generation of Filter Parameters Through Historical Drawings Results](#automatic-generation-of-filter-parameters-through-historical-drawings-results)
+- [Set Filter Parameters Manually](#set-filter-parameters-manually)
+- [How to Set Advanced Condition Parameters](#how-to-set-advanced-condition-parameters)
+- [Use Several Filters at the Same Time](#use-several-filters-at-the-same-time)
+- [The Following Video Demonstrates How to use Lottery Studio to Filtered Out Bad Tickets](#the-following-video-demonstrates-how-to-use-lottery-studio-to-filtered-out-bad-tickets)
+- [Summary](#summary)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 **Lottery Studio** **lottery software** provides [50 base filters](https://example.org/lottery-studio) and [18 advanced filters](https://example.org/lottery-studio). Professional lottery players know that filter is a very useful feature that can help us eliminate a lot of bad tickets. Using filters can play more numbers and save you money!
 
 This article will explain in detail how to use filters, if you want to know how to use multiple filters at the same time, generate filter parameters automatically and set filter parameters manually. Please continue reading…
@@ -100,3 +117,6 @@ def evaluate_filter_suite(
         return lo <= passed <= hi
     return True
 ```
+
+---
+> **Next Steps**: [⬅️ How to Set Filter Fault Tolerance to Avoid Losing the Big Prize](how-to-set-filter-fault-tolerance-to-avoid-losing-the-big-prize.md) · [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [How to Use Lottery Software to Analyze History Results ➡️](how-to-use-lottery-software-to-analyze-history-results.md)

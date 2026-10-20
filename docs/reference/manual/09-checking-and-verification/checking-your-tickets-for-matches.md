@@ -1,5 +1,17 @@
 # Check Winning
 
+> **Navigation**: [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [🌐 Dynamic Portal](../../dynamic-portal.html) · [⬅️ Sum Analysis](../08-optimization-and-search/search-past-drawings-introduction.md) · [Technical Support ➡️](technical-support.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [Check Winning](#check-winning)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 > **Category:** Prize Tier & Winning Ticket Verification (`09-checking-and-verification`)
 
 ## Check Winning
@@ -93,3 +105,6 @@ def evaluate_filter_suite(
         return lo <= passed <= hi
     return True
 ```
+
+---
+> **Next Steps**: [⬅️ Sum Analysis](../08-optimization-and-search/search-past-drawings-introduction.md) · [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [Technical Support ➡️](technical-support.md)

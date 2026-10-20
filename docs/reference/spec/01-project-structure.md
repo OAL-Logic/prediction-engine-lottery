@@ -1,5 +1,19 @@
 # 01 — Project Structure & Function Context
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 04. Clean-Room Engineering Epics](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · [⬅️ Lottery Studio Rebuild — Build-Ready Specification](00-INDEX.md) · [02 — Conventions: the Prompt Template, Quality Gate & Definition of Done ➡️](02-conventions.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [Monorepo layout](#monorepo-layout)
+- [Dependency rule (enforced)](#dependency-rule-enforced)
+- [Context for every major function (deep-module map)](#context-for-every-major-function-deep-module-map)
+- [Core value types (shared across modules)](#core-value-types-shared-across-modules)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 The structure encodes the architecture from `../Documentation/07`: a **pure domain
 core** wrapped by an application layer, fed by swappable data adapters, presented by
 a desktop shell. Design vocabulary follows `/codebase-design`: we build **deep
@@ -108,3 +122,6 @@ interface Ctx { history: Draw[]; range: Range; positions: number[]; M: number; k
 
 > The `Ctx` object is the single source of truth passed to every metric/filter —
 > build it once per screen and thread it everywhere (Doc 02, Doc 03 contract).
+
+---
+> **Next Steps**: [⬅️ Lottery Studio Rebuild — Build-Ready Specification](00-INDEX.md) · [🏠 Reference Hub](../INDEX.md) · [📂 04. Clean-Room Engineering Epics](INDEX.md) · [02 — Conventions: the Prompt Template, Quality Gate & Definition of Done ➡️](02-conventions.md)

@@ -1,5 +1,21 @@
 # Win Brazil Mega Sena Lottery Ultimate Guide
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · [⬅️ Why use the WRG](why-use-the-wrg.md) · [Lottery Studio Rebuild — Build-Ready Specification ➡️](../spec/00-INDEX.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [Brazil Mega Sena Lottery Details](#brazil-mega-sena-lottery-details)
+- [Win Brazil Mega Sena Winning Strategies and Tips](#win-brazil-mega-sena-winning-strategies-and-tips)
+  - [Use the Following Pattern to Play Brazil Mega Sena](#use-the-following-pattern-to-play-brazil-mega-sena)
+  - [Do Not Use The Following Pattern to Play Brazil Mega Sena](#do-not-use-the-following-pattern-to-play-brazil-mega-sena)
+- [Use Lottery Strategy Software to Win Brazil Mega Sena](#use-lottery-strategy-software-to-win-brazil-mega-sena)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 **Mega-Sena** pays millions to the winner of the 6 numbers drawn. It is still possible to win prizes by hitting 4 or 5 numbers out of the 60 available on the betting wheel. To realize the dream of being the next millionaire, you must dial 6 to 15 numbers from the wheel, being able to let the system choose the numbers for you (Surprise) and/or compete with the same bet for 2, 4, or 8 consecutive contests (Stubborn).  
   
 Mega-Sena draws are held twice a week, on Wednesdays and Saturdays. In order to adapt the Mega da Virada contest number, which must end 0 or 5, Mega-Weeks were created which are exclusive to Mega-Sena. The draws take place on predetermined dates throughout the year. On the occasion, three weekly contests are held, on Tuesdays, Thursdays, and Saturdays. Check the draw schedule or Important Announcements.  
@@ -123,3 +139,6 @@ def evaluate_filter_suite(
         return lo <= passed <= hi
     return True
 ```
+
+---
+> **Next Steps**: [⬅️ Why use the WRG](why-use-the-wrg.md) · [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [Lottery Studio Rebuild — Build-Ready Specification ➡️](../spec/00-INDEX.md)

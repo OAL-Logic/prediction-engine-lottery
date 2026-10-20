@@ -1,5 +1,18 @@
 # 90 — Build Order (start-to-finish sequence)
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 04. Clean-Room Engineering Epics](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · [⬅️ 02 — Conventions: the Prompt Template, Quality Gate & Definition of Done](02-conventions.md) · [99 — Weekly Maintenance Protocol ➡️](99-maintenance-protocol.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [Dependency graph (epics)](#dependency-graph-epics)
+- [Ordered checklist](#ordered-checklist)
+- [Global exit criteria (the destination)](#global-exit-criteria-the-destination)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 The exact order to implement, with dependencies and milestones. Each feature runs
 its 5-stage chain (`02-conventions.md`) and must pass its quality gate before the
 next. Build core-first, UI-per-epic-last, cross-cutting alongside.
@@ -48,3 +61,6 @@ flowchart TD
 - [ ] The verified fixtures (`../Documentation/10-Validation-Report.md`) pass in CI (statistics parity).
 - [ ] The core package imports no I/O/UI (enforced by a lint rule).
 - [ ] A user can run Flow-0 start to finish in the built app.
+
+---
+> **Next Steps**: [⬅️ 02 — Conventions: the Prompt Template, Quality Gate & Definition of Done](02-conventions.md) · [🏠 Reference Hub](../INDEX.md) · [📂 04. Clean-Room Engineering Epics](INDEX.md) · [99 — Weekly Maintenance Protocol ➡️](99-maintenance-protocol.md)

@@ -1,5 +1,17 @@
 # Successive Analysis
 
+> **Navigation**: [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [🌐 Dynamic Portal](../../dynamic-portal.html) · [⬅️ Range Analysis](range.md) · [Sum Analysis ➡️](sum.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [Successive Analysis](#successive-analysis)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 > **Category:** 18 Statistical Analysis Methods (`05-statistical-analysis`)
 
 ﻿
@@ -101,3 +113,6 @@ def compute_successive_metrics(ticket_in_draw_order: list[int]) -> dict[str, int
         "even_successive": even_len,
     }
 ```
+
+---
+> **Next Steps**: [⬅️ Range Analysis](range.md) · [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [Sum Analysis ➡️](sum.md)

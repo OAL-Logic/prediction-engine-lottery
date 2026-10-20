@@ -1,5 +1,18 @@
 # Using Lottery Software to Win the Powerball Jackpot
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · [⬅️ Using Lottery Software to Win Mega Millions Jackpot](using-lottery-software-to-win-mega-millions-jackpot.md) · [What is AC Value and How to Use it to Win the Lottery ➡️](what-is-ac-value-and-how-to-use-it-to-win-the-lottery.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [How to Use Lottery Analysis Studio to Win Powerball BIG Prizes](#how-to-use-lottery-analysis-studio-to-win-powerball-big-prizes)
+- [Summary](#summary)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 How do you generate **Powerball** combinations, analyze drawings results, and eliminate low probability combinations? Calculations with calculators and Excel sheets are impractical and will take a lot of time! you need full-featured professional **lottery tools**.
 
 Today I’ll show you how to use Lottery Studio **lottery software** to Step by step guide to Winning the Powerball Lottery Jackpot!
@@ -90,3 +103,6 @@ def compute_ac_value(ticket: list[int]) -> int:
     diffs = {abs(a - b) for i, a in enumerate(ticket) for b in ticket[i + 1 :]}
     return len(diffs) - (k - 1)
 ```
+
+---
+> **Next Steps**: [⬅️ Using Lottery Software to Win Mega Millions Jackpot](using-lottery-software-to-win-mega-millions-jackpot.md) · [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [What is AC Value and How to Use it to Win the Lottery ➡️](what-is-ac-value-and-how-to-use-it-to-win-the-lottery.md)

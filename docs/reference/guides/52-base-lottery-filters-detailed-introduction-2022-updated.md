@@ -1,5 +1,63 @@
 # 52 Base Lottery Filters Detailed Introduction(2022 Updated)
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · [⬅️ 18 Advanced Filters Most Detailed Introduction(2022 Updated)](18-advanced-filters-most-detailed-introduction-2022-updated.md) · [A Universal Filter – Number Groups Filter ➡️](a-universal-filter-number-groups-filter.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [1\. Odd Count](#1-odd-count)
+- [2\. Even Count](#2-even-count)
+- [3\. High Count](#3-high-count)
+- [4\. Low Count](#4-low-count)
+- [5\. Prime Count](#5-prime-count)
+- [6\. Number Sum](#6-number-sum)
+- [7\. Average Value](#7-average-value)
+- [8\. Unit Number Sum](#8-unit-number-sum)
+- [9\. Unit Number Different Number](#9-unit-number-different-number)
+- [10\. Successive](#10-successive)
+- [11\. Successive Groups](#11-successive-groups)
+- [12\. Odd Successive](#12-odd-successive)
+- [13\. Even Successive](#13-even-successive)
+- [14\. Minimum Number](#14-minimum-number)
+- [15\. Maximum Number](#15-maximum-number)
+- [16\. First-Last Distance](#16-first-last-distance)
+- [17\. Max Distance](#17-max-distance)
+- [18\. Average Distance](#18-average-distance)
+- [19\. Different Distance](#19-different-distance)
+- [20\. AC](#20-ac)
+- [21\. Same Last Drawn](#21-same-last-drawn)
+- [22\. Sum Value Even Odd](#22-sum-value-even-odd)
+- [23\. Unit Number Group Count](#23-unit-number-group-count)
+- [24\. Decade Group Count](#24-decade-group-count)
+- [25\. Different Decade Count](#25-different-decade-count)
+- [26\. Same End Units with Last Drawn](#26-same-end-units-with-last-drawn)
+- [27\. High Units Count](#27-high-units-count)
+- [28\. Odd Units Count](#28-odd-units-count)
+- [29\. Lowest 4 Units Count](#29-lowest-4-units-count)
+- [30\. Successive Paired Units Count](#30-successive-paired-units-count)
+- [31\. Pairs Count Odd and Even Units](#31-pairs-count-odd-and-even-units)
+- [32\. InterChangeable Units Count](#32-interchangeable-units-count)
+- [33\. Count for 1 2 3 Units](#33-count-for-1-2-3-units)
+- [34\. Even Units Count](#34-even-units-count)
+- [35\. Pairs Count Even Units Only](#35-pairs-count-even-units-only)
+- [36\. Pairs Count for 1 2 3 Units](#36-pairs-count-for-1-2-3-units)
+- [37\. Successive End Units](#37-successive-end-units)
+- [38\. Pairs Count Odd units Only](#38-pairs-count-odd-units-only)
+- [39\. Units (0) Number Count](#39-units-0-number-count)
+- [40\. Units (1) Number Count](#40-units-1-number-count)
+- [41\. Units (2) Number Count](#41-units-2-number-count)
+- [42-48 Filters](#42-48-filters)
+- [49\. Root Sum](#49-root-sum)
+- [50\. First and Second Unit Sum](#50-first-and-second-unit-sum)
+- [51\. Min Distance](#51-min-distance)
+- [52\. Composite Count](#52-composite-count)
+- [Summary](#summary)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 The filter is a very useful function that can help us eliminate bad tickets. Over 90% of filtering methods not available in any other lottery programs. that is so easy to use that You don’t even need to know how they work of each filter. For advanced filters conditions, please visit [[Clippings - lottery-studio.example - 18 Advanced Filters Most Detailed Introduction(2022 Updated) - 2026-04-28|Avanced Filters]].  
   
 The program can automatically generate the filter condition parameters, no need to set the filter condition parameters manually, it is all done automatically by the program.
@@ -548,3 +606,6 @@ def evaluate_filter_suite(
         return lo <= passed <= hi
     return True
 ```
+
+---
+> **Next Steps**: [⬅️ 18 Advanced Filters Most Detailed Introduction(2022 Updated)](18-advanced-filters-most-detailed-introduction-2022-updated.md) · [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [A Universal Filter – Number Groups Filter ➡️](a-universal-filter-number-groups-filter.md)

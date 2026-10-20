@@ -1,5 +1,17 @@
 # AC Analysis
 
+> **Navigation**: [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [🌐 Dynamic Portal](../../dynamic-portal.html) · [⬅️ Hot-Cold Analysis](hot-cold.md) · [Locked Number Analysis ➡️](locked-number.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [Introduction to the Statistical Analysis Interface](#introduction-to-the-statistical-analysis-interface)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 > **Category:** 18 Statistical Analysis Methods (`05-statistical-analysis`)
 
 ## Introduction to the Statistical Analysis Interface
@@ -55,3 +67,6 @@ def compute_ac_value(ticket: list[int]) -> int:
     diffs = {abs(a - b) for i, a in enumerate(ticket) for b in ticket[i + 1 :]}
     return len(diffs) - (k - 1)
 ```
+
+---
+> **Next Steps**: [⬅️ Hot-Cold Analysis](hot-cold.md) · [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [Locked Number Analysis ➡️](locked-number.md)

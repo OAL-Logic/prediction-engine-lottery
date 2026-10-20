@@ -1,5 +1,17 @@
 # Installing Lottery Studio
 
+> **Navigation**: [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [🌐 Dynamic Portal](../../dynamic-portal.html) · [⬅️ Glossary — Ubiquitous Language](../../architecture/glossary.md) · [Quick Start ➡️](quick-start.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [Installing Lottery Studio](#installing-lottery-studio)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 > **Category:** Getting Started & Studio Overview (`01-getting-started`)
 
 ﻿
@@ -82,3 +94,6 @@ def evaluate_filter_suite(
         return lo <= passed <= hi
     return True
 ```
+
+---
+> **Next Steps**: [⬅️ Glossary — Ubiquitous Language](../../architecture/glossary.md) · [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [Quick Start ➡️](quick-start.md)

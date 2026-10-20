@@ -1,5 +1,17 @@
 # Prior Drawing Analysis
 
+> **Navigation**: [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [🌐 Dynamic Portal](../../dynamic-portal.html) · [⬅️ Odd-Even Analysis](odd-even.md) · [Range Analysis ➡️](range.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [Previous Drawing Analysis](#previous-drawing-analysis)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 > **Category:** 18 Statistical Analysis Methods (`05-statistical-analysis`)
 
 ## Previous Drawing Analysis
@@ -60,3 +72,6 @@ def compute_actual_skips(draws: list[list[int]], number: int) -> dict[str, float
     avg_skip = sum(skips) / len(skips) if skips else float(len(draws))
     return {"current_skip": current_skip, "avg_skip": round(avg_skip, 2), "history": skips}
 ```
+
+---
+> **Next Steps**: [⬅️ Odd-Even Analysis](odd-even.md) · [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [Range Analysis ➡️](range.md)

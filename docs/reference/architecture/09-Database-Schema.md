@@ -1,5 +1,25 @@
 # 09 — Database Schema (authoritative, read from the .mdb files)
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 01. Architecture & Data Structures](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · [⬅️ 08 — UI Screen Design & Navigation Map](08-UI-Screen-Design-and-Navigation.md) · [10 — Validation Report (documented formulas vs the app's own computations) ➡️](10-Validation-Report.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [Database 1 — `Data/FilterCatalog_Data.db` (filter catalog / presets)](#database-1-data-filtercatalog-data-db-filter-catalog-presets)
+  - [The 4 filter engine types (definitive taxonomy)](#the-4-filter-engine-types-definitive-taxonomy)
+  - [Base-filter default ranges (as shipped)](#base-filter-default-ranges-as-shipped)
+- [Database 2 — `Data/LotteryResults_Data.db` (master data + result caches)](#database-2-data-lotteryresults-data-db-master-data-result-caches)
+  - [2.1 Game catalog — `Lottery` (376 rows; 222 distinct by name)](#2-1-game-catalog-lottery-376-rows-222-distinct-by-name)
+  - [2.2 Per-method analysis cache tables (mirror of doc 02)](#2-2-per-method-analysis-cache-tables-mirror-of-doc-02)
+  - [2.3 Operational tables](#2-3-operational-tables)
+  - [2.4 Prediction is a POOL, not a single line  ⚠ corrects doc 05](#2-4-prediction-is-a-pool-not-a-single-line-corrects-doc-05)
+  - [2.5 Tables recovered with Jackcess (were unreadable in `access_parser`)](#2-5-tables-recovered-with-jackcess-were-unreadable-in-access-parser)
+- [Rebuild takeaways from the real schema](#rebuild-takeaways-from-the-real-schema)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 Read directly from the Access databases with the pure-Python `access_parser`
 (no ODBC/OLEDB driver needed). This is the **canonical data model** — it
 supersedes inferences in docs 01–08 wherever they differ.
@@ -179,3 +199,6 @@ Re-reading with **Jackcess 4.0.5** (Java) returns them cleanly, with intact
 2. **Filter** canonical key = `Condition_Tag` (1–69) + `Condition_Type` (1–4 engine). Ship the default ranges from `filters-catalog.csv`.
 3. **Prediction** = pool-reduction + hit-rate verification, not single-line guessing. Model `predict → {recommended[], eliminated[]}` and `verify → correctCount / poolSize per draw`.
 4. **Analysis** output schemas are fixed and known — implement each method to emit exactly the cache-table columns above.
+
+---
+> **Next Steps**: [⬅️ 08 — UI Screen Design & Navigation Map](08-UI-Screen-Design-and-Navigation.md) · [🏠 Reference Hub](../INDEX.md) · [📂 01. Architecture & Data Structures](INDEX.md) · [10 — Validation Report (documented formulas vs the app's own computations) ➡️](10-Validation-Report.md)

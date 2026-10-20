@@ -1,5 +1,34 @@
 # 02 — Statistical Analysis Reference (every method + exact math)
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 01. Architecture & Data Structures](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · [⬅️ 01 — Complete Feature Inventory](01-Feature-Inventory.md) · [03 — Filters Reference (68 filters: 50 base + 18 advanced) ➡️](03-Filters-Reference.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [Skips — the backbone concept (used everywhere)](#skips-the-backbone-concept-used-everywhere)
+- [1. AC — Arithmetic Complexity  `acTabSheet`](#1-ac-arithmetic-complexity-actabsheet)
+- [2. Sum family  `sumtabSheet`](#2-sum-family-sumtabsheet)
+- [3. Odd-Even](#3-odd-even)
+- [4. Low-High  `bigsmallTabSheet`](#4-low-high-bigsmalltabsheet)
+- [5. Hot-Cold  `hotcoldTabSheet`](#5-hot-cold-hotcoldtabsheet)
+- [6. Distance  `apartTabSheet`](#6-distance-aparttabsheet)
+- [7. Successive (adjacency runs)](#7-successive-adjacency-runs)
+- [8. Divided (residue groups)  `residueTabSheet`](#8-divided-residue-groups-residuetabsheet)
+- [9. Multiple (÷7,5,3,2,1)  `multipleTabSheet`](#9-multiple-7-5-3-2-1-multipletabsheet)
+- [10. Range (auto-split groups)](#10-range-auto-split-groups)
+- [11. Prior / Previous Drawing repeats  `beforeTabSheet`](#11-prior-previous-drawing-repeats-beforetabsheet)
+- [12. Locked Number (co-occurrence)](#12-locked-number-co-occurrence)
+- [13. Lotto Number Hits & Skips  `TnumstatForm`](#13-lotto-number-hits-skips-tnumstatform)
+- [14. Drawings (per-position counts)  `drawingsTabSheet`](#14-drawings-per-position-counts-drawingstabsheet)
+- [15. Drawings Distributing (trend)  `distributingTabSheet` · `TdrdisForm`](#15-drawings-distributing-trend-distributingtabsheet-tdrdisform)
+- [16. Base (rollup)](#16-base-rollup)
+- [17. Multi-number combination analyze  `comanalyzeTabSheet`](#17-multi-number-combination-analyze-comanalyzetabsheet)
+- [18. Units Number (digit-level) — the deepest module](#18-units-number-digit-level-the-deepest-module)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 Notation: a **combination** / winning line is a sorted set of numbers
 `c = {n1 < n2 < … < nk}` from a game with pool `1..M`, pick `k`. "History" =
 the ordered list of past draws; most analyses take a configurable **range**
@@ -165,3 +194,6 @@ Split every number into **first digit** and **second (end/unit) digit**. Then:
 > (doc 10): all metrics above **plus** the 20 digit-count columns (0–9, S0–S9).
 > Counting rules confirmed: High-Units and Count-for-1-2-3 count **with** repeats;
 > Odd/Even/Lowest-4 Units count **distinct** digits.
+
+---
+> **Next Steps**: [⬅️ 01 — Complete Feature Inventory](01-Feature-Inventory.md) · [🏠 Reference Hub](../INDEX.md) · [📂 01. Architecture & Data Structures](INDEX.md) · [03 — Filters Reference (68 filters: 50 base + 18 advanced) ➡️](03-Filters-Reference.md)

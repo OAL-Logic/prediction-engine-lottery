@@ -1,5 +1,22 @@
 # 10 — Validation Report (documented formulas vs the app's own computations)
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 01. Architecture & Data Structures](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · [⬅️ 09 — Database Schema (authoritative, read from the .mdb files)](09-Database-Schema.md) · [11 — Acceptance Criteria (black-box, per subsystem) ➡️](11-Acceptance-Criteria.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [Method](#method)
+- [Results](#results)
+  - [✅ Proven exactly — 100% (1666/1666), game-independent](#proven-exactly-100-1666-1666-game-independent)
+  - [✅ Proven after correcting the definition — 99.8–100%](#proven-after-correcting-the-definition-99-8-100)
+  - [✅ Resolved by T2 — the "deferred" misses were a parser artifact](#resolved-by-t2-the-deferred-misses-were-a-parser-artifact)
+  - [✅ Completed by T3 — clean re-read with Jackcess, single game (6/60), 100%](#completed-by-t3-clean-re-read-with-jackcess-single-game-6-60-100)
+- [Bottom line](#bottom-line)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 **Wayfinder ticket T1.** This turns the reverse-engineered math from
 `02-Statistical-Analysis-Reference.md` and `03-Filters-Reference.md` from
 *inferred* into *proven* — or corrects it — by recomputing each metric and
@@ -117,3 +134,6 @@ order, ≥2-else-0**, and (2) **Root Sum is a single digit-sum pass** — everyt
 else was already correct; the decade/unit-group "errors" were an `access_parser`
 memo bug, diagnosed and bypassed with Jackcess (doc 09 §2.5). Docs 02, 03, 09
 patched.
+
+---
+> **Next Steps**: [⬅️ 09 — Database Schema (authoritative, read from the .mdb files)](09-Database-Schema.md) · [🏠 Reference Hub](../INDEX.md) · [📂 01. Architecture & Data Structures](INDEX.md) · [11 — Acceptance Criteria (black-box, per subsystem) ➡️](11-Acceptance-Criteria.md)

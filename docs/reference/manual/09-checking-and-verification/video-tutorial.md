@@ -1,5 +1,17 @@
 # Video Tutorial
 
+> **Navigation**: [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [🌐 Dynamic Portal](../../dynamic-portal.html) · [⬅️ Video Tutorial](using-guide-articles.md) · [0002-modern-Lottery Studio-desktop-cockpit-architecture ➡️](../../guides/0002-modern-lottery-studio-desktop-cockpit-architecture.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [Video Tutorial](#video-tutorial)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 > **Category:** Workflow Guides & Best Practices (`09-checking-and-verification`)
 
 ﻿
@@ -299,3 +311,6 @@ def evaluate_filter_suite(
         return lo <= passed <= hi
     return True
 ```
+
+---
+> **Next Steps**: [⬅️ Video Tutorial](using-guide-articles.md) · [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [0002-modern-Lottery Studio-desktop-cockpit-architecture ➡️](../../guides/0002-modern-lottery-studio-desktop-cockpit-architecture.md)

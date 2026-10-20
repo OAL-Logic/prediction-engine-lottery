@@ -1,5 +1,17 @@
 # Modifying a Drawing
 
+> **Navigation**: [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [🌐 Dynamic Portal](../../dynamic-portal.html) · [⬅️ Inserting a Drawings](inserting-a-drawings.md) · [Online Update Drawings ➡️](online-update-drawings.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [Modifying a Draw](#modifying-a-draw)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 > **Category:** Drawing History & Game File Management (`02-drawing-files`)
 
 ﻿
@@ -83,3 +95,6 @@ def evaluate_filter_suite(
         return lo <= passed <= hi
     return True
 ```
+
+---
+> **Next Steps**: [⬅️ Inserting a Drawings](inserting-a-drawings.md) · [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [Online Update Drawings ➡️](online-update-drawings.md)

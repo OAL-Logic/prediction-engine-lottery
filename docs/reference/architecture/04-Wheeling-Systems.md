@@ -1,5 +1,22 @@
 # 04 — Wheeling Systems (covering designs)
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 01. Architecture & Data Structures](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · [⬅️ 03 — Filters Reference (68 filters: 50 base + 18 advanced)](03-Filters-Reference.md) · [05 — Prediction, Generation, Optimization & Search ➡️](05-Prediction-Generation-Optimization-Search.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [The two wheel types](#the-two-wheel-types)
+  - [Full wheel](#full-wheel)
+  - [Abbreviated wheel](#abbreviated-wheel)
+- [Letter-map mechanic (how a wheel is expressed)](#letter-map-mechanic-how-a-wheel-is-expressed)
+- [Wheel file format on disk  `Formula/*.Wheels`  `[DATA]`](#wheel-file-format-on-disk-formula-wheels-data)
+- [Custom & advanced wheeling](#custom-advanced-wheeling)
+- [Rebuild contract](#rebuild-contract)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 A **wheeling system** takes a set of `n` numbers you choose ("the pool") and
 arranges them into multiple k-number lines that **guarantee** a minimum win if a
 certain number of the drawn numbers are within your pool. It is applied
@@ -98,3 +115,6 @@ generate(wheel, pool /*n numbers ascending*/) =
   wheel.letterCombos.map(lc => lc.map(i => pool[i-1]))
 guaranteeReport(wheel) = precomputed "if X of k in pool → Y lines match Z"
 ```
+
+---
+> **Next Steps**: [⬅️ 03 — Filters Reference (68 filters: 50 base + 18 advanced)](03-Filters-Reference.md) · [🏠 Reference Hub](../INDEX.md) · [📂 01. Architecture & Data Structures](INDEX.md) · [05 — Prediction, Generation, Optimization & Search ➡️](05-Prediction-Generation-Optimization-Search.md)

@@ -1,5 +1,17 @@
 # How to Use Average Distance
 
+> **Navigation**: [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [🌐 Dynamic Portal](../../dynamic-portal.html) · [⬅️ Base Filter](base-filters.md) · [How to use the filter ➡️](how-to-use-the-filters.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [How to Use Lottery Software Filters to Filtered Out Bad Combinations](#how-to-use-lottery-software-filters-to-filtered-out-bad-combinations)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 > **Category:** Base & Advanced Filtering Pipeline (`06-filtering-system`)
 
 ﻿
@@ -144,3 +156,6 @@ def evaluate_filter_suite(
         return lo <= passed <= hi
     return True
 ```
+
+---
+> **Next Steps**: [⬅️ Base Filter](base-filters.md) · [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [How to use the filter ➡️](how-to-use-the-filters.md)

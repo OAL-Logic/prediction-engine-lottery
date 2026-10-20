@@ -1,5 +1,21 @@
 # EPIC 5 — Wheeling Systems
 
+> **Navigation**: [🏠 Reference Hub](../../INDEX.md) · [📂 04. Clean-Room Engineering Epics](../INDEX.md) · [🌐 Dynamic Portal](../../dynamic-portal.html) · [⬅️ EPIC 4 — Filtering Engine (the core value)](EPIC-4-filtering.md) · [EPIC 6 — Prediction & Verification ➡️](EPIC-6-prediction.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [F5.1 — Full wheel](#f5-1-full-wheel)
+- [F5.2 — Abbreviated wheel + guarantee report](#f5-2-abbreviated-wheel-guarantee-report)
+- [F5.3 — Wheel library storage + naming](#f5-3-wheel-library-storage-naming)
+- [F5.4 — Custom wheel + convert-tickets-to-wheel](#f5-4-custom-wheel-convert-tickets-to-wheel)
+- [F5.5 — Wheeling UI](#f5-5-wheeling-ui)
+  - [Epic 5 exit criteria](#epic-5-exit-criteria)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 **Goal:** full and abbreviated covering designs with guarantee reporting, regenerated
 as our own tables (never copy the proprietary `.Wheels` binaries). **Verified source:**
 Doc 04. **Depends on:** EPIC 1 (Game/k). **Phase:** 5. **Consumed by:** EPIC 3 (F3.4).
@@ -69,3 +85,6 @@ see its line count and guarantee before generating.
 ### Epic 5 exit criteria
 Full counts exact; abbreviated wheels pass the brute-force cover check; guarantee
 reports truthful; all tables self-generated (no proprietary `.Wheels`).
+
+---
+> **Next Steps**: [⬅️ EPIC 4 — Filtering Engine (the core value)](EPIC-4-filtering.md) · [🏠 Reference Hub](../../INDEX.md) · [📂 04. Clean-Room Engineering Epics](../INDEX.md) · [EPIC 6 — Prediction & Verification ➡️](EPIC-6-prediction.md)

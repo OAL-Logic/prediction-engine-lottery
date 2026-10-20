@@ -1,5 +1,29 @@
 # 07 — Architecture & Data Model (structure design)
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 01. Architecture & Data Structures](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · [⬅️ 06 — User Flows (end-to-end, with concrete examples)](06-User-Flows-With-Examples.md) · [08 — UI Screen Design & Navigation Map ➡️](08-UI-Screen-Design-and-Navigation.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [1. As-built technology (evidence)](#1-as-built-technology-evidence)
+- [2. Layered reference architecture (for rebuild)](#2-layered-reference-architecture-for-rebuild)
+- [3. Domain model](#3-domain-model)
+- [4. On-disk file formats (reverse-engineered)](#4-on-disk-file-formats-reverse-engineered)
+  - [4.1 Drawing results  `Drawings/<GameFile>.Txt`](#4-1-drawing-results-drawings-gamefile-txt)
+  - [4.2 Current lottery pointer  `Lottery_Set.ini`](#4-2-current-lottery-pointer-lottery-set-ini)
+  - [4.3 Per-game + global state  `Current_Set.ini` (root and per-game folder)](#4-3-per-game-global-state-current-set-ini-root-and-per-game-folder)
+  - [4.4 Tickets  `Data/Tickets.Txt` and per-game `Tickets.Txt`](#4-4-tickets-data-tickets-txt-and-per-game-tickets-txt)
+  - [4.5 Wheels  `Formula/PICK-WHEELSIZE-GUARANTEE-VARIANT.Wheels`](#4-5-wheels-formula-pick-wheelsize-guarantee-variant-wheels)
+  - [4.6 Search list  `search_list.sl` — persisted combo search set.](#4-6-search-list-search-list-sl-persisted-combo-search-set)
+  - [4.7 Prediction scratch  `Num_Dis_Next.nxt` — "next drawings" trend buffer.](#4-7-prediction-scratch-num-dis-next-nxt-next-drawings-trend-buffer)
+  - [4.8 Master DBs  `*.mdb` — Access tables for results/filters (no OLEDB driver](#4-8-master-dbs-mdb-access-tables-for-results-filters-no-oledb-driver)
+- [5. Supported games catalog  `Drawings/*.Txt` (222 distinct games)](#5-supported-games-catalog-drawings-txt-222-distinct-games)
+- [6. Cross-cutting concerns](#6-cross-cutting-concerns)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 This documents the app **as it actually is** (a Windows desktop app built with
 Embarcadero C++Builder/Delphi VCL + LMD-Tools + DBGridEh, backed by MS Access
 `.mdb` + flat files), then gives a clean, technology-neutral **reference
@@ -176,3 +200,6 @@ Game types span pick-4 dailies, 5/xx, 6/xx, 7/xx, and 4D digit games.
 - **Charts**: one reusable frequency-bar + trend-line component (used by every stat tab and every filter assistant).
 - **Long-running ops**: progress dialog (`TprogresForm`) for generate/filter/verify.
 - **Export**: shared exporter interface → TXT / HTML / XLS / printer.
+
+---
+> **Next Steps**: [⬅️ 06 — User Flows (end-to-end, with concrete examples)](06-User-Flows-With-Examples.md) · [🏠 Reference Hub](../INDEX.md) · [📂 01. Architecture & Data Structures](INDEX.md) · [08 — UI Screen Design & Navigation Map ➡️](08-UI-Screen-Design-and-Navigation.md)

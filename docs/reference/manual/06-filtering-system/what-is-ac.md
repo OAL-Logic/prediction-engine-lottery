@@ -1,5 +1,17 @@
 # What is AC ?
 
+> **Navigation**: [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [🌐 Dynamic Portal](../../dynamic-portal.html) · [⬅️ How to use the filter](how-to-use-the-filters.md) · [How to Predict ➡️](../07-prediction-and-trends/how-to-predict.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [What is AC](#what-is-ac)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 > **Category:** Base & Advanced Filtering Pipeline (`06-filtering-system`)
 
 ﻿
@@ -102,3 +114,6 @@ def compute_ac_value(ticket: list[int]) -> int:
     diffs = {abs(a - b) for i, a in enumerate(ticket) for b in ticket[i + 1 :]}
     return len(diffs) - (k - 1)
 ```
+
+---
+> **Next Steps**: [⬅️ How to use the filter](how-to-use-the-filters.md) · [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [How to Predict ➡️](../07-prediction-and-trends/how-to-predict.md)

@@ -1,5 +1,28 @@
 # EPIC 2 — Statistical Analysis Engine
 
+> **Navigation**: [🏠 Reference Hub](../../INDEX.md) · [📂 04. Clean-Room Engineering Epics](../INDEX.md) · [🌐 Dynamic Portal](../../dynamic-portal.html) · [⬅️ EPIC 1 — Games & Drawings (data foundation)](EPIC-1-games-drawings.md) · [EPIC 3 — Ticket Generation ➡️](EPIC-3-generation.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [F2.1 — SkipsEngine (Actual / Average / Now)](#f2-1-skipsengine-actual-average-now)
+- [F2.2 — Count metrics (Odd / Even / High / Low / Prime)](#f2-2-count-metrics-odd-even-high-low-prime)
+- [F2.3 — Sum family](#f2-3-sum-family)
+- [F2.4 — AC (Arithmetic Complexity)](#f2-4-ac-arithmetic-complexity)
+- [F2.5 — Distance family (DRAW ORDER)](#f2-5-distance-family-draw-order)
+- [F2.6 — Successive family (DRAW ORDER, ≥2 else 0)](#f2-6-successive-family-draw-order-2-else-0)
+- [F2.7 — Divided (÷3–10) & Multiple (÷7·5·3·2·1)](#f2-7-divided-3-10-multiple-7-5-3-2-1)
+- [F2.8 — Odd-Even / Low-High / Decade](#f2-8-odd-even-low-high-decade)
+- [F2.9 — Units module (~30 metrics + 20 digit counts)](#f2-9-units-module-30-metrics-20-digit-counts)
+- [F2.10 — Hot-Cold / Prior-Draw / Locked / Number-Hits](#f2-10-hot-cold-prior-draw-locked-number-hits)
+- [F2.11 — Drawings (per-position) & Distributing (trend)](#f2-11-drawings-per-position-distributing-trend)
+- [F2.12 — Statistics UI (tabbed workspace)](#f2-12-statistics-ui-tabbed-workspace)
+  - [Epic 2 exit criteria](#epic-2-exit-criteria)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 **Goal:** every one of the 18 methods computes exactly what the original app
 computes — proven at ≥98.7% (most 100%) in `../../Documentation/10-Validation-Report.md`.
 **Verified source:** Doc 02 (math), Doc 09 §2.2/2.5 (cache schemas), Doc 10 (proof).
@@ -162,3 +185,6 @@ Screen **S20** (+ S21). Range selector, position selector, click-a-column → sk
 Every method matches its golden fixtures (Units 100%); the Statistics screen drives
 all methods with range/position/skips; `10-Validation-Report.md` fixtures are green
 in CI.
+
+---
+> **Next Steps**: [⬅️ EPIC 1 — Games & Drawings (data foundation)](EPIC-1-games-drawings.md) · [🏠 Reference Hub](../../INDEX.md) · [📂 04. Clean-Room Engineering Epics](../INDEX.md) · [EPIC 3 — Ticket Generation ➡️](EPIC-3-generation.md)

@@ -1,5 +1,29 @@
 # 05 — Prediction, Generation, Optimization & Search
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 01. Architecture & Data Structures](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · [⬅️ 04 — Wheeling Systems (covering designs)](04-Wheeling-Systems.md) · [06 — User Flows (end-to-end, with concrete examples) ➡️](06-User-Flows-With-Examples.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [A. Ticket generation modes  `[CHM: Creating tickets]`](#a-ticket-generation-modes-chm-creating-tickets)
+  - [A1. Random](#a1-random)
+  - [A2. Smart (analysis-depth weighted)](#a2-smart-analysis-depth-weighted)
+  - [A3. Positional](#a3-positional)
+  - [A4. Full generator](#a4-full-generator)
+  - [A5. Wheel generator](#a5-wheel-generator)
+  - [Quick pick & favorites](#quick-pick-favorites)
+- [B. Prediction  `[CHM: How to Predict]` · `TPredictionForm`](#b-prediction-chm-how-to-predict-tpredictionform)
+  - [B1. Formula predictor (automatic)](#b1-formula-predictor-automatic)
+  - [B2. Drawings Trend (manual)  `[CHM: How to Use Drawings Trend]`](#b2-drawings-trend-manual-chm-how-to-use-drawings-trend)
+  - [B3. Verification  `[CHM: How to Verify]`](#b3-verification-chm-how-to-verify)
+- [C. Optimization  `[CHM: Optimize Bet Tickets]` · `TopForm`](#c-optimization-chm-optimize-bet-tickets-topform)
+- [D. Search past drawings  `[CHM: Search Past Results]` · `search_list.sl`](#d-search-past-drawings-chm-search-past-results-search-list-sl)
+- [E. Check winning  `[CHM: Checking Your Tickets]` · `TcheckForm`](#e-check-winning-chm-checking-your-tickets-tcheckform)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 ---
 
 ## A. Ticket generation modes  `[CHM: Creating tickets]`
@@ -127,3 +151,6 @@ search(combos, {range, positions}) -> [{combo, appearCount, nowSkips, avgSkips, 
 - Match operator: `=`, `>`, `<`, `>=`, `<=`  against a **match count**.
 - Bonus-aware: if the game has a bonus, a Bonus checkbox restricts to lines also matching the bonus.
 - Matching lines shown in a panel; **save to HTML / TXT / XLS**, or clear.
+
+---
+> **Next Steps**: [⬅️ 04 — Wheeling Systems (covering designs)](04-Wheeling-Systems.md) · [🏠 Reference Hub](../INDEX.md) · [📂 01. Architecture & Data Structures](INDEX.md) · [06 — User Flows (end-to-end, with concrete examples) ➡️](06-User-Flows-With-Examples.md)

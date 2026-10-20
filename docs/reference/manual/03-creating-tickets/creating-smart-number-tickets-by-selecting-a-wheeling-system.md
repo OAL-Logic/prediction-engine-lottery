@@ -1,5 +1,17 @@
 # Creating Smart Number Tickets by Selecting a Wheeling System
 
+> **Navigation**: [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [🌐 Dynamic Portal](../../dynamic-portal.html) · [⬅️ Creating Full Generate Number Tickets](creating-full-generate-number-tickets.md) · [Editing  Tickets ➡️](editing-tickets.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [Creating Smart Number Tickets by Selecting a Wheeling System](#creating-smart-number-tickets-by-selecting-a-wheeling-system)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 > **Category:** Ticket Generation & Line Editing (`03-creating-tickets`)
 
 ﻿
@@ -78,3 +90,6 @@ def verify_wheel_guarantee(
         "coverage_pct": round(100.0 * covered / max(1, len(scenarios)), 2),
     }
 ```
+
+---
+> **Next Steps**: [⬅️ Creating Full Generate Number Tickets](creating-full-generate-number-tickets.md) · [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [Editing  Tickets ➡️](editing-tickets.md)

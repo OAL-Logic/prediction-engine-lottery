@@ -1,5 +1,17 @@
 # Sum Analysis
 
+> **Navigation**: [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [🌐 Dynamic Portal](../../dynamic-portal.html) · [⬅️ Sum Analysis](how-to-use.md) · [Check Winning ➡️](../09-checking-and-verification/checking-your-tickets-for-matches.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [Search Past Drawings Introduction](#search-past-drawings-introduction)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 > **Category:** Historical Combination & Pattern Search (`08-optimization-and-search`)
 
 ﻿
@@ -123,3 +135,6 @@ def optimize_ticket_set(tickets: list[list[int]], target_match: int = 3) -> list
             seen_tuples.update(tuples)
     return kept
 ```
+
+---
+> **Next Steps**: [⬅️ Sum Analysis](how-to-use.md) · [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [Check Winning ➡️](../09-checking-and-verification/checking-your-tickets-for-matches.md)

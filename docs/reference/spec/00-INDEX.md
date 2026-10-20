@@ -1,5 +1,20 @@
 # Lottery Studio Rebuild — Build-Ready Specification
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 04. Clean-Room Engineering Epics](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · [⬅️ Win Brazil Mega Sena Lottery Ultimate Guide](../guides/win-brazil-mega-sena-lottery-ultimate-guide.md) · [01 — Project Structure & Function Context ➡️](01-project-structure.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [How to use this spec](#how-to-use-this-spec)
+- [The product in one paragraph](#the-product-in-one-paragraph)
+- [Stack decision (concrete, so prompts are concrete)](#stack-decision-concrete-so-prompts-are-concrete)
+- [Epic index](#epic-index)
+- [Traceability](#traceability)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 **Role framing:** written as your Chief System Architect. This is not a framework
 or a skeleton — it is the complete set of epics, features, user stories, module
 designs, **exact build prompts**, quality gates, and a maintenance protocol needed
@@ -93,3 +108,6 @@ Every feature links back to the verified reference so you never guess:
 - Acceptance criteria → `../Documentation/11-Acceptance-Criteria.md`
 - Diagrams → `../Documentation/12-Diagrams.md`
 - Validation proof → `../Documentation/10-Validation-Report.md`
+
+---
+> **Next Steps**: [⬅️ Win Brazil Mega Sena Lottery Ultimate Guide](../guides/win-brazil-mega-sena-lottery-ultimate-guide.md) · [🏠 Reference Hub](../INDEX.md) · [📂 04. Clean-Room Engineering Epics](INDEX.md) · [01 — Project Structure & Function Context ➡️](01-project-structure.md)

@@ -1,5 +1,20 @@
 # 13 — Distilled Algorithmic Specifications & Clean-Room Python Boilerplate
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 01. Architecture & Data Structures](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · [⬅️ 12 — Diagrams (ER · sequence · state)](12-Diagrams.md) · [14 — Comprehensive Data Structures & Storage Reference ➡️](14-Data-Structures-and-Storage-Reference.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [1. Unified 69-Filter Evaluation Engine (50 Base + 19 Advanced)](#1-unified-69-filter-evaluation-engine-50-base-19-advanced)
+  - [Boilerplate Implementation](#boilerplate-implementation)
+- [2. Advanced Filter Token Serializer & Evaluator](#2-advanced-filter-token-serializer-evaluator)
+- [3. Positional, Full, and Abbreviated Wheel Generators](#3-positional-full-and-abbreviated-wheel-generators)
+- [4. 6-Formula Deterministic Predictor & Backtest Verifier](#4-6-formula-deterministic-predictor-backtest-verifier)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 This document provides clean-room mathematical specifications and standalone Python reference implementations for the core engines of a classical desktop lottery analysis suite (69-filter evaluation engine, `||$[[][][]]` serialized condition parser, drawn-order statistical rollup, binary/text wheeling generator, 6-formula cyclic predictor, and greedy sub-tuple ticket optimizer).
 
 ---
@@ -222,3 +237,6 @@ def run_six_formula_predictors(
 
     return {1: f1, 2: f2, 3: f3, 4: f4, 5: f5, 6: f6}
 ```
+
+---
+> **Next Steps**: [⬅️ 12 — Diagrams (ER · sequence · state)](12-Diagrams.md) · [🏠 Reference Hub](../INDEX.md) · [📂 01. Architecture & Data Structures](INDEX.md) · [14 — Comprehensive Data Structures & Storage Reference ➡️](14-Data-Structures-and-Storage-Reference.md)

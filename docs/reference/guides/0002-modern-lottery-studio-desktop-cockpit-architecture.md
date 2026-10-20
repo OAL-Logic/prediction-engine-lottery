@@ -1,5 +1,24 @@
 # 0002-modern-Lottery Studio-desktop-cockpit-architecture
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · [⬅️ Video Tutorial](../manual/09-checking-and-verification/video-tutorial.md) · [18 Advanced Filters Most Detailed Introduction(2022 Updated) ➡️](18-advanced-filters-most-detailed-introduction-2022-updated.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [Status](#status)
+- [Context](#context)
+- [Decision](#decision)
+  - [1. Platform Choice: PySide6 / Qt 6](#1-platform-choice-pyside6-qt-6)
+  - [2. Dual-Tier UX Design: Simple Pick-and-Play vs. Forensic Lab](#2-dual-tier-ux-design-simple-pick-and-play-vs-forensic-lab)
+  - [3. Visual Design System ("Modern Studio" Palette)](#3-visual-design-system-modern-studio-palette)
+  - [4. Prediction Engine Visual Telemetry & Pipeline Diagrams](#4-prediction-engine-visual-telemetry-pipeline-diagrams)
+- [Consequences](#consequences)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 # 2. Modern Lottery Studio Desktop Cockpit Architecture & Visual Overhaul
 
 Date: 2026-10-13
@@ -115,3 +134,6 @@ def evaluate_filter_suite(
         return lo <= passed <= hi
     return True
 ```
+
+---
+> **Next Steps**: [⬅️ Video Tutorial](../manual/09-checking-and-verification/video-tutorial.md) · [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [18 Advanced Filters Most Detailed Introduction(2022 Updated) ➡️](18-advanced-filters-most-detailed-introduction-2022-updated.md)

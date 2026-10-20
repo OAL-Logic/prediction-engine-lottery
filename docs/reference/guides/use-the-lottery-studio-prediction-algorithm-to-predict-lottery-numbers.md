@@ -1,5 +1,19 @@
 # Use the Lottery Studio Prediction Algorithm to Predict Lottery Numbers
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · [⬅️ US Powerball Lottery Win Strategies and Tips Ultimate Guide(2022 Updated)](us-powerball-lottery-win-strategies-and-tips-ultimate-guide-2022-updated.md) · [Using Lottery Software to Win Mega Millions Jackpot ➡️](using-lottery-software-to-win-mega-millions-jackpot.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [Manual Prediction of the Next Draw Winning Numbers](#manual-prediction-of-the-next-draw-winning-numbers)
+- [Using Lotto Prediction Algorithm](#using-lotto-prediction-algorithm)
+- [Get the Predicted Numbers for the Next Draw](#get-the-predicted-numbers-for-the-next-draw)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 Lottery Studio lottery prediction software offers many different tools and algorithms formulas to predict lottery numbers. And there are some assistance tools available to help us to discover the prediction patterns of each lottery algorithm. If you play Pick 3 Pick 4 lottery please click [here](https://example.org/lottery-studio).
 
 ## Manual Prediction of the Next Draw Winning Numbers
@@ -81,3 +95,6 @@ def evaluate_filter_suite(
         return lo <= passed <= hi
     return True
 ```
+
+---
+> **Next Steps**: [⬅️ US Powerball Lottery Win Strategies and Tips Ultimate Guide(2022 Updated)](us-powerball-lottery-win-strategies-and-tips-ultimate-guide-2022-updated.md) · [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [Using Lottery Software to Win Mega Millions Jackpot ➡️](using-lottery-software-to-win-mega-millions-jackpot.md)

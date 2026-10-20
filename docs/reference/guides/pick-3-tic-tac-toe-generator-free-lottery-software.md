@@ -1,5 +1,20 @@
 # Pick 3 Tic-Tac-Toe Generator  Free Lottery Software
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · [⬅️ Lottery Studio-qt-interface-spec](lottery-studio-qt-interface-spec.md) · [Set the Number of the Specified Positions to Participate in the Calculation ➡️](set-the-number-of-the-specified-positions-to-participate-in-the-calculation.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [Pick 3 Tic-Tac-Toe Free Lottery Software](#pick-3-tic-tac-toe-free-lottery-software)
+- [How to Use Tic-Tac-Toe Generator](#how-to-use-tic-tac-toe-generator)
+- [What is Mirror Numbers](#what-is-mirror-numbers)
+- [Can Tic-Tac-Toe Generator Help me to Win the Lottery](#can-tic-tac-toe-generator-help-me-to-win-the-lottery)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 ## Pick 3 Tic-Tac-Toe Free Lottery Software
 
 **Tic-Tac-Toe** strategies can quickly generate the pick 3 lottery number combinations. With free software **Tic-Tac-Toe Generator** you no longer need paper, and worksheet, automatically generated with a click of the mouse**, and it’s free. supports all 3-digit lotteries**.
@@ -52,3 +67,6 @@ def compute_ac_value(ticket: list[int]) -> int:
     diffs = {abs(a - b) for i, a in enumerate(ticket) for b in ticket[i + 1 :]}
     return len(diffs) - (k - 1)
 ```
+
+---
+> **Next Steps**: [⬅️ Lottery Studio-qt-interface-spec](lottery-studio-qt-interface-spec.md) · [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [Set the Number of the Specified Positions to Participate in the Calculation ➡️](set-the-number-of-the-specified-positions-to-participate-in-the-calculation.md)

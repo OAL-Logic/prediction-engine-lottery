@@ -1,5 +1,22 @@
 # EPIC 3 — Ticket Generation
 
+> **Navigation**: [🏠 Reference Hub](../../INDEX.md) · [📂 04. Clean-Room Engineering Epics](../INDEX.md) · [🌐 Dynamic Portal](../../dynamic-portal.html) · [⬅️ EPIC 2 — Statistical Analysis Engine](EPIC-2-statistics.md) · [EPIC 4 — Filtering Engine (the core value) ➡️](EPIC-4-filtering.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [F3.1 — Full generator](#f3-1-full-generator)
+- [F3.2 — Positional generator](#f3-2-positional-generator)
+- [F3.3 — Random & Smart](#f3-3-random-smart)
+- [F3.4 — Wheel generator](#f3-4-wheel-generator)
+- [F3.5 — Quick-pick & favorites](#f3-5-quick-pick-favorites)
+- [F3.6 — Generation UI (number grid, modes, bonus)](#f3-6-generation-ui-number-grid-modes-bonus)
+  - [Epic 3 exit criteria](#epic-3-exit-criteria)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 **Goal:** produce a candidate pool of combinations by any of the four modes plus
 quick-pick and favorites. **Verified source:** Doc 05 §A, Doc 01 §C. **Depends on:**
 EPIC 1 (Game/Ctx), EPIC 5 (WheelLibrary, for F3.4), EPIC 2 (Hot-Cold, for F3.5).
@@ -105,3 +122,6 @@ fill the ticket store.
 ### Epic 3 exit criteria
 All four modes + quick-pick verified; generation fills the ticket store; free-edition
 cap enforced.
+
+---
+> **Next Steps**: [⬅️ EPIC 2 — Statistical Analysis Engine](EPIC-2-statistics.md) · [🏠 Reference Hub](../../INDEX.md) · [📂 04. Clean-Room Engineering Epics](../INDEX.md) · [EPIC 4 — Filtering Engine (the core value) ➡️](EPIC-4-filtering.md)

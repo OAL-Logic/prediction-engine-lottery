@@ -1,5 +1,18 @@
 # How to Generate Combinations Containing Bonus Number
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · [⬅️ How to Generate All Possible Combinations of Lottery Tickets](how-to-generate-all-possible-combinations-of-lottery-tickets.md) · [How to Generate Lottery Tickets Combinations Smartly ➡️](how-to-generate-lottery-tickets-combinations-smartly.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [How to Select Bonus Numbers](#how-to-select-bonus-numbers)
+- [How to Add Bonus to the Tickets Combinations](#how-to-add-bonus-to-the-tickets-combinations)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 We know that in some of the most popular lotteries around the world, there is a **Bonus**  
 number, where all the numbers and bonus numbers are guessed to win the prize pool. In the Powerball lottery the Bonus is called red Powerball, In the Mega Millions the bonus called gold Mega Ball.
 
@@ -145,3 +158,6 @@ def evaluate_filter_suite(
         return lo <= passed <= hi
     return True
 ```
+
+---
+> **Next Steps**: [⬅️ How to Generate All Possible Combinations of Lottery Tickets](how-to-generate-all-possible-combinations-of-lottery-tickets.md) · [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [How to Generate Lottery Tickets Combinations Smartly ➡️](how-to-generate-lottery-tickets-combinations-smartly.md)

@@ -1,5 +1,18 @@
 # What is Actual Skips
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · [⬅️ What is AC Value and How to Use it to Win the Lottery](what-is-ac-value-and-how-to-use-it-to-win-the-lottery.md) · [Why use the WRG ➡️](why-use-the-wrg.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [How Actual Skips Works](#how-actual-skips-works)
+- [How to Calculate Skips](#how-to-calculate-skips)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 **Actual Skips** was suggested by one of our customers a few years ago and we added it to the software. This function is very useful for setting filter condition parameters.  
   
 Skips also called Overdue. **Actual Skips** is a lottery filter assist tool that can help us to count the missing patterns of each value in the current column (**Actual Skips**). How many times it appears on average (**Average Skips**) and How many drawings have not occurred (**Now Skips**), this allows us to predict more accurately and set the filter parameters. Actual Skips are also available in the [SamLoto lottery prediction algorithm](https://example.org/lottery-studio) and the [SamP3P4 lottery prediction algorithm](https://example.org/lottery-studio), helping us to discover the prediction patterns of each lottery algorithm.
@@ -45,3 +58,6 @@ def compute_actual_skips(draws: list[list[int]], number: int) -> dict[str, float
     avg_skip = sum(skips) / len(skips) if skips else float(len(draws))
     return {"current_skip": current_skip, "avg_skip": round(avg_skip, 2), "history": skips}
 ```
+
+---
+> **Next Steps**: [⬅️ What is AC Value and How to Use it to Win the Lottery](what-is-ac-value-and-how-to-use-it-to-win-the-lottery.md) · [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [Why use the WRG ➡️](why-use-the-wrg.md)

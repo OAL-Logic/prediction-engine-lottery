@@ -1,5 +1,17 @@
 # How to Use Ours Wheeling Systems
 
+> **Navigation**: [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [🌐 Dynamic Portal](../../dynamic-portal.html) · [⬅️ Save and Load Your Own Favorite Number](../03-creating-tickets/save-and-load-your-own-favorite-number.md) · [How Wheeling System works ➡️](how-wheeling-system-works.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [How to Use Ours Wheeling Systems](#how-to-use-ours-wheeling-systems)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 > **Category:** Combinatorial Wheeling Systems (`04-wheeling-systems`)
 
 ## How to Use Ours Wheeling Systems
@@ -62,3 +74,6 @@ def verify_wheel_guarantee(
         "coverage_pct": round(100.0 * covered / max(1, len(scenarios)), 2),
     }
 ```
+
+---
+> **Next Steps**: [⬅️ Save and Load Your Own Favorite Number](../03-creating-tickets/save-and-load-your-own-favorite-number.md) · [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [How Wheeling System works ➡️](how-wheeling-system-works.md)

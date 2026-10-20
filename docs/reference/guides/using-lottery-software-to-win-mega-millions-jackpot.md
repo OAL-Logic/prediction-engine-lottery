@@ -1,5 +1,20 @@
 # Using Lottery Software to Win Mega Millions Jackpot
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · [⬅️ Use the Lottery Studio Prediction Algorithm to Predict Lottery Numbers](use-the-lottery-studio-prediction-algorithm-to-predict-lottery-numbers.md) · [Using Lottery Software to Win the Powerball Jackpot ➡️](using-lottery-software-to-win-the-powerball-jackpot.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [How to Use Lottery Analysis Studio to Win Mega Millions BIG Prizes](#how-to-use-lottery-analysis-studio-to-win-mega-millions-big-prizes)
+- [Download Lottery Analysis Studio to Play Mega Millions](#download-lottery-analysis-studio-to-play-mega-millions)
+- [Summary](#summary)
+- [References:](#references)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 How do you generate **Mega Millions** combinations, analyze drawings results, and eliminate low probability combinations?  
   
 Calculations with calculators and Excel sheets are impractical and will take a lot of time! you need full-featured professional **lottery tools**.
@@ -96,3 +111,6 @@ def compute_ac_value(ticket: list[int]) -> int:
     diffs = {abs(a - b) for i, a in enumerate(ticket) for b in ticket[i + 1 :]}
     return len(diffs) - (k - 1)
 ```
+
+---
+> **Next Steps**: [⬅️ Use the Lottery Studio Prediction Algorithm to Predict Lottery Numbers](use-the-lottery-studio-prediction-algorithm-to-predict-lottery-numbers.md) · [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [Using Lottery Software to Win the Powerball Jackpot ➡️](using-lottery-software-to-win-the-powerball-jackpot.md)

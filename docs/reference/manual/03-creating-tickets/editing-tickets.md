@@ -1,5 +1,17 @@
 # Editing  Tickets
 
+> **Navigation**: [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [🌐 Dynamic Portal](../../dynamic-portal.html) · [⬅️ Creating Smart Number Tickets by Selecting a Wheeling System](creating-smart-number-tickets-by-selecting-a-wheeling-system.md) · [How to Quick to Pick Numbers ➡️](how-to-quick-picked-numbers.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [Editing Tickets](#editing-tickets)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 > **Category:** Ticket Generation & Line Editing (`03-creating-tickets`)
 
 ## Editing Tickets
@@ -126,3 +138,6 @@ def evaluate_filter_suite(
         return lo <= passed <= hi
     return True
 ```
+
+---
+> **Next Steps**: [⬅️ Creating Smart Number Tickets by Selecting a Wheeling System](creating-smart-number-tickets-by-selecting-a-wheeling-system.md) · [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [How to Quick to Pick Numbers ➡️](how-to-quick-picked-numbers.md)

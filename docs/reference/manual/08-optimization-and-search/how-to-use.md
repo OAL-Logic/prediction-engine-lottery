@@ -1,5 +1,17 @@
 # Sum Analysis
 
+> **Navigation**: [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [🌐 Dynamic Portal](../../dynamic-portal.html) · [⬅️ How to Verify](../07-prediction-and-trends/how-to-verify.md) · [Sum Analysis ➡️](search-past-drawings-introduction.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [How to Use Search Past Drawings](#how-to-use-search-past-drawings)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 > **Category:** Historical Combination & Pattern Search (`08-optimization-and-search`)
 
 ﻿
@@ -81,3 +93,6 @@ def optimize_ticket_set(tickets: list[list[int]], target_match: int = 3) -> list
             seen_tuples.update(tuples)
     return kept
 ```
+
+---
+> **Next Steps**: [⬅️ How to Verify](../07-prediction-and-trends/how-to-verify.md) · [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [Sum Analysis ➡️](search-past-drawings-introduction.md)

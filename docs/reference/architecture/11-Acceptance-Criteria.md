@@ -1,5 +1,23 @@
 # 11 — Acceptance Criteria (black-box, per subsystem)
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 01. Architecture & Data Structures](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · [⬅️ 10 — Validation Report (documented formulas vs the app's own computations)](10-Validation-Report.md) · [12 — Diagrams (ER · sequence · state) ➡️](12-Diagrams.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [S1 — Drawings / game management](#s1-drawings-game-management)
+- [S2 — Statistics engine  (assert against validated formulas, doc 10)](#s2-statistics-engine-assert-against-validated-formulas-doc-10)
+- [S3 — Generation](#s3-generation)
+- [S4 — Filtering](#s4-filtering)
+- [S5 — Wheeling](#s5-wheeling)
+- [S6 — Prediction & verification](#s6-prediction-verification)
+- [S7 — Tickets, optimize, search, check](#s7-tickets-optimize-search-check)
+- [Cross-cutting](#cross-cutting)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 Testable criteria for a rebuild, in Given/When/Then form. Terms follow
 `glossary.md`; formulas are the **validated** ones (doc 10). Where a concrete
 number is given it is a fixture you can assert on directly. Each subsystem's suite
@@ -77,3 +95,6 @@ For **Draw D** `04 05 30 33 41 52`:
 - **AC-X1** *Persistence.* Settings (range, filters, selections, window) survive reopen (per-game + global).
 - **AC-X2** *Entitlements.* Free edition blocks: >10 pool, wheels, optimization, prediction — each with its message.
 - **AC-X3** *Data fidelity.* Every statistic equals the app's cached value on the validation fixtures (doc 10).
+
+---
+> **Next Steps**: [⬅️ 10 — Validation Report (documented formulas vs the app's own computations)](10-Validation-Report.md) · [🏠 Reference Hub](../INDEX.md) · [📂 01. Architecture & Data Structures](INDEX.md) · [12 — Diagrams (ER · sequence · state) ➡️](12-Diagrams.md)

@@ -1,5 +1,17 @@
 # How to Generate All Possible Combinations of Lottery Tickets
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · [⬅️ How to Generate All Possible Combinations by Positions](how-to-generate-all-possible-combinations-by-positions.md) · [How to Generate Combinations Containing Bonus Number ➡️](how-to-generate-combinations-containing-bonus-number.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [Summary](#summary)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 If you choose the numbers hit all win numbers, How to combine these numbers to win the top prize?
 
 To win the jackpot, you must use the **lottery software’s** full generator to generate complete combinations.
@@ -69,3 +81,6 @@ def evaluate_filter_suite(
         return lo <= passed <= hi
     return True
 ```
+
+---
+> **Next Steps**: [⬅️ How to Generate All Possible Combinations by Positions](how-to-generate-all-possible-combinations-by-positions.md) · [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [How to Generate Combinations Containing Bonus Number ➡️](how-to-generate-combinations-containing-bonus-number.md)

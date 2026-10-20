@@ -1,5 +1,20 @@
 # How to Generate Lotto Lottery Numbers Combination
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · [⬅️ How to Generate Lottery Tickets Combinations Smartly](how-to-generate-lottery-tickets-combinations-smartly.md) · [How to Generate Pick 3 Pick 4 Lottery Combinations ➡️](how-to-generate-pick-3-pick-4-lottery-combinations.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [Generating Combinations Standard](#generating-combinations-standard)
+- [Generate Lottery Tickets by Position](#generate-lottery-tickets-by-position)
+- [Generate Lottery Tickets Smartly](#generate-lottery-tickets-smartly)
+- [Summary](#summary)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 **Lottery Analysis Studio** Supports 3 ways to generate lotto number combinations. They are generating combinations standard, generating combinations by position, and smart generation. If you play the 3-digit 4-digit lottery visit: How to Generate [Pick 3 Pick 4 Lottery Combinations](https://example.org/lottery-studio).
 
 Next I will describe in detail these 3 ways of generating combinations.
@@ -74,3 +89,6 @@ def evaluate_filter_suite(
         return lo <= passed <= hi
     return True
 ```
+
+---
+> **Next Steps**: [⬅️ How to Generate Lottery Tickets Combinations Smartly](how-to-generate-lottery-tickets-combinations-smartly.md) · [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [How to Generate Pick 3 Pick 4 Lottery Combinations ➡️](how-to-generate-pick-3-pick-4-lottery-combinations.md)

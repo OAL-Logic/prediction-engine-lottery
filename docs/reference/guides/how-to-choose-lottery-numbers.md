@@ -1,5 +1,22 @@
 # How to Choose Lottery Numbers
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · [⬅️ Best Lottery Software](best-lottery-software.md) · [How to Count Each Number Hit Times of Occurrence in Bets Tickets ➡️](how-to-count-each-number-hit-times-of-occurrence-in-bets-tickets.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [Selecting Numbers by Analyzing Hot and Cold Numbers](#selecting-numbers-by-analyzing-hot-and-cold-numbers)
+- [Select Numbers That have Appeared in the Previous 5 Drawings](#select-numbers-that-have-appeared-in-the-previous-5-drawings)
+- [Select the Adjacent Numbers to Previous Winning Numbers](#select-the-adjacent-numbers-to-previous-winning-numbers)
+- [Use Drawings Trend Chart to Manually Predict Winning Numbers](#use-drawings-trend-chart-to-manually-predict-winning-numbers)
+- [Using Lottery Prediction Software](#using-lottery-prediction-software)
+- [Summary](#summary)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 Although many people feel that lottery numbers appear randomly, there are still rules that can increase the probability of winning if the right strategies are used.
 
 Choosing the right number is the first step in playing the lottery, and then using wheeling or filtering methods to eliminate bad combinations makes sense.
@@ -94,3 +111,6 @@ def evaluate_filter_suite(
         return lo <= passed <= hi
     return True
 ```
+
+---
+> **Next Steps**: [⬅️ Best Lottery Software](best-lottery-software.md) · [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [How to Count Each Number Hit Times of Occurrence in Bets Tickets ➡️](how-to-count-each-number-hit-times-of-occurrence-in-bets-tickets.md)

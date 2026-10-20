@@ -1,5 +1,24 @@
 # 99 — Weekly Maintenance Protocol
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 04. Clean-Room Engineering Epics](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · [⬅️ 90 — Build Order (start-to-finish sequence)](90-build-order.md) · [EPIC 1 — Games & Drawings (data foundation) ➡️](epics/EPIC-1-games-drawings.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [Weekly cycle (fixed cadence)](#weekly-cycle-fixed-cadence)
+  - [Monday — Data freshness](#monday-data-freshness)
+  - [Tuesday — Dependency & security](#tuesday-dependency-security)
+  - [Wednesday — Quality sweep](#wednesday-quality-sweep)
+  - [Thursday — Correctness & flows](#thursday-correctness-flows)
+  - [Friday — Docs & drift](#friday-docs-drift)
+- [Triggered procedures](#triggered-procedures)
+- [Health dashboard (track weekly)](#health-dashboard-track-weekly)
+- [Standing invariants (never violate)](#standing-invariants-never-violate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 Keeps the rebuilt system current, correct, and buildable. Run the **weekly cycle**
 every week; run the **triggered** procedures when their event fires. Each step has an
 owner action and, where useful, an **exact prompt** to hand an AI agent.
@@ -70,3 +89,6 @@ Keep a one-row-per-week log:
 4. Prediction is presented as pool-hit-rate analysis, never as a guarantee — the
    lottery is negative-expectation; the tools organize play, not the odds.
 5. No proprietary assets copied (`.Wheels`, `.mdb`); regenerate/own everything.
+
+---
+> **Next Steps**: [⬅️ 90 — Build Order (start-to-finish sequence)](90-build-order.md) · [🏠 Reference Hub](../INDEX.md) · [📂 04. Clean-Room Engineering Epics](INDEX.md) · [EPIC 1 — Games & Drawings (data foundation) ➡️](epics/EPIC-1-games-drawings.md)

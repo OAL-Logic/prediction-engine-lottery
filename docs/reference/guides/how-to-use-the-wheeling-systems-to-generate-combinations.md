@@ -1,5 +1,21 @@
 # How to Use the Wheeling Systems to Generate Combinations
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · [⬅️ How to use the Advanced Wheeling](how-to-use-the-advanced-wheeling.md) · [How to Win Brazil Quina ➡️](how-to-win-brazil-quina.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [What is a Wheeling System](#what-is-a-wheeling-system)
+- [Wheeling System Types](#wheeling-system-types)
+- [How to Use Lottery Studio’s Wheeling Systems](#how-to-use-lottery-studio-s-wheeling-systems)
+- [The Following Video Demonstrates How to Use the Abbreviated Wheel System(Wheels Generator)](#the-following-video-demonstrates-how-to-use-the-abbreviated-wheel-system-wheels-generator)
+- [Summary](#summary)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 Wheeling systems is one of the core features of **Lottery Studio** lottery software, and our wheeling systems support almost all lotto types of lottery, support all pick 2, pick 3, pick 4, pick 5, pick 6, pick 7 from 1 to 90 numbers, For more information, please continue reading our article.
 
 ## What is a Wheeling System
@@ -86,3 +102,6 @@ def evaluate_filter_suite(
         return lo <= passed <= hi
     return True
 ```
+
+---
+> **Next Steps**: [⬅️ How to use the Advanced Wheeling](how-to-use-the-advanced-wheeling.md) · [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [How to Win Brazil Quina ➡️](how-to-win-brazil-quina.md)

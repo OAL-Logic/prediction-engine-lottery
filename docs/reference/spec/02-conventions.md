@@ -1,5 +1,27 @@
 # 02 — Conventions: the Prompt Template, Quality Gate & Definition of Done
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 04. Clean-Room Engineering Epics](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · [⬅️ 01 — Project Structure & Function Context](01-project-structure.md) · [90 — Build Order (start-to-finish sequence) ➡️](90-build-order.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [The five-stage workflow chain (every feature)](#the-five-stage-workflow-chain-every-feature)
+- [PROMPT TEMPLATE — paste these, filling the `{{…}}` slots](#prompt-template-paste-these-filling-the-slots)
+  - [Stage 1 — Design (interface + types)](#stage-1-design-interface-types)
+  - [Stage 2 — Test (failing specs from fixtures)](#stage-2-test-failing-specs-from-fixtures)
+  - [Stage 3 — Implement (make green)](#stage-3-implement-make-green)
+  - [Stage 4 — Integrate (wire to app + UI)](#stage-4-integrate-wire-to-app-ui)
+  - [Stage 5 — Verify (drive the real behavior)](#stage-5-verify-drive-the-real-behavior)
+- [QUALITY GATE TEMPLATE — every chain ends here](#quality-gate-template-every-chain-ends-here)
+- [Definition of Done (per feature)](#definition-of-done-per-feature)
+- [Coding standards (brief)](#coding-standards-brief)
+- [Test strategy](#test-strategy)
+- [The per-feature build loop (how a day looks)](#the-per-feature-build-loop-how-a-day-looks)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 Every feature in every epic is built by running a **workflow chain**. Each chain is
 the same five stages, and each stage has an **exact prompt** you paste into your AI
 coding agent. The chain ends with a **quality gate** that must pass before the
@@ -145,3 +167,6 @@ Report the gate as a checked list with the command output that proves each item.
 2. Run Stages 1→5 with that feature's prompts (in its epic file).
 3. Pass the quality gate.
 4. Merge. Update CONTEXT.md if needed. Next feature.
+
+---
+> **Next Steps**: [⬅️ 01 — Project Structure & Function Context](01-project-structure.md) · [🏠 Reference Hub](../INDEX.md) · [📂 04. Clean-Room Engineering Epics](INDEX.md) · [90 — Build Order (start-to-finish sequence) ➡️](90-build-order.md)

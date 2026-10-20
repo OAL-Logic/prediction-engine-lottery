@@ -1,5 +1,17 @@
 # How to Verify
 
+> **Navigation**: [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [🌐 Dynamic Portal](../../dynamic-portal.html) · [⬅️ How to Use Drawings Trend](how-to-use-drawings-trend.md) · [Sum Analysis ➡️](../08-optimization-and-search/how-to-use.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [How to Verify](#how-to-verify)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 > **Category:** Prediction Formulas, Trends & Verification (`07-prediction-and-trends`)
 
 ## How to Verify
@@ -80,3 +92,6 @@ def evaluate_filter_suite(
         return lo <= passed <= hi
     return True
 ```
+
+---
+> **Next Steps**: [⬅️ How to Use Drawings Trend](how-to-use-drawings-trend.md) · [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [Sum Analysis ➡️](../08-optimization-and-search/how-to-use.md)

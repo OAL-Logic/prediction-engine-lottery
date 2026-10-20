@@ -1,5 +1,17 @@
 # How to Predict
 
+> **Navigation**: [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [🌐 Dynamic Portal](../../dynamic-portal.html) · [⬅️ What is AC ?](../06-filtering-system/what-is-ac.md) · [How to Use Drawings Trend ➡️](how-to-use-drawings-trend.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [How to Predict](#how-to-predict)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 > **Category:** Prediction Formulas, Trends & Verification (`07-prediction-and-trends`)
 
 ## How to Predict
@@ -67,3 +79,6 @@ def evaluate_filter_suite(
         return lo <= passed <= hi
     return True
 ```
+
+---
+> **Next Steps**: [⬅️ What is AC ?](../06-filtering-system/what-is-ac.md) · [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [How to Use Drawings Trend ➡️](how-to-use-drawings-trend.md)

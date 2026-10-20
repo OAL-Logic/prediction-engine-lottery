@@ -1,5 +1,19 @@
 # 12 — Diagrams (ER · sequence · state)
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 01. Architecture & Data Structures](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · [⬅️ 11 — Acceptance Criteria (black-box, per subsystem)](11-Acceptance-Criteria.md) · [13 — Distilled Algorithmic Specifications & Clean-Room Python Boilerplate ➡️](13-Distilled-Algorithms-and-Boilerplate.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [1. Entity-relationship — the data model](#1-entity-relationship-the-data-model)
+- [2. Sequence — the play pipeline (generate → … → check)](#2-sequence-the-play-pipeline-generate-check)
+- [3. Sequence — predict & verify (pool-based)](#3-sequence-predict-verify-pool-based)
+- [4. State — ticket lifecycle](#4-state-ticket-lifecycle)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 Mermaid diagrams for the structure and the core flows, grounded in the verified
 data model (doc 09) and the flows (doc 06). Renders on GitHub and any Mermaid-aware
 viewer.
@@ -188,3 +202,6 @@ stateDiagram-v2
 ---
 
 *Cross-referenced from doc 06 (flows), doc 07 (architecture), doc 09 (schema).*
+
+---
+> **Next Steps**: [⬅️ 11 — Acceptance Criteria (black-box, per subsystem)](11-Acceptance-Criteria.md) · [🏠 Reference Hub](../INDEX.md) · [📂 01. Architecture & Data Structures](INDEX.md) · [13 — Distilled Algorithmic Specifications & Clean-Room Python Boilerplate ➡️](13-Distilled-Algorithms-and-Boilerplate.md)

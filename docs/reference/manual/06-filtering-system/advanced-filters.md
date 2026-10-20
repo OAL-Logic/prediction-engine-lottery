@@ -1,5 +1,17 @@
 # Advanced Filter
 
+> **Navigation**: [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [🌐 Dynamic Portal](../../dynamic-portal.html) · [⬅️ Units Number Analysis](../05-statistical-analysis/units-number.md) · [Base Filter ➡️](base-filters.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [Advanced Filters](#advanced-filters)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 > **Category:** Base & Advanced Filtering Pipeline (`06-filtering-system`)
 
 ﻿
@@ -468,3 +480,6 @@ def evaluate_number_groups_filter(
     satisfied = sum(1 for grp, lo, hi in groups if lo <= len(t_set & grp) <= hi)
     return min_groups_matched <= satisfied <= max_groups_matched
 ```
+
+---
+> **Next Steps**: [⬅️ Units Number Analysis](../05-statistical-analysis/units-number.md) · [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [Base Filter ➡️](base-filters.md)

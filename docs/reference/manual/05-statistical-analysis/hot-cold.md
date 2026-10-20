@@ -1,5 +1,17 @@
 # Hot-Cold Analysis
 
+> **Navigation**: [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [🌐 Dynamic Portal](../../dynamic-portal.html) · [⬅️ Drawings Analysis](drawings.md) · [AC Analysis ➡️](introduction-to-the-statistical-analysis-interface.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [Hot-Cold Analysis](#hot-cold-analysis)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 > **Category:** 18 Statistical Analysis Methods (`05-statistical-analysis`)
 
 ## Hot-Cold Analysis
@@ -66,3 +78,6 @@ def compute_actual_skips(draws: list[list[int]], number: int) -> dict[str, float
     avg_skip = sum(skips) / len(skips) if skips else float(len(draws))
     return {"current_skip": current_skip, "avg_skip": round(avg_skip, 2), "history": skips}
 ```
+
+---
+> **Next Steps**: [⬅️ Drawings Analysis](drawings.md) · [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [AC Analysis ➡️](introduction-to-the-statistical-analysis-interface.md)

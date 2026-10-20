@@ -1,5 +1,26 @@
 # 06 — User Flows (end-to-end, with concrete examples)
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 01. Architecture & Data Structures](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · [⬅️ 05 — Prediction, Generation, Optimization & Search](05-Prediction-Generation-Optimization-Search.md) · [07 — Architecture & Data Model (structure design) ➡️](07-Architecture-and-Data-Model.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [Flow 0 — The canonical "play a lottery" pipeline](#flow-0-the-canonical-play-a-lottery-pipeline)
+- [Flow 1 — Open a game & update results](#flow-1-open-a-game-update-results)
+- [Flow 2 — Statistical analysis to inform filters](#flow-2-statistical-analysis-to-inform-filters)
+- [Flow 3 — Generate a candidate pool](#flow-3-generate-a-candidate-pool)
+- [Flow 4 — Filter the pool down  (the core)](#flow-4-filter-the-pool-down-the-core)
+- [Flow 5 — Reduce cost further](#flow-5-reduce-cost-further)
+- [Flow 6 — Predict & verify (Pro)](#flow-6-predict-verify-pro)
+- [Flow 7 — Edit, print, play](#flow-7-edit-print-play)
+- [Flow 8 — After the draw: check winnings](#flow-8-after-the-draw-check-winnings)
+- [Flow 9 — Search hot/cold combinations](#flow-9-search-hot-cold-combinations)
+- [Flow 10 — Add a brand-new game](#flow-10-add-a-brand-new-game)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 Each flow lists screens touched (`[Form]`), user actions, and system effects.
 Evidence: `[CHM Quick Start]` + per-topic manual pages.
 
@@ -120,3 +141,6 @@ If Sum filter = `120–210`, this line is **removed** (106 < 120).
 1. Toolbar **Lottery → New** → `[TNewLotteryForm]`.
 2. Enter name, pick size (e.g. 5), max number (e.g. 50), bonus count/name.
 3. OK → new empty drawing file created; use Import or Add to populate history.
+
+---
+> **Next Steps**: [⬅️ 05 — Prediction, Generation, Optimization & Search](05-Prediction-Generation-Optimization-Search.md) · [🏠 Reference Hub](../INDEX.md) · [📂 01. Architecture & Data Structures](INDEX.md) · [07 — Architecture & Data Model (structure design) ➡️](07-Architecture-and-Data-Model.md)

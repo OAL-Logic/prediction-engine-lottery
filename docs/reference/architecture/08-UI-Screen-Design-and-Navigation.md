@@ -1,5 +1,30 @@
 # 08 — UI Screen Design & Navigation Map
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 01. Architecture & Data Structures](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · [⬅️ 07 — Architecture & Data Model (structure design)](07-Architecture-and-Data-Model.md) · [09 — Database Schema (authoritative, read from the .mdb files) ➡️](09-Database-Schema.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [1. Information architecture](#1-information-architecture)
+- [2. Screen catalog (forms)](#2-screen-catalog-forms)
+  - [Core workspace](#core-workspace)
+  - [Drawings / games](#drawings-games)
+  - [Analysis](#analysis)
+  - [Prediction / optimize / search / check](#prediction-optimize-search-check)
+  - [Output / utility](#output-utility)
+- [3. Navigation map (who opens what)](#3-navigation-map-who-opens-what)
+- [4. Interaction patterns worth preserving (they define the app's feel)](#4-interaction-patterns-worth-preserving-they-define-the-app-s-feel)
+- [5. Recommended rebuild UI structure (technology-neutral)](#5-recommended-rebuild-ui-structure-technology-neutral)
+- [6. Screenshots (from the official manual)](#6-screenshots-from-the-official-manual)
+  - [Shell & analysis](#shell-analysis)
+  - [Filtering](#filtering)
+  - [Generation & tickets](#generation-tickets)
+  - [Predict · optimize · search · check · drawings](#predict-optimize-search-check-drawings)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 The app's UI **as it actually is**, derived from the real form/panel/tab names in
 `studio_app.bin` `[EXE]` and the manual's screenshots/steps `[CHM]`. IDs `S###` are
 assigned here for cross-reference.
@@ -178,3 +203,6 @@ Real UI captures from `studio_manual_ archive`, mapped to the screen IDs above. 
 | **S33** Check winning | ![Check winning](assets/check-winn.jpg) |
 | **S10** Open · **S11** New game | ![Open lottery](assets/open-lottery.jpg) ![New lottery](assets/create-new-lottery.jpg) |
 | **S15** Update · **S14** Split | ![Update](assets/drawings-update.jpg) ![Split](assets/Split-Lottery-Drawings.jpg) |
+
+---
+> **Next Steps**: [⬅️ 07 — Architecture & Data Model (structure design)](07-Architecture-and-Data-Model.md) · [🏠 Reference Hub](../INDEX.md) · [📂 01. Architecture & Data Structures](INDEX.md) · [09 — Database Schema (authoritative, read from the .mdb files) ➡️](09-Database-Schema.md)

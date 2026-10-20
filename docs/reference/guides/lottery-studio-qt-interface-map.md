@@ -1,5 +1,23 @@
 # Lottery Studio-qt-interface-map
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · [⬅️ Lottery Studio-feature-map](lottery-studio-feature-map.md) · [Lottery Studio-qt-interface-spec ➡️](lottery-studio-qt-interface-spec.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [Destination](#destination)
+- [Notes](#notes)
+- [Decisions so far](#decisions-so-far)
+- [Tickets (frontier)](#tickets-frontier)
+- [Tickets (blocked)](#tickets-blocked)
+- [Not yet specified](#not-yet-specified)
+- [Out of scope](#out-of-scope)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 # Lottery Studio Qt Modern Interface Map
 
 ## Destination
@@ -76,3 +94,6 @@ def compute_ac_value(ticket: list[int]) -> int:
     diffs = {abs(a - b) for i, a in enumerate(ticket) for b in ticket[i + 1 :]}
     return len(diffs) - (k - 1)
 ```
+
+---
+> **Next Steps**: [⬅️ Lottery Studio-feature-map](lottery-studio-feature-map.md) · [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [Lottery Studio-qt-interface-spec ➡️](lottery-studio-qt-interface-spec.md)

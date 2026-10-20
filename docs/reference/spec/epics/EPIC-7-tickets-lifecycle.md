@@ -1,5 +1,22 @@
 # EPIC 7 — Tickets Lifecycle · Optimize · Search · Check-Win
 
+> **Navigation**: [🏠 Reference Hub](../../INDEX.md) · [📂 04. Clean-Room Engineering Epics](../INDEX.md) · [🌐 Dynamic Portal](../../dynamic-portal.html) · [⬅️ EPIC 6 — Prediction & Verification](EPIC-6-prediction.md) · [EPIC 8 — Shell · Settings · Entitlements · Reusable Components ➡️](EPIC-8-shell-settings-entitlements.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [F7.1 — TicketSet operations](#f7-1-ticketset-operations)
+- [F7.2 — Optimizer (2 strategies)](#f7-2-optimizer-2-strategies)
+- [F7.3 — Searcher (1/2/3-number combos)](#f7-3-searcher-1-2-3-number-combos)
+- [F7.4 — WinChecker](#f7-4-winchecker)
+- [F7.5 — Export & print](#f7-5-export-print)
+- [F7.6 — Tickets UI](#f7-6-tickets-ui)
+  - [Epic 7 exit criteria](#epic-7-exit-criteria)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 **Goal:** the ticket store and everything downstream of it — edit/sort/dedupe/tag,
 optimization, combo search, win-checking, and export/print. **Verified source:**
 Doc 01 §F, Doc 05 §C/D/E. **Depends on:** EPIC 1–4 (a filtered set). **Phase:** 7.
@@ -95,3 +112,6 @@ menu (sort/dedupe/tag/hits/convert-to-wheel/optimize/save/print/export).
 ### Epic 7 exit criteria
 Store ops, both optimizers, search, win-check, and 3 export formats verified;
 Flow-7 and Flow-8 pass end-to-end.
+
+---
+> **Next Steps**: [⬅️ EPIC 6 — Prediction & Verification](EPIC-6-prediction.md) · [🏠 Reference Hub](../../INDEX.md) · [📂 04. Clean-Room Engineering Epics](../INDEX.md) · [EPIC 8 — Shell · Settings · Entitlements · Reusable Components ➡️](EPIC-8-shell-settings-entitlements.md)

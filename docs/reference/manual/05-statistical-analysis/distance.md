@@ -1,5 +1,17 @@
 # Distance Analysis
 
+> **Navigation**: [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [🌐 Dynamic Portal](../../dynamic-portal.html) · [⬅️ Base Analysis](base.md) · [Divided Analysis ➡️](divided.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [Distance Analysis](#distance-analysis)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 > **Category:** 18 Statistical Analysis Methods (`05-statistical-analysis`)
 
 ﻿
@@ -79,3 +91,6 @@ def compute_drawn_order_distances(ticket_in_draw_order: list[int]) -> dict[str, 
         "different_distance": len(set(adj_diffs)),
     }
 ```
+
+---
+> **Next Steps**: [⬅️ Base Analysis](base.md) · [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [Divided Analysis ➡️](divided.md)

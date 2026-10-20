@@ -1,5 +1,28 @@
 # Lottery Studio-feature-map
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · [⬅️ How to Win Brazil Quina](how-to-win-brazil-quina.md) · [Lottery Studio-qt-interface-map ➡️](lottery-studio-qt-interface-map.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [🧠 1. Analytical Core: The Harmony Gate](#1-analytical-core-the-harmony-gate)
+  - [Tier 1: Structural Invariants](#tier-1-structural-invariants)
+  - [Tier 2: Positional & Distance](#tier-2-positional-distance)
+  - [Tier 3: Algebraic & Modular](#tier-3-algebraic-modular)
+  - [Tier 4: Historical & Temporal](#tier-4-historical-temporal)
+  - [Tier 5: Custom Semantic](#tier-5-custom-semantic)
+- [🎡 2. Combinatorial Layer: The WRG Engine](#2-combinatorial-layer-the-wrg-engine)
+- [🎨 3. OpenTUI: The Next-Gen Cockpit](#3-opentui-the-next-gen-cockpit)
+  - [The Command Palette](#the-command-palette)
+  - [The Wheel Matrix Visualizer](#the-wheel-matrix-visualizer)
+  - [The Oracle's Retina (Spatial Cartography)](#the-oracle-s-retina-spatial-cartography)
+  - [Narrative Stream](#narrative-stream)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 # Lottery Studio Feature Map & OpenTUI Blueprint 🗺️
 
 This document synthesizes the features extracted from the 64MB disassembly and the Lottery Studio manual, mapped to the new OpenTUI architecture.
@@ -108,3 +131,6 @@ def evaluate_filter_suite(
         return lo <= passed <= hi
     return True
 ```
+
+---
+> **Next Steps**: [⬅️ How to Win Brazil Quina](how-to-win-brazil-quina.md) · [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [Lottery Studio-qt-interface-map ➡️](lottery-studio-qt-interface-map.md)

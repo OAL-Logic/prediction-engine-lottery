@@ -1,5 +1,24 @@
 # EPIC 1 — Games & Drawings (data foundation)
 
+> **Navigation**: [🏠 Reference Hub](../../INDEX.md) · [📂 04. Clean-Room Engineering Epics](../INDEX.md) · [🌐 Dynamic Portal](../../dynamic-portal.html) · [⬅️ 99 — Weekly Maintenance Protocol](../99-maintenance-protocol.md) · [EPIC 2 — Statistical Analysis Engine ➡️](EPIC-2-statistics.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [F1.8 — Results file format (parse/serialize `.Txt`)](#f1-8-results-file-format-parse-serialize-txt)
+- [F1.1 — Game model & catalog](#f1-1-game-model-catalog)
+- [F1.2 — Open / choose game](#f1-2-open-choose-game)
+- [F1.3 — Create a new game (custom rules)](#f1-3-create-a-new-game-custom-rules)
+- [F1.4 — Draw history CRUD (add / insert / modify / delete)](#f1-4-draw-history-crud-add-insert-modify-delete)
+- [F1.5 — Import / export drawings](#f1-5-import-export-drawings)
+- [F1.6 — Split drawings by weekday](#f1-6-split-drawings-by-weekday)
+- [F1.7 — Online update drawings](#f1-7-online-update-drawings)
+  - [Epic 1 exit criteria](#epic-1-exit-criteria)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 **Goal:** a rebuild can open any of 200+ games, know its rules, and manage its draw
 history end-to-end (add/insert/modify/delete/import/export/split/online-update).
 **Verified source:** Doc 01 §A, Doc 07 §4, Doc 09 §2.1. **Depends on:** nothing
@@ -144,3 +163,6 @@ pre-filled and ready to paste. Each ends with the quality gate.
 ### Epic 1 exit criteria
 All F1.* quality gates green; `openGame` → analyze/generate screens have real data;
 importing the Mega-Sena fixture and splitting to one weekday both verified in the UI.
+
+---
+> **Next Steps**: [⬅️ 99 — Weekly Maintenance Protocol](../99-maintenance-protocol.md) · [🏠 Reference Hub](../../INDEX.md) · [📂 04. Clean-Room Engineering Epics](../INDEX.md) · [EPIC 2 — Statistical Analysis Engine ➡️](EPIC-2-statistics.md)

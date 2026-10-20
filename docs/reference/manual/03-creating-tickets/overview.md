@@ -1,5 +1,17 @@
 # Overview
 
+> **Navigation**: [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [🌐 Dynamic Portal](../../dynamic-portal.html) · [⬅️ How to Quick to Pick Numbers](how-to-quick-picked-numbers.md) · [Printing Tickets on Paper ➡️](printing-tickets-to-paper.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [Overview](#overview)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 > **Category:** Ticket Generation & Line Editing (`03-creating-tickets`)
 
 ## Overview
@@ -94,3 +106,6 @@ def evaluate_filter_suite(
         return lo <= passed <= hi
     return True
 ```
+
+---
+> **Next Steps**: [⬅️ How to Quick to Pick Numbers](how-to-quick-picked-numbers.md) · [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [Printing Tickets on Paper ➡️](printing-tickets-to-paper.md)

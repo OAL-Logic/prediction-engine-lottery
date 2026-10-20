@@ -1,5 +1,17 @@
 # Actual Skip
 
+> **Navigation**: [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [🌐 Dynamic Portal](../../dynamic-portal.html) · [⬅️ AC Analysis](ac.md) · [Base Analysis ➡️](base.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [Actual Skip](#actual-skip)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 > **Category:** 18 Statistical Analysis Methods (`05-statistical-analysis`)
 
 ﻿
@@ -97,3 +109,6 @@ def compute_actual_skips(draws: list[list[int]], number: int) -> dict[str, float
     avg_skip = sum(skips) / len(skips) if skips else float(len(draws))
     return {"current_skip": current_skip, "avg_skip": round(avg_skip, 2), "history": skips}
 ```
+
+---
+> **Next Steps**: [⬅️ AC Analysis](ac.md) · [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [Base Analysis ➡️](base.md)

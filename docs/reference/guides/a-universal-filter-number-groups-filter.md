@@ -1,5 +1,19 @@
 # A Universal Filter – Number Groups Filter
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · [⬅️ 52 Base Lottery Filters Detailed Introduction(2022 Updated)](52-base-lottery-filters-detailed-introduction-2022-updated.md) · [Best Lottery Software ➡️](best-lottery-software.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [What is Number Groups Filter?](#what-is-number-groups-filter)
+- [Filtering Combinations Using Number Groups Filter](#filtering-combinations-using-number-groups-filter)
+- [Summary](#summary)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 **Lottery Analysis Studio** provide a very powerful filter, a lot can be done with this filter.
 
 Today I will show you how to use it.
@@ -96,3 +110,6 @@ def evaluate_filter_suite(
         return lo <= passed <= hi
     return True
 ```
+
+---
+> **Next Steps**: [⬅️ 52 Base Lottery Filters Detailed Introduction(2022 Updated)](52-base-lottery-filters-detailed-introduction-2022-updated.md) · [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [Best Lottery Software ➡️](best-lottery-software.md)

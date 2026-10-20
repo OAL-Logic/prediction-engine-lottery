@@ -1,5 +1,20 @@
 # Why use the WRG
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · [⬅️ What is Actual Skips](what-is-actual-skips.md) · [Win Brazil Mega Sena Lottery Ultimate Guide ➡️](win-brazil-mega-sena-lottery-ultimate-guide.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [Why Use the WRG](#why-use-the-wrg)
+- [How to Use WRG](#how-to-use-wrg)
+- [For an Example of Mega Millions](#for-an-example-of-mega-millions)
+- [Summary](#summary)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 ## Why Use the WRG
 
 WRG = **Wheel Reduction Guarantee**. The WRG is designed to enable a player to play more numbers. WRG can **quickly eliminate combinations** without changing the distribution of numbers in all combinations. Bet on few tickets and play more numbers.
@@ -79,3 +94,6 @@ def evaluate_filter_suite(
         return lo <= passed <= hi
     return True
 ```
+
+---
+> **Next Steps**: [⬅️ What is Actual Skips](what-is-actual-skips.md) · [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [Win Brazil Mega Sena Lottery Ultimate Guide ➡️](win-brazil-mega-sena-lottery-ultimate-guide.md)

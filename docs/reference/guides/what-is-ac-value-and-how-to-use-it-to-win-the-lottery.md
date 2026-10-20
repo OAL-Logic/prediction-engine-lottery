@@ -1,5 +1,20 @@
 # What is AC Value and How to Use it to Win the Lottery
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · [⬅️ Using Lottery Software to Win the Powerball Jackpot](using-lottery-software-to-win-the-powerball-jackpot.md) · [What is Actual Skips ➡️](what-is-actual-skips.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [What is AC Value](#what-is-ac-value)
+- [Analyze the AC value](#analyze-the-ac-value)
+- [Filtering Combinations Using AC Value](#filtering-combinations-using-ac-value)
+- [Summary](#summary)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 Our **lottery software** provides historical draws AC value analysis charts and AC value filter. This article will tell you what is AC value and how to use it in filtering.
 
 ## What is AC Value
@@ -68,3 +83,6 @@ def compute_ac_value(ticket: list[int]) -> int:
     diffs = {abs(a - b) for i, a in enumerate(ticket) for b in ticket[i + 1 :]}
     return len(diffs) - (k - 1)
 ```
+
+---
+> **Next Steps**: [⬅️ Using Lottery Software to Win the Powerball Jackpot](using-lottery-software-to-win-the-powerball-jackpot.md) · [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [What is Actual Skips ➡️](what-is-actual-skips.md)

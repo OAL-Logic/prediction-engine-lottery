@@ -1,5 +1,18 @@
 # How to Use Lottery Software to Analyze History Results
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · [⬅️ How to Use Lottery Analysis Studio Filters to Eliminate Bad Tickets](how-to-use-lottery-analysis-studio-filters-to-eliminate-bad-tickets.md) · [How to use the Advanced Wheeling ➡️](how-to-use-the-advanced-wheeling.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [Introduction to the Statistical Analysis Interface](#introduction-to-the-statistical-analysis-interface)
+- [Detailed Introduction to Statistical Analysis Methods](#detailed-introduction-to-statistical-analysis-methods)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 provides over 15 methods of historical results analysis. The professional analysis function is very useful for setting lottery [[Clippings - lottery-studio.example - How to Use Lottery Analysis Studio Filters to Eliminate Bad Tickets - 2026-05-06|filter]] condition parameters. You can customize the range of analyzed drawings data, Customized analysis statistics of drawings numbers at specified positions, and analyze the [skips](https://example.org/lottery-studio) of each value.
 
 ## Introduction to the Statistical Analysis Interface
@@ -278,3 +291,6 @@ def evaluate_filter_suite(
         return lo <= passed <= hi
     return True
 ```
+
+---
+> **Next Steps**: [⬅️ How to Use Lottery Analysis Studio Filters to Eliminate Bad Tickets](how-to-use-lottery-analysis-studio-filters-to-eliminate-bad-tickets.md) · [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [How to use the Advanced Wheeling ➡️](how-to-use-the-advanced-wheeling.md)

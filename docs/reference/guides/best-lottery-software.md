@@ -1,5 +1,35 @@
 # Best Lottery Software
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · [⬅️ A Universal Filter – Number Groups Filter](a-universal-filter-number-groups-filter.md) · [How to Choose Lottery Numbers ➡️](how-to-choose-lottery-numbers.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [Lottery Studio 2026 Lottery Software Overview](#lottery-studio-2026-lottery-software-overview)
+- [Lottery Analysis Studio Product Introduction](#lottery-analysis-studio-product-introduction)
+  - [Quick Number Picking](#quick-number-picking)
+  - [Lottery Wheeling Systems](#lottery-wheeling-systems)
+  - [Lottery Filtering Software](#lottery-filtering-software)
+  - [Analysis of Historical Lottery Results](#analysis-of-historical-lottery-results)
+  - [Lottery Prediction Software](#lottery-prediction-software)
+  - [Search Past Results](#search-past-results)
+- [Details of Lottery Analysis Studio Supported Features](#details-of-lottery-analysis-studio-supported-features)
+  - [Lottery Drawings Update and Editing](#lottery-drawings-update-and-editing)
+  - [Processing and Editing Bet Ticket Store](#processing-and-editing-bet-ticket-store)
+  - [Tracking and Statistical Analysis of Historical Drawings Results](#tracking-and-statistical-analysis-of-historical-drawings-results)
+  - [Optimize Bet Tickets](#optimize-bet-tickets)
+  - [Generate Tickets Combinations](#generate-tickets-combinations)
+  - [Use Filters to Eliminate Bad Lottery Tickets](#use-filters-to-eliminate-bad-lottery-tickets)
+  - [Predicting the Next Draw](#predicting-the-next-draw)
+  - [Search Past Drawings Results](#search-past-drawings-results)
+  - [Other Lotteries](#other-lotteries)
+- [Testimonial](#testimonial)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 ## Lottery Studio 2026 Lottery Software Overview
 
 **Lottery Analysis Studio** is a Fully-featured Software for Lottery, that has turned around the betting experience of most players around the world. **Lottery Studio** provides the best filtering, search, analysis, and predicting tool, thus playing the lottery never before. It has been a true winning tool since 2003. This software is an **All-In-One** lottery program to play the lottery that offers a variety of **strategy** combinations to help you win the lottery and increase your odds of winning.
@@ -387,3 +417,6 @@ def evaluate_filter_suite(
         return lo <= passed <= hi
     return True
 ```
+
+---
+> **Next Steps**: [⬅️ A Universal Filter – Number Groups Filter](a-universal-filter-number-groups-filter.md) · [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [How to Choose Lottery Numbers ➡️](how-to-choose-lottery-numbers.md)

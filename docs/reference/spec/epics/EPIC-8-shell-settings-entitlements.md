@@ -1,5 +1,21 @@
 # EPIC 8 — Shell · Settings · Entitlements · Reusable Components
 
+> **Navigation**: [🏠 Reference Hub](../../INDEX.md) · [📂 04. Clean-Room Engineering Epics](../INDEX.md) · [🌐 Dynamic Portal](../../dynamic-portal.html) · [⬅️ EPIC 7 — Tickets Lifecycle · Optimize · Search · Check-Win](EPIC-7-tickets-lifecycle.md) · End
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [F8.1 — App shell + toolbar + navigation](#f8-1-app-shell-toolbar-navigation)
+- [F8.2 — Settings store (per-game + global)](#f8-2-settings-store-per-game-global)
+- [F8.3 — Entitlements (Free / Pro gate)](#f8-3-entitlements-free-pro-gate)
+- [F8.4 — Reusable components](#f8-4-reusable-components)
+- [F8.5 — Charts (FrequencyChart, TrendChart)](#f8-5-charts-frequencychart-trendchart)
+  - [Epic 8 exit criteria](#epic-8-exit-criteria)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 **Goal:** the app frame that hosts everything — toolbar navigation, persisted
 settings, the Free/Pro capability gate, and the shared UI components every screen
 reuses. **Verified source:** Doc 00 (edition matrix), Doc 07 §6, Doc 08 (screens).
@@ -90,3 +106,6 @@ frequency bar chart and trend line (Doc 08 §4 pattern #3).
 ### Epic 8 exit criteria
 Shell navigates all screens; settings persist per-game + global; the Free/Pro matrix
 is fully enforced; shared components + charts back every screen.
+
+---
+> **Next Steps**: [⬅️ EPIC 7 — Tickets Lifecycle · Optimize · Search · Check-Win](EPIC-7-tickets-lifecycle.md) · [🏠 Reference Hub](../../INDEX.md) · [📂 04. Clean-Room Engineering Epics](../INDEX.md) · End

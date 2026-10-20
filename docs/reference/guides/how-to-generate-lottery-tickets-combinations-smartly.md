@@ -1,5 +1,7 @@
 # How to Generate Lottery Tickets Combinations Smartly
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · [⬅️ How to Generate Combinations Containing Bonus Number](how-to-generate-combinations-containing-bonus-number.md) · [How to Generate Lotto Lottery Numbers Combination ➡️](how-to-generate-lotto-lottery-numbers-combination.md)
+
 **Lottery Studio** supports the **smart** generation of ticket combinations based on **historical data**. The program uses our own developed lotto lottery **algorithms** and formulas to generate smart combinations.
 
 ![[attachments/7eb4503c3d4d870c5fa6043ce56d9f31_MD5.gif]]
@@ -50,3 +52,6 @@ def evaluate_filter_suite(
         return lo <= passed <= hi
     return True
 ```
+
+---
+> **Next Steps**: [⬅️ How to Generate Combinations Containing Bonus Number](how-to-generate-combinations-containing-bonus-number.md) · [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [How to Generate Lotto Lottery Numbers Combination ➡️](how-to-generate-lotto-lottery-numbers-combination.md)

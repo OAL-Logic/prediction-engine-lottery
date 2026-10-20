@@ -1,5 +1,18 @@
 # How to use the Advanced Wheeling
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · [⬅️ How to Use Lottery Software to Analyze History Results](how-to-use-lottery-software-to-analyze-history-results.md) · [How to Use the Wheeling Systems to Generate Combinations ➡️](how-to-use-the-wheeling-systems-to-generate-combinations.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [Rearrange the Selected Numbers Position](#rearrange-the-selected-numbers-position)
+- [Use Custom Wheeling](#use-custom-wheeling)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 ## Rearrange the Selected Numbers Position
 
 When we use the wheeling formula to generate number combinations, The default is to generate combinations in the order from smallest to largest. We know that when we use the wheeling formula. The number in front of the position appears more often in all combinations. Different number positions will generate different combination results.
@@ -235,3 +248,6 @@ def evaluate_filter_suite(
         return lo <= passed <= hi
     return True
 ```
+
+---
+> **Next Steps**: [⬅️ How to Use Lottery Software to Analyze History Results](how-to-use-lottery-software-to-analyze-history-results.md) · [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [How to Use the Wheeling Systems to Generate Combinations ➡️](how-to-use-the-wheeling-systems-to-generate-combinations.md)

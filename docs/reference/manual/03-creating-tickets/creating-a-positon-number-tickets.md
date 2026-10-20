@@ -1,5 +1,17 @@
 # Creating Positons Number Tickets
 
+> **Navigation**: [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [🌐 Dynamic Portal](../../dynamic-portal.html) · [⬅️ Choose a Lottery](../02-drawing-files/split-lottery-drawings.md) · [Creating a Random Number Tickets ➡️](creating-a-random-number-tickets.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [Creating Positons Number Tickets](#creating-positons-number-tickets)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 > **Category:** Ticket Generation & Line Editing (`03-creating-tickets`)
 
 ﻿
@@ -89,3 +101,6 @@ def evaluate_filter_suite(
         return lo <= passed <= hi
     return True
 ```
+
+---
+> **Next Steps**: [⬅️ Choose a Lottery](../02-drawing-files/split-lottery-drawings.md) · [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [Creating a Random Number Tickets ➡️](creating-a-random-number-tickets.md)

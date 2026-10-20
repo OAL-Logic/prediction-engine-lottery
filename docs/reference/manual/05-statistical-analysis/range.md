@@ -1,5 +1,17 @@
 # Range Analysis
 
+> **Navigation**: [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [🌐 Dynamic Portal](../../dynamic-portal.html) · [⬅️ Prior Drawing Analysis](prior-drawing.md) · [Successive Analysis ➡️](successive.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [Range Analysis](#range-analysis)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 > **Category:** 18 Statistical Analysis Methods (`05-statistical-analysis`)
 
 ## Range Analysis
@@ -67,3 +79,6 @@ def compute_drawn_order_distances(ticket_in_draw_order: list[int]) -> dict[str, 
         "different_distance": len(set(adj_diffs)),
     }
 ```
+
+---
+> **Next Steps**: [⬅️ Prior Drawing Analysis](prior-drawing.md) · [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [Successive Analysis ➡️](successive.md)

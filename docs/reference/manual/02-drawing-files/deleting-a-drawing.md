@@ -1,5 +1,17 @@
 # Deleting a Drawing
 
+> **Navigation**: [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [🌐 Dynamic Portal](../../dynamic-portal.html) · [⬅️ Adding a New Lottery](adding-a-new-lottery.md) · [Exporting and Importing Drawings.htm ➡️](exporting-and-importing-drawings.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [Deleting a Draw](#deleting-a-draw)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 > **Category:** Drawing History & Game File Management (`02-drawing-files`)
 
 ## Deleting a Draw
@@ -67,3 +79,6 @@ def evaluate_filter_suite(
         return lo <= passed <= hi
     return True
 ```
+
+---
+> **Next Steps**: [⬅️ Adding a New Lottery](adding-a-new-lottery.md) · [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [Exporting and Importing Drawings.htm ➡️](exporting-and-importing-drawings.md)

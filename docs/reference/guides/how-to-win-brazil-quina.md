@@ -1,5 +1,22 @@
 # How to Win Brazil Quina
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · [⬅️ How to Use the Wheeling Systems to Generate Combinations](how-to-use-the-wheeling-systems-to-generate-combinations.md) · [Lottery Studio-feature-map ➡️](lottery-studio-feature-map.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [Brazil Quina Lottery Details](#brazil-quina-lottery-details)
+- [Win Brazil Quina Strategies and Tips](#win-brazil-quina-strategies-and-tips)
+  - [Use the Following Pattern to Play Brazil Quina](#use-the-following-pattern-to-play-brazil-quina)
+  - [Do Not Use The Following Pattern to Play Brazil Quina](#do-not-use-the-following-pattern-to-play-brazil-quina)
+- [FREE Download Lottery Studio Lottery Strategy Software to Play Brazil Quina](#free-download-lottery-studio-lottery-strategy-software-to-play-brazil-quina)
+- [Use Lottery Strategy Software to Win Brazil Quina](#use-lottery-strategy-software-to-win-brazil-quina)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 **Brazil Quina** is one of the most popular lotteries in Brazil. The odds of winning the Jackpot in Quina is 1 in 24,040,016. to win the Brazil Quina Jackpot, you need to match all 5 balls.  
   
 Today we will give you the best **lottery strategies** and **software** to win **Brazil Quina** and improve your probability of winning!  
@@ -140,3 +157,6 @@ def evaluate_filter_suite(
         return lo <= passed <= hi
     return True
 ```
+
+---
+> **Next Steps**: [⬅️ How to Use the Wheeling Systems to Generate Combinations](how-to-use-the-wheeling-systems-to-generate-combinations.md) · [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [Lottery Studio-feature-map ➡️](lottery-studio-feature-map.md)

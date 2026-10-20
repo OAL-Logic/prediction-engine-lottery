@@ -1,5 +1,21 @@
 # EPIC 6 — Prediction & Verification
 
+> **Navigation**: [🏠 Reference Hub](../../INDEX.md) · [📂 04. Clean-Room Engineering Epics](../INDEX.md) · [🌐 Dynamic Portal](../../dynamic-portal.html) · [⬅️ EPIC 5 — Wheeling Systems](EPIC-5-wheeling.md) · [EPIC 7 — Tickets Lifecycle · Optimize · Search · Check-Win ➡️](EPIC-7-tickets-lifecycle.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [F6.1 — Predictor (pool output)](#f6-1-predictor-pool-output)
+- [F6.2 — Formula strategies (Formula-1 … Formula-6)](#f6-2-formula-strategies-formula-1-formula-6)
+- [F6.3 — Verifier (replay → hit-rate)](#f6-3-verifier-replay-hit-rate)
+- [F6.4 — Drawings Trend (manual prediction)](#f6-4-drawings-trend-manual-prediction)
+- [F6.5 — Prediction UI](#f6-5-prediction-ui)
+  - [Epic 6 exit criteria](#epic-6-exit-criteria)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 **Goal:** a predictor that outputs a **recommended number pool** (not a single line)
 plus an eliminated set, and an honest **verifier** that replays a formula over
 history and measures pool hit-rate. **Verified source:** Doc 05 §B, Doc 09 §2.4
@@ -81,3 +97,6 @@ verify (with bonus), changing the past-draw range.
 ### Epic 6 exit criteria
 Predictor outputs a deterministic pool; 6 formulas distinct; verifier reproduces the
 `Validation`-table hit-rate semantics; nothing claims to be the original's secret math.
+
+---
+> **Next Steps**: [⬅️ EPIC 5 — Wheeling Systems](EPIC-5-wheeling.md) · [🏠 Reference Hub](../../INDEX.md) · [📂 04. Clean-Room Engineering Epics](../INDEX.md) · [EPIC 7 — Tickets Lifecycle · Optimize · Search · Check-Win ➡️](EPIC-7-tickets-lifecycle.md)

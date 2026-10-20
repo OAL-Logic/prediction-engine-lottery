@@ -1,5 +1,22 @@
 # 01 — Complete Feature Inventory
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 01. Architecture & Data Structures](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · [⬅️ Lottery Studio — Complete Feature Extraction & Rebuild Plan](00-README-and-Build-Plan.md) · [02 — Statistical Analysis Reference (every method + exact math) ➡️](02-Statistical-Analysis-Reference.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [A. Lottery / Drawings management  `[CHM: Working with Lottery Drawing Files]`](#a-lottery-drawings-management-chm-working-with-lottery-drawing-files)
+- [B. Statistical analysis  `[CHM: Interpreting the Statistical]` · `TstatisticForm`](#b-statistical-analysis-chm-interpreting-the-statistical-tstatisticform)
+- [C. Ticket generation  `[CHM: Creating and Edit Your Lottery Tickets]`](#c-ticket-generation-chm-creating-and-edit-your-lottery-tickets)
+- [D. Filtering  `[CHM: How to Filtering]` · `TbasefiltersForm`, `Tadv1/2/3Form`](#d-filtering-chm-how-to-filtering-tbasefiltersform-tadv1-2-3form)
+- [E. Prediction  `[CHM: How to Predict]` · `TPredictionForm`](#e-prediction-chm-how-to-predict-tpredictionform)
+- [F. Tickets lifecycle, optimize, search, check  `TopForm`, `TcheckForm`](#f-tickets-lifecycle-optimize-search-check-topform-tcheckform)
+- [G. Shell / app-level](#g-shell-app-level)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 Every user-visible feature, grouped by subsystem. Evidence keys: `[CHM]` = help
 manual topic, `[EXE]` = binary strings (form/label), `[DATA]` = on-disk file.
 
@@ -125,3 +142,6 @@ Actual/Average/Now Skips.
 | G4 | Edition gating (Free vs Pro) | `[EXE]` (doc 00) |
 | G5 | Help (CHM), video tutorials, blog, purchase/register | `read2.ini`, `TaboutForm`, `TtryForm` |
 | G6 | Progress dialog for long ops | `TprogresForm` |
+
+---
+> **Next Steps**: [⬅️ Lottery Studio — Complete Feature Extraction & Rebuild Plan](00-README-and-Build-Plan.md) · [🏠 Reference Hub](../INDEX.md) · [📂 01. Architecture & Data Structures](INDEX.md) · [02 — Statistical Analysis Reference (every method + exact math) ➡️](02-Statistical-Analysis-Reference.md)

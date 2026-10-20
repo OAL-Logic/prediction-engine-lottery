@@ -1,5 +1,19 @@
 # Set the Number of the Specified Positions to Participate in the Calculation
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · [⬅️ Pick 3 Tic-Tac-Toe Generator  Free Lottery Software](pick-3-tic-tac-toe-generator-free-lottery-software.md) · [US Powerball Lottery Win Strategies and Tips Ultimate Guide(2022 Updated) ➡️](us-powerball-lottery-win-strategies-and-tips-ultimate-guide-2022-updated.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [Set the Positions to Contain When Filtering](#set-the-positions-to-contain-when-filtering)
+- [Set the Positions of the Filter Assistant Contain](#set-the-positions-of-the-filter-assistant-contain)
+- [Set the Positions of the Statistical Analysis Contain](#set-the-positions-of-the-statistical-analysis-contain)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 Sometimes we just want the number combinations or drawings results in a given **position** to be **filtered**, counted, or analyzed. **[Lottery Studio](https://example.org/lottery-studio)** and **[SamP3P4](https://example.org/lottery-studio)** are All support this feature.
 
 ## Set the Positions to Contain When Filtering
@@ -70,3 +84,6 @@ def evaluate_filter_suite(
         return lo <= passed <= hi
     return True
 ```
+
+---
+> **Next Steps**: [⬅️ Pick 3 Tic-Tac-Toe Generator  Free Lottery Software](pick-3-tic-tac-toe-generator-free-lottery-software.md) · [🏠 Reference Hub](../INDEX.md) · [📂 03. Mathematical & Strategy Guides](INDEX.md) · [US Powerball Lottery Win Strategies and Tips Ultimate Guide(2022 Updated) ➡️](us-powerball-lottery-win-strategies-and-tips-ultimate-guide-2022-updated.md)

@@ -1,5 +1,17 @@
 # How to Quick to Pick Numbers
 
+> **Navigation**: [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [🌐 Dynamic Portal](../../dynamic-portal.html) · [⬅️ Editing  Tickets](editing-tickets.md) · [Overview ➡️](overview.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [How to Quick to Pick Numbers](#how-to-quick-to-pick-numbers)
+- [Clean-Room Python Boilerplate](#clean-room-python-boilerplate)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 > **Category:** Ticket Generation & Line Editing (`03-creating-tickets`)
 
 ﻿
@@ -76,3 +88,6 @@ def evaluate_filter_suite(
         return lo <= passed <= hi
     return True
 ```
+
+---
+> **Next Steps**: [⬅️ Editing  Tickets](editing-tickets.md) · [🏠 Reference Hub](../../INDEX.md) · [📂 02. Functional Studio Manual](../INDEX.md) · [Overview ➡️](overview.md)

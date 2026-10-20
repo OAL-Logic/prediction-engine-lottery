@@ -1,5 +1,24 @@
 # Glossary — Ubiquitous Language
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 01. Architecture & Data Structures](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · [⬅️ 14 — Comprehensive Data Structures & Storage Reference](14-Data-Structures-and-Storage-Reference.md) · [Installing Lottery Studio ➡️](../manual/01-getting-started/installing-lottery-analysis-studio.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [Core objects](#core-objects)
+- [Skips & frequency](#skips-frequency)
+- [Combination metrics (all ✅ validated, doc 10)](#combination-metrics-all-validated-doc-10)
+- [Digit / unit terms (✅ validated, doc 10)](#digit-unit-terms-validated-doc-10)
+- [Filtering](#filtering)
+- [Wheeling](#wheeling)
+- [Prediction](#prediction)
+- [Generation, optimization, search, checking](#generation-optimization-search-checking)
+- [Spelling normalizations (app/code → canonical)](#spelling-normalizations-app-code-canonical)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 One canonical term per concept, its definition, and the authoritative source.
 Grounded in the validated math (doc 10) and real schema (doc 09). Use these names
 consistently in docs and any rebuild.
@@ -122,3 +141,6 @@ consistently in docs and any rebuild.
 → **Prediction** · `Successiv` → **Successive** · `BigSmall` (table) → **Low/High** ·
 `Residue` (table) → **Divided** · `BeforeDrawings`/`Before` → **Previous/Prior Draw** ·
 `ComprehensiveAnalyze` → **Base analysis** · `ns…` tables → **Search**.
+
+---
+> **Next Steps**: [⬅️ 14 — Comprehensive Data Structures & Storage Reference](14-Data-Structures-and-Storage-Reference.md) · [🏠 Reference Hub](../INDEX.md) · [📂 01. Architecture & Data Structures](INDEX.md) · [Installing Lottery Studio ➡️](../manual/01-getting-started/installing-lottery-analysis-studio.md)

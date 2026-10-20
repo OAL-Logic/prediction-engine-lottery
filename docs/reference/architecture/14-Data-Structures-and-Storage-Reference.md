@@ -1,5 +1,29 @@
 # 14 — Comprehensive Data Structures & Storage Reference
 
+> **Navigation**: [🏠 Reference Hub](../INDEX.md) · [📂 01. Architecture & Data Structures](INDEX.md) · [🌐 Dynamic Portal](../dynamic-portal.html) · [⬅️ 13 — Distilled Algorithmic Specifications & Clean-Room Python Boilerplate](13-Distilled-Algorithms-and-Boilerplate.md) · [Glossary — Ubiquitous Language ➡️](glossary.md)
+
+<!-- TOC_BLOCK_START -->
+<details open>
+<summary><strong>📑 On This Page (Table of Contents)</strong></summary>
+
+- [1. High-Level Data Architecture & Entity-Relationship Map](#1-high-level-data-architecture-entity-relationship-map)
+- [2. File System & Directory Layout](#2-file-system-directory-layout)
+- [3. On-Disk File Formats & Wire Protocols](#3-on-disk-file-formats-wire-protocols)
+  - [3.1 Master Game Catalog (`data/registry.yaml` & `GameList` Table)](#3-1-master-game-catalog-data-registry-yaml-gamelist-table)
+  - [3.2 Flat Historical Draw Files (`data/drawings/*.Txt`)](#3-2-flat-historical-draw-files-data-drawings-txt)
+  - [3.3 Serialized Filter Rule Wire Format (`||$[[][][]]` Grammar)](#3-3-serialized-filter-rule-wire-format-grammar)
+  - [3.4 Ticket Exchange Formats (`.txt`, `.csv`, `.slk` SYLK)](#3-4-ticket-exchange-formats-txt-csv-slk-sylk)
+- [4. Relational Database Schema (DuckDB / SQLite)](#4-relational-database-schema-duckdb-sqlite)
+- [5. In-Memory Data Structures & Tensor Shapes (Python Boilerplate)](#5-in-memory-data-structures-tensor-shapes-python-boilerplate)
+- [6. Filter Catalog Vector Map (Tags `01` – `69`)](#6-filter-catalog-vector-map-tags-01-69)
+- [7. Classical Studio Per-Game State & Binary File Map](#7-classical-studio-per-game-state-binary-file-map)
+  - [7.1 Workspace & Per-Game Directory Structure](#7-1-workspace-per-game-directory-structure)
+  - [7.2 Configuration & State INI Schemas](#7-2-configuration-state-ini-schemas)
+  - [7.3 Auxiliary Per-Game Files (`search_list.sl`, `Num_Dis_Next.nxt`, `*.Wheels`)](#7-3-auxiliary-per-game-files-search-list-sl-num-dis-next-nxt-wheels)
+
+</details>
+<!-- TOC_BLOCK_END -->
+
 > **Purpose**: Complete clean-room reference mapping every data structure, on-disk file format, relational database table, serialized wire format, and in-memory analytical tensor used by a full-featured Lottery Analysis & Wheeling Studio.
 
 ---
@@ -466,3 +490,5 @@ RecNo=1                              ; Cursor row in GameList table
 | `FiltersData.db` | `FilterCatalog` | `FilterTag (1..69)`, `CategoryID`, `FilterName`, `DefaultMin`, `DefaultMax`, `SupportsPosMask` | Static metadata for the 69-vector filter engine |
 | `FiltersData.db` | `SavedFilterSets` | `SetID`, `LotteryName`, `SetName`, `SerializedRules` (`||$[[][][]]`) | User-saved filter configurations per lottery |
 
+---
+> **Next Steps**: [⬅️ 13 — Distilled Algorithmic Specifications & Clean-Room Python Boilerplate](13-Distilled-Algorithms-and-Boilerplate.md) · [🏠 Reference Hub](../INDEX.md) · [📂 01. Architecture & Data Structures](INDEX.md) · [Glossary — Ubiquitous Language ➡️](glossary.md)
