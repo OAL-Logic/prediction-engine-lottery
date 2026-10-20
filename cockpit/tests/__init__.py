@@ -1,0 +1,3 @@
+"""
+Cockpit Automated Tests Package
+"""

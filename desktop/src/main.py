@@ -9,6 +9,10 @@ project_root = str(Path(__file__).resolve().parents[2])
 if project_root not in sys.path:
     sys.path.insert(0, project_root)
 
+user_site = Path.home() / f".local/lib/python{sys.version_info.major}.{sys.version_info.minor}/site-packages"
+if user_site.exists() and str(user_site) not in sys.path:
+    sys.path.insert(0, str(user_site))
+
 from PySide6.QtWidgets import (
     QApplication, QMainWindow, QMessageBox, QWidget, QVBoxLayout, QHBoxLayout,
     QGridLayout, QSplitter, QGroupBox, QLabel, QComboBox, QScrollArea, QPushButton,
@@ -19,20 +23,24 @@ from PySide6.QtCore import Qt, Signal, Slot
 from PySide6.QtGui import QFont, QColor, QTextDocument
 from PySide6.QtPrintSupport import QPrinter, QPrintDialog
 
-from desktop.src.theme.manager import ThemeManager
-from desktop.src.tabs.database import DatabaseTab
-from desktop.src.tabs.analysis import AnalysisTab
-from desktop.src.tabs.filters import FiltersTab
-from desktop.src.tabs.wheeling import WheelingTab
-from desktop.src.tabs.predict import PredictionTab
-from desktop.src.tabs.verification import VerificationTab
-from desktop.src.tabs.ev import ExpectedValueTab
-from desktop.src.tabs.telemetry import TelemetryTab
-from desktop.src.telemetry.manager import ThreadManager, ForecastJob, TrainJob, FormulaVerificationJob
-from desktop.src.telemetry.client import TelemetryClient
-from desktop.src.widgets.number_grid import NumberGrid
 from engine.cli.utils import get_adapter
 from engine.adapters.registry import registry
+
+try:
+    from desktop.src.theme.manager import ThemeManager
+    from desktop.src.tabs.database import DatabaseTab
+    from desktop.src.tabs.analysis import AnalysisTab
+    from desktop.src.tabs.filters import FiltersTab
+    from desktop.src.tabs.wheeling import WheelingTab
+    from desktop.src.tabs.predict import PredictionTab
+    from desktop.src.tabs.verification import VerificationTab
+    from desktop.src.tabs.ev import ExpectedValueTab
+    from desktop.src.tabs.telemetry import TelemetryTab
+    from desktop.src.telemetry.manager import ThreadManager, ForecastJob, TrainJob, FormulaVerificationJob
+    from desktop.src.telemetry.client import TelemetryClient
+    from desktop.src.widgets.number_grid import NumberGrid
+except ImportError as e:
+    logging.debug("Legacy desktop tab import deferred: %s", e)
 
 # Pre-import heavy engine modules on the main thread to prevent PySide6/Shiboken import deadlocks in background QThreads
 try:
@@ -1346,7 +1354,11 @@ class ProphetDashboard(QMainWindow):
 
 def main():
     app = QApplication(sys.argv)
-    window = ProphetDashboard()
+    if "--legacy" in sys.argv:
+        window = ProphetDashboard()
+    else:
+        from desktop.src.shell.main_window import CockpitMainWindow
+        window = CockpitMainWindow()
     window.show()
     sys.exit(app.exec())
 
