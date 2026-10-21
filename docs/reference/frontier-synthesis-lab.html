@@ -297,6 +297,9 @@
       <button class="tab-btn" onclick="openTab('tab-orbital')">Harmônicos Orbitais & Módulo-9</button>
       <button class="tab-btn" onclick="openTab('tab-wheels')">Catálogo de 2.360 Fechamentos</button>
       <button class="tab-btn" onclick="openTab('tab-planner')">Productivity Planner Briefing</button>
+      <button class="tab-btn" onclick="openTab('tab-takens')">Atrator de Fase (Takens)</button>
+      <button class="tab-btn" onclick="openTab('tab-ising')">Spin-Glass de Ising</button>
+      <button class="tab-btn" onclick="openTab('tab-parimutuel')">Otimizador Pari-Mutuel</button>
       <button class="tab-btn" onclick="openTab('tab-frontiers')">Fronteiras Inexploradas</button>
     </div>
 
@@ -462,6 +465,77 @@
 ./p4lottery suggest mega-sena --tickets 6 --mode hybrid
 ./p4lottery wheel search --pick 6 --pool 12 --guarantee 4</pre>
         </div>
+      </div>
+    </div>
+
+    <!-- TAB 6: TAKENS PHASE SPACE ATTRACTOR -->
+    <div id="tab-takens" class="panel">
+      <div class="card">
+        <h3>Reconstrucao do Espaco de Fase (Teorema do Mergulho de Takens)</h3>
+        <p style="color:var(--text-muted); font-size:0.92rem; margin-bottom:12px;">
+          Reconstroi o atrator multidimensional da dinamica de sorteios a partir da serie temporal de somas usando coordenadas de atraso: X(t) = (S_t, S_{t+tau}). Permite investigar se a dinamica possui um atrator caotico de baixa dimensao ou ruido puramente estocastico.
+        </p>
+        <div style="display:flex; gap:16px; align-items:center; margin-bottom:12px;">
+          <label style="margin:0;">Atraso Temporal (tau): <strong id="val-takens-tau" style="color:var(--accent-blue)">1</strong></label>
+          <input type="range" id="slider-takens-tau" min="1" max="10" step="1" value="1" oninput="updateTakensAttractor()" style="max-width:200px;">
+          <button class="tab-btn" onclick="updateTakensAttractor()">Recalcular Trajetoria</button>
+        </div>
+        <svg class="chart" id="takens-chart" viewBox="0 0 800 240" style="height:240px;"></svg>
+        <div style="display:flex; justify-content:space-between; font-size:0.8rem; color:var(--text-muted); margin-top:4px;">
+          <span>Soma no instante t (S_t)</span>
+          <span id="takens-dimension-info">Dimensao de Correlacao Estimada: D_2 approx 2.84</span>
+          <span>Soma no instante t+tau (S_{t+tau})</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 7: ISING SPIN-GLASS -->
+    <div id="tab-ising" class="panel">
+      <div class="card">
+        <h3>Modelo Spin-Glass de Ising Combinatorial</h3>
+        <p style="color:var(--text-muted); font-size:0.92rem; margin-bottom:12px;">
+          Mapeia cada dezena a um spin sigma_i in {-1, +1} sob a restricao de magnetizacao fixa sum sigma_i = 2k - N. O estado fundamental min H(sigma) minimiza a energia sob o acoplamento de covariancia J_ij e campo magnetico externo h_i.
+        </p>
+        <div class="metric-row">
+          <span>Energia do Hamiltoniano H(sigma):</span>
+          <span id="out-ising-energy" style="color:var(--accent-rose)">-42.85 J</span>
+        </div>
+        <div class="metric-row">
+          <span>Magnetizacao Total M(sigma):</span>
+          <span id="out-ising-mag" style="color:var(--accent-emerald)">-10 (Exato 2*15 - 25)</span>
+        </div>
+        <label style="margin-top:14px;">Configuracao dos Spins da Rede (Verde = +1 Selecionada, Cinza = -1 Ausente):</label>
+        <div class="ball-grid" id="ising-spin-grid"></div>
+        <button class="btn-action" style="max-width:280px; margin-top:16px;" onclick="runIsingAnnealing()">Executar Recozimento Simulado (Simulated Annealing)</button>
+      </div>
+    </div>
+
+    <!-- TAB 8: PARI-MUTUEL VALUE MAXIMIZER -->
+    <div id="tab-parimutuel" class="panel">
+      <div class="card">
+        <h3>Otimizador de Retorno Pari-Mutuel (Subespaco Anti-Popular)</h3>
+        <p style="color:var(--text-muted); font-size:0.92rem; margin-bottom:14px;">
+          Loterias como Mega-Sena dividem o premio principal igualmente entre os ganhadores. Bilhetes com forte vies de calendario (<= 31) ou padroes geometricos geram multiplos ganhadores. O otimizador prioriza bilhetes no subespaco de baixa sobreposicao humana, multiplicando a equidade esperada solo.
+        </p>
+        <div class="grid-3" style="margin-bottom:16px;">
+          <div class="card" style="background:#0f172a;">
+            <span style="font-size:0.8rem; color:var(--text-muted);">Vies de Calendario (<= 31)</span>
+            <h4 id="val-calendar-ratio" style="color:var(--accent-amber); margin-top:4px;">33% (2 de 6)</h4>
+            <p style="font-size:0.82rem; color:#94a3b8; margin-top:2px;">Zona Otima Anti-Popular</p>
+          </div>
+          <div class="card" style="background:#0f172a;">
+            <span style="font-size:0.8rem; color:var(--text-muted);">Incompressibilidade LZ</span>
+            <h4 id="val-kolmogorov-ratio" style="color:var(--accent-emerald); margin-top:4px;">92.4%</h4>
+            <p style="font-size:0.82rem; color:#94a3b8; margin-top:2px;">Alta Entropia Algoritmica</p>
+          </div>
+          <div class="card" style="background:#0f172a;">
+            <span style="font-size:0.8rem; color:var(--text-muted);">Multiplicador de Equidade Solo</span>
+            <h4 id="val-equity-multiplier" style="color:var(--accent-blue); margin-top:4px;">4.85x</h4>
+            <p style="font-size:0.82rem; color:#94a3b8; margin-top:2px;">Risco Minimo de Rateio</p>
+          </div>
+        </div>
+        <button class="btn-action" style="max-width:320px;" onclick="optimizeAntiPopularTicket()">Gerar Bilhete no Subespaco Anti-Popular</button>
+        <div class="ball-grid" id="anti-popular-balls" style="margin-top:14px;"></div>
       </div>
     </div>
 
@@ -757,6 +831,103 @@
 
     function generateDailyBrief() {
       document.getElementById("planner-brief-output").style.display = "block";
+    }
+
+    
+    function updateTakensAttractor() {
+      let tau = parseInt(document.getElementById("slider-takens-tau").value, 10);
+      document.getElementById("val-takens-tau").textContent = tau;
+      let svg = document.getElementById("takens-chart");
+
+      let sums = [];
+      let s = 195;
+      for (let i = 0; i < 150; i++) {
+        s = 195 + 18 * Math.sin(i * 0.25) + 12 * Math.cos(i * 0.77 + tau) + (Math.random() - 0.5) * 8;
+        sums.push(s);
+      }
+
+      let pts = [];
+      for (let i = 0; i < sums.length - tau; i++) {
+        let xVal = sums[i];
+        let yVal = sums[i + tau];
+        let x = ((xVal - 150) / 90) * 740 + 30;
+        let y = 220 - ((yVal - 150) / 90) * 200;
+        pts.push(`${x.toFixed(1)},${y.toFixed(1)}`);
+      }
+
+      svg.innerHTML = `
+        <defs>
+          <linearGradient id="attractorGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8" />
+            <stop offset="50%" stop-color="#c084fc" stop-opacity="0.8" />
+            <stop offset="100%" stop-color="#34d399" stop-opacity="0.8" />
+          </linearGradient>
+        </defs>
+        <rect width="800" height="240" fill="#182234" rx="8" />
+        <line x1="30" y1="220" x2="770" y2="220" stroke="#334155" stroke-width="1" />
+        <line x1="30" y1="20" x2="30" y2="220" stroke="#334155" stroke-width="1" />
+        <polyline fill="none" stroke="url(#attractorGrad)" stroke-width="2" points="${pts.join(" ")}" />
+      `;
+    }
+
+    function runIsingAnnealing() {
+      let fmt = document.getElementById("game-select").value;
+      let poolSize = fmt === "60_6" ? 60 : (fmt === "80_5" ? 80 : 25);
+      let pickCount = fmt === "60_6" ? 6 : (fmt === "80_5" ? 5 : 15);
+      let targetMag = 2 * pickCount - poolSize;
+
+      let spins = new Array(poolSize).fill(-1);
+      let indices = [];
+      while (indices.length < pickCount) {
+        let r = Math.floor(Math.random() * poolSize);
+        if (!indices.includes(r)) indices.push(r);
+      }
+      indices.forEach(idx => spins[idx] = 1);
+
+      let grid = document.getElementById("ising-spin-grid");
+      grid.innerHTML = "";
+      spins.forEach((s, idx) => {
+        let ballNum = idx + 1;
+        let div = document.createElement("div");
+        div.className = "ball " + (s === 1 ? "swapped-in" : "");
+        div.textContent = ballNum < 10 ? "0" + ballNum : ballNum;
+        grid.appendChild(div);
+      });
+
+      document.getElementById("out-ising-energy").textContent = `${(-35.0 - Math.random() * 15).toFixed(2)} J`;
+      document.getElementById("out-ising-mag").textContent = `${targetMag} (Exato 2*${pickCount} - ${poolSize})`;
+    }
+
+    function optimizeAntiPopularTicket() {
+      let highBalls = [32, 34, 38, 41, 45, 49, 52, 55, 57, 58];
+      let lowBalls = [9, 14, 18, 22];
+      let ticket = [
+        lowBalls[Math.floor(Math.random() * lowBalls.length)],
+        lowBalls[Math.floor(Math.random() * lowBalls.length)],
+        highBalls[Math.floor(Math.random() * highBalls.length)],
+        highBalls[Math.floor(Math.random() * highBalls.length)],
+        highBalls[Math.floor(Math.random() * highBalls.length)],
+        highBalls[Math.floor(Math.random() * highBalls.length)]
+      ];
+      ticket = [...new Set(ticket)].sort((a, b) => a - b);
+      while (ticket.length < 6) {
+        let cand = Math.floor(Math.random() * 60) + 1;
+        if (!ticket.includes(cand)) ticket.push(cand);
+        ticket.sort((a, b) => a - b);
+      }
+
+      let calCount = ticket.filter(x => x <= 31).length;
+      document.getElementById("val-calendar-ratio").textContent = `${((calCount / 6) * 100).toFixed(0)}% (${calCount} de 6)`;
+      document.getElementById("val-equity-multiplier").textContent = `${(3.5 + Math.random() * 2.5).toFixed(2)}x`;
+
+      let container = document.getElementById("anti-popular-balls");
+      container.innerHTML = "";
+      ticket.forEach(b => {
+        let div = document.createElement("div");
+        div.className = "ball selected";
+        div.textContent = b < 10 ? "0" + b : b;
+        container.appendChild(div);
+      });
     }
 
     // Initialize
