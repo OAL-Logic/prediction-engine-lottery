@@ -1,0 +1,32 @@
+#!/bin/bash
+# 🚀 PE4Lottery (Prediction Engine for Lottery) Unified Launcher
+# This script handles environment activation, project setup, and subcommands.
+
+set -e
+
+PROJECT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+VENV_DIR="$PROJECT_ROOT/.venv"
+export PYTHONPATH="$PROJECT_ROOT"
+
+# Setup Check
+if [ ! -d "$VENV_DIR" ]; then
+    echo "Creating virtual environment for PE4Lottery..."
+    python3 -m venv "$VENV_DIR"
+    "$VENV_DIR/bin/pip" install --upgrade pip
+    if [ -f "$PROJECT_ROOT/pyproject.toml" ]; then
+        "$VENV_DIR/bin/pip" install -e .
+    fi
+fi
+
+# Execution
+if [ $# -eq 0 ]; then
+    echo "=================================================="
+    echo "🎯 PE4Lottery — Prediction Engine for Lottery"
+    echo "=================================================="
+    echo "Golden Path: Use './pe4lottery wizard' to start interactive analysis."
+    echo "Interactive Lab: Open 'docs/reference/frontier-synthesis-lab.html'"
+    echo ""
+    "$VENV_DIR/bin/python3" -m engine.cli.main --help
+else
+    "$VENV_DIR/bin/python3" -m engine.cli.main "$@"
+fi
