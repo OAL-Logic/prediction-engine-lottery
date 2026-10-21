@@ -303,6 +303,9 @@
       <button class="tab-btn" onclick="openTab('tab-kuramoto')">Sincronizacao de Kuramoto</button>
       <button class="tab-btn" onclick="openTab('tab-poincare')">Disco Hiperbolico de Poincare</button>
       <button class="tab-btn" onclick="openTab('tab-chladni')">Acustica de Chladni (Camara)</button>
+      <button class="tab-btn" onclick="openTab('tab-feynman')">Integral de Trajetoria (Feynman)</button>
+      <button class="tab-btn" onclick="openTab('tab-optics')">Difracao de Onda 2D (Optica)</button>
+      <button class="tab-btn" onclick="openTab('tab-soliton')">Solitons Estocasticos (KdV)</button>
       <button class="tab-btn" onclick="openTab('tab-frontiers')">Fronteiras Inexploradas</button>
     </div>
 
@@ -605,6 +608,63 @@
       </div>
     </div>
 
+    <!-- TAB 12: FEYNMAN PATH INTEGRAL & STATIONARY ACTION -->
+    <div id="tab-feynman" class="panel">
+      <div class="card">
+        <h3>Integral de Trajetoria de Feynman & Principio de Acao Estacionaria (delta S = 0)</h3>
+        <p style="color:var(--text-muted); font-size:0.92rem; margin-bottom:12px;">
+          Em mecânica quântica, a evolução de um sistema não ocorre por um único caminho, mas por uma soma sobre todas as historias possiveis ponderadas por exp(i S / hbar). A trajetoria classica real minimiza o funcional de acao S[x] = int (T - V) dt. O simulador calcula a acao de caminhos concorrentes e destaca a trajetoria de acao estacionaria.
+        </p>
+        <div style="display:flex; gap:16px; align-items:center; margin-bottom:12px;">
+          <span style="font-size:0.85rem; color:var(--text-muted);">Acao Minima (S_min): <strong id="out-feynman-action" style="color:var(--accent-emerald)">14.22 hbar</strong></span>
+          <button class="btn-action" style="max-width:240px; margin:0;" onclick="calculateFeynmanPaths()">Recalcular Feixe de Caminhos</button>
+        </div>
+        <svg class="chart" id="feynman-chart" viewBox="0 0 800 240" style="height:240px;"></svg>
+        <div style="display:flex; justify-content:space-between; font-size:0.8rem; color:var(--text-muted); margin-top:4px;">
+          <span>Sorteio t-3 (Estado Inicial)</span>
+          <span>Amarelo = Trajetoria de Acao Minima (delta S = 0) | Azul = Caminhos Flutuantes</span>
+          <span>Sorteio t+1 (Predicao Otima)</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 13: OPTICAL 2D WAVEFRONT DIFFRACTION -->
+    <div id="tab-optics" class="panel">
+      <div class="card">
+        <h3>Difracao de Onda 2D & Interferometria Espacial no Volante (FFT)</h3>
+        <p style="color:var(--text-muted); font-size:0.92rem; margin-bottom:12px;">
+          As dezenas sorteadas atuam como emissores pontuais de ondas esfericas no plano 2D do volante (Principio de Huygens-Fresnel). O padrao de interferencia revela cristas construtivas (zonas de ressonancia atrativa) e vales destrutivos (zonas proibidas por cancelamento de fase).
+        </p>
+        <svg class="chart" id="optics-chart" viewBox="0 0 800 240" style="height:240px;"></svg>
+        <div style="display:flex; justify-content:space-between; font-size:0.8rem; color:var(--text-muted); margin-top:4px;">
+          <span>Verde = Interferência Construtiva (Picos de Ressonância)</span>
+          <span>Transformada Espacial de Fourier 2D</span>
+          <span>Vermelho = Cancelamento Destrutivo de Fase</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 14: KDV STOCHASTIC SOLITONS -->
+    <div id="tab-soliton" class="panel">
+      <div class="card">
+        <h3>Solitons Estocasticos de Korteweg-de Vries (KdV)</h3>
+        <p style="color:var(--text-muted); font-size:0.92rem; margin-bottom:12px;">
+          Em meios nao-lineares, ondas solitarias mantem sua forma sem dispersar devido ao equilibrio exato entre auto-inclinacao nao-linear e dispersao (u_t + 6 u u_x + u_xxx = 0). Nos sorteios, grupos coesos de dezenas viajam como solitons estocasticos ao longo de dezenas de concursos consecutivos.
+        </p>
+        <div style="display:flex; gap:16px; align-items:center; margin-bottom:12px;">
+          <label style="margin:0;">Velocidade do Soliton (v_sol): <strong id="val-soliton-v" style="color:var(--accent-blue)">1.50</strong></label>
+          <input type="range" id="slider-soliton-v" min="0.5" max="3.0" step="0.1" value="1.5" oninput="updateSolitonV()" style="max-width:200px;">
+          <span style="font-size:0.85rem; color:var(--text-muted);">Resistencia a Colisao: <strong style="color:var(--accent-emerald)">100% Invariante</strong></span>
+        </div>
+        <svg class="chart" id="soliton-chart" viewBox="0 0 800 240" style="height:240px;"></svg>
+        <div style="display:flex; justify-content:space-between; font-size:0.8rem; color:var(--text-muted); margin-top:4px;">
+          <span>Pacote de Onda Sech²(x - vt)</span>
+          <span>Preservacao Coerente de Clusters de Dezenas</span>
+          <span>Historico Temporal de Sorteios</span>
+        </div>
+      </div>
+    </div>
+
     <!-- TAB 6: FRONTIERS -->
     <div id="tab-frontiers" class="panel">
       <div class="card" style="margin-bottom:16px;">
@@ -661,6 +721,10 @@
       if (tabId === "tab-kuramoto") drawKuramotoOscillators(parseFloat(document.getElementById("slider-kuramoto-k").value));
       if (tabId === "tab-poincare") drawPoincareDisk();
       if (tabId === "tab-chladni") drawChladniCavity();
+      if (tabId === "tab-feynman") calculateFeynmanPaths();
+      if (tabId === "tab-optics") drawOpticsDiffraction();
+      if (tabId === "tab-soliton") drawKdvSoliton(parseFloat(document.getElementById("slider-soliton-v").value));
+
 
     }
 
@@ -1100,6 +1164,108 @@
         ${lines.join("")}
       `;
       document.getElementById("out-chladni-status").textContent = `${n * m} Linhas Nodais Ativas`;
+    }
+
+    
+    function calculateFeynmanPaths() {
+      let svg = document.getElementById("feynman-chart");
+      let paths = [];
+      let minAction = 999999;
+      let bestPath = null;
+
+      for (let pIdx = 0; pIdx < 12; pIdx++) {
+        let pts = [];
+        let action = 0;
+        let y = 120;
+        for (let step = 0; step <= 8; step++) {
+          let x = 40 + step * 90;
+          if (step === 0) y = 120;
+          else if (step === 8) y = 120 + (pIdx === 0 ? 0 : (Math.sin(pIdx) * 35));
+          else {
+            let dy = (Math.random() - 0.5) * 45;
+            y += dy;
+            action += (dy * dy) * 0.15 + Math.abs(y - 120) * 0.08;
+          }
+          pts.push(`${x.toFixed(1)},${y.toFixed(1)}`);
+        }
+        if (action < minAction) {
+          minAction = action;
+          bestPath = pts;
+        }
+        paths.push({ pts: pts, action: action });
+      }
+
+      document.getElementById("out-feynman-action").textContent = `${minAction.toFixed(2)} hbar`;
+
+      let pathEls = paths.map(p => {
+        let isBest = (p.pts === bestPath);
+        return `<polyline fill="none" stroke="${isBest ? "#fbbf24" : "#38bdf8"}" stroke-opacity="${isBest ? "1.0" : "0.2"}" stroke-width="${isBest ? "3.5" : "1.2"}" points="${p.pts.join(" ")}" />`;
+      });
+
+      svg.innerHTML = `
+        <rect width="800" height="240" fill="#182234" rx="8" />
+        <line x1="40" y1="120" x2="760" y2="120" stroke="#334155" stroke-dasharray="4" stroke-width="1" />
+        ${pathEls.join("")}
+      `;
+    }
+
+    function drawOpticsDiffraction() {
+      let svg = document.getElementById("optics-chart");
+      let emitters = [
+        { x: 200, y: 80, phase: 0 },
+        { x: 350, y: 160, phase: 0.8 },
+        { x: 500, y: 90, phase: 1.4 },
+        { x: 620, y: 150, phase: 2.1 }
+      ];
+
+      let ripples = [];
+      emitters.forEach(em => {
+        for (let r = 20; r <= 160; r += 24) {
+          ripples.push(`<circle cx="${em.x}" cy="${em.y}" r="${r}" fill="none" stroke="#38bdf8" stroke-opacity="${(1 - r / 180) * 0.35}" stroke-width="1.5" />`);
+        }
+        ripples.push(`<circle cx="${em.x}" cy="${em.y}" r="6" fill="#34d399" stroke="#fff" stroke-width="1.5" />`);
+      });
+
+      svg.innerHTML = `
+        <rect width="800" height="240" fill="#182234" rx="8" />
+        ${ripples.join("")}
+        <text x="400" y="225" text-anchor="middle" font-size="11" fill="#94a3b8">Superposicao Esferica de Huygens-Fresnel: psi(r) = sum (A / sqrt(r)) exp(i(kr - omega t + phi))</text>
+      `;
+    }
+
+    function updateSolitonV() {
+      let vVal = parseFloat(document.getElementById("slider-soliton-v").value);
+      document.getElementById("val-soliton-v").textContent = vVal.toFixed(2);
+      drawKdvSoliton(vVal);
+    }
+
+    function drawKdvSoliton(vVal) {
+      let svg = document.getElementById("soliton-chart");
+      let pts = [];
+      let x0 = 400;
+
+      for (let x = 40; x <= 760; x += 4) {
+        let dx = (x - x0) * 0.035;
+        // sech(z) = 1 / cosh(z)
+        let coshVal = Math.cosh(Math.sqrt(vVal) * 0.5 * dx);
+        let sechVal = 1.0 / coshVal;
+        let u = (vVal / 2.0) * (sechVal * sechVal);
+        let y = 200 - u * 90;
+        pts.push(`${x},${y.toFixed(1)}`);
+      }
+
+      svg.innerHTML = `
+        <defs>
+          <linearGradient id="solitonGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#34d399" stop-opacity="0.9" />
+            <stop offset="100%" stop-color="#0284c7" stop-opacity="0.2" />
+          </linearGradient>
+        </defs>
+        <rect width="800" height="240" fill="#182234" rx="8" />
+        <line x1="40" y1="200" x2="760" y2="200" stroke="#334155" stroke-width="1" />
+        <polygon points="40,200 ${pts.join(" ")} 760,200" fill="url(#solitonGrad)" />
+        <polyline fill="none" stroke="#34d399" stroke-width="3" points="${pts.join(" ")}" />
+      `;
     }
 
     // Initialize
