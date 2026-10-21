@@ -15,10 +15,11 @@
 
 ## ⭐ Essential Entry Points
 
+- 🧬 **[15 — Complete `reference.local/` Distillation & Hybrid Synthesis Matrix](./architecture/15-Complete-Reference-Local-Distillation-and-Hybrid-Synthesis.md)** — Master traceability matrix & clean-room hybrid synthesis (`engine/modules/hybrid_synthesis.py`) covering Synodic Lunar Resonance, Laplace Bayesian, Bipartite Markov, Master Numerology, Micro-Climate Correlation, Boundary-Swap Sum Balancer, CatBoost curves, 2,360 Abbreviated Wheels (`wheels-catalog.csv`), and Binary Disassembly constants.
 - 🧱 **[14 — Comprehensive Data Structures & Storage Reference](./architecture/14-Data-Structures-and-Storage-Reference.md)** — ER diagrams, `.Txt`/`.slk`/`.ini`/`.Wheels` binary layouts, `||$[[][][]]` wire grammar, DuckDB/SQLite schemas, and `AnalyticalMatrixBundle` tensors.
 - ⚙️ **[13 — Distilled Algorithms & Clean-Room Python Boilerplate](./architecture/13-Distilled-Algorithms-and-Boilerplate.md)** — Standalone Python implementations of the 69-filter funnel, fault tolerance, positional generator, and 6-formula predictor.
 - 📐 **[03 — Mathematical Reference (28 Metrics & 69 Filters)](./architecture/03-Mathematical-Reference.md)** — Exact formulas for AC Value, Actual Skips, Spread, Floor Average, Tail Groups, and Decade Distribution.
-- 📊 **[Filters Catalog CSV (69 Vectors)](./architecture/filters-catalog.csv)** & **[Global Games Catalog CSV (222 Lotteries)](./architecture/games-catalog.csv)**.
+- 📊 **[Filters Catalog CSV (69 Vectors)](./architecture/filters-catalog.csv)** · **[Global Games Catalog CSV (222 Lotteries)](./architecture/games-catalog.csv)** · **[Abbreviated Wheels Catalog CSV (2,360 Wheels)](./architecture/wheels-catalog.csv)**.
 
 ## [01. Architecture & Data Structures](./architecture/INDEX.md)
 
@@ -41,7 +42,8 @@ _Architectural specifications, reverse-engineered mathematical formulas, 69-filt
 | `13` | `Core` | **[12 — Diagrams (ER · sequence · state)](./architecture/12-Diagrams.md)** | `architecture/12-Diagrams.md` |
 | `14` | `Core` | **[13 — Distilled Algorithmic Specifications & Clean-Room Python Boilerplate](./architecture/13-Distilled-Algorithms-and-Boilerplate.md)** | `architecture/13-Distilled-Algorithms-and-Boilerplate.md` |
 | `15` | `Core` | **[14 — Comprehensive Data Structures & Storage Reference](./architecture/14-Data-Structures-and-Storage-Reference.md)** | `architecture/14-Data-Structures-and-Storage-Reference.md` |
-| `16` | `Core` | **[Glossary — Ubiquitous Language](./architecture/glossary.md)** | `architecture/glossary.md` |
+| `16` | `Core` | **[15 — Complete `reference.local/` Distillation & Hybrid Synthesis Matrix](./architecture/15-Complete-Reference-Local-Distillation-and-Hybrid-Synthesis.md)** | `architecture/15-Complete-Reference-Local-Distillation-and-Hybrid-Synthesis.md` |
+| `17` | `Core` | **[Glossary — Ubiquitous Language](./architecture/glossary.md)** | `architecture/glossary.md` |
 
 ## [02. Functional Studio Manual](./manual/INDEX.md)
 

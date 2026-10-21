@@ -1,0 +1,20 @@
+Groups	Country_State	Lottery_Name	From	Match	Bouns	Lottery_File
+Other	Malaysia	PMP	        9	4	0	PMP49.dat    //////
+Other	Malaysia	TOTO 4D	        9	4	0	TOTO 4D49.dat   //////
+
+
+
+
+Other	Malaysia	Sandakan 4D	9	4	0	Sandakan 4D49.dat   East Malaysia   ///////
+Other	Malaysia	Sarawak Cash	9	4	0	Sarawak Cash49.dat East Malaysia   ///////
+Other	Malaysia	Sabah 4D	9	4	0	Sabah 4D49.dat    East Malaysia    /////////
+Other	Malaysia	Sabah 3D	9	3	0	Sabah 3D39.dat    East Malaysia   /////////
+
+
+
+
+Other	Malaysia	Malaysia Magnum 4D	9	4	0	Malaysia_Magnum_4D.dat  /////
+Other	Singapore	Singapore 4D	9	4	0	SingaporePools4D.dat     ////
+
+
+Other	Malaysia	GD LOTTO	9	4	0	GD_LOTTO.dat      //////
