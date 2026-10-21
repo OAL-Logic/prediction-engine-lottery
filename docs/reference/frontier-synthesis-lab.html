@@ -306,6 +306,9 @@
       <button class="tab-btn" onclick="openTab('tab-feynman')">Integral de Trajetoria (Feynman)</button>
       <button class="tab-btn" onclick="openTab('tab-optics')">Difracao de Onda 2D (Optica)</button>
       <button class="tab-btn" onclick="openTab('tab-soliton')">Solitons Estocasticos (KdV)</button>
+      <button class="tab-btn" onclick="openTab('tab-braids')">Trancas Espaco-Temporais (Bn)</button>
+      <button class="tab-btn" onclick="openTab('tab-ricci')">Curvatura de Ricci & Fluxo</button>
+      <button class="tab-btn" onclick="openTab('tab-stdp')">Plasticidade Sinaptica (STDP)</button>
       <button class="tab-btn" onclick="openTab('tab-frontiers')">Fronteiras Inexploradas</button>
     </div>
 
@@ -665,6 +668,62 @@
       </div>
     </div>
 
+    <!-- TAB 15: SPACETIME BRAIDS & KNOTS -->
+    <div id="tab-braids" class="panel">
+      <div class="card">
+        <h3>Teoria dos Nos & Grupo de Trancas Espaco-Temporais (Artin B_n)</h3>
+        <p style="color:var(--text-muted); font-size:0.92rem; margin-bottom:12px;">
+          As trajetorias das dezenas ao longo dos sorteios cronologicos formam linhas de universo em (x, y, t) que se entrelacam em trancas topologicas. Dezenas com enlaces topologicos invariantes (Polinomio de Jones) formam superclusters imunes a perturbacoes de amostragem local.
+        </p>
+        <svg class="chart" id="braids-chart" viewBox="0 0 800 240" style="height:240px;"></svg>
+        <div style="display:flex; justify-content:space-between; font-size:0.8rem; color:var(--text-muted); margin-top:4px;">
+          <span>Sorteio Inicial (t-5)</span>
+          <span>Cruzamentos Topologicos de Artin sigma_i | Indice de Enlace Lk != 0</span>
+          <span>Sorteio Final (t)</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 16: OLLIVIER-RICCI CURVATURE & FLOW -->
+    <div id="tab-ricci" class="panel">
+      <div class="card">
+        <h3>Curvatura de Ollivier-Ricci & Cirurgia de Fluxo de Ricci em Grafos</h3>
+        <p style="color:var(--text-muted); font-size:0.92rem; margin-bottom:12px;">
+          Mede a curvatura de Ricci intrinseca kappa(u, v) = 1 - W_1(m_u, m_v) / d(u, v) usando transporte otimo de Wasserstein-1. Arestas com curvatura positiva contraem (cliques fechados), enquanto arestas com curvatura negativa expandem (pontes estruturais entre bacias).
+        </p>
+        <div style="display:flex; gap:16px; align-items:center; margin-bottom:12px;">
+          <span style="font-size:0.85rem; color:var(--text-muted);">Curvatura Media da Rede: <strong id="out-ricci-avg" style="color:var(--accent-emerald)">+0.38 (Positiva)</strong></span>
+          <button class="btn-action" style="max-width:260px; margin:0;" onclick="runRicciFlowSurgery()">Executar Cirurgia de Fluxo de Ricci</button>
+        </div>
+        <svg class="chart" id="ricci-chart" viewBox="0 0 800 240" style="height:240px;"></svg>
+        <div style="display:flex; justify-content:space-between; font-size:0.8rem; color:var(--text-muted); margin-top:4px;">
+          <span>Verde = Curvatura Positiva (Cliques T-T)</span>
+          <span>Evolucao: d d(u, v)/dt = -kappa(u, v) d(u, v)</span>
+          <span>Azul = Curvatura Negativa (Pontes de Gargalo)</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 17: HEBBIAN STDP NEURAL PLASTICITY -->
+    <div id="tab-stdp" class="panel">
+      <div class="card">
+        <h3>Plasticidade Sinaptica Dependente do Tempo de Disparo (STDP)</h3>
+        <p style="color:var(--text-muted); font-size:0.92rem; margin-bottom:12px;">
+          Modela as dezenas como neuronios pulsantes em uma rede neural com plasticidade de Hebb. Quando a dezena A sai imediatamente antes da dezena B, a sinapse w_AB e fortalecida (LTP causal); se a ordem for inversa, e deprimida (LTD anti-causal).
+        </p>
+        <div style="display:flex; gap:16px; align-items:center; margin-bottom:12px;">
+          <span style="font-size:0.85rem; color:var(--text-muted);">Sinapses Ativas Fortalecidas: <strong id="out-stdp-count" style="color:var(--accent-amber)">48 Conexoes Direcionadas</strong></span>
+          <button class="btn-action" style="max-width:240px; margin:0;" onclick="simulateStdpStep()">Injetar Proximo Disparo de Sorteio</button>
+        </div>
+        <svg class="chart" id="stdp-chart" viewBox="0 0 800 240" style="height:240px;"></svg>
+        <div style="display:flex; justify-content:space-between; font-size:0.8rem; color:var(--text-muted); margin-top:4px;">
+          <span>Curva Exponencial Assimetrica de Hebb</span>
+          <span>Potenciacao de Longo Prazo (LTP) vs Depressao (LTD)</span>
+          <span>Matriz Causal de Pesos Sinapticos W_ij</span>
+        </div>
+      </div>
+    </div>
+
     <!-- TAB 6: FRONTIERS -->
     <div id="tab-frontiers" class="panel">
       <div class="card" style="margin-bottom:16px;">
@@ -724,6 +783,10 @@
       if (tabId === "tab-feynman") calculateFeynmanPaths();
       if (tabId === "tab-optics") drawOpticsDiffraction();
       if (tabId === "tab-soliton") drawKdvSoliton(parseFloat(document.getElementById("slider-soliton-v").value));
+      if (tabId === "tab-braids") drawSpacetimeBraids();
+      if (tabId === "tab-ricci") runRicciFlowSurgery();
+      if (tabId === "tab-stdp") simulateStdpStep();
+
 
 
     }
@@ -1265,6 +1328,99 @@
         <line x1="40" y1="200" x2="760" y2="200" stroke="#334155" stroke-width="1" />
         <polygon points="40,200 ${pts.join(" ")} 760,200" fill="url(#solitonGrad)" />
         <polyline fill="none" stroke="#34d399" stroke-width="3" points="${pts.join(" ")}" />
+      `;
+    }
+
+    
+    function drawSpacetimeBraids() {
+      let svg = document.getElementById("braids-chart");
+      let strands = [
+        { id: 5, color: "#38bdf8", y0: 50, y1: 170, y2: 60, y3: 130 },
+        { id: 12, color: "#c084fc", y0: 90, y1: 50, y2: 180, y3: 90 },
+        { id: 18, color: "#34d399", y0: 140, y1: 130, y2: 90, y3: 180 },
+        { id: 25, color: "#fbbf24", y0: 190, y1: 190, y2: 140, y3: 50 }
+      ];
+
+      let paths = strands.map(s => {
+        return `<path d="M 40 ${s.y0} C 200 ${s.y0}, 240 ${s.y1}, 340 ${s.y1} C 440 ${s.y1}, 480 ${s.y2}, 580 ${s.y2} C 680 ${s.y2}, 720 ${s.y3}, 760 ${s.y3}" fill="none" stroke="${s.color}" stroke-width="3" />
+          <circle cx="40" cy="${s.y0}" r="5" fill="${s.color}" />
+          <circle cx="760" cy="${s.y3}" r="5" fill="${s.color}" />
+          <text x="25" y="${s.y0 + 4}" font-size="10" font-weight="700" fill="${s.color}">${s.id}</text>
+          <text x="770" y="${s.y3 + 4}" font-size="10" font-weight="700" fill="${s.color}">${s.id}</text>`;
+      });
+
+      svg.innerHTML = `
+        <rect width="800" height="240" fill="#182234" rx="8" />
+        <line x1="200" y1="20" x2="200" y2="220" stroke="#334155" stroke-dasharray="3" />
+        <line x1="440" y1="20" x2="440" y2="220" stroke="#334155" stroke-dasharray="3" />
+        <line x1="680" y1="20" x2="680" y2="220" stroke="#334155" stroke-dasharray="3" />
+        ${paths.join("")}
+      `;
+    }
+
+    function runRicciFlowSurgery() {
+      let svg = document.getElementById("ricci-chart");
+      let nodes = [
+        { id: 1, x: 180, y: 80, kappa: 0.65 },
+        { id: 2, x: 260, y: 70, kappa: 0.58 },
+        { id: 3, x: 220, y: 150, kappa: 0.72 },
+        { id: 4, x: 400, y: 120, kappa: -0.45 }, // Bottleneck bridge
+        { id: 5, x: 550, y: 75, kappa: 0.61 },
+        { id: 6, x: 630, y: 90, kappa: 0.54 },
+        { id: 7, x: 590, y: 165, kappa: 0.68 }
+      ];
+
+      let edges = [
+        [0, 1], [1, 2], [2, 0], // Clique 1
+        [2, 3], [3, 4],         // Bridge
+        [4, 5], [5, 6], [6, 4]  // Clique 2
+      ];
+
+      let edgeEls = edges.map(([a, b]) => {
+        let isBridge = (a === 2 && b === 3) || (a === 3 && b === 4);
+        let color = isBridge ? "#38bdf8" : "#34d399";
+        let width = isBridge ? 1.5 : 3.0;
+        return `<line x1="${nodes[a].x}" y1="${nodes[a].y}" x2="${nodes[b].x}" y2="${nodes[b].y}" stroke="${color}" stroke-width="${width}" />`;
+      });
+
+      let nodeEls = nodes.map(n => {
+        let color = n.kappa > 0 ? "#34d399" : "#38bdf8";
+        return `<circle cx="${n.x}" cy="${n.y}" r="12" fill="#0f172a" stroke="${color}" stroke-width="2.5" />
+          <text x="${n.x}" y="${n.y + 4}" font-size="10" font-weight="700" text-anchor="middle" fill="#fff">${n.id}</text>`;
+      });
+
+      svg.innerHTML = `
+        <rect width="800" height="240" fill="#182234" rx="8" />
+        ${edgeEls.join("")}
+        ${nodeEls.join("")}
+        <text x="400" y="225" text-anchor="middle" font-size="11" fill="#94a3b8">Cirurgia de Ricci: Pontes Tipo-Espaco Separadas das Bacias de Atratores Compactos</text>
+      `;
+    }
+
+    function simulateStdpStep() {
+      let svg = document.getElementById("stdp-chart");
+      let ptsLtp = [];
+      let ptsLtd = [];
+
+      for (let dt = 0; dt <= 50; dt++) {
+        let x = 400 + dt * 6.5;
+        let y = 120 - 90 * Math.exp(-dt / 12.0);
+        ptsLtp.push(`${x.toFixed(1)},${y.toFixed(1)}`);
+      }
+      for (let dt = -50; dt <= 0; dt++) {
+        let x = 400 + dt * 6.5;
+        let y = 120 + 75 * Math.exp(dt / 14.0);
+        ptsLtd.push(`${x.toFixed(1)},${y.toFixed(1)}`);
+      }
+
+      svg.innerHTML = `
+        <rect width="800" height="240" fill="#182234" rx="8" />
+        <line x1="40" y1="120" x2="760" y2="120" stroke="#475569" stroke-width="1.5" />
+        <line x1="400" y1="20" x2="400" y2="220" stroke="#475569" stroke-dasharray="3" stroke-width="1.5" />
+        <polyline fill="none" stroke="#34d399" stroke-width="3" points="${ptsLtp.join(" ")}" />
+        <polyline fill="none" stroke="#f43f5e" stroke-width="3" points="${ptsLtd.join(" ")}" />
+        <text x="560" y="55" font-size="11" font-weight="700" fill="#34d399">Potenciacao (LTP): Delta w = A+ exp(-Delta t / tau+)</text>
+        <text x="240" y="195" font-size="11" font-weight="700" fill="#f43f5e">Depressao (LTD): Delta w = -A- exp(Delta t / tau-)</text>
       `;
     }
 
