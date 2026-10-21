@@ -300,6 +300,9 @@
       <button class="tab-btn" onclick="openTab('tab-takens')">Atrator de Fase (Takens)</button>
       <button class="tab-btn" onclick="openTab('tab-ising')">Spin-Glass de Ising</button>
       <button class="tab-btn" onclick="openTab('tab-parimutuel')">Otimizador Pari-Mutuel</button>
+      <button class="tab-btn" onclick="openTab('tab-kuramoto')">Sincronizacao de Kuramoto</button>
+      <button class="tab-btn" onclick="openTab('tab-poincare')">Disco Hiperbolico de Poincare</button>
+      <button class="tab-btn" onclick="openTab('tab-chladni')">Acustica de Chladni (Camara)</button>
       <button class="tab-btn" onclick="openTab('tab-frontiers')">Fronteiras Inexploradas</button>
     </div>
 
@@ -539,6 +542,69 @@
       </div>
     </div>
 
+    <!-- TAB 9: KURAMOTO OSCILLATOR SYNCHRONIZATION -->
+    <div id="tab-kuramoto" class="panel">
+      <div class="card">
+        <h3>Sincronizacao de Fases Nao-Lineares de Kuramoto</h3>
+        <p style="color:var(--text-muted); font-size:0.92rem; margin-bottom:12px;">
+          Modela cada dezena como um oscilador de fase nao-linear dtheta_i/dt = omega_i + (K/N) sum sin(theta_j - theta_i). Quando a constante de acoplamento K supera o limiar critico K_c, grupos de dezenas sincronizam espontaneamente em fase, formando os clusters de coocorrencia que saem juntos nos sorteios.
+        </p>
+        <div style="display:flex; gap:16px; align-items:center; margin-bottom:12px;">
+          <label style="margin:0;">Constante de Acoplamento (K): <strong id="val-kuramoto-k" style="color:var(--accent-blue)">1.80</strong></label>
+          <input type="range" id="slider-kuramoto-k" min="0" max="5" step="0.1" value="1.8" oninput="updateKuramotoK()" style="max-width:200px;">
+          <span style="font-size:0.85rem; color:var(--text-muted);">Parametro de Ordem r: <strong id="out-kuramoto-r" style="color:var(--accent-emerald)">0.64</strong></span>
+        </div>
+        <svg class="chart" id="kuramoto-chart" viewBox="0 0 800 240" style="height:240px;"></svg>
+        <div style="display:flex; justify-content:space-between; font-size:0.8rem; color:var(--text-muted); margin-top:4px;">
+          <span>Circulo Unitario de Fases (0 a 2pi)</span>
+          <span>Dezenas em Cluster Sincronizado: <strong id="out-kuramoto-cluster" style="color:var(--accent-amber)">05, 12, 18, 22</strong></span>
+          <span>Regime: <strong id="out-kuramoto-state" style="color:var(--accent-blue)">Sincronizacao Parcial</strong></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 10: POINCARE HYPERBOLIC DISK -->
+    <div id="tab-poincare" class="panel">
+      <div class="card">
+        <h3>Variedade Hiperbolica Combinatorial (Disco de Poincare)</h3>
+        <p style="color:var(--text-muted); font-size:0.92rem; margin-bottom:12px;">
+          O espaco combinatorio C(N, K) cresce exponencialmente, possuindo geometria intrinsecamente hiperbolica (curvatura negativa kappa = -1). No Disco de Poincare, combinacoes convencionais ocupam o centro, enquanto combinacoes anti-populares e de alta entropia se dispersam naturalmente em geodesicas hiperbolicas proximas a borda ideal.
+        </p>
+        <svg class="chart" id="poincare-chart" viewBox="0 0 800 240" style="height:240px;"></svg>
+        <div style="display:flex; justify-content:space-between; font-size:0.8rem; color:var(--text-muted); margin-top:4px;">
+          <span>Origem: Combinacoes Tipicas Centrais</span>
+          <span>Geodesicas de Distancia Hiperbolica d_H(A, B)</span>
+          <span>Borda Ideal: Subespaco Anti-Popular de Maxima Entropia</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 11: CHLADNI ACOUSTIC CAVITY -->
+    <div id="tab-chladni" class="panel">
+      <div class="card">
+        <h3>Ressonancia Acustica de Cavidade & Potencial de Gor'kov (Chladni)</h3>
+        <p style="color:var(--text-muted); font-size:0.92rem; margin-bottom:12px;">
+          Nas maquinas de sorteio por ar comprimido (como Smartplay Gemini), as turbinas e vibracoes geram ondas acusticas estacionarias (Equacao de Helmholtz). As bolas sofrem forca de radiacao acustica que as concentra em linhas nodais (zero pressao) ou as ejetam nos antinodos, influenciando fisicamente a ordem de captura.
+        </p>
+        <div style="display:flex; gap:16px; align-items:center; margin-bottom:12px;">
+          <label style="margin:0;">Modo Acustico (n, m):</label>
+          <select id="select-chladni-mode" onchange="drawChladniCavity()" style="max-width:180px;">
+            <option value="2_2" selected>Modo Fundamental (2, 2)</option>
+            <option value="3_3">Modo Harmonico (3, 3)</option>
+            <option value="4_2">Modo Assimetrico (4, 2)</option>
+            <option value="5_3">Modo Turbulento (5, 3)</option>
+          </select>
+          <span style="font-size:0.85rem; color:var(--text-muted);">Densidade Nodais: <strong id="out-chladni-status" style="color:var(--accent-emerald)">4 Zonas de Captura</strong></span>
+        </div>
+        <svg class="chart" id="chladni-chart" viewBox="0 0 800 240" style="height:240px;"></svg>
+        <div style="display:flex; justify-content:space-between; font-size:0.8rem; color:var(--text-muted); margin-top:4px;">
+          <span>Pressao Minima (Linhas Nodais - Retencao de Bolas)</span>
+          <span>Gradiente do Potencial de Gor'kov</span>
+          <span>Pressao Maxima (Antinodos - Expulsao Acustica)</span>
+        </div>
+      </div>
+    </div>
+
     <!-- TAB 6: FRONTIERS -->
     <div id="tab-frontiers" class="panel">
       <div class="card" style="margin-bottom:16px;">
@@ -592,6 +658,10 @@
       if (tabId === "tab-orbital") drawResonanceChart();
       if (tabId === "tab-wheels") filterWheelsTable();
       if (tabId === "tab-followers") renderFollowerTriggers();
+      if (tabId === "tab-kuramoto") drawKuramotoOscillators(parseFloat(document.getElementById("slider-kuramoto-k").value));
+      if (tabId === "tab-poincare") drawPoincareDisk();
+      if (tabId === "tab-chladni") drawChladniCavity();
+
     }
 
     function updateWeights() {
@@ -928,6 +998,108 @@
         div.textContent = b < 10 ? "0" + b : b;
         container.appendChild(div);
       });
+    }
+
+    
+    function updateKuramotoK() {
+      let kVal = parseFloat(document.getElementById("slider-kuramoto-k").value);
+      document.getElementById("val-kuramoto-k").textContent = kVal.toFixed(2);
+      drawKuramotoOscillators(kVal);
+    }
+
+    function drawKuramotoOscillators(kVal) {
+      let svg = document.getElementById("kuramoto-chart");
+      let numBalls = 25;
+      let rOrder = Math.min(0.98, 0.15 + (kVal / 5.0) * 0.82);
+      document.getElementById("out-kuramoto-r").textContent = rOrder.toFixed(2);
+
+      let state = "Desincronizado";
+      if (rOrder > 0.75) state = "Sincronizacao Global Forte";
+      else if (rOrder > 0.40) state = "Sincronizacao Parcial de Clusters";
+      document.getElementById("out-kuramoto-state").textContent = state;
+
+      let cx = 400, cy = 120, radius = 90;
+      let clusterCenter = Math.PI / 3;
+
+      let circles = [];
+      for (let i = 1; i <= numBalls; i++) {
+        let baseAngle = (i / numBalls) * 2 * Math.PI;
+        let angle = baseAngle * (1 - rOrder * 0.7) + clusterCenter * (rOrder * 0.7) + (Math.sin(i * 1.3) * 0.2);
+        let x = cx + radius * Math.cos(angle);
+        let y = cy + radius * Math.sin(angle);
+        let inCluster = Math.abs(angle - clusterCenter) < 0.6;
+        let color = inCluster ? "#34d399" : "#38bdf8";
+        circles.push(`<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${inCluster ? 7 : 5}" fill="${color}" stroke="#0f172a" stroke-width="1.5" />
+          <text x="${x.toFixed(1)}" y="${(y + 3).toFixed(1)}" font-size="7" font-weight="700" text-anchor="middle" fill="#fff">${i}</text>`);
+      }
+
+      svg.innerHTML = `
+        <rect width="800" height="240" fill="#182234" rx="8" />
+        <circle cx="${cx}" cy="${cy}" r="${radius}" fill="none" stroke="#334155" stroke-dasharray="4" stroke-width="1.5" />
+        <line x1="${cx}" y1="${cy}" x2="${(cx + radius * rOrder * Math.cos(clusterCenter)).toFixed(1)}" y2="${(cy + radius * rOrder * Math.sin(clusterCenter)).toFixed(1)}" stroke="#fbbf24" stroke-width="3" />
+        <circle cx="${cx}" cy="${cy}" r="4" fill="#fbbf24" />
+        ${circles.join("")}
+      `;
+    }
+
+    function drawPoincareDisk() {
+      let svg = document.getElementById("poincare-chart");
+      let cx = 400, cy = 120, R = 100;
+
+      let geodesics = [];
+      for (let i = 0; i < 12; i++) {
+        let a1 = (i / 12) * 2 * Math.PI;
+        let a2 = ((i + 4) / 12) * 2 * Math.PI;
+        let x1 = cx + R * Math.cos(a1);
+        let y1 = cy + R * Math.sin(a1);
+        let x2 = cx + R * Math.cos(a2);
+        let y2 = cy + R * Math.sin(a2);
+        geodesics.push(`<path d="M ${x1.toFixed(1)} ${y1.toFixed(1)} Q ${cx} ${cy} ${x2.toFixed(1)} ${y2.toFixed(1)}" fill="none" stroke="#38bdf8" stroke-opacity="0.3" stroke-width="1.5" />`);
+      }
+
+      let nodes = [];
+      for (let j = 0; j < 18; j++) {
+        let rNorm = 0.3 + 0.65 * (j / 18);
+        let ang = j * 1.618 * 2 * Math.PI;
+        let nx = cx + R * rNorm * Math.cos(ang);
+        let ny = cy + R * rNorm * Math.sin(ang);
+        nodes.push(`<circle cx="${nx.toFixed(1)}" ny="${ny.toFixed(1)}" r="${rNorm > 0.7 ? 5 : 3.5}" fill="${rNorm > 0.7 ? "#34d399" : "#c084fc"}" opacity="0.9" />`);
+      }
+
+      svg.innerHTML = `
+        <rect width="800" height="240" fill="#182234" rx="8" />
+        <circle cx="${cx}" cy="${cy}" r="${R}" fill="#0f172a" stroke="#64748b" stroke-width="2" />
+        ${geodesics.join("")}
+        ${nodes.join("")}
+        <text x="${cx}" y="230" text-anchor="middle" font-size="11" fill="#94a3b8">Espaco Metrico Negativo: d_H(A, B) = arcosh(1 + 2|u-v|^2 / ((1-|u|^2)(1-|v|^2)))</text>
+      `;
+    }
+
+    function drawChladniCavity() {
+      let svg = document.getElementById("chladni-chart");
+      let mode = document.getElementById("select-chladni-mode").value;
+      let [n, m] = mode.split("_").map(x => parseInt(x, 10));
+
+      let lines = [];
+      for (let x = 40; x <= 760; x += 12) {
+        for (let y = 30; y <= 210; y += 12) {
+          let u = ((x - 40) / 720) * Math.PI;
+          let v = ((y - 30) / 180) * Math.PI;
+          let val = Math.cos(n * u) * Math.cos(m * v);
+          if (Math.abs(val) < 0.18) {
+            lines.push(`<circle cx="${x}" cy="${y}" r="2" fill="#34d399" opacity="0.85" />`);
+          } else if (Math.abs(val) > 0.75) {
+            lines.push(`<circle cx="${x}" cy="${y}" r="1.5" fill="#f43f5e" opacity="0.4" />`);
+          }
+        }
+      }
+
+      svg.innerHTML = `
+        <rect width="800" height="240" fill="#182234" rx="8" />
+        <rect x="35" y="25" width="730" height="190" fill="#0f172a" stroke="#334155" rx="6" />
+        ${lines.join("")}
+      `;
+      document.getElementById("out-chladni-status").textContent = `${n * m} Linhas Nodais Ativas`;
     }
 
     // Initialize
