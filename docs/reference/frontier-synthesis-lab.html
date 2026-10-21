@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontier Synthesis & Multi-Modal Prediction Laboratory</title>
+  <style>
+    :root {
+      --bg-primary: #0a0d14;
+      --bg-secondary: #121824;
+      --bg-card: #182234;
+      --border: #24344d;
+      --border-focus: #3b82f6;
+      --text-main: #f1f5f9;
+      --text-muted: #94a3b8;
+      --accent-blue: #38bdf8;
+      --accent-purple: #c084fc;
+      --accent-emerald: #34d399;
+      --accent-amber: #fbbf24;
+      --accent-rose: #fb7185;
+      --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      --font-sans: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg-primary);
+      color: var(--text-main);
+      font-family: var(--font-sans);
+      line-height: 1.5;
+      padding: 24px;
+    }
+
+    header {
+      max-width: 1300px;
+      margin: 0 auto 28px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .header-title h1 {
+      font-size: 1.8rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, #38bdf8, #c084fc, #34d399);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .header-title p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      margin-top: 4px;
+    }
+
+    .nav-links a {
+      color: var(--accent-blue);
+      text-decoration: none;
+      font-size: 0.9rem;
+      padding: 6px 14px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      transition: all 0.2s;
+    }
+    .nav-links a:hover {
+      background: var(--border);
+      border-color: var(--accent-blue);
+    }
+
+    .container {
+      max-width: 1300px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 28px;
+    }
+
+    .tabs {
+      display: flex;
+      gap: 8px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 12px;
+      overflow-x: auto;
+    }
+    .tab-btn {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      padding: 8px 18px;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+    .tab-btn:hover {
+      color: var(--text-main);
+      border-color: var(--accent-blue);
+    }
+    .tab-btn.active {
+      background: #1e293b;
+      color: var(--accent-blue);
+      border-color: var(--accent-blue);
+    }
+
+    .panel { display: none; }
+    .panel.active { display: block; }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+    }
+    .card h3 {
+      font-size: 1.15rem;
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .card h3 span.badge {
+      font-size: 0.75rem;
+      padding: 2px 8px;
+      border-radius: 4px;
+      background: #1e3a8a;
+      color: #93c5fd;
+      font-weight: 500;
+    }
+
+    label {
+      display: block;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 6px;
+      margin-top: 12px;
+    }
+    input[type="range"], input[type="date"], select, input[type="number"], input[type="text"] {
+      width: 100%;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      color: var(--text-main);
+      padding: 8px 12px;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      outline: none;
+    }
+    input[type="range"] { padding: 4px 0; }
+
+    .btn-action {
+      display: inline-block;
+      width: 100%;
+      background: linear-gradient(135deg, #2563eb, #3b82f6);
+      color: #fff;
+      border: none;
+      padding: 10px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      cursor: pointer;
+      margin-top: 16px;
+      transition: opacity 0.2s;
+    }
+    .btn-action:hover { opacity: 0.9; }
+
+    .ball-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 12px;
+    }
+    .ball {
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 0.88rem;
+      font-family: var(--font-mono);
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      color: var(--text-main);
+      transition: all 0.2s;
+    }
+    .ball.selected {
+      background: linear-gradient(135deg, #0284c7, #0ea5e9);
+      border-color: #38bdf8;
+      box-shadow: 0 0 10px rgba(56, 189, 248, 0.4);
+    }
+    .ball.swapped-in {
+      background: linear-gradient(135deg, #059669, #10b981);
+      border-color: #34d399;
+      box-shadow: 0 0 10px rgba(52, 211, 153, 0.4);
+    }
+
+    .metric-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px 0;
+      border-bottom: 1px solid #1e293b;
+      font-size: 0.9rem;
+    }
+    .metric-row span:first-child { color: var(--text-muted); }
+    .metric-row span:last-child { font-family: var(--font-mono); font-weight: 600; }
+
+    svg.chart {
+      width: 100%;
+      height: 180px;
+      background: var(--bg-card);
+      border-radius: 8px;
+      margin-top: 12px;
+    }
+
+    pre.code-block {
+      background: #0f172a;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 12px;
+      font-family: var(--font-mono);
+      font-size: 0.82rem;
+      overflow-x: auto;
+      color: #cbd5e1;
+      margin-top: 12px;
+    }
+
+    table.data-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+      margin-top: 12px;
+    }
+    table.data-table th, table.data-table td {
+      padding: 8px 12px;
+      text-align: left;
+      border-bottom: 1px solid var(--border);
+    }
+    table.data-table th {
+      background: #1e293b;
+      color: var(--accent-blue);
+      font-weight: 600;
+    }
+    table.data-table tr:hover { background: rgba(255, 255, 255, 0.03); }
+
+    .frontier-card {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 18px;
+    }
+    .frontier-card h4 {
+      font-size: 1.1rem;
+      color: var(--accent-emerald);
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .frontier-card p {
+      color: var(--text-muted);
+      font-size: 0.92rem;
+      line-height: 1.6;
+    }
+    .tag {
+      font-size: 0.75rem;
+      padding: 2px 8px;
+      border-radius: 4px;
+      background: #14532d;
+      color: #86efac;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-title">
+      <h1>Frontier Synthesis & Multi-Modal Prediction Laboratory</h1>
+      <p>Interactive playground for stochastic modeling, orbital resonance, boundary equilibrium & covering designs</p>
+    </div>
+    <div class="nav-links">
+      <a href="./INDEX.md">← Back to Master Reference</a>
+      <a href="./dynamic-portal.html">Dynamic Portal</a>
+      <a href="./architecture/15-Multi-Modal-Prediction-Mechanics-and-Frontier-Synthesis.md">Architecture Specification</a>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="tabs">
+      <button class="tab-btn active" onclick="openTab('tab-simulator')">🧪 Multi-Modal & Boundary-Swap Simulator</button>
+      <button class="tab-btn" onclick="openTab('tab-orbital')">🌙 Orbital Harmonics & Modular Rings</button>
+      <button class="tab-btn" onclick="openTab('tab-wheels')">🎡 2,360 Covering Designs Explorer</button>
+      <button class="tab-btn" onclick="openTab('tab-frontiers')">🚀 Unexplored Frontier Ideas</button>
+    </div>
+
+    <!-- TAB 1: SIMULATOR -->
+    <div id="tab-simulator" class="panel active">
+      <div class="grid-2">
+        <div class="card">
+          <h3>Simulation Parameters <span class="badge">Configuration</span></h3>
+          <label for="game-select">Lottery Format</label>
+          <select id="game-select" onchange="updateGameFormat()">
+            <option value="25_15">25-Ball Matrix (Pick 15, Pool 25) - [Lotofácil Preset]</option>
+            <option value="60_6">60-Ball Matrix (Pick 6, Pool 60) - [Mega-Sena Preset]</option>
+            <option value="80_5">80-Ball Matrix (Pick 5, Pool 80) - [Quina Preset]</option>
+          </select>
+
+          <label for="sim-date">Target Draw Date</label>
+          <input type="date" id="sim-date" value="2026-10-21" onchange="runSimulation()">
+
+          <label>Markov Transition Weight: <strong id="val-w-m" style="color:var(--accent-blue)">0.40</strong></label>
+          <input type="range" id="slider-w-m" min="0" max="1" step="0.05" value="0.40" oninput="updateWeights()">
+
+          <label>Bayesian Laplace Weight: <strong id="val-w-b" style="color:var(--accent-purple)">0.40</strong></label>
+          <input type="range" id="slider-w-b" min="0" max="1" step="0.05" value="0.40" oninput="updateWeights()">
+
+          <label>Astronomical & Numerological Weight: <strong id="val-w-e" style="color:var(--accent-emerald)">0.20</strong></label>
+          <input type="range" id="slider-w-e" min="0" max="1" step="0.05" value="0.20" oninput="updateWeights()">
+
+          <button class="btn-action" onclick="runSimulation()">Run Tri-Modal Synthesis & Equilibrium Balance</button>
+        </div>
+
+        <div class="card">
+          <h3>Equilibrium Output <span class="badge">Real-Time State</span></h3>
+          <div class="metric-row">
+            <span>Lunar Phase Fraction:</span>
+            <span id="out-moon-phase" style="color:var(--accent-blue)">0.3842 (Waxing Gibbous)</span>
+          </div>
+          <div class="metric-row">
+            <span>Master Life Path (Date):</span>
+            <span id="out-life-path" style="color:var(--accent-amber)">22 (Master Builder)</span>
+          </div>
+          <div class="metric-row">
+            <span>Raw Candidate Sum (Pre-Swap):</span>
+            <span id="out-raw-sum">162 (Undershoot)</span>
+          </div>
+          <div class="metric-row">
+            <span>Equilibrium Sum (Post-Swap):</span>
+            <span id="out-balanced-sum" style="color:var(--accent-emerald)">194 (Optimal [170..220])</span>
+          </div>
+          <div class="metric-row">
+            <span>Arithmetic Complexity (AC):</span>
+            <span id="out-ac-value">8</span>
+          </div>
+
+          <label style="margin-top:16px;">Recommended Equilibrium Ticket</label>
+          <div class="ball-grid" id="ticket-balls"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 2: ORBITAL & MODULAR -->
+    <div id="tab-orbital" class="panel">
+      <div class="card">
+        <h3>Continuous Synodic Resonance & Modulo-9 Ring Invariants</h3>
+        <p style="color:var(--text-muted); font-size:0.92rem; margin-bottom:12px;">
+          Visualizes the Gaussian harmonic resonance kernel across pool numbers. Rather than coarse 8-octant step jumps, the continuous model assigns continuous harmonic mass based on synodic lunar elongation and Modulo-9 congruence.
+        </p>
+        <svg class="chart" id="resonance-chart" viewBox="0 0 800 160"></svg>
+        <div style="display:flex; justify-content:space-between; font-size:0.8rem; color:var(--text-muted); margin-top:4px;">
+          <span>Ball 1</span>
+          <span>Normalized Pool Spectrum</span>
+          <span id="lbl-max-ball">Ball 25</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 3: WHEELS -->
+    <div id="tab-wheels" class="panel">
+      <div class="card">
+        <h3>2,360 Combinatorial Covering Catalog & Set-Cover Synthesizer</h3>
+        <p style="color:var(--text-muted); font-size:0.92rem; margin-bottom:12px;">
+          Instant search across the theoretical covering designs catalog. Filter by Pick size ($k$), Pool size ($v$), Guarantee ($t$), and Match ($m$).
+        </p>
+        <div style="display:flex; gap:12px; margin-bottom:16px; flex-wrap:wrap;">
+          <input type="text" id="wheel-search" placeholder="Search (e.g. 6 12 4 4)..." oninput="renderWheelsTable()" style="max-width:280px;">
+          <select id="wheel-filter-k" onchange="renderWheelsTable()" style="max-width:160px;">
+            <option value="all">All Pick Sizes (k)</option>
+            <option value="3">k = 3 (Pick 3)</option>
+            <option value="4">k = 4 (Pick 4)</option>
+            <option value="5">k = 5 (Quina)</option>
+            <option value="6" selected>k = 6 (Mega-Sena)</option>
+            <option value="7">k = 7</option>
+          </select>
+        </div>
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>System ID</th>
+              <th>Pick (k)</th>
+              <th>Pool (v)</th>
+              <th>Guarantee (t)</th>
+              <th>Condition (m)</th>
+              <th>Tickets (b)</th>
+              <th>Combinations</th>
+              <th>Reduction Ratio</th>
+            </tr>
+          </thead>
+          <tbody id="wheels-tbody"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- TAB 4: UNEXPLORED FRONTIERS -->
+    <div id="tab-frontiers" class="panel">
+      <div class="frontier-card">
+        <h4>1. Quantum-Inspired QUBO / Ising Ticket Portfolio Selection <span class="tag">Quantum / Combinatorial</span></h4>
+        <p>
+          Formulates ticket set generation as Quadratic Unconstrained Binary Optimization (QUBO). Instead of generating tickets one by one, a global Hamiltonian penalizes pairwise intersection redundancy $\sum_{i<j} |T_i \cap T_j| x_i x_j$ while maximizing cumulative model score, solvable via Simulated Annealing or Quantum Annealers.
+        </p>
+        <pre class="code-block"># Mathematical QUBO Objective:
+H(x) = -sum(w_i * x_i) + lambda_overlap * sum(|T_i & T_j| * x_i * x_j) + mu * (sum(x_i) - Target_Tickets)^2</pre>
+      </div>
+
+      <div class="frontier-card">
+        <h4>2. Hypergraph Neural Network (HGCN) Ball Embeddings <span class="tag">Deep Learning / Graphs</span></h4>
+        <p>
+          Represents lottery history as a hypergraph where each draw is a hyperedge connecting $k$ nodes. Graph neural network node embeddings project each ball into $\mathbb{R}^d$, capturing high-order co-occurrence topology beyond pairwise correlation.
+        </p>
+      </div>
+
+      <div class="frontier-card">
+        <h4>3. Information-Theoretic Filter Selection (Information Bottleneck) <span class="tag">Information Theory</span></h4>
+        <p>
+          Uses Shannon Mutual Information $I(F_i; D)$ to eliminate redundant filters. Automatically selects the smallest subset of filters that maximize predictive power on future draws while maintaining zero mutual redundancy.
+        </p>
+      </div>
+
+      <div class="frontier-card">
+        <h4>4. Dirichlet-Multinomial Bayesian Priors & Thompson Sampling <span class="tag">Bayesian RL</span></h4>
+        <p>
+          Replaces independent Beta-Binomial models with a unified Dirichlet distribution, modeling sampling without replacement and naturally balancing exploitation of hot numbers with exploration of long-tail overdue numbers.
+        </p>
+      </div>
+
+      <div class="frontier-card">
+        <h4>5. Pareto Multi-Objective Bankroll Optimization (NSGA-II) <span class="tag">Game Theory / Kelly</span></h4>
+        <p>
+          Applies the fractional Kelly Criterion to balance the asymmetric payoff curve between minor tier prizes and major jackpots, generating a Pareto-optimal frontier of ticket portfolios.
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    function openTab(tabId) {
+      document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      document.getElementById(tabId).classList.add('active');
+      event.target.classList.add('active');
+      if (tabId === 'tab-orbital') drawResonanceChart();
+      if (tabId === 'tab-wheels') renderWheelsTable();
+    }
+
+    function updateWeights() {
+      let wm = parseFloat(document.getElementById('slider-w-m').value);
+      let wb = parseFloat(document.getElementById('slider-w-b').value);
+      let we = parseFloat(document.getElementById('slider-w-e').value);
+      let tot = wm + wb + we;
+      if (tot > 0) {
+        document.getElementById('val-w-m').textContent = (wm / tot).toFixed(2);
+        document.getElementById('val-w-b').textContent = (wb / tot).toFixed(2);
+        document.getElementById('val-w-e').textContent = (we / tot).toFixed(2);
+      }
+    }
+
+    function getLifePath(dateStr) {
+      let nums = dateStr.replace(/[^0-9]/g, '');
+      function reduce(n) {
+        let sum = 0;
+        for (let ch of n.toString()) sum += parseInt(ch, 10);
+        if (sum > 9 && sum !== 11 && sum !== 22 && sum !== 33) return reduce(sum);
+        return sum;
+      }
+      return reduce(nums);
+    }
+
+    function getMoonPhase(dateStr) {
+      let target = new Date(dateStr + "T12:00:00Z");
+      let epoch = new Date("2000-01-06T18:14:00Z");
+      let diffDays = (target - epoch) / (1000 * 86400);
+      let synodic = 29.530588853;
+      let phase = (diffDays % synodic + synodic) % synodic / synodic;
+      let name = "New Moon";
+      if (phase < 0.06 || phase >= 0.94) name = "New Moon";
+      else if (phase < 0.19) name = "Waxing Crescent";
+      else if (phase < 0.31) name = "First Quarter";
+      else if (phase < 0.44) name = "Waxing Gibbous";
+      else if (phase < 0.56) name = "Full Moon";
+      else if (phase < 0.69) name = "Waning Gibbous";
+      else if (phase < 0.81) name = "Last Quarter";
+      else name = "Waning Crescent";
+      return { phase: phase.toFixed(4), name: name };
+    }
+
+    function updateGameFormat() {
+      runSimulation();
+      drawResonanceChart();
+    }
+
+    function runSimulation() {
+      let fmt = document.getElementById('game-select').value;
+      let poolSize = 25, pickCount = 15, sumMin = 170, sumMax = 220;
+      if (fmt === '60_6') { poolSize = 60; pickCount = 6; sumMin = 140; sumMax = 225; }
+      else if (fmt === '80_5') { poolSize = 80; pickCount = 5; sumMin = 160; sumMax = 245; }
+
+      let dateStr = document.getElementById('sim-date').value;
+      let lp = getLifePath(dateStr);
+      let moon = getMoonPhase(dateStr);
+
+      document.getElementById('out-moon-phase').textContent = `${moon.phase} (${moon.name})`;
+      document.getElementById('out-life-path').textContent = `${lp} ${lp === 11 || lp === 22 || lp === 33 ? '(Master)' : ''}`;
+
+      // Simulate candidate pool scores
+      let wm = parseFloat(document.getElementById('val-w-m').textContent);
+      let wb = parseFloat(document.getElementById('val-w-b').textContent);
+      let we = parseFloat(document.getElementById('val-w-e').textContent);
+
+      let scores = [];
+      for (let i = 1; i <= poolSize; i++) {
+        let s_m = 0.5 + 0.5 * Math.sin(i * 1.7);
+        let s_b = 0.5 + 0.5 * Math.cos(i * 0.9);
+        let s_e = (i % 9 === lp % 9 ? 0.4 : 0.0) + (i.toString().includes(lp.toString()) ? 0.3 : 0.0);
+        let tot = wm * s_m + wb * s_b + we * s_e;
+        scores.push({ ball: i, score: tot });
+      }
+      scores.sort((a, b) => b.score - a.score);
+
+      let rawTicket = scores.slice(0, pickCount).map(x => x.ball).sort((a, b) => a - b);
+      let rawSum = rawTicket.reduce((a, b) => a + b, 0);
+      document.getElementById('out-raw-sum').textContent = rawSum;
+
+      // Boundary-Swap Sum Balancer
+      let balanced = [...rawTicket];
+      let reserve = scores.slice(pickCount).map(x => x.ball);
+      if (rawSum < sumMin) {
+        let highPool = [...reserve].sort((a, b) => b - a);
+        for (let h of highPool) {
+          if (!balanced.includes(h) && h > balanced[0]) {
+            balanced.shift();
+            balanced.push(h);
+            balanced.sort((a, b) => a - b);
+            if (balanced.reduce((a, b) => a + b, 0) >= sumMin) break;
+          }
+        }
+      } else if (rawSum > sumMax) {
+        let lowPool = [...reserve].sort((a, b) => a - b);
+        for (let l of lowPool) {
+          if (!balanced.includes(l) && l < balanced[balanced.length - 1]) {
+            balanced.pop();
+            balanced.push(l);
+            balanced.sort((a, b) => a - b);
+            if (balanced.reduce((a, b) => a + b, 0) <= sumMax) break;
+          }
+        }
+      }
+
+      let balancedSum = balanced.reduce((a, b) => a + b, 0);
+      document.getElementById('out-balanced-sum').textContent = `${balancedSum} (In Range [${sumMin}..${sumMax}])`;
+
+      // Arithmetic Complexity
+      let diffs = new Set();
+      for (let i = 0; i < balanced.length; i++) {
+        for (let j = i + 1; j < balanced.length; j++) {
+          diffs.add(Math.abs(balanced[j] - balanced[i]));
+        }
+      }
+      document.getElementById('out-ac-value').textContent = diffs.size - (balanced.length - 1);
+
+      // Render balls
+      let container = document.getElementById('ticket-balls');
+      container.innerHTML = '';
+      balanced.forEach(b => {
+        let div = document.createElement('div');
+        div.className = 'ball ' + (rawTicket.includes(b) ? 'selected' : 'swapped-in');
+        div.textContent = b < 10 ? '0' + b : b;
+        container.appendChild(div);
+      });
+    }
+
+    function drawResonanceChart() {
+      let svg = document.getElementById('resonance-chart');
+      let fmt = document.getElementById('game-select').value;
+      let poolSize = fmt === '60_6' ? 60 : (fmt === '80_5' ? 80 : 25);
+      document.getElementById('lbl-max-ball').textContent = 'Ball ' + poolSize;
+
+      let dateStr = document.getElementById('sim-date').value;
+      let moon = getMoonPhase(dateStr);
+      let mDist = 1.0 - Math.abs(parseFloat(moon.phase) - 0.5) * 2.0;
+
+      let pts = [];
+      for (let i = 1; i <= poolSize; i++) {
+        let rel = i / poolSize;
+        let delta = Math.abs(rel - mDist);
+        let val = 1.0 + (delta < 0.2 ? 0.3 : 0.0) + 0.25 * Math.exp(-(delta * delta) / (2 * 0.18 * 0.18));
+        let x = ((i - 1) / (poolSize - 1)) * 760 + 20;
+        let y = 140 - (val - 1.0) / 0.6 * 100;
+        pts.push(`${x},${y}`);
+      }
+
+      svg.innerHTML = `
+        <defs>
+          <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#38bdf8" />
+            <stop offset="50%" stop-color="#c084fc" />
+            <stop offset="100%" stop-color="#34d399" />
+          </linearGradient>
+        </defs>
+        <line x1="20" y1="140" x2="780" y2="140" stroke="#334155" stroke-width="1" />
+        <polyline fill="none" stroke="url(#lineGrad)" stroke-width="3" points="${pts.join(' ')}" />
+      `;
+    }
+
+    const SAMPLE_WHEELS = [
+      { id: "W61244_6", k: 6, v: 12, t: 4, m: 4, b: 6, comb: 924, red: 0.9935 },
+      { id: "W61444_14", k: 6, v: 14, t: 4, m: 4, b: 14, comb: 3003, red: 0.9953 },
+      { id: "W61644_20", k: 6, v: 16, t: 4, m: 4, b: 20, comb: 8008, red: 0.9975 },
+      { id: "W61844_42", k: 6, v: 18, t: 4, m: 4, b: 42, comb: 18564, red: 0.9977 },
+      { id: "W62044_84", k: 6, v: 20, t: 4, m: 4, b: 84, comb: 38760, red: 0.9978 },
+      { id: "W51044_14", k: 5, v: 10, t: 4, m: 4, b: 14, comb: 252, red: 0.9444 },
+      { id: "W51544_118", k: 5, v: 15, t: 4, m: 4, b: 118, comb: 3003, red: 0.9607 },
+      { id: "W40833_6", k: 4, v: 8, t: 3, m: 3, b: 6, comb: 70, red: 0.9143 },
+      { id: "W30922_12", k: 3, v: 9, t: 2, m: 2, b: 12, comb: 84, red: 0.8571 }
+    ];
+
+    function renderWheelsTable() {
+      let q = document.getElementById('wheel-search').value.toLowerCase();
+      let kFilter = document.getElementById('wheel-filter-k').value;
+      let tbody = document.getElementById('wheels-tbody');
+      tbody.innerHTML = '';
+
+      let filtered = SAMPLE_WHEELS.filter(w => {
+        if (kFilter !== 'all' && w.k.toString() !== kFilter) return false;
+        if (!q) return true;
+        let str = `${w.id} ${w.k} ${w.v} ${w.t} ${w.m}`.toLowerCase();
+        return str.includes(q);
+      });
+
+      filtered.forEach(w => {
+        let tr = document.createElement('tr');
+        tr.innerHTML = `
+          <td style="font-family:var(--font-mono); color:var(--accent-blue);">${w.id}</td>
+          <td>${w.k}</td>
+          <td>${w.v}</td>
+          <td><span style="color:var(--accent-amber); font-weight:700;">${w.t}</span></td>
+          <td>${w.m}</td>
+          <td><strong>${w.b}</strong></td>
+          <td>${w.comb.toLocaleString()}</td>
+          <td style="color:var(--accent-emerald); font-weight:600;">${(w.red * 100).toFixed(2)}%</td>
+        `;
+        tbody.appendChild(tr);
+      });
+    }
+
+    // Initialize
+    updateWeights();
+    runSimulation();
+    drawResonanceChart();
+  </script>
+</body>
+</html>

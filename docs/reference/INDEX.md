@@ -15,7 +15,8 @@
 
 ## ⭐ Essential Entry Points
 
-- 🧬 **[15 — Complete `reference.local/` Distillation & Hybrid Synthesis Matrix](./architecture/15-Complete-Reference-Local-Distillation-and-Hybrid-Synthesis.md)** — Master traceability matrix & clean-room hybrid synthesis (`engine/modules/hybrid_synthesis.py`) covering Synodic Lunar Resonance, Laplace Bayesian, Bipartite Markov, Master Numerology, Micro-Climate Correlation, Boundary-Swap Sum Balancer, CatBoost curves, 2,360 Abbreviated Wheels (`wheels-catalog.csv`), and Binary Disassembly constants.
+- 🧬 **[15 — Multi-Modal Prediction Mechanics & Frontier Synthesis](./architecture/15-Multi-Modal-Prediction-Mechanics-and-Frontier-Synthesis.md)** — Foundational multi-modal stochastic models, continuous orbital harmonic resonance, Laplace Bayesian recency decay, boundary-swap sum equilibrium, 2,360 covering design bounds, and unexplored research frontiers (QUBO, GNNs, Information Bottleneck, Thompson Sampling).
+- 🧪 **[Interactive Frontier Synthesis & Exploration Laboratory](./frontier-synthesis-lab.html)** — Browser-based interactive simulation workbench for real-time tri-modal fusion, live boundary-swap sum balancing, orbital resonance curves, and covering design synthesis.
 - 🧱 **[14 — Comprehensive Data Structures & Storage Reference](./architecture/14-Data-Structures-and-Storage-Reference.md)** — ER diagrams, `.Txt`/`.slk`/`.ini`/`.Wheels` binary layouts, `||$[[][][]]` wire grammar, DuckDB/SQLite schemas, and `AnalyticalMatrixBundle` tensors.
 - ⚙️ **[13 — Distilled Algorithms & Clean-Room Python Boilerplate](./architecture/13-Distilled-Algorithms-and-Boilerplate.md)** — Standalone Python implementations of the 69-filter funnel, fault tolerance, positional generator, and 6-formula predictor.
 - 📐 **[03 — Mathematical Reference (28 Metrics & 69 Filters)](./architecture/03-Mathematical-Reference.md)** — Exact formulas for AC Value, Actual Skips, Spread, Floor Average, Tail Groups, and Decade Distribution.
@@ -42,7 +43,7 @@ _Architectural specifications, reverse-engineered mathematical formulas, 69-filt
 | `13` | `Core` | **[12 — Diagrams (ER · sequence · state)](./architecture/12-Diagrams.md)** | `architecture/12-Diagrams.md` |
 | `14` | `Core` | **[13 — Distilled Algorithmic Specifications & Clean-Room Python Boilerplate](./architecture/13-Distilled-Algorithms-and-Boilerplate.md)** | `architecture/13-Distilled-Algorithms-and-Boilerplate.md` |
 | `15` | `Core` | **[14 — Comprehensive Data Structures & Storage Reference](./architecture/14-Data-Structures-and-Storage-Reference.md)** | `architecture/14-Data-Structures-and-Storage-Reference.md` |
-| `16` | `Core` | **[15 — Complete `reference.local/` Distillation & Hybrid Synthesis Matrix](./architecture/15-Complete-Reference-Local-Distillation-and-Hybrid-Synthesis.md)** | `architecture/15-Complete-Reference-Local-Distillation-and-Hybrid-Synthesis.md` |
+| `16` | `Core` | **[15 — Multi-Modal Prediction Mechanics & Frontier Synthesis](./architecture/15-Multi-Modal-Prediction-Mechanics-and-Frontier-Synthesis.md)** | `architecture/15-Multi-Modal-Prediction-Mechanics-and-Frontier-Synthesis.md` |
 | `17` | `Core` | **[Glossary — Ubiquitous Language](./architecture/glossary.md)** | `architecture/glossary.md` |
 
 ## [02. Functional Studio Manual](./manual/INDEX.md)

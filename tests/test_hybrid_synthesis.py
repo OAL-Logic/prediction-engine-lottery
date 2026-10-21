@@ -1,4 +1,4 @@
-"""Unit tests for engine/modules/hybrid_synthesis.py verifying all reference.local models."""
+"""Unit tests for engine/modules/hybrid_synthesis.py multi-modal models."""
 
 import datetime as dt
 import itertools

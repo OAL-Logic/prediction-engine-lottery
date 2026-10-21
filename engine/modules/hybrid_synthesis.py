@@ -2,9 +2,8 @@
 Hybrid Multi-Modal Synthesis Engine (Clean-Room Distillation & Elevation)
 ========================================================================
 
-Unifies and elevates every mathematical, statistical, physical, astronomical,
-meteorological, esoteric, and combinatorial model distilled from the local
-reference archives (`reference.local/`) into a single composable engine module:
+Unifies and elevates mathematical, statistical, physical, astronomical,
+meteorological, esoteric, and combinatorial models into a single composable engine module:
 
 1. SynodicAstronomyModel:
    - Exact synodic lunar cycle (LUNAR_MONTH = 29.530588853 days)
