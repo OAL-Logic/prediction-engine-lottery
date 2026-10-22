@@ -54,6 +54,11 @@ The project encompasses four main interfaces:
 
 ### Prediction & Machine Learning Engine
 - **Strategy Families**: Curated model groups (Statistical, ML, Deep Learning, Foundation, Chaos, Esoteric).
+- **Hazard & Renewal Modeling (`hazard_weibull`)**: Models draw skips and droughts via dual non-parametric empirical conditional hazard $P(T = d+1 \mid T \ge d+1)$ and continuous Weibull hazard $h(t) = \frac{\gamma}{\lambda}(t/\lambda)^{\gamma - 1}$.
+- **Dirichlet-Smoothed Markov Transitions (`markov`)**: Models inter-draw transition graphs with symmetric Dirichlet smoothing prior ($\alpha_{\text{eff}} = \alpha / K$) to eliminate zero-probability states and exponential temporal decay with half-life $\tau_{1/2}$.
+- **Entropic Softmax Sampling (`--target-entropy`)**: Shift-invariant Softmax probability calibration solving for thermodynamic temperature $\tau$ via monotone bisection to guarantee that candidate generation matches an exact Shannon entropy budget $H^*$.
+- **Combinatorial MILP Covering (`reduce_tickets_milp`)**: Solves the exact Minimum Set Cover problem for combinatorial wheels using Mixed-Integer Linear Programming (HiGHS solver via `scipy.optimize.milp`), guaranteeing minimal ticket cardinality for covering guarantees $C(v, k, t, m)$.
+- **Purged Hypergeometric Filtering (`HistoricalSumRangeFilter`)**: Replaces empirical historical window boundaries with exact analytical hypergeometric expectation $\mathbb{E}[\text{Sum}] = \frac{k(N+1)}{2}$ and variance $\text{Var}[\text{Sum}] = \frac{k(N-k)}{N-1}\frac{N^2-1}{12}$, bounding combinations within $\mathbb{E} \pm 2.8\sigma$ without data snooping or lookahead bias.
 - **Multi-Model Stacking**: An ensemble combining heterogeneous predictors (e.g. CatBoost gradient trees, Markov transition graphs, LSTM recurrent networks, and astronomical transit resonance) weighted dynamically based on the current diagnostic regime.
 - **Pipeline Telemetry**: Real-time visual tracking of data ingestion, diagnostic state, model weight arbitration, filter funnel elimination, and final candidate justification.
 - **Backtesting & Verification Leaderboard**: Running simulated blind historical draws across past years to compute real financial ROI, prize hits, and equity drawdowns.
