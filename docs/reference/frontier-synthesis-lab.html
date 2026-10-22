@@ -318,6 +318,10 @@
       <button class="tab-btn" onclick="openTab('tab-prospect')">Teoria dos Prospectos (Kahneman)</button>
       <button class="tab-btn" onclick="openTab('tab-tsallis')">Entropia de Tsallis (q-Deformada)</button>
       <button class="tab-btn" onclick="openTab('tab-zipf')">Lei de Zipf-Mandelbrot</button>
+      <button class="tab-btn" onclick="openTab('tab-bgs')">Caos Quântico & Wigner (BGS)</button>
+      <button class="tab-btn" onclick="openTab('tab-rule110')">Autômato Regra 110 (Wolfram)</button>
+      <button class="tab-btn" onclick="openTab('tab-fitzhugh')">Oscilador FitzHugh-Nagumo</button>
+      <button class="tab-btn" onclick="openTab('tab-stochres')">Ressonância Estocástica (SNR)</button>
       <button class="tab-btn" onclick="openTab('tab-frontiers')">Fronteiras Inexploradas</button>
     </div>
 
@@ -995,6 +999,104 @@
       </div>
     </div>
 
+    <!-- TAB 27: BGS CONJECTURE & WIGNER-DYSON CHAOS -->
+    <div id="tab-bgs" class="panel">
+      <div class="card">
+        <h3>Caos Quântico & Repulsão de Níveis de Wigner-Dyson (BGS)</h3>
+        <p style="color:var(--text-muted); font-size:0.92rem; margin-bottom:12px;">
+          Pela conjectura de Bohigas-Giannoni-Schmit (BGS), o espaçamento entre autovalores em sistemas caóticos segue a distribuição GOE de Wigner-Dyson \(P(s) = \frac{\pi}{2} s e^{-\pi s^2 / 4}\), exibindo repulsão estrita de níveis (\(P(0) = 0\)). Em contraste, sistemas puramente aleatórios Poissonianos aglomeram-se desordenadamente (\(P(s) = e^{-s}\)).
+        </p>
+        <div style="display:flex; gap:16px; align-items:center; flex-wrap:wrap; margin-bottom:14px;">
+          <div>
+            <label style="font-size:0.82rem; color:var(--text-muted);">Grau de Caos / Turbulência \(\chi\): <strong id="val-bgs-chi" style="color:var(--accent-emerald)">0.90</strong></label>
+            <input type="range" id="slider-bgs-chi" min="0.0" max="1.0" step="0.05" value="0.90" oninput="drawBgsChaosSpectrum()" style="width:140px;">
+          </div>
+          <div>
+            <span id="bgs-regime-badge" style="padding:4px 8px; border-radius:4px; font-size:0.8rem; font-weight:700; background:rgba(16,185,129,0.2); color:#10b981;">Regime Wigner-Dyson GOE (Repulsão Quântica Máxima)</span>
+          </div>
+        </div>
+        <svg class="chart" id="bgs-chart" viewBox="0 0 800 240" style="height:240px;"></svg>
+        <div style="display:flex; justify-content:space-between; font-size:0.8rem; color:var(--text-muted); margin-top:4px;">
+          <span>s = 0 (Repulsão Quântica P(0) = 0)</span>
+          <span>Espaçamento Normalizado s = Delta E / &lt;Delta E&gt;</span>
+          <span>Cauda Gaussiana exp(-pi s^2 / 4)</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 28: WOLFRAM RULE 110 TURING AUTOMATON -->
+    <div id="tab-rule110" class="panel">
+      <div class="card">
+        <h3>Autômato Celular Regra 110 de Wolfram (Universalidade de Turing)</h3>
+        <p style="color:var(--text-muted); font-size:0.92rem; margin-bottom:12px;">
+          Demonstra a irredutibilidade computacional de regras locais na malha dos sorteios. A Regra 110 (\(s_i^{t+1} = s_{i-1}s_i s_{i+1} + s_i + s_{i+1} + s_{i-1}s_{i+1} \pmod 2\)) é Turing-completa, gerando estruturas coerentes de planadores (gliders) e computação universal.
+        </p>
+        <div style="display:flex; gap:16px; align-items:center; flex-wrap:wrap; margin-bottom:14px;">
+          <div>
+            <label style="font-size:0.82rem; color:var(--text-muted);">Passos Temporais: <strong id="val-rule110-steps" style="color:var(--accent-blue)">36</strong></label>
+            <input type="range" id="slider-rule110-steps" min="15" max="60" step="1" value="36" oninput="drawRule110Automaton()" style="width:130px;">
+          </div>
+          <button class="btn-action" style="max-width:220px; margin:0;" onclick="drawRule110Automaton(true)">Reinjetar Semente Aleatória</button>
+        </div>
+        <svg class="chart" id="rule110-chart" viewBox="0 0 800 240" style="height:240px;"></svg>
+        <div style="display:flex; justify-content:space-between; font-size:0.8rem; color:var(--text-muted); margin-top:4px;">
+          <span>Evolução Temporal t (Top-Down)</span>
+          <span>Propagação de Gliders & Estruturas Irredutíveis</span>
+          <span>Espaço de Células Numéricas (1..60)</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 29: FITZHUGH-NAGUMO EXCITABLE OSCILLATOR -->
+    <div id="tab-fitzhugh" class="panel">
+      <div class="card">
+        <h3>Osciladores de Relaxação de FitzHugh-Nagumo (Período Refratário)</h3>
+        <p style="color:var(--text-muted); font-size:0.92rem; margin-bottom:12px;">
+          Modela a excitabilidade de saída de cada dezena via sistema não-linear (\(\dot{v} = v - v^3/3 - w + I, \tau \dot{w} = v + a - bw\)). Imediatamente após ser sorteada (disparo do potencial de ação), a variável lenta \(w\) inibe a repetição da dezena, instaurando o período refratário absoluto.
+        </p>
+        <div style="display:flex; gap:16px; align-items:center; flex-wrap:wrap; margin-bottom:14px;">
+          <div>
+            <label style="font-size:0.82rem; color:var(--text-muted);">Estímulo de Injeção \(I\): <strong id="val-fn-stim" style="color:var(--accent-purple)">0.50</strong></label>
+            <input type="range" id="slider-fn-stim" min="0.0" max="1.0" step="0.05" value="0.50" oninput="drawFitzHughNagumo()" style="width:130px;">
+          </div>
+          <div>
+            <span id="fn-mode-badge" style="padding:4px 8px; border-radius:4px; font-size:0.8rem; font-weight:700; background:rgba(59,130,246,0.2); color:#3b82f6;">Ciclo Limite Auto-Sustentado (Período Refratário Periódico)</span>
+          </div>
+        </div>
+        <svg class="chart" id="fitzhugh-chart" viewBox="0 0 800 240" style="height:240px;"></svg>
+        <div style="display:flex; justify-content:space-between; font-size:0.8rem; color:var(--text-muted); margin-top:4px;">
+          <span>Nuloclina Cúbica dv/dt = 0</span>
+          <span>Trajetória do Ciclo Limite no Plano de Fase (v, w)</span>
+          <span>Nuloclina Linear dw/dt = 0</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 30: STOCHASTIC RESONANCE -->
+    <div id="tab-stochres" class="panel">
+      <div class="card">
+        <h3>Ressonância Estocástica (Amplificação Ótima de Sinal por Ruído)</h3>
+        <p style="color:var(--text-muted); font-size:0.92rem; margin-bottom:12px;">
+          Em poços duplos bistáveis não-lineares, a injeção calibrada de ruído estocástico \(D\) sincroniza as transições de Kramer com harmônicos fracos, gerando um pico agudo na relação sinal-ruído (\(\operatorname{SNR} \propto D^{-2} e^{-2\Delta V / D}\)).
+        </p>
+        <div style="display:flex; gap:16px; align-items:center; flex-wrap:wrap; margin-bottom:14px;">
+          <div>
+            <label style="font-size:0.82rem; color:var(--text-muted);">Intensidade de Ruído \(D\): <strong id="val-sr-noise" style="color:var(--accent-amber)">0.35</strong></label>
+            <input type="range" id="slider-sr-noise" min="0.05" max="1.0" step="0.05" value="0.35" oninput="drawStochasticResonance()" style="width:140px;">
+          </div>
+          <div>
+            <span id="sr-status-badge" style="padding:4px 8px; border-radius:4px; font-size:0.8rem; font-weight:700; background:rgba(16,185,129,0.2); color:#10b981;">Pico de Ressonância Ótimo (SNR Maximizada)</span>
+          </div>
+        </div>
+        <svg class="chart" id="stochres-chart" viewBox="0 0 800 240" style="height:240px;"></svg>
+        <div style="display:flex; justify-content:space-between; font-size:0.8rem; color:var(--text-muted); margin-top:4px;">
+          <span>Ruído Baixo (Sinal Sub-Limiar Oculto)</span>
+          <span>Ponto Crítico de Ressonância D* = Delta V</span>
+          <span>Ruído Alto (Saturação Gaussiana Desordenada)</span>
+        </div>
+      </div>
+    </div>
+
     <!-- TAB 6: FRONTIERS -->
     <div id="tab-frontiers" class="panel">
       <div class="card" style="margin-bottom:16px;">
@@ -1066,6 +1168,10 @@
       if (tabId === "tab-prospect") drawProspectTheoryCurve();
       if (tabId === "tab-tsallis") drawTsallisEntropy();
       if (tabId === "tab-zipf") drawZipfMandelbrot();
+      if (tabId === "tab-bgs") drawBgsChaosSpectrum();
+      if (tabId === "tab-rule110") drawRule110Automaton();
+      if (tabId === "tab-fitzhugh") drawFitzHughNagumo();
+      if (tabId === "tab-stochres") drawStochasticResonance();
 
 
 
@@ -2233,6 +2339,239 @@
       `;
     }
 
+    function drawBgsChaosSpectrum() {
+      let chiInput = document.getElementById("slider-bgs-chi");
+      let chi = chiInput ? parseFloat(chiInput.value) : 0.90;
+      let elChi = document.getElementById("val-bgs-chi");
+      let elBadge = document.getElementById("bgs-regime-badge");
+      if (elChi) elChi.textContent = chi.toFixed(2);
+
+      if (elBadge) {
+        if (chi > 0.75) {
+          elBadge.textContent = "Regime Wigner-Dyson GOE (Repulsão Quântica Máxima)";
+          elBadge.style.color = "#10b981";
+        } else if (chi < 0.25) {
+          elBadge.textContent = "Regime Poissoniano (Aglomeração & Degenerescência)";
+          elBadge.style.color = "#f43f5e";
+        } else {
+          elBadge.textContent = "Regime Intermediário de Brody (Transição Caótica)";
+          elBadge.style.color = "#f59e0b";
+        }
+      }
+
+      let svg = document.getElementById("bgs-chart");
+      if (!svg) return;
+
+      let ptsPoisson = [];
+      let ptsWigner = [];
+      let ptsBrody = [];
+
+      for (let s = 0; s <= 3.2; s += 0.05) {
+        let px = 80 + (s / 3.2) * 640;
+        // Poisson: exp(-s)
+        let yP = Math.exp(-s);
+        ptsPoisson.push(`${px.toFixed(1)},${(210 - yP * 175).toFixed(1)}`);
+        // Wigner: (pi/2) * s * exp(-pi*s^2/4)
+        let yW = (Math.PI / 2.0) * s * Math.exp(-Math.PI * Math.pow(s, 2) / 4.0);
+        ptsWigner.push(`${px.toFixed(1)},${(210 - yW * 175).toFixed(1)}`);
+        // Interpolated Brody curve
+        let yB = (1.0 - chi) * yP + chi * yW;
+        ptsBrody.push(`${px.toFixed(1)},${(210 - yB * 175).toFixed(1)}`);
+      }
+
+      svg.innerHTML = `
+        <rect width="800" height="240" fill="#182234" rx="8" />
+        <line x1="80" y1="210" x2="720" y2="210" stroke="#475569" stroke-width="1.2" />
+        <line x1="80" y1="30" x2="80" y2="210" stroke="#475569" stroke-width="1.2" />
+        <!-- Poisson line -->
+        <polyline fill="none" stroke="#64748b" stroke-width="1.5" stroke-dasharray="4" points="${ptsPoisson.join(" ")}" />
+        <!-- Wigner-Dyson theoretical line -->
+        <polyline fill="none" stroke="#10b981" stroke-width="1.5" stroke-dasharray="2" points="${ptsWigner.join(" ")}" />
+        <!-- Active Brody Interpolation -->
+        <polyline fill="none" stroke="#38bdf8" stroke-width="3" points="${ptsBrody.join(" ")}" />
+        <text x="180" y="60" font-size="11" fill="#64748b">Poisson exp(-s) [Sem Caos]</text>
+        <text x="320" y="45" font-size="11" fill="#10b981">Wigner-Dyson GOE P(0)=0</text>
+        <text x="520" y="60" font-size="11" font-weight="700" fill="#38bdf8">Brody Ativo (chi=${chi.toFixed(2)})</text>
+        <text x="400" y="225" text-anchor="middle" font-size="11" fill="#94a3b8">Espaçamento s = Delta E / &lt;Delta E&gt; - Repulsão Quântica de Níveis em Sistemas Mistos</text>
+      `;
+    }
+
+    function drawRule110Automaton(randomize = false) {
+      let stInput = document.getElementById("slider-rule110-steps");
+      let steps = stInput ? parseInt(stInput.value) : 36;
+      let elSt = document.getElementById("val-rule110-steps");
+      if (elSt) elSt.textContent = steps;
+
+      let svg = document.getElementById("rule110-chart");
+      if (!svg) return;
+
+      let width = 70;
+      let row = new Uint8Array(width);
+      if (randomize) {
+        for (let i = 0; i < width; i++) row[i] = Math.random() > 0.75 ? 1 : 0;
+      } else {
+        row[width - 2] = 1;
+        row[width - 5] = 1;
+        row[width - 6] = 1;
+        row[Math.floor(width / 2)] = 1;
+      }
+
+      let rects = [];
+      let cellW = 8.8;
+      let cellH = 180 / steps;
+      let startX = (800 - width * cellW) / 2;
+
+      for (let t = 0; t < steps; t++) {
+        for (let i = 0; i < width; i++) {
+          if (row[i] === 1) {
+            let px = startX + i * cellW;
+            let py = 25 + t * cellH;
+            let fill = (i % 2 === 0) ? "#38bdf8" : "#a855f7";
+            rects.push(`<rect x="${px.toFixed(1)}" y="${py.toFixed(1)}" width="${(cellW - 1).toFixed(1)}" height="${(cellH - 1).toFixed(1)}" rx="1.5" fill="${fill}" />`);
+          }
+        }
+        let next = new Uint8Array(width);
+        for (let i = 0; i < width; i++) {
+          let left = i > 0 ? row[i - 1] : row[width - 1];
+          let cur = row[i];
+          let right = i < width - 1 ? row[i + 1] : row[0];
+          let pattern = (left << 2) | (cur << 1) | right;
+          // Rule 110: 01101110 -> bits 1, 2, 3, 5, 6 are 1
+          next[i] = ((110 >> pattern) & 1);
+        }
+        row = next;
+      }
+
+      svg.innerHTML = `
+        <rect width="800" height="240" fill="#182234" rx="8" />
+        ${rects.join("")}
+        <text x="400" y="225" text-anchor="middle" font-size="11" fill="#94a3b8">Autômato Regra 110: Computabilidade Universal de Turing e Planadores Gliders</text>
+      `;
+    }
+
+    function drawFitzHughNagumo() {
+      let stInput = document.getElementById("slider-fn-stim");
+      let I = stInput ? parseFloat(stInput.value) : 0.50;
+      let elI = document.getElementById("val-fn-stim");
+      let elBadge = document.getElementById("fn-mode-badge");
+      if (elI) elI.textContent = I.toFixed(2);
+
+      if (elBadge) {
+        if (I > 0.35) {
+          elBadge.textContent = "Ciclo Limite Auto-Sustentado (Período Refratário Periódico)";
+          elBadge.style.color = "#3b82f6";
+        } else {
+          elBadge.textContent = "Equilíbrio Estável Sub-Limiar (Dezena em Repouso)";
+          elBadge.style.color = "#94a3b8";
+        }
+      }
+
+      let svg = document.getElementById("fitzhugh-chart");
+      if (!svg) return;
+
+      // Cubic nullcline: w = v - v^3/3 + I
+      // Linear nullcline: w = (v + 0.7) / 0.8
+      let ptsCubic = [];
+      let ptsLinear = [];
+      for (let v = -2.6; v <= 2.6; v += 0.08) {
+        let px = 400 + v * 120;
+        let wC = v - Math.pow(v, 3) / 3.0 + I;
+        let wL = (v + 0.7) / 0.8;
+        ptsCubic.push(`${px.toFixed(1)},${(120 - wC * 50).toFixed(1)}`);
+        ptsLinear.push(`${px.toFixed(1)},${(120 - wL * 50).toFixed(1)}`);
+      }
+
+      // Limit cycle integration
+      let ptsOrbit = [];
+      let curV = -1.0, curW = -0.5;
+      let dt = 0.04;
+      for (let t = 0; t < 500; t++) {
+        let dv = curV - Math.pow(curV, 3) / 3.0 - curW + I;
+        let dw = (curV + 0.7 - 0.8 * curW) / 12.5;
+        curV += dv * dt;
+        curW += dw * dt;
+        if (t > 150) {
+          let px = 400 + curV * 120;
+          let py = 120 - curW * 50;
+          ptsOrbit.push(`${px.toFixed(1)},${py.toFixed(1)}`);
+        }
+      }
+
+      svg.innerHTML = `
+        <rect width="800" height="240" fill="#182234" rx="8" />
+        <line x1="60" y1="120" x2="740" y2="120" stroke="#334155" stroke-width="1.2" />
+        <line x1="400" y1="20" x2="400" y2="210" stroke="#334155" stroke-width="1.2" />
+        <!-- Nullclines -->
+        <polyline fill="none" stroke="#f43f5e" stroke-width="2" stroke-dasharray="3" points="${ptsCubic.join(" ")}" />
+        <polyline fill="none" stroke="#818cf8" stroke-width="1.8" stroke-dasharray="3" points="${ptsLinear.join(" ")}" />
+        <!-- Closed limit cycle -->
+        <polyline fill="none" stroke="#10b981" stroke-width="3" points="${ptsOrbit.join(" ")}" />
+        <circle cx="${(400 + curV * 120).toFixed(1)}" cy="${(120 - curW * 50).toFixed(1)}" r="6" fill="#f59e0b" />
+        <text x="180" y="35" font-size="11" fill="#f43f5e">Nuloclina Cúbica dv/dt = 0</text>
+        <text x="620" y="35" font-size="11" fill="#818cf8">Nuloclina Linear dw/dt = 0</text>
+        <text x="400" y="225" text-anchor="middle" font-size="11" fill="#94a3b8">Plano de Fase FitzHugh-Nagumo: Ciclo Limite e Período Refratário da Dezena</text>
+      `;
+    }
+
+    function drawStochasticResonance() {
+      let dInput = document.getElementById("slider-sr-noise");
+      let D = dInput ? parseFloat(dInput.value) : 0.35;
+      let elD = document.getElementById("val-sr-noise");
+      let elBadge = document.getElementById("sr-status-badge");
+      if (elD) elD.textContent = D.toFixed(2);
+
+      let deltaV = 0.45;
+      let optD = deltaV;
+
+      if (elBadge) {
+        if (Math.abs(D - optD) < 0.12) {
+          elBadge.textContent = "Pico de Ressonância Ótimo (SNR Maximizada)";
+          elBadge.style.color = "#10b981";
+        } else if (D < optD) {
+          elBadge.textContent = "Ruído Insuficiente (Sinal Sub-Limiar Bloqueado)";
+          elBadge.style.color = "#38bdf8";
+        } else {
+          elBadge.textContent = "Ruído Excessivo (Saturação Gaussiana Desordenada)";
+          elBadge.style.color = "#f43f5e";
+        }
+      }
+
+      let svg = document.getElementById("stochres-chart");
+      if (!svg) return;
+
+      // SNR(D) ~ C / D^2 * exp(-2*deltaV / D)
+      let pts = [];
+      let curPx = 0, curPy = 0;
+      let maxSNR = 0;
+      for (let noise = 0.05; noise <= 1.0; noise += 0.02) {
+        let snr = (0.28 / Math.pow(noise, 2)) * Math.exp(-2.0 * deltaV / noise);
+        if (snr > maxSNR) maxSNR = snr;
+      }
+
+      for (let noise = 0.05; noise <= 1.0; noise += 0.02) {
+        let snr = (0.28 / Math.pow(noise, 2)) * Math.exp(-2.0 * deltaV / noise);
+        let px = 80 + ((noise - 0.05) / 0.95) * 640;
+        let py = 210 - (snr / (maxSNR * 1.15)) * 175;
+        pts.push(`${px.toFixed(1)},${py.toFixed(1)}`);
+        if (Math.abs(noise - D) < 0.025) {
+          curPx = px;
+          curPy = py;
+        }
+      }
+
+      svg.innerHTML = `
+        <rect width="800" height="240" fill="#182234" rx="8" />
+        <line x1="80" y1="210" x2="720" y2="210" stroke="#475569" stroke-width="1.2" />
+        <line x1="80" y1="30" x2="80" y2="210" stroke="#475569" stroke-width="1.2" />
+        <!-- Bell-shaped SNR curve -->
+        <polyline fill="none" stroke="#f59e0b" stroke-width="3" points="${pts.join(" ")}" />
+        <circle cx="${curPx.toFixed(1)}" cy="${curPy.toFixed(1)}" r="7" fill="#10b981" stroke="#ffffff" stroke-width="2" />
+        <line x1="${curPx.toFixed(1)}" y1="${curPy.toFixed(1)}" x2="${curPx.toFixed(1)}" y2="210" stroke="#10b981" stroke-dasharray="3" />
+        <text x="${curPx.toFixed(1)}" y="${(curPy - 12).toFixed(1)}" font-size="10" font-weight="700" fill="#10b981" text-anchor="middle">Ponto Operacional D=${D.toFixed(2)}</text>
+        <text x="400" y="225" text-anchor="middle" font-size="11" fill="#94a3b8">Curva de Ressonância Estocástica SNR(D) - Amplificação Ótima no Ponto D* = Delta V</text>
+      `;
+    }
+
     // Initialize
     updateWeights();
     runSimulation();
@@ -2247,6 +2586,11 @@
     drawWaddingtonLandscape();
     drawProspectTheoryCurve();
     drawTsallisEntropy();
+    drawZipfMandelbrot();
+    drawBgsChaosSpectrum();
+    drawRule110Automaton();
+    drawFitzHughNagumo();
+    drawStochasticResonance();
     drawZipfMandelbrot();
   </script>
 </body>
