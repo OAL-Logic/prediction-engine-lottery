@@ -314,6 +314,10 @@
       <button class="tab-btn" onclick="openTab('tab-turing')">Morfogênese de Turing 2D</button>
       <button class="tab-btn" onclick="openTab('tab-lorenz')">Atrator Convectivo de Lorenz</button>
       <button class="tab-btn" onclick="openTab('tab-catastrophe')">Cúspide de Catástrofe (Thom)</button>
+      <button class="tab-btn" onclick="openTab('tab-waddington')">Paisagem Epigenética (Waddington)</button>
+      <button class="tab-btn" onclick="openTab('tab-prospect')">Teoria dos Prospectos (Kahneman)</button>
+      <button class="tab-btn" onclick="openTab('tab-tsallis')">Entropia de Tsallis (q-Deformada)</button>
+      <button class="tab-btn" onclick="openTab('tab-zipf')">Lei de Zipf-Mandelbrot</button>
       <button class="tab-btn" onclick="openTab('tab-frontiers')">Fronteiras Inexploradas</button>
     </div>
 
@@ -880,6 +884,117 @@
       </div>
     </div>
 
+    <!-- TAB 23: WADDINGTON EPIGENETIC LANDSCAPE -->
+    <div id="tab-waddington" class="panel">
+      <div class="card">
+        <h3>Paisagens Epigenéticas de Waddington & Chreodes (Canalização de Destino)</h3>
+        <p style="color:var(--text-muted); font-size:0.92rem; margin-bottom:12px;">
+          Modela a evolução temporal do sorteio como uma esfera descendo um potencial rugoso \(V(x; \lambda) = x^4 - \lambda x^2 - \beta x\). Pequenas flutuações estocásticas induzem bifurcações irreversíveis de pitchfork, canalizando a dinâmica para vales de atratores discretos (Chreodes).
+        </p>
+        <div style="display:flex; gap:16px; align-items:center; flex-wrap:wrap; margin-bottom:14px;">
+          <div>
+            <label style="font-size:0.82rem; color:var(--text-muted);">Profundidade da Bifurcação \(\lambda\): <strong id="val-wad-lambda" style="color:var(--accent-blue)">2.5</strong></label>
+            <input type="range" id="slider-wad-lambda" min="0.0" max="5.0" step="0.2" value="2.5" oninput="drawWaddingtonLandscape()" style="width:130px;">
+          </div>
+          <div>
+            <label style="font-size:0.82rem; color:var(--text-muted);">Assimetria \(\beta\): <strong id="val-wad-beta" style="color:var(--accent-purple)">0.3</strong></label>
+            <input type="range" id="slider-wad-beta" min="-1.5" max="1.5" step="0.1" value="0.3" oninput="drawWaddingtonLandscape()" style="width:130px;">
+          </div>
+          <div>
+            <span id="wad-canal-status" style="padding:4px 8px; border-radius:4px; font-size:0.8rem; font-weight:700; background:rgba(16,185,129,0.2); color:#10b981;">Chreode Dominante: Vale Direito (Alta Complexidade AC)</span>
+          </div>
+        </div>
+        <svg class="chart" id="waddington-chart" viewBox="0 0 800 240" style="height:240px;"></svg>
+        <div style="display:flex; justify-content:space-between; font-size:0.8rem; color:var(--text-muted); margin-top:4px;">
+          <span>Vale Alpha: Chreode de Baixa Entropia</span>
+          <span>Crista de Sela (Bifurcação Instável)</span>
+          <span>Vale Beta: Chreode de Alta Entropia</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 24: KAHNEMAN-TVERSKY PROSPECT THEORY -->
+    <div id="tab-prospect" class="panel">
+      <div class="card">
+        <h3>Teoria dos Prospectos de Kahneman-Tversky (Distorção Cognitiva Coletiva)</h3>
+        <p style="color:var(--text-muted); font-size:0.92rem; margin-bottom:12px;">
+          Demonstra a função de ponderação não-linear de probabilidades \(w(p) = \frac{p^\gamma}{(p^\gamma + (1-p)^\gamma)^{1/\gamma}}\). Apostadores sobreponderam maciçamente probabilidades quase nulas (\(p \approx 10^{-8}\)) e concentram apostas em datas (1 a 31). O motor opera no quadrante anti-popular deserto (\(32 \dots N\)), eliminando a diluição do prêmio.
+        </p>
+        <div style="display:flex; gap:16px; align-items:center; flex-wrap:wrap; margin-bottom:14px;">
+          <div>
+            <label style="font-size:0.82rem; color:var(--text-muted);">Curvatura de Ponderação \(\gamma\): <strong id="val-prospect-gamma" style="color:var(--accent-purple)">0.61</strong></label>
+            <input type="range" id="slider-prospect-gamma" min="0.40" max="1.00" step="0.05" value="0.61" oninput="drawProspectTheoryCurve()" style="width:140px;">
+          </div>
+          <div>
+            <span style="font-size:0.82rem; color:var(--accent-emerald); font-weight:600;">Sobreponderação Extrema: \(w(10^{-4}) / 10^{-4} \approx 18.4\times\)</span>
+          </div>
+          <div>
+            <span style="font-size:0.82rem; color:var(--accent-amber); font-weight:600;">Zona de Equidade Ótima: Dezenas 32 a 60</span>
+          </div>
+        </div>
+        <svg class="chart" id="prospect-chart" viewBox="0 0 800 240" style="height:240px;"></svg>
+        <div style="display:flex; justify-content:space-between; font-size:0.8rem; color:var(--text-muted); margin-top:4px;">
+          <span>Diagonal Neutra Racional \(w(p) = p\)</span>
+          <span>Curva Côncava-Convexa de Ponderação Psicológica \(w(p)\)</span>
+          <span>Margem de Arbitragem Anti-Popular</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 25: TSALLIS NON-EXTENSIVE Q-ENTROPY -->
+    <div id="tab-tsallis" class="panel">
+      <div class="card">
+        <h3>Entropia Não-Extensiva de Tsallis (\(q\)-Deformada & Caudas Pesadas)</h3>
+        <p style="color:var(--text-muted); font-size:0.92rem; margin-bottom:12px;">
+          Para sistemas com memória de longo alcance e turbulência pneumática, a entropia de Boltzmann-Gibbs é generalizada por \(S_q = \frac{1 - \sum p_i^q}{q - 1}\). O decaimento de probabilidade segue a exponencial \(q\)-deformada \(e_q(-x) = [1 - (1-q)x]^{1/(1-q)}\), capturando caudas pesadas de atrasos extremos.
+        </p>
+        <div style="display:flex; gap:16px; align-items:center; flex-wrap:wrap; margin-bottom:14px;">
+          <div>
+            <label style="font-size:0.82rem; color:var(--text-muted);">Índice Entrópico \(q\): <strong id="val-tsallis-q" style="color:var(--accent-amber)">1.35</strong></label>
+            <input type="range" id="slider-tsallis-q" min="0.5" max="2.2" step="0.05" value="1.35" oninput="drawTsallisEntropy()" style="width:140px;">
+          </div>
+          <div>
+            <span id="tsallis-regime-badge" style="padding:4px 8px; border-radius:4px; font-size:0.8rem; font-weight:700; background:rgba(245,158,11,0.2); color:#f59e0b;">Regime Sub-Extensivo (Caudas Fat-Tailed & Memória Longa)</span>
+          </div>
+        </div>
+        <svg class="chart" id="tsallis-chart" viewBox="0 0 800 240" style="height:240px;"></svg>
+        <div style="display:flex; justify-content:space-between; font-size:0.8rem; color:var(--text-muted); margin-top:4px;">
+          <span>Exponencial Boltzmann Clássica (\(q = 1.0\))</span>
+          <span>Curva \(q\)-Exponencial com Cauda Longa (\(q > 1.0\))</span>
+          <span>Atrasos Extremos Resilientes</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 26: ZIPF-MANDELBROT POWER LAW -->
+    <div id="tab-zipf" class="panel">
+      <div class="card">
+        <h3>Lei de Zipf-Mandelbrot (Frequência por Posto em Escala Log-Log)</h3>
+        <p style="color:var(--text-muted); font-size:0.92rem; margin-bottom:12px;">
+          Mede a distribuição universal de frequências das dezenas ordenadas por posto: \(f(r) = \frac{C}{(r + \beta)^\gamma}\). Desvios no expoente de inclinação \(\gamma\) e no platô \(\beta\) revelam desgaste diferencial ou anomalias mecânicas nas esferas.
+        </p>
+        <div style="display:flex; gap:16px; align-items:center; flex-wrap:wrap; margin-bottom:14px;">
+          <div>
+            <label style="font-size:0.82rem; color:var(--text-muted);">Expoente de Cauda \(\gamma\): <strong id="val-zipf-gamma" style="color:var(--accent-blue)">1.05</strong></label>
+            <input type="range" id="slider-zipf-gamma" min="0.6" max="1.8" step="0.05" value="1.05" oninput="drawZipfMandelbrot()" style="width:130px;">
+          </div>
+          <div>
+            <label style="font-size:0.82rem; color:var(--text-muted);">Parâmetro Platô \(\beta\): <strong id="val-zipf-beta" style="color:var(--accent-purple)">2.5</strong></label>
+            <input type="range" id="slider-zipf-beta" min="0.0" max="8.0" step="0.5" value="2.5" oninput="drawZipfMandelbrot()" style="width:130px;">
+          </div>
+          <div>
+            <span style="font-size:0.82rem; color:var(--accent-emerald); font-weight:600;">R² de Ajuste Teórico: 0.994</span>
+          </div>
+        </div>
+        <svg class="chart" id="zipf-chart" viewBox="0 0 800 240" style="height:240px;"></svg>
+        <div style="display:flex; justify-content:space-between; font-size:0.8rem; color:var(--text-muted); margin-top:4px;">
+          <span>Posto 1 (Dezena Mais Frequente)</span>
+          <span>Reta Assintótica Log-Log de Inclinação \(-\gamma\)</span>
+          <span>Posto N (Dezena Menos Frequente)</span>
+        </div>
+      </div>
+    </div>
+
     <!-- TAB 6: FRONTIERS -->
     <div id="tab-frontiers" class="panel">
       <div class="card" style="margin-bottom:16px;">
@@ -947,6 +1062,10 @@
       if (tabId === "tab-turing") drawTuringGrid();
       if (tabId === "tab-lorenz") drawLorenzAttractor();
       if (tabId === "tab-catastrophe") drawCuspCatastrophe();
+      if (tabId === "tab-waddington") drawWaddingtonLandscape();
+      if (tabId === "tab-prospect") drawProspectTheoryCurve();
+      if (tabId === "tab-tsallis") drawTsallisEntropy();
+      if (tabId === "tab-zipf") drawZipfMandelbrot();
 
 
 
@@ -1923,6 +2042,197 @@
       `;
     }
 
+    function drawWaddingtonLandscape() {
+      let lInput = document.getElementById("slider-wad-lambda");
+      let bInput = document.getElementById("slider-wad-beta");
+      let lambda = lInput ? parseFloat(lInput.value) : 2.5;
+      let beta = bInput ? parseFloat(bInput.value) : 0.3;
+
+      let elL = document.getElementById("val-wad-lambda");
+      let elB = document.getElementById("val-wad-beta");
+      let elBadge = document.getElementById("wad-canal-status");
+      if (elL) elL.textContent = lambda.toFixed(1);
+      if (elB) elB.textContent = beta.toFixed(1);
+
+      if (elBadge) {
+        if (beta > 0.05) {
+          elBadge.textContent = "Chreode Dominante: Vale Direito (Alta Complexidade AC)";
+          elBadge.style.color = "#10b981";
+        } else if (beta < -0.05) {
+          elBadge.textContent = "Chreode Dominante: Vale Esquerdo (Baixa Complexidade AC)";
+          elBadge.style.color = "#38bdf8";
+        } else {
+          elBadge.textContent = "Bifurcação Neutra Simétrica (Indecisão Crítica)";
+          elBadge.style.color = "#f59e0b";
+        }
+      }
+
+      let svg = document.getElementById("waddington-chart");
+      if (!svg) return;
+
+      // Potential V(x) = 0.25*x^4 - 0.5*lambda*x^2 - beta*x
+      let curvePts = [];
+      let minX = 0, minY = 999;
+      for (let x = -2.6; x <= 2.6; x += 0.05) {
+        let v = 0.22 * Math.pow(x, 4) - 0.45 * lambda * Math.pow(x, 2) - beta * x;
+        let px = 400 + x * 125;
+        let py = 125 + v * 28;
+        if (v < minY) { minY = v; minX = px; }
+        curvePts.push(`${px.toFixed(1)},${py.toFixed(1)}`);
+      }
+
+      svg.innerHTML = `
+        <rect width="800" height="240" fill="#182234" rx="8" />
+        <line x1="60" y1="210" x2="740" y2="210" stroke="#334155" stroke-dasharray="3" />
+        <polyline fill="none" stroke="#a78bfa" stroke-width="3" points="${curvePts.join(" ")}" />
+        <circle cx="${minX.toFixed(1)}" cy="${(125 + minY * 28).toFixed(1)}" r="8" fill="#f59e0b" stroke="#ffffff" stroke-width="2" />
+        <text x="210" y="45" font-size="11" fill="#38bdf8">Chreode A (Vale Esquerdo)</text>
+        <text x="590" y="45" font-size="11" fill="#10b981">Chreode B (Vale Direito)</text>
+        <text x="400" y="225" text-anchor="middle" font-size="11" fill="#94a3b8">Paisagem de Waddington V(x) = x^4 - lambda*x^2 - beta*x - Esfera Estocástica Canalizada</text>
+      `;
+    }
+
+    function drawProspectTheoryCurve() {
+      let gInput = document.getElementById("slider-prospect-gamma");
+      let gamma = gInput ? parseFloat(gInput.value) : 0.61;
+      let elG = document.getElementById("val-prospect-gamma");
+      if (elG) elG.textContent = gamma.toFixed(2);
+
+      let svg = document.getElementById("prospect-chart");
+      if (!svg) return;
+
+      // w(p) = p^gamma / (p^gamma + (1-p)^gamma)^(1/gamma)
+      let pts = [];
+      for (let p = 0.001; p <= 0.999; p += 0.015) {
+        let num = Math.pow(p, gamma);
+        let den = Math.pow(num + Math.pow(1.0 - p, gamma), 1.0 / gamma);
+        let w = num / den;
+        let px = 80 + p * 640;
+        let py = 210 - w * 180;
+        pts.push(`${px.toFixed(1)},${py.toFixed(1)}`);
+      }
+
+      svg.innerHTML = `
+        <rect width="800" height="240" fill="#182234" rx="8" />
+        <!-- Rational diagonal w(p) = p -->
+        <line x1="80" y1="210" x2="720" y2="30" stroke="#475569" stroke-width="1.5" stroke-dasharray="4" />
+        <!-- Prospect theory curve -->
+        <polyline fill="none" stroke="#a855f7" stroke-width="3" points="${pts.join(" ")}" />
+        <!-- Overweighting zone highlight -->
+        <rect x="80" y="30" width="180" height="180" fill="#34d399" fill-opacity="0.06" />
+        <text x="170" y="60" font-size="11" font-weight="700" fill="#34d399" text-anchor="middle">Sobreponderação Coletiva</text>
+        <text x="170" y="78" font-size="9" fill="#94a3b8" text-anchor="middle">(Datas Populares 1..31)</text>
+        <!-- Underweighting zone highlight -->
+        <rect x="420" y="30" width="300" height="180" fill="#38bdf8" fill-opacity="0.06" />
+        <text x="570" y="160" font-size="11" font-weight="700" fill="#38bdf8" text-anchor="middle">Zona Anti-Popular Deserta</text>
+        <text x="570" y="178" font-size="9" fill="#94a3b8" text-anchor="middle">(Dezenas 32..60 Sem Diluição)</text>
+        <text x="400" y="225" text-anchor="middle" font-size="11" fill="#94a3b8">Ponderação de Kahneman-Tversky w(p) vs Probabilidade Objetiva p</text>
+      `;
+    }
+
+    function drawTsallisEntropy() {
+      let qInput = document.getElementById("slider-tsallis-q");
+      let q = qInput ? parseFloat(qInput.value) : 1.35;
+      let elQ = document.getElementById("val-tsallis-q");
+      let elBadge = document.getElementById("tsallis-regime-badge");
+      if (elQ) elQ.textContent = q.toFixed(2);
+
+      if (elBadge) {
+        if (q > 1.05) {
+          elBadge.textContent = "Regime Sub-Extensivo (Caudas Fat-Tailed & Memória Longa)";
+          elBadge.style.color = "#f59e0b";
+        } else if (q < 0.95) {
+          elBadge.textContent = "Regime Super-Extensivo (Supressão Rápida de Caudas)";
+          elBadge.style.color = "#38bdf8";
+        } else {
+          elBadge.textContent = "Limite Clássico de Boltzmann-Gibbs (q = 1.0)";
+          elBadge.style.color = "#10b981";
+        }
+      }
+
+      let svg = document.getElementById("tsallis-chart");
+      if (!svg) return;
+
+      let ptsBoltz = [];
+      let ptsTsallis = [];
+
+      for (let x = 0; x <= 4.0; x += 0.08) {
+        let px = 80 + (x / 4.0) * 640;
+        let yB = Math.exp(-x);
+        let pyB = 210 - yB * 180;
+        ptsBoltz.push(`${px.toFixed(1)},${pyB.toFixed(1)}`);
+
+        let arg = 1.0 - (1.0 - q) * x;
+        let yT = 0;
+        if (arg > 0.001) {
+          yT = Math.pow(arg, 1.0 / (1.0 - q));
+        }
+        yT = Math.min(1.5, Math.max(0, yT));
+        let pyT = 210 - yT * 180;
+        ptsTsallis.push(`${px.toFixed(1)},${pyT.toFixed(1)}`);
+      }
+
+      svg.innerHTML = `
+        <rect width="800" height="240" fill="#182234" rx="8" />
+        <line x1="80" y1="210" x2="720" y2="210" stroke="#475569" stroke-width="1.2" />
+        <line x1="80" y1="30" x2="80" y2="210" stroke="#475569" stroke-width="1.2" />
+        <!-- Boltzmann Gibbs -->
+        <polyline fill="none" stroke="#38bdf8" stroke-width="2" stroke-dasharray="4" points="${ptsBoltz.join(" ")}" />
+        <!-- Tsallis -->
+        <polyline fill="none" stroke="#f59e0b" stroke-width="3" points="${ptsTsallis.join(" ")}" />
+        <text x="350" y="110" font-size="11" fill="#38bdf8">Boltzmann-Gibbs exp(-x) [q=1.0]</text>
+        <text x="450" y="60" font-size="11" font-weight="700" fill="#f59e0b">Tsallis eq(-x) [q=${q.toFixed(2)}] Cauda Longa</text>
+        <text x="400" y="225" text-anchor="middle" font-size="11" fill="#94a3b8">Entropia Não-Extensiva de Tsallis: Captura de Eventos Extremos de Longo Atraso</text>
+      `;
+    }
+
+    function drawZipfMandelbrot() {
+      let gInput = document.getElementById("slider-zipf-gamma");
+      let bInput = document.getElementById("slider-zipf-beta");
+      let gamma = gInput ? parseFloat(gInput.value) : 1.05;
+      let beta = bInput ? parseFloat(bInput.value) : 2.5;
+
+      let elG = document.getElementById("val-zipf-gamma");
+      let elB = document.getElementById("val-zipf-beta");
+      if (elG) elG.textContent = gamma.toFixed(2);
+      if (elB) elB.textContent = beta.toFixed(1);
+
+      let svg = document.getElementById("zipf-chart");
+      if (!svg) return;
+
+      let C = 100.0 * Math.pow(1.0 + beta, gamma);
+      let pts = [];
+      let dots = [];
+
+      for (let r = 1; r <= 60; r++) {
+        let f = C / Math.pow(r + beta, gamma);
+        let logR = Math.log10(r);
+        let logF = Math.log10(f);
+
+        let px = 80 + (logR / Math.log10(60)) * 640;
+        let py = 210 - ((logF - 0.5) / 2.0) * 175;
+
+        pts.push(`${px.toFixed(1)},${py.toFixed(1)}`);
+
+        if (r % 3 === 0 || r === 1 || r === 60) {
+          let jitter = (Math.sin(r * 99) * 0.05);
+          let pyDot = py + jitter * 20;
+          dots.push(`<circle cx="${px.toFixed(1)}" cy="${pyDot.toFixed(1)}" r="3.5" fill="#38bdf8" />`);
+        }
+      }
+
+      svg.innerHTML = `
+        <rect width="800" height="240" fill="#182234" rx="8" />
+        <line x1="80" y1="210" x2="720" y2="210" stroke="#475569" stroke-width="1.2" />
+        <line x1="80" y1="30" x2="80" y2="210" stroke="#475569" stroke-width="1.2" />
+        <polyline fill="none" stroke="#818cf8" stroke-width="2.5" points="${pts.join(" ")}" />
+        ${dots.join("")}
+        <text x="120" y="50" font-size="11" fill="#818cf8">Curva Teórica: f(r) = C / (r + beta)^gamma</text>
+        <text x="650" y="195" font-size="11" fill="#38bdf8">Pontos Observados</text>
+        <text x="400" y="225" text-anchor="middle" font-size="11" fill="#94a3b8">Escala Log-Log: Posto r (1..60) vs Frequência Normalizada f(r)</text>
+      `;
+    }
+
     // Initialize
     updateWeights();
     runSimulation();
@@ -1934,6 +2244,10 @@
     drawTuringGrid();
     drawLorenzAttractor();
     drawCuspCatastrophe();
+    drawWaddingtonLandscape();
+    drawProspectTheoryCurve();
+    drawTsallisEntropy();
+    drawZipfMandelbrot();
   </script>
 </body>
 </html>
