@@ -83,6 +83,7 @@ STRATEGY_REGISTRY = {
     "fourier_forecast": {"module": "engine.strategies.statistical.fourier_forecast", "tier": "statistical", "description": "🌊 Fourier Spectral Projection"},
     "nash_equilibrium": {"module": "engine.strategies.statistical.nash_equilibrium", "tier": "statistical", "description": "♟️ Nash Equilibrium (Game Theory)"},
     "stefan_mandel": {"module": "engine.strategies.statistical.stefan_mandel", "tier": "statistical", "description": "💼 Stefan Mandel Arbitrage — targets jackpots exceeding combinatorial cost with optimal coverage"},
+    "hazard_weibull": {"module": "engine.strategies.statistical.hazard_weibull", "tier": "statistical", "description": "⌛ Hazard Rate & Weibull Delay — parametric & empirical survival hazard modeling for overdue numbers"},
     
     # ML
     "logistic": {"module": "engine.strategies.ml.logistic", "tier": "ml", "description": "Logistic Regression"},
@@ -275,6 +276,7 @@ class BaseStrategy(ABC):
         filters: list[str] | None = None,
         filters_k_of_n: int | None = None,
         chaos: bool = False,
+        target_entropy: float | None = None,
         **kwargs: Any,
     ) -> SuggestionResult:
         """
@@ -292,6 +294,7 @@ class BaseStrategy(ABC):
         filters        : list of structural filters to apply
         filters_k_of_n : pass if ticket satisfies at least K of the active filters
         chaos          : enable environmental jitter (Solar/Seismic)
+        target_entropy : optional Shannon entropy target to dynamically calibrate sampling temperature
         kwargs         : strategy-specific parameters
         """
         import numpy as np # Local import for performance
@@ -439,7 +442,14 @@ class BaseStrategy(ABC):
             remaining_normed = {n: v for n, v in normed.items() if n not in mandatory_keys}
             if n_to_sample > 0:
                 eff_temp = active_temp if (active_temp > 0 or attempts == 1) else min(0.5, 0.05 * attempts)
-                sampled = _weighted_sample(list(remaining_normed.keys()), remaining_normed, n_to_sample, eff_temp, rng=local_rng)
+                sampled = _weighted_sample(
+                    list(remaining_normed.keys()),
+                    remaining_normed,
+                    n_to_sample,
+                    eff_temp,
+                    rng=local_rng,
+                    target_entropy=target_entropy,
+                )
                 ticket = sorted(list(sampled) + mandatory_keys)
             else:
                 ticket = sorted(mandatory_keys)
@@ -497,8 +507,56 @@ class BaseStrategy(ABC):
 
 
 # ---------------------------------------------------------------------------
-# Weighted sampling helper
+# Weighted sampling helper (Entropy-Calibrated Softmax)
 # ---------------------------------------------------------------------------
+
+
+def _calibrate_temperature_for_entropy(
+    logits: Any,
+    target_entropy: float,
+    tol: float = 1e-4,
+    max_iter: int = 35,
+) -> float:
+    """
+    Find optimal temperature tau > 0 such that H(Softmax(logits / tau)) == target_entropy.
+    Entropy is monotonically increasing with tau:
+      tau -> 0+   => H -> ln(multiplicity of max)
+      tau -> inf  => H -> ln(N) (maximum theoretical entropy)
+    """
+    import numpy as np
+    n_items = len(logits)
+    max_h = float(np.log(n_items))
+    min_h = 1e-6
+    target_h = float(np.clip(target_entropy, min_h, max_h - 1e-5))
+
+    tau_low = 1e-4
+    tau_high = 50.0
+
+    # Expand upper bound if needed
+    for _ in range(5):
+        scaled = (logits - np.max(logits)) / tau_high
+        exp_s = np.exp(scaled)
+        p = exp_s / np.sum(exp_s)
+        h_val = -float(np.sum(p * np.log(np.maximum(p, 1e-12))))
+        if h_val >= target_h:
+            break
+        tau_high *= 2.0
+
+    for _ in range(max_iter):
+        tau_mid = 0.5 * (tau_low + tau_high)
+        scaled = (logits - np.max(logits)) / tau_mid
+        exp_s = np.exp(scaled)
+        p = exp_s / np.sum(exp_s)
+        h_val = -float(np.sum(p * np.log(np.maximum(p, 1e-12))))
+
+        if abs(h_val - target_h) < tol:
+            return tau_mid
+        if h_val < target_h:
+            tau_low = tau_mid
+        else:
+            tau_high = tau_mid
+
+    return 0.5 * (tau_low + tau_high)
 
 
 def _weighted_sample(
@@ -507,22 +565,37 @@ def _weighted_sample(
     k: int,
     temperature: float = 1.0,
     rng: Any = None,
+    target_entropy: float | None = None,
 ) -> list[int]:
     """
-    Sample k numbers without replacement using temperature-scaled weights.
+    Sample k numbers without replacement using Softmax with temperature scaling
+    or entropy-constrained calibration.
 
     temperature = 0   → top-k (deterministic)
-    temperature = 1   → proportional to score
+    temperature = 1   → standard proportional softmax
     temperature > 1   → flatter distribution (more random)
     temperature < 1   → sharper distribution (more confident)
+    target_entropy    → calibrates tau so that H(Softmax(scores/tau)) == target_entropy
     """
-    import numpy as np # Local import for performance
-    if temperature <= 0:
+    import numpy as np  # Local import for performance
+    if temperature <= 0 and target_entropy is None:
         return sorted(numbers, key=lambda n: scores.get(n, 0.0), reverse=True)[:k]
 
-    raw = np.array([max(scores.get(n, 1e-9), 1e-9) for n in numbers], dtype=float)
-    raw = raw ** (1.0 / temperature)
-    probs = raw / raw.sum()
+    raw_scores = np.array([scores.get(n, 0.0) for n in numbers], dtype=float)
+
+    if target_entropy is not None and target_entropy > 0:
+        eff_tau = _calibrate_temperature_for_entropy(raw_scores, target_entropy)
+    else:
+        eff_tau = max(float(temperature), 1e-4)
+
+    # Shift-invariant, numerically stable Softmax
+    scaled = (raw_scores - np.max(raw_scores)) / eff_tau
+    exp_scaled = np.exp(scaled)
+    sum_exp = np.sum(exp_scaled)
+    if sum_exp > 0 and np.all(np.isfinite(exp_scaled)):
+        probs = exp_scaled / sum_exp
+    else:
+        probs = np.ones(len(numbers), dtype=float) / len(numbers)
 
     if rng and hasattr(rng, 'random'):
         # Map python random instance to a local numpy generator for consistent seeding

@@ -243,6 +243,7 @@ def suggest(
              "significance test, and print the (honest) result. Implies --weather-seed.")] = False,
     target_date: Annotated[Optional[str], typer.Option("--target-date", "-d", help="Target draw date (YYYY-MM-DD) for temporal/esoteric alignment and Teimosinha start")] = None,
     teimosinha: Annotated[Optional[int], typer.Option("--teimosinha", "-T", help="Teimosinha consecutive draws count (e.g. 2, 3, 4, 6, 8, 9, 12, 18, 24)")] = None,
+    target_entropy: Annotated[Optional[float], typer.Option("--target-entropy", help="Calibrate sampling temperature dynamically to match target Shannon entropy (e.g. 2.8)")] = None,
     export_md: Annotated[Optional[str], typer.Option("--export-md", help="Append suggest report to this .md file")] = None,
 ):
     """🎟️ Generate ticket suggestions using a specific prediction strategy."""
@@ -274,6 +275,7 @@ def suggest(
         esoteric_mode=esoteric_mode,
         target_date=target_date,
         teimosinha=teimosinha,
+        target_entropy=target_entropy,
         export_md=export_md,
     )
 

@@ -98,11 +98,87 @@ class WheelingEngine:
                     matrix[ticket[j]-1, ticket[i]-1] += 1
         return matrix
 
-    def reduce_tickets(self, tickets: np.ndarray, t: int, m: int, target_coverage: float = 1.0) -> np.ndarray:
+    def reduce_tickets_milp(
+        self,
+        tickets: np.ndarray,
+        t: int,
+        m: int,
+        time_limit_sec: float = 12.0,
+    ) -> np.ndarray:
+        """
+        Exact Minimal Set Covering via Mixed-Integer Linear Programming (MILP).
+        Solves:
+            min sum(x_j)
+            s.t. A * x >= 1
+                 x_j in {0, 1}
+        Guarantees the mathematically minimal number of tickets for 100% t-if-m coverage.
+        Falls back to greedy reduction if instance size exceeds safety thresholds.
+        """
+        n_tickets = tickets.shape[0]
+        pool_range = np.arange(1, self.n + 1)
+        target_subsets = [self._to_bitmask(list(subset)) for subset in combinations(pool_range, m)]
+        total_targets = len(target_subsets)
+
+        # Safety bound: prevent excessive memory allocation
+        if n_tickets * total_targets > 1_500_000:
+            return self.reduce_tickets(tickets, t, m, method="greedy")
+
+        try:
+            from scipy.optimize import milp, LinearConstraint
+            from scipy.sparse import dok_matrix
+
+            ticket_masks = self._to_matrix_mask(tickets)
+            target_masks = np.array(target_subsets, dtype=np.uint64)
+
+            A = dok_matrix((total_targets, n_tickets), dtype=float)
+            for j in range(n_tickets):
+                intersections = ticket_masks[j] & target_masks
+                for i, mask in enumerate(intersections):
+                    if int(mask).bit_count() >= t:
+                        A[i, j] = 1.0
+
+            A_csc = A.tocsc()
+            c = np.ones(n_tickets, dtype=float)
+            constraints = LinearConstraint(A_csc, 1.0, np.inf)
+            integrality = np.ones(n_tickets)
+
+            res = milp(
+                c=c,
+                constraints=constraints,
+                integrality=integrality,
+                bounds=(0, 1),
+                options={"time_limit": time_limit_sec},
+            )
+
+            if res.success and res.x is not None:
+                selected = np.where(res.x > 0.5)[0]
+                if len(selected) > 0:
+                    return tickets[selected]
+        except Exception:
+            pass
+
+        return self.reduce_tickets(tickets, t, m, method="greedy")
+
+    def reduce_tickets(
+        self,
+        tickets: np.ndarray,
+        t: int,
+        m: int,
+        target_coverage: float = 1.0,
+        method: str = "auto",
+    ) -> np.ndarray:
         """
         Reduces a ticket set while maintaining the t-if-m guarantee.
-        Greedy implementation: selects tickets that maximize incremental coverage.
+        method: 'auto' (tries MILP for exact minimal cover if 100% coverage, else greedy),
+                'milp' (exact Integer Linear Programming),
+                'greedy' (fast iterative incremental coverage).
         """
+        if (method == "milp" or (method == "auto" and target_coverage >= 0.999)) and tickets.shape[0] * len(list(combinations(range(1, self.n + 1), m))) <= 1_000_000:
+            try:
+                return self.reduce_tickets_milp(tickets, t, m)
+            except Exception:
+                pass
+
         n_tickets = tickets.shape[0]
         ticket_masks = self._to_matrix_mask(tickets)
         

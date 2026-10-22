@@ -94,6 +94,7 @@ def suggest(
              "significance test, and print the (honest) result. Implies --weather-seed.")] = False,
     target_date: Annotated[Optional[str], typer.Option("--target-date", "-d", help="Target draw date (YYYY-MM-DD) for temporal/esoteric alignment and Teimosinha start")] = None,
     teimosinha: Annotated[Optional[int], typer.Option("--teimosinha", "-T", help="Teimosinha consecutive draws count (e.g. 2, 3, 4, 6, 8, 9, 12, 18, 24)")] = None,
+    target_entropy: Annotated[Optional[float], typer.Option("--target-entropy", help="Calibrate sampling temperature dynamically to match target Shannon entropy (e.g. 2.8)")] = None,
     export_md: Annotated[Optional[str], typer.Option("--export-md", help="Append suggest report to this .md file")] = None,
 ) -> None:
     """
@@ -175,6 +176,7 @@ def suggest(
         esoteric_mode=esoteric_mode,
         target_date=target_date,
         teimosinha=teimosinha,
+        target_entropy=target_entropy,
         export_md=export_md,
     )
 
@@ -205,6 +207,7 @@ def _run_comparison(
     esoteric_mode: bool = False,
     target_date: str | None = None,
     teimosinha: int | None = None,
+    target_entropy: float | None = None,
     export_md: str | None = None,
 ) -> None:
     """Internal helper to run the actual comparison logic."""
@@ -483,6 +486,7 @@ def _run_comparison(
                     filters=filter_list,
                     filters_k_of_n=k_of_n,
                     chaos=chaos,
+                    target_entropy=target_entropy,
                     **extra_suggest_kwargs # Pass the specific counts & personal context
                 )
             
@@ -537,6 +541,7 @@ def _run_comparison(
                 target_date_obj=target_date_obj,
                 birth_date_str=personal_data.get("birth_date"),
                 pick_count=pick_count,
+                target_entropy=target_entropy,
             )
 
         except Exception as exc:
@@ -655,6 +660,7 @@ def _print_single_result(
     target_date_obj: date | None = None,
     birth_date_str: str | None = None,
     pick_count: int | None = None,
+    target_entropy: float | None = None,
 ):
     """Prints formatted output for a single strategy suggestion."""
     from engine.cli.utils import ui_panel, ui_table, ui_dummy_block, Theme
@@ -705,7 +711,10 @@ def _print_single_result(
         for i, (num, score) in enumerate(sorted_scores):
             evidence.add_row(str(i+1), f"[bold]{num}[/]", f"{score:.4f}")
         
-        rprint(f" [dim]⌞ Score Entropy: {ent:.4f} ({conc_label})[/]")
+        if target_entropy is not None:
+            rprint(f" [dim]⌞ Score Entropy: {ent:.4f} ({conc_label}) | Entropic Softmax Target: {target_entropy:.4f}[/]")
+        else:
+            rprint(f" [dim]⌞ Score Entropy: {ent:.4f} ({conc_label})[/]")
     rprint(ui_panel(
         Group("\n".join(content), "\n", ui_panel(evidence, title="Statistical Evidence", style="bright_black") if evidence else ""),
         title=f"{label} PREDICTION",

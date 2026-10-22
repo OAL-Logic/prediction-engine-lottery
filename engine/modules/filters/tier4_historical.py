@@ -51,10 +51,32 @@ class HistoricalSumRangeFilter(VectorizedFilter):
     unique_id = "historical_sum_range"
     display_name = "Historical Sum Range"
     tier = 4
+
     def apply(self, combinations: np.ndarray, rules: DrawRules) -> np.ndarray:
         sums = np.sum(combinations, axis=1)
-        # Typically sums fall in a bell curve
-        return (sums >= 100) & (sums <= 250)
+        k = combinations.shape[1]
+        lo, hi = getattr(rules, "number_range", (1, 60))
+        n_pool = hi - lo + 1
+
+        # Check if historical purged mean/std are attached to rules/context
+        hist_mean = getattr(rules, "purged_sum_mean", None)
+        hist_std = getattr(rules, "purged_sum_std", None)
+
+        if hist_mean is not None and hist_std is not None and hist_std > 0:
+            min_sum = float(hist_mean - 2.8 * hist_std)
+            max_sum = float(hist_mean + 2.8 * hist_std)
+        else:
+            # Rigorous analytical hypergeometric theoretical bounds for (n_pool, k)
+            expected_sum = k * (lo + hi) / 2.0
+            if n_pool > 1:
+                var_sum = (k * (n_pool - k) / (n_pool - 1)) * ((n_pool ** 2 - 1) / 12.0)
+                std_sum = np.sqrt(max(var_sum, 1.0))
+            else:
+                std_sum = 10.0
+            min_sum = float(expected_sum - 2.8 * std_sum)
+            max_sum = float(expected_sum + 2.8 * std_sum)
+
+        return (sums >= min_sum) & (sums <= max_sum)
 
 class RecentDrawsExclusionFilter(VectorizedFilter):
     unique_id = "historical_recent_exclusion"
