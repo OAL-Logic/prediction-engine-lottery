@@ -25,6 +25,78 @@
       "skillPath": "scientific-skills/arboreto/SKILL.md",
       "computedHash": "d444ebecbfc4553c28653c262854b94853966cfa3c3dc8a9024090ce20e7f019"
     },
+    "ascii-ansi-colorizer": {
+      "source": "full-stack-skills/ascii-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ascii-ansi-colorizer/SKILL.md",
+      "computedHash": "dd6c7abfda3eec729af3156158d555e87ada86146059cc15d0c6fbce9510f602"
+    },
+    "ascii-cli-logo-banner": {
+      "source": "full-stack-skills/ascii-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ascii-cli-logo-banner/SKILL.md",
+      "computedHash": "6b2a952bd78bc1c3cc2dac3e10a987f73421ff776e2f0c272864db3ca11c3872"
+    },
+    "ascii-cli-logo-banner-figletjs": {
+      "source": "full-stack-skills/ascii-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ascii-cli-logo-banner-figletjs/SKILL.md",
+      "computedHash": "efe4bd759a4ff81db258aef3852e003f1a512f452ce1b52eb14fefba51902dfe"
+    },
+    "ascii-cli-logo-banner-python": {
+      "source": "full-stack-skills/ascii-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ascii-cli-logo-banner-python/SKILL.md",
+      "computedHash": "08d604d9666268ba47a8db2e18135a5c3c425d58d90bb8ca7be08f27417d2f43"
+    },
+    "ascii-diagram-boxflow": {
+      "source": "full-stack-skills/ascii-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ascii-diagram-boxflow/SKILL.md",
+      "computedHash": "b064e23ee1b69e5ff21abf6c0a2b5dac54af4e2d5a7306dc71f14951bc19d0d7"
+    },
+    "ascii-image-to-ascii": {
+      "source": "full-stack-skills/ascii-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ascii-image-to-ascii/SKILL.md",
+      "computedHash": "7b7f07be42049f87ced07b53ef1c67d4eeef8ca53a61e4d87292b6f28fd291be"
+    },
+    "ascii-mini-charts": {
+      "source": "full-stack-skills/ascii-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ascii-mini-charts/SKILL.md",
+      "computedHash": "da3dcbb6705c2db4996a4c3a55233f820993074ff1ad03a2baa14a4f1066c752"
+    },
+    "ascii-motd-profile-banner": {
+      "source": "full-stack-skills/ascii-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ascii-motd-profile-banner/SKILL.md",
+      "computedHash": "3f789a7dbad7aa0ddf24d0390aea033faecee3d297189d7afb80d2e3fce29841"
+    },
+    "ascii-progress-and-spinner": {
+      "source": "full-stack-skills/ascii-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ascii-progress-and-spinner/SKILL.md",
+      "computedHash": "ac9ff3b77dcbba6497813774215f3e2bc1447dbc1047cceae0498090817db360"
+    },
+    "ascii-table-renderer": {
+      "source": "full-stack-skills/ascii-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ascii-table-renderer/SKILL.md",
+      "computedHash": "7c6726fed031adc5b38427dc30f0a2f604836e97abd3543c28c6cf6616f6c5ff"
+    },
+    "ascii-terminal-animation-pack": {
+      "source": "full-stack-skills/ascii-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ascii-terminal-animation-pack/SKILL.md",
+      "computedHash": "de7737772857e621c7b50e7dcda5742033a8c0c1ae6e08c2be70bc8152493503"
+    },
+    "ascii-text-art-library": {
+      "source": "full-stack-skills/ascii-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ascii-text-art-library/SKILL.md",
+      "computedHash": "1d38ca869e8d8eeb91c094ac93a4b5962494c611ba2e889c159a8a6c775619c4"
+    },
     "ask-matt": {
       "source": "mattpocock/skills",
       "sourceType": "github",
@@ -102,6 +174,12 @@
       "sourceType": "github",
       "skillPath": "skills/in-progress/claude-handoff/SKILL.md",
       "computedHash": "40a7f4ec80b9826ad7d0c47b0778c99686d6d9d662112b3e175a816f3aca4c39"
+    },
+    "cli-ascii-logo": {
+      "source": "full-stack-skills/ascii-skills",
+      "sourceType": "github",
+      "skillPath": "skills/cli-ascii-logo/SKILL.md",
+      "computedHash": "2ef366166beb0de29f654d429f769ed8b47cce8a9faab22e6ef4576f8f94209d"
     },
     "clinical-decision-support": {
       "source": "K-Dense-AI/scientific-agent-skills",
@@ -198,6 +276,12 @@
       "sourceType": "github",
       "skillPath": "skills/engineering/diagnosing-bugs/SKILL.md",
       "computedHash": "fd6c99466b7ba43be624e6e66ed6d7af2796ded7218f24c83820823977819e22"
+    },
+    "diagram-design": {
+      "source": "cathrynlavery/diagram-design",
+      "sourceType": "github",
+      "skillPath": "skills/diagram-design/SKILL.md",
+      "computedHash": "115a126a5bff5abd547b125e9865269c4ad737e4cb134df153118e0ffd679f82"
     },
     "diffdock": {
       "source": "K-Dense-AI/scientific-agent-skills",
@@ -540,6 +624,30 @@
       "sourceType": "github",
       "skillPath": "scientific-skills/open-notebook/SKILL.md",
       "computedHash": "2362ed1c18f7c55b86f8f7cde6561a8995e84fe7ce8f40860045c0a6329a9800"
+    },
+    "openspec-apply-change": {
+      "source": "full-stack-skills/ascii-skills",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/openspec-apply-change/SKILL.md",
+      "computedHash": "314506a8db2aaf04e595eaf8c4f5c81613d6dfbf060f54d8eabbe94f3f567a22"
+    },
+    "openspec-archive-change": {
+      "source": "full-stack-skills/ascii-skills",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/openspec-archive-change/SKILL.md",
+      "computedHash": "ffbd7f9c110d8c1e1f744db2e904854ce1cde02ca46c03849f6fac98bf14018f"
+    },
+    "openspec-explore": {
+      "source": "full-stack-skills/ascii-skills",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/openspec-explore/SKILL.md",
+      "computedHash": "eea19567aeeec092628b3972b2b8c0fc433e0b9332fa4c3e935008784b6fb900"
+    },
+    "openspec-propose": {
+      "source": "full-stack-skills/ascii-skills",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/openspec-propose/SKILL.md",
+      "computedHash": "406a71796ac111be0fddc8bc2a4137c91c967eaf43439bbcc3f2509aec7440db"
     },
     "opentrons-integration": {
       "source": "K-Dense-AI/scientific-agent-skills",
