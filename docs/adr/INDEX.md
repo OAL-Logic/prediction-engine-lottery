@@ -11,3 +11,4 @@ Canonical architectural decisions governing the Prediction Engine, CLI, and Desk
 | `01` | `Root` | **[ADR-001: Architecture Evaluation — Lottery Prediction Engine](./0001-architecture-evaluation.md)** | `0001-architecture-evaluation.md` |
 | `02` | `Root` | **[1. Use TypeSafe AI (Jev) for Dynamic Strategy Routing](./0001-use-jev-for-strategy-routing.md)** | `0001-use-jev-for-strategy-routing.md` |
 | `03` | `Root` | **[2. Modern Lottery Studio Desktop Cockpit Architecture & Visual Overhaul](./0002-modern-lottery-studio-desktop-cockpit-architecture.md)** | `0002-modern-lottery-studio-desktop-cockpit-architecture.md` |
+| `04` | `Root` | **[3. Probabilistic Forecasting, Entropic Sampling & Minimal Set Covering Optimization](./0003-probabilistic-forecasting-and-combinatorial-optimization.md)** | `0003-probabilistic-forecasting-and-combinatorial-optimization.md` |
