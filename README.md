@@ -1,6 +1,6 @@
 # p4lottery (Prediction Engine v11.2 — Singularity) 🚀🌌
 
-> A high-performance **Mathematical & Cross-Disciplinary Lottery Prediction Engine** featuring 100+ CLI commands, 80+ prediction strategies, 69 structural filters, 2,360 combinatorial covering designs, a 29-document frontier architecture series spanning 90 scientific faculties, and an interactive browser-based simulation laboratory.
+> A high-performance **Mathematical & Cross-Disciplinary Lottery Prediction Engine** featuring 100+ CLI commands, 80+ prediction strategies, 69 structural filters, 2,360 combinatorial covering designs, a 30-document frontier architecture series spanning 90 scientific faculties, an interactive browser-based simulation laboratory, and zero-PII security guardrails.
 
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)]()
@@ -14,34 +14,226 @@
 
 ## 🏛️ System Architecture
 
+```mermaid
+flowchart TB
+    accTitle: System Container and Ecosystem Architecture
+    accDescr: High-level container diagram showing presentation clients, API and CLI gateways, the multi-tier prediction core, storage engines, and official data sources.
+
+    subgraph clients["🖥️ Presentation & Execution Layer"]
+        cli["CLI Launcher<br/><code>./p4lottery</code>"]
+        desktop["Desktop Studio<br/><code>PySide6 / Qt6</code>"]
+        cockpit["Web Cockpit<br/><code>TypeScript / React</code>"]
+        tui["Terminal UI<br/><code>Textual / Ink</code>"]
+        lab["Interactive Lab<br/><code>25 JS Simulators</code>"]
+        portal["Dynamic Portal<br/><code>285 Indexed Docs</code>"]
+    end
+
+    subgraph gateway_layer["⚡ Control & Interface Gateway"]
+        cli_router["CLI Command Dispatcher<br/>(100+ Commands)"]
+        fastapi["FastAPI Core Engine Service<br/>(REST & WebSocket)"]
+        pqc_gw["Go Gateway Hub<br/>(PQC & Telemetry)"]
+    end
+
+    subgraph engine_core["🧠 Prediction & Analytical Core"]
+        direction TB
+        diag_scan["6-Layer Diagnostic Scan<br/>(GO / NO-GO Filter)"]
+        strat_ensemble["80+ Strategy Ensemble<br/>(Statistical, ML, DL, Physics, Esoteric)"]
+        filter_funnel["69-Filter Funnel<br/>(5 Tiers, N-of-M Fault Tolerance)"]
+        boundary_swap["Boundary-Swap Balancer<br/>(Stochastic Operator)"]
+        wheel_engine["Combinatorial Wheeling Engine<br/>(2,360 Covering Designs)"]
+        risk_kelly["Kelly Staking & Portfolio<br/>(Fractional Capital Allocator)"]
+    end
+
+    subgraph storage_layer["💾 High-Performance Storage Layer"]
+        duckdb[("DuckDB OLAP Engine<br/>Vectorized Aggregates")]
+        sqlite[("SQLite Relational DB<br/>Metadata & Draw History")]
+        parquet[("Parquet Cache<br/>Precomputed Partitions")]
+        blake_cache[("BLAKE2b Cache<br/>Sub-millisecond Hashes")]
+    end
+
+    subgraph external_sources["🌐 External Official Ingestion"]
+        caixa["Caixa Econômica Federal (BR)<br/>Lotofácil, Mega-Sena, Quina"]
+        intl_lotteries["US / EU Global Catalogs<br/>Powerball, Mega Millions, EuroMillions"]
+    end
+
+    cli --> cli_router
+    desktop --> fastapi
+    cockpit --> pqc_gw
+    pqc_gw --> fastapi
+    tui --> cli_router
+    lab -.->|"Independent Local Engine"| lab
+
+    cli_router --> engine_core
+    fastapi --> engine_core
+
+    engine_core --> storage_layer
+    caixa --> cli_router
+    intl_lotteries --> cli_router
+
+    classDef clientStyle fill:#e0f2fe,stroke:#0284c7,stroke-width:2px,color:#0f172a;
+    classDef gatewayStyle fill:#fef3c7,stroke:#d97706,stroke-width:2px,color:#0f172a;
+    classDef engineStyle fill:#f3e8ff,stroke:#7e22ce,stroke-width:2px,color:#0f172a;
+    classDef storageStyle fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#0f172a;
+    classDef externalStyle fill:#f1f5f9,stroke:#64748b,stroke-width:2px,color:#0f172a;
+
+    class cli,desktop,cockpit,tui,lab,portal clientStyle;
+    class cli_router,fastapi,pqc_gw gatewayStyle;
+    class diag_scan,strat_ensemble,filter_funnel,boundary_swap,wheel_engine,risk_kelly engineStyle;
+    class duckdb,sqlite,parquet,blake_cache storageStyle;
+    class caixa,intl_lotteries externalStyle;
 ```
-┌────────────────────────────────────────────────────────────────────────┐
-│                   p4lottery Unified Ecosystem                           │
-│  ┌─────────────────────────┐            ┌───────────────────────────┐  │
-│  │   Interactive Lab       │            │  PySide6 Desktop Client   │  │
-│  │  (25 Visual Simulators) │            │  (Cockpit / Virtual Grid) │  │
-│  └───────────┬─────────────┘            └─────────────┬─────────────┘  │
-│              │ Client-Side JS                         │ Direct Python  │
-│  ┌───────────┴────────────────────────────────────────┴─────────────┐  │
-│  │                     p4lottery CLI Gateway                        │  │
-│  │             (100+ Analytical & Generation Commands)              │  │
-│  └──────────────────────────────────┬───────────────────────────────┘  │
-│                                     │                                  │
-│  ┌──────────────────────────────────┴───────────────────────────────┐  │
-│  │                       Prediction Engine Core                     │  │
-│  │  ├── 80+ Multi-Modal Strategies (Statistical, ML, Deep, Physics) │  │
-│  │  ├── 69-Filter Funnel (50 Base + 19 Advanced, N-of-M Fault-Tol.) │  │
-│  │  ├── 2,360 Combinatorial Covering Wheels (C(v, k, t, m))         │  │
-│  │  ├── 222 Global Lotteries Registry (BR, US, EU, Global)          │  │
-│  │  ├── Boundary-Swap Stochastic Balance Operator                   │  │
-│  │  └── Productivity Planner Autonomous Copilot Routine             │  │
-│  └──────────────────────────────────┬───────────────────────────────┘  │
-│                                     │                                  │
-│  ┌──────────────────────────────────┴───────────────────────────────┐  │
-│  │                 High-Performance Storage Layer                   │  │
-│  │              (DuckDB, SQLite, Parquet, BLAKE2b Cache)            │  │
-│  └──────────────────────────────────────────────────────────────────┘  │
-└────────────────────────────────────────────────────────────────────────┘
+
+---
+
+## 🗺️ Repository Topology & Map of Content (MOC)
+
+### Macro Directory Layout
+
+```
+p4lottery/
+├── engine/                     # Core Mathematical & Predictive Engine
+│   ├── adapters/               # Official draw scrapers & data ingesters (BR Caixa, US, EU, Global)
+│   ├── api/                    # High-throughput FastAPI REST & WebSocket endpoints
+│   ├── cli/                    # 100+ Click-based CLI operational commands
+│   ├── modules/                # 69-filter funnel, analytics, boundary balancer, hybrid synthesis
+│   │   └── filters/            # 5-Tier filter implementation (structural, positional, algebraic, etc.)
+│   ├── odds/                   # Hypergeometric distribution & probability calculators
+│   ├── quina_unfold/           # Unfolding routines for Brazilian Quina combinations
+│   ├── services/               # Background daemon, cache managers, synchronization schedulers
+│   ├── strategies/             # 80+ prediction strategies (statistical, ML, deep, foundation, frontier)
+│   │   ├── statistical/        # 40 statistical & mathematical strategies (Markov, Poisson, Hurst, etc.)
+│   │   ├── ml/                 # 14 machine learning regressors & classifiers (XGB, LightGBM, CatBoost)
+│   │   ├── deep/               # 7 deep neural network architectures (Transformer, LSTM-CRF, CNN-1D)
+│   │   ├── foundation/         # Foundation zero-shot models (Google TimesFM, TabPFN)
+│   │   └── fun/                # 40 complex systems & frontier physics models (Ising, Ricci, Soliton)
+│   └── wheels/                 # 2,360 Combinatorial covering wheels & evolutionary optimizers
+├── desktop/                    # PySide6 / Qt 6 Native Forensic Desktop Application
+│   └── src/                    # Views, models, viewmodels, interactive grids & PyQtGraph charts
+├── cockpit/                    # Web-based Forensic Analytics Cockpit (TypeScript / React)
+│   └── src/                    # Interactive dashboards, telemetry charts & filter controls
+├── tui/                        # High-Density Terminal User Interface (Textual / Ink)
+│   └── src/                    # Reactive terminal views, real-time logs & keyboard navigation
+├── app/                        # Cross-Platform React Native Application
+├── gateway/                    # High-Performance Go Gateway (Post-Quantum Cryptography & Telemetry)
+├── docs/                       # Project Knowledge Base & Theoretical Documentation
+│   ├── reference/              # Master reference manuals, interactive labs, and architecture series
+│   │   ├── architecture/       # 30-document architectural series (00–29) spanning 90 scientific horizons
+│   │   ├── dynamic-portal.html # Interactive reference portal indexing 285 technical specifications
+│   │   └── frontier-synthesis-lab.html # Browser simulation lab featuring 25 interactive scientific models
+│   ├── adr/                    # Architecture Decision Records
+│   └── agents/                 # Agent operational policies, issue tracker, and Zero-PII specifications
+├── data/                       # Local draw storage, wheel databases, BLAKE2b cache & DuckDB files
+├── scripts/                    # Forensic tools, automated backfillers, and zero-PII security guardrails
+└── tests/                      # Comprehensive test suite (94+ modules: unit, integration, and compliance)
+```
+
+### Engineered Domain Map of Content (MOC)
+
+| Domain | Subsystem / Directory | Primary Role & Key Modules | Core Reference & Docs |
+|---|---|---|---|
+| **Prediction Core** | [`engine/strategies/`](engine/strategies/) | 80+ Multi-modal models: Statistical (40), ML (14), Deep Learning (7), Foundation (2), Frontier (40) | [Doc 15](docs/reference/architecture/15-Multi-Modal-Prediction-Mechanics-and-Frontier-Synthesis.md) · [Doc 16](docs/reference/architecture/16-Cross-Disciplinary-Frontier-Sciences-and-Complex-Systems.md) |
+| **Filter Funnel** | [`engine/modules/filters/`](engine/modules/filters/) | 69 Filters partitioned into 5 Tiers: Structural (1–15), Positional (16–30), Algebraic (31–45), Historical (46–50), Advanced (51–69) | [Doc 03](docs/reference/architecture/03-Filters-Reference.md) · [Filters CSV](docs/reference/architecture/filters-catalog.csv) |
+| **Combinatorics** | [`engine/wheels/`](engine/wheels/) | 2,360 Combinatorial covering wheels $C(v, k, t, m)$, genetic wheel optimizers, key number wheels | [Doc 04](docs/reference/architecture/04-Wheeling-Systems.md) · [Wheels CSV](docs/reference/architecture/wheels-catalog.csv) |
+| **Balance Operator** | [`engine/modules/hybrid_synthesis.py`](engine/modules/hybrid_synthesis.py) | Boundary-swap stochastic operator balancing sum, parity, decade spreads, and AC metrics | [Doc 15 §4](docs/reference/architecture/15-Multi-Modal-Prediction-Mechanics-and-Frontier-Synthesis.md) |
+| **Data Ingestion** | [`engine/adapters/`](engine/adapters/) | Automated scraping and parsing for Caixa (BR), Powerball, Mega Millions (US), EuroMillions, and 222 global games | [Doc 09](docs/reference/architecture/09-Database-Schema.md) · [Games CSV](docs/reference/architecture/games-catalog.csv) |
+| **Command Router** | [`engine/cli/`](engine/cli/) | 100+ commands covering diagnostics, forecasting, wheeling, backtesting, and autonomous copilot | [Primary Workflows](#-command-reference-100) |
+| **Desktop Client** | [`desktop/`](desktop/) | Native PySide6 / Qt 6 GUI with virtualized `QTableView` tables, PyQtGraph charts, and async workers | [Doc 08](docs/reference/architecture/08-UI-Screen-Design-and-Navigation.md) |
+| **Simulation Lab** | [`docs/reference/`](docs/reference/) | Browser-based interactive lab (`frontier-synthesis-lab.html`, 25 simulators) and Dynamic Portal (`dynamic-portal.html`, 285 docs) | [Interactive Lab Guide](#-interactive-laboratory--dynamic-portal) |
+| **Frontier Sciences** | [`docs/reference/architecture/`](docs/reference/architecture/INDEX.md) | 30-part architecture specification series (00–29) exploring 90 cross-disciplinary scientific horizons | [Architecture Matrix](#-architectural--scientific-reference-30-specifications) |
+| **API & Gateway** | [`engine/api/`](engine/api/) · [`gateway/`](gateway/) | FastAPI REST service + high-throughput Go PQC/telemetry gateway hub | [Doc 07](docs/reference/architecture/07-Architecture-and-Data-Model.md) |
+| **Verification & QA** | [`tests/`](tests/) · [`scripts/`](scripts/) | 94+ unit/integration test suites, blind historical backtesting, and zero-PII security verification | [Zero-PII Policy](docs/agents/pii-policy.md) · [`scripts/check_no_pii.py`](scripts/check_no_pii.py) |
+
+---
+
+## 🔄 End-to-End Prediction Pipeline
+
+```mermaid
+flowchart LR
+    accTitle: End-to-End Prediction and Execution Pipeline
+    accDescr: Sequential dataflow from historical draw ingestion to diagnostic scan, multi-modal strategy ensemble, 69-filter funnel, boundary-swap balancer, wheeling, and staking.
+
+    inflow(["📥 Official Draw Ingestion<br/>(JSON / HTML / CSV)"])
+    scan{"🔍 6-Layer Diagnostic<br/>Chi² & Entropy Scan"}
+    ensemble["🔮 80+ Multi-Modal Ensemble<br/>(Statistical, ML, DL, Physics)"]
+    candidates["🎯 Candidate Pool<br/>(Weighted Numbers / Tickets)"]
+    funnel["🛡️ 69-Filter Funnel<br/>(Tiers 1–5 Elimination)"]
+    balance["⚖️ Boundary-Swap Balancer<br/>(Sum, Parity & Decade Equilibrium)"]
+    wheel["🎡 2,360 Covering Wheels<br/>(Abbreviated C(v,k,t,m))"]
+    stake["💰 Kelly Staking Engine<br/>(Fractional Capital Sizing)"]
+    outflow(["✅ Validated Portfolio<br/>(+ Chi² Empirical Status Flag)"])
+
+    inflow --> scan
+    scan -->|"GO Verdict"| ensemble
+    scan -->|"NO-GO Warning"| ensemble
+    ensemble --> candidates
+    candidates --> funnel
+    funnel --> balance
+    balance --> wheel
+    wheel --> stake
+    stake --> outflow
+
+    classDef flowNode fill:#f8fafc,stroke:#3b82f6,stroke-width:2px,color:#0f172a;
+    classDef decisionNode fill:#fef08a,stroke:#eab308,stroke-width:2px,color:#854d0e;
+    classDef terminalNode fill:#dcfce7,stroke:#22c55e,stroke-width:2px,color:#14532d;
+
+    class candidates,ensemble,funnel,balance,wheel,stake flowNode;
+    class scan decisionNode;
+    class inflow,outflow terminalNode;
+```
+
+---
+
+## 🛡️ 69-Filter Funnel Architecture
+
+```mermaid
+flowchart TD
+    accTitle: Five-Tier 69-Filter Evaluation Funnel
+    accDescr: Structural hierarchy of the 69-filter evaluation engine showing progression through structural, positional, algebraic, historical, and advanced frontier tiers with fault-tolerant acceptance.
+
+    raw_tickets["🎟️ Raw Candidate Combinations"]
+
+    subgraph tier1["Tier 1: Structural Filters (1–15)"]
+        t1["Sum Range, Odd/Even Ratio, High/Low Split,<br/>Consecutive Numbers, Decade & Unit Distribution"]
+    end
+
+    subgraph tier2["Tier 2: Positional Filters (16–30)"]
+        t2["Positional Deltas, Number Gaps, First/Last Spread,<br/>Column/Row Grid Projections, Center-of-Mass"]
+    end
+
+    subgraph tier3["Tier 3: Algebraic & Modular Filters (31–45)"]
+        t3["Arithmetic Complexity (AC), Modulo 3/5/9 Residues,<br/>Prime Counts, Fibonacci Density, Square Distances"]
+    end
+
+    subgraph tier4["Tier 4: Historical & Decay Filters (46–50)"]
+        t4["Repeat Last Draw Counts, Overdue Frequency,<br/>Laplace Posterior Decay, Cluster Recurrence"]
+    end
+
+    subgraph tier5["Tier 5: Advanced & Topological Filters (51–69)"]
+        t5["Chladni Nodal Density, Braid Invariants,<br/>Ising Energy Thresholds, Soliton Dispersion, Phase Angle"]
+    end
+
+    relaxer{"⚖️ N-of-M Fault-Tolerant Relaxer<br/>Acceptance Threshold ($\ge 90\%$)?"}
+    accepted["🏆 Accepted Tickets Portfolio"]
+    rejected["❌ Eliminated Candidate"]
+
+    raw_tickets --> tier1
+    tier1 --> tier2
+    tier2 --> tier3
+    tier3 --> tier4
+    tier4 --> tier5
+    tier5 --> relaxer
+    relaxer -->|"Pass"| accepted
+    relaxer -->|"Fail"| rejected
+
+    classDef tierStyle fill:#f0f9ff,stroke:#0284c7,stroke-width:2px,color:#0369a1;
+    classDef filterGate fill:#fef9c3,stroke:#ca8a04,stroke-width:2px,color:#713f12;
+    classDef finalPass fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#15803d;
+    classDef finalFail fill:#fee2e2,stroke:#dc2626,stroke-width:2px,color:#991b1b;
+
+    class tier1,tier2,tier3,tier4,tier5 tierStyle;
+    class relaxer filterGate;
+    class accepted finalPass;
+    class rejected finalFail;
 ```
 
 ---
@@ -89,9 +281,9 @@ The project features zero-dependency, self-contained interactive web assets desi
 
 ---
 
-## 📚 Architectural & Scientific Reference (29 Specifications)
+## 📚 Architectural & Scientific Reference (30 Specifications)
 
-The repository hosts an authoritative, mathematically rigorous **29-part architecture series** cataloging 90 cross-disciplinary scientific frontiers in [`docs/reference/architecture/`](docs/reference/architecture/INDEX.md):
+The repository hosts an authoritative, mathematically rigorous **30-part architecture series** cataloging 90 cross-disciplinary scientific frontiers in [`docs/reference/architecture/`](docs/reference/architecture/INDEX.md):
 
 | # | Specification Document | Key Theoretical & Algorithmic Horizons |
 |---|---|---|
@@ -100,7 +292,7 @@ The repository hosts an authoritative, mathematically rigorous **29-part archite
 | `16` | **[Cross-Disciplinary Frontiers & Complex Systems](docs/reference/architecture/16-Cross-Disciplinary-Frontier-Sciences-and-Complex-Systems.md)** | Ising spin-glass annealing, Takens' phase space reconstructor, persistent homology TDA, continuous-time quantum walks, Kolmogorov NCD. |
 | `17` | **[Universal Scientific Frontiers & Cybernetic Synthesis](docs/reference/architecture/17-Universal-Scientific-Frontiers-and-Cybernetic-Synthesis.md)** | Chladni acoustic cavity nodal lines, solar S2 barometric tides, E8 quasicrystal lattices, Poincaré hyperbolic disk, Kuramoto synchronizers. |
 | `18` | **[Relativistic Spacetime, Quantum Action & Solitons](docs/reference/architecture/18-Relativistic-Spacetime-Quantum-Action-and-Soliton-Physics.md)** | Minkowski causal lightcones ($ds^2$), Feynman stationary action ($\delta\mathcal{S}=0$), 2D optical wavefront diffraction, KdV solitons, Giry monads. |
-| `19` | **[Topological Braids, Ricci Flow & Neuro-Holography](docs/reference/architecture/19-Topological-Braids-Ricci-Curvature-and-Neuro-Holographic-Mechanics.md)** | Artin braid groups $B_n$, Jones polynomial invariants, discrete Ollivier-Ricci graph flow surgery, Hebbian STDP, Kozai-Lidov secular resonance. |
+| `19` | **[Topological Braids, Ricci Curvature & Neuro-Holography](docs/reference/architecture/19-Topological-Braids-Ricci-Curvature-and-Neuro-Holographic-Mechanics.md)** | Artin braid groups $B_n$, Jones polynomial invariants, discrete Ollivier-Ricci graph flow surgery, Hebbian STDP, Kozai-Lidov secular resonance. |
 | `20` | **[Master Unified Epistemology & Singularity](docs/reference/architecture/20-Master-Unified-Scientific-Epistemology-and-Singularity-Architecture.md)** | Wilsonian Renormalization Group (RG) coarse-graining, Random Matrix Theory (RMT) Marchenko-Pastur thresholds, Liouville phase invariance, Lindblad master equations. |
 | `21` | **[Condensed Matter, Quantum Tensors & Langlands](docs/reference/architecture/21-Condensed-Matter-Quantum-Tensor-and-Langlands-Frontiers.md)** | Bethe percolation thresholds, BKT topological vortex unbinding, granular force chains, Parisi RSB ultrametricity, CKW entanglement monogamy, MPS/DMRG tensors, Ramanujan expanders. |
 | `22` | **[Geophysical Fluids, Evolutionary Bio & Cryptography](docs/reference/architecture/22-Geophysical-Fluids-Evolutionary-Bio-and-Cryptographic-Manifolds.md)** | Kolmogorov K41 turbulent cascades, Rossby planetary waves, Rayleigh-Bénard convection, Sandpile self-organized criticality, Kimura gene diffusion, Turing morphogenesis, LLL shortest vectors. |
@@ -118,11 +310,11 @@ The repository hosts an authoritative, mathematically rigorous **29-part archite
 
 | Tier | Count | Description & Examples |
 |------|-------|------------------------|
-| 📈 **Statistical** | 38 | `weighted`, `bayesian`, `markov`, `monte_carlo`, `spectral`, `fourier_forecast`, `nash_equilibrium`, `graph_influence`, `hurst_memory` |
+| 📈 **Statistical** | 40 | `weighted`, `bayesian`, `markov`, `monte_carlo`, `spectral`, `fourier_forecast`, `nash_equilibrium`, `graph_influence`, `hurst_memory` |
 | 🤖 **Machine Learning** | 14 | `random_forest`, `gradient_boost`, `ml_regressor` (XGB/LGBM/CAT), `stacking_ai`, `ensemble_pro`, `synapse` |
-| 🧠 **Deep Learning** | 5 | `transformer`, `lstm`, `lstm_crf`, `cnn_1d`, `gru` |
+| 🧠 **Deep Learning** | 7 | `transformer`, `lstm`, `lstm_crf`, `cnn_1d`, `gru` |
 | 🔭 **Foundation** | 2 | `timesfm` (zero-shot time-series forecasting via Google TimesFM), `tabfm` (zero-shot tabular classification via TabPFN) |
-| ✨ **Complex & Frontier**| 27+ | `sacred_manifold`, `tda_topology`, `ising_model`, `zeno_quantum`, `lyapunov_chaos`, `chladni_nodal`, `feynman_action`, `ricci_flow` |
+| ✨ **Complex & Frontier**| 40 | `sacred_manifold`, `tda_topology`, `ising_model`, `zeno_quantum`, `lyapunov_chaos`, `chladni_nodal`, `feynman_action`, `ricci_flow` |
 
 ---
 
