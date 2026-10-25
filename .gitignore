@@ -263,3 +263,4 @@ lottery_personal.toml
 # Local Ignored Reference & Binary Archives
 reference.local/
 reference.ignore/
+/attachments
