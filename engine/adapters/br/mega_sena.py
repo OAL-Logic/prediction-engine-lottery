@@ -26,7 +26,7 @@ class MegaSenaAdapter(CaixaBaseAdapter):
         pick_count=6,
         number_range=(1, 60),
         prize_tiers=[4, 5, 6],
-        ticket_price=5.0,
+        ticket_price=6.0,
         currency="BRL",
         max_picks=20,
         odds={

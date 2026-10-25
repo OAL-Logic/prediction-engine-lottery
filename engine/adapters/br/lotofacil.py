@@ -31,7 +31,7 @@ class LotofacilAdapter(CaixaBaseAdapter):
         pick_count=15,
         number_range=(1, 25),
         prize_tiers=[11, 12, 13, 14, 15],
-        ticket_price=3.0,
+        ticket_price=3.5,
         currency="BRL",
         max_picks=20,
         odds={

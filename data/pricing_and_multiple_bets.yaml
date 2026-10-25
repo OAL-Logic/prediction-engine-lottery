@@ -1,0 +1,879 @@
+metadata:
+  version: 2.0.0
+  last_updated: '2026-10-23'
+  effective_date: '2025-07-09'
+lotteries:
+  br/mega-sena:
+    name: Mega-Sena
+    currency: BRL
+    single_bet:
+      numbers: 6
+      price: 6.0
+    teimosinha:
+      allowed_draws:
+      - 2
+      - 3
+      - 4
+      - 6
+      - 8
+      - 9
+      - 12
+      default_draws: 3
+      draw_days:
+      - Tuesday
+      - Thursday
+      - Saturday
+    multiple_bets:
+    - numbers: 6
+      combinations: 1
+      price_single_draw: 6.0
+      teimosinha_costs:
+        2: 12.0
+        3: 18.0
+        4: 24.0
+        6: 36.0
+        8: 48.0
+        9: 54.0
+        12: 72.0
+    - numbers: 7
+      combinations: 7
+      price_single_draw: 42.0
+      teimosinha_costs:
+        2: 84.0
+        3: 126.0
+        4: 168.0
+        6: 252.0
+        8: 336.0
+        9: 378.0
+        12: 504.0
+    - numbers: 8
+      combinations: 28
+      price_single_draw: 168.0
+      teimosinha_costs:
+        2: 336.0
+        3: 504.0
+        4: 672.0
+        6: 1008.0
+        8: 1344.0
+        9: 1512.0
+        12: 2016.0
+    - numbers: 9
+      combinations: 84
+      price_single_draw: 504.0
+      teimosinha_costs:
+        2: 1008.0
+        3: 1512.0
+        4: 2016.0
+        6: 3024.0
+        8: 4032.0
+        9: 4536.0
+        12: 6048.0
+    - numbers: 10
+      combinations: 210
+      price_single_draw: 1260.0
+      teimosinha_costs:
+        2: 2520.0
+        3: 3780.0
+        4: 5040.0
+        6: 7560.0
+        8: 10080.0
+        9: 11340.0
+        12: 15120.0
+    - numbers: 11
+      combinations: 462
+      price_single_draw: 2772.0
+      teimosinha_costs:
+        2: 5544.0
+        3: 8316.0
+        4: 11088.0
+        6: 16632.0
+        8: 22176.0
+        9: 24948.0
+        12: 33264.0
+    - numbers: 12
+      combinations: 924
+      price_single_draw: 5544.0
+      teimosinha_costs:
+        2: 11088.0
+        3: 16632.0
+        4: 22176.0
+        6: 33264.0
+        8: 44352.0
+        9: 49896.0
+        12: 66528.0
+    - numbers: 13
+      combinations: 1716
+      price_single_draw: 10296.0
+      teimosinha_costs:
+        2: 20592.0
+        3: 30888.0
+        4: 41184.0
+        6: 61776.0
+        8: 82368.0
+        9: 92664.0
+        12: 123552.0
+    - numbers: 14
+      combinations: 3003
+      price_single_draw: 18018.0
+      teimosinha_costs:
+        2: 36036.0
+        3: 54054.0
+        4: 72072.0
+        6: 108108.0
+        8: 144144.0
+        9: 162162.0
+        12: 216216.0
+    - numbers: 15
+      combinations: 5005
+      price_single_draw: 30030.0
+      teimosinha_costs:
+        2: 60060.0
+        3: 90090.0
+        4: 120120.0
+        6: 180180.0
+        8: 240240.0
+        9: 270270.0
+        12: 360360.0
+    - numbers: 16
+      combinations: 8008
+      price_single_draw: 48048.0
+      teimosinha_costs:
+        2: 96096.0
+        3: 144144.0
+        4: 192192.0
+        6: 288288.0
+        8: 384384.0
+        9: 432432.0
+        12: 576576.0
+    - numbers: 17
+      combinations: 12376
+      price_single_draw: 74256.0
+      teimosinha_costs:
+        2: 148512.0
+        3: 222768.0
+        4: 297024.0
+        6: 445536.0
+        8: 594048.0
+        9: 668304.0
+        12: 891072.0
+    - numbers: 18
+      combinations: 18564
+      price_single_draw: 111384.0
+      teimosinha_costs:
+        2: 222768.0
+        3: 334152.0
+        4: 445536.0
+        6: 668304.0
+        8: 891072.0
+        9: 1002456.0
+        12: 1336608.0
+    - numbers: 19
+      combinations: 27132
+      price_single_draw: 162792.0
+      teimosinha_costs:
+        2: 325584.0
+        3: 488376.0
+        4: 651168.0
+        6: 976752.0
+        8: 1302336.0
+        9: 1465128.0
+        12: 1953504.0
+    - numbers: 20
+      combinations: 38760
+      price_single_draw: 232560.0
+      teimosinha_costs:
+        2: 465120.0
+        3: 697680.0
+        4: 930240.0
+        6: 1395360.0
+        8: 1860480.0
+        9: 2093040.0
+        12: 2790720.0
+  br/lotofacil:
+    name: Lotofácil
+    currency: BRL
+    single_bet:
+      numbers: 15
+      price: 3.5
+    teimosinha:
+      allowed_draws:
+      - 3
+      - 6
+      - 12
+      - 18
+      - 24
+      default_draws: 6
+      draw_days:
+      - Monday
+      - Tuesday
+      - Wednesday
+      - Thursday
+      - Friday
+      - Saturday
+    multiple_bets:
+    - numbers: 15
+      combinations: 1
+      price_single_draw: 3.5
+      teimosinha_costs:
+        3: 10.5
+        6: 21.0
+        12: 42.0
+        18: 63.0
+        24: 84.0
+    - numbers: 16
+      combinations: 16
+      price_single_draw: 56.0
+      teimosinha_costs:
+        3: 168.0
+        6: 336.0
+        12: 672.0
+        18: 1008.0
+        24: 1344.0
+    - numbers: 17
+      combinations: 136
+      price_single_draw: 476.0
+      teimosinha_costs:
+        3: 1428.0
+        6: 2856.0
+        12: 5712.0
+        18: 8568.0
+        24: 11424.0
+    - numbers: 18
+      combinations: 816
+      price_single_draw: 2856.0
+      teimosinha_costs:
+        3: 8568.0
+        6: 17136.0
+        12: 34272.0
+        18: 51408.0
+        24: 68544.0
+    - numbers: 19
+      combinations: 3876
+      price_single_draw: 13566.0
+      teimosinha_costs:
+        3: 40698.0
+        6: 81396.0
+        12: 162792.0
+        18: 244188.0
+        24: 325584.0
+    - numbers: 20
+      combinations: 15504
+      price_single_draw: 54264.0
+      teimosinha_costs:
+        3: 162792.0
+        6: 325584.0
+        12: 651168.0
+        18: 976752.0
+        24: 1302336.0
+  br/quina:
+    name: Quina
+    currency: BRL
+    single_bet:
+      numbers: 5
+      price: 3.0
+    teimosinha:
+      allowed_draws:
+      - 3
+      - 6
+      - 12
+      - 18
+      - 24
+      default_draws: 6
+      draw_days:
+      - Monday
+      - Tuesday
+      - Wednesday
+      - Thursday
+      - Friday
+      - Saturday
+    multiple_bets:
+    - numbers: 5
+      combinations: 1
+      price_single_draw: 3.0
+      teimosinha_costs:
+        3: 9.0
+        6: 18.0
+        12: 36.0
+        18: 54.0
+        24: 72.0
+    - numbers: 6
+      combinations: 6
+      price_single_draw: 18.0
+      teimosinha_costs:
+        3: 54.0
+        6: 108.0
+        12: 216.0
+        18: 324.0
+        24: 432.0
+    - numbers: 7
+      combinations: 21
+      price_single_draw: 63.0
+      teimosinha_costs:
+        3: 189.0
+        6: 378.0
+        12: 756.0
+        18: 1134.0
+        24: 1512.0
+    - numbers: 8
+      combinations: 56
+      price_single_draw: 168.0
+      teimosinha_costs:
+        3: 504.0
+        6: 1008.0
+        12: 2016.0
+        18: 3024.0
+        24: 4032.0
+    - numbers: 9
+      combinations: 126
+      price_single_draw: 378.0
+      teimosinha_costs:
+        3: 1134.0
+        6: 2268.0
+        12: 4536.0
+        18: 6804.0
+        24: 9072.0
+    - numbers: 10
+      combinations: 252
+      price_single_draw: 756.0
+      teimosinha_costs:
+        3: 2268.0
+        6: 4536.0
+        12: 9072.0
+        18: 13608.0
+        24: 18144.0
+    - numbers: 11
+      combinations: 462
+      price_single_draw: 1386.0
+      teimosinha_costs:
+        3: 4158.0
+        6: 8316.0
+        12: 16632.0
+        18: 24948.0
+        24: 33264.0
+    - numbers: 12
+      combinations: 792
+      price_single_draw: 2376.0
+      teimosinha_costs:
+        3: 7128.0
+        6: 14256.0
+        12: 28512.0
+        18: 42768.0
+        24: 57024.0
+    - numbers: 13
+      combinations: 1287
+      price_single_draw: 3861.0
+      teimosinha_costs:
+        3: 11583.0
+        6: 23166.0
+        12: 46332.0
+        18: 69498.0
+        24: 92664.0
+    - numbers: 14
+      combinations: 2002
+      price_single_draw: 6006.0
+      teimosinha_costs:
+        3: 18018.0
+        6: 36036.0
+        12: 72072.0
+        18: 108108.0
+        24: 144144.0
+    - numbers: 15
+      combinations: 3003
+      price_single_draw: 9009.0
+      teimosinha_costs:
+        3: 27027.0
+        6: 54054.0
+        12: 108108.0
+        18: 162162.0
+        24: 216216.0
+  br/dupla-sena:
+    name: Dupla Sena
+    currency: BRL
+    single_bet:
+      numbers: 6
+      price: 3.0
+    teimosinha:
+      allowed_draws:
+      - 2
+      - 3
+      - 4
+      - 6
+      - 8
+      - 9
+      - 12
+      default_draws: 3
+      draw_days:
+      - Wednesday
+      - Saturday
+    multiple_bets:
+    - numbers: 6
+      combinations: 1
+      price_single_draw: 3.0
+      teimosinha_costs:
+        2: 6.0
+        3: 9.0
+        4: 12.0
+        6: 18.0
+        8: 24.0
+        9: 27.0
+        12: 36.0
+    - numbers: 7
+      combinations: 7
+      price_single_draw: 21.0
+      teimosinha_costs:
+        2: 42.0
+        3: 63.0
+        4: 84.0
+        6: 126.0
+        8: 168.0
+        9: 189.0
+        12: 252.0
+    - numbers: 8
+      combinations: 28
+      price_single_draw: 84.0
+      teimosinha_costs:
+        2: 168.0
+        3: 252.0
+        4: 336.0
+        6: 504.0
+        8: 672.0
+        9: 756.0
+        12: 1008.0
+    - numbers: 9
+      combinations: 84
+      price_single_draw: 252.0
+      teimosinha_costs:
+        2: 504.0
+        3: 756.0
+        4: 1008.0
+        6: 1512.0
+        8: 2016.0
+        9: 2268.0
+        12: 3024.0
+    - numbers: 10
+      combinations: 210
+      price_single_draw: 630.0
+      teimosinha_costs:
+        2: 1260.0
+        3: 1890.0
+        4: 2520.0
+        6: 3780.0
+        8: 5040.0
+        9: 5670.0
+        12: 7560.0
+    - numbers: 11
+      combinations: 462
+      price_single_draw: 1386.0
+      teimosinha_costs:
+        2: 2772.0
+        3: 4158.0
+        4: 5544.0
+        6: 8316.0
+        8: 11088.0
+        9: 12474.0
+        12: 16632.0
+    - numbers: 12
+      combinations: 924
+      price_single_draw: 2772.0
+      teimosinha_costs:
+        2: 5544.0
+        3: 8316.0
+        4: 11088.0
+        6: 16632.0
+        8: 22176.0
+        9: 24948.0
+        12: 33264.0
+    - numbers: 13
+      combinations: 1716
+      price_single_draw: 5148.0
+      teimosinha_costs:
+        2: 10296.0
+        3: 15444.0
+        4: 20592.0
+        6: 30888.0
+        8: 41184.0
+        9: 46332.0
+        12: 61776.0
+    - numbers: 14
+      combinations: 3003
+      price_single_draw: 9009.0
+      teimosinha_costs:
+        2: 18018.0
+        3: 27027.0
+        4: 36036.0
+        6: 54054.0
+        8: 72072.0
+        9: 81081.0
+        12: 108108.0
+    - numbers: 15
+      combinations: 5005
+      price_single_draw: 15015.0
+      teimosinha_costs:
+        2: 30030.0
+        3: 45045.0
+        4: 60060.0
+        6: 90090.0
+        8: 120120.0
+        9: 135135.0
+        12: 180180.0
+  br/dia-de-sorte:
+    name: Dia de Sorte
+    currency: BRL
+    single_bet:
+      numbers: 7
+      price: 2.5
+    teimosinha:
+      allowed_draws:
+      - 3
+      - 6
+      - 9
+      - 12
+      default_draws: 3
+      draw_days:
+      - Tuesday
+      - Thursday
+      - Saturday
+    multiple_bets:
+    - numbers: 7
+      combinations: 1
+      price_single_draw: 2.5
+      teimosinha_costs:
+        3: 7.5
+        6: 15.0
+        9: 22.5
+        12: 30.0
+    - numbers: 8
+      combinations: 8
+      price_single_draw: 20.0
+      teimosinha_costs:
+        3: 60.0
+        6: 120.0
+        9: 180.0
+        12: 240.0
+    - numbers: 9
+      combinations: 36
+      price_single_draw: 90.0
+      teimosinha_costs:
+        3: 270.0
+        6: 540.0
+        9: 810.0
+        12: 1080.0
+    - numbers: 10
+      combinations: 120
+      price_single_draw: 300.0
+      teimosinha_costs:
+        3: 900.0
+        6: 1800.0
+        9: 2700.0
+        12: 3600.0
+    - numbers: 11
+      combinations: 330
+      price_single_draw: 825.0
+      teimosinha_costs:
+        3: 2475.0
+        6: 4950.0
+        9: 7425.0
+        12: 9900.0
+    - numbers: 12
+      combinations: 792
+      price_single_draw: 1980.0
+      teimosinha_costs:
+        3: 5940.0
+        6: 11880.0
+        9: 17820.0
+        12: 23760.0
+    - numbers: 13
+      combinations: 1716
+      price_single_draw: 4290.0
+      teimosinha_costs:
+        3: 12870.0
+        6: 25740.0
+        9: 38610.0
+        12: 51480.0
+    - numbers: 14
+      combinations: 3432
+      price_single_draw: 8580.0
+      teimosinha_costs:
+        3: 25740.0
+        6: 51480.0
+        9: 77220.0
+        12: 102960.0
+    - numbers: 15
+      combinations: 6435
+      price_single_draw: 16087.5
+      teimosinha_costs:
+        3: 48262.5
+        6: 96525.0
+        9: 144787.5
+        12: 193050.0
+  br/lotomania:
+    name: Lotomania
+    currency: BRL
+    single_bet:
+      numbers: 50
+      price: 3.0
+    teimosinha:
+      allowed_draws:
+      - 2
+      - 4
+      - 8
+      default_draws: 2
+      draw_days:
+      - Tuesday
+      - Thursday
+      - Saturday
+    multiple_bets:
+    - numbers: 50
+      combinations: 1
+      price_single_draw: 3.0
+      teimosinha_costs:
+        2: 6.0
+        4: 12.0
+        8: 24.0
+    special_features:
+      aposta_espelho:
+        description: Segundo cartão com as 50 dezenas não marcadas no jogo original
+        price_factor: 2
+        price_per_draw: 6.0
+  br/mais-milionaria:
+    name: +Milionária
+    currency: BRL
+    single_bet:
+      numbers: 6
+      price: 6.0
+    teimosinha:
+      allowed_draws:
+      - 2
+      - 3
+      - 4
+      - 5
+      default_draws: 2
+      draw_days:
+      - Wednesday
+      - Saturday
+    multiple_bets:
+    - numbers: 6
+      trevos: 2
+      combinations: 1
+      price_single_draw: 6.0
+      teimosinha_costs:
+        2: 12.0
+        3: 18.0
+        4: 24.0
+        5: 30.0
+    - numbers: 6
+      trevos: 3
+      combinations: 3
+      price_single_draw: 18.0
+      teimosinha_costs:
+        2: 36.0
+        3: 54.0
+        4: 72.0
+        5: 90.0
+    - numbers: 6
+      trevos: 4
+      combinations: 6
+      price_single_draw: 36.0
+      teimosinha_costs:
+        2: 72.0
+        3: 108.0
+        4: 144.0
+        5: 180.0
+    - numbers: 6
+      trevos: 5
+      combinations: 10
+      price_single_draw: 60.0
+      teimosinha_costs:
+        2: 120.0
+        3: 180.0
+        4: 240.0
+        5: 300.0
+    - numbers: 6
+      trevos: 6
+      combinations: 15
+      price_single_draw: 90.0
+      teimosinha_costs:
+        2: 180.0
+        3: 270.0
+        4: 360.0
+        5: 450.0
+    - numbers: 7
+      trevos: 2
+      combinations: 7
+      price_single_draw: 42.0
+      teimosinha_costs:
+        2: 84.0
+        3: 126.0
+        4: 168.0
+        5: 210.0
+    - numbers: 7
+      trevos: 3
+      combinations: 21
+      price_single_draw: 126.0
+      teimosinha_costs:
+        2: 252.0
+        3: 378.0
+        4: 504.0
+        5: 630.0
+    - numbers: 7
+      trevos: 4
+      combinations: 42
+      price_single_draw: 252.0
+      teimosinha_costs:
+        2: 504.0
+        3: 756.0
+        4: 1008.0
+        5: 1260.0
+    - numbers: 7
+      trevos: 5
+      combinations: 70
+      price_single_draw: 420.0
+      teimosinha_costs:
+        2: 840.0
+        3: 1260.0
+        4: 1680.0
+        5: 2100.0
+    - numbers: 7
+      trevos: 6
+      combinations: 105
+      price_single_draw: 630.0
+      teimosinha_costs:
+        2: 1260.0
+        3: 1890.0
+        4: 2520.0
+        5: 3150.0
+    - numbers: 8
+      trevos: 2
+      combinations: 28
+      price_single_draw: 168.0
+      teimosinha_costs:
+        2: 336.0
+        3: 504.0
+        4: 672.0
+        5: 840.0
+    - numbers: 8
+      trevos: 3
+      combinations: 84
+      price_single_draw: 504.0
+      teimosinha_costs:
+        2: 1008.0
+        3: 1512.0
+        4: 2016.0
+        5: 2520.0
+    - numbers: 8
+      trevos: 4
+      combinations: 168
+      price_single_draw: 1008.0
+      teimosinha_costs:
+        2: 2016.0
+        3: 3024.0
+        4: 4032.0
+        5: 5040.0
+    - numbers: 8
+      trevos: 5
+      combinations: 280
+      price_single_draw: 1680.0
+      teimosinha_costs:
+        2: 3360.0
+        3: 5040.0
+        4: 6720.0
+        5: 8400.0
+    - numbers: 8
+      trevos: 6
+      combinations: 420
+      price_single_draw: 2520.0
+      teimosinha_costs:
+        2: 5040.0
+        3: 7560.0
+        4: 10080.0
+        5: 12600.0
+    - numbers: 9
+      trevos: 2
+      combinations: 84
+      price_single_draw: 504.0
+      teimosinha_costs:
+        2: 1008.0
+        3: 1512.0
+        4: 2016.0
+        5: 2520.0
+    - numbers: 9
+      trevos: 3
+      combinations: 252
+      price_single_draw: 1512.0
+      teimosinha_costs:
+        2: 3024.0
+        3: 4536.0
+        4: 6048.0
+        5: 7560.0
+    - numbers: 9
+      trevos: 4
+      combinations: 504
+      price_single_draw: 3024.0
+      teimosinha_costs:
+        2: 6048.0
+        3: 9072.0
+        4: 12096.0
+        5: 15120.0
+    - numbers: 9
+      trevos: 5
+      combinations: 840
+      price_single_draw: 5040.0
+      teimosinha_costs:
+        2: 10080.0
+        3: 15120.0
+        4: 20160.0
+        5: 25200.0
+    - numbers: 10
+      trevos: 2
+      combinations: 210
+      price_single_draw: 1260.0
+      teimosinha_costs:
+        2: 2520.0
+        3: 3780.0
+        4: 5040.0
+        5: 6300.0
+    - numbers: 10
+      trevos: 3
+      combinations: 630
+      price_single_draw: 3780.0
+      teimosinha_costs:
+        2: 7560.0
+        3: 11340.0
+        4: 15120.0
+        5: 18900.0
+    - numbers: 10
+      trevos: 4
+      combinations: 1260
+      price_single_draw: 7560.0
+      teimosinha_costs:
+        2: 15120.0
+        3: 22680.0
+        4: 30240.0
+        5: 37800.0
+    - numbers: 11
+      trevos: 2
+      combinations: 462
+      price_single_draw: 2772.0
+      teimosinha_costs:
+        2: 5544.0
+        3: 8316.0
+        4: 11088.0
+        5: 13860.0
+    - numbers: 11
+      trevos: 3
+      combinations: 1386
+      price_single_draw: 8316.0
+      teimosinha_costs:
+        2: 16632.0
+        3: 24948.0
+        4: 33264.0
+        5: 41580.0
+    - numbers: 12
+      trevos: 2
+      combinations: 924
+      price_single_draw: 5544.0
+      teimosinha_costs:
+        2: 11088.0
+        3: 16632.0
+        4: 22176.0
+        5: 27720.0

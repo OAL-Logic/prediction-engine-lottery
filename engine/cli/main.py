@@ -242,7 +242,7 @@ def suggest(
         help="Cross-check today's lunar/solar bucket against historical draws with a chi-squared "
              "significance test, and print the (honest) result. Implies --weather-seed.")] = False,
     target_date: Annotated[Optional[str], typer.Option("--target-date", "-d", help="Target draw date (YYYY-MM-DD) for temporal/esoteric alignment and Teimosinha start")] = None,
-    teimosinha: Annotated[Optional[int], typer.Option("--teimosinha", "-T", help="Teimosinha consecutive draws count (e.g. 2, 3, 4, 6, 8, 9, 12, 18, 24)")] = None,
+    teimosinha: Annotated[Optional[int], typer.Option("--teimosinha", "-T", help="Teimosinha consecutive draws count (Mega-Sena/Dupla: 2, 3, 4, 6, 8, 9, 12; Lotofácil/Quina: 3, 6, 12, 18, 24; Lotomania: 2, 4, 8; Dia de Sorte: 3, 6, 9, 12; +Milionária: 2, 3, 4, 5)")] = None,
     target_entropy: Annotated[Optional[float], typer.Option("--target-entropy", help="Calibrate sampling temperature dynamically to match target Shannon entropy (e.g. 2.8)")] = None,
     export_md: Annotated[Optional[str], typer.Option("--export-md", help="Append suggest report to this .md file")] = None,
 ):
@@ -389,12 +389,16 @@ def expert_suggest(
 @app.command(rich_help_panel=PANEL_PRIMARY)
 def docs(
     topic: Annotated[str, typer.Argument(
-        help="Topic: all | lotteries | analysis | strategies | temperature | ensemble | deep | fun"
+        help="Topic: all | lotteries | analysis | strategies | filters | confidence | board | heatmap | expert"
     )] = "all",
+    filter_id: Annotated[Optional[str], typer.Option("--filter", "-f", help="Specific filter unique_id to inspect with diagram & dynamic test")] = None,
+    ticket: Annotated[Optional[str], typer.Option("--ticket", "-t", help="Comma-separated numbers to evaluate dynamically (e.g. 5,12,23,34,45,56)")] = None,
+    game: Annotated[Optional[str], typer.Option("--game", "-g", help="Lottery game identifier (e.g. br/mega-sena, br/lotofacil)")] = None,
+    tier: Annotated[Optional[int], typer.Option("--tier", help="Filter tier (1-5) to inspect in catalog")] = None,
 ):
-    """📚 View the comprehensive TUI documentation and strategy guides."""
+    """📚 View the comprehensive TUI documentation, strategy guides, and mathematical filter diagrams."""
     from engine.cli.commands.docs import docs as impl
-    return impl(topic)
+    return impl(topic, filter_id=filter_id, ticket=ticket, game=game, tier=tier)
 
 @app.command(name="strategies", rich_help_panel=PANEL_PRIMARY)
 def strategies_cmd() -> None:
@@ -1931,10 +1935,11 @@ def filter_funnel(
     filters: Annotated[Optional[str], typer.Option("--filters", help="Comma-separated filter unique_ids, applied in order")] = None,
     list_filters: Annotated[bool, typer.Option("--list-filters", help="List every available filter (tier, id, name) and exit")] = False,
     tier: Annotated[Optional[int], typer.Option("--tier", help="With --list-filters, restrict to a single tier (1-5)")] = None,
+    info: Annotated[Optional[str], typer.Option("--info", help="Inspect detailed documentation, diagram, and dynamic test for a specific filter")] = None,
 ):
     """🕳️ Track how many combinations survive each filter in a chain, tier by tier."""
     from engine.cli.commands.filter_funnel import filter_funnel as impl
-    return impl(lottery, pool, filters, list_filters, tier)
+    return impl(lottery, pool, filters, list_filters, tier, info)
 
 @app.command(name="filter-assistant", rich_help_panel=PANEL_VERIFY)
 def filter_assistant(

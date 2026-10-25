@@ -245,11 +245,11 @@ def resolve_scenario_config(lottery_id: str, budget: float) -> tuple[int, int, f
     """
     is_lf = "lotofacil" in lottery_id
     is_quina = "quina" in lottery_id
-    ticket_price = 3.0 if is_lf else (2.5 if is_quina else 5.0)
+    ticket_price = 3.5 if is_lf else (3.0 if is_quina else 6.0)
     
     if is_lf:
-        if 48.0 <= budget < 90.0:
-            return 16, 1, 48.0, "Single 16-Number Premium Ticket (48.00 BRL)"
+        if 56.0 <= budget < 90.0:
+            return 16, 1, 56.0, "Single 16-Number Premium Ticket (56.00 BRL)"
         elif budget >= 90.0:
             ticket_count = int(budget // ticket_price)
             if ticket_count > 33: ticket_count = 33
@@ -259,8 +259,8 @@ def resolve_scenario_config(lottery_id: str, budget: float) -> tuple[int, int, f
             if ticket_count < 1: ticket_count = 1
             return 15, ticket_count, ticket_count * ticket_price, f"{ticket_count}-Ticket Abbreviated Wheel (V=18, K=15, T=13) ({ticket_count * ticket_price:.2f} BRL)"
     elif is_quina:
-        if 15.0 <= budget < 30.0:
-            return 6, 1, 15.0, "Single 6-Number Multiple Ticket (15.00 BRL)"
+        if 18.0 <= budget < 36.0:
+            return 6, 1, 18.0, "Single 6-Number Multiple Ticket (18.00 BRL)"
         else:
             ticket_count = int(budget // ticket_price)
             if ticket_count < 1: ticket_count = 1
@@ -268,8 +268,8 @@ def resolve_scenario_config(lottery_id: str, budget: float) -> tuple[int, int, f
             return 5, ticket_count, ticket_count * ticket_price, f"{ticket_count}-Ticket Quina Abbreviated Wheel ({ticket_count * ticket_price:.2f} BRL)"
     else:
         # Mega-Sena
-        if 35.0 <= budget < 90.0:
-            return 7, 1, 35.0, "Single 7-Number Premium Ticket (35.00 BRL)"
+        if 42.0 <= budget < 90.0:
+            return 7, 1, 42.0, "Single 7-Number Premium Ticket (42.00 BRL)"
         elif budget >= 90.0:
             ticket_count = int(budget // ticket_price)
             if ticket_count > 18: ticket_count = 18

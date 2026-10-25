@@ -160,6 +160,11 @@ class CaixaBaseAdapter(LotteryAdapter):
             )
             
         # Ensure correct types for the engine
+        if "draw_date" in df.columns and "date" in df.columns:
+            df["draw_date"] = df["draw_date"].fillna(df["date"])
+        elif "date" in df.columns and "draw_date" not in df.columns:
+            df["draw_date"] = df["date"]
+
         df["date"] = pd.to_datetime(df["draw_date"], errors="coerce", utc=True)
         # Drop rows with invalid/missing dates (prevents NaT errors in strategies)
         df = df.dropna(subset=["date"])

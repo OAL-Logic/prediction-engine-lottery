@@ -79,6 +79,7 @@ def suggest(
     key:             Annotated[Optional[str], typer.Option("--key",          help="Include these numbers in every ticket (comma-separated list)")] = None,
     filters:         Annotated[Optional[str], typer.Option("--filters",      help="Apply structural filters (comma-separated names or 'all')")] = None,
     k_of_n:          Annotated[int,           typer.Option("--k-of-n",       help="Tolerance for harmony checks (accept if K of N filters pass)")] = 0,
+    strict_filters:  Annotated[bool,          typer.Option("--strict-filters", help="Enforce 100% filter satisfaction without gradual K-of-N relaxation")] = False,
     pick:            Annotated[Optional[int], typer.Option("--pick",         help="Override default pick count (e.g. play 7 numbers in a pick-6 game)")] = None,
     explain:         Annotated[bool,          typer.Option("--explain",       help="Show top-3 contributing features for each prediction")] = False,
     window_check:    Annotated[bool,          typer.Option("--window-check",  help="Abort with a warning if the current signal window is NOISE")] = False,
@@ -93,7 +94,7 @@ def suggest(
         help="Cross-check today's lunar/solar bucket against historical draws with a chi-squared "
              "significance test, and print the (honest) result. Implies --weather-seed.")] = False,
     target_date: Annotated[Optional[str], typer.Option("--target-date", "-d", help="Target draw date (YYYY-MM-DD) for temporal/esoteric alignment and Teimosinha start")] = None,
-    teimosinha: Annotated[Optional[int], typer.Option("--teimosinha", "-T", help="Teimosinha consecutive draws count (e.g. 2, 3, 4, 6, 8, 9, 12, 18, 24)")] = None,
+    teimosinha: Annotated[Optional[int], typer.Option("--teimosinha", "-T", help="Teimosinha consecutive draws count (Mega-Sena/Dupla: 2, 3, 4, 6, 8, 9, 12; Lotofácil/Quina: 3, 6, 12, 18, 24; Lotomania: 2, 4, 8; Dia de Sorte: 3, 6, 9, 12; +Milionária: 2, 3, 4, 5)")] = None,
     target_entropy: Annotated[Optional[float], typer.Option("--target-entropy", help="Calibrate sampling temperature dynamically to match target Shannon entropy (e.g. 2.8)")] = None,
     export_md: Annotated[Optional[str], typer.Option("--export-md", help="Append suggest report to this .md file")] = None,
 ) -> None:
@@ -165,6 +166,7 @@ def suggest(
         key=key,
         filters=filters,
         k_of_n=k_of_n,
+        strict_filters=strict_filters,
         recent_matches=recent_matches,
         top_numbers=top_numbers,
         pick=pick,
@@ -196,6 +198,7 @@ def _run_comparison(
     key: str | None = None,
     filters: str | None = None,
     k_of_n: int = 0,
+    strict_filters: bool = False,
     recent_matches: int = 5,
     top_numbers: int = 5,
     pick: int | None = None,
@@ -485,6 +488,7 @@ def _run_comparison(
                     key=key_list,
                     filters=filter_list,
                     filters_k_of_n=k_of_n,
+                    strict_filters=strict_filters,
                     chaos=chaos,
                     target_entropy=target_entropy,
                     **extra_suggest_kwargs # Pass the specific counts & personal context
@@ -673,10 +677,18 @@ def _print_single_result(
     if "kp" in result.metadata: meta.append(f"☀️ Kp {result.metadata['kp']}")
     if "chaos_boost" in result.metadata: meta.append(f"🌀 Boost +{result.metadata['chaos_boost']}")
     if teimosinha and teimosinha > 1: meta.append(f"🔁 Teimosinha {teimosinha}x")
+    if result.metadata.get("filters_relaxed"):
+        eff_k = result.metadata.get("filters_effective_k")
+        tgt_n = result.metadata.get("filters_target_n")
+        meta.append(f"[yellow]⚠️ Relaxed K-of-N ({eff_k}/{tgt_n})[/yellow]")
     subtitle = " | ".join(meta)
 
     # 2. Main Ticket Content
     content = []
+    if result.metadata.get("filters_relaxed"):
+        eff_k = result.metadata.get("filters_effective_k")
+        tgt_n = result.metadata.get("filters_target_n")
+        content.append(f"[yellow]⚠️ Note: Candidate pool constrained; filters relaxed to satisfy {eff_k} of {tgt_n} filters.[/yellow]")
     for i, ticket in enumerate(result.tickets):
         t_str = ", ".join(map(str, sorted(ticket)))
         t_sum = sum(ticket)

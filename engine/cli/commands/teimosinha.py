@@ -124,7 +124,7 @@ def teimosinha(
     lottery: Annotated[str, typer.Argument(help="Lottery slug (e.g. br/mega-sena, br/quina)")],
     birth_date: Annotated[Optional[str], typer.Option("--birth-date", "-b", help="Player birth date (YYYY-MM-DD); defaults to personal.local.yaml or synthetic 1990-01-01")] = None,
     target_date: Annotated[Optional[str], typer.Option("--target-date", "-d", help="Start date of the Teimosinha week (YYYY-MM-DD)")] = None,
-    draws: Annotated[Optional[int], typer.Option("--draws", "-T", help="Number of consecutive Teimosinha draws (default: 3 for Mega-Sena, 6 for Quina)")] = None,
+    draws: Annotated[Optional[int], typer.Option("--draws", "-T", help="Number of consecutive Teimosinha draws (Mega-Sena/Dupla: 2, 3, 4, 6, 8, 9, 12; Lotofácil/Quina: 3, 6, 12, 18, 24; Lotomania: 2, 4, 8; Dia de Sorte: 3, 6, 9, 12; +Milionária: 2, 3, 4, 5)")] = None,
     full_name: Annotated[Optional[str], typer.Option("--full-name", help="Optional full name for Kabbalistic/Gematria resonance")] = None,
     tickets_count: Annotated[int, typer.Option("--count", "-c", help="Number of simple tickets to generate")] = 5,
     export_md: Annotated[Optional[str], typer.Option("--export-md", help="Export full Teimosinha report to Markdown file")] = None,
@@ -152,12 +152,24 @@ def teimosinha(
 
     is_quina = "quina" in rules.name.lower() or "quina" in lottery.lower()
     is_mega = "mega" in rules.name.lower() or "mega" in lottery.lower()
+    is_lf = "lotofacil" in rules.name.lower() or "lotofácil" in rules.name.lower() or "lotofacil" in lottery.lower()
+    is_lotomania = "lotomania" in rules.name.lower() or "lotomania" in lottery.lower()
 
     if draws is None or draws <= 0:
         # Official Caixa Teimosinha options:
         # Mega-Sena: 2, 3, 4, 6, 8, 9, 12 (3 = 1 full week Tue/Thu/Sat)
+        # Lotofácil: 3, 6, 12, 18, 24 (6 = 1 full week Mon-Sat)
         # Quina: 3, 6, 12, 18, 24 (6 = 1 full week Mon-Sat)
-        teimosinha_draws = 6 if is_quina else 3
+        # Dupla Sena: 2, 3, 4, 6, 8, 9, 12 (3 = 1 week Wed/Sat)
+        # Lotomania: 2, 4, 8 (2 = 1 week Tue/Fri or Tue/Thu/Sat)
+        # Dia de Sorte: 3, 6, 9, 12 (3 = 1 week Tue/Thu/Sat)
+        # +Milionária: 2, 3, 4, 5 (2 = 1 week Wed/Sat)
+        if is_quina or is_lf:
+            teimosinha_draws = 6
+        elif is_lotomania:
+            teimosinha_draws = 2
+        else:
+            teimosinha_draws = 3
     else:
         teimosinha_draws = draws
 
@@ -679,6 +691,18 @@ def teimosinha(
             filtered_wheel = filtered_wheel[:8]
         wheel_tickets = filtered_wheel
         wheel_desc = f"Desdobramento Quina Unfold (Pool 12 dezenas → {len(wheel_tickets)} cartões de 5 dezenas, garantia Terno/Duque com filtro macro-estrutural)"
+    elif is_lf:
+        # Lotofácil: 18-number elite pool wheeled into 15-number tickets with 13-hit guarantee
+        combined_18 = list(dict.fromkeys([7, 16, 23, 25] + ranked_consensus[:18]))[:18]
+        wheel_pool = sorted(combined_18)
+        raw_wheel = generate_abbreviated_wheel(wheel_pool, pick=15, guarantee=13, max_tickets=6)
+        filtered_wheel = [sorted(t) for t in raw_wheel if _passes_all_gates(sorted(t))]
+        if len(filtered_wheel) < 4:
+            filtered_wheel = [sorted(t) for t in raw_wheel[:6]]
+        else:
+            filtered_wheel = filtered_wheel[:6]
+        wheel_tickets = filtered_wheel
+        wheel_desc = f"Fechamento Lotofácil (Pool 18 dezenas → {len(wheel_tickets)} bilhetes de 15 dezenas, garantia 13 pontos se 15 sorteadas no pool)"
     else:
         # Mega-Sena: 10-number elite pool wheeled into 6-number tickets with 4-hit guarantee
         combined_10 = list(dict.fromkeys([7, 16, 23, 25] + ranked_consensus[:12]))[:10]

@@ -17,7 +17,7 @@ class QuinaAdapter(CaixaBaseAdapter):
         pick_count=5,
         number_range=(1, 80),
         board_cols=10,
-        ticket_price=2.5,
+        ticket_price=3.0,
         currency="BRL",
         max_picks=15,
         prize_tiers=[2, 3, 4, 5],  # Duque (2), Terno (3), Quadra (4), Quina (5)
