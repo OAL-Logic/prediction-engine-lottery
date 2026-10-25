@@ -14,6 +14,7 @@ import {
 import { Canvas } from '@react-three/fiber';
 import { SpatialRetina } from './components/SpatialRetina';
 import { TelemetryWaterfall } from './components/TelemetryWaterfall';
+import { DailyRitual } from './components/DailyRitual';
 import { generateIntentionalHash } from './utils/sovereign-hash';
 import { useResonanceStore } from './stores/useResonanceStore';
 
@@ -254,6 +255,9 @@ export default function App() {
 
           {/* Swarm Telemetry Waterfall Console */}
           <TelemetryWaterfall gatewayUrl={GATEWAY_URL} />
+
+          {/* Daily 30-Second Luck Ritual & Manifestation Protocol */}
+          <DailyRitual />
 
           {/* Game Selector */}
           <View style={styles.section}>
