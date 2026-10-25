@@ -111,6 +111,7 @@ def suggest(
     teimosinha: Annotated[Optional[int], typer.Option("--teimosinha", "-T", help="Teimosinha / multi-draw consecutive draws count")] = None,
     multi_draw: Annotated[Optional[int], typer.Option("--multi-draw", "-M", help="Multi-draw consecutive draws count (alias for --teimosinha)")] = None,
     target_entropy: Annotated[Optional[float], typer.Option("--target-entropy", help="Calibrate sampling temperature dynamically to match target Shannon entropy (e.g. 2.8)")] = None,
+    locale: Annotated[Optional[str], typer.Option("--locale", "-l", help="Language/locale for outputs (e.g. 'en', 'pt_br')")] = None,
     export_md: Annotated[Optional[str], typer.Option("--export-md", help="Append suggest report to this .md file")] = None,
 ) -> None:
     """
@@ -196,6 +197,7 @@ def suggest(
         target_date=target_date,
         teimosinha=effective_teimosinha,
         target_entropy=target_entropy,
+        locale=locale,
         export_md=export_md,
     )
 
@@ -228,11 +230,16 @@ def _run_comparison(
     target_date: str | None = None,
     teimosinha: int | None = None,
     target_entropy: float | None = None,
+    locale: str | None = None,
     export_md: str | None = None,
 ) -> None:
     """Internal helper to run the actual comparison logic."""
     from engine.strategies import get_strategy, STRATEGY_PRESETS
+    from engine.i18n import resolve_locale, set_locale, t, get_weekday_names
     import pandas as pd # Local import for performance
+
+    active_loc = resolve_locale(cli_locale=locale, game_id=lottery)
+    set_locale(active_loc)
 
     personal_data = personal_data or {}
 
@@ -404,7 +411,7 @@ def _run_comparison(
 
     # Header
     from engine.cli.utils import ui_header, ui_panel, ui_dummy_block, ui_table
-    ui_header("suggestion engine", f"{adapter.rules.name} | pick={pick_count} | temp={temperature}")
+    ui_header(t("suggest.title", locale=active_loc), f"{adapter.rules.name} | pick={pick_count} | temp={temperature}")
 
     all_results = []
     failed: list[str] = []
@@ -578,7 +585,7 @@ def _run_comparison(
             continue
 
     if len(all_results) > 1:
-        _print_consensus(all_results)
+        _print_consensus(all_results, locale=active_loc)
 
     if teimosinha and teimosinha > 1 and all_results:
         _print_teimosinha_summary(
@@ -589,6 +596,7 @@ def _run_comparison(
             target_date_obj=target_date_obj,
             birth_date_str=personal_data.get("birth_date"),
             pick_count=pick_count,
+            locale=active_loc,
         )
 
     if learn:
@@ -890,12 +898,14 @@ def _print_explain_panel(result, rules, df) -> None:
         console.print(Panel("\n".join(lines), title="🔍 Explain — Top Contributing Features", border_style="blue"))
 
 
-def _print_consensus(results: list[Any]) -> None:
+def _print_consensus(results: list[Any], locale: str | None = None) -> None:
     """Prints where multiple strategies agree on numbers (consensus across strategies)."""
     # Using TUI Design Language
     from engine.cli.utils import ui_panel, Theme
+    from engine.i18n import t, get_locale
     from collections import Counter
     
+    active_loc = locale or get_locale()
     counter = Counter()
     bonus_counter = Counter()
     for res in results:
@@ -912,32 +922,33 @@ def _print_consensus(results: list[Any]) -> None:
     # 1. Consensus Content
     lines = []
     strategy_count = len(results)
+    votes_label = t("common.votes", locale=active_loc)
     
     for num, votes in counter.most_common(15):
         bar = "█" * int(votes) + "░" * (max(0, strategy_count - votes))
-        lines.append(f"   [bold yellow]{num:>2}[/]  {bar}  [dim]{votes} votes[/]")
+        lines.append(f"   [bold yellow]{num:>2}[/]  {bar}  [dim]{votes} {votes_label}[/]")
         
     if bonus_counter:
         lines.append("")
-        lines.append("   [bold magenta]Bonus Ball Consensus:[/] ")
+        lines.append(f"   [bold magenta]{t('suggest.bonus_consensus', locale=active_loc)}[/] ")
         for bnum, bvotes in bonus_counter.most_common(5):
             bbar = "█" * int(bvotes) + "░" * (max(0, strategy_count - bvotes))
-            lines.append(f"   [bold magenta]★ {bnum:>2}[/]  {bbar}  [dim]{bvotes} votes[/]")
+            lines.append(f"   [bold magenta]★ {bnum:>2}[/]  {bbar}  [dim]{bvotes} {votes_label}[/]")
 
     high_conv = [n for n, v in counter.items() if v >= max(2, strategy_count // 2 + 1)]
     high_bonus = [b for b, v in bonus_counter.items() if v >= max(2, strategy_count // 2 + 1)]
     
     footer_parts = []
     if high_conv:
-        footer_parts.append(f"[bold green]⭐ High Conviction:[/] {sorted(high_conv)}")
+        footer_parts.append(f"[bold green]{t('suggest.high_conviction', locale=active_loc)}[/] {sorted(high_conv)}")
     if high_bonus:
-        footer_parts.append(f"[bold magenta]⭐ High Conviction Bonus:[/] {sorted(high_bonus)}")
+        footer_parts.append(f"[bold magenta]{t('suggest.high_conviction_bonus', locale=active_loc)}[/] {sorted(high_bonus)}")
     footer = "\n".join(footer_parts)
 
     # 2. Final Render
     rprint(ui_panel(
         Group("\n".join(lines), footer),
-        title="CONSENSUS ANALYSIS",
+        title=t("suggest.consensus_title", locale=active_loc),
         style=Theme.SECONDARY
     ))
 
@@ -950,10 +961,14 @@ def _print_teimosinha_summary(
     target_date_obj: date | None = None,
     birth_date_str: str | None = None,
     pick_count: int | None = None,
+    locale: str | None = None,
 ) -> None:
     """Prints Teimosinha multi-draw schedule, cost breakdown, and historical block persistence replay."""
     from datetime import timedelta
     from engine.strategies.fun.trevo_sorte import compute_trevo_profile
+    from engine.i18n import resolve_locale, t, get_weekday_names
+
+    active_loc = resolve_locale(cli_locale=locale, game_id=rules.name)
 
     t_date = target_date_obj or date.today()
     b_date = birth_date_str or "1990-01-01"
@@ -1005,24 +1020,20 @@ def _print_teimosinha_summary(
                 break
         cur = cur + timedelta(days=1)
 
-    is_br = getattr(rules, "currency", "USD") == "BRL"
-    wd_map = (
-        {0: "Seg", 1: "Ter", 2: "Qua", 3: "Qui", 4: "Sex", 5: "Sáb", 6: "Dom"}
-        if is_br
-        else {0: "Mon", 1: "Tue", 2: "Wed", 3: "Thu", 4: "Fri", 5: "Sat", 6: "Sun"}
-    )
+    wd_short = get_weekday_names(short=True, locale=active_loc)
+    wd_full = get_weekday_names(short=False, locale=active_loc)
     sched_str = " → ".join(
-        f"[bold green]{d.isoformat()} ({wd_map[d.weekday()]})★[/]"
+        f"[bold green]{d.isoformat()} ({wd_short[d.weekday()]})★[/]"
         if d.weekday() == profile["sacred_py_weekday"]
-        else f"{d.isoformat()} ({wd_map[d.weekday()]})"
+        else f"{d.isoformat()} ({wd_short[d.weekday()]})"
         for d in schedule_dates
     )
 
     # Deduplicate all suggested tickets across strategies
     unique_tickets: list[list[int]] = []
     for res in all_results:
-        for t in res.tickets:
-            st = sorted(t)
+        for t_item in res.tickets:
+            st = sorted(t_item)
             if st not in unique_tickets:
                 unique_tickets.append(st)
 
@@ -1039,8 +1050,8 @@ def _print_teimosinha_summary(
         block = draw_sets[b_idx : b_idx + teimosinha]
         block_hit = False
         for d_set in block:
-            for t in unique_tickets:
-                if len(set(t) & d_set) >= min_prize_tier:
+            for t_item in unique_tickets:
+                if len(set(t_item) & d_set) >= min_prize_tier:
                     block_hit = True
                     break
             if block_hit:
@@ -1049,28 +1060,54 @@ def _print_teimosinha_summary(
             winning_blocks += 1
 
     block_win_rate = winning_blocks / n_blocks
+    sacred_day_name = (
+        wd_full[profile["sacred_py_weekday"]]
+        if 0 <= profile["sacred_py_weekday"] < len(wd_full)
+        else "Day"
+    )
 
-    if is_br:
-        lines = [
-            f"🍀 [bold]Trevo da Sorte Profile[/]: Nascimento [cyan]{b_date}[/] → Número da Sorte [bold yellow]{profile['lucky_number']}[/] | "
-            f"Dia Ideal: [bold green]{profile['sacred_weekday_pt']}[/] | Dias Sorte: {profile['lucky_days']} | Caminho de Vida: {profile['life_path']}",
-            f"📅 [bold]Cronograma Teimosinha ({teimosinha} Concursos)[/]: {sched_str}",
-            f"💰 [bold]Investimento[/]: {len(unique_tickets)} jogo(s) × {p_count} dezenas ({single_draw_ticket_cost:.2f} {rules.currency}/concurso) × {teimosinha} concursos = [bold yellow]{total_teimosinha_cost:.2f} {rules.currency}[/]",
-            f"📊 [bold]Persistência Histórica ({teimosinha}-Draw Rolling Blocks)[/]: [bold cyan]{winning_blocks}/{n_blocks}[/] blocos premiados ([bold green]{block_win_rate:.1%}[/] de ciclos com prêmio M{min_prize_tier}+ nos últimos {len(draw_sets)} sorteios)",
-        ]
-        panel_title = f"🔁 Teimosinha Multi-Draw ({rules.name})"
-    else:
-        en_days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
-        sacred_day_name = en_days[profile["sacred_py_weekday"]] if 0 <= profile["sacred_py_weekday"] < 7 else "Day"
-        lines = [
-            f"🍀 [bold]Esoteric Numerology Profile[/]: Birth Date [cyan]{b_date}[/] → Lucky Number [bold yellow]{profile['lucky_number']}[/] | "
-            f"Harmonic Day: [bold green]{sacred_day_name}[/] | Lucky Days: {profile['lucky_days']} | Life Path: {profile['life_path']}",
-            f"📅 [bold]Multi-Draw Schedule ({teimosinha} Draws)[/]: {sched_str}",
-            f"💰 [bold]Investment[/]: {len(unique_tickets)} ticket(s) × {p_count} numbers ({single_draw_ticket_cost:.2f} {rules.currency}/draw) × {teimosinha} draws = [bold yellow]{total_teimosinha_cost:.2f} {rules.currency}[/]",
-            f"📊 [bold]Historical Persistence ({teimosinha}-Draw Rolling Blocks)[/]: [bold cyan]{winning_blocks}/{n_blocks}[/] winning blocks ([bold green]{block_win_rate:.1%}[/] cycle win rate for tier M{min_prize_tier}+ over past {len(draw_sets)} draws)",
-        ]
-        panel_title = f"🔁 Multi-Draw Subscription Analysis ({rules.name})"
+    lucky_line = t(
+        "suggest.lucky_clover_profile",
+        locale=active_loc,
+        birth_date=b_date,
+        lucky_num=profile['lucky_number'],
+        day=sacred_day_name,
+        lucky_days=profile['lucky_days'],
+        life_path=profile['life_path'],
+    )
+    schedule_line = t(
+        "suggest.multi_draw_schedule",
+        locale=active_loc,
+        draws=teimosinha,
+        schedule=sched_str,
+    )
+    stake_line = t(
+        "suggest.total_stake",
+        locale=active_loc,
+        tickets=len(unique_tickets),
+        pick=p_count,
+        price=single_draw_ticket_cost,
+        currency=rules.currency,
+        draws=teimosinha,
+        total=total_teimosinha_cost,
+    )
+    persistence_line = t(
+        "suggest.historical_persistence",
+        locale=active_loc,
+        draws=teimosinha,
+        wins=winning_blocks,
+        total=n_blocks,
+        rate=block_win_rate * 100,
+        tier=f"M{min_prize_tier}",
+        max_draws=len(draw_sets),
+    )
+    panel_title = t(
+        "suggest.multi_draw_title",
+        locale=active_loc,
+        game=rules.name,
+    )
 
+    lines = [lucky_line, schedule_line, stake_line, persistence_line]
     console.print(Panel("\n".join(lines), title=panel_title, border_style="yellow"))
 
 

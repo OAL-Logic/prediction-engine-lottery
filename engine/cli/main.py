@@ -245,6 +245,7 @@ def suggest(
     teimosinha: Annotated[Optional[int], typer.Option("--teimosinha", "-T", help="Teimosinha / Multi-draw consecutive draws count")] = None,
     multi_draw: Annotated[Optional[int], typer.Option("--multi-draw", "-M", help="Multi-draw consecutive draws count (alias for --teimosinha)")] = None,
     target_entropy: Annotated[Optional[float], typer.Option("--target-entropy", help="Calibrate sampling temperature dynamically to match target Shannon entropy (e.g. 2.8)")] = None,
+    locale: Annotated[Optional[str], typer.Option("--locale", "-l", help="Language/locale for outputs (e.g. 'en', 'pt_br')")] = None,
     export_md: Annotated[Optional[str], typer.Option("--export-md", help="Append suggest report to this .md file")] = None,
 ):
     """🎟️ Generate ticket suggestions using a specific prediction strategy."""
@@ -278,6 +279,7 @@ def suggest(
         teimosinha=teimosinha,
         multi_draw=multi_draw,
         target_entropy=target_entropy,
+        locale=locale,
         export_md=export_md,
     )
 

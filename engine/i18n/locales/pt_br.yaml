@@ -1,0 +1,53 @@
+common:
+  ticket: "Aposta"
+  sum: "soma"
+  hist_wins: "Histórico Premiado"
+  votes: "votos"
+  bonus: "Bônus"
+  draw: "concurso"
+  draws: "concursos"
+  consecutive_draws: "concursos consecutivos"
+
+weekdays_short:
+  - "Seg"
+  - "Ter"
+  - "Qua"
+  - "Qui"
+  - "Sex"
+  - "Sáb"
+  - "Dom"
+
+weekdays_full:
+  - "Segunda-feira"
+  - "Terça-feira"
+  - "Quarta-feira"
+  - "Quinta-feira"
+  - "Sexta-feira"
+  - "Sábado"
+  - "Domingo"
+
+suggest:
+  title: "MOTOR DE SUGESTÕES"
+  consensus_title: "ANÁLISE DE CONSENSO"
+  bonus_consensus: "Consenso de Bola Bônus:"
+  high_conviction: "⭐ Alta Convicção:"
+  high_conviction_bonus: "⭐ Alta Convicção Bônus:"
+  correlation_title: "Evidências de Correlação"
+  moon_evidence: "🌕 Fase lunar: {phase} ({pct:.1f}% do ciclo) | Distância: {dist} | Maré: {tide}"
+  solar_evidence: "☀️ Clima Solar: {weather} (Índice K Planetário: {kp})"
+  noosphere_evidence: "🧠 Jitter da Noosfera: {intensity} (Pontuação de Jitter: {score}) | Regime: {regime}"
+  seismic_evidence: "🫨 Ressonância Sísmica: {status} ({count} tremores recentes, mag máx: {mag})"
+  chaos_evidence: "🌀 Impulso de Entropia Caótica: +{boost} aplicado à temperatura de amostragem"
+  env_jitter_evidence: "🌪️ Jitter Ambiental: +{boost} (Solar: {j_solar}, Sísmico: {j_seismic})"
+  multi_draw_title: "🔁 Análise de Teimosinha ({game})"
+  lucky_clover_profile: "🍀 Trevo da Sorte: Data de Nascimento {birth_date} → Número da Sorte {lucky_num} | Dia Ideal: {day} | Dias da Sorte: {lucky_days} | Missão de Vida: {life_path}"
+  multi_draw_schedule: "📅 Cronograma da Teimosinha ({draws} Concursos): {schedule}"
+  total_stake: "💰 Investimento: {tickets} aposta(s) × {pick} números ({price:.2f} {currency}/concurso) × {draws} concursos = {total:.2f} {currency}"
+  historical_persistence: "📊 Persistência Histórica (Blocos de {draws} Concursos): {wins}/{total} blocos premiados ({rate:.1f}% taxa de acerto de ciclo na faixa {tier}+ nos últimos {max_draws} concursos)"
+
+teimosinha:
+  title: "ANÁLISE DE TEIMOSINHA"
+  subtitle: "Mapa Numerológico Trevo da Sorte & Analisador de Teimosinha"
+  schedule_title: "Cronograma de Sorteios"
+  total_stake_label: "Investimento Total"
+  persistence_label: "Persistência Histórica"

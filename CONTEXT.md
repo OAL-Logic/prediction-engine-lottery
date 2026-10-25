@@ -14,6 +14,8 @@ The project encompasses four main interfaces:
 
 ## Ubiquitous Language & Core Concepts
 
+For the complete canonical vocabulary and local jurisdiction translations, see [GLOSSARY.md](file:///mnt/c/Users/ag/Documents/Obsidian/PKM/Workspace/PRJ%20Prediction%20Engine/lottery/GLOSSARY.md).
+
 ### Lottery Assets & Configurations
 - **Lottery Asset / Context (`lottery_id`)**: A specific game identified by country and slug (e.g. `br/mega-sena`, `br/lotofacil`, `br/quina`, `us/powerball`). Defines the game matrix: pool size $N$, draw size $k$, bonus numbers, and prize payout tiers.
 - **Global Compatibility & Jurisdiction Isolation**: Core mathematical, analytical, and combinatorial features are strictly game-agnostic and operate against abstract contracts (`DrawRules`, `GameDefinition`). Commercial rules, jurisdiction scrapers, and game idiosyncrasies (e.g., Brazilian Caixa Loterias rules, US MUSL rules) are isolated in `engine/adapters/<country_code>/`. Features provide pluggable hooks for game-specific rule overrides and workarounds while ensuring seamless compatibility with any world lottery.

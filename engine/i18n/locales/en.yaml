@@ -1,0 +1,53 @@
+common:
+  ticket: "Ticket"
+  sum: "sum"
+  hist_wins: "Hist Wins"
+  votes: "votes"
+  bonus: "Bonus"
+  draw: "draw"
+  draws: "draws"
+  consecutive_draws: "consecutive draws"
+
+weekdays_short:
+  - "Mon"
+  - "Tue"
+  - "Wed"
+  - "Thu"
+  - "Fri"
+  - "Sat"
+  - "Sun"
+
+weekdays_full:
+  - "Monday"
+  - "Tuesday"
+  - "Wednesday"
+  - "Thursday"
+  - "Friday"
+  - "Saturday"
+  - "Sunday"
+
+suggest:
+  title: "SUGGESTION ENGINE"
+  consensus_title: "CONSENSUS ANALYSIS"
+  bonus_consensus: "Bonus Ball Consensus:"
+  high_conviction: "⭐ High Conviction:"
+  high_conviction_bonus: "⭐ High Conviction Bonus:"
+  correlation_title: "Correlation Evidence"
+  moon_evidence: "🌕 Moon phase: {phase} ({pct:.1f}% through cycle) | Distance: {dist} | Tide: {tide}"
+  solar_evidence: "☀️ Solar Weather: {weather} (Planetary K-index: {kp})"
+  noosphere_evidence: "🧠 Noosphere Jitter: {intensity} (Jitter Score: {score}) | Regime: {regime}"
+  seismic_evidence: "🫨 Seismic Resonance: {status} ({count} recent tremors, max mag: {mag})"
+  chaos_evidence: "🌀 Chaos Entropy Boost: +{boost} applied to sampling temperature"
+  env_jitter_evidence: "🌪️ Environmental Jitter: +{boost} (Solar: {j_solar}, Seismic: {j_seismic})"
+  multi_draw_title: "🔁 Multi-Draw Subscription Analysis ({game})"
+  lucky_clover_profile: "🍀 Lucky Clover Profile: Birth Date {birth_date} → Lucky Number {lucky_num} | Harmonic Day: {day} | Lucky Days: {lucky_days} | Life Path: {life_path}"
+  multi_draw_schedule: "📅 Multi-Draw Schedule ({draws} Draws): {schedule}"
+  total_stake: "💰 Total Stake: {tickets} ticket(s) × {pick} numbers ({price:.2f} {currency}/draw) × {draws} draws = {total:.2f} {currency}"
+  historical_persistence: "📊 Historical Persistence ({draws}-Draw Rolling Blocks): {wins}/{total} winning blocks ({rate:.1f}% cycle win rate for tier {tier}+ over past {max_draws} draws)"
+
+teimosinha:
+  title: "MULTI-DRAW SUBSCRIPTION (TEIMOSINHA)"
+  subtitle: "Trevo da Sorte Numerological Map & Multi-Draw Analyzer"
+  schedule_title: "Draw Schedule"
+  total_stake_label: "Total Stake"
+  persistence_label: "Historical Persistence"
