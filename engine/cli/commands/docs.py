@@ -54,8 +54,11 @@ def docs(
         if ticket:
             nums = sorted([int(x.strip()) for x in ticket.split(",") if x.strip()])
         else:
-            k = rules.pick_count if rules else (15 if "lotofacil" in (game or "") else 6)
-            nums = [4, 11, 23, 35, 48, 59][:k]
+            k = rules.pick_count if rules else 6
+            lo = rules.number_range[0] if rules else 1
+            hi = rules.number_range[1] if rules else 60
+            step = max(1, (hi - lo) // (k + 1))
+            nums = [lo + i * step for i in range(1, k + 1)]
 
         exp = f.explain(nums, rules)
 

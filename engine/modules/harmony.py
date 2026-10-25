@@ -280,8 +280,9 @@ def filter_density(ticket, rules, **kwargs):
     try:
         f_target, c_target = map(int, density_param.split(":"))
         from engine.modules.patterns import get_frame_center_logic
-        cols = 5 if "lotofacil" in rules.name.lower() else 10
-        res = get_frame_center_logic(ticket, cols=cols, max_n=rules.number_range[1])
+        cols = getattr(rules, "board_cols", 10) or 10
+        lo, hi = rules.number_range
+        res = get_frame_center_logic(ticket, cols=cols, max_n=hi, min_n=lo)
         return len(res["frame"]) == f_target and len(res["center"]) == c_target
     except Exception:
         return True

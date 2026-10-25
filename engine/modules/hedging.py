@@ -145,13 +145,21 @@ class CombinatorialHedger:
             payout_multipliers = {11: 1.2, 12: 2.4, 13: 6.0, 14: 400.0, 15: 100000.0}
         elif "mega" in self.rules.name.lower():
             payout_multipliers = {4: 25.0, 5: 8000.0, 6: 1000000.0}
+        elif getattr(self.rules, "odds", None) and self.rules.odds:
+            # Derive multipliers from configured odds table
+            payout_multipliers = {tier: max(1.0, float(odd) * 0.45) for tier, odd in self.rules.odds.items()}
         else:
-            # Default fallback multiplier table
-            payout_multipliers = {
-                self.rules.prize_tiers[0]: 10.0,
-                self.rules.prize_tiers[1]: 500.0,
-                self.rules.prize_tiers[2]: 50000.0,
-            }
+            # Dynamic analytical fallback for arbitrary global games (hypergeometric rarity)
+            from math import comb
+            tiers = sorted(self.rules.prize_tiers or [max(1, self.rules.pick_count - 2), max(2, self.rules.pick_count - 1), self.rules.pick_count])
+            lo, hi = self.rules.number_range
+            n_pool = hi - lo + 1
+            k_pick = self.rules.pick_count
+            total_combs = comb(n_pool, k_pick) if n_pool >= k_pick else 1
+            for t in tiers:
+                tier_ways = comb(k_pick, t) * comb(n_pool - k_pick, k_pick - t) if (n_pool - k_pick) >= (k_pick - t) else 1
+                rarity = max(1.0, total_combs / max(1, tier_ways))
+                payout_multipliers[t] = round(rarity * 0.45, 1)
 
         payouts = []
         lo, hi = self.rules.number_range
@@ -190,10 +198,10 @@ class CombinatorialHedger:
 
         return HedgeMetrics(
             total_budget=total_cost,
-            jackpot_allocation=portfolio["jackpot_allocation"],
-            hedge_allocation=portfolio["hedge_allocation"],
-            jackpot_tickets_count=portfolio["jackpot_count"],
-            hedge_tickets_count=portfolio["hedge_count"],
+            jackpot_allocation=portfolio.get("jackpot_allocation", len(j_tickets) * self.rules.ticket_price),
+            hedge_allocation=portfolio.get("hedge_allocation", len(h_tickets) * self.rules.ticket_price),
+            jackpot_tickets_count=portfolio.get("jackpot_count", len(j_tickets)),
+            hedge_tickets_count=portfolio.get("hedge_count", len(h_tickets)),
             expected_payout=round(expected_payout, 2),
             hedge_coverage_ratio=round(hedge_coverage_ratio, 4),
             net_roi=round(net_roi * 100, 2),

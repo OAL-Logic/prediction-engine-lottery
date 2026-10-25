@@ -42,15 +42,18 @@ def get_dodecahedron_neighbors(n: int, max_n: int = 60) -> list[int]:
 class BoardGeometry:
     """
     Standard 2D Grid Geometry for lottery boards.
+    Supports any min_n (e.g. 0 for Lotomania 00-99, 1 for standard 1-based lotteries).
     """
-    def __init__(self, max_n: int, cols: int = 10):
+    def __init__(self, max_n: int, cols: int = 10, min_n: int = 1):
+        self.min_n = min_n
         self.max_n = max_n
         self.cols = cols
-        self.rows = math.ceil(max_n / cols)
+        self.rows = math.ceil((max_n - min_n + 1) / cols)
 
     def get_coords(self, n: int) -> tuple[int, int]:
-        """1-based (row, col)"""
-        return ((n - 1) // self.cols + 1, (n - 1) % self.cols + 1)
+        """1-based (row, col) coordinates on grid"""
+        offset = n - self.min_n
+        return (offset // self.cols + 1, offset % self.cols + 1)
 
     def is_frame(self, n: int) -> bool:
         r, c = self.get_coords(n)
@@ -65,8 +68,8 @@ class BoardGeometry:
                 if dr == 0 and dc == 0: continue
                 nr, nc = r + dr, c + dc
                 if 1 <= nr <= self.rows and 1 <= nc <= self.cols:
-                    candidate = (nr - 1) * self.cols + nc
-                    if candidate <= self.max_n:
+                    candidate = self.min_n + (nr - 1) * self.cols + (nc - 1)
+                    if self.min_n <= candidate <= self.max_n:
                         neighbors.append(candidate)
         return sorted(list(set(neighbors)))
 

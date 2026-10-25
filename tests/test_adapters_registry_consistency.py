@@ -24,8 +24,11 @@ _AVAILABLE_GAMES = registry.list_games(only_available=True)
 
 @pytest.mark.parametrize("game", _AVAILABLE_GAMES, ids=lambda g: g.id)
 def test_available_game_has_resolvable_adapter(game):
-    """Every `data_available: true` game must set `adapter:` and resolve to a real class."""
-    assert game.adapter, f"{game.id} is data_available but has no `adapter:` set in registry.yaml"
+    """Every `data_available: true` game must resolve to an adapter (custom or GenericLotteryAdapter)."""
+    if game.adapter:
+        assert game.adapter in ADAPTER_MAP or "." in game.adapter, (
+            f"{game.id}: custom adapter '{game.adapter}' not found in ADAPTER_MAP"
+        )
 
     adapter = get_adapter(game.id)
     assert adapter is not None

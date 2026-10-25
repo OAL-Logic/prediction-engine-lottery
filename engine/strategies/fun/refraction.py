@@ -34,7 +34,17 @@ class RefractionStrategy(BaseStrategy):
         
         # 1. Fetch historical weather context (reusing Weather Strategy cache)
         # Initialize WeatherStrategy with rules-derived location if possible
-        country = "br" if "mega-sena" in rules.name.lower() or "lotofacil" in rules.name.lower() else "us"
+        country = kwargs.get("country")
+        if not country:
+            lot_id = kwargs.get("lottery_id", "")
+            if "/" in lot_id:
+                country = lot_id.split("/")[0]
+            elif getattr(rules, "currency", "") == "BRL":
+                country = "br"
+            elif getattr(rules, "currency", "") in ("EUR", "GBP"):
+                country = "eu"
+            else:
+                country = "us"
         w_strat = WeatherStrategy(country_hint=country)
         
         # 2. Calculate historical N-Index for each draw

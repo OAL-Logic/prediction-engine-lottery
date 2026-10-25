@@ -35,9 +35,9 @@ class HarmonicResonanceStrategy(BaseStrategy):
         lift_matrix = corr.lift
         
         # 2. Geometric Adjacency (Neighbors)
-        cols = 5 if "lotofacil" in rules.name.lower() else 10
+        cols = getattr(rules, "board_cols", 10) or 10
         from engine.modules.geometry import BoardGeometry
-        geo = BoardGeometry(max_n=hi, cols=cols)
+        geo = BoardGeometry(max_n=hi, cols=cols, min_n=lo)
         
         # 3. Analyze Most Recent Draw
         last_draw = set(df.iloc[-1]["numbers"])

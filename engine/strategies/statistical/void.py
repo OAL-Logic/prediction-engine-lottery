@@ -35,9 +35,9 @@ class VoidStrategy(BaseStrategy):
         all_numbers = list(range(lo, hi + 1))
         
         # 1. Define board layout
-        cols = 5 if "lotofacil" in rules.name.lower() else 10
+        cols = getattr(rules, "board_cols", 10) or 10
         from engine.modules.geometry import BoardGeometry
-        geo = BoardGeometry(max_n=hi, cols=cols)
+        geo = BoardGeometry(max_n=hi, cols=cols, min_n=lo)
         
         # 2. Analyze recent void history (last 5 draws)
         recent = df.tail(5)

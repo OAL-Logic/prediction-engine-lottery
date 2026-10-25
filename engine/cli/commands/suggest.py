@@ -909,13 +909,21 @@ def _print_teimosinha_summary(
     )
 
     # Build draw schedule for this game
-    game_lower = rules.name.lower()
-    if "mega" in game_lower:
-        draw_weekdays = {1, 3, 5}  # Tue, Thu, Sat
-    elif "quina" in game_lower or "lotofacil" in game_lower or "lotofácil" in game_lower:
-        draw_weekdays = {0, 1, 2, 3, 4, 5}  # Mon-Sat
-    else:
-        draw_weekdays = {1, 3, 5}
+    draw_weekdays = None
+    from engine.adapters.registry import registry
+    game_def = registry.get_game(rules.name) or registry.get_game(rules.name.lower().replace(" ", "-"))
+    if game_def and game_def.draw_days:
+        day_map = {"monday": 0, "tuesday": 1, "wednesday": 2, "thursday": 3, "friday": 4, "saturday": 5, "sunday": 6}
+        draw_weekdays = {day_map[d.lower()] for d in game_def.draw_days if d.lower() in day_map}
+
+    if not draw_weekdays:
+        game_lower = rules.name.lower()
+        if "mega" in game_lower:
+            draw_weekdays = {1, 3, 5}  # Tue, Thu, Sat
+        elif "quina" in game_lower or "lotofacil" in game_lower or "lotofácil" in game_lower:
+            draw_weekdays = {0, 1, 2, 3, 4, 5}  # Mon-Sat
+        else:
+            draw_weekdays = {1, 3, 5}
 
     schedule_dates: list[date] = []
     cur = t_date

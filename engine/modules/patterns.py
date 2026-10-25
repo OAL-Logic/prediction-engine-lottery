@@ -32,19 +32,19 @@ def get_repeated_count(current_draw: List[int], previous_draw: List[int]) -> int
     """Calculate how many numbers are repeated from the previous draw."""
     return len(set(current_draw) & set(previous_draw))
 
-def get_frame_center_logic(numbers: List[int], cols: int = 10, max_n: int = 60) -> dict:
+def get_frame_center_logic(numbers: List[int], cols: int = 10, max_n: int = 60, min_n: int = 1) -> dict:
     """
     Calculate Frame (Perimeter) vs Center distribution.
     Numbers on the edges of the board are 'Frame'.
     """
-    rows = math.ceil(max_n / cols)
+    rows = math.ceil((max_n - min_n + 1) / cols)
     frame = []
     center = []
     
     for n in numbers:
-        # 1-based coordinates
-        row = (n - 1) // cols + 1
-        col = (n - 1) % cols + 1
+        offset = n - min_n
+        row = offset // cols + 1
+        col = offset % cols + 1
         
         is_edge = (row == 1 or row == rows or col == 1 or col == cols)
         if is_edge:
@@ -54,7 +54,7 @@ def get_frame_center_logic(numbers: List[int], cols: int = 10, max_n: int = 60) 
             
     return {"frame": frame, "center": center}
 
-def get_line_column_distribution(numbers: List[int], cols: int = 10) -> dict:
+def get_line_column_distribution(numbers: List[int], cols: int = 10, min_n: int = 1) -> dict:
     """
     Count how many numbers fall into each row and column.
     """
@@ -62,25 +62,26 @@ def get_line_column_distribution(numbers: List[int], cols: int = 10) -> dict:
     col_counts = {}
     
     for n in numbers:
-        row = (n - 1) // cols + 1
-        col = (n - 1) % cols + 1
+        offset = n - min_n
+        row = offset // cols + 1
+        col = offset % cols + 1
         row_counts[row] = row_counts.get(row, 0) + 1
         col_counts[col] = col_counts.get(col, 0) + 1
         
     return {"rows": row_counts, "cols": col_counts}
 
-def get_pattern_string(numbers: List[int], cols: int = 10, max_n: int = 60) -> str:
+def get_pattern_string(numbers: List[int], cols: int = 10, max_n: int = 60, min_n: int = 1) -> str:
     """Returns a string like '3-3-3-3-3' representing the row distribution."""
-    lc = get_line_column_distribution(numbers, cols)
-    rows = math.ceil(max_n / cols)
+    lc = get_line_column_distribution(numbers, cols, min_n=min_n)
+    rows = math.ceil((max_n - min_n + 1) / cols)
     return "-".join(str(lc["rows"].get(r, 0)) for r in range(1, rows + 1))
 
-def analyze_voids(draws: List[List[int]], cols: int = 10, max_n: int = 60, window: int = 5) -> dict:
+def analyze_voids(draws: List[List[int]], cols: int = 10, max_n: int = 60, window: int = 5, min_n: int = 1) -> dict:
     """
     Identify sectors (rows, columns, quadrants) that have been empty for a number of draws.
     """
     recent_draws = draws[-window:] if len(draws) >= window else draws
-    rows = math.ceil(max_n / cols)
+    rows = math.ceil((max_n - min_n + 1) / cols)
     
     row_last_seen = {r: 0 for r in range(1, rows + 1)}
     col_last_seen = {c: 0 for c in range(1, cols + 1)}
@@ -88,8 +89,9 @@ def analyze_voids(draws: List[List[int]], cols: int = 10, max_n: int = 60, windo
     # Track when each row/col was last 'hit'
     for i, draw in enumerate(draws):
         for n in draw:
-            r = (n - 1) // cols + 1
-            c = (n - 1) % cols + 1
+            offset = n - min_n
+            r = offset // cols + 1
+            c = offset % cols + 1
             row_last_seen[r] = i + 1
             col_last_seen[c] = i + 1
             

@@ -37,8 +37,8 @@ class StructuralStrategy(BaseStrategy):
         all_numbers = list(range(lo, hi + 1))
         
         # Grid layout for Frame/Center
-        cols = 5 if "lotofacil" in rules.name.lower() else 10
-        fc_logic = get_frame_center_logic(all_numbers, cols=cols, max_n=hi)
+        cols = getattr(rules, "board_cols", 10) or 10
+        fc_logic = get_frame_center_logic(all_numbers, cols=cols, max_n=hi, min_n=lo)
         frame_set = set(fc_logic["frame"])
         center_set = set(fc_logic["center"])
         

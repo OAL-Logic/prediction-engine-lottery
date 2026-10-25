@@ -34,8 +34,8 @@ class ContagionStrategy(BaseStrategy):
         all_numbers = list(range(lo, hi + 1))
         
         # 1. Setup Geometry
-        cols = 5 if "lotofacil" in rules.name.lower() else 10
-        geo = BoardGeometry(max_n=hi, cols=cols)
+        cols = getattr(rules, "board_cols", 10) or 10
+        geo = BoardGeometry(max_n=hi, cols=cols, min_n=lo)
         
         # 2. Historical Analysis: Does adjacency to PREVIOUS winners matter?
         # we track: (neighbor_of_prev_winner -> did_hit)

@@ -96,9 +96,18 @@ def prize_ev(
 
     # Build prize map: tier → prize amount (None = unknown)
     prizes: dict[int, Optional[float]] = {t: None for t in rules.prize_tiers}
-    for t, v in _TYPICAL_LOWER.get(lottery, {}).items():
+    known_lower = _TYPICAL_LOWER.get(lottery) or _TYPICAL_LOWER.get(lottery.split("/")[-1], {})
+    for t, v in known_lower.items():
         if t in prizes:
             prizes[t] = v
+
+    # Analytical fallback for world games without explicit tables
+    jackpot_tier = max(rules.prize_tiers) if rules.prize_tiers else rules.pick_count
+    for t in prizes:
+        if prizes[t] is None and t != jackpot_tier:
+            p = _hyp_prob(pool, pick, t)
+            if p > 0 and cost > 0:
+                prizes[t] = round(min(10_000_000.0, (cost * 0.45) / p), 2)
 
     # Apply --tier overrides
     if tier_override:

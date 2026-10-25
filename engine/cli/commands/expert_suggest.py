@@ -28,50 +28,29 @@ from engine.wheels.abbreviated import generate_abbreviated_wheel
 console = Console()
 
 def get_current_cycle_missing(df: pd.DataFrame, lottery_id: str) -> Set[int]:
-    """Identifies which numbers are missing to close the current cycle."""
-    if "lotofacil" in lottery_id:
-        all_numbers = set(range(1, 26))
-        seen_recent = set()
-        for idx in range(len(df)):
-            draw = set(df.iloc[idx]['numbers'])
-            seen_recent.update(draw)
-            if len(seen_recent) == 25:
-                if idx == 0:
-                    return set()
-                current_cycle_seen = set()
-                for j in range(idx):
-                    current_cycle_seen.update(set(df.iloc[j]['numbers']))
-                return all_numbers - current_cycle_seen
-        return all_numbers - seen_recent
-    elif "quina" in lottery_id:
-        all_numbers = set(range(1, 81))
-        seen_recent = set()
-        for idx in range(len(df)):
-            draw = set(df.iloc[idx]['numbers'])
-            seen_recent.update(draw)
-            if len(seen_recent) >= 72:
-                if idx == 0:
-                    return set()
-                current_cycle_seen = set()
-                for j in range(idx):
-                    current_cycle_seen.update(set(df.iloc[j]['numbers']))
-                return all_numbers - current_cycle_seen
-        return all_numbers - seen_recent
-    else:
-        # Mega-Sena: Cycle is too long (60 numbers), we use 90% threshold
-        all_numbers = set(range(1, 61))
-        seen_recent = set()
-        for idx in range(len(df)):
-            draw = set(df.iloc[idx]['numbers'])
-            seen_recent.update(draw)
-            if len(seen_recent) >= 54:
-                if idx == 0:
-                    return set()
-                current_cycle_seen = set()
-                for j in range(idx):
-                    current_cycle_seen.update(set(df.iloc[j]['numbers']))
-                return all_numbers - current_cycle_seen
-        return all_numbers - seen_recent
+    """Identifies which numbers are missing to close the current cycle across any lottery game."""
+    from engine.adapters.registry import registry
+    game = registry.get_game(lottery_id)
+    lo = game.number_range_min if game else 1
+    pool_size = game.pool_size if game else (25 if "lotofacil" in lottery_id else (80 if "quina" in lottery_id else 60))
+    pick_count = game.pick_count if game else (15 if "lotofacil" in lottery_id else (5 if "quina" in lottery_id else 6))
+
+    all_numbers = set(range(lo, lo + pool_size))
+    # Dense games (pick density >= 0.45) close at 100% of numbers; sparse games close when ~90% of numbers have been drawn
+    threshold = pool_size if (pick_count / pool_size >= 0.45) else int(0.9 * pool_size)
+
+    seen_recent = set()
+    for idx in range(len(df)):
+        draw = set(df.iloc[idx]['numbers'])
+        seen_recent.update(draw)
+        if len(seen_recent) >= threshold:
+            if idx == 0:
+                return set()
+            current_cycle_seen = set()
+            for j in range(idx):
+                current_cycle_seen.update(set(df.iloc[j]['numbers']))
+            return all_numbers - current_cycle_seen
+    return all_numbers - seen_recent
 
 def apply_quina_filters(ticket: List[int]) -> bool:
     """Structural harmony filters for Quina (5/80)."""
@@ -121,6 +100,39 @@ def apply_lotofacil_filters(ticket: List[int]) -> bool:
     if not (4 <= primes <= 7): return False
     return True
 
+def apply_universal_filters(ticket: List[int], lottery_id: str) -> bool:
+    """Universal structural filters scaled dynamically to any world lottery game."""
+    if "lotofacil" in lottery_id:
+        return apply_lotofacil_filters(ticket)
+    elif "quina" in lottery_id:
+        return apply_quina_filters(ticket)
+    elif "mega" in lottery_id:
+        return apply_mega_filters(ticket)
+
+    from engine.adapters.registry import registry
+    game = registry.get_game(lottery_id)
+    k = len(ticket)
+    soma = sum(ticket)
+    odds = len([n for n in ticket if n % 2 != 0])
+    lo = game.number_range_min if game else min(ticket)
+    hi = (lo + game.pool_size - 1) if game else max(ticket)
+
+    # Dynamic hypergeometric envelope (mean ± 2.8 sigma)
+    e_sum = k * (lo + hi) / 2.0
+    sigma_sum = max(1.0, (k * ((hi - lo + 1) ** 2) / 12.0) ** 0.5)
+    min_sum = max(k * lo, int(e_sum - 2.8 * sigma_sum))
+    max_sum = min(k * hi, int(e_sum + 2.8 * sigma_sum))
+
+    if not (min_sum <= soma <= max_sum):
+        return False
+
+    min_odd = max(1, int(0.2 * k))
+    max_odd = min(k - 1, int(0.8 * k))
+    if not (min_odd <= odds <= max_odd):
+        return False
+
+    return True
+
 def calculate_lotofacil_winnings(hits: int, played_count: int) -> float:
     """Calculates LotoFácil winnings including official Caixa multiple-bet multipliers."""
     payout_11 = 6.0
@@ -159,6 +171,22 @@ def calculate_megasena_winnings(hits: int, played_count: int) -> float:
         if hits == 6: return 1 * payout_6 + 6 * payout_5
     return 0.0
 
+def calculate_winnings(hits: int, played_count: int, lottery_id: str, ticket_price: float = 0.0) -> float:
+    """Calculates ticket winnings with official Caixa tables or analytical global fallback."""
+    if "lotofacil" in lottery_id:
+        return calculate_lotofacil_winnings(hits, played_count)
+    elif "quina" in lottery_id:
+        return calculate_quina_winnings(hits, played_count)
+    elif "mega" in lottery_id:
+        return calculate_megasena_winnings(hits, played_count)
+
+    # Dynamic global game winnings approximation
+    if hits >= played_count - 2 and hits >= 2:
+        mult = 10.0 if hits == played_count - 2 else (500.0 if hits == played_count - 1 else 100000.0)
+        base = ticket_price if ticket_price > 0 else 2.0
+        return mult * base
+    return 0.0
+
 def generate_wheel_tickets(pool: List[int], lottery_id: str, ticket_count: int, pick: int, fast: bool = False) -> List[List[int]]:
     """Generates tickets utilizing abbreviated wheels and filters."""
     if fast:
@@ -175,16 +203,9 @@ def generate_wheel_tickets(pool: List[int], lottery_id: str, ticket_count: int, 
     
     raw_tickets = generate_abbreviated_wheel(pool, pick=pick, guarantee=guarantee, max_tickets=ticket_count * 5)
     
-    if "lotofacil" in lottery_id:
-        filter_func = apply_lotofacil_filters
-    elif "quina" in lottery_id:
-        filter_func = apply_quina_filters
-    else:
-        filter_func = apply_mega_filters
-    
     filtered = []
     for t in raw_tickets:
-        if filter_func(t):
+        if apply_universal_filters(t, lottery_id):
             filtered.append(t)
             if len(filtered) >= ticket_count:
                 break
@@ -196,15 +217,9 @@ def generate_wheel_tickets(pool: List[int], lottery_id: str, ticket_count: int, 
         shuffled = list(pool)
         random.shuffle(shuffled)
         candidate = sorted(shuffled[:pick])
-        soma = sum(candidate)
-        odds = len([n for n in candidate if n % 2 != 0])
         
-        if "lotofacil" in lottery_id:
-            if (165 <= soma <= 235) and (6 <= odds <= 10):
-                if candidate not in filtered: filtered.append(candidate)
-        else:
-            if (90 <= soma <= 270) and (1 <= odds <= 5):
-                if candidate not in filtered: filtered.append(candidate)
+        if apply_universal_filters(candidate, lottery_id):
+            if candidate not in filtered: filtered.append(candidate)
                 
     return filtered[:ticket_count]
 
@@ -243,41 +258,49 @@ def resolve_scenario_config(lottery_id: str, budget: float) -> tuple[int, int, f
     """
     Returns (played_picks, ticket_count, cost_per_draw, scenario_desc)
     """
+    from engine.adapters.registry import registry
+    game = registry.get_game(lottery_id)
     is_lf = "lotofacil" in lottery_id
     is_quina = "quina" in lottery_id
-    ticket_price = 3.5 if is_lf else (3.0 if is_quina else 6.0)
+    ticket_price = game.ticket_price if (game and game.ticket_price > 0) else (3.5 if is_lf else (3.0 if is_quina else 6.0))
+    currency = game.currency if game else "BRL"
+    base_pick = game.pick_count if game else (15 if is_lf else (5 if is_quina else 6))
     
     if is_lf:
         if 56.0 <= budget < 90.0:
-            return 16, 1, 56.0, "Single 16-Number Premium Ticket (56.00 BRL)"
+            return 16, 1, 56.0, f"Single 16-Number Premium Ticket (56.00 {currency})"
         elif budget >= 90.0:
             ticket_count = int(budget // ticket_price)
             if ticket_count > 33: ticket_count = 33
-            return 15, ticket_count, ticket_count * ticket_price, f"{ticket_count}-Ticket High-Coverage Wheel (V=20, K=15, T=13) ({ticket_count * ticket_price:.2f} BRL)"
+            return 15, ticket_count, ticket_count * ticket_price, f"{ticket_count}-Ticket High-Coverage Wheel (V=20, K=15, T=13) ({ticket_count * ticket_price:.2f} {currency})"
         else:
             ticket_count = int(budget // ticket_price)
             if ticket_count < 1: ticket_count = 1
-            return 15, ticket_count, ticket_count * ticket_price, f"{ticket_count}-Ticket Abbreviated Wheel (V=18, K=15, T=13) ({ticket_count * ticket_price:.2f} BRL)"
+            return 15, ticket_count, ticket_count * ticket_price, f"{ticket_count}-Ticket Abbreviated Wheel (V=18, K=15, T=13) ({ticket_count * ticket_price:.2f} {currency})"
     elif is_quina:
         if 18.0 <= budget < 36.0:
-            return 6, 1, 18.0, "Single 6-Number Multiple Ticket (18.00 BRL)"
+            return 6, 1, 18.0, f"Single 6-Number Multiple Ticket (18.00 {currency})"
         else:
             ticket_count = int(budget // ticket_price)
             if ticket_count < 1: ticket_count = 1
             if ticket_count > 24: ticket_count = 24
-            return 5, ticket_count, ticket_count * ticket_price, f"{ticket_count}-Ticket Quina Abbreviated Wheel ({ticket_count * ticket_price:.2f} BRL)"
-    else:
+            return 5, ticket_count, ticket_count * ticket_price, f"{ticket_count}-Ticket Quina Abbreviated Wheel ({ticket_count * ticket_price:.2f} {currency})"
+    elif "mega" in lottery_id:
         # Mega-Sena
         if 42.0 <= budget < 90.0:
-            return 7, 1, 42.0, "Single 7-Number Premium Ticket (42.00 BRL)"
+            return 7, 1, 42.0, f"Single 7-Number Premium Ticket (42.00 {currency})"
         elif budget >= 90.0:
             ticket_count = int(budget // ticket_price)
             if ticket_count > 18: ticket_count = 18
-            return 6, ticket_count, ticket_count * ticket_price, f"{ticket_count}-Ticket High-Coverage Wheel ({ticket_count * ticket_price:.2f} BRL)"
+            return 6, ticket_count, ticket_count * ticket_price, f"{ticket_count}-Ticket High-Coverage Wheel ({ticket_count * ticket_price:.2f} {currency})"
         else:
             ticket_count = int(budget // ticket_price)
             if ticket_count < 1: ticket_count = 1
-            return 6, ticket_count, ticket_count * ticket_price, f"{ticket_count}-Ticket Abbreviated Wheel ({ticket_count * ticket_price:.2f} BRL)"
+            return 6, ticket_count, ticket_count * ticket_price, f"{ticket_count}-Ticket Abbreviated Wheel ({ticket_count * ticket_price:.2f} {currency})"
+    else:
+        # Generic Global Lottery Scenario
+        ticket_count = max(1, int(budget // ticket_price))
+        return base_pick, ticket_count, ticket_count * ticket_price, f"{ticket_count}-Ticket Standard Wheel ({ticket_count * ticket_price:.2f} {currency})"
 
 def generate_html_dashboard(
     title: str,
@@ -688,8 +711,24 @@ def expert_suggest(
         
         is_lf = "lotofacil" in lot_id
         is_quina = "quina" in lot_id
-        pool_sizes = [20, 18, 15] if is_lf else [18, 15, 12]
-        target_winning_threshold = 11 if is_lf else (3 if is_quina else 4)
+        if is_lf:
+            pool_sizes = [20, 18, 15]
+            target_winning_threshold = 11
+        elif is_quina:
+            pool_sizes = [18, 15, 12]
+            target_winning_threshold = 3
+        elif "mega" in lot_id:
+            pool_sizes = [18, 15, 12]
+            target_winning_threshold = 4
+        else:
+            k_pick = rules.pick_count
+            lo, hi = rules.number_range
+            n_pool = hi - lo + 1
+            p1 = min(n_pool, int(k_pick * 2.5))
+            p2 = min(n_pool, int(k_pick * 2.0))
+            p3 = min(n_pool, int(k_pick * 1.5))
+            pool_sizes = sorted(list({p1, p2, p3}), reverse=True)
+            target_winning_threshold = min(rules.prize_tiers) if rules.prize_tiers else max(2, k_pick - 2)
         
         local_draws = draws
         if len(df) < local_draws + 10:
@@ -902,12 +941,12 @@ def expert_suggest(
         draw_winnings = 0.0
         for ticket in sim_tickets:
             hits = len(set(ticket) & target_nums)
-            if "lotofacil" in lot_id:
-                draw_winnings += calculate_lotofacil_winnings(hits, played_picks[lot_id])
-            elif "quina" in lot_id:
-                draw_winnings += calculate_quina_winnings(hits, played_picks[lot_id])
-            else:
-                draw_winnings += calculate_megasena_winnings(hits, played_picks[lot_id])
+            draw_winnings += calculate_winnings(
+                hits,
+                played_picks[lot_id],
+                lot_id,
+                ticket_price=cost_per_draw[lot_id] / max(1, ticket_count[lot_id]),
+            )
                 
         bankroll += draw_winnings
         total_won += draw_winnings
