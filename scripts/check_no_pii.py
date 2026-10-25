@@ -148,6 +148,14 @@ def scan_repository(repo_root: Path | None = None) -> list[str]:
                         f"{rel_path}: Non-mock Python full_name='{m.group(1).strip()}' (allowed mocks: {sorted(ALLOWED_MOCK_NAMES)})"
                     )
 
+        # 3. Check for leaked absolute local paths / local user directories (environment PII)
+        if rel_path != "scripts/check_no_pii.py":
+            for m in re.finditer(r"""(?:file:///?)?(?:/mnt/c/Users/[^/\s'\"\)\]]+|/home/(?!runner\b|app\b)[^/\s'\"\)\]]+)""", content):
+                match_text = m.group(0)
+                violations.append(
+                    f"{rel_path}: Forbidden local absolute user path/environment leaked: '{match_text}'. Use relative paths in repository files."
+                )
+
     return violations
 
 

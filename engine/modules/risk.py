@@ -63,6 +63,8 @@ def calculate_kelly_bet(
     
     # Calculate amounts
     bet_amount = bankroll * safe_fraction
+    if ticket_price <= 0:
+        return KellyResult(safe_fraction, 0.0, 1, confidence, False)
     # Ensure at least 1 ticket if we are betting
     num_tickets = max(1, math.floor(bet_amount / ticket_price))
     

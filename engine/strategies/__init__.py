@@ -404,7 +404,7 @@ class BaseStrategy(ABC):
         from engine.modules.geometry import get_dodecahedron_neighbors
         top_ns = sorted(normed.keys(), key=normed.get, reverse=True)[:3]
         for top_n in top_ns:
-            neighbors = get_dodecahedron_neighbors(top_n, max_n=hi)
+            neighbors = get_dodecahedron_neighbors(top_n, max_n=hi, min_n=lo)
             for nb in neighbors:
                 if nb in normed:
                     # Boost neighbors by 15% of the top number's score
@@ -547,17 +547,27 @@ class BaseStrategy(ABC):
             b_scores = {b: 1.0 for b in b_pool}
             if "bonus" in df.columns and not df["bonus"].empty:
                 from collections import Counter
-                flat_b = [b for row in df["bonus"] if isinstance(row, (list, tuple)) for b in row if blo <= b <= bhi]
+                flat_b = []
+                for row in df["bonus"]:
+                    if isinstance(row, (list, tuple)):
+                        for item in row:
+                            try:
+                                val = int(item)
+                                if blo <= val <= bhi:
+                                    flat_b.append(val)
+                            except (ValueError, TypeError):
+                                continue
                 if flat_b:
                     b_counts = Counter(flat_b)
                     b_max = max(b_counts.values()) or 1
                     for b in b_pool:
                         b_scores[b] = 0.2 + 0.8 * (b_counts.get(b, 0) / b_max)
+            sample_size = min(rules.bonus_count, len(b_pool))
             for _ in range(len(tickets)):
                 b_sampled = _weighted_sample(
                     b_pool,
                     b_scores,
-                    rules.bonus_count,
+                    sample_size,
                     active_temp,
                     rng=local_rng,
                 )

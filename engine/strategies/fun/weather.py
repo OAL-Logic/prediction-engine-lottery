@@ -73,6 +73,9 @@ DATA_DIR = Path(__file__).parent.parent.parent.parent / "data"
 _LOCATIONS: dict[str, tuple[float, float]] = {
     "br": (-23.5505, -46.6333),   # São Paulo
     "us": (30.4518,  -84.2727),   # Tallahassee, FL
+    "eu": (48.8566,   2.3522),    # Paris (EuroMillions)
+    "uk": (51.5074,  -0.1278),    # London
+    "ca": (45.4215,  -75.6972),   # Ottawa
 }
 
 

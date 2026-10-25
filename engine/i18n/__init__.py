@@ -49,7 +49,9 @@ def _load_catalog(locale: str) -> Dict[str, Any]:
             data = yaml.safe_load(f) or {}
             _catalogs[norm] = data
             return data
-    except Exception:
+    except Exception as exc:
+        import logging
+        logging.getLogger(__name__).warning("Failed to load translation catalog '%s': %s", yaml_file, exc)
         return {}
 
 
@@ -84,8 +86,17 @@ def resolve_locale(
     if config_locale:
         return normalize_locale(config_locale)
 
-    if game_id and (game_id.lower().startswith("br/") or game_id.lower().startswith("br-")):
-        return "pt_br"
+    if game_id:
+        gid = game_id.lower().strip()
+        if gid.startswith("br/") or gid.startswith("br-"):
+            return "pt_br"
+        try:
+            from engine.adapters.registry import registry
+            game = registry.get_game(game_id)
+            if game and (game.country.lower() == "br" or game.currency.upper() == "BRL"):
+                return "pt_br"
+        except Exception:
+            pass
 
     env_loc = os.environ.get("LOTTERY_LOCALE") or os.environ.get("LANG")
     if env_loc:
@@ -132,7 +143,7 @@ def t(key: str, locale: Optional[str] = None, **kwargs: Any) -> Any:
     if isinstance(val, str) and kwargs:
         try:
             return val.format(**kwargs)
-        except (KeyError, ValueError):
+        except (KeyError, ValueError, IndexError):
             return val
 
     return val

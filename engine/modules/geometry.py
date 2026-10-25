@@ -7,12 +7,10 @@ Maps lottery numbers into 3D geometric structures to find 'Higher-Dimensional Ne
 import math
 from typing import Any
 
-def get_dodecahedron_neighbors(n: int, max_n: int = 60) -> list[int]:
+def get_dodecahedron_neighbors(n: int, max_n: int = 60, min_n: int = 1) -> list[int]:
     """
     Returns geometric neighbors of a number mapped to a Dodecahedron.
-    
-    A dodecahedron has 20 vertices. We map n -> vertex by (n % 20).
-    The adjacency graph of a dodecahedron's vertices is used to find neighbors.
+    Supports 0-indexed and arbitrary pool sizes.
     """
     # Adjacency list for a dodecahedron's 20 vertices (0-19)
     # Each vertex has exactly 3 neighbors
@@ -24,19 +22,21 @@ def get_dodecahedron_neighbors(n: int, max_n: int = 60) -> list[int]:
         16: [15, 17, 18], 17: [8, 16, 18], 18: [16, 17, 19], 19: [10, 15, 18]
     }
     
-    vertex = (n - 1) % 20
+    vertex = (n - min_n) % 20
     v_neighbors = adj.get(vertex, [])
     
-    # Map vertices back to possible numbers in the range
-    # e.g., if vertex is 1, neighbors might be 1, 21, 41 (if max_n >= 41)
     results = []
     for vn in v_neighbors:
-        for offset in [0, 20, 40, 60]:
-            candidate = vn + 1 + offset
-            if candidate <= max_n and candidate != n:
+        offset = 0
+        while True:
+            candidate = min_n + vn + offset
+            if candidate > max_n:
+                break
+            if candidate >= min_n and candidate != n:
                 results.append(candidate)
+            offset += 20
     
-    return results
+    return sorted(list(set(results)))
 
 
 class BoardGeometry:

@@ -83,27 +83,28 @@ def _evaluate_rolling_blocks(
                 if h in tier_hits:
                     tier_hits[h] += 1
 
-    n_blocks = max(1, len(draw_sets) - teimosinha_draws + 1)
+    n_blocks = max(0, len(draw_sets) - teimosinha_draws + 1)
     winning_blocks = 0
     multi_hit_blocks = 0
-    for b_idx in range(n_blocks):
-        block = draw_sets[b_idx : b_idx + teimosinha_draws]
-        block_wins = 0
-        for d_set in block:
-            for t in tickets:
-                if len(set(t) & d_set) >= min_tier:
-                    block_wins += 1
-        if block_wins >= 1:
-            winning_blocks += 1
-        if block_wins >= 2:
-            multi_hit_blocks += 1
+    if n_blocks > 0:
+        for b_idx in range(n_blocks):
+            block = draw_sets[b_idx : b_idx + teimosinha_draws]
+            block_wins = 0
+            for d_set in block:
+                for t in tickets:
+                    if len(set(t) & d_set) >= min_tier:
+                        block_wins += 1
+            if block_wins >= 1:
+                winning_blocks += 1
+            if block_wins >= 2:
+                multi_hit_blocks += 1
 
     return {
         "evaluated_draws": len(draw_sets),
         "n_blocks": n_blocks,
         "winning_blocks": winning_blocks,
         "multi_hit_blocks": multi_hit_blocks,
-        "block_win_rate": winning_blocks / n_blocks,
+        "block_win_rate": (winning_blocks / n_blocks) if n_blocks > 0 else 0.0,
         "tier_hits": tier_hits,
     }
 

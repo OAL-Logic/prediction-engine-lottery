@@ -114,3 +114,54 @@ def test_scenario_resolution_global_lottery():
     picks_lf, count_lf, cost_lf, desc_lf = resolve_scenario_config("br/lotofacil", budget=50.0)
     assert picks_lf == 15
     assert "BRL" in desc_lf
+
+
+def test_dodecahedron_zero_indexed_and_large_pool():
+    """Verify dodecahedron neighbor calculation handles 0-indexed lotteries and pools > 60."""
+    from engine.modules.geometry import get_dodecahedron_neighbors
+
+    # Ball 0 in 0-99 pool (Lotomania)
+    n0_neighbors = get_dodecahedron_neighbors(0, max_n=99, min_n=0)
+    assert len(n0_neighbors) > 0
+    assert all(0 <= nb <= 99 for nb in n0_neighbors)
+
+    # Ball 50 in 0-99 pool
+    n50_neighbors = get_dodecahedron_neighbors(50, max_n=99, min_n=0)
+    assert len(n50_neighbors) > 0
+    assert all(0 <= nb <= 99 for nb in n50_neighbors)
+
+
+def test_multipool_bonus_ball_generation():
+    """Verify strategy ticket generation populates valid secondary bonus pool balls."""
+    import pandas as pd
+    from engine.strategies.statistical.weighted import WeightedStrategy
+
+    rules = DrawRules(
+        name="Test MultiPool Lotto",
+        pick_count=5,
+        number_range=(1, 50),
+        ticket_price=2.0,
+        currency="USD",
+        prize_tiers=[3, 4, 5],
+        bonus_count=1,
+        bonus_range=(1, 20),
+    )
+
+    import random
+    rng = random.Random(42)
+    rows = []
+    for i in range(1, 36):
+        main_nums = sorted(rng.sample(range(1, 51), 5))
+        b_num = rng.randint(1, 20)
+        rows.append({"draw": i, "numbers": main_nums, "bonus": [b_num]})
+    df = pd.DataFrame(rows)
+
+    strat = WeightedStrategy()
+    result = strat.suggest(df, rules, count=3)
+
+    assert len(result.tickets) == 3
+    assert len(result.bonus_tickets) == 3
+    for b_ticket in result.bonus_tickets:
+        assert len(b_ticket) == 1
+        assert 1 <= b_ticket[0] <= 20
+

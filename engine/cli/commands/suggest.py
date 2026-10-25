@@ -62,9 +62,20 @@ def _resolve_draw_location(adapter: Any, lottery: str) -> tuple[float, float]:
             pass
     from engine.adapters.registry import registry
     game = registry.get_game(lottery)
-    if game and game.draw_lat is not None and game.draw_lon is not None:
-        return (float(game.draw_lat), float(game.draw_lon))
-    return (-23.5505, -46.6333)
+    if game:
+        if game.draw_lat is not None and game.draw_lon is not None:
+            return (float(game.draw_lat), float(game.draw_lon))
+        country_coords = {
+            "br": (-15.7801, -47.9292), # Brasília
+            "us": (38.8951, -77.0364),  # Washington DC
+            "eu": (50.8503, 4.3517),    # Brussels
+            "uk": (51.5074, -0.1278),   # London
+            "ca": (45.4215, -75.6972),  # Ottawa
+        }
+        c = (game.country or "").lower()
+        if c in country_coords:
+            return country_coords[c]
+    return (51.4769, 0.0) # Prime Meridian (Greenwich) neutral fallback
 
 
 def suggest(
@@ -1044,22 +1055,23 @@ def _print_teimosinha_summary(
     recent_df = df.tail(300) if len(df) > 300 else df
     draw_sets = [set(nums) for nums in recent_df["numbers"]]
     min_prize_tier = min(rules.prize_tiers) if rules.prize_tiers else rules.pick_count
-    n_blocks = max(1, len(draw_sets) - teimosinha + 1)
+    n_blocks = max(0, len(draw_sets) - teimosinha + 1)
     winning_blocks = 0
-    for b_idx in range(n_blocks):
-        block = draw_sets[b_idx : b_idx + teimosinha]
-        block_hit = False
-        for d_set in block:
-            for t_item in unique_tickets:
-                if len(set(t_item) & d_set) >= min_prize_tier:
-                    block_hit = True
+    if n_blocks > 0:
+        for b_idx in range(n_blocks):
+            block = draw_sets[b_idx : b_idx + teimosinha]
+            block_hit = False
+            for d_set in block:
+                for t_item in unique_tickets:
+                    if len(set(t_item) & d_set) >= min_prize_tier:
+                        block_hit = True
+                        break
+                if block_hit:
                     break
             if block_hit:
-                break
-        if block_hit:
-            winning_blocks += 1
+                winning_blocks += 1
 
-    block_win_rate = winning_blocks / n_blocks
+    block_win_rate = (winning_blocks / n_blocks) if n_blocks > 0 else 0.0
     sacred_day_name = (
         wd_full[profile["sacred_py_weekday"]]
         if 0 <= profile["sacred_py_weekday"] < len(wd_full)

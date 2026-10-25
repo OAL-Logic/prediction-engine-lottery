@@ -138,16 +138,14 @@ class CombinatorialHedger:
         total_cost = (len(j_tickets) + len(h_tickets)) * self.rules.ticket_price
 
         # Standardized payout matrix relative to ticket price
-        # Mega-Sena: 4 matches ~ 10x ticket, 5 matches ~ 2000x ticket, 6 matches ~ Jackpot (million)
-        # Lotofacil: 11 matches ~ 1.2x ticket, 12 matches ~ 2.4x ticket, 13 matches ~ 6x ticket, 14 matches ~ 300x, 15 matches ~ Jackpot
         payout_multipliers = {}
-        if "lotofacil" in self.rules.name.lower():
-            payout_multipliers = {11: 1.2, 12: 2.4, 13: 6.0, 14: 400.0, 15: 100000.0}
-        elif "mega" in self.rules.name.lower():
-            payout_multipliers = {4: 25.0, 5: 8000.0, 6: 1000000.0}
-        elif getattr(self.rules, "odds", None) and self.rules.odds:
+        if getattr(self.rules, "odds", None) and self.rules.odds:
             # Derive multipliers from configured odds table
             payout_multipliers = {tier: max(1.0, float(odd) * 0.45) for tier, odd in self.rules.odds.items()}
+        elif "lotofacil" in self.rules.name.lower():
+            payout_multipliers = {11: 1.2, 12: 2.4, 13: 6.0, 14: 400.0, 15: 100000.0}
+        elif "mega-sena" in self.rules.name.lower() or "megasena" in self.rules.name.lower():
+            payout_multipliers = {4: 25.0, 5: 8000.0, 6: 1000000.0}
         else:
             # Dynamic analytical fallback for arbitrary global games (hypergeometric rarity)
             from math import comb
@@ -157,7 +155,12 @@ class CombinatorialHedger:
             k_pick = self.rules.pick_count
             total_combs = comb(n_pool, k_pick) if n_pool >= k_pick else 1
             for t in tiers:
-                tier_ways = comb(k_pick, t) * comb(n_pool - k_pick, k_pick - t) if (n_pool - k_pick) >= (k_pick - t) else 1
+                rem_pool = n_pool - k_pick
+                rem_pick = k_pick - t
+                if 0 <= t <= k_pick and 0 <= rem_pick <= rem_pool:
+                    tier_ways = comb(k_pick, t) * comb(rem_pool, rem_pick)
+                else:
+                    tier_ways = 1
                 rarity = max(1.0, total_combs / max(1, tier_ways))
                 payout_multipliers[t] = round(rarity * 0.45, 1)
 
@@ -188,13 +191,13 @@ class CombinatorialHedger:
 
         payouts = np.array(payouts)
 
-        expected_payout = float(payouts.mean())
-        hedge_coverage_ratio = expected_payout / total_cost
-        net_roi = (expected_payout - total_cost) / total_cost
-        self_sustainability = float((payouts >= total_cost).mean())
-        partial_recovery = float((payouts >= total_cost * 0.5).mean())
-        max_drawdown = float(total_cost - payouts.min())
-        win_prob = float(wins_count / trials)
+        expected_payout = float(payouts.mean()) if len(payouts) > 0 else 0.0
+        hedge_coverage_ratio = (expected_payout / total_cost) if total_cost > 0 else 0.0
+        net_roi = ((expected_payout - total_cost) / total_cost) if total_cost > 0 else 0.0
+        self_sustainability = float((payouts >= total_cost).mean()) if len(payouts) > 0 else 0.0
+        partial_recovery = float((payouts >= total_cost * 0.5).mean()) if len(payouts) > 0 else 0.0
+        max_drawdown = float(total_cost - payouts.min()) if len(payouts) > 0 else total_cost
+        win_prob = float(wins_count / trials) if trials > 0 else 0.0
 
         return HedgeMetrics(
             total_budget=total_cost,

@@ -7,6 +7,7 @@ Out-of-sample strategy optimization + budget-aware wheeling + portfolio simulati
 from __future__ import annotations
 
 import os
+import math
 import random
 import itertools
 from datetime import date
@@ -102,11 +103,13 @@ def apply_lotofacil_filters(ticket: List[int]) -> bool:
 
 def apply_universal_filters(ticket: List[int], lottery_id: str) -> bool:
     """Universal structural filters scaled dynamically to any world lottery game."""
+    if not ticket:
+        return False
     if "lotofacil" in lottery_id:
         return apply_lotofacil_filters(ticket)
     elif "quina" in lottery_id:
         return apply_quina_filters(ticket)
-    elif "mega" in lottery_id:
+    elif "mega-sena" in lottery_id or "megasena" in lottery_id:
         return apply_mega_filters(ticket)
 
     from engine.adapters.registry import registry
@@ -116,20 +119,27 @@ def apply_universal_filters(ticket: List[int], lottery_id: str) -> bool:
     odds = len([n for n in ticket if n % 2 != 0])
     lo = game.number_range_min if game else min(ticket)
     hi = (lo + game.pool_size - 1) if game else max(ticket)
+    n_pool = max(1, hi - lo + 1)
 
-    # Dynamic hypergeometric envelope (mean ± 2.8 sigma)
+    # Dynamic hypergeometric envelope with Finite Population Correction (mean ± 2.8 sigma)
     e_sum = k * (lo + hi) / 2.0
-    sigma_sum = max(1.0, (k * ((hi - lo + 1) ** 2) / 12.0) ** 0.5)
+    if n_pool > 1 and k < n_pool:
+        fpc = (n_pool - k) / (n_pool - 1)
+        sigma_sum = max(1.0, ((k * (n_pool ** 2 - 1) / 12.0) * fpc) ** 0.5)
+    else:
+        sigma_sum = max(1.0, (k * (n_pool ** 2) / 12.0) ** 0.5)
+
     min_sum = max(k * lo, int(e_sum - 2.8 * sigma_sum))
     max_sum = min(k * hi, int(e_sum + 2.8 * sigma_sum))
 
     if not (min_sum <= soma <= max_sum):
         return False
 
-    min_odd = max(1, int(0.2 * k))
-    max_odd = min(k - 1, int(0.8 * k))
-    if not (min_odd <= odds <= max_odd):
-        return False
+    if k >= 3:
+        min_odd = max(0, int(0.15 * k))
+        max_odd = min(k, math.ceil(0.85 * k))
+        if not (min_odd <= odds <= max_odd):
+            return False
 
     return True
 
@@ -177,12 +187,16 @@ def calculate_winnings(hits: int, played_count: int, lottery_id: str, ticket_pri
         return calculate_lotofacil_winnings(hits, played_count)
     elif "quina" in lottery_id:
         return calculate_quina_winnings(hits, played_count)
-    elif "mega" in lottery_id:
+    elif "mega-sena" in lottery_id or "megasena" in lottery_id:
         return calculate_megasena_winnings(hits, played_count)
 
-    # Dynamic global game winnings approximation
-    if hits >= played_count - 2 and hits >= 2:
-        mult = 10.0 if hits == played_count - 2 else (500.0 if hits == played_count - 1 else 100000.0)
+    from engine.adapters.registry import registry
+    game = registry.get_game(lottery_id)
+    k_draw = game.pick_count if game else played_count
+
+    # Dynamic global game winnings approximation based on target draw size
+    if hits >= max(2, k_draw - 2):
+        mult = 10.0 if hits == k_draw - 2 else (500.0 if hits == k_draw - 1 else 100000.0)
         base = ticket_price if ticket_price > 0 else 2.0
         return mult * base
     return 0.0
@@ -268,39 +282,39 @@ def resolve_scenario_config(lottery_id: str, budget: float) -> tuple[int, int, f
     
     if is_lf:
         if 56.0 <= budget < 90.0:
-            return 16, 1, 56.0, f"Single 16-Number Premium Ticket (56.00 {currency})"
+            return 16, 1, 56.0, f"Single 16-Number Multiple Bet (Unfolded Bet) (56.00 {currency})"
         elif budget >= 90.0:
             ticket_count = int(budget // ticket_price)
             if ticket_count > 33: ticket_count = 33
-            return 15, ticket_count, ticket_count * ticket_price, f"{ticket_count}-Ticket High-Coverage Wheel (V=20, K=15, T=13) ({ticket_count * ticket_price:.2f} {currency})"
+            return 15, ticket_count, ticket_count * ticket_price, f"{ticket_count}-Ticket High-Coverage Covering Design (V=20, K=15, T=13) ({ticket_count * ticket_price:.2f} {currency})"
         else:
             ticket_count = int(budget // ticket_price)
             if ticket_count < 1: ticket_count = 1
-            return 15, ticket_count, ticket_count * ticket_price, f"{ticket_count}-Ticket Abbreviated Wheel (V=18, K=15, T=13) ({ticket_count * ticket_price:.2f} {currency})"
+            return 15, ticket_count, ticket_count * ticket_price, f"{ticket_count}-Ticket Abbreviated Covering Design (V=18, K=15, T=13) ({ticket_count * ticket_price:.2f} {currency})"
     elif is_quina:
         if 18.0 <= budget < 36.0:
-            return 6, 1, 18.0, f"Single 6-Number Multiple Ticket (18.00 {currency})"
+            return 6, 1, 18.0, f"Single 6-Number Multiple Bet (Unfolded Bet) (18.00 {currency})"
         else:
             ticket_count = int(budget // ticket_price)
             if ticket_count < 1: ticket_count = 1
             if ticket_count > 24: ticket_count = 24
-            return 5, ticket_count, ticket_count * ticket_price, f"{ticket_count}-Ticket Quina Abbreviated Wheel ({ticket_count * ticket_price:.2f} {currency})"
-    elif "mega" in lottery_id:
+            return 5, ticket_count, ticket_count * ticket_price, f"{ticket_count}-Ticket Quina Abbreviated Covering Design ({ticket_count * ticket_price:.2f} {currency})"
+    elif "mega-sena" in lottery_id or "megasena" in lottery_id:
         # Mega-Sena
         if 42.0 <= budget < 90.0:
-            return 7, 1, 42.0, f"Single 7-Number Premium Ticket (42.00 {currency})"
+            return 7, 1, 42.0, f"Single 7-Number Multiple Bet (Unfolded Bet) (42.00 {currency})"
         elif budget >= 90.0:
             ticket_count = int(budget // ticket_price)
             if ticket_count > 18: ticket_count = 18
-            return 6, ticket_count, ticket_count * ticket_price, f"{ticket_count}-Ticket High-Coverage Wheel ({ticket_count * ticket_price:.2f} {currency})"
+            return 6, ticket_count, ticket_count * ticket_price, f"{ticket_count}-Ticket High-Coverage Covering Design ({ticket_count * ticket_price:.2f} {currency})"
         else:
             ticket_count = int(budget // ticket_price)
             if ticket_count < 1: ticket_count = 1
-            return 6, ticket_count, ticket_count * ticket_price, f"{ticket_count}-Ticket Abbreviated Wheel ({ticket_count * ticket_price:.2f} {currency})"
+            return 6, ticket_count, ticket_count * ticket_price, f"{ticket_count}-Ticket Abbreviated Covering Design ({ticket_count * ticket_price:.2f} {currency})"
     else:
         # Generic Global Lottery Scenario
         ticket_count = max(1, int(budget // ticket_price))
-        return base_pick, ticket_count, ticket_count * ticket_price, f"{ticket_count}-Ticket Standard Wheel ({ticket_count * ticket_price:.2f} {currency})"
+        return base_pick, ticket_count, ticket_count * ticket_price, f"{ticket_count}-Ticket Standard Covering Design ({ticket_count * ticket_price:.2f} {currency})"
 
 def generate_html_dashboard(
     title: str,

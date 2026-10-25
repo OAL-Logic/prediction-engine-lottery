@@ -5,11 +5,11 @@
 
 ## Context & Problem Statement
 Prior to this enhancement, the `p4lottery` engine had accumulated several statistical and algorithmic limitations:
-1. **Markov Zero-Probability & Recency Conflation**: The original [`MarkovStrategy`](file:///mnt/c/Users/ag/Documents/Obsidian/PKM/Workspace/PRJ%20Prediction%20Engine/lottery/engine/strategies/statistical/markov.py) computed transitions via raw co-occurrence counts $N(i,j)$, leading to zero probabilities for unobserved transitions and failing to weight recent historical draws over ancient ones.
+1. **Markov Zero-Probability & Recency Conflation**: The original [`MarkovStrategy`](../../engine/strategies/statistical/markov.py) computed transitions via raw co-occurrence counts $N(i,j)$, leading to zero probabilities for unobserved transitions and failing to weight recent historical draws over ancient ones.
 2. **Absence of Parametric Delay Modeling**: While delay metrics existed, the engine lacked a formal **Survival Analysis / Hazard Rate** model ($h(t)$) to distinguish between memoryless renewal processes ($\gamma \approx 1$) and statistical aging/wear-out ($\gamma > 1$).
 3. **Unstable Sampling & Loss of Entropic Control**: Sampling used an ad-hoc power law (`raw ** (1.0 / temp)`), which was numerically unstable near zero and lacked calibration to target Shannon information entropy.
-4. **Sub-optimal Combinatorial Wheels**: The [`WheelingEngine`](file:///mnt/c/Users/ag/Documents/Obsidian/PKM/Workspace/PRJ%20Prediction%20Engine/lottery/engine/modules/wheels_wrg.py) relied strictly on a greedy set-cover heuristic, producing ticket sets $15\%\text{--}25\%$ larger than the theoretical minimum.
-5. **Static Hardcoded Filter Bounds**: Historical filters in [`tier4_historical.py`](file:///mnt/c/Users/ag/Documents/Obsidian/PKM/Workspace/PRJ%20Prediction%20Engine/lottery/engine/modules/filters/tier4_historical.py) used static bounds (e.g. sum $\in [100, 250]$), causing false rejections across diverse game rules and multi-bets.
+4. **Sub-optimal Combinatorial Wheels**: The [`WheelingEngine`](../../engine/modules/wheels_wrg.py) relied strictly on a greedy set-cover heuristic, producing ticket sets $15\%\text{--}25\%$ larger than the theoretical minimum.
+5. **Static Hardcoded Filter Bounds**: Historical filters in [`tier4_historical.py`](../../engine/modules/filters/tier4_historical.py) used static bounds (e.g. sum $\in [100, 250]$), causing false rejections across diverse game rules and multi-bets.
 
 ---
 
@@ -112,7 +112,7 @@ $$\text{Filter Range} = [\mathbb{E} - 2.8\sigma, \mathbb{E} + 2.8\sigma]$$
 ## Verification & Test Evidence
 
 All implementations are covered by dedicated automated test suites in `tests/`:
-* [`tests/test_strategy_hazard_weibull_and_markov.py`](file:///mnt/c/Users/ag/Documents/Obsidian/PKM/Workspace/PRJ%20Prediction%20Engine/lottery/tests/test_strategy_hazard_weibull_and_markov.py): Tests Dirichlet regularized Markov transitions and Weibull hazard estimation.
-* [`tests/test_entropy_sampling.py`](file:///mnt/c/Users/ag/Documents/Obsidian/PKM/Workspace/PRJ%20Prediction%20Engine/lottery/tests/test_entropy_sampling.py): Tests temperature calibration convergence and entropy constraint accuracy.
-* [`tests/test_priority3_milp_and_filters.py`](file:///mnt/c/Users/ag/Documents/Obsidian/PKM/Workspace/PRJ%20Prediction%20Engine/lottery/tests/test_priority3_milp_and_filters.py): Tests 100% guarantee verification of MILP wheels and hypergeometric sum validation.
+* [`tests/test_strategy_hazard_weibull_and_markov.py`](../../tests/test_strategy_hazard_weibull_and_markov.py): Tests Dirichlet regularized Markov transitions and Weibull hazard estimation.
+* [`tests/test_entropy_sampling.py`](../../tests/test_entropy_sampling.py): Tests temperature calibration convergence and entropy constraint accuracy.
+* [`tests/test_priority3_milp_and_filters.py`](../../tests/test_priority3_milp_and_filters.py): Tests 100% guarantee verification of MILP wheels and hypergeometric sum validation.
 * **PII Guardrail:** Full pass on `python3 scripts/check_no_pii.py`.

@@ -36,7 +36,7 @@ class RefractionStrategy(BaseStrategy):
         # Initialize WeatherStrategy with rules-derived location if possible
         country = kwargs.get("country")
         if not country:
-            lot_id = kwargs.get("lottery_id", "")
+            lot_id = kwargs.get("lottery_id") or ""
             if "/" in lot_id:
                 country = lot_id.split("/")[0]
             elif getattr(rules, "currency", "") == "BRL":

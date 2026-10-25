@@ -102,7 +102,8 @@ def prize_ev(
             prizes[t] = v
 
     # Analytical fallback for world games without explicit tables
-    jackpot_tier = max(rules.prize_tiers) if rules.prize_tiers else rules.pick_count
+    prize_tiers_list = rules.prize_tiers or [rules.pick_count]
+    jackpot_tier = max(prize_tiers_list)
     for t in prizes:
         if prizes[t] is None and t != jackpot_tier:
             p = _hyp_prob(pool, pick, t)
@@ -119,21 +120,28 @@ def prize_ev(
                 console.print(f"[red]Bad --tier '{raw}' — use match:amount (e.g. --tier 14:1200)[/red]")
                 raise typer.Exit(2)
 
-    jackpot_tier = max(rules.prize_tiers)
+    jackpot_tier = max(prize_tiers_list)
     if jackpot is not None:
         prizes[jackpot_tier] = jackpot
 
     # ── Compute per-tier rows ──────────────────────────────────────────────
     tier_rows: list[tuple] = []
     lower_ev  = 0.0
-    jackpot_p = _hyp_prob(pool, pick, jackpot_tier)
 
-    for t in sorted(rules.prize_tiers):
-        p        = _hyp_prob(pool, pick, t)
+    p_bonus_jackpot = 1.0
+    if getattr(rules, "bonus_count", 0) > 0 and getattr(rules, "bonus_range", None):
+        blo, bhi = rules.bonus_range
+        b_size = max(1, bhi - blo + 1)
+        p_bonus_jackpot = 1.0 / math.comb(b_size, rules.bonus_count) if b_size >= rules.bonus_count else 1.0
+
+    jackpot_p = _hyp_prob(pool, pick, jackpot_tier) * p_bonus_jackpot
+
+    for t in sorted(prize_tiers_list):
+        is_jack = (t == jackpot_tier)
+        p = _hyp_prob(pool, pick, t) * (p_bonus_jackpot if is_jack else 1.0)
         odds_str = f"1 in {round(1.0 / p):,}" if p > 0 else "—"
         prize_v  = prizes.get(t)
         ev_v     = p * prize_v if prize_v is not None else None
-        is_jack  = (t == jackpot_tier)
         if ev_v is not None and not is_jack:
             lower_ev += ev_v
         tier_rows.append((t, p, odds_str, prize_v, ev_v, is_jack))

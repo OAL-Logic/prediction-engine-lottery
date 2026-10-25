@@ -206,7 +206,7 @@ def run_filter_analysis(lottery_id):
         
     return filter_metrics
 
-def test_deep_resonance_evaluation():
+def test_deep_resonance_evaluation(tmp_path: Path):
     # Run analysis for LotoFácil
     lotofacil_results = run_resonance_analysis("br/lotofacil", num_draws=15)
     lotofacil_filters = run_filter_analysis("br/lotofacil")
@@ -216,7 +216,7 @@ def test_deep_resonance_evaluation():
     megasena_filters = run_filter_analysis("br/mega-sena")
     
     # Write the results report
-    report_path = "/home/ag/.gemini/antigravity-cli/brain/ceee46c8-722d-4d4d-bade-05feb0595051/relatorio_ressonancia_filtros.md"
+    report_path = tmp_path / "relatorio_ressonancia_filtros.md"
     
     with open(report_path, "w", encoding="utf-8") as f:
         f.write("# 🔬 Relatório Profundo: Ressonância de Estratégias e Filtros Harmoniosos\n\n")
