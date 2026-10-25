@@ -4,10 +4,14 @@ Wheel Prize Evaluator — test how a wheel performs against a winning combo.
 
 from __future__ import annotations
 
-from typing import List, Dict, Set
+from typing import Any, Dict, List, Optional, Set
 
 
-def evaluate_prizes(tickets: List[List[int]], winning_numbers: List[int]) -> Dict[int, int]:
+def evaluate_prizes(
+    tickets: List[List[int]],
+    winning_numbers: List[int],
+    rules: Optional[Any] = None,
+) -> Dict[int, int]:
     """
     Count how many tickets in the set hit each prize tier.
     

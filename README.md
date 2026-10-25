@@ -236,6 +236,45 @@ flowchart TD
     class rejected finalFail;
 ```
 
+### 🔍 Filter Discovery & Dynamic Inspection (`lottery docs --filter`)
+
+Every filter in the 5-tier catalog (109 total filters) can be inspected in the terminal with its **mathematical formulation, visual ASCII diagram, Mermaid architecture graph, and live ASCII gauge evaluation**:
+
+```bash
+# Browse full catalog or filter by tier
+./p4lottery docs filters
+./p4lottery docs filters --tier 1
+
+# Inspect Arithmetic Complexity (AC) with live ticket evaluation
+./p4lottery docs --filter structural_ac_value --ticket 4,11,23,35,48,59
+
+# Inspect Dual-Mode Game-Adaptive Historical AC Range
+./p4lottery docs --filter historical_ac_range --ticket 4,11,23,35,48,59
+
+# Inspect Birthday Bias Clustering
+./p4lottery docs --filter structural_birthday_bias --ticket 4,11,23,35,48,59
+
+# Inspect Quadrant Balance on Cartesian Grid
+./p4lottery docs --filter positional_quadrant_balance --ticket 4,11,23,35,48,59
+
+# Inspect Magic Square Harmonics (Lo Shu Order-3 M=15)
+./p4lottery docs --filter algebraic_magic_square --ticket 4,11,23,35,48,59
+
+# Inspect Game-Adaptive Median Range across different draw rules (e.g. Lotofácil k=15)
+./p4lottery docs --filter historical_median_range --game br/lotofacil --ticket 1,2,5,8,10,12,13,14,15,17,19,20,21,23,25
+
+# Inspect Historical Co-occurrence Pair Graph
+./p4lottery docs --filter historical_common_pair --ticket 10,23,34,42,51,58
+
+# Inspect Sequential Ball Gaps
+./p4lottery docs --filter positional_gap_1_2 --ticket 3,18,22,35,41,50
+
+# Track elimination step-by-step through a candidate pool
+./p4lottery filter-funnel br/mega-sena --pool 1,2,3,4,5,6,7,8,9,10,11,12 --filters parity,spread,historical_ac_range
+```
+
+> See [`LOTTERY_FILTERS_REFERENCE.md`](docs/filters/LOTTERY_FILTERS_REFERENCE.md) for the full 1,800+ line encyclopedia detailing all 109 filters, and [`FILTER_DISCOVERY_GUIDE.md`](docs/filters/FILTER_DISCOVERY_GUIDE.md) for the discovery cheat sheet.
+
 ---
 
 ## 🚀 Quick Start

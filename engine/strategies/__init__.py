@@ -256,7 +256,7 @@ class BaseStrategy(ABC):
             expanded += ["sum_range", "parity", "breadth"]
             active_list = expanded
         elif "all" in filters:
-            active_list = list(harmony.registry.list_available())
+            active_list = list(harmony.registry.list_default_active())
         else:
             active_list = filters
             
@@ -434,6 +434,26 @@ class BaseStrategy(ABC):
         attempts = 0
         
         muon_strike_occurred = False
+        filters_were_relaxed = False
+        achieved_k = 0
+
+        strict_filters = bool(kwargs.get("strict_filters", False))
+
+        # Determine target filter count
+        active_filter_list: list[str] = []
+        if filters:
+            if "balanced" in filters:
+                expanded = [f for f in filters if f != "balanced"]
+                expanded += ["sum_range", "parity", "breadth"]
+                active_filter_list = expanded
+            elif "all" in filters:
+                from engine.modules import harmony
+                active_filter_list = list(harmony.registry.list_default_active())
+            else:
+                active_filter_list = filters
+
+        total_active_filters = len(active_filter_list)
+        base_target_k = filters_k_of_n if (filters_k_of_n is not None and filters_k_of_n > 0) else total_active_filters
 
         while len(tickets) < count and attempts < max_attempts:
             attempts += 1
@@ -465,16 +485,42 @@ class BaseStrategy(ABC):
                 continue
                 
             last_draw = list(df.iloc[-1]["numbers"]) if not df.empty else []
-            filters_active = bool(filters)
+            filters_active = bool(active_filter_list)
             extra_filter_kwargs = dict(kwargs)
             if hasattr(self, "birth_date") and "birth_date" not in extra_filter_kwargs:
                 extra_filter_kwargs["birth_date"] = getattr(self, "birth_date")
             if hasattr(self, "target_date") and "target_date" not in extra_filter_kwargs:
                 extra_filter_kwargs["target_date"] = getattr(self, "target_date")
-            if (not filters_active
-                    or self.is_harmonious(ticket, rules, filters=filters, k_of_n=filters_k_of_n, last_draw=last_draw, df=df, **extra_filter_kwargs)
-                    or attempts > (max_attempts * 0.9)):
+
+            if not filters_active:
                 tickets.append(ticket)
+            else:
+                # Gradual K-of-N relaxation when candidate pool is constrained
+                if strict_filters:
+                    current_k = base_target_k
+                else:
+                    if attempts > (max_attempts * 0.75):
+                        current_k = max(1, base_target_k - 2)
+                    elif attempts > (max_attempts * 0.50):
+                        current_k = max(1, base_target_k - 1)
+                    else:
+                        current_k = base_target_k
+
+                if current_k < base_target_k:
+                    filters_were_relaxed = True
+                    achieved_k = current_k if achieved_k == 0 else min(achieved_k, current_k)
+
+                passes = self.is_harmonious(
+                    ticket, rules, filters=active_filter_list, k_of_n=current_k, last_draw=last_draw, df=df, **extra_filter_kwargs
+                )
+                if passes:
+                    tickets.append(ticket)
+
+        if strict_filters and len(tickets) < count:
+            raise ValueError(
+                f"Candidate pool starved: generated {len(tickets)}/{count} tickets under --strict-filters "
+                f"({base_target_k}/{total_active_filters} filters) within {max_attempts} attempts."
+            )
 
         confidence = float(np.mean(list(normed.values())))
 
@@ -503,6 +549,11 @@ class BaseStrategy(ABC):
         if muon_strike_occurred:
             result.metadata["muon_strike"] = True
             
+        if filters_were_relaxed:
+            result.metadata["filters_relaxed"] = True
+            result.metadata["filters_effective_k"] = achieved_k
+            result.metadata["filters_target_n"] = total_active_filters
+
         return result
 
 

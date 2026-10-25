@@ -31,6 +31,69 @@ def count_bits_64(arr: np.ndarray) -> np.ndarray:
             BIT_COUNT_TABLE[((arr >> 32) & 0xFFFF).astype(np.uint16)].astype(int) + 
             BIT_COUNT_TABLE[((arr >> 48) & 0xFFFF).astype(np.uint16)].astype(int))
 
+from dataclasses import dataclass, field
+from typing import TYPE_CHECKING, Any, Dict, List, Optional, Sequence, Union
+
+def format_gauge(val: float | int, min_val: float | int, max_val: float | int, passed: bool, width: int = 18) -> str:
+    """Renders a dynamic visual ASCII bracket gauge showing where val lies relative to min_val..max_val."""
+    try:
+        val_f = float(val)
+        min_f = float(min_val)
+        max_f = float(max_val)
+        span = max(max_f - min_f, 1.0)
+        low_bound = min_f - 0.25 * span
+        high_bound = max_f + 0.25 * span
+        total_range = max(high_bound - low_bound, 1.0)
+
+        pos = int(((val_f - low_bound) / total_range) * width)
+        pos = max(0, min(width - 1, pos))
+
+        bracket_start = int(((min_f - low_bound) / total_range) * width)
+        bracket_end = int(((max_f - low_bound) / total_range) * width)
+        bracket_start = max(0, min(width - 1, bracket_start))
+        bracket_end = max(bracket_start, min(width - 1, bracket_end))
+
+        chars = ["-"] * width
+        for i in range(bracket_start, bracket_end + 1):
+            chars[i] = "="
+        chars[pos] = "●"
+        status_sym = "✓ PASS" if passed else "✗ FAIL"
+        return f"[{''.join(chars)}] {status_sym} (value: {val}, target: [{min_val}..{max_val}])"
+    except Exception:
+        return "[✓ PASS]" if passed else "[✗ FAIL]"
+
+@dataclass
+class FilterExplanation:
+    filter_id: str
+    filter_name: str
+    tier: int
+    category: str
+    passed: bool
+    actual_value: Any
+    allowed_range: str
+    summary: str
+    details: Dict[str, Any] = field(default_factory=dict)
+    formula: str = ""
+    diagram: str = ""
+    mermaid: str = ""
+    gauge: str = ""
+
+    def render_text(self) -> str:
+        status_label = "PASS ✓" if self.passed else "FAIL ✗"
+        lines = [
+            f"=== [{self.tier}] {self.filter_name} ({self.filter_id}) ===",
+            f"Category : {self.category}",
+            f"Verdict  : {status_label}",
+            f"Value    : {self.actual_value} | Target: {self.allowed_range}",
+            f"Gauge    : {self.gauge}",
+            f"Summary  : {self.summary}",
+        ]
+        if self.formula:
+            lines.append(f"Formula  : {self.formula}")
+        if self.diagram:
+            lines.append("Diagram  :\n" + self.diagram)
+        return "\n".join(lines)
+
 # --- Core Protocol ---
 
 class VectorizedFilter(ABC):
@@ -38,13 +101,104 @@ class VectorizedFilter(ABC):
     display_name: str
     tier: int
     description: str = ""
+    category: str = "General"
+    formula: str = ""
+    diagram: str = ""
+    mermaid: str = ""
 
     @abstractmethod
     def apply(self, combinations: np.ndarray, rules: DrawRules) -> np.ndarray:
         pass
 
+    def explain(self, combination: Sequence[int] | np.ndarray, rules: Optional[DrawRules] = None) -> FilterExplanation:
+        """Dynamically evaluate a combination and return structured explanation with metrics & visual gauge."""
+        comb_arr = np.asarray(combination, dtype=int)
+        if comb_arr.ndim == 1:
+            arr_2d = comb_arr.reshape(1, -1)
+        else:
+            arr_2d = comb_arr
+
+        if rules is None:
+            from engine.adapters import DrawRules
+            max_v = int(np.max(arr_2d)) if arr_2d.size else 60
+            rules = DrawRules(name="Standard Pool", pick_count=arr_2d.shape[1], number_range=(1, max(max_v, 60)))
+
+        passed = bool(self.apply(arr_2d, rules)[0])
+        summary = f"{'Passed' if passed else 'Failed'} criteria for {self.display_name}."
+        gauge = "[✓ PASS]" if passed else "[✗ FAIL]"
+        return FilterExplanation(
+            filter_id=self.unique_id,
+            filter_name=self.display_name,
+            tier=self.tier,
+            category=getattr(self, "category", "General"),
+            passed=passed,
+            actual_value=passed,
+            allowed_range="Configured predicate",
+            summary=summary,
+            details={"numbers": list(comb_arr.ravel()), "passed": passed},
+            formula=getattr(self, "formula", ""),
+            diagram=getattr(self, "diagram", ""),
+            mermaid=getattr(self, "mermaid", ""),
+            gauge=gauge,
+        )
+
+    def generate_documentation(self, rules: Optional[DrawRules] = None, sample: Optional[Sequence[int]] = None) -> str:
+        """Returns a formatted Markdown documentation card with formulas, diagrams, and dynamic evaluation."""
+        sample_nums = sample if sample is not None else [4, 11, 23, 35, 48, 59][:rules.pick_count if rules else 6]
+        exp = self.explain(sample_nums, rules)
+
+        md = [
+            f"### `{self.unique_id}` — {self.display_name}",
+            f"- **Tier**: Tier {self.tier} ({self.category})",
+            f"- **Description**: {self.description}",
+        ]
+        if self.formula:
+            md.append(f"- **Mathematical Formulation**: `{self.formula}`")
+        if self.diagram:
+            md.append(f"\n```text\n{self.diagram}\n```")
+        if self.mermaid:
+            md.append(f"\n```mermaid\n{self.mermaid}\n```")
+
+        md.append(f"\n**Dynamic Evaluation Example** (Ticket: `{list(sample_nums)}`):")
+        md.append(f"- **Verdict**: `{'PASS' if exp.passed else 'FAIL'}`")
+        md.append(f"- **Metric Value**: `{exp.actual_value}` (Allowed Range: `{exp.allowed_range}`)")
+        md.append(f"- **Gauge**: `{exp.gauge}`")
+        md.append(f"- **Summary**: {exp.summary}")
+        return "\n".join(md)
+
     def __repr__(self) -> str:
         return f"<{self.__class__.__name__} id='{self.unique_id}' tier={self.tier}>"
+
+ALIAS_MAP: Dict[str, str] = {
+    "sum_range": "historical_sum_range",
+    "parity": "structural_odd_count",
+    "odd_count": "structural_odd_count",
+    "even_count": "structural_even_count",
+    "prime": "structural_prime_count",
+    "primes": "structural_prime_count",
+    "ac_value": "structural_ac_value",
+    "ac_range": "historical_ac_range",
+    "high_low": "historical_hl_pattern",
+    "consecutive": "historical_consecutive_pattern",
+    "decade": "historical_decade_pattern",
+    "unit": "historical_unit_pattern",
+    "median": "historical_median_range",
+    "std_dev": "historical_std_dev_range",
+    "spread": "historical_spread_range",
+    "common_pair": "historical_common_pair",
+    "common_triplet": "historical_common_triplet",
+    "digit_sum": "historical_digit_sum_pattern",
+    "breadth": "structural_breadth",
+    "unit_different": "structural_distinct_units",
+    "average_value": "structural_average_value",
+    "quadrant_balance": "positional_quadrant_balance",
+    "birthday_bias": "structural_birthday_bias",
+    "magic_square": "algebraic_magic_square",
+    "digit_space_123": "algebraic_digit_space_123",
+    "mixed_parity_digits": "algebraic_mixed_parity_digits",
+    "max_skips": "historical_max_skips",
+    "trevo_resonance": "custom_trevo_resonance",
+}
 
 class VectorRegistry:
     def __init__(self):
@@ -75,6 +229,9 @@ class VectorRegistry:
         self._instances[filter_obj.unique_id] = filter_obj
 
     def get(self, unique_id: str) -> Optional[VectorizedFilter]:
+        if unique_id in ALIAS_MAP:
+            unique_id = ALIAS_MAP[unique_id]
+
         if unique_id in self._instances:
             return self._instances[unique_id]
         
@@ -122,6 +279,56 @@ class VectorRegistry:
             f = self.get(uid)
             results[:, i] = f.apply(combinations, rules) if f else True
         return np.sum(results, axis=1) >= k_of_n if k_of_n > 0 else np.all(results, axis=1)
+
+    def explain(self, unique_id: str, combination: Sequence[int], rules: Optional[DrawRules] = None) -> Optional[FilterExplanation]:
+        f = self.get(unique_id)
+        if f is None:
+            return None
+        return f.explain(combination, rules)
+
+    def explain_all(
+        self,
+        combination: Sequence[int],
+        rules: Optional[DrawRules] = None,
+        filter_ids: Optional[List[str]] = None,
+    ) -> List[FilterExplanation]:
+        self._discover()
+        ids = filter_ids if filter_ids is not None else sorted(self._module_map.keys())
+        explanations = []
+        for uid in ids:
+            f = self.get(uid)
+            if f:
+                explanations.append(f.explain(combination, rules))
+        return explanations
+
+    def get_documentation(
+        self,
+        unique_id: str,
+        rules: Optional[DrawRules] = None,
+        sample: Optional[Sequence[int]] = None,
+    ) -> Optional[str]:
+        f = self.get(unique_id)
+        if f is None:
+            return None
+        return f.generate_documentation(rules, sample)
+
+    def catalog_summary(self, tier: Optional[int] = None) -> Dict[int, List[Dict[str, Any]]]:
+        self._discover()
+        tiers_to_check = [tier] if tier else [1, 2, 3, 4, 5]
+        summary: Dict[int, List[Dict[str, Any]]] = {}
+        for t in tiers_to_check:
+            items = []
+            for f in sorted(self.list_by_tier(t), key=lambda x: x.unique_id):
+                items.append({
+                    "unique_id": f.unique_id,
+                    "display_name": f.display_name,
+                    "tier": f.tier,
+                    "category": getattr(f, "category", "General"),
+                    "description": getattr(f, "description", ""),
+                    "formula": getattr(f, "formula", ""),
+                })
+            summary[t] = items
+        return summary
 
 # Global singleton
 registry = VectorRegistry()

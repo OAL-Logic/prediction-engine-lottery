@@ -37,8 +37,27 @@ def filter_funnel(
     filters: Annotated[Optional[str], typer.Option("--filters", help="Comma-separated filter unique_ids, applied in order")] = None,
     list_filters: Annotated[bool, typer.Option("--list-filters", help="List every available filter (tier, id, name) and exit")] = False,
     tier: Annotated[Optional[int], typer.Option("--tier", help="With --list-filters, restrict to a single tier (1-5)")] = None,
+    info: Annotated[Optional[str], typer.Option("--info", help="Inspect detailed documentation, diagram, and dynamic test for a specific filter")] = None,
 ) -> None:
     """🕳️ Track how many combinations survive each filter in a chain, tier by tier."""
+
+    if info:
+        f = registry.get(info)
+        if not f:
+            console.print(f"[red]Filter '{info}' not found in registry.[/red]")
+            raise typer.Exit(1)
+        adapter = get_adapter(lottery)
+        k = adapter.rules.pick_count
+        sample = [4, 11, 23, 35, 48, 59][:k]
+        exp = f.explain(sample, adapter.rules)
+        ui_header(f"FILTER INFO: {f.display_name.upper()}", f"Tier {f.tier} · {getattr(f, 'category', 'General')}")
+        console.print(f"[bold cyan]Description:[/bold cyan] {getattr(f, 'description', '')}")
+        if getattr(f, 'formula', ''):
+            console.print(f"[bold cyan]Formula:[/bold cyan] {getattr(f, 'formula', '')}")
+        if getattr(f, 'diagram', ''):
+            console.print(f"\n[dim]{f.diagram}[/dim]")
+        console.print(f"\nSample {sample} -> {exp.gauge}")
+        return
 
     if list_filters:
         ui_header("FILTER CATALOG", "engine.modules.filters registry")

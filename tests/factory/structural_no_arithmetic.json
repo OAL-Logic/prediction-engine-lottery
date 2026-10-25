@@ -1,0 +1,6 @@
+{
+  "filter_id": "structural_no_arithmetic",
+  "pass_count": 1000,
+  "mask_sum": 499500,
+  "version": "1.0"
+}

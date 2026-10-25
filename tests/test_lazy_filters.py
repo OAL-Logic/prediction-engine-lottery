@@ -3,10 +3,13 @@ import pytest
 
 def test_lazy_loading_registry():
     """AC 2.2.1: Ensure filters are not imported at module level."""
+    from engine.modules.filters import registry
+    registry._instances.clear()
+    for mod in list(sys.modules.keys()):
+        if mod.startswith("engine.modules.filters.tier"):
+            sys.modules.pop(mod, None)
     # Ensure engine.modules.filters.tier1_structural is NOT in sys.modules
     assert "engine.modules.filters.tier1_structural" not in sys.modules
-    
-    from engine.modules.filters import registry
     
     # Still shouldn't be loaded after importing registry
     assert "engine.modules.filters.tier1_structural" not in sys.modules

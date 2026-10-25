@@ -18,23 +18,114 @@ if TYPE_CHECKING:
 # Type for a filter function: (ticket, rules, **kwargs) -> bool
 FilterFunc = Callable[[List[int], 'DrawRules', Any], bool]
 
+from engine.modules.filters import ALIAS_MAP
+
 class FilterRegistry:
     def __init__(self):
         self._filters: Dict[str, FilterFunc] = {}
         self._descriptions: Dict[str, str] = {}
+        self._metadata: Dict[str, Dict[str, Any]] = {}
 
-    def register(self, name: str, description: str = ""):
+    def register(self, name: str, description: str = "", category: str = "General", formula: str = "", diagram: str = ""):
         def decorator(func: FilterFunc):
             self._filters[name] = func
             self._descriptions[name] = description
+            self._metadata[name] = {
+                "name": name,
+                "description": description,
+                "category": category,
+                "formula": formula,
+                "diagram": diagram,
+            }
             return func
         return decorator
 
     def get(self, name: str) -> FilterFunc | None:
-        return self._filters.get(name)
+        if name in self._filters:
+            return self._filters[name]
 
-    def list_available(self) -> Set[str]:
-        return set(self._filters.keys())
+        # Check aliases or bridge to engine.modules.filters.registry
+        target_id = ALIAS_MAP.get(name, name)
+        try:
+            from engine.modules.filters import registry as vec_reg
+            vec_filter = vec_reg.get(target_id)
+            if vec_filter is not None:
+                def adapter_func(ticket: List[int], rules: DrawRules, **kwargs: Any) -> bool:
+                    import numpy as np
+                    arr = np.asarray([ticket], dtype=int)
+                    # Expose kwargs as attributes on rules if not present
+                    for k, v in kwargs.items():
+                        if not hasattr(rules, k):
+                            try:
+                                object.__setattr__(rules, k, v)
+                            except Exception:
+                                pass
+                    res = vec_filter.apply(arr, rules)
+                    return bool(res[0])
+
+                self._filters[name] = adapter_func
+                self._descriptions[name] = getattr(vec_filter, 'description', '')
+                self._metadata[name] = {
+                    "name": name,
+                    "description": getattr(vec_filter, 'description', ''),
+                    "category": getattr(vec_filter, 'category', f"Tier {vec_filter.tier}"),
+                    "formula": getattr(vec_filter, 'formula', ''),
+                    "diagram": getattr(vec_filter, 'diagram', ''),
+                }
+                return adapter_func
+        except Exception as e:
+            logging.debug(f"Bridge lookup error for filter '{name}': {e}")
+
+        return None
+
+    def get_metadata(self, name: str) -> Dict[str, Any]:
+        return self._metadata.get(name, {
+            "name": name,
+            "description": self._descriptions.get(name, ""),
+            "category": "General",
+            "formula": "",
+            "diagram": "",
+        })
+
+    def explain(self, name: str, ticket: List[int], rules: DrawRules, **kwargs: Any) -> Dict[str, Any]:
+        func = self.get(name)
+        meta = self.get_metadata(name)
+        if not func:
+            return {"name": name, "passed": True, "error": "Unknown filter", **meta}
+        try:
+            passed = bool(func(ticket, rules, **kwargs))
+        except Exception as e:
+            passed = True
+        return {
+            "name": name,
+            "passed": passed,
+            "ticket": list(ticket),
+            **meta,
+        }
+
+    def explain_all(self, ticket: List[int], rules: DrawRules, active_filters: Optional[List[str]] = None, **kwargs: Any) -> List[Dict[str, Any]]:
+        filters = active_filters if active_filters is not None else sorted(self._filters.keys())
+        return [self.explain(name, ticket, rules, **kwargs) for name in filters]
+
+    def list_available(self, canonical_only: bool = False) -> Set[str]:
+        keys = set(self._filters.keys())
+        if not canonical_only:
+            keys |= set(ALIAS_MAP.keys())
+        try:
+            from engine.modules.filters import registry as vec_reg
+            vec_reg._discover()
+            if canonical_only:
+                keys |= {uid for uid in vec_reg._module_map.keys() if not uid.startswith("custom_")}
+            else:
+                keys |= set(vec_reg._module_map.keys())
+        except Exception:
+            pass
+        return keys
+
+    def list_default_active(self) -> List[str]:
+        """Returns the canonical set of non-custom filters for standard bulk validation."""
+        # Standard harmony filters registered directly in this module
+        return sorted(self._filters.keys())
 
     def validate(
         self, 
