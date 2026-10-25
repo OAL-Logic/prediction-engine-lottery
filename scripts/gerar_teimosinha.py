@@ -44,7 +44,7 @@ from engine.strategies import get_strategy
 # Configurações
 # ---------------------------------------------------------------------------
 
-REPORT_PATH = Path("reports/teimosinha_" + datetime.now().strftime("%Y%m%d_%H%M%S") + ".md")
+REPORT_PATH = Path("reports/br/teimosinha/" + datetime.now().strftime("%Y-%m-%d") + "_teimosinha.md")
 SEED = 42
 random.seed(SEED)
 np.random.seed(SEED)

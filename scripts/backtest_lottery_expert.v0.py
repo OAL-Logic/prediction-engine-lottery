@@ -496,10 +496,11 @@ If you wish to play **both Mega-Sena and LotoFácil** in the same week, we have 
 *Good luck, and remember to play responsibly!*
 """
 
-    with open("reports/backtest_expert_report.md", "w") as f:
+    os.makedirs("reports/br/studies", exist_ok=True)
+    with open("reports/br/studies/expert-strategy-backtest.md", "w") as f:
         f.write(report_content)
         
-    print("\n✓ Detailed Expert Report successfully generated at 'reports/backtest_expert_report.md'!")
+    print("\n✓ Detailed Expert Report successfully generated at 'reports/br/studies/expert-strategy-backtest.md'!")
     print("======================================================================")
 
 if __name__ == "__main__":

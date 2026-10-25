@@ -16,7 +16,7 @@ reports:
       - name: "weighted"
       - name: "hedge"
     count: 4
-    output: "reports/group_a.md"
+    output: "reports/br/mega-sena/group_a.md"
 
   - name: "Group B Analysis (Extended)"
     lottery: "br/lotofacil"
@@ -32,7 +32,7 @@ reports:
       - name: "random_forest"
       - name: "hedge"
     count: 6
-    output: "reports/group_b.md"
+    output: "reports/br/lotofacil/group_b.md"
 
   - name: "Collective Family Hedge"
     lottery: "br/lotofacil"
@@ -41,4 +41,4 @@ reports:
       - name: "moon_phase"
     ensemble: "voting"
     count: 5
-    output: "reports/family_hedge.md"
+    output: "reports/br/lotofacil/family_hedge.md"

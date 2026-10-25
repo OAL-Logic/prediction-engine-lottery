@@ -29,3 +29,17 @@ Single-context — one `CONTEXT.md` + `docs/adr/` at the repo root. See `docs/ag
 2. **Modular Jurisdiction & Game Structuring**: Isolate jurisdiction-specific rules, APIs, and syndicate mechanics under `engine/adapters/<country_code>/` (e.g., `engine/adapters/br/` for Caixa Loterias, `engine/adapters/us/`, `engine/adapters/eu/`). Shared national rules belong in `<jurisdiction>_base.py` (e.g., `caixa_base.py`), while game-specific rules live in `<game_slug>.py`.
 3. **Pluggable Feature Overrides (Hook Pattern)**: When a specific game requires unique handling or workarounds for a feature (e.g. Lotomania's 00-99 mirroring, Lotofácil's high-density clustering, Dupla Sena's dual draws, Dia de Sorte's Month of Luck, or Powerball's bonus pool), features must provide pluggable hook/parameter overrides with analytical fallbacks rather than scattered inline conditionals.
 4. **Multi-Archetype Support & Verification Bar**: Features must accommodate global lottery archetypes (sparse single-pool, high-density single-pool, multi-pool/bonus ball, zero-indexed, multi-draw, categorical attributes, multiple bets). Every new or modified feature must be validated across at least 3 distinct game archetypes (e.g., Mega-Sena 6/60, Lotofácil 15/25, and Powerball 5/69+1/26). See `docs/agents/game-compatibility.md`, `.agents/rules/game-compatibility.md`, and `docs/adr/0004-global-lottery-game-compatibility-and-feature-isolation.md`.
+
+### Reports Organization & Naming Rules
+
+**STRICT RULE — JURISDICTION HIERARCHY & TAXONOMY**:
+1. **Directory Structure**: Reports must be structured by jurisdiction and game under `reports/<country_code>/<game_slug>/` (or `reports/<country_code>/studies/`, `reports/<country_code>/teimosinha/`). Never write loose, unorganized reports directly to `reports/`.
+2. **Standard File Taxonomy**:
+   - Target draw reports: `draw-<ID>-<type>.md` (e.g. `draw-3690-resonance.md`, `draw-3027-cycle.md`, `draw-7117-unfolded-bets.md`)
+   - Strategy presets: `strategy-<name>.md` (e.g. `strategy-random-forest.md`, `strategy-bayesian.md`)
+   - Narrative examples: `story.example.md`
+   - Empirical studies: `reports/<country_code>/studies/<topic>.md`
+   - Recurring syndicate runs: `YYYY-MM-DD_<subtype>.md`
+3. **Zero Redundant Prefixes**: Never prefix files with `<game_slug>_` when already residing within `<game_slug>/`.
+4. **Git Maintenance & PII Bar**: Curated markdown reports are tracked in version control. Ephemeral local drafts (`*.local.*`, `*.tmp.*`, `.scratch/`) are git-ignored. All committed reports must strictly comply with the No-PII policy (`python3 scripts/check_no_pii.py`). See `docs/agents/reports.md` and `.agents/rules/reports.md`.
+

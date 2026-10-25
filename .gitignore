@@ -249,10 +249,10 @@ docs/backtest_report_*.md
 
 data/extracted_**_summary.json
 
-reports/**
-
-!reports/lotofacil_story.example.md
-!reports/mega_sena_story.example.md
+# Local / Draft Reports (keep organized reports tracked in git)
+reports/**/*.local.*
+reports/**/*.tmp.*
+reports/**/.scratch/
 
 
 # --- Privacy & No-PII Local Files ---

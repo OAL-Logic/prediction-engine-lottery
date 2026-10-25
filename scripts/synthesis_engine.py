@@ -353,7 +353,8 @@ def main():
         longitude=longitude
     )
     
-    report_path = f"./reports/{lottery_slug}_resonance_report_{next_draw_id}.md"
+    country = lottery_id.split("/")[0] if "/" in lottery_id else "br"
+    report_path = f"./reports/{country}/{lottery_slug}/draw-{next_draw_id}-resonance.md"
     os.makedirs(os.path.dirname(report_path), exist_ok=True)
     with open(report_path, "w") as f_rep:
         f_rep.write(report_content)

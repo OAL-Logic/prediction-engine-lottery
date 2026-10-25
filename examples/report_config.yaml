@@ -16,7 +16,7 @@ reports:
       - name: "random_forest"
     ensemble: "voting" # Blend results
     count: 3
-    output: "reports/mega_sena_weekly.md"
+    output: "reports/br/mega-sena/weekly.md"
 
   - name: "Family Luck Profile"
     lottery: "br/lotofacil"
@@ -24,7 +24,7 @@ reports:
       - name: "kabbalistic"
         params:
           full_name: "JOHN DOE"
-          birth_date: "1985-05-20"
+          birth_date: "1985-05-15"
       - name: "moon_phase"
     count: 3
-    output: "reports/family_luck.md"
+    output: "reports/br/lotofacil/family_luck.md"
