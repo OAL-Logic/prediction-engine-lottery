@@ -33,20 +33,15 @@ console = Console()
 
 def _build_draw_schedule(game_name: str, start_date: date, teimosinha_draws: int) -> List[date]:
     from engine.adapters.registry import registry
-    game_def = registry.get_game(game_name) or registry.get_game(game_name.lower().replace(" ", "-"))
+    game_def = registry.get_game(game_name)
     draw_weekdays = None
     if game_def and game_def.draw_days:
         day_map = {"monday": 0, "tuesday": 1, "wednesday": 2, "thursday": 3, "friday": 4, "saturday": 5, "sunday": 6}
         draw_weekdays = {day_map[d.lower()] for d in game_def.draw_days if d.lower() in day_map}
 
     if not draw_weekdays:
-        game_lower = game_name.lower()
-        if "mega" in game_lower:
-            draw_weekdays = {1, 3, 5}  # Tue, Thu, Sat
-        elif "quina" in game_lower or "lotofacil" in game_lower or "lotofácil" in game_lower:
-            draw_weekdays = {0, 1, 2, 3, 4, 5}  # Mon-Sat
-        else:
-            draw_weekdays = {1, 3, 5}
+        # Default draw frequency: bi/tri-weekly standard
+        draw_weekdays = {1, 3, 5}
 
     schedule: List[date] = []
     cur = start_date

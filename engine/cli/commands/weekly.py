@@ -19,7 +19,7 @@ Example
 -------
   lottery weekly br/lotofacil
   lottery weekly br/lotofacil --weeks 2
-  lottery weekly br/lotofacil --export-md reports/week.md
+  lottery weekly br/lotofacil --export-md reports/br/lotofacil/week.md
 """
 
 from __future__ import annotations
@@ -101,7 +101,7 @@ def weekly(
 
     Example: lottery weekly br/lotofacil
              lottery weekly br/lotofacil --weeks 2
-             lottery weekly br/lotofacil --export-md reports/week.md
+             lottery weekly br/lotofacil --export-md reports/br/lotofacil/week.md
     """
     adapter = get_adapter(lottery)
     rules = adapter.rules

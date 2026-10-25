@@ -33,6 +33,9 @@ def calculate_kelly_bet(
     p = Probability of winning
     q = Probability of losing (1 - p)
     """
+    if jackpot_odds <= 0:
+        return KellyResult(0.01, ticket_price, 1, confidence, False)
+
     # 1. Base Probability (Random)
     p_base = 1.0 / jackpot_odds
     

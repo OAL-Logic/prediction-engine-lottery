@@ -241,8 +241,9 @@ def suggest(
     esoteric_mode: Annotated[bool, typer.Option("--esoteric-mode",
         help="Cross-check today's lunar/solar bucket against historical draws with a chi-squared "
              "significance test, and print the (honest) result. Implies --weather-seed.")] = False,
-    target_date: Annotated[Optional[str], typer.Option("--target-date", "-d", help="Target draw date (YYYY-MM-DD) for temporal/esoteric alignment and Teimosinha start")] = None,
-    teimosinha: Annotated[Optional[int], typer.Option("--teimosinha", "-T", help="Teimosinha consecutive draws count (Mega-Sena/Dupla: 2, 3, 4, 6, 8, 9, 12; Lotofácil/Quina: 3, 6, 12, 18, 24; Lotomania: 2, 4, 8; Dia de Sorte: 3, 6, 9, 12; +Milionária: 2, 3, 4, 5)")] = None,
+    target_date: Annotated[Optional[str], typer.Option("--target-date", "-d", help="Target draw date (YYYY-MM-DD) for temporal/esoteric alignment and multi-draw start")] = None,
+    teimosinha: Annotated[Optional[int], typer.Option("--teimosinha", "-T", help="Teimosinha / Multi-draw consecutive draws count")] = None,
+    multi_draw: Annotated[Optional[int], typer.Option("--multi-draw", "-M", help="Multi-draw consecutive draws count (alias for --teimosinha)")] = None,
     target_entropy: Annotated[Optional[float], typer.Option("--target-entropy", help="Calibrate sampling temperature dynamically to match target Shannon entropy (e.g. 2.8)")] = None,
     export_md: Annotated[Optional[str], typer.Option("--export-md", help="Append suggest report to this .md file")] = None,
 ):
@@ -275,6 +276,7 @@ def suggest(
         esoteric_mode=esoteric_mode,
         target_date=target_date,
         teimosinha=teimosinha,
+        multi_draw=multi_draw,
         target_entropy=target_entropy,
         export_md=export_md,
     )

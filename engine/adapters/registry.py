@@ -84,7 +84,36 @@ class LotteryRegistry:
                     self._games[alias] = game
 
     def get_game(self, slug: str) -> Optional[GameDefinition]:
-        return self._games.get(slug)
+        if not slug:
+            return None
+        if slug in self._games:
+            return self._games[slug]
+
+        slug_lower = slug.lower().strip()
+        if slug_lower in self._games:
+            return self._games[slug_lower]
+
+        import unicodedata
+
+        def _norm(s: str) -> str:
+            return (
+                unicodedata.normalize("NFKD", s)
+                .encode("ASCII", "ignore")
+                .decode("utf-8")
+                .lower()
+                .replace(" ", "-")
+                .replace("_", "-")
+            )
+
+        target = _norm(slug)
+        for g in self._games.values():
+            if (
+                _norm(g.id) == target
+                or _norm(g.id.split("/")[-1]) == target
+                or _norm(g.name) == target
+            ):
+                return g
+        return None
 
     def list_games(self, only_available: bool = False) -> List[GameDefinition]:
         unique_games = {g.id: g for g in self._games.values()}

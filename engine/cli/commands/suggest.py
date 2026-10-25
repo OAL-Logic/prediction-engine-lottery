@@ -53,6 +53,20 @@ async def _fetch_seismic(lat: float, lon: float, radius: int = 500) -> list[dict
     return []
 
 
+def _resolve_draw_location(adapter: Any, lottery: str) -> tuple[float, float]:
+    """Resolve physical draw location from adapter or global registry."""
+    if hasattr(adapter, "get_draw_location"):
+        try:
+            return adapter.get_draw_location()
+        except Exception:
+            pass
+    from engine.adapters.registry import registry
+    game = registry.get_game(lottery)
+    if game and game.draw_lat is not None and game.draw_lon is not None:
+        return (float(game.draw_lat), float(game.draw_lon))
+    return (-23.5505, -46.6333)
+
+
 def suggest(
     lottery: Annotated[str, typer.Argument(help="Lottery name (e.g. br/mega-sena) [Required]")],
     strategy: Annotated[str, typer.Option("--strategy", "-s",
@@ -93,14 +107,17 @@ def suggest(
     esoteric_mode: Annotated[bool, typer.Option("--esoteric-mode",
         help="Cross-check today's lunar/solar bucket against historical draws with a chi-squared "
              "significance test, and print the (honest) result. Implies --weather-seed.")] = False,
-    target_date: Annotated[Optional[str], typer.Option("--target-date", "-d", help="Target draw date (YYYY-MM-DD) for temporal/esoteric alignment and Teimosinha start")] = None,
-    teimosinha: Annotated[Optional[int], typer.Option("--teimosinha", "-T", help="Teimosinha consecutive draws count (Mega-Sena/Dupla: 2, 3, 4, 6, 8, 9, 12; Lotofácil/Quina: 3, 6, 12, 18, 24; Lotomania: 2, 4, 8; Dia de Sorte: 3, 6, 9, 12; +Milionária: 2, 3, 4, 5)")] = None,
+    target_date: Annotated[Optional[str], typer.Option("--target-date", "-d", help="Target draw date (YYYY-MM-DD) for temporal/esoteric alignment and multi-draw start")] = None,
+    teimosinha: Annotated[Optional[int], typer.Option("--teimosinha", "-T", help="Teimosinha / multi-draw consecutive draws count")] = None,
+    multi_draw: Annotated[Optional[int], typer.Option("--multi-draw", "-M", help="Multi-draw consecutive draws count (alias for --teimosinha)")] = None,
     target_entropy: Annotated[Optional[float], typer.Option("--target-entropy", help="Calibrate sampling temperature dynamically to match target Shannon entropy (e.g. 2.8)")] = None,
     export_md: Annotated[Optional[str], typer.Option("--export-md", help="Append suggest report to this .md file")] = None,
 ) -> None:
     """
     🎟️ Generate ticket suggestions using a specific prediction strategy.
     """
+    effective_teimosinha = teimosinha if (teimosinha is not None and teimosinha > 0) else multi_draw
+
     personal_data = load_local_config()
     # Merge CLI overrides
     if full_name: personal_data["full_name"] = full_name
@@ -112,8 +129,8 @@ def suggest(
             personal_data["draw_date"] = date.fromisoformat(target_date)
         except ValueError:
             pass
-    if teimosinha is not None and teimosinha > 0:
-        personal_data["teimosinha_draws"] = teimosinha
+    if effective_teimosinha is not None and effective_teimosinha > 0:
+        personal_data["teimosinha_draws"] = effective_teimosinha
 
     # ── Entropy gate: abort early when signal is noisy ────────────────────────
     if window_check:
@@ -177,7 +194,7 @@ def suggest(
         weather_seed=weather_seed,
         esoteric_mode=esoteric_mode,
         target_date=target_date,
-        teimosinha=teimosinha,
+        teimosinha=effective_teimosinha,
         target_entropy=target_entropy,
         export_md=export_md,
     )
@@ -302,7 +319,7 @@ def _run_comparison(
     env_seed: int | None = None
     if weather_seed:
         from engine.modules.esoteric_pipeline import build_environmental_seed
-        coords = adapter.get_draw_location() if hasattr(adapter, "get_draw_location") else (-23.5505, -46.6333)
+        coords = _resolve_draw_location(adapter, lottery)
         try:
             env_seed, env_context = build_environmental_seed(coords, target_date=target_date_obj)
             env = env_context["environmental"]
@@ -313,7 +330,7 @@ def _run_comparison(
                 f"Tide: {env['tide_level']:.0%}\n"
                 f"→ Deterministic seed: [bold yellow]{env_seed}[/bold yellow]  "
                 f"[dim](SHA-256 of the values above — reproducible; NOT a win-probability signal.\n"
-                f" Lotofácil-style draws are independent random events regardless of this seed.)[/dim]",
+                f" {adapter.rules.name} draws are independent random events regardless of this seed.)[/dim]",
                 title="🌍 Environmental Seed (--weather-seed)",
                 border_style="cyan",
             ))
@@ -376,7 +393,14 @@ def _run_comparison(
             anomaly_constraints[filter_name] = qty
 
     lo, hi = adapter.rules.number_range
-    pick_count = pick or adapter.rules.pick_count
+    if pick is not None:
+        if pick not in adapter.rules.allowed_picks:
+            allowed_str = ", ".join(map(str, adapter.rules.allowed_picks))
+            console.print(f"[red]Invalid --pick {pick} for {adapter.rules.name}. Allowed: [{allowed_str}][/red]")
+            raise typer.Exit(2)
+        pick_count = pick
+    else:
+        pick_count = adapter.rules.pick_count
 
     # Header
     from engine.cli.utils import ui_header, ui_panel, ui_dummy_block, ui_table
@@ -426,7 +450,7 @@ def _run_comparison(
                 entropy_boost += 0.2
 
             # (D) Seismic Resonance Layer
-            coords = adapter.get_draw_location() if hasattr(adapter, 'get_draw_location') else (-23.55, -46.63)
+            coords = _resolve_draw_location(adapter, lottery)
             seismic_events = asyncio.run(_fetch_seismic(coords[0], coords[1]))
             
             if seismic_events:
@@ -584,9 +608,14 @@ def _run_comparison(
         
         # Format tickets
         all_tickets = []
+        all_bonus = []
         for res in all_results:
             all_tickets.extend(res.tickets)
-            
+            if getattr(res, "bonus_tickets", None):
+                all_bonus.extend(res.bonus_tickets)
+            else:
+                all_bonus.extend([[] for _ in res.tickets])
+
         _write_md(
             export_md,
             lottery,
@@ -594,25 +623,36 @@ def _run_comparison(
             datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
             all_results,
             avg_conf,
-            all_tickets
+            all_tickets,
+            all_bonus,
         )
 
-def _write_md(path, lottery, game_name, timestamp, results, confidence, tickets):
+def _write_md(path, lottery, game_name, timestamp, results, confidence, tickets, bonus_tickets=None):
     """Standardized Obsidian Metadata Contract implementation."""
     import json
     from pathlib import Path
     import numpy as np
-    
-    ticket_lines = "\n".join([f"- Ticket {i+1}: {', '.join(map(str, sorted(t)))}" for i, t in enumerate(tickets)])
-    
+
+    bonus_tickets = bonus_tickets or []
+    lines = []
+    for i, t in enumerate(tickets):
+        t_text = f"- Ticket {i+1}: {', '.join(map(str, sorted(t)))}"
+        if i < len(bonus_tickets) and bonus_tickets[i]:
+            t_text += f" + [Bonus: {', '.join(map(str, sorted(bonus_tickets[i])))}]"
+        lines.append(t_text)
+    ticket_lines = "\n".join(lines)
+
     # JSON payload for DataviewJS
     serializable_results = []
     for r in results:
-        serializable_results.append({
+        entry = {
             "strategy": str(r.strategy_name),
             "confidence": float(r.confidence),
-            "tickets": [[int(n) for n in t] for t in r.tickets]
-        })
+            "tickets": [[int(n) for n in t] for t in r.tickets],
+        }
+        if getattr(r, "bonus_tickets", None):
+            entry["bonus_tickets"] = [[int(n) for n in b] for b in r.bonus_tickets]
+        serializable_results.append(entry)
 
     content = f"""---
 type: pattern-log
@@ -689,9 +729,15 @@ def _print_single_result(
         eff_k = result.metadata.get("filters_effective_k")
         tgt_n = result.metadata.get("filters_target_n")
         content.append(f"[yellow]⚠️ Note: Candidate pool constrained; filters relaxed to satisfy {eff_k} of {tgt_n} filters.[/yellow]")
+    has_bonus = bool(getattr(result, "bonus_tickets", None))
     for i, ticket in enumerate(result.tickets):
         t_str = ", ".join(map(str, sorted(ticket)))
         t_sum = sum(ticket)
+        bonus_part = ""
+        if has_bonus and len(result.bonus_tickets) > i and result.bonus_tickets[i]:
+            b_str = ", ".join(map(str, sorted(result.bonus_tickets[i])))
+            bonus_label = "PB/Bonus" if "powerball" in rules.name.lower() or "mega" in rules.name.lower() else "Bonus"
+            bonus_part = f" [bold magenta]+ [{bonus_label}: {b_str}][/bold magenta]"
         
         # Historical win context
         win_counts = {tier: 0 for tier in rules.prize_tiers}
@@ -700,7 +746,7 @@ def _print_single_result(
             if matches in win_counts: win_counts[matches] += 1
         win_info = " | ".join(f"M{k}: {v}" for k, v in sorted(win_counts.items()) if v > 0)
         
-        content.append(f"[bold {Theme.SECONDARY}]Ticket {i+1}:[/] {t_str} [dim](sum={t_sum})[/]")
+        content.append(f"[bold {Theme.SECONDARY}]Ticket {i+1}:[/] {t_str}{bonus_part} [dim](sum={t_sum})[/]")
         if win_info:
             content.append(f"   [dim]⌞ Hist Wins: {win_info}[/]")
 
@@ -851,10 +897,15 @@ def _print_consensus(results: list[Any]) -> None:
     from collections import Counter
     
     counter = Counter()
+    bonus_counter = Counter()
     for res in results:
         for ticket in res.tickets:
             for n in ticket:
                 counter[n] += 1
+        bonus_tickets = getattr(res, "bonus_tickets", None) or []
+        for bt in bonus_tickets:
+            for b in bt:
+                bonus_counter[b] += 1
                 
     if not counter: return
     
@@ -863,15 +914,25 @@ def _print_consensus(results: list[Any]) -> None:
     strategy_count = len(results)
     
     for num, votes in counter.most_common(15):
-        # We'll just use a simple bar for now as per design language
         bar = "█" * int(votes) + "░" * (max(0, strategy_count - votes))
         lines.append(f"   [bold yellow]{num:>2}[/]  {bar}  [dim]{votes} votes[/]")
         
+    if bonus_counter:
+        lines.append("")
+        lines.append("   [bold magenta]Bonus Ball Consensus:[/] ")
+        for bnum, bvotes in bonus_counter.most_common(5):
+            bbar = "█" * int(bvotes) + "░" * (max(0, strategy_count - bvotes))
+            lines.append(f"   [bold magenta]★ {bnum:>2}[/]  {bbar}  [dim]{bvotes} votes[/]")
+
     high_conv = [n for n, v in counter.items() if v >= max(2, strategy_count // 2 + 1)]
+    high_bonus = [b for b, v in bonus_counter.items() if v >= max(2, strategy_count // 2 + 1)]
     
-    footer = ""
+    footer_parts = []
     if high_conv:
-        footer = f"\n[bold green]⭐ High Conviction:[/] {sorted(high_conv)}"
+        footer_parts.append(f"[bold green]⭐ High Conviction:[/] {sorted(high_conv)}")
+    if high_bonus:
+        footer_parts.append(f"[bold magenta]⭐ High Conviction Bonus:[/] {sorted(high_bonus)}")
+    footer = "\n".join(footer_parts)
 
     # 2. Final Render
     rprint(ui_panel(
@@ -911,19 +972,29 @@ def _print_teimosinha_summary(
     # Build draw schedule for this game
     draw_weekdays = None
     from engine.adapters.registry import registry
-    game_def = registry.get_game(rules.name) or registry.get_game(rules.name.lower().replace(" ", "-"))
+    game_def = registry.get_game(rules.name)
     if game_def and game_def.draw_days:
         day_map = {"monday": 0, "tuesday": 1, "wednesday": 2, "thursday": 3, "friday": 4, "saturday": 5, "sunday": 6}
         draw_weekdays = {day_map[d.lower()] for d in game_def.draw_days if d.lower() in day_map}
 
+    if not draw_weekdays and df is not None and not df.empty:
+        # Try inferring from historical draw dates
+        for col in ["date", "draw_date", "data", "Data Sorteio"]:
+            if col in df.columns:
+                try:
+                    import pandas as pd
+                    parsed_dates = pd.to_datetime(df[col], errors="coerce").dropna()
+                    if len(parsed_dates) >= 10:
+                        vc = parsed_dates.dt.weekday.value_counts(normalize=True)
+                        frequent_days = set(vc[vc >= 0.05].index.tolist())
+                        if frequent_days:
+                            draw_weekdays = frequent_days
+                            break
+                except Exception:
+                    pass
+
     if not draw_weekdays:
-        game_lower = rules.name.lower()
-        if "mega" in game_lower:
-            draw_weekdays = {1, 3, 5}  # Tue, Thu, Sat
-        elif "quina" in game_lower or "lotofacil" in game_lower or "lotofácil" in game_lower:
-            draw_weekdays = {0, 1, 2, 3, 4, 5}  # Mon-Sat
-        else:
-            draw_weekdays = {1, 3, 5}
+        draw_weekdays = {1, 3, 5}
 
     schedule_dates: list[date] = []
     cur = t_date
@@ -934,11 +1005,16 @@ def _print_teimosinha_summary(
                 break
         cur = cur + timedelta(days=1)
 
-    wd_pt = {0: "Seg", 1: "Ter", 2: "Qua", 3: "Qui", 4: "Sex", 5: "Sáb", 6: "Dom"}
+    is_br = getattr(rules, "currency", "USD") == "BRL"
+    wd_map = (
+        {0: "Seg", 1: "Ter", 2: "Qua", 3: "Qui", 4: "Sex", 5: "Sáb", 6: "Dom"}
+        if is_br
+        else {0: "Mon", 1: "Tue", 2: "Wed", 3: "Thu", 4: "Fri", 5: "Sat", 6: "Sun"}
+    )
     sched_str = " → ".join(
-        f"[bold green]{d.isoformat()} ({wd_pt[d.weekday()]})★[/]"
+        f"[bold green]{d.isoformat()} ({wd_map[d.weekday()]})★[/]"
         if d.weekday() == profile["sacred_py_weekday"]
-        else f"{d.isoformat()} ({wd_pt[d.weekday()]})"
+        else f"{d.isoformat()} ({wd_map[d.weekday()]})"
         for d in schedule_dates
     )
 
@@ -974,14 +1050,28 @@ def _print_teimosinha_summary(
 
     block_win_rate = winning_blocks / n_blocks
 
-    lines = [
-        f"🍀 [bold]Trevo da Sorte Profile[/]: Nascimento [cyan]{b_date}[/] → Número da Sorte [bold yellow]{profile['lucky_number']}[/] | "
-        f"Dia Ideal: [bold green]{profile['sacred_weekday_pt']}[/] | Dias Sorte: {profile['lucky_days']} | Caminho de Vida: {profile['life_path']}",
-        f"📅 [bold]Teimosinha Schedule ({teimosinha} Concursos)[/]: {sched_str}",
-        f"💰 [bold]Investimento[/]: {len(unique_tickets)} jogo(s) × {p_count} dezenas ({single_draw_ticket_cost:.2f} {rules.currency}/concurso) × {teimosinha} concursos = [bold yellow]{total_teimosinha_cost:.2f} {rules.currency}[/]",
-        f"📊 [bold]Persistência Histórica ({teimosinha}-Draw Rolling Blocks)[/]: [bold cyan]{winning_blocks}/{n_blocks}[/] blocos premiados ([bold green]{block_win_rate:.1%}[/] de ciclos com prêmio M{min_prize_tier}+ nos últimos {len(draw_sets)} sorteios)",
-    ]
-    console.print(Panel("\n".join(lines), title=f"🔁 Teimosinha Multi-Draw Analysis ({rules.name})", border_style="yellow"))
+    if is_br:
+        lines = [
+            f"🍀 [bold]Trevo da Sorte Profile[/]: Nascimento [cyan]{b_date}[/] → Número da Sorte [bold yellow]{profile['lucky_number']}[/] | "
+            f"Dia Ideal: [bold green]{profile['sacred_weekday_pt']}[/] | Dias Sorte: {profile['lucky_days']} | Caminho de Vida: {profile['life_path']}",
+            f"📅 [bold]Cronograma Teimosinha ({teimosinha} Concursos)[/]: {sched_str}",
+            f"💰 [bold]Investimento[/]: {len(unique_tickets)} jogo(s) × {p_count} dezenas ({single_draw_ticket_cost:.2f} {rules.currency}/concurso) × {teimosinha} concursos = [bold yellow]{total_teimosinha_cost:.2f} {rules.currency}[/]",
+            f"📊 [bold]Persistência Histórica ({teimosinha}-Draw Rolling Blocks)[/]: [bold cyan]{winning_blocks}/{n_blocks}[/] blocos premiados ([bold green]{block_win_rate:.1%}[/] de ciclos com prêmio M{min_prize_tier}+ nos últimos {len(draw_sets)} sorteios)",
+        ]
+        panel_title = f"🔁 Teimosinha Multi-Draw ({rules.name})"
+    else:
+        en_days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+        sacred_day_name = en_days[profile["sacred_py_weekday"]] if 0 <= profile["sacred_py_weekday"] < 7 else "Day"
+        lines = [
+            f"🍀 [bold]Esoteric Numerology Profile[/]: Birth Date [cyan]{b_date}[/] → Lucky Number [bold yellow]{profile['lucky_number']}[/] | "
+            f"Harmonic Day: [bold green]{sacred_day_name}[/] | Lucky Days: {profile['lucky_days']} | Life Path: {profile['life_path']}",
+            f"📅 [bold]Multi-Draw Schedule ({teimosinha} Draws)[/]: {sched_str}",
+            f"💰 [bold]Investment[/]: {len(unique_tickets)} ticket(s) × {p_count} numbers ({single_draw_ticket_cost:.2f} {rules.currency}/draw) × {teimosinha} draws = [bold yellow]{total_teimosinha_cost:.2f} {rules.currency}[/]",
+            f"📊 [bold]Historical Persistence ({teimosinha}-Draw Rolling Blocks)[/]: [bold cyan]{winning_blocks}/{n_blocks}[/] winning blocks ([bold green]{block_win_rate:.1%}[/] cycle win rate for tier M{min_prize_tier}+ over past {len(draw_sets)} draws)",
+        ]
+        panel_title = f"🔁 Multi-Draw Subscription Analysis ({rules.name})"
+
+    console.print(Panel("\n".join(lines), title=panel_title, border_style="yellow"))
 
 
 def _print_learn_section() -> None:

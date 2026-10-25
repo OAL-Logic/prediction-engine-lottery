@@ -171,6 +171,7 @@ class SuggestionResult:
     scores: dict[int, float]        # per-number score 0–1
     confidence: float = 0.0         # strategy's self-reported confidence
     metadata: dict[str, Any] = field(default_factory=dict)
+    bonus_tickets: list[list[int]] = field(default_factory=list)  # bonus/extra balls per ticket (e.g. Powerball, EuroMillions stars)
 
     def __repr__(self) -> str:
         return (
@@ -538,12 +539,37 @@ class BaseStrategy(ABC):
         except Exception:
             pass
 
+        # Sample bonus balls for multi-pool lotteries (e.g. Powerball, Mega Millions, EuroMillions, +Milionária)
+        bonus_tickets = []
+        if rules.bonus_count > 0 and rules.bonus_range:
+            blo, bhi = rules.bonus_range
+            b_pool = list(range(blo, bhi + 1))
+            b_scores = {b: 1.0 for b in b_pool}
+            if "bonus" in df.columns and not df["bonus"].empty:
+                from collections import Counter
+                flat_b = [b for row in df["bonus"] if isinstance(row, (list, tuple)) for b in row if blo <= b <= bhi]
+                if flat_b:
+                    b_counts = Counter(flat_b)
+                    b_max = max(b_counts.values()) or 1
+                    for b in b_pool:
+                        b_scores[b] = 0.2 + 0.8 * (b_counts.get(b, 0) / b_max)
+            for _ in range(len(tickets)):
+                b_sampled = _weighted_sample(
+                    b_pool,
+                    b_scores,
+                    rules.bonus_count,
+                    active_temp,
+                    rng=local_rng,
+                )
+                bonus_tickets.append(sorted(b_sampled))
+
         result = SuggestionResult(
             strategy_name=self.name,
             tickets=tickets,
             scores=normed,
             confidence=confidence,
-            metadata={"parameters": params, **env_metadata}
+            metadata={"parameters": params, **env_metadata},
+            bonus_tickets=bonus_tickets,
         )
         
         if muon_strike_occurred:

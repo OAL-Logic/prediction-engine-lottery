@@ -62,9 +62,18 @@ class DrawRules:
     @property
     def jackpot_odds(self) -> int:
         """Return the '1 in X' odds for the highest prize tier."""
-        if not self.odds:
-            return 0
-        return self.odds[max(self.odds.keys())]
+        if self.odds:
+            return self.odds[max(self.odds.keys())]
+        from math import comb
+        lo, hi = self.number_range
+        n = hi - lo + 1
+        k = self.pick_count
+        base = comb(n, k) if n >= k else 1
+        if self.bonus_count > 0 and self.bonus_range:
+            blo, bhi = self.bonus_range
+            b_pool = bhi - blo + 1
+            base *= comb(b_pool, self.bonus_count) if b_pool >= self.bonus_count else 1
+        return base
 
     @staticmethod
     def calculate_combination_odds(n: int, k: int) -> int:
