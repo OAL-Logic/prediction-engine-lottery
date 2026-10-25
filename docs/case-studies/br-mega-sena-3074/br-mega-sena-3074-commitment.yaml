@@ -1,0 +1,14 @@
+lottery_id: br/mega-sena
+draw_number: 3074
+draw_date: "2026-10-24"
+mode: "abbreviated_wheel"
+guarantee: "4_if_4"
+pool_size: 10
+tickets_count: 24
+unit_price_brl: 6.00
+total_cost_brl: 144.00
+cryptographic_proof:
+  scheme: "SHA-256 Pre-commitment Hash"
+  tickets_sha256: "3e2af5ca05762dd01b1e8d3819e64585b66afd610bb035d8e7be626bfd176dae"
+  verification_rule: "Hash SHA-256 calculado sobre a representacao JSON canonica dos 24 bilhetes (array de arrays ordenados sem espacos)."
+note: "Os bilhetes brutos permanecem em arquivo local seguro (.local.yaml) ate a apuracao oficial para evitar risco de duplicacao e fracionamento de premio."
