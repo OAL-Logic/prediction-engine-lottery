@@ -16,6 +16,7 @@ The project encompasses four main interfaces:
 
 ### Lottery Assets & Configurations
 - **Lottery Asset / Context (`lottery_id`)**: A specific game identified by country and slug (e.g. `br/mega-sena`, `br/lotofacil`, `br/quina`, `us/powerball`). Defines the game matrix: pool size $N$, draw size $k$, bonus numbers, and prize payout tiers.
+- **Global Compatibility & Jurisdiction Isolation**: Core mathematical, analytical, and combinatorial features are strictly game-agnostic and operate against abstract contracts (`DrawRules`, `GameDefinition`). Commercial rules, jurisdiction scrapers, and game idiosyncrasies (e.g., Brazilian Caixa Loterias rules, US MUSL rules) are isolated in `engine/adapters/<country_code>/`. Features provide pluggable hooks for game-specific rule overrides and workarounds while ensuring seamless compatibility with any world lottery.
 - **Draw Record**: A single historical event with draw number (`concurso`), date, drawn winning numbers, and prize payout statistics.
 - **Candidate Pool**: A chosen subset of numbers ($v$ numbers where $k \le v \le N$) from which tickets will be generated. In legacy Lottery Studio, this pool was artificially restricted to $\le 10$; in this engine, it is completely unrestricted.
 
