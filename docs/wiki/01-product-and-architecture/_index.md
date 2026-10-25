@@ -124,7 +124,10 @@ https://github.com/topics/lottery?o=desc&s=updated
 
 Others
 - [[Links Manifestation Lotofacil|Manifestation & External Links]]
+- [[online-lottery-platforms|Online Lottery Platforms & Messenger Services]]
 - https://www.youtube.com/@jotasilvalotto
+- [TheLotter - Bilhetes de Loteria Online](https://www.thelotter.com/pt/bilhetes-loteria/) (Global lottery ticket courier service)
+- [The National Lottery (UK)](https://www.national-lottery.co.uk/) (Official UK lottery operator — Lotto, EuroMillions, Set For Life)
 
 Some ideas
 - https://www.youtube.com/watch?v=nMIq_Y5lNrQ
@@ -141,6 +144,7 @@ Some ideas
 - https://neoday.com/gamified-experiences/lottery-software/
 
 SaaS idea to compete with [lotosport](https://lotosport.com.br/) ou https://www.somatematica.com.br/loterias/assine.php
+- Online ticket purchases / couriers benchmark: [TheLotter](https://www.thelotter.com/pt/bilhetes-loteria/)
 
 lottery optimize with AI at the end to summarize the results (how to show best value having an AI vs the person getting the output and sending to any LLM)
 

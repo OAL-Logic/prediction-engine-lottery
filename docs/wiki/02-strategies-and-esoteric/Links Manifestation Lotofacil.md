@@ -19,3 +19,8 @@ https://youtu.be/NiJ4UTgqF0s?si=QWh5GXdZ6jpb1sie
 ---
 From time to Time Listen:
 - [Listen To This And Activate Your Mind To Win The Lottery](https://www.youtube.com/watch?v=ElekbBEs9fw)
+
+---
+Online Lottery Ticket Platforms:
+- [TheLotter - Bilhetes de Loteria Online](https://www.thelotter.com/pt/bilhetes-loteria/)
+- [The National Lottery (UK)](https://www.national-lottery.co.uk/)

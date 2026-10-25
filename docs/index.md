@@ -9,7 +9,7 @@
 | Pillar | Index Hub | Files | Scope & Contents |
 | :--- | :--- | :---: | :--- |
 | **1. Clean-Room Studio Reference & Manual** | [**`docs/reference/INDEX.md`**](./reference/INDEX.md) | **122** | Complete data structures (`14`), distilled algorithms & Python boilerplate (`13`), 61-chapter operational manual, 33 strategy guides, and 13 engineering epics. |
-| **2. Project Knowledge Wiki** | [**`docs/wiki/INDEX.md`**](./wiki/INDEX.md) | **46** | Product & architecture specs (`01`), strategy & esoteric guides (`02`), sprint & backlog plans (`03`), and forecast/backtest reports (`04`). |
+| **2. Project Knowledge Wiki** | [**`docs/wiki/INDEX.md`**](./wiki/INDEX.md) | **47** | Product & architecture specs (`01`), strategy & esoteric guides (`02`), sprint & backlog plans (`03`), and forecast/backtest reports (`04`). |
 | **3. Public SamLotto & Saliu Research** | [**`docs/research/INDEX.md`**](./research/INDEX.md) | **159** | Public `samlotto.com` tutorials & filter guides, `saliu.com` fundamental formulas & skip theory, feature maps, and documentation notes. |
 | **4. Architecture Decision Records (ADR)** | [**`docs/adr/INDEX.md`**](./adr/INDEX.md) | **3** | ADR-0001 (Architecture Evaluation) & ADR-0002 (Modern Desktop Cockpit Architecture). |
 | **5. Engineering & AI Session Logs** | [**`docs/sessions/INDEX.md`**](./sessions/INDEX.md) | **59** | Archived design sessions, Gemini chat clippings, and workflow transcripts. |
