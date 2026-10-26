@@ -25,6 +25,24 @@
             "statusMessage": "Design deep pass"
           }
         ]
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/home/ag/.local/bin/bmad-loop relay Stop"
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/home/ag/.local/bin/bmad-loop relay SessionStart"
+          }
+        ]
       }
     ]
   }
