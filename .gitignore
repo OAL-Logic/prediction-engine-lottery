@@ -259,6 +259,7 @@ reports/**/.scratch/
 .scratch/*.md
 lottery_personal.toml
 *.personal.*
+_bmad/config.user.yaml
 
 # Local Ignored Reference & Binary Archives
 reference.local/
