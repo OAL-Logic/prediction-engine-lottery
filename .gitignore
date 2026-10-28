@@ -257,6 +257,14 @@ reports/**/.scratch/
 
 # --- Privacy & No-PII Local Files ---
 .scratch/*.md
+.scratch/browser_session/
+.scratch/**/browser_session/
+.scratch/comprovantes/
+browser_session/
+.browser_session/
+*.session/
+reports/comprovantes/
+reports/**/comprovantes/
 lottery_personal.toml
 *.personal.*
 _bmad/config.user.yaml

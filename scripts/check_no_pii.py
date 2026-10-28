@@ -47,6 +47,8 @@ FORBIDDEN_TRACKED_PATTERNS = (
     re.compile(r"\.local\.ya?ml$"),
     re.compile(r"lottery_personal\.toml$"),
     re.compile(r"\.personal\."),
+    re.compile(r"browser_session"),
+    re.compile(r"(?:^|/)comprovantes(?:/|$)"),
 )
 
 YAML_FULL_NAME_RE = re.compile(r"""^\s*full_name\s*:\s*['"]?([^'"#\n]+?)['"]?\s*(?:#.*)?$""", re.MULTILINE)
