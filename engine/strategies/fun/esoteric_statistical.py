@@ -155,7 +155,7 @@ class EsotericStatisticalStrategy(BaseStrategy):
             # (C) Homologous Historical Reference Resonance (Orbital + Lunar + Weekday)
             t_date_obj = date.fromisoformat(self.target_date[:10])
             t_doy = t_date_obj.timetuple().tm_yday
-            t_lunar = ((t_date_obj.toordinal() - 730120) % 29.530588853) / 29.530588853
+            t_lunar = ((t_date_obj.toordinal() - 730125) % 29.530588853) / 29.530588853
             t_weekday = t_date_obj.weekday()
 
             homologous_Accumulator: dict[int, float] = {n: 0.0 for n in range(lo, hi + 1)}
@@ -178,7 +178,7 @@ class EsotericStatisticalStrategy(BaseStrategy):
                     is_orbital = orbital_dist <= 12.0  # ~12 deg of Earth's orbit
 
                     # Lunar synodic phase circular distance
-                    d_lunar = ((d_obj.toordinal() - 730120) % 29.530588853) / 29.530588853
+                    d_lunar = ((d_obj.toordinal() - 730125) % 29.530588853) / 29.530588853
                     lunar_diff = abs(d_lunar - t_lunar)
                     lunar_dist = min(lunar_diff, 1.0 - lunar_diff)
                     is_lunar = lunar_dist <= 0.10

@@ -331,6 +331,332 @@ class EsotericPipeline:
             "vortex_regime": vortex_regime,
         }
 
+    @classmethod
+    def analyze_historical_correlations(
+        cls,
+        df: Any,
+        rules: Any,
+        target_date: Optional[str] = None,
+        target_time: Optional[str] = "20:00",
+        coords: Tuple[float, float] = (-23.5505, -46.6333),
+    ) -> Dict[str, Any]:
+        """
+        Comprehensive Lunar, Orbital, Tidal, Seasonal & Weekday correlation analysis
+        across all historical draws of any lottery game.
+
+        Computes:
+          1. 8-Phase Lunar Breakdown (draw counts, sum Cohen's d, parity, primes,
+             and top Binomial Z-score numbers per moon phase).
+          2. Continuous Metric vs. Structural Property Pearson r & p-value matrix
+             (Lunar Illumination, Perigee Proximity, Tidal Intensity, Solar/Earth
+             Orbital Cosine, Earth Orbital Velocity vs. Sum, Parity, Primes, Spread).
+          3. Target-Moment Regime Binomial Z-Score Number Resonance across 5 views:
+             - Lunar Phase Window (|Δφ| <= 0.08 around target moon phase)
+             - Lunar Syzygy / Tidal Band (matching tidal regime)
+             - Earth/Solar Orbital Sector (|ΔDOY| <= 15 days around target orbit)
+             - Hemisphere Season (matching target season)
+             - Weekday Cycle (matching target weekday)
+          4. Historical Twin Astronomical Moments (past draws where BOTH Earth's
+             orbital position AND the Moon's synodic phase aligned with target_date).
+        """
+        import math
+        from collections import Counter, defaultdict
+
+        lo, hi = rules.number_range
+        pool_size = max(1, hi - lo + 1)
+        pick = rules.pick_count
+        p_ball = pick / float(pool_size)
+        q_ball = max(1e-9, 1.0 - p_ball)
+
+        t_date = date.fromisoformat(target_date[:10]) if target_date else date.today()
+        t_eph = cls().calculate_celestial_ephemeris(t_date, target_time=target_time or "20:00", coords=coords)
+        t_lunar = ((t_date.toordinal() - 730125) % 29.530588853) / 29.530588853
+        t_dist = (1.0 - math.cos(2.0 * math.pi * ((t_date.toordinal() - 730129) % 27.554551) / 27.554551)) / 2.0
+        t_tide = 0.7 * ((math.cos(4.0 * math.pi * t_lunar) + 1.0) / 2.0) + 0.3 * (1.0 - t_dist)
+        t_doy = t_date.timetuple().tm_yday
+        t_weekday = t_date.weekday()
+        t_season = t_eph["season"]
+        southern_hemisphere = coords[0] < 0
+
+        phase_names = [
+            "New Moon", "Waxing Crescent", "First Quarter", "Waxing Gibbous",
+            "Full Moon", "Waning Gibbous", "Last Quarter", "Waning Crescent",
+        ]
+        t_phase_idx = int(t_lunar * 8) % 8
+        t_phase_label = phase_names[t_phase_idx]
+
+        # Precompute primes in [lo..hi]
+        def _is_prime(num: int) -> bool:
+            if num < 2:
+                return False
+            for k in range(2, int(math.isqrt(num)) + 1):
+                if num % k == 0:
+                    return False
+            return True
+
+        primes_set = {n for n in range(lo, hi + 1) if _is_prime(n)}
+
+        date_col = "date" if "date" in df.columns else ("draw_date" if "draw_date" in df.columns else None)
+        if df.empty or date_col is None or "numbers" not in df.columns:
+            return {"error": "insufficient dated draws"}
+
+        # Collect per-draw records
+        records: list[dict[str, Any]] = []
+        phase_Macro: dict[str, list[dict[str, Any]]] = defaultdict(list)
+        phase_num_counts: dict[str, Counter] = defaultdict(Counter)
+
+        # Regime counters for Target-Moment Z-score views
+        regimes = {
+            "lunar_window": {"n": 0, "counts": Counter(), "label": f"Lunar Window ({t_phase_label}, φ={t_lunar:.1%})"},
+            "tidal_regime": {"n": 0, "counts": Counter(), "label": f"Tidal Regime (Tide={t_tide:.0%})"},
+            "orbital_sector": {"n": 0, "counts": Counter(), "label": f"Earth/Sun Orbit (λ☉={t_eph['sun_longitude_deg']:.1f}° / λ⊕={t_eph['earth_heliocentric_lon_deg']:.1f}°)"},
+            "season_regime": {"n": 0, "counts": Counter(), "label": f"Season ({t_season})"},
+            "weekday_cycle": {"n": 0, "counts": Counter(), "label": f"Weekday ({t_date.strftime('%A')})"},
+        }
+        twin_moments: list[dict[str, Any]] = []
+        twin_counter: Counter = Counter()
+
+        for _, row in df.iterrows():
+            try:
+                d_raw = row[date_col]
+                d_obj = d_raw.date() if hasattr(d_raw, "date") else date.fromisoformat(str(d_raw)[:10])
+                nums = [int(x) for x in row["numbers"] if lo <= int(x) <= hi]
+                if not nums:
+                    continue
+            except Exception:
+                continue
+
+            l_ratio = ((d_obj.toordinal() - 730125) % 29.530588853) / 29.530588853
+            p_idx = int(l_ratio * 8) % 8
+            p_name = phase_names[p_idx]
+            illum = (1.0 - math.cos(2.0 * math.pi * l_ratio)) / 2.0
+            d_ratio = (1.0 - math.cos(2.0 * math.pi * ((d_obj.toordinal() - 730129) % 27.554551) / 27.554551)) / 2.0
+            perigee_prox = 1.0 - d_ratio
+            tide = 0.7 * ((math.cos(4.0 * math.pi * l_ratio) + 1.0) / 2.0) + 0.3 * perigee_prox
+
+            doy = d_obj.timetuple().tm_yday
+            # Approximate solar longitude & orbital velocity
+            sun_lon_approx = (280.460 + 0.9856474 * (d_obj.toordinal() - 730120)) % 360.0
+            mean_anom_rad = math.radians((357.528 + 0.9856003 * (d_obj.toordinal() - 730120)) % 360.0)
+            r_au = 1.00014 - 0.01671 * math.cos(mean_anom_rad)
+            v_orb = 29.7847 * math.sqrt(max(0.5, 2.0 / r_au - 1.0))
+
+            s_quad = int(((sun_lon_approx + 90.0) % 360.0) // 90.0) % 4
+            s_names_south = ["Summer", "Autumn", "Winter", "Spring"]
+            s_names_north = ["Winter", "Spring", "Summer", "Autumn"]
+            s_name = (s_names_south if southern_hemisphere else s_names_north)[s_quad]
+
+            t_sum = float(sum(nums))
+            odd_ratio = sum(1 for x in nums if x % 2 != 0) / float(len(nums))
+            p_cnt = float(sum(1 for x in nums if x in primes_set))
+            spread = float(max(nums) - min(nums)) if len(nums) > 1 else 0.0
+
+            rec = {
+                "draw_id": int(row["draw_id"]) if "draw_id" in row else 0,
+                "date": d_obj.isoformat(),
+                "nums": sorted(nums),
+                "phase_name": p_name,
+                "l_ratio": l_ratio,
+                "illum": illum,
+                "perigee_prox": perigee_prox,
+                "tide": tide,
+                "sun_lon_cos": math.cos(math.radians(sun_lon_approx)),
+                "v_orb": v_orb,
+                "sum": t_sum,
+                "odd_ratio": odd_ratio,
+                "primes": p_cnt,
+                "spread": spread,
+            }
+            records.append(rec)
+            phase_Macro[p_name].append(rec)
+            phase_num_counts[p_name].update(nums)
+
+            # Check target-moment regimes
+            l_diff = abs(l_ratio - t_lunar)
+            l_dist_circ = min(l_diff, 1.0 - l_diff)
+            if l_dist_circ <= 0.08:
+                regimes["lunar_window"]["n"] += 1
+                regimes["lunar_window"]["counts"].update(nums)
+
+            if abs(tide - t_tide) <= 0.15:
+                regimes["tidal_regime"]["n"] += 1
+                regimes["tidal_regime"]["counts"].update(nums)
+
+            doy_diff = abs(doy - t_doy)
+            orb_dist = min(doy_diff, 365.25 - doy_diff)
+            if orb_dist <= 15.0:
+                regimes["orbital_sector"]["n"] += 1
+                regimes["orbital_sector"]["counts"].update(nums)
+
+            if s_name == t_season:
+                regimes["season_regime"]["n"] += 1
+                regimes["season_regime"]["counts"].update(nums)
+
+            if d_obj.weekday() == t_weekday:
+                regimes["weekday_cycle"]["n"] += 1
+                regimes["weekday_cycle"]["counts"].update(nums)
+
+            # Twin astronomical moment: BOTH orbital (<= 15 days) AND lunar (<= 0.10)
+            if orb_dist <= 15.0 and l_dist_circ <= 0.10:
+                twin_moments.append({
+                    "draw_id": rec["draw_id"],
+                    "date": rec["date"],
+                    "lunar_phase": f"{p_name} ({l_ratio:.0%})",
+                    "sun_lon": round(sun_lon_approx, 1),
+                    "numbers": rec["nums"],
+                    "sum": int(t_sum),
+                })
+                twin_counter.update(nums)
+
+        if not records:
+            return {"error": "no valid records"}
+
+        all_sums = np.array([r["sum"] for r in records], dtype=float)
+        grand_sum_mean = float(np.mean(all_sums))
+        grand_sum_std = float(np.std(all_sums)) or 1.0
+
+        # 1. Build 8-Phase Lunar Breakdown Table
+        lunar_phase_table = []
+        for p_name in phase_names:
+            p_recs = phase_Macro.get(p_name, [])
+            n_p = len(p_recs)
+            if n_p == 0:
+                continue
+            m_sum = float(np.mean([r["sum"] for r in p_recs]))
+            s_d = (m_sum - grand_sum_mean) / grand_sum_std
+            m_odd = float(np.mean([r["odd_ratio"] for r in p_recs]))
+            m_prm = float(np.mean([r["primes"] for r in p_recs]))
+
+            exp_cnt = n_p * p_ball
+            std_cnt = math.sqrt(max(1e-9, n_p * p_ball * q_ball))
+            z_list = []
+            for num in range(lo, hi + 1):
+                obs = phase_num_counts[p_name].get(num, 0)
+                z_val = (obs - exp_cnt) / std_cnt
+                lift = ((obs / exp_cnt) - 1.0) * 100.0 if exp_cnt > 0 else 0.0
+                z_list.append((num, obs, round(z_val, 2), round(lift, 1)))
+            z_list.sort(key=lambda item: item[2], reverse=True)
+
+            lunar_phase_table.append({
+                "phase": p_name,
+                "is_target": (p_name == t_phase_label),
+                "n": n_p,
+                "mean_sum": round(m_sum, 1),
+                "sum_d": round(s_d, 2),
+                "mean_odd_pct": round(m_odd * 100.0, 1),
+                "mean_primes": round(m_prm, 2),
+                "top_numbers": z_list[:5],
+            })
+
+        # 2. Continuous Pearson r & p-value Matrix
+        from scipy import stats as _sp_stats
+
+        metric_cols = [
+            ("Lunar Illumination (0=New..1=Full)", "illum"),
+            ("Lunar Perigee Proximity (0=Apogee..1=Perigee)", "perigee_prox"),
+            ("Gravitational Tidal Intensity", "tide"),
+            ("Solar/Earth Orbital Cosine", "sun_lon_cos"),
+            ("Earth Orbital Velocity (km/s)", "v_orb"),
+        ]
+        struct_cols = [
+            ("Ticket Sum", "sum"),
+            ("Odd Parity Ratio", "odd_ratio"),
+            ("Prime Count", "primes"),
+            ("Number Spread", "spread"),
+        ]
+        continuous_correlations = []
+        for m_label, m_key in metric_cols:
+            x_arr = np.array([r[m_key] for r in records], dtype=float)
+            row_corrs = {"metric": m_label, "correlations": {}}
+            for s_label, s_key in struct_cols:
+                y_arr = np.array([r[s_key] for r in records], dtype=float)
+                if np.std(x_arr) > 1e-9 and np.std(y_arr) > 1e-9:
+                    r_val, p_val = _sp_stats.pearsonr(x_arr, y_arr)
+                else:
+                    r_val, p_val = 0.0, 1.0
+                row_corrs["correlations"][s_label] = {
+                    "r": round(float(r_val), 4),
+                    "p": round(float(p_val), 4),
+                }
+            continuous_correlations.append(row_corrs)
+
+        # 3. Target-Moment Regime Binomial Z-Score Number Resonance
+        metric_number_resonances = {}
+        for r_key, r_data in regimes.items():
+            n_r = r_data["n"]
+            if n_r < 5:
+                continue
+            exp_r = n_r * p_ball
+            std_r = math.sqrt(max(1e-9, n_r * p_ball * q_ball))
+            z_map = {}
+            ranked = []
+            obs_vec = []
+            for num in range(lo, hi + 1):
+                obs = r_data["counts"].get(num, 0)
+                obs_vec.append(obs)
+                z_v = (obs - exp_r) / std_r
+                lift_v = ((obs / exp_r) - 1.0) * 100.0 if exp_r > 0 else 0.0
+                z_map[num] = round(z_v, 3)
+                ranked.append((num, round(z_v, 2), round(lift_v, 1), obs, round(exp_r, 1)))
+            ranked.sort(key=lambda x: x[1], reverse=True)
+            exp_vec = [exp_r] * pool_size
+            try:
+                chi2_v, p_v = _sp_stats.chisquare(obs_vec, f_exp=exp_vec)
+                chi2_f, p_f = round(float(chi2_v), 2), round(float(p_v), 4)
+            except Exception:
+                chi2_f, p_f = 0.0, 1.0
+            metric_number_resonances[r_key] = {
+                "label": r_data["label"],
+                "n_draws": n_r,
+                "chi2": chi2_f,
+                "p_value": p_f,
+                "top_positive_z": ranked[:8],
+                "z_map": z_map,
+            }
+
+        # 4. Composite Multi-Correlation Convergence Score across all 5 views
+        composite_z_ranking = []
+        for num in range(lo, hi + 1):
+            z_lun = metric_number_resonances.get("lunar_window", {}).get("z_map", {}).get(num, 0.0)
+            z_tid = metric_number_resonances.get("tidal_regime", {}).get("z_map", {}).get(num, 0.0)
+            z_orb = metric_number_resonances.get("orbital_sector", {}).get("z_map", {}).get(num, 0.0)
+            z_sea = metric_number_resonances.get("season_regime", {}).get("z_map", {}).get(num, 0.0)
+            z_wkd = metric_number_resonances.get("weekday_cycle", {}).get("z_map", {}).get(num, 0.0)
+            # Weighted convergence favoring Lunar + Orbital + Tidal alignment
+            z_comp = 0.30 * z_lun + 0.30 * z_orb + 0.15 * z_tid + 0.15 * z_sea + 0.10 * z_wkd
+            composite_z_ranking.append({
+                "number": num,
+                "composite_z": round(z_comp, 3),
+                "lunar_z": round(z_lun, 2),
+                "orbital_z": round(z_orb, 2),
+                "tidal_z": round(z_tid, 2),
+                "season_z": round(z_sea, 2),
+                "weekday_z": round(z_wkd, 2),
+            })
+        composite_z_ranking.sort(key=lambda item: item["composite_z"], reverse=True)
+
+        twin_moments.sort(key=lambda r: r["date"], reverse=True)
+        top_twin_numbers = [
+            {"number": num, "count": cnt, "pct": round(cnt / max(1, len(twin_moments)) * 100.0, 1)}
+            for num, cnt in twin_counter.most_common(12)
+        ]
+
+        return {
+            "target_date": t_date.isoformat(),
+            "target_time": target_time or "20:00",
+            "total_dated_draws": len(records),
+            "target_phase_name": t_phase_label,
+            "target_lunar_ratio": round(t_lunar, 4),
+            "target_tide_intensity": round(t_tide, 4),
+            "lunar_phase_table": lunar_phase_table,
+            "continuous_correlations": continuous_correlations,
+            "metric_number_resonances": metric_number_resonances,
+            "composite_z_ranking": composite_z_ranking,
+            "twin_moments_count": len(twin_moments),
+            "twin_moments_recent": twin_moments[:10],
+            "top_twin_numbers": top_twin_numbers,
+        }
+
     def compile_context(
         self,
         full_name: str = "",

@@ -221,6 +221,10 @@ def detect_patterns(
         help="Step between windows")] = 10,
     export_md: Annotated[Optional[str], typer.Option("--export-md",
         help="Export pattern log to this .md file")] = None,
+    target_date: Annotated[Optional[str], typer.Option("--target-date", "-d",
+        help="Target draw date (YYYY-MM-DD) for lunar/orbital/metric number correlation views")] = None,
+    target_time: Annotated[Optional[str], typer.Option("--target-time", "--time",
+        help="Scheduled draw time (HH:MM) for ephemeris correlation alignment")] = "20:00",
 ) -> None:
     """🔭 Esoteric Overlay: detect if esoteric cycle markers correlate with stable signal windows.
 
@@ -363,6 +367,123 @@ def detect_patterns(
             "The esoteric markers tested show no significant correlation with "
             "strategy stability at this threshold.[/yellow]"
         )
+
+    # ── Deep Historical Lunar, Orbital & Multi-Metric Number Correlations ─────
+    if esoteric in ("lunar", "cyclical", "all") or target_date:
+        try:
+            from engine.modules.esoteric_pipeline import EsotericPipeline
+            coords = adapter.get_draw_location() if hasattr(adapter, "get_draw_location") else (-23.5505, -46.6333)
+            corr = EsotericPipeline.analyze_historical_correlations(
+                df=df,
+                rules=adapter.rules,
+                target_date=target_date,
+                target_time=target_time,
+                coords=coords,
+            )
+            if "error" not in corr:
+                console.print()
+                console.rule(f"[bold yellow]🌕 VIEW 1: HISTORICAL 8-PHASE LUNAR CORRELATION ({corr['total_dated_draws']} Draws)[/bold yellow]")
+                ltab = Table(header_style="bold yellow", box=None, padding=(0, 1))
+                ltab.add_column("Moon Phase", style="cyan")
+                ltab.add_column("n", justify="right")
+                ltab.add_column("Mean Sum (d)", justify="right")
+                ltab.add_column("Odd%", justify="right")
+                ltab.add_column("Primes", justify="right")
+                ltab.add_column("Top Positively Correlated Numbers (Z-score / Lift%)", style="green")
+                for prow in corr["lunar_phase_table"]:
+                    p_lbl = f"★ {prow['phase']} (TARGET)" if prow["is_target"] else f"  {prow['phase']}"
+                    top_str = ", ".join(f"{num:02d}(Z={z:+.2f},{lift:+.0f}%)" for num, _, z, lift in prow["top_numbers"])
+                    ltab.add_row(
+                        f"[bold magenta]{p_lbl}[/bold magenta]" if prow["is_target"] else p_lbl,
+                        str(prow["n"]),
+                        f"{prow['mean_sum']:.1f} ({prow['sum_d']:+.2f})",
+                        f"{prow['mean_odd_pct']:.1f}%",
+                        f"{prow['mean_primes']:.2f}",
+                        top_str,
+                    )
+                console.print(ltab)
+
+                console.print()
+                console.rule("[bold cyan]📈 VIEW 2: CONTINUOUS METRIC × STRUCTURAL CORRELATION MATRIX (Pearson r / p)[/bold cyan]")
+                ctab = Table(header_style="bold cyan", box=None, padding=(0, 2))
+                ctab.add_column("Physical / Celestial Metric", style="cyan")
+                ctab.add_column("Ticket Sum", justify="right")
+                ctab.add_column("Odd Parity", justify="right")
+                ctab.add_column("Prime Count", justify="right")
+                ctab.add_column("Spread", justify="right")
+                for crow in corr["continuous_correlations"]:
+                    cdict = crow["correlations"]
+                    def _fmt_rp(d_rp):
+                        r_v, p_v = d_rp["r"], d_rp["p"]
+                        star = "[bold green]*[/bold green]" if p_v < 0.05 else ""
+                        return f"r={r_v:+.4f} (p={p_v:.2f}){star}"
+                    ctab.add_row(
+                        crow["metric"],
+                        _fmt_rp(cdict["Ticket Sum"]),
+                        _fmt_rp(cdict["Odd Parity Ratio"]),
+                        _fmt_rp(cdict["Prime Count"]),
+                        _fmt_rp(cdict["Number Spread"]),
+                    )
+                console.print(ctab)
+
+                console.print()
+                console.rule(f"[bold green]🎯 VIEW 3: TARGET-MOMENT ({corr['target_date']} {corr['target_time']}) NUMBER Z-SCORE RESONANCE[/bold green]")
+                rtab = Table(header_style="bold green", box=None, padding=(0, 1))
+                rtab.add_column("Target Regime Dimension", style="cyan")
+                rtab.add_column("n", justify="right")
+                rtab.add_column("χ² (p-val)", justify="right")
+                rtab.add_column("Top Correlated Numbers in Past Periods (Z-score / Lift%)", style="bold white")
+                for _, rinfo in corr["metric_number_resonances"].items():
+                    top_z_str = ", ".join(
+                        f"[bold green]{num:02d}[/bold green](Z={z:+.2f},{lift:+.0f}%)"
+                        for num, z, lift, _, _ in rinfo["top_positive_z"][:6]
+                    )
+                    rtab.add_row(
+                        rinfo["label"],
+                        str(rinfo["n_draws"]),
+                        f"{rinfo['chi2']:.1f} ({rinfo['p_value']:.3f})",
+                        top_z_str,
+                    )
+                console.print(rtab)
+
+                top_comp = corr["composite_z_ranking"][:12]
+                comp_str = ", ".join(
+                    f"[bold yellow]{item['number']:02d}[/bold yellow](Zc={item['composite_z']:+.2f} | Lun={item['lunar_z']:+.1f}, Orb={item['orbital_z']:+.1f}, Tide={item['tidal_z']:+.1f})"
+                    for item in top_comp
+                )
+                console.print(Panel(
+                    f"Top 12 Composite Multi-Metric Correlated Numbers:\n{comp_str}",
+                    title=f"⭐ Multi-Correlation Convergence Ranking ({corr['target_date']})",
+                    border_style="yellow",
+                ))
+
+                console.print()
+                console.rule(f"[bold magenta]🔭 VIEW 4: TWIN ASTRONOMICAL MOMENTS REPLAY (Same Earth Orbit + Same Moon Phase: n={corr['twin_moments_count']})[/bold magenta]")
+                if corr["twin_moments_recent"]:
+                    ttab = Table(header_style="bold magenta", box=None, padding=(0, 2))
+                    ttab.add_column("Draw", justify="right")
+                    ttab.add_column("Date", style="cyan")
+                    ttab.add_column("Moon Phase", style="yellow")
+                    ttab.add_column("Sun Lon", justify="right")
+                    ttab.add_column("Sum", justify="right")
+                    ttab.add_column("Winning Numbers Drawn in Twin Period", style="green")
+                    for tm in corr["twin_moments_recent"][:8]:
+                        ttab.add_row(
+                            str(tm["draw_id"]),
+                            tm["date"],
+                            tm["lunar_phase"],
+                            f"{tm['sun_lon']}°",
+                            str(tm["sum"]),
+                            str(tm["numbers"]),
+                        )
+                    console.print(ttab)
+                    twin_top_str = ", ".join(
+                        f"[bold cyan]{item['number']:02d}[/bold cyan] ({item['count']}x / {item['pct']}%)"
+                        for item in corr["top_twin_numbers"][:10]
+                    )
+                    console.print(f"  [bold]Most Frequent Numbers in Twin Orbital+Lunar Periods:[/bold] {twin_top_str}")
+        except Exception as exc:
+            console.print(f"[yellow]⚠ Deep lunar/metric correlation view skipped: {exc}[/yellow]")
 
     if export_md:
         _export_md(export_md, adapter.rules.name, strategy, esoteric,

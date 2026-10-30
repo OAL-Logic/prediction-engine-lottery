@@ -148,3 +148,33 @@ def test_esoteric_statistical_multi_archetype():
             assert len(t) == rules.pick_count
             assert all(lo <= n <= hi for n in t)
             assert len(set(t)) == rules.pick_count
+
+
+def test_analyze_historical_correlations_multi_archetype():
+    """Verify EsotericPipeline.analyze_historical_correlations across 3 distinct game archetypes."""
+    import pandas as pd
+    from engine.cli.utils import get_adapter
+
+    for slug in ("br/mega-sena", "br/lotofacil", "us/powerball"):
+        adapter = get_adapter(slug)
+        rules = adapter.rules
+        lo, hi = rules.number_range
+        df = pd.DataFrame({
+            "draw_id": list(range(1, 16)),
+            "date": [f"2025-10-{15 + i:02d}" for i in range(15)],
+            "numbers": [
+                list(range(lo + (i % 5), lo + (i % 5) + rules.pick_count))
+                for i in range(15)
+            ],
+        })
+        corr = EsotericPipeline.analyze_historical_correlations(
+            df=df,
+            rules=rules,
+            target_date="2026-10-29",
+            target_time="20:00",
+        )
+        assert "error" not in corr
+        assert corr["total_dated_draws"] == 15
+        assert len(corr["lunar_phase_table"]) > 0
+        assert len(corr["continuous_correlations"]) == 5
+        assert len(corr["composite_z_ranking"]) == (hi - lo + 1)

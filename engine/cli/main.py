@@ -509,10 +509,12 @@ def detect_patterns(
     window: Annotated[int, typer.Option("--limit", "-L", help="Rolling window size in draws")] = 50,
     step: Annotated[int, typer.Option("--step", help="Step between windows")] = 10,
     export_md: Annotated[Optional[str], typer.Option("--export-md", help="Export pattern log to this .md file")] = None,
+    target_date: Annotated[Optional[str], typer.Option("--target-date", "-d", help="Target draw date (YYYY-MM-DD) for lunar/orbital/metric number correlation views")] = None,
+    target_time: Annotated[Optional[str], typer.Option("--target-time", "--time", help="Scheduled draw time (HH:MM) for ephemeris correlation alignment")] = "20:00",
 ):
     """🔍 Search for environmental correlations (Solar/Lunar/Cyclical)."""
     from engine.cli.commands.detect_patterns import detect_patterns as impl
-    return impl(lottery, esoteric, strategy, threshold, window, step, export_md)
+    return impl(lottery, esoteric, strategy, threshold, window, step, export_md, target_date, target_time)
 
 @app.command(rich_help_panel=PANEL_ANALYTICS)
 def entropy_scan(
