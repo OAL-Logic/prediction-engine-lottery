@@ -204,6 +204,133 @@ class EsotericPipeline:
         result = get_cached_data(f"esoteric_weather_{lat}_{lon}_{target_date.isoformat()}", _do_fetch, ttl=86400)
         return result if result is not None else _do_fetch()
 
+    def calculate_celestial_ephemeris(
+        self,
+        target_date: date,
+        target_time: str = "20:00",
+        coords: Tuple[float, float] = (-23.5505, -46.6333),
+        wind_kmh: Optional[float] = None,
+        precip_mm: Optional[float] = None,
+        pressure_hpa: Optional[float] = None,
+    ) -> Dict[str, Any]:
+        """
+        Computes exact deterministic astronomical, seasonal, telluric, and
+        severe-weather/vortex metrics for a given draw date, time, and location.
+        Works across all world jurisdictions (Northern/Southern hemisphere aware).
+        """
+        import math
+        from datetime import datetime as _dt, timedelta as _td
+        from engine.strategies.fun.planetary_transits import (
+            get_julian_date,
+            get_obliquity,
+            get_lst,
+            get_kepler_longitude,
+        )
+        from engine.strategies.fun.moon_phase import (
+            moon_phase_ratio,
+            moon_distance_ratio,
+            phase_name,
+        )
+
+        # Parse HH:MM
+        try:
+            parts = target_time.strip().split(":")
+            hour = int(parts[0])
+            minute = int(parts[1]) if len(parts) > 1 else 0
+        except Exception:
+            hour, minute = 20, 0
+
+        lat, lon = float(coords[0]), float(coords[1])
+        # Approximate timezone offset from longitude (or -3.0 for Brazil coordinates)
+        tz_offset = -3.0 if (-35.0 <= lat <= 5.0 and -75.0 <= lon <= -30.0) else round(lon / 15.0)
+        local_dt = _dt(target_date.year, target_date.month, target_date.day, hour, minute, 0)
+        utc_dt = local_dt - _td(hours=tz_offset)
+
+        jd = get_julian_date(utc_dt)
+        obl = get_obliquity(jd)
+        lst_deg = get_lst(jd, lon)
+
+        # Solar & Lunar Ecliptic Longitudes (0-360 deg)
+        sun_lon = round(float(get_kepler_longitude("sun", utc_dt)), 4)
+        moon_lon = round(float(get_kepler_longitude("moon", utc_dt)), 4)
+
+        # Earth Heliocentric Longitude (opposite to Sun geocentric longitude)
+        earth_helio_lon = round((sun_lon + 180.0) % 360.0, 4)
+
+        # Earth-Sun distance in AU (Keplerian eccentricity approximation)
+        T = (jd - 2451545.0) / 36525.0
+        M_earth = math.radians((357.52911 + 35999.05029 * T) % 360.0)
+        e_earth = 0.016708634 - 0.000042037 * T
+        earth_sun_dist_au = round(1.000001018 * (1.0 - e_earth * math.cos(M_earth)), 6)
+
+        # Earth orbital velocity km/s (Vis-Viva equation: v ≈ 29.78 * sqrt(2/r - 1))
+        earth_orbital_vel_kms = round(29.7847 * math.sqrt(max(0.1, 2.0 / earth_sun_dist_au - 1.0)), 4)
+
+        # Season determination (Hemisphere-aware via ecliptic solar longitude)
+        # 0-90: Spring (NH) / Autumn (SH)
+        # 90-180: Summer (NH) / Winter (SH)
+        # 180-270: Autumn (NH) / Spring (SH)
+        # 270-360: Winter (NH) / Summer (SH)
+        quadrant = int(sun_lon // 90) % 4
+        is_southern = lat < 0
+        sh_seasons = ["Autumn", "Winter", "Spring", "Summer"]
+        nh_seasons = ["Spring", "Summer", "Autumn", "Winter"]
+        season = sh_seasons[quadrant] if is_southern else nh_seasons[quadrant]
+        season_progress = round((sun_lon % 90.0) / 90.0, 4)
+
+        # Diurnal period & Hour Angle
+        hour_fraction = (hour * 60 + minute) / 1440.0
+        if 5 <= hour < 12:
+            diurnal_period = "Morning"
+        elif 12 <= hour < 18:
+            diurnal_period = "Afternoon"
+        elif 18 <= hour < 22:
+            diurnal_period = "Evening/Nocturnal"
+        else:
+            diurnal_period = "Late Night"
+
+        # Lunar anomalistic distance & phase name
+        l_phase = moon_phase_ratio(target_date)
+        l_dist_ratio = round(moon_distance_ratio(target_date), 4)
+        l_phase_name = phase_name(target_date)
+
+        # Atmospheric Vortex / Tornado / Cyclone Convective Potential Index (0.0 - 1.0)
+        # Combines wind shear proxy, precipitation intensity, and low barometric pressure drop
+        w_val = wind_kmh if wind_kmh is not None else 12.0
+        p_val = precip_mm if precip_mm is not None else 0.0
+        pr_val = pressure_hpa if pressure_hpa is not None else 1013.25
+        pressure_drop = max(0.0, 1015.0 - pr_val)
+        vortex_index = min(1.0, (w_val / 90.0) * 0.45 + (min(p_val, 80.0) / 80.0) * 0.35 + (pressure_drop / 35.0) * 0.20)
+        vortex_index = round(float(vortex_index), 4)
+        if vortex_index >= 0.65:
+            vortex_regime = "Severe Convective / Tornado-Vortex Alert"
+        elif vortex_index >= 0.30:
+            vortex_regime = "Moderate Baroclinic / Storm Instability"
+        else:
+            vortex_regime = "Stable / Laminar Atmospheric Flow"
+
+        return {
+            "target_time": f"{hour:02d}:{minute:02d}",
+            "julian_date": round(jd, 5),
+            "local_sidereal_time_deg": round(lst_deg, 4),
+            "obliquity_deg": round(obl, 4),
+            "sun_longitude_deg": sun_lon,
+            "moon_longitude_deg": moon_lon,
+            "lunar_phase_name": l_phase_name,
+            "lunar_distance_ratio": l_dist_ratio,
+            "earth_heliocentric_lon_deg": earth_helio_lon,
+            "earth_sun_distance_au": earth_sun_dist_au,
+            "earth_orbital_velocity_kms": earth_orbital_vel_kms,
+            "season": season,
+            "season_progress": season_progress,
+            "diurnal_period": diurnal_period,
+            "diurnal_fraction": round(hour_fraction, 4),
+            "wind_speed_kmh": round(w_val, 2),
+            "pressure_hpa": round(pr_val, 2),
+            "vortex_convective_index": vortex_index,
+            "vortex_regime": vortex_regime,
+        }
+
     def compile_context(
         self,
         full_name: str = "",
@@ -216,6 +343,9 @@ class EsotericPipeline:
         override_tide_level: Optional[float] = None,
         override_temp_c: Optional[float] = None,
         override_precip_mm: Optional[float] = None,
+        target_time: Optional[str] = None,
+        override_wind_kmh: Optional[float] = None,
+        override_pressure_hpa: Optional[float] = None,
     ) -> Dict[str, Any]:
         """
         Aggregates all personal and environmental features into a canonical
@@ -250,7 +380,7 @@ class EsotericPipeline:
             w = self.fetch_weather(coords[0], coords[1], t_date)
             temp_c, precip_mm = w.get("temperature_c"), w.get("precip_mm")
 
-        return {
+        ctx: Dict[str, Any] = {
             "full_name": full_name,
             "birth_date": b_date.isoformat(),
             "coords": coords,
@@ -271,6 +401,18 @@ class EsotericPipeline:
                 "precip_mm": round(precip_mm, 2) if precip_mm is not None else None,
             }
         }
+
+        if target_time is not None or override_wind_kmh is not None or override_pressure_hpa is not None:
+            ctx["celestial_ephemeris"] = self.calculate_celestial_ephemeris(
+                target_date=t_date,
+                target_time=target_time or "20:00",
+                coords=coords,
+                wind_kmh=override_wind_kmh,
+                precip_mm=precip_mm,
+                pressure_hpa=override_pressure_hpa,
+            )
+
+        return ctx
 
     def derive_seed(self, context: Dict[str, Any]) -> int:
         """
@@ -331,6 +473,30 @@ class EsotericPipeline:
             # Amplification peaking during spring tides (high tide_level)
             tide = context["environmental"]["tide_level"]
             base_w = min(1.0, base_w * (1.0 + tide * 0.1))
+
+            # Celestial Ephemeris & Vortex Resonance (when target_time / ephemeris is active)
+            ephem = context.get("celestial_ephemeris")
+            if ephem:
+                pool_size = max(1, hi - lo + 1)
+                sun_deg = float(ephem.get("sun_longitude_deg", 0.0))
+                moon_deg = float(ephem.get("moon_longitude_deg", 0.0))
+                earth_deg = float(ephem.get("earth_heliocentric_lon_deg", 0.0))
+                lst_deg = float(ephem.get("local_sidereal_time_deg", 0.0))
+                vortex_idx = float(ephem.get("vortex_convective_index", 0.0))
+
+                # Harmonic Modulo Projection onto Game Pool [lo..hi]
+                resonant_nodes = {
+                    (int(round(sun_deg)) % pool_size) + lo,
+                    (int(round(moon_deg)) % pool_size) + lo,
+                    (int(round(earth_deg)) % pool_size) + lo,
+                    (int(round(lst_deg)) % pool_size) + lo,
+                }
+                if n in resonant_nodes:
+                    base_w = min(1.0, base_w * 1.12)
+
+                # Vortex / Severe Weather Convective Modulation
+                if vortex_idx >= 0.30:
+                    base_w = min(1.0, base_w + vortex_idx * 0.08 * rng.uniform(0.2, 1.0))
             
             raw_weights[n] = float(round(base_w, 6))
             
@@ -350,6 +516,9 @@ def build_environmental_seed(
     target_date: Optional[date] = None,
     full_name: str = "",
     birth_date: str = "1990-01-01",
+    target_time: Optional[str] = None,
+    wind_kmh: Optional[float] = None,
+    pressure_hpa: Optional[float] = None,
     **overrides: Any,
 ) -> Tuple[int, Dict[str, Any]]:
     """
@@ -372,12 +541,17 @@ def build_environmental_seed(
     (seed, context) — `context` is the full ingredient breakdown, suitable for
     printing so the choice stays fully auditable.
     """
+    if wind_kmh is not None:
+        overrides.setdefault("override_wind_kmh", wind_kmh)
+    if pressure_hpa is not None:
+        overrides.setdefault("override_pressure_hpa", pressure_hpa)
     pipeline = EsotericPipeline()
     context = pipeline.compile_context(
         full_name=full_name,
         birth_date=birth_date,
         coords=coords,
         target_date=target_date.isoformat() if target_date else None,
+        target_time=target_time,
         **overrides,
     )
     seed = pipeline.derive_seed(context)

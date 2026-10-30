@@ -79,6 +79,7 @@ packaging = [
 ]
 
 [project.scripts]
+p4lottery = "engine.cli.main:app"
 lottery = "engine.cli.main:app"
 lottery-desktop = "desktop.src.main:main"
 

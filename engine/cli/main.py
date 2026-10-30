@@ -242,6 +242,9 @@ def suggest(
         help="Cross-check today's lunar/solar bucket against historical draws with a chi-squared "
              "significance test, and print the (honest) result. Implies --weather-seed.")] = False,
     target_date: Annotated[Optional[str], typer.Option("--target-date", "-d", help="Target draw date (YYYY-MM-DD) for temporal/esoteric alignment and multi-draw start")] = None,
+    target_time: Annotated[Optional[str], typer.Option("--target-time", "--time", help="Scheduled draw time (HH:MM, e.g. 20:00) for diurnal/sidereal/orbital ephemeris alignment")] = None,
+    wind_kmh: Annotated[Optional[float], typer.Option("--wind-kmh", help="Atmospheric wind / vortex speed override (km/h)")] = None,
+    pressure_hpa: Annotated[Optional[float], typer.Option("--pressure-hpa", help="Barometric pressure override (hPa, e.g. 1013.25)")] = None,
     teimosinha: Annotated[Optional[int], typer.Option("--teimosinha", "-T", help="Teimosinha / Multi-draw consecutive draws count")] = None,
     multi_draw: Annotated[Optional[int], typer.Option("--multi-draw", "-M", help="Multi-draw consecutive draws count (alias for --teimosinha)")] = None,
     target_entropy: Annotated[Optional[float], typer.Option("--target-entropy", help="Calibrate sampling temperature dynamically to match target Shannon entropy (e.g. 2.8)")] = None,
@@ -276,6 +279,9 @@ def suggest(
         weather_seed=weather_seed,
         esoteric_mode=esoteric_mode,
         target_date=target_date,
+        target_time=target_time,
+        wind_kmh=wind_kmh,
+        pressure_hpa=pressure_hpa,
         teimosinha=teimosinha,
         multi_draw=multi_draw,
         target_entropy=target_entropy,
@@ -1012,15 +1018,33 @@ def pool_evolution(
 def wheel(
     lottery: Annotated[str, typer.Argument(help="Lottery name [Required]")],
     pool: Annotated[Optional[str], typer.Option("--pool", "-p", help="Space/comma-separated list of numbers to wheel")] = None,
-    mode: Annotated[str, typer.Option("--mode", "-m", help="Wheel type: full | key | abbreviated")] = "full",
+    mode: Annotated[str, typer.Option("--mode", "-m", help="Wheel type: full | key | abbreviated | budget")] = "full",
     keys: Annotated[Optional[str], typer.Option("--keys", "-k", help="Numbers that MUST appear in every ticket (for key mode)")] = None,
-    guarantee: Annotated[int, typer.Option("--guarantee", "-g", help="Match guarantee (e.g. 4 for '4 if 6')")] = 4,
+    guarantee: Annotated[Optional[int], typer.Option("--guarantee", "-g", "-t", help="Match guarantee (e.g. 4 for '4 if 6')")] = None,
     test: Annotated[Optional[str], typer.Option("--test", help="Evaluate wheel against these winning numbers")] = None,
-    preset: Annotated[Optional[str], typer.Option("--preset", help="Use a predefined number pool (e.g. 'hot-10', 'overdue-12')")] = None,
+    preset: Annotated[Optional[str], typer.Option("--preset", help="Use a predefined number pool (e.g. 'hot-10', 'overdue-12', 'dual-core')")] = None,
+    budget: Annotated[Optional[float], typer.Option("--budget", "-b", help="Total financial budget for budget-constrained wheeling")] = None,
+    reduction_strategy: Annotated[str, typer.Option("--reduction-strategy", "-r", help="Budget reduction mode: reduce-coverage (Uniform) | reduce-pool (Universe)")] = "reduce-coverage",
+    pool_size: Annotated[Optional[int], typer.Option("--pool-size", "-v", help="Candidate pool size v when auto-scoring pool")] = None,
+    target_date: Annotated[Optional[str], typer.Option("--target-date", "-d", help="Target draw ISO date/datetime for Dual-Core contextual scoring")] = None,
+    export_json_path: Annotated[Optional[str], typer.Option("--export", "-o", help="Export generated wheel combinations and coverage audit to a JSON file")] = None,
 ):
-    """🎡 Generate combinatorial wheels for a pool of numbers."""
+    """🎡 Generate combinatorial wheels (full, key, abbreviated, or budget-constrained Dual-Core)."""
     from engine.cli.commands.management import wheel as impl
-    return impl(lottery, pool, mode, keys, guarantee, test, preset)
+    return impl(
+        lottery=lottery,
+        pool=pool,
+        mode=mode,
+        keys=keys,
+        guarantee=guarantee,
+        test=test,
+        preset=preset,
+        budget=budget,
+        reduction_strategy=reduction_strategy,
+        pool_size=pool_size,
+        target_date=target_date,
+        export_json_path=export_json_path,
+    )
 
 @app.command(name="genetic-wheel", rich_help_panel=PANEL_BETTING)
 def genetic_wheel(
@@ -1739,10 +1763,10 @@ def export(
 @app.command(name="import-drawings", rich_help_panel=PANEL_SYSTEM)
 def import_drawings(
     lottery: Annotated[str, typer.Argument(help="Lottery name [Required], e.g. br/mega-sena")],
-    file: Annotated[Path, typer.Argument(help="Path to Lottery Studio space-delimited .txt file")],
+    file: Annotated[Path, typer.Argument(help="Path to historical drawings file (.csv, .json, .txt, .dat)")],
     dry_run: Annotated[bool, typer.Option("--dry-run", help="Validate and preview only — do not write to storage")] = False,
 ):
-    """📥 Ingest historical lottery drawings from a Lottery Studio flat .txt file (Lottery Studio A8)."""
+    """📥 Ingest historical lottery drawings from .csv, .json, or flat .txt files into local storage."""
     from engine.cli.commands.import_drawings import import_drawings as impl
     return impl(lottery, file, dry_run)
 
@@ -1976,10 +2000,13 @@ def ticket_backtest(
 def seed_audit(
     lottery: Annotated[str, typer.Argument(help="Lottery name [Required]")],
     date: Annotated[Optional[str], typer.Option("--date", help="Date to audit, YYYY-MM-DD (default: today)")] = None,
+    target_time: Annotated[Optional[str], typer.Option("--time", "--target-time", help="Scheduled draw time HH:MM (e.g. 20:00) for diurnal/sidereal/orbital ephemeris")] = None,
+    wind_kmh: Annotated[Optional[float], typer.Option("--wind-kmh", help="Atmospheric wind / vortex speed override (km/h)")] = None,
+    pressure_hpa: Annotated[Optional[float], typer.Option("--pressure-hpa", help="Barometric pressure override (hPa, e.g. 1013.25)")] = None,
 ):
     """🌍🔍 Preview the deterministic --weather-seed for a given date, without running a generation."""
     from engine.cli.commands.seed_audit import seed_audit as impl
-    return impl(lottery, date)
+    return impl(lottery, date, target_time, wind_kmh, pressure_hpa)
 
 @app.command(name="property-tests", rich_help_panel=PANEL_VERIFY)
 def property_tests(

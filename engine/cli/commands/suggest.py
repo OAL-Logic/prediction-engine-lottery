@@ -119,6 +119,9 @@ def suggest(
         help="Cross-check today's lunar/solar bucket against historical draws with a chi-squared "
              "significance test, and print the (honest) result. Implies --weather-seed.")] = False,
     target_date: Annotated[Optional[str], typer.Option("--target-date", "-d", help="Target draw date (YYYY-MM-DD) for temporal/esoteric alignment and multi-draw start")] = None,
+    target_time: Annotated[Optional[str], typer.Option("--target-time", "--time", help="Scheduled draw time (HH:MM, e.g. 20:00) for diurnal/sidereal/orbital ephemeris alignment")] = None,
+    wind_kmh: Annotated[Optional[float], typer.Option("--wind-kmh", help="Atmospheric wind / vortex speed override (km/h)")] = None,
+    pressure_hpa: Annotated[Optional[float], typer.Option("--pressure-hpa", help="Barometric pressure override (hPa, e.g. 1013.25)")] = None,
     teimosinha: Annotated[Optional[int], typer.Option("--teimosinha", "-T", help="Teimosinha / multi-draw consecutive draws count")] = None,
     multi_draw: Annotated[Optional[int], typer.Option("--multi-draw", "-M", help="Multi-draw consecutive draws count (alias for --teimosinha)")] = None,
     target_entropy: Annotated[Optional[float], typer.Option("--target-entropy", help="Calibrate sampling temperature dynamically to match target Shannon entropy (e.g. 2.8)")] = None,
@@ -141,6 +144,12 @@ def suggest(
             personal_data["draw_date"] = date.fromisoformat(target_date)
         except ValueError:
             pass
+    if target_time:
+        personal_data["target_time"] = target_time
+    if wind_kmh is not None:
+        personal_data["wind_kmh"] = wind_kmh
+    if pressure_hpa is not None:
+        personal_data["pressure_hpa"] = pressure_hpa
     if effective_teimosinha is not None and effective_teimosinha > 0:
         personal_data["teimosinha_draws"] = effective_teimosinha
 
@@ -339,13 +348,33 @@ def _run_comparison(
         from engine.modules.esoteric_pipeline import build_environmental_seed
         coords = _resolve_draw_location(adapter, lottery)
         try:
-            env_seed, env_context = build_environmental_seed(coords, target_date=target_date_obj)
+            env_seed, env_context = build_environmental_seed(
+                coords,
+                target_date=target_date_obj,
+                target_time=personal_data.get("target_time"),
+                wind_kmh=personal_data.get("wind_kmh"),
+                pressure_hpa=personal_data.get("pressure_hpa"),
+            )
             env = env_context["environmental"]
+            ephem_line = ""
+            if "celestial_ephemeris" in env_context:
+                eph = env_context["celestial_ephemeris"]
+                ephem_line = (
+                    f"Time: [bold]{eph['target_time']}[/bold] ({eph['diurnal_period']})   "
+                    f"Season: [bold]{eph['season']}[/bold] ({eph['season_progress']:.0%})   "
+                    f"Moon: [bold]{eph['lunar_phase_name']}[/bold] ({eph['moon_longitude_deg']}°)\n"
+                    f"Sun Lon: {eph['sun_longitude_deg']}°   Earth Helioc. Lon: {eph['earth_heliocentric_lon_deg']}°   "
+                    f"Earth-Sun: {eph['earth_sun_distance_au']} AU ({eph['earth_orbital_velocity_kms']} km/s)\n"
+                    f"Sidereal Time: {eph['local_sidereal_time_deg']}°   "
+                    f"Vortex/Tornado Index: {eph['vortex_convective_index']:.2f} ({eph['vortex_regime']}, "
+                    f"wind={eph.get('wind_speed_kmh', 12.0)} km/h, P={eph.get('pressure_hpa', 1013.25)} hPa)\n"
+                )
             console.print(Panel(
                 f"Date: [bold]{env_context['target_date']}[/bold]   Coords: {coords}\n"
                 f"Temp: {env['temperature_c']}°C   Precip: {env['precip_mm']}mm   "
                 f"Solar Kp: {env['solar_kp']}   Lunar phase: {env['lunar_phase']:.0%}   "
                 f"Tide: {env['tide_level']:.0%}\n"
+                f"{ephem_line}"
                 f"→ Deterministic seed: [bold yellow]{env_seed}[/bold yellow]  "
                 f"[dim](SHA-256 of the values above — reproducible; NOT a win-probability signal.\n"
                 f" {adapter.rules.name} draws are independent random events regardless of this seed.)[/dim]",

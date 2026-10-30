@@ -30,18 +30,22 @@ class EsotericStatisticalStrategy(BaseStrategy):
 
     def __init__(
         self,
-        full_name: str = "GEMINI USER",
-        birth_date: str = "1995-05-15",
+        full_name: str = "GEMINI ENGINE",
+        birth_date: str = "1990-01-01",
         coords_str: str = "-23.5505,-46.6333", # Coordinates for São Paulo Caixa base
         target_date: str | None = None,
+        target_time: str | None = None,
         solar_kp: float | None = None,
         seismic_mag: float | None = None,
         lunar_phase: float | None = None,
         tide_level: float | None = None,
+        wind_kmh: float | None = None,
+        pressure_hpa: float | None = None,
         weight_personal: float = 0.40,
         weight_lunar: float = 0.20,
         weight_solar: float = 0.20,
         weight_seismic: float = 0.20,
+        **kwargs: Any,
     ) -> None:
         """
         Parameters
@@ -54,6 +58,8 @@ class EsotericStatisticalStrategy(BaseStrategy):
             Latitude and longitude separated by comma (e.g., "-23.5505,-46.6333").
         target_date : str | None
             ISO-8601 target draw date string.
+        target_time : str | None
+            Scheduled draw time in HH:MM format (e.g., "20:00").
         solar_kp : float | None
             Planetary Kp override for testing.
         seismic_mag : float | None
@@ -73,13 +79,16 @@ class EsotericStatisticalStrategy(BaseStrategy):
         except Exception:
             self.coords = (-23.5505, -46.6333)
             
-        self.target_date = target_date or date.today().isoformat()
+        self.target_date = str(target_date)[:10] if target_date else date.today().isoformat()
+        self.target_time = target_time
         
         # Overrides
         self.solar_kp = solar_kp
         self.seismic_mag = seismic_mag
         self.lunar_phase = lunar_phase
         self.tide_level = tide_level
+        self.wind_kmh = wind_kmh
+        self.pressure_hpa = pressure_hpa
         
         # Ingestion pipeline instance
         self.pipeline = EsotericPipeline()
@@ -97,14 +106,125 @@ class EsotericStatisticalStrategy(BaseStrategy):
             birth_date=self.birth_date,
             coords=self.coords,
             target_date=self.target_date,
+            target_time=self.target_time,
             override_solar_kp=self.solar_kp,
             override_seismic_mag=self.seismic_mag,
             override_lunar_phase=self.lunar_phase,
-            override_tide_level=self.tide_level
+            override_tide_level=self.tide_level,
+            override_wind_kmh=self.wind_kmh,
+            override_pressure_hpa=self.pressure_hpa,
         )
         
         # Generate deterministic weights using deterministic hash mapping
-        seed, weights = self.pipeline.generate_weights(context, lo, hi)
+        seed, esot_weights = self.pipeline.generate_weights(context, lo, hi)
+        
+        # Multi-Domain Synthesis:
+        # 1. Esoteric / Celestial / Geophysical / Vortex / Spiritual (esot_weights)
+        # 2. Timeless Statistical Frequency (full historical distribution)
+        # 3. Temporal Cycle Completion & Recency Momentum (missing cycle numbers + EWMA)
+        # 4. Homologous Historical Reference Resonance (draws at same Earth orbital
+        #    longitude, same Lunar synodic phase, and same Weekday cycle)
+        weights = dict(esot_weights)
+        if not df.empty and "numbers" in df.columns:
+            from collections import Counter
+            pool_size = max(1, hi - lo + 1)
+
+            # (A) Timeless empirical frequency
+            counts = Counter(n for row in df["numbers"] for n in row if lo <= n <= hi)
+            max_c = max(counts.values()) if counts else 1
+            timeless_freq = {n: counts.get(n, 0) / max_c for n in range(lo, hi + 1)}
+
+            # (B) Temporal Cycle Completion & Recent Momentum (last 50 draws)
+            seen_in_cycle: set[int] = set()
+            for row in reversed(df["numbers"].tolist()):
+                row_valid = {n for n in row if lo <= n <= hi}
+                if len(seen_in_cycle | row_valid) >= pool_size:
+                    break
+                seen_in_cycle |= row_valid
+            missing_in_cycle = set(range(lo, hi + 1)) - seen_in_cycle
+
+            recent_rows = df["numbers"].tail(50).tolist()
+            rec_counts = Counter(n for row in recent_rows for n in row if lo <= n <= hi)
+            max_rec = max(rec_counts.values()) if rec_counts else 1
+            temporal_score = {}
+            for n in range(lo, hi + 1):
+                cycle_boost = 1.0 if n in missing_in_cycle else 0.0
+                rec_norm = rec_counts.get(n, 0) / max_rec
+                temporal_score[n] = 0.65 * rec_norm + 0.35 * cycle_boost
+
+            # (C) Homologous Historical Reference Resonance (Orbital + Lunar + Weekday)
+            t_date_obj = date.fromisoformat(self.target_date[:10])
+            t_doy = t_date_obj.timetuple().tm_yday
+            t_lunar = ((t_date_obj.toordinal() - 730120) % 29.530588853) / 29.530588853
+            t_weekday = t_date_obj.weekday()
+
+            homologous_Accumulator: dict[int, float] = {n: 0.0 for n in range(lo, hi + 1)}
+            orbital_matches = 0
+            lunar_matches = 0
+            weekday_matches = 0
+
+            date_col = "date" if "date" in df.columns else ("draw_date" if "draw_date" in df.columns else None)
+            if date_col:
+                for dt_val, nums in zip(df[date_col], df["numbers"]):
+                    try:
+                        d_str = str(dt_val)[:10]
+                        d_obj = date.fromisoformat(d_str)
+                    except Exception:
+                        continue
+                    # Earth heliocentric / seasonal day-of-year circular distance
+                    d_doy = d_obj.timetuple().tm_yday
+                    doy_diff = abs(d_doy - t_doy)
+                    orbital_dist = min(doy_diff, 365.25 - doy_diff)
+                    is_orbital = orbital_dist <= 12.0  # ~12 deg of Earth's orbit
+
+                    # Lunar synodic phase circular distance
+                    d_lunar = ((d_obj.toordinal() - 730120) % 29.530588853) / 29.530588853
+                    lunar_diff = abs(d_lunar - t_lunar)
+                    lunar_dist = min(lunar_diff, 1.0 - lunar_diff)
+                    is_lunar = lunar_dist <= 0.10
+
+                    # Same weekday
+                    is_weekday = (d_obj.weekday() == t_weekday)
+
+                    sim_w = 0.0
+                    if is_orbital:
+                        orbital_matches += 1
+                        sim_w += 0.45 * (1.0 - orbital_dist / 15.0)
+                    if is_lunar:
+                        lunar_matches += 1
+                        sim_w += 0.35 * (1.0 - lunar_dist / 0.12)
+                    if is_weekday:
+                        weekday_matches += 1
+                        sim_w += 0.20
+
+                    if sim_w > 0.0:
+                        for n in nums:
+                            if lo <= n <= hi:
+                                homologous_Accumulator[n] += sim_w
+
+            max_hom = max(homologous_Accumulator.values()) if any(homologous_Accumulator.values()) else 1.0
+            homologous_score = {
+                n: (homologous_Accumulator[n] / max_hom) if max_hom > 0 else 0.5
+                for n in range(lo, hi + 1)
+            }
+
+            for n in range(lo, hi + 1):
+                weights[n] = round(
+                    0.35 * esot_weights.get(n, 0.5)
+                    + 0.25 * timeless_freq.get(n, 0.5)
+                    + 0.20 * temporal_score.get(n, 0.5)
+                    + 0.20 * homologous_score.get(n, 0.5),
+                    6,
+                )
+
+            top_homologous = sorted(homologous_score.items(), key=lambda kv: kv[1], reverse=True)[:10]
+            context["homologous_resonance"] = {
+                "orbital_homologues_count": orbital_matches,
+                "lunar_homologues_count": lunar_matches,
+                "weekday_homologues_count": weekday_matches,
+                "cycle_missing_numbers": sorted(missing_in_cycle),
+                "top_homologous_numbers": [n for n, _ in top_homologous],
+            }
         
         # Store for metadata access in suggest()
         self._last_context = context
@@ -210,28 +330,24 @@ class EsotericStatisticalStrategy(BaseStrategy):
             if t_sum < sum_min or t_sum > sum_max:
                 continue
                 
-            # Gate C: Historical Cluster Detection (Prevent decade crowding)
-            if pick == 5:
-                # Quina (1-80): Max 2 numbers in any decade
-                decade_counts = [0] * 9
-                for n in ticket:
-                    decade_counts[(n - 1) // 10] += 1
-                if max(decade_counts) > 2:
-                    continue
-            elif pick == 6:
-                # Mega-Sena (1-60): Max 3 numbers in any decade
-                decade_counts = [0] * 7
-                for n in ticket:
-                    decade_counts[(n - 1) // 10] += 1
-                if max(decade_counts) > 3:
-                    continue
-            elif pick == 15:
-                # Max 5 numbers in any row (decade equivalent on 5x5 grid)
-                row_counts = [0] * 6
-                for n in ticket:
-                    row_counts[(n - 1) // 5] += 1
-                if max(row_counts) > 5:
-                    continue
+            # Gate C: Universal Row/Decade Cluster Detection (Game-agnostic via rules.board_cols)
+            row_width = max(5, getattr(rules, "board_cols", 10) or 10)
+            pool_span = max(1, hi - lo + 1)
+            num_rows = max(1, (pool_span + row_width - 1) // row_width)
+            expected_per_row = pick / float(num_rows)
+            # Dynamic maximum per row: 2 for pick=5 on 8 rows, 3 for pick=6 on 6 rows, 4 for pick=15 on 5 rows
+            if pick <= 5 and num_rows >= 6:
+                max_row_cluster = 2
+            elif pick <= 6 and num_rows >= 5:
+                max_row_cluster = 3
+            else:
+                max_row_cluster = max(2, min(row_width, int(np.ceil(expected_per_row * 1.65))))
+            row_counts = [0] * (num_rows + 1)
+            for n in ticket:
+                idx = min(num_rows, max(0, (n - lo) // row_width))
+                row_counts[idx] += 1
+            if max(row_counts) > max_row_cluster:
+                continue
                     
             # Gate D: Optional Harmony Filters from CLI
             if filters_list and not self.is_harmonious(ticket, rules, filters=filters_list, k_of_n=k_of_n, df=df, birth_date=self.birth_date, target_date=self.target_date):

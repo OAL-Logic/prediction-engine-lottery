@@ -43,3 +43,12 @@ Single-context — one `CONTEXT.md` + `docs/adr/` at the repo root. See `docs/ag
 3. **Zero Redundant Prefixes**: Never prefix files with `<game_slug>_` when already residing within `<game_slug>/`.
 4. **Git Maintenance & PII Bar**: Curated markdown reports are tracked in version control. Ephemeral local drafts (`*.local.*`, `*.tmp.*`, `.scratch/`) are git-ignored. All committed reports must strictly comply with the No-PII policy (`python3 scripts/check_no_pii.py`). See `docs/agents/reports.md` and `.agents/rules/reports.md`.
 
+### Single Canonical CLI Policy (`p4lottery` / `lottery`)
+
+**STRICT RULE — `p4lottery` IS THE ONLY CLI UTILITY IN THIS PROJECT**:
+1. **No Standalone or Parallel CLIs**: Never create separate CLI utilities, standalone root-level entrypoints (e.g., `cli.py`, `lottery-omni-generator`), or shadow top-level packages (`core/`, `combinatorics/`, `db/`) outside `engine/`. `./p4lottery` (and its Python package entrypoint alias `lottery` in `engine/cli/main.py`) is the single canonical CLI utility for the entire repository.
+2. **Embed Engine Features into `p4lottery`**: Any new prediction strategy, statistical/contextual scorer, combinatorial wheel algorithm, budget reduction mode, or data ingestion capability that belongs to the engine must be integrated directly into `engine/` (`engine/cli/`, `engine/modules/`, `engine/strategies/`, `engine/wheels/`) and exposed through `./p4lottery` (`lottery`).
+3. **Targeted Scripts vs. CLI Engine**: If you need to evaluate or automate something very specific that is not part of the core CLI engine (e.g., repository guardrails, browser dispatchers, one-off benchmarks), create an isolated script under `scripts/` (or `.scratch/` for ephemeral experiments) rather than creating a competing CLI.
+4. **Skills Orchestrate `p4lottery`**: Agent workflows and multi-step pipelines (such as `.agents/skills/lottery-omni-generator/SKILL.md`, `lottery-suggest`, `lottery-wheel`, `lottery-backtest`, `lottery-analyze`, `lottery-scan`) must be implemented as Agent Skills under `.agents/skills/` that invoke and interact with `./p4lottery` (`lottery`). See `docs/agents/cli-policy.md` and `.agents/rules/cli-policy.md`.
+
+

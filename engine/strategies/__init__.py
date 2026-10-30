@@ -84,6 +84,7 @@ STRATEGY_REGISTRY = {
     "nash_equilibrium": {"module": "engine.strategies.statistical.nash_equilibrium", "tier": "statistical", "description": "♟️ Nash Equilibrium (Game Theory)"},
     "stefan_mandel": {"module": "engine.strategies.statistical.stefan_mandel", "tier": "statistical", "description": "💼 Stefan Mandel Arbitrage — targets jackpots exceeding combinatorial cost with optimal coverage"},
     "hazard_weibull": {"module": "engine.strategies.statistical.hazard_weibull", "tier": "statistical", "description": "⌛ Hazard Rate & Weibull Delay — parametric & empirical survival hazard modeling for overdue numbers"},
+    "dual_core": {"module": "engine.strategies.statistical.dual_core", "tier": "statistical", "description": "⚖️🌌 Dual-Core 80% Statistical (H10/H50/All/Delay/Quadrant) + 20% Astronomical Context"},
     
     # ML
     "logistic": {"module": "engine.strategies.ml.logistic", "tier": "ml", "description": "Logistic Regression"},

@@ -1,20 +1,33 @@
 ---
 name: lottery-omni-generator
-description: Generate highly optimized lottery tickets using all available CLI features, backtesting, and translating esoteric variables into deterministic seeds. Use when user wants advanced, esoteric, or fully optimized game predictions.
+description: Generate highly optimized lottery tickets using all available p4lottery CLI features, backtesting, Dual-Core 80/20 scoring, and budget-constrained wheels. Use when user wants advanced, esoteric, or fully optimized game predictions.
 ---
-# Lottery Omni Generator
+# Lottery Omni Generator (`p4lottery` Workflow Skill)
 
-Use this skill to generate optimized lottery tickets by extracting maximum value from the CLI engine, incorporating all available filters, and implementing deterministic seeds from esoteric or environmental variables.
+Use this skill to generate optimized lottery tickets by orchestrating the canonical `./p4lottery` (`lottery`) CLI engine — combining Dual-Core 80/20 statistical/contextual scoring (`dual_core`, `esoteric_statistical`), structural harmony filters, backtesting, and budget-constrained combinatorial wheels (`reduce-coverage` / `reduce-pool`).
+
+> **Strict Rule**: Never create a standalone `cli.py` or separate CLI utility for `lottery-omni-generator`. Always use `./p4lottery` (`engine/cli/main.py`).
 
 ## Steps
 
-1. **Clarify scope**: Ask the user which game (e.g., Lotofácil, Quina), the target contest, the pool size/ticket count, and whether to include esoteric conditions (weather, date, moon phase). Wait for their answer before proceeding.
-2. **Reconnaissance**: Read `README.md` and execute the CLI's help command (e.g. `lottery --help`) to discover every available argument, model, and filter.
-3. **Refactor for esoteric seeds**: If the user requested esoteric conditions, modify the Python engine to translate these environmental variables into deterministic parameters (e.g., high-entropy PRNG seeds, historical time-series correlations). Expose them via CLI flags.
-4. **Backtest**: Execute the CLI to run backtests crossing traditional structural boundaries (parity, sum, primes, frequency z-score) with the new esoteric parameters. Iterate until you find the parameter configuration that maximizes statistical resilience.
-5. **Generate**: Run the final CLI command to output the candidate tickets. 
-6. **Report**: The task is complete when you provide the user with:
-   - Code diffs of the engine refactor (if any).
-   - The exact CLI commands executed.
-   - The final generated combinations.
-   - The mathematical justification connecting the environmental inputs and structural filters to the chosen numbers.
+1. **Clarify scope**: Ask the user which game (e.g., `br/mega-sena`, `br/lotofacil`, `us/powerball`), the target draw date/time, the budget or ticket count, and whether to include esoteric/astronomical context or budget-constrained wheeling (`reduce-coverage` vs `reduce-pool`). Wait for their answer before proceeding.
+2. **Reconnaissance & Data Readiness**:
+   - Inspect `./p4lottery --help`, `./p4lottery wheel --help`, and `./p4lottery suggest --help`.
+   - Ensure historical data is available via `./p4lottery fetch <game>` or `./p4lottery import-drawings <game> <file>`.
+3. **Evaluate & Backtest via `p4lottery`**:
+   - Run `./p4lottery backtest <game> --strategy dual_core,esoteric_statistical,weighted` or `./p4lottery calibrate <game>` to verify statistical resilience across historical draws.
+   - Audit deterministic environmental/astronomical seeds with `./p4lottery seed-audit <game> --date <YYYY-MM-DD> --time <HH:MM>`.
+4. **Generate Optimized Tickets or Budget-Bounded Wheels via `p4lottery`**:
+   - For budget-constrained combinatorial wheels (80% Statistical + 20% Astronomical Context with `CoverageAudit`):
+     ```bash
+     ./p4lottery wheel <game> --budget <BRL> --reduction-strategy reduce-coverage --target-date <ISO> --export <path.json>
+     ./p4lottery wheel <game> --budget <BRL> --reduction-strategy reduce-pool --target-date <ISO> --export <path.json>
+     ```
+   - For strategy-driven ticket generation with structural filters and deterministic weather/astronomical seeds:
+     ```bash
+     ./p4lottery suggest <game> --strategy dual_core --count <N> --target-date <YYYY-MM-DD> --target-time <HH:MM> --weather-seed --filters balanced
+     ```
+5. **Report**: Provide the user with:
+   - The exact `./p4lottery` commands executed.
+   - The generated combinations, parity/sum/recurrence breakdown, and combinatorial coverage/financial audit.
+   - The mathematical justification connecting the Dual-Core statistical/contextual scores and structural filters to the selected numbers.

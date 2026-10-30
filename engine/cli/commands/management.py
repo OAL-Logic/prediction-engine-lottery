@@ -188,25 +188,224 @@ def simulate(
     console.print(table)
 
 
+def _format_budget_wheel_output(result: Any, ctx: Any, rules: Any) -> None:
+    """Render Rich tables for budget-constrained Dual-Core wheel results."""
+    from rich.box import ROUNDED
+    from rich.panel import Panel
+
+    astro = ctx.astronomy
+    phase_names = ["New Moon 🌑", "First Quarter 🌓", "Full Moon 🌕", "Last Quarter 🌗"]
+    phase_idx = int((astro.lunar_phase + 0.125) % 1.0 / 0.25)
+    phase_name = phase_names[phase_idx]
+
+    info = (
+        f"[bold cyan]Target Date:[/bold cyan]            {astro.target_time.strftime('%Y-%m-%d %H:%M:%S %Z')}\n"
+        f"[bold cyan]Lunar Synodic Phase:[/bold cyan]    {astro.lunar_phase:.4f} ({phase_name}, Illumination: {astro.lunar_illumination * 100:.1f}%)\n"
+        f"[bold cyan]Solar Declination:[/bold cyan]      {astro.solar_declination_deg:+.2f}° (Day of Year: {astro.day_of_year}/365)\n"
+        f"[bold cyan]Seasonal Harmonics:[/bold cyan]     sin={astro.solar_harmonic_sin:+.4f}, cos={astro.solar_harmonic_cos:+.4f}\n"
+        f"[bold cyan]Deterministic Mapping:[/bold cyan]  SHA-256 Epoch Modulo (Zero PRNG Drift)"
+    )
+    console.print(Panel(info, title="🌌 Deterministic Environmental & Astronomical Context (20% Weight)", border_style="cyan"))
+
+    has_recurrence = any(t.recurrence_count is not None for t in result.tickets)
+    has_bonus = any(bool(t.bonus) for t in result.tickets)
+
+    tkt_table = Table(
+        title=f"🎲 Generated Combinations — {rules.name.upper()}",
+        box=ROUNDED,
+        show_header=True,
+        header_style="bold cyan",
+    )
+    tkt_table.add_column("Tkt #", justify="center", style="bold yellow")
+    tkt_table.add_column("Numbers", justify="left", style="bold green")
+    if has_bonus:
+        tkt_table.add_column("Bonus", justify="center", style="bold magenta")
+    tkt_table.add_column("Evens / Odds", justify="center")
+    tkt_table.add_column("Sum", justify="center")
+    tkt_table.add_column("Mean S(n)", justify="right", style="cyan")
+    if has_recurrence:
+        tkt_table.add_column("Recurrence (D-1)", justify="center", style="magenta")
+
+    for tkt in result.tickets:
+        nums_str = " ".join(f"{n:02d}" for n in tkt.numbers)
+        parity_str = f"{tkt.even_count}E / {tkt.odd_count}O"
+        row_cells = [f"#{tkt.ticket_id:02d}", nums_str]
+        if has_bonus:
+            row_cells.append(" ".join(f"{b:02d}" for b in tkt.bonus))
+        row_cells.extend([parity_str, str(tkt.total_sum), f"{tkt.mean_score:.4f}"])
+        if has_recurrence:
+            rec_str = f"{tkt.recurrence_count} / {rules.pick_count}" if tkt.recurrence_count is not None else "—"
+            row_cells.append(rec_str)
+        tkt_table.add_row(*row_cells)
+
+    console.print(tkt_table)
+
+    audit = result.audit
+    cur = audit.currency
+    audit_table = Table(
+        title="📊 Combinatorial Coverage & Financial Audit",
+        box=ROUNDED,
+        show_header=True,
+        header_style="bold magenta",
+    )
+    audit_table.add_column("Metric", style="bold white")
+    audit_table.add_column("Value", style="cyan")
+
+    audit_table.add_row("Lottery Game", rules.name)
+    audit_table.add_row("Reduction Strategy", audit.reduction_strategy_used)
+    audit_table.add_row("Candidate Pool (v)", f"{audit.total_pool_v} numbers")
+    audit_table.add_row("Ticket Size (k)", f"{audit.ticket_size_k} numbers")
+    audit_table.add_row("Guarantee Condition (t)", f"Match {audit.guarantee_t} of {audit.drawn_m}")
+    audit_table.add_row("Total t-subsets in Pool", f"{audit.total_subsets_to_cover:,}")
+    audit_table.add_row("Subsets Covered within Budget", f"{audit.subsets_covered:,}")
+    cov_style = "bold green" if audit.coverage_percentage >= 99.9 else "bold yellow"
+    audit_table.add_row("Coverage Percentage", f"[{cov_style}]{audit.coverage_percentage:.2f}%[/{cov_style}]")
+    audit_table.add_row("100% Mathematical Guarantee", "✅ YES" if audit.is_100_percent_guarantee else "❌ NO (Partial)")
+    audit_table.add_row("Tickets Generated", f"{audit.tickets_generated} tickets")
+    audit_table.add_row("Unit Ticket Cost", f"{cur} {audit.ticket_cost:.2f}")
+    audit_table.add_row("Total Financial Spend", f"{cur} {audit.total_cost:.2f}")
+    audit_table.add_row("Allocated Budget", f"{cur} {audit.total_budget:.2f}")
+    audit_table.add_row("Budget Headroom Remaining", f"{cur} {audit.total_budget - audit.total_cost:.2f}")
+    audit_table.add_row("Active Candidate Pool", " ".join(f"{n:02d}" for n in audit.pool_numbers))
+    console.print(audit_table)
+
+
+def _export_budget_wheel_json(result: Any, path: Path, ctx: Any) -> None:
+    """Export budget-constrained wheel execution result and audit metadata to JSON."""
+    from datetime import datetime
+    data = {
+        "generator": "p4lottery",
+        "generated_at": datetime.now().isoformat(),
+        "target_context": {
+            "iso_timestamp": ctx.astronomy.iso_timestamp,
+            "lunar_phase": ctx.astronomy.lunar_phase,
+            "lunar_illumination": ctx.astronomy.lunar_illumination,
+            "solar_declination_deg": ctx.astronomy.solar_declination_deg,
+            "day_of_year": ctx.astronomy.day_of_year,
+        },
+        "audit": {
+            "game": result.audit.game,
+            "currency": result.audit.currency,
+            "reduction_strategy": result.audit.reduction_strategy_used,
+            "total_pool_v": result.audit.total_pool_v,
+            "ticket_size_k": result.audit.ticket_size_k,
+            "guarantee_t": result.audit.guarantee_t,
+            "subsets_covered": result.audit.subsets_covered,
+            "total_subsets": result.audit.total_subsets_to_cover,
+            "coverage_percentage": result.audit.coverage_percentage,
+            "is_100_percent_guarantee": result.audit.is_100_percent_guarantee,
+            "tickets_generated": result.audit.tickets_generated,
+            "ticket_cost": result.audit.ticket_cost,
+            "total_cost": result.audit.total_cost,
+            "total_budget": result.audit.total_budget,
+            "pool_numbers": result.audit.pool_numbers,
+        },
+        "candidate_scores": result.candidate_scores,
+        "tickets": [
+            {
+                "ticket_id": t.ticket_id,
+                "numbers": t.numbers,
+                "bonus": t.bonus,
+                "even_count": t.even_count,
+                "odd_count": t.odd_count,
+                "total_sum": t.total_sum,
+                "mean_score": t.mean_score,
+                "recurrence_count": t.recurrence_count,
+            }
+            for t in result.tickets
+        ],
+    }
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+
+
 def wheel(
     lottery: Annotated[str, typer.Argument(help="Lottery name [Required]")],
     pool: Annotated[Optional[str], typer.Option("--pool", "-p", help="Space/comma-separated list of numbers to wheel")] = None,
-    mode: Annotated[str, typer.Option("--mode", "-m", help="Wheel type: full | key | abbreviated")] = "full",
+    mode: Annotated[str, typer.Option("--mode", "-m", help="Wheel type: full | key | abbreviated | budget")] = "full",
     keys: Annotated[Optional[str], typer.Option("--keys", "-k", help="Numbers that MUST appear in every ticket (for key mode)")] = None,
-    guarantee: Annotated[int, typer.Option("--guarantee", "-g", help="Match guarantee (e.g. 4 for '4 if 6')")] = 4,
+    guarantee: Annotated[Optional[int], typer.Option("--guarantee", "-g", "-t", help="Match guarantee (e.g. 4 for '4 if 6')")] = None,
     test: Annotated[Optional[str], typer.Option("--test", help="Evaluate wheel against these winning numbers")] = None,
-    preset: Annotated[Optional[str], typer.Option("--preset", help="Use a predefined number pool (e.g. 'hot-10', 'overdue-12')")] = None,
+    preset: Annotated[Optional[str], typer.Option("--preset", help="Use a predefined number pool (e.g. 'hot-10', 'overdue-12', 'dual-core')")] = None,
+    budget: Annotated[Optional[float], typer.Option("--budget", "-b", help="Total financial budget for budget-constrained wheeling")] = None,
+    reduction_strategy: Annotated[str, typer.Option("--reduction-strategy", "-r", help="Budget reduction mode: reduce-coverage | reduce-pool")] = "reduce-coverage",
+    pool_size: Annotated[Optional[int], typer.Option("--pool-size", "-v", help="Candidate pool size v when auto-scoring pool")] = None,
+    target_date: Annotated[Optional[str], typer.Option("--target-date", "-d", help="Target draw ISO date/datetime for Dual-Core contextual scoring")] = None,
+    export_json_path: Annotated[Optional[str], typer.Option("--export", "-o", help="Export generated wheel combinations and coverage audit to a JSON file")] = None,
 ) -> None:
     """🎡 Generate combinatorial wheels for a pool of numbers."""
-    from engine.wheels import generate_full_wheel, generate_key_wheel, generate_abbreviated_wheel, evaluate_prizes
-    
-    if not pool and not preset:
-        console.print("[red]✗ Pool is required. Use --pool or --preset.[/red]")
-        raise typer.Exit(1)
+    from engine.wheels import (
+        WheelEngine,
+        evaluate_prizes,
+        generate_abbreviated_wheel,
+        generate_full_wheel,
+        generate_key_wheel,
+    )
 
     adapter = get_adapter(lottery)
     rules = adapter.rules
-    
+
+    use_budget_engine = (
+        budget is not None
+        or mode == "budget"
+        or preset == "dual-core"
+        or pool_size is not None
+        or export_json_path is not None
+    )
+
+    if use_budget_engine:
+        from engine.modules.dual_core import ContextEngine, DualCoreScorer, StatisticalPipeline
+        from engine.modules.storage import storage
+
+        df = adapter.fetch()
+        ctx_engine = ContextEngine(target_iso=target_date)
+        s_ctx = ctx_engine.generate_context_scores(rules)
+        pipeline = StatisticalPipeline(history=df, rules=rules)
+        s_stat = pipeline.compute_stat_scores()
+        composite_scores = DualCoreScorer(stat_scores=s_stat, ctx_scores=s_ctx).compute_composite_scores()
+
+        explicit_pool = sorted(int(n) for n in pool.replace(",", " ").split()) if pool else None
+        effective_budget = budget if budget is not None else float(rules.ticket_price * 10)
+
+        wheel_engine = WheelEngine(rules=rules, cache=storage)
+        try:
+            result = wheel_engine.generate_wheel(
+                scores=composite_scores,
+                budget=effective_budget,
+                pool_size=pool_size,
+                pool_numbers=explicit_pool,
+                guarantee_t=guarantee,
+                reduction_strategy=reduction_strategy,
+                last_draw=pipeline.last_draw,
+            )
+        except ValueError as exc:
+            console.print(f"[bold red]✗ {exc}[/bold red]")
+            raise typer.Exit(1)
+
+        _format_budget_wheel_output(result, ctx_engine, rules)
+
+        if export_json_path:
+            out_path = Path(export_json_path)
+            _export_budget_wheel_json(result, out_path, ctx_engine)
+            console.print(f"\n[bold green]✓ Combinations and audit exported to:[/bold green] {out_path}")
+
+        if test:
+            win_nums = set(int(n) for n in test.replace(",", " ").split())
+            raw_tickets = [t.numbers for t in result.tickets]
+            prizes = evaluate_prizes(raw_tickets, win_nums, rules)
+            console.print("\n[bold]Test Results:[/bold]")
+            for match, count in sorted(prizes.items(), reverse=True):
+                if count > 0:
+                    console.print(f"  {match}-match: {count} tickets")
+        return
+
+    if not pool and not preset:
+        console.print("[red]✗ Pool is required. Use --pool, --preset, or --budget.[/red]")
+        raise typer.Exit(1)
+
+    eff_guarantee = guarantee if guarantee is not None else 4
+
     # Resolve numbers
     if preset:
         from engine.modules import frequency
@@ -231,7 +430,7 @@ def wheel(
 
     console.rule(f"[bold cyan]Lottery Wheel: {rules.name}[/bold cyan]")
     console.print(f"  [dim]Pool: {nums} ({len(nums)} numbers)[/dim]")
-    console.print(f"  [dim]Mode: {mode} (Guarantee: {guarantee})[/dim]\n")
+    console.print(f"  [dim]Mode: {mode} (Guarantee: {eff_guarantee})[/dim]\n")
 
     tickets = []
     if mode == "full":
@@ -239,7 +438,7 @@ def wheel(
     elif mode == "key":
         tickets = generate_key_wheel(nums, key_nums, rules.pick_count)
     elif mode == "abbreviated":
-        tickets = generate_abbreviated_wheel(nums, rules.pick_count, guarantee)
+        tickets = generate_abbreviated_wheel(nums, rules.pick_count, eff_guarantee)
 
     for i, t in enumerate(tickets[:20]):
         console.print(f"  Ticket {i+1:2}: {sorted(t)}")

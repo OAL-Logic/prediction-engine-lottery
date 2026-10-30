@@ -10,3 +10,10 @@ from .full_wheel import generate_full_wheel
 from .key_wheel import generate_key_wheel
 from .abbreviated import generate_abbreviated_wheel
 from .evaluator import evaluate_prizes
+from .budget_wheel import (
+    CoverageAudit,
+    KNOWN_MINIMAL_COVERS,
+    WheelEngine,
+    WheelResult,
+    WheelTicket,
+)

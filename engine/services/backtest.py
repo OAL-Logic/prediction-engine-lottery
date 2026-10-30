@@ -117,11 +117,22 @@ def _resolve_target_rows(df: pd.DataFrame, draw_id: str | None, prev: str | None
 
 def _strategy_kwargs_for(name: str, base: dict[str, Any] | None, draw_date: Any) -> dict[str, Any]:
     kwargs = dict(base or {})
+    if draw_date is None:
+        return kwargs
     if name in ("weather", "moon_phase"):
         kwargs["upcoming_draw_date"] = draw_date
-    elif name == "numerology":
-        kwargs["target_date"] = draw_date
-    elif name in ("biorhythm", "zodiac"):
+    elif name in ("numerology", "esoteric_statistical"):
+        kwargs["target_date"] = str(draw_date)[:10]
+    elif name in (
+        "biorhythm",
+        "zodiac",
+        "planetary_transits",
+        "solar",
+        "seismic",
+        "refraction",
+        "kabbalistic",
+        "trevo_sorte",
+    ):
         kwargs["draw_date"] = draw_date
     return kwargs
 
