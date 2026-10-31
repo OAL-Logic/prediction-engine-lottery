@@ -2018,6 +2018,24 @@ def property_tests(
     from engine.cli.commands.property_tests import property_tests as impl
     return impl(strategy)
 
+@app.command(name="materialize", rich_help_panel=PANEL_BETTING)
+def materialize(
+    target_date: Annotated[str, typer.Option("--target-date", "-d", help="Target draw date YYYY-MM-DD")] = "2026-10-29",
+    target_time: Annotated[str, typer.Option("--time", "--target-time", help="Scheduled draw time HH:MM")] = "20:00",
+    budget: Annotated[float, typer.Option("--budget", help="Maximum budget in BRL (default: 80.00)")] = 80.0,
+    interactive: Annotated[bool, typer.Option("--interactive", "-i", help="Interactive breathing & intention prompt")] = False,
+    export_html: Annotated[str, typer.Option("--export-html", help="Output path for the HTML5/WebAudio Materialization Chamber")] = ".scratch/materializacao_2026_10_29.html",
+):
+    """🥁✨ Launch the interactive Drumroll, Cardiac Coherence & Materialization Session (Terminal + HTML5 Chamber)."""
+    from engine.cli.commands.materialize import run_materialize
+    run_materialize(
+        target_date=target_date,
+        target_time=target_time,
+        budget=budget,
+        interactive=interactive,
+        export_html=export_html,
+    )
+
 # --- Global Callback ---
 
 @app.callback(invoke_without_command=True)

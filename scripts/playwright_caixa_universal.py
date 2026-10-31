@@ -196,7 +196,21 @@ def executar_automacao(pacote_jogos: List[Dict[str, Any]], user_data_dir: str = 
 
         print("\n🎉 TODOS OS JOGOS FORAM INJETADOS NO CARRINHO!")
         print("Confira os valores na janela aberta e finalize o pagamento (PIX ou Cartão).")
-        print("Pressione ENTER para encerrar a sessão do navegador...")
+        print("\n👉 Pressione ENTER após confirmar que o jogo foi feito para iniciar:")
+        print("   🥁 QUE RUFEM OS TAMBORES & SESSÃO IMERSIVA DE MATERIALIZAÇÃO...")
+        input()
+
+        try:
+            sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+            from engine.cli.commands.materialize import run_materialize
+            html_path = run_materialize(interactive=True)
+            mat_page = context.new_page()
+            mat_page.goto(f"file://{html_path.resolve()}")
+            print(f"\n✨ Câmara Imersiva de Materialização aberta no navegador: {html_path}")
+        except Exception as exc:
+            print(f"⚠️ Aviso ao abrir Câmara de Materialização: {exc}")
+
+        print("\n🙏 Pressione ENTER quando desejar encerrar a sessão do navegador...")
         input()
         context.close()
 
@@ -279,6 +293,7 @@ def main():
         help="Teto máximo de orçamento em Reais (default: R$ 80.00)",
     )
     parser.add_argument("--dry-run", action="store_true", help="Apenas exibe e valida os jogos sem abrir o navegador")
+    parser.add_argument("--materialize", "-m", action="store_true", help="Executa a sessão imersiva de materialização (Terminal + HTML5 Chamber)")
     parser.add_argument("--dump-json", type=str, help="Exporta o pacote selecionado para um arquivo JSON")
     parser.add_argument("--profile-dir", type=str, default=".scratch/browser_session", help="Pasta do perfil persistente")
     args = parser.parse_args()
@@ -303,6 +318,11 @@ def main():
         print(f"💾 Pacote exportado para: {out_path}")
 
     exibir_resumo_pacote(pacote, max_budget=args.budget)
+
+    if args.materialize:
+        sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+        from engine.cli.commands.materialize import run_materialize
+        run_materialize(budget=args.budget, interactive=False)
 
     if args.dry_run:
         print("\n✅ Modo --dry-run concluído. Para disparar no navegador da Caixa, execute sem --dry-run.")
