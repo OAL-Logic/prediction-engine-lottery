@@ -495,6 +495,25 @@ def detect_patterns(
                             f"(Median={env['sum_median']})  |  Mean Odds={env['mean_odds']}  |  "
                             f"Mean Primes={env['mean_primes']}  |  Mean Spread={env['mean_spread']}"
                         )
+
+                if corr.get("magnetic_ranking") and corr.get("quantum_ranking") and corr.get("lag_ranking"):
+                    console.print()
+                    console.rule(f"[bold cyan]🧲⚛️⏳ VIEW 6: MAGNETIC COUPLING, QUANTUM ENTANGLEMENT & OVERDUE LAG ({corr['target_date']})[/bold cyan]")
+                    mag_str = ", ".join(
+                        f"[bold green]{m['number']:02d}[/bold green] (H={m['magnetic_field']:+.3f}, J={m['j_coupling']:+.2f})"
+                        for m in corr["magnetic_ranking"][:10]
+                    )
+                    q_str = ", ".join(
+                        f"[bold magenta]{q['number']:02d}[/bold magenta] (Ψ={q['quantum_psi']:.3f}, Tun={q['tunnel_amp']:.2f})"
+                        for q in corr["quantum_ranking"][:10]
+                    )
+                    lag_str = ", ".join(
+                        f"[bold yellow]{l['number']:02d}[/bold yellow] (Lag={l['current_lag']}d, Z={l['z_lag']:+.2f})"
+                        for l in corr["lag_ranking"][:10]
+                    )
+                    console.print(f"  🧲 [bold]Top Magnetic Pull (Ising J_ij + Field h_i):[/bold] {mag_str}")
+                    console.print(f"  ⚛️  [bold]Top Quantum Entanglement & Tunneling (Ψ):[/bold]  {q_str}")
+                    console.print(f"  ⏳ [bold]Top Overdue / Lag Tension (Atrasão Z_lag):[/bold] {lag_str}")
         except Exception as exc:
             console.print(f"[yellow]⚠ Deep lunar/metric correlation view skipped: {exc}[/yellow]")
 

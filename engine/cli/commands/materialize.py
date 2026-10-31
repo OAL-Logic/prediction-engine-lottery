@@ -263,7 +263,12 @@ def run_materialize(
     export_html: str = ".scratch/materializacao_2026_10_29.html",
 ) -> Path:
     """Execute the interactive terminal drumroll & materialization session and generate the HTML5 chamber."""
-    from scripts.playwright_caixa_universal import PACOTE_ORCAMENTO_80, aplicar_teto_orcamento
+    from scripts.playwright_caixa_universal import (
+        PACOTE_ENXUTO_4,
+        PACOTE_ORCAMENTO_80,
+        PACOTE_VARIACOES_CIRURGICO,
+        aplicar_teto_orcamento,
+    )
 
     import math
     seed_int, ctx = build_environmental_seed(
@@ -292,7 +297,17 @@ def run_materialize(
     eph["earth_zodiac_sign"] = zodiac_signs[int(earth_lon // 30) % 12]
     eph["earth_orbital_speed_kms"] = eph.get("earth_orbital_velocity_kms", 29.9947)
 
-    pacote = aplicar_teto_orcamento(PACOTE_ORCAMENTO_80, budget)
+    if budget <= 40.0:
+        base_pacote = PACOTE_ENXUTO_4
+    elif budget <= 55.0:
+        base_pacote = PACOTE_VARIACOES_CIRURGICO
+    else:
+        base_pacote = PACOTE_ORCAMENTO_80
+
+    pacote = aplicar_teto_orcamento(base_pacote, budget)
+    custos_unit = {"mega-sena": 6.0, "lotofacil": 3.5}
+    total_bilhetes = sum(len(it["jogos"]) for it in pacote)
+    custo_selado = sum(len(it["jogos"]) * custos_unit.get(it["modalidade"], 0.0) for it in pacote)
     html_path = generate_html_materialization_chamber(pacote, eph, seed_int, out_path=export_html)
 
     console.print()
@@ -302,7 +317,7 @@ def run_materialize(
         f"[cyan]Lua:[/cyan] {eph['lunar_phase_name']} ({eph['lunar_phase_ratio']:.1%}, Ilum {eph['lunar_illumination']:.1%})\n"
         f"[cyan]Sol:[/cyan] {eph['sun_longitude_deg']}° ({eph['sun_zodiac_sign']})   |   "
         f"[cyan]Terra:[/cyan] {eph['earth_heliocentric_lon_deg']}° ({eph['earth_zodiac_sign']}, {eph['earth_orbital_speed_kms']} km/s)\n"
-        f"[dim]Semente Ambiental SHA-256: {seed_int}   |   Orçamento Selado: R$ 79,50 / R$ {budget:.2f}[/dim]",
+        f"[dim]Semente Ambiental SHA-256: {seed_int}   |   Orçamento Selado: R$ {custo_selado:.2f} / R$ {budget:.2f} ({total_bilhetes} Bilhetes)[/dim]",
         border_style="yellow",
     ))
 
@@ -336,16 +351,16 @@ def run_materialize(
     stab.add_column("Evidência Histórica (Lua / Órbita)", style="green")
 
     core_highlights = [
-        (10, "Zc=+1.61 Mega | Zc=+1.14 Lotofácil | Líder Gêmeo 18.6%"),
-        (11, "Zc=+1.10 Mega | Quinta-feira Z=+1.86 | Órbita Z=+2.18"),
-        (13, "Zc=+1.28 (#1 Lotofácil) | Lua Cheia Z=+2.52"),
-        (15, "Líder Absoluto Períodos Gêmeos Lotofácil (72.1%) + Dupla (12,15)"),
-        (17, "Mega-Sena Hybrid Score 1.000 | Janela Lunar Z=+1.81"),
-        (25, "Lotofácil Lua Cheia Z=+3.06 (+11% Lift) | Dupla (06,25)"),
-        (28, "Mega-Sena Gibosa Z=+2.46 | Órbita Terra Z=+1.98"),
-        (32, "Mega-Sena Lua Cheia Z=+2.36 (+36% Lift) | Quinta Z=+2.07"),
-        (34, "Mega-Sena Hybrid Score 1.000 | Sorteado em 2026-10-29"),
-        (44, "Mega-Sena Líder Períodos Gêmeos (11x / 18.6%) + Dupla (35,44)"),
+        (5, "Mega-Sena Magnética Ising Top 8 | Sorteado 29/10 e 30/10"),
+        (10, "Zc=+1.61 Mega | Magnética #3 & Quântica #2 Lotofácil"),
+        (11, "Zc=+1.10 Mega | Magnética #4 & Atrasão #3 Lotofácil"),
+        (13, "Zc=+1.28 (#1 Lotofácil) | Magnética #5 & Lua Cheia Z=+2.52"),
+        (15, "Mega-Sena Quântica #1 (Ψ=0.692) | Líder Gêmeos Lotofácil (72.1%)"),
+        (25, "Lotofácil Magnética #1 (Ising) + Lua Cheia Z=+3.06 (+11% Lift)"),
+        (30, "Mega-Sena Magnética #1 Absoluto (Ising H=+0.024)"),
+        (32, "Mega-Sena Lua Cheia Z=+2.36 (+36% Lift) + Magnética #3 + Quântica #7"),
+        (34, "Mega-Sena Atrasão #1 Absoluto (50 conc, Z_lag=+4.47) + Quântica #6 • Sorteado 29/10!"),
+        (44, "Mega-Sena Líder Períodos Gêmeos (18.6%) + Magnética #6"),
     ]
     for num, evid in core_highlights:
         stab.add_row(f"{num:02d}", SEPHIROT_ARCHETYPES.get(num, "Harmonia Universal"), evid)
@@ -364,7 +379,10 @@ def run_materialize(
             pass
 
     # 4. Ticket-by-Ticket Consecration
-    console.print("\n[bold yellow]🥁 CONSAGRAÇÃO DOS 17 JOGOS FEITOS (ORÇAMENTO R$ 79,50 ≤ R$ 80,00):[/bold yellow]")
+    console.print(
+        f"\n[bold yellow]🥁 CONSAGRAÇÃO DOS {total_bilhetes} JOGOS FEITOS "
+        f"(ORÇAMENTO R$ {custo_selado:.2f} ≤ R$ {budget:.2f}):[/bold yellow]"
+    )
     for item in pacote:
         mod = item["modalidade"].upper()
         console.print(f"\n[bold green]🍀 {mod} ({len(item['jogos'])} Bilhetes Selados):[/bold green]")

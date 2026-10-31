@@ -677,6 +677,88 @@ class EsotericPipeline:
         else:
             twin_structural_envelope = {}
 
+        # 6. Magnetic Ferromagnetic Coupling (Ising J_ij), Quantum Entanglement (Bell/Tunneling), and Overdue Lag (Z_lag)
+        prior_records = [r for r in records if r["date"] < t_date.isoformat()]
+        if not prior_records:
+            prior_records = records
+        n_prior = len(prior_records)
+        last_draw_nums = set(prior_records[-1]["nums"]) if prior_records else set()
+
+        ball_counts: Counter[int] = Counter()
+        co_matrix: dict[int, Counter[int]] = {n: Counter() for n in range(lo, hi + 1)}
+        hit_positions: dict[int, list[int]] = {n: [] for n in range(lo, hi + 1)}
+
+        for idx_r, r in enumerate(prior_records):
+            r_nums = r["nums"]
+            for a in r_nums:
+                ball_counts[a] += 1
+                hit_positions[a].append(idx_r)
+                for b in r_nums:
+                    if a != b:
+                        co_matrix[a][b] += 1
+
+        # 6a. Magnetic Force (Ising ferromagnetic coupling J_ij from last draw polarization + local field h_i)
+        avg_c = sum(ball_counts.values()) / max(1, pool_size)
+        magnetic_ranking = []
+        for n in range(lo, hi + 1):
+            h_i = (ball_counts[n] - avg_c) / max(1.0, avg_c)
+            j_pull = 0.0
+            for m in last_draw_nums:
+                if n == m:
+                    continue
+                exp_co = (ball_counts[n] / max(1, n_prior)) * (ball_counts[m] / max(1, n_prior)) * n_prior
+                act_co = co_matrix[n][m]
+                j_nm = (act_co - exp_co) / max(1.0, exp_co)
+                j_pull += j_nm
+            mag_field = round(0.40 * h_i + 0.60 * (j_pull / max(1, len(last_draw_nums))), 4)
+            magnetic_ranking.append({"number": n, "magnetic_field": mag_field, "j_coupling": round(j_pull, 3)})
+        magnetic_ranking.sort(key=lambda x: x["magnetic_field"], reverse=True)
+
+        # 6b. Quantum Entanglement & Tunneling Amplitude (Bell-State Mutual Info with Twin/Lunar Regime + Zeno/Tunneling)
+        recent_15 = prior_records[-15:] if len(prior_records) >= 15 else prior_records
+        recent_counts: Counter[int] = Counter(x for r in recent_15 for x in r["nums"])
+        max_rec = max(recent_counts.values()) if recent_counts else 1
+        max_tot = max(ball_counts.values()) if ball_counts else 1
+        quantum_ranking = []
+        for n in range(lo, hi + 1):
+            c_freq = ball_counts[n] / max_tot
+            rec_density = recent_counts[n] / max_rec
+            # Quantum tunneling barrier + anti-Zeno free evolution + entanglement with lunar window
+            tunnel_amp = math.exp(-c_freq / 0.8)
+            zeno_free = 0.15 if rec_density >= 0.80 else (1.0 - 0.65 * rec_density)
+            z_lun_n = metric_number_resonances.get("lunar_window", {}).get("z_map", {}).get(n, 0.0)
+            entangle_boost = 1.0 / (1.0 + math.exp(-0.5 * z_lun_n))
+            psi_score = round(0.40 * tunnel_amp + 0.35 * zeno_free + 0.25 * entangle_boost, 4)
+            quantum_ranking.append({
+                "number": n,
+                "quantum_psi": psi_score,
+                "tunnel_amp": round(tunnel_amp, 3),
+                "zeno_free": round(zeno_free, 3),
+            })
+        quantum_ranking.sort(key=lambda x: x["quantum_psi"], reverse=True)
+
+        # 6c. Overdue / Lag Tension ("Atrasão" Z-score & Weibull Survival Hazard)
+        lag_ranking = []
+        for n in range(lo, hi + 1):
+            pos = hit_positions[n]
+            curr_lag = (n_prior - 1 - pos[-1]) if pos else n_prior
+            if len(pos) >= 3:
+                gaps = np.diff(pos).astype(float)
+                mean_gap = float(np.mean(gaps))
+                std_gap = float(np.std(gaps)) or 1.0
+                z_lag = (curr_lag - mean_gap) / std_gap
+            else:
+                mean_gap = float(pool_size) / max(1.0, float(k_pick))
+                std_gap = mean_gap
+                z_lag = (curr_lag - mean_gap) / max(1.0, std_gap)
+            lag_ranking.append({
+                "number": n,
+                "current_lag": int(curr_lag),
+                "mean_gap": round(mean_gap, 1),
+                "z_lag": round(z_lag, 2),
+            })
+        lag_ranking.sort(key=lambda x: (x["z_lag"], x["current_lag"]), reverse=True)
+
         return {
             "target_date": t_date.isoformat(),
             "target_time": target_time or "20:00",
@@ -693,6 +775,10 @@ class EsotericPipeline:
             "top_twin_numbers": top_twin_numbers,
             "top_twin_pairs": top_twin_pairs,
             "twin_structural_envelope": twin_structural_envelope,
+            "magnetic_ranking": magnetic_ranking[:15],
+            "quantum_ranking": quantum_ranking[:15],
+            "lag_ranking": lag_ranking[:15],
+            "last_draw_before_target": sorted(list(last_draw_nums)),
         }
 
     def compile_context(
