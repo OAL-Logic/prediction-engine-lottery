@@ -482,6 +482,19 @@ def detect_patterns(
                         for item in corr["top_twin_numbers"][:10]
                     )
                     console.print(f"  [bold]Most Frequent Numbers in Twin Orbital+Lunar Periods:[/bold] {twin_top_str}")
+                    if corr.get("top_twin_pairs"):
+                        pairs_str = ", ".join(
+                            f"[bold yellow]({p['pair'][0]:02d},{p['pair'][1]:02d})[/bold yellow] ({p['count']}x / {p['pct']}%)"
+                            for p in corr["top_twin_pairs"][:8]
+                        )
+                        console.print(f"  [bold]Top Co-Occurring Pairs in Twin Periods:[/bold] {pairs_str}")
+                    env = corr.get("twin_structural_envelope") or {}
+                    if env:
+                        console.print(
+                            f"  [bold]Twin Structural Sweet-Spot:[/bold] Sum IQR=[{env['sum_p25']}..{env['sum_p75']}] "
+                            f"(Median={env['sum_median']})  |  Mean Odds={env['mean_odds']}  |  "
+                            f"Mean Primes={env['mean_primes']}  |  Mean Spread={env['mean_spread']}"
+                        )
         except Exception as exc:
             console.print(f"[yellow]⚠ Deep lunar/metric correlation view skipped: {exc}[/yellow]")
 

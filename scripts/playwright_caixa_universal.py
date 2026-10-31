@@ -33,29 +33,48 @@ URL_MODALIDADES = {
     "lotomania": "https://www.loteriasonline.caixa.gov.br/silce-web/#/lotomania",
 }
 
-PACOTE_PADRAO_EXEMPLO = [
+PACOTE_ORCAMENTO_80 = [
     {
         "modalidade": "mega-sena",
-        "descricao": "Carteira Omni 2026-10-29 20:00 (Lua Cheia 62.2%, Sol 216.5° Escorpião, Terra 36.5° Touro, Seed 2808670435)",
+        "descricao": "Carteira Omni R$ 80 (8 Jogos = R$ 48,00 | 80% Exploração Lunar/Orbital/Wheel + 20% Caos/Vórtice | 2026-10-29 20:00)",
         "jogos": [
-            [10, 11, 17, 28, 32, 44],  # Jogo 1: Núcleo de Convergência Lunar/Orbital (View 3 & View 4)
-            [10, 13, 24, 35, 39, 42],  # Jogo 2: Hybrid 80/20 (3 quadras históricas)
-            [11, 15, 30, 33, 36, 38],  # Jogo 3: Esoteric Statistical #1 (Ressonância Quinta-feira)
-            [2, 18, 28, 33, 34, 49],   # Jogo 4: Planetary Transits #1 (Júpiter/Marte IC)
-            [3, 18, 30, 34, 35, 50],   # Jogo 5: Exploração Caos/Vórtice (4 quadras históricas)
+            [10, 11, 17, 28, 32, 44],  # Jogo 1 [80% Core]: Núcleo de Convergência Lunar/Orbital (Zc Top: 10, 32, 11, 28, 17, 44)
+            [10, 13, 24, 35, 39, 42],  # Jogo 2 [80% Core]: Hybrid Omni 80/20 (3 quadras históricas)
+            [11, 15, 30, 33, 36, 38],  # Jogo 3 [80% Core]: Esoteric Statistical #1 (Ressonância Quinta-feira 11, 38)
+            [2, 18, 28, 33, 34, 49],   # Jogo 4 [80% Core]: Planetary Transits #1 (Júpiter/Marte IC 28, 49)
+            [5, 18, 27, 34, 38, 53],   # Jogo 5 [80% Core]: Wheel Abreviado G=4 Corte Ortogonal #1
+            [10, 11, 24, 27, 34, 38],  # Jogo 6 [80% Core]: Wheel Abreviado G=4 Corte Ortogonal #3
+            [3, 18, 30, 34, 35, 50],   # Jogo 7 [20% Caos/Vórtice]: Alta Temperatura T=1.4 #1 (4 quadras históricas)
+            [15, 34, 38, 46, 47, 53],  # Jogo 8 [20% Caos/Vórtice]: Alta Temperatura T=1.4 #3 (1 quadra histórica)
         ],
     },
     {
         "modalidade": "lotofacil",
-        "descricao": "Carteira Omni 2026-10-29 20:00 (6 Jogos Elite: Ising + Esoteric + Lunar/Orbital + Wheel G=14)",
+        "descricao": "Carteira Omni R$ 80 (9 Jogos = R$ 31,50 | 80% Exploração Ising/Lunar/Wheel G=14 + 20% Caos/Dispersão | 2026-10-29 20:00)",
         "jogos": [
-            [2, 3, 4, 6, 8, 9, 10, 11, 13, 15, 16, 18, 20, 21, 25],   # Jogo 1: Principal Esoteric + Lunar
-            [2, 3, 6, 7, 8, 9, 11, 12, 13, 15, 16, 18, 20, 21, 25],   # Jogo 2: Hybrid Omni (1x 14 pts hist)
-            [2, 4, 6, 7, 8, 10, 11, 13, 15, 16, 18, 20, 23, 24, 25],  # Jogo 3: Consenso Ising + Lua Cheia (7x 13 pts)
-            [1, 2, 5, 6, 8, 10, 12, 13, 14, 15, 16, 17, 18, 21, 25],  # Jogo 4: Ressonância Orbital λ☉=216.5°
-            [1, 2, 3, 4, 6, 8, 10, 11, 13, 15, 17, 18, 23, 24, 25],   # Jogo 5: Fechamento Combinatório Wheel #1
-            [1, 3, 4, 6, 7, 8, 10, 13, 15, 16, 17, 18, 20, 24, 25],   # Jogo 6: Fechamento Combinatório Wheel #2
+            [2, 3, 4, 6, 8, 9, 10, 11, 13, 15, 16, 18, 20, 21, 25],   # Jogo 1 [80% Core]: Principal Esoteric + Lunar (6x 13 pts)
+            [2, 3, 6, 7, 8, 9, 11, 12, 13, 15, 16, 18, 20, 21, 25],   # Jogo 2 [80% Core]: Hybrid Omni (1x 14 pts hist, 356x 11 pts)
+            [2, 4, 6, 7, 8, 10, 11, 13, 15, 16, 18, 20, 23, 24, 25],  # Jogo 3 [80% Core]: Consenso Ising + Lua Cheia (7x 13 pts)
+            [1, 2, 5, 6, 8, 10, 12, 13, 14, 15, 16, 17, 18, 21, 25],  # Jogo 4 [80% Core]: Ressonância Orbital λ☉=216.5° (12, 14, 15, 25)
+            [1, 2, 3, 4, 6, 8, 10, 11, 13, 15, 17, 18, 23, 24, 25],   # Jogo 5 [80% Core]: Wheel Abreviado G=14 Corte #1
+            [1, 3, 4, 6, 7, 8, 10, 13, 15, 16, 17, 18, 20, 24, 25],   # Jogo 6 [80% Core]: Wheel Abreviado G=14 Corte #2
+            [1, 2, 4, 6, 8, 10, 11, 13, 15, 16, 18, 20, 23, 24, 25],  # Jogo 7 [80% Core]: Wheel Abreviado G=14 Corte #3
+            [2, 3, 4, 5, 9, 10, 11, 12, 14, 16, 18, 22, 23, 24, 25],  # Jogo 8 [20% Caos]: Ising Model #1 (75x 12 pts, 361x 11 pts)
+            [1, 2, 3, 5, 7, 8, 10, 11, 13, 15, 16, 19, 22, 24, 25],   # Jogo 9 [20% Caos]: Hybrid Alta Dispersão (86x 12 pts)
         ],
+    },
+]
+
+PACOTE_PADRAO_EXEMPLO = [
+    {
+        "modalidade": "mega-sena",
+        "descricao": "Carteira Omni Enxuta 2026-10-29 20:00 (5 Jogos = R$ 30,00 | Lua Cheia 62.2%, Seed 2808670435)",
+        "jogos": PACOTE_ORCAMENTO_80[0]["jogos"][:5],
+    },
+    {
+        "modalidade": "lotofacil",
+        "descricao": "Carteira Omni Enxuta 2026-10-29 20:00 (6 Jogos = R$ 21,00 | Ising + Esoteric + Lunar/Orbital)",
+        "jogos": PACOTE_ORCAMENTO_80[1]["jogos"][:6],
     },
 ]
 
@@ -181,7 +200,33 @@ def executar_automacao(pacote_jogos: List[Dict[str, Any]], user_data_dir: str = 
         input()
         context.close()
 
-def exibir_resumo_pacote(pacote: List[Dict[str, Any]]) -> None:
+def aplicar_teto_orcamento(pacote: List[Dict[str, Any]], max_budget: float) -> List[Dict[str, Any]]:
+    custos_unitarios = {
+        "mega-sena": 6.00,
+        "lotofacil": 3.50,
+        "quina": 3.00,
+        "dupla-sena": 3.00,
+        "dia-de-sorte": 2.50,
+        "lotomania": 3.00,
+    }
+    custo_acum = 0.0
+    novo_pacote = []
+    for item in pacote:
+        mod = item["modalidade"].lower()
+        preco = custos_unitarios.get(mod, 0.0)
+        jogos_validos = []
+        for j in item["jogos"]:
+            if custo_acum + preco <= max_budget + 1e-6:
+                jogos_validos.append(j)
+                custo_acum += preco
+        if jogos_validos:
+            novo_item = dict(item)
+            novo_item["jogos"] = jogos_validos
+            novo_pacote.append(novo_item)
+    return novo_pacote
+
+
+def exibir_resumo_pacote(pacote: List[Dict[str, Any]], max_budget: float = 80.0) -> None:
     custos_unitarios = {
         "mega-sena": 6.00,
         "lotofacil": 3.50,
@@ -193,7 +238,7 @@ def exibir_resumo_pacote(pacote: List[Dict[str, Any]]) -> None:
     total_jogos = 0
     custo_total = 0.0
     print("=" * 72)
-    print("📋 RESUMO DO PACOTE DE APOSTAS (PLAYWRIGHT CAIXA DISPATCHER)")
+    print(f"📋 RESUMO DO PACOTE DE APOSTAS (TETO ORÇAMENTO: R$ {max_budget:.2f})")
     print("=" * 72)
     for item in pacote:
         mod = item["modalidade"].lower()
@@ -210,7 +255,10 @@ def exibir_resumo_pacote(pacote: List[Dict[str, Any]]) -> None:
             fmt = " - ".join(f"{n:02d}" for n in j)
             print(f"   Jogo {idx:02d}: [{fmt}]  (soma={sum(j)})")
     print("\n" + "-" * 72)
-    print(f"💰 Total de Bilhetes: {total_jogos}   |   Custo Estimado Carrinho: R$ {custo_total:.2f}")
+    pct_uso = (custo_total / max_budget * 100.0) if max_budget > 0 else 0.0
+    print(
+        f"💰 Total de Bilhetes: {total_jogos}   |   Custo Carrinho: R$ {custo_total:.2f} / R$ {max_budget:.2f} ({pct_uso:.1f}%)"
+    )
     print("=" * 72)
 
 
@@ -220,9 +268,15 @@ def main():
     parser.add_argument("--interactive", "-i", action="store_true", help="Usa pacote Omni 2026-10-29 interativo")
     parser.add_argument(
         "--preset",
-        choices=["omni", "wheel"],
-        default="omni",
-        help="Preset de apostas: 'omni' (5 Mega-Sena + 6 Lotofácil = R$ 51,00) ou 'wheel' (6 Mega-Sena Wheel + 6 Lotofácil = R$ 57,00)",
+        choices=["budget80", "omni", "wheel"],
+        default="budget80",
+        help="Preset de apostas: 'budget80' (8 Mega-Sena + 9 Lotofácil = R$ 79,50), 'omni' (R$ 51,00) ou 'wheel' (R$ 57,00)",
+    )
+    parser.add_argument(
+        "--budget",
+        type=float,
+        default=80.0,
+        help="Teto máximo de orçamento em Reais (default: R$ 80.00)",
     )
     parser.add_argument("--dry-run", action="store_true", help="Apenas exibe e valida os jogos sem abrir o navegador")
     parser.add_argument("--dump-json", type=str, help="Exporta o pacote selecionado para um arquivo JSON")
@@ -234,8 +288,13 @@ def main():
             pacote = json.load(fp)
     elif args.preset == "wheel":
         pacote = PACOTE_WHEEL_COMPLETO
-    else:
+    elif args.preset == "omni":
         pacote = PACOTE_PADRAO_EXEMPLO
+    else:
+        pacote = PACOTE_ORCAMENTO_80
+
+    if args.budget and args.budget > 0:
+        pacote = aplicar_teto_orcamento(pacote, args.budget)
 
     if args.dump_json:
         out_path = Path(args.dump_json)
@@ -243,7 +302,7 @@ def main():
         out_path.write_text(json.dumps(pacote, indent=2, ensure_ascii=False), encoding="utf-8")
         print(f"💾 Pacote exportado para: {out_path}")
 
-    exibir_resumo_pacote(pacote)
+    exibir_resumo_pacote(pacote, max_budget=args.budget)
 
     if args.dry_run:
         print("\n✅ Modo --dry-run concluído. Para disparar no navegador da Caixa, execute sem --dry-run.")

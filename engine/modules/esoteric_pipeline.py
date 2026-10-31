@@ -505,6 +505,9 @@ class EsotericPipeline:
                     "sun_lon": round(sun_lon_approx, 1),
                     "numbers": rec["nums"],
                     "sum": int(t_sum),
+                    "odd_count": int(sum(1 for x in nums if x % 2 != 0)),
+                    "prime_count": int(p_cnt),
+                    "spread": int(spread),
                 })
                 twin_counter.update(nums)
 
@@ -641,6 +644,39 @@ class EsotericPipeline:
             for num, cnt in twin_counter.most_common(12)
         ]
 
+        # 5. Twin Period Co-Occurrence Pairs & Structural Sweet-Spot Envelope
+        pair_counter: Counter[tuple[int, int]] = Counter()
+        for tm in twin_moments:
+            s_nums = sorted(tm["numbers"])
+            for i_idx in range(len(s_nums)):
+                for j_idx in range(i_idx + 1, len(s_nums)):
+                    pair_counter[(s_nums[i_idx], s_nums[j_idx])] += 1
+
+        top_twin_pairs = [
+            {
+                "pair": list(pair),
+                "count": cnt,
+                "pct": round(cnt / max(1, len(twin_moments)) * 100.0, 1),
+            }
+            for pair, cnt in pair_counter.most_common(10)
+        ]
+
+        if twin_moments:
+            tm_sums = np.array([tm["sum"] for tm in twin_moments], dtype=float)
+            tm_odds = np.array([tm["odd_count"] for tm in twin_moments], dtype=float)
+            tm_prms = np.array([tm["prime_count"] for tm in twin_moments], dtype=float)
+            tm_sprd = np.array([tm["spread"] for tm in twin_moments], dtype=float)
+            twin_structural_envelope = {
+                "sum_p25": round(float(np.percentile(tm_sums, 25)), 1),
+                "sum_median": round(float(np.median(tm_sums)), 1),
+                "sum_p75": round(float(np.percentile(tm_sums, 75)), 1),
+                "mean_odds": round(float(np.mean(tm_odds)), 2),
+                "mean_primes": round(float(np.mean(tm_prms)), 2),
+                "mean_spread": round(float(np.mean(tm_sprd)), 1),
+            }
+        else:
+            twin_structural_envelope = {}
+
         return {
             "target_date": t_date.isoformat(),
             "target_time": target_time or "20:00",
@@ -655,6 +691,8 @@ class EsotericPipeline:
             "twin_moments_count": len(twin_moments),
             "twin_moments_recent": twin_moments[:10],
             "top_twin_numbers": top_twin_numbers,
+            "top_twin_pairs": top_twin_pairs,
+            "twin_structural_envelope": twin_structural_envelope,
         }
 
     def compile_context(
