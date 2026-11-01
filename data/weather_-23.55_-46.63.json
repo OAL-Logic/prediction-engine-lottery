@@ -71170,5 +71170,239 @@
     "precipitation_sum": 12.9,
     "windspeed_10m_max": 11.4,
     "surface_pressure_mean": 934.6
+  },
+  "2026-09-15": {
+    "temperature_2m_mean": 15.4,
+    "precipitation_sum": 9.7,
+    "windspeed_10m_max": 7.6,
+    "surface_pressure_mean": 931.6
+  },
+  "2026-09-17": {
+    "temperature_2m_mean": 14.8,
+    "precipitation_sum": 0.0,
+    "windspeed_10m_max": 14.2,
+    "surface_pressure_mean": 938.2
+  },
+  "2026-09-20": {
+    "temperature_2m_mean": 19.0,
+    "precipitation_sum": 12.6,
+    "windspeed_10m_max": 14.8,
+    "surface_pressure_mean": 931.5
+  },
+  "2026-09-21": {
+    "temperature_2m_mean": 22.7,
+    "precipitation_sum": 0.4,
+    "windspeed_10m_max": 22.6,
+    "surface_pressure_mean": 929.5
+  },
+  "2026-09-22": {
+    "temperature_2m_mean": 18.8,
+    "precipitation_sum": 19.8,
+    "windspeed_10m_max": 17.8,
+    "surface_pressure_mean": 928.9
+  },
+  "2026-09-24": {
+    "temperature_2m_mean": 16.3,
+    "precipitation_sum": 0.0,
+    "windspeed_10m_max": 10.2,
+    "surface_pressure_mean": 931.9
+  },
+  "2026-09-27": {
+    "temperature_2m_mean": 21.6,
+    "precipitation_sum": 0.0,
+    "windspeed_10m_max": 15.5,
+    "surface_pressure_mean": 933.2
+  },
+  "2026-09-29": {
+    "temperature_2m_mean": 24.5,
+    "precipitation_sum": 0.8,
+    "windspeed_10m_max": 16.2,
+    "surface_pressure_mean": 928.1
+  },
+  "2026-10-01": {
+    "temperature_2m_mean": 21.5,
+    "precipitation_sum": 9.3,
+    "windspeed_10m_max": 16.0,
+    "surface_pressure_mean": 929.7
+  },
+  "2026-10-03": {
+    "temperature_2m_mean": 18.3,
+    "precipitation_sum": 9.0,
+    "windspeed_10m_max": 10.8,
+    "surface_pressure_mean": 930.9
+  },
+  "2026-10-06": {
+    "temperature_2m_mean": 18.9,
+    "precipitation_sum": 19.3,
+    "windspeed_10m_max": 10.1,
+    "surface_pressure_mean": 932.1
+  },
+  "2026-10-08": {
+    "temperature_2m_mean": 21.8,
+    "precipitation_sum": 0.2,
+    "windspeed_10m_max": 7.1,
+    "surface_pressure_mean": 931.9
+  },
+  "2026-10-11": {
+    "temperature_2m_mean": 20.1,
+    "precipitation_sum": 23.6,
+    "windspeed_10m_max": 12.8,
+    "surface_pressure_mean": 931.6
+  },
+  "2026-10-14": {
+    "temperature_2m_mean": 21.1,
+    "precipitation_sum": 6.7,
+    "windspeed_10m_max": 14.7,
+    "surface_pressure_mean": 929.4
+  },
+  "2026-10-18": {
+    "temperature_2m_mean": 17.7,
+    "precipitation_sum": 1.0,
+    "windspeed_10m_max": 13.1,
+    "surface_pressure_mean": 927.9
+  },
+  "2026-10-20": {
+    "temperature_2m_mean": 17.0,
+    "precipitation_sum": 0.0,
+    "windspeed_10m_max": 13.1,
+    "surface_pressure_mean": 933.5
+  },
+  "2026-10-22": {
+    "temperature_2m_mean": 19.3,
+    "precipitation_sum": 5.2,
+    "windspeed_10m_max": 9.9,
+    "surface_pressure_mean": 933.5
+  },
+  "2026-10-24": {
+    "temperature_2m_mean": 21.5,
+    "precipitation_sum": 6.6,
+    "windspeed_10m_max": 14.9,
+    "surface_pressure_mean": 926.8
+  },
+  "2026-10-26": {
+    "temperature_2m_mean": 15.5,
+    "precipitation_sum": 2.3,
+    "windspeed_10m_max": 14.0,
+    "surface_pressure_mean": 929.9
+  },
+  "2026-09-16": {
+    "temperature_2m_mean": 14.8,
+    "precipitation_sum": 0.7,
+    "windspeed_10m_max": 13.2,
+    "surface_pressure_mean": 935.4
+  },
+  "2026-09-18": {
+    "temperature_2m_mean": 16.7,
+    "precipitation_sum": 0.0,
+    "windspeed_10m_max": 11.8,
+    "surface_pressure_mean": 937.4
+  },
+  "2026-09-19": {
+    "temperature_2m_mean": 19.8,
+    "precipitation_sum": 1.1,
+    "windspeed_10m_max": 11.8,
+    "surface_pressure_mean": 933.8
+  },
+  "2026-09-23": {
+    "temperature_2m_mean": 14.2,
+    "precipitation_sum": 6.2,
+    "windspeed_10m_max": 13.6,
+    "surface_pressure_mean": 932.1
+  },
+  "2026-09-25": {
+    "temperature_2m_mean": 20.0,
+    "precipitation_sum": 0.7,
+    "windspeed_10m_max": 8.8,
+    "surface_pressure_mean": 931.0
+  },
+  "2026-09-26": {
+    "temperature_2m_mean": 22.8,
+    "precipitation_sum": 0.0,
+    "windspeed_10m_max": 10.1,
+    "surface_pressure_mean": 932.1
+  },
+  "2026-09-28": {
+    "temperature_2m_mean": 21.7,
+    "precipitation_sum": 0.0,
+    "windspeed_10m_max": 13.6,
+    "surface_pressure_mean": 931.1
+  },
+  "2026-09-30": {
+    "temperature_2m_mean": 24.5,
+    "precipitation_sum": 0.9,
+    "windspeed_10m_max": 17.7,
+    "surface_pressure_mean": 929.2
+  },
+  "2026-10-02": {
+    "temperature_2m_mean": 17.0,
+    "precipitation_sum": 2.1,
+    "windspeed_10m_max": 11.0,
+    "surface_pressure_mean": 931.4
+  },
+  "2026-10-04": {
+    "temperature_2m_mean": 20.2,
+    "precipitation_sum": 7.6,
+    "windspeed_10m_max": 19.6,
+    "surface_pressure_mean": 929.1
+  },
+  "2026-10-05": {
+    "temperature_2m_mean": 18.1,
+    "precipitation_sum": 7.7,
+    "windspeed_10m_max": 10.1,
+    "surface_pressure_mean": 932.1
+  },
+  "2026-10-07": {
+    "temperature_2m_mean": 20.0,
+    "precipitation_sum": 6.1,
+    "windspeed_10m_max": 12.4,
+    "surface_pressure_mean": 931.8
+  },
+  "2026-10-09": {
+    "temperature_2m_mean": 22.9,
+    "precipitation_sum": 12.5,
+    "windspeed_10m_max": 13.3,
+    "surface_pressure_mean": 931.7
+  },
+  "2026-10-13": {
+    "temperature_2m_mean": 19.7,
+    "precipitation_sum": 1.5,
+    "windspeed_10m_max": 11.8,
+    "surface_pressure_mean": 929.0
+  },
+  "2026-10-15": {
+    "temperature_2m_mean": 21.6,
+    "precipitation_sum": 2.4,
+    "windspeed_10m_max": 13.6,
+    "surface_pressure_mean": 928.5
+  },
+  "2026-10-16": {
+    "temperature_2m_mean": 20.7,
+    "precipitation_sum": 21.4,
+    "windspeed_10m_max": 18.2,
+    "surface_pressure_mean": 927.0
+  },
+  "2026-10-19": {
+    "temperature_2m_mean": 16.6,
+    "precipitation_sum": 0.3,
+    "windspeed_10m_max": 13.4,
+    "surface_pressure_mean": 931.2
+  },
+  "2026-10-21": {
+    "temperature_2m_mean": 18.0,
+    "precipitation_sum": 0.0,
+    "windspeed_10m_max": 13.5,
+    "surface_pressure_mean": 934.9
+  },
+  "2026-10-23": {
+    "temperature_2m_mean": 19.3,
+    "precipitation_sum": 15.4,
+    "windspeed_10m_max": 13.4,
+    "surface_pressure_mean": 930.8
+  },
+  "2026-10-27": {
+    "temperature_2m_mean": 15.8,
+    "precipitation_sum": 0.4,
+    "windspeed_10m_max": 13.7,
+    "surface_pressure_mean": 934.0
   }
 }

@@ -2020,11 +2020,11 @@ def property_tests(
 
 @app.command(name="materialize", rich_help_panel=PANEL_BETTING)
 def materialize(
-    target_date: Annotated[str, typer.Option("--target-date", "-d", help="Target draw date YYYY-MM-DD")] = "2026-10-29",
+    target_date: Annotated[str, typer.Option("--target-date", "-d", help="Target draw date YYYY-MM-DD (defaults to today)")] = "",
     target_time: Annotated[str, typer.Option("--time", "--target-time", help="Scheduled draw time HH:MM")] = "20:00",
     budget: Annotated[float, typer.Option("--budget", help="Maximum budget in BRL (default: 80.00)")] = 80.0,
     interactive: Annotated[bool, typer.Option("--interactive", "-i", help="Interactive breathing & intention prompt")] = False,
-    export_html: Annotated[str, typer.Option("--export-html", help="Output path for the HTML5/WebAudio Materialization Chamber")] = ".scratch/materializacao_2026_10_29.html",
+    export_html: Annotated[str, typer.Option("--export-html", help="Output path for the HTML5/WebAudio Materialization Chamber")] = ".scratch/materializacao_camara.html",
 ):
     """🥁✨ Launch the interactive Drumroll, Cardiac Coherence & Materialization Session (Terminal + HTML5 Chamber)."""
     from engine.cli.commands.materialize import run_materialize

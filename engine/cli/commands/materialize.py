@@ -61,7 +61,7 @@ def generate_html_materialization_chamber(
     pacote: list[dict[str, Any]],
     ephemeris: dict[str, Any],
     seed_int: int,
-    out_path: str | Path = ".scratch/materializacao_2026_10_29.html",
+    out_path: str | Path = ".scratch/materializacao_camara.html",
 ) -> Path:
     """Generate an interactive HTML5 + WebAudio (432Hz/528Hz + Drumroll) Materialization Chamber."""
     dest = Path(out_path)
@@ -254,13 +254,13 @@ function sealAllTickets() {{
 
 
 def run_materialize(
-    target_date: str = "2026-10-29",
+    target_date: str = "",
     target_time: str = "20:00",
     lat: float = -23.5505,
     lon: float = -46.6333,
     budget: float = 80.0,
     interactive: bool = False,
-    export_html: str = ".scratch/materializacao_2026_10_29.html",
+    export_html: str = ".scratch/materializacao_camara.html",
 ) -> Path:
     """Execute the interactive terminal drumroll & materialization session and generate the HTML5 chamber."""
     from scripts.playwright_caixa_universal import (
@@ -271,6 +271,8 @@ def run_materialize(
     )
 
     import math
+    if not target_date:
+        target_date = _date.today().isoformat()
     seed_int, ctx = build_environmental_seed(
         coords=(lat, lon),
         target_date=_date.fromisoformat(target_date[:10]),
@@ -351,16 +353,16 @@ def run_materialize(
     stab.add_column("Evidência Histórica (Lua / Órbita)", style="green")
 
     core_highlights = [
-        (5, "Mega-Sena Magnética Ising Top 8 | Sorteado 29/10 e 30/10"),
-        (10, "Zc=+1.61 Mega | Magnética #3 & Quântica #2 Lotofácil"),
-        (11, "Zc=+1.10 Mega | Magnética #4 & Atrasão #3 Lotofácil"),
-        (13, "Zc=+1.28 (#1 Lotofácil) | Magnética #5 & Lua Cheia Z=+2.52"),
-        (15, "Mega-Sena Quântica #1 (Ψ=0.692) | Líder Gêmeos Lotofácil (72.1%)"),
-        (25, "Lotofácil Magnética #1 (Ising) + Lua Cheia Z=+3.06 (+11% Lift)"),
-        (30, "Mega-Sena Magnética #1 Absoluto (Ising H=+0.024)"),
-        (32, "Mega-Sena Lua Cheia Z=+2.36 (+36% Lift) + Magnética #3 + Quântica #7"),
-        (34, "Mega-Sena Atrasão #1 Absoluto (50 conc, Z_lag=+4.47) + Quântica #6 • Sorteado 29/10!"),
-        (44, "Mega-Sena Líder Períodos Gêmeos (18.6%) + Magnética #6"),
+        (5, "Acoplamento Ferromagnético de Ising (Domínio de Spin)"),
+        (10, "Convergência Multicritério (Lunar + Orbital + Magnética)"),
+        (11, "Ressonância de Ciclo Temporal & Atrasão"),
+        (13, "Convergência de Fase Lunar & Acoplamento Ising"),
+        (15, "Tunelamento Quântico Ψ & Harmonia de Períodos Gêmeos"),
+        (25, "Campo Magnético de Ising & Ressonância de Sizígia"),
+        (30, "Líder de Campo Local Ferromagnético (Ising H)"),
+        (32, "Convergência Lunar, Magnética e Quântica"),
+        (34, "Ruptura de Tensão de Atraso (Z_lag) & Tunelamento Quântico"),
+        (44, "Ressonância de Períodos Astronômicos Gêmeos"),
     ]
     for num, evid in core_highlights:
         stab.add_row(f"{num:02d}", SEPHIROT_ARCHETYPES.get(num, "Harmonia Universal"), evid)

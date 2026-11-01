@@ -73,27 +73,7 @@ async function preencherApostasCaixa(jogos, opcoes = {}) {
   console.log(`🎉 Processo concluído! Revise suas ${jogos.length} aposta(s) no carrinho.`);
 }
 
-// Carteiras prontas para o sorteio de 2026-10-29 20:00 (Omni + Efemérides + Lunar/Orbital)
-const JOGOS_MEGA_2026_10_29 = [
-  [10, 11, 17, 28, 32, 44],
-  [10, 13, 24, 35, 39, 42],
-  [11, 15, 30, 33, 36, 38],
-  [2, 18, 28, 33, 34, 49],
-  [3, 18, 30, 34, 35, 50]
-];
-
-const JOGOS_LOTOFACIL_2026_10_29 = [
-  [2, 3, 4, 6, 8, 9, 10, 11, 13, 15, 16, 18, 20, 21, 25],
-  [2, 3, 6, 7, 8, 9, 11, 12, 13, 15, 16, 18, 20, 21, 25],
-  [2, 4, 6, 7, 8, 10, 11, 13, 15, 16, 18, 20, 23, 24, 25],
-  [1, 2, 5, 6, 8, 10, 12, 13, 14, 15, 16, 17, 18, 21, 25],
-  [1, 2, 3, 4, 6, 8, 10, 11, 13, 15, 17, 18, 23, 24, 25],
-  [1, 3, 4, 6, 7, 8, 10, 13, 15, 16, 17, 18, 20, 24, 25]
-];
-
 // Expõe globalmente no console do navegador
 if (typeof window !== 'undefined') {
   window.preencherApostasCaixa = preencherApostasCaixa;
-  window.JOGOS_MEGA_2026_10_29 = JOGOS_MEGA_2026_10_29;
-  window.JOGOS_LOTOFACIL_2026_10_29 = JOGOS_LOTOFACIL_2026_10_29;
 }

@@ -33,92 +33,60 @@ URL_MODALIDADES = {
     "lotomania": "https://www.loteriasonline.caixa.gov.br/silce-web/#/lotomania",
 }
 
-PACOTE_VARIACOES_CIRURGICO = [
+# Templates neutros (sem jogos de sorteios passados não realizados).
+# Gere novos jogos para o próximo sorteio ativo via `./p4lottery suggest` e passe com `--file apostas.json`.
+PACOTE_VARIACOES_CIRURGICO: List[Dict[str, Any]] = [
     {
         "modalidade": "mega-sena",
-        "descricao": "Carteira Cirúrgica Sem Exagero — 1 Jogo de Cada Variação (5 Jogos = R$ 30,00 | Celeste, Magnética, Quântica, Atrasão e Síntese 4 Forças | 2026-10-29 20:00)",
-        "jogos": [
-            [10, 11, 17, 28, 32, 44],  # Variação 1 [Celeste / Lunar-Orbital]: Convergência Zc Top (10, 32, 11, 28, 17, 44)
-            [4, 17, 36, 40, 47, 56],   # Variação 2 [Força Magnética]: Ising J_ij + Geomag Kp + Lorenz (hit 36 em 29/10 e 40 em 30/10)
-            [22, 23, 30, 37, 59, 60],  # Variação 3 [Força Quântica]: Tunelamento Ψ + Entrelaçamento Bell + Zeno (hit 59 em 30/10)
-            [11, 26, 34, 42, 46, 59],  # Variação 4 [Atrasão & Sobrevivência]: Top Z_lag pré-29/10 (34 Z=+4.47 hit 29/10; 59 Z=+3.28 hit 30/10)
-            [5, 10, 15, 30, 32, 34],   # Variação 5 [Síntese 4 Forças]: Mag(05,30) + Quânt(15,34) + Lunar(10,32) + Atrasão(34) -> Duque [05,34] em 29/10!
-        ],
+        "descricao": "Carteira Cirúrgica Sem Exagero — 1 Jogo de Cada Variação (Celeste, Magnética, Quântica, Atrasão e Síntese 4 Forças)",
+        "jogos": [],
     },
     {
         "modalidade": "lotofacil",
-        "descricao": "Carteira Cirúrgica Sem Exagero — 1 Jogo de Cada Variação (5 Jogos = R$ 17,50 | Celeste, Magnética, Quântica, Atrasão e Síntese 4 Forças | 2026-10-29 20:00)",
-        "jogos": [
-            [2, 4, 6, 7, 8, 10, 11, 13, 15, 16, 18, 20, 23, 24, 25],   # Variação 1 [Celeste / Lunar-Orbital]: 12 ACERTOS (Prêmio) em 29/10!
-            [1, 2, 4, 6, 11, 12, 13, 15, 17, 18, 20, 21, 23, 24, 25],  # Variação 2 [Força Magnética — Ising + Geomag + Lorenz]: 10 pts em 29/10 e 11 pts (Prêmio) em 28/10!
-            [1, 2, 3, 4, 6, 7, 8, 9, 13, 14, 15, 21, 22, 23, 24],      # Variação 3 [Força Quântica — Annealing + Zeno + MI]: 11 ACERTOS (Prêmio) em 28/10!
-            [1, 3, 5, 6, 8, 10, 11, 12, 13, 16, 18, 21, 22, 23, 24],   # Variação 4 [Atrasão & Sobrevivência — Weibull + Cycle + Void]: 11 ACERTOS (Prêmio) em 29/10!
-            [2, 6, 7, 8, 10, 11, 12, 13, 15, 16, 18, 19, 21, 24, 25],  # Variação 5 [Síntese 4 Forças — Celeste+Mag+Quânt+Atrasão]: 13 ACERTOS (Prêmio) em 29/10!
-        ],
+        "descricao": "Carteira Cirúrgica Sem Exagero — 1 Jogo de Cada Variação (Celeste, Magnética, Quântica, Atrasão e Síntese 4 Forças)",
+        "jogos": [],
     },
 ]
 
-PACOTE_ENXUTO_4 = [
+PACOTE_ENXUTO_4: List[Dict[str, Any]] = [
     {
         "modalidade": "mega-sena",
-        "descricao": "Carteira Ultra-Enxuta 4 Forças Puras (4 Jogos = R$ 24,00 | 1 Celeste + 1 Magnética + 1 Quântica + 1 Atrasão)",
-        "jogos": PACOTE_VARIACOES_CIRURGICO[0]["jogos"][:4],
+        "descricao": "Carteira Ultra-Enxuta 4 Forças Puras (1 Celeste + 1 Magnética + 1 Quântica + 1 Atrasão)",
+        "jogos": [],
     },
     {
         "modalidade": "lotofacil",
-        "descricao": "Carteira Ultra-Enxuta 4 Forças Puras (4 Jogos = R$ 14,00 | 1 Celeste + 1 Magnética + 1 Quântica + 1 Atrasão)",
-        "jogos": PACOTE_VARIACOES_CIRURGICO[1]["jogos"][:4],
+        "descricao": "Carteira Ultra-Enxuta 4 Forças Puras (1 Celeste + 1 Magnética + 1 Quântica + 1 Atrasão)",
+        "jogos": [],
     },
 ]
 
-PACOTE_ORCAMENTO_80 = [
+PACOTE_ORCAMENTO_80: List[Dict[str, Any]] = [
     {
         "modalidade": "mega-sena",
-        "descricao": "Carteira Omni Completa Teto R$ 80 (8 Jogos = R$ 48,00 | 5 Variações Cirúrgicas + Wheel G=4 + Caos T=1.4 | 2026-10-29 20:00)",
-        "jogos": [
-            [10, 11, 17, 28, 32, 44],  # Jogo 1 [Variação Celeste]: Núcleo de Convergência Lunar/Orbital (Zc Top)
-            [4, 17, 36, 40, 47, 56],   # Jogo 2 [Variação Magnética]: Ising J_ij + Geomag + Lorenz (hit 36 em 29/10)
-            [22, 23, 30, 37, 59, 60],  # Jogo 3 [Variação Quântica]: Tunelamento Ψ + Entrelaçamento Bell + Zeno
-            [11, 26, 34, 42, 46, 59],  # Jogo 4 [Variação Atrasão]: Top Z_lag pré-29/10 (hit 34 Z=+4.47 em 29/10)
-            [5, 10, 15, 30, 32, 34],   # Jogo 5 [Variação Síntese 4 Forças]: Duque [05, 34] em 29/10!
-            [5, 18, 27, 34, 38, 53],   # Jogo 6 [Wheel Abreviado G=4]: Corte Ortogonal #1 (Duque [05, 34] em 29/10!)
-            [2, 18, 28, 33, 34, 49],   # Jogo 7 [Trânsitos Planetários]: Júpiter/Marte IC (hit 34 em 29/10)
-            [3, 18, 30, 34, 35, 50],   # Jogo 8 [Caos/Vórtice T=1.4]: Alta Temperatura (hit 34 em 29/10)
-        ],
+        "descricao": "Carteira Omni Teto R$ 80 (5 Variações Cirúrgicas + Wheel G=4 + Caos)",
+        "jogos": [],
     },
     {
         "modalidade": "lotofacil",
-        "descricao": "Carteira Omni Completa Teto R$ 80 (9 Jogos = R$ 31,50 | 5 Variações Cirúrgicas + Wheel G=14 + Caos | 2026-10-29 20:00)",
-        "jogos": [
-            [2, 4, 6, 7, 8, 10, 11, 13, 15, 16, 18, 20, 23, 24, 25],   # Jogo 1 [Variação Celeste]: 12 ACERTOS em 29/10!
-            [1, 2, 4, 6, 11, 12, 13, 15, 17, 18, 20, 21, 23, 24, 25],  # Jogo 2 [Variação Magnética]: 10 pts em 29/10 e 11 pts em 28/10!
-            [1, 2, 3, 4, 6, 7, 8, 9, 13, 14, 15, 21, 22, 23, 24],      # Jogo 3 [Variação Quântica]: 11 ACERTOS em 28/10!
-            [1, 3, 5, 6, 8, 10, 11, 12, 13, 16, 18, 21, 22, 23, 24],   # Jogo 4 [Variação Atrasão]: 11 ACERTOS em 29/10!
-            [2, 6, 7, 8, 10, 11, 12, 13, 15, 16, 18, 19, 21, 24, 25],  # Jogo 5 [Variação Síntese 4 Forças]: 13 ACERTOS em 29/10!
-            [2, 3, 4, 6, 8, 9, 10, 11, 13, 15, 16, 18, 20, 21, 25],    # Jogo 6 [Esoteric + Lunar]: 11 ACERTOS em 29/10!
-            [2, 3, 6, 7, 8, 9, 11, 12, 13, 15, 16, 18, 20, 21, 25],    # Jogo 7 [Hybrid Omni]: 12 ACERTOS em 29/10!
-            [1, 3, 4, 6, 7, 8, 10, 13, 15, 16, 17, 18, 20, 24, 25],    # Jogo 8 [Wheel G=14 Corte #2]: 11 ACERTOS em 29/10!
-            [1, 2, 3, 5, 7, 8, 10, 11, 13, 15, 16, 19, 22, 24, 25],    # Jogo 9 [Caos / Alta Dispersão]: 12 ACERTOS em 29/10!
-        ],
+        "descricao": "Carteira Omni Teto R$ 80 (5 Variações Cirúrgicas + Wheel G=14 + Caos)",
+        "jogos": [],
     },
 ]
 
 PACOTE_PADRAO_EXEMPLO = PACOTE_VARIACOES_CIRURGICO
 
-PACOTE_WHEEL_COMPLETO = [
+PACOTE_WHEEL_COMPLETO: List[Dict[str, Any]] = [
     {
         "modalidade": "mega-sena",
-        "descricao": "Top 6 Cobertura Ortogonal do Wheel Abreviado (Pool: 05,10,11,17,18,24,27,34,38,53 — G=4)",
-        "jogos": [
-            [5, 18, 27, 34, 38, 53],
-            [5, 11, 17, 18, 24, 27],
-            [10, 11, 24, 27, 34, 38],
-            [5, 10, 11, 17, 34, 53],
-            [10, 17, 18, 24, 38, 53],
-            [5, 10, 11, 18, 27, 38],
-        ],
+        "descricao": "Cobertura Ortogonal do Wheel Abreviado (G=4)",
+        "jogos": [],
     },
-    PACOTE_PADRAO_EXEMPLO[1],
+    {
+        "modalidade": "lotofacil",
+        "descricao": "Cobertura Ortogonal do Wheel Abreviado (G=14)",
+        "jogos": [],
+    },
 ]
 
 def preencher_modalidade(page, modalidade: str, jogos: List[List[int]], delay_click: float = 0.15):
@@ -306,7 +274,7 @@ def exibir_resumo_pacote(pacote: List[Dict[str, Any]], max_budget: float = 80.0)
 def main():
     parser = argparse.ArgumentParser(description="Automação Playwright Universal para Loterias Caixa")
     parser.add_argument("--file", "-f", type=str, help="Caminho para arquivo JSON com as apostas")
-    parser.add_argument("--interactive", "-i", action="store_true", help="Usa pacote Omni 2026-10-29 interativo")
+    parser.add_argument("--interactive", "-i", action="store_true", help="Executa em modo interativo passo a passo")
     parser.add_argument(
         "--preset",
         choices=["variacoes", "enxuto4", "budget80", "omni", "wheel"],

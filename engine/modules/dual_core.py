@@ -27,8 +27,8 @@ import pandas as pd
 
 from engine.adapters import DrawRules
 
-# Default target draw context: October 29, 2026 at 20:30 BRT (UTC-3)
-DEFAULT_TARGET_ISO = "2026-10-29T20:30:00-03:00"
+# Default target draw context (fallback ISO timestamp when none is provided)
+DEFAULT_TARGET_ISO = "2026-01-01T20:00:00-03:00"
 
 # Synodic lunar month constants
 SYNODIC_MONTH_DAYS = 29.530588853
