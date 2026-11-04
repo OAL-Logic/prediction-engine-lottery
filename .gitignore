@@ -1,5 +1,8 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
 *.py[codz]
 *$py.class
 
@@ -22,6 +25,8 @@ var/
 wheels/
 !engine/wheels/
 !engine/wheels/**
+engine/wheels/**/__pycache__/
+engine/wheels/**/*.py[cod]
 share/python-wheels/
 *.egg-info/
 .installed.cfg
