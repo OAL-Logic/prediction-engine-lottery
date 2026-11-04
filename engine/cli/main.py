@@ -126,14 +126,15 @@ def _get_help_panel() -> Panel:
     header = _get_header()
     
     segments = [
-        make_cat_section(PANEL_PRIMARY, ["menu", "wizard", "wizard-pro", "fetch", "suggest", "analyze", "backtest", "backtest-viz", "strategies", "docs"]),
+        make_cat_section(PANEL_PRIMARY, ["menu", "wizard", "wizard-pro", "fetch", "suggest", "analyze", "backtest", "backtest-viz", "strategies", "tui", "docs"]),
         make_cat_section(PANEL_ANALYTICS, [
             "dashboard", "trend", "board", "scan", "cluster", "signal", "detect-patterns", "entropy-scan", 
             "variance-report", "synergy-map", "ticket-dna", "draw-fingerprint", "markov-table", "outlier-draws",
             "calendar-effect", "bonus-ball", "frequency-band", "combo-rank", "draw-clock", "number-heat", 
             "number-timeline", "momentum-check", "gap-forecast", "pair-analysis", "draw-summary", 
             "history-scan", "pool-stats", "rank-numbers", "streak-report", "leaderboard", "fractal-scan", "sync-check",
-            "report-elite", "spectral-3d", "hyper-explorer", "synergy-graph", "space-weather", "global-bench"
+            "report-elite", "spectral-3d", "hyper-explorer", "synergy-graph", "space-weather", "global-bench",
+            "fringe-inspect"
             ]),
         make_cat_section(PANEL_BETTING, [
             "wheel", "genetic-wheel", "portfolio", "global-portfolio", "hedge", "auto-hedge", "multi-ticket", "prize-ev", "quick", "next", "forecast", "picks", 
@@ -422,6 +423,20 @@ def strategies_cmd() -> None:
     for s in list_strategies():
         table.add_row(s["name"], s["tier"], s["description"])
     Console().print(table)
+
+@app.command(name="tui", rich_help_panel=PANEL_PRIMARY)
+def tui_cmd(
+    lottery: Annotated[str, typer.Argument(help="Lottery game identifier (e.g. br/mega-sena, br/quina, br/lotofacil)")] = "br/mega-sena",
+    mode: Annotated[str, typer.Option("--mode", "-m", help="Inspection focus: 'all', 'lorenz', 'ising', 'tda', 'noosphere', 'quantum'")] = "all",
+    draws: Annotated[int, typer.Option("--draws", "-n", help="Historical context draws")] = 50,
+    live: Annotated[bool, typer.Option("--live/--once", help="Run live animated TUI loop vs. static one-shot frame")] = False,
+    fps: Annotated[float, typer.Option("--fps", help="Frame rate for live animation")] = 4.0,
+    duration: Annotated[float, typer.Option("--duration", "-d", help="Max duration in seconds for live loop")] = 10.0,
+    export_md: Annotated[Optional[str], typer.Option("--export-md", help="Export markdown snapshot to file")] = None,
+) -> None:
+    """🖥️ Launch the native high-performance Terminal Cockpit (TUI)."""
+    from engine.cli.commands.fringe_inspect import fringe_inspect as impl
+    return impl(lottery, mode, draws, live, fps, duration, export_md)
 
 # --- PANEL_ANALYTICS Commands ---
 
@@ -1005,6 +1020,20 @@ def sync_check(
     """📡 Search for cross-game synchronicity (shared numbers)."""
     from engine.cli.commands.sync_check import sync_check as impl
     return impl(days)
+
+@app.command(name="fringe-inspect", rich_help_panel=PANEL_ANALYTICS)
+def fringe_inspect_cmd(
+    lottery: Annotated[str, typer.Argument(help="Lottery game identifier (e.g. br/mega-sena, br/quina, br/lotofacil)")] = "br/mega-sena",
+    mode: Annotated[str, typer.Option("--mode", "-m", help="Inspection focus: 'all', 'lorenz', 'ising', 'tda', 'noosphere', 'quantum'")] = "all",
+    draws: Annotated[int, typer.Option("--draws", "-n", help="Historical context draws")] = 50,
+    live: Annotated[bool, typer.Option("--live/--once", help="Run live animated TUI loop vs. static one-shot frame")] = False,
+    fps: Annotated[float, typer.Option("--fps", help="Frame rate for live animation")] = 4.0,
+    duration: Annotated[float, typer.Option("--duration", "-d", help="Max duration in seconds for live loop")] = 10.0,
+    export_md: Annotated[Optional[str], typer.Option("--export-md", help="Export markdown snapshot to file")] = None,
+) -> None:
+    """🔮 Interactive TUI Fringe Physics & Speculative Theories Inspector."""
+    from engine.cli.commands.fringe_inspect import fringe_inspect as impl
+    return impl(lottery, mode, draws, live, fps, duration, export_md)
 
 @app.command(name="cluster-walk", rich_help_panel=PANEL_ANALYTICS)
 def cluster_walk(
