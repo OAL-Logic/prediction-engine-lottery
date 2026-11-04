@@ -22,6 +22,9 @@ class TDATopologyStrategy(BaseStrategy):
 
     requires_history = 20
 
+    def __init__(self, core_percentile: float = 80.0) -> None:
+        self.core_percentile = float(core_percentile)
+
     def score(self, df: pd.DataFrame, rules: DrawRules) -> dict[int, float]:
         lo, hi = rules.number_range
         all_numbers = list(range(lo, hi + 1))
@@ -40,7 +43,7 @@ class TDATopologyStrategy(BaseStrategy):
         scores = {n: 0.0 for n in all_numbers}
         
         # Find the hottest numbers to form the 'core complex'
-        hot_threshold = np.percentile(list(counts.values()), 80)
+        hot_threshold = np.percentile(list(counts.values()), self.core_percentile)
         core_complex = [n for n, c in counts.items() if c >= hot_threshold]
         
         if not core_complex:

@@ -49,7 +49,36 @@ PARAM_GRIDS = {
     },
     "copairs": {
         "history_limit": [100, 200, 400]
-    }
+    },
+    # --- Fringe Physics & Speculative Dynamics (Tier: fun) ---
+    "ising_model": {
+        "temperature": [1.5, 2.269, 3.5],
+        "coupling_j": [0.5, 1.0, 2.0],
+    },
+    "lorentz": {
+        "sigma": [8.0, 10.0, 14.0],
+        "rho": [20.0, 28.0, 35.0],
+        "dt": [0.005, 0.01, 0.02],
+    },
+    "zeno_quantum": {
+        "observation_window": [10, 15, 25],
+        "zeno_threshold": [0.65, 0.80, 0.90],
+    },
+    "quantum_multiverse": {
+        "coherence_decay": [0.70, 0.85, 0.95],
+        "branches": [500, 1000],
+    },
+    "tda_topology": {
+        "core_percentile": [70.0, 80.0, 90.0],
+    },
+    "sacred_grid": {
+        "scale_a": [0.3, 0.5, 0.8],
+        "turns": [3.0, 4.0, 5.0],
+    },
+    "retrocausality": {
+        "extrapolation_window": [3, 5, 8],
+        "echo_boost": [0.1, 0.2, 0.35],
+    },
 }
 
 # --- Filter Grids ---

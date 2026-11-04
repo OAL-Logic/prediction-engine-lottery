@@ -24,20 +24,25 @@ class RetrocausalityStrategy(BaseStrategy):
 
     requires_history = 20
 
+    def __init__(self, extrapolation_window: int = 5, echo_boost: float = 0.2) -> None:
+        self.extrapolation_window = int(extrapolation_window)
+        self.echo_boost = float(echo_boost)
+
     def score(self, df: pd.DataFrame, rules: DrawRules) -> dict[int, float]:
         lo, hi = rules.number_range
         all_numbers = list(range(lo, hi + 1))
         
         # 1. Project the future sum
         sums = [sum(row.numbers) for row in df.itertuples()]
-        if len(sums) < 5:
+        w = max(2, min(len(sums), self.extrapolation_window))
+        if len(sums) < 2:
             return {n: 0.5 for n in all_numbers}
             
-        # Simple linear extrapolation of the last 5 sums
-        x = np.arange(5)
-        y = np.array(sums[-5:])
+        # Linear extrapolation of the last w sums
+        x = np.arange(w)
+        y = np.array(sums[-w:])
         coeffs = np.polyfit(x, y, 1)
-        future_sum_target = coeffs[0] * 5 + coeffs[1]
+        future_sum_target = coeffs[0] * w + coeffs[1]
         
         # Expected average per number to hit the sum target
         target_avg = future_sum_target / rules.pick_count
@@ -53,9 +58,6 @@ class RetrocausalityStrategy(BaseStrategy):
             scores[n] = 1.0 - (dist / max_dist)
             
         # 3. Temporal Echoes (Fibonacci delays)
-        # If a number appeared exactly 3, 5, 8, or 13 draws ago, it gets a "retrocausal boost"
-        # as if it is echoing backward from the future sequence.
-        
         fib_delays = [3, 5, 8, 13]
         total_draws = len(df)
         
@@ -64,7 +66,7 @@ class RetrocausalityStrategy(BaseStrategy):
                 echo_row = df.iloc[-delay]
                 for n in echo_row.numbers:
                     if n in scores:
-                        scores[n] += 0.2 # Boost
+                        scores[n] += self.echo_boost
                         
         # Normalize
         max_s = max(scores.values()) if scores else 1.0

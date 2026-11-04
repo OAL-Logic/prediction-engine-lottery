@@ -25,9 +25,10 @@ class IsingModelStrategy(BaseStrategy):
 
     requires_history = 30
 
-    def __init__(self, steps: int = 5000, temperature: float = 2.0) -> None:
+    def __init__(self, steps: int = 3000, temperature: float = 2.0, coupling_j: float = 1.0) -> None:
         self.steps = steps
-        self.sim_temp = temperature # Thermodynamic temperature, distinct from sampling temp
+        self.sim_temp = float(temperature)  # Thermodynamic temperature, distinct from sampling temp
+        self.coupling_j = float(coupling_j)
 
     def score(self, df: pd.DataFrame, rules: DrawRules) -> dict[int, float]:
         lo, hi = rules.number_range
@@ -67,7 +68,8 @@ class IsingModelStrategy(BaseStrategy):
                     # Expected co-occurrence if independent
                     expected = (counts[n] / total_draws) * (counts[m] / total_draws) * total_draws
                     actual = co_occur[n][m]
-                    J[n][m] = (actual - expected) / max(1.0, expected)
+                    raw_j = (actual - expected) / max(1.0, expected)
+                    J[n][m] = self.coupling_j * raw_j
                     
         # Metropolis-Hastings Simulation
         # Initialize random state (-1 or 1)

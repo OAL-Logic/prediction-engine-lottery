@@ -27,7 +27,7 @@ class LorentzStrategy(BaseStrategy):
     tier = "fun"
     requires_history = 0
 
-    def __init__(self, sigma: float = 10.0, rho: float = 28.0, beta: Any = "8/3") -> None:
+    def __init__(self, sigma: float = 10.0, rho: float = 28.0, beta: Any = "8/3", dt: float = 0.01) -> None:
         """
         Parameters
         ----------
@@ -37,9 +37,12 @@ class LorentzStrategy(BaseStrategy):
             Rayleigh number (default: 28.0). Controls the point of convective instability.
         beta : float | str
             Geometric factor (default: '8/3'). Controls the aspect ratio of the strange attractor.
+        dt : float
+            Integration step size (default: 0.01).
         """
         self.sigma = float(sigma)
         self.rho = float(rho)
+        self.dt = float(dt)
         
         # Safely evaluate string fractions (like '8/3') from CLI/Wizard
         if isinstance(beta, str) and "/" in beta:
@@ -74,22 +77,33 @@ class LorentzStrategy(BaseStrategy):
         if isinstance(target_date, str):
             target_date = date.fromisoformat(target_date[:10])
             
-        dt = 0.01
-        steps = 2000
+        dt = min(0.02, max(0.001, self.dt))
+        steps = 1500
         
         # Pre-allocate trajectory
         trajectory = np.zeros((steps, 3))
         # Initial state seeded by date
-        trajectory[0] = [target_date.day / 10, target_date.month / 10, target_date.year / 2000]
+        curr = np.array([target_date.day / 10.0, target_date.month / 10.0, target_date.year / 2000.0], dtype=float)
+        trajectory[0] = curr
+
+        def derivatives(state: np.ndarray) -> np.ndarray:
+            x, y, z = state
+            dx = self.sigma * (y - x)
+            dy = x * (self.rho - z) - y
+            dz = x * y - self.beta * z
+            return np.array([dx, dy, dz], dtype=float)
         
-        # Core Lorentz integration
-        curr = trajectory[0]
+        # Core RK4 integration (high numerical stability)
         for i in range(1, steps):
-            x, y, z = curr
-            dx = self.sigma * (y - x) * dt
-            dy = (x * (self.rho - z) - y) * dt
-            dz = (x * y - self.beta * z) * dt
-            curr = curr + [dx, dy, dz]
+            k1 = derivatives(curr)
+            k2 = derivatives(curr + 0.5 * dt * k1)
+            k3 = derivatives(curr + 0.5 * dt * k2)
+            k4 = derivatives(curr + dt * k3)
+            delta = (dt / 6.0) * (k1 + 2.0 * k2 + 2.0 * k3 + k4)
+            if not np.all(np.isfinite(delta)):
+                curr = trajectory[0]
+            else:
+                curr = np.clip(curr + delta, -500.0, 500.0)
             trajectory[i] = curr
             
         # 3. Vectorized Nearest-Neighbor Scoring

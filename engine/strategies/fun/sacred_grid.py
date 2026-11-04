@@ -24,6 +24,10 @@ class SacredGridStrategy(BaseStrategy):
 
     requires_history = 0 # Pure geometric, no history needed
 
+    def __init__(self, scale_a: float = 0.5, turns: float = 4.0) -> None:
+        self.scale_a = float(scale_a)
+        self.turns = float(turns)
+
     def _get_coords(self, n: int, rules: DrawRules) -> tuple[float, float]:
         """Convert number to (x, y) coordinates based on board width."""
         width = rules.board_cols or 10
@@ -52,10 +56,10 @@ class SacredGridStrategy(BaseStrategy):
         # Generate a set of points along the Golden Spiral
         # r = a * e^(b * theta), where b = ln(Phi) / (pi/2)
         b = math.log(PHI) / (math.pi / 2)
-        a = 0.5 # Scale factor
+        a = self.scale_a # Scale factor
         
         spiral_points = []
-        for theta in np.linspace(0, 8 * math.pi, 200): # 4 full turns
+        for theta in np.linspace(0, 2 * self.turns * math.pi, 200):
             r = a * math.exp(b * theta)
             x = center_x + r * math.cos(theta)
             y = center_y + r * math.sin(theta)
