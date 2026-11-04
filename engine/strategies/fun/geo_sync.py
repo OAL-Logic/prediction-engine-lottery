@@ -21,6 +21,7 @@ class GeoSyncStrategy(BaseStrategy):
     """
     name = "geo_sync"
     description = "🌍 Geographic Synchronizer (Local Telluric Resonance)"
+    tier = "fun"
 
     def score(self, df: pd.DataFrame, rules: DrawRules) -> dict[int, float]:
         lo, hi = rules.number_range

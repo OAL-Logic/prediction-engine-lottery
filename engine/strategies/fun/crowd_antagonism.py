@@ -17,6 +17,7 @@ class CrowdAntagonismStrategy(BaseStrategy):
     """
     name = "crowd_antagonism"
     description = "🚫 Anti-Mass Filter (Avoids popular and saturated numbers)"
+    tier = "fun"
 
     def score(self, df: pd.DataFrame, rules: DrawRules) -> dict[int, float]:
         lo, hi = rules.number_range

@@ -767,8 +767,8 @@ CURATED_PRESETS = {
         "bayesian",
         "momentum",
         "streak",
-        "kabbalistic",
-        "trevo_sorte",
+        "hazard_weibull",
+        "dual_core",
         "synapse",
         "copairs",
         "steiner_wheel"

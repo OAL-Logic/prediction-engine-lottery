@@ -1,0 +1,40 @@
+name: CI Quality Gate & Popperian Governance
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch: {}
+
+jobs:
+  governance-and-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[all]" || pip install -e "."
+          pip install pytest pytest-asyncio
+
+      - name: Guardrail 1 - Zero PII Check
+        run: |
+          python3 scripts/check_no_pii.py
+
+      - name: Guardrail 2 - Popperian Strategy Governance Quality Gate
+        run: |
+          python3 scripts/check_popperian_governance.py
+
+      - name: Run Core Test Suite
+        run: |
+          pytest tests/test_popperian_governance.py tests/test_audit_fringe_theories.py tests/test_synthetic_multiverse.py tests/test_quantum_multiverse.py -v

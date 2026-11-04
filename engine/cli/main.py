@@ -134,7 +134,7 @@ def _get_help_panel() -> Panel:
             "number-timeline", "momentum-check", "gap-forecast", "pair-analysis", "draw-summary", 
             "history-scan", "pool-stats", "rank-numbers", "streak-report", "leaderboard", "fractal-scan", "sync-check",
             "report-elite", "spectral-3d", "hyper-explorer", "synergy-graph", "space-weather", "global-bench",
-            "fringe-inspect", "synthetic-bench"
+            "fringe-inspect", "synthetic-bench", "popper-check"
             ]),
         make_cat_section(PANEL_BETTING, [
             "wheel", "genetic-wheel", "portfolio", "global-portfolio", "hedge", "auto-hedge", "multi-ticket", "prize-ev", "quick", "next", "forecast", "picks", 
@@ -1046,6 +1046,15 @@ def synthetic_bench_cmd(
     """🌌 Benchmark fringe theories against controlled synthetic universes with physical anomalies."""
     from engine.cli.commands.synthetic_bench import synthetic_bench as impl
     return impl(lottery, draws, seed, export_md, quiet)
+
+@app.command(name="popper-check", rich_help_panel=PANEL_ANALYTICS)
+def popper_check_cmd(
+    report: Annotated[Optional[str], typer.Option("--report", "-r", help="Path to empirical study markdown report")] = None,
+    quiet: Annotated[bool, typer.Option("--quiet", "-q", help="Suppress progress output")] = False,
+) -> None:
+    """🏛️ Verify Popperian strategy tier governance and falsification invariants."""
+    from engine.cli.commands.popper_check import popper_check as impl
+    return impl(report, quiet)
 
 @app.command(name="cluster-walk", rich_help_panel=PANEL_ANALYTICS)
 def cluster_walk(
