@@ -32,4 +32,9 @@ lottery log "$LOTTERY" \
     --output   "$LOG_FILE" \
     --quiet
 
+if [[ "${AUDIT_FRINGE:-0}" == "1" ]]; then
+    echo "[post-fetch] Running continuous Popperian falsification audit for $LOTTERY..."
+    python3 scripts/audit_fringe_theories.py --games "$LOTTERY" --draws "${AUDIT_DRAWS:-100}" --check-only --quiet || true
+fi
+
 echo "[post-fetch] Done."
