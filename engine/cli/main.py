@@ -134,7 +134,7 @@ def _get_help_panel() -> Panel:
             "number-timeline", "momentum-check", "gap-forecast", "pair-analysis", "draw-summary", 
             "history-scan", "pool-stats", "rank-numbers", "streak-report", "leaderboard", "fractal-scan", "sync-check",
             "report-elite", "spectral-3d", "hyper-explorer", "synergy-graph", "space-weather", "global-bench",
-            "fringe-inspect", "synthetic-bench", "popper-check", "entropy-bench"
+            "fringe-inspect", "synthetic-bench", "popper-check", "entropy-bench", "global-fringe-bench"
             ]),
         make_cat_section(PANEL_BETTING, [
             "wheel", "genetic-wheel", "portfolio", "global-portfolio", "hedge", "auto-hedge", "multi-ticket", "prize-ev", "quick", "next", "forecast", "picks", 
@@ -1066,6 +1066,18 @@ def entropy_bench_cmd(
     """⚛️ Benchmark hardware & quantum entropy sources against NIST tests and lottery draws."""
     from engine.cli.commands.entropy_bench import entropy_bench as impl
     return impl(lottery, bytes_bench, export_md, quiet)
+
+@app.command(name="global-fringe-bench", rich_help_panel=PANEL_ANALYTICS)
+def global_fringe_bench_cmd(
+    lotteries: Annotated[str, typer.Option("--lotteries", "-l", help="Comma-separated lottery IDs")] = "br/mega-sena,us/powerball,eu/euro-millions",
+    draws: Annotated[int, typer.Option("--draws", "-n", help="Number of historical test draws per game")] = 50,
+    seed: Annotated[int, typer.Option("--seed", "-s", help="Random seed for baseline comparisons")] = 42,
+    export_md: Annotated[Optional[str], typer.Option("--export-md", help="Export markdown report path")] = "reports/global/studies/fringe-theories-international-evaluation.md",
+    quiet: Annotated[bool, typer.Option("--quiet", "-q", help="Suppress progress output")] = False,
+) -> None:
+    """🌐 Benchmark fringe theories across global lotteries and machine archetypes."""
+    from engine.cli.commands.global_fringe_bench import global_fringe_bench as impl
+    return impl(lotteries, draws, seed, export_md, quiet)
 
 @app.command(name="cluster-walk", rich_help_panel=PANEL_ANALYTICS)
 def cluster_walk(

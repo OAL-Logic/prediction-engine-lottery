@@ -90,7 +90,8 @@ class PowerballAdapter(LotteryAdapter):
             )
 
         # Ensure correct types for the engine
-        df["date"] = pd.to_datetime(df["draw_date"], errors="coerce", utc=True)
+        date_col = "draw_date" if ("draw_date" in df.columns and df["draw_date"].notna().any()) else "date"
+        df["date"] = pd.to_datetime(df[date_col], errors="coerce", utc=True)
         # Drop rows with invalid/missing dates (prevents NaT errors in strategies)
         df = df.dropna(subset=["date"])
         
