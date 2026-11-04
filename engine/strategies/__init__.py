@@ -733,6 +733,17 @@ def _load_strategy(name: str):
 
 # Curated presets that mix tiers or select specific high-value subsets
 CURATED_PRESETS = {
+    "fringe": [
+        "benford_illusion",
+        "retrocausality",
+        "quantum_multiverse",
+        "ising_model",
+        "zeno_quantum",
+        "tda_topology",
+        "sacred_grid",
+        "lorentz",
+        "noosphere"
+    ],
     "chaos": [
         "kabbalistic",
         "reincarnation",

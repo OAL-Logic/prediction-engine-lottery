@@ -17,7 +17,7 @@ from typing import Any, Callable
 import pandas as pd
 
 from engine.cli.utils import get_adapter
-from engine.strategies import get_strategy, list_strategies
+from engine.strategies import STRATEGY_PRESETS, get_strategy, list_strategies
 
 
 class UnknownStrategyError(ValueError):
@@ -62,9 +62,18 @@ class BacktestResult:
 def _resolve_strategy_names(strategy_names: list[str] | None) -> list[str]:
     if not strategy_names:
         return ["weighted"]
-    if len(strategy_names) == 1 and strategy_names[0].lower() == "all":
-        return [s["name"] for s in list_strategies()]
-    return strategy_names
+    expanded: list[str] = []
+    for s in strategy_names:
+        s_clean = s.strip()
+        if not s_clean:
+            continue
+        if s_clean.lower() == "all":
+            expanded.extend([st["name"] for st in list_strategies()])
+        elif s_clean in STRATEGY_PRESETS:
+            expanded.extend(STRATEGY_PRESETS[s_clean])
+        else:
+            expanded.append(s_clean)
+    return expanded or ["weighted"]
 
 
 def _resolve_target_rows(df: pd.DataFrame, draw_id: str | None, prev: str | None) -> list[pd.Series]:

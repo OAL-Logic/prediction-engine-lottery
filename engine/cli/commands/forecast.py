@@ -61,6 +61,8 @@ _STRATEGY_GROUPS = {
     "default":     ["weighted", "markov", "bayesian", "monte_carlo",
                     "spectral", "cycle"],
     "fast":        ["bayesian", "weighted", "markov"],
+    "fringe":      ["benford_illusion", "retrocausality", "quantum_multiverse", "ising_model",
+                    "zeno_quantum", "tda_topology", "sacred_grid", "lorentz", "noosphere"],
 }
 
 

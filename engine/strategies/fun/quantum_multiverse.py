@@ -73,7 +73,7 @@ class QuantumMultiverseStrategy(BaseStrategy):
         freq_map: dict[int, int] = {n: 0 for n in all_numbers}
         for row in recent_df.itertuples():
             nums = getattr(row, "numbers", None)
-            if nums:
+            if nums is not None and len(nums) > 0:
                 for num in nums:
                     if num in freq_map:
                         freq_map[num] += 1
@@ -117,7 +117,7 @@ class QuantumMultiverseStrategy(BaseStrategy):
 
         # Calculate |psi(n)|^2
         prob_densities = survivor_magnitudes**2
-        total_density = np.sum(prob_densities)
+        total_density = float(np.sum(prob_densities))
 
         if total_density > 0:
             prob_densities = prob_densities / total_density

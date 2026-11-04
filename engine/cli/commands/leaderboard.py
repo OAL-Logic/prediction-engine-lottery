@@ -43,6 +43,8 @@ _STRATEGY_GROUPS = {
     "deep":        ["transformer", "lstm_gru", "cnn_1d"],
     "default":     ["weighted", "markov", "bayesian", "monte_carlo",
                     "spectral", "cycle", "moon_phase", "noosphere"],
+    "fringe":      ["benford_illusion", "retrocausality", "quantum_multiverse", "ising_model",
+                    "zeno_quantum", "tda_topology", "sacred_grid", "lorentz", "noosphere"],
 }
 
 

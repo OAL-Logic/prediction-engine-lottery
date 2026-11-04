@@ -100,3 +100,43 @@ def test_quantum_multiverse_handles_empty_or_minimal_history() -> None:
 
     assert len(scores) == 60
     assert pytest.approx(sum(scores.values()), abs=1e-5) == 1.0
+
+
+def test_quantum_multiverse_handles_numpy_array_numbers() -> None:
+    rules = DrawRules(
+        name="megasena",
+        number_range=(1, 60),
+        pick_count=6,
+        bonus_count=0,
+    )
+    import numpy as np
+    # Simulate df where 'numbers' column contains np.ndarray instead of list
+    records = [{"draw_number": i + 1, "numbers": np.array([1, 2, 3, 4, 5, 6])} for i in range(10)]
+    df_numpy = pd.DataFrame(records)
+
+    strat = QuantumMultiverseStrategy(branches=150, seed=101)
+    scores = strat.score(df_numpy, rules)
+    assert len(scores) == 60
+    assert pytest.approx(sum(scores.values()), abs=1e-5) == 1.0
+
+
+def test_fringe_preset_registration_and_expansion() -> None:
+    from engine.strategies import STRATEGY_PRESETS, get_strategy
+    from engine.services.backtest import _resolve_strategy_names
+
+    assert "fringe" in STRATEGY_PRESETS
+    fringe_strats = STRATEGY_PRESETS["fringe"]
+    assert len(fringe_strats) == 9
+    assert "quantum_multiverse" in fringe_strats
+    assert "ising_model" in fringe_strats
+    assert "zeno_quantum" in fringe_strats
+
+    # Verify each strategy can be instantiated
+    for s_name in fringe_strats:
+        strat = get_strategy(s_name)
+        assert strat.name == s_name
+
+    # Verify backtest resolver expands "fringe"
+    expanded = _resolve_strategy_names(["fringe"])
+    assert expanded == fringe_strats
+

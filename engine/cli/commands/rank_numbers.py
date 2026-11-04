@@ -52,6 +52,8 @@ _STRATEGY_GROUPS: dict[str, list[str]] = {
                     "momentum", "spectral", "streak", "cycle", "harmonic",
                     "stability", "fisher"],
     "esoteric":    ["moon_phase", "solar", "noosphere", "numerology", "fibonacci"],
+    "fringe":      ["benford_illusion", "retrocausality", "quantum_multiverse", "ising_model",
+                    "zeno_quantum", "tda_topology", "sacred_grid", "lorentz", "noosphere"],
 }
 
 _SPARK = "▁▂▃▄▅▆▇█"
