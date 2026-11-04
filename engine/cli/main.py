@@ -134,7 +134,7 @@ def _get_help_panel() -> Panel:
             "number-timeline", "momentum-check", "gap-forecast", "pair-analysis", "draw-summary", 
             "history-scan", "pool-stats", "rank-numbers", "streak-report", "leaderboard", "fractal-scan", "sync-check",
             "report-elite", "spectral-3d", "hyper-explorer", "synergy-graph", "space-weather", "global-bench",
-            "fringe-inspect"
+            "fringe-inspect", "synthetic-bench"
             ]),
         make_cat_section(PANEL_BETTING, [
             "wheel", "genetic-wheel", "portfolio", "global-portfolio", "hedge", "auto-hedge", "multi-ticket", "prize-ev", "quick", "next", "forecast", "picks", 
@@ -1034,6 +1034,18 @@ def fringe_inspect_cmd(
     """🔮 Interactive TUI Fringe Physics & Speculative Theories Inspector."""
     from engine.cli.commands.fringe_inspect import fringe_inspect as impl
     return impl(lottery, mode, draws, live, fps, duration, export_md)
+
+@app.command(name="synthetic-bench", rich_help_panel=PANEL_ANALYTICS)
+def synthetic_bench_cmd(
+    lottery: Annotated[str, typer.Argument(help="Lottery game identifier (e.g. br/mega-sena, br/quina, br/lotofacil)")] = "br/mega-sena",
+    draws: Annotated[int, typer.Option("--draws", "-n", help="Synthetic universe draw depth per experiment")] = 120,
+    seed: Annotated[int, typer.Option("--seed", "-s", help="Random seed for synthetic universe generator")] = 42,
+    export_md: Annotated[Optional[str], typer.Option("--export-md", help="Export markdown report path")] = "reports/br/studies/fringe-theories-synthetic-benchmarks.md",
+    quiet: Annotated[bool, typer.Option("--quiet", "-q", help="Suppress progress output")] = False,
+) -> None:
+    """🌌 Benchmark fringe theories against controlled synthetic universes with physical anomalies."""
+    from engine.cli.commands.synthetic_bench import synthetic_bench as impl
+    return impl(lottery, draws, seed, export_md, quiet)
 
 @app.command(name="cluster-walk", rich_help_panel=PANEL_ANALYTICS)
 def cluster_walk(
