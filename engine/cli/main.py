@@ -134,7 +134,7 @@ def _get_help_panel() -> Panel:
             "number-timeline", "momentum-check", "gap-forecast", "pair-analysis", "draw-summary", 
             "history-scan", "pool-stats", "rank-numbers", "streak-report", "leaderboard", "fractal-scan", "sync-check",
             "report-elite", "spectral-3d", "hyper-explorer", "synergy-graph", "space-weather", "global-bench",
-            "fringe-inspect", "synthetic-bench", "popper-check"
+            "fringe-inspect", "synthetic-bench", "popper-check", "entropy-bench"
             ]),
         make_cat_section(PANEL_BETTING, [
             "wheel", "genetic-wheel", "portfolio", "global-portfolio", "hedge", "auto-hedge", "multi-ticket", "prize-ev", "quick", "next", "forecast", "picks", 
@@ -1055,6 +1055,17 @@ def popper_check_cmd(
     """🏛️ Verify Popperian strategy tier governance and falsification invariants."""
     from engine.cli.commands.popper_check import popper_check as impl
     return impl(report, quiet)
+
+@app.command(name="entropy-bench", rich_help_panel=PANEL_ANALYTICS)
+def entropy_bench_cmd(
+    lottery: Annotated[str, typer.Argument(help="Lottery game identifier (e.g. br/mega-sena, br/quina, br/lotofacil)")] = "br/mega-sena",
+    bytes_bench: Annotated[int, typer.Option("--bytes", "-b", help="Number of entropy sample bytes per source")] = 16384,
+    export_md: Annotated[Optional[str], typer.Option("--export-md", help="Export markdown report path")] = "reports/br/studies/fringe-theories-quantum-entropy-benchmarks.md",
+    quiet: Annotated[bool, typer.Option("--quiet", "-q", help="Suppress progress output")] = False,
+) -> None:
+    """⚛️ Benchmark hardware & quantum entropy sources against NIST tests and lottery draws."""
+    from engine.cli.commands.entropy_bench import entropy_bench as impl
+    return impl(lottery, bytes_bench, export_md, quiet)
 
 @app.command(name="cluster-walk", rich_help_panel=PANEL_ANALYTICS)
 def cluster_walk(

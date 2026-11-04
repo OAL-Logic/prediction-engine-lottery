@@ -44,7 +44,13 @@ class QuantumMultiverseStrategy(BaseStrategy):
     tier = "fun"
     requires_history = 5
 
-    def __init__(self, branches: int = 1000, coherence_decay: float = 0.85, seed: int | None = None) -> None:
+    def __init__(
+        self,
+        branches: int = 1000,
+        coherence_decay: float = 0.85,
+        seed: int | None = None,
+        entropy_source: str = "csprng",
+    ) -> None:
         """
         Parameters
         ----------
@@ -54,10 +60,13 @@ class QuantumMultiverseStrategy(BaseStrategy):
             Decoherence rate factor between past draws and current superposition.
         seed : int | None
             Optional deterministic seed for reproducible backtesting.
+        entropy_source : str
+            Entropy provider: 'csprng' (default) | 'hwrng' | 'quantum_cache' | 'prng'.
         """
         self.branches = max(100, int(branches))
         self.coherence_decay = float(coherence_decay)
         self.seed = seed
+        self.entropy_source = entropy_source
 
     def score(self, df: pd.DataFrame, rules: DrawRules, **kwargs: Any) -> dict[int, float]:
         lo, hi = rules.number_range
@@ -80,14 +89,21 @@ class QuantumMultiverseStrategy(BaseStrategy):
 
         total_recent_draws = max(1, len(recent_df))
 
-        # 2. Derive entropy source: OS hardware entropy or seeded PRNG
+        # 2. Derive entropy source: hardware quantum bridge or deterministic seed
         if self.seed is not None:
             rng = np.random.default_rng(self.seed)
         else:
-            # Gather OS physical entropy (32 bytes)
-            raw_entropy = os.urandom(32)
-            seed_int = int.from_bytes(raw_entropy[:8], byteorder="big")
-            rng = np.random.default_rng(seed_int)
+            try:
+                from engine.modules.hardware_entropy import EntropySource, HardwareEntropyBridge
+                bridge = HardwareEntropyBridge()
+                src_enum = EntropySource(self.entropy_source)
+                raw_bytes = bridge.harvest_bytes(16, source=src_enum)
+                seed_int = int.from_bytes(raw_bytes[:8], byteorder="big")
+                rng = np.random.default_rng(seed_int)
+            except Exception:
+                raw_entropy = os.urandom(32)
+                seed_int = int.from_bytes(raw_entropy[:8], byteorder="big")
+                rng = np.random.default_rng(seed_int)
 
         # 3. Simulate M Everett branches
         # Complex state amplitudes: shape (branches, pool_size)
