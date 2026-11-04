@@ -155,6 +155,7 @@ STRATEGY_REGISTRY = {
     "ising_model": {"module": "engine.strategies.fun.ising_model", "tier": "fun", "description": "🌡️ Thermodynamic Phase Transition (Ising Model)"},
     "zeno_quantum": {"module": "engine.strategies.fun.zeno_quantum", "tier": "fun", "description": "👁️ Quantum Zeno Effect (Observation Freeze)"},
     "tda_topology": {"module": "engine.strategies.fun.tda_topology", "tier": "fun", "description": "🍩 Topological Data Analysis (Structural Holes)"},
+    "quantum_multiverse": {"module": "engine.strategies.fun.quantum_multiverse", "tier": "fun", "description": "🌌 Quantum Multiverse & Immortality (Everett Branching)"},
 }
 
 
@@ -746,7 +747,8 @@ CURATED_PRESETS = {
         "sacred_grid",
         "ising_model",
         "zeno_quantum",
-        "tda_topology"
+        "tda_topology",
+        "quantum_multiverse"
     ],
     "default": [
         "weighted",
