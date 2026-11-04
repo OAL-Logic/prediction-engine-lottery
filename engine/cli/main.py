@@ -500,6 +500,19 @@ def signal(
     from engine.cli.commands.signal import signal as impl
     return impl(lottery, strategy, window, step, export_md)
 
+@app.command(name="discrete-math", rich_help_panel=PANEL_ANALYTICS)
+def discrete_math(
+    lottery: Annotated[str, typer.Argument(help="Lottery name [Required], e.g. br/mega-sena, br/lotofacil")],
+    cost: Annotated[Optional[float], typer.Option("--cost", "-c", help="Override standard ticket price")] = None,
+    jackpot: Annotated[Optional[float], typer.Option("--jackpot", "-j", help="Estimated top prize jackpot for EV calculation")] = None,
+    spectral: Annotated[bool, typer.Option("--spectral", "-s", help="Run Graph Laplacian spectral bisection into orthogonal communities")] = False,
+    draws: Annotated[int, typer.Option("--draws", "-n", help="Historical draws to use for co-occurrence graph (default 200)")] = 200,
+    export_md: Annotated[Optional[str], typer.Option("--export-md", help="Append discrete math report to this Markdown file")] = None,
+):
+    """📐 Discrete Probability, Hypergeometric Distributions & Graph Spectral Bisection."""
+    from engine.cli.commands.discrete_math import discrete_math_cmd as impl
+    return impl(lottery, cost, jackpot, spectral, draws, export_md)
+
 @app.command(rich_help_panel=PANEL_ANALYTICS)
 def detect_patterns(
     lottery: Annotated[str, typer.Argument(help="Lottery name (e.g. br/lotofacil)")],
@@ -511,10 +524,11 @@ def detect_patterns(
     export_md: Annotated[Optional[str], typer.Option("--export-md", help="Export pattern log to this .md file")] = None,
     target_date: Annotated[Optional[str], typer.Option("--target-date", "-d", help="Target draw date (YYYY-MM-DD) for lunar/orbital/metric number correlation views")] = None,
     target_time: Annotated[Optional[str], typer.Option("--target-time", "--time", help="Scheduled draw time (HH:MM) for ephemeris correlation alignment")] = "20:00",
+    locale: Annotated[Optional[str], typer.Option("--locale", "-l", help="Language/locale (en, pt_br)")] = None,
 ):
     """🔍 Search for environmental correlations (Solar/Lunar/Cyclical)."""
     from engine.cli.commands.detect_patterns import detect_patterns as impl
-    return impl(lottery, esoteric, strategy, threshold, window, step, export_md, target_date, target_time)
+    return impl(lottery, esoteric, strategy, threshold, window, step, export_md, target_date, target_time, locale)
 
 @app.command(rich_help_panel=PANEL_ANALYTICS)
 def entropy_scan(
@@ -1029,6 +1043,7 @@ def wheel(
     reduction_strategy: Annotated[str, typer.Option("--reduction-strategy", "-r", help="Budget reduction mode: reduce-coverage (Uniform) | reduce-pool (Universe)")] = "reduce-coverage",
     pool_size: Annotated[Optional[int], typer.Option("--pool-size", "-v", help="Candidate pool size v when auto-scoring pool")] = None,
     target_date: Annotated[Optional[str], typer.Option("--target-date", "-d", help="Target draw ISO date/datetime for Dual-Core contextual scoring")] = None,
+    annealing: Annotated[bool, typer.Option("--annealing", help="Apply Simulated Annealing meta-heuristic to prune and refine covering tickets")] = False,
     export_json_path: Annotated[Optional[str], typer.Option("--export", "-o", help="Export generated wheel combinations and coverage audit to a JSON file")] = None,
 ):
     """🎡 Generate combinatorial wheels (full, key, abbreviated, or budget-constrained Dual-Core)."""
@@ -1045,6 +1060,7 @@ def wheel(
         reduction_strategy=reduction_strategy,
         pool_size=pool_size,
         target_date=target_date,
+        annealing=annealing,
         export_json_path=export_json_path,
     )
 
@@ -1101,11 +1117,13 @@ def multi_ticket(
     diversity: Annotated[float, typer.Option("--diversity", "-d", help="Diversity weight 0–1 (higher = more distinct tickets)")] = 0.6,
     score_window: Annotated[int, typer.Option("--limit", "-L", help="Draws used for scoring")] = 100,
     seed: Annotated[Optional[int], typer.Option("--seed", help="Random seed for reproducibility")] = None,
+    dispersion: Annotated[bool, typer.Option("--dispersion", help="Enable Max-Min Hamming dispersion optimization")] = False,
+    min_dist: Annotated[Optional[int], typer.Option("--min-dist", help="Target minimum pairwise Hamming distance between tickets")] = None,
     export_md: Annotated[Optional[str], typer.Option("--export-md", help="Append multi-ticket report to this .md file")] = None,
 ):
     """🎟️ Generate a portfolio of N diverse tickets with maximised pool coverage."""
     from engine.cli.commands.multi_ticket import multi_ticket as impl
-    return impl(lottery, count, diversity, score_window, seed, export_md)
+    return impl(lottery, count, diversity, score_window, seed, dispersion, min_dist, export_md)
 
 @app.command(name="prize-ev", rich_help_panel=PANEL_BETTING)
 def prize_ev(
@@ -2005,10 +2023,11 @@ def seed_audit(
     target_time: Annotated[Optional[str], typer.Option("--time", "--target-time", help="Scheduled draw time HH:MM (e.g. 20:00) for diurnal/sidereal/orbital ephemeris")] = None,
     wind_kmh: Annotated[Optional[float], typer.Option("--wind-kmh", help="Atmospheric wind / vortex speed override (km/h)")] = None,
     pressure_hpa: Annotated[Optional[float], typer.Option("--pressure-hpa", help="Barometric pressure override (hPa, e.g. 1013.25)")] = None,
+    locale: Annotated[Optional[str], typer.Option("--locale", "-l", help="Language/locale (en, pt_br)")] = None,
 ):
     """🌍🔍 Preview the deterministic --weather-seed for a given date, without running a generation."""
     from engine.cli.commands.seed_audit import seed_audit as impl
-    return impl(lottery, date, target_time, wind_kmh, pressure_hpa)
+    return impl(lottery, date, target_time, wind_kmh, pressure_hpa, locale)
 
 @app.command(name="property-tests", rich_help_panel=PANEL_VERIFY)
 def property_tests(
@@ -2025,6 +2044,7 @@ def materialize(
     budget: Annotated[float, typer.Option("--budget", help="Maximum budget in BRL (default: 80.00)")] = 80.0,
     interactive: Annotated[bool, typer.Option("--interactive", "-i", help="Interactive breathing & intention prompt")] = False,
     export_html: Annotated[str, typer.Option("--export-html", help="Output path for the HTML5/WebAudio Materialization Chamber")] = ".scratch/materializacao_camara.html",
+    locale: Annotated[Optional[str], typer.Option("--locale", "-l", help="Language/locale (en, pt_br)")] = None,
 ):
     """🥁✨ Launch the interactive Drumroll, Cardiac Coherence & Materialization Session (Terminal + HTML5 Chamber)."""
     from engine.cli.commands.materialize import run_materialize
@@ -2034,7 +2054,51 @@ def materialize(
         budget=budget,
         interactive=interactive,
         export_html=export_html,
+        locale=locale,
     )
+
+@app.command(name="omni", rich_help_panel=PANEL_PRIMARY)
+def omni(
+    lottery: Annotated[str, typer.Argument(help="Lottery name [Required], e.g. br/mega-sena, br/lotofacil")],
+    budget: Annotated[float, typer.Option("--budget", "-b", help="Total financial budget in BRL (default: 50.00, supports 80.00)")] = 50.0,
+    reduction_strategy: Annotated[str, typer.Option("--reduction-strategy", "-r", help="Budget reduction mode: reduce-coverage (Uniform) | reduce-pool (Universe)")] = "reduce-coverage",
+    target_date: Annotated[str, typer.Option("--target-date", "-d", help="Target draw date YYYY-MM-DD (default: 2026-10-29)")] = "2026-10-29",
+    target_time: Annotated[str, typer.Option("--time", "--target-time", help="Target draw time HH:MM (default: 20:30)")] = "20:30",
+    pool_size: Annotated[Optional[int], typer.Option("--pool-size", "-v", help="Candidate pool size v (auto-calculated if omitted)")] = None,
+    guarantee: Annotated[Optional[int], typer.Option("--guarantee", "-g", "-t", help="Match guarantee t (e.g. 4 for Mega-Sena, 13 for Lotofácil)")] = None,
+    export_json: Annotated[Optional[str], typer.Option("--export", "-o", help="Export combinations and coverage audit to a JSON file")] = None,
+    variations: Annotated[bool, typer.Option("--variations", help="Generate the 5 surgical multi-force variations (Celeste, Magnética, Quântica, Atrasão, Síntese)")] = False,
+    correlation: Annotated[bool, typer.Option("--correlation", help="Run deep historical 8-phase lunar, orbital and multi-metric correlation analysis")] = False,
+    playwright: Annotated[bool, typer.Option("--playwright", help="Launch Playwright universal dispatcher to stage bets in Caixa cart")] = False,
+    materialize: Annotated[bool, typer.Option("--materialize", "-m", help="Trigger drumroll & interactive/immersive materialization session")] = False,
+    locale: Annotated[Optional[str], typer.Option("--locale", "-l", help="Language/locale (en, pt_br)")] = None,
+):
+    """🎱🌌 Dual-Core 80/20 & Combinatorial Wheel Optimization (with official Caixa ingestion guide)."""
+    from engine.cli.commands.omni import omni as impl
+    return impl(
+        lottery=lottery,
+        budget=budget,
+        reduction_strategy=reduction_strategy,
+        target_date=target_date,
+        target_time=target_time,
+        pool_size=pool_size,
+        guarantee=guarantee,
+        export_json=export_json,
+        variations=variations,
+        correlation=correlation,
+        playwright=playwright,
+        materialize=materialize,
+        locale=locale,
+    )
+
+@app.command(name="news", rich_help_panel=PANEL_PRIMARY)
+def news(
+    lottery: Annotated[Optional[str], typer.Argument(help="Optional lottery name filter (e.g. br/mega-sena, br/lotofacil)")] = None,
+    locale: Annotated[Optional[str], typer.Option("--locale", "-l", help="Language/locale (en, pt_br)")] = None,
+):
+    """📰 Display latest lottery news, jackpot estimates, official Caixa ingestion status, and astronomical bulletins."""
+    from engine.cli.commands.news import news as impl
+    return impl(lottery=lottery, locale=locale)
 
 # --- Global Callback ---
 

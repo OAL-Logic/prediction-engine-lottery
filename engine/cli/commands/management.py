@@ -332,6 +332,7 @@ def wheel(
     reduction_strategy: Annotated[str, typer.Option("--reduction-strategy", "-r", help="Budget reduction mode: reduce-coverage | reduce-pool")] = "reduce-coverage",
     pool_size: Annotated[Optional[int], typer.Option("--pool-size", "-v", help="Candidate pool size v when auto-scoring pool")] = None,
     target_date: Annotated[Optional[str], typer.Option("--target-date", "-d", help="Target draw ISO date/datetime for Dual-Core contextual scoring")] = None,
+    annealing: Annotated[bool, typer.Option("--annealing", help="Apply Simulated Annealing meta-heuristic to prune and refine covering tickets")] = False,
     export_json_path: Annotated[Optional[str], typer.Option("--export", "-o", help="Export generated wheel combinations and coverage audit to a JSON file")] = None,
 ) -> None:
     """🎡 Generate combinatorial wheels for a pool of numbers."""
@@ -352,6 +353,7 @@ def wheel(
         or preset == "dual-core"
         or pool_size is not None
         or export_json_path is not None
+        or annealing
     )
 
     if use_budget_engine:
@@ -378,6 +380,7 @@ def wheel(
                 guarantee_t=guarantee,
                 reduction_strategy=reduction_strategy,
                 last_draw=pipeline.last_draw,
+                annealing=annealing,
             )
         except ValueError as exc:
             console.print(f"[bold red]✗ {exc}[/bold red]")

@@ -20,6 +20,7 @@ from rich.table import Table
 
 from datetime import date as _date
 from engine.modules.esoteric_pipeline import build_environmental_seed
+from engine.i18n import resolve_locale, t
 
 console = Console()
 
@@ -62,18 +63,33 @@ def generate_html_materialization_chamber(
     ephemeris: dict[str, Any],
     seed_int: int,
     out_path: str | Path = ".scratch/materializacao_camara.html",
+    locale: str | None = None,
 ) -> Path:
     """Generate an interactive HTML5 + WebAudio (432Hz/528Hz + Drumroll) Materialization Chamber."""
+    loc = resolve_locale(cli_locale=locale, game_id="br/mega-sena")
+    lang_tag = "pt-BR" if loc == "pt_br" else "en"
+
     dest = Path(out_path)
     dest.parent.mkdir(parents=True, exist_ok=True)
     pacote_json = json.dumps(pacote, ensure_ascii=False)
     eph_json = json.dumps(ephemeris, ensure_ascii=False)
+    total_jogos_html = sum(len(it.get("jogos", [])) for it in pacote)
+
+    chamber_title = t("materialize.chamber_title", locale=loc)
+    btn_sound = t("materialize.btn_sound", locale=loc)
+    btn_seal = t("materialize.btn_seal_all", locale=loc, count=total_jogos_html)
+    inhale_text = t("materialize.inhale", locale=loc)
+    hold_text = t("materialize.hold", locale=loc)
+    exhale_text = t("materialize.exhale", locale=loc)
+    tap_to_seal = t("materialize.tap_to_seal", locale=loc)
+    sealed_text = t("materialize.sealed", locale=loc)
+    default_mantra = t("materialize.default_mantra", locale=loc)
 
     html = f"""<!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="{lang_tag}">
 <head>
 <meta charset="UTF-8">
-<title>🥁 Câmara Imersiva de Materialização — P4Lottery Omni</title>
+<title>{chamber_title}</title>
 <style>
   :root {{
     --bg: #070913;
@@ -139,21 +155,20 @@ def generate_html_materialization_chamber(
 </style>
 </head>
 <body>
-  <h1>🥁 QUE RUFEM OS TAMBORES — CÂMARA DE MATERIALIZAÇÃO</h1>
+  <h1>{chamber_title}</h1>
   <div class="subtitle" id="eph-banner"></div>
 
   <div class="mandala-wrap">
-    <div class="breath-circle" id="breathCircle">INSPIRAR (4s)</div>
+    <div class="breath-circle" id="breathCircle">{inhale_text}</div>
   </div>
 
   <div class="controls">
-    <button onclick="playDrumrollAndHarmonics()">🥁 Rufar Tambores + Ressonância 432Hz/528Hz</button>
-    <button onclick="sealAllTickets()">✨ Consagrar & Selar Todos os 17 Jogos</button>
+    <button onclick="playDrumrollAndHarmonics()">{btn_sound}</button>
+    <button onclick="sealAllTickets()">{btn_seal}</button>
   </div>
 
   <div class="mantra-box" id="mantraBox">
-    "Minha mente está serena, grata e alinhada com os ciclos da Terra, do Sol e da Lua Cheia.
-    A probabilidade encontra o propósito; a abundância flui com sabedoria e paz."
+    {default_mantra}
   </div>
 
   <div class="cards" id="cardsContainer"></div>
@@ -162,23 +177,29 @@ def generate_html_materialization_chamber(
 const PACOTE = {pacote_json};
 const EPH = {eph_json};
 const SEED = {seed_int};
+const TXT_TAP = "{tap_to_seal}";
+const TXT_SEALED = "{sealed_text}";
+const TXT_INHALE = "{inhale_text}";
+const TXT_HOLD = "{hold_text}";
+const TXT_EXHALE = "{exhale_text}";
 
 document.getElementById('eph-banner').innerText =
-  `Data/Hora: ${{EPH.target_date}} ${{EPH.target_time}} BRT  |  Lua: ${{EPH.lunar_phase_name}} (${{Math.round(EPH.lunar_phase_ratio*100)}}%)  |  Sol: ${{EPH.sun_longitude_deg}}° (${{EPH.sun_zodiac_sign}})  |  Terra: ${{EPH.earth_heliocentric_lon_deg}}° (${{EPH.earth_orbital_speed_kms}} km/s)  |  Seed SHA-256: ${{SEED}}`;
+  `Date/Time: ${{EPH.target_date}} ${{EPH.target_time}}  |  Moon: ${{EPH.lunar_phase_name}} (${{Math.round(EPH.lunar_phase_ratio*100)}}%)  |  Sun: ${{EPH.sun_longitude_deg}}° (${{EPH.sun_zodiac_sign}})  |  Earth: ${{EPH.earth_heliocentric_lon_deg}}° (${{EPH.earth_orbital_speed_kms}} km/s)  |  Seed SHA-256: ${{SEED}}`;
 
 const container = document.getElementById('cardsContainer');
 PACOTE.forEach(mod => {{
   const card = document.createElement('div');
   card.className = 'card';
-  card.innerHTML = `<h3 style="color:#f5c542;margin-top:0">🍀 ${{mod.modalidade.toUpperCase()}} (${{mod.jogos.length}} Jogos)</h3>`;
+  card.innerHTML = `<h3 style="color:#f5c542;margin-top:0">🍀 ${{mod.modalidade.toUpperCase()}} (${{mod.jogos.length}})</h3>`;
   mod.jogos.forEach((jogo, idx) => {{
     const row = document.createElement('div');
     row.className = 'ticket-row';
     const balls = jogo.map(n => `<span class="ball">${{String(n).padStart(2,'0')}}</span>`).join('');
-    row.innerHTML = `<span><b>#${{String(idx+1).padStart(2,'0')}}</b> ${{balls}}</span><span class="status">🕯️ Toque p/ selar</span>`;
+    const rotulo = (mod.rotulos && mod.rotulos[idx]) ? `<div style="font-size:0.78rem;color:#93c5fd;margin-top:4px">${{mod.rotulos[idx]}}</div>` : '';
+    row.innerHTML = `<span><b>#${{String(idx+1).padStart(2,'0')}}</b> ${{balls}}${{rotulo}}</span><span class="status">${{TXT_TAP}}</span>`;
     row.onclick = () => {{
       row.classList.toggle('sealed');
-      row.querySelector('.status').innerText = row.classList.contains('sealed') ? '✨ SELADO' : '🕯️ Toque p/ selar';
+      row.querySelector('.status').innerText = row.classList.contains('sealed') ? ${{TXT_SEALED}} : ${{TXT_TAP}};
       playChime(528 + idx * 12);
     }};
     card.appendChild(row);
@@ -189,12 +210,12 @@ PACOTE.forEach(mod => {{
 // Ciclo respiratório 4-4-6
 const circle = document.getElementById('breathCircle');
 function breathLoop() {{
-  circle.innerText = 'INSPIRAR (4s)';
+  circle.innerText = TXT_INHALE;
   circle.style.transform = 'scale(1.32)';
   setTimeout(() => {{
-    circle.innerText = 'SUSTENTAR (4s)';
+    circle.innerText = TXT_HOLD;
     setTimeout(() => {{
-      circle.innerText = 'EXPIRAR (6s)';
+      circle.innerText = TXT_EXHALE;
       circle.style.transform = 'scale(0.92)';
     }}, 4000);
   }}, 4000);
@@ -241,7 +262,7 @@ function sealAllTickets() {{
   document.querySelectorAll('.ticket-row').forEach((row, idx) => {{
     setTimeout(() => {{
       row.classList.add('sealed');
-      row.querySelector('.status').innerText = '✨ SELADO';
+      row.querySelector('.status').innerText = TXT_SEALED;
     }}, idx * 110);
   }});
 }}
@@ -261,13 +282,19 @@ def run_materialize(
     budget: float = 80.0,
     interactive: bool = False,
     export_html: str = ".scratch/materializacao_camara.html",
+    locale: str | None = None,
 ) -> Path:
     """Execute the interactive terminal drumroll & materialization session and generate the HTML5 chamber."""
+    loc = resolve_locale(cli_locale=locale, game_id="br/mega-sena")
+    currency = "BRL" if loc == "pt_br" else "USD"
+    curr_symbol = "R$" if loc == "pt_br" else "$"
+
     from scripts.playwright_caixa_universal import (
         PACOTE_ENXUTO_4,
         PACOTE_ORCAMENTO_80,
         PACOTE_VARIACOES_CIRURGICO,
         aplicar_teto_orcamento,
+        construir_pacote_dinamico,
     )
 
     import math
@@ -282,9 +309,9 @@ def run_materialize(
     )
     eph = dict(ctx.get("celestial_ephemeris", {}))
     l_ratio = float(ctx.get("environmental", {}).get("lunar_phase", 0.622))
-    zodiac_signs = [
-        "Áries", "Touro", "Gêmeos", "Câncer", "Leão", "Virgem",
-        "Libra", "Escorpião", "Sagitário", "Capricórnio", "Aquário", "Peixes",
+    zodiac_signs_en = [
+        "Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo",
+        "Libra", "Scorpio", "Sagittarius", "Capricorn", "Aquarius", "Pisces",
     ]
     sun_lon = float(eph.get("sun_longitude_deg", 216.5429))
     earth_lon = float(eph.get("earth_heliocentric_lon_deg", 36.5429))
@@ -295,33 +322,60 @@ def run_materialize(
     eph["target_time"] = target_time
     eph["lunar_phase_ratio"] = l_ratio
     eph["lunar_illumination"] = (1.0 - math.cos(2.0 * math.pi * l_ratio)) / 2.0
-    eph["sun_zodiac_sign"] = zodiac_signs[int(sun_lon // 30) % 12]
-    eph["earth_zodiac_sign"] = zodiac_signs[int(earth_lon // 30) % 12]
+    sign_key_sun = zodiac_signs_en[int(sun_lon // 30) % 12]
+    sign_key_earth = zodiac_signs_en[int(earth_lon // 30) % 12]
+    eph["sun_zodiac_sign"] = t(f"zodiac.{sign_key_sun}", locale=loc)
+    eph["earth_zodiac_sign"] = t(f"zodiac.{sign_key_earth}", locale=loc)
     eph["earth_orbital_speed_kms"] = eph.get("earth_orbital_velocity_kms", 29.9947)
 
     if budget <= 40.0:
+        preset_mode = "enxuto4"
         base_pacote = PACOTE_ENXUTO_4
     elif budget <= 55.0:
+        preset_mode = "variacoes"
         base_pacote = PACOTE_VARIACOES_CIRURGICO
     else:
+        preset_mode = "budget80"
         base_pacote = PACOTE_ORCAMENTO_80
+
+    if not any(it.get("jogos") for it in base_pacote):
+        base_pacote = construir_pacote_dinamico(
+            preset=preset_mode,
+            target_date=target_date,
+            target_time=target_time,
+            locale=loc,
+        )
 
     pacote = aplicar_teto_orcamento(base_pacote, budget)
     custos_unit = {"mega-sena": 6.0, "lotofacil": 3.5}
     total_bilhetes = sum(len(it["jogos"]) for it in pacote)
     custo_selado = sum(len(it["jogos"]) * custos_unit.get(it["modalidade"], 0.0) for it in pacote)
-    html_path = generate_html_materialization_chamber(pacote, eph, seed_int, out_path=export_html)
+    html_path = generate_html_materialization_chamber(pacote, eph, seed_int, out_path=export_html, locale=loc)
 
     console.print()
-    console.print(Panel.fit(
-        "[bold yellow]🥁 QUE RUFEM OS TAMBORES — SESSÃO IMERSIVA DE MATERIALIZAÇÃO & ESPIRITUALIDADE[/bold yellow]\n"
-        f"[cyan]Data/Hora Alvo:[/cyan] {target_date} {target_time} BRT   |   "
-        f"[cyan]Lua:[/cyan] {eph['lunar_phase_name']} ({eph['lunar_phase_ratio']:.1%}, Ilum {eph['lunar_illumination']:.1%})\n"
-        f"[cyan]Sol:[/cyan] {eph['sun_longitude_deg']}° ({eph['sun_zodiac_sign']})   |   "
-        f"[cyan]Terra:[/cyan] {eph['earth_heliocentric_lon_deg']}° ({eph['earth_zodiac_sign']}, {eph['earth_orbital_speed_kms']} km/s)\n"
-        f"[dim]Semente Ambiental SHA-256: {seed_int}   |   Orçamento Selado: R$ {custo_selado:.2f} / R$ {budget:.2f} ({total_bilhetes} Bilhetes)[/dim]",
-        border_style="yellow",
-    ))
+    banner_text = (
+        f"[bold yellow]{t('materialize.title', locale=loc)}[/bold yellow]\n"
+        + t(
+            "materialize.eph_summary",
+            locale=loc,
+            target_date=target_date,
+            target_time=target_time,
+            moon=eph["lunar_phase_name"],
+            moon_pct=eph["lunar_phase_ratio"] * 100.0,
+            moon_illum=eph["lunar_illumination"] * 100.0,
+            sun=eph["sun_longitude_deg"],
+            sun_sign=eph["sun_zodiac_sign"],
+            earth=eph["earth_heliocentric_lon_deg"],
+            earth_sign=eph["earth_zodiac_sign"],
+            earth_speed=eph["earth_orbital_speed_kms"],
+            seed=seed_int,
+            currency=curr_symbol,
+            cost=custo_selado,
+            budget=budget,
+            tickets=total_bilhetes,
+        )
+    )
+    console.print(Panel.fit(banner_text, border_style="yellow"))
 
     # 1. Animated Drumroll & Cardiac Coherence Pacer
     with Progress(
@@ -331,50 +385,41 @@ def run_materialize(
         console=console,
         transient=False,
     ) as progress:
-        t1 = progress.add_task("🥁 Rufando os tambores & sincronizando efemérides...", total=100)
+        t1 = progress.add_task(t("materialize.task_drums", locale=loc), total=100)
         for _ in range(10):
             time.sleep(0.05 if not interactive else 0.12)
             progress.update(t1, advance=10)
 
-        t2 = progress.add_task("🫁 Coerência Cardíaca (Inspirar 4s • Sustentar 4s • Expirar 6s)...", total=100)
+        t2 = progress.add_task(t("materialize.task_breath", locale=loc), total=100)
         for _ in range(10):
             time.sleep(0.05 if not interactive else 0.15)
             progress.update(t2, advance=10)
 
     # 2. Mandala & Sephirot Archetypes Table
     stab = Table(
-        title="✨ Arquétipos Espirituais & Cabalísticos (Sephirot) das Dezenas-Núcleo",
+        title=t("materialize.table_archetypes_title", locale=loc),
         header_style="bold magenta",
         box=None,
         padding=(0, 2),
     )
-    stab.add_column("Dezena", justify="right", style="bold yellow")
-    stab.add_column("Correspondência Espiritual / Geometria Sagrada", style="cyan")
-    stab.add_column("Evidência Histórica (Lua / Órbita)", style="green")
+    stab.add_column(t("materialize.col_number", locale=loc), justify="right", style="bold yellow")
+    stab.add_column(t("materialize.col_archetype", locale=loc), style="cyan")
+    stab.add_column(t("materialize.col_evidence", locale=loc), style="green")
 
-    core_highlights = [
-        (5, "Acoplamento Ferromagnético de Ising (Domínio de Spin)"),
-        (10, "Convergência Multicritério (Lunar + Orbital + Magnética)"),
-        (11, "Ressonância de Ciclo Temporal & Atrasão"),
-        (13, "Convergência de Fase Lunar & Acoplamento Ising"),
-        (15, "Tunelamento Quântico Ψ & Harmonia de Períodos Gêmeos"),
-        (25, "Campo Magnético de Ising & Ressonância de Sizígia"),
-        (30, "Líder de Campo Local Ferromagnético (Ising H)"),
-        (32, "Convergência Lunar, Magnética e Quântica"),
-        (34, "Ruptura de Tensão de Atraso (Z_lag) & Tunelamento Quântico"),
-        (44, "Ressonância de Períodos Astronômicos Gêmeos"),
-    ]
-    for num, evid in core_highlights:
-        stab.add_row(f"{num:02d}", SEPHIROT_ARCHETYPES.get(num, "Harmonia Universal"), evid)
+    core_numbers = [5, 10, 11, 13, 15, 25, 30, 32, 34, 44]
+    for num in core_numbers:
+        arch = t(f"variations.archetypes.{num:02d}", locale=loc)
+        evid = t(f"variations.archetypes_evidence.{num:02d}", locale=loc)
+        stab.add_row(f"{num:02d}", arch, evid)
     console.print(stab)
 
     # 3. Interactive Intention Prompt (if interactive)
-    intencao_usuario = "Prosperidade com sabedoria, paz familiar, equilíbrio e propósito elevado."
+    intencao_usuario = t("materialize.default_intention", locale=loc)
     if interactive:
-        console.print("\n[bold cyan]💭 ANCORAGEM DE PENSAMENTO & INTENÇÃO:[/bold cyan]")
-        console.print("Digite em uma frase sua intenção positiva para este objetivo (ou pressione ENTER para usar o decreto consagrado):")
+        console.print(f"\n[bold cyan]{t('materialize.prompt_title', locale=loc)}[/bold cyan]")
+        console.print(t("materialize.prompt_desc", locale=loc))
         try:
-            resp = input("✨ Sua Intenção > ").strip()
+            resp = input(t("materialize.prompt_input", locale=loc)).strip()
             if resp:
                 intencao_usuario = resp
         except EOFError:
@@ -382,22 +427,32 @@ def run_materialize(
 
     # 4. Ticket-by-Ticket Consecration
     console.print(
-        f"\n[bold yellow]🥁 CONSAGRAÇÃO DOS {total_bilhetes} JOGOS FEITOS "
-        f"(ORÇAMENTO R$ {custo_selado:.2f} ≤ R$ {budget:.2f}):[/bold yellow]"
+        "\n[bold yellow]"
+        + t(
+            "materialize.consecration_title",
+            locale=loc,
+            count=total_bilhetes,
+            currency=curr_symbol,
+            cost=custo_selado,
+            budget=budget,
+        )
+        + "[/bold yellow]"
     )
     for item in pacote:
         mod = item["modalidade"].upper()
-        console.print(f"\n[bold green]🍀 {mod} ({len(item['jogos'])} Bilhetes Selados):[/bold green]")
+        rotulos = item.get("rotulos", [])
+        console.print(f"\n[bold green]{t('materialize.tickets_sealed', locale=loc, game=mod, count=len(item['jogos']))}[/bold green]")
         for idx, j in enumerate(item["jogos"], start=1):
             fmt = " - ".join(f"{n:02d}" for n in j)
-            console.print(f"   [bold white]✦ Jogo {idx:02d}:[/bold white] [bold yellow][{fmt}][/bold yellow]  [dim](soma={sum(j)} • selado ✓)[/dim]")
+            rot = f" • {rotulos[idx - 1]}" if idx - 1 < len(rotulos) else ""
+            console.print(f"   [bold white]✦ Jogo {idx:02d}:[/bold white] [bold yellow][{fmt}][/bold yellow]  [dim](soma={sum(j)}{rot} • selado ✓)[/dim]")
 
     console.print()
     console.print(Panel(
-        f"[bold green]🕊️ DECRETO DE MATERIALIZAÇÃO SELADO:[/bold green]\n"
+        f"[bold green]{t('materialize.decree_label', locale=loc)}[/bold green]\n"
         f"[italic]\"{intencao_usuario}\"[/italic]\n\n"
-        f"🌐 Câmara Imersiva HTML5 + Áudio 432Hz/528Hz gerada em: [bold cyan]{html_path}[/bold cyan]",
-        title="✨ Objetivo Consagrado com Sucesso",
+        + t("materialize.chamber_generated", locale=loc, path=f"[bold cyan]{html_path}[/bold cyan]"),
+        title=t("materialize.decree_title", locale=loc),
         border_style="green",
     ))
     return html_path

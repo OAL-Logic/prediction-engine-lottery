@@ -178,3 +178,41 @@ def test_analyze_historical_correlations_multi_archetype():
         assert len(corr["lunar_phase_table"]) > 0
         assert len(corr["continuous_correlations"]) == 5
         assert len(corr["composite_z_ranking"]) == (hi - lo + 1)
+
+
+def test_generate_surgical_variations_multi_archetype():
+    """Verify EsotericPipeline.generate_surgical_variations across 3 distinct game archetypes."""
+    import pandas as pd
+    from engine.cli.utils import get_adapter
+
+    ep = EsotericPipeline()
+    for slug in ("br/mega-sena", "br/lotofacil", "us/powerball"):
+        adapter = get_adapter(slug)
+        rules = adapter.rules
+        lo, hi = rules.number_range
+        df = pd.DataFrame({
+            "draw_id": list(range(1, 16)),
+            "date": [f"2025-10-{15 + i:02d}" for i in range(15)],
+            "numbers": [
+                list(range(lo + (i % 5), lo + (i % 5) + rules.pick_count))
+                for i in range(15)
+            ],
+        })
+        res = ep.generate_surgical_variations(
+            df=df,
+            rules=rules,
+            target_date="2026-10-29",
+            target_time="20:00",
+            extra_wheel_tickets=2,
+        )
+        assert len(res["variations"]) == 5
+        assert len(res["extensions"]) == 2
+        seen_tickets = set()
+        for v in res["variations"]:
+            nums = v["numbers"]
+            assert len(nums) == rules.pick_count
+            assert all(lo <= n <= hi for n in nums)
+            assert len(set(nums)) == rules.pick_count
+            seen_tickets.add(tuple(nums))
+        # Ensure surgical variations produce distinct combinations
+        assert len(seen_tickets) == 5

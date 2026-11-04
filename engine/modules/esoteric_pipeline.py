@@ -12,7 +12,9 @@ and does not possess any real-world lottery prediction capabilities.
 from __future__ import annotations
 import json
 import hashlib
+import math
 import time
+from collections import Counter, defaultdict
 import httpx
 from datetime import date, datetime
 from typing import Dict, Any, Tuple, Optional
@@ -368,7 +370,12 @@ class EsotericPipeline:
         p_ball = pick / float(pool_size)
         q_ball = max(1e-9, 1.0 - p_ball)
 
-        t_date = date.fromisoformat(target_date[:10]) if target_date else date.today()
+        if isinstance(target_date, date):
+            t_date = target_date
+        elif target_date:
+            t_date = date.fromisoformat(str(target_date)[:10])
+        else:
+            t_date = date.today()
         t_eph = cls().calculate_celestial_ephemeris(t_date, target_time=target_time or "20:00", coords=coords)
         t_lunar = ((t_date.toordinal() - 730125) % 29.530588853) / 29.530588853
         t_dist = (1.0 - math.cos(2.0 * math.pi * ((t_date.toordinal() - 730129) % 27.554551) / 27.554551)) / 2.0
@@ -416,6 +423,9 @@ class EsotericPipeline:
         twin_moments: list[dict[str, Any]] = []
         twin_counter: Counter = Counter()
 
+        # Check if we have sufficient strictly causal draws (d_obj < t_date)
+        parsed_rows: list[tuple[date, list[int], Any]] = []
+        causal_count = 0
         for _, row in df.iterrows():
             try:
                 d_raw = row[date_col]
@@ -423,7 +433,16 @@ class EsotericPipeline:
                 nums = [int(x) for x in row["numbers"] if lo <= int(x) <= hi]
                 if not nums:
                     continue
+                parsed_rows.append((d_obj, nums, row))
+                if d_obj < t_date:
+                    causal_count += 1
             except Exception:
+                continue
+
+        enforce_causal = causal_count >= 5
+
+        for d_obj, nums, row in parsed_rows:
+            if enforce_causal and d_obj >= t_date:
                 continue
 
             l_ratio = ((d_obj.toordinal() - 730125) % 29.530588853) / 29.530588853
@@ -748,7 +767,7 @@ class EsotericPipeline:
                 std_gap = float(np.std(gaps)) or 1.0
                 z_lag = (curr_lag - mean_gap) / std_gap
             else:
-                mean_gap = float(pool_size) / max(1.0, float(k_pick))
+                mean_gap = float(pool_size) / max(1.0, float(pick))
                 std_gap = mean_gap
                 z_lag = (curr_lag - mean_gap) / max(1.0, std_gap)
             lag_ranking.append({
@@ -778,7 +797,256 @@ class EsotericPipeline:
             "magnetic_ranking": magnetic_ranking[:15],
             "quantum_ranking": quantum_ranking[:15],
             "lag_ranking": lag_ranking[:15],
+            "full_magnetic_ranking": magnetic_ranking,
+            "full_quantum_ranking": quantum_ranking,
+            "full_lag_ranking": lag_ranking,
             "last_draw_before_target": sorted(list(last_draw_nums)),
+        }
+
+    def generate_surgical_variations(
+        self,
+        df: Any,
+        rules: Any,
+        target_date: Optional[date] = None,
+        target_time: Optional[str] = "20:00",
+        coords: Tuple[float, float] = (-23.5505, -46.6333),
+        extra_wheel_tickets: int = 0,
+        locale: Optional[str] = None,
+    ) -> Dict[str, Any]:
+        """
+        Deterministically builds the 5 Surgical Variation tickets (1 ticket per
+        physical/statistical force) plus optional abbreviated-wheel extension
+        tickets for any game defined by `DrawRules`:
+          1. Celeste (Lunar + Orbital + Maré + Gêmeos)
+          2. Magnética (Ising J_ij + Campo Local h_i)
+          3. Quântica (Emaranhamento Bell + Tunelamento Ψ + Zeno)
+          4. Atrasão (Tensão Z_lag + Sobrevivência Weibull)
+          5. Síntese 4 Forças (Convergência Unificada + Dual-Core 80/20)
+        """
+        from engine.i18n import resolve_locale, t
+        loc = resolve_locale(cli_locale=locale, game_id=getattr(rules, "country", None) or getattr(rules, "name", None))
+
+        if isinstance(target_date, date):
+            t_date = target_date
+        elif target_date:
+            t_date = date.fromisoformat(str(target_date)[:10])
+        else:
+            t_date = date.today()
+        corr = self.analyze_historical_correlations(
+            df=df,
+            rules=rules,
+            target_date=t_date.isoformat(),
+            target_time=target_time or "20:00",
+            coords=coords,
+        )
+        if hasattr(rules, "number_range"):
+            lo, hi = rules.number_range
+            lo, hi = int(lo), int(hi)
+        else:
+            lo = int(getattr(rules, "pool_min", 1))
+            hi = int(getattr(rules, "pool_max", 60))
+        pick = int(getattr(rules, "pick_count", 6))
+        pool_size = max(1, hi - lo + 1)
+        density = pick / float(pool_size)
+
+        ctx = self.compile_context(
+            full_name="GEMINI ENGINE",
+            birth_date="1990-01-01",
+            coords=coords,
+            target_date=t_date.isoformat(),
+            target_time=target_time or "20:00",
+        )
+        seed, env_weights = self.generate_weights(ctx, lo, hi)
+
+        # Extract per-number raw maps across the 4 forces
+        comp_list = corr.get("composite_z_ranking", [])
+        mag_list = corr.get("full_magnetic_ranking") or corr.get("magnetic_ranking", [])
+        qua_list = corr.get("full_quantum_ranking") or corr.get("quantum_ranking", [])
+        lag_list = corr.get("full_lag_ranking") or corr.get("lag_ranking", [])
+        twin_list = corr.get("top_twin_numbers", [])
+
+        def _norm_map(items: list[dict[str, Any]], key: str) -> dict[int, float]:
+            vals = {int(it["number"]): float(it.get(key, 0.0)) for it in items if "number" in it}
+            for n in range(lo, hi + 1):
+                vals.setdefault(n, 0.0)
+            v_min = min(vals.values()) if vals else 0.0
+            v_max = max(vals.values()) if vals else 1.0
+            span = (v_max - v_min) if (v_max - v_min) > 1e-9 else 1.0
+            return {n: (vals[n] - v_min) / span for n in range(lo, hi + 1)}
+
+        z_cel = _norm_map(comp_list, "composite_z")
+        twin_boost = {int(it["number"]): float(it.get("pct", 0.0)) / 100.0 for it in twin_list if "number" in it}
+        for n in range(lo, hi + 1):
+            z_cel[n] = round(0.75 * z_cel[n] + 0.25 * min(1.0, twin_boost.get(n, 0.0) * 3.0), 6)
+
+        z_mag = _norm_map(mag_list, "magnetic_field")
+        z_qua = _norm_map(qua_list, "quantum_psi")
+        z_lag = _norm_map(lag_list, "z_lag")
+
+        # Unified synthesis score (4 forces + environmental resonance weight)
+        z_sin: dict[int, float] = {}
+        for n in range(lo, hi + 1):
+            z_sin[n] = round(
+                0.28 * z_cel[n]
+                + 0.24 * z_mag[n]
+                + 0.22 * z_qua[n]
+                + 0.16 * z_lag[n]
+                + 0.10 * float(env_weights.get(n, 0.5)),
+                6,
+            )
+
+        # Structural validation helper adaptable to any DrawRules archetype
+        mean_sum = pick * (lo + hi) / 2.0
+        var_single = ((pool_size ** 2) - 1.0) / 12.0
+        finite_corr = max(0.05, (pool_size - pick) / max(1.0, float(pool_size - 1)))
+        std_sum = math.sqrt(max(1.0, pick * var_single * finite_corr))
+        sum_lo = mean_sum - 1.45 * std_sum
+        sum_hi = mean_sum + 1.45 * std_sum
+        min_odds = max(1, (pick // 2) - (1 if pick <= 8 else 2))
+        max_odds = min(pick - 1, ((pick + 1) // 2) + (1 if pick <= 8 else 2))
+        max_consec_allowed = 2 if density <= 0.25 else (5 if density <= 0.65 else pick)
+
+        def _max_consec(nums: list[int]) -> int:
+            if not nums:
+                return 0
+            best = 1
+            cur = 1
+            for idx in range(1, len(nums)):
+                if nums[idx] == nums[idx - 1] + 1:
+                    cur += 1
+                    if cur > best:
+                        best = cur
+                else:
+                    cur = 1
+            return best
+
+        def _is_balanced(nums: list[int]) -> bool:
+            s_val = sum(nums)
+            if not (sum_lo <= s_val <= sum_hi):
+                return False
+            odds = sum(1 for x in nums if x % 2 != 0)
+            if pick >= 4 and not (min_odds <= odds <= max_odds):
+                return False
+            if _max_consec(nums) > max_consec_allowed:
+                return False
+            return True
+
+        used_tickets: set[tuple[int, ...]] = set()
+
+        def _select_surgical_ticket(
+            score_map: dict[int, float],
+            salt: int,
+            diversity_penalty_weight: float = 0.08,
+        ) -> list[int]:
+            # Count how often each number already appeared in prior selected variations
+            used_counts: Counter[int] = Counter(x for t in used_tickets for x in t)
+            adjusted = {}
+            for n in range(lo, hi + 1):
+                pen = diversity_penalty_weight * used_counts.get(n, 0) if density <= 0.35 else 0.015 * used_counts.get(n, 0)
+                # Tiny deterministic tie-breaker from seed + salt
+                tie = (((seed ^ (salt * 2654435761 + n * 40503)) & 0xFFFF) / 65535.0) * 1e-4
+                adjusted[n] = score_map.get(n, 0.0) - pen + tie
+
+            ranked_nums = [n for n, _ in sorted(adjusted.items(), key=lambda kv: kv[1], reverse=True)]
+            cand_size = min(pool_size, max(pick + 4, pick + (6 if density <= 0.35 else 4)))
+            top_cands = ranked_nums[:cand_size]
+
+            # Search combinations among top candidates for the highest-scoring structurally balanced ticket
+            from itertools import combinations
+            best_combo: Optional[list[int]] = None
+            best_score = -1e9
+            # Cap combinations evaluated to 3000 for speed across any game archetype
+            for idx_c, combo in enumerate(combinations(top_cands, pick)):
+                if idx_c >= 3000:
+                    break
+                s_combo = tuple(sorted(combo))
+                if s_combo in used_tickets:
+                    continue
+                s_list = list(s_combo)
+                if not _is_balanced(s_list):
+                    continue
+                c_score = sum(adjusted[x] for x in s_list)
+                if c_score > best_score:
+                    best_score = c_score
+                    best_combo = s_list
+
+            if best_combo is None:
+                # Fallback: greedy swap until distinct
+                base = sorted(ranked_nums[:pick])
+                if tuple(base) in used_tickets and len(ranked_nums) > pick:
+                    base[-1] = ranked_nums[pick]
+                    base = sorted(base)
+                best_combo = base
+
+            used_tickets.add(tuple(best_combo))
+            return best_combo
+
+        # Select bonus ball deterministically when game has a bonus pool (e.g., Powerball)
+        bonus_pick = int(getattr(rules, "bonus_pick_count", 0) or 0)
+        b_min = int(getattr(rules, "bonus_pool_min", 1) or 1)
+        b_max = int(getattr(rules, "bonus_pool_max", 0) or 0)
+
+        def _select_bonus(salt: int) -> list[int]:
+            if bonus_pick <= 0 or b_max < b_min:
+                return []
+            b_size = b_max - b_min + 1
+            rng_b = np.random.default_rng((seed ^ (salt * 104729)) & 0xFFFFFFFF)
+            chosen = rng_b.choice(range(b_min, b_max + 1), size=min(bonus_pick, b_size), replace=False)
+            return sorted(int(x) for x in chosen)
+
+        var_specs = [
+            (t("variations.celeste", locale=loc), "celeste", z_cel, 101, 0.0),
+            (t("variations.magnetica", locale=loc), "magnetica", z_mag, 202, 0.12),
+            (t("variations.quantica", locale=loc), "quantica", z_qua, 303, 0.12),
+            (t("variations.atrasao", locale=loc), "atrasao", z_lag, 404, 0.12),
+            (t("variations.sintese", locale=loc), "sintese", z_sin, 505, 0.05),
+        ]
+
+        variations = []
+        for label, slug, s_map, salt, div_w in var_specs:
+            nums = _select_surgical_ticket(s_map, salt=salt, diversity_penalty_weight=div_w)
+            b_nums = _select_bonus(salt)
+            top_drivers = sorted(nums, key=lambda x: s_map.get(x, 0.0), reverse=True)[:3]
+            variations.append({
+                "label": label,
+                "slug": slug,
+                "numbers": nums,
+                "bonus": b_nums,
+                "sum": sum(nums),
+                "odd_count": sum(1 for x in nums if x % 2 != 0),
+                "even_count": sum(1 for x in nums if x % 2 == 0),
+                "top_drivers": top_drivers,
+                "force_score": round(sum(s_map.get(x, 0.0) for x in nums) / max(1, len(nums)), 4),
+            })
+
+        extensions = []
+        for ext_idx in range(extra_wheel_tickets):
+            # Combine synthesis + magnetic/quantum/lag rotation for wheel/chaos extensions
+            rot_map = {}
+            for n in range(lo, hi + 1):
+                w_c = 0.35 if ext_idx % 3 == 0 else 0.20
+                w_m = 0.35 if ext_idx % 3 == 1 else 0.25
+                w_q = 0.35 if ext_idx % 3 == 2 else 0.25
+                rot_map[n] = w_c * z_cel[n] + w_m * z_mag[n] + w_q * z_qua[n] + 0.20 * z_lag[n]
+            nums = _select_surgical_ticket(rot_map, salt=600 + ext_idx * 37, diversity_penalty_weight=0.14)
+            b_nums = _select_bonus(600 + ext_idx * 37)
+            extensions.append({
+                "label": t("variations.extension", locale=loc, idx=ext_idx + 1),
+                "slug": f"ext_{ext_idx + 1}",
+                "numbers": nums,
+                "bonus": b_nums,
+                "sum": sum(nums),
+                "odd_count": sum(1 for x in nums if x % 2 != 0),
+                "even_count": sum(1 for x in nums if x % 2 == 0),
+            })
+
+        return {
+            "target_date": t_date.isoformat(),
+            "target_time": target_time or "20:00",
+            "seed": seed,
+            "correlations": corr,
+            "variations": variations,
+            "extensions": extensions,
         }
 
     def compile_context(
@@ -807,7 +1075,12 @@ class EsotericPipeline:
         never requires real personal data.
         """
         # 1. Standardize dates
-        t_date = date.fromisoformat(target_date[:10]) if target_date else date.today()
+        if isinstance(target_date, date):
+            t_date = target_date
+        elif target_date:
+            t_date = date.fromisoformat(str(target_date)[:10])
+        else:
+            t_date = date.today()
         b_date = date.fromisoformat(birth_date[:10])
 
         # 2. Personal Numerology

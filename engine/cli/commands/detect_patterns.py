@@ -225,6 +225,8 @@ def detect_patterns(
         help="Target draw date (YYYY-MM-DD) for lunar/orbital/metric number correlation views")] = None,
     target_time: Annotated[Optional[str], typer.Option("--target-time", "--time",
         help="Scheduled draw time (HH:MM) for ephemeris correlation alignment")] = "20:00",
+    locale: Annotated[Optional[str], typer.Option("--locale", "-l",
+        help="Language/locale for output and reports (e.g. 'en', 'pt_br')")] = None,
 ) -> None:
     """🔭 Esoteric Overlay: detect if esoteric cycle markers correlate with stable signal windows.
 
@@ -371,6 +373,8 @@ def detect_patterns(
     # ── Deep Historical Lunar, Orbital & Multi-Metric Number Correlations ─────
     if esoteric in ("lunar", "cyclical", "all") or target_date:
         try:
+            from engine.i18n import resolve_locale, t
+            active_loc = resolve_locale(cli_locale=locale, game_id=lottery)
             from engine.modules.esoteric_pipeline import EsotericPipeline
             coords = adapter.get_draw_location() if hasattr(adapter, "get_draw_location") else (-23.5505, -46.6333)
             corr = EsotericPipeline.analyze_historical_correlations(
@@ -382,14 +386,14 @@ def detect_patterns(
             )
             if "error" not in corr:
                 console.print()
-                console.rule(f"[bold yellow]🌕 VIEW 1: HISTORICAL 8-PHASE LUNAR CORRELATION ({corr['total_dated_draws']} Draws)[/bold yellow]")
+                console.rule(f"[bold yellow]{t('detect_patterns.view1_title', locale=active_loc, count=corr['total_dated_draws'])}[/bold yellow]")
                 ltab = Table(header_style="bold yellow", box=None, padding=(0, 1))
-                ltab.add_column("Moon Phase", style="cyan")
+                ltab.add_column(t("detect_patterns.col_moon_phase", locale=active_loc), style="cyan")
                 ltab.add_column("n", justify="right")
-                ltab.add_column("Mean Sum (d)", justify="right")
-                ltab.add_column("Odd%", justify="right")
-                ltab.add_column("Primes", justify="right")
-                ltab.add_column("Top Positively Correlated Numbers (Z-score / Lift%)", style="green")
+                ltab.add_column(t("detect_patterns.col_mean_sum", locale=active_loc), justify="right")
+                ltab.add_column(t("detect_patterns.col_odd_pct", locale=active_loc), justify="right")
+                ltab.add_column(t("detect_patterns.col_primes", locale=active_loc), justify="right")
+                ltab.add_column(t("detect_patterns.col_top_pos_z", locale=active_loc), style="green")
                 for prow in corr["lunar_phase_table"]:
                     p_lbl = f"★ {prow['phase']} (TARGET)" if prow["is_target"] else f"  {prow['phase']}"
                     top_str = ", ".join(f"{num:02d}(Z={z:+.2f},{lift:+.0f}%)" for num, _, z, lift in prow["top_numbers"])
@@ -404,9 +408,9 @@ def detect_patterns(
                 console.print(ltab)
 
                 console.print()
-                console.rule("[bold cyan]📈 VIEW 2: CONTINUOUS METRIC × STRUCTURAL CORRELATION MATRIX (Pearson r / p)[/bold cyan]")
+                console.rule(f"[bold cyan]{t('detect_patterns.view2_title', locale=active_loc)}[/bold cyan]")
                 ctab = Table(header_style="bold cyan", box=None, padding=(0, 2))
-                ctab.add_column("Physical / Celestial Metric", style="cyan")
+                ctab.add_column(t("detect_patterns.col_metric", locale=active_loc), style="cyan")
                 ctab.add_column("Ticket Sum", justify="right")
                 ctab.add_column("Odd Parity", justify="right")
                 ctab.add_column("Prime Count", justify="right")
@@ -498,7 +502,7 @@ def detect_patterns(
 
                 if corr.get("magnetic_ranking") and corr.get("quantum_ranking") and corr.get("lag_ranking"):
                     console.print()
-                    console.rule(f"[bold cyan]🧲⚛️⏳ VIEW 6: MAGNETIC COUPLING, QUANTUM ENTANGLEMENT & OVERDUE LAG ({corr['target_date']})[/bold cyan]")
+                    console.rule(f"[bold cyan]{t('detect_patterns.view6_title', locale=active_loc, date=corr['target_date'])}[/bold cyan]")
                     mag_str = ", ".join(
                         f"[bold green]{m['number']:02d}[/bold green] (H={m['magnetic_field']:+.3f}, J={m['j_coupling']:+.2f})"
                         for m in corr["magnetic_ranking"][:10]
@@ -511,9 +515,40 @@ def detect_patterns(
                         f"[bold yellow]{l['number']:02d}[/bold yellow] (Lag={l['current_lag']}d, Z={l['z_lag']:+.2f})"
                         for l in corr["lag_ranking"][:10]
                     )
-                    console.print(f"  🧲 [bold]Top Magnetic Pull (Ising J_ij + Field h_i):[/bold] {mag_str}")
-                    console.print(f"  ⚛️  [bold]Top Quantum Entanglement & Tunneling (Ψ):[/bold]  {q_str}")
-                    console.print(f"  ⏳ [bold]Top Overdue / Lag Tension (Atrasão Z_lag):[/bold] {lag_str}")
+                    console.print(f"  🧲 [bold]{t('detect_patterns.top_magnetic', locale=active_loc)}[/bold] {mag_str}")
+                    console.print(f"  ⚛️  [bold]{t('detect_patterns.top_quantum', locale=active_loc)}[/bold]  {q_str}")
+                    console.print(f"  ⏳ [bold]{t('detect_patterns.top_lag', locale=active_loc)}[/bold] {lag_str}")
+
+                    # View 7: Surgical 1-Ticket-Per-Variation Decomposition
+                    surg = EsotericPipeline().generate_surgical_variations(
+                        df=df,
+                        rules=adapter.rules,
+                        target_date=target_date,
+                        target_time=target_time or "20:00",
+                        coords=coords,
+                        locale=active_loc,
+                    )
+                    if surg.get("variations"):
+                        console.print()
+                        console.rule(f"[bold green]{t('detect_patterns.view7_title', locale=active_loc, date=corr['target_date'])}[/bold green]")
+                        vt = Table(show_header=True, header_style="bold green", box=None, padding=(0, 2))
+                        vt.add_column(t("detect_patterns.col_variation", locale=active_loc), style="bold")
+                        vt.add_column(t("detect_patterns.col_ticket", locale=active_loc), style="cyan")
+                        vt.add_column("Sum", justify="right")
+                        vt.add_column(t("detect_patterns.col_odd_even", locale=active_loc), justify="center")
+                        vt.add_column(t("detect_patterns.col_force_score", locale=active_loc), justify="right", style="magenta")
+                        for v_item in surg["variations"]:
+                            nums_fmt = " ".join(f"{n:02d}" for n in v_item["numbers"])
+                            if v_item.get("bonus"):
+                                nums_fmt += " + [" + " ".join(f"{b:02d}" for b in v_item["bonus"]) + "]"
+                            vt.add_row(
+                                v_item["label"],
+                                nums_fmt,
+                                str(v_item["sum"]),
+                                f"{v_item['odd_count']}O/{v_item['even_count']}E",
+                                f"{v_item['force_score']:.4f}",
+                            )
+                        console.print(vt)
         except Exception as exc:
             console.print(f"[yellow]⚠ Deep lunar/metric correlation view skipped: {exc}[/yellow]")
 

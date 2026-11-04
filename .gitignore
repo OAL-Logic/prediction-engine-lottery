@@ -258,7 +258,7 @@ reports/**/.scratch/
 
 
 # --- Privacy & No-PII Local Files ---
-.scratch/*.md
+.scratch/
 .scratch/browser_session/
 .scratch/**/browser_session/
 .scratch/comprovantes/

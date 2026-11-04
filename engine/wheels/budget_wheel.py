@@ -257,6 +257,7 @@ class WheelEngine:
         guarantee_t: Optional[int] = None,
         reduction_strategy: str = "reduce-coverage",
         last_draw: Optional[List[int]] = None,
+        annealing: bool = False,
     ) -> WheelResult:
         """
         Generate a budget-constrained combinatorial lottery wheel.
@@ -395,6 +396,19 @@ class WheelEngine:
                 scores=scores,
                 last_draw=last_draw,
             )
+
+            # Optional meta-heuristic simulated annealing refinement
+            if annealing and chosen_tickets:
+                from engine.modules.discrete_math import simulated_annealing_wheel_refine
+                refined_tkts, refined_cov = simulated_annealing_wheel_refine(
+                    pool=final_pool,
+                    k=k,
+                    t=t,
+                    initial_tickets=chosen_tickets,
+                )
+                if len(refined_tkts) <= len(chosen_tickets) and refined_cov >= covered_subs:
+                    chosen_tickets = refined_tkts
+                    covered_subs = refined_cov
 
             cov_pct = (covered_subs / total_subs * 100.0) if total_subs > 0 else 0.0
             is_100_percent = (covered_subs == total_subs)

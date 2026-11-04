@@ -388,3 +388,66 @@ def test_p4lottery_wheel_budget_cli(tmp_path):
     assert data["generator"] == "p4lottery"
     assert data["audit"]["is_100_percent_guarantee"] is True
     assert data["audit"]["total_cost"] <= 50.00
+
+
+def test_p4lottery_omni_cli_reduce_coverage(tmp_path):
+    """Run `./p4lottery omni` with reduce-coverage, target date, and JSON export."""
+    export_file = tmp_path / "omni_mega_coverage.json"
+    launcher = PROJECT_ROOT / "p4lottery"
+    cmd = [
+        str(launcher),
+        "omni",
+        "br/mega-sena",
+        "--budget", "40.00",
+        "--reduction-strategy", "reduce-coverage",
+        "--target-date", "2026-10-29",
+        "--export", str(export_file),
+    ]
+    proc = subprocess.run(cmd, capture_output=True, text=True, cwd=str(PROJECT_ROOT))
+    assert proc.returncode == 0, f"STDOUT: {proc.stdout}\nSTDERR: {proc.stderr}"
+    assert "Auditoria Combinatória de Cobertura" in proc.stdout or "Coverage" in proc.stdout
+    assert export_file.exists()
+
+    payload = json.loads(export_file.read_text(encoding="utf-8"))
+    assert payload["engine"] == "lottery-omni-generator"
+    assert "coverage_audit" in payload
+    assert "reduce-coverage" in payload["coverage_audit"]["reduction_strategy"]
+    assert len(payload["tickets"]) > 0
+
+
+def test_p4lottery_omni_cli_reduce_pool(tmp_path):
+    """Run `./p4lottery omni` with reduce-pool guarantee."""
+    export_file = tmp_path / "omni_mega_pool.json"
+    launcher = PROJECT_ROOT / "p4lottery"
+    cmd = [
+        str(launcher),
+        "omni",
+        "br/mega-sena",
+        "--budget", "40.00",
+        "--reduction-strategy", "reduce-pool",
+        "--target-date", "2026-10-29",
+        "--export", str(export_file),
+    ]
+    proc = subprocess.run(cmd, capture_output=True, text=True, cwd=str(PROJECT_ROOT))
+    assert proc.returncode == 0, f"STDOUT: {proc.stdout}\nSTDERR: {proc.stderr}"
+    assert export_file.exists()
+
+    payload = json.loads(export_file.read_text(encoding="utf-8"))
+    assert "reduce-pool" in payload["coverage_audit"]["reduction_strategy"]
+    assert payload["coverage_audit"]["is_100_percent_guarantee"] is True
+
+
+def test_p4lottery_news_cli():
+    """Run multilingual `./p4lottery news` in both pt_br and en."""
+    launcher = PROJECT_ROOT / "p4lottery"
+
+    cmd_pt = [str(launcher), "news", "br/mega-sena", "--locale", "pt_br"]
+    proc_pt = subprocess.run(cmd_pt, capture_output=True, text=True, cwd=str(PROJECT_ROOT))
+    assert proc_pt.returncode == 0, f"STDOUT: {proc_pt.stdout}\nSTDERR: {proc_pt.stderr}"
+    assert "Informativo Loterias Caixa" in proc_pt.stdout
+
+    cmd_en = [str(launcher), "news", "br/mega-sena", "--locale", "en"]
+    proc_en = subprocess.run(cmd_en, capture_output=True, text=True, cwd=str(PROJECT_ROOT))
+    assert proc_en.returncode == 0, f"STDOUT: {proc_en.stdout}\nSTDERR: {proc_en.stderr}"
+    assert "Astronomical Bulletin" in proc_en.stdout
+

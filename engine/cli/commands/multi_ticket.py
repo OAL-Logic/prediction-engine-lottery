@@ -81,6 +81,10 @@ def multi_ticket(
         help="Draws used for scoring")] = 100,
     seed: Annotated[Optional[int], typer.Option("--seed",
         help="Random seed for reproducibility")] = None,
+    dispersion: Annotated[bool, typer.Option("--dispersion",
+        help="Enable Max-Min Hamming dispersion optimization")] = False,
+    min_dist: Annotated[Optional[int], typer.Option("--min-dist",
+        help="Target minimum pairwise Hamming distance between tickets")] = None,
     export_md: Annotated[Optional[str], typer.Option("--export-md",
         help="Append multi-ticket report to this .md file")] = None,
 ) -> None:
@@ -113,28 +117,51 @@ def multi_ticket(
     # ── Score every pool number ────────────────────────────────────────────
     base_scores = {num: _num_score(num, df, rules, score_window) for num in pool}
 
-    # ── Generate tickets greedily ──────────────────────────────────────────
+    # ── Generate tickets greedily (or via Max-Min Hamming dispersion) ──────
     used_counter: Counter[int] = Counter()
     tickets: list[list[int]] = []
 
-    for t_idx in range(count):
-        # Combine base score with diversity bonus
-        combined = {}
-        for num in pool:
-            bonus      = 1.0 if used_counter[num] == 0 else 0.0
-            combined[num] = base_scores[num] * (1.0 + diversity * bonus)
+    if dispersion:
+        # Generate an expanded candidate pool of diverse candidate tickets
+        from engine.modules.discrete_math import optimize_portfolio_dispersion
+        candidate_pool: list[list[int]] = []
+        for _ in range(max(30, count * 15)):
+            comb = {}
+            for num in pool:
+                comb[num] = base_scores[num] * (1.0 + diversity * random.uniform(0.0, 1.2)) + random.uniform(0, 0.05)
+            c_ranked = sorted(pool, key=lambda n: -comb[n])
+            c_tkt = sorted(c_ranked[:pick])
+            if c_tkt not in candidate_pool:
+                candidate_pool.append(c_tkt)
 
-        # Add small random jitter to break ties and vary tickets
-        for num in pool:
-            combined[num] += random.uniform(0, 0.01)
+        tickets, mean_hamming, min_hamming = optimize_portfolio_dispersion(
+            candidate_tickets=candidate_pool,
+            target_count=count,
+            min_hamming_dist=min_dist,
+            scores_map=base_scores,
+        )
+        for t in tickets:
+            for n in t:
+                used_counter[n] += 1
+    else:
+        for t_idx in range(count):
+            # Combine base score with diversity bonus
+            combined = {}
+            for num in pool:
+                bonus      = 1.0 if used_counter[num] == 0 else 0.0
+                combined[num] = base_scores[num] * (1.0 + diversity * bonus)
 
-        # Select top-pick numbers
-        ranked = sorted(pool, key=lambda n: -combined[n])
-        ticket = sorted(ranked[:pick])
-        tickets.append(ticket)
+            # Add small random jitter to break ties and vary tickets
+            for num in pool:
+                combined[num] += random.uniform(0, 0.01)
 
-        for n in ticket:
-            used_counter[n] += 1
+            # Select top-pick numbers
+            ranked = sorted(pool, key=lambda n: -combined[n])
+            ticket = sorted(ranked[:pick])
+            tickets.append(ticket)
+
+            for n in ticket:
+                used_counter[n] += 1
 
     # ── Coverage analysis ──────────────────────────────────────────────────
     covered_set = set()

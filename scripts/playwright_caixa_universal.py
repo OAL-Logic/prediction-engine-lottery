@@ -22,7 +22,7 @@ import json
 import time
 import argparse
 from pathlib import Path
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Optional
 
 URL_MODALIDADES = {
     "mega-sena": "https://www.loteriasonline.caixa.gov.br/silce-web/#/mega-sena",
@@ -88,6 +88,71 @@ PACOTE_WHEEL_COMPLETO: List[Dict[str, Any]] = [
         "jogos": [],
     },
 ]
+
+
+def construir_pacote_dinamico(
+    preset: str = "variacoes",
+    target_date: str = "2026-10-29",
+    target_time: str = "20:00",
+    locale: Optional[str] = None,
+) -> List[Dict[str, Any]]:
+    """
+    Constrói dinamicamente a carteira determinística para a data/hora alvo usando
+    EsotericPipeline.generate_surgical_variations (Celeste, Magnética, Quântica,
+    Atrasão e Síntese 4 Forças + extensões combinatórias para budget80/wheel).
+    """
+    from datetime import date as _date
+    sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+    from engine.cli.utils import get_adapter
+    from engine.modules.esoteric_pipeline import EsotericPipeline
+    from engine.i18n import resolve_locale, t
+
+    loc = resolve_locale(cli_locale=locale, game_id="br/mega-sena")
+    t_date = _date.fromisoformat(target_date[:10]) if target_date else _date.today()
+    ep = EsotericPipeline()
+
+    configs = [
+        ("mega-sena", "br/mega-sena", 3),
+        ("lotofacil", "br/lotofacil", 4),
+    ]
+    resultado: List[Dict[str, Any]] = []
+
+    for mod_slug, game_id, extra_cnt in configs:
+        adapter = get_adapter(game_id)
+        df = adapter.fetch()
+        surg = ep.generate_surgical_variations(
+            df=df,
+            rules=adapter.rules,
+            target_date=t_date,
+            target_time=target_time or "20:00",
+            extra_wheel_tickets=extra_cnt,
+            locale=loc,
+        )
+        vars_5 = surg.get("variations", [])
+        exts = surg.get("extensions", [])
+
+        if preset == "enxuto4":
+            selecionados = vars_5[:4]
+            desc = t("variations.enxuto4_desc", locale=loc, date=t_date.isoformat(), time=target_time)
+        elif preset in ("variacoes", "omni"):
+            selecionados = vars_5[:5]
+            desc = t("variations.cirurgico_desc", locale=loc, date=t_date.isoformat(), time=target_time)
+        elif preset == "wheel":
+            selecionados = vars_5[:4] + exts[:2]
+            desc = t("variations.wheel_desc", locale=loc, date=t_date.isoformat(), time=target_time)
+        else:
+            # budget80: 5 variações + 3 extensões Mega-Sena (8 jogos = R$ 48) e 5 variações + 4 extensões Lotofácil (9 jogos = R$ 31,50) -> R$ 79,50
+            selecionados = vars_5 + exts
+            desc = t("variations.budget80_desc", locale=loc, date=t_date.isoformat(), time=target_time)
+
+        resultado.append({
+            "modalidade": mod_slug,
+            "descricao": desc,
+            "jogos": [it["numbers"] for it in selecionados],
+            "rotulos": [it["label"] for it in selecionados],
+        })
+
+    return resultado
 
 def preencher_modalidade(page, modalidade: str, jogos: List[List[int]], delay_click: float = 0.15):
     url = URL_MODALIDADES.get(modalidade.lower().replace("_", "-"))
@@ -260,9 +325,11 @@ def exibir_resumo_pacote(pacote: List[Dict[str, Any]], max_budget: float = 80.0)
         print(f"\n🎯 Modalidade: {mod.upper()} ({len(jogos)} jogos — R$ {subtotal:.2f})")
         if desc:
             print(f"   ℹ️  {desc}")
+        rotulos = item.get("rotulos", [])
         for idx, j in enumerate(jogos, start=1):
             fmt = " - ".join(f"{n:02d}" for n in j)
-            print(f"   Jogo {idx:02d}: [{fmt}]  (soma={sum(j)})")
+            rot = f"  [{rotulos[idx - 1]}]" if idx - 1 < len(rotulos) else ""
+            print(f"   Jogo {idx:02d}: [{fmt}]  (soma={sum(j)}){rot}")
     print("\n" + "-" * 72)
     pct_uso = (custo_total / max_budget * 100.0) if max_budget > 0 else 0.0
     print(
@@ -287,23 +354,25 @@ def main():
         default=80.0,
         help="Teto máximo de orçamento em Reais (default: R$ 80.00)",
     )
+    parser.add_argument("--target-date", type=str, default="2026-10-29", help="Data alvo do sorteio YYYY-MM-DD (default: 2026-10-29)")
+    parser.add_argument("--target-time", type=str, default="20:00", help="Horário previsto do sorteio HH:MM (default: 20:00)")
     parser.add_argument("--dry-run", action="store_true", help="Apenas exibe e valida os jogos sem abrir o navegador")
     parser.add_argument("--materialize", "-m", action="store_true", help="Executa a sessão imersiva de materialização (Terminal + HTML5 Chamber)")
     parser.add_argument("--dump-json", type=str, help="Exporta o pacote selecionado para um arquivo JSON")
     parser.add_argument("--profile-dir", type=str, default=".scratch/browser_session", help="Pasta do perfil persistente")
+    parser.add_argument("--locale", "-l", type=str, default=None, help="Language/locale (en, pt_br)")
     args = parser.parse_args()
 
     if args.file and os.path.exists(args.file):
         with open(args.file, "r", encoding="utf-8") as fp:
             pacote = json.load(fp)
-    elif args.preset == "wheel":
-        pacote = PACOTE_WHEEL_COMPLETO
-    elif args.preset in ("variacoes", "omni"):
-        pacote = PACOTE_VARIACOES_CIRURGICO
-    elif args.preset == "enxuto4":
-        pacote = PACOTE_ENXUTO_4
     else:
-        pacote = PACOTE_ORCAMENTO_80
+        pacote = construir_pacote_dinamico(
+            preset=args.preset,
+            target_date=args.target_date,
+            target_time=args.target_time,
+            locale=args.locale,
+        )
 
     if args.budget and args.budget > 0:
         pacote = aplicar_teto_orcamento(pacote, args.budget)
@@ -319,7 +388,13 @@ def main():
     if args.materialize:
         sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
         from engine.cli.commands.materialize import run_materialize
-        run_materialize(budget=args.budget, interactive=False)
+        run_materialize(
+            target_date=args.target_date,
+            target_time=args.target_time,
+            budget=args.budget,
+            interactive=False,
+            locale=args.locale,
+        )
 
     if args.dry_run:
         print("\n✅ Modo --dry-run concluído. Para disparar no navegador da Caixa, execute sem --dry-run.")
