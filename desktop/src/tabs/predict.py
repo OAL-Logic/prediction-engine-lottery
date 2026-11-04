@@ -98,6 +98,12 @@ class PredictionTab(QWidget):
 
         control_layout.addWidget(self.predict_button, 2)
         control_layout.addWidget(self.train_button, 1)
+
+        self.fringe_button = QPushButton("⚛ FRINGE COCKPIT")
+        self.fringe_button.setToolTip("Open interactive Fringe Physics and Quantum Multiverse visualizer")
+        self.fringe_button.clicked.connect(self._open_fringe_dialog)
+        control_layout.addWidget(self.fringe_button, 1)
+
         layout.addLayout(control_layout)
 
         # 3. Progress Section
@@ -152,6 +158,14 @@ class PredictionTab(QWidget):
     def selected_strategy(self) -> str:
         """The concrete strategy name to run — the Algorithm combo's current value."""
         return self.algorithm_combo.currentText() or "weighted"
+
+    def _open_fringe_dialog(self):
+        from desktop.src.widgets.fringe_visualizer import FringeVisualizerDialog
+        lottery_id = self.lottery_combo.currentText() or "br/mega-sena"
+        dlg = FringeVisualizerDialog(parent=self, lottery_id=lottery_id)
+        dlg.ticket_selected.connect(self.set_last_ticket)
+        dlg.ticket_selected.connect(self._emit_push_to_pool)
+        dlg.exec()
 
     # ------------------------------------------------------------------
     # Push to Pool

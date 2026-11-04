@@ -39,6 +39,9 @@ class IsingModelStrategy(BaseStrategy):
         co_occur = {n: {m: 0.0 for m in all_numbers} for n in all_numbers}
         
         total_draws = len(df)
+        if total_draws == 0:
+            return {n: 0.5 for n in all_numbers}
+
         for row in df.itertuples():
             nums = row.numbers
             for n in nums:
