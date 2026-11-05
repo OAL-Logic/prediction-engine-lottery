@@ -181,6 +181,12 @@ def help_cmd():
     """🏛️ View the high-fidelity command guide."""
     Console().print(_get_help_panel())
 
+@app.command(name="menu", rich_help_panel=PANEL_PRIMARY)
+def menu_cmd() -> None:
+    """🧭 Interactive CLI Command Center for navigating the Prediction Engine."""
+    from engine.cli.commands.menu import menu as impl
+    return impl()
+
 @app.command(rich_help_panel=PANEL_PRIMARY)
 def fetch(
     lottery: Annotated[str, typer.Argument(help="Lottery name [Required]")],
@@ -1211,6 +1217,17 @@ def hedge(
     """🛡️ Generate an optimized 'Hedge Portfolio' to maximize lower-tier returns."""
     from engine.cli.commands.hedge import hedge as impl
     return impl(lottery, budget, risk_profile)
+
+@app.command(name="auto-hedge", rich_help_panel=PANEL_BETTING)
+def auto_hedge_cmd(
+    lottery: Annotated[str, typer.Argument(help="Lottery name")],
+    budget: Annotated[float, typer.Option("--budget", "-b", help="Total budget for hedging")] = 50.0,
+    zones_x: Annotated[int, typer.Option("--zx", help="Grid width zones")] = 3,
+    zones_y: Annotated[int, typer.Option("--zy", help="Grid height zones")] = 3,
+) -> None:
+    """🛡️ Optimize betting surface area by covering high-probability board zones."""
+    from engine.cli.commands.auto_hedge import auto_hedge as impl
+    return impl(lottery, budget, zones_x, zones_y)
 
 @app.command(name="multi-ticket", rich_help_panel=PANEL_BETTING)
 def multi_ticket(

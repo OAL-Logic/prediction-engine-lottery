@@ -20,13 +20,11 @@ fi
 
 # Execution
 if [ $# -eq 0 ]; then
-    echo "=================================================="
-    echo "🎯 p4lottery — Prediction Engine 4 Lottery"
-    echo "=================================================="
-    echo "Golden Path: Use './p4lottery wizard' to start interactive analysis."
-    echo "Interactive Lab: Open 'docs/reference/frontier-synthesis-lab.html'"
-    echo ""
-    "$VENV_DIR/bin/python3" -m engine.cli.main --help
+    if [ -t 0 ]; then
+        exec "$VENV_DIR/bin/python3" -m engine.cli.main menu
+    else
+        exec "$VENV_DIR/bin/python3" -m engine.cli.main --help
+    fi
 else
-    "$VENV_DIR/bin/python3" -m engine.cli.main "$@"
+    exec "$VENV_DIR/bin/python3" -m engine.cli.main "$@"
 fi
