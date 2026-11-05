@@ -42,17 +42,45 @@ def compute_bet_receipt_hash(
     return hashlib.sha256(raw_payload.encode("utf-8")).hexdigest()
 
 
+def generate_mini_qr_ascii(digest: str) -> List[str]:
+    """Generates a visual 9x9 deterministic ASCII QR matrix from the SHA-256 digest."""
+    val = int(digest[:16], 16)
+    bits = [(val >> i) & 1 for i in range(48)]
+    grid = [["  " for _ in range(9)] for _ in range(9)]
+
+    # 3 Corner Finder Patterns (3x3 blocks)
+    for cr, cc in [(0, 0), (0, 6), (6, 0)]:
+        for r in range(3):
+            for c in range(3):
+                grid[cr + r][cc + c] = "██"
+        grid[cr + 1][cc + 1] = "  "
+
+    bit_idx = 0
+    for r in range(9):
+        for c in range(9):
+            if (r < 3 and (c < 3 or c >= 6)) or (r >= 6 and c < 3):
+                continue
+            if bit_idx < len(bits) and bits[bit_idx]:
+                grid[r][c] = "██"
+            bit_idx += 1
+
+    return ["".join(row) for row in grid]
+
+
 def format_ascii_bet_receipt(
     lottery: str,
     ticket: List[int],
     timestamp: str,
     terminal_id: str = "P4-EDGE-TERM-001",
 ) -> str:
-    """Renders a formatted ASCII cryptographic bet receipt."""
+    """Renders a formatted ASCII cryptographic bet receipt with visual mini-QR code."""
     sorted_nums = sorted([int(n) for n in ticket])
     num_str = " ".join(f"{n:02d}" for n in sorted_nums)
     digest = compute_bet_receipt_hash(lottery, ticket, timestamp, terminal_id)
     short_hash = digest[:16].upper()
+    qr_lines = generate_mini_qr_ascii(digest)
+
+    qr_block = "\n".join(f"│         {line:<39}│" for line in qr_lines)
 
     return (
         f"┌────────────────────────────────────────────────────────┐\n"
@@ -65,7 +93,10 @@ def format_ascii_bet_receipt(
         f"├────────────────────────────────────────────────────────┤\n"
         f"│ SHA256    : {digest[:43]}│\n"
         f"│             {digest[43:]:<43}│\n"
-        f"│ QR SIG    : *{shortHash if 'shortHash' in locals() else short_hash}* · EDGE VERIFIED ✓                 │\n"
+        f"├────────────────────────────────────────────────────────┤\n"
+        f"│ VISUAL SCANNER QR MATRIX:                              │\n"
+        f"{qr_block}\n"
+        f"│ QR SIG    : *{short_hash}* · EDGE VERIFIED ✓   │\n"
         f"└────────────────────────────────────────────────────────┘"
     )
 

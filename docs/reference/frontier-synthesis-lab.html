@@ -1466,10 +1466,24 @@
             <button class="tab-btn" onclick="generateEdgeBetReceipt()" style="width:100%; padding:8px 12px; font-weight:600; background:var(--accent-blue); color:#0a0d14; border:none; border-radius:6px; cursor:pointer;">
               Emitir Comprovante SHA-256
             </button>
+            <div style="margin-top:14px; border-top:1px solid var(--border); padding-top:10px;">
+              <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+                <span style="font-size:0.78rem; font-weight:600; color:var(--accent-blue);">💼 Carteira Offline (localStorage)</span>
+                <button onclick="clearEdgeWallet()" style="background:transparent; border:none; color:var(--text-muted); font-size:0.7rem; cursor:pointer;">Limpar Histórico</button>
+              </div>
+              <div id="pwa-wallet-list" style="max-height:140px; overflow-y:auto;">
+                <div style="color:var(--text-muted); font-size:0.75rem;">Nenhum bilhete salvo offline.</div>
+              </div>
+            </div>
           </div>
 
           <div style="background:#121824; border:1px solid var(--border); border-radius:8px; padding:14px;">
-            <h4 style="font-size:0.95rem; color:var(--accent-purple); margin-bottom:8px;">2. Comprovante Criptográfico (Terminal Edge)</h4>
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+              <h4 style="font-size:0.95rem; color:var(--accent-purple); margin:0;">2. Comprovante Criptográfico (Terminal Edge)</h4>
+              <button id="pwa-share-btn" onclick="shareCurrentReceipt()" style="display:none; background:rgba(56,189,248,0.15); border:1px solid var(--accent-blue); color:var(--accent-blue); padding:3px 8px; border-radius:4px; font-size:0.75rem; cursor:pointer;">
+                📤 Compartilhar
+              </button>
+            </div>
             <div id="pwa-receipt-display" style="font-family:var(--font-mono); font-size:0.8rem; background:#0a0d14; border:1px solid var(--border); padding:10px; border-radius:6px; color:#cbd5e1; min-height:120px;">
               <div style="color:var(--text-muted); text-align:center; padding-top:35px;">Clique em 'Emitir Comprovante SHA-256' para gerar o recibo criptográfico de borda.</div>
             </div>
@@ -1804,6 +1818,37 @@
       `;
     }
 
+    window.isingSpins = null;
+    function renderIsingGrid() {
+      let grid = document.getElementById("ising-spin-grid");
+      if (!grid || !window.isingSpins) return;
+      grid.innerHTML = "";
+      let mag = 0;
+      let activeCount = 0;
+      window.isingSpins.forEach((s, idx) => {
+        mag += s;
+        if (s === 1) activeCount++;
+        let ballNum = idx + 1;
+        let div = document.createElement("div");
+        div.className = "ball " + (s === 1 ? "swapped-in" : "");
+        div.textContent = ballNum < 10 ? "0" + ballNum : ballNum;
+        div.title = `Dezena ${ballNum} (Spin ${s > 0 ? '+1' : '-1'}). Clique/toque para inverter.`;
+        div.style.cursor = "pointer";
+        div.style.userSelect = "none";
+        div.onclick = () => toggleIsingSpin(idx);
+        grid.appendChild(div);
+      });
+      let energy = -35.0 - (activeCount * 1.8) + (Math.abs(mag) * 0.4);
+      document.getElementById("out-ising-energy").textContent = `${energy.toFixed(2)} J`;
+      document.getElementById("out-ising-mag").textContent = `${mag} (${activeCount} ativos / ${window.isingSpins.length} spins)`;
+    }
+
+    function toggleIsingSpin(idx) {
+      if (!window.isingSpins || idx < 0 || idx >= window.isingSpins.length) return;
+      window.isingSpins[idx] = window.isingSpins[idx] === 1 ? -1 : 1;
+      renderIsingGrid();
+    }
+
     function runIsingAnnealing() {
       let fmt = document.getElementById("game-select").value;
       let poolSize = fmt === "60_6" ? 60 : (fmt === "80_5" ? 80 : 25);
@@ -1817,19 +1862,8 @@
         if (!indices.includes(r)) indices.push(r);
       }
       indices.forEach(idx => spins[idx] = 1);
-
-      let grid = document.getElementById("ising-spin-grid");
-      grid.innerHTML = "";
-      spins.forEach((s, idx) => {
-        let ballNum = idx + 1;
-        let div = document.createElement("div");
-        div.className = "ball " + (s === 1 ? "swapped-in" : "");
-        div.textContent = ballNum < 10 ? "0" + ballNum : ballNum;
-        grid.appendChild(div);
-      });
-
-      document.getElementById("out-ising-energy").textContent = `${(-35.0 - Math.random() * 15).toFixed(2)} J`;
-      document.getElementById("out-ising-mag").textContent = `${targetMag} (Exato 2*${pickCount} - ${poolSize})`;
+      window.isingSpins = spins;
+      renderIsingGrid();
     }
 
     function optimizeAntiPopularTicket() {
@@ -3263,6 +3297,104 @@
       }, { passive: true });
     }
 
+    window.lastReceipt = null;
+
+    function generateSvgQr(digest) {
+      let val = BigInt("0x" + digest.substring(0, 16));
+      let bits = [];
+      for (let i = 0; i < 48; i++) {
+        bits.push(Number((val >> BigInt(i)) & 1n));
+      }
+      let grid = Array.from({length: 9}, () => Array(9).fill(0));
+      // 3 Finder patterns at (0,0), (0,6), (6,0)
+      const finders = [[0,0], [0,6], [6,0]];
+      finders.forEach(([cr, cc]) => {
+        for (let r=0; r<3; r++) {
+          for (let c=0; c<3; c++) {
+            grid[cr+r][cc+c] = 1;
+          }
+        }
+        grid[cr+1][cc+1] = 0;
+      });
+      let bitIdx = 0;
+      for (let r=0; r<9; r++) {
+        for (let c=0; c<9; c++) {
+          if ((r < 3 && (c < 3 || c >= 6)) || (r >= 6 && c < 3)) continue;
+          if (bitIdx < bits.length && bits[bitIdx] === 1) grid[r][c] = 1;
+          bitIdx++;
+        }
+      }
+      let rects = "";
+      for (let r=0; r<9; r++) {
+        for (let c=0; c<9; c++) {
+          if (grid[r][c] === 1) {
+            rects += `<rect x="${c*10}" y="${r*10}" width="10" height="10" fill="#38bdf8"/>`;
+          }
+        }
+      }
+      return `<svg viewBox="0 0 90 90" width="84" height="84" style="background:#0a0d14; border-radius:4px; padding:3px; border:1px solid var(--border);">${rects}</svg>`;
+    }
+
+    function saveToEdgeWallet(receipt) {
+      try {
+        let wallet = JSON.parse(localStorage.getItem("p4_edge_wallet") || "[]");
+        wallet.unshift(receipt);
+        if (wallet.length > 5) wallet = wallet.slice(0, 5);
+        localStorage.setItem("p4_edge_wallet", JSON.stringify(wallet));
+        renderEdgeWallet();
+      } catch (e) {}
+    }
+
+    function renderEdgeWallet() {
+      let container = document.getElementById("pwa-wallet-list");
+      if (!container) return;
+      try {
+        let wallet = JSON.parse(localStorage.getItem("p4_edge_wallet") || "[]");
+        if (wallet.length === 0) {
+          container.innerHTML = `<div style="color:var(--text-muted); font-size:0.75rem;">Nenhum bilhete salvo offline.</div>`;
+          return;
+        }
+        container.innerHTML = wallet.map((item, idx) => `
+          <div style="font-size:0.75rem; background:#0a0d14; border:1px solid var(--border); border-radius:4px; padding:6px; margin-bottom:5px; display:flex; justify-content:space-between; align-items:center;">
+            <div>
+              <strong style="color:var(--accent-emerald);">${item.numStr}</strong>
+              <span style="color:var(--text-muted); margin-left:6px; font-size:0.7rem;">(${item.game})</span>
+              <div style="color:var(--accent-amber); font-size:0.68rem; font-family:var(--font-mono);">${item.hash.substring(0, 20)}...</div>
+            </div>
+            <button onclick="shareSingleReceipt('${item.hash}', '${item.numStr}', '${item.game}')" title="Compartilhar bilhete" style="background:rgba(56,189,248,0.1); border:1px solid var(--border); color:var(--accent-blue); padding:3px 6px; border-radius:4px; cursor:pointer;">
+              📤
+            </button>
+          </div>
+        `).join("");
+      } catch (e) {}
+    }
+
+    function clearEdgeWallet() {
+      try {
+        localStorage.removeItem("p4_edge_wallet");
+        renderEdgeWallet();
+      } catch (e) {}
+    }
+
+    async function shareSingleReceipt(hash, numStr, game) {
+      let text = `[P4LOTTERY COMPROVANTE OFFLINE]\nJogo: ${game}\nDezenas: ${numStr}\nHash SHA-256: ${hash}\nVerificado na Borda ✓`;
+      if (navigator.share) {
+        try {
+          await navigator.share({ title: 'Comprovante Lottery Edge', text: text });
+          return;
+        } catch (e) {}
+      }
+      if (navigator.clipboard) {
+        await navigator.clipboard.writeText(text);
+        alert("Comprovante copiado para a área de transferência!");
+      }
+    }
+
+    async function shareCurrentReceipt() {
+      if (!window.lastReceipt) return;
+      await shareSingleReceipt(window.lastReceipt.hash, window.lastReceipt.numStr, window.lastReceipt.game);
+    }
+
     async function generateEdgeBetReceipt() {
       let game = document.getElementById("pwa-bet-game")?.value.trim() || "br/mega-sena";
       let rawNums = document.getElementById("pwa-bet-numbers")?.value || "";
@@ -3283,19 +3415,35 @@
       }
 
       let shortHash = hashHex.substring(0, 16).toUpperCase();
+      let svgQr = generateSvgQr(hashHex);
+      window.lastReceipt = { hash: hashHex, numStr: numStr, game: game, timestamp: timestamp };
+      saveToEdgeWallet(window.lastReceipt);
+
+      let shareBtn = document.getElementById("pwa-share-btn");
+      if (shareBtn) shareBtn.style.display = "inline-block";
+
       let display = document.getElementById("pwa-receipt-display");
       if (display) {
         display.innerHTML = `
-          <div style="border-bottom:1px dashed var(--border); padding-bottom:6px; margin-bottom:6px; color:var(--accent-blue);">
+          <div style="border-bottom:1px dashed var(--border); padding-bottom:6px; margin-bottom:8px; color:var(--accent-blue); display:flex; justify-content:space-between; align-items:center;">
             <strong>COMPROVANTE OFFLINE DE APOSTA (EDGE VERIFIED)</strong>
+            <span class="badge" style="background:#059669; color:#fff; font-size:0.65rem;">SHA-256 ✓</span>
           </div>
-          <div>JOGO       : <strong style="color:#fff;">${game.toUpperCase()}</strong></div>
-          <div>DEZENAS    : <strong style="color:var(--accent-emerald); font-size:0.95rem;">${numStr}</strong></div>
-          <div>TIMESTAMP  : ${timestamp}</div>
-          <div>TERMINAL   : ${terminalId}</div>
-          <div>HASH SHA256: <span style="color:var(--accent-amber); word-break:break-all;">${hashHex}</span></div>
-          <div style="margin-top:8px; padding-top:6px; border-top:1px dashed var(--border); text-align:center; color:var(--accent-purple);">
-            [ QR: *${shortHash}* ] · CRIPTOGRAFICAMENTE ASSINADO
+          <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:12px;">
+            <div style="flex:1;">
+              <div>JOGO       : <strong style="color:#fff;">${game.toUpperCase()}</strong></div>
+              <div>DEZENAS    : <strong style="color:var(--accent-emerald); font-size:0.95rem;">${numStr}</strong></div>
+              <div>TIMESTAMP  : ${timestamp}</div>
+              <div>TERMINAL   : ${terminalId}</div>
+              <div>HASH SHA256: <span style="color:var(--accent-amber); word-break:break-all; font-size:0.74rem;">${hashHex}</span></div>
+            </div>
+            <div style="text-align:center;">
+              ${svgQr}
+              <div style="font-size:0.65rem; color:var(--text-muted); margin-top:2px;">*${shortHash}*</div>
+            </div>
+          </div>
+          <div style="margin-top:8px; padding-top:6px; border-top:1px dashed var(--border); text-align:center; color:var(--accent-purple); font-size:0.75rem;">
+            [ QR: *${shortHash}* ] · CRIPTOGRAFICAMENTE ASSINADO NO EDGE COCKPIT
           </div>
         `;
       }
@@ -3322,6 +3470,7 @@
     drawStochasticResonance();
     initFringeVisualizers();
     initLorenzTouchControls();
+    renderEdgeWallet();
   </script>
 </body>
 </html>

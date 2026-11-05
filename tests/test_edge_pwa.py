@@ -17,6 +17,7 @@ from engine.modules.edge_pwa import (
     audit_pwa_integrity,
     compute_bet_receipt_hash,
     format_ascii_bet_receipt,
+    generate_mini_qr_ascii,
 )
 
 runner = CliRunner()
@@ -111,3 +112,22 @@ def test_cli_lab_pwa_commands():
     res_pwa = runner.invoke(app, ["lab", "--pwa", "--no-browser"])
     assert res_pwa.exit_code == 0
     assert "edge-pwa-card" in res_pwa.output
+
+
+def test_mini_qr_ascii_and_wallet_features():
+    """Verify visual 9x9 mini-QR generation and edge wallet/share integration."""
+    digest = compute_bet_receipt_hash("br/mega-sena", [8, 11, 15, 28, 58, 60], "2026-11-05T00:00:00Z", "TERM-01")
+    qr_lines = generate_mini_qr_ascii(digest)
+    assert len(qr_lines) == 9
+    assert all(len(line) == 18 for line in qr_lines)  # 9 cells of width 2 ("██" or "  ")
+
+    receipt = format_ascii_bet_receipt("br/mega-sena", [8, 11, 15, 28, 58, 60], "2026-11-05T00:00:00Z", "TERM-01")
+    assert "VISUAL SCANNER QR MATRIX:" in receipt
+    assert "██" in receipt
+
+    html_text = Path("docs/reference/frontier-synthesis-lab.html").read_text(encoding="utf-8")
+    assert "pwa-wallet-list" in html_text
+    assert "saveToEdgeWallet" in html_text
+    assert "shareCurrentReceipt" in html_text
+    assert "generateSvgQr" in html_text
+    assert "toggleIsingSpin" in html_text
