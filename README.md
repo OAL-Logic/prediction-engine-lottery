@@ -302,6 +302,8 @@ pipx install https://github.com/OAL-Logic/prediction-engine-lottery/releases/lat
 pip install lottery-engine
 ```
 
+> 📖 Para detalhes sobre a arquitetura do pipeline e passos para gerar novas versões, consulte o [**Release & Distribution Guide**](docs/reference/release-and-distribution.md).
+
 ---
 
 ## 🚀 Quick Start

@@ -20,6 +20,7 @@
 ## ⭐ Key Reference Shortcuts
 
 - 🌐 **[Interactive Dynamic Portal (`dynamic-portal.html`)](./reference/dynamic-portal.html)**
+- 🚀 **[Release & Distribution Guide (`release-and-distribution.md`)](./reference/release-and-distribution.md)**
 - 🧱 **[14 — Comprehensive Data Structures & Storage Reference](./reference/architecture/14-Data-Structures-and-Storage-Reference.md)**
 - ⚙️ **[13 — Distilled Algorithms & Python Boilerplate](./reference/architecture/13-Distilled-Algorithms-and-Boilerplate.md)**
 - 🔬 **[Public SamLotto Research & Documentation Index](./research/INDEX.md)**
