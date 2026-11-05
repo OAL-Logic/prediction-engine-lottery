@@ -137,13 +137,13 @@ def _get_help_panel() -> Panel:
             "fringe-inspect", "synthetic-bench", "popper-check", "entropy-bench", "global-fringe-bench", "lab", "fringe-swarm"
             ]),
         make_cat_section(PANEL_BETTING, [
-            "wheel", "genetic-wheel", "portfolio", "global-portfolio", "hedge", "auto-hedge", "multi-ticket", "prize-ev", "quick", "next", "forecast", "picks", 
+            "wheel", "genetic-wheel", "portfolio", "global-portfolio", "hedge", "auto-hedge", "kelly", "multi-ticket", "prize-ev", "quick", "next", "forecast", "picks", 
             "suggest-swaps", "party", "oracle", "deliberate", "bio", "resonance", "swarm", "risk", "savings", "simulate"
         ]),
         make_cat_section(PANEL_MONITOR, [
 
             "daily", "weekly", "report", "alert", "cold-streak-alert", "regime-history", "log", "log-view", 
-            "log-export", "watchlist", "hitcheck"
+            "log-export", "watchlist", "hitcheck", "watch"
         ]),
         make_cat_section(PANEL_SYSTEM, [
             "serve", "games", "odds", "daemon", "daemon-status", "optimize", "calibrate", "prune", "select-strategies", "audit-data", "export",
@@ -1229,6 +1229,19 @@ def auto_hedge_cmd(
     from engine.cli.commands.auto_hedge import auto_hedge as impl
     return impl(lottery, budget, zones_x, zones_y)
 
+@app.command(name="kelly", rich_help_panel=PANEL_BETTING)
+def kelly_cmd(
+    lottery: Annotated[str, typer.Argument(help="Lottery game identifier (e.g. br/mega-sena, br/lotofacil)")] = "br/mega-sena",
+    jackpot: Annotated[float, typer.Option("--jackpot", "-j", help="Estimated top jackpot prize")] = 600_000_000.0,
+    bankroll: Annotated[float, typer.Option("--bankroll", "-b", help="Total available betting capital")] = 1000.0,
+    fraction: Annotated[float, typer.Option("--fraction", "-f", help="Safety fractional Kelly multiplier (0.01 to 0.10)")] = 0.05,
+    subspace: Annotated[str, typer.Option("--subspace", "-s", help="Subspace type: anti-popular | uniform | popular")] = "anti-popular",
+    export_md: Annotated[Optional[str], typer.Option("--export-md", help="Export markdown report path")] = None,
+) -> None:
+    """🏛️ Calculate optimal, ruin-free bet allocation using Fractional Kelly Criterion (Track R)."""
+    from engine.cli.commands.kelly import kelly_cmd as impl
+    return impl(lottery, jackpot, bankroll, fraction, subspace, export_md)
+
 @app.command(name="multi-ticket", rich_help_panel=PANEL_BETTING)
 def multi_ticket(
     lottery: Annotated[str, typer.Argument(help="Lottery name (e.g. br/lotofacil)")],
@@ -1725,6 +1738,18 @@ def hitcheck(
     """🎯 Compare logged tickets against actual draw results."""
     from engine.cli.commands.hitcheck import hitcheck as impl
     return impl(lottery, draws, draw_id, since, all_tickets, export_md)
+
+@app.command(name="watch", rich_help_panel=PANEL_MONITOR)
+def watch_cmd(
+    lottery: Annotated[str, typer.Argument(help="Lottery name (e.g. br/mega-sena, br/lotofacil)")] = "br/mega-sena",
+    interval: Annotated[int, typer.Option("--interval", "-i", help="Poll cycle duration in seconds")] = 10,
+    once: Annotated[bool, typer.Option("--once", help="Execute single check cycle and exit")] = False,
+    notify: Annotated[bool, typer.Option("--notify/--no-notify", help="Enable terminal desktop/bell notifications")] = True,
+    auto_check: Annotated[bool, typer.Option("--auto-check/--no-auto-check", help="Auto-audit stored wallet tickets against draw")] = True,
+) -> None:
+    """🛰️ Live watcher daemon for official lottery draws with adaptive polling and auto-audit."""
+    from engine.cli.commands.watch import watch_cmd as impl
+    return impl(lottery, interval, once, notify, auto_check)
 
 # --- PANEL_SYSTEM Commands ---
 
