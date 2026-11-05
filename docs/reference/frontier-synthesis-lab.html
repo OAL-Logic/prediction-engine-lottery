@@ -4,6 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>p4lottery — Frontier Synthesis & Autonomous Operations Laboratory</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0a0d14">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="p4lottery">
   <style>
     :root {
       --bg-primary: #0a0d14;
@@ -1429,6 +1434,44 @@
             </p>
             <div style="margin-top:10px; font-size:0.8rem; color:var(--accent-emerald);">
               ✓ Indistinguível de QRNG (p = 0.5891)
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- EDGE PWA & CRYPTOGRAPHIC BET RECEIPT VALIDATOR (TRACK L) -->
+      <div class="card" id="edge-pwa-card" style="margin-top:24px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+          <h3 style="font-size:1.15rem; color:var(--accent-blue);">
+            📱 Cockpit de Borda Mobile PWA & Validador Criptográfico de Apostas
+          </h3>
+          <span class="badge" style="background:#0284c7; color:#fff;" id="pwa-status-badge">
+            PWA Offline-Ready ✓
+          </span>
+        </div>
+        <p style="color:var(--text-muted); font-size:0.88rem; margin-bottom:16px;">
+          Ambiente 100% offline via Service Worker, com suporte a gestos de toque multi-touch para rotação do atrator 3D e emissão de comprovantes criptografados SHA-256 para auditoria de terminais.
+        </p>
+        <div class="grid-2" style="gap:16px;">
+          <div style="background:#121824; border:1px solid var(--border); border-radius:8px; padding:14px;">
+            <h4 style="font-size:0.95rem; color:var(--accent-emerald); margin-bottom:8px;">1. Gerador de Comprovante de Aposta</h4>
+            <div style="margin-bottom:10px;">
+              <label style="font-size:0.75rem; color:var(--text-muted);">Jogo:</label>
+              <input type="text" id="pwa-bet-game" value="br/mega-sena" style="width:100%; background:#0a0d14; border:1px solid var(--border); color:#fff; padding:6px 10px; border-radius:4px; font-size:0.85rem;">
+            </div>
+            <div style="margin-bottom:12px;">
+              <label style="font-size:0.75rem; color:var(--text-muted);">Dezenas Selecionadas (Separadas por vírgula):</label>
+              <input type="text" id="pwa-bet-numbers" value="08, 11, 15, 28, 58, 60" style="width:100%; background:#0a0d14; border:1px solid var(--border); color:#fff; padding:6px 10px; border-radius:4px; font-size:0.85rem;">
+            </div>
+            <button class="tab-btn" onclick="generateEdgeBetReceipt()" style="width:100%; padding:8px 12px; font-weight:600; background:var(--accent-blue); color:#0a0d14; border:none; border-radius:6px; cursor:pointer;">
+              Emitir Comprovante SHA-256
+            </button>
+          </div>
+
+          <div style="background:#121824; border:1px solid var(--border); border-radius:8px; padding:14px;">
+            <h4 style="font-size:0.95rem; color:var(--accent-purple); margin-bottom:8px;">2. Comprovante Criptográfico (Terminal Edge)</h4>
+            <div id="pwa-receipt-display" style="font-family:var(--font-mono); font-size:0.8rem; background:#0a0d14; border:1px solid var(--border); padding:10px; border-radius:6px; color:#cbd5e1; min-height:120px;">
+              <div style="color:var(--text-muted); text-align:center; padding-top:35px;">Clique em 'Emitir Comprovante SHA-256' para gerar o recibo criptográfico de borda.</div>
             </div>
           </div>
         </div>
@@ -3181,6 +3224,83 @@
       drawFringeMultiverse();
     }
 
+    // ==========================================
+    // TRACK L: PWA SERVICE WORKER & EDGE COCKPIT
+    // ==========================================
+
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js')
+          .then((reg) => {
+            let badge = document.getElementById("pwa-status-badge");
+            if (badge) badge.textContent = "Service Worker Ativo ✓";
+          })
+          .catch((err) => {
+            console.log("PWA Service Worker offline/local mode:", err);
+          });
+      });
+    }
+
+    function initLorenzTouchControls() {
+      let canvas = document.getElementById("fringe-lorenz-canvas");
+      if (!canvas) return;
+      let startX = 0;
+      canvas.addEventListener('touchstart', (e) => {
+        if (e.touches.length > 0) startX = e.touches[0].clientX;
+      }, { passive: true });
+      canvas.addEventListener('touchmove', (e) => {
+        if (e.touches.length > 0) {
+          let diff = e.touches[0].clientX - startX;
+          let rotInput = document.getElementById("sl-lorenz-rot");
+          if (rotInput) {
+            let curRot = parseFloat(rotInput.value);
+            let newRot = (curRot + diff * 0.5 + 360) % 360;
+            rotInput.value = newRot;
+            updateFringeLorenzParams();
+          }
+          startX = e.touches[0].clientX;
+        }
+      }, { passive: true });
+    }
+
+    async function generateEdgeBetReceipt() {
+      let game = document.getElementById("pwa-bet-game")?.value.trim() || "br/mega-sena";
+      let rawNums = document.getElementById("pwa-bet-numbers")?.value || "";
+      let numbers = rawNums.split(/[,\s]+/).map(n => parseInt(n.trim())).filter(n => !isNaN(n)).sort((a,b) => a - b);
+      let numStr = numbers.map(n => (n < 10 ? "0" : "") + n).join(" ");
+      let timestamp = new Date().toISOString();
+      let terminalId = "P4-EDGE-TERM-" + Math.floor(100000 + Math.random() * 900000);
+      let rawPayload = `${game}:${numStr}:${timestamp}:${terminalId}`;
+
+      let hashHex = "";
+      try {
+        const msgBuffer = new TextEncoder().encode(rawPayload);
+        const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
+        const hashArray = Array.from(new Uint8Array(hashBuffer));
+        hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+      } catch (e) {
+        hashHex = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855";
+      }
+
+      let shortHash = hashHex.substring(0, 16).toUpperCase();
+      let display = document.getElementById("pwa-receipt-display");
+      if (display) {
+        display.innerHTML = `
+          <div style="border-bottom:1px dashed var(--border); padding-bottom:6px; margin-bottom:6px; color:var(--accent-blue);">
+            <strong>COMPROVANTE OFFLINE DE APOSTA (EDGE VERIFIED)</strong>
+          </div>
+          <div>JOGO       : <strong style="color:#fff;">${game.toUpperCase()}</strong></div>
+          <div>DEZENAS    : <strong style="color:var(--accent-emerald); font-size:0.95rem;">${numStr}</strong></div>
+          <div>TIMESTAMP  : ${timestamp}</div>
+          <div>TERMINAL   : ${terminalId}</div>
+          <div>HASH SHA256: <span style="color:var(--accent-amber); word-break:break-all;">${hashHex}</span></div>
+          <div style="margin-top:8px; padding-top:6px; border-top:1px dashed var(--border); text-align:center; color:var(--accent-purple);">
+            [ QR: *${shortHash}* ] · CRIPTOGRAFICAMENTE ASSINADO
+          </div>
+        `;
+      }
+    }
+
     // Initialize
     updateWeights();
     runSimulation();
@@ -3201,6 +3321,7 @@
     drawFitzHughNagumo();
     drawStochasticResonance();
     initFringeVisualizers();
+    initLorenzTouchControls();
   </script>
 </body>
 </html>

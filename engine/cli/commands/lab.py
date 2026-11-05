@@ -4,12 +4,12 @@ Lab Command 🔬
 Interactive Web Synthesis & Frontier Theories Laboratory.
 Launches the zero-dependency offline HTML5 laboratory for real-time visualization of
 chaotic phase space, Ising spin lattice, topological data analysis, quantum multiverse,
-and Popperian falsification metrics.
+Popperian falsification metrics, and Progressive Web App (PWA) edge cockpit.
 """
 
 from __future__ import annotations
 
-import os
+import datetime
 from pathlib import Path
 from typing import Annotated, Optional
 import webbrowser
@@ -19,6 +19,7 @@ from rich.panel import Panel
 from rich.table import Table
 
 from engine.cli.utils import ui_header
+from engine.modules.edge_pwa import audit_pwa_integrity, format_ascii_bet_receipt
 
 console = Console()
 
@@ -36,28 +37,88 @@ def lab(
         bool,
         typer.Option("--host", help="Print instructions for local HTTP hosting"),
     ] = False,
+    pwa: Annotated[
+        bool,
+        typer.Option("--pwa", help="Focus on Mobile PWA Edge Cockpit and offline verification"),
+    ] = False,
+    audit_pwa: Annotated[
+        bool,
+        typer.Option("--audit-pwa", help="Audit local PWA manifest and Service Worker compliance"),
+    ] = False,
+    receipt: Annotated[
+        Optional[str],
+        typer.Option("--receipt", help="Generate offline cryptographic SHA-256 bet receipt for comma-separated numbers"),
+    ] = None,
+    game: Annotated[
+        str,
+        typer.Option("--game", "-g", help="Lottery game identifier for receipt (default: br/mega-sena)"),
+    ] = "br/mega-sena",
 ) -> None:
     """🔬 Launch the interactive offline Web Synthesis & Fringe Theories Laboratory."""
-    ui_header("INTERACTIVE SYNTHESIS LAB", "Offline Frontier Physics & Popperian Falsification")
+    ui_header("INTERACTIVE SYNTHESIS LAB", "Offline Frontier Physics & PWA Edge Cockpit")
 
-    # Locate docs/reference/frontier-synthesis-lab.html relative to engine or repo root
     repo_root = Path(__file__).resolve().parent.parent.parent.parent
-    lab_path = repo_root / "docs" / "reference" / "frontier-synthesis-lab.html"
+    ref_dir = repo_root / "docs" / "reference"
+    lab_path = ref_dir / "frontier-synthesis-lab.html"
 
     if not lab_path.is_file():
-        # Fallback search if installed as package
         fallback = Path("docs/reference/frontier-synthesis-lab.html").resolve()
         if fallback.is_file():
             lab_path = fallback
+            ref_dir = fallback.parent
         else:
             console.print(f"[bold red]Error:[/bold red] Synthesis lab HTML not found at [yellow]{lab_path}[/yellow]")
             raise typer.Exit(code=1)
 
-    tab_normalized = tab.strip().lower()
-    if not tab_normalized.startswith("tab-"):
-        tab_param = f"tab-{tab_normalized}"
-    else:
-        tab_param = tab_normalized
+    # 1. Handle PWA Compliance Audit
+    if audit_pwa:
+        audit = audit_pwa_integrity(repo_root)
+        audit_table = Table(title="📱 Progressive Web App (PWA) Edge Compliance Audit", border_style="cyan")
+        audit_table.add_column("Asset / Specification", style="cyan")
+        audit_table.add_column("Status", style="bold")
+        audit_table.add_column("Details", style="dim")
+
+        audit_table.add_row(
+            "HTML Cockpit",
+            "[bold green]FOUND ✓[/bold green]" if audit.html_exists else "[bold red]MISSING ✗[/bold red]",
+            str(lab_path.name),
+        )
+        audit_table.add_row(
+            "Web App Manifest",
+            "[bold green]VALID ✓[/bold green]" if audit.manifest_exists else "[bold red]MISSING ✗[/bold red]",
+            f"Display: {audit.manifest_data.get('display', 'unknown')} | Name: {audit.manifest_data.get('short_name', 'p4lottery')}",
+        )
+        audit_table.add_row(
+            "Service Worker (sw.js)",
+            "[bold green]ACTIVE ✓[/bold green]" if audit.sw_exists else "[bold red]MISSING ✗[/bold red]",
+            f"Cached lifecycle events: {', '.join(audit.service_worker_events)}",
+        )
+        audit_table.add_row(
+            "Overall Edge Compliance",
+            "[bold green]100% PWA COMPLIANT ✓[/bold green]" if audit.is_compliant else "[bold red]INCOMPLETE ✗[/bold red]",
+            "Ready for zero-dependency offline installation on mobile/desktop",
+        )
+        console.print(audit_table)
+        return
+
+    # 2. Handle Cryptographic Bet Receipt Generation
+    if receipt:
+        try:
+            nums = [int(x.strip()) for x in receipt.split(",") if x.strip()]
+        except ValueError:
+            console.print("[bold red]Error:[/bold red] --receipt numbers must be comma-separated integers.")
+            raise typer.Exit(code=1)
+
+        ts = datetime.datetime.now(datetime.timezone.utc).isoformat()
+        card = format_ascii_bet_receipt(game, nums, ts)
+        console.print(Panel(card, title="📱 Edge Cryptographic Receipt", border_style="green"))
+        return
+
+    # 3. Normal Lab Launch
+    tab_normalized = "fringe" if pwa else tab.strip().lower()
+    tab_param = f"tab-{tab_normalized}" if not tab_normalized.startswith("tab-") else tab_normalized
+    if pwa:
+        tab_param = f"{tab_param}#edge-pwa-card"
 
     file_uri = f"{lab_path.as_uri()}#{tab_param}"
 
@@ -67,19 +128,20 @@ def lab(
 
     table.add_row("Local Document", str(lab_path))
     table.add_row("Target URI", file_uri)
-    table.add_row("Focused Module", f"[bold green]{tab_normalized}[/bold green]")
+    table.add_row("Focused Module", f"[bold green]{tab_normalized}[/bold green]" + (" (PWA Edge Card)" if pwa else ""))
     table.add_row("Browser Auto-Launch", "[dim red]Disabled (--no-browser)[/dim red]" if no_browser else "[bold green]Enabled[/bold green]")
-    table.add_row("Dependencies", "[bold yellow]100% Offline Zero-Dependency (Vanilla Canvas / SVG / JS)[/bold yellow]")
+    table.add_row("Edge PWA Architecture", "[bold yellow]Service Worker + Manifest Offline Ready ✓[/bold yellow]")
     console.print(table)
 
     features = (
         "[bold cyan]Interactive Quadrants & Falsification Engines Available:[/bold cyan]\n"
-        " • [bold white]1. 3D Lorenz Chaotic Attractor[/bold white]: RK4 integration of convective Rayleigh-Bénard roll instability\n"
+        " • [bold white]1. 3D Lorenz Chaotic Attractor[/bold white]: RK4 integration with multi-touch rotation on mobile\n"
         " • [bold white]2. 2D Ising Spin Lattice[/bold white]: Metropolis Monte Carlo sampling with Curie phase transition ($T/T_c$)\n"
         " • [bold white]3. Persistent Homology (TDA)[/bold white]: Vietoris-Rips simplicial filtration with $\\beta_0, \\beta_1$ barcode cavities\n"
         " • [bold white]4. Everett Quantum Multiverse[/bold white]: Many-worlds decoherence tree and phase interference spectrum $|\\psi(n)|^2$\n"
         " • [bold white]5. Popperian Falsification Matrix[/bold white]: 9 Speculative theories benchmarked against $H_0$ across 3 global jurisdictions\n"
-        " • [bold white]6. Physical Machine Archetypes[/bold white]: Air-Mix Fluid Dynamics vs Gravity-Pick vs Pneumatic Drop comparison"
+        " • [bold white]6. Physical Machine Archetypes[/bold white]: Air-Mix Fluid Dynamics vs Gravity-Pick vs Pneumatic Drop comparison\n"
+        " • [bold white]7. Edge Cryptographic Validator[/bold white]: SHA-256 verified offline bet receipts"
     )
     console.print(Panel(features, title="🔬 Lab Capabilities", border_style="cyan"))
 

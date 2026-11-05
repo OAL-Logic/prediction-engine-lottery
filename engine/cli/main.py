@@ -134,7 +134,7 @@ def _get_help_panel() -> Panel:
             "number-timeline", "momentum-check", "gap-forecast", "pair-analysis", "draw-summary", 
             "history-scan", "pool-stats", "rank-numbers", "streak-report", "leaderboard", "fractal-scan", "sync-check",
             "report-elite", "spectral-3d", "hyper-explorer", "synergy-graph", "space-weather", "global-bench",
-            "fringe-inspect", "synthetic-bench", "popper-check", "entropy-bench", "global-fringe-bench", "lab"
+            "fringe-inspect", "synthetic-bench", "popper-check", "entropy-bench", "global-fringe-bench", "lab", "fringe-swarm"
             ]),
         make_cat_section(PANEL_BETTING, [
             "wheel", "genetic-wheel", "portfolio", "global-portfolio", "hedge", "auto-hedge", "multi-ticket", "prize-ev", "quick", "next", "forecast", "picks", 
@@ -1084,10 +1084,29 @@ def lab_cmd(
     tab: Annotated[str, typer.Option("--tab", "-t", help="Initial tab to focus: fringe | orbital | wheels | followers | kuramoto | poincare | rmt")] = "fringe",
     no_browser: Annotated[bool, typer.Option("--no-browser", "-n", help="Do not launch system web browser automatically; print local path only")] = False,
     host: Annotated[bool, typer.Option("--host", help="Print instructions for local HTTP hosting")] = False,
+    pwa: Annotated[bool, typer.Option("--pwa", help="Focus on Mobile PWA Edge Cockpit and offline verification")] = False,
+    audit_pwa: Annotated[bool, typer.Option("--audit-pwa", help="Audit local PWA manifest and Service Worker compliance")] = False,
+    receipt: Annotated[Optional[str], typer.Option("--receipt", help="Generate offline cryptographic SHA-256 bet receipt for comma-separated numbers")] = None,
+    game: Annotated[str, typer.Option("--game", "-g", help="Lottery game identifier for receipt (default: br/mega-sena)")] = "br/mega-sena",
 ) -> None:
     """🔬 Launch the interactive offline Web Synthesis & Fringe Theories Laboratory."""
     from engine.cli.commands.lab import lab as impl
-    return impl(tab, no_browser, host)
+    return impl(tab, no_browser, host, pwa, audit_pwa, receipt, game)
+
+@app.command(name="fringe-swarm", rich_help_panel=PANEL_ANALYTICS)
+def fringe_swarm_cmd(
+    lottery: Annotated[str, typer.Argument(help="Lottery game identifier (e.g. br/mega-sena, br/quina, br/lotofacil)")] = "br/mega-sena",
+    draws: Annotated[int, typer.Option("--draws", "-n", help="Historical window of draws to analyze")] = 100,
+    tickets: Annotated[int, typer.Option("--tickets", "-k", help="Total tickets to emit (Core + Hedged)")] = 5,
+    hedge_ratio: Annotated[float, typer.Option("--hedge-ratio", "-r", help="Proportion of tickets allocated to divergence counter-hedging")] = 0.4,
+    export_md: Annotated[Optional[str], typer.Option("--export-md", help="Export markdown telemetry report path")] = "reports/br/studies/fringe-theories-swarm-telemetry.md",
+    emit: Annotated[bool, typer.Option("--emit", help="Emit live UDP telemetry pulse to local gateway")] = False,
+    quiet: Annotated[bool, typer.Option("--quiet", "-q", help="Suppress detailed console tables")] = False,
+    seed: Annotated[int, typer.Option("--seed", "-s", help="Random seed for ticket reproducibility")] = 42,
+) -> None:
+    """🐝 Autonomous multi-modal candidate polling and dynamic counter-hedging for fringe models."""
+    from engine.cli.commands.fringe_swarm import fringe_swarm as impl
+    return impl(lottery, draws, tickets, hedge_ratio, export_md, emit, quiet, seed)
 
 @app.command(name="cluster-walk", rich_help_panel=PANEL_ANALYTICS)
 def cluster_walk(
