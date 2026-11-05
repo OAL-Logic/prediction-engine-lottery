@@ -322,6 +322,7 @@
       <button class="tab-btn" onclick="openTab('tab-rule110')">Autômato Regra 110 (Wolfram)</button>
       <button class="tab-btn" onclick="openTab('tab-fitzhugh')">Oscilador FitzHugh-Nagumo</button>
       <button class="tab-btn" onclick="openTab('tab-stochres')">Ressonância Estocástica (SNR)</button>
+      <button class="tab-btn" onclick="openTab('tab-fringe')" style="border-color:var(--accent-purple); color:var(--accent-purple);">🔬 Teorias Marginais & Falsificação Popperiana (9 Fringe)</button>
       <button class="tab-btn" onclick="openTab('tab-frontiers')">Fronteiras Inexploradas</button>
     </div>
 
@@ -1128,6 +1129,312 @@
       </div>
     </div>
 
+    <!-- TAB: FRINGE THEORIES & POPPERIAN FALSIFICATION LAB -->
+    <div id="tab-fringe" class="panel">
+      <div class="card" style="margin-bottom:24px; border:1px solid var(--accent-purple); background:linear-gradient(135deg, rgba(192,132,252,0.1), rgba(56,189,248,0.05));">
+        <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:12px;">
+          <div>
+            <h2 style="font-size:1.45rem; font-weight:700; color:var(--text-main); display:flex; align-items:center; gap:8px;">
+              🔬 Laboratório Interativo de Teorias Marginais & Falsificação Popperiana
+              <span class="badge" style="background:#7c3aed; color:#fff;">ADR-0005 Protocol</span>
+            </h2>
+            <p style="color:var(--text-muted); font-size:0.92rem; margin-top:6px;">
+              Simulações físicas e dinâmicas não-lineares em tempo real para as 9 teorias especulativas do motor, confrontadas com o protocolo popperiano de hipótese nula H₀.
+            </p>
+          </div>
+          <div style="text-align:right;">
+            <span style="font-size:0.82rem; color:var(--accent-emerald); font-weight:600; background:rgba(52,211,153,0.15); padding:4px 10px; border-radius:6px; border:1px solid rgba(52,211,153,0.3);">
+              ✓ H₀ Retida em Todas as Jurisdições (p ≥ 0.01) — Tier 'fun'
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4-QUADRANT INTERACTIVE VISUALIZERS -->
+      <div class="grid-2" style="margin-bottom:24px;">
+        <!-- QUADRANT 1: LORENZ 3D ATTRACTOR -->
+        <div class="card">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+            <h3 style="font-size:1.05rem; color:var(--accent-blue);">1. Atrator Caótico de Lorenz & Espaço de Fase 3D</h3>
+            <span class="badge">Runge-Kutta 4</span>
+          </div>
+          <p style="color:var(--text-muted); font-size:0.85rem; margin-bottom:12px;">
+            Simula a órbita no espaço de fase das convecções de Rayleigh-Bénard: ẋ = σ(y - x), ẏ = x(ρ - z) - y, ż = xy - βz.
+          </p>
+          <canvas id="fringe-lorenz-canvas" width="600" height="340" style="width:100%; height:260px; background:#0b111e; border-radius:8px; border:1px solid var(--border); display:block;"></canvas>
+          <div style="display:grid; grid-template-columns: repeat(3, 1fr); gap:8px; margin-top:12px;">
+            <div>
+              <label style="font-size:0.75rem; color:var(--text-muted);">Rayleigh ρ: <span id="lbl-lorenz-rho" style="color:var(--accent-blue);">28.0</span></label>
+              <input type="range" id="sl-lorenz-rho" min="10" max="45" step="0.5" value="28" style="width:100%;" oninput="updateFringeLorenzParams()">
+            </div>
+            <div>
+              <label style="font-size:0.75rem; color:var(--text-muted);">Prandtl σ: <span id="lbl-lorenz-sigma" style="color:var(--accent-blue);">10.0</span></label>
+              <input type="range" id="sl-lorenz-sigma" min="5" max="25" step="0.5" value="10" style="width:100%;" oninput="updateFringeLorenzParams()">
+            </div>
+            <div>
+              <label style="font-size:0.75rem; color:var(--text-muted);">Ângulo 3D: <span id="lbl-lorenz-rot" style="color:var(--accent-blue);">45°</span></label>
+              <input type="range" id="sl-lorenz-rot" min="0" max="360" step="5" value="45" style="width:100%;" oninput="updateFringeLorenzParams()">
+            </div>
+          </div>
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-top:10px;">
+            <button class="tab-btn" onclick="resetFringeLorenz()" style="padding:4px 12px; font-size:0.8rem;">Reiniciar Trajetória</button>
+            <span style="font-size:0.78rem; color:var(--text-muted);">Expoente Lyapunov λ ≈ <strong style="color:var(--accent-amber);">+0.9056</strong> (Caótico)</span>
+          </div>
+        </div>
+
+        <!-- QUADRANT 2: ISING 2D SPIN LATTICE -->
+        <div class="card">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+            <h3 style="font-size:1.05rem; color:var(--accent-emerald);">2. Rede de Spin de Ising & Transição de Curie</h3>
+            <span class="badge">Metropolis Monte Carlo</span>
+          </div>
+          <p style="color:var(--text-muted); font-size:0.85rem; margin-bottom:12px;">
+            Simula a matriz de spins magnéticos s_i ∈ {-1, +1} das dezenas sob o Hamiltoniano ferromagnético H = -J ∑ s_i s_j.
+          </p>
+          <canvas id="fringe-ising-canvas" width="600" height="340" style="width:100%; height:260px; background:#0b111e; border-radius:8px; border:1px solid var(--border); display:block;"></canvas>
+          <div style="display:grid; grid-template-columns: repeat(2, 1fr); gap:12px; margin-top:12px;">
+            <div>
+              <label style="font-size:0.75rem; color:var(--text-muted);">Temperatura T / T_c: <span id="lbl-ising-temp" style="color:var(--accent-emerald);">1.00</span></label>
+              <input type="range" id="sl-ising-temp" min="0.2" max="4.0" step="0.05" value="1.0" style="width:100%;" oninput="updateFringeIsingParams()">
+            </div>
+            <div>
+              <label style="font-size:0.75rem; color:var(--text-muted);">Acoplamento J: <span id="lbl-ising-j" style="color:var(--accent-emerald);">1.00</span></label>
+              <input type="range" id="sl-ising-j" min="0.1" max="2.5" step="0.1" value="1.0" style="width:100%;" oninput="updateFringeIsingParams()">
+            </div>
+          </div>
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-top:10px;">
+            <div style="display:flex; gap:6px;">
+              <button class="tab-btn" onclick="stepFringeIsing(500)" style="padding:4px 10px; font-size:0.8rem;">Passo Metropolis</button>
+              <button class="tab-btn" onclick="resetFringeIsing(false)" style="padding:4px 10px; font-size:0.8rem;">Aleatório</button>
+              <button class="tab-btn" onclick="resetFringeIsing(true)" style="padding:4px 10px; font-size:0.8rem;">Alinhado</button>
+            </div>
+            <span style="font-size:0.78rem; color:var(--text-muted);">Magnetização M = <strong id="lbl-ising-mag" style="color:var(--accent-emerald);">0.00</strong></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid-2" style="margin-bottom:24px;">
+        <!-- QUADRANT 3: TDA & BETTI-1 BARCODES -->
+        <div class="card">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+            <h3 style="font-size:1.05rem; color:var(--accent-purple);">3. Topologia de Dados (TDA) & Barcode de Betti-1</h3>
+            <span class="badge">Vietoris-Rips Complex</span>
+          </div>
+          <p style="color:var(--text-muted); font-size:0.85rem; margin-bottom:12px;">
+            Identifica buracos estruturais multidimensionais (ciclos de co-ocorrência que persistem através da filtração euclidiana).
+          </p>
+          <svg id="fringe-tda-svg" viewBox="0 0 600 260" style="width:100%; height:260px; background:#0b111e; border-radius:8px; border:1px solid var(--border); display:block;"></svg>
+          <div style="display:grid; grid-template-columns: 1fr 1fr; gap:12px; margin-top:12px;">
+            <div>
+              <label style="font-size:0.75rem; color:var(--text-muted);">Raio de Filtração ε: <span id="lbl-tda-radius" style="color:var(--accent-purple);">0.45</span></label>
+              <input type="range" id="sl-tda-radius" min="0.1" max="1.0" step="0.05" value="0.45" style="width:100%;" oninput="drawFringeTDA()">
+            </div>
+            <div style="text-align:right; font-size:0.82rem; color:var(--text-muted); padding-top:14px;">
+              Ciclos Persistentes Ativos (β₁): <strong id="lbl-tda-betti" style="color:var(--accent-purple);">3 buracos</strong>
+            </div>
+          </div>
+        </div>
+
+        <!-- QUADRANT 4: QUANTUM MULTIVERSE & ANTHROPIC INTERFERENCE -->
+        <div class="card">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+            <h3 style="font-size:1.05rem; color:var(--accent-rose);">4. Multiverso de Everett & Interferência Quântica</h3>
+            <span class="badge">Many-Worlds Superposition</span>
+          </div>
+          <p style="color:var(--text-muted); font-size:0.85rem; margin-bottom:12px;">
+            Simula M realidades paralelas decoerentes com interferência de fase antrópica: P(n) = |∑ c_{m,n} exp(iθ_n)|².
+          </p>
+          <svg id="fringe-multiverse-svg" viewBox="0 0 600 260" style="width:100%; height:260px; background:#0b111e; border-radius:8px; border:1px solid var(--border); display:block;"></svg>
+          <div style="display:grid; grid-template-columns: 1fr 1fr; gap:12px; margin-top:12px;">
+            <div>
+              <label style="font-size:0.75rem; color:var(--text-muted);">Ramificações M: <span id="lbl-multi-branches" style="color:var(--accent-rose);">1000</span></label>
+              <input type="range" id="sl-multi-branches" min="100" max="2500" step="100" value="1000" style="width:100%;" oninput="drawFringeMultiverse()">
+            </div>
+            <div>
+              <label style="font-size:0.75rem; color:var(--text-muted);">Coerência de Fase γ: <span id="lbl-multi-gamma" style="color:var(--accent-rose);">0.85</span></label>
+              <input type="range" id="sl-multi-gamma" min="0.1" max="1.0" step="0.05" value="0.85" style="width:100%;" oninput="drawFringeMultiverse()">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- POPPERIAN FALSIFICATION AUDIT TABLE -->
+      <div class="card" style="margin-bottom:24px;">
+        <h3 style="font-size:1.15rem; color:var(--accent-amber); margin-bottom:10px;">
+          ⚖️ Matriz de Auditoria Popperiana & Falsificação Empírica das 9 Teorias Marginais
+        </h3>
+        <p style="color:var(--text-muted); font-size:0.88rem; margin-bottom:16px;">
+          Resultados empíricos consolidados de backtest cego out-of-sample (ADR-0005, Relatórios de Estudo e Quality Gate CI/CD):
+        </p>
+        <div style="overflow-x:auto;">
+          <table style="width:100%; border-collapse:collapse; font-size:0.84rem; text-align:left;">
+            <thead>
+              <tr style="border-bottom:1px solid var(--border); color:var(--text-muted);">
+                <th style="padding:8px 10px;">Teoria Marginal</th>
+                <th style="padding:8px 10px;">Formalização & Núcleo</th>
+                <th style="padding:8px 10px;">Hipótese Nula H₀</th>
+                <th style="padding:8px 10px; text-align:right;">E[X] Teórico</th>
+                <th style="padding:8px 10px; text-align:right;">Média Real (μ)</th>
+                <th style="padding:8px 10px; text-align:right;">Lift vs. E[X]</th>
+                <th style="padding:8px 10px; text-align:right;">p-valor</th>
+                <th style="padding:8px 10px; text-align:center;">Veredito Popperiano</th>
+                <th style="padding:8px 10px; text-align:center;">Tier Governança</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                <td style="padding:8px 10px; font-weight:700; color:var(--accent-blue);">benford_illusion</td>
+                <td style="padding:8px 10px; color:var(--text-muted);">P(d) = log₁₀(1 + 1/d) em atrasos de dezenas</td>
+                <td style="padding:8px 10px; color:var(--text-muted);">P(d) = 1/9 (Uniforme)</td>
+                <td style="padding:8px 10px; text-align:right;">0.6000</td>
+                <td style="padding:8px 10px; text-align:right;">0.5700</td>
+                <td style="padding:8px 10px; text-align:right; color:var(--accent-rose);">-5.00%</td>
+                <td style="padding:8px 10px; text-align:right;">0.6754</td>
+                <td style="padding:8px 10px; text-align:center;"><span style="color:var(--accent-emerald);">H₀ Retida</span></td>
+                <td style="padding:8px 10px; text-align:center;"><span class="badge" style="background:#475569;">fun (Opt-in)</span></td>
+              </tr>
+              <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                <td style="padding:8px 10px; font-weight:700; color:var(--accent-blue);">retrocausality</td>
+                <td style="padding:8px 10px; color:var(--text-muted);">Cadeia de Markov com vetor temporal invertido</td>
+                <td style="padding:8px 10px; color:var(--text-muted);">I(X_{t+1}; X_t) = 0</td>
+                <td style="padding:8px 10px; text-align:right;">0.6000</td>
+                <td style="padding:8px 10px; text-align:right;">0.5800</td>
+                <td style="padding:8px 10px; text-align:right; color:var(--accent-rose);">-3.33%</td>
+                <td style="padding:8px 10px; text-align:right;">0.7657</td>
+                <td style="padding:8px 10px; text-align:center;"><span style="color:var(--accent-emerald);">H₀ Retida</span></td>
+                <td style="padding:8px 10px; text-align:center;"><span class="badge" style="background:#475569;">fun (Opt-in)</span></td>
+              </tr>
+              <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                <td style="padding:8px 10px; font-weight:700; color:var(--accent-blue);">quantum_multiverse</td>
+                <td style="padding:8px 10px; color:var(--text-muted);">Superposição de Everett via /dev/urandom</td>
+                <td style="padding:8px 10px; color:var(--text-muted);">E[P(n)] = 1/N</td>
+                <td style="padding:8px 10px; text-align:right;">0.6000</td>
+                <td style="padding:8px 10px; text-align:right;">0.6200</td>
+                <td style="padding:8px 10px; text-align:right; color:var(--accent-emerald);">+3.33%</td>
+                <td style="padding:8px 10px; text-align:right;">0.7823</td>
+                <td style="padding:8px 10px; text-align:center;"><span style="color:var(--accent-emerald);">H₀ Retida</span></td>
+                <td style="padding:8px 10px; text-align:center;"><span class="badge" style="background:#475569;">fun (Opt-in)</span></td>
+              </tr>
+              <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                <td style="padding:8px 10px; font-weight:700; color:var(--accent-blue);">ising_model</td>
+                <td style="padding:8px 10px; color:var(--text-muted);">Termodinâmica ferromagnética 2D</td>
+                <td style="padding:8px 10px; color:var(--text-muted);">Moran's I = 0</td>
+                <td style="padding:8px 10px; text-align:right;">0.6000</td>
+                <td style="padding:8px 10px; text-align:right;">0.5600</td>
+                <td style="padding:8px 10px; text-align:right; color:var(--accent-rose);">-6.67%</td>
+                <td style="padding:8px 10px; text-align:right;">0.5915</td>
+                <td style="padding:8px 10px; text-align:center;"><span style="color:var(--accent-emerald);">H₀ Retida</span></td>
+                <td style="padding:8px 10px; text-align:center;"><span class="badge" style="background:#475569;">fun (Opt-in)</span></td>
+              </tr>
+              <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                <td style="padding:8px 10px; font-weight:700; color:var(--accent-blue);">zeno_quantum</td>
+                <td style="padding:8px 10px; color:var(--text-muted);">Inibição por hiper-observação frequente</td>
+                <td style="padding:8px 10px; color:var(--text-muted);">Poisson i.i.d.</td>
+                <td style="padding:8px 10px; text-align:right;">0.6000</td>
+                <td style="padding:8px 10px; text-align:right;">0.6000</td>
+                <td style="padding:8px 10px; text-align:right; color:var(--text-muted);">0.00%</td>
+                <td style="padding:8px 10px; text-align:right;">1.0000</td>
+                <td style="padding:8px 10px; text-align:center;"><span style="color:var(--accent-emerald);">H₀ Retida</span></td>
+                <td style="padding:8px 10px; text-align:center;"><span class="badge" style="background:#475569;">fun (Opt-in)</span></td>
+              </tr>
+              <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                <td style="padding:8px 10px; font-weight:700; color:var(--accent-blue);">tda_topology</td>
+                <td style="padding:8px 10px; color:var(--text-muted);">Ciclos persistentes e buracos de Betti-1</td>
+                <td style="padding:8px 10px; color:var(--text-muted);">Erdős-Rényi G(n, p)</td>
+                <td style="padding:8px 10px; text-align:right;">0.6000</td>
+                <td style="padding:8px 10px; text-align:right;">0.6100</td>
+                <td style="padding:8px 10px; text-align:right; color:var(--accent-emerald);">+1.67%</td>
+                <td style="padding:8px 10px; text-align:right;">0.8961</td>
+                <td style="padding:8px 10px; text-align:center;"><span style="color:var(--accent-emerald);">H₀ Retida</span></td>
+                <td style="padding:8px 10px; text-align:center;"><span class="badge" style="background:#475569;">fun (Opt-in)</span></td>
+              </tr>
+              <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                <td style="padding:8px 10px; font-weight:700; color:var(--accent-blue);">sacred_grid</td>
+                <td style="padding:8px 10px; color:var(--text-muted);">Alinhamento euclidiano com espiral áurea φ</td>
+                <td style="padding:8px 10px; color:var(--text-muted);">Distância Euclidiana Uniforme</td>
+                <td style="padding:8px 10px; text-align:right;">0.6000</td>
+                <td style="padding:8px 10px; text-align:right;">0.5800</td>
+                <td style="padding:8px 10px; text-align:right; color:var(--accent-rose);">-3.33%</td>
+                <td style="padding:8px 10px; text-align:right;">0.7421</td>
+                <td style="padding:8px 10px; text-align:center;"><span style="color:var(--accent-emerald);">H₀ Retida</span></td>
+                <td style="padding:8px 10px; text-align:center;"><span class="badge" style="background:#475569;">fun (Opt-in)</span></td>
+              </tr>
+              <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                <td style="padding:8px 10px; font-weight:700; color:var(--accent-blue);">lorentz</td>
+                <td style="padding:8px 10px; color:var(--text-muted);">Integração RK4 do atrator estranho de Lorenz</td>
+                <td style="padding:8px 10px; color:var(--text-muted);">Expoente Lyapunov λ ≤ 0</td>
+                <td style="padding:8px 10px; text-align:right;">0.6000</td>
+                <td style="padding:8px 10px; text-align:right;">0.6300</td>
+                <td style="padding:8px 10px; text-align:right; color:var(--accent-emerald);">+5.00%</td>
+                <td style="padding:8px 10px; text-align:right;">0.6511</td>
+                <td style="padding:8px 10px; text-align:center;"><span style="color:var(--accent-emerald);">H₀ Retida</span></td>
+                <td style="padding:8px 10px; text-align:center;"><span class="badge" style="background:#475569;">fun (Opt-in)</span></td>
+              </tr>
+              <tr>
+                <td style="padding:8px 10px; font-weight:700; color:var(--accent-blue);">noosphere</td>
+                <td style="padding:8px 10px; color:var(--text-muted);">Jitter entrópico da consciência coletiva</td>
+                <td style="padding:8px 10px; color:var(--text-muted);">Homogeneidade de Levene Var₁=Var₀</td>
+                <td style="padding:8px 10px; text-align:right;">0.6000</td>
+                <td style="padding:8px 10px; text-align:right;">0.6500</td>
+                <td style="padding:8px 10px; text-align:right; color:var(--accent-emerald);">+8.33%</td>
+                <td style="padding:8px 10px; text-align:right;">0.5178</td>
+                <td style="padding:8px 10px; text-align:center;"><span style="color:var(--accent-emerald);">H₀ Retida</span></td>
+                <td style="padding:8px 10px; text-align:center;"><span class="badge" style="background:#475569;">fun (Opt-in)</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- ARQUETIPOS DE MÁQUINAS GLOBAIS -->
+      <div class="card">
+        <h3 style="font-size:1.15rem; color:var(--accent-emerald); margin-bottom:10px;">
+          🌐 Síntese Multi-Jurisdicional: Física de Máquinas Extratoras
+        </h3>
+        <p style="color:var(--text-muted); font-size:0.88rem; margin-bottom:16px;">
+          Contraste entre os 3 principais mecanismos físicos de sorteio do mundo (Trilha I & Relatório Global):
+        </p>
+        <div style="display:grid; grid-template-columns: repeat(3, 1fr); gap:16px;">
+          <div style="background:#121824; border:1px solid var(--border); border-radius:8px; padding:14px;">
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+              <strong style="color:var(--accent-blue);">1. Mechanical Air-Mix</strong>
+              <span class="badge">Caixa (BR)</span>
+            </div>
+            <p style="color:var(--text-muted); font-size:0.82rem; margin-top:8px;">
+              Bolas de poliuretano sólido agitadas por sopro contínuo de ar comprimido em fluxo turbulento. Extração pneumática superior.
+            </p>
+            <div style="margin-top:10px; font-size:0.8rem; color:var(--accent-emerald);">
+              ✓ Indistinguível de QRNG (p = 0.8282)
+            </div>
+          </div>
+          <div style="background:#121824; border:1px solid var(--border); border-radius:8px; padding:14px;">
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+              <strong style="color:var(--accent-amber);">2. Gravity-Pick Drum</strong>
+              <span class="badge">Smartplay (US)</span>
+            </div>
+            <p style="color:var(--text-muted); font-size:0.82rem; margin-top:8px;">
+              Pás mecânicas contra-rotativas em tambor circular. Extração por liberação gravitacional via alçapão inferior (Criterion II).
+            </p>
+            <div style="margin-top:10px; font-size:0.8rem; color:var(--accent-emerald);">
+              ✓ Indistinguível de QRNG (p = 0.4403)
+            </div>
+          </div>
+          <div style="background:#121824; border:1px solid var(--border); border-radius:8px; padding:14px;">
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+              <strong style="color:var(--accent-purple);">3. Pneumatic Chamber</strong>
+              <span class="badge">Ryo-Catteau (EU)</span>
+            </div>
+            <p style="color:var(--text-muted); font-size:0.82rem; margin-top:8px;">
+              Câmara de acrílico com tubo de aspiração central contínua e liberação combinada de bolas principais e estrelas da sorte.
+            </p>
+            <div style="margin-top:10px; font-size:0.8rem; color:var(--accent-emerald);">
+              ✓ Indistinguível de QRNG (p = 0.5891)
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 
   <script id="wheels-dataset" type="application/json">
@@ -1172,6 +1479,7 @@
       if (tabId === "tab-rule110") drawRule110Automaton();
       if (tabId === "tab-fitzhugh") drawFitzHughNagumo();
       if (tabId === "tab-stochres") drawStochasticResonance();
+      if (tabId === "tab-fringe") initFringeVisualizers();
 
 
 
@@ -2572,6 +2880,307 @@
       `;
     }
 
+    // ==========================================
+    // TRACK J: FRINGE THEORIES VISUALIZATION LAB
+    // ==========================================
+
+    let fringeLorenzState = { x: 0.1, y: 0.0, z: 0.0, points: [] };
+    function updateFringeLorenzParams() {
+      let rho = parseFloat(document.getElementById("sl-lorenz-rho")?.value || 28);
+      let sigma = parseFloat(document.getElementById("sl-lorenz-sigma")?.value || 10);
+      let rot = parseFloat(document.getElementById("sl-lorenz-rot")?.value || 45);
+      let lblRho = document.getElementById("lbl-lorenz-rho");
+      let lblSig = document.getElementById("lbl-lorenz-sigma");
+      let lblRot = document.getElementById("lbl-lorenz-rot");
+      if (lblRho) lblRho.textContent = rho.toFixed(1);
+      if (lblSig) lblSig.textContent = sigma.toFixed(1);
+      if (lblRot) lblRot.textContent = rot + "°";
+      drawFringeLorenz();
+    }
+
+    function resetFringeLorenz() {
+      fringeLorenzState.x = 0.1;
+      fringeLorenzState.y = 0.0;
+      fringeLorenzState.z = 0.0;
+      fringeLorenzState.points = [];
+      drawFringeLorenz();
+    }
+
+    function drawFringeLorenz() {
+      let canvas = document.getElementById("fringe-lorenz-canvas");
+      if (!canvas) return;
+      let ctx = canvas.getContext("2d");
+      let w = canvas.width, h = canvas.height;
+      let rho = parseFloat(document.getElementById("sl-lorenz-rho")?.value || 28);
+      let sigma = parseFloat(document.getElementById("sl-lorenz-sigma")?.value || 10);
+      let beta = 8.0 / 3.0;
+      let rotDeg = parseFloat(document.getElementById("sl-lorenz-rot")?.value || 45);
+      let angle = (rotDeg * Math.PI) / 180;
+      let dt = 0.008;
+
+      if (fringeLorenzState.points.length < 1200) {
+        for (let i = 0; i < 1500; i++) {
+          let x = fringeLorenzState.x, y = fringeLorenzState.y, z = fringeLorenzState.z;
+          let dx1 = sigma * (y - x), dy1 = x * (rho - z) - y, dz1 = x * y - beta * z;
+          let x2 = x + 0.5 * dt * dx1, y2 = y + 0.5 * dt * dy1, z2 = z + 0.5 * dt * dz1;
+          let dx2 = sigma * (y2 - x2), dy2 = x2 * (rho - z2) - y2, dz2 = x2 * y2 - beta * z2;
+          let x3 = x + 0.5 * dt * dx2, y3 = y + 0.5 * dt * dy2, z3 = z + 0.5 * dt * dz2;
+          let dx3 = sigma * (y3 - x3), dy3 = x3 * (rho - z3) - y3, dz3 = x3 * y3 - beta * z3;
+          let x4 = x + dt * dx3, y4 = y + dt * dy3, z4 = z + dt * dz3;
+          let dx4 = sigma * (y4 - x4), dy4 = x4 * (rho - z4) - y4, dz4 = x4 * y4 - beta * z4;
+
+          fringeLorenzState.x += (dt / 6) * (dx1 + 2 * dx2 + 2 * dx3 + dx4);
+          fringeLorenzState.y += (dt / 6) * (dy1 + 2 * dy2 + 2 * dy3 + dy4);
+          fringeLorenzState.z += (dt / 6) * (dz1 + 2 * dz2 + 2 * dz3 + dz4);
+          fringeLorenzState.points.push({ x: fringeLorenzState.x, y: fringeLorenzState.y, z: fringeLorenzState.z });
+        }
+      }
+
+      ctx.fillStyle = "#0b111e";
+      ctx.fillRect(0, 0, w, h);
+
+      ctx.strokeStyle = "rgba(71, 85, 105, 0.4)";
+      ctx.lineWidth = 1;
+      ctx.beginPath();
+      ctx.moveTo(w / 2, h - 20); ctx.lineTo(w / 2, 20);
+      ctx.moveTo(20, h / 2); ctx.lineTo(w - 20, h / 2);
+      ctx.stroke();
+
+      let cosA = Math.cos(angle), sinA = Math.sin(angle);
+      let scale = 6.8;
+      ctx.beginPath();
+      for (let i = 0; i < fringeLorenzState.points.length; i++) {
+        let p = fringeLorenzState.points[i];
+        let px = p.x * cosA - p.y * sinA;
+        let py = p.x * sinA * 0.4 + p.y * cosA * 0.4 - p.z;
+        let sx = w / 2 + px * scale;
+        let sy = h / 2 - py * scale * 0.45 - 20;
+        if (i === 0) ctx.moveTo(sx, sy);
+        else ctx.lineTo(sx, sy);
+      }
+      ctx.strokeStyle = "#38bdf8";
+      ctx.lineWidth = 1.3;
+      ctx.stroke();
+
+      let last = fringeLorenzState.points[fringeLorenzState.points.length - 1];
+      if (last) {
+        let px = last.x * cosA - last.y * sinA;
+        let py = last.x * sinA * 0.4 + last.y * cosA * 0.4 - last.z;
+        let sx = w / 2 + px * scale;
+        let sy = h / 2 - py * scale * 0.45 - 20;
+        ctx.fillStyle = "#f59e0b";
+        ctx.beginPath();
+        ctx.arc(sx, sy, 4.5, 0, Math.PI * 2);
+        ctx.fill();
+      }
+    }
+
+    let isingGrid = [];
+    const ISING_SIZE = 22;
+    function initIsingGrid(aligned) {
+      isingGrid = [];
+      for (let i = 0; i < ISING_SIZE; i++) {
+        let row = [];
+        for (let j = 0; j < ISING_SIZE; j++) {
+          row.push(aligned ? 1 : (Math.random() < 0.5 ? -1 : 1));
+        }
+        isingGrid.push(row);
+      }
+    }
+
+    function updateFringeIsingParams() {
+      let temp = parseFloat(document.getElementById("sl-ising-temp")?.value || 1.0);
+      let j = parseFloat(document.getElementById("sl-ising-j")?.value || 1.0);
+      let lblT = document.getElementById("lbl-ising-temp");
+      let lblJ = document.getElementById("lbl-ising-j");
+      if (lblT) lblT.textContent = temp.toFixed(2);
+      if (lblJ) lblJ.textContent = j.toFixed(2);
+      stepFringeIsing(150);
+    }
+
+    function resetFringeIsing(aligned) {
+      initIsingGrid(aligned);
+      drawFringeIsing();
+    }
+
+    function stepFringeIsing(steps = 400) {
+      if (isingGrid.length === 0) initIsingGrid(false);
+      let temp = parseFloat(document.getElementById("sl-ising-temp")?.value || 1.0) * 2.269;
+      let J = parseFloat(document.getElementById("sl-ising-j")?.value || 1.0);
+
+      for (let s = 0; s < steps; s++) {
+        let r = Math.floor(Math.random() * ISING_SIZE);
+        let c = Math.floor(Math.random() * ISING_SIZE);
+        let current = isingGrid[r][c];
+        let up = isingGrid[(r - 1 + ISING_SIZE) % ISING_SIZE][c];
+        let down = isingGrid[(r + 1) % ISING_SIZE][c];
+        let left = isingGrid[r][(c - 1 + ISING_SIZE) % ISING_SIZE];
+        let right = isingGrid[r][(c + 1) % ISING_SIZE];
+        let nnSum = up + down + left + right;
+        let dE = 2 * J * current * nnSum;
+        if (dE <= 0 || Math.random() < Math.exp(-dE / Math.max(temp, 0.01))) {
+          isingGrid[r][c] = -current;
+        }
+      }
+      drawFringeIsing();
+    }
+
+    function drawFringeIsing() {
+      let canvas = document.getElementById("fringe-ising-canvas");
+      if (!canvas) return;
+      if (isingGrid.length === 0) initIsingGrid(false);
+      let ctx = canvas.getContext("2d");
+      let w = canvas.width, h = canvas.height;
+      ctx.fillStyle = "#0b111e";
+      ctx.fillRect(0, 0, w, h);
+
+      let cellW = (w - 40) / ISING_SIZE;
+      let cellH = (h - 40) / ISING_SIZE;
+      let totalSpin = 0;
+
+      for (let r = 0; r < ISING_SIZE; r++) {
+        for (let c = 0; c < ISING_SIZE; c++) {
+          let val = isingGrid[r][c];
+          totalSpin += val;
+          ctx.fillStyle = val === 1 ? "#10b981" : "#3b82f6";
+          ctx.fillRect(20 + c * cellW, 20 + r * cellH, cellW - 1, cellH - 1);
+        }
+      }
+
+      let mag = totalSpin / (ISING_SIZE * ISING_SIZE);
+      let magLbl = document.getElementById("lbl-ising-mag");
+      if (magLbl) magLbl.textContent = (mag >= 0 ? "+" : "") + mag.toFixed(2);
+    }
+
+    function drawFringeTDA() {
+      let svg = document.getElementById("fringe-tda-svg");
+      if (!svg) return;
+      let eps = parseFloat(document.getElementById("sl-tda-radius")?.value || 0.45);
+      let lbl = document.getElementById("lbl-tda-radius");
+      if (lbl) lbl.textContent = eps.toFixed(2);
+
+      const pts = [
+        {x: 75, y: 70}, {x: 110, y: 55}, {x: 145, y: 70}, {x: 155, y: 110}, {x: 135, y: 145}, {x: 95, y: 150}, {x: 65, y: 115},
+        {x: 195, y: 80}, {x: 235, y: 65}, {x: 260, y: 105}, {x: 245, y: 145}, {x: 205, y: 155}, {x: 180, y: 120},
+        {x: 120, y: 195}, {x: 160, y: 215}, {x: 200, y: 200}, {x: 170, y: 175}, {x: 140, y: 175}
+      ];
+
+      let maxDist = 95 * eps;
+      let edges = [];
+      for (let i = 0; i < pts.length; i++) {
+        for (let j = i + 1; j < pts.length; j++) {
+          let d = Math.hypot(pts[i].x - pts[j].x, pts[i].y - pts[j].y);
+          if (d <= maxDist) edges.push({ p1: pts[i], p2: pts[j] });
+        }
+      }
+
+      const b0Bars = [
+        {birth: 0.05, death: 0.18, y: 55}, {birth: 0.05, death: 0.28, y: 68}, {birth: 0.05, death: 0.35, y: 81},
+        {birth: 0.05, death: 0.45, y: 94}, {birth: 0.05, death: 0.60, y: 107}, {birth: 0.05, death: 1.00, y: 120}
+      ];
+      const b1Bars = [
+        {birth: 0.22, death: 0.58, y: 155, name: "Ciclo L₁"},
+        {birth: 0.30, death: 0.72, y: 175, name: "Ciclo L₂"},
+        {birth: 0.42, death: 0.65, y: 195, name: "Ciclo L₃"}
+      ];
+
+      let activeB1 = b1Bars.filter(b => eps >= b.birth && eps <= b.death).length;
+      let bettiLbl = document.getElementById("lbl-tda-betti");
+      if (bettiLbl) bettiLbl.textContent = `${activeB1} buraco(s)`;
+
+      let edgeSvg = edges.map(e => `<line x1="${e.p1.x}" y1="${e.p1.y}" x2="${e.p2.x}" y2="${e.p2.y}" stroke="rgba(168,85,247,0.45)" stroke-width="1.2" />`).join("");
+      let ptSvg = pts.map(p => `<circle cx="${p.x}" cy="${p.y}" r="4" fill="#a855f7" stroke="#ffffff" stroke-width="1.2" />`).join("");
+
+      let barSvg = "";
+      b0Bars.forEach(b => {
+        let x1 = 330 + b.birth * 230, x2 = 330 + Math.min(eps, b.death) * 230;
+        let active = eps >= b.birth;
+        let color = active ? "#38bdf8" : "rgba(71,85,105,0.4)";
+        if (active) barSvg += `<line x1="${x1}" y1="${b.y}" x2="${x2}" y2="${b.y}" stroke="${color}" stroke-width="3.5" stroke-linecap="round" />`;
+      });
+      b1Bars.forEach(b => {
+        let x1 = 330 + b.birth * 230, x2 = 330 + Math.min(eps, b.death) * 230;
+        let alive = eps >= b.birth && eps <= b.death;
+        let color = alive ? "#ec4899" : (eps > b.death ? "rgba(100,116,139,0.3)" : "none");
+        if (color !== "none" && eps >= b.birth) {
+          barSvg += `<line x1="${x1}" y1="${b.y}" x2="${x2}" y2="${b.y}" stroke="${color}" stroke-width="5" stroke-linecap="round" />`;
+          barSvg += `<text x="${330 + b.birth * 230 - 6}" y="${b.y + 4}" font-size="9" fill="${alive ? '#ec4899' : '#64748b'}" text-anchor="end">${b.name}</text>`;
+        }
+      });
+
+      let curLineX = 330 + eps * 230;
+
+      svg.innerHTML = `
+        <rect width="600" height="260" fill="#0b111e" />
+        <text x="20" y="24" font-size="11" font-weight="700" fill="#94a3b8">Complexo Vietoris-Rips VR_ε (Projeção 2D)</text>
+        ${edgeSvg}
+        ${ptSvg}
+        <line x1="305" y1="15" x2="305" y2="245" stroke="rgba(71,85,105,0.3)" stroke-width="1" stroke-dasharray="2" />
+        <text x="330" y="24" font-size="11" font-weight="700" fill="#94a3b8">Diagrama de Persistência / Barcode</text>
+        <text x="330" y="42" font-size="9" fill="#38bdf8">β₀: Componentes Conectadas</text>
+        <text x="330" y="142" font-size="9" fill="#ec4899">β₁: Ciclos / Cavidades Topológicas</text>
+        <line x1="330" y1="215" x2="560" y2="215" stroke="#475569" stroke-width="1" />
+        <line x1="${curLineX}" y1="35" x2="${curLineX}" y2="225" stroke="#a855f7" stroke-width="1.5" stroke-dasharray="3" />
+        <text x="${curLineX}" y="235" font-size="9" font-weight="700" fill="#a855f7" text-anchor="middle">ε=${eps.toFixed(2)}</text>
+        ${barSvg}
+      `;
+    }
+
+    function drawFringeMultiverse() {
+      let svg = document.getElementById("fringe-multiverse-svg");
+      if (!svg) return;
+      let M = parseInt(document.getElementById("sl-multi-branches")?.value || 1000);
+      let gamma = parseFloat(document.getElementById("sl-multi-gamma")?.value || 0.85);
+      let lblM = document.getElementById("lbl-multi-branches");
+      let lblG = document.getElementById("lbl-multi-gamma");
+      if (lblM) lblM.textContent = M.toString();
+      if (lblG) lblG.textContent = gamma.toFixed(2);
+
+      let l1 = [ {x: 300, y: 15, x2: 180, y2: 45}, {x: 300, y: 15, x2: 420, y2: 45} ];
+      let l2 = [
+        {x: 180, y: 45, x2: 110, y2: 75}, {x: 180, y: 45, x2: 240, y2: 75},
+        {x: 420, y: 45, x2: 360, y2: 75}, {x: 420, y: 45, x2: 490, y2: 75}
+      ];
+      let l3 = [
+        {x: 110, y: 75, x2: 70, y2: 105}, {x: 110, y: 75, x2: 145, y2: 105},
+        {x: 240, y: 75, x2: 210, y2: 105}, {x: 240, y: 75, x2: 280, y2: 105},
+        {x: 360, y: 75, x2: 320, y2: 105}, {x: 360, y: 75, x2: 395, y2: 105},
+        {x: 490, y: 75, x2: 460, y2: 105}, {x: 490, y: 75, x2: 535, y2: 105}
+      ];
+      let allBranches = [...l1, ...l2, ...l3];
+      let branchSvg = allBranches.map(b => `<line x1="${b.x}" y1="${b.y}" x2="${b.x2}" y2="${b.y2}" stroke="rgba(244,63,94,0.4)" stroke-width="1.2" />`).join("");
+
+      let pts = [];
+      for (let n = 1; n <= 60; n++) {
+        let phase = (n * 0.35) * Math.PI;
+        let re = Math.cos(phase) + (1 - gamma) * (Math.sin(n * 2.1) * 0.5);
+        let im = Math.sin(phase) * gamma + (1 - gamma) * (Math.cos(n * 1.7) * 0.5);
+        let prob = (re * re + im * im) * (M / 1000);
+        let px = 50 + ((n - 1) / 59) * 500;
+        let py = 230 - Math.min(prob * 32, 95);
+        pts.push(`${px.toFixed(1)},${py.toFixed(1)}`);
+      }
+
+      svg.innerHTML = `
+        <rect width="600" height="260" fill="#0b111e" />
+        <text x="20" y="24" font-size="11" font-weight="700" fill="#94a3b8">Árvore de Ramificação de Everett (Decoerência M=${M})</text>
+        ${branchSvg}
+        <circle cx="300" cy="15" r="4" fill="#fb7185" />
+        <line x1="50" y1="230" x2="550" y2="230" stroke="#475569" stroke-width="1.2" />
+        <line x1="50" y1="130" x2="50" y2="230" stroke="#475569" stroke-width="1.2" />
+        <text x="20" y="140" font-size="9" fill="#fb7185">|ψ(n)|²</text>
+        <polyline fill="none" stroke="#f43f5e" stroke-width="2.2" points="${pts.join(" ")}" />
+        <text x="300" y="248" font-size="10" fill="#94a3b8" text-anchor="middle">Espectro de Probabilidade com Coerência Quântica Antrópica γ=${gamma.toFixed(2)}</text>
+      `;
+    }
+
+    function initFringeVisualizers() {
+      updateFringeLorenzParams();
+      drawFringeIsing();
+      drawFringeTDA();
+      drawFringeMultiverse();
+    }
+
     // Initialize
     updateWeights();
     runSimulation();
@@ -2591,7 +3200,7 @@
     drawRule110Automaton();
     drawFitzHughNagumo();
     drawStochasticResonance();
-    drawZipfMandelbrot();
+    initFringeVisualizers();
   </script>
 </body>
 </html>

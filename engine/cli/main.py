@@ -134,7 +134,7 @@ def _get_help_panel() -> Panel:
             "number-timeline", "momentum-check", "gap-forecast", "pair-analysis", "draw-summary", 
             "history-scan", "pool-stats", "rank-numbers", "streak-report", "leaderboard", "fractal-scan", "sync-check",
             "report-elite", "spectral-3d", "hyper-explorer", "synergy-graph", "space-weather", "global-bench",
-            "fringe-inspect", "synthetic-bench", "popper-check", "entropy-bench", "global-fringe-bench"
+            "fringe-inspect", "synthetic-bench", "popper-check", "entropy-bench", "global-fringe-bench", "lab"
             ]),
         make_cat_section(PANEL_BETTING, [
             "wheel", "genetic-wheel", "portfolio", "global-portfolio", "hedge", "auto-hedge", "multi-ticket", "prize-ev", "quick", "next", "forecast", "picks", 
@@ -1078,6 +1078,16 @@ def global_fringe_bench_cmd(
     """🌐 Benchmark fringe theories across global lotteries and machine archetypes."""
     from engine.cli.commands.global_fringe_bench import global_fringe_bench as impl
     return impl(lotteries, draws, seed, export_md, quiet)
+
+@app.command(name="lab", rich_help_panel=PANEL_ANALYTICS)
+def lab_cmd(
+    tab: Annotated[str, typer.Option("--tab", "-t", help="Initial tab to focus: fringe | orbital | wheels | followers | kuramoto | poincare | rmt")] = "fringe",
+    no_browser: Annotated[bool, typer.Option("--no-browser", "-n", help="Do not launch system web browser automatically; print local path only")] = False,
+    host: Annotated[bool, typer.Option("--host", help="Print instructions for local HTTP hosting")] = False,
+) -> None:
+    """🔬 Launch the interactive offline Web Synthesis & Fringe Theories Laboratory."""
+    from engine.cli.commands.lab import lab as impl
+    return impl(tab, no_browser, host)
 
 @app.command(name="cluster-walk", rich_help_panel=PANEL_ANALYTICS)
 def cluster_walk(
