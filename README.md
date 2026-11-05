@@ -277,6 +277,33 @@ Every filter in the 5-tier catalog (109 total filters) can be inspected in the t
 
 ---
 
+## 📦 Download & Instalação Rápida (Sem Código Fonte)
+
+Para usar a aplicação diretamente **sem precisar clonar o repositório ou instalar Python**:
+
+### 1. Aplicativo Desktop (Standalone GUI)
+Baixe o executável pronto para o seu sistema operacional na página oficial de **[GitHub Releases](https://github.com/OAL-Logic/prediction-engine-lottery/releases)**:
+
+| Sistema Operacional | Pacote de Download | Como Usar |
+|---|---|---|
+| **Windows** | `p4lottery-windows.zip` | Descompacte e clique duas vezes em `p4lottery.exe` |
+| **Linux** | `p4lottery-linux.zip` | Descompacte e execute `./p4lottery` no terminal |
+| **macOS** | `p4lottery-macos.zip` | Descompacte e abra o `p4lottery.app` |
+
+*Os binários incluem todos os módulos do motor preditivo, banco de dados DuckDB local e interface gráfica PySide6 integrados.*
+
+### 2. Pacote CLI Python (`p4lottery`)
+Se preferir usar o terminal sem puxar o código fonte, instale diretamente via pipx/pip:
+```bash
+# Via pipx (ambiente isolado recomendado):
+pipx install https://github.com/OAL-Logic/prediction-engine-lottery/releases/latest/download/lottery_engine-0.0.1-py3-none-any.whl
+
+# Ou via pip padrão:
+pip install lottery-engine
+```
+
+---
+
 ## 🚀 Quick Start
 
 Use the unified executable launcher [`./p4lottery`](./p4lottery) (or [`./lottery`](./lottery)):

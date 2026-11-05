@@ -4,7 +4,7 @@
 # at minimum, `.[all]` for every strategy tier the desktop app can invoke):
 #   pyinstaller packaging/lottery-desktop.spec --distpath dist --workpath build --noconfirm
 #
-# Produces a --onedir build (dist/ProphetDashboard/) rather than --onefile: this app
+# Produces a --onedir build (dist/p4lottery/) rather than --onefile: this app
 # bundles duckdb, matplotlib, PySide6, and optionally torch/sklearn/lightgbm/xgboost/
 # catboost, which onefile's extract-every-launch model handles badly (slow startup,
 # and some of those libraries' native extensions don't tolerate running from a temp
@@ -65,7 +65,7 @@ exe = EXE(
     a.scripts,
     [],
     exclude_binaries=True,
-    name="ProphetDashboard",
+    name="p4lottery",
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
@@ -86,5 +86,5 @@ coll = COLLECT(
     strip=False,
     upx=False,
     upx_exclude=[],
-    name="ProphetDashboard",
+    name="p4lottery",
 )

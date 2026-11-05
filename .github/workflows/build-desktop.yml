@@ -1,18 +1,27 @@
-name: Build Desktop App
+name: Build and Release Desktop App
 
-# Builds the PySide6 desktop app ("Prophet Dashboard") as a native app on
-# Windows, macOS, and Linux via PyInstaller (packaging/lottery-desktop.spec).
-# There's no cross-compilation — each OS's artifact comes from running the
-# build on that OS, which is what the matrix below does.
+# Builds the PySide6 desktop app ("Prophet Dashboard") as a native standalone app on
+# Windows, macOS, and Linux via PyInstaller (packaging/lottery-desktop.spec), as well
+# as the Python universal wheel/sdist packages.
 #
-# Manual runs (workflow_dispatch) just upload build artifacts for download.
-# Pushing a `v*` tag additionally attaches all three to a GitHub Release.
+# Manual runs (workflow_dispatch) allow building and optionally publishing a release
+# by passing a tag name.
+# Pushing a `v*` tag automatically creates the GitHub Release and attaches all binaries
+# and packages so end-users can download and run without cloning source code.
 
 on:
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      tag_name:
+        description: 'Tag name for release (e.g. v11.13.0). Leave blank to only generate build artifacts without creating a release.'
+        required: false
+        default: ''
   push:
     tags:
       - "v*"
+
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -21,11 +30,11 @@ jobs:
       matrix:
         include:
           - os: windows-latest
-            artifact-name: ProphetDashboard-windows
+            artifact-name: p4lottery-windows
           - os: macos-latest
-            artifact-name: ProphetDashboard-macos
+            artifact-name: p4lottery-macos
           - os: ubuntu-latest
-            artifact-name: ProphetDashboard-linux
+            artifact-name: p4lottery-linux
 
     runs-on: ${{ matrix.os }}
 
@@ -58,9 +67,9 @@ jobs:
         shell: bash
         run: |
           if [ "${{ matrix.os }}" = "macos-latest" ]; then
-            ./dist/ProphetDashboard/ProphetDashboard.app/Contents/MacOS/ProphetDashboard &
+            ./dist/p4lottery/p4lottery.app/Contents/MacOS/p4lottery &
           else
-            ./dist/ProphetDashboard/ProphetDashboard &
+            ./dist/p4lottery/p4lottery &
           fi
           PID=$!
           sleep 8
@@ -76,9 +85,9 @@ jobs:
         run: |
           cd dist
           if [ "${{ matrix.os }}" = "windows-latest" ]; then
-            7z a -tzip "../${{ matrix.artifact-name }}.zip" ProphetDashboard
+            7z a -tzip "../${{ matrix.artifact-name }}.zip" p4lottery
           else
-            zip -r "../${{ matrix.artifact-name }}.zip" ProphetDashboard
+            zip -r "../${{ matrix.artifact-name }}.zip" p4lottery
           fi
 
       - uses: actions/upload-artifact@v4
@@ -87,10 +96,58 @@ jobs:
           path: ${{ matrix.artifact-name }}.zip
           retention-days: 30
 
-      - name: Attach to release
-        if: startsWith(github.ref, 'refs/tags/v')
+  release:
+    needs: build
+    if: startsWith(github.ref, 'refs/tags/v') || (github.event_name == 'workflow_dispatch' && github.event.inputs.tag_name != '')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build Python wheel and sdist
+        run: |
+          python -m pip install --upgrade pip build
+          python -m build
+
+      - name: Download all desktop build artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: release-artifacts
+
+      - name: Prepare release assets
+        shell: bash
+        run: |
+          mkdir -p final-assets
+          cp release-artifacts/*/*.zip final-assets/ 2>/dev/null || true
+          cp dist/*.whl dist/*.tar.gz final-assets/ 2>/dev/null || true
+          echo "Assets ready for release:"
+          ls -la final-assets/
+
+      - name: Publish GitHub Release
         env:
           GH_TOKEN: ${{ github.token }}
+        shell: bash
         run: |
-          gh release upload "${{ github.ref_name }}" "${{ matrix.artifact-name }}.zip" \
-            --repo "${{ github.repository }}" --clobber
+          TAG="${{ github.ref_name }}"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ -n "${{ github.event.inputs.tag_name }}" ]; then
+            TAG="${{ github.event.inputs.tag_name }}"
+          fi
+
+          echo "Publishing release for tag: $TAG"
+
+          if gh release view "$TAG" --repo "${{ github.repository }}" >/dev/null 2>&1; then
+            echo "Release $TAG exists. Uploading assets..."
+            gh release upload "$TAG" final-assets/* --repo "${{ github.repository }}" --clobber
+          else
+            echo "Creating release $TAG..."
+            gh release create "$TAG" final-assets/* \
+              --repo "${{ github.repository }}" \
+              --title "Release $TAG" \
+              --generate-notes
+          fi
