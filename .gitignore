@@ -241,6 +241,10 @@ data/model_cache/
 
 # --- Lottery Engine Specific ---
 data/lottery.db
+*.duckdb
+*.duckdb.wal
+data/*.duckdb
+data/*.duckdb.wal
 data/*.jsonl
 data/inspections/
 data/cache/
