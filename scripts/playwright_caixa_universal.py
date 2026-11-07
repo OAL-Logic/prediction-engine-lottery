@@ -584,7 +584,10 @@ def executar_automacao(pacote_jogos: List[Dict[str, Any]], user_data_dir: str = 
 
         print("\n🙏 Pressione ENTER quando desejar encerrar a sessão do navegador...")
         input()
-        context.close()
+        try:
+            context.close()
+        except Exception:
+            pass
 
 def aplicar_teto_orcamento(pacote: List[Dict[str, Any]], max_budget: float) -> List[Dict[str, Any]]:
     custos_unitarios = {

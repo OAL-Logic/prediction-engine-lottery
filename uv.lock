@@ -1823,7 +1823,7 @@ wheels = [
 
 [[package]]
 name = "lottery-engine"
-version = "11.13.0"
+version = "0.0.1"
 source = { editable = "." }
 dependencies = [
     { name = "astropy" },

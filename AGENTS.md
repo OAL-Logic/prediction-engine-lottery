@@ -51,4 +51,12 @@ Single-context — one `CONTEXT.md` + `docs/adr/` at the repo root. See `docs/ag
 3. **Targeted Scripts vs. CLI Engine**: If you need to evaluate or automate something very specific that is not part of the core CLI engine (e.g., repository guardrails, browser dispatchers, one-off benchmarks), create an isolated script under `scripts/` (or `.scratch/` for ephemeral experiments) rather than creating a competing CLI.
 4. **Skills Orchestrate `p4lottery`**: Agent workflows and multi-step pipelines (such as `.agents/skills/lottery-omni-generator/SKILL.md`, `lottery-suggest`, `lottery-wheel`, `lottery-backtest`, `lottery-analyze`, `lottery-scan`) must be implemented as Agent Skills under `.agents/skills/` that invoke and interact with `./p4lottery` (`lottery`). See `docs/agents/cli-policy.md` and `.agents/rules/cli-policy.md`.
 
+### Browser Dispatch & Playwright Automation Policy
+
+**STRICT RULE — ASSISTED BROWSER DISPATCH FOR CAIXA LOTERIAS**:
+1. **Canonical Caixa Browser Dispatcher**: When requested to automate, dispatch, or inject generated bets via browser/Playwright for Caixa Loterias games (`br/*` in registry, e.g. `br/mega-sena`, `br/lotofacil`, `br/quina`, etc.), use the dedicated assisted script `scripts/playwright_caixa_universal.py` (e.g., passing `--file <path_to_bets.json>` or dynamic presets).
+2. **Human-in-the-Loop Architecture (Assisted, Never Autonomous)**: The script runs interactively with a visible browser (`headless=False`) and persistent session (`.browser_session/`). It pauses for the user to authenticate (CPF/password) and confirm payment. It does NOT bypass credentials, solve CAPTCHAs, or execute financial transactions autonomously; it merely automates mechanical number-filling on the bet slip.
+3. **Jurisdiction Scoping**: `scripts/playwright_caixa_universal.py` is specifically built for Caixa Econômica Federal (Brazil). Do not attempt to use it for non-Brazilian jurisdictions (`us/*`, `eu/*`); other lotteries must rely on manual mark sheets or jurisdiction-specific dispatchers if available. See `docs/agents/browser-dispatch.md` and `.agents/rules/browser-dispatch.md`.
+
+
 
