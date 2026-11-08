@@ -12,10 +12,12 @@ import hashlib
 import os
 import secrets
 import time
-from typing import Any, Callable, Dict, List, Optional
+import json
+from typing import Any, Callable, Dict, Iterable, List, Optional
 
 from engine.swarm.agent import ExpertAgent
 from engine.swarm.channel import PQCChannel, PQCChannelError, SealedEnvelope
+from engine.swarm.manifold import RiemannianState
 
 MAX_AGENTS = 1000  # NFR5
 
@@ -72,6 +74,7 @@ class SwarmCluster:
         self._last_samples = 0
         self._last_duration = 0.0
         self._last_failed = 0
+        self._manifold = RiemannianState()
 
     # ---- lifecycle -------------------------------------------------
     @staticmethod
@@ -178,6 +181,21 @@ class SwarmCluster:
             except Exception as exc:
                 out.append(exc)
         return out
+
+    # ---- collaborative evolution ------------------------------------
+    @property
+    def manifold(self) -> RiemannianState:
+        return self._manifold
+
+    def evolve(self, signals: Iterable[Any]) -> Dict[str, Any]:
+        """Evolve the shared Riemannian state; pulse MANIFOLD_STATE if it moved."""
+        result = self._manifold.evolve(list(signals))
+        if result["applied"] > 0:
+            try:
+                _pulse("MANIFOLD_STATE " + json.dumps(self._manifold.snapshot()), "INFO")
+            except Exception:
+                pass
+        return result
 
     def open(self, envelope: SealedEnvelope) -> Dict[str, Any]:
         """Open a sealed trajectory with the session channel (raises PQCChannelError)."""

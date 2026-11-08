@@ -9,6 +9,7 @@ import {
   Animated
 } from 'react-native';
 import { useResonanceStore, TelemetryMessage } from '../stores/useResonanceStore';
+import { applyManifoldMessage } from '../utils/manifold-telemetry';
 
 interface TelemetryWaterfallProps {
   gatewayUrl?: string;
@@ -99,6 +100,7 @@ export function TelemetryWaterfall({ gatewayUrl = 'http://localhost:8080' }: Tel
           if (!isMounted) return;
           try {
             const data = JSON.parse(event.data);
+            applyManifoldMessage(data?.message, useResonanceStore.getState().setManifoldState);
             if (data.message) {
               addTelemetryLog(data as TelemetryMessage);
             }

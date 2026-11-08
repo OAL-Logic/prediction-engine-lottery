@@ -45,6 +45,7 @@ export interface MuonStrikeDetails {
 
 interface ResonanceState extends EsotericMetadata {
   weights: SwarmWeights;
+  manifoldEpoch: number;
   activeGame: string;
   isResonating: boolean;
   particleCount: number;
@@ -54,6 +55,7 @@ interface ResonanceState extends EsotericMetadata {
   lastMuonStrike: MuonStrikeDetails | null;
   muonStrikeCount: number;
   setWeights: (weights: Partial<SwarmWeights>) => void;
+  setManifoldState: (weights: SwarmWeights, epoch: number) => void;
   setActiveGame: (game: string) => void;
   setIsResonating: (isResonating: boolean) => void;
   setParticleCount: (count: number) => void;
@@ -75,6 +77,7 @@ export const useResonanceStore = create<ResonanceState>((set) => ({
     cosmic: 0.25,
     ml: 0.25,
   },
+  manifoldEpoch: 0,
   activeGame: 'br/mega-sena',
   isResonating: true,
   particleCount: 100000, // 100k+ nodes standard
@@ -97,6 +100,8 @@ export const useResonanceStore = create<ResonanceState>((set) => ({
     set((state) => ({
       weights: { ...state.weights, ...newWeights },
     })),
+  setManifoldState: (weights, epoch) =>
+    set((state) => ({ weights: { ...state.weights, ...weights }, manifoldEpoch: epoch })),
   setActiveGame: (game) => set({ activeGame: game }),
   setIsResonating: (isResonating) => set({ isResonating }),
   setParticleCount: (particleCount) => set({ particleCount }),
