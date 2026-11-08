@@ -16,6 +16,7 @@ import json
 from typing import Any, Callable, Dict, Iterable, List, Optional
 
 from engine.swarm.agent import ExpertAgent
+from engine.swarm.hibernation import HibernationMonitor
 from engine.swarm.channel import PQCChannel, PQCChannelError, SealedEnvelope
 from engine.swarm.manifold import RiemannianState
 
@@ -55,6 +56,7 @@ class SwarmCluster:
         channel: Optional[PQCChannel] = None,
         sidecar_factory: Optional[Callable[[], Any]] = None,
         agent_cls: type = ExpertAgent,
+        hibernation: Optional[HibernationMonitor] = None,
     ):
         if use_ray is None:
             use_ray = os.environ.get("SWARM_DISABLE_RAY", "") not in ("1", "true", "True")
@@ -68,6 +70,8 @@ class SwarmCluster:
         self._sidecar_factory = sidecar_factory
         self._agent_cls = agent_cls
         self._agents: List[Any] = []  # local agents or Ray actor handles
+        self._agent_ids: List[int] = []  # parallel to _agents
+        self._hibernation = hibernation if hibernation is not None else HibernationMonitor()
         self._next_id = 0
         self._round = 0
         self._started = False
@@ -120,9 +124,13 @@ class SwarmCluster:
     async def scale_to(self, n: int) -> None:
         self._check(n)
         while len(self._agents) < n:
-            self._agents.append(self._spawn())
+            agent_id = self._next_id
+            agent = self._spawn()  # may raise; keep both lists aligned
+            self._agents.append(agent)
+            self._agent_ids.append(agent_id)
         while len(self._agents) > n:
             victim = self._agents.pop()
+            self._agent_ids.pop()
             if self._ray is not None:
                 try:
                     self._ray.kill(victim)
@@ -145,16 +153,24 @@ class SwarmCluster:
         _pulse("Swarm shut down", "INFO")
 
     # ---- rounds ----------------------------------------------------
+    def _active_agents(self) -> List[Any]:
+        return [
+            a
+            for a, i in zip(self._agents, self._agent_ids)
+            if not self._hibernation.is_hibernated(i)
+        ]
+
     async def run_round(self) -> List[SealedEnvelope]:
         self._round += 1
         round_id = self._round
         start = time.perf_counter()
+        active = self._active_agents()
         if self._ray is not None:
             loop = asyncio.get_running_loop()
-            raw = await loop.run_in_executor(None, self._ray_collect, round_id)
+            raw = await loop.run_in_executor(None, self._ray_collect, round_id, active)
         else:
             raw = await asyncio.gather(
-                *(a.run_round(round_id) for a in self._agents), return_exceptions=True
+                *(a.run_round(round_id) for a in active), return_exceptions=True
             )
         envelopes: List[SealedEnvelope] = []
         failed = 0
@@ -172,8 +188,8 @@ class SwarmCluster:
         )
         return envelopes
 
-    def _ray_collect(self, round_id: int) -> List[Any]:
-        refs = [a.run_round.remote(round_id) for a in list(self._agents)]
+    def _ray_collect(self, round_id: int, agents: List[Any]) -> List[Any]:
+        refs = [a.run_round.remote(round_id) for a in agents]
         out: List[Any] = []
         for ref in refs:
             try:
@@ -197,6 +213,17 @@ class SwarmCluster:
                 pass
         return result
 
+    @property
+    def hibernation(self) -> HibernationMonitor:
+        return self._hibernation
+
+    def record_lifts(self, signals: Iterable[Any]) -> List[Any]:
+        """Feed lift observations (by RewardSignal.agent_id); pulse new hibernations."""
+        newly = self._hibernation.record_signals(list(signals))
+        for agent_id in newly:
+            _pulse(f"Agent {agent_id} hibernated: low lift over audit window", "WARN")
+        return newly
+
     def open(self, envelope: SealedEnvelope) -> Dict[str, Any]:
         """Open a sealed trajectory with the session channel (raises PQCChannelError)."""
         return self._channel.open(envelope)
@@ -214,9 +241,13 @@ class SwarmCluster:
             if self._last_duration > 0 and self._last_samples
             else 0.0
         )
+        hibernated = sum(
+            1 for i in self._agent_ids if self._hibernation.is_hibernated(i)
+        )
         snapshot = {
             "backend": self.backend,
-            "active_agents": len(self._agents),
+            "active_agents": len(self._agents) - hibernated,
+            "hibernated_agents": hibernated,
             "worker_memory_mb": round(memory_mb, 1),
             "samples_per_sec": round(throughput, 1),
             "rounds": self._round,

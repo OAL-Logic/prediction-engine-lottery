@@ -37,3 +37,19 @@ source_spec: `spec-3-3-the-swarm-equalizer-weighting-ui.md`
 severity: low
 reason: Pre-existing: the store imported zustand before this story. Declaring/installing it is a dependency change outside this spec.
 status: open
+
+### DW-6: No producer calls SwarmCluster.record_lifts, so no agent accumulates a 50-draw window in the running engine.
+origin: spec-deferred 3dd9189826ca
+location: engine/swarm/cluster.py record_lifts
+source_spec: `spec-3-4-automated-agent-hibernation.md`
+severity: medium
+reason: Nothing in engine/ builds per-agent RewardSignals from out-of-sample draws; same gap as the 3.2 reward producer and DW-3. Hibernation is implemented and tested with synthetic signals only.
+status: open
+
+### DW-7: The default hibernation ledger is a plain JSONL file (data/forensic_ledger.jsonl); Story 4.1's Forensic Ledger does not exist yet.
+origin: spec-deferred c5c7df675b04
+location: engine/swarm/hibernation.py JsonlLedger
+source_spec: `spec-3-4-automated-agent-hibernation.md`
+severity: low
+reason: Story 4.1 should adopt or wrap JsonlLedger and its agent_hibernated event shape so hibernation events land in the real immutable ledger.
+status: open
