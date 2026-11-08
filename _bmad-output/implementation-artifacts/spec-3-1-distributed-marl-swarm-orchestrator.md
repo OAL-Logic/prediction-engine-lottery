@@ -2,8 +2,8 @@
 title: 'Story 3.1: Distributed MARL Swarm Orchestrator'
 type: 'feature'
 created: '2026-11-08'
-status: 'done'
-baseline_revision: '71de6ff66362401d63370a8d0b5159ee524aa772'
+status: ready-for-dev
+baseline_revision: 7d24857626b57243cc961abe62474c61072c7a3f
 review_loop_iteration: 0
 followup_review_recommended: false
 context:
@@ -105,18 +105,3 @@ deferred:
 - `.venv/bin/python -m pytest tests/test_swarm_cluster.py -q` -- expected: all pass
 - `.venv/bin/python -m pytest tests/test_cosmic_quantum.py tests/test_cli_commands_smoke.py -q` -- expected: no regressions
 
-## Auto Run Result
-
-Status: done
-
-**Summary:** Added `engine/swarm/` (PQC-signaled sealed channel, ExpertAgent with sidecar-to-local-simulator fallback, SwarmCluster with Ray/local backends capped at 1,000 agents, health snapshot) and a `swarm-health` CLI command.
-
-**Files:** `engine/swarm/{__init__,channel,agent,cluster}.py` (new), `engine/cli/commands/swarm_health.py` (new), `engine/cli/main.py` (command registration), `tests/test_swarm_cluster.py` (15 tests), `epic-3-context.md` (recompiled).
-
-**Review:** patches applied — 1 high, 2 medium, 4 low; deferred 2 (see frontmatter); the rest rejected with reasons in the triage log.
-
-**Follow-up review recommended:** false.
-
-**Verification:** `pytest tests/test_swarm_cluster.py` — 15 passed. `test_cosmic_quantum.py` has 2 failures from PennyLane not installed (file untouched by this story, not compared against a clean checkout). `test_cli_commands_smoke.py` hangs in `test_daily_export_md` on a network call; the implementer saw 63 passes with `-k "not daily"`. The suite's data-file side effects were reverted.
-
-**Residual risks:** real Ray was never run (fake module only); PQC is an AES-GCM/HKDF simulation, not ML-KEM; `swarm-health` probes a short-lived local cluster.

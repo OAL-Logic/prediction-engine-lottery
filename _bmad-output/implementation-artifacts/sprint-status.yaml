@@ -58,7 +58,7 @@ development_status:
   epic-2-retrospective: optional
 
   epic-3: in-progress
-  3-1-distributed-marl-swarm-orchestrator: ready-for-dev
+  3-1-distributed-marl-swarm-orchestrator: done
   3-2-collaborative-riemannian-evolution: backlog
   3-3-the-swarm-equalizer-weighting-ui: backlog
   3-4-automated-agent-hibernation: backlog
