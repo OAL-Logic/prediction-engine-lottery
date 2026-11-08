@@ -15,6 +15,7 @@ import { Canvas } from '@react-three/fiber';
 import { SpatialRetina } from './components/SpatialRetina';
 import { TelemetryWaterfall } from './components/TelemetryWaterfall';
 import { DailyRitual } from './components/DailyRitual';
+import { SwarmEqualizer } from './components/SwarmEqualizer';
 import { generateIntentionalHash } from './utils/sovereign-hash';
 import { useResonanceStore } from './stores/useResonanceStore';
 
@@ -29,8 +30,6 @@ interface Game {
 
 export default function App() {
   const { 
-    weights, 
-    setWeights, 
     isResonating, 
     setIsResonating, 
     particleCount, 
@@ -219,32 +218,7 @@ export default function App() {
               </TouchableOpacity>
             </View>
 
-            {(['frequency', 'deviation', 'cosmic', 'ml'] as const).map((key) => {
-              const currentVal = weights[key];
-              return (
-                <View key={key} style={styles.equalizerRow}>
-                  <Text style={styles.equalizerLabel}>
-                    {key.toUpperCase()}: {currentVal.toFixed(2)}
-                  </Text>
-                  <View style={styles.barContainer}>
-                    {Array.from({ length: 10 }).map((_, idx) => {
-                      const segmentValue = (idx + 1) / 10;
-                      const isActive = segmentValue <= currentVal;
-                      return (
-                        <TouchableOpacity
-                          key={idx}
-                          style={[
-                            styles.barSegment,
-                            isActive && styles.barSegmentActive,
-                          ]}
-                          onPress={() => setWeights({ [key]: segmentValue })}
-                        />
-                      );
-                    })}
-                  </View>
-                </View>
-              );
-            })}
+            <SwarmEqualizer />
 
             <View style={styles.swarmFooter}>
               <Text style={styles.swarmInfoText}>
@@ -592,39 +566,6 @@ const styles = StyleSheet.create({
     fontSize: 10,
     fontWeight: 'bold',
     letterSpacing: 1,
-  },
-  equalizerRow: {
-    marginBottom: 14,
-  },
-  equalizerLabel: {
-    color: '#8A2BE2',
-    fontSize: 11,
-    fontWeight: 'bold',
-    marginBottom: 6,
-    letterSpacing: 1.5,
-    fontFamily: 'monospace',
-  },
-  barContainer: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    gap: 4,
-  },
-  barSegment: {
-    flex: 1,
-    height: 14,
-    backgroundColor: '#1a1d24',
-    borderRadius: 3,
-    borderWidth: 1,
-    borderColor: '#2b2d35',
-  },
-  barSegmentActive: {
-    backgroundColor: '#00FF66',
-    borderColor: '#00FF66',
-    shadowColor: '#00FF66',
-    shadowOffset: { width: 0, height: 0 },
-    shadowOpacity: 0.8,
-    shadowRadius: 4,
-    elevation: 3,
   },
   swarmFooter: {
     marginTop: 8,

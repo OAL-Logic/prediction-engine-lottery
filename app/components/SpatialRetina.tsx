@@ -3,6 +3,7 @@ import { useFrame } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
 import * as THREE from 'three';
 import { useResonanceStore } from '../stores/useResonanceStore';
+import { RIPPLE_DURATION_S, rippleOrigin } from '../utils/equalizer';
 
 // Custom shaders for high-performance GPU-driven Riemannian Manifold morphing
 const ManifoldShader = {
@@ -19,6 +20,9 @@ const ManifoldShader = {
     uMuonStrikeTime: { value: 0.0 },
     uMuonStrikeOrigin: { value: new THREE.Vector3(0, 0, 0) },
     uMuonStrikeActive: { value: 0.0 },
+    uRippleTime: { value: 0.0 },
+    uRippleOrigin: { value: new THREE.Vector3(0, 0, 0) },
+    uRippleActive: { value: 0.0 },
   },
   vertexShader: `
     uniform float uTime;
@@ -93,6 +97,9 @@ const ManifoldShader = {
 
     uniform float uShowEsotericFilters;
     uniform float uIsArcano78Active;
+    uniform float uRippleTime;
+    uniform vec3 uRippleOrigin;
+    uniform float uRippleActive;
 
     void main() {
       // Forensic Neon palette styling: mix Matrix Green (#00FF66) with Astro Violet (#8A2BE2)
@@ -124,6 +131,17 @@ const ManifoldShader = {
         finalAlpha = mix(finalAlpha, 1.0, vShockwaveColorFactor);
       }
 
+      // Riemannian Ripple: colour-only wave (no displacement) expanding from the origin
+      if (uRippleActive > 0.5) {
+        float rDist = distance(vPosition, uRippleOrigin);
+        float rRadius = uRippleTime * 14.0;
+        float rBand = 2.5;
+        float rWave = max(0.0, 1.0 - abs(rDist - rRadius) / rBand) * exp(-uRippleTime * 1.2);
+        vec3 rippleColor = vec3(0.54, 0.17, 0.89) * 0.4 + vec3(0.0, 1.0, 0.4) * 0.6;
+        finalColor = mix(finalColor, rippleColor + vec3(0.3), clamp(rWave, 0.0, 1.0));
+        finalAlpha = mix(finalAlpha, 1.0, rWave);
+      }
+
       // Glowing circular point look
       gl_FragColor = vec4(finalColor, finalAlpha);
     }
@@ -145,6 +163,7 @@ export const SpatialRetina = () => {
   const negativeSequences = useResonanceStore((state) => state.negativeSequences);
   const currentArcano = useResonanceStore((state) => state.currentArcano);
   const lastMuonStrike = useResonanceStore((state) => state.lastMuonStrike);
+  const ripple = useResonanceStore((state) => state.ripple);
 
   // Favorable and warning constant sets for Node Index Mapping
   const FAVORABLE_ARCANOS = useMemo(() => new Set([32, 64, 65, 69, 70, 78]), []);
@@ -165,6 +184,11 @@ export const SpatialRetina = () => {
   const lastStrikeRef = useRef<string | null>(null);
   const strikeTimeRef = useRef<number>(0);
   const strikeOriginRef = useRef<THREE.Vector3>(new THREE.Vector3(0, 0, 0));
+
+  // Refs for the Riemannian Ripple (store-driven id, Retina-owned elapsed time)
+  const lastRippleIdRef = useRef<number>(0);
+  const rippleTimeRef = useRef<number>(0);
+  const rippleOriginRef = useRef<THREE.Vector3>(new THREE.Vector3(0, 0, 0));
 
   // 1. Fibonacci Sphere distribution for uniform node placement on the manifold
   const { geometry, phis, thetas } = useMemo(() => {
@@ -315,6 +339,22 @@ export const SpatialRetina = () => {
       }
     }
 
+    // 0b. Riemannian Ripple trigger / advance
+    if (ripple.id !== lastRippleIdRef.current) {
+      lastRippleIdRef.current = ripple.id;
+      if (ripple.key) {
+        const [ox, oy, oz] = rippleOrigin(ripple.key);
+        rippleOriginRef.current.set(ox, oy, oz);
+        rippleTimeRef.current = 0.001;
+      }
+    }
+    if (rippleTimeRef.current > 0.0) {
+      rippleTimeRef.current += state.delta;
+      if (rippleTimeRef.current > RIPPLE_DURATION_S) {
+        rippleTimeRef.current = 0.0;
+      }
+    }
+
     // 1. Sync shader uniforms
     if (materialRef.current) {
       materialRef.current.uniforms.uTime.value = t;
@@ -329,6 +369,9 @@ export const SpatialRetina = () => {
       materialRef.current.uniforms.uMuonStrikeTime.value = strikeTimeRef.current;
       materialRef.current.uniforms.uMuonStrikeOrigin.value.copy(strikeOriginRef.current);
       materialRef.current.uniforms.uMuonStrikeActive.value = strikeTimeRef.current > 0.0 ? 1.0 : 0.0;
+      materialRef.current.uniforms.uRippleTime.value = rippleTimeRef.current;
+      materialRef.current.uniforms.uRippleOrigin.value.copy(rippleOriginRef.current);
+      materialRef.current.uniforms.uRippleActive.value = rippleTimeRef.current > 0.0 ? 1.0 : 0.0;
     }
 
     // 2. Slow spin with keyboard-induced inertia

@@ -1,4 +1,10 @@
 import { create } from 'zustand';
+import {
+  rebalanceWeights,
+  scoreTickets,
+  type ConsensusTicket,
+  type WeightKey,
+} from '../utils/equalizer';
 
 export interface SwarmWeights {
   frequency: number;
@@ -43,6 +49,11 @@ export interface MuonStrikeDetails {
   timestamp: string;
 }
 
+export interface RippleState {
+  id: number;
+  key: WeightKey | null;
+}
+
 interface ResonanceState extends EsotericMetadata {
   weights: SwarmWeights;
   manifoldEpoch: number;
@@ -54,6 +65,11 @@ interface ResonanceState extends EsotericMetadata {
   isTelemetryPaused: boolean;
   lastMuonStrike: MuonStrikeDetails | null;
   muonStrikeCount: number;
+  consensusTickets: ConsensusTicket[];
+  ripple: RippleState;
+  lastRescoreMs: number;
+  setConsensusTickets: (tickets: ConsensusTicket[]) => void;
+  setEqualizerWeight: (key: WeightKey, value: number) => void;
   setWeights: (weights: Partial<SwarmWeights>) => void;
   setManifoldState: (weights: SwarmWeights, epoch: number) => void;
   setActiveGame: (game: string) => void;
@@ -71,6 +87,9 @@ interface ResonanceState extends EsotericMetadata {
 }
 
 export const useResonanceStore = create<ResonanceState>((set) => ({
+  consensusTickets: [],
+  ripple: { id: 0, key: null },
+  lastRescoreMs: 0,
   weights: {
     frequency: 0.25,
     deviation: 0.25,
@@ -96,12 +115,46 @@ export const useResonanceStore = create<ResonanceState>((set) => ({
   isTelemetryPaused: false,
   lastMuonStrike: null,
   muonStrikeCount: 0,
+  setConsensusTickets: (tickets) =>
+    set((state) => {
+      const start = performance.now();
+      const consensusTickets = scoreTickets(tickets, state.weights);
+      return { consensusTickets, lastRescoreMs: performance.now() - start };
+    }),
+  setEqualizerWeight: (key, value) =>
+    set((state) => {
+      if (typeof value !== 'number' || Number.isNaN(value)) return {};
+      const weights = rebalanceWeights(state.weights, key, value);
+      if (weights === state.weights) return {};
+      const start = performance.now();
+      const consensusTickets = scoreTickets(state.consensusTickets, weights);
+      const lastRescoreMs = performance.now() - start;
+      return {
+        weights,
+        consensusTickets,
+        lastRescoreMs,
+        ripple: { id: state.ripple.id + 1, key },
+      };
+    }),
   setWeights: (newWeights) =>
-    set((state) => ({
-      weights: { ...state.weights, ...newWeights },
-    })),
+    set((state) => {
+      const weights = { ...state.weights, ...newWeights };
+      const start = performance.now();
+      const consensusTickets = scoreTickets(state.consensusTickets, weights);
+      return { weights, consensusTickets, lastRescoreMs: performance.now() - start };
+    }),
   setManifoldState: (weights, epoch) =>
-    set((state) => ({ weights: { ...state.weights, ...weights }, manifoldEpoch: epoch })),
+    set((state) => {
+      const merged = { ...state.weights, ...weights };
+      const start = performance.now();
+      const consensusTickets = scoreTickets(state.consensusTickets, merged);
+      return {
+        weights: merged,
+        manifoldEpoch: epoch,
+        consensusTickets,
+        lastRescoreMs: performance.now() - start,
+      };
+    }),
   setActiveGame: (game) => set({ activeGame: game }),
   setIsResonating: (isResonating) => set({ isResonating }),
   setParticleCount: (particleCount) => set({ particleCount }),
