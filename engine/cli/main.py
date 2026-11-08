@@ -1894,6 +1894,15 @@ def data_status(
     from engine.cli.commands.data_status import data_status as impl
     return impl(all_games)
 
+@app.command(name="swarm-health", rich_help_panel=PANEL_SYSTEM)
+def swarm_health(
+    agents: Annotated[int, typer.Option("--agents", "-n", help="Agents to spin up (max 1000)")] = 50,
+    rounds: Annotated[int, typer.Option("--rounds", help="Sampling rounds before reading health")] = 1,
+):
+    """🐝 Swarm cluster health — active agents, worker memory, sampling throughput."""
+    from engine.cli.commands.swarm_health import swarm_health as impl
+    return impl(agents, rounds)
+
 @app.command(name="config-check", rich_help_panel=PANEL_SYSTEM)
 def config_check():
     """🩺 Environment/setup health check — DuckDB, registry, optional ML/UI extras, local config."""
