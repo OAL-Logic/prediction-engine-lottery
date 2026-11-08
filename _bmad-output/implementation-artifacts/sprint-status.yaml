@@ -62,7 +62,7 @@ development_status:
   3-2-collaborative-riemannian-evolution: done
   3-3-the-swarm-equalizer-weighting-ui: done
   3-4-automated-agent-hibernation: done
-  3-5-algorithm-distillation-pipeline: backlog
+  3-5-algorithm-distillation-pipeline: done
   epic-3-retrospective: optional
 
   epic-4: backlog

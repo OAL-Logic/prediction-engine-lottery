@@ -53,3 +53,19 @@ source_spec: `spec-3-4-automated-agent-hibernation.md`
 severity: low
 reason: Story 4.1 should adopt or wrap JsonlLedger and its agent_hibernated event shape so hibernation events land in the real immutable ledger.
 status: open
+
+### DW-8: The default teacher path (teacher=None -> QuantumSidecar) and the real Amazon Braket QPU are never exercised.
+origin: spec-deferred 6bba4110f2a3
+location: engine/swarm/distillation.py _get_teacher
+source_spec: `spec-3-5-algorithm-distillation-pipeline.md`
+severity: medium
+reason: Every test injects a fake teacher. Here pennylane is not installed, so QuantumSidecar.distill_entropy raises and the pipeline would report DistillationError. A contract test with a stub mirroring the real return shape, and a run against a real Braket teacher, would settle it. (declared severity: medium (unverified))
+status: open
+
+### DW-9: The cached .npz carries no teacher provenance (source, fidelity, threshold, seed), and a fallback-sourced teacher is cached like a quantum one.
+origin: spec-deferred cbb3c12cddf3
+location: engine/swarm/distillation.py NumpyLSTMPolicy.save
+source_spec: `spec-3-5-algorithm-distillation-pipeline.md`
+severity: low
+reason: save() writes only shape and weights under a fixed default file name; a VAE-fallback (uniform) teacher can pass the gate and overwrite a quantum-distilled policy. Matters once a consumer loads the cache.
+status: open
