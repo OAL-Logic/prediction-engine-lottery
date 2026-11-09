@@ -66,7 +66,7 @@ development_status:
   epic-3-retrospective: optional
 
   epic-4: backlog
-  4-1-immutable-forensic-audit-ledger: backlog
+  4-1-immutable-forensic-audit-ledger: done
   4-2-4-2-forensic-replay-geodesic-ghosting: backlog
   4-3-swarm-based-kelly-optimizer: backlog
   4-4-intelligence-narrative-obsidian-export: backlog

@@ -69,3 +69,11 @@ source_spec: `spec-3-5-algorithm-distillation-pipeline.md`
 severity: low
 reason: save() writes only shape and weights under a fixed default file name; a VAE-fallback (uniform) teacher can pass the gate and overwrite a quantum-distilled policy. Matters once a consumer loads the cache.
 status: open
+
+### DW-10: Tail truncation or a fully re-sealed chain is not detectable by verify() alone, and nothing is wired to call capture() yet.
+origin: spec-deferred ef0bf9da4a1e
+location: engine/modules/ledger.py ForensicLedger.verify
+source_spec: `spec-4-1-immutable-forensic-audit-ledger.md`
+severity: medium
+reason: The hash chain is unkeyed SHA-256 on a local DuckDB file; deleting the last rows leaves a valid chain. Documented in the module docstring and pinned by a test. Needs an external anchor of latest().entry_hash (or an HMAC key), and a Capture call site in ticket generation. (declared severity: medium (design limit))
+status: open
