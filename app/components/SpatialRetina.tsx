@@ -4,6 +4,7 @@ import { OrbitControls } from '@react-three/drei';
 import * as THREE from 'three';
 import { useResonanceStore } from '../stores/useResonanceStore';
 import { RIPPLE_DURATION_S, rippleOrigin } from '../utils/equalizer';
+import { alphasFromProgress, ghostGeometry, stepFadeProgress } from '../utils/ghost';
 
 // Custom shaders for high-performance GPU-driven Riemannian Manifold morphing
 const ManifoldShader = {
@@ -14,6 +15,7 @@ const ManifoldShader = {
     uCosmic: { value: 0.25 },
     uMl: { value: 0.25 },
     uResonating: { value: 1.0 },
+    uFade: { value: 1.0 },
     uActiveArcano: { value: 0 },
     uIsArcano78Active: { value: 0.0 },
     uShowEsotericFilters: { value: 0.0 },
@@ -96,6 +98,7 @@ const ManifoldShader = {
     varying float vShockwaveColorFactor;
 
     uniform float uShowEsotericFilters;
+    uniform float uFade;
     uniform float uIsArcano78Active;
     uniform float uRippleTime;
     uniform vec3 uRippleOrigin;
@@ -143,7 +146,7 @@ const ManifoldShader = {
       }
 
       // Glowing circular point look
-      gl_FragColor = vec4(finalColor, finalAlpha);
+      gl_FragColor = vec4(finalColor, finalAlpha * uFade);
     }
   `
 };
@@ -164,6 +167,34 @@ export const SpatialRetina = () => {
   const currentArcano = useResonanceStore((state) => state.currentArcano);
   const lastMuonStrike = useResonanceStore((state) => state.lastMuonStrike);
   const ripple = useResonanceStore((state) => state.ripple);
+  const replay = useResonanceStore((state) => state.replay);
+  const replayActive = useResonanceStore((state) => state.replayActive);
+
+  // Forensic ghost: wireframe of the captured manifold shape (null if vector unusable)
+  const ghostPositions = useMemo(
+    () => (replay ? ghostGeometry(replay.state_vector) : null),
+    [replay]
+  );
+  const ghostGeom = useMemo(() => {
+    if (!ghostPositions) return null;
+    const g = new THREE.BufferGeometry();
+    g.setAttribute('position', new THREE.BufferAttribute(ghostPositions, 3));
+    return g;
+  }, [ghostPositions]);
+  const ghostMaterial = useMemo(
+    () =>
+      new THREE.LineBasicMaterial({
+        color: new THREE.Color('#00FF66'),
+        transparent: true,
+        opacity: 0,
+        depthWrite: false,
+      }),
+    []
+  );
+  useEffect(() => () => ghostGeom?.dispose(), [ghostGeom]);
+  useEffect(() => () => ghostMaterial.dispose(), [ghostMaterial]);
+  const ghostRef = useRef<THREE.LineSegments>(null);
+  const fadeProgressRef = useRef<number>(0);
 
   // Favorable and warning constant sets for Node Index Mapping
   const FAVORABLE_ARCANOS = useMemo(() => new Set([32, 64, 65, 69, 70, 78]), []);
@@ -355,8 +386,16 @@ export const SpatialRetina = () => {
       }
     }
 
+    // 0c. Forensic replay fade (time-based, clamped); no ghost to show -> stay on current
+    const showGhost = replayActive && !!ghostGeom;
+    fadeProgressRef.current = stepFadeProgress(fadeProgressRef.current, state.delta, showGhost);
+    const fade = alphasFromProgress(fadeProgressRef.current);
+    ghostMaterial.opacity = 0.55 * fade.ghost;
+    if (ghostRef.current) ghostRef.current.visible = fade.ghost > 0;
+
     // 1. Sync shader uniforms
     if (materialRef.current) {
+      materialRef.current.uniforms.uFade.value = fade.current;
       materialRef.current.uniforms.uTime.value = t;
       materialRef.current.uniforms.uFrequency.value = frequency;
       materialRef.current.uniforms.uDeviation.value = deviation;
@@ -443,6 +482,8 @@ export const SpatialRetina = () => {
         lineMaterial.color.setHex(0x8A2BE2); // Default Astro Violet
         lineMaterial.opacity = 0.65;
       }
+      // Current-state rings fade out with the manifold during forensic replay
+      lineMaterial.opacity *= fade.current;
     }
   });
 
@@ -465,6 +506,16 @@ export const SpatialRetina = () => {
       {ringGeometries.map((ring, idx) => (
         <lineLoop key={idx} geometry={ring.geom} material={lineMaterial} />
       ))}
+
+      {/* Forensic ghost: transparent wireframe of the original convergence point */}
+      {ghostGeom && (
+        <lineSegments
+          ref={ghostRef}
+          geometry={ghostGeom}
+          material={ghostMaterial}
+          visible={false}
+        />
+      )}
 
       {/* OrbitControls for elegant touch/mouse navigation */}
       <OrbitControls enableZoom={true} enablePan={true} enableRotate={true} />

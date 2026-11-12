@@ -5,6 +5,7 @@ import {
   type ConsensusTicket,
   type WeightKey,
 } from '../utils/equalizer';
+import { parseReplayPayload, type ReplayPayload } from '../utils/ghost';
 
 export interface SwarmWeights {
   frequency: number;
@@ -68,6 +69,15 @@ interface ResonanceState extends EsotericMetadata {
   consensusTickets: ConsensusTicket[];
   ripple: RippleState;
   lastRescoreMs: number;
+  /** Loaded forensic replay payload (Story 4.2), or null. */
+  replay: ReplayPayload | null;
+  /** True while the ghost is the target view (current manifold fading out). */
+  replayActive: boolean;
+  /** Validate and load a payload without starting; invalid input is ignored. */
+  loadReplay: (raw: unknown) => void;
+  /** Start replay; with a payload it is validated and loaded first, without it the loaded one is reused. */
+  startReplay: (raw?: unknown) => void;
+  stopReplay: () => void;
   setConsensusTickets: (tickets: ConsensusTicket[]) => void;
   setEqualizerWeight: (key: WeightKey, value: number) => void;
   setWeights: (weights: Partial<SwarmWeights>) => void;
@@ -90,6 +100,20 @@ export const useResonanceStore = create<ResonanceState>((set) => ({
   consensusTickets: [],
   ripple: { id: 0, key: null },
   lastRescoreMs: 0,
+  replay: null,
+  replayActive: false,
+  loadReplay: (raw) =>
+    set(() => {
+      const replay = parseReplayPayload(raw);
+      return replay ? { replay } : {};
+    }),
+  startReplay: (raw) =>
+    set((state) => {
+      const replay = raw === undefined ? state.replay : parseReplayPayload(raw);
+      if (!replay) return {};
+      return { replay, replayActive: true };
+    }),
+  stopReplay: () => set({ replayActive: false }),
   weights: {
     frequency: 0.25,
     deviation: 0.25,

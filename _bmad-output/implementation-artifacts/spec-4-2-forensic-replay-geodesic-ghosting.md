@@ -2,8 +2,8 @@
 title: 'Story 4.2: Forensic Replay & Geodesic Ghosting'
 type: 'feature'
 created: '2026-11-09'
-status: 'in-progress'
-baseline_revision: '0ac29febbdf580f82d9a64be9d1d0816beff2622'
+status: 'in-review'
+baseline_revision: '3fa3d7382a5220ff859771cb007bea8659d3cfb6'
 review_loop_iteration: 0
 followup_review_recommended: false
 context:

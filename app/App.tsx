@@ -39,7 +39,11 @@ export default function App() {
     clearEsotericMetadata,
     lastMuonStrike,
     triggerMuonStrike,
-    resetMuonStrike
+    resetMuonStrike,
+    replay,
+    replayActive,
+    startReplay,
+    stopReplay
   } = useResonanceStore();
   const [games, setGames] = useState<Game[]>([]);
   const [selectedGame, setSelectedGame] = useState<string>('br/mega-sena');
@@ -202,6 +206,15 @@ export default function App() {
                 <SpatialRetina />
               </Canvas>
             </View>
+            <TouchableOpacity
+              style={[styles.resonanceToggle, replayActive && styles.resonanceToggleActive, !replay && { opacity: 0.4 }]}
+              disabled={!replay}
+              onPress={() => (replayActive ? stopReplay() : startReplay())}
+            >
+              <Text style={styles.resonanceToggleText}>
+                {replayActive ? 'EXIT FORENSIC REPLAY' : 'FORENSIC REPLAY'}
+              </Text>
+            </TouchableOpacity>
           </View>
 
           {/* Swarm Equalizer Control Panel */}
