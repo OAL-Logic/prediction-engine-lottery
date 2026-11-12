@@ -18,6 +18,7 @@ import { DailyRitual } from './components/DailyRitual';
 import { SwarmEqualizer } from './components/SwarmEqualizer';
 import { generateIntentionalHash } from './utils/sovereign-hash';
 import { useResonanceStore } from './stores/useResonanceStore';
+import { confidenceLeverage } from './utils/kelly';
 
 const GATEWAY_URL = 'http://localhost:8080'; // Update this for real device testing
 const API_KEY = 'lottery-secret-key';
@@ -43,13 +44,22 @@ export default function App() {
     replay,
     replayActive,
     startReplay,
-    stopReplay
+    stopReplay,
+    vaultBalance,
+    setVaultBalance
   } = useResonanceStore();
+  const [balanceText, setBalanceText] = useState(String(vaultBalance));
   const [games, setGames] = useState<Game[]>([]);
   const [selectedGame, setSelectedGame] = useState<string>('br/mega-sena');
   const [loading, setLoading] = useState(false);
   const [mode, setMode] = useState<'nerd' | 'chaos'>('nerd');
   const [result, setResult] = useState<any>(null);
+  // Only size from the balance the field actually shows; invalid text must not fall back to a stale stored balance.
+  const typedBalance = balanceText.trim() === '' ? NaN : Number(balanceText);
+  const leverage =
+    result && Number.isFinite(typedBalance) && typedBalance >= 0
+      ? confidenceLeverage(result.confidence, typedBalance)
+      : null;
   const [error, setError] = useState<string | null>(null);
 
   // Intentional Seeding (Chaos Mode)
@@ -344,6 +354,34 @@ export default function App() {
                 {Object.entries(result.metadata).map(([k, v]: [string, any]) => (
                   <Text key={k} style={styles.metaText}>• {k}: {JSON.stringify(v)}</Text>
                 ))}
+              </View>
+
+              <Text style={styles.metaTitle}>CONFIDENCE LEVERAGE</Text>
+              <View style={styles.metaBox}>
+                <Text style={styles.metaText}>Vault balance</Text>
+                <TextInput
+                  style={styles.metaText}
+                  keyboardType="numeric"
+                  value={balanceText}
+                  onChangeText={(t) => {
+                    setBalanceText(t);
+                    const n = t.trim() === '' ? NaN : Number(t);
+                    setVaultBalance(n);
+                  }}
+                />
+                {leverage === null ? (
+                  <Text style={styles.metaText}>UNAVAILABLE (invalid confidence or balance)</Text>
+                ) : leverage.active ? (
+                  <>
+                    <Text style={styles.metaText}>Leverage: {(leverage.fraction * 100).toFixed(2)}% of vault</Text>
+                    <Text style={styles.metaText}>Stake: {leverage.stake.toFixed(2)}</Text>
+                  </>
+                ) : (
+                  <>
+                    <Text style={styles.metaText}>BELOW BASELINE</Text>
+                    <Text style={styles.metaText}>Leverage: 0.00% | Stake: 0.00</Text>
+                  </>
+                )}
               </View>
             </View>
           )}

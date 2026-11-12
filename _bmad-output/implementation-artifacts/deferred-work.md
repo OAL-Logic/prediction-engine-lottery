@@ -77,3 +77,19 @@ source_spec: `spec-4-1-immutable-forensic-audit-ledger.md`
 severity: medium
 reason: The hash chain is unkeyed SHA-256 on a local DuckDB file; deleting the last rows leaves a valid chain. Documented in the module docstring and pinned by a test. Needs an external anchor of latest().entry_hash (or an HMAC key), and a Capture call site in ticket generation. (declared severity: medium (design limit))
 status: open
+
+### DW-11: The Python sizer in engine/swarm/kelly.py is not consumed by any engine or API path; the dashboard uses the TS mirror.
+origin: spec-deferred b5a852da6724
+location: engine/swarm/kelly.py:1
+source_spec: `spec-4-3-swarm-based-kelly-optimizer.md`
+severity: medium
+reason: Exposing it to the app needs an API/gateway response change, excluded by the intent's Never section. TS and Python parity is pinned only by duplicated literals in two suites.
+status: open
+
+### DW-12: Confidence Leverage panel branches (UNAVAILABLE, active, BELOW BASELINE) have no render test.
+origin: spec-deferred 5e7b07afafe9
+location: app/App.tsx:358
+source_spec: `spec-4-3-swarm-based-kelly-optimizer.md`
+severity: low
+reason: No component test harness exists in the repo; the sizing logic is unit tested.
+status: open

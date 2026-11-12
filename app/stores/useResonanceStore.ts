@@ -78,6 +78,10 @@ interface ResonanceState extends EsotericMetadata {
   /** Start replay; with a payload it is validated and loaded first, without it the loaded one is reused. */
   startReplay: (raw?: unknown) => void;
   stopReplay: () => void;
+  /** User's vault balance used for Confidence Leverage sizing (Story 4.3). */
+  vaultBalance: number;
+  /** Ignores non-finite or negative values. */
+  setVaultBalance: (balance: number) => void;
   setConsensusTickets: (tickets: ConsensusTicket[]) => void;
   setEqualizerWeight: (key: WeightKey, value: number) => void;
   setWeights: (weights: Partial<SwarmWeights>) => void;
@@ -114,6 +118,13 @@ export const useResonanceStore = create<ResonanceState>((set) => ({
       return { replay, replayActive: true };
     }),
   stopReplay: () => set({ replayActive: false }),
+  vaultBalance: 1000,
+  setVaultBalance: (balance) =>
+    set(() =>
+      typeof balance === 'number' && Number.isFinite(balance) && balance >= 0
+        ? { vaultBalance: balance }
+        : {},
+    ),
   weights: {
     frequency: 0.25,
     deviation: 0.25,
