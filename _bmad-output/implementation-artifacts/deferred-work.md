@@ -93,3 +93,19 @@ source_spec: `spec-4-3-swarm-based-kelly-optimizer.md`
 severity: low
 reason: No component test harness exists in the repo; the sizing logic is unit tested.
 status: open
+
+### DW-13: The exported deep-link has no runtime consumer: nothing in the app handles an incoming lottery:// URL, calls parseEvidenceLink, or starts Forensic Replay.
+origin: spec-deferred e740bf1fb769
+location: app/utils/evidence-link.ts:1
+source_spec: `spec-4-4-intelligence-narrative-obsidian-export.md`
+severity: medium
+reason: The app has no engine-to-app replay transport (Story 4.2 added only the store's loadReplay/startReplay, which nothing feeds), so a link cannot resolve to a payload without a new API/gateway path. Obsidian opening a custom scheme also depends on the OS routing it to the installed app. Intent says the link must be "functional"; this delivers the format, parser, matcher and scheme registration only.
+status: open
+
+### DW-14: No user-facing "Export to Obsidian" trigger exists: export_to_obsidian is a Python function with no CLI command, API endpoint or UI control.
+origin: spec-deferred cc16f1605ee4
+location: engine/modules/obsidian_export.py:25
+source_spec: `spec-4-4-intelligence-narrative-obsidian-export.md`
+severity: medium
+reason: The spec's Never section excluded CLI/API/gateway edits, and no vault output path is configured, so out_dir is caller-supplied. Callers must also supply the v11 narrative text (NarrativeGenerator.generate_story_v11).
+status: open
