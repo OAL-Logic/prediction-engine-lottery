@@ -77,3 +77,19 @@ source_spec: `spec-4-1-immutable-forensic-audit-ledger.md`
 severity: medium
 reason: The hash chain is unkeyed SHA-256 on a local DuckDB file; deleting the last rows leaves a valid chain. Documented in the module docstring and pinned by a test. Needs an external anchor of latest().entry_hash (or an HMAC key), and a Capture call site in ticket generation. (declared severity: medium (design limit))
 status: open
+
+### DW-11: Nothing delivers a ledger replay payload to the app store, so the Forensic Replay button stays disabled at runtime.
+origin: spec-deferred 6cd0cdf19bda
+location: app/App.tsx:209
+source_spec: `spec-4-2-forensic-replay-geodesic-ghosting.md`
+severity: medium
+reason: loadReplay/startReplay(payload) have no caller outside tests; build_replay is not exposed to the app. Closing it needs an engine-to-app channel (gateway or MANIFOLD_STATE change) and capture() wiring, both excluded by the intent's Never section.
+status: open
+
+### DW-12: SpatialRetina fade and ghost wiring (uFade, ghost opacity, ring fade) is covered only by pure-helper tests.
+origin: spec-deferred 171e25c5cddc
+location: app/components/SpatialRetina.tsx:386
+source_spec: `spec-4-2-forensic-replay-geodesic-ghosting.md`
+severity: low
+reason: No R3F render test harness exists in the repo; the fade math is unit tested.
+status: open
